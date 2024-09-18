@@ -83,6 +83,8 @@ docfx build
 
 Please note that external libraries used by Prowl Engine, namely **DotCast** and **Veldrid**, are not mapped in this API documentation. The documentation focuses solely on the Prowl Engine's own API.
 
+Currently, the documentation is only in _English_.
+
 ## Contributing
 
 If you'd like to contribute to the documentation, please submit a pull request with your proposed changes.
