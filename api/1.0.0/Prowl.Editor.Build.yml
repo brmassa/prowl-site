@@ -1,0 +1,133 @@
+### YamlMime:ManagedReference
+items:
+- uid: Prowl.Editor.Build
+  commentId: N:Prowl.Editor.Build
+  id: Prowl.Editor.Build
+  children:
+  - Prowl.Editor.Build.Desktop_Player
+  - Prowl.Editor.Build.Desktop_Player.AssetPacking
+  - Prowl.Editor.Build.Desktop_Player.Configuration
+  - Prowl.Editor.Build.Desktop_Player.Target
+  - Prowl.Editor.Build.ProjectBuilder
+  langs:
+  - csharp
+  - vb
+  name: Prowl.Editor.Build
+  nameWithType: Prowl.Editor.Build
+  fullName: Prowl.Editor.Build
+  type: Namespace
+  assemblies:
+  - Prowl.Editor
+references:
+- uid: Prowl.Editor.Build.Desktop_Player
+  commentId: T:Prowl.Editor.Build.Desktop_Player
+  href: Prowl.Editor.Build.Desktop_Player.html
+  name: Desktop_Player
+  nameWithType: Desktop_Player
+  fullName: Prowl.Editor.Build.Desktop_Player
+- uid: Prowl.Editor.Build.Desktop_Player.Target
+  commentId: T:Prowl.Editor.Build.Desktop_Player.Target
+  parent: Prowl.Editor.Build
+  href: Prowl.Editor.Build.Desktop_Player.html
+  name: Desktop_Player.Target
+  nameWithType: Desktop_Player.Target
+  fullName: Prowl.Editor.Build.Desktop_Player.Target
+  spec.csharp:
+  - uid: Prowl.Editor.Build.Desktop_Player
+    name: Desktop_Player
+    href: Prowl.Editor.Build.Desktop_Player.html
+  - name: .
+  - uid: Prowl.Editor.Build.Desktop_Player.Target
+    name: Target
+    href: Prowl.Editor.Build.Desktop_Player.Target.html
+  spec.vb:
+  - uid: Prowl.Editor.Build.Desktop_Player
+    name: Desktop_Player
+    href: Prowl.Editor.Build.Desktop_Player.html
+  - name: .
+  - uid: Prowl.Editor.Build.Desktop_Player.Target
+    name: Target
+    href: Prowl.Editor.Build.Desktop_Player.Target.html
+- uid: Prowl.Editor.Build.Desktop_Player.Configuration
+  commentId: T:Prowl.Editor.Build.Desktop_Player.Configuration
+  parent: Prowl.Editor.Build
+  href: Prowl.Editor.Build.Desktop_Player.html
+  name: Desktop_Player.Configuration
+  nameWithType: Desktop_Player.Configuration
+  fullName: Prowl.Editor.Build.Desktop_Player.Configuration
+  spec.csharp:
+  - uid: Prowl.Editor.Build.Desktop_Player
+    name: Desktop_Player
+    href: Prowl.Editor.Build.Desktop_Player.html
+  - name: .
+  - uid: Prowl.Editor.Build.Desktop_Player.Configuration
+    name: Configuration
+    href: Prowl.Editor.Build.Desktop_Player.Configuration.html
+  spec.vb:
+  - uid: Prowl.Editor.Build.Desktop_Player
+    name: Desktop_Player
+    href: Prowl.Editor.Build.Desktop_Player.html
+  - name: .
+  - uid: Prowl.Editor.Build.Desktop_Player.Configuration
+    name: Configuration
+    href: Prowl.Editor.Build.Desktop_Player.Configuration.html
+- uid: Prowl.Editor.Build.Desktop_Player.AssetPacking
+  commentId: T:Prowl.Editor.Build.Desktop_Player.AssetPacking
+  parent: Prowl.Editor.Build
+  href: Prowl.Editor.Build.Desktop_Player.html
+  name: Desktop_Player.AssetPacking
+  nameWithType: Desktop_Player.AssetPacking
+  fullName: Prowl.Editor.Build.Desktop_Player.AssetPacking
+  spec.csharp:
+  - uid: Prowl.Editor.Build.Desktop_Player
+    name: Desktop_Player
+    href: Prowl.Editor.Build.Desktop_Player.html
+  - name: .
+  - uid: Prowl.Editor.Build.Desktop_Player.AssetPacking
+    name: AssetPacking
+    href: Prowl.Editor.Build.Desktop_Player.AssetPacking.html
+  spec.vb:
+  - uid: Prowl.Editor.Build.Desktop_Player
+    name: Desktop_Player
+    href: Prowl.Editor.Build.Desktop_Player.html
+  - name: .
+  - uid: Prowl.Editor.Build.Desktop_Player.AssetPacking
+    name: AssetPacking
+    href: Prowl.Editor.Build.Desktop_Player.AssetPacking.html
+- uid: Prowl.Editor.Build.ProjectBuilder
+  commentId: T:Prowl.Editor.Build.ProjectBuilder
+  parent: Prowl.Editor.Build
+  href: Prowl.Editor.Build.ProjectBuilder.html
+  name: ProjectBuilder
+  nameWithType: ProjectBuilder
+  fullName: Prowl.Editor.Build.ProjectBuilder
+- uid: Prowl.Editor.Build
+  commentId: N:Prowl.Editor.Build
+  href: Prowl.html
+  name: Prowl.Editor.Build
+  nameWithType: Prowl.Editor.Build
+  fullName: Prowl.Editor.Build
+  spec.csharp:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Editor
+    name: Editor
+    href: Prowl.Editor.html
+  - name: .
+  - uid: Prowl.Editor.Build
+    name: Build
+    href: Prowl.Editor.Build.html
+  spec.vb:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Editor
+    name: Editor
+    href: Prowl.Editor.html
+  - name: .
+  - uid: Prowl.Editor.Build
+    name: Build
+    href: Prowl.Editor.Build.html

@@ -1,0 +1,559 @@
+### YamlMime:ManagedReference
+items:
+- uid: Prowl.Editor.Docking.DockPlacement
+  commentId: T:Prowl.Editor.Docking.DockPlacement
+  id: DockPlacement
+  parent: Prowl.Editor.Docking
+  children:
+  - Prowl.Editor.Docking.DockPlacement.Leaf
+  - Prowl.Editor.Docking.DockPlacement.PolygonVerts
+  - Prowl.Editor.Docking.DockPlacement.Zone
+  - Prowl.Editor.Docking.DockPlacement.op_Implicit(Prowl.Editor.Docking.DockPlacement)~System.Boolean
+  langs:
+  - csharp
+  - vb
+  name: DockPlacement
+  nameWithType: DockPlacement
+  fullName: Prowl.Editor.Docking.DockPlacement
+  type: Struct
+  source:
+    remote:
+      path: Prowl.Editor/Editor/Docking/DockNode.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: DockPlacement
+    path: ../Prowl/Prowl.Editor/Editor/Docking/DockNode.cs
+    startLine: 16
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor.Docking
+  syntax:
+    content: public struct DockPlacement
+    content.vb: Public Structure DockPlacement
+  inheritedMembers:
+  - System.ValueType.Equals(System.Object)
+  - System.ValueType.GetHashCode
+  - System.ValueType.ToString
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  extensionMethods:
+  - System.Object.Prowl.Runtime.RuntimeUtils.GetSerializableFields
+- uid: Prowl.Editor.Docking.DockPlacement.Leaf
+  commentId: F:Prowl.Editor.Docking.DockPlacement.Leaf
+  id: Leaf
+  parent: Prowl.Editor.Docking.DockPlacement
+  langs:
+  - csharp
+  - vb
+  name: Leaf
+  nameWithType: DockPlacement.Leaf
+  fullName: Prowl.Editor.Docking.DockPlacement.Leaf
+  type: Field
+  source:
+    remote:
+      path: Prowl.Editor/Editor/Docking/DockNode.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Leaf
+    path: ../Prowl/Prowl.Editor/Editor/Docking/DockNode.cs
+    startLine: 18
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor.Docking
+  syntax:
+    content: public DockNode Leaf
+    return:
+      type: Prowl.Editor.Docking.DockNode
+    content.vb: Public Leaf As DockNode
+- uid: Prowl.Editor.Docking.DockPlacement.Zone
+  commentId: F:Prowl.Editor.Docking.DockPlacement.Zone
+  id: Zone
+  parent: Prowl.Editor.Docking.DockPlacement
+  langs:
+  - csharp
+  - vb
+  name: Zone
+  nameWithType: DockPlacement.Zone
+  fullName: Prowl.Editor.Docking.DockPlacement.Zone
+  type: Field
+  source:
+    remote:
+      path: Prowl.Editor/Editor/Docking/DockNode.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Zone
+    path: ../Prowl/Prowl.Editor/Editor/Docking/DockNode.cs
+    startLine: 19
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor.Docking
+  syntax:
+    content: public DockZone Zone
+    return:
+      type: Prowl.Editor.Docking.DockZone
+    content.vb: Public Zone As DockZone
+- uid: Prowl.Editor.Docking.DockPlacement.PolygonVerts
+  commentId: F:Prowl.Editor.Docking.DockPlacement.PolygonVerts
+  id: PolygonVerts
+  parent: Prowl.Editor.Docking.DockPlacement
+  langs:
+  - csharp
+  - vb
+  name: PolygonVerts
+  nameWithType: DockPlacement.PolygonVerts
+  fullName: Prowl.Editor.Docking.DockPlacement.PolygonVerts
+  type: Field
+  source:
+    remote:
+      path: Prowl.Editor/Editor/Docking/DockNode.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: PolygonVerts
+    path: ../Prowl/Prowl.Editor/Editor/Docking/DockNode.cs
+    startLine: 20
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor.Docking
+  syntax:
+    content: public Vector2[] PolygonVerts
+    return:
+      type: Prowl.Runtime.Vector2[]
+    content.vb: Public PolygonVerts As Vector2()
+- uid: Prowl.Editor.Docking.DockPlacement.op_Implicit(Prowl.Editor.Docking.DockPlacement)~System.Boolean
+  commentId: M:Prowl.Editor.Docking.DockPlacement.op_Implicit(Prowl.Editor.Docking.DockPlacement)~System.Boolean
+  id: op_Implicit(Prowl.Editor.Docking.DockPlacement)~System.Boolean
+  parent: Prowl.Editor.Docking.DockPlacement
+  langs:
+  - csharp
+  - vb
+  name: implicit operator bool(DockPlacement)
+  nameWithType: DockPlacement.implicit operator bool(DockPlacement)
+  fullName: Prowl.Editor.Docking.DockPlacement.implicit operator bool(Prowl.Editor.Docking.DockPlacement)
+  type: Operator
+  source:
+    remote:
+      path: Prowl.Editor/Editor/Docking/DockNode.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: op_Implicit
+    path: ../Prowl/Prowl.Editor/Editor/Docking/DockNode.cs
+    startLine: 22
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor.Docking
+  syntax:
+    content: public static implicit operator bool(DockPlacement placement)
+    parameters:
+    - id: placement
+      type: Prowl.Editor.Docking.DockPlacement
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Widening Operator CType(placement As DockPlacement) As Boolean
+  overload: Prowl.Editor.Docking.DockPlacement.op_Implicit*
+  nameWithType.vb: DockPlacement.CType(DockPlacement)
+  fullName.vb: Prowl.Editor.Docking.DockPlacement.CType(Prowl.Editor.Docking.DockPlacement)
+  name.vb: CType(DockPlacement)
+references:
+- uid: Prowl.Editor.Docking
+  commentId: N:Prowl.Editor.Docking
+  href: Prowl.html
+  name: Prowl.Editor.Docking
+  nameWithType: Prowl.Editor.Docking
+  fullName: Prowl.Editor.Docking
+  spec.csharp:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Editor
+    name: Editor
+    href: Prowl.Editor.html
+  - name: .
+  - uid: Prowl.Editor.Docking
+    name: Docking
+    href: Prowl.Editor.Docking.html
+  spec.vb:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Editor
+    name: Editor
+    href: Prowl.Editor.html
+  - name: .
+  - uid: Prowl.Editor.Docking
+    name: Docking
+    href: Prowl.Editor.Docking.html
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  name: Equals(object)
+  nameWithType: ValueType.Equals(object)
+  fullName: System.ValueType.Equals(object)
+  nameWithType.vb: ValueType.Equals(Object)
+  fullName.vb: System.ValueType.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Prowl.Runtime.RuntimeUtils.GetSerializableFields
+  commentId: M:Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  parent: Prowl.Runtime.RuntimeUtils
+  definition: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  name: GetSerializableFields(object)
+  nameWithType: RuntimeUtils.GetSerializableFields(object)
+  fullName: Prowl.Runtime.RuntimeUtils.GetSerializableFields(object)
+  nameWithType.vb: RuntimeUtils.GetSerializableFields(Object)
+  fullName.vb: Prowl.Runtime.RuntimeUtils.GetSerializableFields(Object)
+  name.vb: GetSerializableFields(Object)
+  spec.csharp:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  commentId: M:Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  isExternal: true
+  href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  name: GetSerializableFields(object)
+  nameWithType: RuntimeUtils.GetSerializableFields(object)
+  fullName: Prowl.Runtime.RuntimeUtils.GetSerializableFields(object)
+  nameWithType.vb: RuntimeUtils.GetSerializableFields(Object)
+  fullName.vb: Prowl.Runtime.RuntimeUtils.GetSerializableFields(Object)
+  name.vb: GetSerializableFields(Object)
+  spec.csharp:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: Prowl.Runtime.RuntimeUtils
+  commentId: T:Prowl.Runtime.RuntimeUtils
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.RuntimeUtils.html
+  name: RuntimeUtils
+  nameWithType: RuntimeUtils
+  fullName: Prowl.Runtime.RuntimeUtils
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Prowl.Runtime
+  commentId: N:Prowl.Runtime
+  href: Prowl.html
+  name: Prowl.Runtime
+  nameWithType: Prowl.Runtime
+  fullName: Prowl.Runtime
+  spec.csharp:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+  spec.vb:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+- uid: Prowl.Editor.Docking.DockNode
+  commentId: T:Prowl.Editor.Docking.DockNode
+  parent: Prowl.Editor.Docking
+  href: Prowl.Editor.Docking.DockNode.html
+  name: DockNode
+  nameWithType: DockNode
+  fullName: Prowl.Editor.Docking.DockNode
+- uid: Prowl.Editor.Docking.DockZone
+  commentId: T:Prowl.Editor.Docking.DockZone
+  parent: Prowl.Editor.Docking
+  href: Prowl.Editor.Docking.DockZone.html
+  name: DockZone
+  nameWithType: DockZone
+  fullName: Prowl.Editor.Docking.DockZone
+- uid: Prowl.Runtime.Vector2[]
+  isExternal: true
+  href: Prowl.Runtime.Vector2.html
+  name: Vector2[]
+  nameWithType: Vector2[]
+  fullName: Prowl.Runtime.Vector2[]
+  nameWithType.vb: Vector2()
+  fullName.vb: Prowl.Runtime.Vector2()
+  name.vb: Vector2()
+  spec.csharp:
+  - uid: Prowl.Runtime.Vector2
+    name: Vector2
+    href: Prowl.Runtime.Vector2.html
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: Prowl.Runtime.Vector2
+    name: Vector2
+    href: Prowl.Runtime.Vector2.html
+  - name: (
+  - name: )
+- uid: Prowl.Editor.Docking.DockPlacement.op_Implicit*
+  commentId: Overload:Prowl.Editor.Docking.DockPlacement.op_Implicit
+  name: implicit operator
+  nameWithType: DockPlacement.implicit operator
+  fullName: Prowl.Editor.Docking.DockPlacement.implicit operator
+  nameWithType.vb: DockPlacement.CType
+  fullName.vb: Prowl.Editor.Docking.DockPlacement.CType
+  name.vb: CType
+  spec.csharp:
+  - name: implicit
+  - name: " "
+  - name: operator
+- uid: Prowl.Editor.Docking.DockPlacement
+  commentId: T:Prowl.Editor.Docking.DockPlacement
+  parent: Prowl.Editor.Docking
+  href: Prowl.Editor.Docking.DockPlacement.html
+  name: DockPlacement
+  nameWithType: DockPlacement
+  fullName: Prowl.Editor.Docking.DockPlacement
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean

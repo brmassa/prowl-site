@@ -1,0 +1,300 @@
+### YamlMime:ManagedReference
+items:
+- uid: Prowl.Runtime.HideFlags
+  commentId: T:Prowl.Runtime.HideFlags
+  id: HideFlags
+  parent: Prowl.Runtime
+  children:
+  - Prowl.Runtime.HideFlags.DontSave
+  - Prowl.Runtime.HideFlags.Hide
+  - Prowl.Runtime.HideFlags.HideAndDontSave
+  - Prowl.Runtime.HideFlags.NoGizmos
+  - Prowl.Runtime.HideFlags.None
+  - Prowl.Runtime.HideFlags.NotEditable
+  langs:
+  - csharp
+  - vb
+  name: HideFlags
+  nameWithType: HideFlags
+  fullName: Prowl.Runtime.HideFlags
+  type: Enum
+  source:
+    remote:
+      path: Prowl.Runtime/GameObject/HideFlags.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: HideFlags
+    path: ../Prowl/Prowl.Runtime/GameObject/HideFlags.cs
+    startLine: 7
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: >-
+      [Flags]
+
+      public enum HideFlags
+    content.vb: >-
+      <Flags>
+
+      Public Enum HideFlags
+  extensionMethods:
+  - System.Object.Prowl.Runtime.RuntimeUtils.GetSerializableFields
+  attributes:
+  - type: System.FlagsAttribute
+    ctor: System.FlagsAttribute.#ctor
+    arguments: []
+- uid: Prowl.Runtime.HideFlags.None
+  commentId: F:Prowl.Runtime.HideFlags.None
+  id: None
+  parent: Prowl.Runtime.HideFlags
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: HideFlags.None
+  fullName: Prowl.Runtime.HideFlags.None
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/GameObject/HideFlags.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: None
+    path: ../Prowl/Prowl.Runtime/GameObject/HideFlags.cs
+    startLine: 10
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: None = 0
+    return:
+      type: Prowl.Runtime.HideFlags
+- uid: Prowl.Runtime.HideFlags.Hide
+  commentId: F:Prowl.Runtime.HideFlags.Hide
+  id: Hide
+  parent: Prowl.Runtime.HideFlags
+  langs:
+  - csharp
+  - vb
+  name: Hide
+  nameWithType: HideFlags.Hide
+  fullName: Prowl.Runtime.HideFlags.Hide
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/GameObject/HideFlags.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Hide
+    path: ../Prowl/Prowl.Runtime/GameObject/HideFlags.cs
+    startLine: 11
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: Hide = 1
+    return:
+      type: Prowl.Runtime.HideFlags
+- uid: Prowl.Runtime.HideFlags.NotEditable
+  commentId: F:Prowl.Runtime.HideFlags.NotEditable
+  id: NotEditable
+  parent: Prowl.Runtime.HideFlags
+  langs:
+  - csharp
+  - vb
+  name: NotEditable
+  nameWithType: HideFlags.NotEditable
+  fullName: Prowl.Runtime.HideFlags.NotEditable
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/GameObject/HideFlags.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: NotEditable
+    path: ../Prowl/Prowl.Runtime/GameObject/HideFlags.cs
+    startLine: 12
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: NotEditable = 2
+    return:
+      type: Prowl.Runtime.HideFlags
+- uid: Prowl.Runtime.HideFlags.DontSave
+  commentId: F:Prowl.Runtime.HideFlags.DontSave
+  id: DontSave
+  parent: Prowl.Runtime.HideFlags
+  langs:
+  - csharp
+  - vb
+  name: DontSave
+  nameWithType: HideFlags.DontSave
+  fullName: Prowl.Runtime.HideFlags.DontSave
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/GameObject/HideFlags.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: DontSave
+    path: ../Prowl/Prowl.Runtime/GameObject/HideFlags.cs
+    startLine: 13
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: DontSave = 4
+    return:
+      type: Prowl.Runtime.HideFlags
+- uid: Prowl.Runtime.HideFlags.HideAndDontSave
+  commentId: F:Prowl.Runtime.HideFlags.HideAndDontSave
+  id: HideAndDontSave
+  parent: Prowl.Runtime.HideFlags
+  langs:
+  - csharp
+  - vb
+  name: HideAndDontSave
+  nameWithType: HideFlags.HideAndDontSave
+  fullName: Prowl.Runtime.HideFlags.HideAndDontSave
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/GameObject/HideFlags.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: HideAndDontSave
+    path: ../Prowl/Prowl.Runtime/GameObject/HideFlags.cs
+    startLine: 14
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: HideAndDontSave = 8
+    return:
+      type: Prowl.Runtime.HideFlags
+- uid: Prowl.Runtime.HideFlags.NoGizmos
+  commentId: F:Prowl.Runtime.HideFlags.NoGizmos
+  id: NoGizmos
+  parent: Prowl.Runtime.HideFlags
+  langs:
+  - csharp
+  - vb
+  name: NoGizmos
+  nameWithType: HideFlags.NoGizmos
+  fullName: Prowl.Runtime.HideFlags.NoGizmos
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/GameObject/HideFlags.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: NoGizmos
+    path: ../Prowl/Prowl.Runtime/GameObject/HideFlags.cs
+    startLine: 15
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: NoGizmos = 16
+    return:
+      type: Prowl.Runtime.HideFlags
+references:
+- uid: Prowl.Runtime
+  commentId: N:Prowl.Runtime
+  href: Prowl.html
+  name: Prowl.Runtime
+  nameWithType: Prowl.Runtime
+  fullName: Prowl.Runtime
+  spec.csharp:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+  spec.vb:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+- uid: System.Object.Prowl.Runtime.RuntimeUtils.GetSerializableFields
+  commentId: M:Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  parent: Prowl.Runtime.RuntimeUtils
+  definition: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  name: GetSerializableFields(object)
+  nameWithType: RuntimeUtils.GetSerializableFields(object)
+  fullName: Prowl.Runtime.RuntimeUtils.GetSerializableFields(object)
+  nameWithType.vb: RuntimeUtils.GetSerializableFields(Object)
+  fullName.vb: Prowl.Runtime.RuntimeUtils.GetSerializableFields(Object)
+  name.vb: GetSerializableFields(Object)
+  spec.csharp:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  commentId: M:Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  isExternal: true
+  href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  name: GetSerializableFields(object)
+  nameWithType: RuntimeUtils.GetSerializableFields(object)
+  fullName: Prowl.Runtime.RuntimeUtils.GetSerializableFields(object)
+  nameWithType.vb: RuntimeUtils.GetSerializableFields(Object)
+  fullName.vb: Prowl.Runtime.RuntimeUtils.GetSerializableFields(Object)
+  name.vb: GetSerializableFields(Object)
+  spec.csharp:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: Prowl.Runtime.RuntimeUtils
+  commentId: T:Prowl.Runtime.RuntimeUtils
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.RuntimeUtils.html
+  name: RuntimeUtils
+  nameWithType: RuntimeUtils
+  fullName: Prowl.Runtime.RuntimeUtils
+- uid: Prowl.Runtime.HideFlags
+  commentId: T:Prowl.Runtime.HideFlags
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.HideFlags.html
+  name: HideFlags
+  nameWithType: HideFlags
+  fullName: Prowl.Runtime.HideFlags

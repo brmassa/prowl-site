@@ -1,0 +1,515 @@
+### YamlMime:ManagedReference
+items:
+- uid: Prowl.Runtime.BinaryTagConverter
+  commentId: T:Prowl.Runtime.BinaryTagConverter
+  id: BinaryTagConverter
+  parent: Prowl.Runtime
+  children:
+  - Prowl.Runtime.BinaryTagConverter.ReadFrom(System.IO.BinaryReader)
+  - Prowl.Runtime.BinaryTagConverter.ReadFromFile(System.IO.FileInfo)
+  - Prowl.Runtime.BinaryTagConverter.WriteTo(Prowl.Runtime.SerializedProperty,System.IO.BinaryWriter)
+  - Prowl.Runtime.BinaryTagConverter.WriteToFile(Prowl.Runtime.SerializedProperty,System.IO.FileInfo)
+  langs:
+  - csharp
+  - vb
+  name: BinaryTagConverter
+  nameWithType: BinaryTagConverter
+  fullName: Prowl.Runtime.BinaryTagConverter
+  type: Class
+  source:
+    remote:
+      path: Prowl.Runtime/Serializer/Formats/BinaryTagConverter.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: BinaryTagConverter
+    path: ../Prowl/Prowl.Runtime/Serializer/Formats/BinaryTagConverter.cs
+    startLine: 14
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: >-
+    This class is responsible for converting CompoundTags to and from binary data.
+
+    Binary data is not human-readable, so bad for git, and doesn't work well with versioning, but it is much more compact than text data.
+
+    Works great for sending data over the network, or for standalone builds.
+  example: []
+  syntax:
+    content: public static class BinaryTagConverter
+    content.vb: Public Module BinaryTagConverter
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: Prowl.Runtime.BinaryTagConverter.WriteToFile(Prowl.Runtime.SerializedProperty,System.IO.FileInfo)
+  commentId: M:Prowl.Runtime.BinaryTagConverter.WriteToFile(Prowl.Runtime.SerializedProperty,System.IO.FileInfo)
+  id: WriteToFile(Prowl.Runtime.SerializedProperty,System.IO.FileInfo)
+  parent: Prowl.Runtime.BinaryTagConverter
+  langs:
+  - csharp
+  - vb
+  name: WriteToFile(SerializedProperty, FileInfo)
+  nameWithType: BinaryTagConverter.WriteToFile(SerializedProperty, FileInfo)
+  fullName: Prowl.Runtime.BinaryTagConverter.WriteToFile(Prowl.Runtime.SerializedProperty, System.IO.FileInfo)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Serializer/Formats/BinaryTagConverter.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: WriteToFile
+    path: ../Prowl/Prowl.Runtime/Serializer/Formats/BinaryTagConverter.cs
+    startLine: 18
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public static void WriteToFile(SerializedProperty tag, FileInfo file)
+    parameters:
+    - id: tag
+      type: Prowl.Runtime.SerializedProperty
+    - id: file
+      type: System.IO.FileInfo
+    content.vb: Public Shared Sub WriteToFile(tag As SerializedProperty, file As FileInfo)
+  overload: Prowl.Runtime.BinaryTagConverter.WriteToFile*
+- uid: Prowl.Runtime.BinaryTagConverter.WriteTo(Prowl.Runtime.SerializedProperty,System.IO.BinaryWriter)
+  commentId: M:Prowl.Runtime.BinaryTagConverter.WriteTo(Prowl.Runtime.SerializedProperty,System.IO.BinaryWriter)
+  id: WriteTo(Prowl.Runtime.SerializedProperty,System.IO.BinaryWriter)
+  parent: Prowl.Runtime.BinaryTagConverter
+  langs:
+  - csharp
+  - vb
+  name: WriteTo(SerializedProperty, BinaryWriter)
+  nameWithType: BinaryTagConverter.WriteTo(SerializedProperty, BinaryWriter)
+  fullName: Prowl.Runtime.BinaryTagConverter.WriteTo(Prowl.Runtime.SerializedProperty, System.IO.BinaryWriter)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Serializer/Formats/BinaryTagConverter.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: WriteTo
+    path: ../Prowl/Prowl.Runtime/Serializer/Formats/BinaryTagConverter.cs
+    startLine: 25
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public static void WriteTo(SerializedProperty tag, BinaryWriter writer)
+    parameters:
+    - id: tag
+      type: Prowl.Runtime.SerializedProperty
+    - id: writer
+      type: System.IO.BinaryWriter
+    content.vb: Public Shared Sub WriteTo(tag As SerializedProperty, writer As BinaryWriter)
+  overload: Prowl.Runtime.BinaryTagConverter.WriteTo*
+- uid: Prowl.Runtime.BinaryTagConverter.ReadFromFile(System.IO.FileInfo)
+  commentId: M:Prowl.Runtime.BinaryTagConverter.ReadFromFile(System.IO.FileInfo)
+  id: ReadFromFile(System.IO.FileInfo)
+  parent: Prowl.Runtime.BinaryTagConverter
+  langs:
+  - csharp
+  - vb
+  name: ReadFromFile(FileInfo)
+  nameWithType: BinaryTagConverter.ReadFromFile(FileInfo)
+  fullName: Prowl.Runtime.BinaryTagConverter.ReadFromFile(System.IO.FileInfo)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Serializer/Formats/BinaryTagConverter.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: ReadFromFile
+    path: ../Prowl/Prowl.Runtime/Serializer/Formats/BinaryTagConverter.cs
+    startLine: 75
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public static SerializedProperty ReadFromFile(FileInfo file)
+    parameters:
+    - id: file
+      type: System.IO.FileInfo
+    return:
+      type: Prowl.Runtime.SerializedProperty
+    content.vb: Public Shared Function ReadFromFile(file As FileInfo) As SerializedProperty
+  overload: Prowl.Runtime.BinaryTagConverter.ReadFromFile*
+- uid: Prowl.Runtime.BinaryTagConverter.ReadFrom(System.IO.BinaryReader)
+  commentId: M:Prowl.Runtime.BinaryTagConverter.ReadFrom(System.IO.BinaryReader)
+  id: ReadFrom(System.IO.BinaryReader)
+  parent: Prowl.Runtime.BinaryTagConverter
+  langs:
+  - csharp
+  - vb
+  name: ReadFrom(BinaryReader)
+  nameWithType: BinaryTagConverter.ReadFrom(BinaryReader)
+  fullName: Prowl.Runtime.BinaryTagConverter.ReadFrom(System.IO.BinaryReader)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Serializer/Formats/BinaryTagConverter.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: ReadFrom
+    path: ../Prowl/Prowl.Runtime/Serializer/Formats/BinaryTagConverter.cs
+    startLine: 82
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public static SerializedProperty ReadFrom(BinaryReader reader)
+    parameters:
+    - id: reader
+      type: System.IO.BinaryReader
+    return:
+      type: Prowl.Runtime.SerializedProperty
+    content.vb: Public Shared Function ReadFrom(reader As BinaryReader) As SerializedProperty
+  overload: Prowl.Runtime.BinaryTagConverter.ReadFrom*
+references:
+- uid: Prowl.Runtime
+  commentId: N:Prowl.Runtime
+  href: Prowl.html
+  name: Prowl.Runtime
+  nameWithType: Prowl.Runtime
+  fullName: Prowl.Runtime
+  spec.csharp:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+  spec.vb:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Prowl.Runtime.BinaryTagConverter.WriteToFile*
+  commentId: Overload:Prowl.Runtime.BinaryTagConverter.WriteToFile
+  href: Prowl.Runtime.BinaryTagConverter.html#Prowl_Runtime_BinaryTagConverter_WriteToFile_Prowl_Runtime_SerializedProperty_System_IO_FileInfo_
+  name: WriteToFile
+  nameWithType: BinaryTagConverter.WriteToFile
+  fullName: Prowl.Runtime.BinaryTagConverter.WriteToFile
+- uid: Prowl.Runtime.SerializedProperty
+  commentId: T:Prowl.Runtime.SerializedProperty
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.SerializedProperty.html
+  name: SerializedProperty
+  nameWithType: SerializedProperty
+  fullName: Prowl.Runtime.SerializedProperty
+- uid: System.IO.FileInfo
+  commentId: T:System.IO.FileInfo
+  parent: System.IO
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.io.fileinfo
+  name: FileInfo
+  nameWithType: FileInfo
+  fullName: System.IO.FileInfo
+- uid: System.IO
+  commentId: N:System.IO
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.IO
+  nameWithType: System.IO
+  fullName: System.IO
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.IO
+    name: IO
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.io
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.IO
+    name: IO
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.io
+- uid: Prowl.Runtime.BinaryTagConverter.WriteTo*
+  commentId: Overload:Prowl.Runtime.BinaryTagConverter.WriteTo
+  href: Prowl.Runtime.BinaryTagConverter.html#Prowl_Runtime_BinaryTagConverter_WriteTo_Prowl_Runtime_SerializedProperty_System_IO_BinaryWriter_
+  name: WriteTo
+  nameWithType: BinaryTagConverter.WriteTo
+  fullName: Prowl.Runtime.BinaryTagConverter.WriteTo
+- uid: System.IO.BinaryWriter
+  commentId: T:System.IO.BinaryWriter
+  parent: System.IO
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.io.binarywriter
+  name: BinaryWriter
+  nameWithType: BinaryWriter
+  fullName: System.IO.BinaryWriter
+- uid: Prowl.Runtime.BinaryTagConverter.ReadFromFile*
+  commentId: Overload:Prowl.Runtime.BinaryTagConverter.ReadFromFile
+  href: Prowl.Runtime.BinaryTagConverter.html#Prowl_Runtime_BinaryTagConverter_ReadFromFile_System_IO_FileInfo_
+  name: ReadFromFile
+  nameWithType: BinaryTagConverter.ReadFromFile
+  fullName: Prowl.Runtime.BinaryTagConverter.ReadFromFile
+- uid: Prowl.Runtime.BinaryTagConverter.ReadFrom*
+  commentId: Overload:Prowl.Runtime.BinaryTagConverter.ReadFrom
+  href: Prowl.Runtime.BinaryTagConverter.html#Prowl_Runtime_BinaryTagConverter_ReadFrom_System_IO_BinaryReader_
+  name: ReadFrom
+  nameWithType: BinaryTagConverter.ReadFrom
+  fullName: Prowl.Runtime.BinaryTagConverter.ReadFrom
+- uid: System.IO.BinaryReader
+  commentId: T:System.IO.BinaryReader
+  parent: System.IO
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.io.binaryreader
+  name: BinaryReader
+  nameWithType: BinaryReader
+  fullName: System.IO.BinaryReader

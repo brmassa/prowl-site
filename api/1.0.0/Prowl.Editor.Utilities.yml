@@ -1,0 +1,175 @@
+### YamlMime:ManagedReference
+items:
+- uid: Prowl.Editor.Utilities
+  commentId: N:Prowl.Editor.Utilities
+  id: Prowl.Editor.Utilities
+  children:
+  - Prowl.Editor.Utilities.CompilationMessage
+  - Prowl.Editor.Utilities.EditorUtils
+  - Prowl.Editor.Utilities.EntryPoint
+  - Prowl.Editor.Utilities.FileIncluder
+  - Prowl.Editor.Utilities.ParsedPass
+  - Prowl.Editor.Utilities.ReflectedResourceInfo
+  - Prowl.Editor.Utilities.ShaderCompiler
+  - Prowl.Editor.Utilities.ShaderCreationArgs
+  - Prowl.Editor.Utilities.ShaderParser
+  - Prowl.Editor.Utilities.ShaderParser.ShaderToken
+  - Prowl.Editor.Utilities.UniformReflector
+  - Prowl.Editor.Utilities.VertexInputReflector
+  - Prowl.Editor.Utilities.VertexInputReflector.SemanticFormatter
+  langs:
+  - csharp
+  - vb
+  name: Prowl.Editor.Utilities
+  nameWithType: Prowl.Editor.Utilities
+  fullName: Prowl.Editor.Utilities
+  type: Namespace
+  assemblies:
+  - Prowl.Editor
+references:
+- uid: Prowl.Editor.Utilities.EditorUtils
+  commentId: T:Prowl.Editor.Utilities.EditorUtils
+  href: Prowl.Editor.Utilities.EditorUtils.html
+  name: EditorUtils
+  nameWithType: EditorUtils
+  fullName: Prowl.Editor.Utilities.EditorUtils
+- uid: Prowl.Editor.Utilities.FileIncluder
+  commentId: T:Prowl.Editor.Utilities.FileIncluder
+  parent: Prowl.Editor.Utilities
+  href: Prowl.Editor.Utilities.FileIncluder.html
+  name: FileIncluder
+  nameWithType: FileIncluder
+  fullName: Prowl.Editor.Utilities.FileIncluder
+- uid: Prowl.Editor.Utilities.ShaderCreationArgs
+  commentId: T:Prowl.Editor.Utilities.ShaderCreationArgs
+  parent: Prowl.Editor.Utilities
+  href: Prowl.Editor.Utilities.ShaderCreationArgs.html
+  name: ShaderCreationArgs
+  nameWithType: ShaderCreationArgs
+  fullName: Prowl.Editor.Utilities.ShaderCreationArgs
+- uid: Prowl.Editor.Utilities.CompilationMessage
+  commentId: T:Prowl.Editor.Utilities.CompilationMessage
+  parent: Prowl.Editor.Utilities
+  href: Prowl.Editor.Utilities.CompilationMessage.html
+  name: CompilationMessage
+  nameWithType: CompilationMessage
+  fullName: Prowl.Editor.Utilities.CompilationMessage
+- uid: Prowl.Editor.Utilities.ShaderCompiler
+  commentId: T:Prowl.Editor.Utilities.ShaderCompiler
+  href: Prowl.Editor.Utilities.ShaderCompiler.html
+  name: ShaderCompiler
+  nameWithType: ShaderCompiler
+  fullName: Prowl.Editor.Utilities.ShaderCompiler
+- uid: Prowl.Editor.Utilities.ReflectedResourceInfo
+  commentId: T:Prowl.Editor.Utilities.ReflectedResourceInfo
+  parent: Prowl.Editor.Utilities
+  href: Prowl.Editor.Utilities.ReflectedResourceInfo.html
+  name: ReflectedResourceInfo
+  nameWithType: ReflectedResourceInfo
+  fullName: Prowl.Editor.Utilities.ReflectedResourceInfo
+- uid: Prowl.Editor.Utilities.ShaderParser
+  commentId: T:Prowl.Editor.Utilities.ShaderParser
+  href: Prowl.Editor.Utilities.ShaderParser.html
+  name: ShaderParser
+  nameWithType: ShaderParser
+  fullName: Prowl.Editor.Utilities.ShaderParser
+- uid: Prowl.Editor.Utilities.ShaderParser.ShaderToken
+  commentId: T:Prowl.Editor.Utilities.ShaderParser.ShaderToken
+  parent: Prowl.Editor.Utilities
+  href: Prowl.Editor.Utilities.ShaderParser.html
+  name: ShaderParser.ShaderToken
+  nameWithType: ShaderParser.ShaderToken
+  fullName: Prowl.Editor.Utilities.ShaderParser.ShaderToken
+  spec.csharp:
+  - uid: Prowl.Editor.Utilities.ShaderParser
+    name: ShaderParser
+    href: Prowl.Editor.Utilities.ShaderParser.html
+  - name: .
+  - uid: Prowl.Editor.Utilities.ShaderParser.ShaderToken
+    name: ShaderToken
+    href: Prowl.Editor.Utilities.ShaderParser.ShaderToken.html
+  spec.vb:
+  - uid: Prowl.Editor.Utilities.ShaderParser
+    name: ShaderParser
+    href: Prowl.Editor.Utilities.ShaderParser.html
+  - name: .
+  - uid: Prowl.Editor.Utilities.ShaderParser.ShaderToken
+    name: ShaderToken
+    href: Prowl.Editor.Utilities.ShaderParser.ShaderToken.html
+- uid: Prowl.Editor.Utilities.ParsedPass
+  commentId: T:Prowl.Editor.Utilities.ParsedPass
+  href: Prowl.Editor.Utilities.ParsedPass.html
+  name: ParsedPass
+  nameWithType: ParsedPass
+  fullName: Prowl.Editor.Utilities.ParsedPass
+- uid: Prowl.Editor.Utilities.EntryPoint
+  commentId: T:Prowl.Editor.Utilities.EntryPoint
+  href: Prowl.Editor.Utilities.EntryPoint.html
+  name: EntryPoint
+  nameWithType: EntryPoint
+  fullName: Prowl.Editor.Utilities.EntryPoint
+- uid: Prowl.Editor.Utilities.UniformReflector
+  commentId: T:Prowl.Editor.Utilities.UniformReflector
+  href: Prowl.Editor.Utilities.UniformReflector.html
+  name: UniformReflector
+  nameWithType: UniformReflector
+  fullName: Prowl.Editor.Utilities.UniformReflector
+- uid: Prowl.Editor.Utilities.VertexInputReflector
+  commentId: T:Prowl.Editor.Utilities.VertexInputReflector
+  href: Prowl.Editor.Utilities.VertexInputReflector.html
+  name: VertexInputReflector
+  nameWithType: VertexInputReflector
+  fullName: Prowl.Editor.Utilities.VertexInputReflector
+- uid: Prowl.Editor.Utilities.VertexInputReflector.SemanticFormatter
+  commentId: T:Prowl.Editor.Utilities.VertexInputReflector.SemanticFormatter
+  parent: Prowl.Editor.Utilities
+  href: Prowl.Editor.Utilities.VertexInputReflector.html
+  name: VertexInputReflector.SemanticFormatter
+  nameWithType: VertexInputReflector.SemanticFormatter
+  fullName: Prowl.Editor.Utilities.VertexInputReflector.SemanticFormatter
+  spec.csharp:
+  - uid: Prowl.Editor.Utilities.VertexInputReflector
+    name: VertexInputReflector
+    href: Prowl.Editor.Utilities.VertexInputReflector.html
+  - name: .
+  - uid: Prowl.Editor.Utilities.VertexInputReflector.SemanticFormatter
+    name: SemanticFormatter
+    href: Prowl.Editor.Utilities.VertexInputReflector.SemanticFormatter.html
+  spec.vb:
+  - uid: Prowl.Editor.Utilities.VertexInputReflector
+    name: VertexInputReflector
+    href: Prowl.Editor.Utilities.VertexInputReflector.html
+  - name: .
+  - uid: Prowl.Editor.Utilities.VertexInputReflector.SemanticFormatter
+    name: SemanticFormatter
+    href: Prowl.Editor.Utilities.VertexInputReflector.SemanticFormatter.html
+- uid: Prowl.Editor.Utilities
+  commentId: N:Prowl.Editor.Utilities
+  href: Prowl.html
+  name: Prowl.Editor.Utilities
+  nameWithType: Prowl.Editor.Utilities
+  fullName: Prowl.Editor.Utilities
+  spec.csharp:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Editor
+    name: Editor
+    href: Prowl.Editor.html
+  - name: .
+  - uid: Prowl.Editor.Utilities
+    name: Utilities
+    href: Prowl.Editor.Utilities.html
+  spec.vb:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Editor
+    name: Editor
+    href: Prowl.Editor.html
+  - name: .
+  - uid: Prowl.Editor.Utilities
+    name: Utilities
+    href: Prowl.Editor.Utilities.html

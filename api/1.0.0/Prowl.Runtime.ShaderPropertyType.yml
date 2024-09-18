@@ -1,0 +1,344 @@
+### YamlMime:ManagedReference
+items:
+- uid: Prowl.Runtime.ShaderPropertyType
+  commentId: T:Prowl.Runtime.ShaderPropertyType
+  id: ShaderPropertyType
+  parent: Prowl.Runtime
+  children:
+  - Prowl.Runtime.ShaderPropertyType.Color
+  - Prowl.Runtime.ShaderPropertyType.Float
+  - Prowl.Runtime.ShaderPropertyType.Matrix
+  - Prowl.Runtime.ShaderPropertyType.Texture2D
+  - Prowl.Runtime.ShaderPropertyType.Texture3D
+  - Prowl.Runtime.ShaderPropertyType.Vector2
+  - Prowl.Runtime.ShaderPropertyType.Vector3
+  - Prowl.Runtime.ShaderPropertyType.Vector4
+  langs:
+  - csharp
+  - vb
+  name: ShaderPropertyType
+  nameWithType: ShaderPropertyType
+  fullName: Prowl.Runtime.ShaderPropertyType
+  type: Enum
+  source:
+    remote:
+      path: Prowl.Runtime/Rendering/Shader/Shader.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: ShaderPropertyType
+    path: ../Prowl/Prowl.Runtime/Rendering/Shader/Shader.cs
+    startLine: 11
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public enum ShaderPropertyType
+    content.vb: Public Enum ShaderPropertyType
+  extensionMethods:
+  - System.Object.Prowl.Runtime.RuntimeUtils.GetSerializableFields
+- uid: Prowl.Runtime.ShaderPropertyType.Float
+  commentId: F:Prowl.Runtime.ShaderPropertyType.Float
+  id: Float
+  parent: Prowl.Runtime.ShaderPropertyType
+  langs:
+  - csharp
+  - vb
+  name: Float
+  nameWithType: ShaderPropertyType.Float
+  fullName: Prowl.Runtime.ShaderPropertyType.Float
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/Rendering/Shader/Shader.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Float
+    path: ../Prowl/Prowl.Runtime/Rendering/Shader/Shader.cs
+    startLine: 13
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: Float = 0
+    return:
+      type: Prowl.Runtime.ShaderPropertyType
+- uid: Prowl.Runtime.ShaderPropertyType.Vector2
+  commentId: F:Prowl.Runtime.ShaderPropertyType.Vector2
+  id: Vector2
+  parent: Prowl.Runtime.ShaderPropertyType
+  langs:
+  - csharp
+  - vb
+  name: Vector2
+  nameWithType: ShaderPropertyType.Vector2
+  fullName: Prowl.Runtime.ShaderPropertyType.Vector2
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/Rendering/Shader/Shader.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Vector2
+    path: ../Prowl/Prowl.Runtime/Rendering/Shader/Shader.cs
+    startLine: 14
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: Vector2 = 1
+    return:
+      type: Prowl.Runtime.ShaderPropertyType
+- uid: Prowl.Runtime.ShaderPropertyType.Vector3
+  commentId: F:Prowl.Runtime.ShaderPropertyType.Vector3
+  id: Vector3
+  parent: Prowl.Runtime.ShaderPropertyType
+  langs:
+  - csharp
+  - vb
+  name: Vector3
+  nameWithType: ShaderPropertyType.Vector3
+  fullName: Prowl.Runtime.ShaderPropertyType.Vector3
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/Rendering/Shader/Shader.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Vector3
+    path: ../Prowl/Prowl.Runtime/Rendering/Shader/Shader.cs
+    startLine: 15
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: Vector3 = 2
+    return:
+      type: Prowl.Runtime.ShaderPropertyType
+- uid: Prowl.Runtime.ShaderPropertyType.Vector4
+  commentId: F:Prowl.Runtime.ShaderPropertyType.Vector4
+  id: Vector4
+  parent: Prowl.Runtime.ShaderPropertyType
+  langs:
+  - csharp
+  - vb
+  name: Vector4
+  nameWithType: ShaderPropertyType.Vector4
+  fullName: Prowl.Runtime.ShaderPropertyType.Vector4
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/Rendering/Shader/Shader.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Vector4
+    path: ../Prowl/Prowl.Runtime/Rendering/Shader/Shader.cs
+    startLine: 16
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: Vector4 = 3
+    return:
+      type: Prowl.Runtime.ShaderPropertyType
+- uid: Prowl.Runtime.ShaderPropertyType.Color
+  commentId: F:Prowl.Runtime.ShaderPropertyType.Color
+  id: Color
+  parent: Prowl.Runtime.ShaderPropertyType
+  langs:
+  - csharp
+  - vb
+  name: Color
+  nameWithType: ShaderPropertyType.Color
+  fullName: Prowl.Runtime.ShaderPropertyType.Color
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/Rendering/Shader/Shader.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Color
+    path: ../Prowl/Prowl.Runtime/Rendering/Shader/Shader.cs
+    startLine: 17
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: Color = 4
+    return:
+      type: Prowl.Runtime.ShaderPropertyType
+- uid: Prowl.Runtime.ShaderPropertyType.Matrix
+  commentId: F:Prowl.Runtime.ShaderPropertyType.Matrix
+  id: Matrix
+  parent: Prowl.Runtime.ShaderPropertyType
+  langs:
+  - csharp
+  - vb
+  name: Matrix
+  nameWithType: ShaderPropertyType.Matrix
+  fullName: Prowl.Runtime.ShaderPropertyType.Matrix
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/Rendering/Shader/Shader.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Matrix
+    path: ../Prowl/Prowl.Runtime/Rendering/Shader/Shader.cs
+    startLine: 18
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: Matrix = 5
+    return:
+      type: Prowl.Runtime.ShaderPropertyType
+- uid: Prowl.Runtime.ShaderPropertyType.Texture2D
+  commentId: F:Prowl.Runtime.ShaderPropertyType.Texture2D
+  id: Texture2D
+  parent: Prowl.Runtime.ShaderPropertyType
+  langs:
+  - csharp
+  - vb
+  name: Texture2D
+  nameWithType: ShaderPropertyType.Texture2D
+  fullName: Prowl.Runtime.ShaderPropertyType.Texture2D
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/Rendering/Shader/Shader.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Texture2D
+    path: ../Prowl/Prowl.Runtime/Rendering/Shader/Shader.cs
+    startLine: 19
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: Texture2D = 6
+    return:
+      type: Prowl.Runtime.ShaderPropertyType
+- uid: Prowl.Runtime.ShaderPropertyType.Texture3D
+  commentId: F:Prowl.Runtime.ShaderPropertyType.Texture3D
+  id: Texture3D
+  parent: Prowl.Runtime.ShaderPropertyType
+  langs:
+  - csharp
+  - vb
+  name: Texture3D
+  nameWithType: ShaderPropertyType.Texture3D
+  fullName: Prowl.Runtime.ShaderPropertyType.Texture3D
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/Rendering/Shader/Shader.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Texture3D
+    path: ../Prowl/Prowl.Runtime/Rendering/Shader/Shader.cs
+    startLine: 20
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: Texture3D = 7
+    return:
+      type: Prowl.Runtime.ShaderPropertyType
+references:
+- uid: Prowl.Runtime
+  commentId: N:Prowl.Runtime
+  href: Prowl.html
+  name: Prowl.Runtime
+  nameWithType: Prowl.Runtime
+  fullName: Prowl.Runtime
+  spec.csharp:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+  spec.vb:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+- uid: System.Object.Prowl.Runtime.RuntimeUtils.GetSerializableFields
+  commentId: M:Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  parent: Prowl.Runtime.RuntimeUtils
+  definition: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  name: GetSerializableFields(object)
+  nameWithType: RuntimeUtils.GetSerializableFields(object)
+  fullName: Prowl.Runtime.RuntimeUtils.GetSerializableFields(object)
+  nameWithType.vb: RuntimeUtils.GetSerializableFields(Object)
+  fullName.vb: Prowl.Runtime.RuntimeUtils.GetSerializableFields(Object)
+  name.vb: GetSerializableFields(Object)
+  spec.csharp:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  commentId: M:Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  isExternal: true
+  href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  name: GetSerializableFields(object)
+  nameWithType: RuntimeUtils.GetSerializableFields(object)
+  fullName: Prowl.Runtime.RuntimeUtils.GetSerializableFields(object)
+  nameWithType.vb: RuntimeUtils.GetSerializableFields(Object)
+  fullName.vb: Prowl.Runtime.RuntimeUtils.GetSerializableFields(Object)
+  name.vb: GetSerializableFields(Object)
+  spec.csharp:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: Prowl.Runtime.RuntimeUtils
+  commentId: T:Prowl.Runtime.RuntimeUtils
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.RuntimeUtils.html
+  name: RuntimeUtils
+  nameWithType: RuntimeUtils
+  fullName: Prowl.Runtime.RuntimeUtils
+- uid: Prowl.Runtime.ShaderPropertyType
+  commentId: T:Prowl.Runtime.ShaderPropertyType
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.ShaderPropertyType.html
+  name: ShaderPropertyType
+  nameWithType: ShaderPropertyType
+  fullName: Prowl.Runtime.ShaderPropertyType

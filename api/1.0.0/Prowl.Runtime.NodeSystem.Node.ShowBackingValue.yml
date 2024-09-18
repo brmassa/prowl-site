@@ -1,0 +1,316 @@
+### YamlMime:ManagedReference
+items:
+- uid: Prowl.Runtime.NodeSystem.Node.ShowBackingValue
+  commentId: T:Prowl.Runtime.NodeSystem.Node.ShowBackingValue
+  id: Node.ShowBackingValue
+  parent: Prowl.Runtime.NodeSystem
+  children:
+  - Prowl.Runtime.NodeSystem.Node.ShowBackingValue.Always
+  - Prowl.Runtime.NodeSystem.Node.ShowBackingValue.Never
+  - Prowl.Runtime.NodeSystem.Node.ShowBackingValue.Unconnected
+  langs:
+  - csharp
+  - vb
+  name: Node.ShowBackingValue
+  nameWithType: Node.ShowBackingValue
+  fullName: Prowl.Runtime.NodeSystem.Node.ShowBackingValue
+  type: Enum
+  source:
+    remote:
+      path: Prowl.Runtime/Utils/NodeSystem/Node.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: ShowBackingValue
+    path: ../Prowl/Prowl.Runtime/Utils/NodeSystem/Node.cs
+    startLine: 36
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.NodeSystem
+  summary: Used by <xref href="Prowl.Runtime.NodeSystem.Node.InputAttribute" data-throw-if-not-resolved="false"></xref> and <xref href="Prowl.Runtime.NodeSystem.Node.OutputAttribute" data-throw-if-not-resolved="false"></xref> to determine when to display the field value associated with a <xref href="Prowl.Runtime.NodeSystem.NodePort" data-throw-if-not-resolved="false"></xref>
+  example: []
+  syntax:
+    content: public enum Node.ShowBackingValue
+    content.vb: Public Enum Node.ShowBackingValue
+  extensionMethods:
+  - System.Object.Prowl.Runtime.RuntimeUtils.GetSerializableFields
+- uid: Prowl.Runtime.NodeSystem.Node.ShowBackingValue.Never
+  commentId: F:Prowl.Runtime.NodeSystem.Node.ShowBackingValue.Never
+  id: Never
+  parent: Prowl.Runtime.NodeSystem.Node.ShowBackingValue
+  langs:
+  - csharp
+  - vb
+  name: Never
+  nameWithType: Node.ShowBackingValue.Never
+  fullName: Prowl.Runtime.NodeSystem.Node.ShowBackingValue.Never
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/Utils/NodeSystem/Node.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Never
+    path: ../Prowl/Prowl.Runtime/Utils/NodeSystem/Node.cs
+    startLine: 39
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.NodeSystem
+  summary: Never show the backing value
+  example: []
+  syntax:
+    content: Never = 0
+    return:
+      type: Prowl.Runtime.NodeSystem.Node.ShowBackingValue
+- uid: Prowl.Runtime.NodeSystem.Node.ShowBackingValue.Unconnected
+  commentId: F:Prowl.Runtime.NodeSystem.Node.ShowBackingValue.Unconnected
+  id: Unconnected
+  parent: Prowl.Runtime.NodeSystem.Node.ShowBackingValue
+  langs:
+  - csharp
+  - vb
+  name: Unconnected
+  nameWithType: Node.ShowBackingValue.Unconnected
+  fullName: Prowl.Runtime.NodeSystem.Node.ShowBackingValue.Unconnected
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/Utils/NodeSystem/Node.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Unconnected
+    path: ../Prowl/Prowl.Runtime/Utils/NodeSystem/Node.cs
+    startLine: 41
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.NodeSystem
+  summary: Show the backing value only when the port does not have any active connections
+  example: []
+  syntax:
+    content: Unconnected = 1
+    return:
+      type: Prowl.Runtime.NodeSystem.Node.ShowBackingValue
+- uid: Prowl.Runtime.NodeSystem.Node.ShowBackingValue.Always
+  commentId: F:Prowl.Runtime.NodeSystem.Node.ShowBackingValue.Always
+  id: Always
+  parent: Prowl.Runtime.NodeSystem.Node.ShowBackingValue
+  langs:
+  - csharp
+  - vb
+  name: Always
+  nameWithType: Node.ShowBackingValue.Always
+  fullName: Prowl.Runtime.NodeSystem.Node.ShowBackingValue.Always
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/Utils/NodeSystem/Node.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Always
+    path: ../Prowl/Prowl.Runtime/Utils/NodeSystem/Node.cs
+    startLine: 43
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.NodeSystem
+  summary: Always show the backing value
+  example: []
+  syntax:
+    content: Always = 2
+    return:
+      type: Prowl.Runtime.NodeSystem.Node.ShowBackingValue
+references:
+- uid: Prowl.Runtime.NodeSystem.Node.InputAttribute
+  commentId: T:Prowl.Runtime.NodeSystem.Node.InputAttribute
+  parent: Prowl.Runtime.NodeSystem
+  href: Prowl.Runtime.NodeSystem.Node.html
+  name: Node.InputAttribute
+  nameWithType: Node.InputAttribute
+  fullName: Prowl.Runtime.NodeSystem.Node.InputAttribute
+  spec.csharp:
+  - uid: Prowl.Runtime.NodeSystem.Node
+    name: Node
+    href: Prowl.Runtime.NodeSystem.Node.html
+  - name: .
+  - uid: Prowl.Runtime.NodeSystem.Node.InputAttribute
+    name: InputAttribute
+    href: Prowl.Runtime.NodeSystem.Node.InputAttribute.html
+  spec.vb:
+  - uid: Prowl.Runtime.NodeSystem.Node
+    name: Node
+    href: Prowl.Runtime.NodeSystem.Node.html
+  - name: .
+  - uid: Prowl.Runtime.NodeSystem.Node.InputAttribute
+    name: InputAttribute
+    href: Prowl.Runtime.NodeSystem.Node.InputAttribute.html
+- uid: Prowl.Runtime.NodeSystem.Node.OutputAttribute
+  commentId: T:Prowl.Runtime.NodeSystem.Node.OutputAttribute
+  parent: Prowl.Runtime.NodeSystem
+  href: Prowl.Runtime.NodeSystem.Node.html
+  name: Node.OutputAttribute
+  nameWithType: Node.OutputAttribute
+  fullName: Prowl.Runtime.NodeSystem.Node.OutputAttribute
+  spec.csharp:
+  - uid: Prowl.Runtime.NodeSystem.Node
+    name: Node
+    href: Prowl.Runtime.NodeSystem.Node.html
+  - name: .
+  - uid: Prowl.Runtime.NodeSystem.Node.OutputAttribute
+    name: OutputAttribute
+    href: Prowl.Runtime.NodeSystem.Node.OutputAttribute.html
+  spec.vb:
+  - uid: Prowl.Runtime.NodeSystem.Node
+    name: Node
+    href: Prowl.Runtime.NodeSystem.Node.html
+  - name: .
+  - uid: Prowl.Runtime.NodeSystem.Node.OutputAttribute
+    name: OutputAttribute
+    href: Prowl.Runtime.NodeSystem.Node.OutputAttribute.html
+- uid: Prowl.Runtime.NodeSystem.NodePort
+  commentId: T:Prowl.Runtime.NodeSystem.NodePort
+  parent: Prowl.Runtime.NodeSystem
+  href: Prowl.Runtime.NodeSystem.NodePort.html
+  name: NodePort
+  nameWithType: NodePort
+  fullName: Prowl.Runtime.NodeSystem.NodePort
+- uid: Prowl.Runtime.NodeSystem
+  commentId: N:Prowl.Runtime.NodeSystem
+  href: Prowl.html
+  name: Prowl.Runtime.NodeSystem
+  nameWithType: Prowl.Runtime.NodeSystem
+  fullName: Prowl.Runtime.NodeSystem
+  spec.csharp:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+  - name: .
+  - uid: Prowl.Runtime.NodeSystem
+    name: NodeSystem
+    href: Prowl.Runtime.NodeSystem.html
+  spec.vb:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+  - name: .
+  - uid: Prowl.Runtime.NodeSystem
+    name: NodeSystem
+    href: Prowl.Runtime.NodeSystem.html
+- uid: System.Object.Prowl.Runtime.RuntimeUtils.GetSerializableFields
+  commentId: M:Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  parent: Prowl.Runtime.RuntimeUtils
+  definition: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  name: GetSerializableFields(object)
+  nameWithType: RuntimeUtils.GetSerializableFields(object)
+  fullName: Prowl.Runtime.RuntimeUtils.GetSerializableFields(object)
+  nameWithType.vb: RuntimeUtils.GetSerializableFields(Object)
+  fullName.vb: Prowl.Runtime.RuntimeUtils.GetSerializableFields(Object)
+  name.vb: GetSerializableFields(Object)
+  spec.csharp:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  commentId: M:Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  isExternal: true
+  href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  name: GetSerializableFields(object)
+  nameWithType: RuntimeUtils.GetSerializableFields(object)
+  fullName: Prowl.Runtime.RuntimeUtils.GetSerializableFields(object)
+  nameWithType.vb: RuntimeUtils.GetSerializableFields(Object)
+  fullName.vb: Prowl.Runtime.RuntimeUtils.GetSerializableFields(Object)
+  name.vb: GetSerializableFields(Object)
+  spec.csharp:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: Prowl.Runtime.RuntimeUtils
+  commentId: T:Prowl.Runtime.RuntimeUtils
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.RuntimeUtils.html
+  name: RuntimeUtils
+  nameWithType: RuntimeUtils
+  fullName: Prowl.Runtime.RuntimeUtils
+- uid: Prowl.Runtime
+  commentId: N:Prowl.Runtime
+  href: Prowl.html
+  name: Prowl.Runtime
+  nameWithType: Prowl.Runtime
+  fullName: Prowl.Runtime
+  spec.csharp:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+  spec.vb:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+- uid: Prowl.Runtime.NodeSystem.Node.ShowBackingValue
+  commentId: T:Prowl.Runtime.NodeSystem.Node.ShowBackingValue
+  parent: Prowl.Runtime.NodeSystem
+  href: Prowl.Runtime.NodeSystem.Node.html
+  name: Node.ShowBackingValue
+  nameWithType: Node.ShowBackingValue
+  fullName: Prowl.Runtime.NodeSystem.Node.ShowBackingValue
+  spec.csharp:
+  - uid: Prowl.Runtime.NodeSystem.Node
+    name: Node
+    href: Prowl.Runtime.NodeSystem.Node.html
+  - name: .
+  - uid: Prowl.Runtime.NodeSystem.Node.ShowBackingValue
+    name: ShowBackingValue
+    href: Prowl.Runtime.NodeSystem.Node.ShowBackingValue.html
+  spec.vb:
+  - uid: Prowl.Runtime.NodeSystem.Node
+    name: Node
+    href: Prowl.Runtime.NodeSystem.Node.html
+  - name: .
+  - uid: Prowl.Runtime.NodeSystem.Node.ShowBackingValue
+    name: ShowBackingValue
+    href: Prowl.Runtime.NodeSystem.Node.ShowBackingValue.html

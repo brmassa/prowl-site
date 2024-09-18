@@ -1,0 +1,1336 @@
+### YamlMime:ManagedReference
+items:
+- uid: Prowl.Runtime.Controller.StaticCharacterMotionConstraint
+  commentId: T:Prowl.Runtime.Controller.StaticCharacterMotionConstraint
+  id: StaticCharacterMotionConstraint
+  parent: Prowl.Runtime.Controller
+  children:
+  - Prowl.Runtime.Controller.StaticCharacterMotionConstraint.ApplyDescription(BepuPhysics.Constraints.TypeBatch@,System.Int32,System.Int32)
+  - Prowl.Runtime.Controller.StaticCharacterMotionConstraint.BuildDescription(BepuPhysics.Constraints.TypeBatch@,System.Int32,System.Int32,Prowl.Runtime.Controller.StaticCharacterMotionConstraint@)
+  - Prowl.Runtime.Controller.StaticCharacterMotionConstraint.ConstraintTypeId
+  - Prowl.Runtime.Controller.StaticCharacterMotionConstraint.CreateTypeProcessor
+  - Prowl.Runtime.Controller.StaticCharacterMotionConstraint.Depth
+  - Prowl.Runtime.Controller.StaticCharacterMotionConstraint.MaximumHorizontalForce
+  - Prowl.Runtime.Controller.StaticCharacterMotionConstraint.MaximumVerticalForce
+  - Prowl.Runtime.Controller.StaticCharacterMotionConstraint.OffsetFromCharacterToSupportPoint
+  - Prowl.Runtime.Controller.StaticCharacterMotionConstraint.SurfaceBasis
+  - Prowl.Runtime.Controller.StaticCharacterMotionConstraint.TargetVelocity
+  - Prowl.Runtime.Controller.StaticCharacterMotionConstraint.TypeProcessorType
+  langs:
+  - csharp
+  - vb
+  name: StaticCharacterMotionConstraint
+  nameWithType: StaticCharacterMotionConstraint
+  fullName: Prowl.Runtime.Controller.StaticCharacterMotionConstraint
+  type: Struct
+  source:
+    remote:
+      path: Prowl.Runtime/Components/Physics/Types/Controller/CharacterMotionConstraint.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: StaticCharacterMotionConstraint
+    path: ../Prowl/Prowl.Runtime/Components/Physics/Types/Controller/CharacterMotionConstraint.cs
+    startLine: 35
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.Controller
+  summary: Description of a character motion constraint where the support is static.
+  example: []
+  syntax:
+    content: 'public struct StaticCharacterMotionConstraint : IOneBodyConstraintDescription<StaticCharacterMotionConstraint>, IConstraintDescription<StaticCharacterMotionConstraint>'
+    content.vb: Public Structure StaticCharacterMotionConstraint Implements IOneBodyConstraintDescription(Of StaticCharacterMotionConstraint), IConstraintDescription(Of StaticCharacterMotionConstraint)
+  implements:
+  - BepuPhysics.Constraints.IOneBodyConstraintDescription{Prowl.Runtime.Controller.StaticCharacterMotionConstraint}
+  - BepuPhysics.Constraints.IConstraintDescription{Prowl.Runtime.Controller.StaticCharacterMotionConstraint}
+  inheritedMembers:
+  - System.ValueType.Equals(System.Object)
+  - System.ValueType.GetHashCode
+  - System.ValueType.ToString
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  extensionMethods:
+  - System.Object.Prowl.Runtime.RuntimeUtils.GetSerializableFields
+- uid: Prowl.Runtime.Controller.StaticCharacterMotionConstraint.MaximumHorizontalForce
+  commentId: F:Prowl.Runtime.Controller.StaticCharacterMotionConstraint.MaximumHorizontalForce
+  id: MaximumHorizontalForce
+  parent: Prowl.Runtime.Controller.StaticCharacterMotionConstraint
+  langs:
+  - csharp
+  - vb
+  name: MaximumHorizontalForce
+  nameWithType: StaticCharacterMotionConstraint.MaximumHorizontalForce
+  fullName: Prowl.Runtime.Controller.StaticCharacterMotionConstraint.MaximumHorizontalForce
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/Components/Physics/Types/Controller/CharacterMotionConstraint.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: MaximumHorizontalForce
+    path: ../Prowl/Prowl.Runtime/Components/Physics/Types/Controller/CharacterMotionConstraint.cs
+    startLine: 40
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.Controller
+  summary: Maximum force that the horizontal motion constraint can apply to reach the current velocity goal.
+  example: []
+  syntax:
+    content: public float MaximumHorizontalForce
+    return:
+      type: System.Single
+    content.vb: Public MaximumHorizontalForce As Single
+- uid: Prowl.Runtime.Controller.StaticCharacterMotionConstraint.MaximumVerticalForce
+  commentId: F:Prowl.Runtime.Controller.StaticCharacterMotionConstraint.MaximumVerticalForce
+  id: MaximumVerticalForce
+  parent: Prowl.Runtime.Controller.StaticCharacterMotionConstraint
+  langs:
+  - csharp
+  - vb
+  name: MaximumVerticalForce
+  nameWithType: StaticCharacterMotionConstraint.MaximumVerticalForce
+  fullName: Prowl.Runtime.Controller.StaticCharacterMotionConstraint.MaximumVerticalForce
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/Components/Physics/Types/Controller/CharacterMotionConstraint.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: MaximumVerticalForce
+    path: ../Prowl/Prowl.Runtime/Components/Physics/Types/Controller/CharacterMotionConstraint.cs
+    startLine: 44
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.Controller
+  summary: Maximum force that the vertical motion constraint can apply to fight separation.
+  example: []
+  syntax:
+    content: public float MaximumVerticalForce
+    return:
+      type: System.Single
+    content.vb: Public MaximumVerticalForce As Single
+- uid: Prowl.Runtime.Controller.StaticCharacterMotionConstraint.TargetVelocity
+  commentId: F:Prowl.Runtime.Controller.StaticCharacterMotionConstraint.TargetVelocity
+  id: TargetVelocity
+  parent: Prowl.Runtime.Controller.StaticCharacterMotionConstraint
+  langs:
+  - csharp
+  - vb
+  name: TargetVelocity
+  nameWithType: StaticCharacterMotionConstraint.TargetVelocity
+  fullName: Prowl.Runtime.Controller.StaticCharacterMotionConstraint.TargetVelocity
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/Components/Physics/Types/Controller/CharacterMotionConstraint.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: TargetVelocity
+    path: ../Prowl/Prowl.Runtime/Components/Physics/Types/Controller/CharacterMotionConstraint.cs
+    startLine: 48
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.Controller
+  summary: Target horizontal velocity in terms of the basis X and -Z axes.
+  example: []
+  syntax:
+    content: public Vector2 TargetVelocity
+    return:
+      type: System.Numerics.Vector2
+    content.vb: Public TargetVelocity As Vector2
+- uid: Prowl.Runtime.Controller.StaticCharacterMotionConstraint.Depth
+  commentId: F:Prowl.Runtime.Controller.StaticCharacterMotionConstraint.Depth
+  id: Depth
+  parent: Prowl.Runtime.Controller.StaticCharacterMotionConstraint
+  langs:
+  - csharp
+  - vb
+  name: Depth
+  nameWithType: StaticCharacterMotionConstraint.Depth
+  fullName: Prowl.Runtime.Controller.StaticCharacterMotionConstraint.Depth
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/Components/Physics/Types/Controller/CharacterMotionConstraint.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Depth
+    path: ../Prowl/Prowl.Runtime/Components/Physics/Types/Controller/CharacterMotionConstraint.cs
+    startLine: 52
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.Controller
+  summary: Depth of the supporting contact. The vertical motion constraint permits separating velocity if, after a frame, the objects will still be touching.
+  example: []
+  syntax:
+    content: public float Depth
+    return:
+      type: System.Single
+    content.vb: Public Depth As Single
+- uid: Prowl.Runtime.Controller.StaticCharacterMotionConstraint.SurfaceBasis
+  commentId: F:Prowl.Runtime.Controller.StaticCharacterMotionConstraint.SurfaceBasis
+  id: SurfaceBasis
+  parent: Prowl.Runtime.Controller.StaticCharacterMotionConstraint
+  langs:
+  - csharp
+  - vb
+  name: SurfaceBasis
+  nameWithType: StaticCharacterMotionConstraint.SurfaceBasis
+  fullName: Prowl.Runtime.Controller.StaticCharacterMotionConstraint.SurfaceBasis
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/Components/Physics/Types/Controller/CharacterMotionConstraint.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: SurfaceBasis
+    path: ../Prowl/Prowl.Runtime/Components/Physics/Types/Controller/CharacterMotionConstraint.cs
+    startLine: 58
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.Controller
+  summary: >-
+    Stores the quaternion-packed orthonormal basis for the motion constraint. When expanded into a matrix, X and Z will represent the Right and Backward directions respectively. Y will represent Up.
+
+    In other words, a target tangential velocity of (4, 2) will result in a goal velocity of 4 along the (1, 0, 0) * Basis direction and a goal velocity of 2 along the (0, 0, -1) * Basis direction.
+
+    All motion moving along the (0, 1, 0) * Basis axis will be fought against by the vertical motion constraint.
+  example: []
+  syntax:
+    content: public Quaternion SurfaceBasis
+    return:
+      type: System.Numerics.Quaternion
+    content.vb: Public SurfaceBasis As Quaternion
+- uid: Prowl.Runtime.Controller.StaticCharacterMotionConstraint.OffsetFromCharacterToSupportPoint
+  commentId: F:Prowl.Runtime.Controller.StaticCharacterMotionConstraint.OffsetFromCharacterToSupportPoint
+  id: OffsetFromCharacterToSupportPoint
+  parent: Prowl.Runtime.Controller.StaticCharacterMotionConstraint
+  langs:
+  - csharp
+  - vb
+  name: OffsetFromCharacterToSupportPoint
+  nameWithType: StaticCharacterMotionConstraint.OffsetFromCharacterToSupportPoint
+  fullName: Prowl.Runtime.Controller.StaticCharacterMotionConstraint.OffsetFromCharacterToSupportPoint
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/Components/Physics/Types/Controller/CharacterMotionConstraint.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: OffsetFromCharacterToSupportPoint
+    path: ../Prowl/Prowl.Runtime/Components/Physics/Types/Controller/CharacterMotionConstraint.cs
+    startLine: 62
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.Controller
+  summary: World space offset from the character's center to apply impulses at.
+  example: []
+  syntax:
+    content: public Vector3 OffsetFromCharacterToSupportPoint
+    return:
+      type: System.Numerics.Vector3
+    content.vb: Public OffsetFromCharacterToSupportPoint As Vector3
+- uid: Prowl.Runtime.Controller.StaticCharacterMotionConstraint.ConstraintTypeId
+  commentId: P:Prowl.Runtime.Controller.StaticCharacterMotionConstraint.ConstraintTypeId
+  id: ConstraintTypeId
+  parent: Prowl.Runtime.Controller.StaticCharacterMotionConstraint
+  langs:
+  - csharp
+  - vb
+  name: ConstraintTypeId
+  nameWithType: StaticCharacterMotionConstraint.ConstraintTypeId
+  fullName: Prowl.Runtime.Controller.StaticCharacterMotionConstraint.ConstraintTypeId
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/Components/Physics/Types/Controller/CharacterMotionConstraint.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: ConstraintTypeId
+    path: ../Prowl/Prowl.Runtime/Components/Physics/Types/Controller/CharacterMotionConstraint.cs
+    startLine: 70
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.Controller
+  summary: Gets the constraint type id that this description is associated with.
+  example: []
+  syntax:
+    content: public static int ConstraintTypeId { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Shared ReadOnly Property ConstraintTypeId As Integer
+  overload: Prowl.Runtime.Controller.StaticCharacterMotionConstraint.ConstraintTypeId*
+  implements:
+  - BepuPhysics.Constraints.IConstraintDescription{Prowl.Runtime.Controller.StaticCharacterMotionConstraint}.ConstraintTypeId
+- uid: Prowl.Runtime.Controller.StaticCharacterMotionConstraint.TypeProcessorType
+  commentId: P:Prowl.Runtime.Controller.StaticCharacterMotionConstraint.TypeProcessorType
+  id: TypeProcessorType
+  parent: Prowl.Runtime.Controller.StaticCharacterMotionConstraint
+  langs:
+  - csharp
+  - vb
+  name: TypeProcessorType
+  nameWithType: StaticCharacterMotionConstraint.TypeProcessorType
+  fullName: Prowl.Runtime.Controller.StaticCharacterMotionConstraint.TypeProcessorType
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/Components/Physics/Types/Controller/CharacterMotionConstraint.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: TypeProcessorType
+    path: ../Prowl/Prowl.Runtime/Components/Physics/Types/Controller/CharacterMotionConstraint.cs
+    startLine: 75
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.Controller
+  summary: Gets the TypeProcessor type that is associated with this description.
+  example: []
+  syntax:
+    content: public static Type TypeProcessorType { get; }
+    parameters: []
+    return:
+      type: System.Type
+    content.vb: Public Shared ReadOnly Property TypeProcessorType As Type
+  overload: Prowl.Runtime.Controller.StaticCharacterMotionConstraint.TypeProcessorType*
+  implements:
+  - BepuPhysics.Constraints.IConstraintDescription{Prowl.Runtime.Controller.StaticCharacterMotionConstraint}.TypeProcessorType
+- uid: Prowl.Runtime.Controller.StaticCharacterMotionConstraint.CreateTypeProcessor
+  commentId: M:Prowl.Runtime.Controller.StaticCharacterMotionConstraint.CreateTypeProcessor
+  id: CreateTypeProcessor
+  parent: Prowl.Runtime.Controller.StaticCharacterMotionConstraint
+  langs:
+  - csharp
+  - vb
+  name: CreateTypeProcessor()
+  nameWithType: StaticCharacterMotionConstraint.CreateTypeProcessor()
+  fullName: Prowl.Runtime.Controller.StaticCharacterMotionConstraint.CreateTypeProcessor()
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Components/Physics/Types/Controller/CharacterMotionConstraint.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: CreateTypeProcessor
+    path: ../Prowl/Prowl.Runtime/Components/Physics/Types/Controller/CharacterMotionConstraint.cs
+    startLine: 79
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.Controller
+  summary: Creates a type processor for this constraint type.
+  example: []
+  syntax:
+    content: public static TypeProcessor CreateTypeProcessor()
+    return:
+      type: BepuPhysics.Constraints.TypeProcessor
+    content.vb: Public Shared Function CreateTypeProcessor() As TypeProcessor
+  overload: Prowl.Runtime.Controller.StaticCharacterMotionConstraint.CreateTypeProcessor*
+  implements:
+  - BepuPhysics.Constraints.IConstraintDescription{Prowl.Runtime.Controller.StaticCharacterMotionConstraint}.CreateTypeProcessor
+- uid: Prowl.Runtime.Controller.StaticCharacterMotionConstraint.ApplyDescription(BepuPhysics.Constraints.TypeBatch@,System.Int32,System.Int32)
+  commentId: M:Prowl.Runtime.Controller.StaticCharacterMotionConstraint.ApplyDescription(BepuPhysics.Constraints.TypeBatch@,System.Int32,System.Int32)
+  id: ApplyDescription(BepuPhysics.Constraints.TypeBatch@,System.Int32,System.Int32)
+  parent: Prowl.Runtime.Controller.StaticCharacterMotionConstraint
+  langs:
+  - csharp
+  - vb
+  name: ApplyDescription(ref TypeBatch, int, int)
+  nameWithType: StaticCharacterMotionConstraint.ApplyDescription(ref TypeBatch, int, int)
+  fullName: Prowl.Runtime.Controller.StaticCharacterMotionConstraint.ApplyDescription(ref BepuPhysics.Constraints.TypeBatch, int, int)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Components/Physics/Types/Controller/CharacterMotionConstraint.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: ApplyDescription
+    path: ../Prowl/Prowl.Runtime/Components/Physics/Types/Controller/CharacterMotionConstraint.cs
+    startLine: 85
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.Controller
+  summary: Changes the batch-held memory at a given location to match the given description.
+  example: []
+  syntax:
+    content: public readonly void ApplyDescription(ref TypeBatch batch, int bundleIndex, int innerIndex)
+    parameters:
+    - id: batch
+      type: BepuPhysics.Constraints.TypeBatch
+      description: Batch to modify.
+    - id: bundleIndex
+      type: System.Int32
+      description: Index of the target constraint's bundle.
+    - id: innerIndex
+      type: System.Int32
+      description: Index of the target constraint within its bundle.
+    content.vb: Public Sub ApplyDescription(batch As TypeBatch, bundleIndex As Integer, innerIndex As Integer)
+  overload: Prowl.Runtime.Controller.StaticCharacterMotionConstraint.ApplyDescription*
+  implements:
+  - BepuPhysics.Constraints.IConstraintDescription{Prowl.Runtime.Controller.StaticCharacterMotionConstraint}.ApplyDescription(BepuPhysics.Constraints.TypeBatch@,System.Int32,System.Int32)
+  nameWithType.vb: StaticCharacterMotionConstraint.ApplyDescription(TypeBatch, Integer, Integer)
+  fullName.vb: Prowl.Runtime.Controller.StaticCharacterMotionConstraint.ApplyDescription(BepuPhysics.Constraints.TypeBatch, Integer, Integer)
+  name.vb: ApplyDescription(TypeBatch, Integer, Integer)
+- uid: Prowl.Runtime.Controller.StaticCharacterMotionConstraint.BuildDescription(BepuPhysics.Constraints.TypeBatch@,System.Int32,System.Int32,Prowl.Runtime.Controller.StaticCharacterMotionConstraint@)
+  commentId: M:Prowl.Runtime.Controller.StaticCharacterMotionConstraint.BuildDescription(BepuPhysics.Constraints.TypeBatch@,System.Int32,System.Int32,Prowl.Runtime.Controller.StaticCharacterMotionConstraint@)
+  id: BuildDescription(BepuPhysics.Constraints.TypeBatch@,System.Int32,System.Int32,Prowl.Runtime.Controller.StaticCharacterMotionConstraint@)
+  parent: Prowl.Runtime.Controller.StaticCharacterMotionConstraint
+  langs:
+  - csharp
+  - vb
+  name: BuildDescription(ref TypeBatch, int, int, out StaticCharacterMotionConstraint)
+  nameWithType: StaticCharacterMotionConstraint.BuildDescription(ref TypeBatch, int, int, out StaticCharacterMotionConstraint)
+  fullName: Prowl.Runtime.Controller.StaticCharacterMotionConstraint.BuildDescription(ref BepuPhysics.Constraints.TypeBatch, int, int, out Prowl.Runtime.Controller.StaticCharacterMotionConstraint)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Components/Physics/Types/Controller/CharacterMotionConstraint.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: BuildDescription
+    path: ../Prowl/Prowl.Runtime/Components/Physics/Types/Controller/CharacterMotionConstraint.cs
+    startLine: 96
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.Controller
+  summary: Creates a description from the batch-held memory at a given location.
+  example: []
+  syntax:
+    content: public static void BuildDescription(ref TypeBatch batch, int bundleIndex, int innerIndex, out StaticCharacterMotionConstraint description)
+    parameters:
+    - id: batch
+      type: BepuPhysics.Constraints.TypeBatch
+      description: Batch to read.
+    - id: bundleIndex
+      type: System.Int32
+      description: Index of the source constraint's bundle.
+    - id: innerIndex
+      type: System.Int32
+      description: Index of the source constraint within its bundle.
+    - id: description
+      type: Prowl.Runtime.Controller.StaticCharacterMotionConstraint
+      description: Description of the constraint.
+    content.vb: Public Shared Sub BuildDescription(batch As TypeBatch, bundleIndex As Integer, innerIndex As Integer, description As StaticCharacterMotionConstraint)
+  overload: Prowl.Runtime.Controller.StaticCharacterMotionConstraint.BuildDescription*
+  implements:
+  - BepuPhysics.Constraints.IConstraintDescription{Prowl.Runtime.Controller.StaticCharacterMotionConstraint}.BuildDescription(BepuPhysics.Constraints.TypeBatch@,System.Int32,System.Int32,Prowl.Runtime.Controller.StaticCharacterMotionConstraint@)
+  nameWithType.vb: StaticCharacterMotionConstraint.BuildDescription(TypeBatch, Integer, Integer, StaticCharacterMotionConstraint)
+  fullName.vb: Prowl.Runtime.Controller.StaticCharacterMotionConstraint.BuildDescription(BepuPhysics.Constraints.TypeBatch, Integer, Integer, Prowl.Runtime.Controller.StaticCharacterMotionConstraint)
+  name.vb: BuildDescription(TypeBatch, Integer, Integer, StaticCharacterMotionConstraint)
+references:
+- uid: Prowl.Runtime.Controller
+  commentId: N:Prowl.Runtime.Controller
+  href: Prowl.html
+  name: Prowl.Runtime.Controller
+  nameWithType: Prowl.Runtime.Controller
+  fullName: Prowl.Runtime.Controller
+  spec.csharp:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+  - name: .
+  - uid: Prowl.Runtime.Controller
+    name: Controller
+    href: Prowl.Runtime.Controller.html
+  spec.vb:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+  - name: .
+  - uid: Prowl.Runtime.Controller
+    name: Controller
+    href: Prowl.Runtime.Controller.html
+- uid: BepuPhysics.Constraints.IOneBodyConstraintDescription{Prowl.Runtime.Controller.StaticCharacterMotionConstraint}
+  commentId: T:BepuPhysics.Constraints.IOneBodyConstraintDescription{Prowl.Runtime.Controller.StaticCharacterMotionConstraint}
+  parent: BepuPhysics.Constraints
+  definition: BepuPhysics.Constraints.IOneBodyConstraintDescription`1
+  href: Prowl.Runtime.Controller.StaticCharacterMotionConstraint.html
+  name: IOneBodyConstraintDescription<StaticCharacterMotionConstraint>
+  nameWithType: IOneBodyConstraintDescription<StaticCharacterMotionConstraint>
+  fullName: BepuPhysics.Constraints.IOneBodyConstraintDescription<Prowl.Runtime.Controller.StaticCharacterMotionConstraint>
+  nameWithType.vb: IOneBodyConstraintDescription(Of StaticCharacterMotionConstraint)
+  fullName.vb: BepuPhysics.Constraints.IOneBodyConstraintDescription(Of Prowl.Runtime.Controller.StaticCharacterMotionConstraint)
+  name.vb: IOneBodyConstraintDescription(Of StaticCharacterMotionConstraint)
+  spec.csharp:
+  - uid: BepuPhysics.Constraints.IOneBodyConstraintDescription`1
+    name: IOneBodyConstraintDescription
+    isExternal: true
+  - name: <
+  - uid: Prowl.Runtime.Controller.StaticCharacterMotionConstraint
+    name: StaticCharacterMotionConstraint
+    href: Prowl.Runtime.Controller.StaticCharacterMotionConstraint.html
+  - name: '>'
+  spec.vb:
+  - uid: BepuPhysics.Constraints.IOneBodyConstraintDescription`1
+    name: IOneBodyConstraintDescription
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Prowl.Runtime.Controller.StaticCharacterMotionConstraint
+    name: StaticCharacterMotionConstraint
+    href: Prowl.Runtime.Controller.StaticCharacterMotionConstraint.html
+  - name: )
+- uid: BepuPhysics.Constraints.IConstraintDescription{Prowl.Runtime.Controller.StaticCharacterMotionConstraint}
+  commentId: T:BepuPhysics.Constraints.IConstraintDescription{Prowl.Runtime.Controller.StaticCharacterMotionConstraint}
+  parent: BepuPhysics.Constraints
+  definition: BepuPhysics.Constraints.IConstraintDescription`1
+  href: Prowl.Runtime.Controller.StaticCharacterMotionConstraint.html
+  name: IConstraintDescription<StaticCharacterMotionConstraint>
+  nameWithType: IConstraintDescription<StaticCharacterMotionConstraint>
+  fullName: BepuPhysics.Constraints.IConstraintDescription<Prowl.Runtime.Controller.StaticCharacterMotionConstraint>
+  nameWithType.vb: IConstraintDescription(Of StaticCharacterMotionConstraint)
+  fullName.vb: BepuPhysics.Constraints.IConstraintDescription(Of Prowl.Runtime.Controller.StaticCharacterMotionConstraint)
+  name.vb: IConstraintDescription(Of StaticCharacterMotionConstraint)
+  spec.csharp:
+  - uid: BepuPhysics.Constraints.IConstraintDescription`1
+    name: IConstraintDescription
+    isExternal: true
+  - name: <
+  - uid: Prowl.Runtime.Controller.StaticCharacterMotionConstraint
+    name: StaticCharacterMotionConstraint
+    href: Prowl.Runtime.Controller.StaticCharacterMotionConstraint.html
+  - name: '>'
+  spec.vb:
+  - uid: BepuPhysics.Constraints.IConstraintDescription`1
+    name: IConstraintDescription
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Prowl.Runtime.Controller.StaticCharacterMotionConstraint
+    name: StaticCharacterMotionConstraint
+    href: Prowl.Runtime.Controller.StaticCharacterMotionConstraint.html
+  - name: )
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  name: Equals(object)
+  nameWithType: ValueType.Equals(object)
+  fullName: System.ValueType.Equals(object)
+  nameWithType.vb: ValueType.Equals(Object)
+  fullName.vb: System.ValueType.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Prowl.Runtime.RuntimeUtils.GetSerializableFields
+  commentId: M:Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  parent: Prowl.Runtime.RuntimeUtils
+  definition: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  name: GetSerializableFields(object)
+  nameWithType: RuntimeUtils.GetSerializableFields(object)
+  fullName: Prowl.Runtime.RuntimeUtils.GetSerializableFields(object)
+  nameWithType.vb: RuntimeUtils.GetSerializableFields(Object)
+  fullName.vb: Prowl.Runtime.RuntimeUtils.GetSerializableFields(Object)
+  name.vb: GetSerializableFields(Object)
+  spec.csharp:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: BepuPhysics.Constraints.IOneBodyConstraintDescription`1
+  commentId: T:BepuPhysics.Constraints.IOneBodyConstraintDescription`1
+  isExternal: true
+  name: IOneBodyConstraintDescription<TDescription>
+  nameWithType: IOneBodyConstraintDescription<TDescription>
+  fullName: BepuPhysics.Constraints.IOneBodyConstraintDescription<TDescription>
+  nameWithType.vb: IOneBodyConstraintDescription(Of TDescription)
+  fullName.vb: BepuPhysics.Constraints.IOneBodyConstraintDescription(Of TDescription)
+  name.vb: IOneBodyConstraintDescription(Of TDescription)
+  spec.csharp:
+  - uid: BepuPhysics.Constraints.IOneBodyConstraintDescription`1
+    name: IOneBodyConstraintDescription
+    isExternal: true
+  - name: <
+  - name: TDescription
+  - name: '>'
+  spec.vb:
+  - uid: BepuPhysics.Constraints.IOneBodyConstraintDescription`1
+    name: IOneBodyConstraintDescription
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TDescription
+  - name: )
+- uid: BepuPhysics.Constraints
+  commentId: N:BepuPhysics.Constraints
+  isExternal: true
+  name: BepuPhysics.Constraints
+  nameWithType: BepuPhysics.Constraints
+  fullName: BepuPhysics.Constraints
+  spec.csharp:
+  - uid: BepuPhysics
+    name: BepuPhysics
+    isExternal: true
+  - name: .
+  - uid: BepuPhysics.Constraints
+    name: Constraints
+    isExternal: true
+  spec.vb:
+  - uid: BepuPhysics
+    name: BepuPhysics
+    isExternal: true
+  - name: .
+  - uid: BepuPhysics.Constraints
+    name: Constraints
+    isExternal: true
+- uid: BepuPhysics.Constraints.IConstraintDescription`1
+  commentId: T:BepuPhysics.Constraints.IConstraintDescription`1
+  isExternal: true
+  name: IConstraintDescription<TDescription>
+  nameWithType: IConstraintDescription<TDescription>
+  fullName: BepuPhysics.Constraints.IConstraintDescription<TDescription>
+  nameWithType.vb: IConstraintDescription(Of TDescription)
+  fullName.vb: BepuPhysics.Constraints.IConstraintDescription(Of TDescription)
+  name.vb: IConstraintDescription(Of TDescription)
+  spec.csharp:
+  - uid: BepuPhysics.Constraints.IConstraintDescription`1
+    name: IConstraintDescription
+    isExternal: true
+  - name: <
+  - name: TDescription
+  - name: '>'
+  spec.vb:
+  - uid: BepuPhysics.Constraints.IConstraintDescription`1
+    name: IConstraintDescription
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TDescription
+  - name: )
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  commentId: M:Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  isExternal: true
+  href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  name: GetSerializableFields(object)
+  nameWithType: RuntimeUtils.GetSerializableFields(object)
+  fullName: Prowl.Runtime.RuntimeUtils.GetSerializableFields(object)
+  nameWithType.vb: RuntimeUtils.GetSerializableFields(Object)
+  fullName.vb: Prowl.Runtime.RuntimeUtils.GetSerializableFields(Object)
+  name.vb: GetSerializableFields(Object)
+  spec.csharp:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: Prowl.Runtime.RuntimeUtils
+  commentId: T:Prowl.Runtime.RuntimeUtils
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.RuntimeUtils.html
+  name: RuntimeUtils
+  nameWithType: RuntimeUtils
+  fullName: Prowl.Runtime.RuntimeUtils
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Prowl.Runtime
+  commentId: N:Prowl.Runtime
+  href: Prowl.html
+  name: Prowl.Runtime
+  nameWithType: Prowl.Runtime
+  fullName: Prowl.Runtime
+  spec.csharp:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+  spec.vb:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.single
+  name: float
+  nameWithType: float
+  fullName: float
+  nameWithType.vb: Single
+  fullName.vb: Single
+  name.vb: Single
+- uid: System.Numerics.Vector2
+  commentId: T:System.Numerics.Vector2
+  parent: System.Numerics
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.numerics.vector2
+  name: Vector2
+  nameWithType: Vector2
+  fullName: System.Numerics.Vector2
+- uid: System.Numerics
+  commentId: N:System.Numerics
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Numerics
+  nameWithType: System.Numerics
+  fullName: System.Numerics
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Numerics
+    name: Numerics
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.numerics
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Numerics
+    name: Numerics
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.numerics
+- uid: System.Numerics.Quaternion
+  commentId: T:System.Numerics.Quaternion
+  parent: System.Numerics
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.numerics.quaternion
+  name: Quaternion
+  nameWithType: Quaternion
+  fullName: System.Numerics.Quaternion
+- uid: System.Numerics.Vector3
+  commentId: T:System.Numerics.Vector3
+  parent: System.Numerics
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.numerics.vector3
+  name: Vector3
+  nameWithType: Vector3
+  fullName: System.Numerics.Vector3
+- uid: Prowl.Runtime.Controller.StaticCharacterMotionConstraint.ConstraintTypeId*
+  commentId: Overload:Prowl.Runtime.Controller.StaticCharacterMotionConstraint.ConstraintTypeId
+  href: Prowl.Runtime.Controller.StaticCharacterMotionConstraint.html#Prowl_Runtime_Controller_StaticCharacterMotionConstraint_ConstraintTypeId
+  name: ConstraintTypeId
+  nameWithType: StaticCharacterMotionConstraint.ConstraintTypeId
+  fullName: Prowl.Runtime.Controller.StaticCharacterMotionConstraint.ConstraintTypeId
+- uid: BepuPhysics.Constraints.IConstraintDescription{Prowl.Runtime.Controller.StaticCharacterMotionConstraint}.ConstraintTypeId
+  commentId: P:BepuPhysics.Constraints.IConstraintDescription{Prowl.Runtime.Controller.StaticCharacterMotionConstraint}.ConstraintTypeId
+  parent: BepuPhysics.Constraints.IConstraintDescription{Prowl.Runtime.Controller.StaticCharacterMotionConstraint}
+  definition: BepuPhysics.Constraints.IConstraintDescription`1.ConstraintTypeId
+  name: ConstraintTypeId
+  nameWithType: IConstraintDescription<StaticCharacterMotionConstraint>.ConstraintTypeId
+  fullName: BepuPhysics.Constraints.IConstraintDescription<Prowl.Runtime.Controller.StaticCharacterMotionConstraint>.ConstraintTypeId
+  nameWithType.vb: IConstraintDescription(Of StaticCharacterMotionConstraint).ConstraintTypeId
+  fullName.vb: BepuPhysics.Constraints.IConstraintDescription(Of Prowl.Runtime.Controller.StaticCharacterMotionConstraint).ConstraintTypeId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: BepuPhysics.Constraints.IConstraintDescription`1.ConstraintTypeId
+  commentId: P:BepuPhysics.Constraints.IConstraintDescription`1.ConstraintTypeId
+  isExternal: true
+  name: ConstraintTypeId
+  nameWithType: IConstraintDescription<TDescription>.ConstraintTypeId
+  fullName: BepuPhysics.Constraints.IConstraintDescription<TDescription>.ConstraintTypeId
+  nameWithType.vb: IConstraintDescription(Of TDescription).ConstraintTypeId
+  fullName.vb: BepuPhysics.Constraints.IConstraintDescription(Of TDescription).ConstraintTypeId
+- uid: Prowl.Runtime.Controller.StaticCharacterMotionConstraint.TypeProcessorType*
+  commentId: Overload:Prowl.Runtime.Controller.StaticCharacterMotionConstraint.TypeProcessorType
+  href: Prowl.Runtime.Controller.StaticCharacterMotionConstraint.html#Prowl_Runtime_Controller_StaticCharacterMotionConstraint_TypeProcessorType
+  name: TypeProcessorType
+  nameWithType: StaticCharacterMotionConstraint.TypeProcessorType
+  fullName: Prowl.Runtime.Controller.StaticCharacterMotionConstraint.TypeProcessorType
+- uid: BepuPhysics.Constraints.IConstraintDescription{Prowl.Runtime.Controller.StaticCharacterMotionConstraint}.TypeProcessorType
+  commentId: P:BepuPhysics.Constraints.IConstraintDescription{Prowl.Runtime.Controller.StaticCharacterMotionConstraint}.TypeProcessorType
+  parent: BepuPhysics.Constraints.IConstraintDescription{Prowl.Runtime.Controller.StaticCharacterMotionConstraint}
+  definition: BepuPhysics.Constraints.IConstraintDescription`1.TypeProcessorType
+  name: TypeProcessorType
+  nameWithType: IConstraintDescription<StaticCharacterMotionConstraint>.TypeProcessorType
+  fullName: BepuPhysics.Constraints.IConstraintDescription<Prowl.Runtime.Controller.StaticCharacterMotionConstraint>.TypeProcessorType
+  nameWithType.vb: IConstraintDescription(Of StaticCharacterMotionConstraint).TypeProcessorType
+  fullName.vb: BepuPhysics.Constraints.IConstraintDescription(Of Prowl.Runtime.Controller.StaticCharacterMotionConstraint).TypeProcessorType
+- uid: System.Type
+  commentId: T:System.Type
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.type
+  name: Type
+  nameWithType: Type
+  fullName: System.Type
+- uid: BepuPhysics.Constraints.IConstraintDescription`1.TypeProcessorType
+  commentId: P:BepuPhysics.Constraints.IConstraintDescription`1.TypeProcessorType
+  isExternal: true
+  name: TypeProcessorType
+  nameWithType: IConstraintDescription<TDescription>.TypeProcessorType
+  fullName: BepuPhysics.Constraints.IConstraintDescription<TDescription>.TypeProcessorType
+  nameWithType.vb: IConstraintDescription(Of TDescription).TypeProcessorType
+  fullName.vb: BepuPhysics.Constraints.IConstraintDescription(Of TDescription).TypeProcessorType
+- uid: Prowl.Runtime.Controller.StaticCharacterMotionConstraint.CreateTypeProcessor*
+  commentId: Overload:Prowl.Runtime.Controller.StaticCharacterMotionConstraint.CreateTypeProcessor
+  href: Prowl.Runtime.Controller.StaticCharacterMotionConstraint.html#Prowl_Runtime_Controller_StaticCharacterMotionConstraint_CreateTypeProcessor
+  name: CreateTypeProcessor
+  nameWithType: StaticCharacterMotionConstraint.CreateTypeProcessor
+  fullName: Prowl.Runtime.Controller.StaticCharacterMotionConstraint.CreateTypeProcessor
+- uid: BepuPhysics.Constraints.IConstraintDescription{Prowl.Runtime.Controller.StaticCharacterMotionConstraint}.CreateTypeProcessor
+  commentId: M:BepuPhysics.Constraints.IConstraintDescription{Prowl.Runtime.Controller.StaticCharacterMotionConstraint}.CreateTypeProcessor
+  parent: BepuPhysics.Constraints.IConstraintDescription{Prowl.Runtime.Controller.StaticCharacterMotionConstraint}
+  definition: BepuPhysics.Constraints.IConstraintDescription`1.CreateTypeProcessor
+  name: CreateTypeProcessor()
+  nameWithType: IConstraintDescription<StaticCharacterMotionConstraint>.CreateTypeProcessor()
+  fullName: BepuPhysics.Constraints.IConstraintDescription<Prowl.Runtime.Controller.StaticCharacterMotionConstraint>.CreateTypeProcessor()
+  nameWithType.vb: IConstraintDescription(Of StaticCharacterMotionConstraint).CreateTypeProcessor()
+  fullName.vb: BepuPhysics.Constraints.IConstraintDescription(Of Prowl.Runtime.Controller.StaticCharacterMotionConstraint).CreateTypeProcessor()
+  spec.csharp:
+  - uid: BepuPhysics.Constraints.IConstraintDescription{Prowl.Runtime.Controller.StaticCharacterMotionConstraint}.CreateTypeProcessor
+    name: CreateTypeProcessor
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: BepuPhysics.Constraints.IConstraintDescription{Prowl.Runtime.Controller.StaticCharacterMotionConstraint}.CreateTypeProcessor
+    name: CreateTypeProcessor
+    isExternal: true
+  - name: (
+  - name: )
+- uid: BepuPhysics.Constraints.TypeProcessor
+  commentId: T:BepuPhysics.Constraints.TypeProcessor
+  parent: BepuPhysics.Constraints
+  isExternal: true
+  name: TypeProcessor
+  nameWithType: TypeProcessor
+  fullName: BepuPhysics.Constraints.TypeProcessor
+- uid: BepuPhysics.Constraints.IConstraintDescription`1.CreateTypeProcessor
+  commentId: M:BepuPhysics.Constraints.IConstraintDescription`1.CreateTypeProcessor
+  isExternal: true
+  name: CreateTypeProcessor()
+  nameWithType: IConstraintDescription<TDescription>.CreateTypeProcessor()
+  fullName: BepuPhysics.Constraints.IConstraintDescription<TDescription>.CreateTypeProcessor()
+  nameWithType.vb: IConstraintDescription(Of TDescription).CreateTypeProcessor()
+  fullName.vb: BepuPhysics.Constraints.IConstraintDescription(Of TDescription).CreateTypeProcessor()
+  spec.csharp:
+  - uid: BepuPhysics.Constraints.IConstraintDescription`1.CreateTypeProcessor
+    name: CreateTypeProcessor
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: BepuPhysics.Constraints.IConstraintDescription`1.CreateTypeProcessor
+    name: CreateTypeProcessor
+    isExternal: true
+  - name: (
+  - name: )
+- uid: Prowl.Runtime.Controller.StaticCharacterMotionConstraint.ApplyDescription*
+  commentId: Overload:Prowl.Runtime.Controller.StaticCharacterMotionConstraint.ApplyDescription
+  href: Prowl.Runtime.Controller.StaticCharacterMotionConstraint.html#Prowl_Runtime_Controller_StaticCharacterMotionConstraint_ApplyDescription_BepuPhysics_Constraints_TypeBatch__System_Int32_System_Int32_
+  name: ApplyDescription
+  nameWithType: StaticCharacterMotionConstraint.ApplyDescription
+  fullName: Prowl.Runtime.Controller.StaticCharacterMotionConstraint.ApplyDescription
+- uid: BepuPhysics.Constraints.IConstraintDescription{Prowl.Runtime.Controller.StaticCharacterMotionConstraint}.ApplyDescription(BepuPhysics.Constraints.TypeBatch@,System.Int32,System.Int32)
+  commentId: M:BepuPhysics.Constraints.IConstraintDescription{Prowl.Runtime.Controller.StaticCharacterMotionConstraint}.ApplyDescription(BepuPhysics.Constraints.TypeBatch@,System.Int32,System.Int32)
+  parent: BepuPhysics.Constraints.IConstraintDescription{Prowl.Runtime.Controller.StaticCharacterMotionConstraint}
+  definition: BepuPhysics.Constraints.IConstraintDescription`1.ApplyDescription(BepuPhysics.Constraints.TypeBatch@,System.Int32,System.Int32)
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: ApplyDescription(ref TypeBatch, int, int)
+  nameWithType: IConstraintDescription<StaticCharacterMotionConstraint>.ApplyDescription(ref TypeBatch, int, int)
+  fullName: BepuPhysics.Constraints.IConstraintDescription<Prowl.Runtime.Controller.StaticCharacterMotionConstraint>.ApplyDescription(ref BepuPhysics.Constraints.TypeBatch, int, int)
+  nameWithType.vb: IConstraintDescription(Of StaticCharacterMotionConstraint).ApplyDescription(TypeBatch, Integer, Integer)
+  fullName.vb: BepuPhysics.Constraints.IConstraintDescription(Of Prowl.Runtime.Controller.StaticCharacterMotionConstraint).ApplyDescription(BepuPhysics.Constraints.TypeBatch, Integer, Integer)
+  name.vb: ApplyDescription(TypeBatch, Integer, Integer)
+  spec.csharp:
+  - uid: BepuPhysics.Constraints.IConstraintDescription{Prowl.Runtime.Controller.StaticCharacterMotionConstraint}.ApplyDescription(BepuPhysics.Constraints.TypeBatch@,System.Int32,System.Int32)
+    name: ApplyDescription
+    isExternal: true
+  - name: (
+  - name: ref
+  - name: " "
+  - uid: BepuPhysics.Constraints.TypeBatch
+    name: TypeBatch
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  spec.vb:
+  - uid: BepuPhysics.Constraints.IConstraintDescription{Prowl.Runtime.Controller.StaticCharacterMotionConstraint}.ApplyDescription(BepuPhysics.Constraints.TypeBatch@,System.Int32,System.Int32)
+    name: ApplyDescription
+    isExternal: true
+  - name: (
+  - uid: BepuPhysics.Constraints.TypeBatch
+    name: TypeBatch
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: BepuPhysics.Constraints.TypeBatch
+  commentId: T:BepuPhysics.Constraints.TypeBatch
+  parent: BepuPhysics.Constraints
+  isExternal: true
+  name: TypeBatch
+  nameWithType: TypeBatch
+  fullName: BepuPhysics.Constraints.TypeBatch
+- uid: BepuPhysics.Constraints.IConstraintDescription`1.ApplyDescription(BepuPhysics.Constraints.TypeBatch@,System.Int32,System.Int32)
+  commentId: M:BepuPhysics.Constraints.IConstraintDescription`1.ApplyDescription(BepuPhysics.Constraints.TypeBatch@,System.Int32,System.Int32)
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: ApplyDescription(ref TypeBatch, int, int)
+  nameWithType: IConstraintDescription<TDescription>.ApplyDescription(ref TypeBatch, int, int)
+  fullName: BepuPhysics.Constraints.IConstraintDescription<TDescription>.ApplyDescription(ref BepuPhysics.Constraints.TypeBatch, int, int)
+  nameWithType.vb: IConstraintDescription(Of TDescription).ApplyDescription(TypeBatch, Integer, Integer)
+  fullName.vb: BepuPhysics.Constraints.IConstraintDescription(Of TDescription).ApplyDescription(BepuPhysics.Constraints.TypeBatch, Integer, Integer)
+  name.vb: ApplyDescription(TypeBatch, Integer, Integer)
+  spec.csharp:
+  - uid: BepuPhysics.Constraints.IConstraintDescription`1.ApplyDescription(BepuPhysics.Constraints.TypeBatch@,System.Int32,System.Int32)
+    name: ApplyDescription
+    isExternal: true
+  - name: (
+  - name: ref
+  - name: " "
+  - uid: BepuPhysics.Constraints.TypeBatch
+    name: TypeBatch
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  spec.vb:
+  - uid: BepuPhysics.Constraints.IConstraintDescription`1.ApplyDescription(BepuPhysics.Constraints.TypeBatch@,System.Int32,System.Int32)
+    name: ApplyDescription
+    isExternal: true
+  - name: (
+  - uid: BepuPhysics.Constraints.TypeBatch
+    name: TypeBatch
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: Prowl.Runtime.Controller.StaticCharacterMotionConstraint.BuildDescription*
+  commentId: Overload:Prowl.Runtime.Controller.StaticCharacterMotionConstraint.BuildDescription
+  href: Prowl.Runtime.Controller.StaticCharacterMotionConstraint.html#Prowl_Runtime_Controller_StaticCharacterMotionConstraint_BuildDescription_BepuPhysics_Constraints_TypeBatch__System_Int32_System_Int32_Prowl_Runtime_Controller_StaticCharacterMotionConstraint__
+  name: BuildDescription
+  nameWithType: StaticCharacterMotionConstraint.BuildDescription
+  fullName: Prowl.Runtime.Controller.StaticCharacterMotionConstraint.BuildDescription
+- uid: BepuPhysics.Constraints.IConstraintDescription{Prowl.Runtime.Controller.StaticCharacterMotionConstraint}.BuildDescription(BepuPhysics.Constraints.TypeBatch@,System.Int32,System.Int32,Prowl.Runtime.Controller.StaticCharacterMotionConstraint@)
+  commentId: M:BepuPhysics.Constraints.IConstraintDescription{Prowl.Runtime.Controller.StaticCharacterMotionConstraint}.BuildDescription(BepuPhysics.Constraints.TypeBatch@,System.Int32,System.Int32,Prowl.Runtime.Controller.StaticCharacterMotionConstraint@)
+  parent: BepuPhysics.Constraints.IConstraintDescription{Prowl.Runtime.Controller.StaticCharacterMotionConstraint}
+  definition: BepuPhysics.Constraints.IConstraintDescription`1.BuildDescription(BepuPhysics.Constraints.TypeBatch@,System.Int32,System.Int32,`0@)
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: BuildDescription(ref TypeBatch, int, int, out StaticCharacterMotionConstraint)
+  nameWithType: IConstraintDescription<StaticCharacterMotionConstraint>.BuildDescription(ref TypeBatch, int, int, out StaticCharacterMotionConstraint)
+  fullName: BepuPhysics.Constraints.IConstraintDescription<Prowl.Runtime.Controller.StaticCharacterMotionConstraint>.BuildDescription(ref BepuPhysics.Constraints.TypeBatch, int, int, out Prowl.Runtime.Controller.StaticCharacterMotionConstraint)
+  nameWithType.vb: IConstraintDescription(Of StaticCharacterMotionConstraint).BuildDescription(TypeBatch, Integer, Integer, StaticCharacterMotionConstraint)
+  fullName.vb: BepuPhysics.Constraints.IConstraintDescription(Of Prowl.Runtime.Controller.StaticCharacterMotionConstraint).BuildDescription(BepuPhysics.Constraints.TypeBatch, Integer, Integer, Prowl.Runtime.Controller.StaticCharacterMotionConstraint)
+  name.vb: BuildDescription(TypeBatch, Integer, Integer, StaticCharacterMotionConstraint)
+  spec.csharp:
+  - uid: BepuPhysics.Constraints.IConstraintDescription{Prowl.Runtime.Controller.StaticCharacterMotionConstraint}.BuildDescription(BepuPhysics.Constraints.TypeBatch@,System.Int32,System.Int32,Prowl.Runtime.Controller.StaticCharacterMotionConstraint@)
+    name: BuildDescription
+    isExternal: true
+  - name: (
+  - name: ref
+  - name: " "
+  - uid: BepuPhysics.Constraints.TypeBatch
+    name: TypeBatch
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - name: out
+  - name: " "
+  - uid: Prowl.Runtime.Controller.StaticCharacterMotionConstraint
+    name: StaticCharacterMotionConstraint
+    href: Prowl.Runtime.Controller.StaticCharacterMotionConstraint.html
+  - name: )
+  spec.vb:
+  - uid: BepuPhysics.Constraints.IConstraintDescription{Prowl.Runtime.Controller.StaticCharacterMotionConstraint}.BuildDescription(BepuPhysics.Constraints.TypeBatch@,System.Int32,System.Int32,Prowl.Runtime.Controller.StaticCharacterMotionConstraint@)
+    name: BuildDescription
+    isExternal: true
+  - name: (
+  - uid: BepuPhysics.Constraints.TypeBatch
+    name: TypeBatch
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: Prowl.Runtime.Controller.StaticCharacterMotionConstraint
+    name: StaticCharacterMotionConstraint
+    href: Prowl.Runtime.Controller.StaticCharacterMotionConstraint.html
+  - name: )
+- uid: Prowl.Runtime.Controller.StaticCharacterMotionConstraint
+  commentId: T:Prowl.Runtime.Controller.StaticCharacterMotionConstraint
+  parent: Prowl.Runtime.Controller
+  href: Prowl.Runtime.Controller.StaticCharacterMotionConstraint.html
+  name: StaticCharacterMotionConstraint
+  nameWithType: StaticCharacterMotionConstraint
+  fullName: Prowl.Runtime.Controller.StaticCharacterMotionConstraint
+- uid: BepuPhysics.Constraints.IConstraintDescription`1.BuildDescription(BepuPhysics.Constraints.TypeBatch@,System.Int32,System.Int32,`0@)
+  commentId: M:BepuPhysics.Constraints.IConstraintDescription`1.BuildDescription(BepuPhysics.Constraints.TypeBatch@,System.Int32,System.Int32,`0@)
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: BuildDescription(ref TypeBatch, int, int, out TDescription)
+  nameWithType: IConstraintDescription<TDescription>.BuildDescription(ref TypeBatch, int, int, out TDescription)
+  fullName: BepuPhysics.Constraints.IConstraintDescription<TDescription>.BuildDescription(ref BepuPhysics.Constraints.TypeBatch, int, int, out TDescription)
+  nameWithType.vb: IConstraintDescription(Of TDescription).BuildDescription(TypeBatch, Integer, Integer, TDescription)
+  fullName.vb: BepuPhysics.Constraints.IConstraintDescription(Of TDescription).BuildDescription(BepuPhysics.Constraints.TypeBatch, Integer, Integer, TDescription)
+  name.vb: BuildDescription(TypeBatch, Integer, Integer, TDescription)
+  spec.csharp:
+  - uid: BepuPhysics.Constraints.IConstraintDescription`1.BuildDescription(BepuPhysics.Constraints.TypeBatch@,System.Int32,System.Int32,`0@)
+    name: BuildDescription
+    isExternal: true
+  - name: (
+  - name: ref
+  - name: " "
+  - uid: BepuPhysics.Constraints.TypeBatch
+    name: TypeBatch
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - name: out
+  - name: " "
+  - name: TDescription
+  - name: )
+  spec.vb:
+  - uid: BepuPhysics.Constraints.IConstraintDescription`1.BuildDescription(BepuPhysics.Constraints.TypeBatch@,System.Int32,System.Int32,`0@)
+    name: BuildDescription
+    isExternal: true
+  - name: (
+  - uid: BepuPhysics.Constraints.TypeBatch
+    name: TypeBatch
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - name: TDescription
+  - name: )

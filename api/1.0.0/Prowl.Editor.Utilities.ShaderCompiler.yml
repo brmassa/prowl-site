@@ -1,0 +1,769 @@
+### YamlMime:ManagedReference
+items:
+- uid: Prowl.Editor.Utilities.ShaderCompiler
+  commentId: T:Prowl.Editor.Utilities.ShaderCompiler
+  id: ShaderCompiler
+  parent: Prowl.Editor.Utilities
+  children:
+  - Prowl.Editor.Utilities.ShaderCompiler.Compile(Prowl.Editor.Utilities.ShaderCreationArgs,Prowl.Runtime.KeywordState,Prowl.Editor.Utilities.FileIncluder,System.Collections.Generic.List{Prowl.Editor.Utilities.CompilationMessage})
+  - Prowl.Editor.Utilities.ShaderCompiler.CrossCompile(SPIRVCross.NET.Context,Veldrid.GraphicsBackend,Veldrid.ShaderDescription[])
+  - Prowl.Editor.Utilities.ShaderCompiler.GenerateVariant(SPIRVCross.NET.Context,Prowl.Editor.Utilities.ShaderCreationArgs,Prowl.Runtime.KeywordState,Prowl.Editor.Utilities.FileIncluder,System.Collections.Generic.List{Prowl.Editor.Utilities.CompilationMessage})
+  - Prowl.Editor.Utilities.ShaderCompiler.GenerateVariants(Prowl.Editor.Utilities.ShaderCreationArgs,Prowl.Editor.Utilities.FileIncluder,System.Collections.Generic.List{Prowl.Editor.Utilities.CompilationMessage})
+  - Prowl.Editor.Utilities.ShaderCompiler.Reflect(SPIRVCross.NET.Context,Veldrid.ShaderDescription[])
+  langs:
+  - csharp
+  - vb
+  name: ShaderCompiler
+  nameWithType: ShaderCompiler
+  fullName: Prowl.Editor.Utilities.ShaderCompiler
+  type: Class
+  source:
+    remote:
+      path: Prowl.Editor/Utilities/ShaderCompiler/ShaderCrossCompiler.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: ShaderCompiler
+    path: ../Prowl/Prowl.Editor/Utilities/ShaderCompiler/ShaderCrossCompiler.cs
+    startLine: 25
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor.Utilities
+  syntax:
+    content: public static class ShaderCompiler
+    content.vb: Public Module ShaderCompiler
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: Prowl.Editor.Utilities.ShaderCompiler.Compile(Prowl.Editor.Utilities.ShaderCreationArgs,Prowl.Runtime.KeywordState,Prowl.Editor.Utilities.FileIncluder,System.Collections.Generic.List{Prowl.Editor.Utilities.CompilationMessage})
+  commentId: M:Prowl.Editor.Utilities.ShaderCompiler.Compile(Prowl.Editor.Utilities.ShaderCreationArgs,Prowl.Runtime.KeywordState,Prowl.Editor.Utilities.FileIncluder,System.Collections.Generic.List{Prowl.Editor.Utilities.CompilationMessage})
+  id: Compile(Prowl.Editor.Utilities.ShaderCreationArgs,Prowl.Runtime.KeywordState,Prowl.Editor.Utilities.FileIncluder,System.Collections.Generic.List{Prowl.Editor.Utilities.CompilationMessage})
+  parent: Prowl.Editor.Utilities.ShaderCompiler
+  langs:
+  - csharp
+  - vb
+  name: Compile(ShaderCreationArgs, KeywordState, FileIncluder, List<CompilationMessage>)
+  nameWithType: ShaderCompiler.Compile(ShaderCreationArgs, KeywordState, FileIncluder, List<CompilationMessage>)
+  fullName: Prowl.Editor.Utilities.ShaderCompiler.Compile(Prowl.Editor.Utilities.ShaderCreationArgs, Prowl.Runtime.KeywordState, Prowl.Editor.Utilities.FileIncluder, System.Collections.Generic.List<Prowl.Editor.Utilities.CompilationMessage>)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Editor/Utilities/ShaderCompiler/ShaderCompiler.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Compile
+    path: ../Prowl/Prowl.Editor/Utilities/ShaderCompiler/ShaderCompiler.cs
+    startLine: 72
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor.Utilities
+  syntax:
+    content: public static ShaderDescription[] Compile(ShaderCreationArgs args, KeywordState keywords, FileIncluder includer, List<CompilationMessage> messages)
+    parameters:
+    - id: args
+      type: Prowl.Editor.Utilities.ShaderCreationArgs
+    - id: keywords
+      type: Prowl.Runtime.KeywordState
+    - id: includer
+      type: Prowl.Editor.Utilities.FileIncluder
+    - id: messages
+      type: System.Collections.Generic.List{Prowl.Editor.Utilities.CompilationMessage}
+    return:
+      type: Veldrid.ShaderDescription[]
+    content.vb: Public Shared Function Compile(args As ShaderCreationArgs, keywords As KeywordState, includer As FileIncluder, messages As List(Of CompilationMessage)) As ShaderDescription()
+  overload: Prowl.Editor.Utilities.ShaderCompiler.Compile*
+  nameWithType.vb: ShaderCompiler.Compile(ShaderCreationArgs, KeywordState, FileIncluder, List(Of CompilationMessage))
+  fullName.vb: Prowl.Editor.Utilities.ShaderCompiler.Compile(Prowl.Editor.Utilities.ShaderCreationArgs, Prowl.Runtime.KeywordState, Prowl.Editor.Utilities.FileIncluder, System.Collections.Generic.List(Of Prowl.Editor.Utilities.CompilationMessage))
+  name.vb: Compile(ShaderCreationArgs, KeywordState, FileIncluder, List(Of CompilationMessage))
+- uid: Prowl.Editor.Utilities.ShaderCompiler.GenerateVariants(Prowl.Editor.Utilities.ShaderCreationArgs,Prowl.Editor.Utilities.FileIncluder,System.Collections.Generic.List{Prowl.Editor.Utilities.CompilationMessage})
+  commentId: M:Prowl.Editor.Utilities.ShaderCompiler.GenerateVariants(Prowl.Editor.Utilities.ShaderCreationArgs,Prowl.Editor.Utilities.FileIncluder,System.Collections.Generic.List{Prowl.Editor.Utilities.CompilationMessage})
+  id: GenerateVariants(Prowl.Editor.Utilities.ShaderCreationArgs,Prowl.Editor.Utilities.FileIncluder,System.Collections.Generic.List{Prowl.Editor.Utilities.CompilationMessage})
+  parent: Prowl.Editor.Utilities.ShaderCompiler
+  langs:
+  - csharp
+  - vb
+  name: GenerateVariants(ShaderCreationArgs, FileIncluder, List<CompilationMessage>)
+  nameWithType: ShaderCompiler.GenerateVariants(ShaderCreationArgs, FileIncluder, List<CompilationMessage>)
+  fullName: Prowl.Editor.Utilities.ShaderCompiler.GenerateVariants(Prowl.Editor.Utilities.ShaderCreationArgs, Prowl.Editor.Utilities.FileIncluder, System.Collections.Generic.List<Prowl.Editor.Utilities.CompilationMessage>)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Editor/Utilities/ShaderCompiler/ShaderCompiler.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: GenerateVariants
+    path: ../Prowl/Prowl.Editor/Utilities/ShaderCompiler/ShaderCompiler.cs
+    startLine: 113
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor.Utilities
+  syntax:
+    content: public static ShaderVariant[] GenerateVariants(ShaderCreationArgs args, FileIncluder includer, List<CompilationMessage> messages)
+    parameters:
+    - id: args
+      type: Prowl.Editor.Utilities.ShaderCreationArgs
+    - id: includer
+      type: Prowl.Editor.Utilities.FileIncluder
+    - id: messages
+      type: System.Collections.Generic.List{Prowl.Editor.Utilities.CompilationMessage}
+    return:
+      type: Prowl.Runtime.ShaderVariant[]
+    content.vb: Public Shared Function GenerateVariants(args As ShaderCreationArgs, includer As FileIncluder, messages As List(Of CompilationMessage)) As ShaderVariant()
+  overload: Prowl.Editor.Utilities.ShaderCompiler.GenerateVariants*
+  nameWithType.vb: ShaderCompiler.GenerateVariants(ShaderCreationArgs, FileIncluder, List(Of CompilationMessage))
+  fullName.vb: Prowl.Editor.Utilities.ShaderCompiler.GenerateVariants(Prowl.Editor.Utilities.ShaderCreationArgs, Prowl.Editor.Utilities.FileIncluder, System.Collections.Generic.List(Of Prowl.Editor.Utilities.CompilationMessage))
+  name.vb: GenerateVariants(ShaderCreationArgs, FileIncluder, List(Of CompilationMessage))
+- uid: Prowl.Editor.Utilities.ShaderCompiler.GenerateVariant(SPIRVCross.NET.Context,Prowl.Editor.Utilities.ShaderCreationArgs,Prowl.Runtime.KeywordState,Prowl.Editor.Utilities.FileIncluder,System.Collections.Generic.List{Prowl.Editor.Utilities.CompilationMessage})
+  commentId: M:Prowl.Editor.Utilities.ShaderCompiler.GenerateVariant(SPIRVCross.NET.Context,Prowl.Editor.Utilities.ShaderCreationArgs,Prowl.Runtime.KeywordState,Prowl.Editor.Utilities.FileIncluder,System.Collections.Generic.List{Prowl.Editor.Utilities.CompilationMessage})
+  id: GenerateVariant(SPIRVCross.NET.Context,Prowl.Editor.Utilities.ShaderCreationArgs,Prowl.Runtime.KeywordState,Prowl.Editor.Utilities.FileIncluder,System.Collections.Generic.List{Prowl.Editor.Utilities.CompilationMessage})
+  parent: Prowl.Editor.Utilities.ShaderCompiler
+  langs:
+  - csharp
+  - vb
+  name: GenerateVariant(Context, ShaderCreationArgs, KeywordState, FileIncluder, List<CompilationMessage>)
+  nameWithType: ShaderCompiler.GenerateVariant(Context, ShaderCreationArgs, KeywordState, FileIncluder, List<CompilationMessage>)
+  fullName: Prowl.Editor.Utilities.ShaderCompiler.GenerateVariant(SPIRVCross.NET.Context, Prowl.Editor.Utilities.ShaderCreationArgs, Prowl.Runtime.KeywordState, Prowl.Editor.Utilities.FileIncluder, System.Collections.Generic.List<Prowl.Editor.Utilities.CompilationMessage>)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Editor/Utilities/ShaderCompiler/ShaderCompiler.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: GenerateVariant
+    path: ../Prowl/Prowl.Editor/Utilities/ShaderCompiler/ShaderCompiler.cs
+    startLine: 146
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor.Utilities
+  syntax:
+    content: public static ShaderVariant GenerateVariant(Context ctx, ShaderCreationArgs args, KeywordState state, FileIncluder includer, List<CompilationMessage> messages)
+    parameters:
+    - id: ctx
+      type: SPIRVCross.NET.Context
+    - id: args
+      type: Prowl.Editor.Utilities.ShaderCreationArgs
+    - id: state
+      type: Prowl.Runtime.KeywordState
+    - id: includer
+      type: Prowl.Editor.Utilities.FileIncluder
+    - id: messages
+      type: System.Collections.Generic.List{Prowl.Editor.Utilities.CompilationMessage}
+    return:
+      type: Prowl.Runtime.ShaderVariant
+    content.vb: Public Shared Function GenerateVariant(ctx As Context, args As ShaderCreationArgs, state As KeywordState, includer As FileIncluder, messages As List(Of CompilationMessage)) As ShaderVariant
+  overload: Prowl.Editor.Utilities.ShaderCompiler.GenerateVariant*
+  nameWithType.vb: ShaderCompiler.GenerateVariant(Context, ShaderCreationArgs, KeywordState, FileIncluder, List(Of CompilationMessage))
+  fullName.vb: Prowl.Editor.Utilities.ShaderCompiler.GenerateVariant(SPIRVCross.NET.Context, Prowl.Editor.Utilities.ShaderCreationArgs, Prowl.Runtime.KeywordState, Prowl.Editor.Utilities.FileIncluder, System.Collections.Generic.List(Of Prowl.Editor.Utilities.CompilationMessage))
+  name.vb: GenerateVariant(Context, ShaderCreationArgs, KeywordState, FileIncluder, List(Of CompilationMessage))
+- uid: Prowl.Editor.Utilities.ShaderCompiler.Reflect(SPIRVCross.NET.Context,Veldrid.ShaderDescription[])
+  commentId: M:Prowl.Editor.Utilities.ShaderCompiler.Reflect(SPIRVCross.NET.Context,Veldrid.ShaderDescription[])
+  id: Reflect(SPIRVCross.NET.Context,Veldrid.ShaderDescription[])
+  parent: Prowl.Editor.Utilities.ShaderCompiler
+  langs:
+  - csharp
+  - vb
+  name: Reflect(Context, ShaderDescription[])
+  nameWithType: ShaderCompiler.Reflect(Context, ShaderDescription[])
+  fullName: Prowl.Editor.Utilities.ShaderCompiler.Reflect(SPIRVCross.NET.Context, Veldrid.ShaderDescription[])
+  type: Method
+  source:
+    remote:
+      path: Prowl.Editor/Utilities/ShaderCompiler/ShaderCrossCompiler.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Reflect
+    path: ../Prowl/Prowl.Editor/Utilities/ShaderCompiler/ShaderCrossCompiler.cs
+    startLine: 27
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor.Utilities
+  syntax:
+    content: public static ReflectedResourceInfo Reflect(Context context, ShaderDescription[] compiledSPIRV)
+    parameters:
+    - id: context
+      type: SPIRVCross.NET.Context
+    - id: compiledSPIRV
+      type: Veldrid.ShaderDescription[]
+    return:
+      type: Prowl.Editor.Utilities.ReflectedResourceInfo
+    content.vb: Public Shared Function Reflect(context As Context, compiledSPIRV As ShaderDescription()) As ReflectedResourceInfo
+  overload: Prowl.Editor.Utilities.ShaderCompiler.Reflect*
+  nameWithType.vb: ShaderCompiler.Reflect(Context, ShaderDescription())
+  fullName.vb: Prowl.Editor.Utilities.ShaderCompiler.Reflect(SPIRVCross.NET.Context, Veldrid.ShaderDescription())
+  name.vb: Reflect(Context, ShaderDescription())
+- uid: Prowl.Editor.Utilities.ShaderCompiler.CrossCompile(SPIRVCross.NET.Context,Veldrid.GraphicsBackend,Veldrid.ShaderDescription[])
+  commentId: M:Prowl.Editor.Utilities.ShaderCompiler.CrossCompile(SPIRVCross.NET.Context,Veldrid.GraphicsBackend,Veldrid.ShaderDescription[])
+  id: CrossCompile(SPIRVCross.NET.Context,Veldrid.GraphicsBackend,Veldrid.ShaderDescription[])
+  parent: Prowl.Editor.Utilities.ShaderCompiler
+  langs:
+  - csharp
+  - vb
+  name: CrossCompile(Context, GraphicsBackend, ShaderDescription[])
+  nameWithType: ShaderCompiler.CrossCompile(Context, GraphicsBackend, ShaderDescription[])
+  fullName: Prowl.Editor.Utilities.ShaderCompiler.CrossCompile(SPIRVCross.NET.Context, Veldrid.GraphicsBackend, Veldrid.ShaderDescription[])
+  type: Method
+  source:
+    remote:
+      path: Prowl.Editor/Utilities/ShaderCompiler/ShaderCrossCompiler.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: CrossCompile
+    path: ../Prowl/Prowl.Editor/Utilities/ShaderCompiler/ShaderCrossCompiler.cs
+    startLine: 56
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor.Utilities
+  syntax:
+    content: public static ShaderDescription[] CrossCompile(Context context, GraphicsBackend backend, ShaderDescription[] compiledSPIRV)
+    parameters:
+    - id: context
+      type: SPIRVCross.NET.Context
+    - id: backend
+      type: Veldrid.GraphicsBackend
+    - id: compiledSPIRV
+      type: Veldrid.ShaderDescription[]
+    return:
+      type: Veldrid.ShaderDescription[]
+    content.vb: Public Shared Function CrossCompile(context As Context, backend As GraphicsBackend, compiledSPIRV As ShaderDescription()) As ShaderDescription()
+  overload: Prowl.Editor.Utilities.ShaderCompiler.CrossCompile*
+  nameWithType.vb: ShaderCompiler.CrossCompile(Context, GraphicsBackend, ShaderDescription())
+  fullName.vb: Prowl.Editor.Utilities.ShaderCompiler.CrossCompile(SPIRVCross.NET.Context, Veldrid.GraphicsBackend, Veldrid.ShaderDescription())
+  name.vb: CrossCompile(Context, GraphicsBackend, ShaderDescription())
+references:
+- uid: Prowl.Editor.Utilities
+  commentId: N:Prowl.Editor.Utilities
+  href: Prowl.html
+  name: Prowl.Editor.Utilities
+  nameWithType: Prowl.Editor.Utilities
+  fullName: Prowl.Editor.Utilities
+  spec.csharp:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Editor
+    name: Editor
+    href: Prowl.Editor.html
+  - name: .
+  - uid: Prowl.Editor.Utilities
+    name: Utilities
+    href: Prowl.Editor.Utilities.html
+  spec.vb:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Editor
+    name: Editor
+    href: Prowl.Editor.html
+  - name: .
+  - uid: Prowl.Editor.Utilities
+    name: Utilities
+    href: Prowl.Editor.Utilities.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Prowl.Editor.Utilities.ShaderCompiler.Compile*
+  commentId: Overload:Prowl.Editor.Utilities.ShaderCompiler.Compile
+  href: Prowl.Editor.Utilities.ShaderCompiler.html#Prowl_Editor_Utilities_ShaderCompiler_Compile_Prowl_Editor_Utilities_ShaderCreationArgs_Prowl_Runtime_KeywordState_Prowl_Editor_Utilities_FileIncluder_System_Collections_Generic_List_Prowl_Editor_Utilities_CompilationMessage__
+  name: Compile
+  nameWithType: ShaderCompiler.Compile
+  fullName: Prowl.Editor.Utilities.ShaderCompiler.Compile
+- uid: Prowl.Editor.Utilities.ShaderCreationArgs
+  commentId: T:Prowl.Editor.Utilities.ShaderCreationArgs
+  parent: Prowl.Editor.Utilities
+  href: Prowl.Editor.Utilities.ShaderCreationArgs.html
+  name: ShaderCreationArgs
+  nameWithType: ShaderCreationArgs
+  fullName: Prowl.Editor.Utilities.ShaderCreationArgs
+- uid: Prowl.Runtime.KeywordState
+  commentId: T:Prowl.Runtime.KeywordState
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.KeywordState.html
+  name: KeywordState
+  nameWithType: KeywordState
+  fullName: Prowl.Runtime.KeywordState
+- uid: Prowl.Editor.Utilities.FileIncluder
+  commentId: T:Prowl.Editor.Utilities.FileIncluder
+  parent: Prowl.Editor.Utilities
+  href: Prowl.Editor.Utilities.FileIncluder.html
+  name: FileIncluder
+  nameWithType: FileIncluder
+  fullName: Prowl.Editor.Utilities.FileIncluder
+- uid: System.Collections.Generic.List{Prowl.Editor.Utilities.CompilationMessage}
+  commentId: T:System.Collections.Generic.List{Prowl.Editor.Utilities.CompilationMessage}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<CompilationMessage>
+  nameWithType: List<CompilationMessage>
+  fullName: System.Collections.Generic.List<Prowl.Editor.Utilities.CompilationMessage>
+  nameWithType.vb: List(Of CompilationMessage)
+  fullName.vb: System.Collections.Generic.List(Of Prowl.Editor.Utilities.CompilationMessage)
+  name.vb: List(Of CompilationMessage)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - uid: Prowl.Editor.Utilities.CompilationMessage
+    name: CompilationMessage
+    href: Prowl.Editor.Utilities.CompilationMessage.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Prowl.Editor.Utilities.CompilationMessage
+    name: CompilationMessage
+    href: Prowl.Editor.Utilities.CompilationMessage.html
+  - name: )
+- uid: Veldrid.ShaderDescription[]
+  isExternal: true
+  name: ShaderDescription[]
+  nameWithType: ShaderDescription[]
+  fullName: Veldrid.ShaderDescription[]
+  nameWithType.vb: ShaderDescription()
+  fullName.vb: Veldrid.ShaderDescription()
+  name.vb: ShaderDescription()
+  spec.csharp:
+  - uid: Veldrid.ShaderDescription
+    name: ShaderDescription
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: Veldrid.ShaderDescription
+    name: ShaderDescription
+  - name: (
+  - name: )
+- uid: Prowl.Runtime
+  commentId: N:Prowl.Runtime
+  href: Prowl.html
+  name: Prowl.Runtime
+  nameWithType: Prowl.Runtime
+  fullName: Prowl.Runtime
+  spec.csharp:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+  spec.vb:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: Prowl.Editor.Utilities.ShaderCompiler.GenerateVariants*
+  commentId: Overload:Prowl.Editor.Utilities.ShaderCompiler.GenerateVariants
+  href: Prowl.Editor.Utilities.ShaderCompiler.html#Prowl_Editor_Utilities_ShaderCompiler_GenerateVariants_Prowl_Editor_Utilities_ShaderCreationArgs_Prowl_Editor_Utilities_FileIncluder_System_Collections_Generic_List_Prowl_Editor_Utilities_CompilationMessage__
+  name: GenerateVariants
+  nameWithType: ShaderCompiler.GenerateVariants
+  fullName: Prowl.Editor.Utilities.ShaderCompiler.GenerateVariants
+- uid: Prowl.Runtime.ShaderVariant[]
+  isExternal: true
+  href: Prowl.Runtime.ShaderVariant.html
+  name: ShaderVariant[]
+  nameWithType: ShaderVariant[]
+  fullName: Prowl.Runtime.ShaderVariant[]
+  nameWithType.vb: ShaderVariant()
+  fullName.vb: Prowl.Runtime.ShaderVariant()
+  name.vb: ShaderVariant()
+  spec.csharp:
+  - uid: Prowl.Runtime.ShaderVariant
+    name: ShaderVariant
+    href: Prowl.Runtime.ShaderVariant.html
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: Prowl.Runtime.ShaderVariant
+    name: ShaderVariant
+    href: Prowl.Runtime.ShaderVariant.html
+  - name: (
+  - name: )
+- uid: Prowl.Editor.Utilities.ShaderCompiler.GenerateVariant*
+  commentId: Overload:Prowl.Editor.Utilities.ShaderCompiler.GenerateVariant
+  href: Prowl.Editor.Utilities.ShaderCompiler.html#Prowl_Editor_Utilities_ShaderCompiler_GenerateVariant_SPIRVCross_NET_Context_Prowl_Editor_Utilities_ShaderCreationArgs_Prowl_Runtime_KeywordState_Prowl_Editor_Utilities_FileIncluder_System_Collections_Generic_List_Prowl_Editor_Utilities_CompilationMessage__
+  name: GenerateVariant
+  nameWithType: ShaderCompiler.GenerateVariant
+  fullName: Prowl.Editor.Utilities.ShaderCompiler.GenerateVariant
+- uid: SPIRVCross.NET.Context
+  commentId: T:SPIRVCross.NET.Context
+  parent: SPIRVCross.NET
+  isExternal: true
+  name: Context
+  nameWithType: Context
+  fullName: SPIRVCross.NET.Context
+- uid: Prowl.Runtime.ShaderVariant
+  commentId: T:Prowl.Runtime.ShaderVariant
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.ShaderVariant.html
+  name: ShaderVariant
+  nameWithType: ShaderVariant
+  fullName: Prowl.Runtime.ShaderVariant
+- uid: SPIRVCross.NET
+  commentId: N:SPIRVCross.NET
+  isExternal: true
+  name: SPIRVCross.NET
+  nameWithType: SPIRVCross.NET
+  fullName: SPIRVCross.NET
+  spec.csharp:
+  - uid: SPIRVCross
+    name: SPIRVCross
+    isExternal: true
+  - name: .
+  - uid: SPIRVCross.NET
+    name: NET
+    isExternal: true
+  spec.vb:
+  - uid: SPIRVCross
+    name: SPIRVCross
+    isExternal: true
+  - name: .
+  - uid: SPIRVCross.NET
+    name: NET
+    isExternal: true
+- uid: Prowl.Editor.Utilities.ShaderCompiler.Reflect*
+  commentId: Overload:Prowl.Editor.Utilities.ShaderCompiler.Reflect
+  href: Prowl.Editor.Utilities.ShaderCompiler.html#Prowl_Editor_Utilities_ShaderCompiler_Reflect_SPIRVCross_NET_Context_Veldrid_ShaderDescription___
+  name: Reflect
+  nameWithType: ShaderCompiler.Reflect
+  fullName: Prowl.Editor.Utilities.ShaderCompiler.Reflect
+- uid: Prowl.Editor.Utilities.ReflectedResourceInfo
+  commentId: T:Prowl.Editor.Utilities.ReflectedResourceInfo
+  parent: Prowl.Editor.Utilities
+  href: Prowl.Editor.Utilities.ReflectedResourceInfo.html
+  name: ReflectedResourceInfo
+  nameWithType: ReflectedResourceInfo
+  fullName: Prowl.Editor.Utilities.ReflectedResourceInfo
+- uid: Prowl.Editor.Utilities.ShaderCompiler.CrossCompile*
+  commentId: Overload:Prowl.Editor.Utilities.ShaderCompiler.CrossCompile
+  href: Prowl.Editor.Utilities.ShaderCompiler.html#Prowl_Editor_Utilities_ShaderCompiler_CrossCompile_SPIRVCross_NET_Context_Veldrid_GraphicsBackend_Veldrid_ShaderDescription___
+  name: CrossCompile
+  nameWithType: ShaderCompiler.CrossCompile
+  fullName: Prowl.Editor.Utilities.ShaderCompiler.CrossCompile
+- uid: Veldrid.GraphicsBackend
+  commentId: T:Veldrid.GraphicsBackend
+  parent: Veldrid
+  name: GraphicsBackend
+  nameWithType: GraphicsBackend
+  fullName: Veldrid.GraphicsBackend
+- uid: Veldrid
+  commentId: N:Veldrid
+  name: Veldrid
+  nameWithType: Veldrid
+  fullName: Veldrid

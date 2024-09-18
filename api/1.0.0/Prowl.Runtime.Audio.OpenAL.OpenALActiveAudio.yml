@@ -1,0 +1,1161 @@
+### YamlMime:ManagedReference
+items:
+- uid: Prowl.Runtime.Audio.OpenAL.OpenALActiveAudio
+  commentId: T:Prowl.Runtime.Audio.OpenAL.OpenALActiveAudio
+  id: OpenALActiveAudio
+  parent: Prowl.Runtime.Audio.OpenAL
+  children:
+  - Prowl.Runtime.Audio.OpenAL.OpenALActiveAudio.#ctor
+  - Prowl.Runtime.Audio.OpenAL.OpenALActiveAudio.Direction
+  - Prowl.Runtime.Audio.OpenAL.OpenALActiveAudio.Dispose
+  - Prowl.Runtime.Audio.OpenAL.OpenALActiveAudio.Gain
+  - Prowl.Runtime.Audio.OpenAL.OpenALActiveAudio.ID
+  - Prowl.Runtime.Audio.OpenAL.OpenALActiveAudio.IsPlaying
+  - Prowl.Runtime.Audio.OpenAL.OpenALActiveAudio.Looping
+  - Prowl.Runtime.Audio.OpenAL.OpenALActiveAudio.MaxDistance
+  - Prowl.Runtime.Audio.OpenAL.OpenALActiveAudio.Pitch
+  - Prowl.Runtime.Audio.OpenAL.OpenALActiveAudio.Play(Prowl.Runtime.Audio.AudioBuffer)
+  - Prowl.Runtime.Audio.OpenAL.OpenALActiveAudio.PlaybackPosition
+  - Prowl.Runtime.Audio.OpenAL.OpenALActiveAudio.Position
+  - Prowl.Runtime.Audio.OpenAL.OpenALActiveAudio.PositionKind
+  - Prowl.Runtime.Audio.OpenAL.OpenALActiveAudio.Stop
+  langs:
+  - csharp
+  - vb
+  name: OpenALActiveAudio
+  nameWithType: OpenALActiveAudio
+  fullName: Prowl.Runtime.Audio.OpenAL.OpenALActiveAudio
+  type: Class
+  source:
+    remote:
+      path: Prowl.Runtime/Audio/OpenAL/OpenALActiveAudio.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: OpenALActiveAudio
+    path: ../Prowl/Prowl.Runtime/Audio/OpenAL/OpenALActiveAudio.cs
+    startLine: 9
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.Audio.OpenAL
+  syntax:
+    content: 'public class OpenALActiveAudio : ActiveAudio, IDisposable'
+    content.vb: Public Class OpenALActiveAudio Inherits ActiveAudio Implements IDisposable
+  inheritance:
+  - System.Object
+  - Prowl.Runtime.Audio.ActiveAudio
+  implements:
+  - System.IDisposable
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  extensionMethods:
+  - System.Object.Prowl.Runtime.RuntimeUtils.GetSerializableFields
+- uid: Prowl.Runtime.Audio.OpenAL.OpenALActiveAudio.#ctor
+  commentId: M:Prowl.Runtime.Audio.OpenAL.OpenALActiveAudio.#ctor
+  id: '#ctor'
+  parent: Prowl.Runtime.Audio.OpenAL.OpenALActiveAudio
+  langs:
+  - csharp
+  - vb
+  name: OpenALActiveAudio()
+  nameWithType: OpenALActiveAudio.OpenALActiveAudio()
+  fullName: Prowl.Runtime.Audio.OpenAL.OpenALActiveAudio.OpenALActiveAudio()
+  type: Constructor
+  source:
+    remote:
+      path: Prowl.Runtime/Audio/OpenAL/OpenALActiveAudio.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: .ctor
+    path: ../Prowl/Prowl.Runtime/Audio/OpenAL/OpenALActiveAudio.cs
+    startLine: 11
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.Audio.OpenAL
+  syntax:
+    content: public OpenALActiveAudio()
+    content.vb: Public Sub New()
+  overload: Prowl.Runtime.Audio.OpenAL.OpenALActiveAudio.#ctor*
+  nameWithType.vb: OpenALActiveAudio.New()
+  fullName.vb: Prowl.Runtime.Audio.OpenAL.OpenALActiveAudio.New()
+  name.vb: New()
+- uid: Prowl.Runtime.Audio.OpenAL.OpenALActiveAudio.ID
+  commentId: P:Prowl.Runtime.Audio.OpenAL.OpenALActiveAudio.ID
+  id: ID
+  parent: Prowl.Runtime.Audio.OpenAL.OpenALActiveAudio
+  langs:
+  - csharp
+  - vb
+  name: ID
+  nameWithType: OpenALActiveAudio.ID
+  fullName: Prowl.Runtime.Audio.OpenAL.OpenALActiveAudio.ID
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/Audio/OpenAL/OpenALActiveAudio.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: ID
+    path: ../Prowl/Prowl.Runtime/Audio/OpenAL/OpenALActiveAudio.cs
+    startLine: 18
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.Audio.OpenAL
+  syntax:
+    content: public uint ID { get; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public ReadOnly Property ID As UInteger
+  overload: Prowl.Runtime.Audio.OpenAL.OpenALActiveAudio.ID*
+- uid: Prowl.Runtime.Audio.OpenAL.OpenALActiveAudio.Gain
+  commentId: P:Prowl.Runtime.Audio.OpenAL.OpenALActiveAudio.Gain
+  id: Gain
+  parent: Prowl.Runtime.Audio.OpenAL.OpenALActiveAudio
+  langs:
+  - csharp
+  - vb
+  name: Gain
+  nameWithType: OpenALActiveAudio.Gain
+  fullName: Prowl.Runtime.Audio.OpenAL.OpenALActiveAudio.Gain
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/Audio/OpenAL/OpenALActiveAudio.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Gain
+    path: ../Prowl/Prowl.Runtime/Audio/OpenAL/OpenALActiveAudio.cs
+    startLine: 20
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.Audio.OpenAL
+  example: []
+  syntax:
+    content: public override float Gain { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Overrides Property Gain As Single
+  overridden: Prowl.Runtime.Audio.ActiveAudio.Gain
+  overload: Prowl.Runtime.Audio.OpenAL.OpenALActiveAudio.Gain*
+- uid: Prowl.Runtime.Audio.OpenAL.OpenALActiveAudio.Pitch
+  commentId: P:Prowl.Runtime.Audio.OpenAL.OpenALActiveAudio.Pitch
+  id: Pitch
+  parent: Prowl.Runtime.Audio.OpenAL.OpenALActiveAudio
+  langs:
+  - csharp
+  - vb
+  name: Pitch
+  nameWithType: OpenALActiveAudio.Pitch
+  fullName: Prowl.Runtime.Audio.OpenAL.OpenALActiveAudio.Pitch
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/Audio/OpenAL/OpenALActiveAudio.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Pitch
+    path: ../Prowl/Prowl.Runtime/Audio/OpenAL/OpenALActiveAudio.cs
+    startLine: 33
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.Audio.OpenAL
+  example: []
+  syntax:
+    content: public override float Pitch { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Overrides Property Pitch As Single
+  overridden: Prowl.Runtime.Audio.ActiveAudio.Pitch
+  overload: Prowl.Runtime.Audio.OpenAL.OpenALActiveAudio.Pitch*
+- uid: Prowl.Runtime.Audio.OpenAL.OpenALActiveAudio.MaxDistance
+  commentId: P:Prowl.Runtime.Audio.OpenAL.OpenALActiveAudio.MaxDistance
+  id: MaxDistance
+  parent: Prowl.Runtime.Audio.OpenAL.OpenALActiveAudio
+  langs:
+  - csharp
+  - vb
+  name: MaxDistance
+  nameWithType: OpenALActiveAudio.MaxDistance
+  fullName: Prowl.Runtime.Audio.OpenAL.OpenALActiveAudio.MaxDistance
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/Audio/OpenAL/OpenALActiveAudio.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: MaxDistance
+    path: ../Prowl/Prowl.Runtime/Audio/OpenAL/OpenALActiveAudio.cs
+    startLine: 49
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.Audio.OpenAL
+  example: []
+  syntax:
+    content: public override float MaxDistance { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Overrides Property MaxDistance As Single
+  overridden: Prowl.Runtime.Audio.ActiveAudio.MaxDistance
+  overload: Prowl.Runtime.Audio.OpenAL.OpenALActiveAudio.MaxDistance*
+- uid: Prowl.Runtime.Audio.OpenAL.OpenALActiveAudio.Looping
+  commentId: P:Prowl.Runtime.Audio.OpenAL.OpenALActiveAudio.Looping
+  id: Looping
+  parent: Prowl.Runtime.Audio.OpenAL.OpenALActiveAudio
+  langs:
+  - csharp
+  - vb
+  name: Looping
+  nameWithType: OpenALActiveAudio.Looping
+  fullName: Prowl.Runtime.Audio.OpenAL.OpenALActiveAudio.Looping
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/Audio/OpenAL/OpenALActiveAudio.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Looping
+    path: ../Prowl/Prowl.Runtime/Audio/OpenAL/OpenALActiveAudio.cs
+    startLine: 62
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.Audio.OpenAL
+  example: []
+  syntax:
+    content: public override bool Looping { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overrides Property Looping As Boolean
+  overridden: Prowl.Runtime.Audio.ActiveAudio.Looping
+  overload: Prowl.Runtime.Audio.OpenAL.OpenALActiveAudio.Looping*
+- uid: Prowl.Runtime.Audio.OpenAL.OpenALActiveAudio.Position
+  commentId: P:Prowl.Runtime.Audio.OpenAL.OpenALActiveAudio.Position
+  id: Position
+  parent: Prowl.Runtime.Audio.OpenAL.OpenALActiveAudio
+  langs:
+  - csharp
+  - vb
+  name: Position
+  nameWithType: OpenALActiveAudio.Position
+  fullName: Prowl.Runtime.Audio.OpenAL.OpenALActiveAudio.Position
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/Audio/OpenAL/OpenALActiveAudio.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Position
+    path: ../Prowl/Prowl.Runtime/Audio/OpenAL/OpenALActiveAudio.cs
+    startLine: 75
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.Audio.OpenAL
+  example: []
+  syntax:
+    content: public override Vector3 Position { get; set; }
+    parameters: []
+    return:
+      type: Prowl.Runtime.Vector3
+    content.vb: Public Overrides Property Position As Vector3
+  overridden: Prowl.Runtime.Audio.ActiveAudio.Position
+  overload: Prowl.Runtime.Audio.OpenAL.OpenALActiveAudio.Position*
+- uid: Prowl.Runtime.Audio.OpenAL.OpenALActiveAudio.Direction
+  commentId: P:Prowl.Runtime.Audio.OpenAL.OpenALActiveAudio.Direction
+  id: Direction
+  parent: Prowl.Runtime.Audio.OpenAL.OpenALActiveAudio
+  langs:
+  - csharp
+  - vb
+  name: Direction
+  nameWithType: OpenALActiveAudio.Direction
+  fullName: Prowl.Runtime.Audio.OpenAL.OpenALActiveAudio.Direction
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/Audio/OpenAL/OpenALActiveAudio.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Direction
+    path: ../Prowl/Prowl.Runtime/Audio/OpenAL/OpenALActiveAudio.cs
+    startLine: 89
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.Audio.OpenAL
+  example: []
+  syntax:
+    content: public override Vector3 Direction { get; set; }
+    parameters: []
+    return:
+      type: Prowl.Runtime.Vector3
+    content.vb: Public Overrides Property Direction As Vector3
+  overridden: Prowl.Runtime.Audio.ActiveAudio.Direction
+  overload: Prowl.Runtime.Audio.OpenAL.OpenALActiveAudio.Direction*
+- uid: Prowl.Runtime.Audio.OpenAL.OpenALActiveAudio.PositionKind
+  commentId: P:Prowl.Runtime.Audio.OpenAL.OpenALActiveAudio.PositionKind
+  id: PositionKind
+  parent: Prowl.Runtime.Audio.OpenAL.OpenALActiveAudio
+  langs:
+  - csharp
+  - vb
+  name: PositionKind
+  nameWithType: OpenALActiveAudio.PositionKind
+  fullName: Prowl.Runtime.Audio.OpenAL.OpenALActiveAudio.PositionKind
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/Audio/OpenAL/OpenALActiveAudio.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: PositionKind
+    path: ../Prowl/Prowl.Runtime/Audio/OpenAL/OpenALActiveAudio.cs
+    startLine: 103
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.Audio.OpenAL
+  example: []
+  syntax:
+    content: public override AudioPositionKind PositionKind { get; set; }
+    parameters: []
+    return:
+      type: Prowl.Runtime.Audio.AudioPositionKind
+    content.vb: Public Overrides Property PositionKind As AudioPositionKind
+  overridden: Prowl.Runtime.Audio.ActiveAudio.PositionKind
+  overload: Prowl.Runtime.Audio.OpenAL.OpenALActiveAudio.PositionKind*
+- uid: Prowl.Runtime.Audio.OpenAL.OpenALActiveAudio.PlaybackPosition
+  commentId: P:Prowl.Runtime.Audio.OpenAL.OpenALActiveAudio.PlaybackPosition
+  id: PlaybackPosition
+  parent: Prowl.Runtime.Audio.OpenAL.OpenALActiveAudio
+  langs:
+  - csharp
+  - vb
+  name: PlaybackPosition
+  nameWithType: OpenALActiveAudio.PlaybackPosition
+  fullName: Prowl.Runtime.Audio.OpenAL.OpenALActiveAudio.PlaybackPosition
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/Audio/OpenAL/OpenALActiveAudio.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: PlaybackPosition
+    path: ../Prowl/Prowl.Runtime/Audio/OpenAL/OpenALActiveAudio.cs
+    startLine: 119
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.Audio.OpenAL
+  summary: Gets or sets the playback position, as a value between 0.0f (beginning of clip), and 1.0f (end of clip).
+  example: []
+  syntax:
+    content: public override float PlaybackPosition { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Overrides Property PlaybackPosition As Single
+  overridden: Prowl.Runtime.Audio.ActiveAudio.PlaybackPosition
+  overload: Prowl.Runtime.Audio.OpenAL.OpenALActiveAudio.PlaybackPosition*
+- uid: Prowl.Runtime.Audio.OpenAL.OpenALActiveAudio.IsPlaying
+  commentId: P:Prowl.Runtime.Audio.OpenAL.OpenALActiveAudio.IsPlaying
+  id: IsPlaying
+  parent: Prowl.Runtime.Audio.OpenAL.OpenALActiveAudio
+  langs:
+  - csharp
+  - vb
+  name: IsPlaying
+  nameWithType: OpenALActiveAudio.IsPlaying
+  fullName: Prowl.Runtime.Audio.OpenAL.OpenALActiveAudio.IsPlaying
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/Audio/OpenAL/OpenALActiveAudio.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: IsPlaying
+    path: ../Prowl/Prowl.Runtime/Audio/OpenAL/OpenALActiveAudio.cs
+    startLine: 137
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.Audio.OpenAL
+  example: []
+  syntax:
+    content: public override bool IsPlaying { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overrides ReadOnly Property IsPlaying As Boolean
+  overridden: Prowl.Runtime.Audio.ActiveAudio.IsPlaying
+  overload: Prowl.Runtime.Audio.OpenAL.OpenALActiveAudio.IsPlaying*
+- uid: Prowl.Runtime.Audio.OpenAL.OpenALActiveAudio.Play(Prowl.Runtime.Audio.AudioBuffer)
+  commentId: M:Prowl.Runtime.Audio.OpenAL.OpenALActiveAudio.Play(Prowl.Runtime.Audio.AudioBuffer)
+  id: Play(Prowl.Runtime.Audio.AudioBuffer)
+  parent: Prowl.Runtime.Audio.OpenAL.OpenALActiveAudio
+  langs:
+  - csharp
+  - vb
+  name: Play(AudioBuffer)
+  nameWithType: OpenALActiveAudio.Play(AudioBuffer)
+  fullName: Prowl.Runtime.Audio.OpenAL.OpenALActiveAudio.Play(Prowl.Runtime.Audio.AudioBuffer)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Audio/OpenAL/OpenALActiveAudio.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Play
+    path: ../Prowl/Prowl.Runtime/Audio/OpenAL/OpenALActiveAudio.cs
+    startLine: 146
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.Audio.OpenAL
+  example: []
+  syntax:
+    content: public override void Play(AudioBuffer buffer)
+    parameters:
+    - id: buffer
+      type: Prowl.Runtime.Audio.AudioBuffer
+    content.vb: Public Overrides Sub Play(buffer As AudioBuffer)
+  overridden: Prowl.Runtime.Audio.ActiveAudio.Play(Prowl.Runtime.Audio.AudioBuffer)
+  overload: Prowl.Runtime.Audio.OpenAL.OpenALActiveAudio.Play*
+- uid: Prowl.Runtime.Audio.OpenAL.OpenALActiveAudio.Stop
+  commentId: M:Prowl.Runtime.Audio.OpenAL.OpenALActiveAudio.Stop
+  id: Stop
+  parent: Prowl.Runtime.Audio.OpenAL.OpenALActiveAudio
+  langs:
+  - csharp
+  - vb
+  name: Stop()
+  nameWithType: OpenALActiveAudio.Stop()
+  fullName: Prowl.Runtime.Audio.OpenAL.OpenALActiveAudio.Stop()
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Audio/OpenAL/OpenALActiveAudio.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Stop
+    path: ../Prowl/Prowl.Runtime/Audio/OpenAL/OpenALActiveAudio.cs
+    startLine: 153
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.Audio.OpenAL
+  example: []
+  syntax:
+    content: public override void Stop()
+    content.vb: Public Overrides Sub [Stop]()
+  overridden: Prowl.Runtime.Audio.ActiveAudio.Stop
+  overload: Prowl.Runtime.Audio.OpenAL.OpenALActiveAudio.Stop*
+- uid: Prowl.Runtime.Audio.OpenAL.OpenALActiveAudio.Dispose
+  commentId: M:Prowl.Runtime.Audio.OpenAL.OpenALActiveAudio.Dispose
+  id: Dispose
+  parent: Prowl.Runtime.Audio.OpenAL.OpenALActiveAudio
+  langs:
+  - csharp
+  - vb
+  name: Dispose()
+  nameWithType: OpenALActiveAudio.Dispose()
+  fullName: Prowl.Runtime.Audio.OpenAL.OpenALActiveAudio.Dispose()
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Audio/OpenAL/OpenALActiveAudio.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Dispose
+    path: ../Prowl/Prowl.Runtime/Audio/OpenAL/OpenALActiveAudio.cs
+    startLine: 155
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.Audio.OpenAL
+  summary: Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources.
+  example: []
+  syntax:
+    content: public override void Dispose()
+    content.vb: Public Overrides Sub Dispose()
+  overridden: Prowl.Runtime.Audio.ActiveAudio.Dispose
+  overload: Prowl.Runtime.Audio.OpenAL.OpenALActiveAudio.Dispose*
+references:
+- uid: Prowl.Runtime.Audio.OpenAL
+  commentId: N:Prowl.Runtime.Audio.OpenAL
+  href: Prowl.html
+  name: Prowl.Runtime.Audio.OpenAL
+  nameWithType: Prowl.Runtime.Audio.OpenAL
+  fullName: Prowl.Runtime.Audio.OpenAL
+  spec.csharp:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+  - name: .
+  - uid: Prowl.Runtime.Audio
+    name: Audio
+    href: Prowl.Runtime.Audio.html
+  - name: .
+  - uid: Prowl.Runtime.Audio.OpenAL
+    name: OpenAL
+    href: Prowl.Runtime.Audio.OpenAL.html
+  spec.vb:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+  - name: .
+  - uid: Prowl.Runtime.Audio
+    name: Audio
+    href: Prowl.Runtime.Audio.html
+  - name: .
+  - uid: Prowl.Runtime.Audio.OpenAL
+    name: OpenAL
+    href: Prowl.Runtime.Audio.OpenAL.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Prowl.Runtime.Audio.ActiveAudio
+  commentId: T:Prowl.Runtime.Audio.ActiveAudio
+  parent: Prowl.Runtime.Audio
+  href: Prowl.Runtime.Audio.ActiveAudio.html
+  name: ActiveAudio
+  nameWithType: ActiveAudio
+  fullName: Prowl.Runtime.Audio.ActiveAudio
+- uid: System.IDisposable
+  commentId: T:System.IDisposable
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.idisposable
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Prowl.Runtime.RuntimeUtils.GetSerializableFields
+  commentId: M:Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  parent: Prowl.Runtime.RuntimeUtils
+  definition: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  name: GetSerializableFields(object)
+  nameWithType: RuntimeUtils.GetSerializableFields(object)
+  fullName: Prowl.Runtime.RuntimeUtils.GetSerializableFields(object)
+  nameWithType.vb: RuntimeUtils.GetSerializableFields(Object)
+  fullName.vb: Prowl.Runtime.RuntimeUtils.GetSerializableFields(Object)
+  name.vb: GetSerializableFields(Object)
+  spec.csharp:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Prowl.Runtime.Audio
+  commentId: N:Prowl.Runtime.Audio
+  href: Prowl.html
+  name: Prowl.Runtime.Audio
+  nameWithType: Prowl.Runtime.Audio
+  fullName: Prowl.Runtime.Audio
+  spec.csharp:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+  - name: .
+  - uid: Prowl.Runtime.Audio
+    name: Audio
+    href: Prowl.Runtime.Audio.html
+  spec.vb:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+  - name: .
+  - uid: Prowl.Runtime.Audio
+    name: Audio
+    href: Prowl.Runtime.Audio.html
+- uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  commentId: M:Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  isExternal: true
+  href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  name: GetSerializableFields(object)
+  nameWithType: RuntimeUtils.GetSerializableFields(object)
+  fullName: Prowl.Runtime.RuntimeUtils.GetSerializableFields(object)
+  nameWithType.vb: RuntimeUtils.GetSerializableFields(Object)
+  fullName.vb: Prowl.Runtime.RuntimeUtils.GetSerializableFields(Object)
+  name.vb: GetSerializableFields(Object)
+  spec.csharp:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: Prowl.Runtime.RuntimeUtils
+  commentId: T:Prowl.Runtime.RuntimeUtils
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.RuntimeUtils.html
+  name: RuntimeUtils
+  nameWithType: RuntimeUtils
+  fullName: Prowl.Runtime.RuntimeUtils
+- uid: Prowl.Runtime
+  commentId: N:Prowl.Runtime
+  href: Prowl.html
+  name: Prowl.Runtime
+  nameWithType: Prowl.Runtime
+  fullName: Prowl.Runtime
+  spec.csharp:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+  spec.vb:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+- uid: Prowl.Runtime.Audio.OpenAL.OpenALActiveAudio.#ctor*
+  commentId: Overload:Prowl.Runtime.Audio.OpenAL.OpenALActiveAudio.#ctor
+  href: Prowl.Runtime.Audio.OpenAL.OpenALActiveAudio.html#Prowl_Runtime_Audio_OpenAL_OpenALActiveAudio__ctor
+  name: OpenALActiveAudio
+  nameWithType: OpenALActiveAudio.OpenALActiveAudio
+  fullName: Prowl.Runtime.Audio.OpenAL.OpenALActiveAudio.OpenALActiveAudio
+  nameWithType.vb: OpenALActiveAudio.New
+  fullName.vb: Prowl.Runtime.Audio.OpenAL.OpenALActiveAudio.New
+  name.vb: New
+- uid: Prowl.Runtime.Audio.OpenAL.OpenALActiveAudio.ID*
+  commentId: Overload:Prowl.Runtime.Audio.OpenAL.OpenALActiveAudio.ID
+  href: Prowl.Runtime.Audio.OpenAL.OpenALActiveAudio.html#Prowl_Runtime_Audio_OpenAL_OpenALActiveAudio_ID
+  name: ID
+  nameWithType: OpenALActiveAudio.ID
+  fullName: Prowl.Runtime.Audio.OpenAL.OpenALActiveAudio.ID
+- uid: System.UInt32
+  commentId: T:System.UInt32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.uint32
+  name: uint
+  nameWithType: uint
+  fullName: uint
+  nameWithType.vb: UInteger
+  fullName.vb: UInteger
+  name.vb: UInteger
+- uid: Prowl.Runtime.Audio.ActiveAudio.Gain
+  commentId: P:Prowl.Runtime.Audio.ActiveAudio.Gain
+  parent: Prowl.Runtime.Audio.ActiveAudio
+  href: Prowl.Runtime.Audio.ActiveAudio.html#Prowl_Runtime_Audio_ActiveAudio_Gain
+  name: Gain
+  nameWithType: ActiveAudio.Gain
+  fullName: Prowl.Runtime.Audio.ActiveAudio.Gain
+- uid: Prowl.Runtime.Audio.OpenAL.OpenALActiveAudio.Gain*
+  commentId: Overload:Prowl.Runtime.Audio.OpenAL.OpenALActiveAudio.Gain
+  href: Prowl.Runtime.Audio.OpenAL.OpenALActiveAudio.html#Prowl_Runtime_Audio_OpenAL_OpenALActiveAudio_Gain
+  name: Gain
+  nameWithType: OpenALActiveAudio.Gain
+  fullName: Prowl.Runtime.Audio.OpenAL.OpenALActiveAudio.Gain
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.single
+  name: float
+  nameWithType: float
+  fullName: float
+  nameWithType.vb: Single
+  fullName.vb: Single
+  name.vb: Single
+- uid: Prowl.Runtime.Audio.ActiveAudio.Pitch
+  commentId: P:Prowl.Runtime.Audio.ActiveAudio.Pitch
+  parent: Prowl.Runtime.Audio.ActiveAudio
+  href: Prowl.Runtime.Audio.ActiveAudio.html#Prowl_Runtime_Audio_ActiveAudio_Pitch
+  name: Pitch
+  nameWithType: ActiveAudio.Pitch
+  fullName: Prowl.Runtime.Audio.ActiveAudio.Pitch
+- uid: Prowl.Runtime.Audio.OpenAL.OpenALActiveAudio.Pitch*
+  commentId: Overload:Prowl.Runtime.Audio.OpenAL.OpenALActiveAudio.Pitch
+  href: Prowl.Runtime.Audio.OpenAL.OpenALActiveAudio.html#Prowl_Runtime_Audio_OpenAL_OpenALActiveAudio_Pitch
+  name: Pitch
+  nameWithType: OpenALActiveAudio.Pitch
+  fullName: Prowl.Runtime.Audio.OpenAL.OpenALActiveAudio.Pitch
+- uid: Prowl.Runtime.Audio.ActiveAudio.MaxDistance
+  commentId: P:Prowl.Runtime.Audio.ActiveAudio.MaxDistance
+  parent: Prowl.Runtime.Audio.ActiveAudio
+  href: Prowl.Runtime.Audio.ActiveAudio.html#Prowl_Runtime_Audio_ActiveAudio_MaxDistance
+  name: MaxDistance
+  nameWithType: ActiveAudio.MaxDistance
+  fullName: Prowl.Runtime.Audio.ActiveAudio.MaxDistance
+- uid: Prowl.Runtime.Audio.OpenAL.OpenALActiveAudio.MaxDistance*
+  commentId: Overload:Prowl.Runtime.Audio.OpenAL.OpenALActiveAudio.MaxDistance
+  href: Prowl.Runtime.Audio.OpenAL.OpenALActiveAudio.html#Prowl_Runtime_Audio_OpenAL_OpenALActiveAudio_MaxDistance
+  name: MaxDistance
+  nameWithType: OpenALActiveAudio.MaxDistance
+  fullName: Prowl.Runtime.Audio.OpenAL.OpenALActiveAudio.MaxDistance
+- uid: Prowl.Runtime.Audio.ActiveAudio.Looping
+  commentId: P:Prowl.Runtime.Audio.ActiveAudio.Looping
+  parent: Prowl.Runtime.Audio.ActiveAudio
+  href: Prowl.Runtime.Audio.ActiveAudio.html#Prowl_Runtime_Audio_ActiveAudio_Looping
+  name: Looping
+  nameWithType: ActiveAudio.Looping
+  fullName: Prowl.Runtime.Audio.ActiveAudio.Looping
+- uid: Prowl.Runtime.Audio.OpenAL.OpenALActiveAudio.Looping*
+  commentId: Overload:Prowl.Runtime.Audio.OpenAL.OpenALActiveAudio.Looping
+  href: Prowl.Runtime.Audio.OpenAL.OpenALActiveAudio.html#Prowl_Runtime_Audio_OpenAL_OpenALActiveAudio_Looping
+  name: Looping
+  nameWithType: OpenALActiveAudio.Looping
+  fullName: Prowl.Runtime.Audio.OpenAL.OpenALActiveAudio.Looping
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: Prowl.Runtime.Audio.ActiveAudio.Position
+  commentId: P:Prowl.Runtime.Audio.ActiveAudio.Position
+  parent: Prowl.Runtime.Audio.ActiveAudio
+  href: Prowl.Runtime.Audio.ActiveAudio.html#Prowl_Runtime_Audio_ActiveAudio_Position
+  name: Position
+  nameWithType: ActiveAudio.Position
+  fullName: Prowl.Runtime.Audio.ActiveAudio.Position
+- uid: Prowl.Runtime.Audio.OpenAL.OpenALActiveAudio.Position*
+  commentId: Overload:Prowl.Runtime.Audio.OpenAL.OpenALActiveAudio.Position
+  href: Prowl.Runtime.Audio.OpenAL.OpenALActiveAudio.html#Prowl_Runtime_Audio_OpenAL_OpenALActiveAudio_Position
+  name: Position
+  nameWithType: OpenALActiveAudio.Position
+  fullName: Prowl.Runtime.Audio.OpenAL.OpenALActiveAudio.Position
+- uid: Prowl.Runtime.Vector3
+  commentId: T:Prowl.Runtime.Vector3
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.Vector3.html
+  name: Vector3
+  nameWithType: Vector3
+  fullName: Prowl.Runtime.Vector3
+- uid: Prowl.Runtime.Audio.ActiveAudio.Direction
+  commentId: P:Prowl.Runtime.Audio.ActiveAudio.Direction
+  parent: Prowl.Runtime.Audio.ActiveAudio
+  href: Prowl.Runtime.Audio.ActiveAudio.html#Prowl_Runtime_Audio_ActiveAudio_Direction
+  name: Direction
+  nameWithType: ActiveAudio.Direction
+  fullName: Prowl.Runtime.Audio.ActiveAudio.Direction
+- uid: Prowl.Runtime.Audio.OpenAL.OpenALActiveAudio.Direction*
+  commentId: Overload:Prowl.Runtime.Audio.OpenAL.OpenALActiveAudio.Direction
+  href: Prowl.Runtime.Audio.OpenAL.OpenALActiveAudio.html#Prowl_Runtime_Audio_OpenAL_OpenALActiveAudio_Direction
+  name: Direction
+  nameWithType: OpenALActiveAudio.Direction
+  fullName: Prowl.Runtime.Audio.OpenAL.OpenALActiveAudio.Direction
+- uid: Prowl.Runtime.Audio.ActiveAudio.PositionKind
+  commentId: P:Prowl.Runtime.Audio.ActiveAudio.PositionKind
+  parent: Prowl.Runtime.Audio.ActiveAudio
+  href: Prowl.Runtime.Audio.ActiveAudio.html#Prowl_Runtime_Audio_ActiveAudio_PositionKind
+  name: PositionKind
+  nameWithType: ActiveAudio.PositionKind
+  fullName: Prowl.Runtime.Audio.ActiveAudio.PositionKind
+- uid: Prowl.Runtime.Audio.OpenAL.OpenALActiveAudio.PositionKind*
+  commentId: Overload:Prowl.Runtime.Audio.OpenAL.OpenALActiveAudio.PositionKind
+  href: Prowl.Runtime.Audio.OpenAL.OpenALActiveAudio.html#Prowl_Runtime_Audio_OpenAL_OpenALActiveAudio_PositionKind
+  name: PositionKind
+  nameWithType: OpenALActiveAudio.PositionKind
+  fullName: Prowl.Runtime.Audio.OpenAL.OpenALActiveAudio.PositionKind
+- uid: Prowl.Runtime.Audio.AudioPositionKind
+  commentId: T:Prowl.Runtime.Audio.AudioPositionKind
+  parent: Prowl.Runtime.Audio
+  href: Prowl.Runtime.Audio.AudioPositionKind.html
+  name: AudioPositionKind
+  nameWithType: AudioPositionKind
+  fullName: Prowl.Runtime.Audio.AudioPositionKind
+- uid: Prowl.Runtime.Audio.ActiveAudio.PlaybackPosition
+  commentId: P:Prowl.Runtime.Audio.ActiveAudio.PlaybackPosition
+  parent: Prowl.Runtime.Audio.ActiveAudio
+  href: Prowl.Runtime.Audio.ActiveAudio.html#Prowl_Runtime_Audio_ActiveAudio_PlaybackPosition
+  name: PlaybackPosition
+  nameWithType: ActiveAudio.PlaybackPosition
+  fullName: Prowl.Runtime.Audio.ActiveAudio.PlaybackPosition
+- uid: Prowl.Runtime.Audio.OpenAL.OpenALActiveAudio.PlaybackPosition*
+  commentId: Overload:Prowl.Runtime.Audio.OpenAL.OpenALActiveAudio.PlaybackPosition
+  href: Prowl.Runtime.Audio.OpenAL.OpenALActiveAudio.html#Prowl_Runtime_Audio_OpenAL_OpenALActiveAudio_PlaybackPosition
+  name: PlaybackPosition
+  nameWithType: OpenALActiveAudio.PlaybackPosition
+  fullName: Prowl.Runtime.Audio.OpenAL.OpenALActiveAudio.PlaybackPosition
+- uid: Prowl.Runtime.Audio.ActiveAudio.IsPlaying
+  commentId: P:Prowl.Runtime.Audio.ActiveAudio.IsPlaying
+  parent: Prowl.Runtime.Audio.ActiveAudio
+  href: Prowl.Runtime.Audio.ActiveAudio.html#Prowl_Runtime_Audio_ActiveAudio_IsPlaying
+  name: IsPlaying
+  nameWithType: ActiveAudio.IsPlaying
+  fullName: Prowl.Runtime.Audio.ActiveAudio.IsPlaying
+- uid: Prowl.Runtime.Audio.OpenAL.OpenALActiveAudio.IsPlaying*
+  commentId: Overload:Prowl.Runtime.Audio.OpenAL.OpenALActiveAudio.IsPlaying
+  href: Prowl.Runtime.Audio.OpenAL.OpenALActiveAudio.html#Prowl_Runtime_Audio_OpenAL_OpenALActiveAudio_IsPlaying
+  name: IsPlaying
+  nameWithType: OpenALActiveAudio.IsPlaying
+  fullName: Prowl.Runtime.Audio.OpenAL.OpenALActiveAudio.IsPlaying
+- uid: Prowl.Runtime.Audio.ActiveAudio.Play(Prowl.Runtime.Audio.AudioBuffer)
+  commentId: M:Prowl.Runtime.Audio.ActiveAudio.Play(Prowl.Runtime.Audio.AudioBuffer)
+  parent: Prowl.Runtime.Audio.ActiveAudio
+  href: Prowl.Runtime.Audio.ActiveAudio.html#Prowl_Runtime_Audio_ActiveAudio_Play_Prowl_Runtime_Audio_AudioBuffer_
+  name: Play(AudioBuffer)
+  nameWithType: ActiveAudio.Play(AudioBuffer)
+  fullName: Prowl.Runtime.Audio.ActiveAudio.Play(Prowl.Runtime.Audio.AudioBuffer)
+  spec.csharp:
+  - uid: Prowl.Runtime.Audio.ActiveAudio.Play(Prowl.Runtime.Audio.AudioBuffer)
+    name: Play
+    href: Prowl.Runtime.Audio.ActiveAudio.html#Prowl_Runtime_Audio_ActiveAudio_Play_Prowl_Runtime_Audio_AudioBuffer_
+  - name: (
+  - uid: Prowl.Runtime.Audio.AudioBuffer
+    name: AudioBuffer
+    href: Prowl.Runtime.Audio.AudioBuffer.html
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.Audio.ActiveAudio.Play(Prowl.Runtime.Audio.AudioBuffer)
+    name: Play
+    href: Prowl.Runtime.Audio.ActiveAudio.html#Prowl_Runtime_Audio_ActiveAudio_Play_Prowl_Runtime_Audio_AudioBuffer_
+  - name: (
+  - uid: Prowl.Runtime.Audio.AudioBuffer
+    name: AudioBuffer
+    href: Prowl.Runtime.Audio.AudioBuffer.html
+  - name: )
+- uid: Prowl.Runtime.Audio.OpenAL.OpenALActiveAudio.Play*
+  commentId: Overload:Prowl.Runtime.Audio.OpenAL.OpenALActiveAudio.Play
+  href: Prowl.Runtime.Audio.OpenAL.OpenALActiveAudio.html#Prowl_Runtime_Audio_OpenAL_OpenALActiveAudio_Play_Prowl_Runtime_Audio_AudioBuffer_
+  name: Play
+  nameWithType: OpenALActiveAudio.Play
+  fullName: Prowl.Runtime.Audio.OpenAL.OpenALActiveAudio.Play
+- uid: Prowl.Runtime.Audio.AudioBuffer
+  commentId: T:Prowl.Runtime.Audio.AudioBuffer
+  parent: Prowl.Runtime.Audio
+  href: Prowl.Runtime.Audio.AudioBuffer.html
+  name: AudioBuffer
+  nameWithType: AudioBuffer
+  fullName: Prowl.Runtime.Audio.AudioBuffer
+- uid: Prowl.Runtime.Audio.ActiveAudio.Stop
+  commentId: M:Prowl.Runtime.Audio.ActiveAudio.Stop
+  parent: Prowl.Runtime.Audio.ActiveAudio
+  href: Prowl.Runtime.Audio.ActiveAudio.html#Prowl_Runtime_Audio_ActiveAudio_Stop
+  name: Stop()
+  nameWithType: ActiveAudio.Stop()
+  fullName: Prowl.Runtime.Audio.ActiveAudio.Stop()
+  spec.csharp:
+  - uid: Prowl.Runtime.Audio.ActiveAudio.Stop
+    name: Stop
+    href: Prowl.Runtime.Audio.ActiveAudio.html#Prowl_Runtime_Audio_ActiveAudio_Stop
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.Audio.ActiveAudio.Stop
+    name: Stop
+    href: Prowl.Runtime.Audio.ActiveAudio.html#Prowl_Runtime_Audio_ActiveAudio_Stop
+  - name: (
+  - name: )
+- uid: Prowl.Runtime.Audio.OpenAL.OpenALActiveAudio.Stop*
+  commentId: Overload:Prowl.Runtime.Audio.OpenAL.OpenALActiveAudio.Stop
+  href: Prowl.Runtime.Audio.OpenAL.OpenALActiveAudio.html#Prowl_Runtime_Audio_OpenAL_OpenALActiveAudio_Stop
+  name: Stop
+  nameWithType: OpenALActiveAudio.Stop
+  fullName: Prowl.Runtime.Audio.OpenAL.OpenALActiveAudio.Stop
+- uid: Prowl.Runtime.Audio.ActiveAudio.Dispose
+  commentId: M:Prowl.Runtime.Audio.ActiveAudio.Dispose
+  parent: Prowl.Runtime.Audio.ActiveAudio
+  href: Prowl.Runtime.Audio.ActiveAudio.html#Prowl_Runtime_Audio_ActiveAudio_Dispose
+  name: Dispose()
+  nameWithType: ActiveAudio.Dispose()
+  fullName: Prowl.Runtime.Audio.ActiveAudio.Dispose()
+  spec.csharp:
+  - uid: Prowl.Runtime.Audio.ActiveAudio.Dispose
+    name: Dispose
+    href: Prowl.Runtime.Audio.ActiveAudio.html#Prowl_Runtime_Audio_ActiveAudio_Dispose
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.Audio.ActiveAudio.Dispose
+    name: Dispose
+    href: Prowl.Runtime.Audio.ActiveAudio.html#Prowl_Runtime_Audio_ActiveAudio_Dispose
+  - name: (
+  - name: )
+- uid: Prowl.Runtime.Audio.OpenAL.OpenALActiveAudio.Dispose*
+  commentId: Overload:Prowl.Runtime.Audio.OpenAL.OpenALActiveAudio.Dispose
+  href: Prowl.Runtime.Audio.OpenAL.OpenALActiveAudio.html#Prowl_Runtime_Audio_OpenAL_OpenALActiveAudio_Dispose
+  name: Dispose
+  nameWithType: OpenALActiveAudio.Dispose
+  fullName: Prowl.Runtime.Audio.OpenAL.OpenALActiveAudio.Dispose

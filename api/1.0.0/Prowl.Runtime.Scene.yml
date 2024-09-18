@@ -1,0 +1,1108 @@
+### YamlMime:ManagedReference
+items:
+- uid: Prowl.Runtime.Scene
+  commentId: T:Prowl.Runtime.Scene
+  id: Scene
+  parent: Prowl.Runtime
+  children:
+  - Prowl.Runtime.Scene.Create(Prowl.Runtime.GameObject[])
+  - Prowl.Runtime.Scene.GameObjects
+  - Prowl.Runtime.Scene.InstantiateScene
+  langs:
+  - csharp
+  - vb
+  name: Scene
+  nameWithType: Scene
+  fullName: Prowl.Runtime.Scene
+  type: Class
+  source:
+    remote:
+      path: Prowl.Runtime/Resources/Scene.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Scene
+    path: ../Prowl/Prowl.Runtime/Resources/Scene.cs
+    startLine: 5
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: 'public class Scene : EngineObject, IDisposable'
+    content.vb: Public Class Scene Inherits EngineObject Implements IDisposable
+  inheritance:
+  - System.Object
+  - Prowl.Runtime.EngineObject
+  implements:
+  - System.IDisposable
+  inheritedMembers:
+  - Prowl.Runtime.EngineObject._instanceID
+  - Prowl.Runtime.EngineObject.InstanceID
+  - Prowl.Runtime.EngineObject.AssetID
+  - Prowl.Runtime.EngineObject.FileID
+  - Prowl.Runtime.EngineObject.Name
+  - Prowl.Runtime.EngineObject.IsDestroyed
+  - Prowl.Runtime.EngineObject.CreatedInstance
+  - Prowl.Runtime.EngineObject.OnValidate
+  - Prowl.Runtime.EngineObject.FindObjectOfType``1
+  - Prowl.Runtime.EngineObject.FindObjectsOfType``1
+  - Prowl.Runtime.EngineObject.FindObjectByID``1(System.Int32)
+  - Prowl.Runtime.EngineObject.Foreach``1(System.Action{{T}})
+  - Prowl.Runtime.EngineObject.Destroy
+  - Prowl.Runtime.EngineObject.DestroyImmediate
+  - Prowl.Runtime.EngineObject.Destroy(Prowl.Runtime.EngineObject)
+  - Prowl.Runtime.EngineObject.DestroyImmediate(Prowl.Runtime.EngineObject)
+  - Prowl.Runtime.EngineObject.HandleDestroyed
+  - Prowl.Runtime.EngineObject.Instantiate(Prowl.Runtime.EngineObject,System.Boolean)
+  - Prowl.Runtime.EngineObject.Dispose
+  - Prowl.Runtime.EngineObject.OnDispose
+  - Prowl.Runtime.EngineObject.ToString
+  - Prowl.Runtime.EngineObject.SerializeHeader(Prowl.Runtime.SerializedProperty)
+  - Prowl.Runtime.EngineObject.DeserializeHeader(Prowl.Runtime.SerializedProperty)
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  extensionMethods:
+  - Prowl.Runtime.EngineObject.Prowl.Runtime.EngineObjectExtensions.Null
+  - System.Object.Prowl.Runtime.RuntimeUtils.GetSerializableFields
+- uid: Prowl.Runtime.Scene.GameObjects
+  commentId: F:Prowl.Runtime.Scene.GameObjects
+  id: GameObjects
+  parent: Prowl.Runtime.Scene
+  langs:
+  - csharp
+  - vb
+  name: GameObjects
+  nameWithType: Scene.GameObjects
+  fullName: Prowl.Runtime.Scene.GameObjects
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/Resources/Scene.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: GameObjects
+    path: ../Prowl/Prowl.Runtime/Resources/Scene.cs
+    startLine: 7
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public SerializedProperty GameObjects
+    return:
+      type: Prowl.Runtime.SerializedProperty
+    content.vb: Public GameObjects As SerializedProperty
+- uid: Prowl.Runtime.Scene.Create(Prowl.Runtime.GameObject[])
+  commentId: M:Prowl.Runtime.Scene.Create(Prowl.Runtime.GameObject[])
+  id: Create(Prowl.Runtime.GameObject[])
+  parent: Prowl.Runtime.Scene
+  langs:
+  - csharp
+  - vb
+  name: Create(GameObject[])
+  nameWithType: Scene.Create(GameObject[])
+  fullName: Prowl.Runtime.Scene.Create(Prowl.Runtime.GameObject[])
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Resources/Scene.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Create
+    path: ../Prowl/Prowl.Runtime/Resources/Scene.cs
+    startLine: 9
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public static Scene Create(GameObject[] all)
+    parameters:
+    - id: all
+      type: Prowl.Runtime.GameObject[]
+    return:
+      type: Prowl.Runtime.Scene
+    content.vb: Public Shared Function Create(all As GameObject()) As Scene
+  overload: Prowl.Runtime.Scene.Create*
+  nameWithType.vb: Scene.Create(GameObject())
+  fullName.vb: Prowl.Runtime.Scene.Create(Prowl.Runtime.GameObject())
+  name.vb: Create(GameObject())
+- uid: Prowl.Runtime.Scene.InstantiateScene
+  commentId: M:Prowl.Runtime.Scene.InstantiateScene
+  id: InstantiateScene
+  parent: Prowl.Runtime.Scene
+  langs:
+  - csharp
+  - vb
+  name: InstantiateScene()
+  nameWithType: Scene.InstantiateScene()
+  fullName: Prowl.Runtime.Scene.InstantiateScene()
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Resources/Scene.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: InstantiateScene
+    path: ../Prowl/Prowl.Runtime/Resources/Scene.cs
+    startLine: 17
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public GameObject[] InstantiateScene()
+    return:
+      type: Prowl.Runtime.GameObject[]
+    content.vb: Public Function InstantiateScene() As GameObject()
+  overload: Prowl.Runtime.Scene.InstantiateScene*
+references:
+- uid: Prowl.Runtime
+  commentId: N:Prowl.Runtime
+  href: Prowl.html
+  name: Prowl.Runtime
+  nameWithType: Prowl.Runtime
+  fullName: Prowl.Runtime
+  spec.csharp:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+  spec.vb:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Prowl.Runtime.EngineObject
+  commentId: T:Prowl.Runtime.EngineObject
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.EngineObject.html
+  name: EngineObject
+  nameWithType: EngineObject
+  fullName: Prowl.Runtime.EngineObject
+- uid: System.IDisposable
+  commentId: T:System.IDisposable
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.idisposable
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
+- uid: Prowl.Runtime.EngineObject._instanceID
+  commentId: F:Prowl.Runtime.EngineObject._instanceID
+  parent: Prowl.Runtime.EngineObject
+  href: Prowl.Runtime.EngineObject.html#Prowl_Runtime_EngineObject__instanceID
+  name: _instanceID
+  nameWithType: EngineObject._instanceID
+  fullName: Prowl.Runtime.EngineObject._instanceID
+- uid: Prowl.Runtime.EngineObject.InstanceID
+  commentId: P:Prowl.Runtime.EngineObject.InstanceID
+  parent: Prowl.Runtime.EngineObject
+  href: Prowl.Runtime.EngineObject.html#Prowl_Runtime_EngineObject_InstanceID
+  name: InstanceID
+  nameWithType: EngineObject.InstanceID
+  fullName: Prowl.Runtime.EngineObject.InstanceID
+- uid: Prowl.Runtime.EngineObject.AssetID
+  commentId: F:Prowl.Runtime.EngineObject.AssetID
+  parent: Prowl.Runtime.EngineObject
+  href: Prowl.Runtime.EngineObject.html#Prowl_Runtime_EngineObject_AssetID
+  name: AssetID
+  nameWithType: EngineObject.AssetID
+  fullName: Prowl.Runtime.EngineObject.AssetID
+- uid: Prowl.Runtime.EngineObject.FileID
+  commentId: F:Prowl.Runtime.EngineObject.FileID
+  parent: Prowl.Runtime.EngineObject
+  href: Prowl.Runtime.EngineObject.html#Prowl_Runtime_EngineObject_FileID
+  name: FileID
+  nameWithType: EngineObject.FileID
+  fullName: Prowl.Runtime.EngineObject.FileID
+- uid: Prowl.Runtime.EngineObject.Name
+  commentId: F:Prowl.Runtime.EngineObject.Name
+  parent: Prowl.Runtime.EngineObject
+  href: Prowl.Runtime.EngineObject.html#Prowl_Runtime_EngineObject_Name
+  name: Name
+  nameWithType: EngineObject.Name
+  fullName: Prowl.Runtime.EngineObject.Name
+- uid: Prowl.Runtime.EngineObject.IsDestroyed
+  commentId: F:Prowl.Runtime.EngineObject.IsDestroyed
+  parent: Prowl.Runtime.EngineObject
+  href: Prowl.Runtime.EngineObject.html#Prowl_Runtime_EngineObject_IsDestroyed
+  name: IsDestroyed
+  nameWithType: EngineObject.IsDestroyed
+  fullName: Prowl.Runtime.EngineObject.IsDestroyed
+- uid: Prowl.Runtime.EngineObject.CreatedInstance
+  commentId: M:Prowl.Runtime.EngineObject.CreatedInstance
+  parent: Prowl.Runtime.EngineObject
+  href: Prowl.Runtime.EngineObject.html#Prowl_Runtime_EngineObject_CreatedInstance
+  name: CreatedInstance()
+  nameWithType: EngineObject.CreatedInstance()
+  fullName: Prowl.Runtime.EngineObject.CreatedInstance()
+  spec.csharp:
+  - uid: Prowl.Runtime.EngineObject.CreatedInstance
+    name: CreatedInstance
+    href: Prowl.Runtime.EngineObject.html#Prowl_Runtime_EngineObject_CreatedInstance
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.EngineObject.CreatedInstance
+    name: CreatedInstance
+    href: Prowl.Runtime.EngineObject.html#Prowl_Runtime_EngineObject_CreatedInstance
+  - name: (
+  - name: )
+- uid: Prowl.Runtime.EngineObject.OnValidate
+  commentId: M:Prowl.Runtime.EngineObject.OnValidate
+  parent: Prowl.Runtime.EngineObject
+  href: Prowl.Runtime.EngineObject.html#Prowl_Runtime_EngineObject_OnValidate
+  name: OnValidate()
+  nameWithType: EngineObject.OnValidate()
+  fullName: Prowl.Runtime.EngineObject.OnValidate()
+  spec.csharp:
+  - uid: Prowl.Runtime.EngineObject.OnValidate
+    name: OnValidate
+    href: Prowl.Runtime.EngineObject.html#Prowl_Runtime_EngineObject_OnValidate
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.EngineObject.OnValidate
+    name: OnValidate
+    href: Prowl.Runtime.EngineObject.html#Prowl_Runtime_EngineObject_OnValidate
+  - name: (
+  - name: )
+- uid: Prowl.Runtime.EngineObject.FindObjectOfType``1
+  commentId: M:Prowl.Runtime.EngineObject.FindObjectOfType``1
+  parent: Prowl.Runtime.EngineObject
+  href: Prowl.Runtime.EngineObject.html#Prowl_Runtime_EngineObject_FindObjectOfType__1
+  name: FindObjectOfType<T>()
+  nameWithType: EngineObject.FindObjectOfType<T>()
+  fullName: Prowl.Runtime.EngineObject.FindObjectOfType<T>()
+  nameWithType.vb: EngineObject.FindObjectOfType(Of T)()
+  fullName.vb: Prowl.Runtime.EngineObject.FindObjectOfType(Of T)()
+  name.vb: FindObjectOfType(Of T)()
+  spec.csharp:
+  - uid: Prowl.Runtime.EngineObject.FindObjectOfType``1
+    name: FindObjectOfType
+    href: Prowl.Runtime.EngineObject.html#Prowl_Runtime_EngineObject_FindObjectOfType__1
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.EngineObject.FindObjectOfType``1
+    name: FindObjectOfType
+    href: Prowl.Runtime.EngineObject.html#Prowl_Runtime_EngineObject_FindObjectOfType__1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: )
+- uid: Prowl.Runtime.EngineObject.FindObjectsOfType``1
+  commentId: M:Prowl.Runtime.EngineObject.FindObjectsOfType``1
+  parent: Prowl.Runtime.EngineObject
+  href: Prowl.Runtime.EngineObject.html#Prowl_Runtime_EngineObject_FindObjectsOfType__1
+  name: FindObjectsOfType<T>()
+  nameWithType: EngineObject.FindObjectsOfType<T>()
+  fullName: Prowl.Runtime.EngineObject.FindObjectsOfType<T>()
+  nameWithType.vb: EngineObject.FindObjectsOfType(Of T)()
+  fullName.vb: Prowl.Runtime.EngineObject.FindObjectsOfType(Of T)()
+  name.vb: FindObjectsOfType(Of T)()
+  spec.csharp:
+  - uid: Prowl.Runtime.EngineObject.FindObjectsOfType``1
+    name: FindObjectsOfType
+    href: Prowl.Runtime.EngineObject.html#Prowl_Runtime_EngineObject_FindObjectsOfType__1
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.EngineObject.FindObjectsOfType``1
+    name: FindObjectsOfType
+    href: Prowl.Runtime.EngineObject.html#Prowl_Runtime_EngineObject_FindObjectsOfType__1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: )
+- uid: Prowl.Runtime.EngineObject.FindObjectByID``1(System.Int32)
+  commentId: M:Prowl.Runtime.EngineObject.FindObjectByID``1(System.Int32)
+  parent: Prowl.Runtime.EngineObject
+  isExternal: true
+  href: Prowl.Runtime.EngineObject.html#Prowl_Runtime_EngineObject_FindObjectByID__1_System_Int32_
+  name: FindObjectByID<T>(int)
+  nameWithType: EngineObject.FindObjectByID<T>(int)
+  fullName: Prowl.Runtime.EngineObject.FindObjectByID<T>(int)
+  nameWithType.vb: EngineObject.FindObjectByID(Of T)(Integer)
+  fullName.vb: Prowl.Runtime.EngineObject.FindObjectByID(Of T)(Integer)
+  name.vb: FindObjectByID(Of T)(Integer)
+  spec.csharp:
+  - uid: Prowl.Runtime.EngineObject.FindObjectByID``1(System.Int32)
+    name: FindObjectByID
+    href: Prowl.Runtime.EngineObject.html#Prowl_Runtime_EngineObject_FindObjectByID__1_System_Int32_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.EngineObject.FindObjectByID``1(System.Int32)
+    name: FindObjectByID
+    href: Prowl.Runtime.EngineObject.html#Prowl_Runtime_EngineObject_FindObjectByID__1_System_Int32_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: Prowl.Runtime.EngineObject.Foreach``1(System.Action{{T}})
+  commentId: M:Prowl.Runtime.EngineObject.Foreach``1(System.Action{``0})
+  parent: Prowl.Runtime.EngineObject
+  definition: Prowl.Runtime.EngineObject.Foreach``1(System.Action{``0})
+  href: Prowl.Runtime.EngineObject.html#Prowl_Runtime_EngineObject_Foreach__1_System_Action___0__
+  name: Foreach<T>(Action<T>)
+  nameWithType: EngineObject.Foreach<T>(Action<T>)
+  fullName: Prowl.Runtime.EngineObject.Foreach<T>(System.Action<T>)
+  nameWithType.vb: EngineObject.Foreach(Of T)(Action(Of T))
+  fullName.vb: Prowl.Runtime.EngineObject.Foreach(Of T)(System.Action(Of T))
+  name.vb: Foreach(Of T)(Action(Of T))
+  spec.csharp:
+  - uid: Prowl.Runtime.EngineObject.Foreach``1(System.Action{``0})
+    name: Foreach
+    href: Prowl.Runtime.EngineObject.html#Prowl_Runtime_EngineObject_Foreach__1_System_Action___0__
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: <
+  - name: T
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.EngineObject.Foreach``1(System.Action{``0})
+    name: Foreach
+    href: Prowl.Runtime.EngineObject.html#Prowl_Runtime_EngineObject_Foreach__1_System_Action___0__
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: )
+- uid: Prowl.Runtime.EngineObject.Destroy
+  commentId: M:Prowl.Runtime.EngineObject.Destroy
+  parent: Prowl.Runtime.EngineObject
+  href: Prowl.Runtime.EngineObject.html#Prowl_Runtime_EngineObject_Destroy
+  name: Destroy()
+  nameWithType: EngineObject.Destroy()
+  fullName: Prowl.Runtime.EngineObject.Destroy()
+  spec.csharp:
+  - uid: Prowl.Runtime.EngineObject.Destroy
+    name: Destroy
+    href: Prowl.Runtime.EngineObject.html#Prowl_Runtime_EngineObject_Destroy
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.EngineObject.Destroy
+    name: Destroy
+    href: Prowl.Runtime.EngineObject.html#Prowl_Runtime_EngineObject_Destroy
+  - name: (
+  - name: )
+- uid: Prowl.Runtime.EngineObject.DestroyImmediate
+  commentId: M:Prowl.Runtime.EngineObject.DestroyImmediate
+  parent: Prowl.Runtime.EngineObject
+  href: Prowl.Runtime.EngineObject.html#Prowl_Runtime_EngineObject_DestroyImmediate
+  name: DestroyImmediate()
+  nameWithType: EngineObject.DestroyImmediate()
+  fullName: Prowl.Runtime.EngineObject.DestroyImmediate()
+  spec.csharp:
+  - uid: Prowl.Runtime.EngineObject.DestroyImmediate
+    name: DestroyImmediate
+    href: Prowl.Runtime.EngineObject.html#Prowl_Runtime_EngineObject_DestroyImmediate
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.EngineObject.DestroyImmediate
+    name: DestroyImmediate
+    href: Prowl.Runtime.EngineObject.html#Prowl_Runtime_EngineObject_DestroyImmediate
+  - name: (
+  - name: )
+- uid: Prowl.Runtime.EngineObject.Destroy(Prowl.Runtime.EngineObject)
+  commentId: M:Prowl.Runtime.EngineObject.Destroy(Prowl.Runtime.EngineObject)
+  parent: Prowl.Runtime.EngineObject
+  href: Prowl.Runtime.EngineObject.html#Prowl_Runtime_EngineObject_Destroy_Prowl_Runtime_EngineObject_
+  name: Destroy(EngineObject)
+  nameWithType: EngineObject.Destroy(EngineObject)
+  fullName: Prowl.Runtime.EngineObject.Destroy(Prowl.Runtime.EngineObject)
+  spec.csharp:
+  - uid: Prowl.Runtime.EngineObject.Destroy(Prowl.Runtime.EngineObject)
+    name: Destroy
+    href: Prowl.Runtime.EngineObject.html#Prowl_Runtime_EngineObject_Destroy_Prowl_Runtime_EngineObject_
+  - name: (
+  - uid: Prowl.Runtime.EngineObject
+    name: EngineObject
+    href: Prowl.Runtime.EngineObject.html
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.EngineObject.Destroy(Prowl.Runtime.EngineObject)
+    name: Destroy
+    href: Prowl.Runtime.EngineObject.html#Prowl_Runtime_EngineObject_Destroy_Prowl_Runtime_EngineObject_
+  - name: (
+  - uid: Prowl.Runtime.EngineObject
+    name: EngineObject
+    href: Prowl.Runtime.EngineObject.html
+  - name: )
+- uid: Prowl.Runtime.EngineObject.DestroyImmediate(Prowl.Runtime.EngineObject)
+  commentId: M:Prowl.Runtime.EngineObject.DestroyImmediate(Prowl.Runtime.EngineObject)
+  parent: Prowl.Runtime.EngineObject
+  href: Prowl.Runtime.EngineObject.html#Prowl_Runtime_EngineObject_DestroyImmediate_Prowl_Runtime_EngineObject_
+  name: DestroyImmediate(EngineObject)
+  nameWithType: EngineObject.DestroyImmediate(EngineObject)
+  fullName: Prowl.Runtime.EngineObject.DestroyImmediate(Prowl.Runtime.EngineObject)
+  spec.csharp:
+  - uid: Prowl.Runtime.EngineObject.DestroyImmediate(Prowl.Runtime.EngineObject)
+    name: DestroyImmediate
+    href: Prowl.Runtime.EngineObject.html#Prowl_Runtime_EngineObject_DestroyImmediate_Prowl_Runtime_EngineObject_
+  - name: (
+  - uid: Prowl.Runtime.EngineObject
+    name: EngineObject
+    href: Prowl.Runtime.EngineObject.html
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.EngineObject.DestroyImmediate(Prowl.Runtime.EngineObject)
+    name: DestroyImmediate
+    href: Prowl.Runtime.EngineObject.html#Prowl_Runtime_EngineObject_DestroyImmediate_Prowl_Runtime_EngineObject_
+  - name: (
+  - uid: Prowl.Runtime.EngineObject
+    name: EngineObject
+    href: Prowl.Runtime.EngineObject.html
+  - name: )
+- uid: Prowl.Runtime.EngineObject.HandleDestroyed
+  commentId: M:Prowl.Runtime.EngineObject.HandleDestroyed
+  parent: Prowl.Runtime.EngineObject
+  href: Prowl.Runtime.EngineObject.html#Prowl_Runtime_EngineObject_HandleDestroyed
+  name: HandleDestroyed()
+  nameWithType: EngineObject.HandleDestroyed()
+  fullName: Prowl.Runtime.EngineObject.HandleDestroyed()
+  spec.csharp:
+  - uid: Prowl.Runtime.EngineObject.HandleDestroyed
+    name: HandleDestroyed
+    href: Prowl.Runtime.EngineObject.html#Prowl_Runtime_EngineObject_HandleDestroyed
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.EngineObject.HandleDestroyed
+    name: HandleDestroyed
+    href: Prowl.Runtime.EngineObject.html#Prowl_Runtime_EngineObject_HandleDestroyed
+  - name: (
+  - name: )
+- uid: Prowl.Runtime.EngineObject.Instantiate(Prowl.Runtime.EngineObject,System.Boolean)
+  commentId: M:Prowl.Runtime.EngineObject.Instantiate(Prowl.Runtime.EngineObject,System.Boolean)
+  parent: Prowl.Runtime.EngineObject
+  isExternal: true
+  href: Prowl.Runtime.EngineObject.html#Prowl_Runtime_EngineObject_Instantiate_Prowl_Runtime_EngineObject_System_Boolean_
+  name: Instantiate(EngineObject, bool)
+  nameWithType: EngineObject.Instantiate(EngineObject, bool)
+  fullName: Prowl.Runtime.EngineObject.Instantiate(Prowl.Runtime.EngineObject, bool)
+  nameWithType.vb: EngineObject.Instantiate(EngineObject, Boolean)
+  fullName.vb: Prowl.Runtime.EngineObject.Instantiate(Prowl.Runtime.EngineObject, Boolean)
+  name.vb: Instantiate(EngineObject, Boolean)
+  spec.csharp:
+  - uid: Prowl.Runtime.EngineObject.Instantiate(Prowl.Runtime.EngineObject,System.Boolean)
+    name: Instantiate
+    href: Prowl.Runtime.EngineObject.html#Prowl_Runtime_EngineObject_Instantiate_Prowl_Runtime_EngineObject_System_Boolean_
+  - name: (
+  - uid: Prowl.Runtime.EngineObject
+    name: EngineObject
+    href: Prowl.Runtime.EngineObject.html
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.EngineObject.Instantiate(Prowl.Runtime.EngineObject,System.Boolean)
+    name: Instantiate
+    href: Prowl.Runtime.EngineObject.html#Prowl_Runtime_EngineObject_Instantiate_Prowl_Runtime_EngineObject_System_Boolean_
+  - name: (
+  - uid: Prowl.Runtime.EngineObject
+    name: EngineObject
+    href: Prowl.Runtime.EngineObject.html
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+- uid: Prowl.Runtime.EngineObject.Dispose
+  commentId: M:Prowl.Runtime.EngineObject.Dispose
+  parent: Prowl.Runtime.EngineObject
+  href: Prowl.Runtime.EngineObject.html#Prowl_Runtime_EngineObject_Dispose
+  name: Dispose()
+  nameWithType: EngineObject.Dispose()
+  fullName: Prowl.Runtime.EngineObject.Dispose()
+  spec.csharp:
+  - uid: Prowl.Runtime.EngineObject.Dispose
+    name: Dispose
+    href: Prowl.Runtime.EngineObject.html#Prowl_Runtime_EngineObject_Dispose
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.EngineObject.Dispose
+    name: Dispose
+    href: Prowl.Runtime.EngineObject.html#Prowl_Runtime_EngineObject_Dispose
+  - name: (
+  - name: )
+- uid: Prowl.Runtime.EngineObject.OnDispose
+  commentId: M:Prowl.Runtime.EngineObject.OnDispose
+  parent: Prowl.Runtime.EngineObject
+  href: Prowl.Runtime.EngineObject.html#Prowl_Runtime_EngineObject_OnDispose
+  name: OnDispose()
+  nameWithType: EngineObject.OnDispose()
+  fullName: Prowl.Runtime.EngineObject.OnDispose()
+  spec.csharp:
+  - uid: Prowl.Runtime.EngineObject.OnDispose
+    name: OnDispose
+    href: Prowl.Runtime.EngineObject.html#Prowl_Runtime_EngineObject_OnDispose
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.EngineObject.OnDispose
+    name: OnDispose
+    href: Prowl.Runtime.EngineObject.html#Prowl_Runtime_EngineObject_OnDispose
+  - name: (
+  - name: )
+- uid: Prowl.Runtime.EngineObject.ToString
+  commentId: M:Prowl.Runtime.EngineObject.ToString
+  parent: Prowl.Runtime.EngineObject
+  href: Prowl.Runtime.EngineObject.html#Prowl_Runtime_EngineObject_ToString
+  name: ToString()
+  nameWithType: EngineObject.ToString()
+  fullName: Prowl.Runtime.EngineObject.ToString()
+  spec.csharp:
+  - uid: Prowl.Runtime.EngineObject.ToString
+    name: ToString
+    href: Prowl.Runtime.EngineObject.html#Prowl_Runtime_EngineObject_ToString
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.EngineObject.ToString
+    name: ToString
+    href: Prowl.Runtime.EngineObject.html#Prowl_Runtime_EngineObject_ToString
+  - name: (
+  - name: )
+- uid: Prowl.Runtime.EngineObject.SerializeHeader(Prowl.Runtime.SerializedProperty)
+  commentId: M:Prowl.Runtime.EngineObject.SerializeHeader(Prowl.Runtime.SerializedProperty)
+  parent: Prowl.Runtime.EngineObject
+  href: Prowl.Runtime.EngineObject.html#Prowl_Runtime_EngineObject_SerializeHeader_Prowl_Runtime_SerializedProperty_
+  name: SerializeHeader(SerializedProperty)
+  nameWithType: EngineObject.SerializeHeader(SerializedProperty)
+  fullName: Prowl.Runtime.EngineObject.SerializeHeader(Prowl.Runtime.SerializedProperty)
+  spec.csharp:
+  - uid: Prowl.Runtime.EngineObject.SerializeHeader(Prowl.Runtime.SerializedProperty)
+    name: SerializeHeader
+    href: Prowl.Runtime.EngineObject.html#Prowl_Runtime_EngineObject_SerializeHeader_Prowl_Runtime_SerializedProperty_
+  - name: (
+  - uid: Prowl.Runtime.SerializedProperty
+    name: SerializedProperty
+    href: Prowl.Runtime.SerializedProperty.html
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.EngineObject.SerializeHeader(Prowl.Runtime.SerializedProperty)
+    name: SerializeHeader
+    href: Prowl.Runtime.EngineObject.html#Prowl_Runtime_EngineObject_SerializeHeader_Prowl_Runtime_SerializedProperty_
+  - name: (
+  - uid: Prowl.Runtime.SerializedProperty
+    name: SerializedProperty
+    href: Prowl.Runtime.SerializedProperty.html
+  - name: )
+- uid: Prowl.Runtime.EngineObject.DeserializeHeader(Prowl.Runtime.SerializedProperty)
+  commentId: M:Prowl.Runtime.EngineObject.DeserializeHeader(Prowl.Runtime.SerializedProperty)
+  parent: Prowl.Runtime.EngineObject
+  href: Prowl.Runtime.EngineObject.html#Prowl_Runtime_EngineObject_DeserializeHeader_Prowl_Runtime_SerializedProperty_
+  name: DeserializeHeader(SerializedProperty)
+  nameWithType: EngineObject.DeserializeHeader(SerializedProperty)
+  fullName: Prowl.Runtime.EngineObject.DeserializeHeader(Prowl.Runtime.SerializedProperty)
+  spec.csharp:
+  - uid: Prowl.Runtime.EngineObject.DeserializeHeader(Prowl.Runtime.SerializedProperty)
+    name: DeserializeHeader
+    href: Prowl.Runtime.EngineObject.html#Prowl_Runtime_EngineObject_DeserializeHeader_Prowl_Runtime_SerializedProperty_
+  - name: (
+  - uid: Prowl.Runtime.SerializedProperty
+    name: SerializedProperty
+    href: Prowl.Runtime.SerializedProperty.html
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.EngineObject.DeserializeHeader(Prowl.Runtime.SerializedProperty)
+    name: DeserializeHeader
+    href: Prowl.Runtime.EngineObject.html#Prowl_Runtime_EngineObject_DeserializeHeader_Prowl_Runtime_SerializedProperty_
+  - name: (
+  - uid: Prowl.Runtime.SerializedProperty
+    name: SerializedProperty
+    href: Prowl.Runtime.SerializedProperty.html
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: Prowl.Runtime.EngineObject.Prowl.Runtime.EngineObjectExtensions.Null
+  commentId: M:Prowl.Runtime.EngineObjectExtensions.Null(Prowl.Runtime.EngineObject)
+  parent: Prowl.Runtime.EngineObjectExtensions
+  definition: Prowl.Runtime.EngineObjectExtensions.Null(Prowl.Runtime.EngineObject)
+  href: Prowl.Runtime.EngineObjectExtensions.html#Prowl_Runtime_EngineObjectExtensions_Null_Prowl_Runtime_EngineObject_
+  name: Null(EngineObject)
+  nameWithType: EngineObjectExtensions.Null(EngineObject)
+  fullName: Prowl.Runtime.EngineObjectExtensions.Null(Prowl.Runtime.EngineObject)
+  spec.csharp:
+  - uid: Prowl.Runtime.EngineObjectExtensions.Null(Prowl.Runtime.EngineObject)
+    name: "Null"
+    href: Prowl.Runtime.EngineObjectExtensions.html#Prowl_Runtime_EngineObjectExtensions_Null_Prowl_Runtime_EngineObject_
+  - name: (
+  - uid: Prowl.Runtime.EngineObject
+    name: EngineObject
+    href: Prowl.Runtime.EngineObject.html
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.EngineObjectExtensions.Null(Prowl.Runtime.EngineObject)
+    name: "Null"
+    href: Prowl.Runtime.EngineObjectExtensions.html#Prowl_Runtime_EngineObjectExtensions_Null_Prowl_Runtime_EngineObject_
+  - name: (
+  - uid: Prowl.Runtime.EngineObject
+    name: EngineObject
+    href: Prowl.Runtime.EngineObject.html
+  - name: )
+- uid: System.Object.Prowl.Runtime.RuntimeUtils.GetSerializableFields
+  commentId: M:Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  parent: Prowl.Runtime.RuntimeUtils
+  definition: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  name: GetSerializableFields(object)
+  nameWithType: RuntimeUtils.GetSerializableFields(object)
+  fullName: Prowl.Runtime.RuntimeUtils.GetSerializableFields(object)
+  nameWithType.vb: RuntimeUtils.GetSerializableFields(Object)
+  fullName.vb: Prowl.Runtime.RuntimeUtils.GetSerializableFields(Object)
+  name.vb: GetSerializableFields(Object)
+  spec.csharp:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Prowl.Runtime.EngineObject.Foreach``1(System.Action{``0})
+  commentId: M:Prowl.Runtime.EngineObject.Foreach``1(System.Action{``0})
+  isExternal: true
+  href: Prowl.Runtime.EngineObject.html#Prowl_Runtime_EngineObject_Foreach__1_System_Action___0__
+  name: Foreach<T>(Action<T>)
+  nameWithType: EngineObject.Foreach<T>(Action<T>)
+  fullName: Prowl.Runtime.EngineObject.Foreach<T>(System.Action<T>)
+  nameWithType.vb: EngineObject.Foreach(Of T)(Action(Of T))
+  fullName.vb: Prowl.Runtime.EngineObject.Foreach(Of T)(System.Action(Of T))
+  name.vb: Foreach(Of T)(Action(Of T))
+  spec.csharp:
+  - uid: Prowl.Runtime.EngineObject.Foreach``1(System.Action{``0})
+    name: Foreach
+    href: Prowl.Runtime.EngineObject.html#Prowl_Runtime_EngineObject_Foreach__1_System_Action___0__
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: <
+  - name: T
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.EngineObject.Foreach``1(System.Action{``0})
+    name: Foreach
+    href: Prowl.Runtime.EngineObject.html#Prowl_Runtime_EngineObject_Foreach__1_System_Action___0__
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: )
+- uid: Prowl.Runtime.EngineObjectExtensions.Null(Prowl.Runtime.EngineObject)
+  commentId: M:Prowl.Runtime.EngineObjectExtensions.Null(Prowl.Runtime.EngineObject)
+  href: Prowl.Runtime.EngineObjectExtensions.html#Prowl_Runtime_EngineObjectExtensions_Null_Prowl_Runtime_EngineObject_
+  name: Null(EngineObject)
+  nameWithType: EngineObjectExtensions.Null(EngineObject)
+  fullName: Prowl.Runtime.EngineObjectExtensions.Null(Prowl.Runtime.EngineObject)
+  spec.csharp:
+  - uid: Prowl.Runtime.EngineObjectExtensions.Null(Prowl.Runtime.EngineObject)
+    name: "Null"
+    href: Prowl.Runtime.EngineObjectExtensions.html#Prowl_Runtime_EngineObjectExtensions_Null_Prowl_Runtime_EngineObject_
+  - name: (
+  - uid: Prowl.Runtime.EngineObject
+    name: EngineObject
+    href: Prowl.Runtime.EngineObject.html
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.EngineObjectExtensions.Null(Prowl.Runtime.EngineObject)
+    name: "Null"
+    href: Prowl.Runtime.EngineObjectExtensions.html#Prowl_Runtime_EngineObjectExtensions_Null_Prowl_Runtime_EngineObject_
+  - name: (
+  - uid: Prowl.Runtime.EngineObject
+    name: EngineObject
+    href: Prowl.Runtime.EngineObject.html
+  - name: )
+- uid: Prowl.Runtime.EngineObjectExtensions
+  commentId: T:Prowl.Runtime.EngineObjectExtensions
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.EngineObjectExtensions.html
+  name: EngineObjectExtensions
+  nameWithType: EngineObjectExtensions
+  fullName: Prowl.Runtime.EngineObjectExtensions
+- uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  commentId: M:Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  isExternal: true
+  href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  name: GetSerializableFields(object)
+  nameWithType: RuntimeUtils.GetSerializableFields(object)
+  fullName: Prowl.Runtime.RuntimeUtils.GetSerializableFields(object)
+  nameWithType.vb: RuntimeUtils.GetSerializableFields(Object)
+  fullName.vb: Prowl.Runtime.RuntimeUtils.GetSerializableFields(Object)
+  name.vb: GetSerializableFields(Object)
+  spec.csharp:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: Prowl.Runtime.RuntimeUtils
+  commentId: T:Prowl.Runtime.RuntimeUtils
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.RuntimeUtils.html
+  name: RuntimeUtils
+  nameWithType: RuntimeUtils
+  fullName: Prowl.Runtime.RuntimeUtils
+- uid: Prowl.Runtime.SerializedProperty
+  commentId: T:Prowl.Runtime.SerializedProperty
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.SerializedProperty.html
+  name: SerializedProperty
+  nameWithType: SerializedProperty
+  fullName: Prowl.Runtime.SerializedProperty
+- uid: Prowl.Runtime.Scene.Create*
+  commentId: Overload:Prowl.Runtime.Scene.Create
+  href: Prowl.Runtime.Scene.html#Prowl_Runtime_Scene_Create_Prowl_Runtime_GameObject___
+  name: Create
+  nameWithType: Scene.Create
+  fullName: Prowl.Runtime.Scene.Create
+- uid: Prowl.Runtime.GameObject[]
+  isExternal: true
+  href: Prowl.Runtime.GameObject.html
+  name: GameObject[]
+  nameWithType: GameObject[]
+  fullName: Prowl.Runtime.GameObject[]
+  nameWithType.vb: GameObject()
+  fullName.vb: Prowl.Runtime.GameObject()
+  name.vb: GameObject()
+  spec.csharp:
+  - uid: Prowl.Runtime.GameObject
+    name: GameObject
+    href: Prowl.Runtime.GameObject.html
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: Prowl.Runtime.GameObject
+    name: GameObject
+    href: Prowl.Runtime.GameObject.html
+  - name: (
+  - name: )
+- uid: Prowl.Runtime.Scene
+  commentId: T:Prowl.Runtime.Scene
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.Scene.html
+  name: Scene
+  nameWithType: Scene
+  fullName: Prowl.Runtime.Scene
+- uid: Prowl.Runtime.Scene.InstantiateScene*
+  commentId: Overload:Prowl.Runtime.Scene.InstantiateScene
+  href: Prowl.Runtime.Scene.html#Prowl_Runtime_Scene_InstantiateScene
+  name: InstantiateScene
+  nameWithType: Scene.InstantiateScene
+  fullName: Prowl.Runtime.Scene.InstantiateScene

@@ -1,0 +1,689 @@
+### YamlMime:ManagedReference
+items:
+- uid: Prowl.Editor.Texture2DLoader
+  commentId: T:Prowl.Editor.Texture2DLoader
+  id: Texture2DLoader
+  parent: Prowl.Editor
+  children:
+  - Prowl.Editor.Texture2DLoader.FromFile(System.String,System.Boolean)
+  - Prowl.Editor.Texture2DLoader.FromFile``1(System.String,System.Boolean)
+  - Prowl.Editor.Texture2DLoader.FromImage``1(SixLabors.ImageSharp.Image{``0},System.Boolean)
+  - Prowl.Editor.Texture2DLoader.FromStream(System.IO.Stream,System.Boolean)
+  - Prowl.Editor.Texture2DLoader.FromStream``1(System.IO.Stream,System.Boolean)
+  langs:
+  - csharp
+  - vb
+  name: Texture2DLoader
+  nameWithType: Texture2DLoader
+  fullName: Prowl.Editor.Texture2DLoader
+  type: Class
+  source:
+    remote:
+      path: Prowl.Editor/Utilities/Texture2DLoader.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Texture2DLoader
+    path: ../Prowl/Prowl.Editor/Utilities/Texture2DLoader.cs
+    startLine: 13
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor
+  syntax:
+    content: public static class Texture2DLoader
+    content.vb: Public Module Texture2DLoader
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: Prowl.Editor.Texture2DLoader.FromImage``1(SixLabors.ImageSharp.Image{``0},System.Boolean)
+  commentId: M:Prowl.Editor.Texture2DLoader.FromImage``1(SixLabors.ImageSharp.Image{``0},System.Boolean)
+  id: FromImage``1(SixLabors.ImageSharp.Image{``0},System.Boolean)
+  parent: Prowl.Editor.Texture2DLoader
+  langs:
+  - csharp
+  - vb
+  name: FromImage<TPixel>(Image<TPixel>, bool)
+  nameWithType: Texture2DLoader.FromImage<TPixel>(Image<TPixel>, bool)
+  fullName: Prowl.Editor.Texture2DLoader.FromImage<TPixel>(SixLabors.ImageSharp.Image<TPixel>, bool)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Editor/Utilities/Texture2DLoader.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: FromImage
+    path: ../Prowl/Prowl.Editor/Utilities/Texture2DLoader.cs
+    startLine: 53
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor
+  summary: Creates a <xref href="Prowl.Runtime.Texture2D" data-throw-if-not-resolved="false"></xref> from an <xref href="SixLabors.ImageSharp.Image%601" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: 'public static Texture2D FromImage<TPixel>(Image<TPixel> image, bool generateMipmaps = false) where TPixel : unmanaged, IPixel<TPixel>'
+    parameters:
+    - id: image
+      type: SixLabors.ImageSharp.Image{{TPixel}}
+      description: The image to create the <xref href="Prowl.Runtime.Texture2D" data-throw-if-not-resolved="false"></xref> with.
+    - id: generateMipmaps
+      type: System.Boolean
+      description: Whether to generate mipmaps for the <xref href="Prowl.Runtime.Texture2D" data-throw-if-not-resolved="false"></xref>.
+    typeParameters:
+    - id: TPixel
+      description: The pixel format to use.
+    return:
+      type: Prowl.Runtime.Texture2D
+    content.vb: Public Shared Function FromImage(Of TPixel As {Structure, IPixel(Of TPixel)})(image As Image(Of TPixel), generateMipmaps As Boolean = False) As Texture2D
+  overload: Prowl.Editor.Texture2DLoader.FromImage*
+  nameWithType.vb: Texture2DLoader.FromImage(Of TPixel)(Image(Of TPixel), Boolean)
+  fullName.vb: Prowl.Editor.Texture2DLoader.FromImage(Of TPixel)(SixLabors.ImageSharp.Image(Of TPixel), Boolean)
+  name.vb: FromImage(Of TPixel)(Image(Of TPixel), Boolean)
+- uid: Prowl.Editor.Texture2DLoader.FromStream``1(System.IO.Stream,System.Boolean)
+  commentId: M:Prowl.Editor.Texture2DLoader.FromStream``1(System.IO.Stream,System.Boolean)
+  id: FromStream``1(System.IO.Stream,System.Boolean)
+  parent: Prowl.Editor.Texture2DLoader
+  langs:
+  - csharp
+  - vb
+  name: FromStream<TPixel>(Stream, bool)
+  nameWithType: Texture2DLoader.FromStream<TPixel>(Stream, bool)
+  fullName: Prowl.Editor.Texture2DLoader.FromStream<TPixel>(System.IO.Stream, bool)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Editor/Utilities/Texture2DLoader.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: FromStream
+    path: ../Prowl/Prowl.Editor/Utilities/Texture2DLoader.cs
+    startLine: 101
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor
+  summary: Creates a <xref href="Prowl.Runtime.Texture2D" data-throw-if-not-resolved="false"></xref> from a <xref href="System.IO.Stream" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: 'public static Texture2D FromStream<TPixel>(Stream stream, bool generateMipmaps = false) where TPixel : unmanaged, IPixel<TPixel>'
+    parameters:
+    - id: stream
+      type: System.IO.Stream
+      description: The stream from which to load an image.
+    - id: generateMipmaps
+      type: System.Boolean
+      description: Whether to generate mipmaps for the <xref href="Prowl.Runtime.Texture2D" data-throw-if-not-resolved="false"></xref>.
+    typeParameters:
+    - id: TPixel
+      description: The pixel format to use.
+    return:
+      type: Prowl.Runtime.Texture2D
+    content.vb: Public Shared Function FromStream(Of TPixel As {Structure, IPixel(Of TPixel)})(stream As Stream, generateMipmaps As Boolean = False) As Texture2D
+  overload: Prowl.Editor.Texture2DLoader.FromStream*
+  nameWithType.vb: Texture2DLoader.FromStream(Of TPixel)(Stream, Boolean)
+  fullName.vb: Prowl.Editor.Texture2DLoader.FromStream(Of TPixel)(System.IO.Stream, Boolean)
+  name.vb: FromStream(Of TPixel)(Stream, Boolean)
+- uid: Prowl.Editor.Texture2DLoader.FromFile``1(System.String,System.Boolean)
+  commentId: M:Prowl.Editor.Texture2DLoader.FromFile``1(System.String,System.Boolean)
+  id: FromFile``1(System.String,System.Boolean)
+  parent: Prowl.Editor.Texture2DLoader
+  langs:
+  - csharp
+  - vb
+  name: FromFile<TPixel>(string, bool)
+  nameWithType: Texture2DLoader.FromFile<TPixel>(string, bool)
+  fullName: Prowl.Editor.Texture2DLoader.FromFile<TPixel>(string, bool)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Editor/Utilities/Texture2DLoader.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: FromFile
+    path: ../Prowl/Prowl.Editor/Utilities/Texture2DLoader.cs
+    startLine: 113
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor
+  summary: Creates a <xref href="Prowl.Runtime.Texture2D" data-throw-if-not-resolved="false"></xref> by loading an image from a file.
+  example: []
+  syntax:
+    content: 'public static Texture2D FromFile<TPixel>(string file, bool generateMipmaps = false) where TPixel : unmanaged, IPixel<TPixel>'
+    parameters:
+    - id: file
+      type: System.String
+      description: The file containing the image to create the <xref href="Prowl.Runtime.Texture2D" data-throw-if-not-resolved="false"></xref> with.
+    - id: generateMipmaps
+      type: System.Boolean
+      description: Whether to generate mipmaps for the <xref href="Prowl.Runtime.Texture2D" data-throw-if-not-resolved="false"></xref>.
+    typeParameters:
+    - id: TPixel
+      description: The pixel format to use.
+    return:
+      type: Prowl.Runtime.Texture2D
+    content.vb: Public Shared Function FromFile(Of TPixel As {Structure, IPixel(Of TPixel)})(file As String, generateMipmaps As Boolean = False) As Texture2D
+  overload: Prowl.Editor.Texture2DLoader.FromFile*
+  nameWithType.vb: Texture2DLoader.FromFile(Of TPixel)(String, Boolean)
+  fullName.vb: Prowl.Editor.Texture2DLoader.FromFile(Of TPixel)(String, Boolean)
+  name.vb: FromFile(Of TPixel)(String, Boolean)
+- uid: Prowl.Editor.Texture2DLoader.FromStream(System.IO.Stream,System.Boolean)
+  commentId: M:Prowl.Editor.Texture2DLoader.FromStream(System.IO.Stream,System.Boolean)
+  id: FromStream(System.IO.Stream,System.Boolean)
+  parent: Prowl.Editor.Texture2DLoader
+  langs:
+  - csharp
+  - vb
+  name: FromStream(Stream, bool)
+  nameWithType: Texture2DLoader.FromStream(Stream, bool)
+  fullName: Prowl.Editor.Texture2DLoader.FromStream(System.IO.Stream, bool)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Editor/Utilities/Texture2DLoader.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: FromStream
+    path: ../Prowl/Prowl.Editor/Utilities/Texture2DLoader.cs
+    startLine: 134
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor
+  summary: Creates a <xref href="Prowl.Runtime.Texture2D" data-throw-if-not-resolved="false"></xref> from a <xref href="System.IO.Stream" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public static Texture2D FromStream(Stream stream, bool generateMipmaps = false)
+    parameters:
+    - id: stream
+      type: System.IO.Stream
+      description: The stream from which to load an image.
+    - id: generateMipmaps
+      type: System.Boolean
+      description: Whether to generate mipmaps for the <xref href="Prowl.Runtime.Texture2D" data-throw-if-not-resolved="false"></xref>.
+    return:
+      type: Prowl.Runtime.Texture2D
+    content.vb: Public Shared Function FromStream(stream As Stream, generateMipmaps As Boolean = False) As Texture2D
+  overload: Prowl.Editor.Texture2DLoader.FromStream*
+  nameWithType.vb: Texture2DLoader.FromStream(Stream, Boolean)
+  fullName.vb: Prowl.Editor.Texture2DLoader.FromStream(System.IO.Stream, Boolean)
+  name.vb: FromStream(Stream, Boolean)
+- uid: Prowl.Editor.Texture2DLoader.FromFile(System.String,System.Boolean)
+  commentId: M:Prowl.Editor.Texture2DLoader.FromFile(System.String,System.Boolean)
+  id: FromFile(System.String,System.Boolean)
+  parent: Prowl.Editor.Texture2DLoader
+  langs:
+  - csharp
+  - vb
+  name: FromFile(string, bool)
+  nameWithType: Texture2DLoader.FromFile(string, bool)
+  fullName: Prowl.Editor.Texture2DLoader.FromFile(string, bool)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Editor/Utilities/Texture2DLoader.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: FromFile
+    path: ../Prowl/Prowl.Editor/Utilities/Texture2DLoader.cs
+    startLine: 144
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor
+  summary: Creates a <xref href="Prowl.Runtime.Texture2D" data-throw-if-not-resolved="false"></xref> by loading an image from a file.
+  example: []
+  syntax:
+    content: public static Texture2D FromFile(string file, bool generateMipmaps = false)
+    parameters:
+    - id: file
+      type: System.String
+      description: The file containing the image to create the <xref href="Prowl.Runtime.Texture2D" data-throw-if-not-resolved="false"></xref> with.
+    - id: generateMipmaps
+      type: System.Boolean
+      description: Whether to generate mipmaps for the <xref href="Prowl.Runtime.Texture2D" data-throw-if-not-resolved="false"></xref>.
+    return:
+      type: Prowl.Runtime.Texture2D
+    content.vb: Public Shared Function FromFile(file As String, generateMipmaps As Boolean = False) As Texture2D
+  overload: Prowl.Editor.Texture2DLoader.FromFile*
+  nameWithType.vb: Texture2DLoader.FromFile(String, Boolean)
+  fullName.vb: Prowl.Editor.Texture2DLoader.FromFile(String, Boolean)
+  name.vb: FromFile(String, Boolean)
+references:
+- uid: Prowl.Editor
+  commentId: N:Prowl.Editor
+  href: Prowl.html
+  name: Prowl.Editor
+  nameWithType: Prowl.Editor
+  fullName: Prowl.Editor
+  spec.csharp:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Editor
+    name: Editor
+    href: Prowl.Editor.html
+  spec.vb:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Editor
+    name: Editor
+    href: Prowl.Editor.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Prowl.Runtime.Texture2D
+  commentId: T:Prowl.Runtime.Texture2D
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.Texture2D.html
+  name: Texture2D
+  nameWithType: Texture2D
+  fullName: Prowl.Runtime.Texture2D
+- uid: SixLabors.ImageSharp.Image`1
+  commentId: T:SixLabors.ImageSharp.Image`1
+  isExternal: true
+  name: Image<TPixel>
+  nameWithType: Image<TPixel>
+  fullName: SixLabors.ImageSharp.Image<TPixel>
+  nameWithType.vb: Image(Of TPixel)
+  fullName.vb: SixLabors.ImageSharp.Image(Of TPixel)
+  name.vb: Image(Of TPixel)
+  spec.csharp:
+  - uid: SixLabors.ImageSharp.Image`1
+    name: Image
+    isExternal: true
+  - name: <
+  - name: TPixel
+  - name: '>'
+  spec.vb:
+  - uid: SixLabors.ImageSharp.Image`1
+    name: Image
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TPixel
+  - name: )
+- uid: Prowl.Editor.Texture2DLoader.FromImage*
+  commentId: Overload:Prowl.Editor.Texture2DLoader.FromImage
+  href: Prowl.Editor.Texture2DLoader.html#Prowl_Editor_Texture2DLoader_FromImage__1_SixLabors_ImageSharp_Image___0__System_Boolean_
+  name: FromImage
+  nameWithType: Texture2DLoader.FromImage
+  fullName: Prowl.Editor.Texture2DLoader.FromImage
+- uid: SixLabors.ImageSharp.Image{{TPixel}}
+  commentId: T:SixLabors.ImageSharp.Image{``0}
+  parent: SixLabors.ImageSharp
+  definition: SixLabors.ImageSharp.Image`1
+  name: Image<TPixel>
+  nameWithType: Image<TPixel>
+  fullName: SixLabors.ImageSharp.Image<TPixel>
+  nameWithType.vb: Image(Of TPixel)
+  fullName.vb: SixLabors.ImageSharp.Image(Of TPixel)
+  name.vb: Image(Of TPixel)
+  spec.csharp:
+  - uid: SixLabors.ImageSharp.Image`1
+    name: Image
+    isExternal: true
+  - name: <
+  - name: TPixel
+  - name: '>'
+  spec.vb:
+  - uid: SixLabors.ImageSharp.Image`1
+    name: Image
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TPixel
+  - name: )
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: Prowl.Runtime
+  commentId: N:Prowl.Runtime
+  href: Prowl.html
+  name: Prowl.Runtime
+  nameWithType: Prowl.Runtime
+  fullName: Prowl.Runtime
+  spec.csharp:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+  spec.vb:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+- uid: SixLabors.ImageSharp
+  commentId: N:SixLabors.ImageSharp
+  isExternal: true
+  name: SixLabors.ImageSharp
+  nameWithType: SixLabors.ImageSharp
+  fullName: SixLabors.ImageSharp
+  spec.csharp:
+  - uid: SixLabors
+    name: SixLabors
+    isExternal: true
+  - name: .
+  - uid: SixLabors.ImageSharp
+    name: ImageSharp
+    isExternal: true
+  spec.vb:
+  - uid: SixLabors
+    name: SixLabors
+    isExternal: true
+  - name: .
+  - uid: SixLabors.ImageSharp
+    name: ImageSharp
+    isExternal: true
+- uid: System.IO.Stream
+  commentId: T:System.IO.Stream
+  parent: System.IO
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.io.stream
+  name: Stream
+  nameWithType: Stream
+  fullName: System.IO.Stream
+- uid: Prowl.Editor.Texture2DLoader.FromStream*
+  commentId: Overload:Prowl.Editor.Texture2DLoader.FromStream
+  href: Prowl.Editor.Texture2DLoader.html#Prowl_Editor_Texture2DLoader_FromStream__1_System_IO_Stream_System_Boolean_
+  name: FromStream
+  nameWithType: Texture2DLoader.FromStream
+  fullName: Prowl.Editor.Texture2DLoader.FromStream
+- uid: System.IO
+  commentId: N:System.IO
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.IO
+  nameWithType: System.IO
+  fullName: System.IO
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.IO
+    name: IO
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.io
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.IO
+    name: IO
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.io
+- uid: Prowl.Editor.Texture2DLoader.FromFile*
+  commentId: Overload:Prowl.Editor.Texture2DLoader.FromFile
+  href: Prowl.Editor.Texture2DLoader.html#Prowl_Editor_Texture2DLoader_FromFile__1_System_String_System_Boolean_
+  name: FromFile
+  nameWithType: Texture2DLoader.FromFile
+  fullName: Prowl.Editor.Texture2DLoader.FromFile
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String

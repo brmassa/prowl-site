@@ -1,0 +1,30 @@
+### YamlMime:ManagedReference
+items:
+- uid: Prowl.Editor.ScriptedEditors
+  commentId: N:Prowl.Editor.ScriptedEditors
+  id: Prowl.Editor.ScriptedEditors
+  children:
+  - Prowl.Editor.ScriptedEditors.MaterialEditor
+  - Prowl.Editor.ScriptedEditors.ScriptableObjectEditor
+  langs:
+  - csharp
+  - vb
+  name: Prowl.Editor.ScriptedEditors
+  nameWithType: Prowl.Editor.ScriptedEditors
+  fullName: Prowl.Editor.ScriptedEditors
+  type: Namespace
+  assemblies:
+  - Prowl.Editor
+references:
+- uid: Prowl.Editor.ScriptedEditors.MaterialEditor
+  commentId: T:Prowl.Editor.ScriptedEditors.MaterialEditor
+  href: Prowl.Editor.ScriptedEditors.MaterialEditor.html
+  name: MaterialEditor
+  nameWithType: MaterialEditor
+  fullName: Prowl.Editor.ScriptedEditors.MaterialEditor
+- uid: Prowl.Editor.ScriptedEditors.ScriptableObjectEditor
+  commentId: T:Prowl.Editor.ScriptedEditors.ScriptableObjectEditor
+  href: Prowl.Editor.ScriptedEditors.ScriptableObjectEditor.html
+  name: ScriptableObjectEditor
+  nameWithType: ScriptableObjectEditor
+  fullName: Prowl.Editor.ScriptedEditors.ScriptableObjectEditor

@@ -1,0 +1,302 @@
+### YamlMime:ManagedReference
+items:
+- uid: Prowl.Runtime.Utils.FilePathAttribute.Location
+  commentId: T:Prowl.Runtime.Utils.FilePathAttribute.Location
+  id: FilePathAttribute.Location
+  parent: Prowl.Runtime.Utils
+  children:
+  - Prowl.Runtime.Utils.FilePathAttribute.Location.Data
+  - Prowl.Runtime.Utils.FilePathAttribute.Location.EditorPreference
+  - Prowl.Runtime.Utils.FilePathAttribute.Location.EditorSetting
+  - Prowl.Runtime.Utils.FilePathAttribute.Location.Setting
+  langs:
+  - csharp
+  - vb
+  name: FilePathAttribute.Location
+  nameWithType: FilePathAttribute.Location
+  fullName: Prowl.Runtime.Utils.FilePathAttribute.Location
+  type: Enum
+  source:
+    remote:
+      path: Prowl.Runtime/Utils/ScriptableSingleton.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Location
+    path: ../Prowl/Prowl.Runtime/Utils/ScriptableSingleton.cs
+    startLine: 11
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.Utils
+  syntax:
+    content: public enum FilePathAttribute.Location
+    content.vb: Public Enum FilePathAttribute.Location
+  extensionMethods:
+  - System.Object.Prowl.Runtime.RuntimeUtils.GetSerializableFields
+- uid: Prowl.Runtime.Utils.FilePathAttribute.Location.Data
+  commentId: F:Prowl.Runtime.Utils.FilePathAttribute.Location.Data
+  id: Data
+  parent: Prowl.Runtime.Utils.FilePathAttribute.Location
+  langs:
+  - csharp
+  - vb
+  name: Data
+  nameWithType: FilePathAttribute.Location.Data
+  fullName: Prowl.Runtime.Utils.FilePathAttribute.Location.Data
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/Utils/ScriptableSingleton.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Data
+    path: ../Prowl/Prowl.Runtime/Utils/ScriptableSingleton.cs
+    startLine: 17
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.Utils
+  summary: >-
+    Data that is saved to the Application.DataPath
+
+    Good for when you want to extend the path and save to like Application.DataPath/Library/Temp/MyData
+  example: []
+  syntax:
+    content: Data = 0
+    return:
+      type: Prowl.Runtime.Utils.FilePathAttribute.Location
+- uid: Prowl.Runtime.Utils.FilePathAttribute.Location.Setting
+  commentId: F:Prowl.Runtime.Utils.FilePathAttribute.Location.Setting
+  id: Setting
+  parent: Prowl.Runtime.Utils.FilePathAttribute.Location
+  langs:
+  - csharp
+  - vb
+  name: Setting
+  nameWithType: FilePathAttribute.Location.Setting
+  fullName: Prowl.Runtime.Utils.FilePathAttribute.Location.Setting
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/Utils/ScriptableSingleton.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Setting
+    path: ../Prowl/Prowl.Runtime/Utils/ScriptableSingleton.cs
+    startLine: 22
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.Utils
+  summary: >-
+    Settings that are saved to the Application.DataPath/ProjectSettings
+
+    Intended for settings that are saved to the project and will be built with the project
+  example: []
+  syntax:
+    content: Setting = 1
+    return:
+      type: Prowl.Runtime.Utils.FilePathAttribute.Location
+- uid: Prowl.Runtime.Utils.FilePathAttribute.Location.EditorSetting
+  commentId: F:Prowl.Runtime.Utils.FilePathAttribute.Location.EditorSetting
+  id: EditorSetting
+  parent: Prowl.Runtime.Utils.FilePathAttribute.Location
+  langs:
+  - csharp
+  - vb
+  name: EditorSetting
+  nameWithType: FilePathAttribute.Location.EditorSetting
+  fullName: Prowl.Runtime.Utils.FilePathAttribute.Location.EditorSetting
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/Utils/ScriptableSingleton.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: EditorSetting
+    path: ../Prowl/Prowl.Runtime/Utils/ScriptableSingleton.cs
+    startLine: 27
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.Utils
+  summary: >-
+    Editor Settings that are saved to the Application.DataPath/ProjectSettings/Editor
+
+    Intended for settings that are editor only and per project, they will not be built with the project
+  example: []
+  syntax:
+    content: EditorSetting = 2
+    return:
+      type: Prowl.Runtime.Utils.FilePathAttribute.Location
+- uid: Prowl.Runtime.Utils.FilePathAttribute.Location.EditorPreference
+  commentId: F:Prowl.Runtime.Utils.FilePathAttribute.Location.EditorPreference
+  id: EditorPreference
+  parent: Prowl.Runtime.Utils.FilePathAttribute.Location
+  langs:
+  - csharp
+  - vb
+  name: EditorPreference
+  nameWithType: FilePathAttribute.Location.EditorPreference
+  fullName: Prowl.Runtime.Utils.FilePathAttribute.Location.EditorPreference
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/Utils/ScriptableSingleton.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: EditorPreference
+    path: ../Prowl/Prowl.Runtime/Utils/ScriptableSingleton.cs
+    startLine: 32
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.Utils
+  summary: >-
+    Editor Preferences that are saved to the Environment.SpecialFolder.ApplicationData/Prowl/Editor
+
+    Intended for settings that are editor only and are shared across all projects/editors
+  example: []
+  syntax:
+    content: EditorPreference = 3
+    return:
+      type: Prowl.Runtime.Utils.FilePathAttribute.Location
+references:
+- uid: Prowl.Runtime.Utils
+  commentId: N:Prowl.Runtime.Utils
+  href: Prowl.html
+  name: Prowl.Runtime.Utils
+  nameWithType: Prowl.Runtime.Utils
+  fullName: Prowl.Runtime.Utils
+  spec.csharp:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+  - name: .
+  - uid: Prowl.Runtime.Utils
+    name: Utils
+    href: Prowl.Runtime.Utils.html
+  spec.vb:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+  - name: .
+  - uid: Prowl.Runtime.Utils
+    name: Utils
+    href: Prowl.Runtime.Utils.html
+- uid: System.Object.Prowl.Runtime.RuntimeUtils.GetSerializableFields
+  commentId: M:Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  parent: Prowl.Runtime.RuntimeUtils
+  definition: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  name: GetSerializableFields(object)
+  nameWithType: RuntimeUtils.GetSerializableFields(object)
+  fullName: Prowl.Runtime.RuntimeUtils.GetSerializableFields(object)
+  nameWithType.vb: RuntimeUtils.GetSerializableFields(Object)
+  fullName.vb: Prowl.Runtime.RuntimeUtils.GetSerializableFields(Object)
+  name.vb: GetSerializableFields(Object)
+  spec.csharp:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  commentId: M:Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  isExternal: true
+  href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  name: GetSerializableFields(object)
+  nameWithType: RuntimeUtils.GetSerializableFields(object)
+  fullName: Prowl.Runtime.RuntimeUtils.GetSerializableFields(object)
+  nameWithType.vb: RuntimeUtils.GetSerializableFields(Object)
+  fullName.vb: Prowl.Runtime.RuntimeUtils.GetSerializableFields(Object)
+  name.vb: GetSerializableFields(Object)
+  spec.csharp:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: Prowl.Runtime.RuntimeUtils
+  commentId: T:Prowl.Runtime.RuntimeUtils
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.RuntimeUtils.html
+  name: RuntimeUtils
+  nameWithType: RuntimeUtils
+  fullName: Prowl.Runtime.RuntimeUtils
+- uid: Prowl.Runtime
+  commentId: N:Prowl.Runtime
+  href: Prowl.html
+  name: Prowl.Runtime
+  nameWithType: Prowl.Runtime
+  fullName: Prowl.Runtime
+  spec.csharp:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+  spec.vb:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+- uid: Prowl.Runtime.Utils.FilePathAttribute.Location
+  commentId: T:Prowl.Runtime.Utils.FilePathAttribute.Location
+  parent: Prowl.Runtime.Utils
+  href: Prowl.Runtime.Utils.FilePathAttribute.html
+  name: FilePathAttribute.Location
+  nameWithType: FilePathAttribute.Location
+  fullName: Prowl.Runtime.Utils.FilePathAttribute.Location
+  spec.csharp:
+  - uid: Prowl.Runtime.Utils.FilePathAttribute
+    name: FilePathAttribute
+    href: Prowl.Runtime.Utils.FilePathAttribute.html
+  - name: .
+  - uid: Prowl.Runtime.Utils.FilePathAttribute.Location
+    name: Location
+    href: Prowl.Runtime.Utils.FilePathAttribute.Location.html
+  spec.vb:
+  - uid: Prowl.Runtime.Utils.FilePathAttribute
+    name: FilePathAttribute
+    href: Prowl.Runtime.Utils.FilePathAttribute.html
+  - name: .
+  - uid: Prowl.Runtime.Utils.FilePathAttribute.Location
+    name: Location
+    href: Prowl.Runtime.Utils.FilePathAttribute.Location.html

@@ -1,0 +1,1661 @@
+### YamlMime:ManagedReference
+items:
+- uid: Prowl.Runtime.Debug
+  commentId: T:Prowl.Runtime.Debug
+  id: Debug
+  parent: Prowl.Runtime
+  children:
+  - Prowl.Runtime.Debug.Assert(System.Boolean)
+  - Prowl.Runtime.Debug.Assert(System.Boolean,System.String)
+  - Prowl.Runtime.Debug.ClearGizmos
+  - Prowl.Runtime.Debug.DrawArrow(Prowl.Runtime.Vector3,Prowl.Runtime.Vector3,Prowl.Runtime.Color)
+  - Prowl.Runtime.Debug.DrawCube(Prowl.Runtime.Vector3,Prowl.Runtime.Vector3,Prowl.Runtime.Color)
+  - Prowl.Runtime.Debug.DrawIcon(Prowl.Runtime.Texture2D,Prowl.Runtime.Vector3,System.Single,Prowl.Runtime.Color)
+  - Prowl.Runtime.Debug.DrawLine(Prowl.Runtime.Vector3,Prowl.Runtime.Vector3,Prowl.Runtime.Color)
+  - Prowl.Runtime.Debug.DrawSphere(Prowl.Runtime.Vector3,System.Single,Prowl.Runtime.Color,System.Int32)
+  - Prowl.Runtime.Debug.DrawTriangle(Prowl.Runtime.Vector3,Prowl.Runtime.Vector3,Prowl.Runtime.Vector3,Prowl.Runtime.Color)
+  - Prowl.Runtime.Debug.DrawWireCone(Prowl.Runtime.Vector3,Prowl.Runtime.Vector3,System.Single,Prowl.Runtime.Color,System.Int32)
+  - Prowl.Runtime.Debug.DrawWireCube(Prowl.Runtime.Vector3,Prowl.Runtime.Vector3,Prowl.Runtime.Color)
+  - Prowl.Runtime.Debug.DrawWireSphere(Prowl.Runtime.Vector3,System.Single,Prowl.Runtime.Color,System.Int32)
+  - Prowl.Runtime.Debug.GetGizmoDrawData(System.Boolean,Prowl.Runtime.Vector3)
+  - Prowl.Runtime.Debug.GetGizmoIcons
+  - Prowl.Runtime.Debug.If(System.Boolean,System.String)
+  - Prowl.Runtime.Debug.IfNull(System.Object,System.String)
+  - Prowl.Runtime.Debug.IfNullOrEmpty(System.String,System.String)
+  - Prowl.Runtime.Debug.Log(System.Object)
+  - Prowl.Runtime.Debug.Log(System.String)
+  - Prowl.Runtime.Debug.Log(System.String,System.ConsoleColor,Prowl.Runtime.LogSeverity,Prowl.Runtime.DebugStackTrace)
+  - Prowl.Runtime.Debug.LogError(System.Object)
+  - Prowl.Runtime.Debug.LogError(System.String)
+  - Prowl.Runtime.Debug.LogException(System.Exception)
+  - Prowl.Runtime.Debug.LogSuccess(System.Object)
+  - Prowl.Runtime.Debug.LogSuccess(System.String)
+  - Prowl.Runtime.Debug.LogWarning(System.Object)
+  - Prowl.Runtime.Debug.LogWarning(System.String)
+  - Prowl.Runtime.Debug.OnLog
+  langs:
+  - csharp
+  - vb
+  name: Debug
+  nameWithType: Debug
+  fullName: Prowl.Runtime.Debug
+  type: Class
+  source:
+    remote:
+      path: Prowl.Runtime/Debug.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Debug
+    path: ../Prowl/Prowl.Runtime/Debug.cs
+    startLine: 66
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public static class Debug
+    content.vb: Public Module Debug
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: Prowl.Runtime.Debug.OnLog
+  commentId: E:Prowl.Runtime.Debug.OnLog
+  id: OnLog
+  parent: Prowl.Runtime.Debug
+  langs:
+  - csharp
+  - vb
+  name: OnLog
+  nameWithType: Debug.OnLog
+  fullName: Prowl.Runtime.Debug.OnLog
+  type: Event
+  source:
+    remote:
+      path: Prowl.Runtime/Debug.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: OnLog
+    path: ../Prowl/Prowl.Runtime/Debug.cs
+    startLine: 68
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public static event OnLog? OnLog
+    return:
+      type: Prowl.Runtime.OnLog
+    content.vb: Public Shared Event OnLog As OnLog
+- uid: Prowl.Runtime.Debug.Log(System.Object)
+  commentId: M:Prowl.Runtime.Debug.Log(System.Object)
+  id: Log(System.Object)
+  parent: Prowl.Runtime.Debug
+  langs:
+  - csharp
+  - vb
+  name: Log(object)
+  nameWithType: Debug.Log(object)
+  fullName: Prowl.Runtime.Debug.Log(object)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Debug.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Log
+    path: ../Prowl/Prowl.Runtime/Debug.cs
+    startLine: 70
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public static void Log(object message)
+    parameters:
+    - id: message
+      type: System.Object
+    content.vb: Public Shared Sub Log(message As Object)
+  overload: Prowl.Runtime.Debug.Log*
+  nameWithType.vb: Debug.Log(Object)
+  fullName.vb: Prowl.Runtime.Debug.Log(Object)
+  name.vb: Log(Object)
+- uid: Prowl.Runtime.Debug.Log(System.String)
+  commentId: M:Prowl.Runtime.Debug.Log(System.String)
+  id: Log(System.String)
+  parent: Prowl.Runtime.Debug
+  langs:
+  - csharp
+  - vb
+  name: Log(string)
+  nameWithType: Debug.Log(string)
+  fullName: Prowl.Runtime.Debug.Log(string)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Debug.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Log
+    path: ../Prowl/Prowl.Runtime/Debug.cs
+    startLine: 73
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public static void Log(string message)
+    parameters:
+    - id: message
+      type: System.String
+    content.vb: Public Shared Sub Log(message As String)
+  overload: Prowl.Runtime.Debug.Log*
+  nameWithType.vb: Debug.Log(String)
+  fullName.vb: Prowl.Runtime.Debug.Log(String)
+  name.vb: Log(String)
+- uid: Prowl.Runtime.Debug.LogWarning(System.Object)
+  commentId: M:Prowl.Runtime.Debug.LogWarning(System.Object)
+  id: LogWarning(System.Object)
+  parent: Prowl.Runtime.Debug
+  langs:
+  - csharp
+  - vb
+  name: LogWarning(object)
+  nameWithType: Debug.LogWarning(object)
+  fullName: Prowl.Runtime.Debug.LogWarning(object)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Debug.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: LogWarning
+    path: ../Prowl/Prowl.Runtime/Debug.cs
+    startLine: 76
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public static void LogWarning(object message)
+    parameters:
+    - id: message
+      type: System.Object
+    content.vb: Public Shared Sub LogWarning(message As Object)
+  overload: Prowl.Runtime.Debug.LogWarning*
+  nameWithType.vb: Debug.LogWarning(Object)
+  fullName.vb: Prowl.Runtime.Debug.LogWarning(Object)
+  name.vb: LogWarning(Object)
+- uid: Prowl.Runtime.Debug.LogWarning(System.String)
+  commentId: M:Prowl.Runtime.Debug.LogWarning(System.String)
+  id: LogWarning(System.String)
+  parent: Prowl.Runtime.Debug
+  langs:
+  - csharp
+  - vb
+  name: LogWarning(string)
+  nameWithType: Debug.LogWarning(string)
+  fullName: Prowl.Runtime.Debug.LogWarning(string)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Debug.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: LogWarning
+    path: ../Prowl/Prowl.Runtime/Debug.cs
+    startLine: 79
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public static void LogWarning(string message)
+    parameters:
+    - id: message
+      type: System.String
+    content.vb: Public Shared Sub LogWarning(message As String)
+  overload: Prowl.Runtime.Debug.LogWarning*
+  nameWithType.vb: Debug.LogWarning(String)
+  fullName.vb: Prowl.Runtime.Debug.LogWarning(String)
+  name.vb: LogWarning(String)
+- uid: Prowl.Runtime.Debug.LogError(System.Object)
+  commentId: M:Prowl.Runtime.Debug.LogError(System.Object)
+  id: LogError(System.Object)
+  parent: Prowl.Runtime.Debug
+  langs:
+  - csharp
+  - vb
+  name: LogError(object)
+  nameWithType: Debug.LogError(object)
+  fullName: Prowl.Runtime.Debug.LogError(object)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Debug.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: LogError
+    path: ../Prowl/Prowl.Runtime/Debug.cs
+    startLine: 82
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public static void LogError(object message)
+    parameters:
+    - id: message
+      type: System.Object
+    content.vb: Public Shared Sub LogError(message As Object)
+  overload: Prowl.Runtime.Debug.LogError*
+  nameWithType.vb: Debug.LogError(Object)
+  fullName.vb: Prowl.Runtime.Debug.LogError(Object)
+  name.vb: LogError(Object)
+- uid: Prowl.Runtime.Debug.LogError(System.String)
+  commentId: M:Prowl.Runtime.Debug.LogError(System.String)
+  id: LogError(System.String)
+  parent: Prowl.Runtime.Debug
+  langs:
+  - csharp
+  - vb
+  name: LogError(string)
+  nameWithType: Debug.LogError(string)
+  fullName: Prowl.Runtime.Debug.LogError(string)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Debug.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: LogError
+    path: ../Prowl/Prowl.Runtime/Debug.cs
+    startLine: 85
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public static void LogError(string message)
+    parameters:
+    - id: message
+      type: System.String
+    content.vb: Public Shared Sub LogError(message As String)
+  overload: Prowl.Runtime.Debug.LogError*
+  nameWithType.vb: Debug.LogError(String)
+  fullName.vb: Prowl.Runtime.Debug.LogError(String)
+  name.vb: LogError(String)
+- uid: Prowl.Runtime.Debug.LogSuccess(System.Object)
+  commentId: M:Prowl.Runtime.Debug.LogSuccess(System.Object)
+  id: LogSuccess(System.Object)
+  parent: Prowl.Runtime.Debug
+  langs:
+  - csharp
+  - vb
+  name: LogSuccess(object)
+  nameWithType: Debug.LogSuccess(object)
+  fullName: Prowl.Runtime.Debug.LogSuccess(object)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Debug.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: LogSuccess
+    path: ../Prowl/Prowl.Runtime/Debug.cs
+    startLine: 88
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public static void LogSuccess(object message)
+    parameters:
+    - id: message
+      type: System.Object
+    content.vb: Public Shared Sub LogSuccess(message As Object)
+  overload: Prowl.Runtime.Debug.LogSuccess*
+  nameWithType.vb: Debug.LogSuccess(Object)
+  fullName.vb: Prowl.Runtime.Debug.LogSuccess(Object)
+  name.vb: LogSuccess(Object)
+- uid: Prowl.Runtime.Debug.LogSuccess(System.String)
+  commentId: M:Prowl.Runtime.Debug.LogSuccess(System.String)
+  id: LogSuccess(System.String)
+  parent: Prowl.Runtime.Debug
+  langs:
+  - csharp
+  - vb
+  name: LogSuccess(string)
+  nameWithType: Debug.LogSuccess(string)
+  fullName: Prowl.Runtime.Debug.LogSuccess(string)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Debug.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: LogSuccess
+    path: ../Prowl/Prowl.Runtime/Debug.cs
+    startLine: 91
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public static void LogSuccess(string message)
+    parameters:
+    - id: message
+      type: System.String
+    content.vb: Public Shared Sub LogSuccess(message As String)
+  overload: Prowl.Runtime.Debug.LogSuccess*
+  nameWithType.vb: Debug.LogSuccess(String)
+  fullName.vb: Prowl.Runtime.Debug.LogSuccess(String)
+  name.vb: LogSuccess(String)
+- uid: Prowl.Runtime.Debug.LogException(System.Exception)
+  commentId: M:Prowl.Runtime.Debug.LogException(System.Exception)
+  id: LogException(System.Exception)
+  parent: Prowl.Runtime.Debug
+  langs:
+  - csharp
+  - vb
+  name: LogException(Exception)
+  nameWithType: Debug.LogException(Exception)
+  fullName: Prowl.Runtime.Debug.LogException(System.Exception)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Debug.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: LogException
+    path: ../Prowl/Prowl.Runtime/Debug.cs
+    startLine: 94
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public static void LogException(Exception exception)
+    parameters:
+    - id: exception
+      type: System.Exception
+    content.vb: Public Shared Sub LogException(exception As Exception)
+  overload: Prowl.Runtime.Debug.LogException*
+- uid: Prowl.Runtime.Debug.Log(System.String,System.ConsoleColor,Prowl.Runtime.LogSeverity,Prowl.Runtime.DebugStackTrace)
+  commentId: M:Prowl.Runtime.Debug.Log(System.String,System.ConsoleColor,Prowl.Runtime.LogSeverity,Prowl.Runtime.DebugStackTrace)
+  id: Log(System.String,System.ConsoleColor,Prowl.Runtime.LogSeverity,Prowl.Runtime.DebugStackTrace)
+  parent: Prowl.Runtime.Debug
+  langs:
+  - csharp
+  - vb
+  name: Log(string, ConsoleColor, LogSeverity, DebugStackTrace?)
+  nameWithType: Debug.Log(string, ConsoleColor, LogSeverity, DebugStackTrace?)
+  fullName: Prowl.Runtime.Debug.Log(string, System.ConsoleColor, Prowl.Runtime.LogSeverity, Prowl.Runtime.DebugStackTrace?)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Debug.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Log
+    path: ../Prowl/Prowl.Runtime/Debug.cs
+    startLine: 115
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public static void Log(string message, ConsoleColor color, LogSeverity logSeverity, DebugStackTrace? customTrace = null)
+    parameters:
+    - id: message
+      type: System.String
+    - id: color
+      type: System.ConsoleColor
+    - id: logSeverity
+      type: Prowl.Runtime.LogSeverity
+    - id: customTrace
+      type: Prowl.Runtime.DebugStackTrace
+    content.vb: Public Shared Sub Log(message As String, color As ConsoleColor, logSeverity As LogSeverity, customTrace As DebugStackTrace = Nothing)
+  overload: Prowl.Runtime.Debug.Log*
+  nameWithType.vb: Debug.Log(String, ConsoleColor, LogSeverity, DebugStackTrace)
+  fullName.vb: Prowl.Runtime.Debug.Log(String, System.ConsoleColor, Prowl.Runtime.LogSeverity, Prowl.Runtime.DebugStackTrace)
+  name.vb: Log(String, ConsoleColor, LogSeverity, DebugStackTrace)
+- uid: Prowl.Runtime.Debug.If(System.Boolean,System.String)
+  commentId: M:Prowl.Runtime.Debug.If(System.Boolean,System.String)
+  id: If(System.Boolean,System.String)
+  parent: Prowl.Runtime.Debug
+  langs:
+  - csharp
+  - vb
+  name: If(bool, string)
+  nameWithType: Debug.If(bool, string)
+  fullName: Prowl.Runtime.Debug.If(bool, string)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Debug.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: If
+    path: ../Prowl/Prowl.Runtime/Debug.cs
+    startLine: 136
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public static void If(bool condition, string message = "")
+    parameters:
+    - id: condition
+      type: System.Boolean
+    - id: message
+      type: System.String
+    content.vb: Public Shared Sub [If](condition As Boolean, message As String = "")
+  overload: Prowl.Runtime.Debug.If*
+  nameWithType.vb: Debug.If(Boolean, String)
+  fullName.vb: Prowl.Runtime.Debug.If(Boolean, String)
+  name.vb: If(Boolean, String)
+- uid: Prowl.Runtime.Debug.IfNull(System.Object,System.String)
+  commentId: M:Prowl.Runtime.Debug.IfNull(System.Object,System.String)
+  id: IfNull(System.Object,System.String)
+  parent: Prowl.Runtime.Debug
+  langs:
+  - csharp
+  - vb
+  name: IfNull(object, string)
+  nameWithType: Debug.IfNull(object, string)
+  fullName: Prowl.Runtime.Debug.IfNull(object, string)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Debug.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: IfNull
+    path: ../Prowl/Prowl.Runtime/Debug.cs
+    startLine: 142
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public static void IfNull(object value, string message = "")
+    parameters:
+    - id: value
+      type: System.Object
+    - id: message
+      type: System.String
+    content.vb: Public Shared Sub IfNull(value As Object, message As String = "")
+  overload: Prowl.Runtime.Debug.IfNull*
+  nameWithType.vb: Debug.IfNull(Object, String)
+  fullName.vb: Prowl.Runtime.Debug.IfNull(Object, String)
+  name.vb: IfNull(Object, String)
+- uid: Prowl.Runtime.Debug.IfNullOrEmpty(System.String,System.String)
+  commentId: M:Prowl.Runtime.Debug.IfNullOrEmpty(System.String,System.String)
+  id: IfNullOrEmpty(System.String,System.String)
+  parent: Prowl.Runtime.Debug
+  langs:
+  - csharp
+  - vb
+  name: IfNullOrEmpty(string, string)
+  nameWithType: Debug.IfNullOrEmpty(string, string)
+  fullName: Prowl.Runtime.Debug.IfNullOrEmpty(string, string)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Debug.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: IfNullOrEmpty
+    path: ../Prowl/Prowl.Runtime/Debug.cs
+    startLine: 148
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public static void IfNullOrEmpty(string value, string message = "")
+    parameters:
+    - id: value
+      type: System.String
+    - id: message
+      type: System.String
+    content.vb: Public Shared Sub IfNullOrEmpty(value As String, message As String = "")
+  overload: Prowl.Runtime.Debug.IfNullOrEmpty*
+  nameWithType.vb: Debug.IfNullOrEmpty(String, String)
+  fullName.vb: Prowl.Runtime.Debug.IfNullOrEmpty(String, String)
+  name.vb: IfNullOrEmpty(String, String)
+- uid: Prowl.Runtime.Debug.Assert(System.Boolean,System.String)
+  commentId: M:Prowl.Runtime.Debug.Assert(System.Boolean,System.String)
+  id: Assert(System.Boolean,System.String)
+  parent: Prowl.Runtime.Debug
+  langs:
+  - csharp
+  - vb
+  name: Assert(bool, string?)
+  nameWithType: Debug.Assert(bool, string?)
+  fullName: Prowl.Runtime.Debug.Assert(bool, string?)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Debug.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Assert
+    path: ../Prowl/Prowl.Runtime/Debug.cs
+    startLine: 166
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public static void Assert(bool condition, string? message)
+    parameters:
+    - id: condition
+      type: System.Boolean
+    - id: message
+      type: System.String
+    content.vb: Public Shared Sub Assert(condition As Boolean, message As String)
+  overload: Prowl.Runtime.Debug.Assert*
+  nameWithType.vb: Debug.Assert(Boolean, String)
+  fullName.vb: Prowl.Runtime.Debug.Assert(Boolean, String)
+  name.vb: Assert(Boolean, String)
+- uid: Prowl.Runtime.Debug.Assert(System.Boolean)
+  commentId: M:Prowl.Runtime.Debug.Assert(System.Boolean)
+  id: Assert(System.Boolean)
+  parent: Prowl.Runtime.Debug
+  langs:
+  - csharp
+  - vb
+  name: Assert(bool)
+  nameWithType: Debug.Assert(bool)
+  fullName: Prowl.Runtime.Debug.Assert(bool)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Debug.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Assert
+    path: ../Prowl/Prowl.Runtime/Debug.cs
+    startLine: 169
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public static void Assert(bool condition)
+    parameters:
+    - id: condition
+      type: System.Boolean
+    content.vb: Public Shared Sub Assert(condition As Boolean)
+  overload: Prowl.Runtime.Debug.Assert*
+  nameWithType.vb: Debug.Assert(Boolean)
+  fullName.vb: Prowl.Runtime.Debug.Assert(Boolean)
+  name.vb: Assert(Boolean)
+- uid: Prowl.Runtime.Debug.ClearGizmos
+  commentId: M:Prowl.Runtime.Debug.ClearGizmos
+  id: ClearGizmos
+  parent: Prowl.Runtime.Debug
+  langs:
+  - csharp
+  - vb
+  name: ClearGizmos()
+  nameWithType: Debug.ClearGizmos()
+  fullName: Prowl.Runtime.Debug.ClearGizmos()
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Debug.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: ClearGizmos
+    path: ../Prowl/Prowl.Runtime/Debug.cs
+    startLine: 176
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public static void ClearGizmos()
+    content.vb: Public Shared Sub ClearGizmos()
+  overload: Prowl.Runtime.Debug.ClearGizmos*
+- uid: Prowl.Runtime.Debug.GetGizmoDrawData(System.Boolean,Prowl.Runtime.Vector3)
+  commentId: M:Prowl.Runtime.Debug.GetGizmoDrawData(System.Boolean,Prowl.Runtime.Vector3)
+  id: GetGizmoDrawData(System.Boolean,Prowl.Runtime.Vector3)
+  parent: Prowl.Runtime.Debug
+  langs:
+  - csharp
+  - vb
+  name: GetGizmoDrawData(bool, Vector3)
+  nameWithType: Debug.GetGizmoDrawData(bool, Vector3)
+  fullName: Prowl.Runtime.Debug.GetGizmoDrawData(bool, Prowl.Runtime.Vector3)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Debug.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: GetGizmoDrawData
+    path: ../Prowl/Prowl.Runtime/Debug.cs
+    startLine: 181
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public static (Mesh? wire, Mesh? solid) GetGizmoDrawData(bool cameraRelative, Vector3 cameraPosition)
+    parameters:
+    - id: cameraRelative
+      type: System.Boolean
+    - id: cameraPosition
+      type: Prowl.Runtime.Vector3
+    return:
+      type: System.ValueTuple{Prowl.Runtime.Mesh,Prowl.Runtime.Mesh}
+    content.vb: Public Shared Function GetGizmoDrawData(cameraRelative As Boolean, cameraPosition As Vector3) As (wire As Mesh, solid As Mesh)
+  overload: Prowl.Runtime.Debug.GetGizmoDrawData*
+  nameWithType.vb: Debug.GetGizmoDrawData(Boolean, Vector3)
+  fullName.vb: Prowl.Runtime.Debug.GetGizmoDrawData(Boolean, Prowl.Runtime.Vector3)
+  name.vb: GetGizmoDrawData(Boolean, Vector3)
+- uid: Prowl.Runtime.Debug.GetGizmoIcons
+  commentId: M:Prowl.Runtime.Debug.GetGizmoIcons
+  id: GetGizmoIcons
+  parent: Prowl.Runtime.Debug
+  langs:
+  - csharp
+  - vb
+  name: GetGizmoIcons()
+  nameWithType: Debug.GetGizmoIcons()
+  fullName: Prowl.Runtime.Debug.GetGizmoIcons()
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Debug.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: GetGizmoIcons
+    path: ../Prowl/Prowl.Runtime/Debug.cs
+    startLine: 186
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public static List<GizmoBuilder.IconDrawCall> GetGizmoIcons()
+    return:
+      type: System.Collections.Generic.List{Prowl.Runtime.GizmoBuilder.IconDrawCall}
+    content.vb: Public Shared Function GetGizmoIcons() As List(Of GizmoBuilder.IconDrawCall)
+  overload: Prowl.Runtime.Debug.GetGizmoIcons*
+- uid: Prowl.Runtime.Debug.DrawLine(Prowl.Runtime.Vector3,Prowl.Runtime.Vector3,Prowl.Runtime.Color)
+  commentId: M:Prowl.Runtime.Debug.DrawLine(Prowl.Runtime.Vector3,Prowl.Runtime.Vector3,Prowl.Runtime.Color)
+  id: DrawLine(Prowl.Runtime.Vector3,Prowl.Runtime.Vector3,Prowl.Runtime.Color)
+  parent: Prowl.Runtime.Debug
+  langs:
+  - csharp
+  - vb
+  name: DrawLine(Vector3, Vector3, Color)
+  nameWithType: Debug.DrawLine(Vector3, Vector3, Color)
+  fullName: Prowl.Runtime.Debug.DrawLine(Prowl.Runtime.Vector3, Prowl.Runtime.Vector3, Prowl.Runtime.Color)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Debug.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: DrawLine
+    path: ../Prowl/Prowl.Runtime/Debug.cs
+    startLine: 191
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public static void DrawLine(Vector3 start, Vector3 end, Color color)
+    parameters:
+    - id: start
+      type: Prowl.Runtime.Vector3
+    - id: end
+      type: Prowl.Runtime.Vector3
+    - id: color
+      type: Prowl.Runtime.Color
+    content.vb: Public Shared Sub DrawLine(start As Vector3, [end] As Vector3, color As Color)
+  overload: Prowl.Runtime.Debug.DrawLine*
+- uid: Prowl.Runtime.Debug.DrawTriangle(Prowl.Runtime.Vector3,Prowl.Runtime.Vector3,Prowl.Runtime.Vector3,Prowl.Runtime.Color)
+  commentId: M:Prowl.Runtime.Debug.DrawTriangle(Prowl.Runtime.Vector3,Prowl.Runtime.Vector3,Prowl.Runtime.Vector3,Prowl.Runtime.Color)
+  id: DrawTriangle(Prowl.Runtime.Vector3,Prowl.Runtime.Vector3,Prowl.Runtime.Vector3,Prowl.Runtime.Color)
+  parent: Prowl.Runtime.Debug
+  langs:
+  - csharp
+  - vb
+  name: DrawTriangle(Vector3, Vector3, Vector3, Color)
+  nameWithType: Debug.DrawTriangle(Vector3, Vector3, Vector3, Color)
+  fullName: Prowl.Runtime.Debug.DrawTriangle(Prowl.Runtime.Vector3, Prowl.Runtime.Vector3, Prowl.Runtime.Vector3, Prowl.Runtime.Color)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Debug.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: DrawTriangle
+    path: ../Prowl/Prowl.Runtime/Debug.cs
+    startLine: 192
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public static void DrawTriangle(Vector3 a, Vector3 b, Vector3 c, Color color)
+    parameters:
+    - id: a
+      type: Prowl.Runtime.Vector3
+    - id: b
+      type: Prowl.Runtime.Vector3
+    - id: c
+      type: Prowl.Runtime.Vector3
+    - id: color
+      type: Prowl.Runtime.Color
+    content.vb: Public Shared Sub DrawTriangle(a As Vector3, b As Vector3, c As Vector3, color As Color)
+  overload: Prowl.Runtime.Debug.DrawTriangle*
+- uid: Prowl.Runtime.Debug.DrawWireCube(Prowl.Runtime.Vector3,Prowl.Runtime.Vector3,Prowl.Runtime.Color)
+  commentId: M:Prowl.Runtime.Debug.DrawWireCube(Prowl.Runtime.Vector3,Prowl.Runtime.Vector3,Prowl.Runtime.Color)
+  id: DrawWireCube(Prowl.Runtime.Vector3,Prowl.Runtime.Vector3,Prowl.Runtime.Color)
+  parent: Prowl.Runtime.Debug
+  langs:
+  - csharp
+  - vb
+  name: DrawWireCube(Vector3, Vector3, Color)
+  nameWithType: Debug.DrawWireCube(Vector3, Vector3, Color)
+  fullName: Prowl.Runtime.Debug.DrawWireCube(Prowl.Runtime.Vector3, Prowl.Runtime.Vector3, Prowl.Runtime.Color)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Debug.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: DrawWireCube
+    path: ../Prowl/Prowl.Runtime/Debug.cs
+    startLine: 193
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public static void DrawWireCube(Vector3 center, Vector3 halfExtents, Color color)
+    parameters:
+    - id: center
+      type: Prowl.Runtime.Vector3
+    - id: halfExtents
+      type: Prowl.Runtime.Vector3
+    - id: color
+      type: Prowl.Runtime.Color
+    content.vb: Public Shared Sub DrawWireCube(center As Vector3, halfExtents As Vector3, color As Color)
+  overload: Prowl.Runtime.Debug.DrawWireCube*
+- uid: Prowl.Runtime.Debug.DrawCube(Prowl.Runtime.Vector3,Prowl.Runtime.Vector3,Prowl.Runtime.Color)
+  commentId: M:Prowl.Runtime.Debug.DrawCube(Prowl.Runtime.Vector3,Prowl.Runtime.Vector3,Prowl.Runtime.Color)
+  id: DrawCube(Prowl.Runtime.Vector3,Prowl.Runtime.Vector3,Prowl.Runtime.Color)
+  parent: Prowl.Runtime.Debug
+  langs:
+  - csharp
+  - vb
+  name: DrawCube(Vector3, Vector3, Color)
+  nameWithType: Debug.DrawCube(Vector3, Vector3, Color)
+  fullName: Prowl.Runtime.Debug.DrawCube(Prowl.Runtime.Vector3, Prowl.Runtime.Vector3, Prowl.Runtime.Color)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Debug.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: DrawCube
+    path: ../Prowl/Prowl.Runtime/Debug.cs
+    startLine: 194
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public static void DrawCube(Vector3 center, Vector3 halfExtents, Color color)
+    parameters:
+    - id: center
+      type: Prowl.Runtime.Vector3
+    - id: halfExtents
+      type: Prowl.Runtime.Vector3
+    - id: color
+      type: Prowl.Runtime.Color
+    content.vb: Public Shared Sub DrawCube(center As Vector3, halfExtents As Vector3, color As Color)
+  overload: Prowl.Runtime.Debug.DrawCube*
+- uid: Prowl.Runtime.Debug.DrawWireSphere(Prowl.Runtime.Vector3,System.Single,Prowl.Runtime.Color,System.Int32)
+  commentId: M:Prowl.Runtime.Debug.DrawWireSphere(Prowl.Runtime.Vector3,System.Single,Prowl.Runtime.Color,System.Int32)
+  id: DrawWireSphere(Prowl.Runtime.Vector3,System.Single,Prowl.Runtime.Color,System.Int32)
+  parent: Prowl.Runtime.Debug
+  langs:
+  - csharp
+  - vb
+  name: DrawWireSphere(Vector3, float, Color, int)
+  nameWithType: Debug.DrawWireSphere(Vector3, float, Color, int)
+  fullName: Prowl.Runtime.Debug.DrawWireSphere(Prowl.Runtime.Vector3, float, Prowl.Runtime.Color, int)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Debug.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: DrawWireSphere
+    path: ../Prowl/Prowl.Runtime/Debug.cs
+    startLine: 195
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public static void DrawWireSphere(Vector3 center, float radius, Color color, int segments = 16)
+    parameters:
+    - id: center
+      type: Prowl.Runtime.Vector3
+    - id: radius
+      type: System.Single
+    - id: color
+      type: Prowl.Runtime.Color
+    - id: segments
+      type: System.Int32
+    content.vb: Public Shared Sub DrawWireSphere(center As Vector3, radius As Single, color As Color, segments As Integer = 16)
+  overload: Prowl.Runtime.Debug.DrawWireSphere*
+  nameWithType.vb: Debug.DrawWireSphere(Vector3, Single, Color, Integer)
+  fullName.vb: Prowl.Runtime.Debug.DrawWireSphere(Prowl.Runtime.Vector3, Single, Prowl.Runtime.Color, Integer)
+  name.vb: DrawWireSphere(Vector3, Single, Color, Integer)
+- uid: Prowl.Runtime.Debug.DrawSphere(Prowl.Runtime.Vector3,System.Single,Prowl.Runtime.Color,System.Int32)
+  commentId: M:Prowl.Runtime.Debug.DrawSphere(Prowl.Runtime.Vector3,System.Single,Prowl.Runtime.Color,System.Int32)
+  id: DrawSphere(Prowl.Runtime.Vector3,System.Single,Prowl.Runtime.Color,System.Int32)
+  parent: Prowl.Runtime.Debug
+  langs:
+  - csharp
+  - vb
+  name: DrawSphere(Vector3, float, Color, int)
+  nameWithType: Debug.DrawSphere(Vector3, float, Color, int)
+  fullName: Prowl.Runtime.Debug.DrawSphere(Prowl.Runtime.Vector3, float, Prowl.Runtime.Color, int)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Debug.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: DrawSphere
+    path: ../Prowl/Prowl.Runtime/Debug.cs
+    startLine: 196
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public static void DrawSphere(Vector3 center, float radius, Color color, int segments = 16)
+    parameters:
+    - id: center
+      type: Prowl.Runtime.Vector3
+    - id: radius
+      type: System.Single
+    - id: color
+      type: Prowl.Runtime.Color
+    - id: segments
+      type: System.Int32
+    content.vb: Public Shared Sub DrawSphere(center As Vector3, radius As Single, color As Color, segments As Integer = 16)
+  overload: Prowl.Runtime.Debug.DrawSphere*
+  nameWithType.vb: Debug.DrawSphere(Vector3, Single, Color, Integer)
+  fullName.vb: Prowl.Runtime.Debug.DrawSphere(Prowl.Runtime.Vector3, Single, Prowl.Runtime.Color, Integer)
+  name.vb: DrawSphere(Vector3, Single, Color, Integer)
+- uid: Prowl.Runtime.Debug.DrawWireCone(Prowl.Runtime.Vector3,Prowl.Runtime.Vector3,System.Single,Prowl.Runtime.Color,System.Int32)
+  commentId: M:Prowl.Runtime.Debug.DrawWireCone(Prowl.Runtime.Vector3,Prowl.Runtime.Vector3,System.Single,Prowl.Runtime.Color,System.Int32)
+  id: DrawWireCone(Prowl.Runtime.Vector3,Prowl.Runtime.Vector3,System.Single,Prowl.Runtime.Color,System.Int32)
+  parent: Prowl.Runtime.Debug
+  langs:
+  - csharp
+  - vb
+  name: DrawWireCone(Vector3, Vector3, float, Color, int)
+  nameWithType: Debug.DrawWireCone(Vector3, Vector3, float, Color, int)
+  fullName: Prowl.Runtime.Debug.DrawWireCone(Prowl.Runtime.Vector3, Prowl.Runtime.Vector3, float, Prowl.Runtime.Color, int)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Debug.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: DrawWireCone
+    path: ../Prowl/Prowl.Runtime/Debug.cs
+    startLine: 197
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public static void DrawWireCone(Vector3 start, Vector3 direction, float radius, Color color, int segments = 16)
+    parameters:
+    - id: start
+      type: Prowl.Runtime.Vector3
+    - id: direction
+      type: Prowl.Runtime.Vector3
+    - id: radius
+      type: System.Single
+    - id: color
+      type: Prowl.Runtime.Color
+    - id: segments
+      type: System.Int32
+    content.vb: Public Shared Sub DrawWireCone(start As Vector3, direction As Vector3, radius As Single, color As Color, segments As Integer = 16)
+  overload: Prowl.Runtime.Debug.DrawWireCone*
+  nameWithType.vb: Debug.DrawWireCone(Vector3, Vector3, Single, Color, Integer)
+  fullName.vb: Prowl.Runtime.Debug.DrawWireCone(Prowl.Runtime.Vector3, Prowl.Runtime.Vector3, Single, Prowl.Runtime.Color, Integer)
+  name.vb: DrawWireCone(Vector3, Vector3, Single, Color, Integer)
+- uid: Prowl.Runtime.Debug.DrawArrow(Prowl.Runtime.Vector3,Prowl.Runtime.Vector3,Prowl.Runtime.Color)
+  commentId: M:Prowl.Runtime.Debug.DrawArrow(Prowl.Runtime.Vector3,Prowl.Runtime.Vector3,Prowl.Runtime.Color)
+  id: DrawArrow(Prowl.Runtime.Vector3,Prowl.Runtime.Vector3,Prowl.Runtime.Color)
+  parent: Prowl.Runtime.Debug
+  langs:
+  - csharp
+  - vb
+  name: DrawArrow(Vector3, Vector3, Color)
+  nameWithType: Debug.DrawArrow(Vector3, Vector3, Color)
+  fullName: Prowl.Runtime.Debug.DrawArrow(Prowl.Runtime.Vector3, Prowl.Runtime.Vector3, Prowl.Runtime.Color)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Debug.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: DrawArrow
+    path: ../Prowl/Prowl.Runtime/Debug.cs
+    startLine: 198
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public static void DrawArrow(Vector3 start, Vector3 direction, Color color)
+    parameters:
+    - id: start
+      type: Prowl.Runtime.Vector3
+    - id: direction
+      type: Prowl.Runtime.Vector3
+    - id: color
+      type: Prowl.Runtime.Color
+    content.vb: Public Shared Sub DrawArrow(start As Vector3, direction As Vector3, color As Color)
+  overload: Prowl.Runtime.Debug.DrawArrow*
+- uid: Prowl.Runtime.Debug.DrawIcon(Prowl.Runtime.Texture2D,Prowl.Runtime.Vector3,System.Single,Prowl.Runtime.Color)
+  commentId: M:Prowl.Runtime.Debug.DrawIcon(Prowl.Runtime.Texture2D,Prowl.Runtime.Vector3,System.Single,Prowl.Runtime.Color)
+  id: DrawIcon(Prowl.Runtime.Texture2D,Prowl.Runtime.Vector3,System.Single,Prowl.Runtime.Color)
+  parent: Prowl.Runtime.Debug
+  langs:
+  - csharp
+  - vb
+  name: DrawIcon(Texture2D, Vector3, float, Color)
+  nameWithType: Debug.DrawIcon(Texture2D, Vector3, float, Color)
+  fullName: Prowl.Runtime.Debug.DrawIcon(Prowl.Runtime.Texture2D, Prowl.Runtime.Vector3, float, Prowl.Runtime.Color)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Debug.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: DrawIcon
+    path: ../Prowl/Prowl.Runtime/Debug.cs
+    startLine: 200
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public static void DrawIcon(Texture2D icon, Vector3 center, float scale, Color color)
+    parameters:
+    - id: icon
+      type: Prowl.Runtime.Texture2D
+    - id: center
+      type: Prowl.Runtime.Vector3
+    - id: scale
+      type: System.Single
+    - id: color
+      type: Prowl.Runtime.Color
+    content.vb: Public Shared Sub DrawIcon(icon As Texture2D, center As Vector3, scale As Single, color As Color)
+  overload: Prowl.Runtime.Debug.DrawIcon*
+  nameWithType.vb: Debug.DrawIcon(Texture2D, Vector3, Single, Color)
+  fullName.vb: Prowl.Runtime.Debug.DrawIcon(Prowl.Runtime.Texture2D, Prowl.Runtime.Vector3, Single, Prowl.Runtime.Color)
+  name.vb: DrawIcon(Texture2D, Vector3, Single, Color)
+references:
+- uid: Prowl.Runtime
+  commentId: N:Prowl.Runtime
+  href: Prowl.html
+  name: Prowl.Runtime
+  nameWithType: Prowl.Runtime
+  fullName: Prowl.Runtime
+  spec.csharp:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+  spec.vb:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Prowl.Runtime.OnLog
+  commentId: T:Prowl.Runtime.OnLog
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.OnLog.html
+  name: OnLog
+  nameWithType: OnLog
+  fullName: Prowl.Runtime.OnLog
+- uid: Prowl.Runtime.Debug.Log*
+  commentId: Overload:Prowl.Runtime.Debug.Log
+  href: Prowl.Runtime.Debug.html#Prowl_Runtime_Debug_Log_System_Object_
+  name: Log
+  nameWithType: Debug.Log
+  fullName: Prowl.Runtime.Debug.Log
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: Prowl.Runtime.Debug.LogWarning*
+  commentId: Overload:Prowl.Runtime.Debug.LogWarning
+  href: Prowl.Runtime.Debug.html#Prowl_Runtime_Debug_LogWarning_System_Object_
+  name: LogWarning
+  nameWithType: Debug.LogWarning
+  fullName: Prowl.Runtime.Debug.LogWarning
+- uid: Prowl.Runtime.Debug.LogError*
+  commentId: Overload:Prowl.Runtime.Debug.LogError
+  href: Prowl.Runtime.Debug.html#Prowl_Runtime_Debug_LogError_System_Object_
+  name: LogError
+  nameWithType: Debug.LogError
+  fullName: Prowl.Runtime.Debug.LogError
+- uid: Prowl.Runtime.Debug.LogSuccess*
+  commentId: Overload:Prowl.Runtime.Debug.LogSuccess
+  href: Prowl.Runtime.Debug.html#Prowl_Runtime_Debug_LogSuccess_System_Object_
+  name: LogSuccess
+  nameWithType: Debug.LogSuccess
+  fullName: Prowl.Runtime.Debug.LogSuccess
+- uid: Prowl.Runtime.Debug.LogException*
+  commentId: Overload:Prowl.Runtime.Debug.LogException
+  href: Prowl.Runtime.Debug.html#Prowl_Runtime_Debug_LogException_System_Exception_
+  name: LogException
+  nameWithType: Debug.LogException
+  fullName: Prowl.Runtime.Debug.LogException
+- uid: System.Exception
+  commentId: T:System.Exception
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.exception
+  name: Exception
+  nameWithType: Exception
+  fullName: System.Exception
+- uid: System.ConsoleColor
+  commentId: T:System.ConsoleColor
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.consolecolor
+  name: ConsoleColor
+  nameWithType: ConsoleColor
+  fullName: System.ConsoleColor
+- uid: Prowl.Runtime.LogSeverity
+  commentId: T:Prowl.Runtime.LogSeverity
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.LogSeverity.html
+  name: LogSeverity
+  nameWithType: LogSeverity
+  fullName: Prowl.Runtime.LogSeverity
+- uid: Prowl.Runtime.DebugStackTrace
+  commentId: T:Prowl.Runtime.DebugStackTrace
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.DebugStackTrace.html
+  name: DebugStackTrace
+  nameWithType: DebugStackTrace
+  fullName: Prowl.Runtime.DebugStackTrace
+- uid: Prowl.Runtime.Debug.If*
+  commentId: Overload:Prowl.Runtime.Debug.If
+  href: Prowl.Runtime.Debug.html#Prowl_Runtime_Debug_If_System_Boolean_System_String_
+  name: If
+  nameWithType: Debug.If
+  fullName: Prowl.Runtime.Debug.If
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: Prowl.Runtime.Debug.IfNull*
+  commentId: Overload:Prowl.Runtime.Debug.IfNull
+  href: Prowl.Runtime.Debug.html#Prowl_Runtime_Debug_IfNull_System_Object_System_String_
+  name: IfNull
+  nameWithType: Debug.IfNull
+  fullName: Prowl.Runtime.Debug.IfNull
+- uid: Prowl.Runtime.Debug.IfNullOrEmpty*
+  commentId: Overload:Prowl.Runtime.Debug.IfNullOrEmpty
+  href: Prowl.Runtime.Debug.html#Prowl_Runtime_Debug_IfNullOrEmpty_System_String_System_String_
+  name: IfNullOrEmpty
+  nameWithType: Debug.IfNullOrEmpty
+  fullName: Prowl.Runtime.Debug.IfNullOrEmpty
+- uid: Prowl.Runtime.Debug.Assert*
+  commentId: Overload:Prowl.Runtime.Debug.Assert
+  href: Prowl.Runtime.Debug.html#Prowl_Runtime_Debug_Assert_System_Boolean_System_String_
+  name: Assert
+  nameWithType: Debug.Assert
+  fullName: Prowl.Runtime.Debug.Assert
+- uid: Prowl.Runtime.Debug.ClearGizmos*
+  commentId: Overload:Prowl.Runtime.Debug.ClearGizmos
+  href: Prowl.Runtime.Debug.html#Prowl_Runtime_Debug_ClearGizmos
+  name: ClearGizmos
+  nameWithType: Debug.ClearGizmos
+  fullName: Prowl.Runtime.Debug.ClearGizmos
+- uid: Prowl.Runtime.Debug.GetGizmoDrawData*
+  commentId: Overload:Prowl.Runtime.Debug.GetGizmoDrawData
+  href: Prowl.Runtime.Debug.html#Prowl_Runtime_Debug_GetGizmoDrawData_System_Boolean_Prowl_Runtime_Vector3_
+  name: GetGizmoDrawData
+  nameWithType: Debug.GetGizmoDrawData
+  fullName: Prowl.Runtime.Debug.GetGizmoDrawData
+- uid: Prowl.Runtime.Vector3
+  commentId: T:Prowl.Runtime.Vector3
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.Vector3.html
+  name: Vector3
+  nameWithType: Vector3
+  fullName: Prowl.Runtime.Vector3
+- uid: System.ValueTuple{Prowl.Runtime.Mesh,Prowl.Runtime.Mesh}
+  commentId: T:System.ValueTuple{Prowl.Runtime.Mesh,Prowl.Runtime.Mesh}
+  parent: System
+  definition: System.ValueTuple`2
+  href: Prowl.Runtime.Mesh.html
+  name: (Mesh wire, Mesh solid)
+  nameWithType: (Mesh wire, Mesh solid)
+  fullName: (Prowl.Runtime.Mesh wire, Prowl.Runtime.Mesh solid)
+  nameWithType.vb: (wire As Mesh, solid As Mesh)
+  fullName.vb: (wire As Prowl.Runtime.Mesh, solid As Prowl.Runtime.Mesh)
+  name.vb: (wire As Mesh, solid As Mesh)
+  spec.csharp:
+  - name: (
+  - uid: Prowl.Runtime.Mesh
+    name: Mesh
+    href: Prowl.Runtime.Mesh.html
+  - name: " "
+  - uid: System.ValueTuple{Prowl.Runtime.Mesh,Prowl.Runtime.Mesh}.wire
+    name: wire
+    href: https://learn.microsoft.com/dotnet/api/system.valuetuple-prowl.runtime.mesh,prowl.runtime.mesh-.wire
+  - name: ','
+  - name: " "
+  - uid: Prowl.Runtime.Mesh
+    name: Mesh
+    href: Prowl.Runtime.Mesh.html
+  - name: " "
+  - uid: System.ValueTuple{Prowl.Runtime.Mesh,Prowl.Runtime.Mesh}.solid
+    name: solid
+    href: https://learn.microsoft.com/dotnet/api/system.valuetuple-prowl.runtime.mesh,prowl.runtime.mesh-.solid
+  - name: )
+  spec.vb:
+  - name: (
+  - uid: System.ValueTuple{Prowl.Runtime.Mesh,Prowl.Runtime.Mesh}.wire
+    name: wire
+    href: https://learn.microsoft.com/dotnet/api/system.valuetuple-prowl.runtime.mesh,prowl.runtime.mesh-.wire
+  - name: " "
+  - name: As
+  - name: " "
+  - uid: Prowl.Runtime.Mesh
+    name: Mesh
+    href: Prowl.Runtime.Mesh.html
+  - name: ','
+  - name: " "
+  - uid: System.ValueTuple{Prowl.Runtime.Mesh,Prowl.Runtime.Mesh}.solid
+    name: solid
+    href: https://learn.microsoft.com/dotnet/api/system.valuetuple-prowl.runtime.mesh,prowl.runtime.mesh-.solid
+  - name: " "
+  - name: As
+  - name: " "
+  - uid: Prowl.Runtime.Mesh
+    name: Mesh
+    href: Prowl.Runtime.Mesh.html
+  - name: )
+- uid: System.ValueTuple`2
+  commentId: T:System.ValueTuple`2
+  name: (T1, T2)
+  nameWithType: (T1, T2)
+  fullName: (T1, T2)
+  spec.csharp:
+  - name: (
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: )
+  spec.vb:
+  - name: (
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: )
+- uid: Prowl.Runtime.Debug.GetGizmoIcons*
+  commentId: Overload:Prowl.Runtime.Debug.GetGizmoIcons
+  href: Prowl.Runtime.Debug.html#Prowl_Runtime_Debug_GetGizmoIcons
+  name: GetGizmoIcons
+  nameWithType: Debug.GetGizmoIcons
+  fullName: Prowl.Runtime.Debug.GetGizmoIcons
+- uid: System.Collections.Generic.List{Prowl.Runtime.GizmoBuilder.IconDrawCall}
+  commentId: T:System.Collections.Generic.List{Prowl.Runtime.GizmoBuilder.IconDrawCall}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<GizmoBuilder.IconDrawCall>
+  nameWithType: List<GizmoBuilder.IconDrawCall>
+  fullName: System.Collections.Generic.List<Prowl.Runtime.GizmoBuilder.IconDrawCall>
+  nameWithType.vb: List(Of GizmoBuilder.IconDrawCall)
+  fullName.vb: System.Collections.Generic.List(Of Prowl.Runtime.GizmoBuilder.IconDrawCall)
+  name.vb: List(Of GizmoBuilder.IconDrawCall)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - uid: Prowl.Runtime.GizmoBuilder
+    name: GizmoBuilder
+    href: Prowl.Runtime.GizmoBuilder.html
+  - name: .
+  - uid: Prowl.Runtime.GizmoBuilder.IconDrawCall
+    name: IconDrawCall
+    href: Prowl.Runtime.GizmoBuilder.IconDrawCall.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Prowl.Runtime.GizmoBuilder
+    name: GizmoBuilder
+    href: Prowl.Runtime.GizmoBuilder.html
+  - name: .
+  - uid: Prowl.Runtime.GizmoBuilder.IconDrawCall
+    name: IconDrawCall
+    href: Prowl.Runtime.GizmoBuilder.IconDrawCall.html
+  - name: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: Prowl.Runtime.Debug.DrawLine*
+  commentId: Overload:Prowl.Runtime.Debug.DrawLine
+  href: Prowl.Runtime.Debug.html#Prowl_Runtime_Debug_DrawLine_Prowl_Runtime_Vector3_Prowl_Runtime_Vector3_Prowl_Runtime_Color_
+  name: DrawLine
+  nameWithType: Debug.DrawLine
+  fullName: Prowl.Runtime.Debug.DrawLine
+- uid: Prowl.Runtime.Color
+  commentId: T:Prowl.Runtime.Color
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.Color.html
+  name: Color
+  nameWithType: Color
+  fullName: Prowl.Runtime.Color
+- uid: Prowl.Runtime.Debug.DrawTriangle*
+  commentId: Overload:Prowl.Runtime.Debug.DrawTriangle
+  href: Prowl.Runtime.Debug.html#Prowl_Runtime_Debug_DrawTriangle_Prowl_Runtime_Vector3_Prowl_Runtime_Vector3_Prowl_Runtime_Vector3_Prowl_Runtime_Color_
+  name: DrawTriangle
+  nameWithType: Debug.DrawTriangle
+  fullName: Prowl.Runtime.Debug.DrawTriangle
+- uid: Prowl.Runtime.Debug.DrawWireCube*
+  commentId: Overload:Prowl.Runtime.Debug.DrawWireCube
+  href: Prowl.Runtime.Debug.html#Prowl_Runtime_Debug_DrawWireCube_Prowl_Runtime_Vector3_Prowl_Runtime_Vector3_Prowl_Runtime_Color_
+  name: DrawWireCube
+  nameWithType: Debug.DrawWireCube
+  fullName: Prowl.Runtime.Debug.DrawWireCube
+- uid: Prowl.Runtime.Debug.DrawCube*
+  commentId: Overload:Prowl.Runtime.Debug.DrawCube
+  href: Prowl.Runtime.Debug.html#Prowl_Runtime_Debug_DrawCube_Prowl_Runtime_Vector3_Prowl_Runtime_Vector3_Prowl_Runtime_Color_
+  name: DrawCube
+  nameWithType: Debug.DrawCube
+  fullName: Prowl.Runtime.Debug.DrawCube
+- uid: Prowl.Runtime.Debug.DrawWireSphere*
+  commentId: Overload:Prowl.Runtime.Debug.DrawWireSphere
+  href: Prowl.Runtime.Debug.html#Prowl_Runtime_Debug_DrawWireSphere_Prowl_Runtime_Vector3_System_Single_Prowl_Runtime_Color_System_Int32_
+  name: DrawWireSphere
+  nameWithType: Debug.DrawWireSphere
+  fullName: Prowl.Runtime.Debug.DrawWireSphere
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.single
+  name: float
+  nameWithType: float
+  fullName: float
+  nameWithType.vb: Single
+  fullName.vb: Single
+  name.vb: Single
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: Prowl.Runtime.Debug.DrawSphere*
+  commentId: Overload:Prowl.Runtime.Debug.DrawSphere
+  href: Prowl.Runtime.Debug.html#Prowl_Runtime_Debug_DrawSphere_Prowl_Runtime_Vector3_System_Single_Prowl_Runtime_Color_System_Int32_
+  name: DrawSphere
+  nameWithType: Debug.DrawSphere
+  fullName: Prowl.Runtime.Debug.DrawSphere
+- uid: Prowl.Runtime.Debug.DrawWireCone*
+  commentId: Overload:Prowl.Runtime.Debug.DrawWireCone
+  href: Prowl.Runtime.Debug.html#Prowl_Runtime_Debug_DrawWireCone_Prowl_Runtime_Vector3_Prowl_Runtime_Vector3_System_Single_Prowl_Runtime_Color_System_Int32_
+  name: DrawWireCone
+  nameWithType: Debug.DrawWireCone
+  fullName: Prowl.Runtime.Debug.DrawWireCone
+- uid: Prowl.Runtime.Debug.DrawArrow*
+  commentId: Overload:Prowl.Runtime.Debug.DrawArrow
+  href: Prowl.Runtime.Debug.html#Prowl_Runtime_Debug_DrawArrow_Prowl_Runtime_Vector3_Prowl_Runtime_Vector3_Prowl_Runtime_Color_
+  name: DrawArrow
+  nameWithType: Debug.DrawArrow
+  fullName: Prowl.Runtime.Debug.DrawArrow
+- uid: Prowl.Runtime.Debug.DrawIcon*
+  commentId: Overload:Prowl.Runtime.Debug.DrawIcon
+  href: Prowl.Runtime.Debug.html#Prowl_Runtime_Debug_DrawIcon_Prowl_Runtime_Texture2D_Prowl_Runtime_Vector3_System_Single_Prowl_Runtime_Color_
+  name: DrawIcon
+  nameWithType: Debug.DrawIcon
+  fullName: Prowl.Runtime.Debug.DrawIcon
+- uid: Prowl.Runtime.Texture2D
+  commentId: T:Prowl.Runtime.Texture2D
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.Texture2D.html
+  name: Texture2D
+  nameWithType: Texture2D
+  fullName: Prowl.Runtime.Texture2D

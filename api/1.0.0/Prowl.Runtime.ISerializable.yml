@@ -1,0 +1,227 @@
+### YamlMime:ManagedReference
+items:
+- uid: Prowl.Runtime.ISerializable
+  commentId: T:Prowl.Runtime.ISerializable
+  id: ISerializable
+  parent: Prowl.Runtime
+  children:
+  - Prowl.Runtime.ISerializable.Deserialize(Prowl.Runtime.SerializedProperty,Prowl.Runtime.Serializer.SerializationContext)
+  - Prowl.Runtime.ISerializable.Serialize(Prowl.Runtime.Serializer.SerializationContext)
+  langs:
+  - csharp
+  - vb
+  name: ISerializable
+  nameWithType: ISerializable
+  fullName: Prowl.Runtime.ISerializable
+  type: Interface
+  source:
+    remote:
+      path: Prowl.Runtime/Serializer/ISerializable.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: ISerializable
+    path: ../Prowl/Prowl.Runtime/Serializer/ISerializable.cs
+    startLine: 7
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public interface ISerializable
+    content.vb: Public Interface ISerializable
+  extensionMethods:
+  - System.Object.Prowl.Runtime.RuntimeUtils.GetSerializableFields
+- uid: Prowl.Runtime.ISerializable.Serialize(Prowl.Runtime.Serializer.SerializationContext)
+  commentId: M:Prowl.Runtime.ISerializable.Serialize(Prowl.Runtime.Serializer.SerializationContext)
+  id: Serialize(Prowl.Runtime.Serializer.SerializationContext)
+  parent: Prowl.Runtime.ISerializable
+  langs:
+  - csharp
+  - vb
+  name: Serialize(SerializationContext)
+  nameWithType: ISerializable.Serialize(Serializer.SerializationContext)
+  fullName: Prowl.Runtime.ISerializable.Serialize(Prowl.Runtime.Serializer.SerializationContext)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Serializer/ISerializable.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Serialize
+    path: ../Prowl/Prowl.Runtime/Serializer/ISerializable.cs
+    startLine: 9
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: SerializedProperty Serialize(Serializer.SerializationContext ctx)
+    parameters:
+    - id: ctx
+      type: Prowl.Runtime.Serializer.SerializationContext
+    return:
+      type: Prowl.Runtime.SerializedProperty
+    content.vb: Function Serialize(ctx As Serializer.SerializationContext) As SerializedProperty
+  overload: Prowl.Runtime.ISerializable.Serialize*
+- uid: Prowl.Runtime.ISerializable.Deserialize(Prowl.Runtime.SerializedProperty,Prowl.Runtime.Serializer.SerializationContext)
+  commentId: M:Prowl.Runtime.ISerializable.Deserialize(Prowl.Runtime.SerializedProperty,Prowl.Runtime.Serializer.SerializationContext)
+  id: Deserialize(Prowl.Runtime.SerializedProperty,Prowl.Runtime.Serializer.SerializationContext)
+  parent: Prowl.Runtime.ISerializable
+  langs:
+  - csharp
+  - vb
+  name: Deserialize(SerializedProperty, SerializationContext)
+  nameWithType: ISerializable.Deserialize(SerializedProperty, Serializer.SerializationContext)
+  fullName: Prowl.Runtime.ISerializable.Deserialize(Prowl.Runtime.SerializedProperty, Prowl.Runtime.Serializer.SerializationContext)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Serializer/ISerializable.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Deserialize
+    path: ../Prowl/Prowl.Runtime/Serializer/ISerializable.cs
+    startLine: 10
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: void Deserialize(SerializedProperty value, Serializer.SerializationContext ctx)
+    parameters:
+    - id: value
+      type: Prowl.Runtime.SerializedProperty
+    - id: ctx
+      type: Prowl.Runtime.Serializer.SerializationContext
+    content.vb: Sub Deserialize(value As SerializedProperty, ctx As Serializer.SerializationContext)
+  overload: Prowl.Runtime.ISerializable.Deserialize*
+references:
+- uid: Prowl.Runtime
+  commentId: N:Prowl.Runtime
+  href: Prowl.html
+  name: Prowl.Runtime
+  nameWithType: Prowl.Runtime
+  fullName: Prowl.Runtime
+  spec.csharp:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+  spec.vb:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+- uid: System.Object.Prowl.Runtime.RuntimeUtils.GetSerializableFields
+  commentId: M:Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  parent: Prowl.Runtime.RuntimeUtils
+  definition: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  name: GetSerializableFields(object)
+  nameWithType: RuntimeUtils.GetSerializableFields(object)
+  fullName: Prowl.Runtime.RuntimeUtils.GetSerializableFields(object)
+  nameWithType.vb: RuntimeUtils.GetSerializableFields(Object)
+  fullName.vb: Prowl.Runtime.RuntimeUtils.GetSerializableFields(Object)
+  name.vb: GetSerializableFields(Object)
+  spec.csharp:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  commentId: M:Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  isExternal: true
+  href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  name: GetSerializableFields(object)
+  nameWithType: RuntimeUtils.GetSerializableFields(object)
+  fullName: Prowl.Runtime.RuntimeUtils.GetSerializableFields(object)
+  nameWithType.vb: RuntimeUtils.GetSerializableFields(Object)
+  fullName.vb: Prowl.Runtime.RuntimeUtils.GetSerializableFields(Object)
+  name.vb: GetSerializableFields(Object)
+  spec.csharp:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: Prowl.Runtime.RuntimeUtils
+  commentId: T:Prowl.Runtime.RuntimeUtils
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.RuntimeUtils.html
+  name: RuntimeUtils
+  nameWithType: RuntimeUtils
+  fullName: Prowl.Runtime.RuntimeUtils
+- uid: Prowl.Runtime.ISerializable.Serialize*
+  commentId: Overload:Prowl.Runtime.ISerializable.Serialize
+  href: Prowl.Runtime.ISerializable.html#Prowl_Runtime_ISerializable_Serialize_Prowl_Runtime_Serializer_SerializationContext_
+  name: Serialize
+  nameWithType: ISerializable.Serialize
+  fullName: Prowl.Runtime.ISerializable.Serialize
+- uid: Prowl.Runtime.Serializer.SerializationContext
+  commentId: T:Prowl.Runtime.Serializer.SerializationContext
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.Serializer.html
+  name: Serializer.SerializationContext
+  nameWithType: Serializer.SerializationContext
+  fullName: Prowl.Runtime.Serializer.SerializationContext
+  spec.csharp:
+  - uid: Prowl.Runtime.Serializer
+    name: Serializer
+    href: Prowl.Runtime.Serializer.html
+  - name: .
+  - uid: Prowl.Runtime.Serializer.SerializationContext
+    name: SerializationContext
+    href: Prowl.Runtime.Serializer.SerializationContext.html
+  spec.vb:
+  - uid: Prowl.Runtime.Serializer
+    name: Serializer
+    href: Prowl.Runtime.Serializer.html
+  - name: .
+  - uid: Prowl.Runtime.Serializer.SerializationContext
+    name: SerializationContext
+    href: Prowl.Runtime.Serializer.SerializationContext.html
+- uid: Prowl.Runtime.SerializedProperty
+  commentId: T:Prowl.Runtime.SerializedProperty
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.SerializedProperty.html
+  name: SerializedProperty
+  nameWithType: SerializedProperty
+  fullName: Prowl.Runtime.SerializedProperty
+- uid: Prowl.Runtime.ISerializable.Deserialize*
+  commentId: Overload:Prowl.Runtime.ISerializable.Deserialize
+  href: Prowl.Runtime.ISerializable.html#Prowl_Runtime_ISerializable_Deserialize_Prowl_Runtime_SerializedProperty_Prowl_Runtime_Serializer_SerializationContext_
+  name: Deserialize
+  nameWithType: ISerializable.Deserialize
+  fullName: Prowl.Runtime.ISerializable.Deserialize

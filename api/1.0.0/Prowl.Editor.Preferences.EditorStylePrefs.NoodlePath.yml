@@ -1,0 +1,282 @@
+### YamlMime:ManagedReference
+items:
+- uid: Prowl.Editor.Preferences.EditorStylePrefs.NoodlePath
+  commentId: T:Prowl.Editor.Preferences.EditorStylePrefs.NoodlePath
+  id: EditorStylePrefs.NoodlePath
+  parent: Prowl.Editor.Preferences
+  children:
+  - Prowl.Editor.Preferences.EditorStylePrefs.NoodlePath.Angled
+  - Prowl.Editor.Preferences.EditorStylePrefs.NoodlePath.Curvy
+  - Prowl.Editor.Preferences.EditorStylePrefs.NoodlePath.ShaderLab
+  - Prowl.Editor.Preferences.EditorStylePrefs.NoodlePath.Straight
+  langs:
+  - csharp
+  - vb
+  name: EditorStylePrefs.NoodlePath
+  nameWithType: EditorStylePrefs.NoodlePath
+  fullName: Prowl.Editor.Preferences.EditorStylePrefs.NoodlePath
+  type: Enum
+  source:
+    remote:
+      path: Prowl.Editor/Editor/Preferences/GeneralPreferences.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: NoodlePath
+    path: ../Prowl/Prowl.Editor/Editor/Preferences/GeneralPreferences.cs
+    startLine: 75
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor.Preferences
+  syntax:
+    content: public enum EditorStylePrefs.NoodlePath
+    content.vb: Public Enum EditorStylePrefs.NoodlePath
+  extensionMethods:
+  - System.Object.Prowl.Runtime.RuntimeUtils.GetSerializableFields
+- uid: Prowl.Editor.Preferences.EditorStylePrefs.NoodlePath.Straight
+  commentId: F:Prowl.Editor.Preferences.EditorStylePrefs.NoodlePath.Straight
+  id: Straight
+  parent: Prowl.Editor.Preferences.EditorStylePrefs.NoodlePath
+  langs:
+  - csharp
+  - vb
+  name: Straight
+  nameWithType: EditorStylePrefs.NoodlePath.Straight
+  fullName: Prowl.Editor.Preferences.EditorStylePrefs.NoodlePath.Straight
+  type: Field
+  source:
+    remote:
+      path: Prowl.Editor/Editor/Preferences/GeneralPreferences.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Straight
+    path: ../Prowl/Prowl.Editor/Editor/Preferences/GeneralPreferences.cs
+    startLine: 75
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor.Preferences
+  syntax:
+    content: Straight = 0
+    return:
+      type: Prowl.Editor.Preferences.EditorStylePrefs.NoodlePath
+- uid: Prowl.Editor.Preferences.EditorStylePrefs.NoodlePath.Curvy
+  commentId: F:Prowl.Editor.Preferences.EditorStylePrefs.NoodlePath.Curvy
+  id: Curvy
+  parent: Prowl.Editor.Preferences.EditorStylePrefs.NoodlePath
+  langs:
+  - csharp
+  - vb
+  name: Curvy
+  nameWithType: EditorStylePrefs.NoodlePath.Curvy
+  fullName: Prowl.Editor.Preferences.EditorStylePrefs.NoodlePath.Curvy
+  type: Field
+  source:
+    remote:
+      path: Prowl.Editor/Editor/Preferences/GeneralPreferences.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Curvy
+    path: ../Prowl/Prowl.Editor/Editor/Preferences/GeneralPreferences.cs
+    startLine: 75
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor.Preferences
+  syntax:
+    content: Curvy = 1
+    return:
+      type: Prowl.Editor.Preferences.EditorStylePrefs.NoodlePath
+- uid: Prowl.Editor.Preferences.EditorStylePrefs.NoodlePath.Angled
+  commentId: F:Prowl.Editor.Preferences.EditorStylePrefs.NoodlePath.Angled
+  id: Angled
+  parent: Prowl.Editor.Preferences.EditorStylePrefs.NoodlePath
+  langs:
+  - csharp
+  - vb
+  name: Angled
+  nameWithType: EditorStylePrefs.NoodlePath.Angled
+  fullName: Prowl.Editor.Preferences.EditorStylePrefs.NoodlePath.Angled
+  type: Field
+  source:
+    remote:
+      path: Prowl.Editor/Editor/Preferences/GeneralPreferences.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Angled
+    path: ../Prowl/Prowl.Editor/Editor/Preferences/GeneralPreferences.cs
+    startLine: 75
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor.Preferences
+  syntax:
+    content: Angled = 2
+    return:
+      type: Prowl.Editor.Preferences.EditorStylePrefs.NoodlePath
+- uid: Prowl.Editor.Preferences.EditorStylePrefs.NoodlePath.ShaderLab
+  commentId: F:Prowl.Editor.Preferences.EditorStylePrefs.NoodlePath.ShaderLab
+  id: ShaderLab
+  parent: Prowl.Editor.Preferences.EditorStylePrefs.NoodlePath
+  langs:
+  - csharp
+  - vb
+  name: ShaderLab
+  nameWithType: EditorStylePrefs.NoodlePath.ShaderLab
+  fullName: Prowl.Editor.Preferences.EditorStylePrefs.NoodlePath.ShaderLab
+  type: Field
+  source:
+    remote:
+      path: Prowl.Editor/Editor/Preferences/GeneralPreferences.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: ShaderLab
+    path: ../Prowl/Prowl.Editor/Editor/Preferences/GeneralPreferences.cs
+    startLine: 75
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor.Preferences
+  syntax:
+    content: ShaderLab = 3
+    return:
+      type: Prowl.Editor.Preferences.EditorStylePrefs.NoodlePath
+references:
+- uid: Prowl.Editor.Preferences
+  commentId: N:Prowl.Editor.Preferences
+  href: Prowl.html
+  name: Prowl.Editor.Preferences
+  nameWithType: Prowl.Editor.Preferences
+  fullName: Prowl.Editor.Preferences
+  spec.csharp:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Editor
+    name: Editor
+    href: Prowl.Editor.html
+  - name: .
+  - uid: Prowl.Editor.Preferences
+    name: Preferences
+    href: Prowl.Editor.Preferences.html
+  spec.vb:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Editor
+    name: Editor
+    href: Prowl.Editor.html
+  - name: .
+  - uid: Prowl.Editor.Preferences
+    name: Preferences
+    href: Prowl.Editor.Preferences.html
+- uid: System.Object.Prowl.Runtime.RuntimeUtils.GetSerializableFields
+  commentId: M:Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  parent: Prowl.Runtime.RuntimeUtils
+  definition: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  name: GetSerializableFields(object)
+  nameWithType: RuntimeUtils.GetSerializableFields(object)
+  fullName: Prowl.Runtime.RuntimeUtils.GetSerializableFields(object)
+  nameWithType.vb: RuntimeUtils.GetSerializableFields(Object)
+  fullName.vb: Prowl.Runtime.RuntimeUtils.GetSerializableFields(Object)
+  name.vb: GetSerializableFields(Object)
+  spec.csharp:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  commentId: M:Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  isExternal: true
+  href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  name: GetSerializableFields(object)
+  nameWithType: RuntimeUtils.GetSerializableFields(object)
+  fullName: Prowl.Runtime.RuntimeUtils.GetSerializableFields(object)
+  nameWithType.vb: RuntimeUtils.GetSerializableFields(Object)
+  fullName.vb: Prowl.Runtime.RuntimeUtils.GetSerializableFields(Object)
+  name.vb: GetSerializableFields(Object)
+  spec.csharp:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: Prowl.Runtime.RuntimeUtils
+  commentId: T:Prowl.Runtime.RuntimeUtils
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.RuntimeUtils.html
+  name: RuntimeUtils
+  nameWithType: RuntimeUtils
+  fullName: Prowl.Runtime.RuntimeUtils
+- uid: Prowl.Runtime
+  commentId: N:Prowl.Runtime
+  href: Prowl.html
+  name: Prowl.Runtime
+  nameWithType: Prowl.Runtime
+  fullName: Prowl.Runtime
+  spec.csharp:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+  spec.vb:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+- uid: Prowl.Editor.Preferences.EditorStylePrefs.NoodlePath
+  commentId: T:Prowl.Editor.Preferences.EditorStylePrefs.NoodlePath
+  parent: Prowl.Editor.Preferences
+  href: Prowl.Editor.Preferences.EditorStylePrefs.html
+  name: EditorStylePrefs.NoodlePath
+  nameWithType: EditorStylePrefs.NoodlePath
+  fullName: Prowl.Editor.Preferences.EditorStylePrefs.NoodlePath
+  spec.csharp:
+  - uid: Prowl.Editor.Preferences.EditorStylePrefs
+    name: EditorStylePrefs
+    href: Prowl.Editor.Preferences.EditorStylePrefs.html
+  - name: .
+  - uid: Prowl.Editor.Preferences.EditorStylePrefs.NoodlePath
+    name: NoodlePath
+    href: Prowl.Editor.Preferences.EditorStylePrefs.NoodlePath.html
+  spec.vb:
+  - uid: Prowl.Editor.Preferences.EditorStylePrefs
+    name: EditorStylePrefs
+    href: Prowl.Editor.Preferences.EditorStylePrefs.html
+  - name: .
+  - uid: Prowl.Editor.Preferences.EditorStylePrefs.NoodlePath
+    name: NoodlePath
+    href: Prowl.Editor.Preferences.EditorStylePrefs.NoodlePath.html

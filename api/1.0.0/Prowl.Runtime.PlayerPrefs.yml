@@ -1,0 +1,816 @@
+### YamlMime:ManagedReference
+items:
+- uid: Prowl.Runtime.PlayerPrefs
+  commentId: T:Prowl.Runtime.PlayerPrefs
+  id: PlayerPrefs
+  parent: Prowl.Runtime
+  children:
+  - Prowl.Runtime.PlayerPrefs.DeleteAll
+  - Prowl.Runtime.PlayerPrefs.DeleteKey(System.String)
+  - Prowl.Runtime.PlayerPrefs.GetFloat(System.String)
+  - Prowl.Runtime.PlayerPrefs.GetInt(System.String)
+  - Prowl.Runtime.PlayerPrefs.GetObject(System.String)
+  - Prowl.Runtime.PlayerPrefs.GetString(System.String)
+  - Prowl.Runtime.PlayerPrefs.HasKey(System.String)
+  - Prowl.Runtime.PlayerPrefs.SaveAll
+  - Prowl.Runtime.PlayerPrefs.SetFloat(System.String,System.Single)
+  - Prowl.Runtime.PlayerPrefs.SetInt(System.String,System.Int32)
+  - Prowl.Runtime.PlayerPrefs.SetObject(System.String,System.Object)
+  - Prowl.Runtime.PlayerPrefs.SetString(System.String,System.String)
+  langs:
+  - csharp
+  - vb
+  name: PlayerPrefs
+  nameWithType: PlayerPrefs
+  fullName: Prowl.Runtime.PlayerPrefs
+  type: Class
+  source:
+    remote:
+      path: Prowl.Runtime/PlayerPrefs.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: PlayerPrefs
+    path: ../Prowl/Prowl.Runtime/PlayerPrefs.cs
+    startLine: 8
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public static class PlayerPrefs
+    content.vb: Public Module PlayerPrefs
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: Prowl.Runtime.PlayerPrefs.HasKey(System.String)
+  commentId: M:Prowl.Runtime.PlayerPrefs.HasKey(System.String)
+  id: HasKey(System.String)
+  parent: Prowl.Runtime.PlayerPrefs
+  langs:
+  - csharp
+  - vb
+  name: HasKey(string)
+  nameWithType: PlayerPrefs.HasKey(string)
+  fullName: Prowl.Runtime.PlayerPrefs.HasKey(string)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/PlayerPrefs.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: HasKey
+    path: ../Prowl/Prowl.Runtime/PlayerPrefs.cs
+    startLine: 18
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public static bool HasKey(string key)
+    parameters:
+    - id: key
+      type: System.String
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function HasKey(key As String) As Boolean
+  overload: Prowl.Runtime.PlayerPrefs.HasKey*
+  nameWithType.vb: PlayerPrefs.HasKey(String)
+  fullName.vb: Prowl.Runtime.PlayerPrefs.HasKey(String)
+  name.vb: HasKey(String)
+- uid: Prowl.Runtime.PlayerPrefs.DeleteAll
+  commentId: M:Prowl.Runtime.PlayerPrefs.DeleteAll
+  id: DeleteAll
+  parent: Prowl.Runtime.PlayerPrefs
+  langs:
+  - csharp
+  - vb
+  name: DeleteAll()
+  nameWithType: PlayerPrefs.DeleteAll()
+  fullName: Prowl.Runtime.PlayerPrefs.DeleteAll()
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/PlayerPrefs.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: DeleteAll
+    path: ../Prowl/Prowl.Runtime/PlayerPrefs.cs
+    startLine: 20
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public static void DeleteAll()
+    content.vb: Public Shared Sub DeleteAll()
+  overload: Prowl.Runtime.PlayerPrefs.DeleteAll*
+- uid: Prowl.Runtime.PlayerPrefs.DeleteKey(System.String)
+  commentId: M:Prowl.Runtime.PlayerPrefs.DeleteKey(System.String)
+  id: DeleteKey(System.String)
+  parent: Prowl.Runtime.PlayerPrefs
+  langs:
+  - csharp
+  - vb
+  name: DeleteKey(string)
+  nameWithType: PlayerPrefs.DeleteKey(string)
+  fullName: Prowl.Runtime.PlayerPrefs.DeleteKey(string)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/PlayerPrefs.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: DeleteKey
+    path: ../Prowl/Prowl.Runtime/PlayerPrefs.cs
+    startLine: 21
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public static void DeleteKey(string key)
+    parameters:
+    - id: key
+      type: System.String
+    content.vb: Public Shared Sub DeleteKey(key As String)
+  overload: Prowl.Runtime.PlayerPrefs.DeleteKey*
+  nameWithType.vb: PlayerPrefs.DeleteKey(String)
+  fullName.vb: Prowl.Runtime.PlayerPrefs.DeleteKey(String)
+  name.vb: DeleteKey(String)
+- uid: Prowl.Runtime.PlayerPrefs.GetFloat(System.String)
+  commentId: M:Prowl.Runtime.PlayerPrefs.GetFloat(System.String)
+  id: GetFloat(System.String)
+  parent: Prowl.Runtime.PlayerPrefs
+  langs:
+  - csharp
+  - vb
+  name: GetFloat(string)
+  nameWithType: PlayerPrefs.GetFloat(string)
+  fullName: Prowl.Runtime.PlayerPrefs.GetFloat(string)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/PlayerPrefs.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: GetFloat
+    path: ../Prowl/Prowl.Runtime/PlayerPrefs.cs
+    startLine: 23
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public static float GetFloat(string key)
+    parameters:
+    - id: key
+      type: System.String
+    return:
+      type: System.Single
+    content.vb: Public Shared Function GetFloat(key As String) As Single
+  overload: Prowl.Runtime.PlayerPrefs.GetFloat*
+  nameWithType.vb: PlayerPrefs.GetFloat(String)
+  fullName.vb: Prowl.Runtime.PlayerPrefs.GetFloat(String)
+  name.vb: GetFloat(String)
+- uid: Prowl.Runtime.PlayerPrefs.GetInt(System.String)
+  commentId: M:Prowl.Runtime.PlayerPrefs.GetInt(System.String)
+  id: GetInt(System.String)
+  parent: Prowl.Runtime.PlayerPrefs
+  langs:
+  - csharp
+  - vb
+  name: GetInt(string)
+  nameWithType: PlayerPrefs.GetInt(string)
+  fullName: Prowl.Runtime.PlayerPrefs.GetInt(string)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/PlayerPrefs.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: GetInt
+    path: ../Prowl/Prowl.Runtime/PlayerPrefs.cs
+    startLine: 24
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public static int GetInt(string key)
+    parameters:
+    - id: key
+      type: System.String
+    return:
+      type: System.Int32
+    content.vb: Public Shared Function GetInt(key As String) As Integer
+  overload: Prowl.Runtime.PlayerPrefs.GetInt*
+  nameWithType.vb: PlayerPrefs.GetInt(String)
+  fullName.vb: Prowl.Runtime.PlayerPrefs.GetInt(String)
+  name.vb: GetInt(String)
+- uid: Prowl.Runtime.PlayerPrefs.GetString(System.String)
+  commentId: M:Prowl.Runtime.PlayerPrefs.GetString(System.String)
+  id: GetString(System.String)
+  parent: Prowl.Runtime.PlayerPrefs
+  langs:
+  - csharp
+  - vb
+  name: GetString(string)
+  nameWithType: PlayerPrefs.GetString(string)
+  fullName: Prowl.Runtime.PlayerPrefs.GetString(string)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/PlayerPrefs.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: GetString
+    path: ../Prowl/Prowl.Runtime/PlayerPrefs.cs
+    startLine: 25
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public static string GetString(string key)
+    parameters:
+    - id: key
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Shared Function GetString(key As String) As String
+  overload: Prowl.Runtime.PlayerPrefs.GetString*
+  nameWithType.vb: PlayerPrefs.GetString(String)
+  fullName.vb: Prowl.Runtime.PlayerPrefs.GetString(String)
+  name.vb: GetString(String)
+- uid: Prowl.Runtime.PlayerPrefs.GetObject(System.String)
+  commentId: M:Prowl.Runtime.PlayerPrefs.GetObject(System.String)
+  id: GetObject(System.String)
+  parent: Prowl.Runtime.PlayerPrefs
+  langs:
+  - csharp
+  - vb
+  name: GetObject(string)
+  nameWithType: PlayerPrefs.GetObject(string)
+  fullName: Prowl.Runtime.PlayerPrefs.GetObject(string)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/PlayerPrefs.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: GetObject
+    path: ../Prowl/Prowl.Runtime/PlayerPrefs.cs
+    startLine: 26
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public static object GetObject(string key)
+    parameters:
+    - id: key
+      type: System.String
+    return:
+      type: System.Object
+    content.vb: Public Shared Function GetObject(key As String) As Object
+  overload: Prowl.Runtime.PlayerPrefs.GetObject*
+  nameWithType.vb: PlayerPrefs.GetObject(String)
+  fullName.vb: Prowl.Runtime.PlayerPrefs.GetObject(String)
+  name.vb: GetObject(String)
+- uid: Prowl.Runtime.PlayerPrefs.SetFloat(System.String,System.Single)
+  commentId: M:Prowl.Runtime.PlayerPrefs.SetFloat(System.String,System.Single)
+  id: SetFloat(System.String,System.Single)
+  parent: Prowl.Runtime.PlayerPrefs
+  langs:
+  - csharp
+  - vb
+  name: SetFloat(string, float)
+  nameWithType: PlayerPrefs.SetFloat(string, float)
+  fullName: Prowl.Runtime.PlayerPrefs.SetFloat(string, float)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/PlayerPrefs.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: SetFloat
+    path: ../Prowl/Prowl.Runtime/PlayerPrefs.cs
+    startLine: 28
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public static void SetFloat(string key, float value)
+    parameters:
+    - id: key
+      type: System.String
+    - id: value
+      type: System.Single
+    content.vb: Public Shared Sub SetFloat(key As String, value As Single)
+  overload: Prowl.Runtime.PlayerPrefs.SetFloat*
+  nameWithType.vb: PlayerPrefs.SetFloat(String, Single)
+  fullName.vb: Prowl.Runtime.PlayerPrefs.SetFloat(String, Single)
+  name.vb: SetFloat(String, Single)
+- uid: Prowl.Runtime.PlayerPrefs.SetInt(System.String,System.Int32)
+  commentId: M:Prowl.Runtime.PlayerPrefs.SetInt(System.String,System.Int32)
+  id: SetInt(System.String,System.Int32)
+  parent: Prowl.Runtime.PlayerPrefs
+  langs:
+  - csharp
+  - vb
+  name: SetInt(string, int)
+  nameWithType: PlayerPrefs.SetInt(string, int)
+  fullName: Prowl.Runtime.PlayerPrefs.SetInt(string, int)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/PlayerPrefs.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: SetInt
+    path: ../Prowl/Prowl.Runtime/PlayerPrefs.cs
+    startLine: 29
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public static void SetInt(string key, int value)
+    parameters:
+    - id: key
+      type: System.String
+    - id: value
+      type: System.Int32
+    content.vb: Public Shared Sub SetInt(key As String, value As Integer)
+  overload: Prowl.Runtime.PlayerPrefs.SetInt*
+  nameWithType.vb: PlayerPrefs.SetInt(String, Integer)
+  fullName.vb: Prowl.Runtime.PlayerPrefs.SetInt(String, Integer)
+  name.vb: SetInt(String, Integer)
+- uid: Prowl.Runtime.PlayerPrefs.SetString(System.String,System.String)
+  commentId: M:Prowl.Runtime.PlayerPrefs.SetString(System.String,System.String)
+  id: SetString(System.String,System.String)
+  parent: Prowl.Runtime.PlayerPrefs
+  langs:
+  - csharp
+  - vb
+  name: SetString(string, string)
+  nameWithType: PlayerPrefs.SetString(string, string)
+  fullName: Prowl.Runtime.PlayerPrefs.SetString(string, string)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/PlayerPrefs.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: SetString
+    path: ../Prowl/Prowl.Runtime/PlayerPrefs.cs
+    startLine: 30
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public static void SetString(string key, string value)
+    parameters:
+    - id: key
+      type: System.String
+    - id: value
+      type: System.String
+    content.vb: Public Shared Sub SetString(key As String, value As String)
+  overload: Prowl.Runtime.PlayerPrefs.SetString*
+  nameWithType.vb: PlayerPrefs.SetString(String, String)
+  fullName.vb: Prowl.Runtime.PlayerPrefs.SetString(String, String)
+  name.vb: SetString(String, String)
+- uid: Prowl.Runtime.PlayerPrefs.SetObject(System.String,System.Object)
+  commentId: M:Prowl.Runtime.PlayerPrefs.SetObject(System.String,System.Object)
+  id: SetObject(System.String,System.Object)
+  parent: Prowl.Runtime.PlayerPrefs
+  langs:
+  - csharp
+  - vb
+  name: SetObject(string, object)
+  nameWithType: PlayerPrefs.SetObject(string, object)
+  fullName: Prowl.Runtime.PlayerPrefs.SetObject(string, object)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/PlayerPrefs.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: SetObject
+    path: ../Prowl/Prowl.Runtime/PlayerPrefs.cs
+    startLine: 31
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public static void SetObject(string key, object value)
+    parameters:
+    - id: key
+      type: System.String
+    - id: value
+      type: System.Object
+    content.vb: Public Shared Sub SetObject(key As String, value As Object)
+  overload: Prowl.Runtime.PlayerPrefs.SetObject*
+  nameWithType.vb: PlayerPrefs.SetObject(String, Object)
+  fullName.vb: Prowl.Runtime.PlayerPrefs.SetObject(String, Object)
+  name.vb: SetObject(String, Object)
+- uid: Prowl.Runtime.PlayerPrefs.SaveAll
+  commentId: M:Prowl.Runtime.PlayerPrefs.SaveAll
+  id: SaveAll
+  parent: Prowl.Runtime.PlayerPrefs
+  langs:
+  - csharp
+  - vb
+  name: SaveAll()
+  nameWithType: PlayerPrefs.SaveAll()
+  fullName: Prowl.Runtime.PlayerPrefs.SaveAll()
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/PlayerPrefs.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: SaveAll
+    path: ../Prowl/Prowl.Runtime/PlayerPrefs.cs
+    startLine: 33
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public static void SaveAll()
+    content.vb: Public Shared Sub SaveAll()
+  overload: Prowl.Runtime.PlayerPrefs.SaveAll*
+references:
+- uid: Prowl.Runtime
+  commentId: N:Prowl.Runtime
+  href: Prowl.html
+  name: Prowl.Runtime
+  nameWithType: Prowl.Runtime
+  fullName: Prowl.Runtime
+  spec.csharp:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+  spec.vb:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Prowl.Runtime.PlayerPrefs.HasKey*
+  commentId: Overload:Prowl.Runtime.PlayerPrefs.HasKey
+  href: Prowl.Runtime.PlayerPrefs.html#Prowl_Runtime_PlayerPrefs_HasKey_System_String_
+  name: HasKey
+  nameWithType: PlayerPrefs.HasKey
+  fullName: Prowl.Runtime.PlayerPrefs.HasKey
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: Prowl.Runtime.PlayerPrefs.DeleteAll*
+  commentId: Overload:Prowl.Runtime.PlayerPrefs.DeleteAll
+  href: Prowl.Runtime.PlayerPrefs.html#Prowl_Runtime_PlayerPrefs_DeleteAll
+  name: DeleteAll
+  nameWithType: PlayerPrefs.DeleteAll
+  fullName: Prowl.Runtime.PlayerPrefs.DeleteAll
+- uid: Prowl.Runtime.PlayerPrefs.DeleteKey*
+  commentId: Overload:Prowl.Runtime.PlayerPrefs.DeleteKey
+  href: Prowl.Runtime.PlayerPrefs.html#Prowl_Runtime_PlayerPrefs_DeleteKey_System_String_
+  name: DeleteKey
+  nameWithType: PlayerPrefs.DeleteKey
+  fullName: Prowl.Runtime.PlayerPrefs.DeleteKey
+- uid: Prowl.Runtime.PlayerPrefs.GetFloat*
+  commentId: Overload:Prowl.Runtime.PlayerPrefs.GetFloat
+  href: Prowl.Runtime.PlayerPrefs.html#Prowl_Runtime_PlayerPrefs_GetFloat_System_String_
+  name: GetFloat
+  nameWithType: PlayerPrefs.GetFloat
+  fullName: Prowl.Runtime.PlayerPrefs.GetFloat
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.single
+  name: float
+  nameWithType: float
+  fullName: float
+  nameWithType.vb: Single
+  fullName.vb: Single
+  name.vb: Single
+- uid: Prowl.Runtime.PlayerPrefs.GetInt*
+  commentId: Overload:Prowl.Runtime.PlayerPrefs.GetInt
+  href: Prowl.Runtime.PlayerPrefs.html#Prowl_Runtime_PlayerPrefs_GetInt_System_String_
+  name: GetInt
+  nameWithType: PlayerPrefs.GetInt
+  fullName: Prowl.Runtime.PlayerPrefs.GetInt
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: Prowl.Runtime.PlayerPrefs.GetString*
+  commentId: Overload:Prowl.Runtime.PlayerPrefs.GetString
+  href: Prowl.Runtime.PlayerPrefs.html#Prowl_Runtime_PlayerPrefs_GetString_System_String_
+  name: GetString
+  nameWithType: PlayerPrefs.GetString
+  fullName: Prowl.Runtime.PlayerPrefs.GetString
+- uid: Prowl.Runtime.PlayerPrefs.GetObject*
+  commentId: Overload:Prowl.Runtime.PlayerPrefs.GetObject
+  href: Prowl.Runtime.PlayerPrefs.html#Prowl_Runtime_PlayerPrefs_GetObject_System_String_
+  name: GetObject
+  nameWithType: PlayerPrefs.GetObject
+  fullName: Prowl.Runtime.PlayerPrefs.GetObject
+- uid: Prowl.Runtime.PlayerPrefs.SetFloat*
+  commentId: Overload:Prowl.Runtime.PlayerPrefs.SetFloat
+  href: Prowl.Runtime.PlayerPrefs.html#Prowl_Runtime_PlayerPrefs_SetFloat_System_String_System_Single_
+  name: SetFloat
+  nameWithType: PlayerPrefs.SetFloat
+  fullName: Prowl.Runtime.PlayerPrefs.SetFloat
+- uid: Prowl.Runtime.PlayerPrefs.SetInt*
+  commentId: Overload:Prowl.Runtime.PlayerPrefs.SetInt
+  href: Prowl.Runtime.PlayerPrefs.html#Prowl_Runtime_PlayerPrefs_SetInt_System_String_System_Int32_
+  name: SetInt
+  nameWithType: PlayerPrefs.SetInt
+  fullName: Prowl.Runtime.PlayerPrefs.SetInt
+- uid: Prowl.Runtime.PlayerPrefs.SetString*
+  commentId: Overload:Prowl.Runtime.PlayerPrefs.SetString
+  href: Prowl.Runtime.PlayerPrefs.html#Prowl_Runtime_PlayerPrefs_SetString_System_String_System_String_
+  name: SetString
+  nameWithType: PlayerPrefs.SetString
+  fullName: Prowl.Runtime.PlayerPrefs.SetString
+- uid: Prowl.Runtime.PlayerPrefs.SetObject*
+  commentId: Overload:Prowl.Runtime.PlayerPrefs.SetObject
+  href: Prowl.Runtime.PlayerPrefs.html#Prowl_Runtime_PlayerPrefs_SetObject_System_String_System_Object_
+  name: SetObject
+  nameWithType: PlayerPrefs.SetObject
+  fullName: Prowl.Runtime.PlayerPrefs.SetObject
+- uid: Prowl.Runtime.PlayerPrefs.SaveAll*
+  commentId: Overload:Prowl.Runtime.PlayerPrefs.SaveAll
+  href: Prowl.Runtime.PlayerPrefs.html#Prowl_Runtime_PlayerPrefs_SaveAll
+  name: SaveAll
+  nameWithType: PlayerPrefs.SaveAll
+  fullName: Prowl.Runtime.PlayerPrefs.SaveAll

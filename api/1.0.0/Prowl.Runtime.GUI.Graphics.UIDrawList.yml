@@ -1,0 +1,2670 @@
+### YamlMime:ManagedReference
+items:
+- uid: Prowl.Runtime.GUI.Graphics.UIDrawList
+  commentId: T:Prowl.Runtime.GUI.Graphics.UIDrawList
+  id: UIDrawList
+  parent: Prowl.Runtime.GUI.Graphics
+  children:
+  - Prowl.Runtime.GUI.Graphics.UIDrawList.#ctor(System.Boolean)
+  - Prowl.Runtime.GUI.Graphics.UIDrawList.AddBezierCurve(Prowl.Runtime.Vector2,Prowl.Runtime.Vector2,Prowl.Runtime.Vector2,Prowl.Runtime.Vector2,Prowl.Runtime.Color32,System.Single,System.Int32)
+  - Prowl.Runtime.GUI.Graphics.UIDrawList.AddCircle(Prowl.Runtime.Vector2,System.Single,Prowl.Runtime.Color32,System.Int32,System.Single)
+  - Prowl.Runtime.GUI.Graphics.UIDrawList.AddCircleFilled(Prowl.Runtime.Vector2,System.Single,Prowl.Runtime.Color32,System.Int32)
+  - Prowl.Runtime.GUI.Graphics.UIDrawList.AddConvexPolyFilled(System.Collections.Generic.List{Prowl.Runtime.Vector2},System.Int32,Prowl.Runtime.Color32)
+  - Prowl.Runtime.GUI.Graphics.UIDrawList.AddDrawCmd
+  - Prowl.Runtime.GUI.Graphics.UIDrawList.AddImage(Prowl.Runtime.Texture2D,Prowl.Runtime.Vector2,Prowl.Runtime.Vector2,System.Nullable{Prowl.Runtime.Vector2},System.Nullable{Prowl.Runtime.Vector2},System.Nullable{Prowl.Runtime.Color32})
+  - Prowl.Runtime.GUI.Graphics.UIDrawList.AddLine(Prowl.Runtime.Vector2,Prowl.Runtime.Vector2,Prowl.Runtime.Color32,System.Single)
+  - Prowl.Runtime.GUI.Graphics.UIDrawList.AddPolyline(System.Collections.Generic.List{Prowl.Runtime.Vector2},System.Int32,Prowl.Runtime.Color32,System.Boolean,System.Single)
+  - Prowl.Runtime.GUI.Graphics.UIDrawList.AddRect(Prowl.Runtime.Vector2,Prowl.Runtime.Vector2,Prowl.Runtime.Color32,System.Single,System.Int32,System.Single)
+  - Prowl.Runtime.GUI.Graphics.UIDrawList.AddRectFilled(Prowl.Runtime.Vector2,Prowl.Runtime.Vector2,Prowl.Runtime.Color32,System.Single,System.Int32)
+  - Prowl.Runtime.GUI.Graphics.UIDrawList.AddRectFilledMultiColor(Prowl.Runtime.Vector2,Prowl.Runtime.Vector2,Prowl.Runtime.Color32,Prowl.Runtime.Color32,Prowl.Runtime.Color32,Prowl.Runtime.Color32)
+  - Prowl.Runtime.GUI.Graphics.UIDrawList.AddText(Prowl.Runtime.Font,System.Single,Prowl.Runtime.Vector2,Prowl.Runtime.Color32,System.String,System.Int32,System.Int32,System.Single,System.Nullable{Prowl.Runtime.Vector4})
+  - Prowl.Runtime.GUI.Graphics.UIDrawList.AddText(System.Single,Prowl.Runtime.Vector2,Prowl.Runtime.Color32,System.String,System.Int32,System.Int32,System.Single)
+  - Prowl.Runtime.GUI.Graphics.UIDrawList.AddTriangle(Prowl.Runtime.Vector2,Prowl.Runtime.Vector2,Prowl.Runtime.Vector2,Prowl.Runtime.Color32,System.Single)
+  - Prowl.Runtime.GUI.Graphics.UIDrawList.AddTriangleFilled(Prowl.Runtime.Vector2,Prowl.Runtime.Vector2,Prowl.Runtime.Vector2,Prowl.Runtime.Color32)
+  - Prowl.Runtime.GUI.Graphics.UIDrawList.AntiAliasing(System.Boolean)
+  - Prowl.Runtime.GUI.Graphics.UIDrawList.ChannelsMerge
+  - Prowl.Runtime.GUI.Graphics.UIDrawList.ChannelsSetCurrent(System.Int32)
+  - Prowl.Runtime.GUI.Graphics.UIDrawList.ChannelsSplit(System.Int32)
+  - Prowl.Runtime.GUI.Graphics.UIDrawList.Clear
+  - Prowl.Runtime.GUI.Graphics.UIDrawList.GetCurrentClipRect
+  - Prowl.Runtime.GUI.Graphics.UIDrawList.GetCurrentDrawCmd
+  - Prowl.Runtime.GUI.Graphics.UIDrawList.GetCurrentTexture
+  - Prowl.Runtime.GUI.Graphics.UIDrawList.GetPreviousDrawCmd
+  - Prowl.Runtime.GUI.Graphics.UIDrawList.PathArcTo(Prowl.Runtime.Vector2,System.Single,System.Single,System.Single,System.Int32)
+  - Prowl.Runtime.GUI.Graphics.UIDrawList.PathArcToFast(Prowl.Runtime.Vector2,System.Single,System.Int32,System.Int32)
+  - Prowl.Runtime.GUI.Graphics.UIDrawList.PathBezierCurveTo(Prowl.Runtime.Vector2,Prowl.Runtime.Vector2,Prowl.Runtime.Vector2,System.Int32)
+  - Prowl.Runtime.GUI.Graphics.UIDrawList.PathFill(Prowl.Runtime.Color32)
+  - Prowl.Runtime.GUI.Graphics.UIDrawList.PathLineTo(Prowl.Runtime.Vector2)
+  - Prowl.Runtime.GUI.Graphics.UIDrawList.PathLineToMergeDuplicate(Prowl.Runtime.Vector2)
+  - Prowl.Runtime.GUI.Graphics.UIDrawList.PathRect(Prowl.Runtime.Vector2,Prowl.Runtime.Vector2,System.Single,System.Int32)
+  - Prowl.Runtime.GUI.Graphics.UIDrawList.PathStroke(Prowl.Runtime.Color32,System.Boolean,System.Single)
+  - Prowl.Runtime.GUI.Graphics.UIDrawList.PeekClipRect
+  - Prowl.Runtime.GUI.Graphics.UIDrawList.PopClipRect
+  - Prowl.Runtime.GUI.Graphics.UIDrawList.PopTexture
+  - Prowl.Runtime.GUI.Graphics.UIDrawList.PrimQuadUV(Prowl.Runtime.Vector2,Prowl.Runtime.Vector2,Prowl.Runtime.Vector2,Prowl.Runtime.Vector2,Prowl.Runtime.Vector2,Prowl.Runtime.Vector2,Prowl.Runtime.Vector2,Prowl.Runtime.Vector2,Prowl.Runtime.Color32)
+  - Prowl.Runtime.GUI.Graphics.UIDrawList.PrimRect(Prowl.Runtime.Vector2,Prowl.Runtime.Vector2,Prowl.Runtime.Color32)
+  - Prowl.Runtime.GUI.Graphics.UIDrawList.PrimRectUV(Prowl.Runtime.Vector2,Prowl.Runtime.Vector2,Prowl.Runtime.Vector2,Prowl.Runtime.Vector2,Prowl.Runtime.Color32)
+  - Prowl.Runtime.GUI.Graphics.UIDrawList.PrimReserve(System.Int32,System.Int32)
+  - Prowl.Runtime.GUI.Graphics.UIDrawList.PushClipRect(Prowl.Runtime.Vector4,System.Boolean)
+  - Prowl.Runtime.GUI.Graphics.UIDrawList.PushClipRectFullScreen
+  - Prowl.Runtime.GUI.Graphics.UIDrawList.PushTexture(Prowl.Runtime.Texture2D)
+  - Prowl.Runtime.GUI.Graphics.UIDrawList.SetCurrentDrawCmd(Prowl.Runtime.GUI.Graphics.UIDrawCmd)
+  - Prowl.Runtime.GUI.Graphics.UIDrawList.ShadeVertsLinearColorGradient(System.Int32,System.Int32,Prowl.Runtime.Vector2,Prowl.Runtime.Vector2,Prowl.Runtime.Color32,Prowl.Runtime.Color32)
+  - Prowl.Runtime.GUI.Graphics.UIDrawList.ShadeVertsLinearColorGradientKeepAlpha(System.Int32,System.Int32,Prowl.Runtime.Vector2,Prowl.Runtime.Vector2,Prowl.Runtime.Color32,Prowl.Runtime.Color32)
+  - Prowl.Runtime.GUI.Graphics.UIDrawList.UpdateClipRect(System.Boolean)
+  - Prowl.Runtime.GUI.Graphics.UIDrawList.UpdateTextureID
+  langs:
+  - csharp
+  - vb
+  name: UIDrawList
+  nameWithType: UIDrawList
+  fullName: Prowl.Runtime.GUI.Graphics.UIDrawList
+  type: Class
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Graphics/UIDrawList.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: UIDrawList
+    path: ../Prowl/Prowl.Runtime/GUI/Graphics/UIDrawList.cs
+    startLine: 62
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI.Graphics
+  syntax:
+    content: public class UIDrawList
+    content.vb: Public Class UIDrawList
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  extensionMethods:
+  - System.Object.Prowl.Runtime.RuntimeUtils.GetSerializableFields
+- uid: Prowl.Runtime.GUI.Graphics.UIDrawList.#ctor(System.Boolean)
+  commentId: M:Prowl.Runtime.GUI.Graphics.UIDrawList.#ctor(System.Boolean)
+  id: '#ctor(System.Boolean)'
+  parent: Prowl.Runtime.GUI.Graphics.UIDrawList
+  langs:
+  - csharp
+  - vb
+  name: UIDrawList(bool)
+  nameWithType: UIDrawList.UIDrawList(bool)
+  fullName: Prowl.Runtime.GUI.Graphics.UIDrawList.UIDrawList(bool)
+  type: Constructor
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Graphics/UIDrawList.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: .ctor
+    path: ../Prowl/Prowl.Runtime/GUI/Graphics/UIDrawList.cs
+    startLine: 87
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI.Graphics
+  syntax:
+    content: public UIDrawList(bool antiAliasing)
+    parameters:
+    - id: antiAliasing
+      type: System.Boolean
+    content.vb: Public Sub New(antiAliasing As Boolean)
+  overload: Prowl.Runtime.GUI.Graphics.UIDrawList.#ctor*
+  nameWithType.vb: UIDrawList.New(Boolean)
+  fullName.vb: Prowl.Runtime.GUI.Graphics.UIDrawList.New(Boolean)
+  name.vb: New(Boolean)
+- uid: Prowl.Runtime.GUI.Graphics.UIDrawList.AntiAliasing(System.Boolean)
+  commentId: M:Prowl.Runtime.GUI.Graphics.UIDrawList.AntiAliasing(System.Boolean)
+  id: AntiAliasing(System.Boolean)
+  parent: Prowl.Runtime.GUI.Graphics.UIDrawList
+  langs:
+  - csharp
+  - vb
+  name: AntiAliasing(bool)
+  nameWithType: UIDrawList.AntiAliasing(bool)
+  fullName: Prowl.Runtime.GUI.Graphics.UIDrawList.AntiAliasing(bool)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Graphics/UIDrawList.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: AntiAliasing
+    path: ../Prowl/Prowl.Runtime/GUI/Graphics/UIDrawList.cs
+    startLine: 104
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI.Graphics
+  syntax:
+    content: public void AntiAliasing(bool antiAliasing)
+    parameters:
+    - id: antiAliasing
+      type: System.Boolean
+    content.vb: Public Sub AntiAliasing(antiAliasing As Boolean)
+  overload: Prowl.Runtime.GUI.Graphics.UIDrawList.AntiAliasing*
+  nameWithType.vb: UIDrawList.AntiAliasing(Boolean)
+  fullName.vb: Prowl.Runtime.GUI.Graphics.UIDrawList.AntiAliasing(Boolean)
+  name.vb: AntiAliasing(Boolean)
+- uid: Prowl.Runtime.GUI.Graphics.UIDrawList.GetCurrentDrawCmd
+  commentId: M:Prowl.Runtime.GUI.Graphics.UIDrawList.GetCurrentDrawCmd
+  id: GetCurrentDrawCmd
+  parent: Prowl.Runtime.GUI.Graphics.UIDrawList
+  langs:
+  - csharp
+  - vb
+  name: GetCurrentDrawCmd()
+  nameWithType: UIDrawList.GetCurrentDrawCmd()
+  fullName: Prowl.Runtime.GUI.Graphics.UIDrawList.GetCurrentDrawCmd()
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Graphics/UIDrawList.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: GetCurrentDrawCmd
+    path: ../Prowl/Prowl.Runtime/GUI/Graphics/UIDrawList.cs
+    startLine: 110
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI.Graphics
+  syntax:
+    content: public UIDrawCmd? GetCurrentDrawCmd()
+    return:
+      type: System.Nullable{Prowl.Runtime.GUI.Graphics.UIDrawCmd}
+    content.vb: Public Function GetCurrentDrawCmd() As UIDrawCmd?
+  overload: Prowl.Runtime.GUI.Graphics.UIDrawList.GetCurrentDrawCmd*
+- uid: Prowl.Runtime.GUI.Graphics.UIDrawList.SetCurrentDrawCmd(Prowl.Runtime.GUI.Graphics.UIDrawCmd)
+  commentId: M:Prowl.Runtime.GUI.Graphics.UIDrawList.SetCurrentDrawCmd(Prowl.Runtime.GUI.Graphics.UIDrawCmd)
+  id: SetCurrentDrawCmd(Prowl.Runtime.GUI.Graphics.UIDrawCmd)
+  parent: Prowl.Runtime.GUI.Graphics.UIDrawList
+  langs:
+  - csharp
+  - vb
+  name: SetCurrentDrawCmd(UIDrawCmd)
+  nameWithType: UIDrawList.SetCurrentDrawCmd(UIDrawCmd)
+  fullName: Prowl.Runtime.GUI.Graphics.UIDrawList.SetCurrentDrawCmd(Prowl.Runtime.GUI.Graphics.UIDrawCmd)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Graphics/UIDrawList.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: SetCurrentDrawCmd
+    path: ../Prowl/Prowl.Runtime/GUI/Graphics/UIDrawList.cs
+    startLine: 116
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI.Graphics
+  syntax:
+    content: public void SetCurrentDrawCmd(UIDrawCmd cmd)
+    parameters:
+    - id: cmd
+      type: Prowl.Runtime.GUI.Graphics.UIDrawCmd
+    content.vb: Public Sub SetCurrentDrawCmd(cmd As UIDrawCmd)
+  overload: Prowl.Runtime.GUI.Graphics.UIDrawList.SetCurrentDrawCmd*
+- uid: Prowl.Runtime.GUI.Graphics.UIDrawList.GetPreviousDrawCmd
+  commentId: M:Prowl.Runtime.GUI.Graphics.UIDrawList.GetPreviousDrawCmd
+  id: GetPreviousDrawCmd
+  parent: Prowl.Runtime.GUI.Graphics.UIDrawList
+  langs:
+  - csharp
+  - vb
+  name: GetPreviousDrawCmd()
+  nameWithType: UIDrawList.GetPreviousDrawCmd()
+  fullName: Prowl.Runtime.GUI.Graphics.UIDrawList.GetPreviousDrawCmd()
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Graphics/UIDrawList.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: GetPreviousDrawCmd
+    path: ../Prowl/Prowl.Runtime/GUI/Graphics/UIDrawList.cs
+    startLine: 123
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI.Graphics
+  syntax:
+    content: public UIDrawCmd? GetPreviousDrawCmd()
+    return:
+      type: System.Nullable{Prowl.Runtime.GUI.Graphics.UIDrawCmd}
+    content.vb: Public Function GetPreviousDrawCmd() As UIDrawCmd?
+  overload: Prowl.Runtime.GUI.Graphics.UIDrawList.GetPreviousDrawCmd*
+- uid: Prowl.Runtime.GUI.Graphics.UIDrawList.GetCurrentClipRect
+  commentId: M:Prowl.Runtime.GUI.Graphics.UIDrawList.GetCurrentClipRect
+  id: GetCurrentClipRect
+  parent: Prowl.Runtime.GUI.Graphics.UIDrawList
+  langs:
+  - csharp
+  - vb
+  name: GetCurrentClipRect()
+  nameWithType: UIDrawList.GetCurrentClipRect()
+  fullName: Prowl.Runtime.GUI.Graphics.UIDrawList.GetCurrentClipRect()
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Graphics/UIDrawList.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: GetCurrentClipRect
+    path: ../Prowl/Prowl.Runtime/GUI/Graphics/UIDrawList.cs
+    startLine: 129
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI.Graphics
+  syntax:
+    content: public Vector4 GetCurrentClipRect()
+    return:
+      type: Prowl.Runtime.Vector4
+    content.vb: Public Function GetCurrentClipRect() As Vector4
+  overload: Prowl.Runtime.GUI.Graphics.UIDrawList.GetCurrentClipRect*
+- uid: Prowl.Runtime.GUI.Graphics.UIDrawList.GetCurrentTexture
+  commentId: M:Prowl.Runtime.GUI.Graphics.UIDrawList.GetCurrentTexture
+  id: GetCurrentTexture
+  parent: Prowl.Runtime.GUI.Graphics.UIDrawList
+  langs:
+  - csharp
+  - vb
+  name: GetCurrentTexture()
+  nameWithType: UIDrawList.GetCurrentTexture()
+  fullName: Prowl.Runtime.GUI.Graphics.UIDrawList.GetCurrentTexture()
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Graphics/UIDrawList.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: GetCurrentTexture
+    path: ../Prowl/Prowl.Runtime/GUI/Graphics/UIDrawList.cs
+    startLine: 135
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI.Graphics
+  syntax:
+    content: public Texture2D GetCurrentTexture()
+    return:
+      type: Prowl.Runtime.Texture2D
+    content.vb: Public Function GetCurrentTexture() As Texture2D
+  overload: Prowl.Runtime.GUI.Graphics.UIDrawList.GetCurrentTexture*
+- uid: Prowl.Runtime.GUI.Graphics.UIDrawList.Clear
+  commentId: M:Prowl.Runtime.GUI.Graphics.UIDrawList.Clear
+  id: Clear
+  parent: Prowl.Runtime.GUI.Graphics.UIDrawList
+  langs:
+  - csharp
+  - vb
+  name: Clear()
+  nameWithType: UIDrawList.Clear()
+  fullName: Prowl.Runtime.GUI.Graphics.UIDrawList.Clear()
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Graphics/UIDrawList.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Clear
+    path: ../Prowl/Prowl.Runtime/GUI/Graphics/UIDrawList.cs
+    startLine: 141
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI.Graphics
+  syntax:
+    content: public void Clear()
+    content.vb: Public Sub Clear()
+  overload: Prowl.Runtime.GUI.Graphics.UIDrawList.Clear*
+- uid: Prowl.Runtime.GUI.Graphics.UIDrawList.PushClipRect(Prowl.Runtime.Vector4,System.Boolean)
+  commentId: M:Prowl.Runtime.GUI.Graphics.UIDrawList.PushClipRect(Prowl.Runtime.Vector4,System.Boolean)
+  id: PushClipRect(Prowl.Runtime.Vector4,System.Boolean)
+  parent: Prowl.Runtime.GUI.Graphics.UIDrawList
+  langs:
+  - csharp
+  - vb
+  name: PushClipRect(Vector4, bool)
+  nameWithType: UIDrawList.PushClipRect(Vector4, bool)
+  fullName: Prowl.Runtime.GUI.Graphics.UIDrawList.PushClipRect(Prowl.Runtime.Vector4, bool)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Graphics/UIDrawList.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: PushClipRect
+    path: ../Prowl/Prowl.Runtime/GUI/Graphics/UIDrawList.cs
+    startLine: 169
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI.Graphics
+  syntax:
+    content: public void PushClipRect(Vector4 clip_rect, bool force = false)
+    parameters:
+    - id: clip_rect
+      type: Prowl.Runtime.Vector4
+    - id: force
+      type: System.Boolean
+    content.vb: Public Sub PushClipRect(clip_rect As Vector4, force As Boolean = False)
+  overload: Prowl.Runtime.GUI.Graphics.UIDrawList.PushClipRect*
+  nameWithType.vb: UIDrawList.PushClipRect(Vector4, Boolean)
+  fullName.vb: Prowl.Runtime.GUI.Graphics.UIDrawList.PushClipRect(Prowl.Runtime.Vector4, Boolean)
+  name.vb: PushClipRect(Vector4, Boolean)
+- uid: Prowl.Runtime.GUI.Graphics.UIDrawList.PushClipRectFullScreen
+  commentId: M:Prowl.Runtime.GUI.Graphics.UIDrawList.PushClipRectFullScreen
+  id: PushClipRectFullScreen
+  parent: Prowl.Runtime.GUI.Graphics.UIDrawList
+  langs:
+  - csharp
+  - vb
+  name: PushClipRectFullScreen()
+  nameWithType: UIDrawList.PushClipRectFullScreen()
+  fullName: Prowl.Runtime.GUI.Graphics.UIDrawList.PushClipRectFullScreen()
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Graphics/UIDrawList.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: PushClipRectFullScreen
+    path: ../Prowl/Prowl.Runtime/GUI/Graphics/UIDrawList.cs
+    startLine: 196
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI.Graphics
+  syntax:
+    content: public void PushClipRectFullScreen()
+    content.vb: Public Sub PushClipRectFullScreen()
+  overload: Prowl.Runtime.GUI.Graphics.UIDrawList.PushClipRectFullScreen*
+- uid: Prowl.Runtime.GUI.Graphics.UIDrawList.PopClipRect
+  commentId: M:Prowl.Runtime.GUI.Graphics.UIDrawList.PopClipRect
+  id: PopClipRect
+  parent: Prowl.Runtime.GUI.Graphics.UIDrawList
+  langs:
+  - csharp
+  - vb
+  name: PopClipRect()
+  nameWithType: UIDrawList.PopClipRect()
+  fullName: Prowl.Runtime.GUI.Graphics.UIDrawList.PopClipRect()
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Graphics/UIDrawList.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: PopClipRect
+    path: ../Prowl/Prowl.Runtime/GUI/Graphics/UIDrawList.cs
+    startLine: 202
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI.Graphics
+  syntax:
+    content: public void PopClipRect()
+    content.vb: Public Sub PopClipRect()
+  overload: Prowl.Runtime.GUI.Graphics.UIDrawList.PopClipRect*
+- uid: Prowl.Runtime.GUI.Graphics.UIDrawList.PeekClipRect
+  commentId: M:Prowl.Runtime.GUI.Graphics.UIDrawList.PeekClipRect
+  id: PeekClipRect
+  parent: Prowl.Runtime.GUI.Graphics.UIDrawList
+  langs:
+  - csharp
+  - vb
+  name: PeekClipRect()
+  nameWithType: UIDrawList.PeekClipRect()
+  fullName: Prowl.Runtime.GUI.Graphics.UIDrawList.PeekClipRect()
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Graphics/UIDrawList.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: PeekClipRect
+    path: ../Prowl/Prowl.Runtime/GUI/Graphics/UIDrawList.cs
+    startLine: 210
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI.Graphics
+  syntax:
+    content: public Vector4 PeekClipRect()
+    return:
+      type: Prowl.Runtime.Vector4
+    content.vb: Public Function PeekClipRect() As Vector4
+  overload: Prowl.Runtime.GUI.Graphics.UIDrawList.PeekClipRect*
+- uid: Prowl.Runtime.GUI.Graphics.UIDrawList.PushTexture(Prowl.Runtime.Texture2D)
+  commentId: M:Prowl.Runtime.GUI.Graphics.UIDrawList.PushTexture(Prowl.Runtime.Texture2D)
+  id: PushTexture(Prowl.Runtime.Texture2D)
+  parent: Prowl.Runtime.GUI.Graphics.UIDrawList
+  langs:
+  - csharp
+  - vb
+  name: PushTexture(Texture2D)
+  nameWithType: UIDrawList.PushTexture(Texture2D)
+  fullName: Prowl.Runtime.GUI.Graphics.UIDrawList.PushTexture(Prowl.Runtime.Texture2D)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Graphics/UIDrawList.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: PushTexture
+    path: ../Prowl/Prowl.Runtime/GUI/Graphics/UIDrawList.cs
+    startLine: 216
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI.Graphics
+  syntax:
+    content: public void PushTexture(Texture2D texture_id)
+    parameters:
+    - id: texture_id
+      type: Prowl.Runtime.Texture2D
+    content.vb: Public Sub PushTexture(texture_id As Texture2D)
+  overload: Prowl.Runtime.GUI.Graphics.UIDrawList.PushTexture*
+- uid: Prowl.Runtime.GUI.Graphics.UIDrawList.PopTexture
+  commentId: M:Prowl.Runtime.GUI.Graphics.UIDrawList.PopTexture
+  id: PopTexture
+  parent: Prowl.Runtime.GUI.Graphics.UIDrawList
+  langs:
+  - csharp
+  - vb
+  name: PopTexture()
+  nameWithType: UIDrawList.PopTexture()
+  fullName: Prowl.Runtime.GUI.Graphics.UIDrawList.PopTexture()
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Graphics/UIDrawList.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: PopTexture
+    path: ../Prowl/Prowl.Runtime/GUI/Graphics/UIDrawList.cs
+    startLine: 223
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI.Graphics
+  syntax:
+    content: public void PopTexture()
+    content.vb: Public Sub PopTexture()
+  overload: Prowl.Runtime.GUI.Graphics.UIDrawList.PopTexture*
+- uid: Prowl.Runtime.GUI.Graphics.UIDrawList.AddLine(Prowl.Runtime.Vector2,Prowl.Runtime.Vector2,Prowl.Runtime.Color32,System.Single)
+  commentId: M:Prowl.Runtime.GUI.Graphics.UIDrawList.AddLine(Prowl.Runtime.Vector2,Prowl.Runtime.Vector2,Prowl.Runtime.Color32,System.Single)
+  id: AddLine(Prowl.Runtime.Vector2,Prowl.Runtime.Vector2,Prowl.Runtime.Color32,System.Single)
+  parent: Prowl.Runtime.GUI.Graphics.UIDrawList
+  langs:
+  - csharp
+  - vb
+  name: AddLine(Vector2, Vector2, Color32, float)
+  nameWithType: UIDrawList.AddLine(Vector2, Vector2, Color32, float)
+  fullName: Prowl.Runtime.GUI.Graphics.UIDrawList.AddLine(Prowl.Runtime.Vector2, Prowl.Runtime.Vector2, Prowl.Runtime.Color32, float)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Graphics/UIDrawList.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: AddLine
+    path: ../Prowl/Prowl.Runtime/GUI/Graphics/UIDrawList.cs
+    startLine: 232
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI.Graphics
+  syntax:
+    content: public void AddLine(Vector2 a, Vector2 b, Color32 col, float thickness = 1)
+    parameters:
+    - id: a
+      type: Prowl.Runtime.Vector2
+    - id: b
+      type: Prowl.Runtime.Vector2
+    - id: col
+      type: Prowl.Runtime.Color32
+    - id: thickness
+      type: System.Single
+    content.vb: Public Sub AddLine(a As Vector2, b As Vector2, col As Color32, thickness As Single = 1)
+  overload: Prowl.Runtime.GUI.Graphics.UIDrawList.AddLine*
+  nameWithType.vb: UIDrawList.AddLine(Vector2, Vector2, Color32, Single)
+  fullName.vb: Prowl.Runtime.GUI.Graphics.UIDrawList.AddLine(Prowl.Runtime.Vector2, Prowl.Runtime.Vector2, Prowl.Runtime.Color32, Single)
+  name.vb: AddLine(Vector2, Vector2, Color32, Single)
+- uid: Prowl.Runtime.GUI.Graphics.UIDrawList.AddRect(Prowl.Runtime.Vector2,Prowl.Runtime.Vector2,Prowl.Runtime.Color32,System.Single,System.Int32,System.Single)
+  commentId: M:Prowl.Runtime.GUI.Graphics.UIDrawList.AddRect(Prowl.Runtime.Vector2,Prowl.Runtime.Vector2,Prowl.Runtime.Color32,System.Single,System.Int32,System.Single)
+  id: AddRect(Prowl.Runtime.Vector2,Prowl.Runtime.Vector2,Prowl.Runtime.Color32,System.Single,System.Int32,System.Single)
+  parent: Prowl.Runtime.GUI.Graphics.UIDrawList
+  langs:
+  - csharp
+  - vb
+  name: AddRect(Vector2, Vector2, Color32, float, int, float)
+  nameWithType: UIDrawList.AddRect(Vector2, Vector2, Color32, float, int, float)
+  fullName: Prowl.Runtime.GUI.Graphics.UIDrawList.AddRect(Prowl.Runtime.Vector2, Prowl.Runtime.Vector2, Prowl.Runtime.Color32, float, int, float)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Graphics/UIDrawList.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: AddRect
+    path: ../Prowl/Prowl.Runtime/GUI/Graphics/UIDrawList.cs
+    startLine: 241
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI.Graphics
+  syntax:
+    content: public void AddRect(Vector2 a, Vector2 b, Color32 col, float rounding = 0, int corners = 0, float thickness = 1)
+    parameters:
+    - id: a
+      type: Prowl.Runtime.Vector2
+    - id: b
+      type: Prowl.Runtime.Vector2
+    - id: col
+      type: Prowl.Runtime.Color32
+    - id: rounding
+      type: System.Single
+    - id: corners
+      type: System.Int32
+    - id: thickness
+      type: System.Single
+    content.vb: Public Sub AddRect(a As Vector2, b As Vector2, col As Color32, rounding As Single = 0, corners As Integer = 0, thickness As Single = 1)
+  overload: Prowl.Runtime.GUI.Graphics.UIDrawList.AddRect*
+  nameWithType.vb: UIDrawList.AddRect(Vector2, Vector2, Color32, Single, Integer, Single)
+  fullName.vb: Prowl.Runtime.GUI.Graphics.UIDrawList.AddRect(Prowl.Runtime.Vector2, Prowl.Runtime.Vector2, Prowl.Runtime.Color32, Single, Integer, Single)
+  name.vb: AddRect(Vector2, Vector2, Color32, Single, Integer, Single)
+- uid: Prowl.Runtime.GUI.Graphics.UIDrawList.AddRectFilled(Prowl.Runtime.Vector2,Prowl.Runtime.Vector2,Prowl.Runtime.Color32,System.Single,System.Int32)
+  commentId: M:Prowl.Runtime.GUI.Graphics.UIDrawList.AddRectFilled(Prowl.Runtime.Vector2,Prowl.Runtime.Vector2,Prowl.Runtime.Color32,System.Single,System.Int32)
+  id: AddRectFilled(Prowl.Runtime.Vector2,Prowl.Runtime.Vector2,Prowl.Runtime.Color32,System.Single,System.Int32)
+  parent: Prowl.Runtime.GUI.Graphics.UIDrawList
+  langs:
+  - csharp
+  - vb
+  name: AddRectFilled(Vector2, Vector2, Color32, float, int)
+  nameWithType: UIDrawList.AddRectFilled(Vector2, Vector2, Color32, float, int)
+  fullName: Prowl.Runtime.GUI.Graphics.UIDrawList.AddRectFilled(Prowl.Runtime.Vector2, Prowl.Runtime.Vector2, Prowl.Runtime.Color32, float, int)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Graphics/UIDrawList.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: AddRectFilled
+    path: ../Prowl/Prowl.Runtime/GUI/Graphics/UIDrawList.cs
+    startLine: 249
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI.Graphics
+  syntax:
+    content: public void AddRectFilled(Vector2 a, Vector2 b, Color32 col, float rounding = 0, int corners = 0)
+    parameters:
+    - id: a
+      type: Prowl.Runtime.Vector2
+    - id: b
+      type: Prowl.Runtime.Vector2
+    - id: col
+      type: Prowl.Runtime.Color32
+    - id: rounding
+      type: System.Single
+    - id: corners
+      type: System.Int32
+    content.vb: Public Sub AddRectFilled(a As Vector2, b As Vector2, col As Color32, rounding As Single = 0, corners As Integer = 0)
+  overload: Prowl.Runtime.GUI.Graphics.UIDrawList.AddRectFilled*
+  nameWithType.vb: UIDrawList.AddRectFilled(Vector2, Vector2, Color32, Single, Integer)
+  fullName.vb: Prowl.Runtime.GUI.Graphics.UIDrawList.AddRectFilled(Prowl.Runtime.Vector2, Prowl.Runtime.Vector2, Prowl.Runtime.Color32, Single, Integer)
+  name.vb: AddRectFilled(Vector2, Vector2, Color32, Single, Integer)
+- uid: Prowl.Runtime.GUI.Graphics.UIDrawList.AddRectFilledMultiColor(Prowl.Runtime.Vector2,Prowl.Runtime.Vector2,Prowl.Runtime.Color32,Prowl.Runtime.Color32,Prowl.Runtime.Color32,Prowl.Runtime.Color32)
+  commentId: M:Prowl.Runtime.GUI.Graphics.UIDrawList.AddRectFilledMultiColor(Prowl.Runtime.Vector2,Prowl.Runtime.Vector2,Prowl.Runtime.Color32,Prowl.Runtime.Color32,Prowl.Runtime.Color32,Prowl.Runtime.Color32)
+  id: AddRectFilledMultiColor(Prowl.Runtime.Vector2,Prowl.Runtime.Vector2,Prowl.Runtime.Color32,Prowl.Runtime.Color32,Prowl.Runtime.Color32,Prowl.Runtime.Color32)
+  parent: Prowl.Runtime.GUI.Graphics.UIDrawList
+  langs:
+  - csharp
+  - vb
+  name: AddRectFilledMultiColor(Vector2, Vector2, Color32, Color32, Color32, Color32)
+  nameWithType: UIDrawList.AddRectFilledMultiColor(Vector2, Vector2, Color32, Color32, Color32, Color32)
+  fullName: Prowl.Runtime.GUI.Graphics.UIDrawList.AddRectFilledMultiColor(Prowl.Runtime.Vector2, Prowl.Runtime.Vector2, Prowl.Runtime.Color32, Prowl.Runtime.Color32, Prowl.Runtime.Color32, Prowl.Runtime.Color32)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Graphics/UIDrawList.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: AddRectFilledMultiColor
+    path: ../Prowl/Prowl.Runtime/GUI/Graphics/UIDrawList.cs
+    startLine: 264
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI.Graphics
+  syntax:
+    content: public void AddRectFilledMultiColor(Vector2 a, Vector2 c, Color32 col_upr_left, Color32 col_upr_right, Color32 col_bot_right, Color32 col_bot_left)
+    parameters:
+    - id: a
+      type: Prowl.Runtime.Vector2
+    - id: c
+      type: Prowl.Runtime.Vector2
+    - id: col_upr_left
+      type: Prowl.Runtime.Color32
+    - id: col_upr_right
+      type: Prowl.Runtime.Color32
+    - id: col_bot_right
+      type: Prowl.Runtime.Color32
+    - id: col_bot_left
+      type: Prowl.Runtime.Color32
+    content.vb: Public Sub AddRectFilledMultiColor(a As Vector2, c As Vector2, col_upr_left As Color32, col_upr_right As Color32, col_bot_right As Color32, col_bot_left As Color32)
+  overload: Prowl.Runtime.GUI.Graphics.UIDrawList.AddRectFilledMultiColor*
+- uid: Prowl.Runtime.GUI.Graphics.UIDrawList.AddTriangle(Prowl.Runtime.Vector2,Prowl.Runtime.Vector2,Prowl.Runtime.Vector2,Prowl.Runtime.Color32,System.Single)
+  commentId: M:Prowl.Runtime.GUI.Graphics.UIDrawList.AddTriangle(Prowl.Runtime.Vector2,Prowl.Runtime.Vector2,Prowl.Runtime.Vector2,Prowl.Runtime.Color32,System.Single)
+  id: AddTriangle(Prowl.Runtime.Vector2,Prowl.Runtime.Vector2,Prowl.Runtime.Vector2,Prowl.Runtime.Color32,System.Single)
+  parent: Prowl.Runtime.GUI.Graphics.UIDrawList
+  langs:
+  - csharp
+  - vb
+  name: AddTriangle(Vector2, Vector2, Vector2, Color32, float)
+  nameWithType: UIDrawList.AddTriangle(Vector2, Vector2, Vector2, Color32, float)
+  fullName: Prowl.Runtime.GUI.Graphics.UIDrawList.AddTriangle(Prowl.Runtime.Vector2, Prowl.Runtime.Vector2, Prowl.Runtime.Vector2, Prowl.Runtime.Color32, float)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Graphics/UIDrawList.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: AddTriangle
+    path: ../Prowl/Prowl.Runtime/GUI/Graphics/UIDrawList.cs
+    startLine: 281
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI.Graphics
+  syntax:
+    content: public void AddTriangle(Vector2 a, Vector2 b, Vector2 c, Color32 col, float thickness = 1)
+    parameters:
+    - id: a
+      type: Prowl.Runtime.Vector2
+    - id: b
+      type: Prowl.Runtime.Vector2
+    - id: c
+      type: Prowl.Runtime.Vector2
+    - id: col
+      type: Prowl.Runtime.Color32
+    - id: thickness
+      type: System.Single
+    content.vb: Public Sub AddTriangle(a As Vector2, b As Vector2, c As Vector2, col As Color32, thickness As Single = 1)
+  overload: Prowl.Runtime.GUI.Graphics.UIDrawList.AddTriangle*
+  nameWithType.vb: UIDrawList.AddTriangle(Vector2, Vector2, Vector2, Color32, Single)
+  fullName.vb: Prowl.Runtime.GUI.Graphics.UIDrawList.AddTriangle(Prowl.Runtime.Vector2, Prowl.Runtime.Vector2, Prowl.Runtime.Vector2, Prowl.Runtime.Color32, Single)
+  name.vb: AddTriangle(Vector2, Vector2, Vector2, Color32, Single)
+- uid: Prowl.Runtime.GUI.Graphics.UIDrawList.AddTriangleFilled(Prowl.Runtime.Vector2,Prowl.Runtime.Vector2,Prowl.Runtime.Vector2,Prowl.Runtime.Color32)
+  commentId: M:Prowl.Runtime.GUI.Graphics.UIDrawList.AddTriangleFilled(Prowl.Runtime.Vector2,Prowl.Runtime.Vector2,Prowl.Runtime.Vector2,Prowl.Runtime.Color32)
+  id: AddTriangleFilled(Prowl.Runtime.Vector2,Prowl.Runtime.Vector2,Prowl.Runtime.Vector2,Prowl.Runtime.Color32)
+  parent: Prowl.Runtime.GUI.Graphics.UIDrawList
+  langs:
+  - csharp
+  - vb
+  name: AddTriangleFilled(Vector2, Vector2, Vector2, Color32)
+  nameWithType: UIDrawList.AddTriangleFilled(Vector2, Vector2, Vector2, Color32)
+  fullName: Prowl.Runtime.GUI.Graphics.UIDrawList.AddTriangleFilled(Prowl.Runtime.Vector2, Prowl.Runtime.Vector2, Prowl.Runtime.Vector2, Prowl.Runtime.Color32)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Graphics/UIDrawList.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: AddTriangleFilled
+    path: ../Prowl/Prowl.Runtime/GUI/Graphics/UIDrawList.cs
+    startLine: 290
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI.Graphics
+  syntax:
+    content: public void AddTriangleFilled(Vector2 a, Vector2 b, Vector2 c, Color32 col)
+    parameters:
+    - id: a
+      type: Prowl.Runtime.Vector2
+    - id: b
+      type: Prowl.Runtime.Vector2
+    - id: c
+      type: Prowl.Runtime.Vector2
+    - id: col
+      type: Prowl.Runtime.Color32
+    content.vb: Public Sub AddTriangleFilled(a As Vector2, b As Vector2, c As Vector2, col As Color32)
+  overload: Prowl.Runtime.GUI.Graphics.UIDrawList.AddTriangleFilled*
+- uid: Prowl.Runtime.GUI.Graphics.UIDrawList.AddCircle(Prowl.Runtime.Vector2,System.Single,Prowl.Runtime.Color32,System.Int32,System.Single)
+  commentId: M:Prowl.Runtime.GUI.Graphics.UIDrawList.AddCircle(Prowl.Runtime.Vector2,System.Single,Prowl.Runtime.Color32,System.Int32,System.Single)
+  id: AddCircle(Prowl.Runtime.Vector2,System.Single,Prowl.Runtime.Color32,System.Int32,System.Single)
+  parent: Prowl.Runtime.GUI.Graphics.UIDrawList
+  langs:
+  - csharp
+  - vb
+  name: AddCircle(Vector2, float, Color32, int, float)
+  nameWithType: UIDrawList.AddCircle(Vector2, float, Color32, int, float)
+  fullName: Prowl.Runtime.GUI.Graphics.UIDrawList.AddCircle(Prowl.Runtime.Vector2, float, Prowl.Runtime.Color32, int, float)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Graphics/UIDrawList.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: AddCircle
+    path: ../Prowl/Prowl.Runtime/GUI/Graphics/UIDrawList.cs
+    startLine: 299
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI.Graphics
+  syntax:
+    content: public void AddCircle(Vector2 centre, float radius, Color32 col, int num_segments = 12, float thickness = 1)
+    parameters:
+    - id: centre
+      type: Prowl.Runtime.Vector2
+    - id: radius
+      type: System.Single
+    - id: col
+      type: Prowl.Runtime.Color32
+    - id: num_segments
+      type: System.Int32
+    - id: thickness
+      type: System.Single
+    content.vb: Public Sub AddCircle(centre As Vector2, radius As Single, col As Color32, num_segments As Integer = 12, thickness As Single = 1)
+  overload: Prowl.Runtime.GUI.Graphics.UIDrawList.AddCircle*
+  nameWithType.vb: UIDrawList.AddCircle(Vector2, Single, Color32, Integer, Single)
+  fullName.vb: Prowl.Runtime.GUI.Graphics.UIDrawList.AddCircle(Prowl.Runtime.Vector2, Single, Prowl.Runtime.Color32, Integer, Single)
+  name.vb: AddCircle(Vector2, Single, Color32, Integer, Single)
+- uid: Prowl.Runtime.GUI.Graphics.UIDrawList.AddCircleFilled(Prowl.Runtime.Vector2,System.Single,Prowl.Runtime.Color32,System.Int32)
+  commentId: M:Prowl.Runtime.GUI.Graphics.UIDrawList.AddCircleFilled(Prowl.Runtime.Vector2,System.Single,Prowl.Runtime.Color32,System.Int32)
+  id: AddCircleFilled(Prowl.Runtime.Vector2,System.Single,Prowl.Runtime.Color32,System.Int32)
+  parent: Prowl.Runtime.GUI.Graphics.UIDrawList
+  langs:
+  - csharp
+  - vb
+  name: AddCircleFilled(Vector2, float, Color32, int)
+  nameWithType: UIDrawList.AddCircleFilled(Vector2, float, Color32, int)
+  fullName: Prowl.Runtime.GUI.Graphics.UIDrawList.AddCircleFilled(Prowl.Runtime.Vector2, float, Prowl.Runtime.Color32, int)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Graphics/UIDrawList.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: AddCircleFilled
+    path: ../Prowl/Prowl.Runtime/GUI/Graphics/UIDrawList.cs
+    startLine: 307
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI.Graphics
+  syntax:
+    content: public void AddCircleFilled(Vector2 centre, float radius, Color32 col, int num_segments = 12)
+    parameters:
+    - id: centre
+      type: Prowl.Runtime.Vector2
+    - id: radius
+      type: System.Single
+    - id: col
+      type: Prowl.Runtime.Color32
+    - id: num_segments
+      type: System.Int32
+    content.vb: Public Sub AddCircleFilled(centre As Vector2, radius As Single, col As Color32, num_segments As Integer = 12)
+  overload: Prowl.Runtime.GUI.Graphics.UIDrawList.AddCircleFilled*
+  nameWithType.vb: UIDrawList.AddCircleFilled(Vector2, Single, Color32, Integer)
+  fullName.vb: Prowl.Runtime.GUI.Graphics.UIDrawList.AddCircleFilled(Prowl.Runtime.Vector2, Single, Prowl.Runtime.Color32, Integer)
+  name.vb: AddCircleFilled(Vector2, Single, Color32, Integer)
+- uid: Prowl.Runtime.GUI.Graphics.UIDrawList.AddText(System.Single,Prowl.Runtime.Vector2,Prowl.Runtime.Color32,System.String,System.Int32,System.Int32,System.Single)
+  commentId: M:Prowl.Runtime.GUI.Graphics.UIDrawList.AddText(System.Single,Prowl.Runtime.Vector2,Prowl.Runtime.Color32,System.String,System.Int32,System.Int32,System.Single)
+  id: AddText(System.Single,Prowl.Runtime.Vector2,Prowl.Runtime.Color32,System.String,System.Int32,System.Int32,System.Single)
+  parent: Prowl.Runtime.GUI.Graphics.UIDrawList
+  langs:
+  - csharp
+  - vb
+  name: AddText(float, Vector2, Color32, string, int, int, float)
+  nameWithType: UIDrawList.AddText(float, Vector2, Color32, string, int, int, float)
+  fullName: Prowl.Runtime.GUI.Graphics.UIDrawList.AddText(float, Prowl.Runtime.Vector2, Prowl.Runtime.Color32, string, int, int, float)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Graphics/UIDrawList.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: AddText
+    path: ../Prowl/Prowl.Runtime/GUI/Graphics/UIDrawList.cs
+    startLine: 315
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI.Graphics
+  syntax:
+    content: public void AddText(float font_size, Vector2 pos, Color32 col, string text, int text_begin = 0, int text_end = -1, float wrap_width = 0)
+    parameters:
+    - id: font_size
+      type: System.Single
+    - id: pos
+      type: Prowl.Runtime.Vector2
+    - id: col
+      type: Prowl.Runtime.Color32
+    - id: text
+      type: System.String
+    - id: text_begin
+      type: System.Int32
+    - id: text_end
+      type: System.Int32
+    - id: wrap_width
+      type: System.Single
+    content.vb: Public Sub AddText(font_size As Single, pos As Vector2, col As Color32, text As String, text_begin As Integer = 0, text_end As Integer = -1, wrap_width As Single = 0)
+  overload: Prowl.Runtime.GUI.Graphics.UIDrawList.AddText*
+  nameWithType.vb: UIDrawList.AddText(Single, Vector2, Color32, String, Integer, Integer, Single)
+  fullName.vb: Prowl.Runtime.GUI.Graphics.UIDrawList.AddText(Single, Prowl.Runtime.Vector2, Prowl.Runtime.Color32, String, Integer, Integer, Single)
+  name.vb: AddText(Single, Vector2, Color32, String, Integer, Integer, Single)
+- uid: Prowl.Runtime.GUI.Graphics.UIDrawList.AddText(Prowl.Runtime.Font,System.Single,Prowl.Runtime.Vector2,Prowl.Runtime.Color32,System.String,System.Int32,System.Int32,System.Single,System.Nullable{Prowl.Runtime.Vector4})
+  commentId: M:Prowl.Runtime.GUI.Graphics.UIDrawList.AddText(Prowl.Runtime.Font,System.Single,Prowl.Runtime.Vector2,Prowl.Runtime.Color32,System.String,System.Int32,System.Int32,System.Single,System.Nullable{Prowl.Runtime.Vector4})
+  id: AddText(Prowl.Runtime.Font,System.Single,Prowl.Runtime.Vector2,Prowl.Runtime.Color32,System.String,System.Int32,System.Int32,System.Single,System.Nullable{Prowl.Runtime.Vector4})
+  parent: Prowl.Runtime.GUI.Graphics.UIDrawList
+  langs:
+  - csharp
+  - vb
+  name: AddText(Font, float, Vector2, Color32, string, int, int, float, Vector4?)
+  nameWithType: UIDrawList.AddText(Font, float, Vector2, Color32, string, int, int, float, Vector4?)
+  fullName: Prowl.Runtime.GUI.Graphics.UIDrawList.AddText(Prowl.Runtime.Font, float, Prowl.Runtime.Vector2, Prowl.Runtime.Color32, string, int, int, float, Prowl.Runtime.Vector4?)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Graphics/UIDrawList.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: AddText
+    path: ../Prowl/Prowl.Runtime/GUI/Graphics/UIDrawList.cs
+    startLine: 321
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI.Graphics
+  syntax:
+    content: public void AddText(Font font, float font_size, Vector2 pos, Color32 col, string text, int text_begin = 0, int text_end = -1, float wrap_width = 0, Vector4? cpu_fine_clip_rect = null)
+    parameters:
+    - id: font
+      type: Prowl.Runtime.Font
+    - id: font_size
+      type: System.Single
+    - id: pos
+      type: Prowl.Runtime.Vector2
+    - id: col
+      type: Prowl.Runtime.Color32
+    - id: text
+      type: System.String
+    - id: text_begin
+      type: System.Int32
+    - id: text_end
+      type: System.Int32
+    - id: wrap_width
+      type: System.Single
+    - id: cpu_fine_clip_rect
+      type: System.Nullable{Prowl.Runtime.Vector4}
+    content.vb: Public Sub AddText(font As Font, font_size As Single, pos As Vector2, col As Color32, text As String, text_begin As Integer = 0, text_end As Integer = -1, wrap_width As Single = 0, cpu_fine_clip_rect As Vector4? = Nothing)
+  overload: Prowl.Runtime.GUI.Graphics.UIDrawList.AddText*
+  nameWithType.vb: UIDrawList.AddText(Font, Single, Vector2, Color32, String, Integer, Integer, Single, Vector4?)
+  fullName.vb: Prowl.Runtime.GUI.Graphics.UIDrawList.AddText(Prowl.Runtime.Font, Single, Prowl.Runtime.Vector2, Prowl.Runtime.Color32, String, Integer, Integer, Single, Prowl.Runtime.Vector4?)
+  name.vb: AddText(Font, Single, Vector2, Color32, String, Integer, Integer, Single, Vector4?)
+- uid: Prowl.Runtime.GUI.Graphics.UIDrawList.AddImage(Prowl.Runtime.Texture2D,Prowl.Runtime.Vector2,Prowl.Runtime.Vector2,System.Nullable{Prowl.Runtime.Vector2},System.Nullable{Prowl.Runtime.Vector2},System.Nullable{Prowl.Runtime.Color32})
+  commentId: M:Prowl.Runtime.GUI.Graphics.UIDrawList.AddImage(Prowl.Runtime.Texture2D,Prowl.Runtime.Vector2,Prowl.Runtime.Vector2,System.Nullable{Prowl.Runtime.Vector2},System.Nullable{Prowl.Runtime.Vector2},System.Nullable{Prowl.Runtime.Color32})
+  id: AddImage(Prowl.Runtime.Texture2D,Prowl.Runtime.Vector2,Prowl.Runtime.Vector2,System.Nullable{Prowl.Runtime.Vector2},System.Nullable{Prowl.Runtime.Vector2},System.Nullable{Prowl.Runtime.Color32})
+  parent: Prowl.Runtime.GUI.Graphics.UIDrawList
+  langs:
+  - csharp
+  - vb
+  name: AddImage(Texture2D, Vector2, Vector2, Vector2?, Vector2?, Color32?)
+  nameWithType: UIDrawList.AddImage(Texture2D, Vector2, Vector2, Vector2?, Vector2?, Color32?)
+  fullName: Prowl.Runtime.GUI.Graphics.UIDrawList.AddImage(Prowl.Runtime.Texture2D, Prowl.Runtime.Vector2, Prowl.Runtime.Vector2, Prowl.Runtime.Vector2?, Prowl.Runtime.Vector2?, Prowl.Runtime.Color32?)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Graphics/UIDrawList.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: AddImage
+    path: ../Prowl/Prowl.Runtime/GUI/Graphics/UIDrawList.cs
+    startLine: 372
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI.Graphics
+  syntax:
+    content: public void AddImage(Texture2D user_texture_id, Vector2 a, Vector2 b, Vector2? _uv0 = null, Vector2? _uv1 = null, Color32? _col = null)
+    parameters:
+    - id: user_texture_id
+      type: Prowl.Runtime.Texture2D
+    - id: a
+      type: Prowl.Runtime.Vector2
+    - id: b
+      type: Prowl.Runtime.Vector2
+    - id: _uv0
+      type: System.Nullable{Prowl.Runtime.Vector2}
+    - id: _uv1
+      type: System.Nullable{Prowl.Runtime.Vector2}
+    - id: _col
+      type: System.Nullable{Prowl.Runtime.Color32}
+    content.vb: Public Sub AddImage(user_texture_id As Texture2D, a As Vector2, b As Vector2, _uv0 As Vector2? = Nothing, _uv1 As Vector2? = Nothing, _col As Color32? = Nothing)
+  overload: Prowl.Runtime.GUI.Graphics.UIDrawList.AddImage*
+- uid: Prowl.Runtime.GUI.Graphics.UIDrawList.AddPolyline(System.Collections.Generic.List{Prowl.Runtime.Vector2},System.Int32,Prowl.Runtime.Color32,System.Boolean,System.Single)
+  commentId: M:Prowl.Runtime.GUI.Graphics.UIDrawList.AddPolyline(System.Collections.Generic.List{Prowl.Runtime.Vector2},System.Int32,Prowl.Runtime.Color32,System.Boolean,System.Single)
+  id: AddPolyline(System.Collections.Generic.List{Prowl.Runtime.Vector2},System.Int32,Prowl.Runtime.Color32,System.Boolean,System.Single)
+  parent: Prowl.Runtime.GUI.Graphics.UIDrawList
+  langs:
+  - csharp
+  - vb
+  name: AddPolyline(List<Vector2>, int, Color32, bool, float)
+  nameWithType: UIDrawList.AddPolyline(List<Vector2>, int, Color32, bool, float)
+  fullName: Prowl.Runtime.GUI.Graphics.UIDrawList.AddPolyline(System.Collections.Generic.List<Prowl.Runtime.Vector2>, int, Prowl.Runtime.Color32, bool, float)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Graphics/UIDrawList.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: AddPolyline
+    path: ../Prowl/Prowl.Runtime/GUI/Graphics/UIDrawList.cs
+    startLine: 395
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI.Graphics
+  syntax:
+    content: public void AddPolyline(List<Vector2> points, int pointsCount, Color32 col, bool closed, float thickness)
+    parameters:
+    - id: points
+      type: System.Collections.Generic.List{Prowl.Runtime.Vector2}
+    - id: pointsCount
+      type: System.Int32
+    - id: col
+      type: Prowl.Runtime.Color32
+    - id: closed
+      type: System.Boolean
+    - id: thickness
+      type: System.Single
+    content.vb: Public Sub AddPolyline(points As List(Of Vector2), pointsCount As Integer, col As Color32, closed As Boolean, thickness As Single)
+  overload: Prowl.Runtime.GUI.Graphics.UIDrawList.AddPolyline*
+  nameWithType.vb: UIDrawList.AddPolyline(List(Of Vector2), Integer, Color32, Boolean, Single)
+  fullName.vb: Prowl.Runtime.GUI.Graphics.UIDrawList.AddPolyline(System.Collections.Generic.List(Of Prowl.Runtime.Vector2), Integer, Prowl.Runtime.Color32, Boolean, Single)
+  name.vb: AddPolyline(List(Of Vector2), Integer, Color32, Boolean, Single)
+- uid: Prowl.Runtime.GUI.Graphics.UIDrawList.AddConvexPolyFilled(System.Collections.Generic.List{Prowl.Runtime.Vector2},System.Int32,Prowl.Runtime.Color32)
+  commentId: M:Prowl.Runtime.GUI.Graphics.UIDrawList.AddConvexPolyFilled(System.Collections.Generic.List{Prowl.Runtime.Vector2},System.Int32,Prowl.Runtime.Color32)
+  id: AddConvexPolyFilled(System.Collections.Generic.List{Prowl.Runtime.Vector2},System.Int32,Prowl.Runtime.Color32)
+  parent: Prowl.Runtime.GUI.Graphics.UIDrawList
+  langs:
+  - csharp
+  - vb
+  name: AddConvexPolyFilled(List<Vector2>, int, Color32)
+  nameWithType: UIDrawList.AddConvexPolyFilled(List<Vector2>, int, Color32)
+  fullName: Prowl.Runtime.GUI.Graphics.UIDrawList.AddConvexPolyFilled(System.Collections.Generic.List<Prowl.Runtime.Vector2>, int, Prowl.Runtime.Color32)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Graphics/UIDrawList.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: AddConvexPolyFilled
+    path: ../Prowl/Prowl.Runtime/GUI/Graphics/UIDrawList.cs
+    startLine: 581
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI.Graphics
+  syntax:
+    content: public void AddConvexPolyFilled(List<Vector2> points, int points_count, Color32 col)
+    parameters:
+    - id: points
+      type: System.Collections.Generic.List{Prowl.Runtime.Vector2}
+    - id: points_count
+      type: System.Int32
+    - id: col
+      type: Prowl.Runtime.Color32
+    content.vb: Public Sub AddConvexPolyFilled(points As List(Of Vector2), points_count As Integer, col As Color32)
+  overload: Prowl.Runtime.GUI.Graphics.UIDrawList.AddConvexPolyFilled*
+  nameWithType.vb: UIDrawList.AddConvexPolyFilled(List(Of Vector2), Integer, Color32)
+  fullName.vb: Prowl.Runtime.GUI.Graphics.UIDrawList.AddConvexPolyFilled(System.Collections.Generic.List(Of Prowl.Runtime.Vector2), Integer, Prowl.Runtime.Color32)
+  name.vb: AddConvexPolyFilled(List(Of Vector2), Integer, Color32)
+- uid: Prowl.Runtime.GUI.Graphics.UIDrawList.AddBezierCurve(Prowl.Runtime.Vector2,Prowl.Runtime.Vector2,Prowl.Runtime.Vector2,Prowl.Runtime.Vector2,Prowl.Runtime.Color32,System.Single,System.Int32)
+  commentId: M:Prowl.Runtime.GUI.Graphics.UIDrawList.AddBezierCurve(Prowl.Runtime.Vector2,Prowl.Runtime.Vector2,Prowl.Runtime.Vector2,Prowl.Runtime.Vector2,Prowl.Runtime.Color32,System.Single,System.Int32)
+  id: AddBezierCurve(Prowl.Runtime.Vector2,Prowl.Runtime.Vector2,Prowl.Runtime.Vector2,Prowl.Runtime.Vector2,Prowl.Runtime.Color32,System.Single,System.Int32)
+  parent: Prowl.Runtime.GUI.Graphics.UIDrawList
+  langs:
+  - csharp
+  - vb
+  name: AddBezierCurve(Vector2, Vector2, Vector2, Vector2, Color32, float, int)
+  nameWithType: UIDrawList.AddBezierCurve(Vector2, Vector2, Vector2, Vector2, Color32, float, int)
+  fullName: Prowl.Runtime.GUI.Graphics.UIDrawList.AddBezierCurve(Prowl.Runtime.Vector2, Prowl.Runtime.Vector2, Prowl.Runtime.Vector2, Prowl.Runtime.Vector2, Prowl.Runtime.Color32, float, int)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Graphics/UIDrawList.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: AddBezierCurve
+    path: ../Prowl/Prowl.Runtime/GUI/Graphics/UIDrawList.cs
+    startLine: 671
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI.Graphics
+  syntax:
+    content: public void AddBezierCurve(Vector2 pos0, Vector2 cp0, Vector2 cp1, Vector2 pos1, Color32 col, float thickness, int num_segments = 0)
+    parameters:
+    - id: pos0
+      type: Prowl.Runtime.Vector2
+    - id: cp0
+      type: Prowl.Runtime.Vector2
+    - id: cp1
+      type: Prowl.Runtime.Vector2
+    - id: pos1
+      type: Prowl.Runtime.Vector2
+    - id: col
+      type: Prowl.Runtime.Color32
+    - id: thickness
+      type: System.Single
+    - id: num_segments
+      type: System.Int32
+    content.vb: Public Sub AddBezierCurve(pos0 As Vector2, cp0 As Vector2, cp1 As Vector2, pos1 As Vector2, col As Color32, thickness As Single, num_segments As Integer = 0)
+  overload: Prowl.Runtime.GUI.Graphics.UIDrawList.AddBezierCurve*
+  nameWithType.vb: UIDrawList.AddBezierCurve(Vector2, Vector2, Vector2, Vector2, Color32, Single, Integer)
+  fullName.vb: Prowl.Runtime.GUI.Graphics.UIDrawList.AddBezierCurve(Prowl.Runtime.Vector2, Prowl.Runtime.Vector2, Prowl.Runtime.Vector2, Prowl.Runtime.Vector2, Prowl.Runtime.Color32, Single, Integer)
+  name.vb: AddBezierCurve(Vector2, Vector2, Vector2, Vector2, Color32, Single, Integer)
+- uid: Prowl.Runtime.GUI.Graphics.UIDrawList.PathLineTo(Prowl.Runtime.Vector2)
+  commentId: M:Prowl.Runtime.GUI.Graphics.UIDrawList.PathLineTo(Prowl.Runtime.Vector2)
+  id: PathLineTo(Prowl.Runtime.Vector2)
+  parent: Prowl.Runtime.GUI.Graphics.UIDrawList
+  langs:
+  - csharp
+  - vb
+  name: PathLineTo(Vector2)
+  nameWithType: UIDrawList.PathLineTo(Vector2)
+  fullName: Prowl.Runtime.GUI.Graphics.UIDrawList.PathLineTo(Prowl.Runtime.Vector2)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Graphics/UIDrawList.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: PathLineTo
+    path: ../Prowl/Prowl.Runtime/GUI/Graphics/UIDrawList.cs
+    startLine: 680
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI.Graphics
+  syntax:
+    content: public void PathLineTo(Vector2 pos)
+    parameters:
+    - id: pos
+      type: Prowl.Runtime.Vector2
+    content.vb: Public Sub PathLineTo(pos As Vector2)
+  overload: Prowl.Runtime.GUI.Graphics.UIDrawList.PathLineTo*
+- uid: Prowl.Runtime.GUI.Graphics.UIDrawList.PathLineToMergeDuplicate(Prowl.Runtime.Vector2)
+  commentId: M:Prowl.Runtime.GUI.Graphics.UIDrawList.PathLineToMergeDuplicate(Prowl.Runtime.Vector2)
+  id: PathLineToMergeDuplicate(Prowl.Runtime.Vector2)
+  parent: Prowl.Runtime.GUI.Graphics.UIDrawList
+  langs:
+  - csharp
+  - vb
+  name: PathLineToMergeDuplicate(Vector2)
+  nameWithType: UIDrawList.PathLineToMergeDuplicate(Vector2)
+  fullName: Prowl.Runtime.GUI.Graphics.UIDrawList.PathLineToMergeDuplicate(Prowl.Runtime.Vector2)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Graphics/UIDrawList.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: PathLineToMergeDuplicate
+    path: ../Prowl/Prowl.Runtime/GUI/Graphics/UIDrawList.cs
+    startLine: 686
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI.Graphics
+  syntax:
+    content: public void PathLineToMergeDuplicate(Vector2 pos)
+    parameters:
+    - id: pos
+      type: Prowl.Runtime.Vector2
+    content.vb: Public Sub PathLineToMergeDuplicate(pos As Vector2)
+  overload: Prowl.Runtime.GUI.Graphics.UIDrawList.PathLineToMergeDuplicate*
+- uid: Prowl.Runtime.GUI.Graphics.UIDrawList.PathFill(Prowl.Runtime.Color32)
+  commentId: M:Prowl.Runtime.GUI.Graphics.UIDrawList.PathFill(Prowl.Runtime.Color32)
+  id: PathFill(Prowl.Runtime.Color32)
+  parent: Prowl.Runtime.GUI.Graphics.UIDrawList
+  langs:
+  - csharp
+  - vb
+  name: PathFill(Color32)
+  nameWithType: UIDrawList.PathFill(Color32)
+  fullName: Prowl.Runtime.GUI.Graphics.UIDrawList.PathFill(Prowl.Runtime.Color32)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Graphics/UIDrawList.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: PathFill
+    path: ../Prowl/Prowl.Runtime/GUI/Graphics/UIDrawList.cs
+    startLine: 693
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI.Graphics
+  syntax:
+    content: public void PathFill(Color32 col)
+    parameters:
+    - id: col
+      type: Prowl.Runtime.Color32
+    content.vb: Public Sub PathFill(col As Color32)
+  overload: Prowl.Runtime.GUI.Graphics.UIDrawList.PathFill*
+- uid: Prowl.Runtime.GUI.Graphics.UIDrawList.PathStroke(Prowl.Runtime.Color32,System.Boolean,System.Single)
+  commentId: M:Prowl.Runtime.GUI.Graphics.UIDrawList.PathStroke(Prowl.Runtime.Color32,System.Boolean,System.Single)
+  id: PathStroke(Prowl.Runtime.Color32,System.Boolean,System.Single)
+  parent: Prowl.Runtime.GUI.Graphics.UIDrawList
+  langs:
+  - csharp
+  - vb
+  name: PathStroke(Color32, bool, float)
+  nameWithType: UIDrawList.PathStroke(Color32, bool, float)
+  fullName: Prowl.Runtime.GUI.Graphics.UIDrawList.PathStroke(Prowl.Runtime.Color32, bool, float)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Graphics/UIDrawList.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: PathStroke
+    path: ../Prowl/Prowl.Runtime/GUI/Graphics/UIDrawList.cs
+    startLine: 700
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI.Graphics
+  syntax:
+    content: public void PathStroke(Color32 col, bool closed, float thickness = 1)
+    parameters:
+    - id: col
+      type: Prowl.Runtime.Color32
+    - id: closed
+      type: System.Boolean
+    - id: thickness
+      type: System.Single
+    content.vb: Public Sub PathStroke(col As Color32, closed As Boolean, thickness As Single = 1)
+  overload: Prowl.Runtime.GUI.Graphics.UIDrawList.PathStroke*
+  nameWithType.vb: UIDrawList.PathStroke(Color32, Boolean, Single)
+  fullName.vb: Prowl.Runtime.GUI.Graphics.UIDrawList.PathStroke(Prowl.Runtime.Color32, Boolean, Single)
+  name.vb: PathStroke(Color32, Boolean, Single)
+- uid: Prowl.Runtime.GUI.Graphics.UIDrawList.PathArcTo(Prowl.Runtime.Vector2,System.Single,System.Single,System.Single,System.Int32)
+  commentId: M:Prowl.Runtime.GUI.Graphics.UIDrawList.PathArcTo(Prowl.Runtime.Vector2,System.Single,System.Single,System.Single,System.Int32)
+  id: PathArcTo(Prowl.Runtime.Vector2,System.Single,System.Single,System.Single,System.Int32)
+  parent: Prowl.Runtime.GUI.Graphics.UIDrawList
+  langs:
+  - csharp
+  - vb
+  name: PathArcTo(Vector2, float, float, float, int)
+  nameWithType: UIDrawList.PathArcTo(Vector2, float, float, float, int)
+  fullName: Prowl.Runtime.GUI.Graphics.UIDrawList.PathArcTo(Prowl.Runtime.Vector2, float, float, float, int)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Graphics/UIDrawList.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: PathArcTo
+    path: ../Prowl/Prowl.Runtime/GUI/Graphics/UIDrawList.cs
+    startLine: 707
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI.Graphics
+  syntax:
+    content: public void PathArcTo(Vector2 centre, float radius, float amin, float amax, int num_segments = 10)
+    parameters:
+    - id: centre
+      type: Prowl.Runtime.Vector2
+    - id: radius
+      type: System.Single
+    - id: amin
+      type: System.Single
+    - id: amax
+      type: System.Single
+    - id: num_segments
+      type: System.Int32
+    content.vb: Public Sub PathArcTo(centre As Vector2, radius As Single, amin As Single, amax As Single, num_segments As Integer = 10)
+  overload: Prowl.Runtime.GUI.Graphics.UIDrawList.PathArcTo*
+  nameWithType.vb: UIDrawList.PathArcTo(Vector2, Single, Single, Single, Integer)
+  fullName.vb: Prowl.Runtime.GUI.Graphics.UIDrawList.PathArcTo(Prowl.Runtime.Vector2, Single, Single, Single, Integer)
+  name.vb: PathArcTo(Vector2, Single, Single, Single, Integer)
+- uid: Prowl.Runtime.GUI.Graphics.UIDrawList.PathArcToFast(Prowl.Runtime.Vector2,System.Single,System.Int32,System.Int32)
+  commentId: M:Prowl.Runtime.GUI.Graphics.UIDrawList.PathArcToFast(Prowl.Runtime.Vector2,System.Single,System.Int32,System.Int32)
+  id: PathArcToFast(Prowl.Runtime.Vector2,System.Single,System.Int32,System.Int32)
+  parent: Prowl.Runtime.GUI.Graphics.UIDrawList
+  langs:
+  - csharp
+  - vb
+  name: PathArcToFast(Vector2, float, int, int)
+  nameWithType: UIDrawList.PathArcToFast(Vector2, float, int, int)
+  fullName: Prowl.Runtime.GUI.Graphics.UIDrawList.PathArcToFast(Prowl.Runtime.Vector2, float, int, int)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Graphics/UIDrawList.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: PathArcToFast
+    path: ../Prowl/Prowl.Runtime/GUI/Graphics/UIDrawList.cs
+    startLine: 720
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI.Graphics
+  syntax:
+    content: public void PathArcToFast(Vector2 centre, float radius, int amin, int amax)
+    parameters:
+    - id: centre
+      type: Prowl.Runtime.Vector2
+    - id: radius
+      type: System.Single
+    - id: amin
+      type: System.Int32
+    - id: amax
+      type: System.Int32
+    content.vb: Public Sub PathArcToFast(centre As Vector2, radius As Single, amin As Integer, amax As Integer)
+  overload: Prowl.Runtime.GUI.Graphics.UIDrawList.PathArcToFast*
+  nameWithType.vb: UIDrawList.PathArcToFast(Vector2, Single, Integer, Integer)
+  fullName.vb: Prowl.Runtime.GUI.Graphics.UIDrawList.PathArcToFast(Prowl.Runtime.Vector2, Single, Integer, Integer)
+  name.vb: PathArcToFast(Vector2, Single, Integer, Integer)
+- uid: Prowl.Runtime.GUI.Graphics.UIDrawList.PathBezierCurveTo(Prowl.Runtime.Vector2,Prowl.Runtime.Vector2,Prowl.Runtime.Vector2,System.Int32)
+  commentId: M:Prowl.Runtime.GUI.Graphics.UIDrawList.PathBezierCurveTo(Prowl.Runtime.Vector2,Prowl.Runtime.Vector2,Prowl.Runtime.Vector2,System.Int32)
+  id: PathBezierCurveTo(Prowl.Runtime.Vector2,Prowl.Runtime.Vector2,Prowl.Runtime.Vector2,System.Int32)
+  parent: Prowl.Runtime.GUI.Graphics.UIDrawList
+  langs:
+  - csharp
+  - vb
+  name: PathBezierCurveTo(Vector2, Vector2, Vector2, int)
+  nameWithType: UIDrawList.PathBezierCurveTo(Vector2, Vector2, Vector2, int)
+  fullName: Prowl.Runtime.GUI.Graphics.UIDrawList.PathBezierCurveTo(Prowl.Runtime.Vector2, Prowl.Runtime.Vector2, Prowl.Runtime.Vector2, int)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Graphics/UIDrawList.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: PathBezierCurveTo
+    path: ../Prowl/Prowl.Runtime/GUI/Graphics/UIDrawList.cs
+    startLine: 752
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI.Graphics
+  syntax:
+    content: public void PathBezierCurveTo(Vector2 p2, Vector2 p3, Vector2 p4, int num_segments = 0)
+    parameters:
+    - id: p2
+      type: Prowl.Runtime.Vector2
+    - id: p3
+      type: Prowl.Runtime.Vector2
+    - id: p4
+      type: Prowl.Runtime.Vector2
+    - id: num_segments
+      type: System.Int32
+    content.vb: Public Sub PathBezierCurveTo(p2 As Vector2, p3 As Vector2, p4 As Vector2, num_segments As Integer = 0)
+  overload: Prowl.Runtime.GUI.Graphics.UIDrawList.PathBezierCurveTo*
+  nameWithType.vb: UIDrawList.PathBezierCurveTo(Vector2, Vector2, Vector2, Integer)
+  fullName.vb: Prowl.Runtime.GUI.Graphics.UIDrawList.PathBezierCurveTo(Prowl.Runtime.Vector2, Prowl.Runtime.Vector2, Prowl.Runtime.Vector2, Integer)
+  name.vb: PathBezierCurveTo(Vector2, Vector2, Vector2, Integer)
+- uid: Prowl.Runtime.GUI.Graphics.UIDrawList.PathRect(Prowl.Runtime.Vector2,Prowl.Runtime.Vector2,System.Single,System.Int32)
+  commentId: M:Prowl.Runtime.GUI.Graphics.UIDrawList.PathRect(Prowl.Runtime.Vector2,Prowl.Runtime.Vector2,System.Single,System.Int32)
+  id: PathRect(Prowl.Runtime.Vector2,Prowl.Runtime.Vector2,System.Single,System.Int32)
+  parent: Prowl.Runtime.GUI.Graphics.UIDrawList
+  langs:
+  - csharp
+  - vb
+  name: PathRect(Vector2, Vector2, float, int)
+  nameWithType: UIDrawList.PathRect(Vector2, Vector2, float, int)
+  fullName: Prowl.Runtime.GUI.Graphics.UIDrawList.PathRect(Prowl.Runtime.Vector2, Prowl.Runtime.Vector2, float, int)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Graphics/UIDrawList.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: PathRect
+    path: ../Prowl/Prowl.Runtime/GUI/Graphics/UIDrawList.cs
+    startLine: 806
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI.Graphics
+  syntax:
+    content: public void PathRect(Vector2 a, Vector2 b, float rounding = 0, int corners = 0)
+    parameters:
+    - id: a
+      type: Prowl.Runtime.Vector2
+    - id: b
+      type: Prowl.Runtime.Vector2
+    - id: rounding
+      type: System.Single
+    - id: corners
+      type: System.Int32
+    content.vb: Public Sub PathRect(a As Vector2, b As Vector2, rounding As Single = 0, corners As Integer = 0)
+  overload: Prowl.Runtime.GUI.Graphics.UIDrawList.PathRect*
+  nameWithType.vb: UIDrawList.PathRect(Vector2, Vector2, Single, Integer)
+  fullName.vb: Prowl.Runtime.GUI.Graphics.UIDrawList.PathRect(Prowl.Runtime.Vector2, Prowl.Runtime.Vector2, Single, Integer)
+  name.vb: PathRect(Vector2, Vector2, Single, Integer)
+- uid: Prowl.Runtime.GUI.Graphics.UIDrawList.ChannelsSplit(System.Int32)
+  commentId: M:Prowl.Runtime.GUI.Graphics.UIDrawList.ChannelsSplit(System.Int32)
+  id: ChannelsSplit(System.Int32)
+  parent: Prowl.Runtime.GUI.Graphics.UIDrawList
+  langs:
+  - csharp
+  - vb
+  name: ChannelsSplit(int)
+  nameWithType: UIDrawList.ChannelsSplit(int)
+  fullName: Prowl.Runtime.GUI.Graphics.UIDrawList.ChannelsSplit(int)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Graphics/UIDrawList.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: ChannelsSplit
+    path: ../Prowl/Prowl.Runtime/GUI/Graphics/UIDrawList.cs
+    startLine: 838
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI.Graphics
+  syntax:
+    content: public void ChannelsSplit(int channels_count)
+    parameters:
+    - id: channels_count
+      type: System.Int32
+    content.vb: Public Sub ChannelsSplit(channels_count As Integer)
+  overload: Prowl.Runtime.GUI.Graphics.UIDrawList.ChannelsSplit*
+  nameWithType.vb: UIDrawList.ChannelsSplit(Integer)
+  fullName.vb: Prowl.Runtime.GUI.Graphics.UIDrawList.ChannelsSplit(Integer)
+  name.vb: ChannelsSplit(Integer)
+- uid: Prowl.Runtime.GUI.Graphics.UIDrawList.ChannelsMerge
+  commentId: M:Prowl.Runtime.GUI.Graphics.UIDrawList.ChannelsMerge
+  id: ChannelsMerge
+  parent: Prowl.Runtime.GUI.Graphics.UIDrawList
+  langs:
+  - csharp
+  - vb
+  name: ChannelsMerge()
+  nameWithType: UIDrawList.ChannelsMerge()
+  fullName: Prowl.Runtime.GUI.Graphics.UIDrawList.ChannelsMerge()
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Graphics/UIDrawList.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: ChannelsMerge
+    path: ../Prowl/Prowl.Runtime/GUI/Graphics/UIDrawList.cs
+    startLine: 873
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI.Graphics
+  syntax:
+    content: public void ChannelsMerge()
+    content.vb: Public Sub ChannelsMerge()
+  overload: Prowl.Runtime.GUI.Graphics.UIDrawList.ChannelsMerge*
+- uid: Prowl.Runtime.GUI.Graphics.UIDrawList.ChannelsSetCurrent(System.Int32)
+  commentId: M:Prowl.Runtime.GUI.Graphics.UIDrawList.ChannelsSetCurrent(System.Int32)
+  id: ChannelsSetCurrent(System.Int32)
+  parent: Prowl.Runtime.GUI.Graphics.UIDrawList
+  langs:
+  - csharp
+  - vb
+  name: ChannelsSetCurrent(int)
+  nameWithType: UIDrawList.ChannelsSetCurrent(int)
+  fullName: Prowl.Runtime.GUI.Graphics.UIDrawList.ChannelsSetCurrent(int)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Graphics/UIDrawList.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: ChannelsSetCurrent
+    path: ../Prowl/Prowl.Runtime/GUI/Graphics/UIDrawList.cs
+    startLine: 926
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI.Graphics
+  syntax:
+    content: public void ChannelsSetCurrent(int idx)
+    parameters:
+    - id: idx
+      type: System.Int32
+    content.vb: Public Sub ChannelsSetCurrent(idx As Integer)
+  overload: Prowl.Runtime.GUI.Graphics.UIDrawList.ChannelsSetCurrent*
+  nameWithType.vb: UIDrawList.ChannelsSetCurrent(Integer)
+  fullName.vb: Prowl.Runtime.GUI.Graphics.UIDrawList.ChannelsSetCurrent(Integer)
+  name.vb: ChannelsSetCurrent(Integer)
+- uid: Prowl.Runtime.GUI.Graphics.UIDrawList.AddDrawCmd
+  commentId: M:Prowl.Runtime.GUI.Graphics.UIDrawList.AddDrawCmd
+  id: AddDrawCmd
+  parent: Prowl.Runtime.GUI.Graphics.UIDrawList
+  langs:
+  - csharp
+  - vb
+  name: AddDrawCmd()
+  nameWithType: UIDrawList.AddDrawCmd()
+  fullName: Prowl.Runtime.GUI.Graphics.UIDrawList.AddDrawCmd()
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Graphics/UIDrawList.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: AddDrawCmd
+    path: ../Prowl/Prowl.Runtime/GUI/Graphics/UIDrawList.cs
+    startLine: 941
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI.Graphics
+  syntax:
+    content: public void AddDrawCmd()
+    content.vb: Public Sub AddDrawCmd()
+  overload: Prowl.Runtime.GUI.Graphics.UIDrawList.AddDrawCmd*
+- uid: Prowl.Runtime.GUI.Graphics.UIDrawList.UpdateClipRect(System.Boolean)
+  commentId: M:Prowl.Runtime.GUI.Graphics.UIDrawList.UpdateClipRect(System.Boolean)
+  id: UpdateClipRect(System.Boolean)
+  parent: Prowl.Runtime.GUI.Graphics.UIDrawList
+  langs:
+  - csharp
+  - vb
+  name: UpdateClipRect(bool)
+  nameWithType: UIDrawList.UpdateClipRect(bool)
+  fullName: Prowl.Runtime.GUI.Graphics.UIDrawList.UpdateClipRect(bool)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Graphics/UIDrawList.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: UpdateClipRect
+    path: ../Prowl/Prowl.Runtime/GUI/Graphics/UIDrawList.cs
+    startLine: 953
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI.Graphics
+  syntax:
+    content: public void UpdateClipRect(bool force = false)
+    parameters:
+    - id: force
+      type: System.Boolean
+    content.vb: Public Sub UpdateClipRect(force As Boolean = False)
+  overload: Prowl.Runtime.GUI.Graphics.UIDrawList.UpdateClipRect*
+  nameWithType.vb: UIDrawList.UpdateClipRect(Boolean)
+  fullName.vb: Prowl.Runtime.GUI.Graphics.UIDrawList.UpdateClipRect(Boolean)
+  name.vb: UpdateClipRect(Boolean)
+- uid: Prowl.Runtime.GUI.Graphics.UIDrawList.PrimReserve(System.Int32,System.Int32)
+  commentId: M:Prowl.Runtime.GUI.Graphics.UIDrawList.PrimReserve(System.Int32,System.Int32)
+  id: PrimReserve(System.Int32,System.Int32)
+  parent: Prowl.Runtime.GUI.Graphics.UIDrawList
+  langs:
+  - csharp
+  - vb
+  name: PrimReserve(int, int)
+  nameWithType: UIDrawList.PrimReserve(int, int)
+  fullName: Prowl.Runtime.GUI.Graphics.UIDrawList.PrimReserve(int, int)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Graphics/UIDrawList.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: PrimReserve
+    path: ../Prowl/Prowl.Runtime/GUI/Graphics/UIDrawList.cs
+    startLine: 977
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI.Graphics
+  syntax:
+    content: public void PrimReserve(int idx_count, int vtx_count)
+    parameters:
+    - id: idx_count
+      type: System.Int32
+    - id: vtx_count
+      type: System.Int32
+    content.vb: Public Sub PrimReserve(idx_count As Integer, vtx_count As Integer)
+  overload: Prowl.Runtime.GUI.Graphics.UIDrawList.PrimReserve*
+  nameWithType.vb: UIDrawList.PrimReserve(Integer, Integer)
+  fullName.vb: Prowl.Runtime.GUI.Graphics.UIDrawList.PrimReserve(Integer, Integer)
+  name.vb: PrimReserve(Integer, Integer)
+- uid: Prowl.Runtime.GUI.Graphics.UIDrawList.PrimRect(Prowl.Runtime.Vector2,Prowl.Runtime.Vector2,Prowl.Runtime.Color32)
+  commentId: M:Prowl.Runtime.GUI.Graphics.UIDrawList.PrimRect(Prowl.Runtime.Vector2,Prowl.Runtime.Vector2,Prowl.Runtime.Color32)
+  id: PrimRect(Prowl.Runtime.Vector2,Prowl.Runtime.Vector2,Prowl.Runtime.Color32)
+  parent: Prowl.Runtime.GUI.Graphics.UIDrawList
+  langs:
+  - csharp
+  - vb
+  name: PrimRect(Vector2, Vector2, Color32)
+  nameWithType: UIDrawList.PrimRect(Vector2, Vector2, Color32)
+  fullName: Prowl.Runtime.GUI.Graphics.UIDrawList.PrimRect(Prowl.Runtime.Vector2, Prowl.Runtime.Vector2, Prowl.Runtime.Color32)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Graphics/UIDrawList.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: PrimRect
+    path: ../Prowl/Prowl.Runtime/GUI/Graphics/UIDrawList.cs
+    startLine: 1014
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI.Graphics
+  syntax:
+    content: public void PrimRect(Vector2 a, Vector2 c, Color32 col)
+    parameters:
+    - id: a
+      type: Prowl.Runtime.Vector2
+    - id: c
+      type: Prowl.Runtime.Vector2
+    - id: col
+      type: Prowl.Runtime.Color32
+    content.vb: Public Sub PrimRect(a As Vector2, c As Vector2, col As Color32)
+  overload: Prowl.Runtime.GUI.Graphics.UIDrawList.PrimRect*
+- uid: Prowl.Runtime.GUI.Graphics.UIDrawList.PrimRectUV(Prowl.Runtime.Vector2,Prowl.Runtime.Vector2,Prowl.Runtime.Vector2,Prowl.Runtime.Vector2,Prowl.Runtime.Color32)
+  commentId: M:Prowl.Runtime.GUI.Graphics.UIDrawList.PrimRectUV(Prowl.Runtime.Vector2,Prowl.Runtime.Vector2,Prowl.Runtime.Vector2,Prowl.Runtime.Vector2,Prowl.Runtime.Color32)
+  id: PrimRectUV(Prowl.Runtime.Vector2,Prowl.Runtime.Vector2,Prowl.Runtime.Vector2,Prowl.Runtime.Vector2,Prowl.Runtime.Color32)
+  parent: Prowl.Runtime.GUI.Graphics.UIDrawList
+  langs:
+  - csharp
+  - vb
+  name: PrimRectUV(Vector2, Vector2, Vector2, Vector2, Color32)
+  nameWithType: UIDrawList.PrimRectUV(Vector2, Vector2, Vector2, Vector2, Color32)
+  fullName: Prowl.Runtime.GUI.Graphics.UIDrawList.PrimRectUV(Prowl.Runtime.Vector2, Prowl.Runtime.Vector2, Prowl.Runtime.Vector2, Prowl.Runtime.Vector2, Prowl.Runtime.Color32)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Graphics/UIDrawList.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: PrimRectUV
+    path: ../Prowl/Prowl.Runtime/GUI/Graphics/UIDrawList.cs
+    startLine: 1031
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI.Graphics
+  syntax:
+    content: public void PrimRectUV(Vector2 a, Vector2 c, Vector2 uv_a, Vector2 uv_c, Color32 col)
+    parameters:
+    - id: a
+      type: Prowl.Runtime.Vector2
+    - id: c
+      type: Prowl.Runtime.Vector2
+    - id: uv_a
+      type: Prowl.Runtime.Vector2
+    - id: uv_c
+      type: Prowl.Runtime.Vector2
+    - id: col
+      type: Prowl.Runtime.Color32
+    content.vb: Public Sub PrimRectUV(a As Vector2, c As Vector2, uv_a As Vector2, uv_c As Vector2, col As Color32)
+  overload: Prowl.Runtime.GUI.Graphics.UIDrawList.PrimRectUV*
+- uid: Prowl.Runtime.GUI.Graphics.UIDrawList.PrimQuadUV(Prowl.Runtime.Vector2,Prowl.Runtime.Vector2,Prowl.Runtime.Vector2,Prowl.Runtime.Vector2,Prowl.Runtime.Vector2,Prowl.Runtime.Vector2,Prowl.Runtime.Vector2,Prowl.Runtime.Vector2,Prowl.Runtime.Color32)
+  commentId: M:Prowl.Runtime.GUI.Graphics.UIDrawList.PrimQuadUV(Prowl.Runtime.Vector2,Prowl.Runtime.Vector2,Prowl.Runtime.Vector2,Prowl.Runtime.Vector2,Prowl.Runtime.Vector2,Prowl.Runtime.Vector2,Prowl.Runtime.Vector2,Prowl.Runtime.Vector2,Prowl.Runtime.Color32)
+  id: PrimQuadUV(Prowl.Runtime.Vector2,Prowl.Runtime.Vector2,Prowl.Runtime.Vector2,Prowl.Runtime.Vector2,Prowl.Runtime.Vector2,Prowl.Runtime.Vector2,Prowl.Runtime.Vector2,Prowl.Runtime.Vector2,Prowl.Runtime.Color32)
+  parent: Prowl.Runtime.GUI.Graphics.UIDrawList
+  langs:
+  - csharp
+  - vb
+  name: PrimQuadUV(Vector2, Vector2, Vector2, Vector2, Vector2, Vector2, Vector2, Vector2, Color32)
+  nameWithType: UIDrawList.PrimQuadUV(Vector2, Vector2, Vector2, Vector2, Vector2, Vector2, Vector2, Vector2, Color32)
+  fullName: Prowl.Runtime.GUI.Graphics.UIDrawList.PrimQuadUV(Prowl.Runtime.Vector2, Prowl.Runtime.Vector2, Prowl.Runtime.Vector2, Prowl.Runtime.Vector2, Prowl.Runtime.Vector2, Prowl.Runtime.Vector2, Prowl.Runtime.Vector2, Prowl.Runtime.Vector2, Prowl.Runtime.Color32)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Graphics/UIDrawList.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: PrimQuadUV
+    path: ../Prowl/Prowl.Runtime/GUI/Graphics/UIDrawList.cs
+    startLine: 1048
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI.Graphics
+  syntax:
+    content: public void PrimQuadUV(Vector2 a, Vector2 b, Vector2 c, Vector2 d, Vector2 uv_a, Vector2 uv_b, Vector2 uv_c, Vector2 uv_d, Color32 col)
+    parameters:
+    - id: a
+      type: Prowl.Runtime.Vector2
+    - id: b
+      type: Prowl.Runtime.Vector2
+    - id: c
+      type: Prowl.Runtime.Vector2
+    - id: d
+      type: Prowl.Runtime.Vector2
+    - id: uv_a
+      type: Prowl.Runtime.Vector2
+    - id: uv_b
+      type: Prowl.Runtime.Vector2
+    - id: uv_c
+      type: Prowl.Runtime.Vector2
+    - id: uv_d
+      type: Prowl.Runtime.Vector2
+    - id: col
+      type: Prowl.Runtime.Color32
+    content.vb: Public Sub PrimQuadUV(a As Vector2, b As Vector2, c As Vector2, d As Vector2, uv_a As Vector2, uv_b As Vector2, uv_c As Vector2, uv_d As Vector2, col As Color32)
+  overload: Prowl.Runtime.GUI.Graphics.UIDrawList.PrimQuadUV*
+- uid: Prowl.Runtime.GUI.Graphics.UIDrawList.UpdateTextureID
+  commentId: M:Prowl.Runtime.GUI.Graphics.UIDrawList.UpdateTextureID
+  id: UpdateTextureID
+  parent: Prowl.Runtime.GUI.Graphics.UIDrawList
+  langs:
+  - csharp
+  - vb
+  name: UpdateTextureID()
+  nameWithType: UIDrawList.UpdateTextureID()
+  fullName: Prowl.Runtime.GUI.Graphics.UIDrawList.UpdateTextureID()
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Graphics/UIDrawList.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: UpdateTextureID
+    path: ../Prowl/Prowl.Runtime/GUI/Graphics/UIDrawList.cs
+    startLine: 1060
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI.Graphics
+  syntax:
+    content: public void UpdateTextureID()
+    content.vb: Public Sub UpdateTextureID()
+  overload: Prowl.Runtime.GUI.Graphics.UIDrawList.UpdateTextureID*
+- uid: Prowl.Runtime.GUI.Graphics.UIDrawList.ShadeVertsLinearColorGradient(System.Int32,System.Int32,Prowl.Runtime.Vector2,Prowl.Runtime.Vector2,Prowl.Runtime.Color32,Prowl.Runtime.Color32)
+  commentId: M:Prowl.Runtime.GUI.Graphics.UIDrawList.ShadeVertsLinearColorGradient(System.Int32,System.Int32,Prowl.Runtime.Vector2,Prowl.Runtime.Vector2,Prowl.Runtime.Color32,Prowl.Runtime.Color32)
+  id: ShadeVertsLinearColorGradient(System.Int32,System.Int32,Prowl.Runtime.Vector2,Prowl.Runtime.Vector2,Prowl.Runtime.Color32,Prowl.Runtime.Color32)
+  parent: Prowl.Runtime.GUI.Graphics.UIDrawList
+  langs:
+  - csharp
+  - vb
+  name: ShadeVertsLinearColorGradient(int, int, Vector2, Vector2, Color32, Color32)
+  nameWithType: UIDrawList.ShadeVertsLinearColorGradient(int, int, Vector2, Vector2, Color32, Color32)
+  fullName: Prowl.Runtime.GUI.Graphics.UIDrawList.ShadeVertsLinearColorGradient(int, int, Prowl.Runtime.Vector2, Prowl.Runtime.Vector2, Prowl.Runtime.Color32, Prowl.Runtime.Color32)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Graphics/UIDrawList.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: ShadeVertsLinearColorGradient
+    path: ../Prowl/Prowl.Runtime/GUI/Graphics/UIDrawList.cs
+    startLine: 1086
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI.Graphics
+  syntax:
+    content: public void ShadeVertsLinearColorGradient(int vertStartIdx, int vertEndIdx, Vector2 gradientP0, Vector2 gradientP1, Color32 col0, Color32 col1)
+    parameters:
+    - id: vertStartIdx
+      type: System.Int32
+    - id: vertEndIdx
+      type: System.Int32
+    - id: gradientP0
+      type: Prowl.Runtime.Vector2
+    - id: gradientP1
+      type: Prowl.Runtime.Vector2
+    - id: col0
+      type: Prowl.Runtime.Color32
+    - id: col1
+      type: Prowl.Runtime.Color32
+    content.vb: Public Sub ShadeVertsLinearColorGradient(vertStartIdx As Integer, vertEndIdx As Integer, gradientP0 As Vector2, gradientP1 As Vector2, col0 As Color32, col1 As Color32)
+  overload: Prowl.Runtime.GUI.Graphics.UIDrawList.ShadeVertsLinearColorGradient*
+  nameWithType.vb: UIDrawList.ShadeVertsLinearColorGradient(Integer, Integer, Vector2, Vector2, Color32, Color32)
+  fullName.vb: Prowl.Runtime.GUI.Graphics.UIDrawList.ShadeVertsLinearColorGradient(Integer, Integer, Prowl.Runtime.Vector2, Prowl.Runtime.Vector2, Prowl.Runtime.Color32, Prowl.Runtime.Color32)
+  name.vb: ShadeVertsLinearColorGradient(Integer, Integer, Vector2, Vector2, Color32, Color32)
+- uid: Prowl.Runtime.GUI.Graphics.UIDrawList.ShadeVertsLinearColorGradientKeepAlpha(System.Int32,System.Int32,Prowl.Runtime.Vector2,Prowl.Runtime.Vector2,Prowl.Runtime.Color32,Prowl.Runtime.Color32)
+  commentId: M:Prowl.Runtime.GUI.Graphics.UIDrawList.ShadeVertsLinearColorGradientKeepAlpha(System.Int32,System.Int32,Prowl.Runtime.Vector2,Prowl.Runtime.Vector2,Prowl.Runtime.Color32,Prowl.Runtime.Color32)
+  id: ShadeVertsLinearColorGradientKeepAlpha(System.Int32,System.Int32,Prowl.Runtime.Vector2,Prowl.Runtime.Vector2,Prowl.Runtime.Color32,Prowl.Runtime.Color32)
+  parent: Prowl.Runtime.GUI.Graphics.UIDrawList
+  langs:
+  - csharp
+  - vb
+  name: ShadeVertsLinearColorGradientKeepAlpha(int, int, Vector2, Vector2, Color32, Color32)
+  nameWithType: UIDrawList.ShadeVertsLinearColorGradientKeepAlpha(int, int, Vector2, Vector2, Color32, Color32)
+  fullName: Prowl.Runtime.GUI.Graphics.UIDrawList.ShadeVertsLinearColorGradientKeepAlpha(int, int, Prowl.Runtime.Vector2, Prowl.Runtime.Vector2, Prowl.Runtime.Color32, Prowl.Runtime.Color32)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Graphics/UIDrawList.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: ShadeVertsLinearColorGradientKeepAlpha
+    path: ../Prowl/Prowl.Runtime/GUI/Graphics/UIDrawList.cs
+    startLine: 1115
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI.Graphics
+  syntax:
+    content: public void ShadeVertsLinearColorGradientKeepAlpha(int vertStartIdx, int vertEndIdx, Vector2 gradientP0, Vector2 gradientP1, Color32 col0, Color32 col1)
+    parameters:
+    - id: vertStartIdx
+      type: System.Int32
+    - id: vertEndIdx
+      type: System.Int32
+    - id: gradientP0
+      type: Prowl.Runtime.Vector2
+    - id: gradientP1
+      type: Prowl.Runtime.Vector2
+    - id: col0
+      type: Prowl.Runtime.Color32
+    - id: col1
+      type: Prowl.Runtime.Color32
+    content.vb: Public Sub ShadeVertsLinearColorGradientKeepAlpha(vertStartIdx As Integer, vertEndIdx As Integer, gradientP0 As Vector2, gradientP1 As Vector2, col0 As Color32, col1 As Color32)
+  overload: Prowl.Runtime.GUI.Graphics.UIDrawList.ShadeVertsLinearColorGradientKeepAlpha*
+  nameWithType.vb: UIDrawList.ShadeVertsLinearColorGradientKeepAlpha(Integer, Integer, Vector2, Vector2, Color32, Color32)
+  fullName.vb: Prowl.Runtime.GUI.Graphics.UIDrawList.ShadeVertsLinearColorGradientKeepAlpha(Integer, Integer, Prowl.Runtime.Vector2, Prowl.Runtime.Vector2, Prowl.Runtime.Color32, Prowl.Runtime.Color32)
+  name.vb: ShadeVertsLinearColorGradientKeepAlpha(Integer, Integer, Vector2, Vector2, Color32, Color32)
+references:
+- uid: Prowl.Runtime.GUI.Graphics
+  commentId: N:Prowl.Runtime.GUI.Graphics
+  href: Prowl.html
+  name: Prowl.Runtime.GUI.Graphics
+  nameWithType: Prowl.Runtime.GUI.Graphics
+  fullName: Prowl.Runtime.GUI.Graphics
+  spec.csharp:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+  - name: .
+  - uid: Prowl.Runtime.GUI
+    name: GUI
+    href: Prowl.Runtime.GUI.html
+  - name: .
+  - uid: Prowl.Runtime.GUI.Graphics
+    name: Graphics
+    href: Prowl.Runtime.GUI.Graphics.html
+  spec.vb:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+  - name: .
+  - uid: Prowl.Runtime.GUI
+    name: GUI
+    href: Prowl.Runtime.GUI.html
+  - name: .
+  - uid: Prowl.Runtime.GUI.Graphics
+    name: Graphics
+    href: Prowl.Runtime.GUI.Graphics.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Prowl.Runtime.RuntimeUtils.GetSerializableFields
+  commentId: M:Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  parent: Prowl.Runtime.RuntimeUtils
+  definition: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  name: GetSerializableFields(object)
+  nameWithType: RuntimeUtils.GetSerializableFields(object)
+  fullName: Prowl.Runtime.RuntimeUtils.GetSerializableFields(object)
+  nameWithType.vb: RuntimeUtils.GetSerializableFields(Object)
+  fullName.vb: Prowl.Runtime.RuntimeUtils.GetSerializableFields(Object)
+  name.vb: GetSerializableFields(Object)
+  spec.csharp:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  commentId: M:Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  isExternal: true
+  href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  name: GetSerializableFields(object)
+  nameWithType: RuntimeUtils.GetSerializableFields(object)
+  fullName: Prowl.Runtime.RuntimeUtils.GetSerializableFields(object)
+  nameWithType.vb: RuntimeUtils.GetSerializableFields(Object)
+  fullName.vb: Prowl.Runtime.RuntimeUtils.GetSerializableFields(Object)
+  name.vb: GetSerializableFields(Object)
+  spec.csharp:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: Prowl.Runtime.RuntimeUtils
+  commentId: T:Prowl.Runtime.RuntimeUtils
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.RuntimeUtils.html
+  name: RuntimeUtils
+  nameWithType: RuntimeUtils
+  fullName: Prowl.Runtime.RuntimeUtils
+- uid: Prowl.Runtime
+  commentId: N:Prowl.Runtime
+  href: Prowl.html
+  name: Prowl.Runtime
+  nameWithType: Prowl.Runtime
+  fullName: Prowl.Runtime
+  spec.csharp:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+  spec.vb:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+- uid: Prowl.Runtime.GUI.Graphics.UIDrawList.#ctor*
+  commentId: Overload:Prowl.Runtime.GUI.Graphics.UIDrawList.#ctor
+  href: Prowl.Runtime.GUI.Graphics.UIDrawList.html#Prowl_Runtime_GUI_Graphics_UIDrawList__ctor_System_Boolean_
+  name: UIDrawList
+  nameWithType: UIDrawList.UIDrawList
+  fullName: Prowl.Runtime.GUI.Graphics.UIDrawList.UIDrawList
+  nameWithType.vb: UIDrawList.New
+  fullName.vb: Prowl.Runtime.GUI.Graphics.UIDrawList.New
+  name.vb: New
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: Prowl.Runtime.GUI.Graphics.UIDrawList.AntiAliasing*
+  commentId: Overload:Prowl.Runtime.GUI.Graphics.UIDrawList.AntiAliasing
+  href: Prowl.Runtime.GUI.Graphics.UIDrawList.html#Prowl_Runtime_GUI_Graphics_UIDrawList_AntiAliasing_System_Boolean_
+  name: AntiAliasing
+  nameWithType: UIDrawList.AntiAliasing
+  fullName: Prowl.Runtime.GUI.Graphics.UIDrawList.AntiAliasing
+- uid: Prowl.Runtime.GUI.Graphics.UIDrawList.GetCurrentDrawCmd*
+  commentId: Overload:Prowl.Runtime.GUI.Graphics.UIDrawList.GetCurrentDrawCmd
+  href: Prowl.Runtime.GUI.Graphics.UIDrawList.html#Prowl_Runtime_GUI_Graphics_UIDrawList_GetCurrentDrawCmd
+  name: GetCurrentDrawCmd
+  nameWithType: UIDrawList.GetCurrentDrawCmd
+  fullName: Prowl.Runtime.GUI.Graphics.UIDrawList.GetCurrentDrawCmd
+- uid: System.Nullable{Prowl.Runtime.GUI.Graphics.UIDrawCmd}
+  commentId: T:System.Nullable{Prowl.Runtime.GUI.Graphics.UIDrawCmd}
+  parent: System
+  definition: System.Nullable`1
+  href: Prowl.Runtime.GUI.Graphics.UIDrawCmd.html
+  name: UIDrawCmd?
+  nameWithType: UIDrawCmd?
+  fullName: Prowl.Runtime.GUI.Graphics.UIDrawCmd?
+  spec.csharp:
+  - uid: Prowl.Runtime.GUI.Graphics.UIDrawCmd
+    name: UIDrawCmd
+    href: Prowl.Runtime.GUI.Graphics.UIDrawCmd.html
+  - name: '?'
+  spec.vb:
+  - uid: Prowl.Runtime.GUI.Graphics.UIDrawCmd
+    name: UIDrawCmd
+    href: Prowl.Runtime.GUI.Graphics.UIDrawCmd.html
+  - name: '?'
+- uid: System.Nullable`1
+  commentId: T:System.Nullable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  name: Nullable<T>
+  nameWithType: Nullable<T>
+  fullName: System.Nullable<T>
+  nameWithType.vb: Nullable(Of T)
+  fullName.vb: System.Nullable(Of T)
+  name.vb: Nullable(Of T)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Prowl.Runtime.GUI.Graphics.UIDrawList.SetCurrentDrawCmd*
+  commentId: Overload:Prowl.Runtime.GUI.Graphics.UIDrawList.SetCurrentDrawCmd
+  href: Prowl.Runtime.GUI.Graphics.UIDrawList.html#Prowl_Runtime_GUI_Graphics_UIDrawList_SetCurrentDrawCmd_Prowl_Runtime_GUI_Graphics_UIDrawCmd_
+  name: SetCurrentDrawCmd
+  nameWithType: UIDrawList.SetCurrentDrawCmd
+  fullName: Prowl.Runtime.GUI.Graphics.UIDrawList.SetCurrentDrawCmd
+- uid: Prowl.Runtime.GUI.Graphics.UIDrawCmd
+  commentId: T:Prowl.Runtime.GUI.Graphics.UIDrawCmd
+  parent: Prowl.Runtime.GUI.Graphics
+  href: Prowl.Runtime.GUI.Graphics.UIDrawCmd.html
+  name: UIDrawCmd
+  nameWithType: UIDrawCmd
+  fullName: Prowl.Runtime.GUI.Graphics.UIDrawCmd
+- uid: Prowl.Runtime.GUI.Graphics.UIDrawList.GetPreviousDrawCmd*
+  commentId: Overload:Prowl.Runtime.GUI.Graphics.UIDrawList.GetPreviousDrawCmd
+  href: Prowl.Runtime.GUI.Graphics.UIDrawList.html#Prowl_Runtime_GUI_Graphics_UIDrawList_GetPreviousDrawCmd
+  name: GetPreviousDrawCmd
+  nameWithType: UIDrawList.GetPreviousDrawCmd
+  fullName: Prowl.Runtime.GUI.Graphics.UIDrawList.GetPreviousDrawCmd
+- uid: Prowl.Runtime.GUI.Graphics.UIDrawList.GetCurrentClipRect*
+  commentId: Overload:Prowl.Runtime.GUI.Graphics.UIDrawList.GetCurrentClipRect
+  href: Prowl.Runtime.GUI.Graphics.UIDrawList.html#Prowl_Runtime_GUI_Graphics_UIDrawList_GetCurrentClipRect
+  name: GetCurrentClipRect
+  nameWithType: UIDrawList.GetCurrentClipRect
+  fullName: Prowl.Runtime.GUI.Graphics.UIDrawList.GetCurrentClipRect
+- uid: Prowl.Runtime.Vector4
+  commentId: T:Prowl.Runtime.Vector4
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.Vector4.html
+  name: Vector4
+  nameWithType: Vector4
+  fullName: Prowl.Runtime.Vector4
+- uid: Prowl.Runtime.GUI.Graphics.UIDrawList.GetCurrentTexture*
+  commentId: Overload:Prowl.Runtime.GUI.Graphics.UIDrawList.GetCurrentTexture
+  href: Prowl.Runtime.GUI.Graphics.UIDrawList.html#Prowl_Runtime_GUI_Graphics_UIDrawList_GetCurrentTexture
+  name: GetCurrentTexture
+  nameWithType: UIDrawList.GetCurrentTexture
+  fullName: Prowl.Runtime.GUI.Graphics.UIDrawList.GetCurrentTexture
+- uid: Prowl.Runtime.Texture2D
+  commentId: T:Prowl.Runtime.Texture2D
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.Texture2D.html
+  name: Texture2D
+  nameWithType: Texture2D
+  fullName: Prowl.Runtime.Texture2D
+- uid: Prowl.Runtime.GUI.Graphics.UIDrawList.Clear*
+  commentId: Overload:Prowl.Runtime.GUI.Graphics.UIDrawList.Clear
+  href: Prowl.Runtime.GUI.Graphics.UIDrawList.html#Prowl_Runtime_GUI_Graphics_UIDrawList_Clear
+  name: Clear
+  nameWithType: UIDrawList.Clear
+  fullName: Prowl.Runtime.GUI.Graphics.UIDrawList.Clear
+- uid: Prowl.Runtime.GUI.Graphics.UIDrawList.PushClipRect*
+  commentId: Overload:Prowl.Runtime.GUI.Graphics.UIDrawList.PushClipRect
+  href: Prowl.Runtime.GUI.Graphics.UIDrawList.html#Prowl_Runtime_GUI_Graphics_UIDrawList_PushClipRect_Prowl_Runtime_Vector4_System_Boolean_
+  name: PushClipRect
+  nameWithType: UIDrawList.PushClipRect
+  fullName: Prowl.Runtime.GUI.Graphics.UIDrawList.PushClipRect
+- uid: Prowl.Runtime.GUI.Graphics.UIDrawList.PushClipRectFullScreen*
+  commentId: Overload:Prowl.Runtime.GUI.Graphics.UIDrawList.PushClipRectFullScreen
+  href: Prowl.Runtime.GUI.Graphics.UIDrawList.html#Prowl_Runtime_GUI_Graphics_UIDrawList_PushClipRectFullScreen
+  name: PushClipRectFullScreen
+  nameWithType: UIDrawList.PushClipRectFullScreen
+  fullName: Prowl.Runtime.GUI.Graphics.UIDrawList.PushClipRectFullScreen
+- uid: Prowl.Runtime.GUI.Graphics.UIDrawList.PopClipRect*
+  commentId: Overload:Prowl.Runtime.GUI.Graphics.UIDrawList.PopClipRect
+  href: Prowl.Runtime.GUI.Graphics.UIDrawList.html#Prowl_Runtime_GUI_Graphics_UIDrawList_PopClipRect
+  name: PopClipRect
+  nameWithType: UIDrawList.PopClipRect
+  fullName: Prowl.Runtime.GUI.Graphics.UIDrawList.PopClipRect
+- uid: Prowl.Runtime.GUI.Graphics.UIDrawList.PeekClipRect*
+  commentId: Overload:Prowl.Runtime.GUI.Graphics.UIDrawList.PeekClipRect
+  href: Prowl.Runtime.GUI.Graphics.UIDrawList.html#Prowl_Runtime_GUI_Graphics_UIDrawList_PeekClipRect
+  name: PeekClipRect
+  nameWithType: UIDrawList.PeekClipRect
+  fullName: Prowl.Runtime.GUI.Graphics.UIDrawList.PeekClipRect
+- uid: Prowl.Runtime.GUI.Graphics.UIDrawList.PushTexture*
+  commentId: Overload:Prowl.Runtime.GUI.Graphics.UIDrawList.PushTexture
+  href: Prowl.Runtime.GUI.Graphics.UIDrawList.html#Prowl_Runtime_GUI_Graphics_UIDrawList_PushTexture_Prowl_Runtime_Texture2D_
+  name: PushTexture
+  nameWithType: UIDrawList.PushTexture
+  fullName: Prowl.Runtime.GUI.Graphics.UIDrawList.PushTexture
+- uid: Prowl.Runtime.GUI.Graphics.UIDrawList.PopTexture*
+  commentId: Overload:Prowl.Runtime.GUI.Graphics.UIDrawList.PopTexture
+  href: Prowl.Runtime.GUI.Graphics.UIDrawList.html#Prowl_Runtime_GUI_Graphics_UIDrawList_PopTexture
+  name: PopTexture
+  nameWithType: UIDrawList.PopTexture
+  fullName: Prowl.Runtime.GUI.Graphics.UIDrawList.PopTexture
+- uid: Prowl.Runtime.GUI.Graphics.UIDrawList.AddLine*
+  commentId: Overload:Prowl.Runtime.GUI.Graphics.UIDrawList.AddLine
+  href: Prowl.Runtime.GUI.Graphics.UIDrawList.html#Prowl_Runtime_GUI_Graphics_UIDrawList_AddLine_Prowl_Runtime_Vector2_Prowl_Runtime_Vector2_Prowl_Runtime_Color32_System_Single_
+  name: AddLine
+  nameWithType: UIDrawList.AddLine
+  fullName: Prowl.Runtime.GUI.Graphics.UIDrawList.AddLine
+- uid: Prowl.Runtime.Vector2
+  commentId: T:Prowl.Runtime.Vector2
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.Vector2.html
+  name: Vector2
+  nameWithType: Vector2
+  fullName: Prowl.Runtime.Vector2
+- uid: Prowl.Runtime.Color32
+  commentId: T:Prowl.Runtime.Color32
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.Color32.html
+  name: Color32
+  nameWithType: Color32
+  fullName: Prowl.Runtime.Color32
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.single
+  name: float
+  nameWithType: float
+  fullName: float
+  nameWithType.vb: Single
+  fullName.vb: Single
+  name.vb: Single
+- uid: Prowl.Runtime.GUI.Graphics.UIDrawList.AddRect*
+  commentId: Overload:Prowl.Runtime.GUI.Graphics.UIDrawList.AddRect
+  href: Prowl.Runtime.GUI.Graphics.UIDrawList.html#Prowl_Runtime_GUI_Graphics_UIDrawList_AddRect_Prowl_Runtime_Vector2_Prowl_Runtime_Vector2_Prowl_Runtime_Color32_System_Single_System_Int32_System_Single_
+  name: AddRect
+  nameWithType: UIDrawList.AddRect
+  fullName: Prowl.Runtime.GUI.Graphics.UIDrawList.AddRect
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: Prowl.Runtime.GUI.Graphics.UIDrawList.AddRectFilled*
+  commentId: Overload:Prowl.Runtime.GUI.Graphics.UIDrawList.AddRectFilled
+  href: Prowl.Runtime.GUI.Graphics.UIDrawList.html#Prowl_Runtime_GUI_Graphics_UIDrawList_AddRectFilled_Prowl_Runtime_Vector2_Prowl_Runtime_Vector2_Prowl_Runtime_Color32_System_Single_System_Int32_
+  name: AddRectFilled
+  nameWithType: UIDrawList.AddRectFilled
+  fullName: Prowl.Runtime.GUI.Graphics.UIDrawList.AddRectFilled
+- uid: Prowl.Runtime.GUI.Graphics.UIDrawList.AddRectFilledMultiColor*
+  commentId: Overload:Prowl.Runtime.GUI.Graphics.UIDrawList.AddRectFilledMultiColor
+  href: Prowl.Runtime.GUI.Graphics.UIDrawList.html#Prowl_Runtime_GUI_Graphics_UIDrawList_AddRectFilledMultiColor_Prowl_Runtime_Vector2_Prowl_Runtime_Vector2_Prowl_Runtime_Color32_Prowl_Runtime_Color32_Prowl_Runtime_Color32_Prowl_Runtime_Color32_
+  name: AddRectFilledMultiColor
+  nameWithType: UIDrawList.AddRectFilledMultiColor
+  fullName: Prowl.Runtime.GUI.Graphics.UIDrawList.AddRectFilledMultiColor
+- uid: Prowl.Runtime.GUI.Graphics.UIDrawList.AddTriangle*
+  commentId: Overload:Prowl.Runtime.GUI.Graphics.UIDrawList.AddTriangle
+  href: Prowl.Runtime.GUI.Graphics.UIDrawList.html#Prowl_Runtime_GUI_Graphics_UIDrawList_AddTriangle_Prowl_Runtime_Vector2_Prowl_Runtime_Vector2_Prowl_Runtime_Vector2_Prowl_Runtime_Color32_System_Single_
+  name: AddTriangle
+  nameWithType: UIDrawList.AddTriangle
+  fullName: Prowl.Runtime.GUI.Graphics.UIDrawList.AddTriangle
+- uid: Prowl.Runtime.GUI.Graphics.UIDrawList.AddTriangleFilled*
+  commentId: Overload:Prowl.Runtime.GUI.Graphics.UIDrawList.AddTriangleFilled
+  href: Prowl.Runtime.GUI.Graphics.UIDrawList.html#Prowl_Runtime_GUI_Graphics_UIDrawList_AddTriangleFilled_Prowl_Runtime_Vector2_Prowl_Runtime_Vector2_Prowl_Runtime_Vector2_Prowl_Runtime_Color32_
+  name: AddTriangleFilled
+  nameWithType: UIDrawList.AddTriangleFilled
+  fullName: Prowl.Runtime.GUI.Graphics.UIDrawList.AddTriangleFilled
+- uid: Prowl.Runtime.GUI.Graphics.UIDrawList.AddCircle*
+  commentId: Overload:Prowl.Runtime.GUI.Graphics.UIDrawList.AddCircle
+  href: Prowl.Runtime.GUI.Graphics.UIDrawList.html#Prowl_Runtime_GUI_Graphics_UIDrawList_AddCircle_Prowl_Runtime_Vector2_System_Single_Prowl_Runtime_Color32_System_Int32_System_Single_
+  name: AddCircle
+  nameWithType: UIDrawList.AddCircle
+  fullName: Prowl.Runtime.GUI.Graphics.UIDrawList.AddCircle
+- uid: Prowl.Runtime.GUI.Graphics.UIDrawList.AddCircleFilled*
+  commentId: Overload:Prowl.Runtime.GUI.Graphics.UIDrawList.AddCircleFilled
+  href: Prowl.Runtime.GUI.Graphics.UIDrawList.html#Prowl_Runtime_GUI_Graphics_UIDrawList_AddCircleFilled_Prowl_Runtime_Vector2_System_Single_Prowl_Runtime_Color32_System_Int32_
+  name: AddCircleFilled
+  nameWithType: UIDrawList.AddCircleFilled
+  fullName: Prowl.Runtime.GUI.Graphics.UIDrawList.AddCircleFilled
+- uid: Prowl.Runtime.GUI.Graphics.UIDrawList.AddText*
+  commentId: Overload:Prowl.Runtime.GUI.Graphics.UIDrawList.AddText
+  href: Prowl.Runtime.GUI.Graphics.UIDrawList.html#Prowl_Runtime_GUI_Graphics_UIDrawList_AddText_System_Single_Prowl_Runtime_Vector2_Prowl_Runtime_Color32_System_String_System_Int32_System_Int32_System_Single_
+  name: AddText
+  nameWithType: UIDrawList.AddText
+  fullName: Prowl.Runtime.GUI.Graphics.UIDrawList.AddText
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: Prowl.Runtime.Font
+  commentId: T:Prowl.Runtime.Font
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.Font.html
+  name: Font
+  nameWithType: Font
+  fullName: Prowl.Runtime.Font
+- uid: System.Nullable{Prowl.Runtime.Vector4}
+  commentId: T:System.Nullable{Prowl.Runtime.Vector4}
+  parent: System
+  definition: System.Nullable`1
+  href: Prowl.Runtime.Vector4.html
+  name: Vector4?
+  nameWithType: Vector4?
+  fullName: Prowl.Runtime.Vector4?
+  spec.csharp:
+  - uid: Prowl.Runtime.Vector4
+    name: Vector4
+    href: Prowl.Runtime.Vector4.html
+  - name: '?'
+  spec.vb:
+  - uid: Prowl.Runtime.Vector4
+    name: Vector4
+    href: Prowl.Runtime.Vector4.html
+  - name: '?'
+- uid: Prowl.Runtime.GUI.Graphics.UIDrawList.AddImage*
+  commentId: Overload:Prowl.Runtime.GUI.Graphics.UIDrawList.AddImage
+  href: Prowl.Runtime.GUI.Graphics.UIDrawList.html#Prowl_Runtime_GUI_Graphics_UIDrawList_AddImage_Prowl_Runtime_Texture2D_Prowl_Runtime_Vector2_Prowl_Runtime_Vector2_System_Nullable_Prowl_Runtime_Vector2__System_Nullable_Prowl_Runtime_Vector2__System_Nullable_Prowl_Runtime_Color32__
+  name: AddImage
+  nameWithType: UIDrawList.AddImage
+  fullName: Prowl.Runtime.GUI.Graphics.UIDrawList.AddImage
+- uid: System.Nullable{Prowl.Runtime.Vector2}
+  commentId: T:System.Nullable{Prowl.Runtime.Vector2}
+  parent: System
+  definition: System.Nullable`1
+  href: Prowl.Runtime.Vector2.html
+  name: Vector2?
+  nameWithType: Vector2?
+  fullName: Prowl.Runtime.Vector2?
+  spec.csharp:
+  - uid: Prowl.Runtime.Vector2
+    name: Vector2
+    href: Prowl.Runtime.Vector2.html
+  - name: '?'
+  spec.vb:
+  - uid: Prowl.Runtime.Vector2
+    name: Vector2
+    href: Prowl.Runtime.Vector2.html
+  - name: '?'
+- uid: System.Nullable{Prowl.Runtime.Color32}
+  commentId: T:System.Nullable{Prowl.Runtime.Color32}
+  parent: System
+  definition: System.Nullable`1
+  href: Prowl.Runtime.Color32.html
+  name: Color32?
+  nameWithType: Color32?
+  fullName: Prowl.Runtime.Color32?
+  spec.csharp:
+  - uid: Prowl.Runtime.Color32
+    name: Color32
+    href: Prowl.Runtime.Color32.html
+  - name: '?'
+  spec.vb:
+  - uid: Prowl.Runtime.Color32
+    name: Color32
+    href: Prowl.Runtime.Color32.html
+  - name: '?'
+- uid: Prowl.Runtime.GUI.Graphics.UIDrawList.AddPolyline*
+  commentId: Overload:Prowl.Runtime.GUI.Graphics.UIDrawList.AddPolyline
+  href: Prowl.Runtime.GUI.Graphics.UIDrawList.html#Prowl_Runtime_GUI_Graphics_UIDrawList_AddPolyline_System_Collections_Generic_List_Prowl_Runtime_Vector2__System_Int32_Prowl_Runtime_Color32_System_Boolean_System_Single_
+  name: AddPolyline
+  nameWithType: UIDrawList.AddPolyline
+  fullName: Prowl.Runtime.GUI.Graphics.UIDrawList.AddPolyline
+- uid: System.Collections.Generic.List{Prowl.Runtime.Vector2}
+  commentId: T:System.Collections.Generic.List{Prowl.Runtime.Vector2}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<Vector2>
+  nameWithType: List<Vector2>
+  fullName: System.Collections.Generic.List<Prowl.Runtime.Vector2>
+  nameWithType.vb: List(Of Vector2)
+  fullName.vb: System.Collections.Generic.List(Of Prowl.Runtime.Vector2)
+  name.vb: List(Of Vector2)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - uid: Prowl.Runtime.Vector2
+    name: Vector2
+    href: Prowl.Runtime.Vector2.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Prowl.Runtime.Vector2
+    name: Vector2
+    href: Prowl.Runtime.Vector2.html
+  - name: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: Prowl.Runtime.GUI.Graphics.UIDrawList.AddConvexPolyFilled*
+  commentId: Overload:Prowl.Runtime.GUI.Graphics.UIDrawList.AddConvexPolyFilled
+  href: Prowl.Runtime.GUI.Graphics.UIDrawList.html#Prowl_Runtime_GUI_Graphics_UIDrawList_AddConvexPolyFilled_System_Collections_Generic_List_Prowl_Runtime_Vector2__System_Int32_Prowl_Runtime_Color32_
+  name: AddConvexPolyFilled
+  nameWithType: UIDrawList.AddConvexPolyFilled
+  fullName: Prowl.Runtime.GUI.Graphics.UIDrawList.AddConvexPolyFilled
+- uid: Prowl.Runtime.GUI.Graphics.UIDrawList.AddBezierCurve*
+  commentId: Overload:Prowl.Runtime.GUI.Graphics.UIDrawList.AddBezierCurve
+  href: Prowl.Runtime.GUI.Graphics.UIDrawList.html#Prowl_Runtime_GUI_Graphics_UIDrawList_AddBezierCurve_Prowl_Runtime_Vector2_Prowl_Runtime_Vector2_Prowl_Runtime_Vector2_Prowl_Runtime_Vector2_Prowl_Runtime_Color32_System_Single_System_Int32_
+  name: AddBezierCurve
+  nameWithType: UIDrawList.AddBezierCurve
+  fullName: Prowl.Runtime.GUI.Graphics.UIDrawList.AddBezierCurve
+- uid: Prowl.Runtime.GUI.Graphics.UIDrawList.PathLineTo*
+  commentId: Overload:Prowl.Runtime.GUI.Graphics.UIDrawList.PathLineTo
+  href: Prowl.Runtime.GUI.Graphics.UIDrawList.html#Prowl_Runtime_GUI_Graphics_UIDrawList_PathLineTo_Prowl_Runtime_Vector2_
+  name: PathLineTo
+  nameWithType: UIDrawList.PathLineTo
+  fullName: Prowl.Runtime.GUI.Graphics.UIDrawList.PathLineTo
+- uid: Prowl.Runtime.GUI.Graphics.UIDrawList.PathLineToMergeDuplicate*
+  commentId: Overload:Prowl.Runtime.GUI.Graphics.UIDrawList.PathLineToMergeDuplicate
+  href: Prowl.Runtime.GUI.Graphics.UIDrawList.html#Prowl_Runtime_GUI_Graphics_UIDrawList_PathLineToMergeDuplicate_Prowl_Runtime_Vector2_
+  name: PathLineToMergeDuplicate
+  nameWithType: UIDrawList.PathLineToMergeDuplicate
+  fullName: Prowl.Runtime.GUI.Graphics.UIDrawList.PathLineToMergeDuplicate
+- uid: Prowl.Runtime.GUI.Graphics.UIDrawList.PathFill*
+  commentId: Overload:Prowl.Runtime.GUI.Graphics.UIDrawList.PathFill
+  href: Prowl.Runtime.GUI.Graphics.UIDrawList.html#Prowl_Runtime_GUI_Graphics_UIDrawList_PathFill_Prowl_Runtime_Color32_
+  name: PathFill
+  nameWithType: UIDrawList.PathFill
+  fullName: Prowl.Runtime.GUI.Graphics.UIDrawList.PathFill
+- uid: Prowl.Runtime.GUI.Graphics.UIDrawList.PathStroke*
+  commentId: Overload:Prowl.Runtime.GUI.Graphics.UIDrawList.PathStroke
+  href: Prowl.Runtime.GUI.Graphics.UIDrawList.html#Prowl_Runtime_GUI_Graphics_UIDrawList_PathStroke_Prowl_Runtime_Color32_System_Boolean_System_Single_
+  name: PathStroke
+  nameWithType: UIDrawList.PathStroke
+  fullName: Prowl.Runtime.GUI.Graphics.UIDrawList.PathStroke
+- uid: Prowl.Runtime.GUI.Graphics.UIDrawList.PathArcTo*
+  commentId: Overload:Prowl.Runtime.GUI.Graphics.UIDrawList.PathArcTo
+  href: Prowl.Runtime.GUI.Graphics.UIDrawList.html#Prowl_Runtime_GUI_Graphics_UIDrawList_PathArcTo_Prowl_Runtime_Vector2_System_Single_System_Single_System_Single_System_Int32_
+  name: PathArcTo
+  nameWithType: UIDrawList.PathArcTo
+  fullName: Prowl.Runtime.GUI.Graphics.UIDrawList.PathArcTo
+- uid: Prowl.Runtime.GUI.Graphics.UIDrawList.PathArcToFast*
+  commentId: Overload:Prowl.Runtime.GUI.Graphics.UIDrawList.PathArcToFast
+  href: Prowl.Runtime.GUI.Graphics.UIDrawList.html#Prowl_Runtime_GUI_Graphics_UIDrawList_PathArcToFast_Prowl_Runtime_Vector2_System_Single_System_Int32_System_Int32_
+  name: PathArcToFast
+  nameWithType: UIDrawList.PathArcToFast
+  fullName: Prowl.Runtime.GUI.Graphics.UIDrawList.PathArcToFast
+- uid: Prowl.Runtime.GUI.Graphics.UIDrawList.PathBezierCurveTo*
+  commentId: Overload:Prowl.Runtime.GUI.Graphics.UIDrawList.PathBezierCurveTo
+  href: Prowl.Runtime.GUI.Graphics.UIDrawList.html#Prowl_Runtime_GUI_Graphics_UIDrawList_PathBezierCurveTo_Prowl_Runtime_Vector2_Prowl_Runtime_Vector2_Prowl_Runtime_Vector2_System_Int32_
+  name: PathBezierCurveTo
+  nameWithType: UIDrawList.PathBezierCurveTo
+  fullName: Prowl.Runtime.GUI.Graphics.UIDrawList.PathBezierCurveTo
+- uid: Prowl.Runtime.GUI.Graphics.UIDrawList.PathRect*
+  commentId: Overload:Prowl.Runtime.GUI.Graphics.UIDrawList.PathRect
+  href: Prowl.Runtime.GUI.Graphics.UIDrawList.html#Prowl_Runtime_GUI_Graphics_UIDrawList_PathRect_Prowl_Runtime_Vector2_Prowl_Runtime_Vector2_System_Single_System_Int32_
+  name: PathRect
+  nameWithType: UIDrawList.PathRect
+  fullName: Prowl.Runtime.GUI.Graphics.UIDrawList.PathRect
+- uid: Prowl.Runtime.GUI.Graphics.UIDrawList.ChannelsSplit*
+  commentId: Overload:Prowl.Runtime.GUI.Graphics.UIDrawList.ChannelsSplit
+  href: Prowl.Runtime.GUI.Graphics.UIDrawList.html#Prowl_Runtime_GUI_Graphics_UIDrawList_ChannelsSplit_System_Int32_
+  name: ChannelsSplit
+  nameWithType: UIDrawList.ChannelsSplit
+  fullName: Prowl.Runtime.GUI.Graphics.UIDrawList.ChannelsSplit
+- uid: Prowl.Runtime.GUI.Graphics.UIDrawList.ChannelsMerge*
+  commentId: Overload:Prowl.Runtime.GUI.Graphics.UIDrawList.ChannelsMerge
+  href: Prowl.Runtime.GUI.Graphics.UIDrawList.html#Prowl_Runtime_GUI_Graphics_UIDrawList_ChannelsMerge
+  name: ChannelsMerge
+  nameWithType: UIDrawList.ChannelsMerge
+  fullName: Prowl.Runtime.GUI.Graphics.UIDrawList.ChannelsMerge
+- uid: Prowl.Runtime.GUI.Graphics.UIDrawList.ChannelsSetCurrent*
+  commentId: Overload:Prowl.Runtime.GUI.Graphics.UIDrawList.ChannelsSetCurrent
+  href: Prowl.Runtime.GUI.Graphics.UIDrawList.html#Prowl_Runtime_GUI_Graphics_UIDrawList_ChannelsSetCurrent_System_Int32_
+  name: ChannelsSetCurrent
+  nameWithType: UIDrawList.ChannelsSetCurrent
+  fullName: Prowl.Runtime.GUI.Graphics.UIDrawList.ChannelsSetCurrent
+- uid: Prowl.Runtime.GUI.Graphics.UIDrawList.AddDrawCmd*
+  commentId: Overload:Prowl.Runtime.GUI.Graphics.UIDrawList.AddDrawCmd
+  href: Prowl.Runtime.GUI.Graphics.UIDrawList.html#Prowl_Runtime_GUI_Graphics_UIDrawList_AddDrawCmd
+  name: AddDrawCmd
+  nameWithType: UIDrawList.AddDrawCmd
+  fullName: Prowl.Runtime.GUI.Graphics.UIDrawList.AddDrawCmd
+- uid: Prowl.Runtime.GUI.Graphics.UIDrawList.UpdateClipRect*
+  commentId: Overload:Prowl.Runtime.GUI.Graphics.UIDrawList.UpdateClipRect
+  href: Prowl.Runtime.GUI.Graphics.UIDrawList.html#Prowl_Runtime_GUI_Graphics_UIDrawList_UpdateClipRect_System_Boolean_
+  name: UpdateClipRect
+  nameWithType: UIDrawList.UpdateClipRect
+  fullName: Prowl.Runtime.GUI.Graphics.UIDrawList.UpdateClipRect
+- uid: Prowl.Runtime.GUI.Graphics.UIDrawList.PrimReserve*
+  commentId: Overload:Prowl.Runtime.GUI.Graphics.UIDrawList.PrimReserve
+  href: Prowl.Runtime.GUI.Graphics.UIDrawList.html#Prowl_Runtime_GUI_Graphics_UIDrawList_PrimReserve_System_Int32_System_Int32_
+  name: PrimReserve
+  nameWithType: UIDrawList.PrimReserve
+  fullName: Prowl.Runtime.GUI.Graphics.UIDrawList.PrimReserve
+- uid: Prowl.Runtime.GUI.Graphics.UIDrawList.PrimRect*
+  commentId: Overload:Prowl.Runtime.GUI.Graphics.UIDrawList.PrimRect
+  href: Prowl.Runtime.GUI.Graphics.UIDrawList.html#Prowl_Runtime_GUI_Graphics_UIDrawList_PrimRect_Prowl_Runtime_Vector2_Prowl_Runtime_Vector2_Prowl_Runtime_Color32_
+  name: PrimRect
+  nameWithType: UIDrawList.PrimRect
+  fullName: Prowl.Runtime.GUI.Graphics.UIDrawList.PrimRect
+- uid: Prowl.Runtime.GUI.Graphics.UIDrawList.PrimRectUV*
+  commentId: Overload:Prowl.Runtime.GUI.Graphics.UIDrawList.PrimRectUV
+  href: Prowl.Runtime.GUI.Graphics.UIDrawList.html#Prowl_Runtime_GUI_Graphics_UIDrawList_PrimRectUV_Prowl_Runtime_Vector2_Prowl_Runtime_Vector2_Prowl_Runtime_Vector2_Prowl_Runtime_Vector2_Prowl_Runtime_Color32_
+  name: PrimRectUV
+  nameWithType: UIDrawList.PrimRectUV
+  fullName: Prowl.Runtime.GUI.Graphics.UIDrawList.PrimRectUV
+- uid: Prowl.Runtime.GUI.Graphics.UIDrawList.PrimQuadUV*
+  commentId: Overload:Prowl.Runtime.GUI.Graphics.UIDrawList.PrimQuadUV
+  href: Prowl.Runtime.GUI.Graphics.UIDrawList.html#Prowl_Runtime_GUI_Graphics_UIDrawList_PrimQuadUV_Prowl_Runtime_Vector2_Prowl_Runtime_Vector2_Prowl_Runtime_Vector2_Prowl_Runtime_Vector2_Prowl_Runtime_Vector2_Prowl_Runtime_Vector2_Prowl_Runtime_Vector2_Prowl_Runtime_Vector2_Prowl_Runtime_Color32_
+  name: PrimQuadUV
+  nameWithType: UIDrawList.PrimQuadUV
+  fullName: Prowl.Runtime.GUI.Graphics.UIDrawList.PrimQuadUV
+- uid: Prowl.Runtime.GUI.Graphics.UIDrawList.UpdateTextureID*
+  commentId: Overload:Prowl.Runtime.GUI.Graphics.UIDrawList.UpdateTextureID
+  href: Prowl.Runtime.GUI.Graphics.UIDrawList.html#Prowl_Runtime_GUI_Graphics_UIDrawList_UpdateTextureID
+  name: UpdateTextureID
+  nameWithType: UIDrawList.UpdateTextureID
+  fullName: Prowl.Runtime.GUI.Graphics.UIDrawList.UpdateTextureID
+- uid: Prowl.Runtime.GUI.Graphics.UIDrawList.ShadeVertsLinearColorGradient*
+  commentId: Overload:Prowl.Runtime.GUI.Graphics.UIDrawList.ShadeVertsLinearColorGradient
+  href: Prowl.Runtime.GUI.Graphics.UIDrawList.html#Prowl_Runtime_GUI_Graphics_UIDrawList_ShadeVertsLinearColorGradient_System_Int32_System_Int32_Prowl_Runtime_Vector2_Prowl_Runtime_Vector2_Prowl_Runtime_Color32_Prowl_Runtime_Color32_
+  name: ShadeVertsLinearColorGradient
+  nameWithType: UIDrawList.ShadeVertsLinearColorGradient
+  fullName: Prowl.Runtime.GUI.Graphics.UIDrawList.ShadeVertsLinearColorGradient
+- uid: Prowl.Runtime.GUI.Graphics.UIDrawList.ShadeVertsLinearColorGradientKeepAlpha*
+  commentId: Overload:Prowl.Runtime.GUI.Graphics.UIDrawList.ShadeVertsLinearColorGradientKeepAlpha
+  href: Prowl.Runtime.GUI.Graphics.UIDrawList.html#Prowl_Runtime_GUI_Graphics_UIDrawList_ShadeVertsLinearColorGradientKeepAlpha_System_Int32_System_Int32_Prowl_Runtime_Vector2_Prowl_Runtime_Vector2_Prowl_Runtime_Color32_Prowl_Runtime_Color32_
+  name: ShadeVertsLinearColorGradientKeepAlpha
+  nameWithType: UIDrawList.ShadeVertsLinearColorGradientKeepAlpha
+  fullName: Prowl.Runtime.GUI.Graphics.UIDrawList.ShadeVertsLinearColorGradientKeepAlpha

@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: Prowl.Icons
+  commentId: N:Prowl.Icons
+  id: Prowl.Icons
+  children:
+  - Prowl.Icons.FontAwesome6
+  langs:
+  - csharp
+  - vb
+  name: Prowl.Icons
+  nameWithType: Prowl.Icons
+  fullName: Prowl.Icons
+  type: Namespace
+  assemblies:
+  - Prowl.Runtime
+references:
+- uid: Prowl.Icons.FontAwesome6
+  commentId: T:Prowl.Icons.FontAwesome6
+  href: Prowl.Icons.FontAwesome6.html
+  name: FontAwesome6
+  nameWithType: FontAwesome6
+  fullName: Prowl.Icons.FontAwesome6

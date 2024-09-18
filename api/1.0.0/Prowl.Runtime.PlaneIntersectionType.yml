@@ -1,0 +1,209 @@
+### YamlMime:ManagedReference
+items:
+- uid: Prowl.Runtime.PlaneIntersectionType
+  commentId: T:Prowl.Runtime.PlaneIntersectionType
+  id: PlaneIntersectionType
+  parent: Prowl.Runtime
+  children:
+  - Prowl.Runtime.PlaneIntersectionType.Back
+  - Prowl.Runtime.PlaneIntersectionType.Front
+  - Prowl.Runtime.PlaneIntersectionType.Intersecting
+  langs:
+  - csharp
+  - vb
+  name: PlaneIntersectionType
+  nameWithType: PlaneIntersectionType
+  fullName: Prowl.Runtime.PlaneIntersectionType
+  type: Enum
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Plane.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: PlaneIntersectionType
+    path: ../Prowl/Prowl.Runtime/Math/Plane.cs
+    startLine: 38
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public enum PlaneIntersectionType
+    content.vb: Public Enum PlaneIntersectionType
+  extensionMethods:
+  - System.Object.Prowl.Runtime.RuntimeUtils.GetSerializableFields
+- uid: Prowl.Runtime.PlaneIntersectionType.Front
+  commentId: F:Prowl.Runtime.PlaneIntersectionType.Front
+  id: Front
+  parent: Prowl.Runtime.PlaneIntersectionType
+  langs:
+  - csharp
+  - vb
+  name: Front
+  nameWithType: PlaneIntersectionType.Front
+  fullName: Prowl.Runtime.PlaneIntersectionType.Front
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Plane.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Front
+    path: ../Prowl/Prowl.Runtime/Math/Plane.cs
+    startLine: 40
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: Front = 0
+    return:
+      type: Prowl.Runtime.PlaneIntersectionType
+- uid: Prowl.Runtime.PlaneIntersectionType.Back
+  commentId: F:Prowl.Runtime.PlaneIntersectionType.Back
+  id: Back
+  parent: Prowl.Runtime.PlaneIntersectionType
+  langs:
+  - csharp
+  - vb
+  name: Back
+  nameWithType: PlaneIntersectionType.Back
+  fullName: Prowl.Runtime.PlaneIntersectionType.Back
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Plane.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Back
+    path: ../Prowl/Prowl.Runtime/Math/Plane.cs
+    startLine: 41
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: Back = 1
+    return:
+      type: Prowl.Runtime.PlaneIntersectionType
+- uid: Prowl.Runtime.PlaneIntersectionType.Intersecting
+  commentId: F:Prowl.Runtime.PlaneIntersectionType.Intersecting
+  id: Intersecting
+  parent: Prowl.Runtime.PlaneIntersectionType
+  langs:
+  - csharp
+  - vb
+  name: Intersecting
+  nameWithType: PlaneIntersectionType.Intersecting
+  fullName: Prowl.Runtime.PlaneIntersectionType.Intersecting
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Plane.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Intersecting
+    path: ../Prowl/Prowl.Runtime/Math/Plane.cs
+    startLine: 42
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: Intersecting = 2
+    return:
+      type: Prowl.Runtime.PlaneIntersectionType
+references:
+- uid: Prowl.Runtime
+  commentId: N:Prowl.Runtime
+  href: Prowl.html
+  name: Prowl.Runtime
+  nameWithType: Prowl.Runtime
+  fullName: Prowl.Runtime
+  spec.csharp:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+  spec.vb:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+- uid: System.Object.Prowl.Runtime.RuntimeUtils.GetSerializableFields
+  commentId: M:Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  parent: Prowl.Runtime.RuntimeUtils
+  definition: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  name: GetSerializableFields(object)
+  nameWithType: RuntimeUtils.GetSerializableFields(object)
+  fullName: Prowl.Runtime.RuntimeUtils.GetSerializableFields(object)
+  nameWithType.vb: RuntimeUtils.GetSerializableFields(Object)
+  fullName.vb: Prowl.Runtime.RuntimeUtils.GetSerializableFields(Object)
+  name.vb: GetSerializableFields(Object)
+  spec.csharp:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  commentId: M:Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  isExternal: true
+  href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  name: GetSerializableFields(object)
+  nameWithType: RuntimeUtils.GetSerializableFields(object)
+  fullName: Prowl.Runtime.RuntimeUtils.GetSerializableFields(object)
+  nameWithType.vb: RuntimeUtils.GetSerializableFields(Object)
+  fullName.vb: Prowl.Runtime.RuntimeUtils.GetSerializableFields(Object)
+  name.vb: GetSerializableFields(Object)
+  spec.csharp:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: Prowl.Runtime.RuntimeUtils
+  commentId: T:Prowl.Runtime.RuntimeUtils
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.RuntimeUtils.html
+  name: RuntimeUtils
+  nameWithType: RuntimeUtils
+  fullName: Prowl.Runtime.RuntimeUtils
+- uid: Prowl.Runtime.PlaneIntersectionType
+  commentId: T:Prowl.Runtime.PlaneIntersectionType
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.PlaneIntersectionType.html
+  name: PlaneIntersectionType
+  nameWithType: PlaneIntersectionType
+  fullName: Prowl.Runtime.PlaneIntersectionType

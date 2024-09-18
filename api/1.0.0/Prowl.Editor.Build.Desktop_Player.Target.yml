@@ -1,0 +1,521 @@
+### YamlMime:ManagedReference
+items:
+- uid: Prowl.Editor.Build.Desktop_Player.Target
+  commentId: T:Prowl.Editor.Build.Desktop_Player.Target
+  id: Desktop_Player.Target
+  parent: Prowl.Editor.Build
+  children:
+  - Prowl.Editor.Build.Desktop_Player.Target.Universal
+  - Prowl.Editor.Build.Desktop_Player.Target.linux_x64
+  - Prowl.Editor.Build.Desktop_Player.Target.linux_x86
+  - Prowl.Editor.Build.Desktop_Player.Target.osx
+  - Prowl.Editor.Build.Desktop_Player.Target.osx_arm64
+  - Prowl.Editor.Build.Desktop_Player.Target.osx_x64
+  - Prowl.Editor.Build.Desktop_Player.Target.win_arm64
+  - Prowl.Editor.Build.Desktop_Player.Target.win_x64
+  - Prowl.Editor.Build.Desktop_Player.Target.win_x86
+  langs:
+  - csharp
+  - vb
+  name: Desktop_Player.Target
+  nameWithType: Desktop_Player.Target
+  fullName: Prowl.Editor.Build.Desktop_Player.Target
+  type: Enum
+  source:
+    remote:
+      path: Prowl.Editor/Build/Desktop_Player.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Target
+    path: ../Prowl/Prowl.Editor/Build/Desktop_Player.cs
+    startLine: 13
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor.Build
+  syntax:
+    content: public enum Desktop_Player.Target
+    content.vb: Public Enum Desktop_Player.Target
+  extensionMethods:
+  - System.Object.Prowl.Runtime.RuntimeUtils.GetSerializableFields
+- uid: Prowl.Editor.Build.Desktop_Player.Target.win_x64
+  commentId: F:Prowl.Editor.Build.Desktop_Player.Target.win_x64
+  id: win_x64
+  parent: Prowl.Editor.Build.Desktop_Player.Target
+  langs:
+  - csharp
+  - vb
+  name: win_x64
+  nameWithType: Desktop_Player.Target.win_x64
+  fullName: Prowl.Editor.Build.Desktop_Player.Target.win_x64
+  type: Field
+  source:
+    remote:
+      path: Prowl.Editor/Build/Desktop_Player.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: win_x64
+    path: ../Prowl/Prowl.Editor/Build/Desktop_Player.cs
+    startLine: 15
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor.Build
+  syntax:
+    content: >-
+      [Text("Win x64")]
+
+      win_x64 = 0
+    return:
+      type: Prowl.Editor.Build.Desktop_Player.Target
+    content.vb: >-
+      <Text("Win x64")>
+
+      win_x64 = 0
+  attributes:
+  - type: Prowl.Runtime.TextAttribute
+    ctor: Prowl.Runtime.TextAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Win x64
+- uid: Prowl.Editor.Build.Desktop_Player.Target.win_arm64
+  commentId: F:Prowl.Editor.Build.Desktop_Player.Target.win_arm64
+  id: win_arm64
+  parent: Prowl.Editor.Build.Desktop_Player.Target
+  langs:
+  - csharp
+  - vb
+  name: win_arm64
+  nameWithType: Desktop_Player.Target.win_arm64
+  fullName: Prowl.Editor.Build.Desktop_Player.Target.win_arm64
+  type: Field
+  source:
+    remote:
+      path: Prowl.Editor/Build/Desktop_Player.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: win_arm64
+    path: ../Prowl/Prowl.Editor/Build/Desktop_Player.cs
+    startLine: 16
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor.Build
+  syntax:
+    content: >-
+      [Text("Win ARM x64")]
+
+      win_arm64 = 1
+    return:
+      type: Prowl.Editor.Build.Desktop_Player.Target
+    content.vb: >-
+      <Text("Win ARM x64")>
+
+      win_arm64 = 1
+  attributes:
+  - type: Prowl.Runtime.TextAttribute
+    ctor: Prowl.Runtime.TextAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Win ARM x64
+- uid: Prowl.Editor.Build.Desktop_Player.Target.win_x86
+  commentId: F:Prowl.Editor.Build.Desktop_Player.Target.win_x86
+  id: win_x86
+  parent: Prowl.Editor.Build.Desktop_Player.Target
+  langs:
+  - csharp
+  - vb
+  name: win_x86
+  nameWithType: Desktop_Player.Target.win_x86
+  fullName: Prowl.Editor.Build.Desktop_Player.Target.win_x86
+  type: Field
+  source:
+    remote:
+      path: Prowl.Editor/Build/Desktop_Player.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: win_x86
+    path: ../Prowl/Prowl.Editor/Build/Desktop_Player.cs
+    startLine: 17
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor.Build
+  syntax:
+    content: >-
+      [Text("Win x86")]
+
+      win_x86 = 2
+    return:
+      type: Prowl.Editor.Build.Desktop_Player.Target
+    content.vb: >-
+      <Text("Win x86")>
+
+      win_x86 = 2
+  attributes:
+  - type: Prowl.Runtime.TextAttribute
+    ctor: Prowl.Runtime.TextAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Win x86
+- uid: Prowl.Editor.Build.Desktop_Player.Target.linux_x64
+  commentId: F:Prowl.Editor.Build.Desktop_Player.Target.linux_x64
+  id: linux_x64
+  parent: Prowl.Editor.Build.Desktop_Player.Target
+  langs:
+  - csharp
+  - vb
+  name: linux_x64
+  nameWithType: Desktop_Player.Target.linux_x64
+  fullName: Prowl.Editor.Build.Desktop_Player.Target.linux_x64
+  type: Field
+  source:
+    remote:
+      path: Prowl.Editor/Build/Desktop_Player.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: linux_x64
+    path: ../Prowl/Prowl.Editor/Build/Desktop_Player.cs
+    startLine: 19
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor.Build
+  syntax:
+    content: >-
+      [Text("Linux x64")]
+
+      linux_x64 = 3
+    return:
+      type: Prowl.Editor.Build.Desktop_Player.Target
+    content.vb: >-
+      <Text("Linux x64")>
+
+      linux_x64 = 3
+  attributes:
+  - type: Prowl.Runtime.TextAttribute
+    ctor: Prowl.Runtime.TextAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Linux x64
+- uid: Prowl.Editor.Build.Desktop_Player.Target.linux_x86
+  commentId: F:Prowl.Editor.Build.Desktop_Player.Target.linux_x86
+  id: linux_x86
+  parent: Prowl.Editor.Build.Desktop_Player.Target
+  langs:
+  - csharp
+  - vb
+  name: linux_x86
+  nameWithType: Desktop_Player.Target.linux_x86
+  fullName: Prowl.Editor.Build.Desktop_Player.Target.linux_x86
+  type: Field
+  source:
+    remote:
+      path: Prowl.Editor/Build/Desktop_Player.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: linux_x86
+    path: ../Prowl/Prowl.Editor/Build/Desktop_Player.cs
+    startLine: 20
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor.Build
+  syntax:
+    content: >-
+      [Text("Linux x86")]
+
+      linux_x86 = 4
+    return:
+      type: Prowl.Editor.Build.Desktop_Player.Target
+    content.vb: >-
+      <Text("Linux x86")>
+
+      linux_x86 = 4
+  attributes:
+  - type: Prowl.Runtime.TextAttribute
+    ctor: Prowl.Runtime.TextAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Linux x86
+- uid: Prowl.Editor.Build.Desktop_Player.Target.osx
+  commentId: F:Prowl.Editor.Build.Desktop_Player.Target.osx
+  id: osx
+  parent: Prowl.Editor.Build.Desktop_Player.Target
+  langs:
+  - csharp
+  - vb
+  name: osx
+  nameWithType: Desktop_Player.Target.osx
+  fullName: Prowl.Editor.Build.Desktop_Player.Target.osx
+  type: Field
+  source:
+    remote:
+      path: Prowl.Editor/Build/Desktop_Player.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: osx
+    path: ../Prowl/Prowl.Editor/Build/Desktop_Player.cs
+    startLine: 22
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor.Build
+  syntax:
+    content: >-
+      [Text("OSX")]
+
+      osx = 5
+    return:
+      type: Prowl.Editor.Build.Desktop_Player.Target
+    content.vb: >-
+      <Text("OSX")>
+
+      osx = 5
+  attributes:
+  - type: Prowl.Runtime.TextAttribute
+    ctor: Prowl.Runtime.TextAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: OSX
+- uid: Prowl.Editor.Build.Desktop_Player.Target.osx_x64
+  commentId: F:Prowl.Editor.Build.Desktop_Player.Target.osx_x64
+  id: osx_x64
+  parent: Prowl.Editor.Build.Desktop_Player.Target
+  langs:
+  - csharp
+  - vb
+  name: osx_x64
+  nameWithType: Desktop_Player.Target.osx_x64
+  fullName: Prowl.Editor.Build.Desktop_Player.Target.osx_x64
+  type: Field
+  source:
+    remote:
+      path: Prowl.Editor/Build/Desktop_Player.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: osx_x64
+    path: ../Prowl/Prowl.Editor/Build/Desktop_Player.cs
+    startLine: 23
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor.Build
+  syntax:
+    content: >-
+      [Text("OSX x64")]
+
+      osx_x64 = 6
+    return:
+      type: Prowl.Editor.Build.Desktop_Player.Target
+    content.vb: >-
+      <Text("OSX x64")>
+
+      osx_x64 = 6
+  attributes:
+  - type: Prowl.Runtime.TextAttribute
+    ctor: Prowl.Runtime.TextAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: OSX x64
+- uid: Prowl.Editor.Build.Desktop_Player.Target.osx_arm64
+  commentId: F:Prowl.Editor.Build.Desktop_Player.Target.osx_arm64
+  id: osx_arm64
+  parent: Prowl.Editor.Build.Desktop_Player.Target
+  langs:
+  - csharp
+  - vb
+  name: osx_arm64
+  nameWithType: Desktop_Player.Target.osx_arm64
+  fullName: Prowl.Editor.Build.Desktop_Player.Target.osx_arm64
+  type: Field
+  source:
+    remote:
+      path: Prowl.Editor/Build/Desktop_Player.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: osx_arm64
+    path: ../Prowl/Prowl.Editor/Build/Desktop_Player.cs
+    startLine: 24
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor.Build
+  syntax:
+    content: >-
+      [Text("OSX ARM x64")]
+
+      osx_arm64 = 7
+    return:
+      type: Prowl.Editor.Build.Desktop_Player.Target
+    content.vb: >-
+      <Text("OSX ARM x64")>
+
+      osx_arm64 = 7
+  attributes:
+  - type: Prowl.Runtime.TextAttribute
+    ctor: Prowl.Runtime.TextAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: OSX ARM x64
+- uid: Prowl.Editor.Build.Desktop_Player.Target.Universal
+  commentId: F:Prowl.Editor.Build.Desktop_Player.Target.Universal
+  id: Universal
+  parent: Prowl.Editor.Build.Desktop_Player.Target
+  langs:
+  - csharp
+  - vb
+  name: Universal
+  nameWithType: Desktop_Player.Target.Universal
+  fullName: Prowl.Editor.Build.Desktop_Player.Target.Universal
+  type: Field
+  source:
+    remote:
+      path: Prowl.Editor/Build/Desktop_Player.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Universal
+    path: ../Prowl/Prowl.Editor/Build/Desktop_Player.cs
+    startLine: 26
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor.Build
+  syntax:
+    content: Universal = 8
+    return:
+      type: Prowl.Editor.Build.Desktop_Player.Target
+references:
+- uid: Prowl.Editor.Build
+  commentId: N:Prowl.Editor.Build
+  href: Prowl.html
+  name: Prowl.Editor.Build
+  nameWithType: Prowl.Editor.Build
+  fullName: Prowl.Editor.Build
+  spec.csharp:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Editor
+    name: Editor
+    href: Prowl.Editor.html
+  - name: .
+  - uid: Prowl.Editor.Build
+    name: Build
+    href: Prowl.Editor.Build.html
+  spec.vb:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Editor
+    name: Editor
+    href: Prowl.Editor.html
+  - name: .
+  - uid: Prowl.Editor.Build
+    name: Build
+    href: Prowl.Editor.Build.html
+- uid: System.Object.Prowl.Runtime.RuntimeUtils.GetSerializableFields
+  commentId: M:Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  parent: Prowl.Runtime.RuntimeUtils
+  definition: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  name: GetSerializableFields(object)
+  nameWithType: RuntimeUtils.GetSerializableFields(object)
+  fullName: Prowl.Runtime.RuntimeUtils.GetSerializableFields(object)
+  nameWithType.vb: RuntimeUtils.GetSerializableFields(Object)
+  fullName.vb: Prowl.Runtime.RuntimeUtils.GetSerializableFields(Object)
+  name.vb: GetSerializableFields(Object)
+  spec.csharp:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  commentId: M:Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  isExternal: true
+  href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  name: GetSerializableFields(object)
+  nameWithType: RuntimeUtils.GetSerializableFields(object)
+  fullName: Prowl.Runtime.RuntimeUtils.GetSerializableFields(object)
+  nameWithType.vb: RuntimeUtils.GetSerializableFields(Object)
+  fullName.vb: Prowl.Runtime.RuntimeUtils.GetSerializableFields(Object)
+  name.vb: GetSerializableFields(Object)
+  spec.csharp:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: Prowl.Runtime.RuntimeUtils
+  commentId: T:Prowl.Runtime.RuntimeUtils
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.RuntimeUtils.html
+  name: RuntimeUtils
+  nameWithType: RuntimeUtils
+  fullName: Prowl.Runtime.RuntimeUtils
+- uid: Prowl.Runtime
+  commentId: N:Prowl.Runtime
+  href: Prowl.html
+  name: Prowl.Runtime
+  nameWithType: Prowl.Runtime
+  fullName: Prowl.Runtime
+  spec.csharp:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+  spec.vb:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+- uid: Prowl.Editor.Build.Desktop_Player.Target
+  commentId: T:Prowl.Editor.Build.Desktop_Player.Target
+  parent: Prowl.Editor.Build
+  href: Prowl.Editor.Build.Desktop_Player.html
+  name: Desktop_Player.Target
+  nameWithType: Desktop_Player.Target
+  fullName: Prowl.Editor.Build.Desktop_Player.Target
+  spec.csharp:
+  - uid: Prowl.Editor.Build.Desktop_Player
+    name: Desktop_Player
+    href: Prowl.Editor.Build.Desktop_Player.html
+  - name: .
+  - uid: Prowl.Editor.Build.Desktop_Player.Target
+    name: Target
+    href: Prowl.Editor.Build.Desktop_Player.Target.html
+  spec.vb:
+  - uid: Prowl.Editor.Build.Desktop_Player
+    name: Desktop_Player
+    href: Prowl.Editor.Build.Desktop_Player.html
+  - name: .
+  - uid: Prowl.Editor.Build.Desktop_Player.Target
+    name: Target
+    href: Prowl.Editor.Build.Desktop_Player.Target.html

@@ -1,0 +1,901 @@
+### YamlMime:ManagedReference
+items:
+- uid: Prowl.Runtime.NavMeshSurface.BuildSettings
+  commentId: T:Prowl.Runtime.NavMeshSurface.BuildSettings
+  id: NavMeshSurface.BuildSettings
+  parent: Prowl.Runtime
+  children:
+  - Prowl.Runtime.NavMeshSurface.BuildSettings.#ctor
+  - Prowl.Runtime.NavMeshSurface.BuildSettings.ToRC
+  - Prowl.Runtime.NavMeshSurface.BuildSettings.agentHeight
+  - Prowl.Runtime.NavMeshSurface.BuildSettings.agentMaxAcceleration
+  - Prowl.Runtime.NavMeshSurface.BuildSettings.agentMaxClimb
+  - Prowl.Runtime.NavMeshSurface.BuildSettings.agentMaxSlope
+  - Prowl.Runtime.NavMeshSurface.BuildSettings.agentMaxSpeed
+  - Prowl.Runtime.NavMeshSurface.BuildSettings.agentRadius
+  - Prowl.Runtime.NavMeshSurface.BuildSettings.cellHeight
+  - Prowl.Runtime.NavMeshSurface.BuildSettings.cellSize
+  - Prowl.Runtime.NavMeshSurface.BuildSettings.filterLedgeSpans
+  - Prowl.Runtime.NavMeshSurface.BuildSettings.filterLowHangingObstacles
+  - Prowl.Runtime.NavMeshSurface.BuildSettings.filterWalkableLowHeightSpans
+  - Prowl.Runtime.NavMeshSurface.BuildSettings.mergedRegionSize
+  - Prowl.Runtime.NavMeshSurface.BuildSettings.minRegionSize
+  - Prowl.Runtime.NavMeshSurface.BuildSettings.tileSize
+  - Prowl.Runtime.NavMeshSurface.BuildSettings.tiled
+  langs:
+  - csharp
+  - vb
+  name: NavMeshSurface.BuildSettings
+  nameWithType: NavMeshSurface.BuildSettings
+  fullName: Prowl.Runtime.NavMeshSurface.BuildSettings
+  type: Struct
+  source:
+    remote:
+      path: Prowl.Runtime/Components/Navmesh/NavMeshSurface.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: BuildSettings
+    path: ../Prowl/Prowl.Runtime/Components/Navmesh/NavMeshSurface.cs
+    startLine: 454
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public struct NavMeshSurface.BuildSettings
+    content.vb: Public Structure NavMeshSurface.BuildSettings
+  inheritedMembers:
+  - System.ValueType.Equals(System.Object)
+  - System.ValueType.GetHashCode
+  - System.ValueType.ToString
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  extensionMethods:
+  - System.Object.Prowl.Runtime.RuntimeUtils.GetSerializableFields
+- uid: Prowl.Runtime.NavMeshSurface.BuildSettings.cellSize
+  commentId: F:Prowl.Runtime.NavMeshSurface.BuildSettings.cellSize
+  id: cellSize
+  parent: Prowl.Runtime.NavMeshSurface.BuildSettings
+  langs:
+  - csharp
+  - vb
+  name: cellSize
+  nameWithType: NavMeshSurface.BuildSettings.cellSize
+  fullName: Prowl.Runtime.NavMeshSurface.BuildSettings.cellSize
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/Components/Navmesh/NavMeshSurface.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: cellSize
+    path: ../Prowl/Prowl.Runtime/Components/Navmesh/NavMeshSurface.cs
+    startLine: 456
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public float cellSize
+    return:
+      type: System.Single
+    content.vb: Public cellSize As Single
+- uid: Prowl.Runtime.NavMeshSurface.BuildSettings.cellHeight
+  commentId: F:Prowl.Runtime.NavMeshSurface.BuildSettings.cellHeight
+  id: cellHeight
+  parent: Prowl.Runtime.NavMeshSurface.BuildSettings
+  langs:
+  - csharp
+  - vb
+  name: cellHeight
+  nameWithType: NavMeshSurface.BuildSettings.cellHeight
+  fullName: Prowl.Runtime.NavMeshSurface.BuildSettings.cellHeight
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/Components/Navmesh/NavMeshSurface.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: cellHeight
+    path: ../Prowl/Prowl.Runtime/Components/Navmesh/NavMeshSurface.cs
+    startLine: 457
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public float cellHeight
+    return:
+      type: System.Single
+    content.vb: Public cellHeight As Single
+- uid: Prowl.Runtime.NavMeshSurface.BuildSettings.agentHeight
+  commentId: F:Prowl.Runtime.NavMeshSurface.BuildSettings.agentHeight
+  id: agentHeight
+  parent: Prowl.Runtime.NavMeshSurface.BuildSettings
+  langs:
+  - csharp
+  - vb
+  name: agentHeight
+  nameWithType: NavMeshSurface.BuildSettings.agentHeight
+  fullName: Prowl.Runtime.NavMeshSurface.BuildSettings.agentHeight
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/Components/Navmesh/NavMeshSurface.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: agentHeight
+    path: ../Prowl/Prowl.Runtime/Components/Navmesh/NavMeshSurface.cs
+    startLine: 459
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public float agentHeight
+    return:
+      type: System.Single
+    content.vb: Public agentHeight As Single
+- uid: Prowl.Runtime.NavMeshSurface.BuildSettings.agentRadius
+  commentId: F:Prowl.Runtime.NavMeshSurface.BuildSettings.agentRadius
+  id: agentRadius
+  parent: Prowl.Runtime.NavMeshSurface.BuildSettings
+  langs:
+  - csharp
+  - vb
+  name: agentRadius
+  nameWithType: NavMeshSurface.BuildSettings.agentRadius
+  fullName: Prowl.Runtime.NavMeshSurface.BuildSettings.agentRadius
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/Components/Navmesh/NavMeshSurface.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: agentRadius
+    path: ../Prowl/Prowl.Runtime/Components/Navmesh/NavMeshSurface.cs
+    startLine: 460
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public float agentRadius
+    return:
+      type: System.Single
+    content.vb: Public agentRadius As Single
+- uid: Prowl.Runtime.NavMeshSurface.BuildSettings.agentMaxClimb
+  commentId: F:Prowl.Runtime.NavMeshSurface.BuildSettings.agentMaxClimb
+  id: agentMaxClimb
+  parent: Prowl.Runtime.NavMeshSurface.BuildSettings
+  langs:
+  - csharp
+  - vb
+  name: agentMaxClimb
+  nameWithType: NavMeshSurface.BuildSettings.agentMaxClimb
+  fullName: Prowl.Runtime.NavMeshSurface.BuildSettings.agentMaxClimb
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/Components/Navmesh/NavMeshSurface.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: agentMaxClimb
+    path: ../Prowl/Prowl.Runtime/Components/Navmesh/NavMeshSurface.cs
+    startLine: 461
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public float agentMaxClimb
+    return:
+      type: System.Single
+    content.vb: Public agentMaxClimb As Single
+- uid: Prowl.Runtime.NavMeshSurface.BuildSettings.agentMaxSlope
+  commentId: F:Prowl.Runtime.NavMeshSurface.BuildSettings.agentMaxSlope
+  id: agentMaxSlope
+  parent: Prowl.Runtime.NavMeshSurface.BuildSettings
+  langs:
+  - csharp
+  - vb
+  name: agentMaxSlope
+  nameWithType: NavMeshSurface.BuildSettings.agentMaxSlope
+  fullName: Prowl.Runtime.NavMeshSurface.BuildSettings.agentMaxSlope
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/Components/Navmesh/NavMeshSurface.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: agentMaxSlope
+    path: ../Prowl/Prowl.Runtime/Components/Navmesh/NavMeshSurface.cs
+    startLine: 462
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public float agentMaxSlope
+    return:
+      type: System.Single
+    content.vb: Public agentMaxSlope As Single
+- uid: Prowl.Runtime.NavMeshSurface.BuildSettings.agentMaxAcceleration
+  commentId: F:Prowl.Runtime.NavMeshSurface.BuildSettings.agentMaxAcceleration
+  id: agentMaxAcceleration
+  parent: Prowl.Runtime.NavMeshSurface.BuildSettings
+  langs:
+  - csharp
+  - vb
+  name: agentMaxAcceleration
+  nameWithType: NavMeshSurface.BuildSettings.agentMaxAcceleration
+  fullName: Prowl.Runtime.NavMeshSurface.BuildSettings.agentMaxAcceleration
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/Components/Navmesh/NavMeshSurface.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: agentMaxAcceleration
+    path: ../Prowl/Prowl.Runtime/Components/Navmesh/NavMeshSurface.cs
+    startLine: 463
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public float agentMaxAcceleration
+    return:
+      type: System.Single
+    content.vb: Public agentMaxAcceleration As Single
+- uid: Prowl.Runtime.NavMeshSurface.BuildSettings.agentMaxSpeed
+  commentId: F:Prowl.Runtime.NavMeshSurface.BuildSettings.agentMaxSpeed
+  id: agentMaxSpeed
+  parent: Prowl.Runtime.NavMeshSurface.BuildSettings
+  langs:
+  - csharp
+  - vb
+  name: agentMaxSpeed
+  nameWithType: NavMeshSurface.BuildSettings.agentMaxSpeed
+  fullName: Prowl.Runtime.NavMeshSurface.BuildSettings.agentMaxSpeed
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/Components/Navmesh/NavMeshSurface.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: agentMaxSpeed
+    path: ../Prowl/Prowl.Runtime/Components/Navmesh/NavMeshSurface.cs
+    startLine: 464
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public float agentMaxSpeed
+    return:
+      type: System.Single
+    content.vb: Public agentMaxSpeed As Single
+- uid: Prowl.Runtime.NavMeshSurface.BuildSettings.minRegionSize
+  commentId: F:Prowl.Runtime.NavMeshSurface.BuildSettings.minRegionSize
+  id: minRegionSize
+  parent: Prowl.Runtime.NavMeshSurface.BuildSettings
+  langs:
+  - csharp
+  - vb
+  name: minRegionSize
+  nameWithType: NavMeshSurface.BuildSettings.minRegionSize
+  fullName: Prowl.Runtime.NavMeshSurface.BuildSettings.minRegionSize
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/Components/Navmesh/NavMeshSurface.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: minRegionSize
+    path: ../Prowl/Prowl.Runtime/Components/Navmesh/NavMeshSurface.cs
+    startLine: 466
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public int minRegionSize
+    return:
+      type: System.Int32
+    content.vb: Public minRegionSize As Integer
+- uid: Prowl.Runtime.NavMeshSurface.BuildSettings.mergedRegionSize
+  commentId: F:Prowl.Runtime.NavMeshSurface.BuildSettings.mergedRegionSize
+  id: mergedRegionSize
+  parent: Prowl.Runtime.NavMeshSurface.BuildSettings
+  langs:
+  - csharp
+  - vb
+  name: mergedRegionSize
+  nameWithType: NavMeshSurface.BuildSettings.mergedRegionSize
+  fullName: Prowl.Runtime.NavMeshSurface.BuildSettings.mergedRegionSize
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/Components/Navmesh/NavMeshSurface.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: mergedRegionSize
+    path: ../Prowl/Prowl.Runtime/Components/Navmesh/NavMeshSurface.cs
+    startLine: 467
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public int mergedRegionSize
+    return:
+      type: System.Int32
+    content.vb: Public mergedRegionSize As Integer
+- uid: Prowl.Runtime.NavMeshSurface.BuildSettings.filterLowHangingObstacles
+  commentId: F:Prowl.Runtime.NavMeshSurface.BuildSettings.filterLowHangingObstacles
+  id: filterLowHangingObstacles
+  parent: Prowl.Runtime.NavMeshSurface.BuildSettings
+  langs:
+  - csharp
+  - vb
+  name: filterLowHangingObstacles
+  nameWithType: NavMeshSurface.BuildSettings.filterLowHangingObstacles
+  fullName: Prowl.Runtime.NavMeshSurface.BuildSettings.filterLowHangingObstacles
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/Components/Navmesh/NavMeshSurface.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: filterLowHangingObstacles
+    path: ../Prowl/Prowl.Runtime/Components/Navmesh/NavMeshSurface.cs
+    startLine: 469
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public bool filterLowHangingObstacles
+    return:
+      type: System.Boolean
+    content.vb: Public filterLowHangingObstacles As Boolean
+- uid: Prowl.Runtime.NavMeshSurface.BuildSettings.filterLedgeSpans
+  commentId: F:Prowl.Runtime.NavMeshSurface.BuildSettings.filterLedgeSpans
+  id: filterLedgeSpans
+  parent: Prowl.Runtime.NavMeshSurface.BuildSettings
+  langs:
+  - csharp
+  - vb
+  name: filterLedgeSpans
+  nameWithType: NavMeshSurface.BuildSettings.filterLedgeSpans
+  fullName: Prowl.Runtime.NavMeshSurface.BuildSettings.filterLedgeSpans
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/Components/Navmesh/NavMeshSurface.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: filterLedgeSpans
+    path: ../Prowl/Prowl.Runtime/Components/Navmesh/NavMeshSurface.cs
+    startLine: 470
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public bool filterLedgeSpans
+    return:
+      type: System.Boolean
+    content.vb: Public filterLedgeSpans As Boolean
+- uid: Prowl.Runtime.NavMeshSurface.BuildSettings.filterWalkableLowHeightSpans
+  commentId: F:Prowl.Runtime.NavMeshSurface.BuildSettings.filterWalkableLowHeightSpans
+  id: filterWalkableLowHeightSpans
+  parent: Prowl.Runtime.NavMeshSurface.BuildSettings
+  langs:
+  - csharp
+  - vb
+  name: filterWalkableLowHeightSpans
+  nameWithType: NavMeshSurface.BuildSettings.filterWalkableLowHeightSpans
+  fullName: Prowl.Runtime.NavMeshSurface.BuildSettings.filterWalkableLowHeightSpans
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/Components/Navmesh/NavMeshSurface.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: filterWalkableLowHeightSpans
+    path: ../Prowl/Prowl.Runtime/Components/Navmesh/NavMeshSurface.cs
+    startLine: 471
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public bool filterWalkableLowHeightSpans
+    return:
+      type: System.Boolean
+    content.vb: Public filterWalkableLowHeightSpans As Boolean
+- uid: Prowl.Runtime.NavMeshSurface.BuildSettings.tiled
+  commentId: F:Prowl.Runtime.NavMeshSurface.BuildSettings.tiled
+  id: tiled
+  parent: Prowl.Runtime.NavMeshSurface.BuildSettings
+  langs:
+  - csharp
+  - vb
+  name: tiled
+  nameWithType: NavMeshSurface.BuildSettings.tiled
+  fullName: Prowl.Runtime.NavMeshSurface.BuildSettings.tiled
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/Components/Navmesh/NavMeshSurface.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: tiled
+    path: ../Prowl/Prowl.Runtime/Components/Navmesh/NavMeshSurface.cs
+    startLine: 473
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public bool tiled
+    return:
+      type: System.Boolean
+    content.vb: Public tiled As Boolean
+- uid: Prowl.Runtime.NavMeshSurface.BuildSettings.tileSize
+  commentId: F:Prowl.Runtime.NavMeshSurface.BuildSettings.tileSize
+  id: tileSize
+  parent: Prowl.Runtime.NavMeshSurface.BuildSettings
+  langs:
+  - csharp
+  - vb
+  name: tileSize
+  nameWithType: NavMeshSurface.BuildSettings.tileSize
+  fullName: Prowl.Runtime.NavMeshSurface.BuildSettings.tileSize
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/Components/Navmesh/NavMeshSurface.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: tileSize
+    path: ../Prowl/Prowl.Runtime/Components/Navmesh/NavMeshSurface.cs
+    startLine: 474
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public int tileSize
+    return:
+      type: System.Int32
+    content.vb: Public tileSize As Integer
+- uid: Prowl.Runtime.NavMeshSurface.BuildSettings.#ctor
+  commentId: M:Prowl.Runtime.NavMeshSurface.BuildSettings.#ctor
+  id: '#ctor'
+  parent: Prowl.Runtime.NavMeshSurface.BuildSettings
+  langs:
+  - csharp
+  - vb
+  name: BuildSettings()
+  nameWithType: NavMeshSurface.BuildSettings.BuildSettings()
+  fullName: Prowl.Runtime.NavMeshSurface.BuildSettings.BuildSettings()
+  type: Constructor
+  source:
+    remote:
+      path: Prowl.Runtime/Components/Navmesh/NavMeshSurface.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: .ctor
+    path: ../Prowl/Prowl.Runtime/Components/Navmesh/NavMeshSurface.cs
+    startLine: 476
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public BuildSettings()
+    content.vb: Public Sub New()
+  overload: Prowl.Runtime.NavMeshSurface.BuildSettings.#ctor*
+  nameWithType.vb: NavMeshSurface.BuildSettings.New()
+  fullName.vb: Prowl.Runtime.NavMeshSurface.BuildSettings.New()
+  name.vb: New()
+- uid: Prowl.Runtime.NavMeshSurface.BuildSettings.ToRC
+  commentId: M:Prowl.Runtime.NavMeshSurface.BuildSettings.ToRC
+  id: ToRC
+  parent: Prowl.Runtime.NavMeshSurface.BuildSettings
+  langs:
+  - csharp
+  - vb
+  name: ToRC()
+  nameWithType: NavMeshSurface.BuildSettings.ToRC()
+  fullName: Prowl.Runtime.NavMeshSurface.BuildSettings.ToRC()
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Components/Navmesh/NavMeshSurface.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: ToRC
+    path: ../Prowl/Prowl.Runtime/Components/Navmesh/NavMeshSurface.cs
+    startLine: 499
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public RcNavMeshBuildSettings ToRC()
+    return:
+      type: DotRecast.Recast.Toolset.RcNavMeshBuildSettings
+    content.vb: Public Function ToRC() As RcNavMeshBuildSettings
+  overload: Prowl.Runtime.NavMeshSurface.BuildSettings.ToRC*
+references:
+- uid: Prowl.Runtime
+  commentId: N:Prowl.Runtime
+  href: Prowl.html
+  name: Prowl.Runtime
+  nameWithType: Prowl.Runtime
+  fullName: Prowl.Runtime
+  spec.csharp:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+  spec.vb:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  name: Equals(object)
+  nameWithType: ValueType.Equals(object)
+  fullName: System.ValueType.Equals(object)
+  nameWithType.vb: ValueType.Equals(Object)
+  fullName.vb: System.ValueType.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Prowl.Runtime.RuntimeUtils.GetSerializableFields
+  commentId: M:Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  parent: Prowl.Runtime.RuntimeUtils
+  definition: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  name: GetSerializableFields(object)
+  nameWithType: RuntimeUtils.GetSerializableFields(object)
+  fullName: Prowl.Runtime.RuntimeUtils.GetSerializableFields(object)
+  nameWithType.vb: RuntimeUtils.GetSerializableFields(Object)
+  fullName.vb: Prowl.Runtime.RuntimeUtils.GetSerializableFields(Object)
+  name.vb: GetSerializableFields(Object)
+  spec.csharp:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  commentId: M:Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  isExternal: true
+  href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  name: GetSerializableFields(object)
+  nameWithType: RuntimeUtils.GetSerializableFields(object)
+  fullName: Prowl.Runtime.RuntimeUtils.GetSerializableFields(object)
+  nameWithType.vb: RuntimeUtils.GetSerializableFields(Object)
+  fullName.vb: Prowl.Runtime.RuntimeUtils.GetSerializableFields(Object)
+  name.vb: GetSerializableFields(Object)
+  spec.csharp:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: Prowl.Runtime.RuntimeUtils
+  commentId: T:Prowl.Runtime.RuntimeUtils
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.RuntimeUtils.html
+  name: RuntimeUtils
+  nameWithType: RuntimeUtils
+  fullName: Prowl.Runtime.RuntimeUtils
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.single
+  name: float
+  nameWithType: float
+  fullName: float
+  nameWithType.vb: Single
+  fullName.vb: Single
+  name.vb: Single
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: Prowl.Runtime.NavMeshSurface.BuildSettings.#ctor*
+  commentId: Overload:Prowl.Runtime.NavMeshSurface.BuildSettings.#ctor
+  href: Prowl.Runtime.NavMeshSurface.BuildSettings.html#Prowl_Runtime_NavMeshSurface_BuildSettings__ctor
+  name: BuildSettings
+  nameWithType: NavMeshSurface.BuildSettings.BuildSettings
+  fullName: Prowl.Runtime.NavMeshSurface.BuildSettings.BuildSettings
+  nameWithType.vb: NavMeshSurface.BuildSettings.New
+  fullName.vb: Prowl.Runtime.NavMeshSurface.BuildSettings.New
+  name.vb: New
+- uid: Prowl.Runtime.NavMeshSurface.BuildSettings.ToRC*
+  commentId: Overload:Prowl.Runtime.NavMeshSurface.BuildSettings.ToRC
+  href: Prowl.Runtime.NavMeshSurface.BuildSettings.html#Prowl_Runtime_NavMeshSurface_BuildSettings_ToRC
+  name: ToRC
+  nameWithType: NavMeshSurface.BuildSettings.ToRC
+  fullName: Prowl.Runtime.NavMeshSurface.BuildSettings.ToRC
+- uid: DotRecast.Recast.Toolset.RcNavMeshBuildSettings
+  commentId: T:DotRecast.Recast.Toolset.RcNavMeshBuildSettings
+  parent: DotRecast.Recast.Toolset
+  name: RcNavMeshBuildSettings
+  nameWithType: RcNavMeshBuildSettings
+  fullName: DotRecast.Recast.Toolset.RcNavMeshBuildSettings
+- uid: DotRecast.Recast.Toolset
+  commentId: N:DotRecast.Recast.Toolset
+  name: DotRecast.Recast.Toolset
+  nameWithType: DotRecast.Recast.Toolset
+  fullName: DotRecast.Recast.Toolset
+  spec.csharp:
+  - uid: DotRecast
+    name: DotRecast
+  - name: .
+  - uid: DotRecast.Recast
+    name: Recast
+  - name: .
+  - uid: DotRecast.Recast.Toolset
+    name: Toolset
+  spec.vb:
+  - uid: DotRecast
+    name: DotRecast
+  - name: .
+  - uid: DotRecast.Recast
+    name: Recast
+  - name: .
+  - uid: DotRecast.Recast.Toolset
+    name: Toolset

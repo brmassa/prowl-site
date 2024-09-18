@@ -1,0 +1,392 @@
+### YamlMime:ManagedReference
+items:
+- uid: Prowl.Editor.EditorGUI.PropertyGridConfig
+  commentId: T:Prowl.Editor.EditorGUI.PropertyGridConfig
+  id: EditorGUI.PropertyGridConfig
+  parent: Prowl.Editor
+  children:
+  - Prowl.Editor.EditorGUI.PropertyGridConfig.Debug
+  - Prowl.Editor.EditorGUI.PropertyGridConfig.NoBackground
+  - Prowl.Editor.EditorGUI.PropertyGridConfig.NoBorder
+  - Prowl.Editor.EditorGUI.PropertyGridConfig.NoCollapse
+  - Prowl.Editor.EditorGUI.PropertyGridConfig.NoHeader
+  - Prowl.Editor.EditorGUI.PropertyGridConfig.NoLabel
+  - Prowl.Editor.EditorGUI.PropertyGridConfig.NoTooltip
+  - Prowl.Editor.EditorGUI.PropertyGridConfig.None
+  langs:
+  - csharp
+  - vb
+  name: EditorGUI.PropertyGridConfig
+  nameWithType: EditorGUI.PropertyGridConfig
+  fullName: Prowl.Editor.EditorGUI.PropertyGridConfig
+  type: Enum
+  source:
+    remote:
+      path: Prowl.Editor/Editor/EditorGUI.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: PropertyGridConfig
+    path: ../Prowl/Prowl.Editor/Editor/EditorGUI.cs
+    startLine: 203
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor
+  syntax:
+    content: >-
+      [Flags]
+
+      public enum EditorGUI.PropertyGridConfig
+    content.vb: >-
+      <Flags>
+
+      Public Enum EditorGUI.PropertyGridConfig
+  extensionMethods:
+  - System.Object.Prowl.Runtime.RuntimeUtils.GetSerializableFields
+  attributes:
+  - type: System.FlagsAttribute
+    ctor: System.FlagsAttribute.#ctor
+    arguments: []
+- uid: Prowl.Editor.EditorGUI.PropertyGridConfig.None
+  commentId: F:Prowl.Editor.EditorGUI.PropertyGridConfig.None
+  id: None
+  parent: Prowl.Editor.EditorGUI.PropertyGridConfig
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: EditorGUI.PropertyGridConfig.None
+  fullName: Prowl.Editor.EditorGUI.PropertyGridConfig.None
+  type: Field
+  source:
+    remote:
+      path: Prowl.Editor/Editor/EditorGUI.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: None
+    path: ../Prowl/Prowl.Editor/Editor/EditorGUI.cs
+    startLine: 206
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor
+  syntax:
+    content: None = 0
+    return:
+      type: Prowl.Editor.EditorGUI.PropertyGridConfig
+- uid: Prowl.Editor.EditorGUI.PropertyGridConfig.NoHeader
+  commentId: F:Prowl.Editor.EditorGUI.PropertyGridConfig.NoHeader
+  id: NoHeader
+  parent: Prowl.Editor.EditorGUI.PropertyGridConfig
+  langs:
+  - csharp
+  - vb
+  name: NoHeader
+  nameWithType: EditorGUI.PropertyGridConfig.NoHeader
+  fullName: Prowl.Editor.EditorGUI.PropertyGridConfig.NoHeader
+  type: Field
+  source:
+    remote:
+      path: Prowl.Editor/Editor/EditorGUI.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: NoHeader
+    path: ../Prowl/Prowl.Editor/Editor/EditorGUI.cs
+    startLine: 207
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor
+  syntax:
+    content: NoHeader = 1
+    return:
+      type: Prowl.Editor.EditorGUI.PropertyGridConfig
+- uid: Prowl.Editor.EditorGUI.PropertyGridConfig.NoLabel
+  commentId: F:Prowl.Editor.EditorGUI.PropertyGridConfig.NoLabel
+  id: NoLabel
+  parent: Prowl.Editor.EditorGUI.PropertyGridConfig
+  langs:
+  - csharp
+  - vb
+  name: NoLabel
+  nameWithType: EditorGUI.PropertyGridConfig.NoLabel
+  fullName: Prowl.Editor.EditorGUI.PropertyGridConfig.NoLabel
+  type: Field
+  source:
+    remote:
+      path: Prowl.Editor/Editor/EditorGUI.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: NoLabel
+    path: ../Prowl/Prowl.Editor/Editor/EditorGUI.cs
+    startLine: 208
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor
+  syntax:
+    content: NoLabel = 2
+    return:
+      type: Prowl.Editor.EditorGUI.PropertyGridConfig
+- uid: Prowl.Editor.EditorGUI.PropertyGridConfig.NoTooltip
+  commentId: F:Prowl.Editor.EditorGUI.PropertyGridConfig.NoTooltip
+  id: NoTooltip
+  parent: Prowl.Editor.EditorGUI.PropertyGridConfig
+  langs:
+  - csharp
+  - vb
+  name: NoTooltip
+  nameWithType: EditorGUI.PropertyGridConfig.NoTooltip
+  fullName: Prowl.Editor.EditorGUI.PropertyGridConfig.NoTooltip
+  type: Field
+  source:
+    remote:
+      path: Prowl.Editor/Editor/EditorGUI.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: NoTooltip
+    path: ../Prowl/Prowl.Editor/Editor/EditorGUI.cs
+    startLine: 209
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor
+  syntax:
+    content: NoTooltip = 4
+    return:
+      type: Prowl.Editor.EditorGUI.PropertyGridConfig
+- uid: Prowl.Editor.EditorGUI.PropertyGridConfig.NoBorder
+  commentId: F:Prowl.Editor.EditorGUI.PropertyGridConfig.NoBorder
+  id: NoBorder
+  parent: Prowl.Editor.EditorGUI.PropertyGridConfig
+  langs:
+  - csharp
+  - vb
+  name: NoBorder
+  nameWithType: EditorGUI.PropertyGridConfig.NoBorder
+  fullName: Prowl.Editor.EditorGUI.PropertyGridConfig.NoBorder
+  type: Field
+  source:
+    remote:
+      path: Prowl.Editor/Editor/EditorGUI.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: NoBorder
+    path: ../Prowl/Prowl.Editor/Editor/EditorGUI.cs
+    startLine: 210
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor
+  syntax:
+    content: NoBorder = 8
+    return:
+      type: Prowl.Editor.EditorGUI.PropertyGridConfig
+- uid: Prowl.Editor.EditorGUI.PropertyGridConfig.NoBackground
+  commentId: F:Prowl.Editor.EditorGUI.PropertyGridConfig.NoBackground
+  id: NoBackground
+  parent: Prowl.Editor.EditorGUI.PropertyGridConfig
+  langs:
+  - csharp
+  - vb
+  name: NoBackground
+  nameWithType: EditorGUI.PropertyGridConfig.NoBackground
+  fullName: Prowl.Editor.EditorGUI.PropertyGridConfig.NoBackground
+  type: Field
+  source:
+    remote:
+      path: Prowl.Editor/Editor/EditorGUI.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: NoBackground
+    path: ../Prowl/Prowl.Editor/Editor/EditorGUI.cs
+    startLine: 211
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor
+  syntax:
+    content: NoBackground = 16
+    return:
+      type: Prowl.Editor.EditorGUI.PropertyGridConfig
+- uid: Prowl.Editor.EditorGUI.PropertyGridConfig.NoCollapse
+  commentId: F:Prowl.Editor.EditorGUI.PropertyGridConfig.NoCollapse
+  id: NoCollapse
+  parent: Prowl.Editor.EditorGUI.PropertyGridConfig
+  langs:
+  - csharp
+  - vb
+  name: NoCollapse
+  nameWithType: EditorGUI.PropertyGridConfig.NoCollapse
+  fullName: Prowl.Editor.EditorGUI.PropertyGridConfig.NoCollapse
+  type: Field
+  source:
+    remote:
+      path: Prowl.Editor/Editor/EditorGUI.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: NoCollapse
+    path: ../Prowl/Prowl.Editor/Editor/EditorGUI.cs
+    startLine: 212
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor
+  syntax:
+    content: NoCollapse = 64
+    return:
+      type: Prowl.Editor.EditorGUI.PropertyGridConfig
+- uid: Prowl.Editor.EditorGUI.PropertyGridConfig.Debug
+  commentId: F:Prowl.Editor.EditorGUI.PropertyGridConfig.Debug
+  id: Debug
+  parent: Prowl.Editor.EditorGUI.PropertyGridConfig
+  langs:
+  - csharp
+  - vb
+  name: Debug
+  nameWithType: EditorGUI.PropertyGridConfig.Debug
+  fullName: Prowl.Editor.EditorGUI.PropertyGridConfig.Debug
+  type: Field
+  source:
+    remote:
+      path: Prowl.Editor/Editor/EditorGUI.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Debug
+    path: ../Prowl/Prowl.Editor/Editor/EditorGUI.cs
+    startLine: 214
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor
+  syntax:
+    content: Debug = 128
+    return:
+      type: Prowl.Editor.EditorGUI.PropertyGridConfig
+references:
+- uid: Prowl.Editor
+  commentId: N:Prowl.Editor
+  href: Prowl.html
+  name: Prowl.Editor
+  nameWithType: Prowl.Editor
+  fullName: Prowl.Editor
+  spec.csharp:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Editor
+    name: Editor
+    href: Prowl.Editor.html
+  spec.vb:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Editor
+    name: Editor
+    href: Prowl.Editor.html
+- uid: System.Object.Prowl.Runtime.RuntimeUtils.GetSerializableFields
+  commentId: M:Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  parent: Prowl.Runtime.RuntimeUtils
+  definition: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  name: GetSerializableFields(object)
+  nameWithType: RuntimeUtils.GetSerializableFields(object)
+  fullName: Prowl.Runtime.RuntimeUtils.GetSerializableFields(object)
+  nameWithType.vb: RuntimeUtils.GetSerializableFields(Object)
+  fullName.vb: Prowl.Runtime.RuntimeUtils.GetSerializableFields(Object)
+  name.vb: GetSerializableFields(Object)
+  spec.csharp:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  commentId: M:Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  isExternal: true
+  href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  name: GetSerializableFields(object)
+  nameWithType: RuntimeUtils.GetSerializableFields(object)
+  fullName: Prowl.Runtime.RuntimeUtils.GetSerializableFields(object)
+  nameWithType.vb: RuntimeUtils.GetSerializableFields(Object)
+  fullName.vb: Prowl.Runtime.RuntimeUtils.GetSerializableFields(Object)
+  name.vb: GetSerializableFields(Object)
+  spec.csharp:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: Prowl.Runtime.RuntimeUtils
+  commentId: T:Prowl.Runtime.RuntimeUtils
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.RuntimeUtils.html
+  name: RuntimeUtils
+  nameWithType: RuntimeUtils
+  fullName: Prowl.Runtime.RuntimeUtils
+- uid: Prowl.Runtime
+  commentId: N:Prowl.Runtime
+  href: Prowl.html
+  name: Prowl.Runtime
+  nameWithType: Prowl.Runtime
+  fullName: Prowl.Runtime
+  spec.csharp:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+  spec.vb:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+- uid: Prowl.Editor.EditorGUI.PropertyGridConfig
+  commentId: T:Prowl.Editor.EditorGUI.PropertyGridConfig
+  parent: Prowl.Editor
+  href: Prowl.Editor.EditorGUI.html
+  name: EditorGUI.PropertyGridConfig
+  nameWithType: EditorGUI.PropertyGridConfig
+  fullName: Prowl.Editor.EditorGUI.PropertyGridConfig
+  spec.csharp:
+  - uid: Prowl.Editor.EditorGUI
+    name: EditorGUI
+    href: Prowl.Editor.EditorGUI.html
+  - name: .
+  - uid: Prowl.Editor.EditorGUI.PropertyGridConfig
+    name: PropertyGridConfig
+    href: Prowl.Editor.EditorGUI.PropertyGridConfig.html
+  spec.vb:
+  - uid: Prowl.Editor.EditorGUI
+    name: EditorGUI
+    href: Prowl.Editor.EditorGUI.html
+  - name: .
+  - uid: Prowl.Editor.EditorGUI.PropertyGridConfig
+    name: PropertyGridConfig
+    href: Prowl.Editor.EditorGUI.PropertyGridConfig.html

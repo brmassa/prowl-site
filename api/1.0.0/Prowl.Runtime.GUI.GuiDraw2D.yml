@@ -1,0 +1,2351 @@
+### YamlMime:ManagedReference
+items:
+- uid: Prowl.Runtime.GUI.GuiDraw2D
+  commentId: T:Prowl.Runtime.GUI.GuiDraw2D
+  id: GuiDraw2D
+  parent: Prowl.Runtime.GUI
+  children:
+  - Prowl.Runtime.GUI.GuiDraw2D.#ctor(Prowl.Runtime.GUI.Gui,System.Boolean)
+  - Prowl.Runtime.GUI.GuiDraw2D.BeginFrame(System.Boolean)
+  - Prowl.Runtime.GUI.GuiDraw2D.DrawBezierLine(Prowl.Runtime.Vector2,Prowl.Runtime.Vector2,Prowl.Runtime.Vector2,Prowl.Runtime.Vector2,Prowl.Runtime.Color,System.Single,System.Int32)
+  - Prowl.Runtime.GUI.GuiDraw2D.DrawCircle(Prowl.Runtime.Vector2,System.Single,Prowl.Runtime.Color,System.Int32,System.Single)
+  - Prowl.Runtime.GUI.GuiDraw2D.DrawCircleFilled(Prowl.Runtime.Vector2,System.Single,Prowl.Runtime.Color,System.Int32)
+  - Prowl.Runtime.GUI.GuiDraw2D.DrawHorizontalBlackGradient(Prowl.Runtime.Vector2,Prowl.Runtime.Vector2,System.Single,System.Single)
+  - Prowl.Runtime.GUI.GuiDraw2D.DrawHorizontalGradient(Prowl.Runtime.Vector2,Prowl.Runtime.Vector2,System.Single,Prowl.Runtime.Color,Prowl.Runtime.Color)
+  - Prowl.Runtime.GUI.GuiDraw2D.DrawImage(Prowl.Runtime.Texture2D,Prowl.Runtime.Rect,Prowl.Runtime.Color,System.Boolean)
+  - Prowl.Runtime.GUI.GuiDraw2D.DrawImage(Prowl.Runtime.Texture2D,Prowl.Runtime.Rect,Prowl.Runtime.Rect,System.Boolean)
+  - Prowl.Runtime.GUI.GuiDraw2D.DrawImage(Prowl.Runtime.Texture2D,Prowl.Runtime.Rect,System.Boolean)
+  - Prowl.Runtime.GUI.GuiDraw2D.DrawImage(Prowl.Runtime.Texture2D,Prowl.Runtime.Vector2,Prowl.Runtime.Vector2,Prowl.Runtime.Color,System.Boolean)
+  - Prowl.Runtime.GUI.GuiDraw2D.DrawImage(Prowl.Runtime.Texture2D,Prowl.Runtime.Vector2,Prowl.Runtime.Vector2,Prowl.Runtime.Vector2,Prowl.Runtime.Vector2,Prowl.Runtime.Color,System.Boolean)
+  - Prowl.Runtime.GUI.GuiDraw2D.DrawImage(Prowl.Runtime.Texture2D,Prowl.Runtime.Vector2,Prowl.Runtime.Vector2,System.Boolean)
+  - Prowl.Runtime.GUI.GuiDraw2D.DrawLine(Prowl.Runtime.Vector2,Prowl.Runtime.Vector2,Prowl.Runtime.Color,System.Single)
+  - Prowl.Runtime.GUI.GuiDraw2D.DrawList
+  - Prowl.Runtime.GUI.GuiDraw2D.DrawRect(Prowl.Runtime.Rect,Prowl.Runtime.Color,System.Single,System.Single,System.Int32)
+  - Prowl.Runtime.GUI.GuiDraw2D.DrawRect(Prowl.Runtime.Vector2,Prowl.Runtime.Vector2,Prowl.Runtime.Color,System.Single,System.Single,System.Int32)
+  - Prowl.Runtime.GUI.GuiDraw2D.DrawRectFilled(Prowl.Runtime.Rect,Prowl.Runtime.Color,System.Single,System.Int32)
+  - Prowl.Runtime.GUI.GuiDraw2D.DrawRectFilled(Prowl.Runtime.Vector2,Prowl.Runtime.Vector2,Prowl.Runtime.Color,System.Single,System.Int32)
+  - Prowl.Runtime.GUI.GuiDraw2D.DrawText(Prowl.Runtime.Font,System.String,System.Double,Prowl.Runtime.Rect,Prowl.Runtime.Color,System.Boolean,System.Boolean)
+  - Prowl.Runtime.GUI.GuiDraw2D.DrawText(Prowl.Runtime.Font,System.String,System.Double,Prowl.Runtime.Vector2,Prowl.Runtime.Color,System.Double,System.Nullable{Prowl.Runtime.Rect})
+  - Prowl.Runtime.GUI.GuiDraw2D.DrawText(System.String,Prowl.Runtime.Rect,Prowl.Runtime.Color,System.Boolean,System.Boolean)
+  - Prowl.Runtime.GUI.GuiDraw2D.DrawText(System.String,Prowl.Runtime.Rect,System.Boolean,System.Boolean)
+  - Prowl.Runtime.GUI.GuiDraw2D.DrawText(System.String,Prowl.Runtime.Vector2,Prowl.Runtime.Color,System.Double)
+  - Prowl.Runtime.GUI.GuiDraw2D.DrawText(System.String,Prowl.Runtime.Vector2,System.Double)
+  - Prowl.Runtime.GUI.GuiDraw2D.DrawText(System.String,System.Double,Prowl.Runtime.Rect,Prowl.Runtime.Color,System.Boolean,System.Boolean)
+  - Prowl.Runtime.GUI.GuiDraw2D.DrawText(System.String,System.Double,Prowl.Runtime.Rect,System.Boolean,System.Boolean)
+  - Prowl.Runtime.GUI.GuiDraw2D.DrawText(System.String,System.Double,Prowl.Runtime.Vector2,Prowl.Runtime.Color,System.Double)
+  - Prowl.Runtime.GUI.GuiDraw2D.DrawText(System.String,System.Double,Prowl.Runtime.Vector2,System.Double)
+  - Prowl.Runtime.GUI.GuiDraw2D.DrawTriangle(Prowl.Runtime.Vector2,Prowl.Runtime.Vector2,Prowl.Runtime.Vector2,Prowl.Runtime.Color,System.Single)
+  - Prowl.Runtime.GUI.GuiDraw2D.DrawTriangle(Prowl.Runtime.Vector2,Prowl.Runtime.Vector2,System.Single,Prowl.Runtime.Color,System.Single)
+  - Prowl.Runtime.GUI.GuiDraw2D.DrawTriangleFilled(Prowl.Runtime.Vector2,Prowl.Runtime.Vector2,Prowl.Runtime.Vector2,Prowl.Runtime.Color)
+  - Prowl.Runtime.GUI.GuiDraw2D.DrawTriangleFilled(Prowl.Runtime.Vector2,Prowl.Runtime.Vector2,System.Single,Prowl.Runtime.Color)
+  - Prowl.Runtime.GUI.GuiDraw2D.DrawVerticalBlackGradient(Prowl.Runtime.Vector2,Prowl.Runtime.Vector2,System.Single,System.Single)
+  - Prowl.Runtime.GUI.GuiDraw2D.DrawVerticalGradient(Prowl.Runtime.Vector2,Prowl.Runtime.Vector2,System.Single,Prowl.Runtime.Color,Prowl.Runtime.Color)
+  - Prowl.Runtime.GUI.GuiDraw2D.EndFrame(Veldrid.CommandList,Prowl.Runtime.Rect)
+  - Prowl.Runtime.GUI.GuiDraw2D.LoadingIndicatorCircle(Prowl.Runtime.Vector2,System.Double,Prowl.Runtime.Vector4,Prowl.Runtime.Vector4,System.Int32,System.Single)
+  - Prowl.Runtime.GUI.GuiDraw2D.PeekClip
+  - Prowl.Runtime.GUI.GuiDraw2D.PopClip
+  - Prowl.Runtime.GUI.GuiDraw2D.PushClip(Prowl.Runtime.Rect,System.Boolean)
+  - Prowl.Runtime.GUI.GuiDraw2D.SetZIndex(System.Int32,System.Boolean)
+  langs:
+  - csharp
+  - vb
+  name: GuiDraw2D
+  nameWithType: GuiDraw2D
+  fullName: Prowl.Runtime.GUI.GuiDraw2D
+  type: Class
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/GuiDraw2D.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: GuiDraw2D
+    path: ../Prowl/Prowl.Runtime/GUI/GuiDraw2D.cs
+    startLine: 10
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  syntax:
+    content: public class GuiDraw2D
+    content.vb: Public Class GuiDraw2D
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  extensionMethods:
+  - System.Object.Prowl.Runtime.RuntimeUtils.GetSerializableFields
+- uid: Prowl.Runtime.GUI.GuiDraw2D.DrawList
+  commentId: P:Prowl.Runtime.GUI.GuiDraw2D.DrawList
+  id: DrawList
+  parent: Prowl.Runtime.GUI.GuiDraw2D
+  langs:
+  - csharp
+  - vb
+  name: DrawList
+  nameWithType: GuiDraw2D.DrawList
+  fullName: Prowl.Runtime.GUI.GuiDraw2D.DrawList
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/GuiDraw2D.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: DrawList
+    path: ../Prowl/Prowl.Runtime/GUI/GuiDraw2D.cs
+    startLine: 12
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  syntax:
+    content: public UIDrawList DrawList { get; }
+    parameters: []
+    return:
+      type: Prowl.Runtime.GUI.Graphics.UIDrawList
+    content.vb: Public ReadOnly Property DrawList As UIDrawList
+  overload: Prowl.Runtime.GUI.GuiDraw2D.DrawList*
+- uid: Prowl.Runtime.GUI.GuiDraw2D.#ctor(Prowl.Runtime.GUI.Gui,System.Boolean)
+  commentId: M:Prowl.Runtime.GUI.GuiDraw2D.#ctor(Prowl.Runtime.GUI.Gui,System.Boolean)
+  id: '#ctor(Prowl.Runtime.GUI.Gui,System.Boolean)'
+  parent: Prowl.Runtime.GUI.GuiDraw2D
+  langs:
+  - csharp
+  - vb
+  name: GuiDraw2D(Gui, bool)
+  nameWithType: GuiDraw2D.GuiDraw2D(Gui, bool)
+  fullName: Prowl.Runtime.GUI.GuiDraw2D.GuiDraw2D(Prowl.Runtime.GUI.Gui, bool)
+  type: Constructor
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/GuiDraw2D.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: .ctor
+    path: ../Prowl/Prowl.Runtime/GUI/GuiDraw2D.cs
+    startLine: 22
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  syntax:
+    content: public GuiDraw2D(Gui gui, bool antiAliasing)
+    parameters:
+    - id: gui
+      type: Prowl.Runtime.GUI.Gui
+    - id: antiAliasing
+      type: System.Boolean
+    content.vb: Public Sub New(gui As Gui, antiAliasing As Boolean)
+  overload: Prowl.Runtime.GUI.GuiDraw2D.#ctor*
+  nameWithType.vb: GuiDraw2D.New(Gui, Boolean)
+  fullName.vb: Prowl.Runtime.GUI.GuiDraw2D.New(Prowl.Runtime.GUI.Gui, Boolean)
+  name.vb: New(Gui, Boolean)
+- uid: Prowl.Runtime.GUI.GuiDraw2D.BeginFrame(System.Boolean)
+  commentId: M:Prowl.Runtime.GUI.GuiDraw2D.BeginFrame(System.Boolean)
+  id: BeginFrame(System.Boolean)
+  parent: Prowl.Runtime.GUI.GuiDraw2D
+  langs:
+  - csharp
+  - vb
+  name: BeginFrame(bool)
+  nameWithType: GuiDraw2D.BeginFrame(bool)
+  fullName: Prowl.Runtime.GUI.GuiDraw2D.BeginFrame(bool)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/GuiDraw2D.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: BeginFrame
+    path: ../Prowl/Prowl.Runtime/GUI/GuiDraw2D.cs
+    startLine: 29
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  syntax:
+    content: public void BeginFrame(bool antiAliasing)
+    parameters:
+    - id: antiAliasing
+      type: System.Boolean
+    content.vb: Public Sub BeginFrame(antiAliasing As Boolean)
+  overload: Prowl.Runtime.GUI.GuiDraw2D.BeginFrame*
+  nameWithType.vb: GuiDraw2D.BeginFrame(Boolean)
+  fullName.vb: Prowl.Runtime.GUI.GuiDraw2D.BeginFrame(Boolean)
+  name.vb: BeginFrame(Boolean)
+- uid: Prowl.Runtime.GUI.GuiDraw2D.EndFrame(Veldrid.CommandList,Prowl.Runtime.Rect)
+  commentId: M:Prowl.Runtime.GUI.GuiDraw2D.EndFrame(Veldrid.CommandList,Prowl.Runtime.Rect)
+  id: EndFrame(Veldrid.CommandList,Prowl.Runtime.Rect)
+  parent: Prowl.Runtime.GUI.GuiDraw2D
+  langs:
+  - csharp
+  - vb
+  name: EndFrame(CommandList, Rect)
+  nameWithType: GuiDraw2D.EndFrame(CommandList, Rect)
+  fullName: Prowl.Runtime.GUI.GuiDraw2D.EndFrame(Veldrid.CommandList, Prowl.Runtime.Rect)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/GuiDraw2D.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: EndFrame
+    path: ../Prowl/Prowl.Runtime/GUI/GuiDraw2D.cs
+    startLine: 47
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  syntax:
+    content: public void EndFrame(CommandList commandList, Rect screenRect)
+    parameters:
+    - id: commandList
+      type: Veldrid.CommandList
+    - id: screenRect
+      type: Prowl.Runtime.Rect
+    content.vb: Public Sub EndFrame(commandList As CommandList, screenRect As Rect)
+  overload: Prowl.Runtime.GUI.GuiDraw2D.EndFrame*
+- uid: Prowl.Runtime.GUI.GuiDraw2D.PushClip(Prowl.Runtime.Rect,System.Boolean)
+  commentId: M:Prowl.Runtime.GUI.GuiDraw2D.PushClip(Prowl.Runtime.Rect,System.Boolean)
+  id: PushClip(Prowl.Runtime.Rect,System.Boolean)
+  parent: Prowl.Runtime.GUI.GuiDraw2D
+  langs:
+  - csharp
+  - vb
+  name: PushClip(Rect, bool)
+  nameWithType: GuiDraw2D.PushClip(Rect, bool)
+  fullName: Prowl.Runtime.GUI.GuiDraw2D.PushClip(Prowl.Runtime.Rect, bool)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/GuiDraw2D.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: PushClip
+    path: ../Prowl/Prowl.Runtime/GUI/GuiDraw2D.cs
+    startLine: 58
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  summary: >-
+    Push a Clipping/Scissoring Rect
+
+    This will Intersect with the last active clip rect
+
+    All drawing operations applied after this will be cut off by the clip rect and only draw inside it
+  example: []
+  syntax:
+    content: public void PushClip(Rect rect, bool overwrite = false)
+    parameters:
+    - id: rect
+      type: Prowl.Runtime.Rect
+    - id: overwrite
+      type: System.Boolean
+      description: Overwrite all current clip rects instead of using Intersection
+    content.vb: Public Sub PushClip(rect As Rect, overwrite As Boolean = False)
+  overload: Prowl.Runtime.GUI.GuiDraw2D.PushClip*
+  nameWithType.vb: GuiDraw2D.PushClip(Rect, Boolean)
+  fullName.vb: Prowl.Runtime.GUI.GuiDraw2D.PushClip(Prowl.Runtime.Rect, Boolean)
+  name.vb: PushClip(Rect, Boolean)
+- uid: Prowl.Runtime.GUI.GuiDraw2D.PopClip
+  commentId: M:Prowl.Runtime.GUI.GuiDraw2D.PopClip
+  id: PopClip
+  parent: Prowl.Runtime.GUI.GuiDraw2D
+  langs:
+  - csharp
+  - vb
+  name: PopClip()
+  nameWithType: GuiDraw2D.PopClip()
+  fullName: Prowl.Runtime.GUI.GuiDraw2D.PopClip()
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/GuiDraw2D.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: PopClip
+    path: ../Prowl/Prowl.Runtime/GUI/GuiDraw2D.cs
+    startLine: 62
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  summary: Pop the last clip rect
+  example: []
+  syntax:
+    content: public void PopClip()
+    content.vb: Public Sub PopClip()
+  overload: Prowl.Runtime.GUI.GuiDraw2D.PopClip*
+- uid: Prowl.Runtime.GUI.GuiDraw2D.PeekClip
+  commentId: M:Prowl.Runtime.GUI.GuiDraw2D.PeekClip
+  id: PeekClip
+  parent: Prowl.Runtime.GUI.GuiDraw2D
+  langs:
+  - csharp
+  - vb
+  name: PeekClip()
+  nameWithType: GuiDraw2D.PeekClip()
+  fullName: Prowl.Runtime.GUI.GuiDraw2D.PeekClip()
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/GuiDraw2D.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: PeekClip
+    path: ../Prowl/Prowl.Runtime/GUI/GuiDraw2D.cs
+    startLine: 66
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  summary: Peek at the current clip rect
+  example: []
+  syntax:
+    content: public Rect PeekClip()
+    return:
+      type: Prowl.Runtime.Rect
+    content.vb: Public Function PeekClip() As Rect
+  overload: Prowl.Runtime.GUI.GuiDraw2D.PeekClip*
+- uid: Prowl.Runtime.GUI.GuiDraw2D.SetZIndex(System.Int32,System.Boolean)
+  commentId: M:Prowl.Runtime.GUI.GuiDraw2D.SetZIndex(System.Int32,System.Boolean)
+  id: SetZIndex(System.Int32,System.Boolean)
+  parent: Prowl.Runtime.GUI.GuiDraw2D
+  langs:
+  - csharp
+  - vb
+  name: SetZIndex(int, bool)
+  nameWithType: GuiDraw2D.SetZIndex(int, bool)
+  fullName: Prowl.Runtime.GUI.GuiDraw2D.SetZIndex(int, bool)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/GuiDraw2D.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: SetZIndex
+    path: ../Prowl/Prowl.Runtime/GUI/GuiDraw2D.cs
+    startLine: 72
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  syntax:
+    content: public void SetZIndex(int index, bool keepClipSpace)
+    parameters:
+    - id: index
+      type: System.Int32
+    - id: keepClipSpace
+      type: System.Boolean
+    content.vb: Public Sub SetZIndex(index As Integer, keepClipSpace As Boolean)
+  overload: Prowl.Runtime.GUI.GuiDraw2D.SetZIndex*
+  nameWithType.vb: GuiDraw2D.SetZIndex(Integer, Boolean)
+  fullName.vb: Prowl.Runtime.GUI.GuiDraw2D.SetZIndex(Integer, Boolean)
+  name.vb: SetZIndex(Integer, Boolean)
+- uid: Prowl.Runtime.GUI.GuiDraw2D.DrawVerticalGradient(Prowl.Runtime.Vector2,Prowl.Runtime.Vector2,System.Single,Prowl.Runtime.Color,Prowl.Runtime.Color)
+  commentId: M:Prowl.Runtime.GUI.GuiDraw2D.DrawVerticalGradient(Prowl.Runtime.Vector2,Prowl.Runtime.Vector2,System.Single,Prowl.Runtime.Color,Prowl.Runtime.Color)
+  id: DrawVerticalGradient(Prowl.Runtime.Vector2,Prowl.Runtime.Vector2,System.Single,Prowl.Runtime.Color,Prowl.Runtime.Color)
+  parent: Prowl.Runtime.GUI.GuiDraw2D
+  langs:
+  - csharp
+  - vb
+  name: DrawVerticalGradient(Vector2, Vector2, float, Color, Color)
+  nameWithType: GuiDraw2D.DrawVerticalGradient(Vector2, Vector2, float, Color, Color)
+  fullName: Prowl.Runtime.GUI.GuiDraw2D.DrawVerticalGradient(Prowl.Runtime.Vector2, Prowl.Runtime.Vector2, float, Prowl.Runtime.Color, Prowl.Runtime.Color)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/GuiDraw2D.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: DrawVerticalGradient
+    path: ../Prowl/Prowl.Runtime/GUI/GuiDraw2D.cs
+    startLine: 88
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  syntax:
+    content: public void DrawVerticalGradient(Vector2 top, Vector2 bottom, float right, Color a, Color b)
+    parameters:
+    - id: top
+      type: Prowl.Runtime.Vector2
+    - id: bottom
+      type: Prowl.Runtime.Vector2
+    - id: right
+      type: System.Single
+    - id: a
+      type: Prowl.Runtime.Color
+    - id: b
+      type: Prowl.Runtime.Color
+    content.vb: Public Sub DrawVerticalGradient(top As Vector2, bottom As Vector2, right As Single, a As Color, b As Color)
+  overload: Prowl.Runtime.GUI.GuiDraw2D.DrawVerticalGradient*
+  nameWithType.vb: GuiDraw2D.DrawVerticalGradient(Vector2, Vector2, Single, Color, Color)
+  fullName.vb: Prowl.Runtime.GUI.GuiDraw2D.DrawVerticalGradient(Prowl.Runtime.Vector2, Prowl.Runtime.Vector2, Single, Prowl.Runtime.Color, Prowl.Runtime.Color)
+  name.vb: DrawVerticalGradient(Vector2, Vector2, Single, Color, Color)
+- uid: Prowl.Runtime.GUI.GuiDraw2D.DrawHorizontalGradient(Prowl.Runtime.Vector2,Prowl.Runtime.Vector2,System.Single,Prowl.Runtime.Color,Prowl.Runtime.Color)
+  commentId: M:Prowl.Runtime.GUI.GuiDraw2D.DrawHorizontalGradient(Prowl.Runtime.Vector2,Prowl.Runtime.Vector2,System.Single,Prowl.Runtime.Color,Prowl.Runtime.Color)
+  id: DrawHorizontalGradient(Prowl.Runtime.Vector2,Prowl.Runtime.Vector2,System.Single,Prowl.Runtime.Color,Prowl.Runtime.Color)
+  parent: Prowl.Runtime.GUI.GuiDraw2D
+  langs:
+  - csharp
+  - vb
+  name: DrawHorizontalGradient(Vector2, Vector2, float, Color, Color)
+  nameWithType: GuiDraw2D.DrawHorizontalGradient(Vector2, Vector2, float, Color, Color)
+  fullName: Prowl.Runtime.GUI.GuiDraw2D.DrawHorizontalGradient(Prowl.Runtime.Vector2, Prowl.Runtime.Vector2, float, Prowl.Runtime.Color, Prowl.Runtime.Color)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/GuiDraw2D.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: DrawHorizontalGradient
+    path: ../Prowl/Prowl.Runtime/GUI/GuiDraw2D.cs
+    startLine: 93
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  syntax:
+    content: public void DrawHorizontalGradient(Vector2 left, Vector2 right, float down, Color a, Color b)
+    parameters:
+    - id: left
+      type: Prowl.Runtime.Vector2
+    - id: right
+      type: Prowl.Runtime.Vector2
+    - id: down
+      type: System.Single
+    - id: a
+      type: Prowl.Runtime.Color
+    - id: b
+      type: Prowl.Runtime.Color
+    content.vb: Public Sub DrawHorizontalGradient(left As Vector2, right As Vector2, down As Single, a As Color, b As Color)
+  overload: Prowl.Runtime.GUI.GuiDraw2D.DrawHorizontalGradient*
+  nameWithType.vb: GuiDraw2D.DrawHorizontalGradient(Vector2, Vector2, Single, Color, Color)
+  fullName.vb: Prowl.Runtime.GUI.GuiDraw2D.DrawHorizontalGradient(Prowl.Runtime.Vector2, Prowl.Runtime.Vector2, Single, Prowl.Runtime.Color, Prowl.Runtime.Color)
+  name.vb: DrawHorizontalGradient(Vector2, Vector2, Single, Color, Color)
+- uid: Prowl.Runtime.GUI.GuiDraw2D.DrawVerticalBlackGradient(Prowl.Runtime.Vector2,Prowl.Runtime.Vector2,System.Single,System.Single)
+  commentId: M:Prowl.Runtime.GUI.GuiDraw2D.DrawVerticalBlackGradient(Prowl.Runtime.Vector2,Prowl.Runtime.Vector2,System.Single,System.Single)
+  id: DrawVerticalBlackGradient(Prowl.Runtime.Vector2,Prowl.Runtime.Vector2,System.Single,System.Single)
+  parent: Prowl.Runtime.GUI.GuiDraw2D
+  langs:
+  - csharp
+  - vb
+  name: DrawVerticalBlackGradient(Vector2, Vector2, float, float)
+  nameWithType: GuiDraw2D.DrawVerticalBlackGradient(Vector2, Vector2, float, float)
+  fullName: Prowl.Runtime.GUI.GuiDraw2D.DrawVerticalBlackGradient(Prowl.Runtime.Vector2, Prowl.Runtime.Vector2, float, float)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/GuiDraw2D.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: DrawVerticalBlackGradient
+    path: ../Prowl/Prowl.Runtime/GUI/GuiDraw2D.cs
+    startLine: 98
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  syntax:
+    content: public void DrawVerticalBlackGradient(Vector2 top, Vector2 bottom, float right, float strength)
+    parameters:
+    - id: top
+      type: Prowl.Runtime.Vector2
+    - id: bottom
+      type: Prowl.Runtime.Vector2
+    - id: right
+      type: System.Single
+    - id: strength
+      type: System.Single
+    content.vb: Public Sub DrawVerticalBlackGradient(top As Vector2, bottom As Vector2, right As Single, strength As Single)
+  overload: Prowl.Runtime.GUI.GuiDraw2D.DrawVerticalBlackGradient*
+  nameWithType.vb: GuiDraw2D.DrawVerticalBlackGradient(Vector2, Vector2, Single, Single)
+  fullName.vb: Prowl.Runtime.GUI.GuiDraw2D.DrawVerticalBlackGradient(Prowl.Runtime.Vector2, Prowl.Runtime.Vector2, Single, Single)
+  name.vb: DrawVerticalBlackGradient(Vector2, Vector2, Single, Single)
+- uid: Prowl.Runtime.GUI.GuiDraw2D.DrawHorizontalBlackGradient(Prowl.Runtime.Vector2,Prowl.Runtime.Vector2,System.Single,System.Single)
+  commentId: M:Prowl.Runtime.GUI.GuiDraw2D.DrawHorizontalBlackGradient(Prowl.Runtime.Vector2,Prowl.Runtime.Vector2,System.Single,System.Single)
+  id: DrawHorizontalBlackGradient(Prowl.Runtime.Vector2,Prowl.Runtime.Vector2,System.Single,System.Single)
+  parent: Prowl.Runtime.GUI.GuiDraw2D
+  langs:
+  - csharp
+  - vb
+  name: DrawHorizontalBlackGradient(Vector2, Vector2, float, float)
+  nameWithType: GuiDraw2D.DrawHorizontalBlackGradient(Vector2, Vector2, float, float)
+  fullName: Prowl.Runtime.GUI.GuiDraw2D.DrawHorizontalBlackGradient(Prowl.Runtime.Vector2, Prowl.Runtime.Vector2, float, float)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/GuiDraw2D.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: DrawHorizontalBlackGradient
+    path: ../Prowl/Prowl.Runtime/GUI/GuiDraw2D.cs
+    startLine: 104
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  syntax:
+    content: public void DrawHorizontalBlackGradient(Vector2 left, Vector2 right, float down, float strength)
+    parameters:
+    - id: left
+      type: Prowl.Runtime.Vector2
+    - id: right
+      type: Prowl.Runtime.Vector2
+    - id: down
+      type: System.Single
+    - id: strength
+      type: System.Single
+    content.vb: Public Sub DrawHorizontalBlackGradient(left As Vector2, right As Vector2, down As Single, strength As Single)
+  overload: Prowl.Runtime.GUI.GuiDraw2D.DrawHorizontalBlackGradient*
+  nameWithType.vb: GuiDraw2D.DrawHorizontalBlackGradient(Vector2, Vector2, Single, Single)
+  fullName.vb: Prowl.Runtime.GUI.GuiDraw2D.DrawHorizontalBlackGradient(Prowl.Runtime.Vector2, Prowl.Runtime.Vector2, Single, Single)
+  name.vb: DrawHorizontalBlackGradient(Vector2, Vector2, Single, Single)
+- uid: Prowl.Runtime.GUI.GuiDraw2D.DrawRect(Prowl.Runtime.Rect,Prowl.Runtime.Color,System.Single,System.Single,System.Int32)
+  commentId: M:Prowl.Runtime.GUI.GuiDraw2D.DrawRect(Prowl.Runtime.Rect,Prowl.Runtime.Color,System.Single,System.Single,System.Int32)
+  id: DrawRect(Prowl.Runtime.Rect,Prowl.Runtime.Color,System.Single,System.Single,System.Int32)
+  parent: Prowl.Runtime.GUI.GuiDraw2D
+  langs:
+  - csharp
+  - vb
+  name: DrawRect(Rect, Color, float, float, int)
+  nameWithType: GuiDraw2D.DrawRect(Rect, Color, float, float, int)
+  fullName: Prowl.Runtime.GUI.GuiDraw2D.DrawRect(Prowl.Runtime.Rect, Prowl.Runtime.Color, float, float, int)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/GuiDraw2D.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: DrawRect
+    path: ../Prowl/Prowl.Runtime/GUI/GuiDraw2D.cs
+    startLine: 110
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  syntax:
+    content: public void DrawRect(Rect screenRect, Color color, float thickness = 1, float roundness = 0, int corners = 15)
+    parameters:
+    - id: screenRect
+      type: Prowl.Runtime.Rect
+    - id: color
+      type: Prowl.Runtime.Color
+    - id: thickness
+      type: System.Single
+    - id: roundness
+      type: System.Single
+    - id: corners
+      type: System.Int32
+    content.vb: Public Sub DrawRect(screenRect As Rect, color As Color, thickness As Single = 1, roundness As Single = 0, corners As Integer = 15)
+  overload: Prowl.Runtime.GUI.GuiDraw2D.DrawRect*
+  nameWithType.vb: GuiDraw2D.DrawRect(Rect, Color, Single, Single, Integer)
+  fullName.vb: Prowl.Runtime.GUI.GuiDraw2D.DrawRect(Prowl.Runtime.Rect, Prowl.Runtime.Color, Single, Single, Integer)
+  name.vb: DrawRect(Rect, Color, Single, Single, Integer)
+- uid: Prowl.Runtime.GUI.GuiDraw2D.DrawRect(Prowl.Runtime.Vector2,Prowl.Runtime.Vector2,Prowl.Runtime.Color,System.Single,System.Single,System.Int32)
+  commentId: M:Prowl.Runtime.GUI.GuiDraw2D.DrawRect(Prowl.Runtime.Vector2,Prowl.Runtime.Vector2,Prowl.Runtime.Color,System.Single,System.Single,System.Int32)
+  id: DrawRect(Prowl.Runtime.Vector2,Prowl.Runtime.Vector2,Prowl.Runtime.Color,System.Single,System.Single,System.Int32)
+  parent: Prowl.Runtime.GUI.GuiDraw2D
+  langs:
+  - csharp
+  - vb
+  name: DrawRect(Vector2, Vector2, Color, float, float, int)
+  nameWithType: GuiDraw2D.DrawRect(Vector2, Vector2, Color, float, float, int)
+  fullName: Prowl.Runtime.GUI.GuiDraw2D.DrawRect(Prowl.Runtime.Vector2, Prowl.Runtime.Vector2, Prowl.Runtime.Color, float, float, int)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/GuiDraw2D.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: DrawRect
+    path: ../Prowl/Prowl.Runtime/GUI/GuiDraw2D.cs
+    startLine: 112
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  syntax:
+    content: public void DrawRect(Vector2 topleft, Vector2 size, Color color, float thickness = 1, float roundness = 0, int corners = 15)
+    parameters:
+    - id: topleft
+      type: Prowl.Runtime.Vector2
+    - id: size
+      type: Prowl.Runtime.Vector2
+    - id: color
+      type: Prowl.Runtime.Color
+    - id: thickness
+      type: System.Single
+    - id: roundness
+      type: System.Single
+    - id: corners
+      type: System.Int32
+    content.vb: Public Sub DrawRect(topleft As Vector2, size As Vector2, color As Color, thickness As Single = 1, roundness As Single = 0, corners As Integer = 15)
+  overload: Prowl.Runtime.GUI.GuiDraw2D.DrawRect*
+  nameWithType.vb: GuiDraw2D.DrawRect(Vector2, Vector2, Color, Single, Single, Integer)
+  fullName.vb: Prowl.Runtime.GUI.GuiDraw2D.DrawRect(Prowl.Runtime.Vector2, Prowl.Runtime.Vector2, Prowl.Runtime.Color, Single, Single, Integer)
+  name.vb: DrawRect(Vector2, Vector2, Color, Single, Single, Integer)
+- uid: Prowl.Runtime.GUI.GuiDraw2D.DrawRectFilled(Prowl.Runtime.Rect,Prowl.Runtime.Color,System.Single,System.Int32)
+  commentId: M:Prowl.Runtime.GUI.GuiDraw2D.DrawRectFilled(Prowl.Runtime.Rect,Prowl.Runtime.Color,System.Single,System.Int32)
+  id: DrawRectFilled(Prowl.Runtime.Rect,Prowl.Runtime.Color,System.Single,System.Int32)
+  parent: Prowl.Runtime.GUI.GuiDraw2D
+  langs:
+  - csharp
+  - vb
+  name: DrawRectFilled(Rect, Color, float, int)
+  nameWithType: GuiDraw2D.DrawRectFilled(Rect, Color, float, int)
+  fullName: Prowl.Runtime.GUI.GuiDraw2D.DrawRectFilled(Prowl.Runtime.Rect, Prowl.Runtime.Color, float, int)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/GuiDraw2D.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: DrawRectFilled
+    path: ../Prowl/Prowl.Runtime/GUI/GuiDraw2D.cs
+    startLine: 114
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  syntax:
+    content: public void DrawRectFilled(Rect screenRect, Color color, float roundness = 0, int corners = 15)
+    parameters:
+    - id: screenRect
+      type: Prowl.Runtime.Rect
+    - id: color
+      type: Prowl.Runtime.Color
+    - id: roundness
+      type: System.Single
+    - id: corners
+      type: System.Int32
+    content.vb: Public Sub DrawRectFilled(screenRect As Rect, color As Color, roundness As Single = 0, corners As Integer = 15)
+  overload: Prowl.Runtime.GUI.GuiDraw2D.DrawRectFilled*
+  nameWithType.vb: GuiDraw2D.DrawRectFilled(Rect, Color, Single, Integer)
+  fullName.vb: Prowl.Runtime.GUI.GuiDraw2D.DrawRectFilled(Prowl.Runtime.Rect, Prowl.Runtime.Color, Single, Integer)
+  name.vb: DrawRectFilled(Rect, Color, Single, Integer)
+- uid: Prowl.Runtime.GUI.GuiDraw2D.DrawRectFilled(Prowl.Runtime.Vector2,Prowl.Runtime.Vector2,Prowl.Runtime.Color,System.Single,System.Int32)
+  commentId: M:Prowl.Runtime.GUI.GuiDraw2D.DrawRectFilled(Prowl.Runtime.Vector2,Prowl.Runtime.Vector2,Prowl.Runtime.Color,System.Single,System.Int32)
+  id: DrawRectFilled(Prowl.Runtime.Vector2,Prowl.Runtime.Vector2,Prowl.Runtime.Color,System.Single,System.Int32)
+  parent: Prowl.Runtime.GUI.GuiDraw2D
+  langs:
+  - csharp
+  - vb
+  name: DrawRectFilled(Vector2, Vector2, Color, float, int)
+  nameWithType: GuiDraw2D.DrawRectFilled(Vector2, Vector2, Color, float, int)
+  fullName: Prowl.Runtime.GUI.GuiDraw2D.DrawRectFilled(Prowl.Runtime.Vector2, Prowl.Runtime.Vector2, Prowl.Runtime.Color, float, int)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/GuiDraw2D.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: DrawRectFilled
+    path: ../Prowl/Prowl.Runtime/GUI/GuiDraw2D.cs
+    startLine: 116
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  syntax:
+    content: public void DrawRectFilled(Vector2 topleft, Vector2 size, Color color, float roundness = 0, int corners = 15)
+    parameters:
+    - id: topleft
+      type: Prowl.Runtime.Vector2
+    - id: size
+      type: Prowl.Runtime.Vector2
+    - id: color
+      type: Prowl.Runtime.Color
+    - id: roundness
+      type: System.Single
+    - id: corners
+      type: System.Int32
+    content.vb: Public Sub DrawRectFilled(topleft As Vector2, size As Vector2, color As Color, roundness As Single = 0, corners As Integer = 15)
+  overload: Prowl.Runtime.GUI.GuiDraw2D.DrawRectFilled*
+  nameWithType.vb: GuiDraw2D.DrawRectFilled(Vector2, Vector2, Color, Single, Integer)
+  fullName.vb: Prowl.Runtime.GUI.GuiDraw2D.DrawRectFilled(Prowl.Runtime.Vector2, Prowl.Runtime.Vector2, Prowl.Runtime.Color, Single, Integer)
+  name.vb: DrawRectFilled(Vector2, Vector2, Color, Single, Integer)
+- uid: Prowl.Runtime.GUI.GuiDraw2D.DrawLine(Prowl.Runtime.Vector2,Prowl.Runtime.Vector2,Prowl.Runtime.Color,System.Single)
+  commentId: M:Prowl.Runtime.GUI.GuiDraw2D.DrawLine(Prowl.Runtime.Vector2,Prowl.Runtime.Vector2,Prowl.Runtime.Color,System.Single)
+  id: DrawLine(Prowl.Runtime.Vector2,Prowl.Runtime.Vector2,Prowl.Runtime.Color,System.Single)
+  parent: Prowl.Runtime.GUI.GuiDraw2D
+  langs:
+  - csharp
+  - vb
+  name: DrawLine(Vector2, Vector2, Color, float)
+  nameWithType: GuiDraw2D.DrawLine(Vector2, Vector2, Color, float)
+  fullName: Prowl.Runtime.GUI.GuiDraw2D.DrawLine(Prowl.Runtime.Vector2, Prowl.Runtime.Vector2, Prowl.Runtime.Color, float)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/GuiDraw2D.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: DrawLine
+    path: ../Prowl/Prowl.Runtime/GUI/GuiDraw2D.cs
+    startLine: 118
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  syntax:
+    content: public void DrawLine(Vector2 start, Vector2 end, Color color, float thickness = 1)
+    parameters:
+    - id: start
+      type: Prowl.Runtime.Vector2
+    - id: end
+      type: Prowl.Runtime.Vector2
+    - id: color
+      type: Prowl.Runtime.Color
+    - id: thickness
+      type: System.Single
+    content.vb: Public Sub DrawLine(start As Vector2, [end] As Vector2, color As Color, thickness As Single = 1)
+  overload: Prowl.Runtime.GUI.GuiDraw2D.DrawLine*
+  nameWithType.vb: GuiDraw2D.DrawLine(Vector2, Vector2, Color, Single)
+  fullName.vb: Prowl.Runtime.GUI.GuiDraw2D.DrawLine(Prowl.Runtime.Vector2, Prowl.Runtime.Vector2, Prowl.Runtime.Color, Single)
+  name.vb: DrawLine(Vector2, Vector2, Color, Single)
+- uid: Prowl.Runtime.GUI.GuiDraw2D.DrawBezierLine(Prowl.Runtime.Vector2,Prowl.Runtime.Vector2,Prowl.Runtime.Vector2,Prowl.Runtime.Vector2,Prowl.Runtime.Color,System.Single,System.Int32)
+  commentId: M:Prowl.Runtime.GUI.GuiDraw2D.DrawBezierLine(Prowl.Runtime.Vector2,Prowl.Runtime.Vector2,Prowl.Runtime.Vector2,Prowl.Runtime.Vector2,Prowl.Runtime.Color,System.Single,System.Int32)
+  id: DrawBezierLine(Prowl.Runtime.Vector2,Prowl.Runtime.Vector2,Prowl.Runtime.Vector2,Prowl.Runtime.Vector2,Prowl.Runtime.Color,System.Single,System.Int32)
+  parent: Prowl.Runtime.GUI.GuiDraw2D
+  langs:
+  - csharp
+  - vb
+  name: DrawBezierLine(Vector2, Vector2, Vector2, Vector2, Color, float, int)
+  nameWithType: GuiDraw2D.DrawBezierLine(Vector2, Vector2, Vector2, Vector2, Color, float, int)
+  fullName: Prowl.Runtime.GUI.GuiDraw2D.DrawBezierLine(Prowl.Runtime.Vector2, Prowl.Runtime.Vector2, Prowl.Runtime.Vector2, Prowl.Runtime.Vector2, Prowl.Runtime.Color, float, int)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/GuiDraw2D.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: DrawBezierLine
+    path: ../Prowl/Prowl.Runtime/GUI/GuiDraw2D.cs
+    startLine: 120
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  syntax:
+    content: public void DrawBezierLine(Vector2 start, Vector2 startControl, Vector2 end, Vector2 endControl, Color color, float thickness = 1, int segments = 0)
+    parameters:
+    - id: start
+      type: Prowl.Runtime.Vector2
+    - id: startControl
+      type: Prowl.Runtime.Vector2
+    - id: end
+      type: Prowl.Runtime.Vector2
+    - id: endControl
+      type: Prowl.Runtime.Vector2
+    - id: color
+      type: Prowl.Runtime.Color
+    - id: thickness
+      type: System.Single
+    - id: segments
+      type: System.Int32
+    content.vb: Public Sub DrawBezierLine(start As Vector2, startControl As Vector2, [end] As Vector2, endControl As Vector2, color As Color, thickness As Single = 1, segments As Integer = 0)
+  overload: Prowl.Runtime.GUI.GuiDraw2D.DrawBezierLine*
+  nameWithType.vb: GuiDraw2D.DrawBezierLine(Vector2, Vector2, Vector2, Vector2, Color, Single, Integer)
+  fullName.vb: Prowl.Runtime.GUI.GuiDraw2D.DrawBezierLine(Prowl.Runtime.Vector2, Prowl.Runtime.Vector2, Prowl.Runtime.Vector2, Prowl.Runtime.Vector2, Prowl.Runtime.Color, Single, Integer)
+  name.vb: DrawBezierLine(Vector2, Vector2, Vector2, Vector2, Color, Single, Integer)
+- uid: Prowl.Runtime.GUI.GuiDraw2D.DrawCircle(Prowl.Runtime.Vector2,System.Single,Prowl.Runtime.Color,System.Int32,System.Single)
+  commentId: M:Prowl.Runtime.GUI.GuiDraw2D.DrawCircle(Prowl.Runtime.Vector2,System.Single,Prowl.Runtime.Color,System.Int32,System.Single)
+  id: DrawCircle(Prowl.Runtime.Vector2,System.Single,Prowl.Runtime.Color,System.Int32,System.Single)
+  parent: Prowl.Runtime.GUI.GuiDraw2D
+  langs:
+  - csharp
+  - vb
+  name: DrawCircle(Vector2, float, Color, int, float)
+  nameWithType: GuiDraw2D.DrawCircle(Vector2, float, Color, int, float)
+  fullName: Prowl.Runtime.GUI.GuiDraw2D.DrawCircle(Prowl.Runtime.Vector2, float, Prowl.Runtime.Color, int, float)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/GuiDraw2D.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: DrawCircle
+    path: ../Prowl/Prowl.Runtime/GUI/GuiDraw2D.cs
+    startLine: 122
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  syntax:
+    content: public void DrawCircle(Vector2 center, float radius, Color color, int segments = 12, float thickness = 1)
+    parameters:
+    - id: center
+      type: Prowl.Runtime.Vector2
+    - id: radius
+      type: System.Single
+    - id: color
+      type: Prowl.Runtime.Color
+    - id: segments
+      type: System.Int32
+    - id: thickness
+      type: System.Single
+    content.vb: Public Sub DrawCircle(center As Vector2, radius As Single, color As Color, segments As Integer = 12, thickness As Single = 1)
+  overload: Prowl.Runtime.GUI.GuiDraw2D.DrawCircle*
+  nameWithType.vb: GuiDraw2D.DrawCircle(Vector2, Single, Color, Integer, Single)
+  fullName.vb: Prowl.Runtime.GUI.GuiDraw2D.DrawCircle(Prowl.Runtime.Vector2, Single, Prowl.Runtime.Color, Integer, Single)
+  name.vb: DrawCircle(Vector2, Single, Color, Integer, Single)
+- uid: Prowl.Runtime.GUI.GuiDraw2D.DrawCircleFilled(Prowl.Runtime.Vector2,System.Single,Prowl.Runtime.Color,System.Int32)
+  commentId: M:Prowl.Runtime.GUI.GuiDraw2D.DrawCircleFilled(Prowl.Runtime.Vector2,System.Single,Prowl.Runtime.Color,System.Int32)
+  id: DrawCircleFilled(Prowl.Runtime.Vector2,System.Single,Prowl.Runtime.Color,System.Int32)
+  parent: Prowl.Runtime.GUI.GuiDraw2D
+  langs:
+  - csharp
+  - vb
+  name: DrawCircleFilled(Vector2, float, Color, int)
+  nameWithType: GuiDraw2D.DrawCircleFilled(Vector2, float, Color, int)
+  fullName: Prowl.Runtime.GUI.GuiDraw2D.DrawCircleFilled(Prowl.Runtime.Vector2, float, Prowl.Runtime.Color, int)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/GuiDraw2D.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: DrawCircleFilled
+    path: ../Prowl/Prowl.Runtime/GUI/GuiDraw2D.cs
+    startLine: 124
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  syntax:
+    content: public void DrawCircleFilled(Vector2 center, float radius, Color color, int segments = 12)
+    parameters:
+    - id: center
+      type: Prowl.Runtime.Vector2
+    - id: radius
+      type: System.Single
+    - id: color
+      type: Prowl.Runtime.Color
+    - id: segments
+      type: System.Int32
+    content.vb: Public Sub DrawCircleFilled(center As Vector2, radius As Single, color As Color, segments As Integer = 12)
+  overload: Prowl.Runtime.GUI.GuiDraw2D.DrawCircleFilled*
+  nameWithType.vb: GuiDraw2D.DrawCircleFilled(Vector2, Single, Color, Integer)
+  fullName.vb: Prowl.Runtime.GUI.GuiDraw2D.DrawCircleFilled(Prowl.Runtime.Vector2, Single, Prowl.Runtime.Color, Integer)
+  name.vb: DrawCircleFilled(Vector2, Single, Color, Integer)
+- uid: Prowl.Runtime.GUI.GuiDraw2D.DrawTriangle(Prowl.Runtime.Vector2,Prowl.Runtime.Vector2,Prowl.Runtime.Vector2,Prowl.Runtime.Color,System.Single)
+  commentId: M:Prowl.Runtime.GUI.GuiDraw2D.DrawTriangle(Prowl.Runtime.Vector2,Prowl.Runtime.Vector2,Prowl.Runtime.Vector2,Prowl.Runtime.Color,System.Single)
+  id: DrawTriangle(Prowl.Runtime.Vector2,Prowl.Runtime.Vector2,Prowl.Runtime.Vector2,Prowl.Runtime.Color,System.Single)
+  parent: Prowl.Runtime.GUI.GuiDraw2D
+  langs:
+  - csharp
+  - vb
+  name: DrawTriangle(Vector2, Vector2, Vector2, Color, float)
+  nameWithType: GuiDraw2D.DrawTriangle(Vector2, Vector2, Vector2, Color, float)
+  fullName: Prowl.Runtime.GUI.GuiDraw2D.DrawTriangle(Prowl.Runtime.Vector2, Prowl.Runtime.Vector2, Prowl.Runtime.Vector2, Prowl.Runtime.Color, float)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/GuiDraw2D.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: DrawTriangle
+    path: ../Prowl/Prowl.Runtime/GUI/GuiDraw2D.cs
+    startLine: 126
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  syntax:
+    content: public void DrawTriangle(Vector2 a, Vector2 b, Vector2 c, Color color, float thickness = 1)
+    parameters:
+    - id: a
+      type: Prowl.Runtime.Vector2
+    - id: b
+      type: Prowl.Runtime.Vector2
+    - id: c
+      type: Prowl.Runtime.Vector2
+    - id: color
+      type: Prowl.Runtime.Color
+    - id: thickness
+      type: System.Single
+    content.vb: Public Sub DrawTriangle(a As Vector2, b As Vector2, c As Vector2, color As Color, thickness As Single = 1)
+  overload: Prowl.Runtime.GUI.GuiDraw2D.DrawTriangle*
+  nameWithType.vb: GuiDraw2D.DrawTriangle(Vector2, Vector2, Vector2, Color, Single)
+  fullName.vb: Prowl.Runtime.GUI.GuiDraw2D.DrawTriangle(Prowl.Runtime.Vector2, Prowl.Runtime.Vector2, Prowl.Runtime.Vector2, Prowl.Runtime.Color, Single)
+  name.vb: DrawTriangle(Vector2, Vector2, Vector2, Color, Single)
+- uid: Prowl.Runtime.GUI.GuiDraw2D.DrawTriangleFilled(Prowl.Runtime.Vector2,Prowl.Runtime.Vector2,Prowl.Runtime.Vector2,Prowl.Runtime.Color)
+  commentId: M:Prowl.Runtime.GUI.GuiDraw2D.DrawTriangleFilled(Prowl.Runtime.Vector2,Prowl.Runtime.Vector2,Prowl.Runtime.Vector2,Prowl.Runtime.Color)
+  id: DrawTriangleFilled(Prowl.Runtime.Vector2,Prowl.Runtime.Vector2,Prowl.Runtime.Vector2,Prowl.Runtime.Color)
+  parent: Prowl.Runtime.GUI.GuiDraw2D
+  langs:
+  - csharp
+  - vb
+  name: DrawTriangleFilled(Vector2, Vector2, Vector2, Color)
+  nameWithType: GuiDraw2D.DrawTriangleFilled(Vector2, Vector2, Vector2, Color)
+  fullName: Prowl.Runtime.GUI.GuiDraw2D.DrawTriangleFilled(Prowl.Runtime.Vector2, Prowl.Runtime.Vector2, Prowl.Runtime.Vector2, Prowl.Runtime.Color)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/GuiDraw2D.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: DrawTriangleFilled
+    path: ../Prowl/Prowl.Runtime/GUI/GuiDraw2D.cs
+    startLine: 128
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  syntax:
+    content: public void DrawTriangleFilled(Vector2 a, Vector2 b, Vector2 c, Color color)
+    parameters:
+    - id: a
+      type: Prowl.Runtime.Vector2
+    - id: b
+      type: Prowl.Runtime.Vector2
+    - id: c
+      type: Prowl.Runtime.Vector2
+    - id: color
+      type: Prowl.Runtime.Color
+    content.vb: Public Sub DrawTriangleFilled(a As Vector2, b As Vector2, c As Vector2, color As Color)
+  overload: Prowl.Runtime.GUI.GuiDraw2D.DrawTriangleFilled*
+- uid: Prowl.Runtime.GUI.GuiDraw2D.DrawTriangle(Prowl.Runtime.Vector2,Prowl.Runtime.Vector2,System.Single,Prowl.Runtime.Color,System.Single)
+  commentId: M:Prowl.Runtime.GUI.GuiDraw2D.DrawTriangle(Prowl.Runtime.Vector2,Prowl.Runtime.Vector2,System.Single,Prowl.Runtime.Color,System.Single)
+  id: DrawTriangle(Prowl.Runtime.Vector2,Prowl.Runtime.Vector2,System.Single,Prowl.Runtime.Color,System.Single)
+  parent: Prowl.Runtime.GUI.GuiDraw2D
+  langs:
+  - csharp
+  - vb
+  name: DrawTriangle(Vector2, Vector2, float, Color, float)
+  nameWithType: GuiDraw2D.DrawTriangle(Vector2, Vector2, float, Color, float)
+  fullName: Prowl.Runtime.GUI.GuiDraw2D.DrawTriangle(Prowl.Runtime.Vector2, Prowl.Runtime.Vector2, float, Prowl.Runtime.Color, float)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/GuiDraw2D.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: DrawTriangle
+    path: ../Prowl/Prowl.Runtime/GUI/GuiDraw2D.cs
+    startLine: 130
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  syntax:
+    content: public void DrawTriangle(Vector2 center, Vector2 dir, float width, Color color, float thickness = 1)
+    parameters:
+    - id: center
+      type: Prowl.Runtime.Vector2
+    - id: dir
+      type: Prowl.Runtime.Vector2
+    - id: width
+      type: System.Single
+    - id: color
+      type: Prowl.Runtime.Color
+    - id: thickness
+      type: System.Single
+    content.vb: Public Sub DrawTriangle(center As Vector2, dir As Vector2, width As Single, color As Color, thickness As Single = 1)
+  overload: Prowl.Runtime.GUI.GuiDraw2D.DrawTriangle*
+  nameWithType.vb: GuiDraw2D.DrawTriangle(Vector2, Vector2, Single, Color, Single)
+  fullName.vb: Prowl.Runtime.GUI.GuiDraw2D.DrawTriangle(Prowl.Runtime.Vector2, Prowl.Runtime.Vector2, Single, Prowl.Runtime.Color, Single)
+  name.vb: DrawTriangle(Vector2, Vector2, Single, Color, Single)
+- uid: Prowl.Runtime.GUI.GuiDraw2D.DrawTriangleFilled(Prowl.Runtime.Vector2,Prowl.Runtime.Vector2,System.Single,Prowl.Runtime.Color)
+  commentId: M:Prowl.Runtime.GUI.GuiDraw2D.DrawTriangleFilled(Prowl.Runtime.Vector2,Prowl.Runtime.Vector2,System.Single,Prowl.Runtime.Color)
+  id: DrawTriangleFilled(Prowl.Runtime.Vector2,Prowl.Runtime.Vector2,System.Single,Prowl.Runtime.Color)
+  parent: Prowl.Runtime.GUI.GuiDraw2D
+  langs:
+  - csharp
+  - vb
+  name: DrawTriangleFilled(Vector2, Vector2, float, Color)
+  nameWithType: GuiDraw2D.DrawTriangleFilled(Vector2, Vector2, float, Color)
+  fullName: Prowl.Runtime.GUI.GuiDraw2D.DrawTriangleFilled(Prowl.Runtime.Vector2, Prowl.Runtime.Vector2, float, Prowl.Runtime.Color)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/GuiDraw2D.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: DrawTriangleFilled
+    path: ../Prowl/Prowl.Runtime/GUI/GuiDraw2D.cs
+    startLine: 141
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  syntax:
+    content: public void DrawTriangleFilled(Vector2 center, Vector2 dir, float width, Color color)
+    parameters:
+    - id: center
+      type: Prowl.Runtime.Vector2
+    - id: dir
+      type: Prowl.Runtime.Vector2
+    - id: width
+      type: System.Single
+    - id: color
+      type: Prowl.Runtime.Color
+    content.vb: Public Sub DrawTriangleFilled(center As Vector2, dir As Vector2, width As Single, color As Color)
+  overload: Prowl.Runtime.GUI.GuiDraw2D.DrawTriangleFilled*
+  nameWithType.vb: GuiDraw2D.DrawTriangleFilled(Vector2, Vector2, Single, Color)
+  fullName.vb: Prowl.Runtime.GUI.GuiDraw2D.DrawTriangleFilled(Prowl.Runtime.Vector2, Prowl.Runtime.Vector2, Single, Prowl.Runtime.Color)
+  name.vb: DrawTriangleFilled(Vector2, Vector2, Single, Color)
+- uid: Prowl.Runtime.GUI.GuiDraw2D.DrawImage(Prowl.Runtime.Texture2D,Prowl.Runtime.Rect,Prowl.Runtime.Rect,System.Boolean)
+  commentId: M:Prowl.Runtime.GUI.GuiDraw2D.DrawImage(Prowl.Runtime.Texture2D,Prowl.Runtime.Rect,Prowl.Runtime.Rect,System.Boolean)
+  id: DrawImage(Prowl.Runtime.Texture2D,Prowl.Runtime.Rect,Prowl.Runtime.Rect,System.Boolean)
+  parent: Prowl.Runtime.GUI.GuiDraw2D
+  langs:
+  - csharp
+  - vb
+  name: DrawImage(Texture2D, Rect, Rect, bool)
+  nameWithType: GuiDraw2D.DrawImage(Texture2D, Rect, Rect, bool)
+  fullName: Prowl.Runtime.GUI.GuiDraw2D.DrawImage(Prowl.Runtime.Texture2D, Prowl.Runtime.Rect, Prowl.Runtime.Rect, bool)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/GuiDraw2D.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: DrawImage
+    path: ../Prowl/Prowl.Runtime/GUI/GuiDraw2D.cs
+    startLine: 156
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  syntax:
+    content: public void DrawImage(Texture2D texture, Rect src, Rect dest, bool keepAspect = false)
+    parameters:
+    - id: texture
+      type: Prowl.Runtime.Texture2D
+    - id: src
+      type: Prowl.Runtime.Rect
+    - id: dest
+      type: Prowl.Runtime.Rect
+    - id: keepAspect
+      type: System.Boolean
+    content.vb: Public Sub DrawImage(texture As Texture2D, src As Rect, dest As Rect, keepAspect As Boolean = False)
+  overload: Prowl.Runtime.GUI.GuiDraw2D.DrawImage*
+  nameWithType.vb: GuiDraw2D.DrawImage(Texture2D, Rect, Rect, Boolean)
+  fullName.vb: Prowl.Runtime.GUI.GuiDraw2D.DrawImage(Prowl.Runtime.Texture2D, Prowl.Runtime.Rect, Prowl.Runtime.Rect, Boolean)
+  name.vb: DrawImage(Texture2D, Rect, Rect, Boolean)
+- uid: Prowl.Runtime.GUI.GuiDraw2D.DrawImage(Prowl.Runtime.Texture2D,Prowl.Runtime.Rect,System.Boolean)
+  commentId: M:Prowl.Runtime.GUI.GuiDraw2D.DrawImage(Prowl.Runtime.Texture2D,Prowl.Runtime.Rect,System.Boolean)
+  id: DrawImage(Prowl.Runtime.Texture2D,Prowl.Runtime.Rect,System.Boolean)
+  parent: Prowl.Runtime.GUI.GuiDraw2D
+  langs:
+  - csharp
+  - vb
+  name: DrawImage(Texture2D, Rect, bool)
+  nameWithType: GuiDraw2D.DrawImage(Texture2D, Rect, bool)
+  fullName: Prowl.Runtime.GUI.GuiDraw2D.DrawImage(Prowl.Runtime.Texture2D, Prowl.Runtime.Rect, bool)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/GuiDraw2D.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: DrawImage
+    path: ../Prowl/Prowl.Runtime/GUI/GuiDraw2D.cs
+    startLine: 158
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  syntax:
+    content: public void DrawImage(Texture2D texture, Rect rect, bool keepAspect = false)
+    parameters:
+    - id: texture
+      type: Prowl.Runtime.Texture2D
+    - id: rect
+      type: Prowl.Runtime.Rect
+    - id: keepAspect
+      type: System.Boolean
+    content.vb: Public Sub DrawImage(texture As Texture2D, rect As Rect, keepAspect As Boolean = False)
+  overload: Prowl.Runtime.GUI.GuiDraw2D.DrawImage*
+  nameWithType.vb: GuiDraw2D.DrawImage(Texture2D, Rect, Boolean)
+  fullName.vb: Prowl.Runtime.GUI.GuiDraw2D.DrawImage(Prowl.Runtime.Texture2D, Prowl.Runtime.Rect, Boolean)
+  name.vb: DrawImage(Texture2D, Rect, Boolean)
+- uid: Prowl.Runtime.GUI.GuiDraw2D.DrawImage(Prowl.Runtime.Texture2D,Prowl.Runtime.Rect,Prowl.Runtime.Color,System.Boolean)
+  commentId: M:Prowl.Runtime.GUI.GuiDraw2D.DrawImage(Prowl.Runtime.Texture2D,Prowl.Runtime.Rect,Prowl.Runtime.Color,System.Boolean)
+  id: DrawImage(Prowl.Runtime.Texture2D,Prowl.Runtime.Rect,Prowl.Runtime.Color,System.Boolean)
+  parent: Prowl.Runtime.GUI.GuiDraw2D
+  langs:
+  - csharp
+  - vb
+  name: DrawImage(Texture2D, Rect, Color, bool)
+  nameWithType: GuiDraw2D.DrawImage(Texture2D, Rect, Color, bool)
+  fullName: Prowl.Runtime.GUI.GuiDraw2D.DrawImage(Prowl.Runtime.Texture2D, Prowl.Runtime.Rect, Prowl.Runtime.Color, bool)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/GuiDraw2D.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: DrawImage
+    path: ../Prowl/Prowl.Runtime/GUI/GuiDraw2D.cs
+    startLine: 160
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  syntax:
+    content: public void DrawImage(Texture2D texture, Rect rect, Color color, bool keepAspect = false)
+    parameters:
+    - id: texture
+      type: Prowl.Runtime.Texture2D
+    - id: rect
+      type: Prowl.Runtime.Rect
+    - id: color
+      type: Prowl.Runtime.Color
+    - id: keepAspect
+      type: System.Boolean
+    content.vb: Public Sub DrawImage(texture As Texture2D, rect As Rect, color As Color, keepAspect As Boolean = False)
+  overload: Prowl.Runtime.GUI.GuiDraw2D.DrawImage*
+  nameWithType.vb: GuiDraw2D.DrawImage(Texture2D, Rect, Color, Boolean)
+  fullName.vb: Prowl.Runtime.GUI.GuiDraw2D.DrawImage(Prowl.Runtime.Texture2D, Prowl.Runtime.Rect, Prowl.Runtime.Color, Boolean)
+  name.vb: DrawImage(Texture2D, Rect, Color, Boolean)
+- uid: Prowl.Runtime.GUI.GuiDraw2D.DrawImage(Prowl.Runtime.Texture2D,Prowl.Runtime.Vector2,Prowl.Runtime.Vector2,System.Boolean)
+  commentId: M:Prowl.Runtime.GUI.GuiDraw2D.DrawImage(Prowl.Runtime.Texture2D,Prowl.Runtime.Vector2,Prowl.Runtime.Vector2,System.Boolean)
+  id: DrawImage(Prowl.Runtime.Texture2D,Prowl.Runtime.Vector2,Prowl.Runtime.Vector2,System.Boolean)
+  parent: Prowl.Runtime.GUI.GuiDraw2D
+  langs:
+  - csharp
+  - vb
+  name: DrawImage(Texture2D, Vector2, Vector2, bool)
+  nameWithType: GuiDraw2D.DrawImage(Texture2D, Vector2, Vector2, bool)
+  fullName: Prowl.Runtime.GUI.GuiDraw2D.DrawImage(Prowl.Runtime.Texture2D, Prowl.Runtime.Vector2, Prowl.Runtime.Vector2, bool)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/GuiDraw2D.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: DrawImage
+    path: ../Prowl/Prowl.Runtime/GUI/GuiDraw2D.cs
+    startLine: 162
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  syntax:
+    content: public void DrawImage(Texture2D texture, Vector2 position, Vector2 size, bool keepAspect = false)
+    parameters:
+    - id: texture
+      type: Prowl.Runtime.Texture2D
+    - id: position
+      type: Prowl.Runtime.Vector2
+    - id: size
+      type: Prowl.Runtime.Vector2
+    - id: keepAspect
+      type: System.Boolean
+    content.vb: Public Sub DrawImage(texture As Texture2D, position As Vector2, size As Vector2, keepAspect As Boolean = False)
+  overload: Prowl.Runtime.GUI.GuiDraw2D.DrawImage*
+  nameWithType.vb: GuiDraw2D.DrawImage(Texture2D, Vector2, Vector2, Boolean)
+  fullName.vb: Prowl.Runtime.GUI.GuiDraw2D.DrawImage(Prowl.Runtime.Texture2D, Prowl.Runtime.Vector2, Prowl.Runtime.Vector2, Boolean)
+  name.vb: DrawImage(Texture2D, Vector2, Vector2, Boolean)
+- uid: Prowl.Runtime.GUI.GuiDraw2D.DrawImage(Prowl.Runtime.Texture2D,Prowl.Runtime.Vector2,Prowl.Runtime.Vector2,Prowl.Runtime.Color,System.Boolean)
+  commentId: M:Prowl.Runtime.GUI.GuiDraw2D.DrawImage(Prowl.Runtime.Texture2D,Prowl.Runtime.Vector2,Prowl.Runtime.Vector2,Prowl.Runtime.Color,System.Boolean)
+  id: DrawImage(Prowl.Runtime.Texture2D,Prowl.Runtime.Vector2,Prowl.Runtime.Vector2,Prowl.Runtime.Color,System.Boolean)
+  parent: Prowl.Runtime.GUI.GuiDraw2D
+  langs:
+  - csharp
+  - vb
+  name: DrawImage(Texture2D, Vector2, Vector2, Color, bool)
+  nameWithType: GuiDraw2D.DrawImage(Texture2D, Vector2, Vector2, Color, bool)
+  fullName: Prowl.Runtime.GUI.GuiDraw2D.DrawImage(Prowl.Runtime.Texture2D, Prowl.Runtime.Vector2, Prowl.Runtime.Vector2, Prowl.Runtime.Color, bool)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/GuiDraw2D.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: DrawImage
+    path: ../Prowl/Prowl.Runtime/GUI/GuiDraw2D.cs
+    startLine: 164
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  syntax:
+    content: public void DrawImage(Texture2D texture, Vector2 position, Vector2 size, Color color, bool keepAspect = false)
+    parameters:
+    - id: texture
+      type: Prowl.Runtime.Texture2D
+    - id: position
+      type: Prowl.Runtime.Vector2
+    - id: size
+      type: Prowl.Runtime.Vector2
+    - id: color
+      type: Prowl.Runtime.Color
+    - id: keepAspect
+      type: System.Boolean
+    content.vb: Public Sub DrawImage(texture As Texture2D, position As Vector2, size As Vector2, color As Color, keepAspect As Boolean = False)
+  overload: Prowl.Runtime.GUI.GuiDraw2D.DrawImage*
+  nameWithType.vb: GuiDraw2D.DrawImage(Texture2D, Vector2, Vector2, Color, Boolean)
+  fullName.vb: Prowl.Runtime.GUI.GuiDraw2D.DrawImage(Prowl.Runtime.Texture2D, Prowl.Runtime.Vector2, Prowl.Runtime.Vector2, Prowl.Runtime.Color, Boolean)
+  name.vb: DrawImage(Texture2D, Vector2, Vector2, Color, Boolean)
+- uid: Prowl.Runtime.GUI.GuiDraw2D.DrawImage(Prowl.Runtime.Texture2D,Prowl.Runtime.Vector2,Prowl.Runtime.Vector2,Prowl.Runtime.Vector2,Prowl.Runtime.Vector2,Prowl.Runtime.Color,System.Boolean)
+  commentId: M:Prowl.Runtime.GUI.GuiDraw2D.DrawImage(Prowl.Runtime.Texture2D,Prowl.Runtime.Vector2,Prowl.Runtime.Vector2,Prowl.Runtime.Vector2,Prowl.Runtime.Vector2,Prowl.Runtime.Color,System.Boolean)
+  id: DrawImage(Prowl.Runtime.Texture2D,Prowl.Runtime.Vector2,Prowl.Runtime.Vector2,Prowl.Runtime.Vector2,Prowl.Runtime.Vector2,Prowl.Runtime.Color,System.Boolean)
+  parent: Prowl.Runtime.GUI.GuiDraw2D
+  langs:
+  - csharp
+  - vb
+  name: DrawImage(Texture2D, Vector2, Vector2, Vector2, Vector2, Color, bool)
+  nameWithType: GuiDraw2D.DrawImage(Texture2D, Vector2, Vector2, Vector2, Vector2, Color, bool)
+  fullName: Prowl.Runtime.GUI.GuiDraw2D.DrawImage(Prowl.Runtime.Texture2D, Prowl.Runtime.Vector2, Prowl.Runtime.Vector2, Prowl.Runtime.Vector2, Prowl.Runtime.Vector2, Prowl.Runtime.Color, bool)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/GuiDraw2D.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: DrawImage
+    path: ../Prowl/Prowl.Runtime/GUI/GuiDraw2D.cs
+    startLine: 167
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  syntax:
+    content: public void DrawImage(Texture2D texture, Vector2 position, Vector2 size, Vector2 uv0, Vector2 uv1, Color color, bool keepAspect = false)
+    parameters:
+    - id: texture
+      type: Prowl.Runtime.Texture2D
+    - id: position
+      type: Prowl.Runtime.Vector2
+    - id: size
+      type: Prowl.Runtime.Vector2
+    - id: uv0
+      type: Prowl.Runtime.Vector2
+    - id: uv1
+      type: Prowl.Runtime.Vector2
+    - id: color
+      type: Prowl.Runtime.Color
+    - id: keepAspect
+      type: System.Boolean
+    content.vb: Public Sub DrawImage(texture As Texture2D, position As Vector2, size As Vector2, uv0 As Vector2, uv1 As Vector2, color As Color, keepAspect As Boolean = False)
+  overload: Prowl.Runtime.GUI.GuiDraw2D.DrawImage*
+  nameWithType.vb: GuiDraw2D.DrawImage(Texture2D, Vector2, Vector2, Vector2, Vector2, Color, Boolean)
+  fullName.vb: Prowl.Runtime.GUI.GuiDraw2D.DrawImage(Prowl.Runtime.Texture2D, Prowl.Runtime.Vector2, Prowl.Runtime.Vector2, Prowl.Runtime.Vector2, Prowl.Runtime.Vector2, Prowl.Runtime.Color, Boolean)
+  name.vb: DrawImage(Texture2D, Vector2, Vector2, Vector2, Vector2, Color, Boolean)
+- uid: Prowl.Runtime.GUI.GuiDraw2D.DrawText(System.String,Prowl.Runtime.Rect,Prowl.Runtime.Color,System.Boolean,System.Boolean)
+  commentId: M:Prowl.Runtime.GUI.GuiDraw2D.DrawText(System.String,Prowl.Runtime.Rect,Prowl.Runtime.Color,System.Boolean,System.Boolean)
+  id: DrawText(System.String,Prowl.Runtime.Rect,Prowl.Runtime.Color,System.Boolean,System.Boolean)
+  parent: Prowl.Runtime.GUI.GuiDraw2D
+  langs:
+  - csharp
+  - vb
+  name: DrawText(string, Rect, Color, bool, bool)
+  nameWithType: GuiDraw2D.DrawText(string, Rect, Color, bool, bool)
+  fullName: Prowl.Runtime.GUI.GuiDraw2D.DrawText(string, Prowl.Runtime.Rect, Prowl.Runtime.Color, bool, bool)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/GuiDraw2D.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: DrawText
+    path: ../Prowl/Prowl.Runtime/GUI/GuiDraw2D.cs
+    startLine: 198
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  syntax:
+    content: public void DrawText(string text, Rect rect, Color color, bool dowrap = true, bool doclip = true)
+    parameters:
+    - id: text
+      type: System.String
+    - id: rect
+      type: Prowl.Runtime.Rect
+    - id: color
+      type: Prowl.Runtime.Color
+    - id: dowrap
+      type: System.Boolean
+    - id: doclip
+      type: System.Boolean
+    content.vb: Public Sub DrawText(text As String, rect As Rect, color As Color, dowrap As Boolean = True, doclip As Boolean = True)
+  overload: Prowl.Runtime.GUI.GuiDraw2D.DrawText*
+  nameWithType.vb: GuiDraw2D.DrawText(String, Rect, Color, Boolean, Boolean)
+  fullName.vb: Prowl.Runtime.GUI.GuiDraw2D.DrawText(String, Prowl.Runtime.Rect, Prowl.Runtime.Color, Boolean, Boolean)
+  name.vb: DrawText(String, Rect, Color, Boolean, Boolean)
+- uid: Prowl.Runtime.GUI.GuiDraw2D.DrawText(System.String,Prowl.Runtime.Rect,System.Boolean,System.Boolean)
+  commentId: M:Prowl.Runtime.GUI.GuiDraw2D.DrawText(System.String,Prowl.Runtime.Rect,System.Boolean,System.Boolean)
+  id: DrawText(System.String,Prowl.Runtime.Rect,System.Boolean,System.Boolean)
+  parent: Prowl.Runtime.GUI.GuiDraw2D
+  langs:
+  - csharp
+  - vb
+  name: DrawText(string, Rect, bool, bool)
+  nameWithType: GuiDraw2D.DrawText(string, Rect, bool, bool)
+  fullName: Prowl.Runtime.GUI.GuiDraw2D.DrawText(string, Prowl.Runtime.Rect, bool, bool)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/GuiDraw2D.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: DrawText
+    path: ../Prowl/Prowl.Runtime/GUI/GuiDraw2D.cs
+    startLine: 200
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  syntax:
+    content: public void DrawText(string text, Rect rect, bool dowrap = true, bool doclip = true)
+    parameters:
+    - id: text
+      type: System.String
+    - id: rect
+      type: Prowl.Runtime.Rect
+    - id: dowrap
+      type: System.Boolean
+    - id: doclip
+      type: System.Boolean
+    content.vb: Public Sub DrawText(text As String, rect As Rect, dowrap As Boolean = True, doclip As Boolean = True)
+  overload: Prowl.Runtime.GUI.GuiDraw2D.DrawText*
+  nameWithType.vb: GuiDraw2D.DrawText(String, Rect, Boolean, Boolean)
+  fullName.vb: Prowl.Runtime.GUI.GuiDraw2D.DrawText(String, Prowl.Runtime.Rect, Boolean, Boolean)
+  name.vb: DrawText(String, Rect, Boolean, Boolean)
+- uid: Prowl.Runtime.GUI.GuiDraw2D.DrawText(System.String,System.Double,Prowl.Runtime.Rect,System.Boolean,System.Boolean)
+  commentId: M:Prowl.Runtime.GUI.GuiDraw2D.DrawText(System.String,System.Double,Prowl.Runtime.Rect,System.Boolean,System.Boolean)
+  id: DrawText(System.String,System.Double,Prowl.Runtime.Rect,System.Boolean,System.Boolean)
+  parent: Prowl.Runtime.GUI.GuiDraw2D
+  langs:
+  - csharp
+  - vb
+  name: DrawText(string, double, Rect, bool, bool)
+  nameWithType: GuiDraw2D.DrawText(string, double, Rect, bool, bool)
+  fullName: Prowl.Runtime.GUI.GuiDraw2D.DrawText(string, double, Prowl.Runtime.Rect, bool, bool)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/GuiDraw2D.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: DrawText
+    path: ../Prowl/Prowl.Runtime/GUI/GuiDraw2D.cs
+    startLine: 203
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  syntax:
+    content: public void DrawText(string text, double fontSize, Rect rect, bool dowrap = true, bool doclip = true)
+    parameters:
+    - id: text
+      type: System.String
+    - id: fontSize
+      type: System.Double
+    - id: rect
+      type: Prowl.Runtime.Rect
+    - id: dowrap
+      type: System.Boolean
+    - id: doclip
+      type: System.Boolean
+    content.vb: Public Sub DrawText(text As String, fontSize As Double, rect As Rect, dowrap As Boolean = True, doclip As Boolean = True)
+  overload: Prowl.Runtime.GUI.GuiDraw2D.DrawText*
+  nameWithType.vb: GuiDraw2D.DrawText(String, Double, Rect, Boolean, Boolean)
+  fullName.vb: Prowl.Runtime.GUI.GuiDraw2D.DrawText(String, Double, Prowl.Runtime.Rect, Boolean, Boolean)
+  name.vb: DrawText(String, Double, Rect, Boolean, Boolean)
+- uid: Prowl.Runtime.GUI.GuiDraw2D.DrawText(System.String,System.Double,Prowl.Runtime.Rect,Prowl.Runtime.Color,System.Boolean,System.Boolean)
+  commentId: M:Prowl.Runtime.GUI.GuiDraw2D.DrawText(System.String,System.Double,Prowl.Runtime.Rect,Prowl.Runtime.Color,System.Boolean,System.Boolean)
+  id: DrawText(System.String,System.Double,Prowl.Runtime.Rect,Prowl.Runtime.Color,System.Boolean,System.Boolean)
+  parent: Prowl.Runtime.GUI.GuiDraw2D
+  langs:
+  - csharp
+  - vb
+  name: DrawText(string, double, Rect, Color, bool, bool)
+  nameWithType: GuiDraw2D.DrawText(string, double, Rect, Color, bool, bool)
+  fullName: Prowl.Runtime.GUI.GuiDraw2D.DrawText(string, double, Prowl.Runtime.Rect, Prowl.Runtime.Color, bool, bool)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/GuiDraw2D.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: DrawText
+    path: ../Prowl/Prowl.Runtime/GUI/GuiDraw2D.cs
+    startLine: 206
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  syntax:
+    content: public void DrawText(string text, double fontSize, Rect rect, Color color, bool dowrap = true, bool doclip = true)
+    parameters:
+    - id: text
+      type: System.String
+    - id: fontSize
+      type: System.Double
+    - id: rect
+      type: Prowl.Runtime.Rect
+    - id: color
+      type: Prowl.Runtime.Color
+    - id: dowrap
+      type: System.Boolean
+    - id: doclip
+      type: System.Boolean
+    content.vb: Public Sub DrawText(text As String, fontSize As Double, rect As Rect, color As Color, dowrap As Boolean = True, doclip As Boolean = True)
+  overload: Prowl.Runtime.GUI.GuiDraw2D.DrawText*
+  nameWithType.vb: GuiDraw2D.DrawText(String, Double, Rect, Color, Boolean, Boolean)
+  fullName.vb: Prowl.Runtime.GUI.GuiDraw2D.DrawText(String, Double, Prowl.Runtime.Rect, Prowl.Runtime.Color, Boolean, Boolean)
+  name.vb: DrawText(String, Double, Rect, Color, Boolean, Boolean)
+- uid: Prowl.Runtime.GUI.GuiDraw2D.DrawText(Prowl.Runtime.Font,System.String,System.Double,Prowl.Runtime.Rect,Prowl.Runtime.Color,System.Boolean,System.Boolean)
+  commentId: M:Prowl.Runtime.GUI.GuiDraw2D.DrawText(Prowl.Runtime.Font,System.String,System.Double,Prowl.Runtime.Rect,Prowl.Runtime.Color,System.Boolean,System.Boolean)
+  id: DrawText(Prowl.Runtime.Font,System.String,System.Double,Prowl.Runtime.Rect,Prowl.Runtime.Color,System.Boolean,System.Boolean)
+  parent: Prowl.Runtime.GUI.GuiDraw2D
+  langs:
+  - csharp
+  - vb
+  name: DrawText(Font, string, double, Rect, Color, bool, bool)
+  nameWithType: GuiDraw2D.DrawText(Font, string, double, Rect, Color, bool, bool)
+  fullName: Prowl.Runtime.GUI.GuiDraw2D.DrawText(Prowl.Runtime.Font, string, double, Prowl.Runtime.Rect, Prowl.Runtime.Color, bool, bool)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/GuiDraw2D.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: DrawText
+    path: ../Prowl/Prowl.Runtime/GUI/GuiDraw2D.cs
+    startLine: 209
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  syntax:
+    content: public void DrawText(Font font, string text, double fontSize, Rect rect, Color color, bool dowrap = true, bool doclip = true)
+    parameters:
+    - id: font
+      type: Prowl.Runtime.Font
+    - id: text
+      type: System.String
+    - id: fontSize
+      type: System.Double
+    - id: rect
+      type: Prowl.Runtime.Rect
+    - id: color
+      type: Prowl.Runtime.Color
+    - id: dowrap
+      type: System.Boolean
+    - id: doclip
+      type: System.Boolean
+    content.vb: Public Sub DrawText(font As Font, text As String, fontSize As Double, rect As Rect, color As Color, dowrap As Boolean = True, doclip As Boolean = True)
+  overload: Prowl.Runtime.GUI.GuiDraw2D.DrawText*
+  nameWithType.vb: GuiDraw2D.DrawText(Font, String, Double, Rect, Color, Boolean, Boolean)
+  fullName.vb: Prowl.Runtime.GUI.GuiDraw2D.DrawText(Prowl.Runtime.Font, String, Double, Prowl.Runtime.Rect, Prowl.Runtime.Color, Boolean, Boolean)
+  name.vb: DrawText(Font, String, Double, Rect, Color, Boolean, Boolean)
+- uid: Prowl.Runtime.GUI.GuiDraw2D.DrawText(System.String,Prowl.Runtime.Vector2,System.Double)
+  commentId: M:Prowl.Runtime.GUI.GuiDraw2D.DrawText(System.String,Prowl.Runtime.Vector2,System.Double)
+  id: DrawText(System.String,Prowl.Runtime.Vector2,System.Double)
+  parent: Prowl.Runtime.GUI.GuiDraw2D
+  langs:
+  - csharp
+  - vb
+  name: DrawText(string, Vector2, double)
+  nameWithType: GuiDraw2D.DrawText(string, Vector2, double)
+  fullName: Prowl.Runtime.GUI.GuiDraw2D.DrawText(string, Prowl.Runtime.Vector2, double)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/GuiDraw2D.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: DrawText
+    path: ../Prowl/Prowl.Runtime/GUI/GuiDraw2D.cs
+    startLine: 219
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  syntax:
+    content: public void DrawText(string text, Vector2 position, double wrapwidth = 0)
+    parameters:
+    - id: text
+      type: System.String
+    - id: position
+      type: Prowl.Runtime.Vector2
+    - id: wrapwidth
+      type: System.Double
+    content.vb: Public Sub DrawText(text As String, position As Vector2, wrapwidth As Double = 0)
+  overload: Prowl.Runtime.GUI.GuiDraw2D.DrawText*
+  nameWithType.vb: GuiDraw2D.DrawText(String, Vector2, Double)
+  fullName.vb: Prowl.Runtime.GUI.GuiDraw2D.DrawText(String, Prowl.Runtime.Vector2, Double)
+  name.vb: DrawText(String, Vector2, Double)
+- uid: Prowl.Runtime.GUI.GuiDraw2D.DrawText(System.String,Prowl.Runtime.Vector2,Prowl.Runtime.Color,System.Double)
+  commentId: M:Prowl.Runtime.GUI.GuiDraw2D.DrawText(System.String,Prowl.Runtime.Vector2,Prowl.Runtime.Color,System.Double)
+  id: DrawText(System.String,Prowl.Runtime.Vector2,Prowl.Runtime.Color,System.Double)
+  parent: Prowl.Runtime.GUI.GuiDraw2D
+  langs:
+  - csharp
+  - vb
+  name: DrawText(string, Vector2, Color, double)
+  nameWithType: GuiDraw2D.DrawText(string, Vector2, Color, double)
+  fullName: Prowl.Runtime.GUI.GuiDraw2D.DrawText(string, Prowl.Runtime.Vector2, Prowl.Runtime.Color, double)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/GuiDraw2D.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: DrawText
+    path: ../Prowl/Prowl.Runtime/GUI/GuiDraw2D.cs
+    startLine: 222
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  syntax:
+    content: public void DrawText(string text, Vector2 position, Color color, double wrapwidth = 0)
+    parameters:
+    - id: text
+      type: System.String
+    - id: position
+      type: Prowl.Runtime.Vector2
+    - id: color
+      type: Prowl.Runtime.Color
+    - id: wrapwidth
+      type: System.Double
+    content.vb: Public Sub DrawText(text As String, position As Vector2, color As Color, wrapwidth As Double = 0)
+  overload: Prowl.Runtime.GUI.GuiDraw2D.DrawText*
+  nameWithType.vb: GuiDraw2D.DrawText(String, Vector2, Color, Double)
+  fullName.vb: Prowl.Runtime.GUI.GuiDraw2D.DrawText(String, Prowl.Runtime.Vector2, Prowl.Runtime.Color, Double)
+  name.vb: DrawText(String, Vector2, Color, Double)
+- uid: Prowl.Runtime.GUI.GuiDraw2D.DrawText(System.String,System.Double,Prowl.Runtime.Vector2,System.Double)
+  commentId: M:Prowl.Runtime.GUI.GuiDraw2D.DrawText(System.String,System.Double,Prowl.Runtime.Vector2,System.Double)
+  id: DrawText(System.String,System.Double,Prowl.Runtime.Vector2,System.Double)
+  parent: Prowl.Runtime.GUI.GuiDraw2D
+  langs:
+  - csharp
+  - vb
+  name: DrawText(string, double, Vector2, double)
+  nameWithType: GuiDraw2D.DrawText(string, double, Vector2, double)
+  fullName: Prowl.Runtime.GUI.GuiDraw2D.DrawText(string, double, Prowl.Runtime.Vector2, double)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/GuiDraw2D.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: DrawText
+    path: ../Prowl/Prowl.Runtime/GUI/GuiDraw2D.cs
+    startLine: 225
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  syntax:
+    content: public void DrawText(string text, double fontSize, Vector2 position, double wrapwidth = 0)
+    parameters:
+    - id: text
+      type: System.String
+    - id: fontSize
+      type: System.Double
+    - id: position
+      type: Prowl.Runtime.Vector2
+    - id: wrapwidth
+      type: System.Double
+    content.vb: Public Sub DrawText(text As String, fontSize As Double, position As Vector2, wrapwidth As Double = 0)
+  overload: Prowl.Runtime.GUI.GuiDraw2D.DrawText*
+  nameWithType.vb: GuiDraw2D.DrawText(String, Double, Vector2, Double)
+  fullName.vb: Prowl.Runtime.GUI.GuiDraw2D.DrawText(String, Double, Prowl.Runtime.Vector2, Double)
+  name.vb: DrawText(String, Double, Vector2, Double)
+- uid: Prowl.Runtime.GUI.GuiDraw2D.DrawText(System.String,System.Double,Prowl.Runtime.Vector2,Prowl.Runtime.Color,System.Double)
+  commentId: M:Prowl.Runtime.GUI.GuiDraw2D.DrawText(System.String,System.Double,Prowl.Runtime.Vector2,Prowl.Runtime.Color,System.Double)
+  id: DrawText(System.String,System.Double,Prowl.Runtime.Vector2,Prowl.Runtime.Color,System.Double)
+  parent: Prowl.Runtime.GUI.GuiDraw2D
+  langs:
+  - csharp
+  - vb
+  name: DrawText(string, double, Vector2, Color, double)
+  nameWithType: GuiDraw2D.DrawText(string, double, Vector2, Color, double)
+  fullName: Prowl.Runtime.GUI.GuiDraw2D.DrawText(string, double, Prowl.Runtime.Vector2, Prowl.Runtime.Color, double)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/GuiDraw2D.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: DrawText
+    path: ../Prowl/Prowl.Runtime/GUI/GuiDraw2D.cs
+    startLine: 228
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  syntax:
+    content: public void DrawText(string text, double fontSize, Vector2 position, Color color, double wrapwidth = 0)
+    parameters:
+    - id: text
+      type: System.String
+    - id: fontSize
+      type: System.Double
+    - id: position
+      type: Prowl.Runtime.Vector2
+    - id: color
+      type: Prowl.Runtime.Color
+    - id: wrapwidth
+      type: System.Double
+    content.vb: Public Sub DrawText(text As String, fontSize As Double, position As Vector2, color As Color, wrapwidth As Double = 0)
+  overload: Prowl.Runtime.GUI.GuiDraw2D.DrawText*
+  nameWithType.vb: GuiDraw2D.DrawText(String, Double, Vector2, Color, Double)
+  fullName.vb: Prowl.Runtime.GUI.GuiDraw2D.DrawText(String, Double, Prowl.Runtime.Vector2, Prowl.Runtime.Color, Double)
+  name.vb: DrawText(String, Double, Vector2, Color, Double)
+- uid: Prowl.Runtime.GUI.GuiDraw2D.DrawText(Prowl.Runtime.Font,System.String,System.Double,Prowl.Runtime.Vector2,Prowl.Runtime.Color,System.Double,System.Nullable{Prowl.Runtime.Rect})
+  commentId: M:Prowl.Runtime.GUI.GuiDraw2D.DrawText(Prowl.Runtime.Font,System.String,System.Double,Prowl.Runtime.Vector2,Prowl.Runtime.Color,System.Double,System.Nullable{Prowl.Runtime.Rect})
+  id: DrawText(Prowl.Runtime.Font,System.String,System.Double,Prowl.Runtime.Vector2,Prowl.Runtime.Color,System.Double,System.Nullable{Prowl.Runtime.Rect})
+  parent: Prowl.Runtime.GUI.GuiDraw2D
+  langs:
+  - csharp
+  - vb
+  name: DrawText(Font, string, double, Vector2, Color, double, Rect?)
+  nameWithType: GuiDraw2D.DrawText(Font, string, double, Vector2, Color, double, Rect?)
+  fullName: Prowl.Runtime.GUI.GuiDraw2D.DrawText(Prowl.Runtime.Font, string, double, Prowl.Runtime.Vector2, Prowl.Runtime.Color, double, Prowl.Runtime.Rect?)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/GuiDraw2D.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: DrawText
+    path: ../Prowl/Prowl.Runtime/GUI/GuiDraw2D.cs
+    startLine: 231
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  syntax:
+    content: public void DrawText(Font font, string text, double fontSize, Vector2 position, Color color, double wrapwidth = 0, Rect? clip = null)
+    parameters:
+    - id: font
+      type: Prowl.Runtime.Font
+    - id: text
+      type: System.String
+    - id: fontSize
+      type: System.Double
+    - id: position
+      type: Prowl.Runtime.Vector2
+    - id: color
+      type: Prowl.Runtime.Color
+    - id: wrapwidth
+      type: System.Double
+    - id: clip
+      type: System.Nullable{Prowl.Runtime.Rect}
+    content.vb: Public Sub DrawText(font As Font, text As String, fontSize As Double, position As Vector2, color As Color, wrapwidth As Double = 0, clip As Rect? = Nothing)
+  overload: Prowl.Runtime.GUI.GuiDraw2D.DrawText*
+  nameWithType.vb: GuiDraw2D.DrawText(Font, String, Double, Vector2, Color, Double, Rect?)
+  fullName.vb: Prowl.Runtime.GUI.GuiDraw2D.DrawText(Prowl.Runtime.Font, String, Double, Prowl.Runtime.Vector2, Prowl.Runtime.Color, Double, Prowl.Runtime.Rect?)
+  name.vb: DrawText(Font, String, Double, Vector2, Color, Double, Rect?)
+- uid: Prowl.Runtime.GUI.GuiDraw2D.LoadingIndicatorCircle(Prowl.Runtime.Vector2,System.Double,Prowl.Runtime.Vector4,Prowl.Runtime.Vector4,System.Int32,System.Single)
+  commentId: M:Prowl.Runtime.GUI.GuiDraw2D.LoadingIndicatorCircle(Prowl.Runtime.Vector2,System.Double,Prowl.Runtime.Vector4,Prowl.Runtime.Vector4,System.Int32,System.Single)
+  id: LoadingIndicatorCircle(Prowl.Runtime.Vector2,System.Double,Prowl.Runtime.Vector4,Prowl.Runtime.Vector4,System.Int32,System.Single)
+  parent: Prowl.Runtime.GUI.GuiDraw2D
+  langs:
+  - csharp
+  - vb
+  name: LoadingIndicatorCircle(Vector2, double, Vector4, Vector4, int, float)
+  nameWithType: GuiDraw2D.LoadingIndicatorCircle(Vector2, double, Vector4, Vector4, int, float)
+  fullName: Prowl.Runtime.GUI.GuiDraw2D.LoadingIndicatorCircle(Prowl.Runtime.Vector2, double, Prowl.Runtime.Vector4, Prowl.Runtime.Vector4, int, float)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/GuiDraw2D.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: LoadingIndicatorCircle
+    path: ../Prowl/Prowl.Runtime/GUI/GuiDraw2D.cs
+    startLine: 242
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  syntax:
+    content: public void LoadingIndicatorCircle(Vector2 center, double radius, Vector4 mainColor, Vector4 backdropColor, int circleCount, float speed)
+    parameters:
+    - id: center
+      type: Prowl.Runtime.Vector2
+    - id: radius
+      type: System.Double
+    - id: mainColor
+      type: Prowl.Runtime.Vector4
+    - id: backdropColor
+      type: Prowl.Runtime.Vector4
+    - id: circleCount
+      type: System.Int32
+    - id: speed
+      type: System.Single
+    content.vb: Public Sub LoadingIndicatorCircle(center As Vector2, radius As Double, mainColor As Vector4, backdropColor As Vector4, circleCount As Integer, speed As Single)
+  overload: Prowl.Runtime.GUI.GuiDraw2D.LoadingIndicatorCircle*
+  nameWithType.vb: GuiDraw2D.LoadingIndicatorCircle(Vector2, Double, Vector4, Vector4, Integer, Single)
+  fullName.vb: Prowl.Runtime.GUI.GuiDraw2D.LoadingIndicatorCircle(Prowl.Runtime.Vector2, Double, Prowl.Runtime.Vector4, Prowl.Runtime.Vector4, Integer, Single)
+  name.vb: LoadingIndicatorCircle(Vector2, Double, Vector4, Vector4, Integer, Single)
+references:
+- uid: Prowl.Runtime.GUI
+  commentId: N:Prowl.Runtime.GUI
+  href: Prowl.html
+  name: Prowl.Runtime.GUI
+  nameWithType: Prowl.Runtime.GUI
+  fullName: Prowl.Runtime.GUI
+  spec.csharp:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+  - name: .
+  - uid: Prowl.Runtime.GUI
+    name: GUI
+    href: Prowl.Runtime.GUI.html
+  spec.vb:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+  - name: .
+  - uid: Prowl.Runtime.GUI
+    name: GUI
+    href: Prowl.Runtime.GUI.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Prowl.Runtime.RuntimeUtils.GetSerializableFields
+  commentId: M:Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  parent: Prowl.Runtime.RuntimeUtils
+  definition: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  name: GetSerializableFields(object)
+  nameWithType: RuntimeUtils.GetSerializableFields(object)
+  fullName: Prowl.Runtime.RuntimeUtils.GetSerializableFields(object)
+  nameWithType.vb: RuntimeUtils.GetSerializableFields(Object)
+  fullName.vb: Prowl.Runtime.RuntimeUtils.GetSerializableFields(Object)
+  name.vb: GetSerializableFields(Object)
+  spec.csharp:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  commentId: M:Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  isExternal: true
+  href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  name: GetSerializableFields(object)
+  nameWithType: RuntimeUtils.GetSerializableFields(object)
+  fullName: Prowl.Runtime.RuntimeUtils.GetSerializableFields(object)
+  nameWithType.vb: RuntimeUtils.GetSerializableFields(Object)
+  fullName.vb: Prowl.Runtime.RuntimeUtils.GetSerializableFields(Object)
+  name.vb: GetSerializableFields(Object)
+  spec.csharp:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: Prowl.Runtime.RuntimeUtils
+  commentId: T:Prowl.Runtime.RuntimeUtils
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.RuntimeUtils.html
+  name: RuntimeUtils
+  nameWithType: RuntimeUtils
+  fullName: Prowl.Runtime.RuntimeUtils
+- uid: Prowl.Runtime
+  commentId: N:Prowl.Runtime
+  href: Prowl.html
+  name: Prowl.Runtime
+  nameWithType: Prowl.Runtime
+  fullName: Prowl.Runtime
+  spec.csharp:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+  spec.vb:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+- uid: Prowl.Runtime.GUI.GuiDraw2D.DrawList*
+  commentId: Overload:Prowl.Runtime.GUI.GuiDraw2D.DrawList
+  href: Prowl.Runtime.GUI.GuiDraw2D.html#Prowl_Runtime_GUI_GuiDraw2D_DrawList
+  name: DrawList
+  nameWithType: GuiDraw2D.DrawList
+  fullName: Prowl.Runtime.GUI.GuiDraw2D.DrawList
+- uid: Prowl.Runtime.GUI.Graphics.UIDrawList
+  commentId: T:Prowl.Runtime.GUI.Graphics.UIDrawList
+  parent: Prowl.Runtime.GUI.Graphics
+  href: Prowl.Runtime.GUI.Graphics.UIDrawList.html
+  name: UIDrawList
+  nameWithType: UIDrawList
+  fullName: Prowl.Runtime.GUI.Graphics.UIDrawList
+- uid: Prowl.Runtime.GUI.Graphics
+  commentId: N:Prowl.Runtime.GUI.Graphics
+  href: Prowl.html
+  name: Prowl.Runtime.GUI.Graphics
+  nameWithType: Prowl.Runtime.GUI.Graphics
+  fullName: Prowl.Runtime.GUI.Graphics
+  spec.csharp:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+  - name: .
+  - uid: Prowl.Runtime.GUI
+    name: GUI
+    href: Prowl.Runtime.GUI.html
+  - name: .
+  - uid: Prowl.Runtime.GUI.Graphics
+    name: Graphics
+    href: Prowl.Runtime.GUI.Graphics.html
+  spec.vb:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+  - name: .
+  - uid: Prowl.Runtime.GUI
+    name: GUI
+    href: Prowl.Runtime.GUI.html
+  - name: .
+  - uid: Prowl.Runtime.GUI.Graphics
+    name: Graphics
+    href: Prowl.Runtime.GUI.Graphics.html
+- uid: Prowl.Runtime.GUI.GuiDraw2D.#ctor*
+  commentId: Overload:Prowl.Runtime.GUI.GuiDraw2D.#ctor
+  href: Prowl.Runtime.GUI.GuiDraw2D.html#Prowl_Runtime_GUI_GuiDraw2D__ctor_Prowl_Runtime_GUI_Gui_System_Boolean_
+  name: GuiDraw2D
+  nameWithType: GuiDraw2D.GuiDraw2D
+  fullName: Prowl.Runtime.GUI.GuiDraw2D.GuiDraw2D
+  nameWithType.vb: GuiDraw2D.New
+  fullName.vb: Prowl.Runtime.GUI.GuiDraw2D.New
+  name.vb: New
+- uid: Prowl.Runtime.GUI.Gui
+  commentId: T:Prowl.Runtime.GUI.Gui
+  parent: Prowl.Runtime.GUI
+  href: Prowl.Runtime.GUI.Gui.html
+  name: Gui
+  nameWithType: Gui
+  fullName: Prowl.Runtime.GUI.Gui
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: Prowl.Runtime.GUI.GuiDraw2D.BeginFrame*
+  commentId: Overload:Prowl.Runtime.GUI.GuiDraw2D.BeginFrame
+  href: Prowl.Runtime.GUI.GuiDraw2D.html#Prowl_Runtime_GUI_GuiDraw2D_BeginFrame_System_Boolean_
+  name: BeginFrame
+  nameWithType: GuiDraw2D.BeginFrame
+  fullName: Prowl.Runtime.GUI.GuiDraw2D.BeginFrame
+- uid: Prowl.Runtime.GUI.GuiDraw2D.EndFrame*
+  commentId: Overload:Prowl.Runtime.GUI.GuiDraw2D.EndFrame
+  href: Prowl.Runtime.GUI.GuiDraw2D.html#Prowl_Runtime_GUI_GuiDraw2D_EndFrame_Veldrid_CommandList_Prowl_Runtime_Rect_
+  name: EndFrame
+  nameWithType: GuiDraw2D.EndFrame
+  fullName: Prowl.Runtime.GUI.GuiDraw2D.EndFrame
+- uid: Veldrid.CommandList
+  commentId: T:Veldrid.CommandList
+  parent: Veldrid
+  name: CommandList
+  nameWithType: CommandList
+  fullName: Veldrid.CommandList
+- uid: Prowl.Runtime.Rect
+  commentId: T:Prowl.Runtime.Rect
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.Rect.html
+  name: Rect
+  nameWithType: Rect
+  fullName: Prowl.Runtime.Rect
+- uid: Veldrid
+  commentId: N:Veldrid
+  name: Veldrid
+  nameWithType: Veldrid
+  fullName: Veldrid
+- uid: Prowl.Runtime.GUI.GuiDraw2D.PushClip*
+  commentId: Overload:Prowl.Runtime.GUI.GuiDraw2D.PushClip
+  href: Prowl.Runtime.GUI.GuiDraw2D.html#Prowl_Runtime_GUI_GuiDraw2D_PushClip_Prowl_Runtime_Rect_System_Boolean_
+  name: PushClip
+  nameWithType: GuiDraw2D.PushClip
+  fullName: Prowl.Runtime.GUI.GuiDraw2D.PushClip
+- uid: Prowl.Runtime.GUI.GuiDraw2D.PopClip*
+  commentId: Overload:Prowl.Runtime.GUI.GuiDraw2D.PopClip
+  href: Prowl.Runtime.GUI.GuiDraw2D.html#Prowl_Runtime_GUI_GuiDraw2D_PopClip
+  name: PopClip
+  nameWithType: GuiDraw2D.PopClip
+  fullName: Prowl.Runtime.GUI.GuiDraw2D.PopClip
+- uid: Prowl.Runtime.GUI.GuiDraw2D.PeekClip*
+  commentId: Overload:Prowl.Runtime.GUI.GuiDraw2D.PeekClip
+  href: Prowl.Runtime.GUI.GuiDraw2D.html#Prowl_Runtime_GUI_GuiDraw2D_PeekClip
+  name: PeekClip
+  nameWithType: GuiDraw2D.PeekClip
+  fullName: Prowl.Runtime.GUI.GuiDraw2D.PeekClip
+- uid: Prowl.Runtime.GUI.GuiDraw2D.SetZIndex*
+  commentId: Overload:Prowl.Runtime.GUI.GuiDraw2D.SetZIndex
+  href: Prowl.Runtime.GUI.GuiDraw2D.html#Prowl_Runtime_GUI_GuiDraw2D_SetZIndex_System_Int32_System_Boolean_
+  name: SetZIndex
+  nameWithType: GuiDraw2D.SetZIndex
+  fullName: Prowl.Runtime.GUI.GuiDraw2D.SetZIndex
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: Prowl.Runtime.GUI.GuiDraw2D.DrawVerticalGradient*
+  commentId: Overload:Prowl.Runtime.GUI.GuiDraw2D.DrawVerticalGradient
+  href: Prowl.Runtime.GUI.GuiDraw2D.html#Prowl_Runtime_GUI_GuiDraw2D_DrawVerticalGradient_Prowl_Runtime_Vector2_Prowl_Runtime_Vector2_System_Single_Prowl_Runtime_Color_Prowl_Runtime_Color_
+  name: DrawVerticalGradient
+  nameWithType: GuiDraw2D.DrawVerticalGradient
+  fullName: Prowl.Runtime.GUI.GuiDraw2D.DrawVerticalGradient
+- uid: Prowl.Runtime.Vector2
+  commentId: T:Prowl.Runtime.Vector2
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.Vector2.html
+  name: Vector2
+  nameWithType: Vector2
+  fullName: Prowl.Runtime.Vector2
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.single
+  name: float
+  nameWithType: float
+  fullName: float
+  nameWithType.vb: Single
+  fullName.vb: Single
+  name.vb: Single
+- uid: Prowl.Runtime.Color
+  commentId: T:Prowl.Runtime.Color
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.Color.html
+  name: Color
+  nameWithType: Color
+  fullName: Prowl.Runtime.Color
+- uid: Prowl.Runtime.GUI.GuiDraw2D.DrawHorizontalGradient*
+  commentId: Overload:Prowl.Runtime.GUI.GuiDraw2D.DrawHorizontalGradient
+  href: Prowl.Runtime.GUI.GuiDraw2D.html#Prowl_Runtime_GUI_GuiDraw2D_DrawHorizontalGradient_Prowl_Runtime_Vector2_Prowl_Runtime_Vector2_System_Single_Prowl_Runtime_Color_Prowl_Runtime_Color_
+  name: DrawHorizontalGradient
+  nameWithType: GuiDraw2D.DrawHorizontalGradient
+  fullName: Prowl.Runtime.GUI.GuiDraw2D.DrawHorizontalGradient
+- uid: Prowl.Runtime.GUI.GuiDraw2D.DrawVerticalBlackGradient*
+  commentId: Overload:Prowl.Runtime.GUI.GuiDraw2D.DrawVerticalBlackGradient
+  href: Prowl.Runtime.GUI.GuiDraw2D.html#Prowl_Runtime_GUI_GuiDraw2D_DrawVerticalBlackGradient_Prowl_Runtime_Vector2_Prowl_Runtime_Vector2_System_Single_System_Single_
+  name: DrawVerticalBlackGradient
+  nameWithType: GuiDraw2D.DrawVerticalBlackGradient
+  fullName: Prowl.Runtime.GUI.GuiDraw2D.DrawVerticalBlackGradient
+- uid: Prowl.Runtime.GUI.GuiDraw2D.DrawHorizontalBlackGradient*
+  commentId: Overload:Prowl.Runtime.GUI.GuiDraw2D.DrawHorizontalBlackGradient
+  href: Prowl.Runtime.GUI.GuiDraw2D.html#Prowl_Runtime_GUI_GuiDraw2D_DrawHorizontalBlackGradient_Prowl_Runtime_Vector2_Prowl_Runtime_Vector2_System_Single_System_Single_
+  name: DrawHorizontalBlackGradient
+  nameWithType: GuiDraw2D.DrawHorizontalBlackGradient
+  fullName: Prowl.Runtime.GUI.GuiDraw2D.DrawHorizontalBlackGradient
+- uid: Prowl.Runtime.GUI.GuiDraw2D.DrawRect*
+  commentId: Overload:Prowl.Runtime.GUI.GuiDraw2D.DrawRect
+  href: Prowl.Runtime.GUI.GuiDraw2D.html#Prowl_Runtime_GUI_GuiDraw2D_DrawRect_Prowl_Runtime_Rect_Prowl_Runtime_Color_System_Single_System_Single_System_Int32_
+  name: DrawRect
+  nameWithType: GuiDraw2D.DrawRect
+  fullName: Prowl.Runtime.GUI.GuiDraw2D.DrawRect
+- uid: Prowl.Runtime.GUI.GuiDraw2D.DrawRectFilled*
+  commentId: Overload:Prowl.Runtime.GUI.GuiDraw2D.DrawRectFilled
+  href: Prowl.Runtime.GUI.GuiDraw2D.html#Prowl_Runtime_GUI_GuiDraw2D_DrawRectFilled_Prowl_Runtime_Rect_Prowl_Runtime_Color_System_Single_System_Int32_
+  name: DrawRectFilled
+  nameWithType: GuiDraw2D.DrawRectFilled
+  fullName: Prowl.Runtime.GUI.GuiDraw2D.DrawRectFilled
+- uid: Prowl.Runtime.GUI.GuiDraw2D.DrawLine*
+  commentId: Overload:Prowl.Runtime.GUI.GuiDraw2D.DrawLine
+  href: Prowl.Runtime.GUI.GuiDraw2D.html#Prowl_Runtime_GUI_GuiDraw2D_DrawLine_Prowl_Runtime_Vector2_Prowl_Runtime_Vector2_Prowl_Runtime_Color_System_Single_
+  name: DrawLine
+  nameWithType: GuiDraw2D.DrawLine
+  fullName: Prowl.Runtime.GUI.GuiDraw2D.DrawLine
+- uid: Prowl.Runtime.GUI.GuiDraw2D.DrawBezierLine*
+  commentId: Overload:Prowl.Runtime.GUI.GuiDraw2D.DrawBezierLine
+  href: Prowl.Runtime.GUI.GuiDraw2D.html#Prowl_Runtime_GUI_GuiDraw2D_DrawBezierLine_Prowl_Runtime_Vector2_Prowl_Runtime_Vector2_Prowl_Runtime_Vector2_Prowl_Runtime_Vector2_Prowl_Runtime_Color_System_Single_System_Int32_
+  name: DrawBezierLine
+  nameWithType: GuiDraw2D.DrawBezierLine
+  fullName: Prowl.Runtime.GUI.GuiDraw2D.DrawBezierLine
+- uid: Prowl.Runtime.GUI.GuiDraw2D.DrawCircle*
+  commentId: Overload:Prowl.Runtime.GUI.GuiDraw2D.DrawCircle
+  href: Prowl.Runtime.GUI.GuiDraw2D.html#Prowl_Runtime_GUI_GuiDraw2D_DrawCircle_Prowl_Runtime_Vector2_System_Single_Prowl_Runtime_Color_System_Int32_System_Single_
+  name: DrawCircle
+  nameWithType: GuiDraw2D.DrawCircle
+  fullName: Prowl.Runtime.GUI.GuiDraw2D.DrawCircle
+- uid: Prowl.Runtime.GUI.GuiDraw2D.DrawCircleFilled*
+  commentId: Overload:Prowl.Runtime.GUI.GuiDraw2D.DrawCircleFilled
+  href: Prowl.Runtime.GUI.GuiDraw2D.html#Prowl_Runtime_GUI_GuiDraw2D_DrawCircleFilled_Prowl_Runtime_Vector2_System_Single_Prowl_Runtime_Color_System_Int32_
+  name: DrawCircleFilled
+  nameWithType: GuiDraw2D.DrawCircleFilled
+  fullName: Prowl.Runtime.GUI.GuiDraw2D.DrawCircleFilled
+- uid: Prowl.Runtime.GUI.GuiDraw2D.DrawTriangle*
+  commentId: Overload:Prowl.Runtime.GUI.GuiDraw2D.DrawTriangle
+  href: Prowl.Runtime.GUI.GuiDraw2D.html#Prowl_Runtime_GUI_GuiDraw2D_DrawTriangle_Prowl_Runtime_Vector2_Prowl_Runtime_Vector2_Prowl_Runtime_Vector2_Prowl_Runtime_Color_System_Single_
+  name: DrawTriangle
+  nameWithType: GuiDraw2D.DrawTriangle
+  fullName: Prowl.Runtime.GUI.GuiDraw2D.DrawTriangle
+- uid: Prowl.Runtime.GUI.GuiDraw2D.DrawTriangleFilled*
+  commentId: Overload:Prowl.Runtime.GUI.GuiDraw2D.DrawTriangleFilled
+  href: Prowl.Runtime.GUI.GuiDraw2D.html#Prowl_Runtime_GUI_GuiDraw2D_DrawTriangleFilled_Prowl_Runtime_Vector2_Prowl_Runtime_Vector2_Prowl_Runtime_Vector2_Prowl_Runtime_Color_
+  name: DrawTriangleFilled
+  nameWithType: GuiDraw2D.DrawTriangleFilled
+  fullName: Prowl.Runtime.GUI.GuiDraw2D.DrawTriangleFilled
+- uid: Prowl.Runtime.GUI.GuiDraw2D.DrawImage*
+  commentId: Overload:Prowl.Runtime.GUI.GuiDraw2D.DrawImage
+  href: Prowl.Runtime.GUI.GuiDraw2D.html#Prowl_Runtime_GUI_GuiDraw2D_DrawImage_Prowl_Runtime_Texture2D_Prowl_Runtime_Rect_Prowl_Runtime_Rect_System_Boolean_
+  name: DrawImage
+  nameWithType: GuiDraw2D.DrawImage
+  fullName: Prowl.Runtime.GUI.GuiDraw2D.DrawImage
+- uid: Prowl.Runtime.Texture2D
+  commentId: T:Prowl.Runtime.Texture2D
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.Texture2D.html
+  name: Texture2D
+  nameWithType: Texture2D
+  fullName: Prowl.Runtime.Texture2D
+- uid: Prowl.Runtime.GUI.GuiDraw2D.DrawText*
+  commentId: Overload:Prowl.Runtime.GUI.GuiDraw2D.DrawText
+  href: Prowl.Runtime.GUI.GuiDraw2D.html#Prowl_Runtime_GUI_GuiDraw2D_DrawText_System_String_Prowl_Runtime_Rect_Prowl_Runtime_Color_System_Boolean_System_Boolean_
+  name: DrawText
+  nameWithType: GuiDraw2D.DrawText
+  fullName: Prowl.Runtime.GUI.GuiDraw2D.DrawText
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.double
+  name: double
+  nameWithType: double
+  fullName: double
+  nameWithType.vb: Double
+  fullName.vb: Double
+  name.vb: Double
+- uid: Prowl.Runtime.Font
+  commentId: T:Prowl.Runtime.Font
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.Font.html
+  name: Font
+  nameWithType: Font
+  fullName: Prowl.Runtime.Font
+- uid: System.Nullable{Prowl.Runtime.Rect}
+  commentId: T:System.Nullable{Prowl.Runtime.Rect}
+  parent: System
+  definition: System.Nullable`1
+  href: Prowl.Runtime.Rect.html
+  name: Rect?
+  nameWithType: Rect?
+  fullName: Prowl.Runtime.Rect?
+  spec.csharp:
+  - uid: Prowl.Runtime.Rect
+    name: Rect
+    href: Prowl.Runtime.Rect.html
+  - name: '?'
+  spec.vb:
+  - uid: Prowl.Runtime.Rect
+    name: Rect
+    href: Prowl.Runtime.Rect.html
+  - name: '?'
+- uid: System.Nullable`1
+  commentId: T:System.Nullable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  name: Nullable<T>
+  nameWithType: Nullable<T>
+  fullName: System.Nullable<T>
+  nameWithType.vb: Nullable(Of T)
+  fullName.vb: System.Nullable(Of T)
+  name.vb: Nullable(Of T)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Prowl.Runtime.GUI.GuiDraw2D.LoadingIndicatorCircle*
+  commentId: Overload:Prowl.Runtime.GUI.GuiDraw2D.LoadingIndicatorCircle
+  href: Prowl.Runtime.GUI.GuiDraw2D.html#Prowl_Runtime_GUI_GuiDraw2D_LoadingIndicatorCircle_Prowl_Runtime_Vector2_System_Double_Prowl_Runtime_Vector4_Prowl_Runtime_Vector4_System_Int32_System_Single_
+  name: LoadingIndicatorCircle
+  nameWithType: GuiDraw2D.LoadingIndicatorCircle
+  fullName: Prowl.Runtime.GUI.GuiDraw2D.LoadingIndicatorCircle
+- uid: Prowl.Runtime.Vector4
+  commentId: T:Prowl.Runtime.Vector4
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.Vector4.html
+  name: Vector4
+  nameWithType: Vector4
+  fullName: Prowl.Runtime.Vector4

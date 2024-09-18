@@ -1,0 +1,610 @@
+### YamlMime:ManagedReference
+items:
+- uid: Prowl.Runtime.RenderPipelines.RenderingData
+  commentId: T:Prowl.Runtime.RenderPipelines.RenderingData
+  id: RenderingData
+  parent: Prowl.Runtime.RenderPipelines
+  children:
+  - Prowl.Runtime.RenderPipelines.RenderingData.DisplayGizmo
+  - Prowl.Runtime.RenderPipelines.RenderingData.DisplayGrid
+  - Prowl.Runtime.RenderPipelines.RenderingData.GridColor
+  - Prowl.Runtime.RenderPipelines.RenderingData.GridMatrix
+  - Prowl.Runtime.RenderPipelines.RenderingData.GridSizes
+  - Prowl.Runtime.RenderPipelines.RenderingData.IsSceneViewCamera
+  - Prowl.Runtime.RenderPipelines.RenderingData.TargetResolution
+  langs:
+  - csharp
+  - vb
+  name: RenderingData
+  nameWithType: RenderingData
+  fullName: Prowl.Runtime.RenderPipelines.RenderingData
+  type: Struct
+  source:
+    remote:
+      path: Prowl.Runtime/Rendering/RenderPipeline/RenderPipeline.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: RenderingData
+    path: ../Prowl/Prowl.Runtime/Rendering/RenderPipeline/RenderPipeline.cs
+    startLine: 12
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.RenderPipelines
+  syntax:
+    content: public struct RenderingData
+    content.vb: Public Structure RenderingData
+  inheritedMembers:
+  - System.ValueType.Equals(System.Object)
+  - System.ValueType.GetHashCode
+  - System.ValueType.ToString
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  extensionMethods:
+  - System.Object.Prowl.Runtime.RuntimeUtils.GetSerializableFields
+- uid: Prowl.Runtime.RenderPipelines.RenderingData.TargetResolution
+  commentId: F:Prowl.Runtime.RenderPipelines.RenderingData.TargetResolution
+  id: TargetResolution
+  parent: Prowl.Runtime.RenderPipelines.RenderingData
+  langs:
+  - csharp
+  - vb
+  name: TargetResolution
+  nameWithType: RenderingData.TargetResolution
+  fullName: Prowl.Runtime.RenderPipelines.RenderingData.TargetResolution
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/Rendering/RenderPipeline/RenderPipeline.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: TargetResolution
+    path: ../Prowl/Prowl.Runtime/Rendering/RenderPipeline/RenderPipeline.cs
+    startLine: 14
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.RenderPipelines
+  syntax:
+    content: public required Vector2 TargetResolution
+    return:
+      type: Prowl.Runtime.Vector2
+    content.vb: Public TargetResolution As Vector2
+- uid: Prowl.Runtime.RenderPipelines.RenderingData.IsSceneViewCamera
+  commentId: F:Prowl.Runtime.RenderPipelines.RenderingData.IsSceneViewCamera
+  id: IsSceneViewCamera
+  parent: Prowl.Runtime.RenderPipelines.RenderingData
+  langs:
+  - csharp
+  - vb
+  name: IsSceneViewCamera
+  nameWithType: RenderingData.IsSceneViewCamera
+  fullName: Prowl.Runtime.RenderPipelines.RenderingData.IsSceneViewCamera
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/Rendering/RenderPipeline/RenderPipeline.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: IsSceneViewCamera
+    path: ../Prowl/Prowl.Runtime/Rendering/RenderPipeline/RenderPipeline.cs
+    startLine: 16
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.RenderPipelines
+  syntax:
+    content: public bool IsSceneViewCamera
+    return:
+      type: System.Boolean
+    content.vb: Public IsSceneViewCamera As Boolean
+- uid: Prowl.Runtime.RenderPipelines.RenderingData.DisplayGrid
+  commentId: F:Prowl.Runtime.RenderPipelines.RenderingData.DisplayGrid
+  id: DisplayGrid
+  parent: Prowl.Runtime.RenderPipelines.RenderingData
+  langs:
+  - csharp
+  - vb
+  name: DisplayGrid
+  nameWithType: RenderingData.DisplayGrid
+  fullName: Prowl.Runtime.RenderPipelines.RenderingData.DisplayGrid
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/Rendering/RenderPipeline/RenderPipeline.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: DisplayGrid
+    path: ../Prowl/Prowl.Runtime/Rendering/RenderPipeline/RenderPipeline.cs
+    startLine: 17
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.RenderPipelines
+  syntax:
+    content: public bool DisplayGrid
+    return:
+      type: System.Boolean
+    content.vb: Public DisplayGrid As Boolean
+- uid: Prowl.Runtime.RenderPipelines.RenderingData.DisplayGizmo
+  commentId: F:Prowl.Runtime.RenderPipelines.RenderingData.DisplayGizmo
+  id: DisplayGizmo
+  parent: Prowl.Runtime.RenderPipelines.RenderingData
+  langs:
+  - csharp
+  - vb
+  name: DisplayGizmo
+  nameWithType: RenderingData.DisplayGizmo
+  fullName: Prowl.Runtime.RenderPipelines.RenderingData.DisplayGizmo
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/Rendering/RenderPipeline/RenderPipeline.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: DisplayGizmo
+    path: ../Prowl/Prowl.Runtime/Rendering/RenderPipeline/RenderPipeline.cs
+    startLine: 18
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.RenderPipelines
+  syntax:
+    content: public bool DisplayGizmo
+    return:
+      type: System.Boolean
+    content.vb: Public DisplayGizmo As Boolean
+- uid: Prowl.Runtime.RenderPipelines.RenderingData.GridMatrix
+  commentId: F:Prowl.Runtime.RenderPipelines.RenderingData.GridMatrix
+  id: GridMatrix
+  parent: Prowl.Runtime.RenderPipelines.RenderingData
+  langs:
+  - csharp
+  - vb
+  name: GridMatrix
+  nameWithType: RenderingData.GridMatrix
+  fullName: Prowl.Runtime.RenderPipelines.RenderingData.GridMatrix
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/Rendering/RenderPipeline/RenderPipeline.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: GridMatrix
+    path: ../Prowl/Prowl.Runtime/Rendering/RenderPipeline/RenderPipeline.cs
+    startLine: 19
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.RenderPipelines
+  syntax:
+    content: public Matrix4x4 GridMatrix
+    return:
+      type: Prowl.Runtime.Matrix4x4
+    content.vb: Public GridMatrix As Matrix4x4
+- uid: Prowl.Runtime.RenderPipelines.RenderingData.GridColor
+  commentId: F:Prowl.Runtime.RenderPipelines.RenderingData.GridColor
+  id: GridColor
+  parent: Prowl.Runtime.RenderPipelines.RenderingData
+  langs:
+  - csharp
+  - vb
+  name: GridColor
+  nameWithType: RenderingData.GridColor
+  fullName: Prowl.Runtime.RenderPipelines.RenderingData.GridColor
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/Rendering/RenderPipeline/RenderPipeline.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: GridColor
+    path: ../Prowl/Prowl.Runtime/Rendering/RenderPipeline/RenderPipeline.cs
+    startLine: 20
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.RenderPipelines
+  syntax:
+    content: public Color GridColor
+    return:
+      type: Prowl.Runtime.Color
+    content.vb: Public GridColor As Color
+- uid: Prowl.Runtime.RenderPipelines.RenderingData.GridSizes
+  commentId: F:Prowl.Runtime.RenderPipelines.RenderingData.GridSizes
+  id: GridSizes
+  parent: Prowl.Runtime.RenderPipelines.RenderingData
+  langs:
+  - csharp
+  - vb
+  name: GridSizes
+  nameWithType: RenderingData.GridSizes
+  fullName: Prowl.Runtime.RenderPipelines.RenderingData.GridSizes
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/Rendering/RenderPipeline/RenderPipeline.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: GridSizes
+    path: ../Prowl/Prowl.Runtime/Rendering/RenderPipeline/RenderPipeline.cs
+    startLine: 21
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.RenderPipelines
+  syntax:
+    content: public Vector3 GridSizes
+    return:
+      type: Prowl.Runtime.Vector3
+    content.vb: Public GridSizes As Vector3
+references:
+- uid: Prowl.Runtime.RenderPipelines
+  commentId: N:Prowl.Runtime.RenderPipelines
+  href: Prowl.html
+  name: Prowl.Runtime.RenderPipelines
+  nameWithType: Prowl.Runtime.RenderPipelines
+  fullName: Prowl.Runtime.RenderPipelines
+  spec.csharp:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+  - name: .
+  - uid: Prowl.Runtime.RenderPipelines
+    name: RenderPipelines
+    href: Prowl.Runtime.RenderPipelines.html
+  spec.vb:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+  - name: .
+  - uid: Prowl.Runtime.RenderPipelines
+    name: RenderPipelines
+    href: Prowl.Runtime.RenderPipelines.html
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  name: Equals(object)
+  nameWithType: ValueType.Equals(object)
+  fullName: System.ValueType.Equals(object)
+  nameWithType.vb: ValueType.Equals(Object)
+  fullName.vb: System.ValueType.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Prowl.Runtime.RuntimeUtils.GetSerializableFields
+  commentId: M:Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  parent: Prowl.Runtime.RuntimeUtils
+  definition: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  name: GetSerializableFields(object)
+  nameWithType: RuntimeUtils.GetSerializableFields(object)
+  fullName: Prowl.Runtime.RuntimeUtils.GetSerializableFields(object)
+  nameWithType.vb: RuntimeUtils.GetSerializableFields(Object)
+  fullName.vb: Prowl.Runtime.RuntimeUtils.GetSerializableFields(Object)
+  name.vb: GetSerializableFields(Object)
+  spec.csharp:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  commentId: M:Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  isExternal: true
+  href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  name: GetSerializableFields(object)
+  nameWithType: RuntimeUtils.GetSerializableFields(object)
+  fullName: Prowl.Runtime.RuntimeUtils.GetSerializableFields(object)
+  nameWithType.vb: RuntimeUtils.GetSerializableFields(Object)
+  fullName.vb: Prowl.Runtime.RuntimeUtils.GetSerializableFields(Object)
+  name.vb: GetSerializableFields(Object)
+  spec.csharp:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: Prowl.Runtime.RuntimeUtils
+  commentId: T:Prowl.Runtime.RuntimeUtils
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.RuntimeUtils.html
+  name: RuntimeUtils
+  nameWithType: RuntimeUtils
+  fullName: Prowl.Runtime.RuntimeUtils
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Prowl.Runtime
+  commentId: N:Prowl.Runtime
+  href: Prowl.html
+  name: Prowl.Runtime
+  nameWithType: Prowl.Runtime
+  fullName: Prowl.Runtime
+  spec.csharp:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+  spec.vb:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+- uid: Prowl.Runtime.Vector2
+  commentId: T:Prowl.Runtime.Vector2
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.Vector2.html
+  name: Vector2
+  nameWithType: Vector2
+  fullName: Prowl.Runtime.Vector2
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: Prowl.Runtime.Matrix4x4
+  commentId: T:Prowl.Runtime.Matrix4x4
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.Matrix4x4.html
+  name: Matrix4x4
+  nameWithType: Matrix4x4
+  fullName: Prowl.Runtime.Matrix4x4
+- uid: Prowl.Runtime.Color
+  commentId: T:Prowl.Runtime.Color
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.Color.html
+  name: Color
+  nameWithType: Color
+  fullName: Prowl.Runtime.Color
+- uid: Prowl.Runtime.Vector3
+  commentId: T:Prowl.Runtime.Vector3
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.Vector3.html
+  name: Vector3
+  nameWithType: Vector3
+  fullName: Prowl.Runtime.Vector3

@@ -1,0 +1,687 @@
+### YamlMime:ManagedReference
+items:
+- uid: Prowl.Runtime.ShadowAtlas
+  commentId: T:Prowl.Runtime.ShadowAtlas
+  id: ShadowAtlas
+  parent: Prowl.Runtime
+  children:
+  - Prowl.Runtime.ShadowAtlas.Clear
+  - Prowl.Runtime.ShadowAtlas.FreeTiles(System.Int32)
+  - Prowl.Runtime.ShadowAtlas.GetAtlas
+  - Prowl.Runtime.ShadowAtlas.GetAtlasWidth
+  - Prowl.Runtime.ShadowAtlas.GetMaxShadowSize
+  - Prowl.Runtime.ShadowAtlas.GetSize
+  - Prowl.Runtime.ShadowAtlas.GetTileSize
+  - Prowl.Runtime.ShadowAtlas.ReserveTiles(System.Int32,System.Int32,System.Int32)
+  - Prowl.Runtime.ShadowAtlas.TryInitialize
+  langs:
+  - csharp
+  - vb
+  name: ShadowAtlas
+  nameWithType: ShadowAtlas
+  fullName: Prowl.Runtime.ShadowAtlas
+  type: Class
+  source:
+    remote:
+      path: Prowl.Runtime/Components/Lights/ShadowAtlas.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: ShadowAtlas
+    path: ../Prowl/Prowl.Runtime/Components/Lights/ShadowAtlas.cs
+    startLine: 9
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public static class ShadowAtlas
+    content.vb: Public Module ShadowAtlas
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: Prowl.Runtime.ShadowAtlas.TryInitialize
+  commentId: M:Prowl.Runtime.ShadowAtlas.TryInitialize
+  id: TryInitialize
+  parent: Prowl.Runtime.ShadowAtlas
+  langs:
+  - csharp
+  - vb
+  name: TryInitialize()
+  nameWithType: ShadowAtlas.TryInitialize()
+  fullName: Prowl.Runtime.ShadowAtlas.TryInitialize()
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Components/Lights/ShadowAtlas.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: TryInitialize
+    path: ../Prowl/Prowl.Runtime/Components/Lights/ShadowAtlas.cs
+    startLine: 17
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public static void TryInitialize()
+    content.vb: Public Shared Sub TryInitialize()
+  overload: Prowl.Runtime.ShadowAtlas.TryInitialize*
+- uid: Prowl.Runtime.ShadowAtlas.GetAtlasWidth
+  commentId: M:Prowl.Runtime.ShadowAtlas.GetAtlasWidth
+  id: GetAtlasWidth
+  parent: Prowl.Runtime.ShadowAtlas
+  langs:
+  - csharp
+  - vb
+  name: GetAtlasWidth()
+  nameWithType: ShadowAtlas.GetAtlasWidth()
+  fullName: Prowl.Runtime.ShadowAtlas.GetAtlasWidth()
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Components/Lights/ShadowAtlas.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: GetAtlasWidth
+    path: ../Prowl/Prowl.Runtime/Components/Lights/ShadowAtlas.cs
+    startLine: 37
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public static int GetAtlasWidth()
+    return:
+      type: System.Int32
+    content.vb: Public Shared Function GetAtlasWidth() As Integer
+  overload: Prowl.Runtime.ShadowAtlas.GetAtlasWidth*
+- uid: Prowl.Runtime.ShadowAtlas.GetTileSize
+  commentId: M:Prowl.Runtime.ShadowAtlas.GetTileSize
+  id: GetTileSize
+  parent: Prowl.Runtime.ShadowAtlas
+  langs:
+  - csharp
+  - vb
+  name: GetTileSize()
+  nameWithType: ShadowAtlas.GetTileSize()
+  fullName: Prowl.Runtime.ShadowAtlas.GetTileSize()
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Components/Lights/ShadowAtlas.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: GetTileSize
+    path: ../Prowl/Prowl.Runtime/Components/Lights/ShadowAtlas.cs
+    startLine: 39
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public static int GetTileSize()
+    return:
+      type: System.Int32
+    content.vb: Public Shared Function GetTileSize() As Integer
+  overload: Prowl.Runtime.ShadowAtlas.GetTileSize*
+- uid: Prowl.Runtime.ShadowAtlas.GetMaxShadowSize
+  commentId: M:Prowl.Runtime.ShadowAtlas.GetMaxShadowSize
+  id: GetMaxShadowSize
+  parent: Prowl.Runtime.ShadowAtlas
+  langs:
+  - csharp
+  - vb
+  name: GetMaxShadowSize()
+  nameWithType: ShadowAtlas.GetMaxShadowSize()
+  fullName: Prowl.Runtime.ShadowAtlas.GetMaxShadowSize()
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Components/Lights/ShadowAtlas.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: GetMaxShadowSize
+    path: ../Prowl/Prowl.Runtime/Components/Lights/ShadowAtlas.cs
+    startLine: 40
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public static int GetMaxShadowSize()
+    return:
+      type: System.Int32
+    content.vb: Public Shared Function GetMaxShadowSize() As Integer
+  overload: Prowl.Runtime.ShadowAtlas.GetMaxShadowSize*
+- uid: Prowl.Runtime.ShadowAtlas.GetSize
+  commentId: M:Prowl.Runtime.ShadowAtlas.GetSize
+  id: GetSize
+  parent: Prowl.Runtime.ShadowAtlas
+  langs:
+  - csharp
+  - vb
+  name: GetSize()
+  nameWithType: ShadowAtlas.GetSize()
+  fullName: Prowl.Runtime.ShadowAtlas.GetSize()
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Components/Lights/ShadowAtlas.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: GetSize
+    path: ../Prowl/Prowl.Runtime/Components/Lights/ShadowAtlas.cs
+    startLine: 41
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public static int GetSize()
+    return:
+      type: System.Int32
+    content.vb: Public Shared Function GetSize() As Integer
+  overload: Prowl.Runtime.ShadowAtlas.GetSize*
+- uid: Prowl.Runtime.ShadowAtlas.GetAtlas
+  commentId: M:Prowl.Runtime.ShadowAtlas.GetAtlas
+  id: GetAtlas
+  parent: Prowl.Runtime.ShadowAtlas
+  langs:
+  - csharp
+  - vb
+  name: GetAtlas()
+  nameWithType: ShadowAtlas.GetAtlas()
+  fullName: Prowl.Runtime.ShadowAtlas.GetAtlas()
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Components/Lights/ShadowAtlas.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: GetAtlas
+    path: ../Prowl/Prowl.Runtime/Components/Lights/ShadowAtlas.cs
+    startLine: 43
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public static RenderTexture? GetAtlas()
+    return:
+      type: Prowl.Runtime.RenderTexture
+    content.vb: Public Shared Function GetAtlas() As RenderTexture
+  overload: Prowl.Runtime.ShadowAtlas.GetAtlas*
+- uid: Prowl.Runtime.ShadowAtlas.ReserveTiles(System.Int32,System.Int32,System.Int32)
+  commentId: M:Prowl.Runtime.ShadowAtlas.ReserveTiles(System.Int32,System.Int32,System.Int32)
+  id: ReserveTiles(System.Int32,System.Int32,System.Int32)
+  parent: Prowl.Runtime.ShadowAtlas
+  langs:
+  - csharp
+  - vb
+  name: ReserveTiles(int, int, int)
+  nameWithType: ShadowAtlas.ReserveTiles(int, int, int)
+  fullName: Prowl.Runtime.ShadowAtlas.ReserveTiles(int, int, int)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Components/Lights/ShadowAtlas.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: ReserveTiles
+    path: ../Prowl/Prowl.Runtime/Components/Lights/ShadowAtlas.cs
+    startLine: 45
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public static Vector2Int? ReserveTiles(int width, int height, int lightID)
+    parameters:
+    - id: width
+      type: System.Int32
+    - id: height
+      type: System.Int32
+    - id: lightID
+      type: System.Int32
+    return:
+      type: System.Nullable{Prowl.Runtime.Vector2Int}
+    content.vb: Public Shared Function ReserveTiles(width As Integer, height As Integer, lightID As Integer) As Vector2Int?
+  overload: Prowl.Runtime.ShadowAtlas.ReserveTiles*
+  nameWithType.vb: ShadowAtlas.ReserveTiles(Integer, Integer, Integer)
+  fullName.vb: Prowl.Runtime.ShadowAtlas.ReserveTiles(Integer, Integer, Integer)
+  name.vb: ReserveTiles(Integer, Integer, Integer)
+- uid: Prowl.Runtime.ShadowAtlas.FreeTiles(System.Int32)
+  commentId: M:Prowl.Runtime.ShadowAtlas.FreeTiles(System.Int32)
+  id: FreeTiles(System.Int32)
+  parent: Prowl.Runtime.ShadowAtlas
+  langs:
+  - csharp
+  - vb
+  name: FreeTiles(int)
+  nameWithType: ShadowAtlas.FreeTiles(int)
+  fullName: Prowl.Runtime.ShadowAtlas.FreeTiles(int)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Components/Lights/ShadowAtlas.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: FreeTiles
+    path: ../Prowl/Prowl.Runtime/Components/Lights/ShadowAtlas.cs
+    startLine: 87
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public static void FreeTiles(int lightID)
+    parameters:
+    - id: lightID
+      type: System.Int32
+    content.vb: Public Shared Sub FreeTiles(lightID As Integer)
+  overload: Prowl.Runtime.ShadowAtlas.FreeTiles*
+  nameWithType.vb: ShadowAtlas.FreeTiles(Integer)
+  fullName.vb: Prowl.Runtime.ShadowAtlas.FreeTiles(Integer)
+  name.vb: FreeTiles(Integer)
+- uid: Prowl.Runtime.ShadowAtlas.Clear
+  commentId: M:Prowl.Runtime.ShadowAtlas.Clear
+  id: Clear
+  parent: Prowl.Runtime.ShadowAtlas
+  langs:
+  - csharp
+  - vb
+  name: Clear()
+  nameWithType: ShadowAtlas.Clear()
+  fullName: Prowl.Runtime.ShadowAtlas.Clear()
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Components/Lights/ShadowAtlas.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Clear
+    path: ../Prowl/Prowl.Runtime/Components/Lights/ShadowAtlas.cs
+    startLine: 98
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public static void Clear()
+    content.vb: Public Shared Sub Clear()
+  overload: Prowl.Runtime.ShadowAtlas.Clear*
+references:
+- uid: Prowl.Runtime
+  commentId: N:Prowl.Runtime
+  href: Prowl.html
+  name: Prowl.Runtime
+  nameWithType: Prowl.Runtime
+  fullName: Prowl.Runtime
+  spec.csharp:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+  spec.vb:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Prowl.Runtime.ShadowAtlas.TryInitialize*
+  commentId: Overload:Prowl.Runtime.ShadowAtlas.TryInitialize
+  href: Prowl.Runtime.ShadowAtlas.html#Prowl_Runtime_ShadowAtlas_TryInitialize
+  name: TryInitialize
+  nameWithType: ShadowAtlas.TryInitialize
+  fullName: Prowl.Runtime.ShadowAtlas.TryInitialize
+- uid: Prowl.Runtime.ShadowAtlas.GetAtlasWidth*
+  commentId: Overload:Prowl.Runtime.ShadowAtlas.GetAtlasWidth
+  href: Prowl.Runtime.ShadowAtlas.html#Prowl_Runtime_ShadowAtlas_GetAtlasWidth
+  name: GetAtlasWidth
+  nameWithType: ShadowAtlas.GetAtlasWidth
+  fullName: Prowl.Runtime.ShadowAtlas.GetAtlasWidth
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: Prowl.Runtime.ShadowAtlas.GetTileSize*
+  commentId: Overload:Prowl.Runtime.ShadowAtlas.GetTileSize
+  href: Prowl.Runtime.ShadowAtlas.html#Prowl_Runtime_ShadowAtlas_GetTileSize
+  name: GetTileSize
+  nameWithType: ShadowAtlas.GetTileSize
+  fullName: Prowl.Runtime.ShadowAtlas.GetTileSize
+- uid: Prowl.Runtime.ShadowAtlas.GetMaxShadowSize*
+  commentId: Overload:Prowl.Runtime.ShadowAtlas.GetMaxShadowSize
+  href: Prowl.Runtime.ShadowAtlas.html#Prowl_Runtime_ShadowAtlas_GetMaxShadowSize
+  name: GetMaxShadowSize
+  nameWithType: ShadowAtlas.GetMaxShadowSize
+  fullName: Prowl.Runtime.ShadowAtlas.GetMaxShadowSize
+- uid: Prowl.Runtime.ShadowAtlas.GetSize*
+  commentId: Overload:Prowl.Runtime.ShadowAtlas.GetSize
+  href: Prowl.Runtime.ShadowAtlas.html#Prowl_Runtime_ShadowAtlas_GetSize
+  name: GetSize
+  nameWithType: ShadowAtlas.GetSize
+  fullName: Prowl.Runtime.ShadowAtlas.GetSize
+- uid: Prowl.Runtime.ShadowAtlas.GetAtlas*
+  commentId: Overload:Prowl.Runtime.ShadowAtlas.GetAtlas
+  href: Prowl.Runtime.ShadowAtlas.html#Prowl_Runtime_ShadowAtlas_GetAtlas
+  name: GetAtlas
+  nameWithType: ShadowAtlas.GetAtlas
+  fullName: Prowl.Runtime.ShadowAtlas.GetAtlas
+- uid: Prowl.Runtime.RenderTexture
+  commentId: T:Prowl.Runtime.RenderTexture
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.RenderTexture.html
+  name: RenderTexture
+  nameWithType: RenderTexture
+  fullName: Prowl.Runtime.RenderTexture
+- uid: Prowl.Runtime.ShadowAtlas.ReserveTiles*
+  commentId: Overload:Prowl.Runtime.ShadowAtlas.ReserveTiles
+  href: Prowl.Runtime.ShadowAtlas.html#Prowl_Runtime_ShadowAtlas_ReserveTiles_System_Int32_System_Int32_System_Int32_
+  name: ReserveTiles
+  nameWithType: ShadowAtlas.ReserveTiles
+  fullName: Prowl.Runtime.ShadowAtlas.ReserveTiles
+- uid: System.Nullable{Prowl.Runtime.Vector2Int}
+  commentId: T:System.Nullable{Prowl.Runtime.Vector2Int}
+  parent: System
+  definition: System.Nullable`1
+  href: Prowl.Runtime.Vector2Int.html
+  name: Vector2Int?
+  nameWithType: Vector2Int?
+  fullName: Prowl.Runtime.Vector2Int?
+  spec.csharp:
+  - uid: Prowl.Runtime.Vector2Int
+    name: Vector2Int
+    href: Prowl.Runtime.Vector2Int.html
+  - name: '?'
+  spec.vb:
+  - uid: Prowl.Runtime.Vector2Int
+    name: Vector2Int
+    href: Prowl.Runtime.Vector2Int.html
+  - name: '?'
+- uid: System.Nullable`1
+  commentId: T:System.Nullable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  name: Nullable<T>
+  nameWithType: Nullable<T>
+  fullName: System.Nullable<T>
+  nameWithType.vb: Nullable(Of T)
+  fullName.vb: System.Nullable(Of T)
+  name.vb: Nullable(Of T)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Prowl.Runtime.ShadowAtlas.FreeTiles*
+  commentId: Overload:Prowl.Runtime.ShadowAtlas.FreeTiles
+  href: Prowl.Runtime.ShadowAtlas.html#Prowl_Runtime_ShadowAtlas_FreeTiles_System_Int32_
+  name: FreeTiles
+  nameWithType: ShadowAtlas.FreeTiles
+  fullName: Prowl.Runtime.ShadowAtlas.FreeTiles
+- uid: Prowl.Runtime.ShadowAtlas.Clear*
+  commentId: Overload:Prowl.Runtime.ShadowAtlas.Clear
+  href: Prowl.Runtime.ShadowAtlas.html#Prowl_Runtime_ShadowAtlas_Clear
+  name: Clear
+  nameWithType: ShadowAtlas.Clear
+  fullName: Prowl.Runtime.ShadowAtlas.Clear

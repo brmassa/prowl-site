@@ -1,0 +1,62 @@
+{
+  "metadata": [
+    {
+      "src": [
+        {
+          "src": "../Prowl",
+          "files": [
+            "**/*.csproj"
+          ],
+          "exclude": [
+            "**/External/**",
+            "**/obj/**",
+            "**/bin/**"
+          ]
+        }
+      ],
+      "dest": "api/1.0.0"
+    }
+  ],
+  "build": {
+    "content": [
+      {
+        "files": [
+          "**/*.{md,yml}"
+        ],
+        "exclude": [
+          "_site/**"
+        ]
+      }
+    ],
+    "resource": [
+      {
+        "files": [
+          "**/media/**/*.png", 
+          "**/media/**/*.jpg", 
+          "**/media/**/*.gif", 
+          "**/media/**/*.mp4", 
+          "**/media/**/*.zip", 
+          "**/media/**/*.svg",
+          "**/media/**/*.cs"
+        ]
+      }
+    ],
+    "output": "_site",
+    "template": [
+      "modern",
+      "default"
+    ],
+    "globalMetadata": {
+      "_appName": "Prowl",
+      "_appTitle": "Prowl",
+      // "_appLogoPath": "images/prowl-logo.ico",
+      "_appFaviconPath": "images/prowl-logo.ico",
+      "_enableSearch": true,
+      "_enableNewTab": true,
+      "_appFooter": "Documentation is under MIT license.",
+      "_version": "1.0",
+      "_gitUrlPattern": "github",
+      "pdf": false
+    }
+  }
+}

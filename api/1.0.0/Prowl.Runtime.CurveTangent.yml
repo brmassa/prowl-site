@@ -1,0 +1,225 @@
+### YamlMime:ManagedReference
+items:
+- uid: Prowl.Runtime.CurveTangent
+  commentId: T:Prowl.Runtime.CurveTangent
+  id: CurveTangent
+  parent: Prowl.Runtime
+  children:
+  - Prowl.Runtime.CurveTangent.Flat
+  - Prowl.Runtime.CurveTangent.Linear
+  - Prowl.Runtime.CurveTangent.Smooth
+  langs:
+  - csharp
+  - vb
+  name: CurveTangent
+  nameWithType: CurveTangent
+  fullName: Prowl.Runtime.CurveTangent
+  type: Enum
+  source:
+    remote:
+      path: Prowl.Runtime/AnimationCurve.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: CurveTangent
+    path: ../Prowl/Prowl.Runtime/AnimationCurve.cs
+    startLine: 25
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: Defines the different tangent types to be calculated for <xref href="Prowl.Runtime.KeyFrame" data-throw-if-not-resolved="false"></xref> points in a <xref href="Prowl.Runtime.AnimationCurve" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public enum CurveTangent
+    content.vb: Public Enum CurveTangent
+  extensionMethods:
+  - System.Object.Prowl.Runtime.RuntimeUtils.GetSerializableFields
+- uid: Prowl.Runtime.CurveTangent.Flat
+  commentId: F:Prowl.Runtime.CurveTangent.Flat
+  id: Flat
+  parent: Prowl.Runtime.CurveTangent
+  langs:
+  - csharp
+  - vb
+  name: Flat
+  nameWithType: CurveTangent.Flat
+  fullName: Prowl.Runtime.CurveTangent.Flat
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/AnimationCurve.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Flat
+    path: ../Prowl/Prowl.Runtime/AnimationCurve.cs
+    startLine: 27
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: Flat = 0
+    return:
+      type: Prowl.Runtime.CurveTangent
+- uid: Prowl.Runtime.CurveTangent.Linear
+  commentId: F:Prowl.Runtime.CurveTangent.Linear
+  id: Linear
+  parent: Prowl.Runtime.CurveTangent
+  langs:
+  - csharp
+  - vb
+  name: Linear
+  nameWithType: CurveTangent.Linear
+  fullName: Prowl.Runtime.CurveTangent.Linear
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/AnimationCurve.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Linear
+    path: ../Prowl/Prowl.Runtime/AnimationCurve.cs
+    startLine: 28
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: Linear = 1
+    return:
+      type: Prowl.Runtime.CurveTangent
+- uid: Prowl.Runtime.CurveTangent.Smooth
+  commentId: F:Prowl.Runtime.CurveTangent.Smooth
+  id: Smooth
+  parent: Prowl.Runtime.CurveTangent
+  langs:
+  - csharp
+  - vb
+  name: Smooth
+  nameWithType: CurveTangent.Smooth
+  fullName: Prowl.Runtime.CurveTangent.Smooth
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/AnimationCurve.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Smooth
+    path: ../Prowl/Prowl.Runtime/AnimationCurve.cs
+    startLine: 29
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: Smooth = 2
+    return:
+      type: Prowl.Runtime.CurveTangent
+references:
+- uid: Prowl.Runtime.KeyFrame
+  commentId: T:Prowl.Runtime.KeyFrame
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.KeyFrame.html
+  name: KeyFrame
+  nameWithType: KeyFrame
+  fullName: Prowl.Runtime.KeyFrame
+- uid: Prowl.Runtime.AnimationCurve
+  commentId: T:Prowl.Runtime.AnimationCurve
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.AnimationCurve.html
+  name: AnimationCurve
+  nameWithType: AnimationCurve
+  fullName: Prowl.Runtime.AnimationCurve
+- uid: Prowl.Runtime
+  commentId: N:Prowl.Runtime
+  href: Prowl.html
+  name: Prowl.Runtime
+  nameWithType: Prowl.Runtime
+  fullName: Prowl.Runtime
+  spec.csharp:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+  spec.vb:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+- uid: System.Object.Prowl.Runtime.RuntimeUtils.GetSerializableFields
+  commentId: M:Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  parent: Prowl.Runtime.RuntimeUtils
+  definition: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  name: GetSerializableFields(object)
+  nameWithType: RuntimeUtils.GetSerializableFields(object)
+  fullName: Prowl.Runtime.RuntimeUtils.GetSerializableFields(object)
+  nameWithType.vb: RuntimeUtils.GetSerializableFields(Object)
+  fullName.vb: Prowl.Runtime.RuntimeUtils.GetSerializableFields(Object)
+  name.vb: GetSerializableFields(Object)
+  spec.csharp:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  commentId: M:Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  isExternal: true
+  href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  name: GetSerializableFields(object)
+  nameWithType: RuntimeUtils.GetSerializableFields(object)
+  fullName: Prowl.Runtime.RuntimeUtils.GetSerializableFields(object)
+  nameWithType.vb: RuntimeUtils.GetSerializableFields(Object)
+  fullName.vb: Prowl.Runtime.RuntimeUtils.GetSerializableFields(Object)
+  name.vb: GetSerializableFields(Object)
+  spec.csharp:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: Prowl.Runtime.RuntimeUtils
+  commentId: T:Prowl.Runtime.RuntimeUtils
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.RuntimeUtils.html
+  name: RuntimeUtils
+  nameWithType: RuntimeUtils
+  fullName: Prowl.Runtime.RuntimeUtils
+- uid: Prowl.Runtime.CurveTangent
+  commentId: T:Prowl.Runtime.CurveTangent
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.CurveTangent.html
+  name: CurveTangent
+  nameWithType: CurveTangent
+  fullName: Prowl.Runtime.CurveTangent

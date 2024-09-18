@@ -1,0 +1,1024 @@
+### YamlMime:ManagedReference
+items:
+- uid: Prowl.Runtime.GUI.Offset
+  commentId: T:Prowl.Runtime.GUI.Offset
+  id: Offset
+  parent: Prowl.Runtime.GUI
+  children:
+  - Prowl.Runtime.GUI.Offset.#ctor
+  - Prowl.Runtime.GUI.Offset.#ctor(System.Double,Prowl.Runtime.GUI.LayoutValueType)
+  - Prowl.Runtime.GUI.Offset.#ctor(System.Double,System.Double,Prowl.Runtime.GUI.LayoutValueType)
+  - Prowl.Runtime.GUI.Offset.Default
+  - Prowl.Runtime.GUI.Offset.GetHashCode64
+  - Prowl.Runtime.GUI.Offset.Lerp(Prowl.Runtime.GUI.Offset,Prowl.Runtime.GUI.Offset,System.Double)
+  - Prowl.Runtime.GUI.Offset.Max
+  - Prowl.Runtime.GUI.Offset.Percentage(System.Double,System.Double)
+  - Prowl.Runtime.GUI.Offset.PixelOffset
+  - Prowl.Runtime.GUI.Offset.Pixels(System.Double,System.Double)
+  - Prowl.Runtime.GUI.Offset.ToPixels(System.Double)
+  - Prowl.Runtime.GUI.Offset.Type
+  - Prowl.Runtime.GUI.Offset.Value
+  - Prowl.Runtime.GUI.Offset.op_Implicit(System.Double)~Prowl.Runtime.GUI.Offset
+  - Prowl.Runtime.GUI.Offset.op_Implicit(System.Int32)~Prowl.Runtime.GUI.Offset
+  - Prowl.Runtime.GUI.Offset.op_Implicit(System.Single)~Prowl.Runtime.GUI.Offset
+  langs:
+  - csharp
+  - vb
+  name: Offset
+  nameWithType: Offset
+  fullName: Prowl.Runtime.GUI.Offset
+  type: Struct
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Layout/Offset.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Offset
+    path: ../Prowl/Prowl.Runtime/GUI/Layout/Offset.cs
+    startLine: 5
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  syntax:
+    content: public struct Offset
+    content.vb: Public Structure Offset
+  inheritedMembers:
+  - System.ValueType.Equals(System.Object)
+  - System.ValueType.GetHashCode
+  - System.ValueType.ToString
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  extensionMethods:
+  - System.Object.Prowl.Runtime.RuntimeUtils.GetSerializableFields
+- uid: Prowl.Runtime.GUI.Offset.Default
+  commentId: P:Prowl.Runtime.GUI.Offset.Default
+  id: Default
+  parent: Prowl.Runtime.GUI.Offset
+  langs:
+  - csharp
+  - vb
+  name: Default
+  nameWithType: Offset.Default
+  fullName: Prowl.Runtime.GUI.Offset.Default
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Layout/Offset.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Default
+    path: ../Prowl/Prowl.Runtime/GUI/Layout/Offset.cs
+    startLine: 7
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  syntax:
+    content: public static Offset Default { get; }
+    parameters: []
+    return:
+      type: Prowl.Runtime.GUI.Offset
+    content.vb: Public Shared ReadOnly Property [Default] As Offset
+  overload: Prowl.Runtime.GUI.Offset.Default*
+- uid: Prowl.Runtime.GUI.Offset.Max
+  commentId: P:Prowl.Runtime.GUI.Offset.Max
+  id: Max
+  parent: Prowl.Runtime.GUI.Offset
+  langs:
+  - csharp
+  - vb
+  name: Max
+  nameWithType: Offset.Max
+  fullName: Prowl.Runtime.GUI.Offset.Max
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Layout/Offset.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Max
+    path: ../Prowl/Prowl.Runtime/GUI/Layout/Offset.cs
+    startLine: 9
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  syntax:
+    content: public static Offset Max { get; }
+    parameters: []
+    return:
+      type: Prowl.Runtime.GUI.Offset
+    content.vb: Public Shared ReadOnly Property Max As Offset
+  overload: Prowl.Runtime.GUI.Offset.Max*
+- uid: Prowl.Runtime.GUI.Offset.Value
+  commentId: F:Prowl.Runtime.GUI.Offset.Value
+  id: Value
+  parent: Prowl.Runtime.GUI.Offset
+  langs:
+  - csharp
+  - vb
+  name: Value
+  nameWithType: Offset.Value
+  fullName: Prowl.Runtime.GUI.Offset.Value
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Layout/Offset.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Value
+    path: ../Prowl/Prowl.Runtime/GUI/Layout/Offset.cs
+    startLine: 13
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  syntax:
+    content: public double Value
+    return:
+      type: System.Double
+    content.vb: Public Value As Double
+- uid: Prowl.Runtime.GUI.Offset.PixelOffset
+  commentId: F:Prowl.Runtime.GUI.Offset.PixelOffset
+  id: PixelOffset
+  parent: Prowl.Runtime.GUI.Offset
+  langs:
+  - csharp
+  - vb
+  name: PixelOffset
+  nameWithType: Offset.PixelOffset
+  fullName: Prowl.Runtime.GUI.Offset.PixelOffset
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Layout/Offset.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: PixelOffset
+    path: ../Prowl/Prowl.Runtime/GUI/Layout/Offset.cs
+    startLine: 14
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  syntax:
+    content: public double PixelOffset
+    return:
+      type: System.Double
+    content.vb: Public PixelOffset As Double
+- uid: Prowl.Runtime.GUI.Offset.Type
+  commentId: F:Prowl.Runtime.GUI.Offset.Type
+  id: Type
+  parent: Prowl.Runtime.GUI.Offset
+  langs:
+  - csharp
+  - vb
+  name: Type
+  nameWithType: Offset.Type
+  fullName: Prowl.Runtime.GUI.Offset.Type
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Layout/Offset.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Type
+    path: ../Prowl/Prowl.Runtime/GUI/Layout/Offset.cs
+    startLine: 15
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  syntax:
+    content: public LayoutValueType Type
+    return:
+      type: Prowl.Runtime.GUI.LayoutValueType
+    content.vb: Public Type As LayoutValueType
+- uid: Prowl.Runtime.GUI.Offset.#ctor
+  commentId: M:Prowl.Runtime.GUI.Offset.#ctor
+  id: '#ctor'
+  parent: Prowl.Runtime.GUI.Offset
+  langs:
+  - csharp
+  - vb
+  name: Offset()
+  nameWithType: Offset.Offset()
+  fullName: Prowl.Runtime.GUI.Offset.Offset()
+  type: Constructor
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Layout/Offset.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: .ctor
+    path: ../Prowl/Prowl.Runtime/GUI/Layout/Offset.cs
+    startLine: 22
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  syntax:
+    content: public Offset()
+    content.vb: Public Sub New()
+  overload: Prowl.Runtime.GUI.Offset.#ctor*
+  nameWithType.vb: Offset.New()
+  fullName.vb: Prowl.Runtime.GUI.Offset.New()
+  name.vb: New()
+- uid: Prowl.Runtime.GUI.Offset.#ctor(System.Double,Prowl.Runtime.GUI.LayoutValueType)
+  commentId: M:Prowl.Runtime.GUI.Offset.#ctor(System.Double,Prowl.Runtime.GUI.LayoutValueType)
+  id: '#ctor(System.Double,Prowl.Runtime.GUI.LayoutValueType)'
+  parent: Prowl.Runtime.GUI.Offset
+  langs:
+  - csharp
+  - vb
+  name: Offset(double, LayoutValueType)
+  nameWithType: Offset.Offset(double, LayoutValueType)
+  fullName: Prowl.Runtime.GUI.Offset.Offset(double, Prowl.Runtime.GUI.LayoutValueType)
+  type: Constructor
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Layout/Offset.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: .ctor
+    path: ../Prowl/Prowl.Runtime/GUI/Layout/Offset.cs
+    startLine: 24
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  syntax:
+    content: public Offset(double value, LayoutValueType type)
+    parameters:
+    - id: value
+      type: System.Double
+    - id: type
+      type: Prowl.Runtime.GUI.LayoutValueType
+    content.vb: Public Sub New(value As Double, type As LayoutValueType)
+  overload: Prowl.Runtime.GUI.Offset.#ctor*
+  nameWithType.vb: Offset.New(Double, LayoutValueType)
+  fullName.vb: Prowl.Runtime.GUI.Offset.New(Double, Prowl.Runtime.GUI.LayoutValueType)
+  name.vb: New(Double, LayoutValueType)
+- uid: Prowl.Runtime.GUI.Offset.#ctor(System.Double,System.Double,Prowl.Runtime.GUI.LayoutValueType)
+  commentId: M:Prowl.Runtime.GUI.Offset.#ctor(System.Double,System.Double,Prowl.Runtime.GUI.LayoutValueType)
+  id: '#ctor(System.Double,System.Double,Prowl.Runtime.GUI.LayoutValueType)'
+  parent: Prowl.Runtime.GUI.Offset
+  langs:
+  - csharp
+  - vb
+  name: Offset(double, double, LayoutValueType)
+  nameWithType: Offset.Offset(double, double, LayoutValueType)
+  fullName: Prowl.Runtime.GUI.Offset.Offset(double, double, Prowl.Runtime.GUI.LayoutValueType)
+  type: Constructor
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Layout/Offset.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: .ctor
+    path: ../Prowl/Prowl.Runtime/GUI/Layout/Offset.cs
+    startLine: 29
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  syntax:
+    content: public Offset(double value, double pixelOffset, LayoutValueType type)
+    parameters:
+    - id: value
+      type: System.Double
+    - id: pixelOffset
+      type: System.Double
+    - id: type
+      type: Prowl.Runtime.GUI.LayoutValueType
+    content.vb: Public Sub New(value As Double, pixelOffset As Double, type As LayoutValueType)
+  overload: Prowl.Runtime.GUI.Offset.#ctor*
+  nameWithType.vb: Offset.New(Double, Double, LayoutValueType)
+  fullName.vb: Prowl.Runtime.GUI.Offset.New(Double, Double, Prowl.Runtime.GUI.LayoutValueType)
+  name.vb: New(Double, Double, LayoutValueType)
+- uid: Prowl.Runtime.GUI.Offset.ToPixels(System.Double)
+  commentId: M:Prowl.Runtime.GUI.Offset.ToPixels(System.Double)
+  id: ToPixels(System.Double)
+  parent: Prowl.Runtime.GUI.Offset
+  langs:
+  - csharp
+  - vb
+  name: ToPixels(double)
+  nameWithType: Offset.ToPixels(double)
+  fullName: Prowl.Runtime.GUI.Offset.ToPixels(double)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Layout/Offset.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: ToPixels
+    path: ../Prowl/Prowl.Runtime/GUI/Layout/Offset.cs
+    startLine: 36
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  syntax:
+    content: public double ToPixels(double parentValue)
+    parameters:
+    - id: parentValue
+      type: System.Double
+    return:
+      type: System.Double
+    content.vb: Public Function ToPixels(parentValue As Double) As Double
+  overload: Prowl.Runtime.GUI.Offset.ToPixels*
+  nameWithType.vb: Offset.ToPixels(Double)
+  fullName.vb: Prowl.Runtime.GUI.Offset.ToPixels(Double)
+  name.vb: ToPixels(Double)
+- uid: Prowl.Runtime.GUI.Offset.Percentage(System.Double,System.Double)
+  commentId: M:Prowl.Runtime.GUI.Offset.Percentage(System.Double,System.Double)
+  id: Percentage(System.Double,System.Double)
+  parent: Prowl.Runtime.GUI.Offset
+  langs:
+  - csharp
+  - vb
+  name: Percentage(double, double)
+  nameWithType: Offset.Percentage(double, double)
+  fullName: Prowl.Runtime.GUI.Offset.Percentage(double, double)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Layout/Offset.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Percentage
+    path: ../Prowl/Prowl.Runtime/GUI/Layout/Offset.cs
+    startLine: 50
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  syntax:
+    content: public static Offset Percentage(double normalized, double pixelOffset = 0)
+    parameters:
+    - id: normalized
+      type: System.Double
+    - id: pixelOffset
+      type: System.Double
+    return:
+      type: Prowl.Runtime.GUI.Offset
+    content.vb: Public Shared Function Percentage(normalized As Double, pixelOffset As Double = 0) As Offset
+  overload: Prowl.Runtime.GUI.Offset.Percentage*
+  nameWithType.vb: Offset.Percentage(Double, Double)
+  fullName.vb: Prowl.Runtime.GUI.Offset.Percentage(Double, Double)
+  name.vb: Percentage(Double, Double)
+- uid: Prowl.Runtime.GUI.Offset.Pixels(System.Double,System.Double)
+  commentId: M:Prowl.Runtime.GUI.Offset.Pixels(System.Double,System.Double)
+  id: Pixels(System.Double,System.Double)
+  parent: Prowl.Runtime.GUI.Offset
+  langs:
+  - csharp
+  - vb
+  name: Pixels(double, double)
+  nameWithType: Offset.Pixels(double, double)
+  fullName: Prowl.Runtime.GUI.Offset.Pixels(double, double)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Layout/Offset.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Pixels
+    path: ../Prowl/Prowl.Runtime/GUI/Layout/Offset.cs
+    startLine: 51
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  syntax:
+    content: public static Offset Pixels(double pixels, double pixelOffset = 0)
+    parameters:
+    - id: pixels
+      type: System.Double
+    - id: pixelOffset
+      type: System.Double
+    return:
+      type: Prowl.Runtime.GUI.Offset
+    content.vb: Public Shared Function Pixels(pixels As Double, pixelOffset As Double = 0) As Offset
+  overload: Prowl.Runtime.GUI.Offset.Pixels*
+  nameWithType.vb: Offset.Pixels(Double, Double)
+  fullName.vb: Prowl.Runtime.GUI.Offset.Pixels(Double, Double)
+  name.vb: Pixels(Double, Double)
+- uid: Prowl.Runtime.GUI.Offset.Lerp(Prowl.Runtime.GUI.Offset,Prowl.Runtime.GUI.Offset,System.Double)
+  commentId: M:Prowl.Runtime.GUI.Offset.Lerp(Prowl.Runtime.GUI.Offset,Prowl.Runtime.GUI.Offset,System.Double)
+  id: Lerp(Prowl.Runtime.GUI.Offset,Prowl.Runtime.GUI.Offset,System.Double)
+  parent: Prowl.Runtime.GUI.Offset
+  langs:
+  - csharp
+  - vb
+  name: Lerp(Offset, Offset, double)
+  nameWithType: Offset.Lerp(Offset, Offset, double)
+  fullName: Prowl.Runtime.GUI.Offset.Lerp(Prowl.Runtime.GUI.Offset, Prowl.Runtime.GUI.Offset, double)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Layout/Offset.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Lerp
+    path: ../Prowl/Prowl.Runtime/GUI/Layout/Offset.cs
+    startLine: 53
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  syntax:
+    content: public static Offset Lerp(Offset a, Offset b, double t)
+    parameters:
+    - id: a
+      type: Prowl.Runtime.GUI.Offset
+    - id: b
+      type: Prowl.Runtime.GUI.Offset
+    - id: t
+      type: System.Double
+    return:
+      type: Prowl.Runtime.GUI.Offset
+    content.vb: Public Shared Function Lerp(a As Offset, b As Offset, t As Double) As Offset
+  overload: Prowl.Runtime.GUI.Offset.Lerp*
+  nameWithType.vb: Offset.Lerp(Offset, Offset, Double)
+  fullName.vb: Prowl.Runtime.GUI.Offset.Lerp(Prowl.Runtime.GUI.Offset, Prowl.Runtime.GUI.Offset, Double)
+  name.vb: Lerp(Offset, Offset, Double)
+- uid: Prowl.Runtime.GUI.Offset.op_Implicit(System.Int32)~Prowl.Runtime.GUI.Offset
+  commentId: M:Prowl.Runtime.GUI.Offset.op_Implicit(System.Int32)~Prowl.Runtime.GUI.Offset
+  id: op_Implicit(System.Int32)~Prowl.Runtime.GUI.Offset
+  parent: Prowl.Runtime.GUI.Offset
+  langs:
+  - csharp
+  - vb
+  name: implicit operator Offset(int)
+  nameWithType: Offset.implicit operator Offset(int)
+  fullName: Prowl.Runtime.GUI.Offset.implicit operator Prowl.Runtime.GUI.Offset(int)
+  type: Operator
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Layout/Offset.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: op_Implicit
+    path: ../Prowl/Prowl.Runtime/GUI/Layout/Offset.cs
+    startLine: 68
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  syntax:
+    content: public static implicit operator Offset(int value)
+    parameters:
+    - id: value
+      type: System.Int32
+    return:
+      type: Prowl.Runtime.GUI.Offset
+    content.vb: Public Shared Widening Operator CType(value As Integer) As Offset
+  overload: Prowl.Runtime.GUI.Offset.op_Implicit*
+  nameWithType.vb: Offset.CType(Integer)
+  fullName.vb: Prowl.Runtime.GUI.Offset.CType(Integer)
+  name.vb: CType(Integer)
+- uid: Prowl.Runtime.GUI.Offset.op_Implicit(System.Single)~Prowl.Runtime.GUI.Offset
+  commentId: M:Prowl.Runtime.GUI.Offset.op_Implicit(System.Single)~Prowl.Runtime.GUI.Offset
+  id: op_Implicit(System.Single)~Prowl.Runtime.GUI.Offset
+  parent: Prowl.Runtime.GUI.Offset
+  langs:
+  - csharp
+  - vb
+  name: implicit operator Offset(float)
+  nameWithType: Offset.implicit operator Offset(float)
+  fullName: Prowl.Runtime.GUI.Offset.implicit operator Prowl.Runtime.GUI.Offset(float)
+  type: Operator
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Layout/Offset.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: op_Implicit
+    path: ../Prowl/Prowl.Runtime/GUI/Layout/Offset.cs
+    startLine: 69
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  syntax:
+    content: public static implicit operator Offset(float value)
+    parameters:
+    - id: value
+      type: System.Single
+    return:
+      type: Prowl.Runtime.GUI.Offset
+    content.vb: Public Shared Widening Operator CType(value As Single) As Offset
+  overload: Prowl.Runtime.GUI.Offset.op_Implicit*
+  nameWithType.vb: Offset.CType(Single)
+  fullName.vb: Prowl.Runtime.GUI.Offset.CType(Single)
+  name.vb: CType(Single)
+- uid: Prowl.Runtime.GUI.Offset.op_Implicit(System.Double)~Prowl.Runtime.GUI.Offset
+  commentId: M:Prowl.Runtime.GUI.Offset.op_Implicit(System.Double)~Prowl.Runtime.GUI.Offset
+  id: op_Implicit(System.Double)~Prowl.Runtime.GUI.Offset
+  parent: Prowl.Runtime.GUI.Offset
+  langs:
+  - csharp
+  - vb
+  name: implicit operator Offset(double)
+  nameWithType: Offset.implicit operator Offset(double)
+  fullName: Prowl.Runtime.GUI.Offset.implicit operator Prowl.Runtime.GUI.Offset(double)
+  type: Operator
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Layout/Offset.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: op_Implicit
+    path: ../Prowl/Prowl.Runtime/GUI/Layout/Offset.cs
+    startLine: 70
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  syntax:
+    content: public static implicit operator Offset(double value)
+    parameters:
+    - id: value
+      type: System.Double
+    return:
+      type: Prowl.Runtime.GUI.Offset
+    content.vb: Public Shared Widening Operator CType(value As Double) As Offset
+  overload: Prowl.Runtime.GUI.Offset.op_Implicit*
+  nameWithType.vb: Offset.CType(Double)
+  fullName.vb: Prowl.Runtime.GUI.Offset.CType(Double)
+  name.vb: CType(Double)
+- uid: Prowl.Runtime.GUI.Offset.GetHashCode64
+  commentId: M:Prowl.Runtime.GUI.Offset.GetHashCode64
+  id: GetHashCode64
+  parent: Prowl.Runtime.GUI.Offset
+  langs:
+  - csharp
+  - vb
+  name: GetHashCode64()
+  nameWithType: Offset.GetHashCode64()
+  fullName: Prowl.Runtime.GUI.Offset.GetHashCode64()
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Layout/Offset.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: GetHashCode64
+    path: ../Prowl/Prowl.Runtime/GUI/Layout/Offset.cs
+    startLine: 72
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  syntax:
+    content: public ulong GetHashCode64()
+    return:
+      type: System.UInt64
+    content.vb: Public Function GetHashCode64() As ULong
+  overload: Prowl.Runtime.GUI.Offset.GetHashCode64*
+references:
+- uid: Prowl.Runtime.GUI
+  commentId: N:Prowl.Runtime.GUI
+  href: Prowl.html
+  name: Prowl.Runtime.GUI
+  nameWithType: Prowl.Runtime.GUI
+  fullName: Prowl.Runtime.GUI
+  spec.csharp:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+  - name: .
+  - uid: Prowl.Runtime.GUI
+    name: GUI
+    href: Prowl.Runtime.GUI.html
+  spec.vb:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+  - name: .
+  - uid: Prowl.Runtime.GUI
+    name: GUI
+    href: Prowl.Runtime.GUI.html
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  name: Equals(object)
+  nameWithType: ValueType.Equals(object)
+  fullName: System.ValueType.Equals(object)
+  nameWithType.vb: ValueType.Equals(Object)
+  fullName.vb: System.ValueType.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Prowl.Runtime.RuntimeUtils.GetSerializableFields
+  commentId: M:Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  parent: Prowl.Runtime.RuntimeUtils
+  definition: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  name: GetSerializableFields(object)
+  nameWithType: RuntimeUtils.GetSerializableFields(object)
+  fullName: Prowl.Runtime.RuntimeUtils.GetSerializableFields(object)
+  nameWithType.vb: RuntimeUtils.GetSerializableFields(Object)
+  fullName.vb: Prowl.Runtime.RuntimeUtils.GetSerializableFields(Object)
+  name.vb: GetSerializableFields(Object)
+  spec.csharp:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  commentId: M:Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  isExternal: true
+  href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  name: GetSerializableFields(object)
+  nameWithType: RuntimeUtils.GetSerializableFields(object)
+  fullName: Prowl.Runtime.RuntimeUtils.GetSerializableFields(object)
+  nameWithType.vb: RuntimeUtils.GetSerializableFields(Object)
+  fullName.vb: Prowl.Runtime.RuntimeUtils.GetSerializableFields(Object)
+  name.vb: GetSerializableFields(Object)
+  spec.csharp:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: Prowl.Runtime.RuntimeUtils
+  commentId: T:Prowl.Runtime.RuntimeUtils
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.RuntimeUtils.html
+  name: RuntimeUtils
+  nameWithType: RuntimeUtils
+  fullName: Prowl.Runtime.RuntimeUtils
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Prowl.Runtime
+  commentId: N:Prowl.Runtime
+  href: Prowl.html
+  name: Prowl.Runtime
+  nameWithType: Prowl.Runtime
+  fullName: Prowl.Runtime
+  spec.csharp:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+  spec.vb:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+- uid: Prowl.Runtime.GUI.Offset.Default*
+  commentId: Overload:Prowl.Runtime.GUI.Offset.Default
+  href: Prowl.Runtime.GUI.Offset.html#Prowl_Runtime_GUI_Offset_Default
+  name: Default
+  nameWithType: Offset.Default
+  fullName: Prowl.Runtime.GUI.Offset.Default
+- uid: Prowl.Runtime.GUI.Offset
+  commentId: T:Prowl.Runtime.GUI.Offset
+  parent: Prowl.Runtime.GUI
+  href: Prowl.Runtime.GUI.Offset.html
+  name: Offset
+  nameWithType: Offset
+  fullName: Prowl.Runtime.GUI.Offset
+- uid: Prowl.Runtime.GUI.Offset.Max*
+  commentId: Overload:Prowl.Runtime.GUI.Offset.Max
+  href: Prowl.Runtime.GUI.Offset.html#Prowl_Runtime_GUI_Offset_Max
+  name: Max
+  nameWithType: Offset.Max
+  fullName: Prowl.Runtime.GUI.Offset.Max
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.double
+  name: double
+  nameWithType: double
+  fullName: double
+  nameWithType.vb: Double
+  fullName.vb: Double
+  name.vb: Double
+- uid: Prowl.Runtime.GUI.LayoutValueType
+  commentId: T:Prowl.Runtime.GUI.LayoutValueType
+  parent: Prowl.Runtime.GUI
+  href: Prowl.Runtime.GUI.LayoutValueType.html
+  name: LayoutValueType
+  nameWithType: LayoutValueType
+  fullName: Prowl.Runtime.GUI.LayoutValueType
+- uid: Prowl.Runtime.GUI.Offset.#ctor*
+  commentId: Overload:Prowl.Runtime.GUI.Offset.#ctor
+  href: Prowl.Runtime.GUI.Offset.html#Prowl_Runtime_GUI_Offset__ctor
+  name: Offset
+  nameWithType: Offset.Offset
+  fullName: Prowl.Runtime.GUI.Offset.Offset
+  nameWithType.vb: Offset.New
+  fullName.vb: Prowl.Runtime.GUI.Offset.New
+  name.vb: New
+- uid: Prowl.Runtime.GUI.Offset.ToPixels*
+  commentId: Overload:Prowl.Runtime.GUI.Offset.ToPixels
+  href: Prowl.Runtime.GUI.Offset.html#Prowl_Runtime_GUI_Offset_ToPixels_System_Double_
+  name: ToPixels
+  nameWithType: Offset.ToPixels
+  fullName: Prowl.Runtime.GUI.Offset.ToPixels
+- uid: Prowl.Runtime.GUI.Offset.Percentage*
+  commentId: Overload:Prowl.Runtime.GUI.Offset.Percentage
+  href: Prowl.Runtime.GUI.Offset.html#Prowl_Runtime_GUI_Offset_Percentage_System_Double_System_Double_
+  name: Percentage
+  nameWithType: Offset.Percentage
+  fullName: Prowl.Runtime.GUI.Offset.Percentage
+- uid: Prowl.Runtime.GUI.Offset.Pixels*
+  commentId: Overload:Prowl.Runtime.GUI.Offset.Pixels
+  href: Prowl.Runtime.GUI.Offset.html#Prowl_Runtime_GUI_Offset_Pixels_System_Double_System_Double_
+  name: Pixels
+  nameWithType: Offset.Pixels
+  fullName: Prowl.Runtime.GUI.Offset.Pixels
+- uid: Prowl.Runtime.GUI.Offset.Lerp*
+  commentId: Overload:Prowl.Runtime.GUI.Offset.Lerp
+  href: Prowl.Runtime.GUI.Offset.html#Prowl_Runtime_GUI_Offset_Lerp_Prowl_Runtime_GUI_Offset_Prowl_Runtime_GUI_Offset_System_Double_
+  name: Lerp
+  nameWithType: Offset.Lerp
+  fullName: Prowl.Runtime.GUI.Offset.Lerp
+- uid: Prowl.Runtime.GUI.Offset.op_Implicit*
+  commentId: Overload:Prowl.Runtime.GUI.Offset.op_Implicit
+  name: implicit operator
+  nameWithType: Offset.implicit operator
+  fullName: Prowl.Runtime.GUI.Offset.implicit operator
+  nameWithType.vb: Offset.CType
+  fullName.vb: Prowl.Runtime.GUI.Offset.CType
+  name.vb: CType
+  spec.csharp:
+  - name: implicit
+  - name: " "
+  - name: operator
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.single
+  name: float
+  nameWithType: float
+  fullName: float
+  nameWithType.vb: Single
+  fullName.vb: Single
+  name.vb: Single
+- uid: Prowl.Runtime.GUI.Offset.GetHashCode64*
+  commentId: Overload:Prowl.Runtime.GUI.Offset.GetHashCode64
+  href: Prowl.Runtime.GUI.Offset.html#Prowl_Runtime_GUI_Offset_GetHashCode64
+  name: GetHashCode64
+  nameWithType: Offset.GetHashCode64
+  fullName: Prowl.Runtime.GUI.Offset.GetHashCode64
+- uid: System.UInt64
+  commentId: T:System.UInt64
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.uint64
+  name: ulong
+  nameWithType: ulong
+  fullName: ulong
+  nameWithType.vb: ULong
+  fullName.vb: ULong
+  name.vb: ULong

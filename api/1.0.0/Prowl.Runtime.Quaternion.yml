@@ -1,0 +1,2781 @@
+### YamlMime:ManagedReference
+items:
+- uid: Prowl.Runtime.Quaternion
+  commentId: T:Prowl.Runtime.Quaternion
+  id: Quaternion
+  parent: Prowl.Runtime
+  children:
+  - Prowl.Runtime.Quaternion.#ctor(Prowl.Runtime.Vector3,System.Double)
+  - Prowl.Runtime.Quaternion.#ctor(System.Double,System.Double,System.Double,System.Double)
+  - Prowl.Runtime.Quaternion.Add(Prowl.Runtime.Quaternion,Prowl.Runtime.Quaternion)
+  - Prowl.Runtime.Quaternion.Angle(Prowl.Runtime.Quaternion,Prowl.Runtime.Quaternion)
+  - Prowl.Runtime.Quaternion.AngleAxis(System.Double,Prowl.Runtime.Vector3)
+  - Prowl.Runtime.Quaternion.Concatenate(Prowl.Runtime.Quaternion,Prowl.Runtime.Quaternion)
+  - Prowl.Runtime.Quaternion.Conjugate(Prowl.Runtime.Quaternion)
+  - Prowl.Runtime.Quaternion.CreateFromYawPitchRoll(System.Double,System.Double,System.Double)
+  - Prowl.Runtime.Quaternion.Divide(Prowl.Runtime.Quaternion,Prowl.Runtime.Quaternion)
+  - Prowl.Runtime.Quaternion.Dot(Prowl.Runtime.Quaternion,Prowl.Runtime.Quaternion)
+  - Prowl.Runtime.Quaternion.Equals(Prowl.Runtime.Quaternion)
+  - Prowl.Runtime.Quaternion.Equals(System.Object)
+  - Prowl.Runtime.Quaternion.Euler(Prowl.Runtime.Vector3)
+  - Prowl.Runtime.Quaternion.Euler(System.Double,System.Double,System.Double)
+  - Prowl.Runtime.Quaternion.GetHashCode
+  - Prowl.Runtime.Quaternion.Inverse(Prowl.Runtime.Quaternion)
+  - Prowl.Runtime.Quaternion.Item(System.Int32)
+  - Prowl.Runtime.Quaternion.Lerp(Prowl.Runtime.Quaternion,Prowl.Runtime.Quaternion,System.Double)
+  - Prowl.Runtime.Quaternion.Magnitude
+  - Prowl.Runtime.Quaternion.MatrixToQuaternion(Prowl.Runtime.Matrix4x4)
+  - Prowl.Runtime.Quaternion.Multiply(Prowl.Runtime.Quaternion,Prowl.Runtime.Quaternion)
+  - Prowl.Runtime.Quaternion.Multiply(Prowl.Runtime.Quaternion,System.Double)
+  - Prowl.Runtime.Quaternion.Negate(Prowl.Runtime.Quaternion)
+  - Prowl.Runtime.Quaternion.Normalize(Prowl.Runtime.Quaternion)
+  - Prowl.Runtime.Quaternion.NormalizeSafe(Prowl.Runtime.Quaternion)
+  - Prowl.Runtime.Quaternion.RotateTowards(Prowl.Runtime.Quaternion,Prowl.Runtime.Quaternion,System.Double)
+  - Prowl.Runtime.Quaternion.Slerp(Prowl.Runtime.Quaternion,Prowl.Runtime.Quaternion,System.Double)
+  - Prowl.Runtime.Quaternion.SqrMagnitude
+  - Prowl.Runtime.Quaternion.Subtract(Prowl.Runtime.Quaternion,Prowl.Runtime.Quaternion)
+  - Prowl.Runtime.Quaternion.ToEuler
+  - Prowl.Runtime.Quaternion.ToString
+  - Prowl.Runtime.Quaternion.Todouble
+  - Prowl.Runtime.Quaternion.eulerAngles
+  - Prowl.Runtime.Quaternion.identity
+  - Prowl.Runtime.Quaternion.op_Addition(Prowl.Runtime.Quaternion,Prowl.Runtime.Quaternion)
+  - Prowl.Runtime.Quaternion.op_Division(Prowl.Runtime.Quaternion,Prowl.Runtime.Quaternion)
+  - Prowl.Runtime.Quaternion.op_Division(Prowl.Runtime.Quaternion,System.Double)
+  - Prowl.Runtime.Quaternion.op_Equality(Prowl.Runtime.Quaternion,Prowl.Runtime.Quaternion)
+  - Prowl.Runtime.Quaternion.op_Implicit(Prowl.Runtime.Quaternion)~System.Numerics.Quaternion
+  - Prowl.Runtime.Quaternion.op_Implicit(System.Numerics.Quaternion)~Prowl.Runtime.Quaternion
+  - Prowl.Runtime.Quaternion.op_Inequality(Prowl.Runtime.Quaternion,Prowl.Runtime.Quaternion)
+  - Prowl.Runtime.Quaternion.op_Multiply(Prowl.Runtime.Quaternion,Prowl.Runtime.Quaternion)
+  - Prowl.Runtime.Quaternion.op_Multiply(Prowl.Runtime.Quaternion,Prowl.Runtime.Vector3)
+  - Prowl.Runtime.Quaternion.op_Multiply(Prowl.Runtime.Quaternion,System.Double)
+  - Prowl.Runtime.Quaternion.op_Subtraction(Prowl.Runtime.Quaternion,Prowl.Runtime.Quaternion)
+  - Prowl.Runtime.Quaternion.op_UnaryNegation(Prowl.Runtime.Quaternion)
+  - Prowl.Runtime.Quaternion.w
+  - Prowl.Runtime.Quaternion.x
+  - Prowl.Runtime.Quaternion.y
+  - Prowl.Runtime.Quaternion.z
+  langs:
+  - csharp
+  - vb
+  name: Quaternion
+  nameWithType: Quaternion
+  fullName: Prowl.Runtime.Quaternion
+  type: Struct
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Quaternion.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Quaternion
+    path: ../Prowl/Prowl.Runtime/Math/Quaternion.cs
+    startLine: 12
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: >-
+    A structure encapsulating a four-dimensional vector (x,y,z,w),
+
+    which is used to efficiently rotate an object about the (x,y,z) vector by the angle theta, where w = cos(theta/2).
+  example: []
+  syntax:
+    content: 'public struct Quaternion : IEquatable<Quaternion>'
+    content.vb: Public Structure Quaternion Implements IEquatable(Of Quaternion)
+  implements:
+  - System.IEquatable{Prowl.Runtime.Quaternion}
+  inheritedMembers:
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  extensionMethods:
+  - Prowl.Runtime.Quaternion.Prowl.Runtime.MathD.GetRotation
+  - System.Object.Prowl.Runtime.RuntimeUtils.GetSerializableFields
+- uid: Prowl.Runtime.Quaternion.x
+  commentId: F:Prowl.Runtime.Quaternion.x
+  id: x
+  parent: Prowl.Runtime.Quaternion
+  langs:
+  - csharp
+  - vb
+  name: x
+  nameWithType: Quaternion.x
+  fullName: Prowl.Runtime.Quaternion.x
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Quaternion.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: x
+    path: ../Prowl/Prowl.Runtime/Math/Quaternion.cs
+    startLine: 17
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: Specifies the X-value of the vector component of the Quaternion.
+  example: []
+  syntax:
+    content: public double x
+    return:
+      type: System.Double
+    content.vb: Public x As Double
+- uid: Prowl.Runtime.Quaternion.y
+  commentId: F:Prowl.Runtime.Quaternion.y
+  id: y
+  parent: Prowl.Runtime.Quaternion
+  langs:
+  - csharp
+  - vb
+  name: y
+  nameWithType: Quaternion.y
+  fullName: Prowl.Runtime.Quaternion.y
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Quaternion.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: y
+    path: ../Prowl/Prowl.Runtime/Math/Quaternion.cs
+    startLine: 21
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: Specifies the Y-value of the vector component of the Quaternion.
+  example: []
+  syntax:
+    content: public double y
+    return:
+      type: System.Double
+    content.vb: Public y As Double
+- uid: Prowl.Runtime.Quaternion.z
+  commentId: F:Prowl.Runtime.Quaternion.z
+  id: z
+  parent: Prowl.Runtime.Quaternion
+  langs:
+  - csharp
+  - vb
+  name: z
+  nameWithType: Quaternion.z
+  fullName: Prowl.Runtime.Quaternion.z
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Quaternion.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: z
+    path: ../Prowl/Prowl.Runtime/Math/Quaternion.cs
+    startLine: 25
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: Specifies the Z-value of the vector component of the Quaternion.
+  example: []
+  syntax:
+    content: public double z
+    return:
+      type: System.Double
+    content.vb: Public z As Double
+- uid: Prowl.Runtime.Quaternion.w
+  commentId: F:Prowl.Runtime.Quaternion.w
+  id: w
+  parent: Prowl.Runtime.Quaternion
+  langs:
+  - csharp
+  - vb
+  name: w
+  nameWithType: Quaternion.w
+  fullName: Prowl.Runtime.Quaternion.w
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Quaternion.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: w
+    path: ../Prowl/Prowl.Runtime/Math/Quaternion.cs
+    startLine: 29
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: Specifies the rotation component of the Quaternion.
+  example: []
+  syntax:
+    content: public double w
+    return:
+      type: System.Double
+    content.vb: Public w As Double
+- uid: Prowl.Runtime.Quaternion.Item(System.Int32)
+  commentId: P:Prowl.Runtime.Quaternion.Item(System.Int32)
+  id: Item(System.Int32)
+  parent: Prowl.Runtime.Quaternion
+  langs:
+  - csharp
+  - vb
+  name: this[int]
+  nameWithType: Quaternion.this[int]
+  fullName: Prowl.Runtime.Quaternion.this[int]
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Quaternion.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: this[]
+    path: ../Prowl/Prowl.Runtime/Math/Quaternion.cs
+    startLine: 31
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public double this[int index] { get; set; }
+    parameters:
+    - id: index
+      type: System.Int32
+    return:
+      type: System.Double
+    content.vb: Public Default Property this[](index As Integer) As Double
+  overload: Prowl.Runtime.Quaternion.Item*
+  nameWithType.vb: Quaternion.this[](Integer)
+  fullName.vb: Prowl.Runtime.Quaternion.this[](Integer)
+  name.vb: this[](Integer)
+- uid: Prowl.Runtime.Quaternion.eulerAngles
+  commentId: P:Prowl.Runtime.Quaternion.eulerAngles
+  id: eulerAngles
+  parent: Prowl.Runtime.Quaternion
+  langs:
+  - csharp
+  - vb
+  name: eulerAngles
+  nameWithType: Quaternion.eulerAngles
+  fullName: Prowl.Runtime.Quaternion.eulerAngles
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Quaternion.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: eulerAngles
+    path: ../Prowl/Prowl.Runtime/Math/Quaternion.cs
+    startLine: 60
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public Vector3 eulerAngles { get; set; }
+    parameters: []
+    return:
+      type: Prowl.Runtime.Vector3
+    content.vb: Public Property eulerAngles As Vector3
+  overload: Prowl.Runtime.Quaternion.eulerAngles*
+- uid: Prowl.Runtime.Quaternion.identity
+  commentId: P:Prowl.Runtime.Quaternion.identity
+  id: identity
+  parent: Prowl.Runtime.Quaternion
+  langs:
+  - csharp
+  - vb
+  name: identity
+  nameWithType: Quaternion.identity
+  fullName: Prowl.Runtime.Quaternion.identity
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Quaternion.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: identity
+    path: ../Prowl/Prowl.Runtime/Math/Quaternion.cs
+    startLine: 65
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: Returns a Quaternion representing no rotation.
+  example: []
+  syntax:
+    content: public static Quaternion identity { get; }
+    parameters: []
+    return:
+      type: Prowl.Runtime.Quaternion
+    content.vb: Public Shared ReadOnly Property identity As Quaternion
+  overload: Prowl.Runtime.Quaternion.identity*
+- uid: Prowl.Runtime.Quaternion.#ctor(System.Double,System.Double,System.Double,System.Double)
+  commentId: M:Prowl.Runtime.Quaternion.#ctor(System.Double,System.Double,System.Double,System.Double)
+  id: '#ctor(System.Double,System.Double,System.Double,System.Double)'
+  parent: Prowl.Runtime.Quaternion
+  langs:
+  - csharp
+  - vb
+  name: Quaternion(double, double, double, double)
+  nameWithType: Quaternion.Quaternion(double, double, double, double)
+  fullName: Prowl.Runtime.Quaternion.Quaternion(double, double, double, double)
+  type: Constructor
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Quaternion.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: .ctor
+    path: ../Prowl/Prowl.Runtime/Math/Quaternion.cs
+    startLine: 74
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: Constructs a Quaternion from the given components.
+  example: []
+  syntax:
+    content: public Quaternion(double x, double y, double z, double w)
+    parameters:
+    - id: x
+      type: System.Double
+      description: The X component of the Quaternion.
+    - id: y
+      type: System.Double
+      description: The Y component of the Quaternion.
+    - id: z
+      type: System.Double
+      description: The Z component of the Quaternion.
+    - id: w
+      type: System.Double
+      description: The W component of the Quaternion.
+    content.vb: Public Sub New(x As Double, y As Double, z As Double, w As Double)
+  overload: Prowl.Runtime.Quaternion.#ctor*
+  nameWithType.vb: Quaternion.New(Double, Double, Double, Double)
+  fullName.vb: Prowl.Runtime.Quaternion.New(Double, Double, Double, Double)
+  name.vb: New(Double, Double, Double, Double)
+- uid: Prowl.Runtime.Quaternion.#ctor(Prowl.Runtime.Vector3,System.Double)
+  commentId: M:Prowl.Runtime.Quaternion.#ctor(Prowl.Runtime.Vector3,System.Double)
+  id: '#ctor(Prowl.Runtime.Vector3,System.Double)'
+  parent: Prowl.Runtime.Quaternion
+  langs:
+  - csharp
+  - vb
+  name: Quaternion(Vector3, double)
+  nameWithType: Quaternion.Quaternion(Vector3, double)
+  fullName: Prowl.Runtime.Quaternion.Quaternion(Prowl.Runtime.Vector3, double)
+  type: Constructor
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Quaternion.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: .ctor
+    path: ../Prowl/Prowl.Runtime/Math/Quaternion.cs
+    startLine: 87
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: Constructs a Quaternion from the given vector and rotation parts.
+  example: []
+  syntax:
+    content: public Quaternion(Vector3 vectorPart, double scalarPart)
+    parameters:
+    - id: vectorPart
+      type: Prowl.Runtime.Vector3
+      description: The vector part of the Quaternion.
+    - id: scalarPart
+      type: System.Double
+      description: The rotation part of the Quaternion.
+    content.vb: Public Sub New(vectorPart As Vector3, scalarPart As Double)
+  overload: Prowl.Runtime.Quaternion.#ctor*
+  nameWithType.vb: Quaternion.New(Vector3, Double)
+  fullName.vb: Prowl.Runtime.Quaternion.New(Prowl.Runtime.Vector3, Double)
+  name.vb: New(Vector3, Double)
+- uid: Prowl.Runtime.Quaternion.Todouble
+  commentId: M:Prowl.Runtime.Quaternion.Todouble
+  id: Todouble
+  parent: Prowl.Runtime.Quaternion
+  langs:
+  - csharp
+  - vb
+  name: Todouble()
+  nameWithType: Quaternion.Todouble()
+  fullName: Prowl.Runtime.Quaternion.Todouble()
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Quaternion.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Todouble
+    path: ../Prowl/Prowl.Runtime/Math/Quaternion.cs
+    startLine: 95
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public Quaternion Todouble()
+    return:
+      type: System.Numerics.Quaternion
+    content.vb: Public Function Todouble() As Quaternion
+  overload: Prowl.Runtime.Quaternion.Todouble*
+- uid: Prowl.Runtime.Quaternion.Magnitude
+  commentId: M:Prowl.Runtime.Quaternion.Magnitude
+  id: Magnitude
+  parent: Prowl.Runtime.Quaternion
+  langs:
+  - csharp
+  - vb
+  name: Magnitude()
+  nameWithType: Quaternion.Magnitude()
+  fullName: Prowl.Runtime.Quaternion.Magnitude()
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Quaternion.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Magnitude
+    path: ../Prowl/Prowl.Runtime/Math/Quaternion.cs
+    startLine: 101
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: Calculates the length of the Quaternion.
+  example: []
+  syntax:
+    content: public double Magnitude()
+    return:
+      type: System.Double
+      description: The computed length of the Quaternion.
+    content.vb: Public Function Magnitude() As Double
+  overload: Prowl.Runtime.Quaternion.Magnitude*
+- uid: Prowl.Runtime.Quaternion.SqrMagnitude
+  commentId: M:Prowl.Runtime.Quaternion.SqrMagnitude
+  id: SqrMagnitude
+  parent: Prowl.Runtime.Quaternion
+  langs:
+  - csharp
+  - vb
+  name: SqrMagnitude()
+  nameWithType: Quaternion.SqrMagnitude()
+  fullName: Prowl.Runtime.Quaternion.SqrMagnitude()
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Quaternion.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: SqrMagnitude
+    path: ../Prowl/Prowl.Runtime/Math/Quaternion.cs
+    startLine: 111
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: Calculates the length squared of the Quaternion. This operation is cheaper than Length().
+  example: []
+  syntax:
+    content: public double SqrMagnitude()
+    return:
+      type: System.Double
+      description: The length squared of the Quaternion.
+    content.vb: Public Function SqrMagnitude() As Double
+  overload: Prowl.Runtime.Quaternion.SqrMagnitude*
+- uid: Prowl.Runtime.Quaternion.NormalizeSafe(Prowl.Runtime.Quaternion)
+  commentId: M:Prowl.Runtime.Quaternion.NormalizeSafe(Prowl.Runtime.Quaternion)
+  id: NormalizeSafe(Prowl.Runtime.Quaternion)
+  parent: Prowl.Runtime.Quaternion
+  langs:
+  - csharp
+  - vb
+  name: NormalizeSafe(Quaternion)
+  nameWithType: Quaternion.NormalizeSafe(Quaternion)
+  fullName: Prowl.Runtime.Quaternion.NormalizeSafe(Prowl.Runtime.Quaternion)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Quaternion.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: NormalizeSafe
+    path: ../Prowl/Prowl.Runtime/Math/Quaternion.cs
+    startLine: 113
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public static Quaternion NormalizeSafe(Quaternion q)
+    parameters:
+    - id: q
+      type: Prowl.Runtime.Quaternion
+    return:
+      type: Prowl.Runtime.Quaternion
+    content.vb: Public Shared Function NormalizeSafe(q As Quaternion) As Quaternion
+  overload: Prowl.Runtime.Quaternion.NormalizeSafe*
+- uid: Prowl.Runtime.Quaternion.Normalize(Prowl.Runtime.Quaternion)
+  commentId: M:Prowl.Runtime.Quaternion.Normalize(Prowl.Runtime.Quaternion)
+  id: Normalize(Prowl.Runtime.Quaternion)
+  parent: Prowl.Runtime.Quaternion
+  langs:
+  - csharp
+  - vb
+  name: Normalize(Quaternion)
+  nameWithType: Quaternion.Normalize(Quaternion)
+  fullName: Prowl.Runtime.Quaternion.Normalize(Prowl.Runtime.Quaternion)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Quaternion.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Normalize
+    path: ../Prowl/Prowl.Runtime/Math/Quaternion.cs
+    startLine: 127
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: Divides each component of the Quaternion by the length of the Quaternion.
+  example: []
+  syntax:
+    content: public static Quaternion Normalize(Quaternion value)
+    parameters:
+    - id: value
+      type: Prowl.Runtime.Quaternion
+      description: The source Quaternion.
+    return:
+      type: Prowl.Runtime.Quaternion
+      description: The normalized Quaternion.
+    content.vb: Public Shared Function Normalize(value As Quaternion) As Quaternion
+  overload: Prowl.Runtime.Quaternion.Normalize*
+- uid: Prowl.Runtime.Quaternion.Conjugate(Prowl.Runtime.Quaternion)
+  commentId: M:Prowl.Runtime.Quaternion.Conjugate(Prowl.Runtime.Quaternion)
+  id: Conjugate(Prowl.Runtime.Quaternion)
+  parent: Prowl.Runtime.Quaternion
+  langs:
+  - csharp
+  - vb
+  name: Conjugate(Quaternion)
+  nameWithType: Quaternion.Conjugate(Quaternion)
+  fullName: Prowl.Runtime.Quaternion.Conjugate(Prowl.Runtime.Quaternion)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Quaternion.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Conjugate
+    path: ../Prowl/Prowl.Runtime/Math/Quaternion.cs
+    startLine: 148
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: Creates the conjugate of a specified Quaternion.
+  example: []
+  syntax:
+    content: public static Quaternion Conjugate(Quaternion value)
+    parameters:
+    - id: value
+      type: Prowl.Runtime.Quaternion
+      description: The Quaternion of which to return the conjugate.
+    return:
+      type: Prowl.Runtime.Quaternion
+      description: A new Quaternion that is the conjugate of the specified one.
+    content.vb: Public Shared Function Conjugate(value As Quaternion) As Quaternion
+  overload: Prowl.Runtime.Quaternion.Conjugate*
+- uid: Prowl.Runtime.Quaternion.Inverse(Prowl.Runtime.Quaternion)
+  commentId: M:Prowl.Runtime.Quaternion.Inverse(Prowl.Runtime.Quaternion)
+  id: Inverse(Prowl.Runtime.Quaternion)
+  parent: Prowl.Runtime.Quaternion
+  langs:
+  - csharp
+  - vb
+  name: Inverse(Quaternion)
+  nameWithType: Quaternion.Inverse(Quaternion)
+  fullName: Prowl.Runtime.Quaternion.Inverse(Prowl.Runtime.Quaternion)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Quaternion.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Inverse
+    path: ../Prowl/Prowl.Runtime/Math/Quaternion.cs
+    startLine: 165
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: Returns the inverse of a Quaternion.
+  example: []
+  syntax:
+    content: public static Quaternion Inverse(Quaternion value)
+    parameters:
+    - id: value
+      type: Prowl.Runtime.Quaternion
+      description: The source Quaternion.
+    return:
+      type: Prowl.Runtime.Quaternion
+      description: The inverted Quaternion.
+    content.vb: Public Shared Function Inverse(value As Quaternion) As Quaternion
+  overload: Prowl.Runtime.Quaternion.Inverse*
+- uid: Prowl.Runtime.Quaternion.Euler(System.Double,System.Double,System.Double)
+  commentId: M:Prowl.Runtime.Quaternion.Euler(System.Double,System.Double,System.Double)
+  id: Euler(System.Double,System.Double,System.Double)
+  parent: Prowl.Runtime.Quaternion
+  langs:
+  - csharp
+  - vb
+  name: Euler(double, double, double)
+  nameWithType: Quaternion.Euler(double, double, double)
+  fullName: Prowl.Runtime.Quaternion.Euler(double, double, double)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Quaternion.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Euler
+    path: ../Prowl/Prowl.Runtime/Math/Quaternion.cs
+    startLine: 184
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public static Quaternion Euler(double x, double y, double z)
+    parameters:
+    - id: x
+      type: System.Double
+    - id: y
+      type: System.Double
+    - id: z
+      type: System.Double
+    return:
+      type: Prowl.Runtime.Quaternion
+    content.vb: Public Shared Function Euler(x As Double, y As Double, z As Double) As Quaternion
+  overload: Prowl.Runtime.Quaternion.Euler*
+  nameWithType.vb: Quaternion.Euler(Double, Double, Double)
+  fullName.vb: Prowl.Runtime.Quaternion.Euler(Double, Double, Double)
+  name.vb: Euler(Double, Double, Double)
+- uid: Prowl.Runtime.Quaternion.Euler(Prowl.Runtime.Vector3)
+  commentId: M:Prowl.Runtime.Quaternion.Euler(Prowl.Runtime.Vector3)
+  id: Euler(Prowl.Runtime.Vector3)
+  parent: Prowl.Runtime.Quaternion
+  langs:
+  - csharp
+  - vb
+  name: Euler(Vector3)
+  nameWithType: Quaternion.Euler(Vector3)
+  fullName: Prowl.Runtime.Quaternion.Euler(Prowl.Runtime.Vector3)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Quaternion.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Euler
+    path: ../Prowl/Prowl.Runtime/Math/Quaternion.cs
+    startLine: 185
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public static Quaternion Euler(Vector3 euler)
+    parameters:
+    - id: euler
+      type: Prowl.Runtime.Vector3
+    return:
+      type: Prowl.Runtime.Quaternion
+    content.vb: Public Shared Function Euler(euler As Vector3) As Quaternion
+  overload: Prowl.Runtime.Quaternion.Euler*
+- uid: Prowl.Runtime.Quaternion.ToEuler
+  commentId: M:Prowl.Runtime.Quaternion.ToEuler
+  id: ToEuler
+  parent: Prowl.Runtime.Quaternion
+  langs:
+  - csharp
+  - vb
+  name: ToEuler()
+  nameWithType: Quaternion.ToEuler()
+  fullName: Prowl.Runtime.Quaternion.ToEuler()
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Quaternion.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: ToEuler
+    path: ../Prowl/Prowl.Runtime/Math/Quaternion.cs
+    startLine: 186
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public Vector3 ToEuler()
+    return:
+      type: Prowl.Runtime.Vector3
+    content.vb: Public Function ToEuler() As Vector3
+  overload: Prowl.Runtime.Quaternion.ToEuler*
+- uid: Prowl.Runtime.Quaternion.AngleAxis(System.Double,Prowl.Runtime.Vector3)
+  commentId: M:Prowl.Runtime.Quaternion.AngleAxis(System.Double,Prowl.Runtime.Vector3)
+  id: AngleAxis(System.Double,Prowl.Runtime.Vector3)
+  parent: Prowl.Runtime.Quaternion
+  langs:
+  - csharp
+  - vb
+  name: AngleAxis(double, Vector3)
+  nameWithType: Quaternion.AngleAxis(double, Vector3)
+  fullName: Prowl.Runtime.Quaternion.AngleAxis(double, Prowl.Runtime.Vector3)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Quaternion.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: AngleAxis
+    path: ../Prowl/Prowl.Runtime/Math/Quaternion.cs
+    startLine: 195
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: Creates a Quaternion from a normalized vector axis and an angle to rotate about the vector.
+  example: []
+  syntax:
+    content: public static Quaternion AngleAxis(double angle, Vector3 axis)
+    parameters:
+    - id: angle
+      type: System.Double
+      description: The angle, in radians, to rotate around the vector.
+    - id: axis
+      type: Prowl.Runtime.Vector3
+      description: >-
+        The unit vector to rotate around.
+            This vector must be normalized before calling this function or the resulting Quaternion will be incorrect.
+    return:
+      type: Prowl.Runtime.Quaternion
+      description: The created Quaternion.
+    content.vb: Public Shared Function AngleAxis(angle As Double, axis As Vector3) As Quaternion
+  overload: Prowl.Runtime.Quaternion.AngleAxis*
+  nameWithType.vb: Quaternion.AngleAxis(Double, Vector3)
+  fullName.vb: Prowl.Runtime.Quaternion.AngleAxis(Double, Prowl.Runtime.Vector3)
+  name.vb: AngleAxis(Double, Vector3)
+- uid: Prowl.Runtime.Quaternion.CreateFromYawPitchRoll(System.Double,System.Double,System.Double)
+  commentId: M:Prowl.Runtime.Quaternion.CreateFromYawPitchRoll(System.Double,System.Double,System.Double)
+  id: CreateFromYawPitchRoll(System.Double,System.Double,System.Double)
+  parent: Prowl.Runtime.Quaternion
+  langs:
+  - csharp
+  - vb
+  name: CreateFromYawPitchRoll(double, double, double)
+  nameWithType: Quaternion.CreateFromYawPitchRoll(double, double, double)
+  fullName: Prowl.Runtime.Quaternion.CreateFromYawPitchRoll(double, double, double)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Quaternion.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: CreateFromYawPitchRoll
+    path: ../Prowl/Prowl.Runtime/Math/Quaternion.cs
+    startLine: 218
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: Creates a new Quaternion from the given yaw, pitch, and roll, in radians.
+  example: []
+  syntax:
+    content: public static Quaternion CreateFromYawPitchRoll(double yaw, double pitch, double roll)
+    parameters:
+    - id: yaw
+      type: System.Double
+      description: The yaw angle, in radians, around the Y-axis.
+    - id: pitch
+      type: System.Double
+      description: The pitch angle, in radians, around the X-axis.
+    - id: roll
+      type: System.Double
+      description: The roll angle, in radians, around the Z-axis.
+    return:
+      type: Prowl.Runtime.Quaternion
+      description: ''
+    content.vb: Public Shared Function CreateFromYawPitchRoll(yaw As Double, pitch As Double, roll As Double) As Quaternion
+  overload: Prowl.Runtime.Quaternion.CreateFromYawPitchRoll*
+  nameWithType.vb: Quaternion.CreateFromYawPitchRoll(Double, Double, Double)
+  fullName.vb: Prowl.Runtime.Quaternion.CreateFromYawPitchRoll(Double, Double, Double)
+  name.vb: CreateFromYawPitchRoll(Double, Double, Double)
+- uid: Prowl.Runtime.Quaternion.MatrixToQuaternion(Prowl.Runtime.Matrix4x4)
+  commentId: M:Prowl.Runtime.Quaternion.MatrixToQuaternion(Prowl.Runtime.Matrix4x4)
+  id: MatrixToQuaternion(Prowl.Runtime.Matrix4x4)
+  parent: Prowl.Runtime.Quaternion
+  langs:
+  - csharp
+  - vb
+  name: MatrixToQuaternion(Matrix4x4)
+  nameWithType: Quaternion.MatrixToQuaternion(Matrix4x4)
+  fullName: Prowl.Runtime.Quaternion.MatrixToQuaternion(Prowl.Runtime.Matrix4x4)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Quaternion.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: MatrixToQuaternion
+    path: ../Prowl/Prowl.Runtime/Math/Quaternion.cs
+    startLine: 249
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: Creates a Quaternion from the given rotation matrix.
+  example: []
+  syntax:
+    content: public static Quaternion MatrixToQuaternion(Matrix4x4 matrix)
+    parameters:
+    - id: matrix
+      type: Prowl.Runtime.Matrix4x4
+      description: The rotation matrix.
+    return:
+      type: Prowl.Runtime.Quaternion
+      description: The created Quaternion.
+    content.vb: Public Shared Function MatrixToQuaternion(matrix As Matrix4x4) As Quaternion
+  overload: Prowl.Runtime.Quaternion.MatrixToQuaternion*
+- uid: Prowl.Runtime.Quaternion.Dot(Prowl.Runtime.Quaternion,Prowl.Runtime.Quaternion)
+  commentId: M:Prowl.Runtime.Quaternion.Dot(Prowl.Runtime.Quaternion,Prowl.Runtime.Quaternion)
+  id: Dot(Prowl.Runtime.Quaternion,Prowl.Runtime.Quaternion)
+  parent: Prowl.Runtime.Quaternion
+  langs:
+  - csharp
+  - vb
+  name: Dot(Quaternion, Quaternion)
+  nameWithType: Quaternion.Dot(Quaternion, Quaternion)
+  fullName: Prowl.Runtime.Quaternion.Dot(Prowl.Runtime.Quaternion, Prowl.Runtime.Quaternion)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Quaternion.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Dot
+    path: ../Prowl/Prowl.Runtime/Math/Quaternion.cs
+    startLine: 304
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: Calculates the dot product of two Quaternions.
+  example: []
+  syntax:
+    content: public static double Dot(Quaternion quaternion1, Quaternion quaternion2)
+    parameters:
+    - id: quaternion1
+      type: Prowl.Runtime.Quaternion
+      description: The first source Quaternion.
+    - id: quaternion2
+      type: Prowl.Runtime.Quaternion
+      description: The second source Quaternion.
+    return:
+      type: System.Double
+      description: The dot product of the Quaternions.
+    content.vb: Public Shared Function Dot(quaternion1 As Quaternion, quaternion2 As Quaternion) As Double
+  overload: Prowl.Runtime.Quaternion.Dot*
+- uid: Prowl.Runtime.Quaternion.Slerp(Prowl.Runtime.Quaternion,Prowl.Runtime.Quaternion,System.Double)
+  commentId: M:Prowl.Runtime.Quaternion.Slerp(Prowl.Runtime.Quaternion,Prowl.Runtime.Quaternion,System.Double)
+  id: Slerp(Prowl.Runtime.Quaternion,Prowl.Runtime.Quaternion,System.Double)
+  parent: Prowl.Runtime.Quaternion
+  langs:
+  - csharp
+  - vb
+  name: Slerp(Quaternion, Quaternion, double)
+  nameWithType: Quaternion.Slerp(Quaternion, Quaternion, double)
+  fullName: Prowl.Runtime.Quaternion.Slerp(Prowl.Runtime.Quaternion, Prowl.Runtime.Quaternion, double)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Quaternion.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Slerp
+    path: ../Prowl/Prowl.Runtime/Math/Quaternion.cs
+    startLine: 319
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: Interpolates between two quaternions, using spherical linear interpolation.
+  example: []
+  syntax:
+    content: public static Quaternion Slerp(Quaternion quaternion1, Quaternion quaternion2, double amount)
+    parameters:
+    - id: quaternion1
+      type: Prowl.Runtime.Quaternion
+      description: The first source Quaternion.
+    - id: quaternion2
+      type: Prowl.Runtime.Quaternion
+      description: The second source Quaternion.
+    - id: amount
+      type: System.Double
+      description: The relative weight of the second source Quaternion in the interpolation.
+    return:
+      type: Prowl.Runtime.Quaternion
+      description: The interpolated Quaternion.
+    content.vb: Public Shared Function Slerp(quaternion1 As Quaternion, quaternion2 As Quaternion, amount As Double) As Quaternion
+  overload: Prowl.Runtime.Quaternion.Slerp*
+  nameWithType.vb: Quaternion.Slerp(Quaternion, Quaternion, Double)
+  fullName.vb: Prowl.Runtime.Quaternion.Slerp(Prowl.Runtime.Quaternion, Prowl.Runtime.Quaternion, Double)
+  name.vb: Slerp(Quaternion, Quaternion, Double)
+- uid: Prowl.Runtime.Quaternion.Lerp(Prowl.Runtime.Quaternion,Prowl.Runtime.Quaternion,System.Double)
+  commentId: M:Prowl.Runtime.Quaternion.Lerp(Prowl.Runtime.Quaternion,Prowl.Runtime.Quaternion,System.Double)
+  id: Lerp(Prowl.Runtime.Quaternion,Prowl.Runtime.Quaternion,System.Double)
+  parent: Prowl.Runtime.Quaternion
+  langs:
+  - csharp
+  - vb
+  name: Lerp(Quaternion, Quaternion, double)
+  nameWithType: Quaternion.Lerp(Quaternion, Quaternion, double)
+  fullName: Prowl.Runtime.Quaternion.Lerp(Prowl.Runtime.Quaternion, Prowl.Runtime.Quaternion, double)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Quaternion.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Lerp
+    path: ../Prowl/Prowl.Runtime/Math/Quaternion.cs
+    startLine: 370
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: Linearly interpolates between two quaternions.
+  example: []
+  syntax:
+    content: public static Quaternion Lerp(Quaternion quaternion1, Quaternion quaternion2, double amount)
+    parameters:
+    - id: quaternion1
+      type: Prowl.Runtime.Quaternion
+      description: The first source Quaternion.
+    - id: quaternion2
+      type: Prowl.Runtime.Quaternion
+      description: The second source Quaternion.
+    - id: amount
+      type: System.Double
+      description: The relative weight of the second source Quaternion in the interpolation.
+    return:
+      type: Prowl.Runtime.Quaternion
+      description: The interpolated Quaternion.
+    content.vb: Public Shared Function Lerp(quaternion1 As Quaternion, quaternion2 As Quaternion, amount As Double) As Quaternion
+  overload: Prowl.Runtime.Quaternion.Lerp*
+  nameWithType.vb: Quaternion.Lerp(Quaternion, Quaternion, Double)
+  fullName.vb: Prowl.Runtime.Quaternion.Lerp(Prowl.Runtime.Quaternion, Prowl.Runtime.Quaternion, Double)
+  name.vb: Lerp(Quaternion, Quaternion, Double)
+- uid: Prowl.Runtime.Quaternion.Angle(Prowl.Runtime.Quaternion,Prowl.Runtime.Quaternion)
+  commentId: M:Prowl.Runtime.Quaternion.Angle(Prowl.Runtime.Quaternion,Prowl.Runtime.Quaternion)
+  id: Angle(Prowl.Runtime.Quaternion,Prowl.Runtime.Quaternion)
+  parent: Prowl.Runtime.Quaternion
+  langs:
+  - csharp
+  - vb
+  name: Angle(Quaternion, Quaternion)
+  nameWithType: Quaternion.Angle(Quaternion, Quaternion)
+  fullName: Prowl.Runtime.Quaternion.Angle(Prowl.Runtime.Quaternion, Prowl.Runtime.Quaternion)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Quaternion.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Angle
+    path: ../Prowl/Prowl.Runtime/Math/Quaternion.cs
+    startLine: 410
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public static double Angle(Quaternion a, Quaternion b)
+    parameters:
+    - id: a
+      type: Prowl.Runtime.Quaternion
+    - id: b
+      type: Prowl.Runtime.Quaternion
+    return:
+      type: System.Double
+    content.vb: Public Shared Function Angle(a As Quaternion, b As Quaternion) As Double
+  overload: Prowl.Runtime.Quaternion.Angle*
+- uid: Prowl.Runtime.Quaternion.RotateTowards(Prowl.Runtime.Quaternion,Prowl.Runtime.Quaternion,System.Double)
+  commentId: M:Prowl.Runtime.Quaternion.RotateTowards(Prowl.Runtime.Quaternion,Prowl.Runtime.Quaternion,System.Double)
+  id: RotateTowards(Prowl.Runtime.Quaternion,Prowl.Runtime.Quaternion,System.Double)
+  parent: Prowl.Runtime.Quaternion
+  langs:
+  - csharp
+  - vb
+  name: RotateTowards(Quaternion, Quaternion, double)
+  nameWithType: Quaternion.RotateTowards(Quaternion, Quaternion, double)
+  fullName: Prowl.Runtime.Quaternion.RotateTowards(Prowl.Runtime.Quaternion, Prowl.Runtime.Quaternion, double)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Quaternion.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: RotateTowards
+    path: ../Prowl/Prowl.Runtime/Math/Quaternion.cs
+    startLine: 412
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public static Quaternion RotateTowards(Quaternion from, Quaternion to, double maxDegreesDelta)
+    parameters:
+    - id: from
+      type: Prowl.Runtime.Quaternion
+    - id: to
+      type: Prowl.Runtime.Quaternion
+    - id: maxDegreesDelta
+      type: System.Double
+    return:
+      type: Prowl.Runtime.Quaternion
+    content.vb: Public Shared Function RotateTowards(from As Quaternion, [to] As Quaternion, maxDegreesDelta As Double) As Quaternion
+  overload: Prowl.Runtime.Quaternion.RotateTowards*
+  nameWithType.vb: Quaternion.RotateTowards(Quaternion, Quaternion, Double)
+  fullName.vb: Prowl.Runtime.Quaternion.RotateTowards(Prowl.Runtime.Quaternion, Prowl.Runtime.Quaternion, Double)
+  name.vb: RotateTowards(Quaternion, Quaternion, Double)
+- uid: Prowl.Runtime.Quaternion.Concatenate(Prowl.Runtime.Quaternion,Prowl.Runtime.Quaternion)
+  commentId: M:Prowl.Runtime.Quaternion.Concatenate(Prowl.Runtime.Quaternion,Prowl.Runtime.Quaternion)
+  id: Concatenate(Prowl.Runtime.Quaternion,Prowl.Runtime.Quaternion)
+  parent: Prowl.Runtime.Quaternion
+  langs:
+  - csharp
+  - vb
+  name: Concatenate(Quaternion, Quaternion)
+  nameWithType: Quaternion.Concatenate(Quaternion, Quaternion)
+  fullName: Prowl.Runtime.Quaternion.Concatenate(Prowl.Runtime.Quaternion, Prowl.Runtime.Quaternion)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Quaternion.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Concatenate
+    path: ../Prowl/Prowl.Runtime/Math/Quaternion.cs
+    startLine: 424
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: Concatenates two Quaternions; the result represents the value1 rotation followed by the value2 rotation.
+  example: []
+  syntax:
+    content: public static Quaternion Concatenate(Quaternion value1, Quaternion value2)
+    parameters:
+    - id: value1
+      type: Prowl.Runtime.Quaternion
+      description: The first Quaternion rotation in the series.
+    - id: value2
+      type: Prowl.Runtime.Quaternion
+      description: The second Quaternion rotation in the series.
+    return:
+      type: Prowl.Runtime.Quaternion
+      description: A new Quaternion representing the concatenation of the value1 rotation followed by the value2 rotation.
+    content.vb: Public Shared Function Concatenate(value1 As Quaternion, value2 As Quaternion) As Quaternion
+  overload: Prowl.Runtime.Quaternion.Concatenate*
+- uid: Prowl.Runtime.Quaternion.Negate(Prowl.Runtime.Quaternion)
+  commentId: M:Prowl.Runtime.Quaternion.Negate(Prowl.Runtime.Quaternion)
+  id: Negate(Prowl.Runtime.Quaternion)
+  parent: Prowl.Runtime.Quaternion
+  langs:
+  - csharp
+  - vb
+  name: Negate(Quaternion)
+  nameWithType: Quaternion.Negate(Quaternion)
+  fullName: Prowl.Runtime.Quaternion.Negate(Prowl.Runtime.Quaternion)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Quaternion.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Negate
+    path: ../Prowl/Prowl.Runtime/Math/Quaternion.cs
+    startLine: 460
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: Flips the sign of each component of the quaternion.
+  example: []
+  syntax:
+    content: public static Quaternion Negate(Quaternion value)
+    parameters:
+    - id: value
+      type: Prowl.Runtime.Quaternion
+      description: The source Quaternion.
+    return:
+      type: Prowl.Runtime.Quaternion
+      description: The negated Quaternion.
+    content.vb: Public Shared Function Negate(value As Quaternion) As Quaternion
+  overload: Prowl.Runtime.Quaternion.Negate*
+- uid: Prowl.Runtime.Quaternion.Add(Prowl.Runtime.Quaternion,Prowl.Runtime.Quaternion)
+  commentId: M:Prowl.Runtime.Quaternion.Add(Prowl.Runtime.Quaternion,Prowl.Runtime.Quaternion)
+  id: Add(Prowl.Runtime.Quaternion,Prowl.Runtime.Quaternion)
+  parent: Prowl.Runtime.Quaternion
+  langs:
+  - csharp
+  - vb
+  name: Add(Quaternion, Quaternion)
+  nameWithType: Quaternion.Add(Quaternion, Quaternion)
+  fullName: Prowl.Runtime.Quaternion.Add(Prowl.Runtime.Quaternion, Prowl.Runtime.Quaternion)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Quaternion.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Add
+    path: ../Prowl/Prowl.Runtime/Math/Quaternion.cs
+    startLine: 478
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: Adds two Quaternions element-by-element.
+  example: []
+  syntax:
+    content: public static Quaternion Add(Quaternion value1, Quaternion value2)
+    parameters:
+    - id: value1
+      type: Prowl.Runtime.Quaternion
+      description: The first source Quaternion.
+    - id: value2
+      type: Prowl.Runtime.Quaternion
+      description: The second source Quaternion.
+    return:
+      type: Prowl.Runtime.Quaternion
+      description: The result of adding the Quaternions.
+    content.vb: Public Shared Function Add(value1 As Quaternion, value2 As Quaternion) As Quaternion
+  overload: Prowl.Runtime.Quaternion.Add*
+- uid: Prowl.Runtime.Quaternion.Subtract(Prowl.Runtime.Quaternion,Prowl.Runtime.Quaternion)
+  commentId: M:Prowl.Runtime.Quaternion.Subtract(Prowl.Runtime.Quaternion,Prowl.Runtime.Quaternion)
+  id: Subtract(Prowl.Runtime.Quaternion,Prowl.Runtime.Quaternion)
+  parent: Prowl.Runtime.Quaternion
+  langs:
+  - csharp
+  - vb
+  name: Subtract(Quaternion, Quaternion)
+  nameWithType: Quaternion.Subtract(Quaternion, Quaternion)
+  fullName: Prowl.Runtime.Quaternion.Subtract(Prowl.Runtime.Quaternion, Prowl.Runtime.Quaternion)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Quaternion.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Subtract
+    path: ../Prowl/Prowl.Runtime/Math/Quaternion.cs
+    startLine: 496
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: Subtracts one Quaternion from another.
+  example: []
+  syntax:
+    content: public static Quaternion Subtract(Quaternion value1, Quaternion value2)
+    parameters:
+    - id: value1
+      type: Prowl.Runtime.Quaternion
+      description: The first source Quaternion.
+    - id: value2
+      type: Prowl.Runtime.Quaternion
+      description: The second Quaternion, to be subtracted from the first.
+    return:
+      type: Prowl.Runtime.Quaternion
+      description: The result of the subtraction.
+    content.vb: Public Shared Function Subtract(value1 As Quaternion, value2 As Quaternion) As Quaternion
+  overload: Prowl.Runtime.Quaternion.Subtract*
+- uid: Prowl.Runtime.Quaternion.Multiply(Prowl.Runtime.Quaternion,Prowl.Runtime.Quaternion)
+  commentId: M:Prowl.Runtime.Quaternion.Multiply(Prowl.Runtime.Quaternion,Prowl.Runtime.Quaternion)
+  id: Multiply(Prowl.Runtime.Quaternion,Prowl.Runtime.Quaternion)
+  parent: Prowl.Runtime.Quaternion
+  langs:
+  - csharp
+  - vb
+  name: Multiply(Quaternion, Quaternion)
+  nameWithType: Quaternion.Multiply(Quaternion, Quaternion)
+  fullName: Prowl.Runtime.Quaternion.Multiply(Prowl.Runtime.Quaternion, Prowl.Runtime.Quaternion)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Quaternion.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Multiply
+    path: ../Prowl/Prowl.Runtime/Math/Quaternion.cs
+    startLine: 514
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: Multiplies two Quaternions together.
+  example: []
+  syntax:
+    content: public static Quaternion Multiply(Quaternion value1, Quaternion value2)
+    parameters:
+    - id: value1
+      type: Prowl.Runtime.Quaternion
+      description: The Quaternion on the left side of the multiplication.
+    - id: value2
+      type: Prowl.Runtime.Quaternion
+      description: The Quaternion on the right side of the multiplication.
+    return:
+      type: Prowl.Runtime.Quaternion
+      description: The result of the multiplication.
+    content.vb: Public Shared Function Multiply(value1 As Quaternion, value2 As Quaternion) As Quaternion
+  overload: Prowl.Runtime.Quaternion.Multiply*
+- uid: Prowl.Runtime.Quaternion.Multiply(Prowl.Runtime.Quaternion,System.Double)
+  commentId: M:Prowl.Runtime.Quaternion.Multiply(Prowl.Runtime.Quaternion,System.Double)
+  id: Multiply(Prowl.Runtime.Quaternion,System.Double)
+  parent: Prowl.Runtime.Quaternion
+  langs:
+  - csharp
+  - vb
+  name: Multiply(Quaternion, double)
+  nameWithType: Quaternion.Multiply(Quaternion, double)
+  fullName: Prowl.Runtime.Quaternion.Multiply(Prowl.Runtime.Quaternion, double)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Quaternion.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Multiply
+    path: ../Prowl/Prowl.Runtime/Math/Quaternion.cs
+    startLine: 549
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: Multiplies a Quaternion by a scalar value.
+  example: []
+  syntax:
+    content: public static Quaternion Multiply(Quaternion value1, double value2)
+    parameters:
+    - id: value1
+      type: Prowl.Runtime.Quaternion
+      description: The source Quaternion.
+    - id: value2
+      type: System.Double
+      description: The scalar value.
+    return:
+      type: Prowl.Runtime.Quaternion
+      description: The result of the multiplication.
+    content.vb: Public Shared Function Multiply(value1 As Quaternion, value2 As Double) As Quaternion
+  overload: Prowl.Runtime.Quaternion.Multiply*
+  nameWithType.vb: Quaternion.Multiply(Quaternion, Double)
+  fullName.vb: Prowl.Runtime.Quaternion.Multiply(Prowl.Runtime.Quaternion, Double)
+  name.vb: Multiply(Quaternion, Double)
+- uid: Prowl.Runtime.Quaternion.Divide(Prowl.Runtime.Quaternion,Prowl.Runtime.Quaternion)
+  commentId: M:Prowl.Runtime.Quaternion.Divide(Prowl.Runtime.Quaternion,Prowl.Runtime.Quaternion)
+  id: Divide(Prowl.Runtime.Quaternion,Prowl.Runtime.Quaternion)
+  parent: Prowl.Runtime.Quaternion
+  langs:
+  - csharp
+  - vb
+  name: Divide(Quaternion, Quaternion)
+  nameWithType: Quaternion.Divide(Quaternion, Quaternion)
+  fullName: Prowl.Runtime.Quaternion.Divide(Prowl.Runtime.Quaternion, Prowl.Runtime.Quaternion)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Quaternion.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Divide
+    path: ../Prowl/Prowl.Runtime/Math/Quaternion.cs
+    startLine: 567
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: Divides a Quaternion by another Quaternion.
+  example: []
+  syntax:
+    content: public static Quaternion Divide(Quaternion value1, Quaternion value2)
+    parameters:
+    - id: value1
+      type: Prowl.Runtime.Quaternion
+      description: The source Quaternion.
+    - id: value2
+      type: Prowl.Runtime.Quaternion
+      description: The divisor.
+    return:
+      type: Prowl.Runtime.Quaternion
+      description: The result of the division.
+    content.vb: Public Shared Function Divide(value1 As Quaternion, value2 As Quaternion) As Quaternion
+  overload: Prowl.Runtime.Quaternion.Divide*
+- uid: Prowl.Runtime.Quaternion.op_UnaryNegation(Prowl.Runtime.Quaternion)
+  commentId: M:Prowl.Runtime.Quaternion.op_UnaryNegation(Prowl.Runtime.Quaternion)
+  id: op_UnaryNegation(Prowl.Runtime.Quaternion)
+  parent: Prowl.Runtime.Quaternion
+  langs:
+  - csharp
+  - vb
+  name: operator -(Quaternion)
+  nameWithType: Quaternion.operator -(Quaternion)
+  fullName: Prowl.Runtime.Quaternion.operator -(Prowl.Runtime.Quaternion)
+  type: Operator
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Quaternion.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: op_UnaryNegation
+    path: ../Prowl/Prowl.Runtime/Math/Quaternion.cs
+    startLine: 610
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: Flips the sign of each component of the quaternion.
+  example: []
+  syntax:
+    content: public static Quaternion operator -(Quaternion value)
+    parameters:
+    - id: value
+      type: Prowl.Runtime.Quaternion
+      description: The source Quaternion.
+    return:
+      type: Prowl.Runtime.Quaternion
+      description: The negated Quaternion.
+    content.vb: Public Shared Operator -(value As Quaternion) As Quaternion
+  overload: Prowl.Runtime.Quaternion.op_UnaryNegation*
+  nameWithType.vb: Quaternion.-(Quaternion)
+  fullName.vb: Prowl.Runtime.Quaternion.-(Prowl.Runtime.Quaternion)
+  name.vb: -(Quaternion)
+- uid: Prowl.Runtime.Quaternion.op_Addition(Prowl.Runtime.Quaternion,Prowl.Runtime.Quaternion)
+  commentId: M:Prowl.Runtime.Quaternion.op_Addition(Prowl.Runtime.Quaternion,Prowl.Runtime.Quaternion)
+  id: op_Addition(Prowl.Runtime.Quaternion,Prowl.Runtime.Quaternion)
+  parent: Prowl.Runtime.Quaternion
+  langs:
+  - csharp
+  - vb
+  name: operator +(Quaternion, Quaternion)
+  nameWithType: Quaternion.operator +(Quaternion, Quaternion)
+  fullName: Prowl.Runtime.Quaternion.operator +(Prowl.Runtime.Quaternion, Prowl.Runtime.Quaternion)
+  type: Operator
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Quaternion.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: op_Addition
+    path: ../Prowl/Prowl.Runtime/Math/Quaternion.cs
+    startLine: 628
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: Adds two Quaternions element-by-element.
+  example: []
+  syntax:
+    content: public static Quaternion operator +(Quaternion value1, Quaternion value2)
+    parameters:
+    - id: value1
+      type: Prowl.Runtime.Quaternion
+      description: The first source Quaternion.
+    - id: value2
+      type: Prowl.Runtime.Quaternion
+      description: The second source Quaternion.
+    return:
+      type: Prowl.Runtime.Quaternion
+      description: The result of adding the Quaternions.
+    content.vb: Public Shared Operator +(value1 As Quaternion, value2 As Quaternion) As Quaternion
+  overload: Prowl.Runtime.Quaternion.op_Addition*
+  nameWithType.vb: Quaternion.+(Quaternion, Quaternion)
+  fullName.vb: Prowl.Runtime.Quaternion.+(Prowl.Runtime.Quaternion, Prowl.Runtime.Quaternion)
+  name.vb: +(Quaternion, Quaternion)
+- uid: Prowl.Runtime.Quaternion.op_Subtraction(Prowl.Runtime.Quaternion,Prowl.Runtime.Quaternion)
+  commentId: M:Prowl.Runtime.Quaternion.op_Subtraction(Prowl.Runtime.Quaternion,Prowl.Runtime.Quaternion)
+  id: op_Subtraction(Prowl.Runtime.Quaternion,Prowl.Runtime.Quaternion)
+  parent: Prowl.Runtime.Quaternion
+  langs:
+  - csharp
+  - vb
+  name: operator -(Quaternion, Quaternion)
+  nameWithType: Quaternion.operator -(Quaternion, Quaternion)
+  fullName: Prowl.Runtime.Quaternion.operator -(Prowl.Runtime.Quaternion, Prowl.Runtime.Quaternion)
+  type: Operator
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Quaternion.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: op_Subtraction
+    path: ../Prowl/Prowl.Runtime/Math/Quaternion.cs
+    startLine: 646
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: Subtracts one Quaternion from another.
+  example: []
+  syntax:
+    content: public static Quaternion operator -(Quaternion value1, Quaternion value2)
+    parameters:
+    - id: value1
+      type: Prowl.Runtime.Quaternion
+      description: The first source Quaternion.
+    - id: value2
+      type: Prowl.Runtime.Quaternion
+      description: The second Quaternion, to be subtracted from the first.
+    return:
+      type: Prowl.Runtime.Quaternion
+      description: The result of the subtraction.
+    content.vb: Public Shared Operator -(value1 As Quaternion, value2 As Quaternion) As Quaternion
+  overload: Prowl.Runtime.Quaternion.op_Subtraction*
+  nameWithType.vb: Quaternion.-(Quaternion, Quaternion)
+  fullName.vb: Prowl.Runtime.Quaternion.-(Prowl.Runtime.Quaternion, Prowl.Runtime.Quaternion)
+  name.vb: -(Quaternion, Quaternion)
+- uid: Prowl.Runtime.Quaternion.op_Multiply(Prowl.Runtime.Quaternion,Prowl.Runtime.Quaternion)
+  commentId: M:Prowl.Runtime.Quaternion.op_Multiply(Prowl.Runtime.Quaternion,Prowl.Runtime.Quaternion)
+  id: op_Multiply(Prowl.Runtime.Quaternion,Prowl.Runtime.Quaternion)
+  parent: Prowl.Runtime.Quaternion
+  langs:
+  - csharp
+  - vb
+  name: operator *(Quaternion, Quaternion)
+  nameWithType: Quaternion.operator *(Quaternion, Quaternion)
+  fullName: Prowl.Runtime.Quaternion.operator *(Prowl.Runtime.Quaternion, Prowl.Runtime.Quaternion)
+  type: Operator
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Quaternion.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: op_Multiply
+    path: ../Prowl/Prowl.Runtime/Math/Quaternion.cs
+    startLine: 664
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: Multiplies two Quaternions together.
+  example: []
+  syntax:
+    content: public static Quaternion operator *(Quaternion value1, Quaternion value2)
+    parameters:
+    - id: value1
+      type: Prowl.Runtime.Quaternion
+      description: The Quaternion on the left side of the multiplication.
+    - id: value2
+      type: Prowl.Runtime.Quaternion
+      description: The Quaternion on the right side of the multiplication.
+    return:
+      type: Prowl.Runtime.Quaternion
+      description: The result of the multiplication.
+    content.vb: Public Shared Operator *(value1 As Quaternion, value2 As Quaternion) As Quaternion
+  overload: Prowl.Runtime.Quaternion.op_Multiply*
+  nameWithType.vb: Quaternion.*(Quaternion, Quaternion)
+  fullName.vb: Prowl.Runtime.Quaternion.*(Prowl.Runtime.Quaternion, Prowl.Runtime.Quaternion)
+  name.vb: '*(Quaternion, Quaternion)'
+- uid: Prowl.Runtime.Quaternion.op_Multiply(Prowl.Runtime.Quaternion,System.Double)
+  commentId: M:Prowl.Runtime.Quaternion.op_Multiply(Prowl.Runtime.Quaternion,System.Double)
+  id: op_Multiply(Prowl.Runtime.Quaternion,System.Double)
+  parent: Prowl.Runtime.Quaternion
+  langs:
+  - csharp
+  - vb
+  name: operator *(Quaternion, double)
+  nameWithType: Quaternion.operator *(Quaternion, double)
+  fullName: Prowl.Runtime.Quaternion.operator *(Prowl.Runtime.Quaternion, double)
+  type: Operator
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Quaternion.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: op_Multiply
+    path: ../Prowl/Prowl.Runtime/Math/Quaternion.cs
+    startLine: 699
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: Multiplies a Quaternion by a scalar value.
+  example: []
+  syntax:
+    content: public static Quaternion operator *(Quaternion value1, double value2)
+    parameters:
+    - id: value1
+      type: Prowl.Runtime.Quaternion
+      description: The source Quaternion.
+    - id: value2
+      type: System.Double
+      description: The scalar value.
+    return:
+      type: Prowl.Runtime.Quaternion
+      description: The result of the multiplication.
+    content.vb: Public Shared Operator *(value1 As Quaternion, value2 As Double) As Quaternion
+  overload: Prowl.Runtime.Quaternion.op_Multiply*
+  nameWithType.vb: Quaternion.*(Quaternion, Double)
+  fullName.vb: Prowl.Runtime.Quaternion.*(Prowl.Runtime.Quaternion, Double)
+  name.vb: '*(Quaternion, Double)'
+- uid: Prowl.Runtime.Quaternion.op_Multiply(Prowl.Runtime.Quaternion,Prowl.Runtime.Vector3)
+  commentId: M:Prowl.Runtime.Quaternion.op_Multiply(Prowl.Runtime.Quaternion,Prowl.Runtime.Vector3)
+  id: op_Multiply(Prowl.Runtime.Quaternion,Prowl.Runtime.Vector3)
+  parent: Prowl.Runtime.Quaternion
+  langs:
+  - csharp
+  - vb
+  name: operator *(Quaternion, Vector3)
+  nameWithType: Quaternion.operator *(Quaternion, Vector3)
+  fullName: Prowl.Runtime.Quaternion.operator *(Prowl.Runtime.Quaternion, Prowl.Runtime.Vector3)
+  type: Operator
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Quaternion.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: op_Multiply
+    path: ../Prowl/Prowl.Runtime/Math/Quaternion.cs
+    startLine: 711
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public static Vector3 operator *(Quaternion rotation, Vector3 point)
+    parameters:
+    - id: rotation
+      type: Prowl.Runtime.Quaternion
+    - id: point
+      type: Prowl.Runtime.Vector3
+    return:
+      type: Prowl.Runtime.Vector3
+    content.vb: Public Shared Operator *(rotation As Quaternion, point As Vector3) As Vector3
+  overload: Prowl.Runtime.Quaternion.op_Multiply*
+  nameWithType.vb: Quaternion.*(Quaternion, Vector3)
+  fullName.vb: Prowl.Runtime.Quaternion.*(Prowl.Runtime.Quaternion, Prowl.Runtime.Vector3)
+  name.vb: '*(Quaternion, Vector3)'
+- uid: Prowl.Runtime.Quaternion.op_Division(Prowl.Runtime.Quaternion,Prowl.Runtime.Quaternion)
+  commentId: M:Prowl.Runtime.Quaternion.op_Division(Prowl.Runtime.Quaternion,Prowl.Runtime.Quaternion)
+  id: op_Division(Prowl.Runtime.Quaternion,Prowl.Runtime.Quaternion)
+  parent: Prowl.Runtime.Quaternion
+  langs:
+  - csharp
+  - vb
+  name: operator /(Quaternion, Quaternion)
+  nameWithType: Quaternion.operator /(Quaternion, Quaternion)
+  fullName: Prowl.Runtime.Quaternion.operator /(Prowl.Runtime.Quaternion, Prowl.Runtime.Quaternion)
+  type: Operator
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Quaternion.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: op_Division
+    path: ../Prowl/Prowl.Runtime/Math/Quaternion.cs
+    startLine: 739
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: Divides a Quaternion by another Quaternion.
+  example: []
+  syntax:
+    content: public static Quaternion operator /(Quaternion value1, Quaternion value2)
+    parameters:
+    - id: value1
+      type: Prowl.Runtime.Quaternion
+      description: The source Quaternion.
+    - id: value2
+      type: Prowl.Runtime.Quaternion
+      description: The divisor.
+    return:
+      type: Prowl.Runtime.Quaternion
+      description: The result of the division.
+    content.vb: Public Shared Operator /(value1 As Quaternion, value2 As Quaternion) As Quaternion
+  overload: Prowl.Runtime.Quaternion.op_Division*
+  nameWithType.vb: Quaternion./(Quaternion, Quaternion)
+  fullName.vb: Prowl.Runtime.Quaternion./(Prowl.Runtime.Quaternion, Prowl.Runtime.Quaternion)
+  name.vb: /(Quaternion, Quaternion)
+- uid: Prowl.Runtime.Quaternion.op_Division(Prowl.Runtime.Quaternion,System.Double)
+  commentId: M:Prowl.Runtime.Quaternion.op_Division(Prowl.Runtime.Quaternion,System.Double)
+  id: op_Division(Prowl.Runtime.Quaternion,System.Double)
+  parent: Prowl.Runtime.Quaternion
+  langs:
+  - csharp
+  - vb
+  name: operator /(Quaternion, double)
+  nameWithType: Quaternion.operator /(Quaternion, double)
+  fullName: Prowl.Runtime.Quaternion.operator /(Prowl.Runtime.Quaternion, double)
+  type: Operator
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Quaternion.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: op_Division
+    path: ../Prowl/Prowl.Runtime/Math/Quaternion.cs
+    startLine: 777
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public static Quaternion operator /(Quaternion q, double v)
+    parameters:
+    - id: q
+      type: Prowl.Runtime.Quaternion
+    - id: v
+      type: System.Double
+    return:
+      type: Prowl.Runtime.Quaternion
+    content.vb: Public Shared Operator /(q As Quaternion, v As Double) As Quaternion
+  overload: Prowl.Runtime.Quaternion.op_Division*
+  nameWithType.vb: Quaternion./(Quaternion, Double)
+  fullName.vb: Prowl.Runtime.Quaternion./(Prowl.Runtime.Quaternion, Double)
+  name.vb: /(Quaternion, Double)
+- uid: Prowl.Runtime.Quaternion.op_Equality(Prowl.Runtime.Quaternion,Prowl.Runtime.Quaternion)
+  commentId: M:Prowl.Runtime.Quaternion.op_Equality(Prowl.Runtime.Quaternion,Prowl.Runtime.Quaternion)
+  id: op_Equality(Prowl.Runtime.Quaternion,Prowl.Runtime.Quaternion)
+  parent: Prowl.Runtime.Quaternion
+  langs:
+  - csharp
+  - vb
+  name: operator ==(Quaternion, Quaternion)
+  nameWithType: Quaternion.operator ==(Quaternion, Quaternion)
+  fullName: Prowl.Runtime.Quaternion.operator ==(Prowl.Runtime.Quaternion, Prowl.Runtime.Quaternion)
+  type: Operator
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Quaternion.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: op_Equality
+    path: ../Prowl/Prowl.Runtime/Math/Quaternion.cs
+    startLine: 785
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: Returns a boolean indicating whether the two given Quaternions are equal.
+  example: []
+  syntax:
+    content: public static bool operator ==(Quaternion value1, Quaternion value2)
+    parameters:
+    - id: value1
+      type: Prowl.Runtime.Quaternion
+      description: The first Quaternion to compare.
+    - id: value2
+      type: Prowl.Runtime.Quaternion
+      description: The second Quaternion to compare.
+    return:
+      type: System.Boolean
+      description: True if the Quaternions are equal; False otherwise.
+    content.vb: Public Shared Operator =(value1 As Quaternion, value2 As Quaternion) As Boolean
+  overload: Prowl.Runtime.Quaternion.op_Equality*
+  nameWithType.vb: Quaternion.=(Quaternion, Quaternion)
+  fullName.vb: Prowl.Runtime.Quaternion.=(Prowl.Runtime.Quaternion, Prowl.Runtime.Quaternion)
+  name.vb: =(Quaternion, Quaternion)
+- uid: Prowl.Runtime.Quaternion.op_Inequality(Prowl.Runtime.Quaternion,Prowl.Runtime.Quaternion)
+  commentId: M:Prowl.Runtime.Quaternion.op_Inequality(Prowl.Runtime.Quaternion,Prowl.Runtime.Quaternion)
+  id: op_Inequality(Prowl.Runtime.Quaternion,Prowl.Runtime.Quaternion)
+  parent: Prowl.Runtime.Quaternion
+  langs:
+  - csharp
+  - vb
+  name: operator !=(Quaternion, Quaternion)
+  nameWithType: Quaternion.operator !=(Quaternion, Quaternion)
+  fullName: Prowl.Runtime.Quaternion.operator !=(Prowl.Runtime.Quaternion, Prowl.Runtime.Quaternion)
+  type: Operator
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Quaternion.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: op_Inequality
+    path: ../Prowl/Prowl.Runtime/Math/Quaternion.cs
+    startLine: 793
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: Returns a boolean indicating whether the two given Quaternions are not equal.
+  example: []
+  syntax:
+    content: public static bool operator !=(Quaternion value1, Quaternion value2)
+    parameters:
+    - id: value1
+      type: Prowl.Runtime.Quaternion
+      description: The first Quaternion to compare.
+    - id: value2
+      type: Prowl.Runtime.Quaternion
+      description: The second Quaternion to compare.
+    return:
+      type: System.Boolean
+      description: True if the Quaternions are not equal; False if they are equal.
+    content.vb: Public Shared Operator <>(value1 As Quaternion, value2 As Quaternion) As Boolean
+  overload: Prowl.Runtime.Quaternion.op_Inequality*
+  nameWithType.vb: Quaternion.<>(Quaternion, Quaternion)
+  fullName.vb: Prowl.Runtime.Quaternion.<>(Prowl.Runtime.Quaternion, Prowl.Runtime.Quaternion)
+  name.vb: <>(Quaternion, Quaternion)
+- uid: Prowl.Runtime.Quaternion.op_Implicit(Prowl.Runtime.Quaternion)~System.Numerics.Quaternion
+  commentId: M:Prowl.Runtime.Quaternion.op_Implicit(Prowl.Runtime.Quaternion)~System.Numerics.Quaternion
+  id: op_Implicit(Prowl.Runtime.Quaternion)~System.Numerics.Quaternion
+  parent: Prowl.Runtime.Quaternion
+  langs:
+  - csharp
+  - vb
+  name: implicit operator Quaternion(Quaternion)
+  nameWithType: Quaternion.implicit operator Quaternion(Quaternion)
+  fullName: Prowl.Runtime.Quaternion.implicit operator System.Numerics.Quaternion(Prowl.Runtime.Quaternion)
+  type: Operator
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Quaternion.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: op_Implicit
+    path: ../Prowl/Prowl.Runtime/Math/Quaternion.cs
+    startLine: 795
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public static implicit operator Quaternion(Quaternion value)
+    parameters:
+    - id: value
+      type: Prowl.Runtime.Quaternion
+    return:
+      type: System.Numerics.Quaternion
+    content.vb: Public Shared Widening Operator CType(value As Quaternion) As Quaternion
+  overload: Prowl.Runtime.Quaternion.op_Implicit*
+  nameWithType.vb: Quaternion.CType(Quaternion)
+  fullName.vb: Prowl.Runtime.Quaternion.CType(Prowl.Runtime.Quaternion)
+  name.vb: CType(Quaternion)
+- uid: Prowl.Runtime.Quaternion.op_Implicit(System.Numerics.Quaternion)~Prowl.Runtime.Quaternion
+  commentId: M:Prowl.Runtime.Quaternion.op_Implicit(System.Numerics.Quaternion)~Prowl.Runtime.Quaternion
+  id: op_Implicit(System.Numerics.Quaternion)~Prowl.Runtime.Quaternion
+  parent: Prowl.Runtime.Quaternion
+  langs:
+  - csharp
+  - vb
+  name: implicit operator Quaternion(Quaternion)
+  nameWithType: Quaternion.implicit operator Quaternion(Quaternion)
+  fullName: Prowl.Runtime.Quaternion.implicit operator Prowl.Runtime.Quaternion(System.Numerics.Quaternion)
+  type: Operator
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Quaternion.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: op_Implicit
+    path: ../Prowl/Prowl.Runtime/Math/Quaternion.cs
+    startLine: 797
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public static implicit operator Quaternion(Quaternion value)
+    parameters:
+    - id: value
+      type: System.Numerics.Quaternion
+    return:
+      type: Prowl.Runtime.Quaternion
+    content.vb: Public Shared Widening Operator CType(value As Quaternion) As Quaternion
+  overload: Prowl.Runtime.Quaternion.op_Implicit*
+  nameWithType.vb: Quaternion.CType(Quaternion)
+  fullName.vb: Prowl.Runtime.Quaternion.CType(System.Numerics.Quaternion)
+  name.vb: CType(Quaternion)
+- uid: Prowl.Runtime.Quaternion.Equals(Prowl.Runtime.Quaternion)
+  commentId: M:Prowl.Runtime.Quaternion.Equals(Prowl.Runtime.Quaternion)
+  id: Equals(Prowl.Runtime.Quaternion)
+  parent: Prowl.Runtime.Quaternion
+  langs:
+  - csharp
+  - vb
+  name: Equals(Quaternion)
+  nameWithType: Quaternion.Equals(Quaternion)
+  fullName: Prowl.Runtime.Quaternion.Equals(Prowl.Runtime.Quaternion)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Quaternion.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Equals
+    path: ../Prowl/Prowl.Runtime/Math/Quaternion.cs
+    startLine: 804
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: Returns a boolean indicating whether the given Quaternion is equal to this Quaternion instance.
+  example: []
+  syntax:
+    content: public bool Equals(Quaternion other)
+    parameters:
+    - id: other
+      type: Prowl.Runtime.Quaternion
+      description: The Quaternion to compare this instance to.
+    return:
+      type: System.Boolean
+      description: True if the other Quaternion is equal to this instance; False otherwise.
+    content.vb: Public Function Equals(other As Quaternion) As Boolean
+  overload: Prowl.Runtime.Quaternion.Equals*
+  implements:
+  - System.IEquatable{Prowl.Runtime.Quaternion}.Equals(Prowl.Runtime.Quaternion)
+- uid: Prowl.Runtime.Quaternion.Equals(System.Object)
+  commentId: M:Prowl.Runtime.Quaternion.Equals(System.Object)
+  id: Equals(System.Object)
+  parent: Prowl.Runtime.Quaternion
+  langs:
+  - csharp
+  - vb
+  name: Equals(object?)
+  nameWithType: Quaternion.Equals(object?)
+  fullName: Prowl.Runtime.Quaternion.Equals(object?)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Quaternion.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Equals
+    path: ../Prowl/Prowl.Runtime/Math/Quaternion.cs
+    startLine: 815
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: Returns a boolean indicating whether the given Object is equal to this Quaternion instance.
+  example: []
+  syntax:
+    content: public override bool Equals(object? obj)
+    parameters:
+    - id: obj
+      type: System.Object
+      description: The Object to compare against.
+    return:
+      type: System.Boolean
+      description: True if the Object is equal to this Quaternion; False otherwise.
+    content.vb: Public Overrides Function Equals(obj As Object) As Boolean
+  overridden: System.ValueType.Equals(System.Object)
+  overload: Prowl.Runtime.Quaternion.Equals*
+  nameWithType.vb: Quaternion.Equals(Object)
+  fullName.vb: Prowl.Runtime.Quaternion.Equals(Object)
+  name.vb: Equals(Object)
+- uid: Prowl.Runtime.Quaternion.ToString
+  commentId: M:Prowl.Runtime.Quaternion.ToString
+  id: ToString
+  parent: Prowl.Runtime.Quaternion
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: Quaternion.ToString()
+  fullName: Prowl.Runtime.Quaternion.ToString()
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Quaternion.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: ToString
+    path: ../Prowl/Prowl.Runtime/Math/Quaternion.cs
+    startLine: 821
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: Returns a String representing this Quaternion instance.
+  example: []
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+      description: The string representation.
+    content.vb: Public Overrides Function ToString() As String
+  overridden: System.ValueType.ToString
+  overload: Prowl.Runtime.Quaternion.ToString*
+- uid: Prowl.Runtime.Quaternion.GetHashCode
+  commentId: M:Prowl.Runtime.Quaternion.GetHashCode
+  id: GetHashCode
+  parent: Prowl.Runtime.Quaternion
+  langs:
+  - csharp
+  - vb
+  name: GetHashCode()
+  nameWithType: Quaternion.GetHashCode()
+  fullName: Prowl.Runtime.Quaternion.GetHashCode()
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Quaternion.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: GetHashCode
+    path: ../Prowl/Prowl.Runtime/Math/Quaternion.cs
+    startLine: 832
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: Returns the hash code for this instance.
+  example: []
+  syntax:
+    content: public override int GetHashCode()
+    return:
+      type: System.Int32
+      description: The hash code.
+    content.vb: Public Overrides Function GetHashCode() As Integer
+  overridden: System.ValueType.GetHashCode
+  overload: Prowl.Runtime.Quaternion.GetHashCode*
+references:
+- uid: Prowl.Runtime
+  commentId: N:Prowl.Runtime
+  href: Prowl.html
+  name: Prowl.Runtime
+  nameWithType: Prowl.Runtime
+  fullName: Prowl.Runtime
+  spec.csharp:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+  spec.vb:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+- uid: System.IEquatable{Prowl.Runtime.Quaternion}
+  commentId: T:System.IEquatable{Prowl.Runtime.Quaternion}
+  parent: System
+  definition: System.IEquatable`1
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<Quaternion>
+  nameWithType: IEquatable<Quaternion>
+  fullName: System.IEquatable<Prowl.Runtime.Quaternion>
+  nameWithType.vb: IEquatable(Of Quaternion)
+  fullName.vb: System.IEquatable(Of Prowl.Runtime.Quaternion)
+  name.vb: IEquatable(Of Quaternion)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - uid: Prowl.Runtime.Quaternion
+    name: Quaternion
+    href: Prowl.Runtime.Quaternion.html
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Prowl.Runtime.Quaternion
+    name: Quaternion
+    href: Prowl.Runtime.Quaternion.html
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: Prowl.Runtime.Quaternion.Prowl.Runtime.MathD.GetRotation
+  commentId: M:Prowl.Runtime.MathD.GetRotation(Prowl.Runtime.Quaternion)
+  parent: Prowl.Runtime.MathD
+  definition: Prowl.Runtime.MathD.GetRotation(Prowl.Runtime.Quaternion)
+  href: Prowl.Runtime.MathD.html#Prowl_Runtime_MathD_GetRotation_Prowl_Runtime_Quaternion_
+  name: GetRotation(Quaternion)
+  nameWithType: MathD.GetRotation(Quaternion)
+  fullName: Prowl.Runtime.MathD.GetRotation(Prowl.Runtime.Quaternion)
+  spec.csharp:
+  - uid: Prowl.Runtime.MathD.GetRotation(Prowl.Runtime.Quaternion)
+    name: GetRotation
+    href: Prowl.Runtime.MathD.html#Prowl_Runtime_MathD_GetRotation_Prowl_Runtime_Quaternion_
+  - name: (
+  - uid: Prowl.Runtime.Quaternion
+    name: Quaternion
+    href: Prowl.Runtime.Quaternion.html
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.MathD.GetRotation(Prowl.Runtime.Quaternion)
+    name: GetRotation
+    href: Prowl.Runtime.MathD.html#Prowl_Runtime_MathD_GetRotation_Prowl_Runtime_Quaternion_
+  - name: (
+  - uid: Prowl.Runtime.Quaternion
+    name: Quaternion
+    href: Prowl.Runtime.Quaternion.html
+  - name: )
+- uid: System.Object.Prowl.Runtime.RuntimeUtils.GetSerializableFields
+  commentId: M:Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  parent: Prowl.Runtime.RuntimeUtils
+  definition: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  name: GetSerializableFields(object)
+  nameWithType: RuntimeUtils.GetSerializableFields(object)
+  fullName: Prowl.Runtime.RuntimeUtils.GetSerializableFields(object)
+  nameWithType.vb: RuntimeUtils.GetSerializableFields(Object)
+  fullName.vb: Prowl.Runtime.RuntimeUtils.GetSerializableFields(Object)
+  name.vb: GetSerializableFields(Object)
+  spec.csharp:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.IEquatable`1
+  commentId: T:System.IEquatable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<T>
+  nameWithType: IEquatable<T>
+  fullName: System.IEquatable<T>
+  nameWithType.vb: IEquatable(Of T)
+  fullName.vb: System.IEquatable(Of T)
+  name.vb: IEquatable(Of T)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Prowl.Runtime.MathD.GetRotation(Prowl.Runtime.Quaternion)
+  commentId: M:Prowl.Runtime.MathD.GetRotation(Prowl.Runtime.Quaternion)
+  href: Prowl.Runtime.MathD.html#Prowl_Runtime_MathD_GetRotation_Prowl_Runtime_Quaternion_
+  name: GetRotation(Quaternion)
+  nameWithType: MathD.GetRotation(Quaternion)
+  fullName: Prowl.Runtime.MathD.GetRotation(Prowl.Runtime.Quaternion)
+  spec.csharp:
+  - uid: Prowl.Runtime.MathD.GetRotation(Prowl.Runtime.Quaternion)
+    name: GetRotation
+    href: Prowl.Runtime.MathD.html#Prowl_Runtime_MathD_GetRotation_Prowl_Runtime_Quaternion_
+  - name: (
+  - uid: Prowl.Runtime.Quaternion
+    name: Quaternion
+    href: Prowl.Runtime.Quaternion.html
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.MathD.GetRotation(Prowl.Runtime.Quaternion)
+    name: GetRotation
+    href: Prowl.Runtime.MathD.html#Prowl_Runtime_MathD_GetRotation_Prowl_Runtime_Quaternion_
+  - name: (
+  - uid: Prowl.Runtime.Quaternion
+    name: Quaternion
+    href: Prowl.Runtime.Quaternion.html
+  - name: )
+- uid: Prowl.Runtime.MathD
+  commentId: T:Prowl.Runtime.MathD
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.MathD.html
+  name: MathD
+  nameWithType: MathD
+  fullName: Prowl.Runtime.MathD
+- uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  commentId: M:Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  isExternal: true
+  href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  name: GetSerializableFields(object)
+  nameWithType: RuntimeUtils.GetSerializableFields(object)
+  fullName: Prowl.Runtime.RuntimeUtils.GetSerializableFields(object)
+  nameWithType.vb: RuntimeUtils.GetSerializableFields(Object)
+  fullName.vb: Prowl.Runtime.RuntimeUtils.GetSerializableFields(Object)
+  name.vb: GetSerializableFields(Object)
+  spec.csharp:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: Prowl.Runtime.RuntimeUtils
+  commentId: T:Prowl.Runtime.RuntimeUtils
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.RuntimeUtils.html
+  name: RuntimeUtils
+  nameWithType: RuntimeUtils
+  fullName: Prowl.Runtime.RuntimeUtils
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.double
+  name: double
+  nameWithType: double
+  fullName: double
+  nameWithType.vb: Double
+  fullName.vb: Double
+  name.vb: Double
+- uid: Prowl.Runtime.Quaternion.Item*
+  commentId: Overload:Prowl.Runtime.Quaternion.Item
+  href: Prowl.Runtime.Quaternion.html#Prowl_Runtime_Quaternion_Item_System_Int32_
+  name: this
+  nameWithType: Quaternion.this
+  fullName: Prowl.Runtime.Quaternion.this
+  nameWithType.vb: Quaternion.this[]
+  fullName.vb: Prowl.Runtime.Quaternion.this[]
+  name.vb: this[]
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: Prowl.Runtime.Quaternion.eulerAngles*
+  commentId: Overload:Prowl.Runtime.Quaternion.eulerAngles
+  href: Prowl.Runtime.Quaternion.html#Prowl_Runtime_Quaternion_eulerAngles
+  name: eulerAngles
+  nameWithType: Quaternion.eulerAngles
+  fullName: Prowl.Runtime.Quaternion.eulerAngles
+- uid: Prowl.Runtime.Vector3
+  commentId: T:Prowl.Runtime.Vector3
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.Vector3.html
+  name: Vector3
+  nameWithType: Vector3
+  fullName: Prowl.Runtime.Vector3
+- uid: Prowl.Runtime.Quaternion.identity*
+  commentId: Overload:Prowl.Runtime.Quaternion.identity
+  href: Prowl.Runtime.Quaternion.html#Prowl_Runtime_Quaternion_identity
+  name: identity
+  nameWithType: Quaternion.identity
+  fullName: Prowl.Runtime.Quaternion.identity
+- uid: Prowl.Runtime.Quaternion
+  commentId: T:Prowl.Runtime.Quaternion
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.Quaternion.html
+  name: Quaternion
+  nameWithType: Quaternion
+  fullName: Prowl.Runtime.Quaternion
+- uid: Prowl.Runtime.Quaternion.#ctor*
+  commentId: Overload:Prowl.Runtime.Quaternion.#ctor
+  href: Prowl.Runtime.Quaternion.html#Prowl_Runtime_Quaternion__ctor_System_Double_System_Double_System_Double_System_Double_
+  name: Quaternion
+  nameWithType: Quaternion.Quaternion
+  fullName: Prowl.Runtime.Quaternion.Quaternion
+  nameWithType.vb: Quaternion.New
+  fullName.vb: Prowl.Runtime.Quaternion.New
+  name.vb: New
+- uid: Prowl.Runtime.Quaternion.Todouble*
+  commentId: Overload:Prowl.Runtime.Quaternion.Todouble
+  href: Prowl.Runtime.Quaternion.html#Prowl_Runtime_Quaternion_Todouble
+  name: Todouble
+  nameWithType: Quaternion.Todouble
+  fullName: Prowl.Runtime.Quaternion.Todouble
+- uid: System.Numerics.Quaternion
+  commentId: T:System.Numerics.Quaternion
+  parent: System.Numerics
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.numerics.quaternion
+  name: Quaternion
+  nameWithType: Quaternion
+  fullName: System.Numerics.Quaternion
+- uid: System.Numerics
+  commentId: N:System.Numerics
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Numerics
+  nameWithType: System.Numerics
+  fullName: System.Numerics
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Numerics
+    name: Numerics
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.numerics
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Numerics
+    name: Numerics
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.numerics
+- uid: Prowl.Runtime.Quaternion.Magnitude*
+  commentId: Overload:Prowl.Runtime.Quaternion.Magnitude
+  href: Prowl.Runtime.Quaternion.html#Prowl_Runtime_Quaternion_Magnitude
+  name: Magnitude
+  nameWithType: Quaternion.Magnitude
+  fullName: Prowl.Runtime.Quaternion.Magnitude
+- uid: Prowl.Runtime.Quaternion.SqrMagnitude*
+  commentId: Overload:Prowl.Runtime.Quaternion.SqrMagnitude
+  href: Prowl.Runtime.Quaternion.html#Prowl_Runtime_Quaternion_SqrMagnitude
+  name: SqrMagnitude
+  nameWithType: Quaternion.SqrMagnitude
+  fullName: Prowl.Runtime.Quaternion.SqrMagnitude
+- uid: Prowl.Runtime.Quaternion.NormalizeSafe*
+  commentId: Overload:Prowl.Runtime.Quaternion.NormalizeSafe
+  href: Prowl.Runtime.Quaternion.html#Prowl_Runtime_Quaternion_NormalizeSafe_Prowl_Runtime_Quaternion_
+  name: NormalizeSafe
+  nameWithType: Quaternion.NormalizeSafe
+  fullName: Prowl.Runtime.Quaternion.NormalizeSafe
+- uid: Prowl.Runtime.Quaternion.Normalize*
+  commentId: Overload:Prowl.Runtime.Quaternion.Normalize
+  href: Prowl.Runtime.Quaternion.html#Prowl_Runtime_Quaternion_Normalize_Prowl_Runtime_Quaternion_
+  name: Normalize
+  nameWithType: Quaternion.Normalize
+  fullName: Prowl.Runtime.Quaternion.Normalize
+- uid: Prowl.Runtime.Quaternion.Conjugate*
+  commentId: Overload:Prowl.Runtime.Quaternion.Conjugate
+  href: Prowl.Runtime.Quaternion.html#Prowl_Runtime_Quaternion_Conjugate_Prowl_Runtime_Quaternion_
+  name: Conjugate
+  nameWithType: Quaternion.Conjugate
+  fullName: Prowl.Runtime.Quaternion.Conjugate
+- uid: Prowl.Runtime.Quaternion.Inverse*
+  commentId: Overload:Prowl.Runtime.Quaternion.Inverse
+  href: Prowl.Runtime.Quaternion.html#Prowl_Runtime_Quaternion_Inverse_Prowl_Runtime_Quaternion_
+  name: Inverse
+  nameWithType: Quaternion.Inverse
+  fullName: Prowl.Runtime.Quaternion.Inverse
+- uid: Prowl.Runtime.Quaternion.Euler*
+  commentId: Overload:Prowl.Runtime.Quaternion.Euler
+  href: Prowl.Runtime.Quaternion.html#Prowl_Runtime_Quaternion_Euler_System_Double_System_Double_System_Double_
+  name: Euler
+  nameWithType: Quaternion.Euler
+  fullName: Prowl.Runtime.Quaternion.Euler
+- uid: Prowl.Runtime.Quaternion.ToEuler*
+  commentId: Overload:Prowl.Runtime.Quaternion.ToEuler
+  href: Prowl.Runtime.Quaternion.html#Prowl_Runtime_Quaternion_ToEuler
+  name: ToEuler
+  nameWithType: Quaternion.ToEuler
+  fullName: Prowl.Runtime.Quaternion.ToEuler
+- uid: Prowl.Runtime.Quaternion.AngleAxis*
+  commentId: Overload:Prowl.Runtime.Quaternion.AngleAxis
+  href: Prowl.Runtime.Quaternion.html#Prowl_Runtime_Quaternion_AngleAxis_System_Double_Prowl_Runtime_Vector3_
+  name: AngleAxis
+  nameWithType: Quaternion.AngleAxis
+  fullName: Prowl.Runtime.Quaternion.AngleAxis
+- uid: Prowl.Runtime.Quaternion.CreateFromYawPitchRoll*
+  commentId: Overload:Prowl.Runtime.Quaternion.CreateFromYawPitchRoll
+  href: Prowl.Runtime.Quaternion.html#Prowl_Runtime_Quaternion_CreateFromYawPitchRoll_System_Double_System_Double_System_Double_
+  name: CreateFromYawPitchRoll
+  nameWithType: Quaternion.CreateFromYawPitchRoll
+  fullName: Prowl.Runtime.Quaternion.CreateFromYawPitchRoll
+- uid: Prowl.Runtime.Quaternion.MatrixToQuaternion*
+  commentId: Overload:Prowl.Runtime.Quaternion.MatrixToQuaternion
+  href: Prowl.Runtime.Quaternion.html#Prowl_Runtime_Quaternion_MatrixToQuaternion_Prowl_Runtime_Matrix4x4_
+  name: MatrixToQuaternion
+  nameWithType: Quaternion.MatrixToQuaternion
+  fullName: Prowl.Runtime.Quaternion.MatrixToQuaternion
+- uid: Prowl.Runtime.Matrix4x4
+  commentId: T:Prowl.Runtime.Matrix4x4
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.Matrix4x4.html
+  name: Matrix4x4
+  nameWithType: Matrix4x4
+  fullName: Prowl.Runtime.Matrix4x4
+- uid: Prowl.Runtime.Quaternion.Dot*
+  commentId: Overload:Prowl.Runtime.Quaternion.Dot
+  href: Prowl.Runtime.Quaternion.html#Prowl_Runtime_Quaternion_Dot_Prowl_Runtime_Quaternion_Prowl_Runtime_Quaternion_
+  name: Dot
+  nameWithType: Quaternion.Dot
+  fullName: Prowl.Runtime.Quaternion.Dot
+- uid: Prowl.Runtime.Quaternion.Slerp*
+  commentId: Overload:Prowl.Runtime.Quaternion.Slerp
+  href: Prowl.Runtime.Quaternion.html#Prowl_Runtime_Quaternion_Slerp_Prowl_Runtime_Quaternion_Prowl_Runtime_Quaternion_System_Double_
+  name: Slerp
+  nameWithType: Quaternion.Slerp
+  fullName: Prowl.Runtime.Quaternion.Slerp
+- uid: Prowl.Runtime.Quaternion.Lerp*
+  commentId: Overload:Prowl.Runtime.Quaternion.Lerp
+  href: Prowl.Runtime.Quaternion.html#Prowl_Runtime_Quaternion_Lerp_Prowl_Runtime_Quaternion_Prowl_Runtime_Quaternion_System_Double_
+  name: Lerp
+  nameWithType: Quaternion.Lerp
+  fullName: Prowl.Runtime.Quaternion.Lerp
+- uid: Prowl.Runtime.Quaternion.Angle*
+  commentId: Overload:Prowl.Runtime.Quaternion.Angle
+  href: Prowl.Runtime.Quaternion.html#Prowl_Runtime_Quaternion_Angle_Prowl_Runtime_Quaternion_Prowl_Runtime_Quaternion_
+  name: Angle
+  nameWithType: Quaternion.Angle
+  fullName: Prowl.Runtime.Quaternion.Angle
+- uid: Prowl.Runtime.Quaternion.RotateTowards*
+  commentId: Overload:Prowl.Runtime.Quaternion.RotateTowards
+  href: Prowl.Runtime.Quaternion.html#Prowl_Runtime_Quaternion_RotateTowards_Prowl_Runtime_Quaternion_Prowl_Runtime_Quaternion_System_Double_
+  name: RotateTowards
+  nameWithType: Quaternion.RotateTowards
+  fullName: Prowl.Runtime.Quaternion.RotateTowards
+- uid: Prowl.Runtime.Quaternion.Concatenate*
+  commentId: Overload:Prowl.Runtime.Quaternion.Concatenate
+  href: Prowl.Runtime.Quaternion.html#Prowl_Runtime_Quaternion_Concatenate_Prowl_Runtime_Quaternion_Prowl_Runtime_Quaternion_
+  name: Concatenate
+  nameWithType: Quaternion.Concatenate
+  fullName: Prowl.Runtime.Quaternion.Concatenate
+- uid: Prowl.Runtime.Quaternion.Negate*
+  commentId: Overload:Prowl.Runtime.Quaternion.Negate
+  href: Prowl.Runtime.Quaternion.html#Prowl_Runtime_Quaternion_Negate_Prowl_Runtime_Quaternion_
+  name: Negate
+  nameWithType: Quaternion.Negate
+  fullName: Prowl.Runtime.Quaternion.Negate
+- uid: Prowl.Runtime.Quaternion.Add*
+  commentId: Overload:Prowl.Runtime.Quaternion.Add
+  href: Prowl.Runtime.Quaternion.html#Prowl_Runtime_Quaternion_Add_Prowl_Runtime_Quaternion_Prowl_Runtime_Quaternion_
+  name: Add
+  nameWithType: Quaternion.Add
+  fullName: Prowl.Runtime.Quaternion.Add
+- uid: Prowl.Runtime.Quaternion.Subtract*
+  commentId: Overload:Prowl.Runtime.Quaternion.Subtract
+  href: Prowl.Runtime.Quaternion.html#Prowl_Runtime_Quaternion_Subtract_Prowl_Runtime_Quaternion_Prowl_Runtime_Quaternion_
+  name: Subtract
+  nameWithType: Quaternion.Subtract
+  fullName: Prowl.Runtime.Quaternion.Subtract
+- uid: Prowl.Runtime.Quaternion.Multiply*
+  commentId: Overload:Prowl.Runtime.Quaternion.Multiply
+  href: Prowl.Runtime.Quaternion.html#Prowl_Runtime_Quaternion_Multiply_Prowl_Runtime_Quaternion_Prowl_Runtime_Quaternion_
+  name: Multiply
+  nameWithType: Quaternion.Multiply
+  fullName: Prowl.Runtime.Quaternion.Multiply
+- uid: Prowl.Runtime.Quaternion.Divide*
+  commentId: Overload:Prowl.Runtime.Quaternion.Divide
+  href: Prowl.Runtime.Quaternion.html#Prowl_Runtime_Quaternion_Divide_Prowl_Runtime_Quaternion_Prowl_Runtime_Quaternion_
+  name: Divide
+  nameWithType: Quaternion.Divide
+  fullName: Prowl.Runtime.Quaternion.Divide
+- uid: Prowl.Runtime.Quaternion.op_UnaryNegation*
+  commentId: Overload:Prowl.Runtime.Quaternion.op_UnaryNegation
+  href: Prowl.Runtime.Quaternion.html#Prowl_Runtime_Quaternion_op_UnaryNegation_Prowl_Runtime_Quaternion_
+  name: operator -
+  nameWithType: Quaternion.operator -
+  fullName: Prowl.Runtime.Quaternion.operator -
+  nameWithType.vb: Quaternion.-
+  fullName.vb: Prowl.Runtime.Quaternion.-
+  name.vb: '-'
+  spec.csharp:
+  - name: operator
+  - name: " "
+  - uid: Prowl.Runtime.Quaternion.op_UnaryNegation*
+    name: '-'
+    href: Prowl.Runtime.Quaternion.html#Prowl_Runtime_Quaternion_op_UnaryNegation_Prowl_Runtime_Quaternion_
+- uid: Prowl.Runtime.Quaternion.op_Addition*
+  commentId: Overload:Prowl.Runtime.Quaternion.op_Addition
+  href: Prowl.Runtime.Quaternion.html#Prowl_Runtime_Quaternion_op_Addition_Prowl_Runtime_Quaternion_Prowl_Runtime_Quaternion_
+  name: operator +
+  nameWithType: Quaternion.operator +
+  fullName: Prowl.Runtime.Quaternion.operator +
+  nameWithType.vb: Quaternion.+
+  fullName.vb: Prowl.Runtime.Quaternion.+
+  name.vb: +
+  spec.csharp:
+  - name: operator
+  - name: " "
+  - uid: Prowl.Runtime.Quaternion.op_Addition*
+    name: +
+    href: Prowl.Runtime.Quaternion.html#Prowl_Runtime_Quaternion_op_Addition_Prowl_Runtime_Quaternion_Prowl_Runtime_Quaternion_
+- uid: Prowl.Runtime.Quaternion.op_Subtraction*
+  commentId: Overload:Prowl.Runtime.Quaternion.op_Subtraction
+  href: Prowl.Runtime.Quaternion.html#Prowl_Runtime_Quaternion_op_Subtraction_Prowl_Runtime_Quaternion_Prowl_Runtime_Quaternion_
+  name: operator -
+  nameWithType: Quaternion.operator -
+  fullName: Prowl.Runtime.Quaternion.operator -
+  nameWithType.vb: Quaternion.-
+  fullName.vb: Prowl.Runtime.Quaternion.-
+  name.vb: '-'
+  spec.csharp:
+  - name: operator
+  - name: " "
+  - uid: Prowl.Runtime.Quaternion.op_Subtraction*
+    name: '-'
+    href: Prowl.Runtime.Quaternion.html#Prowl_Runtime_Quaternion_op_Subtraction_Prowl_Runtime_Quaternion_Prowl_Runtime_Quaternion_
+- uid: Prowl.Runtime.Quaternion.op_Multiply*
+  commentId: Overload:Prowl.Runtime.Quaternion.op_Multiply
+  href: Prowl.Runtime.Quaternion.html#Prowl_Runtime_Quaternion_op_Multiply_Prowl_Runtime_Quaternion_Prowl_Runtime_Quaternion_
+  name: operator *
+  nameWithType: Quaternion.operator *
+  fullName: Prowl.Runtime.Quaternion.operator *
+  nameWithType.vb: Quaternion.*
+  fullName.vb: Prowl.Runtime.Quaternion.*
+  name.vb: '*'
+  spec.csharp:
+  - name: operator
+  - name: " "
+  - uid: Prowl.Runtime.Quaternion.op_Multiply*
+    name: '*'
+    href: Prowl.Runtime.Quaternion.html#Prowl_Runtime_Quaternion_op_Multiply_Prowl_Runtime_Quaternion_Prowl_Runtime_Quaternion_
+- uid: Prowl.Runtime.Quaternion.op_Division*
+  commentId: Overload:Prowl.Runtime.Quaternion.op_Division
+  href: Prowl.Runtime.Quaternion.html#Prowl_Runtime_Quaternion_op_Division_Prowl_Runtime_Quaternion_Prowl_Runtime_Quaternion_
+  name: operator /
+  nameWithType: Quaternion.operator /
+  fullName: Prowl.Runtime.Quaternion.operator /
+  nameWithType.vb: Quaternion./
+  fullName.vb: Prowl.Runtime.Quaternion./
+  name.vb: /
+  spec.csharp:
+  - name: operator
+  - name: " "
+  - uid: Prowl.Runtime.Quaternion.op_Division*
+    name: /
+    href: Prowl.Runtime.Quaternion.html#Prowl_Runtime_Quaternion_op_Division_Prowl_Runtime_Quaternion_Prowl_Runtime_Quaternion_
+- uid: Prowl.Runtime.Quaternion.op_Equality*
+  commentId: Overload:Prowl.Runtime.Quaternion.op_Equality
+  href: Prowl.Runtime.Quaternion.html#Prowl_Runtime_Quaternion_op_Equality_Prowl_Runtime_Quaternion_Prowl_Runtime_Quaternion_
+  name: operator ==
+  nameWithType: Quaternion.operator ==
+  fullName: Prowl.Runtime.Quaternion.operator ==
+  nameWithType.vb: Quaternion.=
+  fullName.vb: Prowl.Runtime.Quaternion.=
+  name.vb: =
+  spec.csharp:
+  - name: operator
+  - name: " "
+  - uid: Prowl.Runtime.Quaternion.op_Equality*
+    name: ==
+    href: Prowl.Runtime.Quaternion.html#Prowl_Runtime_Quaternion_op_Equality_Prowl_Runtime_Quaternion_Prowl_Runtime_Quaternion_
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: Prowl.Runtime.Quaternion.op_Inequality*
+  commentId: Overload:Prowl.Runtime.Quaternion.op_Inequality
+  href: Prowl.Runtime.Quaternion.html#Prowl_Runtime_Quaternion_op_Inequality_Prowl_Runtime_Quaternion_Prowl_Runtime_Quaternion_
+  name: operator !=
+  nameWithType: Quaternion.operator !=
+  fullName: Prowl.Runtime.Quaternion.operator !=
+  nameWithType.vb: Quaternion.<>
+  fullName.vb: Prowl.Runtime.Quaternion.<>
+  name.vb: <>
+  spec.csharp:
+  - name: operator
+  - name: " "
+  - uid: Prowl.Runtime.Quaternion.op_Inequality*
+    name: '!='
+    href: Prowl.Runtime.Quaternion.html#Prowl_Runtime_Quaternion_op_Inequality_Prowl_Runtime_Quaternion_Prowl_Runtime_Quaternion_
+- uid: Prowl.Runtime.Quaternion.op_Implicit*
+  commentId: Overload:Prowl.Runtime.Quaternion.op_Implicit
+  name: implicit operator
+  nameWithType: Quaternion.implicit operator
+  fullName: Prowl.Runtime.Quaternion.implicit operator
+  nameWithType.vb: Quaternion.CType
+  fullName.vb: Prowl.Runtime.Quaternion.CType
+  name.vb: CType
+  spec.csharp:
+  - name: implicit
+  - name: " "
+  - name: operator
+- uid: Prowl.Runtime.Quaternion.Equals*
+  commentId: Overload:Prowl.Runtime.Quaternion.Equals
+  href: Prowl.Runtime.Quaternion.html#Prowl_Runtime_Quaternion_Equals_Prowl_Runtime_Quaternion_
+  name: Equals
+  nameWithType: Quaternion.Equals
+  fullName: Prowl.Runtime.Quaternion.Equals
+- uid: System.IEquatable{Prowl.Runtime.Quaternion}.Equals(Prowl.Runtime.Quaternion)
+  commentId: M:System.IEquatable{Prowl.Runtime.Quaternion}.Equals(Prowl.Runtime.Quaternion)
+  parent: System.IEquatable{Prowl.Runtime.Quaternion}
+  definition: System.IEquatable`1.Equals(`0)
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  name: Equals(Quaternion)
+  nameWithType: IEquatable<Quaternion>.Equals(Quaternion)
+  fullName: System.IEquatable<Prowl.Runtime.Quaternion>.Equals(Prowl.Runtime.Quaternion)
+  nameWithType.vb: IEquatable(Of Quaternion).Equals(Quaternion)
+  fullName.vb: System.IEquatable(Of Prowl.Runtime.Quaternion).Equals(Prowl.Runtime.Quaternion)
+  spec.csharp:
+  - uid: System.IEquatable{Prowl.Runtime.Quaternion}.Equals(Prowl.Runtime.Quaternion)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - uid: Prowl.Runtime.Quaternion
+    name: Quaternion
+    href: Prowl.Runtime.Quaternion.html
+  - name: )
+  spec.vb:
+  - uid: System.IEquatable{Prowl.Runtime.Quaternion}.Equals(Prowl.Runtime.Quaternion)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - uid: Prowl.Runtime.Quaternion
+    name: Quaternion
+    href: Prowl.Runtime.Quaternion.html
+  - name: )
+- uid: System.IEquatable`1.Equals(`0)
+  commentId: M:System.IEquatable`1.Equals(`0)
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  name: Equals(T)
+  nameWithType: IEquatable<T>.Equals(T)
+  fullName: System.IEquatable<T>.Equals(T)
+  nameWithType.vb: IEquatable(Of T).Equals(T)
+  fullName.vb: System.IEquatable(Of T).Equals(T)
+  spec.csharp:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - name: T
+  - name: )
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  name: Equals(object)
+  nameWithType: ValueType.Equals(object)
+  fullName: System.ValueType.Equals(object)
+  nameWithType.vb: ValueType.Equals(Object)
+  fullName.vb: System.ValueType.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+- uid: Prowl.Runtime.Quaternion.ToString*
+  commentId: Overload:Prowl.Runtime.Quaternion.ToString
+  href: Prowl.Runtime.Quaternion.html#Prowl_Runtime_Quaternion_ToString
+  name: ToString
+  nameWithType: Quaternion.ToString
+  fullName: Prowl.Runtime.Quaternion.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+- uid: Prowl.Runtime.Quaternion.GetHashCode*
+  commentId: Overload:Prowl.Runtime.Quaternion.GetHashCode
+  href: Prowl.Runtime.Quaternion.html#Prowl_Runtime_Quaternion_GetHashCode
+  name: GetHashCode
+  nameWithType: Quaternion.GetHashCode
+  fullName: Prowl.Runtime.Quaternion.GetHashCode

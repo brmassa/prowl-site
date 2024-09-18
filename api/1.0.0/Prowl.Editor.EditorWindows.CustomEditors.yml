@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: Prowl.Editor.EditorWindows.CustomEditors
+  commentId: N:Prowl.Editor.EditorWindows.CustomEditors
+  id: Prowl.Editor.EditorWindows.CustomEditors
+  children:
+  - Prowl.Editor.EditorWindows.CustomEditors.GameObjectEditor
+  langs:
+  - csharp
+  - vb
+  name: Prowl.Editor.EditorWindows.CustomEditors
+  nameWithType: Prowl.Editor.EditorWindows.CustomEditors
+  fullName: Prowl.Editor.EditorWindows.CustomEditors
+  type: Namespace
+  assemblies:
+  - Prowl.Editor
+references:
+- uid: Prowl.Editor.EditorWindows.CustomEditors.GameObjectEditor
+  commentId: T:Prowl.Editor.EditorWindows.CustomEditors.GameObjectEditor
+  href: Prowl.Editor.EditorWindows.CustomEditors.GameObjectEditor.html
+  name: GameObjectEditor
+  nameWithType: GameObjectEditor
+  fullName: Prowl.Editor.EditorWindows.CustomEditors.GameObjectEditor

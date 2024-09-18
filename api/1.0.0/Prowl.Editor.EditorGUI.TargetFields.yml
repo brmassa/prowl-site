@@ -1,0 +1,311 @@
+### YamlMime:ManagedReference
+items:
+- uid: Prowl.Editor.EditorGUI.TargetFields
+  commentId: T:Prowl.Editor.EditorGUI.TargetFields
+  id: EditorGUI.TargetFields
+  parent: Prowl.Editor
+  children:
+  - Prowl.Editor.EditorGUI.TargetFields.All
+  - Prowl.Editor.EditorGUI.TargetFields.Private
+  - Prowl.Editor.EditorGUI.TargetFields.Properties
+  - Prowl.Editor.EditorGUI.TargetFields.Public
+  - Prowl.Editor.EditorGUI.TargetFields.Serializable
+  langs:
+  - csharp
+  - vb
+  name: EditorGUI.TargetFields
+  nameWithType: EditorGUI.TargetFields
+  fullName: Prowl.Editor.EditorGUI.TargetFields
+  type: Enum
+  source:
+    remote:
+      path: Prowl.Editor/Editor/EditorGUI.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: TargetFields
+    path: ../Prowl/Prowl.Editor/Editor/EditorGUI.cs
+    startLine: 193
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor
+  syntax:
+    content: >-
+      [Flags]
+
+      public enum EditorGUI.TargetFields
+    content.vb: >-
+      <Flags>
+
+      Public Enum EditorGUI.TargetFields
+  extensionMethods:
+  - System.Object.Prowl.Runtime.RuntimeUtils.GetSerializableFields
+  attributes:
+  - type: System.FlagsAttribute
+    ctor: System.FlagsAttribute.#ctor
+    arguments: []
+- uid: Prowl.Editor.EditorGUI.TargetFields.Serializable
+  commentId: F:Prowl.Editor.EditorGUI.TargetFields.Serializable
+  id: Serializable
+  parent: Prowl.Editor.EditorGUI.TargetFields
+  langs:
+  - csharp
+  - vb
+  name: Serializable
+  nameWithType: EditorGUI.TargetFields.Serializable
+  fullName: Prowl.Editor.EditorGUI.TargetFields.Serializable
+  type: Field
+  source:
+    remote:
+      path: Prowl.Editor/Editor/EditorGUI.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Serializable
+    path: ../Prowl/Prowl.Editor/Editor/EditorGUI.cs
+    startLine: 196
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor
+  syntax:
+    content: Serializable = 0
+    return:
+      type: Prowl.Editor.EditorGUI.TargetFields
+- uid: Prowl.Editor.EditorGUI.TargetFields.Properties
+  commentId: F:Prowl.Editor.EditorGUI.TargetFields.Properties
+  id: Properties
+  parent: Prowl.Editor.EditorGUI.TargetFields
+  langs:
+  - csharp
+  - vb
+  name: Properties
+  nameWithType: EditorGUI.TargetFields.Properties
+  fullName: Prowl.Editor.EditorGUI.TargetFields.Properties
+  type: Field
+  source:
+    remote:
+      path: Prowl.Editor/Editor/EditorGUI.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Properties
+    path: ../Prowl/Prowl.Editor/Editor/EditorGUI.cs
+    startLine: 197
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor
+  syntax:
+    content: Properties = 1
+    return:
+      type: Prowl.Editor.EditorGUI.TargetFields
+- uid: Prowl.Editor.EditorGUI.TargetFields.Public
+  commentId: F:Prowl.Editor.EditorGUI.TargetFields.Public
+  id: Public
+  parent: Prowl.Editor.EditorGUI.TargetFields
+  langs:
+  - csharp
+  - vb
+  name: Public
+  nameWithType: EditorGUI.TargetFields.Public
+  fullName: Prowl.Editor.EditorGUI.TargetFields.Public
+  type: Field
+  source:
+    remote:
+      path: Prowl.Editor/Editor/EditorGUI.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Public
+    path: ../Prowl/Prowl.Editor/Editor/EditorGUI.cs
+    startLine: 198
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor
+  syntax:
+    content: Public = 2
+    return:
+      type: Prowl.Editor.EditorGUI.TargetFields
+- uid: Prowl.Editor.EditorGUI.TargetFields.Private
+  commentId: F:Prowl.Editor.EditorGUI.TargetFields.Private
+  id: Private
+  parent: Prowl.Editor.EditorGUI.TargetFields
+  langs:
+  - csharp
+  - vb
+  name: Private
+  nameWithType: EditorGUI.TargetFields.Private
+  fullName: Prowl.Editor.EditorGUI.TargetFields.Private
+  type: Field
+  source:
+    remote:
+      path: Prowl.Editor/Editor/EditorGUI.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Private
+    path: ../Prowl/Prowl.Editor/Editor/EditorGUI.cs
+    startLine: 199
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor
+  syntax:
+    content: Private = 4
+    return:
+      type: Prowl.Editor.EditorGUI.TargetFields
+- uid: Prowl.Editor.EditorGUI.TargetFields.All
+  commentId: F:Prowl.Editor.EditorGUI.TargetFields.All
+  id: All
+  parent: Prowl.Editor.EditorGUI.TargetFields
+  langs:
+  - csharp
+  - vb
+  name: All
+  nameWithType: EditorGUI.TargetFields.All
+  fullName: Prowl.Editor.EditorGUI.TargetFields.All
+  type: Field
+  source:
+    remote:
+      path: Prowl.Editor/Editor/EditorGUI.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: All
+    path: ../Prowl/Prowl.Editor/Editor/EditorGUI.cs
+    startLine: 200
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor
+  syntax:
+    content: All = 8
+    return:
+      type: Prowl.Editor.EditorGUI.TargetFields
+references:
+- uid: Prowl.Editor
+  commentId: N:Prowl.Editor
+  href: Prowl.html
+  name: Prowl.Editor
+  nameWithType: Prowl.Editor
+  fullName: Prowl.Editor
+  spec.csharp:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Editor
+    name: Editor
+    href: Prowl.Editor.html
+  spec.vb:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Editor
+    name: Editor
+    href: Prowl.Editor.html
+- uid: System.Object.Prowl.Runtime.RuntimeUtils.GetSerializableFields
+  commentId: M:Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  parent: Prowl.Runtime.RuntimeUtils
+  definition: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  name: GetSerializableFields(object)
+  nameWithType: RuntimeUtils.GetSerializableFields(object)
+  fullName: Prowl.Runtime.RuntimeUtils.GetSerializableFields(object)
+  nameWithType.vb: RuntimeUtils.GetSerializableFields(Object)
+  fullName.vb: Prowl.Runtime.RuntimeUtils.GetSerializableFields(Object)
+  name.vb: GetSerializableFields(Object)
+  spec.csharp:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  commentId: M:Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  isExternal: true
+  href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  name: GetSerializableFields(object)
+  nameWithType: RuntimeUtils.GetSerializableFields(object)
+  fullName: Prowl.Runtime.RuntimeUtils.GetSerializableFields(object)
+  nameWithType.vb: RuntimeUtils.GetSerializableFields(Object)
+  fullName.vb: Prowl.Runtime.RuntimeUtils.GetSerializableFields(Object)
+  name.vb: GetSerializableFields(Object)
+  spec.csharp:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: Prowl.Runtime.RuntimeUtils
+  commentId: T:Prowl.Runtime.RuntimeUtils
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.RuntimeUtils.html
+  name: RuntimeUtils
+  nameWithType: RuntimeUtils
+  fullName: Prowl.Runtime.RuntimeUtils
+- uid: Prowl.Runtime
+  commentId: N:Prowl.Runtime
+  href: Prowl.html
+  name: Prowl.Runtime
+  nameWithType: Prowl.Runtime
+  fullName: Prowl.Runtime
+  spec.csharp:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+  spec.vb:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+- uid: Prowl.Editor.EditorGUI.TargetFields
+  commentId: T:Prowl.Editor.EditorGUI.TargetFields
+  parent: Prowl.Editor
+  href: Prowl.Editor.EditorGUI.html
+  name: EditorGUI.TargetFields
+  nameWithType: EditorGUI.TargetFields
+  fullName: Prowl.Editor.EditorGUI.TargetFields
+  spec.csharp:
+  - uid: Prowl.Editor.EditorGUI
+    name: EditorGUI
+    href: Prowl.Editor.EditorGUI.html
+  - name: .
+  - uid: Prowl.Editor.EditorGUI.TargetFields
+    name: TargetFields
+    href: Prowl.Editor.EditorGUI.TargetFields.html
+  spec.vb:
+  - uid: Prowl.Editor.EditorGUI
+    name: EditorGUI
+    href: Prowl.Editor.EditorGUI.html
+  - name: .
+  - uid: Prowl.Editor.EditorGUI.TargetFields
+    name: TargetFields
+    href: Prowl.Editor.EditorGUI.TargetFields.html

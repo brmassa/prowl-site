@@ -1,0 +1,681 @@
+### YamlMime:ManagedReference
+items:
+- uid: Prowl.Editor.Utilities.CompilationMessage
+  commentId: T:Prowl.Editor.Utilities.CompilationMessage
+  id: CompilationMessage
+  parent: Prowl.Editor.Utilities
+  children:
+  - Prowl.Editor.Utilities.CompilationMessage.FromDXC(DirectXShaderCompiler.NET.CompilationMessage)
+  - Prowl.Editor.Utilities.CompilationMessage.column
+  - Prowl.Editor.Utilities.CompilationMessage.entrypoint
+  - Prowl.Editor.Utilities.CompilationMessage.filename
+  - Prowl.Editor.Utilities.CompilationMessage.keywords
+  - Prowl.Editor.Utilities.CompilationMessage.line
+  - Prowl.Editor.Utilities.CompilationMessage.message
+  - Prowl.Editor.Utilities.CompilationMessage.severity
+  langs:
+  - csharp
+  - vb
+  name: CompilationMessage
+  nameWithType: CompilationMessage
+  fullName: Prowl.Editor.Utilities.CompilationMessage
+  type: Struct
+  source:
+    remote:
+      path: Prowl.Editor/Utilities/ShaderCompiler/ShaderCompiler.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: CompilationMessage
+    path: ../Prowl/Prowl.Editor/Utilities/ShaderCompiler/ShaderCompiler.cs
+    startLine: 24
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor.Utilities
+  syntax:
+    content: public struct CompilationMessage
+    content.vb: Public Structure CompilationMessage
+  inheritedMembers:
+  - System.ValueType.Equals(System.Object)
+  - System.ValueType.GetHashCode
+  - System.ValueType.ToString
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  extensionMethods:
+  - System.Object.Prowl.Runtime.RuntimeUtils.GetSerializableFields
+- uid: Prowl.Editor.Utilities.CompilationMessage.severity
+  commentId: F:Prowl.Editor.Utilities.CompilationMessage.severity
+  id: severity
+  parent: Prowl.Editor.Utilities.CompilationMessage
+  langs:
+  - csharp
+  - vb
+  name: severity
+  nameWithType: CompilationMessage.severity
+  fullName: Prowl.Editor.Utilities.CompilationMessage.severity
+  type: Field
+  source:
+    remote:
+      path: Prowl.Editor/Utilities/ShaderCompiler/ShaderCompiler.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: severity
+    path: ../Prowl/Prowl.Editor/Utilities/ShaderCompiler/ShaderCompiler.cs
+    startLine: 26
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor.Utilities
+  syntax:
+    content: public LogSeverity severity
+    return:
+      type: Prowl.Runtime.LogSeverity
+    content.vb: Public severity As LogSeverity
+- uid: Prowl.Editor.Utilities.CompilationMessage.filename
+  commentId: F:Prowl.Editor.Utilities.CompilationMessage.filename
+  id: filename
+  parent: Prowl.Editor.Utilities.CompilationMessage
+  langs:
+  - csharp
+  - vb
+  name: filename
+  nameWithType: CompilationMessage.filename
+  fullName: Prowl.Editor.Utilities.CompilationMessage.filename
+  type: Field
+  source:
+    remote:
+      path: Prowl.Editor/Utilities/ShaderCompiler/ShaderCompiler.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: filename
+    path: ../Prowl/Prowl.Editor/Utilities/ShaderCompiler/ShaderCompiler.cs
+    startLine: 27
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor.Utilities
+  syntax:
+    content: public string filename
+    return:
+      type: System.String
+    content.vb: Public filename As String
+- uid: Prowl.Editor.Utilities.CompilationMessage.entrypoint
+  commentId: F:Prowl.Editor.Utilities.CompilationMessage.entrypoint
+  id: entrypoint
+  parent: Prowl.Editor.Utilities.CompilationMessage
+  langs:
+  - csharp
+  - vb
+  name: entrypoint
+  nameWithType: CompilationMessage.entrypoint
+  fullName: Prowl.Editor.Utilities.CompilationMessage.entrypoint
+  type: Field
+  source:
+    remote:
+      path: Prowl.Editor/Utilities/ShaderCompiler/ShaderCompiler.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: entrypoint
+    path: ../Prowl/Prowl.Editor/Utilities/ShaderCompiler/ShaderCompiler.cs
+    startLine: 29
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor.Utilities
+  syntax:
+    content: public string entrypoint
+    return:
+      type: System.String
+    content.vb: Public entrypoint As String
+- uid: Prowl.Editor.Utilities.CompilationMessage.keywords
+  commentId: F:Prowl.Editor.Utilities.CompilationMessage.keywords
+  id: keywords
+  parent: Prowl.Editor.Utilities.CompilationMessage
+  langs:
+  - csharp
+  - vb
+  name: keywords
+  nameWithType: CompilationMessage.keywords
+  fullName: Prowl.Editor.Utilities.CompilationMessage.keywords
+  type: Field
+  source:
+    remote:
+      path: Prowl.Editor/Utilities/ShaderCompiler/ShaderCompiler.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: keywords
+    path: ../Prowl/Prowl.Editor/Utilities/ShaderCompiler/ShaderCompiler.cs
+    startLine: 30
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor.Utilities
+  syntax:
+    content: public KeywordState? keywords
+    return:
+      type: Prowl.Runtime.KeywordState
+    content.vb: Public keywords As KeywordState
+- uid: Prowl.Editor.Utilities.CompilationMessage.line
+  commentId: F:Prowl.Editor.Utilities.CompilationMessage.line
+  id: line
+  parent: Prowl.Editor.Utilities.CompilationMessage
+  langs:
+  - csharp
+  - vb
+  name: line
+  nameWithType: CompilationMessage.line
+  fullName: Prowl.Editor.Utilities.CompilationMessage.line
+  type: Field
+  source:
+    remote:
+      path: Prowl.Editor/Utilities/ShaderCompiler/ShaderCompiler.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: line
+    path: ../Prowl/Prowl.Editor/Utilities/ShaderCompiler/ShaderCompiler.cs
+    startLine: 32
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor.Utilities
+  syntax:
+    content: public int line
+    return:
+      type: System.Int32
+    content.vb: Public line As Integer
+- uid: Prowl.Editor.Utilities.CompilationMessage.column
+  commentId: F:Prowl.Editor.Utilities.CompilationMessage.column
+  id: column
+  parent: Prowl.Editor.Utilities.CompilationMessage
+  langs:
+  - csharp
+  - vb
+  name: column
+  nameWithType: CompilationMessage.column
+  fullName: Prowl.Editor.Utilities.CompilationMessage.column
+  type: Field
+  source:
+    remote:
+      path: Prowl.Editor/Utilities/ShaderCompiler/ShaderCompiler.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: column
+    path: ../Prowl/Prowl.Editor/Utilities/ShaderCompiler/ShaderCompiler.cs
+    startLine: 33
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor.Utilities
+  syntax:
+    content: public int column
+    return:
+      type: System.Int32
+    content.vb: Public column As Integer
+- uid: Prowl.Editor.Utilities.CompilationMessage.message
+  commentId: F:Prowl.Editor.Utilities.CompilationMessage.message
+  id: message
+  parent: Prowl.Editor.Utilities.CompilationMessage
+  langs:
+  - csharp
+  - vb
+  name: message
+  nameWithType: CompilationMessage.message
+  fullName: Prowl.Editor.Utilities.CompilationMessage.message
+  type: Field
+  source:
+    remote:
+      path: Prowl.Editor/Utilities/ShaderCompiler/ShaderCompiler.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: message
+    path: ../Prowl/Prowl.Editor/Utilities/ShaderCompiler/ShaderCompiler.cs
+    startLine: 34
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor.Utilities
+  syntax:
+    content: public string message
+    return:
+      type: System.String
+    content.vb: Public message As String
+- uid: Prowl.Editor.Utilities.CompilationMessage.FromDXC(DirectXShaderCompiler.NET.CompilationMessage)
+  commentId: M:Prowl.Editor.Utilities.CompilationMessage.FromDXC(DirectXShaderCompiler.NET.CompilationMessage)
+  id: FromDXC(DirectXShaderCompiler.NET.CompilationMessage)
+  parent: Prowl.Editor.Utilities.CompilationMessage
+  langs:
+  - csharp
+  - vb
+  name: FromDXC(CompilationMessage)
+  nameWithType: CompilationMessage.FromDXC(CompilationMessage)
+  fullName: Prowl.Editor.Utilities.CompilationMessage.FromDXC(DirectXShaderCompiler.NET.CompilationMessage)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Editor/Utilities/ShaderCompiler/ShaderCompiler.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: FromDXC
+    path: ../Prowl/Prowl.Editor/Utilities/ShaderCompiler/ShaderCompiler.cs
+    startLine: 36
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor.Utilities
+  syntax:
+    content: public static CompilationMessage FromDXC(CompilationMessage dxcMessage)
+    parameters:
+    - id: dxcMessage
+      type: DirectXShaderCompiler.NET.CompilationMessage
+    return:
+      type: Prowl.Editor.Utilities.CompilationMessage
+    content.vb: Public Shared Function FromDXC(dxcMessage As CompilationMessage) As CompilationMessage
+  overload: Prowl.Editor.Utilities.CompilationMessage.FromDXC*
+references:
+- uid: Prowl.Editor.Utilities
+  commentId: N:Prowl.Editor.Utilities
+  href: Prowl.html
+  name: Prowl.Editor.Utilities
+  nameWithType: Prowl.Editor.Utilities
+  fullName: Prowl.Editor.Utilities
+  spec.csharp:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Editor
+    name: Editor
+    href: Prowl.Editor.html
+  - name: .
+  - uid: Prowl.Editor.Utilities
+    name: Utilities
+    href: Prowl.Editor.Utilities.html
+  spec.vb:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Editor
+    name: Editor
+    href: Prowl.Editor.html
+  - name: .
+  - uid: Prowl.Editor.Utilities
+    name: Utilities
+    href: Prowl.Editor.Utilities.html
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  name: Equals(object)
+  nameWithType: ValueType.Equals(object)
+  fullName: System.ValueType.Equals(object)
+  nameWithType.vb: ValueType.Equals(Object)
+  fullName.vb: System.ValueType.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Prowl.Runtime.RuntimeUtils.GetSerializableFields
+  commentId: M:Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  parent: Prowl.Runtime.RuntimeUtils
+  definition: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  name: GetSerializableFields(object)
+  nameWithType: RuntimeUtils.GetSerializableFields(object)
+  fullName: Prowl.Runtime.RuntimeUtils.GetSerializableFields(object)
+  nameWithType.vb: RuntimeUtils.GetSerializableFields(Object)
+  fullName.vb: Prowl.Runtime.RuntimeUtils.GetSerializableFields(Object)
+  name.vb: GetSerializableFields(Object)
+  spec.csharp:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  commentId: M:Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  isExternal: true
+  href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  name: GetSerializableFields(object)
+  nameWithType: RuntimeUtils.GetSerializableFields(object)
+  fullName: Prowl.Runtime.RuntimeUtils.GetSerializableFields(object)
+  nameWithType.vb: RuntimeUtils.GetSerializableFields(Object)
+  fullName.vb: Prowl.Runtime.RuntimeUtils.GetSerializableFields(Object)
+  name.vb: GetSerializableFields(Object)
+  spec.csharp:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: Prowl.Runtime.RuntimeUtils
+  commentId: T:Prowl.Runtime.RuntimeUtils
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.RuntimeUtils.html
+  name: RuntimeUtils
+  nameWithType: RuntimeUtils
+  fullName: Prowl.Runtime.RuntimeUtils
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Prowl.Runtime
+  commentId: N:Prowl.Runtime
+  href: Prowl.html
+  name: Prowl.Runtime
+  nameWithType: Prowl.Runtime
+  fullName: Prowl.Runtime
+  spec.csharp:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+  spec.vb:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+- uid: Prowl.Runtime.LogSeverity
+  commentId: T:Prowl.Runtime.LogSeverity
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.LogSeverity.html
+  name: LogSeverity
+  nameWithType: LogSeverity
+  fullName: Prowl.Runtime.LogSeverity
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: Prowl.Runtime.KeywordState
+  commentId: T:Prowl.Runtime.KeywordState
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.KeywordState.html
+  name: KeywordState
+  nameWithType: KeywordState
+  fullName: Prowl.Runtime.KeywordState
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: Prowl.Editor.Utilities.CompilationMessage.FromDXC*
+  commentId: Overload:Prowl.Editor.Utilities.CompilationMessage.FromDXC
+  href: Prowl.Editor.Utilities.CompilationMessage.html#Prowl_Editor_Utilities_CompilationMessage_FromDXC_DirectXShaderCompiler_NET_CompilationMessage_
+  name: FromDXC
+  nameWithType: CompilationMessage.FromDXC
+  fullName: Prowl.Editor.Utilities.CompilationMessage.FromDXC
+- uid: DirectXShaderCompiler.NET.CompilationMessage
+  commentId: T:DirectXShaderCompiler.NET.CompilationMessage
+  parent: DirectXShaderCompiler.NET
+  isExternal: true
+  name: CompilationMessage
+  nameWithType: CompilationMessage
+  fullName: DirectXShaderCompiler.NET.CompilationMessage
+- uid: Prowl.Editor.Utilities.CompilationMessage
+  commentId: T:Prowl.Editor.Utilities.CompilationMessage
+  parent: Prowl.Editor.Utilities
+  href: Prowl.Editor.Utilities.CompilationMessage.html
+  name: CompilationMessage
+  nameWithType: CompilationMessage
+  fullName: Prowl.Editor.Utilities.CompilationMessage
+- uid: DirectXShaderCompiler.NET
+  commentId: N:DirectXShaderCompiler.NET
+  isExternal: true
+  name: DirectXShaderCompiler.NET
+  nameWithType: DirectXShaderCompiler.NET
+  fullName: DirectXShaderCompiler.NET
+  spec.csharp:
+  - uid: DirectXShaderCompiler
+    name: DirectXShaderCompiler
+    isExternal: true
+  - name: .
+  - uid: DirectXShaderCompiler.NET
+    name: NET
+    isExternal: true
+  spec.vb:
+  - uid: DirectXShaderCompiler
+    name: DirectXShaderCompiler
+    isExternal: true
+  - name: .
+  - uid: DirectXShaderCompiler.NET
+    name: NET
+    isExternal: true

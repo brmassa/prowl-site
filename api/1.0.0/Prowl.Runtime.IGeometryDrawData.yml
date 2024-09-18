@@ -1,0 +1,315 @@
+### YamlMime:ManagedReference
+items:
+- uid: Prowl.Runtime.IGeometryDrawData
+  commentId: T:Prowl.Runtime.IGeometryDrawData
+  id: IGeometryDrawData
+  parent: Prowl.Runtime
+  children:
+  - Prowl.Runtime.IGeometryDrawData.IndexCount
+  - Prowl.Runtime.IGeometryDrawData.IndexFormat
+  - Prowl.Runtime.IGeometryDrawData.SetDrawData(Veldrid.CommandList,Prowl.Runtime.ShaderPipeline)
+  - Prowl.Runtime.IGeometryDrawData.Topology
+  langs:
+  - csharp
+  - vb
+  name: IGeometryDrawData
+  nameWithType: IGeometryDrawData
+  fullName: Prowl.Runtime.IGeometryDrawData
+  type: Interface
+  source:
+    remote:
+      path: Prowl.Runtime/Rendering/IGeometryDrawData.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: IGeometryDrawData
+    path: ../Prowl/Prowl.Runtime/Rendering/IGeometryDrawData.cs
+    startLine: 7
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public interface IGeometryDrawData
+    content.vb: Public Interface IGeometryDrawData
+  extensionMethods:
+  - System.Object.Prowl.Runtime.RuntimeUtils.GetSerializableFields
+- uid: Prowl.Runtime.IGeometryDrawData.SetDrawData(Veldrid.CommandList,Prowl.Runtime.ShaderPipeline)
+  commentId: M:Prowl.Runtime.IGeometryDrawData.SetDrawData(Veldrid.CommandList,Prowl.Runtime.ShaderPipeline)
+  id: SetDrawData(Veldrid.CommandList,Prowl.Runtime.ShaderPipeline)
+  parent: Prowl.Runtime.IGeometryDrawData
+  langs:
+  - csharp
+  - vb
+  name: SetDrawData(CommandList, ShaderPipeline)
+  nameWithType: IGeometryDrawData.SetDrawData(CommandList, ShaderPipeline)
+  fullName: Prowl.Runtime.IGeometryDrawData.SetDrawData(Veldrid.CommandList, Prowl.Runtime.ShaderPipeline)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Rendering/IGeometryDrawData.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: SetDrawData
+    path: ../Prowl/Prowl.Runtime/Rendering/IGeometryDrawData.cs
+    startLine: 9
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: void SetDrawData(CommandList commandList, ShaderPipeline pipeline)
+    parameters:
+    - id: commandList
+      type: Veldrid.CommandList
+    - id: pipeline
+      type: Prowl.Runtime.ShaderPipeline
+    content.vb: Sub SetDrawData(commandList As CommandList, pipeline As ShaderPipeline)
+  overload: Prowl.Runtime.IGeometryDrawData.SetDrawData*
+- uid: Prowl.Runtime.IGeometryDrawData.IndexCount
+  commentId: P:Prowl.Runtime.IGeometryDrawData.IndexCount
+  id: IndexCount
+  parent: Prowl.Runtime.IGeometryDrawData
+  langs:
+  - csharp
+  - vb
+  name: IndexCount
+  nameWithType: IGeometryDrawData.IndexCount
+  fullName: Prowl.Runtime.IGeometryDrawData.IndexCount
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/Rendering/IGeometryDrawData.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: IndexCount
+    path: ../Prowl/Prowl.Runtime/Rendering/IGeometryDrawData.cs
+    startLine: 11
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: int IndexCount { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: ReadOnly Property IndexCount As Integer
+  overload: Prowl.Runtime.IGeometryDrawData.IndexCount*
+- uid: Prowl.Runtime.IGeometryDrawData.IndexFormat
+  commentId: P:Prowl.Runtime.IGeometryDrawData.IndexFormat
+  id: IndexFormat
+  parent: Prowl.Runtime.IGeometryDrawData
+  langs:
+  - csharp
+  - vb
+  name: IndexFormat
+  nameWithType: IGeometryDrawData.IndexFormat
+  fullName: Prowl.Runtime.IGeometryDrawData.IndexFormat
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/Rendering/IGeometryDrawData.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: IndexFormat
+    path: ../Prowl/Prowl.Runtime/Rendering/IGeometryDrawData.cs
+    startLine: 13
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: IndexFormat IndexFormat { get; }
+    parameters: []
+    return:
+      type: Veldrid.IndexFormat
+    content.vb: ReadOnly Property IndexFormat As IndexFormat
+  overload: Prowl.Runtime.IGeometryDrawData.IndexFormat*
+- uid: Prowl.Runtime.IGeometryDrawData.Topology
+  commentId: P:Prowl.Runtime.IGeometryDrawData.Topology
+  id: Topology
+  parent: Prowl.Runtime.IGeometryDrawData
+  langs:
+  - csharp
+  - vb
+  name: Topology
+  nameWithType: IGeometryDrawData.Topology
+  fullName: Prowl.Runtime.IGeometryDrawData.Topology
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/Rendering/IGeometryDrawData.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Topology
+    path: ../Prowl/Prowl.Runtime/Rendering/IGeometryDrawData.cs
+    startLine: 15
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: PrimitiveTopology Topology { get; }
+    parameters: []
+    return:
+      type: Veldrid.PrimitiveTopology
+    content.vb: ReadOnly Property Topology As PrimitiveTopology
+  overload: Prowl.Runtime.IGeometryDrawData.Topology*
+references:
+- uid: Prowl.Runtime
+  commentId: N:Prowl.Runtime
+  href: Prowl.html
+  name: Prowl.Runtime
+  nameWithType: Prowl.Runtime
+  fullName: Prowl.Runtime
+  spec.csharp:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+  spec.vb:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+- uid: System.Object.Prowl.Runtime.RuntimeUtils.GetSerializableFields
+  commentId: M:Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  parent: Prowl.Runtime.RuntimeUtils
+  definition: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  name: GetSerializableFields(object)
+  nameWithType: RuntimeUtils.GetSerializableFields(object)
+  fullName: Prowl.Runtime.RuntimeUtils.GetSerializableFields(object)
+  nameWithType.vb: RuntimeUtils.GetSerializableFields(Object)
+  fullName.vb: Prowl.Runtime.RuntimeUtils.GetSerializableFields(Object)
+  name.vb: GetSerializableFields(Object)
+  spec.csharp:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  commentId: M:Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  isExternal: true
+  href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  name: GetSerializableFields(object)
+  nameWithType: RuntimeUtils.GetSerializableFields(object)
+  fullName: Prowl.Runtime.RuntimeUtils.GetSerializableFields(object)
+  nameWithType.vb: RuntimeUtils.GetSerializableFields(Object)
+  fullName.vb: Prowl.Runtime.RuntimeUtils.GetSerializableFields(Object)
+  name.vb: GetSerializableFields(Object)
+  spec.csharp:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: Prowl.Runtime.RuntimeUtils
+  commentId: T:Prowl.Runtime.RuntimeUtils
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.RuntimeUtils.html
+  name: RuntimeUtils
+  nameWithType: RuntimeUtils
+  fullName: Prowl.Runtime.RuntimeUtils
+- uid: Prowl.Runtime.IGeometryDrawData.SetDrawData*
+  commentId: Overload:Prowl.Runtime.IGeometryDrawData.SetDrawData
+  href: Prowl.Runtime.IGeometryDrawData.html#Prowl_Runtime_IGeometryDrawData_SetDrawData_Veldrid_CommandList_Prowl_Runtime_ShaderPipeline_
+  name: SetDrawData
+  nameWithType: IGeometryDrawData.SetDrawData
+  fullName: Prowl.Runtime.IGeometryDrawData.SetDrawData
+- uid: Veldrid.CommandList
+  commentId: T:Veldrid.CommandList
+  parent: Veldrid
+  name: CommandList
+  nameWithType: CommandList
+  fullName: Veldrid.CommandList
+- uid: Prowl.Runtime.ShaderPipeline
+  commentId: T:Prowl.Runtime.ShaderPipeline
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.ShaderPipeline.html
+  name: ShaderPipeline
+  nameWithType: ShaderPipeline
+  fullName: Prowl.Runtime.ShaderPipeline
+- uid: Veldrid
+  commentId: N:Veldrid
+  name: Veldrid
+  nameWithType: Veldrid
+  fullName: Veldrid
+- uid: Prowl.Runtime.IGeometryDrawData.IndexCount*
+  commentId: Overload:Prowl.Runtime.IGeometryDrawData.IndexCount
+  href: Prowl.Runtime.IGeometryDrawData.html#Prowl_Runtime_IGeometryDrawData_IndexCount
+  name: IndexCount
+  nameWithType: IGeometryDrawData.IndexCount
+  fullName: Prowl.Runtime.IGeometryDrawData.IndexCount
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Prowl.Runtime.IGeometryDrawData.IndexFormat*
+  commentId: Overload:Prowl.Runtime.IGeometryDrawData.IndexFormat
+  href: Prowl.Runtime.IGeometryDrawData.html#Prowl_Runtime_IGeometryDrawData_IndexFormat
+  name: IndexFormat
+  nameWithType: IGeometryDrawData.IndexFormat
+  fullName: Prowl.Runtime.IGeometryDrawData.IndexFormat
+- uid: Veldrid.IndexFormat
+  commentId: T:Veldrid.IndexFormat
+  parent: Veldrid
+  name: IndexFormat
+  nameWithType: IndexFormat
+  fullName: Veldrid.IndexFormat
+- uid: Prowl.Runtime.IGeometryDrawData.Topology*
+  commentId: Overload:Prowl.Runtime.IGeometryDrawData.Topology
+  href: Prowl.Runtime.IGeometryDrawData.html#Prowl_Runtime_IGeometryDrawData_Topology
+  name: Topology
+  nameWithType: IGeometryDrawData.Topology
+  fullName: Prowl.Runtime.IGeometryDrawData.Topology
+- uid: Veldrid.PrimitiveTopology
+  commentId: T:Veldrid.PrimitiveTopology
+  parent: Veldrid
+  name: PrimitiveTopology
+  nameWithType: PrimitiveTopology
+  fullName: Veldrid.PrimitiveTopology

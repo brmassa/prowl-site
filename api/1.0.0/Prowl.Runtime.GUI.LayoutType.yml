@@ -1,0 +1,347 @@
+### YamlMime:ManagedReference
+items:
+- uid: Prowl.Runtime.GUI.LayoutType
+  commentId: T:Prowl.Runtime.GUI.LayoutType
+  id: LayoutType
+  parent: Prowl.Runtime.GUI
+  children:
+  - Prowl.Runtime.GUI.LayoutType.Column
+  - Prowl.Runtime.GUI.LayoutType.ColumnReversed
+  - Prowl.Runtime.GUI.LayoutType.Grid
+  - Prowl.Runtime.GUI.LayoutType.GridReversed
+  - Prowl.Runtime.GUI.LayoutType.None
+  - Prowl.Runtime.GUI.LayoutType.Row
+  - Prowl.Runtime.GUI.LayoutType.RowReversed
+  langs:
+  - csharp
+  - vb
+  name: LayoutType
+  nameWithType: LayoutType
+  fullName: Prowl.Runtime.GUI.LayoutType
+  type: Enum
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Gui.Core.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: LayoutType
+    path: ../Prowl/Prowl.Runtime/GUI/Gui.Core.cs
+    startLine: 210
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  syntax:
+    content: public enum LayoutType
+    content.vb: Public Enum LayoutType
+  extensionMethods:
+  - System.Object.Prowl.Runtime.RuntimeUtils.GetSerializableFields
+- uid: Prowl.Runtime.GUI.LayoutType.None
+  commentId: F:Prowl.Runtime.GUI.LayoutType.None
+  id: None
+  parent: Prowl.Runtime.GUI.LayoutType
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: LayoutType.None
+  fullName: Prowl.Runtime.GUI.LayoutType.None
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Gui.Core.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: None
+    path: ../Prowl/Prowl.Runtime/GUI/Gui.Core.cs
+    startLine: 210
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  syntax:
+    content: None = 0
+    return:
+      type: Prowl.Runtime.GUI.LayoutType
+- uid: Prowl.Runtime.GUI.LayoutType.Column
+  commentId: F:Prowl.Runtime.GUI.LayoutType.Column
+  id: Column
+  parent: Prowl.Runtime.GUI.LayoutType
+  langs:
+  - csharp
+  - vb
+  name: Column
+  nameWithType: LayoutType.Column
+  fullName: Prowl.Runtime.GUI.LayoutType.Column
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Gui.Core.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Column
+    path: ../Prowl/Prowl.Runtime/GUI/Gui.Core.cs
+    startLine: 210
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  syntax:
+    content: Column = 1
+    return:
+      type: Prowl.Runtime.GUI.LayoutType
+- uid: Prowl.Runtime.GUI.LayoutType.ColumnReversed
+  commentId: F:Prowl.Runtime.GUI.LayoutType.ColumnReversed
+  id: ColumnReversed
+  parent: Prowl.Runtime.GUI.LayoutType
+  langs:
+  - csharp
+  - vb
+  name: ColumnReversed
+  nameWithType: LayoutType.ColumnReversed
+  fullName: Prowl.Runtime.GUI.LayoutType.ColumnReversed
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Gui.Core.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: ColumnReversed
+    path: ../Prowl/Prowl.Runtime/GUI/Gui.Core.cs
+    startLine: 210
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  syntax:
+    content: ColumnReversed = 2
+    return:
+      type: Prowl.Runtime.GUI.LayoutType
+- uid: Prowl.Runtime.GUI.LayoutType.Row
+  commentId: F:Prowl.Runtime.GUI.LayoutType.Row
+  id: Row
+  parent: Prowl.Runtime.GUI.LayoutType
+  langs:
+  - csharp
+  - vb
+  name: Row
+  nameWithType: LayoutType.Row
+  fullName: Prowl.Runtime.GUI.LayoutType.Row
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Gui.Core.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Row
+    path: ../Prowl/Prowl.Runtime/GUI/Gui.Core.cs
+    startLine: 210
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  syntax:
+    content: Row = 3
+    return:
+      type: Prowl.Runtime.GUI.LayoutType
+- uid: Prowl.Runtime.GUI.LayoutType.RowReversed
+  commentId: F:Prowl.Runtime.GUI.LayoutType.RowReversed
+  id: RowReversed
+  parent: Prowl.Runtime.GUI.LayoutType
+  langs:
+  - csharp
+  - vb
+  name: RowReversed
+  nameWithType: LayoutType.RowReversed
+  fullName: Prowl.Runtime.GUI.LayoutType.RowReversed
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Gui.Core.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: RowReversed
+    path: ../Prowl/Prowl.Runtime/GUI/Gui.Core.cs
+    startLine: 210
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  syntax:
+    content: RowReversed = 4
+    return:
+      type: Prowl.Runtime.GUI.LayoutType
+- uid: Prowl.Runtime.GUI.LayoutType.Grid
+  commentId: F:Prowl.Runtime.GUI.LayoutType.Grid
+  id: Grid
+  parent: Prowl.Runtime.GUI.LayoutType
+  langs:
+  - csharp
+  - vb
+  name: Grid
+  nameWithType: LayoutType.Grid
+  fullName: Prowl.Runtime.GUI.LayoutType.Grid
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Gui.Core.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Grid
+    path: ../Prowl/Prowl.Runtime/GUI/Gui.Core.cs
+    startLine: 210
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  syntax:
+    content: Grid = 5
+    return:
+      type: Prowl.Runtime.GUI.LayoutType
+- uid: Prowl.Runtime.GUI.LayoutType.GridReversed
+  commentId: F:Prowl.Runtime.GUI.LayoutType.GridReversed
+  id: GridReversed
+  parent: Prowl.Runtime.GUI.LayoutType
+  langs:
+  - csharp
+  - vb
+  name: GridReversed
+  nameWithType: LayoutType.GridReversed
+  fullName: Prowl.Runtime.GUI.LayoutType.GridReversed
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Gui.Core.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: GridReversed
+    path: ../Prowl/Prowl.Runtime/GUI/Gui.Core.cs
+    startLine: 210
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  syntax:
+    content: GridReversed = 6
+    return:
+      type: Prowl.Runtime.GUI.LayoutType
+references:
+- uid: Prowl.Runtime.GUI
+  commentId: N:Prowl.Runtime.GUI
+  href: Prowl.html
+  name: Prowl.Runtime.GUI
+  nameWithType: Prowl.Runtime.GUI
+  fullName: Prowl.Runtime.GUI
+  spec.csharp:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+  - name: .
+  - uid: Prowl.Runtime.GUI
+    name: GUI
+    href: Prowl.Runtime.GUI.html
+  spec.vb:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+  - name: .
+  - uid: Prowl.Runtime.GUI
+    name: GUI
+    href: Prowl.Runtime.GUI.html
+- uid: System.Object.Prowl.Runtime.RuntimeUtils.GetSerializableFields
+  commentId: M:Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  parent: Prowl.Runtime.RuntimeUtils
+  definition: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  name: GetSerializableFields(object)
+  nameWithType: RuntimeUtils.GetSerializableFields(object)
+  fullName: Prowl.Runtime.RuntimeUtils.GetSerializableFields(object)
+  nameWithType.vb: RuntimeUtils.GetSerializableFields(Object)
+  fullName.vb: Prowl.Runtime.RuntimeUtils.GetSerializableFields(Object)
+  name.vb: GetSerializableFields(Object)
+  spec.csharp:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  commentId: M:Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  isExternal: true
+  href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  name: GetSerializableFields(object)
+  nameWithType: RuntimeUtils.GetSerializableFields(object)
+  fullName: Prowl.Runtime.RuntimeUtils.GetSerializableFields(object)
+  nameWithType.vb: RuntimeUtils.GetSerializableFields(Object)
+  fullName.vb: Prowl.Runtime.RuntimeUtils.GetSerializableFields(Object)
+  name.vb: GetSerializableFields(Object)
+  spec.csharp:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: Prowl.Runtime.RuntimeUtils
+  commentId: T:Prowl.Runtime.RuntimeUtils
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.RuntimeUtils.html
+  name: RuntimeUtils
+  nameWithType: RuntimeUtils
+  fullName: Prowl.Runtime.RuntimeUtils
+- uid: Prowl.Runtime
+  commentId: N:Prowl.Runtime
+  href: Prowl.html
+  name: Prowl.Runtime
+  nameWithType: Prowl.Runtime
+  fullName: Prowl.Runtime
+  spec.csharp:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+  spec.vb:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+- uid: Prowl.Runtime.GUI.LayoutType
+  commentId: T:Prowl.Runtime.GUI.LayoutType
+  parent: Prowl.Runtime.GUI
+  href: Prowl.Runtime.GUI.LayoutType.html
+  name: LayoutType
+  nameWithType: LayoutType
+  fullName: Prowl.Runtime.GUI.LayoutType

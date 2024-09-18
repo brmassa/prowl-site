@@ -1,0 +1,100 @@
+### YamlMime:ManagedReference
+items:
+- uid: Prowl.Runtime.Audio
+  commentId: N:Prowl.Runtime.Audio
+  id: Prowl.Runtime.Audio
+  children:
+  - Prowl.Runtime.Audio.ActiveAudio
+  - Prowl.Runtime.Audio.AudioBuffer
+  - Prowl.Runtime.Audio.AudioEngine
+  - Prowl.Runtime.Audio.AudioPositionKind
+  - Prowl.Runtime.Audio.AudioSourcePlaybackCompletedHandler
+  - Prowl.Runtime.Audio.AudioSystem
+  - Prowl.Runtime.Audio.BufferAudioFormat
+  langs:
+  - csharp
+  - vb
+  name: Prowl.Runtime.Audio
+  nameWithType: Prowl.Runtime.Audio
+  fullName: Prowl.Runtime.Audio
+  type: Namespace
+  assemblies:
+  - Prowl.Runtime
+references:
+- uid: Prowl.Runtime.Audio.AudioSourcePlaybackCompletedHandler
+  commentId: T:Prowl.Runtime.Audio.AudioSourcePlaybackCompletedHandler
+  href: Prowl.Runtime.Audio.AudioSourcePlaybackCompletedHandler.html
+  name: AudioSourcePlaybackCompletedHandler
+  nameWithType: AudioSourcePlaybackCompletedHandler
+  fullName: Prowl.Runtime.Audio.AudioSourcePlaybackCompletedHandler
+- uid: Prowl.Runtime.Audio.AudioPositionKind
+  commentId: T:Prowl.Runtime.Audio.AudioPositionKind
+  parent: Prowl.Runtime.Audio
+  href: Prowl.Runtime.Audio.AudioPositionKind.html
+  name: AudioPositionKind
+  nameWithType: AudioPositionKind
+  fullName: Prowl.Runtime.Audio.AudioPositionKind
+- uid: Prowl.Runtime.Audio.ActiveAudio
+  commentId: T:Prowl.Runtime.Audio.ActiveAudio
+  parent: Prowl.Runtime.Audio
+  href: Prowl.Runtime.Audio.ActiveAudio.html
+  name: ActiveAudio
+  nameWithType: ActiveAudio
+  fullName: Prowl.Runtime.Audio.ActiveAudio
+- uid: Prowl.Runtime.Audio.BufferAudioFormat
+  commentId: T:Prowl.Runtime.Audio.BufferAudioFormat
+  parent: Prowl.Runtime.Audio
+  href: Prowl.Runtime.Audio.BufferAudioFormat.html
+  name: BufferAudioFormat
+  nameWithType: BufferAudioFormat
+  fullName: Prowl.Runtime.Audio.BufferAudioFormat
+- uid: Prowl.Runtime.Audio.AudioBuffer
+  commentId: T:Prowl.Runtime.Audio.AudioBuffer
+  parent: Prowl.Runtime.Audio
+  href: Prowl.Runtime.Audio.AudioBuffer.html
+  name: AudioBuffer
+  nameWithType: AudioBuffer
+  fullName: Prowl.Runtime.Audio.AudioBuffer
+- uid: Prowl.Runtime.Audio.AudioEngine
+  commentId: T:Prowl.Runtime.Audio.AudioEngine
+  parent: Prowl.Runtime.Audio
+  href: Prowl.Runtime.Audio.AudioEngine.html
+  name: AudioEngine
+  nameWithType: AudioEngine
+  fullName: Prowl.Runtime.Audio.AudioEngine
+- uid: Prowl.Runtime.Audio.AudioSystem
+  commentId: T:Prowl.Runtime.Audio.AudioSystem
+  href: Prowl.Runtime.Audio.AudioSystem.html
+  name: AudioSystem
+  nameWithType: AudioSystem
+  fullName: Prowl.Runtime.Audio.AudioSystem
+- uid: Prowl.Runtime.Audio
+  commentId: N:Prowl.Runtime.Audio
+  href: Prowl.html
+  name: Prowl.Runtime.Audio
+  nameWithType: Prowl.Runtime.Audio
+  fullName: Prowl.Runtime.Audio
+  spec.csharp:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+  - name: .
+  - uid: Prowl.Runtime.Audio
+    name: Audio
+    href: Prowl.Runtime.Audio.html
+  spec.vb:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+  - name: .
+  - uid: Prowl.Runtime.Audio
+    name: Audio
+    href: Prowl.Runtime.Audio.html

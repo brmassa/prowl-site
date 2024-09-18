@@ -1,0 +1,225 @@
+### YamlMime:ManagedReference
+items:
+- uid: Prowl.Runtime.DirectionalLight.Resolution
+  commentId: T:Prowl.Runtime.DirectionalLight.Resolution
+  id: DirectionalLight.Resolution
+  parent: Prowl.Runtime
+  children:
+  - Prowl.Runtime.DirectionalLight.Resolution._1024
+  - Prowl.Runtime.DirectionalLight.Resolution._2048
+  - Prowl.Runtime.DirectionalLight.Resolution._512
+  langs:
+  - csharp
+  - vb
+  name: DirectionalLight.Resolution
+  nameWithType: DirectionalLight.Resolution
+  fullName: Prowl.Runtime.DirectionalLight.Resolution
+  type: Enum
+  source:
+    remote:
+      path: Prowl.Runtime/Components/Lights/DirectionalLight.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Resolution
+    path: ../Prowl/Prowl.Runtime/Components/Lights/DirectionalLight.cs
+    startLine: 11
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public enum DirectionalLight.Resolution
+    content.vb: Public Enum DirectionalLight.Resolution
+  extensionMethods:
+  - System.Object.Prowl.Runtime.RuntimeUtils.GetSerializableFields
+- uid: Prowl.Runtime.DirectionalLight.Resolution._512
+  commentId: F:Prowl.Runtime.DirectionalLight.Resolution._512
+  id: _512
+  parent: Prowl.Runtime.DirectionalLight.Resolution
+  langs:
+  - csharp
+  - vb
+  name: _512
+  nameWithType: DirectionalLight.Resolution._512
+  fullName: Prowl.Runtime.DirectionalLight.Resolution._512
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/Components/Lights/DirectionalLight.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: _512
+    path: ../Prowl/Prowl.Runtime/Components/Lights/DirectionalLight.cs
+    startLine: 13
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: _512 = 512
+    return:
+      type: Prowl.Runtime.DirectionalLight.Resolution
+- uid: Prowl.Runtime.DirectionalLight.Resolution._1024
+  commentId: F:Prowl.Runtime.DirectionalLight.Resolution._1024
+  id: _1024
+  parent: Prowl.Runtime.DirectionalLight.Resolution
+  langs:
+  - csharp
+  - vb
+  name: _1024
+  nameWithType: DirectionalLight.Resolution._1024
+  fullName: Prowl.Runtime.DirectionalLight.Resolution._1024
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/Components/Lights/DirectionalLight.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: _1024
+    path: ../Prowl/Prowl.Runtime/Components/Lights/DirectionalLight.cs
+    startLine: 14
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: _1024 = 1024
+    return:
+      type: Prowl.Runtime.DirectionalLight.Resolution
+- uid: Prowl.Runtime.DirectionalLight.Resolution._2048
+  commentId: F:Prowl.Runtime.DirectionalLight.Resolution._2048
+  id: _2048
+  parent: Prowl.Runtime.DirectionalLight.Resolution
+  langs:
+  - csharp
+  - vb
+  name: _2048
+  nameWithType: DirectionalLight.Resolution._2048
+  fullName: Prowl.Runtime.DirectionalLight.Resolution._2048
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/Components/Lights/DirectionalLight.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: _2048
+    path: ../Prowl/Prowl.Runtime/Components/Lights/DirectionalLight.cs
+    startLine: 15
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: _2048 = 2048
+    return:
+      type: Prowl.Runtime.DirectionalLight.Resolution
+references:
+- uid: Prowl.Runtime
+  commentId: N:Prowl.Runtime
+  href: Prowl.html
+  name: Prowl.Runtime
+  nameWithType: Prowl.Runtime
+  fullName: Prowl.Runtime
+  spec.csharp:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+  spec.vb:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+- uid: System.Object.Prowl.Runtime.RuntimeUtils.GetSerializableFields
+  commentId: M:Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  parent: Prowl.Runtime.RuntimeUtils
+  definition: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  name: GetSerializableFields(object)
+  nameWithType: RuntimeUtils.GetSerializableFields(object)
+  fullName: Prowl.Runtime.RuntimeUtils.GetSerializableFields(object)
+  nameWithType.vb: RuntimeUtils.GetSerializableFields(Object)
+  fullName.vb: Prowl.Runtime.RuntimeUtils.GetSerializableFields(Object)
+  name.vb: GetSerializableFields(Object)
+  spec.csharp:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  commentId: M:Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  isExternal: true
+  href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  name: GetSerializableFields(object)
+  nameWithType: RuntimeUtils.GetSerializableFields(object)
+  fullName: Prowl.Runtime.RuntimeUtils.GetSerializableFields(object)
+  nameWithType.vb: RuntimeUtils.GetSerializableFields(Object)
+  fullName.vb: Prowl.Runtime.RuntimeUtils.GetSerializableFields(Object)
+  name.vb: GetSerializableFields(Object)
+  spec.csharp:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: Prowl.Runtime.RuntimeUtils
+  commentId: T:Prowl.Runtime.RuntimeUtils
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.RuntimeUtils.html
+  name: RuntimeUtils
+  nameWithType: RuntimeUtils
+  fullName: Prowl.Runtime.RuntimeUtils
+- uid: Prowl.Runtime.DirectionalLight.Resolution
+  commentId: T:Prowl.Runtime.DirectionalLight.Resolution
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.DirectionalLight.html
+  name: DirectionalLight.Resolution
+  nameWithType: DirectionalLight.Resolution
+  fullName: Prowl.Runtime.DirectionalLight.Resolution
+  spec.csharp:
+  - uid: Prowl.Runtime.DirectionalLight
+    name: DirectionalLight
+    href: Prowl.Runtime.DirectionalLight.html
+  - name: .
+  - uid: Prowl.Runtime.DirectionalLight.Resolution
+    name: Resolution
+    href: Prowl.Runtime.DirectionalLight.Resolution.html
+  spec.vb:
+  - uid: Prowl.Runtime.DirectionalLight
+    name: DirectionalLight
+    href: Prowl.Runtime.DirectionalLight.html
+  - name: .
+  - uid: Prowl.Runtime.DirectionalLight.Resolution
+    name: Resolution
+    href: Prowl.Runtime.DirectionalLight.Resolution.html

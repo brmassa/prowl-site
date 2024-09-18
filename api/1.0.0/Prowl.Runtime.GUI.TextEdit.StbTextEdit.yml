@@ -1,0 +1,722 @@
+### YamlMime:ManagedReference
+items:
+- uid: Prowl.Runtime.GUI.TextEdit.StbTextEdit
+  commentId: T:Prowl.Runtime.GUI.TextEdit.StbTextEdit
+  id: StbTextEdit
+  parent: Prowl.Runtime.GUI.TextEdit
+  children:
+  - Prowl.Runtime.GUI.TextEdit.StbTextEdit.ClearState(Prowl.Runtime.GUI.TextEdit.StbTextEditState,System.Boolean)
+  - Prowl.Runtime.GUI.TextEdit.StbTextEdit.Click(Prowl.Runtime.GUI.TextEdit.StbTextEditState,System.Single,System.Single)
+  - Prowl.Runtime.GUI.TextEdit.StbTextEdit.Cut(Prowl.Runtime.GUI.TextEdit.StbTextEditState)
+  - Prowl.Runtime.GUI.TextEdit.StbTextEdit.DeleteSelection(Prowl.Runtime.GUI.TextEdit.StbTextEditState)
+  - Prowl.Runtime.GUI.TextEdit.StbTextEdit.Drag(Prowl.Runtime.GUI.TextEdit.StbTextEditState,System.Single,System.Single)
+  - Prowl.Runtime.GUI.TextEdit.StbTextEdit.InputChar(Prowl.Runtime.GUI.TextEdit.StbTextEditState,System.Char)
+  - Prowl.Runtime.GUI.TextEdit.StbTextEdit.Key(Prowl.Runtime.GUI.TextEdit.StbTextEditState,Prowl.Runtime.GUI.TextEdit.StbTextEdit.ControlKeys)
+  - Prowl.Runtime.GUI.TextEdit.StbTextEdit.Paste(Prowl.Runtime.GUI.TextEdit.StbTextEditState,System.String)
+  langs:
+  - csharp
+  - vb
+  name: StbTextEdit
+  nameWithType: StbTextEdit
+  fullName: Prowl.Runtime.GUI.TextEdit.StbTextEdit
+  type: Class
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/TextEdit/StbTextEdit.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: StbTextEdit
+    path: ../Prowl/Prowl.Runtime/GUI/TextEdit/StbTextEdit.cs
+    startLine: 59
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI.TextEdit
+  syntax:
+    content: public static class StbTextEdit
+    content.vb: Public Module StbTextEdit
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: Prowl.Runtime.GUI.TextEdit.StbTextEdit.ClearState(Prowl.Runtime.GUI.TextEdit.StbTextEditState,System.Boolean)
+  commentId: M:Prowl.Runtime.GUI.TextEdit.StbTextEdit.ClearState(Prowl.Runtime.GUI.TextEdit.StbTextEditState,System.Boolean)
+  id: ClearState(Prowl.Runtime.GUI.TextEdit.StbTextEditState,System.Boolean)
+  parent: Prowl.Runtime.GUI.TextEdit.StbTextEdit
+  langs:
+  - csharp
+  - vb
+  name: ClearState(StbTextEditState, bool)
+  nameWithType: StbTextEdit.ClearState(StbTextEditState, bool)
+  fullName: Prowl.Runtime.GUI.TextEdit.StbTextEdit.ClearState(Prowl.Runtime.GUI.TextEdit.StbTextEditState, bool)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/TextEdit/StbTextEdit.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: ClearState
+    path: ../Prowl/Prowl.Runtime/GUI/TextEdit/StbTextEdit.cs
+    startLine: 93
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI.TextEdit
+  syntax:
+    content: public static void ClearState(StbTextEditState state, bool is_single_line)
+    parameters:
+    - id: state
+      type: Prowl.Runtime.GUI.TextEdit.StbTextEditState
+    - id: is_single_line
+      type: System.Boolean
+    content.vb: Public Shared Sub ClearState(state As StbTextEditState, is_single_line As Boolean)
+  overload: Prowl.Runtime.GUI.TextEdit.StbTextEdit.ClearState*
+  nameWithType.vb: StbTextEdit.ClearState(StbTextEditState, Boolean)
+  fullName.vb: Prowl.Runtime.GUI.TextEdit.StbTextEdit.ClearState(Prowl.Runtime.GUI.TextEdit.StbTextEditState, Boolean)
+  name.vb: ClearState(StbTextEditState, Boolean)
+- uid: Prowl.Runtime.GUI.TextEdit.StbTextEdit.Click(Prowl.Runtime.GUI.TextEdit.StbTextEditState,System.Single,System.Single)
+  commentId: M:Prowl.Runtime.GUI.TextEdit.StbTextEdit.Click(Prowl.Runtime.GUI.TextEdit.StbTextEditState,System.Single,System.Single)
+  id: Click(Prowl.Runtime.GUI.TextEdit.StbTextEditState,System.Single,System.Single)
+  parent: Prowl.Runtime.GUI.TextEdit.StbTextEdit
+  langs:
+  - csharp
+  - vb
+  name: Click(StbTextEditState, float, float)
+  nameWithType: StbTextEdit.Click(StbTextEditState, float, float)
+  fullName: Prowl.Runtime.GUI.TextEdit.StbTextEdit.Click(Prowl.Runtime.GUI.TextEdit.StbTextEditState, float, float)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/TextEdit/StbTextEdit.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Click
+    path: ../Prowl/Prowl.Runtime/GUI/TextEdit/StbTextEdit.cs
+    startLine: 196
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI.TextEdit
+  syntax:
+    content: public static void Click(StbTextEditState state, float x, float y)
+    parameters:
+    - id: state
+      type: Prowl.Runtime.GUI.TextEdit.StbTextEditState
+    - id: x
+      type: System.Single
+    - id: y
+      type: System.Single
+    content.vb: Public Shared Sub Click(state As StbTextEditState, x As Single, y As Single)
+  overload: Prowl.Runtime.GUI.TextEdit.StbTextEdit.Click*
+  nameWithType.vb: StbTextEdit.Click(StbTextEditState, Single, Single)
+  fullName.vb: Prowl.Runtime.GUI.TextEdit.StbTextEdit.Click(Prowl.Runtime.GUI.TextEdit.StbTextEditState, Single, Single)
+  name.vb: Click(StbTextEditState, Single, Single)
+- uid: Prowl.Runtime.GUI.TextEdit.StbTextEdit.Drag(Prowl.Runtime.GUI.TextEdit.StbTextEditState,System.Single,System.Single)
+  commentId: M:Prowl.Runtime.GUI.TextEdit.StbTextEdit.Drag(Prowl.Runtime.GUI.TextEdit.StbTextEditState,System.Single,System.Single)
+  id: Drag(Prowl.Runtime.GUI.TextEdit.StbTextEditState,System.Single,System.Single)
+  parent: Prowl.Runtime.GUI.TextEdit.StbTextEdit
+  langs:
+  - csharp
+  - vb
+  name: Drag(StbTextEditState, float, float)
+  nameWithType: StbTextEdit.Drag(StbTextEditState, float, float)
+  fullName: Prowl.Runtime.GUI.TextEdit.StbTextEdit.Drag(Prowl.Runtime.GUI.TextEdit.StbTextEditState, float, float)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/TextEdit/StbTextEdit.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Drag
+    path: ../Prowl/Prowl.Runtime/GUI/TextEdit/StbTextEdit.cs
+    startLine: 210
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI.TextEdit
+  syntax:
+    content: public static void Drag(StbTextEditState state, float x, float y)
+    parameters:
+    - id: state
+      type: Prowl.Runtime.GUI.TextEdit.StbTextEditState
+    - id: x
+      type: System.Single
+    - id: y
+      type: System.Single
+    content.vb: Public Shared Sub Drag(state As StbTextEditState, x As Single, y As Single)
+  overload: Prowl.Runtime.GUI.TextEdit.StbTextEdit.Drag*
+  nameWithType.vb: StbTextEdit.Drag(StbTextEditState, Single, Single)
+  fullName.vb: Prowl.Runtime.GUI.TextEdit.StbTextEdit.Drag(Prowl.Runtime.GUI.TextEdit.StbTextEditState, Single, Single)
+  name.vb: Drag(StbTextEditState, Single, Single)
+- uid: Prowl.Runtime.GUI.TextEdit.StbTextEdit.DeleteSelection(Prowl.Runtime.GUI.TextEdit.StbTextEditState)
+  commentId: M:Prowl.Runtime.GUI.TextEdit.StbTextEdit.DeleteSelection(Prowl.Runtime.GUI.TextEdit.StbTextEditState)
+  id: DeleteSelection(Prowl.Runtime.GUI.TextEdit.StbTextEditState)
+  parent: Prowl.Runtime.GUI.TextEdit.StbTextEdit
+  langs:
+  - csharp
+  - vb
+  name: DeleteSelection(StbTextEditState)
+  nameWithType: StbTextEdit.DeleteSelection(StbTextEditState)
+  fullName: Prowl.Runtime.GUI.TextEdit.StbTextEdit.DeleteSelection(Prowl.Runtime.GUI.TextEdit.StbTextEditState)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/TextEdit/StbTextEdit.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: DeleteSelection
+    path: ../Prowl/Prowl.Runtime/GUI/TextEdit/StbTextEdit.cs
+    startLine: 247
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI.TextEdit
+  syntax:
+    content: public static void DeleteSelection(StbTextEditState state)
+    parameters:
+    - id: state
+      type: Prowl.Runtime.GUI.TextEdit.StbTextEditState
+    content.vb: Public Shared Sub DeleteSelection(state As StbTextEditState)
+  overload: Prowl.Runtime.GUI.TextEdit.StbTextEdit.DeleteSelection*
+- uid: Prowl.Runtime.GUI.TextEdit.StbTextEdit.Cut(Prowl.Runtime.GUI.TextEdit.StbTextEditState)
+  commentId: M:Prowl.Runtime.GUI.TextEdit.StbTextEdit.Cut(Prowl.Runtime.GUI.TextEdit.StbTextEditState)
+  id: Cut(Prowl.Runtime.GUI.TextEdit.StbTextEditState)
+  parent: Prowl.Runtime.GUI.TextEdit.StbTextEdit
+  langs:
+  - csharp
+  - vb
+  name: Cut(StbTextEditState)
+  nameWithType: StbTextEdit.Cut(StbTextEditState)
+  fullName: Prowl.Runtime.GUI.TextEdit.StbTextEdit.Cut(Prowl.Runtime.GUI.TextEdit.StbTextEditState)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/TextEdit/StbTextEdit.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Cut
+    path: ../Prowl/Prowl.Runtime/GUI/TextEdit/StbTextEdit.cs
+    startLine: 301
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI.TextEdit
+  syntax:
+    content: public static int Cut(StbTextEditState state)
+    parameters:
+    - id: state
+      type: Prowl.Runtime.GUI.TextEdit.StbTextEditState
+    return:
+      type: System.Int32
+    content.vb: Public Shared Function Cut(state As StbTextEditState) As Integer
+  overload: Prowl.Runtime.GUI.TextEdit.StbTextEdit.Cut*
+- uid: Prowl.Runtime.GUI.TextEdit.StbTextEdit.Paste(Prowl.Runtime.GUI.TextEdit.StbTextEditState,System.String)
+  commentId: M:Prowl.Runtime.GUI.TextEdit.StbTextEdit.Paste(Prowl.Runtime.GUI.TextEdit.StbTextEditState,System.String)
+  id: Paste(Prowl.Runtime.GUI.TextEdit.StbTextEditState,System.String)
+  parent: Prowl.Runtime.GUI.TextEdit.StbTextEdit
+  langs:
+  - csharp
+  - vb
+  name: Paste(StbTextEditState, string)
+  nameWithType: StbTextEdit.Paste(StbTextEditState, string)
+  fullName: Prowl.Runtime.GUI.TextEdit.StbTextEdit.Paste(Prowl.Runtime.GUI.TextEdit.StbTextEditState, string)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/TextEdit/StbTextEdit.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Paste
+    path: ../Prowl/Prowl.Runtime/GUI/TextEdit/StbTextEdit.cs
+    startLine: 313
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI.TextEdit
+  syntax:
+    content: public static int Paste(StbTextEditState state, string text)
+    parameters:
+    - id: state
+      type: Prowl.Runtime.GUI.TextEdit.StbTextEditState
+    - id: text
+      type: System.String
+    return:
+      type: System.Int32
+    content.vb: Public Shared Function Paste(state As StbTextEditState, text As String) As Integer
+  overload: Prowl.Runtime.GUI.TextEdit.StbTextEdit.Paste*
+  nameWithType.vb: StbTextEdit.Paste(StbTextEditState, String)
+  fullName.vb: Prowl.Runtime.GUI.TextEdit.StbTextEdit.Paste(Prowl.Runtime.GUI.TextEdit.StbTextEditState, String)
+  name.vb: Paste(StbTextEditState, String)
+- uid: Prowl.Runtime.GUI.TextEdit.StbTextEdit.InputChar(Prowl.Runtime.GUI.TextEdit.StbTextEditState,System.Char)
+  commentId: M:Prowl.Runtime.GUI.TextEdit.StbTextEdit.InputChar(Prowl.Runtime.GUI.TextEdit.StbTextEditState,System.Char)
+  id: InputChar(Prowl.Runtime.GUI.TextEdit.StbTextEditState,System.Char)
+  parent: Prowl.Runtime.GUI.TextEdit.StbTextEdit
+  langs:
+  - csharp
+  - vb
+  name: InputChar(StbTextEditState, char)
+  nameWithType: StbTextEdit.InputChar(StbTextEditState, char)
+  fullName: Prowl.Runtime.GUI.TextEdit.StbTextEdit.InputChar(Prowl.Runtime.GUI.TextEdit.StbTextEditState, char)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/TextEdit/StbTextEdit.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: InputChar
+    path: ../Prowl/Prowl.Runtime/GUI/TextEdit/StbTextEdit.cs
+    startLine: 330
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI.TextEdit
+  syntax:
+    content: public static void InputChar(StbTextEditState state, char ch)
+    parameters:
+    - id: state
+      type: Prowl.Runtime.GUI.TextEdit.StbTextEditState
+    - id: ch
+      type: System.Char
+    content.vb: Public Shared Sub InputChar(state As StbTextEditState, ch As Char)
+  overload: Prowl.Runtime.GUI.TextEdit.StbTextEdit.InputChar*
+  nameWithType.vb: StbTextEdit.InputChar(StbTextEditState, Char)
+  fullName.vb: Prowl.Runtime.GUI.TextEdit.StbTextEdit.InputChar(Prowl.Runtime.GUI.TextEdit.StbTextEditState, Char)
+  name.vb: InputChar(StbTextEditState, Char)
+- uid: Prowl.Runtime.GUI.TextEdit.StbTextEdit.Key(Prowl.Runtime.GUI.TextEdit.StbTextEditState,Prowl.Runtime.GUI.TextEdit.StbTextEdit.ControlKeys)
+  commentId: M:Prowl.Runtime.GUI.TextEdit.StbTextEdit.Key(Prowl.Runtime.GUI.TextEdit.StbTextEditState,Prowl.Runtime.GUI.TextEdit.StbTextEdit.ControlKeys)
+  id: Key(Prowl.Runtime.GUI.TextEdit.StbTextEditState,Prowl.Runtime.GUI.TextEdit.StbTextEdit.ControlKeys)
+  parent: Prowl.Runtime.GUI.TextEdit.StbTextEdit
+  langs:
+  - csharp
+  - vb
+  name: Key(StbTextEditState, ControlKeys)
+  nameWithType: StbTextEdit.Key(StbTextEditState, StbTextEdit.ControlKeys)
+  fullName: Prowl.Runtime.GUI.TextEdit.StbTextEdit.Key(Prowl.Runtime.GUI.TextEdit.StbTextEditState, Prowl.Runtime.GUI.TextEdit.StbTextEdit.ControlKeys)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/TextEdit/StbTextEdit.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Key
+    path: ../Prowl/Prowl.Runtime/GUI/TextEdit/StbTextEdit.cs
+    startLine: 356
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI.TextEdit
+  syntax:
+    content: public static void Key(StbTextEditState state, StbTextEdit.ControlKeys key)
+    parameters:
+    - id: state
+      type: Prowl.Runtime.GUI.TextEdit.StbTextEditState
+    - id: key
+      type: Prowl.Runtime.GUI.TextEdit.StbTextEdit.ControlKeys
+    content.vb: Public Shared Sub Key(state As StbTextEditState, key As StbTextEdit.ControlKeys)
+  overload: Prowl.Runtime.GUI.TextEdit.StbTextEdit.Key*
+references:
+- uid: Prowl.Runtime.GUI.TextEdit
+  commentId: N:Prowl.Runtime.GUI.TextEdit
+  href: Prowl.html
+  name: Prowl.Runtime.GUI.TextEdit
+  nameWithType: Prowl.Runtime.GUI.TextEdit
+  fullName: Prowl.Runtime.GUI.TextEdit
+  spec.csharp:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+  - name: .
+  - uid: Prowl.Runtime.GUI
+    name: GUI
+    href: Prowl.Runtime.GUI.html
+  - name: .
+  - uid: Prowl.Runtime.GUI.TextEdit
+    name: TextEdit
+    href: Prowl.Runtime.GUI.TextEdit.html
+  spec.vb:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+  - name: .
+  - uid: Prowl.Runtime.GUI
+    name: GUI
+    href: Prowl.Runtime.GUI.html
+  - name: .
+  - uid: Prowl.Runtime.GUI.TextEdit
+    name: TextEdit
+    href: Prowl.Runtime.GUI.TextEdit.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Prowl.Runtime.GUI.TextEdit.StbTextEdit.ClearState*
+  commentId: Overload:Prowl.Runtime.GUI.TextEdit.StbTextEdit.ClearState
+  href: Prowl.Runtime.GUI.TextEdit.StbTextEdit.html#Prowl_Runtime_GUI_TextEdit_StbTextEdit_ClearState_Prowl_Runtime_GUI_TextEdit_StbTextEditState_System_Boolean_
+  name: ClearState
+  nameWithType: StbTextEdit.ClearState
+  fullName: Prowl.Runtime.GUI.TextEdit.StbTextEdit.ClearState
+- uid: Prowl.Runtime.GUI.TextEdit.StbTextEditState
+  commentId: T:Prowl.Runtime.GUI.TextEdit.StbTextEditState
+  parent: Prowl.Runtime.GUI.TextEdit
+  href: Prowl.Runtime.GUI.TextEdit.StbTextEditState.html
+  name: StbTextEditState
+  nameWithType: StbTextEditState
+  fullName: Prowl.Runtime.GUI.TextEdit.StbTextEditState
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: Prowl.Runtime.GUI.TextEdit.StbTextEdit.Click*
+  commentId: Overload:Prowl.Runtime.GUI.TextEdit.StbTextEdit.Click
+  href: Prowl.Runtime.GUI.TextEdit.StbTextEdit.html#Prowl_Runtime_GUI_TextEdit_StbTextEdit_Click_Prowl_Runtime_GUI_TextEdit_StbTextEditState_System_Single_System_Single_
+  name: Click
+  nameWithType: StbTextEdit.Click
+  fullName: Prowl.Runtime.GUI.TextEdit.StbTextEdit.Click
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.single
+  name: float
+  nameWithType: float
+  fullName: float
+  nameWithType.vb: Single
+  fullName.vb: Single
+  name.vb: Single
+- uid: Prowl.Runtime.GUI.TextEdit.StbTextEdit.Drag*
+  commentId: Overload:Prowl.Runtime.GUI.TextEdit.StbTextEdit.Drag
+  href: Prowl.Runtime.GUI.TextEdit.StbTextEdit.html#Prowl_Runtime_GUI_TextEdit_StbTextEdit_Drag_Prowl_Runtime_GUI_TextEdit_StbTextEditState_System_Single_System_Single_
+  name: Drag
+  nameWithType: StbTextEdit.Drag
+  fullName: Prowl.Runtime.GUI.TextEdit.StbTextEdit.Drag
+- uid: Prowl.Runtime.GUI.TextEdit.StbTextEdit.DeleteSelection*
+  commentId: Overload:Prowl.Runtime.GUI.TextEdit.StbTextEdit.DeleteSelection
+  href: Prowl.Runtime.GUI.TextEdit.StbTextEdit.html#Prowl_Runtime_GUI_TextEdit_StbTextEdit_DeleteSelection_Prowl_Runtime_GUI_TextEdit_StbTextEditState_
+  name: DeleteSelection
+  nameWithType: StbTextEdit.DeleteSelection
+  fullName: Prowl.Runtime.GUI.TextEdit.StbTextEdit.DeleteSelection
+- uid: Prowl.Runtime.GUI.TextEdit.StbTextEdit.Cut*
+  commentId: Overload:Prowl.Runtime.GUI.TextEdit.StbTextEdit.Cut
+  href: Prowl.Runtime.GUI.TextEdit.StbTextEdit.html#Prowl_Runtime_GUI_TextEdit_StbTextEdit_Cut_Prowl_Runtime_GUI_TextEdit_StbTextEditState_
+  name: Cut
+  nameWithType: StbTextEdit.Cut
+  fullName: Prowl.Runtime.GUI.TextEdit.StbTextEdit.Cut
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: Prowl.Runtime.GUI.TextEdit.StbTextEdit.Paste*
+  commentId: Overload:Prowl.Runtime.GUI.TextEdit.StbTextEdit.Paste
+  href: Prowl.Runtime.GUI.TextEdit.StbTextEdit.html#Prowl_Runtime_GUI_TextEdit_StbTextEdit_Paste_Prowl_Runtime_GUI_TextEdit_StbTextEditState_System_String_
+  name: Paste
+  nameWithType: StbTextEdit.Paste
+  fullName: Prowl.Runtime.GUI.TextEdit.StbTextEdit.Paste
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: Prowl.Runtime.GUI.TextEdit.StbTextEdit.InputChar*
+  commentId: Overload:Prowl.Runtime.GUI.TextEdit.StbTextEdit.InputChar
+  href: Prowl.Runtime.GUI.TextEdit.StbTextEdit.html#Prowl_Runtime_GUI_TextEdit_StbTextEdit_InputChar_Prowl_Runtime_GUI_TextEdit_StbTextEditState_System_Char_
+  name: InputChar
+  nameWithType: StbTextEdit.InputChar
+  fullName: Prowl.Runtime.GUI.TextEdit.StbTextEdit.InputChar
+- uid: System.Char
+  commentId: T:System.Char
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.char
+  name: char
+  nameWithType: char
+  fullName: char
+  nameWithType.vb: Char
+  fullName.vb: Char
+  name.vb: Char
+- uid: Prowl.Runtime.GUI.TextEdit.StbTextEdit.Key*
+  commentId: Overload:Prowl.Runtime.GUI.TextEdit.StbTextEdit.Key
+  href: Prowl.Runtime.GUI.TextEdit.StbTextEdit.html#Prowl_Runtime_GUI_TextEdit_StbTextEdit_Key_Prowl_Runtime_GUI_TextEdit_StbTextEditState_Prowl_Runtime_GUI_TextEdit_StbTextEdit_ControlKeys_
+  name: Key
+  nameWithType: StbTextEdit.Key
+  fullName: Prowl.Runtime.GUI.TextEdit.StbTextEdit.Key
+- uid: Prowl.Runtime.GUI.TextEdit.StbTextEdit.ControlKeys
+  commentId: T:Prowl.Runtime.GUI.TextEdit.StbTextEdit.ControlKeys
+  parent: Prowl.Runtime.GUI.TextEdit
+  href: Prowl.Runtime.GUI.TextEdit.StbTextEdit.html
+  name: StbTextEdit.ControlKeys
+  nameWithType: StbTextEdit.ControlKeys
+  fullName: Prowl.Runtime.GUI.TextEdit.StbTextEdit.ControlKeys
+  spec.csharp:
+  - uid: Prowl.Runtime.GUI.TextEdit.StbTextEdit
+    name: StbTextEdit
+    href: Prowl.Runtime.GUI.TextEdit.StbTextEdit.html
+  - name: .
+  - uid: Prowl.Runtime.GUI.TextEdit.StbTextEdit.ControlKeys
+    name: ControlKeys
+    href: Prowl.Runtime.GUI.TextEdit.StbTextEdit.ControlKeys.html
+  spec.vb:
+  - uid: Prowl.Runtime.GUI.TextEdit.StbTextEdit
+    name: StbTextEdit
+    href: Prowl.Runtime.GUI.TextEdit.StbTextEdit.html
+  - name: .
+  - uid: Prowl.Runtime.GUI.TextEdit.StbTextEdit.ControlKeys
+    name: ControlKeys
+    href: Prowl.Runtime.GUI.TextEdit.StbTextEdit.ControlKeys.html

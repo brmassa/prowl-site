@@ -1,0 +1,1439 @@
+### YamlMime:ManagedReference
+items:
+- uid: Prowl.Runtime.Utils.AssetBundle
+  commentId: T:Prowl.Runtime.Utils.AssetBundle
+  id: AssetBundle
+  parent: Prowl.Runtime.Utils
+  children:
+  - Prowl.Runtime.Utils.AssetBundle.#ctor(System.IO.Stream,System.IO.Compression.ZipArchiveMode)
+  - Prowl.Runtime.Utils.AssetBundle.AddAsset(System.String,System.Guid,Prowl.Runtime.Utils.SerializedAsset)
+  - Prowl.Runtime.Utils.AssetBundle.CreateNew(System.IO.FileInfo)
+  - Prowl.Runtime.Utils.AssetBundle.Dispose
+  - Prowl.Runtime.Utils.AssetBundle.GetAllGuids
+  - Prowl.Runtime.Utils.AssetBundle.GetAssets(System.String,System.Boolean)
+  - Prowl.Runtime.Utils.AssetBundle.GetFolders(System.String)
+  - Prowl.Runtime.Utils.AssetBundle.GetRootFolders
+  - Prowl.Runtime.Utils.AssetBundle.HasAsset(System.Guid)
+  - Prowl.Runtime.Utils.AssetBundle.MoveFile(System.String,System.String)
+  - Prowl.Runtime.Utils.AssetBundle.RemoveAsset(System.Guid)
+  - Prowl.Runtime.Utils.AssetBundle.RemoveAsset(System.String)
+  - Prowl.Runtime.Utils.AssetBundle.RenameFile(System.String,System.String)
+  - Prowl.Runtime.Utils.AssetBundle.SizeInGB
+  - Prowl.Runtime.Utils.AssetBundle.TryGetAsset(System.Guid,Prowl.Runtime.Utils.SerializedAsset@)
+  - Prowl.Runtime.Utils.AssetBundle.TryGetAsset(System.String,Prowl.Runtime.Utils.SerializedAsset@)
+  - Prowl.Runtime.Utils.AssetBundle.TryGetGuid(System.String,System.Guid@)
+  - Prowl.Runtime.Utils.AssetBundle.TryGetPath(System.Guid,System.String@)
+  - Prowl.Runtime.Utils.AssetBundle.byteCount
+  langs:
+  - csharp
+  - vb
+  name: AssetBundle
+  nameWithType: AssetBundle
+  fullName: Prowl.Runtime.Utils.AssetBundle
+  type: Class
+  source:
+    remote:
+      path: Prowl.Runtime/Utils/AssetBundle.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: AssetBundle
+    path: ../Prowl/Prowl.Runtime/Utils/AssetBundle.cs
+    startLine: 11
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.Utils
+  syntax:
+    content: 'public sealed class AssetBundle : IDisposable'
+    content.vb: Public NotInheritable Class AssetBundle Implements IDisposable
+  inheritance:
+  - System.Object
+  implements:
+  - System.IDisposable
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  extensionMethods:
+  - System.Object.Prowl.Runtime.RuntimeUtils.GetSerializableFields
+- uid: Prowl.Runtime.Utils.AssetBundle.#ctor(System.IO.Stream,System.IO.Compression.ZipArchiveMode)
+  commentId: M:Prowl.Runtime.Utils.AssetBundle.#ctor(System.IO.Stream,System.IO.Compression.ZipArchiveMode)
+  id: '#ctor(System.IO.Stream,System.IO.Compression.ZipArchiveMode)'
+  parent: Prowl.Runtime.Utils.AssetBundle
+  langs:
+  - csharp
+  - vb
+  name: AssetBundle(Stream, ZipArchiveMode)
+  nameWithType: AssetBundle.AssetBundle(Stream, ZipArchiveMode)
+  fullName: Prowl.Runtime.Utils.AssetBundle.AssetBundle(System.IO.Stream, System.IO.Compression.ZipArchiveMode)
+  type: Constructor
+  source:
+    remote:
+      path: Prowl.Runtime/Utils/AssetBundle.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: .ctor
+    path: ../Prowl/Prowl.Runtime/Utils/AssetBundle.cs
+    startLine: 21
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.Utils
+  syntax:
+    content: public AssetBundle(Stream stream, ZipArchiveMode mode)
+    parameters:
+    - id: stream
+      type: System.IO.Stream
+    - id: mode
+      type: System.IO.Compression.ZipArchiveMode
+    content.vb: Public Sub New(stream As Stream, mode As ZipArchiveMode)
+  overload: Prowl.Runtime.Utils.AssetBundle.#ctor*
+  nameWithType.vb: AssetBundle.New(Stream, ZipArchiveMode)
+  fullName.vb: Prowl.Runtime.Utils.AssetBundle.New(System.IO.Stream, System.IO.Compression.ZipArchiveMode)
+  name.vb: New(Stream, ZipArchiveMode)
+- uid: Prowl.Runtime.Utils.AssetBundle.CreateNew(System.IO.FileInfo)
+  commentId: M:Prowl.Runtime.Utils.AssetBundle.CreateNew(System.IO.FileInfo)
+  id: CreateNew(System.IO.FileInfo)
+  parent: Prowl.Runtime.Utils.AssetBundle
+  langs:
+  - csharp
+  - vb
+  name: CreateNew(FileInfo)
+  nameWithType: AssetBundle.CreateNew(FileInfo)
+  fullName: Prowl.Runtime.Utils.AssetBundle.CreateNew(System.IO.FileInfo)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Utils/AssetBundle.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: CreateNew
+    path: ../Prowl/Prowl.Runtime/Utils/AssetBundle.cs
+    startLine: 44
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.Utils
+  syntax:
+    content: public static AssetBundle CreateNew(FileInfo path)
+    parameters:
+    - id: path
+      type: System.IO.FileInfo
+    return:
+      type: Prowl.Runtime.Utils.AssetBundle
+    content.vb: Public Shared Function CreateNew(path As FileInfo) As AssetBundle
+  overload: Prowl.Runtime.Utils.AssetBundle.CreateNew*
+- uid: Prowl.Runtime.Utils.AssetBundle.byteCount
+  commentId: F:Prowl.Runtime.Utils.AssetBundle.byteCount
+  id: byteCount
+  parent: Prowl.Runtime.Utils.AssetBundle
+  langs:
+  - csharp
+  - vb
+  name: byteCount
+  nameWithType: AssetBundle.byteCount
+  fullName: Prowl.Runtime.Utils.AssetBundle.byteCount
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/Utils/AssetBundle.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: byteCount
+    path: ../Prowl/Prowl.Runtime/Utils/AssetBundle.cs
+    startLine: 53
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.Utils
+  syntax:
+    content: public long byteCount
+    return:
+      type: System.Int64
+    content.vb: Public byteCount As Long
+- uid: Prowl.Runtime.Utils.AssetBundle.SizeInGB
+  commentId: P:Prowl.Runtime.Utils.AssetBundle.SizeInGB
+  id: SizeInGB
+  parent: Prowl.Runtime.Utils.AssetBundle
+  langs:
+  - csharp
+  - vb
+  name: SizeInGB
+  nameWithType: AssetBundle.SizeInGB
+  fullName: Prowl.Runtime.Utils.AssetBundle.SizeInGB
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/Utils/AssetBundle.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: SizeInGB
+    path: ../Prowl/Prowl.Runtime/Utils/AssetBundle.cs
+    startLine: 54
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.Utils
+  syntax:
+    content: public float SizeInGB { get; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public ReadOnly Property SizeInGB As Single
+  overload: Prowl.Runtime.Utils.AssetBundle.SizeInGB*
+- uid: Prowl.Runtime.Utils.AssetBundle.AddAsset(System.String,System.Guid,Prowl.Runtime.Utils.SerializedAsset)
+  commentId: M:Prowl.Runtime.Utils.AssetBundle.AddAsset(System.String,System.Guid,Prowl.Runtime.Utils.SerializedAsset)
+  id: AddAsset(System.String,System.Guid,Prowl.Runtime.Utils.SerializedAsset)
+  parent: Prowl.Runtime.Utils.AssetBundle
+  langs:
+  - csharp
+  - vb
+  name: AddAsset(string, Guid, SerializedAsset)
+  nameWithType: AssetBundle.AddAsset(string, Guid, SerializedAsset)
+  fullName: Prowl.Runtime.Utils.AssetBundle.AddAsset(string, System.Guid, Prowl.Runtime.Utils.SerializedAsset)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Utils/AssetBundle.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: AddAsset
+    path: ../Prowl/Prowl.Runtime/Utils/AssetBundle.cs
+    startLine: 55
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.Utils
+  syntax:
+    content: public bool AddAsset(string assetPath, Guid guid, SerializedAsset asset)
+    parameters:
+    - id: assetPath
+      type: System.String
+    - id: guid
+      type: System.Guid
+    - id: asset
+      type: Prowl.Runtime.Utils.SerializedAsset
+    return:
+      type: System.Boolean
+    content.vb: Public Function AddAsset(assetPath As String, guid As Guid, asset As SerializedAsset) As Boolean
+  overload: Prowl.Runtime.Utils.AssetBundle.AddAsset*
+  nameWithType.vb: AssetBundle.AddAsset(String, Guid, SerializedAsset)
+  fullName.vb: Prowl.Runtime.Utils.AssetBundle.AddAsset(String, System.Guid, Prowl.Runtime.Utils.SerializedAsset)
+  name.vb: AddAsset(String, Guid, SerializedAsset)
+- uid: Prowl.Runtime.Utils.AssetBundle.RemoveAsset(System.Guid)
+  commentId: M:Prowl.Runtime.Utils.AssetBundle.RemoveAsset(System.Guid)
+  id: RemoveAsset(System.Guid)
+  parent: Prowl.Runtime.Utils.AssetBundle
+  langs:
+  - csharp
+  - vb
+  name: RemoveAsset(Guid)
+  nameWithType: AssetBundle.RemoveAsset(Guid)
+  fullName: Prowl.Runtime.Utils.AssetBundle.RemoveAsset(System.Guid)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Utils/AssetBundle.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: RemoveAsset
+    path: ../Prowl/Prowl.Runtime/Utils/AssetBundle.cs
+    startLine: 84
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.Utils
+  syntax:
+    content: public bool RemoveAsset(Guid guid)
+    parameters:
+    - id: guid
+      type: System.Guid
+    return:
+      type: System.Boolean
+    content.vb: Public Function RemoveAsset(guid As Guid) As Boolean
+  overload: Prowl.Runtime.Utils.AssetBundle.RemoveAsset*
+- uid: Prowl.Runtime.Utils.AssetBundle.RemoveAsset(System.String)
+  commentId: M:Prowl.Runtime.Utils.AssetBundle.RemoveAsset(System.String)
+  id: RemoveAsset(System.String)
+  parent: Prowl.Runtime.Utils.AssetBundle
+  langs:
+  - csharp
+  - vb
+  name: RemoveAsset(string)
+  nameWithType: AssetBundle.RemoveAsset(string)
+  fullName: Prowl.Runtime.Utils.AssetBundle.RemoveAsset(string)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Utils/AssetBundle.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: RemoveAsset
+    path: ../Prowl/Prowl.Runtime/Utils/AssetBundle.cs
+    startLine: 86
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.Utils
+  syntax:
+    content: public bool RemoveAsset(string assetPath)
+    parameters:
+    - id: assetPath
+      type: System.String
+    return:
+      type: System.Boolean
+    content.vb: Public Function RemoveAsset(assetPath As String) As Boolean
+  overload: Prowl.Runtime.Utils.AssetBundle.RemoveAsset*
+  nameWithType.vb: AssetBundle.RemoveAsset(String)
+  fullName.vb: Prowl.Runtime.Utils.AssetBundle.RemoveAsset(String)
+  name.vb: RemoveAsset(String)
+- uid: Prowl.Runtime.Utils.AssetBundle.MoveFile(System.String,System.String)
+  commentId: M:Prowl.Runtime.Utils.AssetBundle.MoveFile(System.String,System.String)
+  id: MoveFile(System.String,System.String)
+  parent: Prowl.Runtime.Utils.AssetBundle
+  langs:
+  - csharp
+  - vb
+  name: MoveFile(string, string)
+  nameWithType: AssetBundle.MoveFile(string, string)
+  fullName: Prowl.Runtime.Utils.AssetBundle.MoveFile(string, string)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Utils/AssetBundle.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: MoveFile
+    path: ../Prowl/Prowl.Runtime/Utils/AssetBundle.cs
+    startLine: 108
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.Utils
+  syntax:
+    content: public bool MoveFile(string assetPath, string newAssetPath)
+    parameters:
+    - id: assetPath
+      type: System.String
+    - id: newAssetPath
+      type: System.String
+    return:
+      type: System.Boolean
+    content.vb: Public Function MoveFile(assetPath As String, newAssetPath As String) As Boolean
+  overload: Prowl.Runtime.Utils.AssetBundle.MoveFile*
+  nameWithType.vb: AssetBundle.MoveFile(String, String)
+  fullName.vb: Prowl.Runtime.Utils.AssetBundle.MoveFile(String, String)
+  name.vb: MoveFile(String, String)
+- uid: Prowl.Runtime.Utils.AssetBundle.RenameFile(System.String,System.String)
+  commentId: M:Prowl.Runtime.Utils.AssetBundle.RenameFile(System.String,System.String)
+  id: RenameFile(System.String,System.String)
+  parent: Prowl.Runtime.Utils.AssetBundle
+  langs:
+  - csharp
+  - vb
+  name: RenameFile(string, string)
+  nameWithType: AssetBundle.RenameFile(string, string)
+  fullName: Prowl.Runtime.Utils.AssetBundle.RenameFile(string, string)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Utils/AssetBundle.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: RenameFile
+    path: ../Prowl/Prowl.Runtime/Utils/AssetBundle.cs
+    startLine: 141
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.Utils
+  syntax:
+    content: public bool RenameFile(string assetPath, string newName)
+    parameters:
+    - id: assetPath
+      type: System.String
+    - id: newName
+      type: System.String
+    return:
+      type: System.Boolean
+    content.vb: Public Function RenameFile(assetPath As String, newName As String) As Boolean
+  overload: Prowl.Runtime.Utils.AssetBundle.RenameFile*
+  nameWithType.vb: AssetBundle.RenameFile(String, String)
+  fullName.vb: Prowl.Runtime.Utils.AssetBundle.RenameFile(String, String)
+  name.vb: RenameFile(String, String)
+- uid: Prowl.Runtime.Utils.AssetBundle.GetAssets(System.String,System.Boolean)
+  commentId: M:Prowl.Runtime.Utils.AssetBundle.GetAssets(System.String,System.Boolean)
+  id: GetAssets(System.String,System.Boolean)
+  parent: Prowl.Runtime.Utils.AssetBundle
+  langs:
+  - csharp
+  - vb
+  name: GetAssets(string, bool)
+  nameWithType: AssetBundle.GetAssets(string, bool)
+  fullName: Prowl.Runtime.Utils.AssetBundle.GetAssets(string, bool)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Utils/AssetBundle.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: GetAssets
+    path: ../Prowl/Prowl.Runtime/Utils/AssetBundle.cs
+    startLine: 166
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.Utils
+  syntax:
+    content: public List<string> GetAssets(string folderPath, bool includeSubdirectories = false)
+    parameters:
+    - id: folderPath
+      type: System.String
+    - id: includeSubdirectories
+      type: System.Boolean
+    return:
+      type: System.Collections.Generic.List{System.String}
+    content.vb: Public Function GetAssets(folderPath As String, includeSubdirectories As Boolean = False) As List(Of String)
+  overload: Prowl.Runtime.Utils.AssetBundle.GetAssets*
+  nameWithType.vb: AssetBundle.GetAssets(String, Boolean)
+  fullName.vb: Prowl.Runtime.Utils.AssetBundle.GetAssets(String, Boolean)
+  name.vb: GetAssets(String, Boolean)
+- uid: Prowl.Runtime.Utils.AssetBundle.GetAllGuids
+  commentId: M:Prowl.Runtime.Utils.AssetBundle.GetAllGuids
+  id: GetAllGuids
+  parent: Prowl.Runtime.Utils.AssetBundle
+  langs:
+  - csharp
+  - vb
+  name: GetAllGuids()
+  nameWithType: AssetBundle.GetAllGuids()
+  fullName: Prowl.Runtime.Utils.AssetBundle.GetAllGuids()
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Utils/AssetBundle.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: GetAllGuids
+    path: ../Prowl/Prowl.Runtime/Utils/AssetBundle.cs
+    startLine: 187
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.Utils
+  syntax:
+    content: public List<Guid> GetAllGuids()
+    return:
+      type: System.Collections.Generic.List{System.Guid}
+    content.vb: Public Function GetAllGuids() As List(Of Guid)
+  overload: Prowl.Runtime.Utils.AssetBundle.GetAllGuids*
+- uid: Prowl.Runtime.Utils.AssetBundle.GetRootFolders
+  commentId: M:Prowl.Runtime.Utils.AssetBundle.GetRootFolders
+  id: GetRootFolders
+  parent: Prowl.Runtime.Utils.AssetBundle
+  langs:
+  - csharp
+  - vb
+  name: GetRootFolders()
+  nameWithType: AssetBundle.GetRootFolders()
+  fullName: Prowl.Runtime.Utils.AssetBundle.GetRootFolders()
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Utils/AssetBundle.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: GetRootFolders
+    path: ../Prowl/Prowl.Runtime/Utils/AssetBundle.cs
+    startLine: 196
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.Utils
+  syntax:
+    content: public List<string> GetRootFolders()
+    return:
+      type: System.Collections.Generic.List{System.String}
+    content.vb: Public Function GetRootFolders() As List(Of String)
+  overload: Prowl.Runtime.Utils.AssetBundle.GetRootFolders*
+- uid: Prowl.Runtime.Utils.AssetBundle.GetFolders(System.String)
+  commentId: M:Prowl.Runtime.Utils.AssetBundle.GetFolders(System.String)
+  id: GetFolders(System.String)
+  parent: Prowl.Runtime.Utils.AssetBundle
+  langs:
+  - csharp
+  - vb
+  name: GetFolders(string)
+  nameWithType: AssetBundle.GetFolders(string)
+  fullName: Prowl.Runtime.Utils.AssetBundle.GetFolders(string)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Utils/AssetBundle.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: GetFolders
+    path: ../Prowl/Prowl.Runtime/Utils/AssetBundle.cs
+    startLine: 213
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.Utils
+  syntax:
+    content: public List<string> GetFolders(string folderPath)
+    parameters:
+    - id: folderPath
+      type: System.String
+    return:
+      type: System.Collections.Generic.List{System.String}
+    content.vb: Public Function GetFolders(folderPath As String) As List(Of String)
+  overload: Prowl.Runtime.Utils.AssetBundle.GetFolders*
+  nameWithType.vb: AssetBundle.GetFolders(String)
+  fullName.vb: Prowl.Runtime.Utils.AssetBundle.GetFolders(String)
+  name.vb: GetFolders(String)
+- uid: Prowl.Runtime.Utils.AssetBundle.HasAsset(System.Guid)
+  commentId: M:Prowl.Runtime.Utils.AssetBundle.HasAsset(System.Guid)
+  id: HasAsset(System.Guid)
+  parent: Prowl.Runtime.Utils.AssetBundle
+  langs:
+  - csharp
+  - vb
+  name: HasAsset(Guid)
+  nameWithType: AssetBundle.HasAsset(Guid)
+  fullName: Prowl.Runtime.Utils.AssetBundle.HasAsset(System.Guid)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Utils/AssetBundle.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: HasAsset
+    path: ../Prowl/Prowl.Runtime/Utils/AssetBundle.cs
+    startLine: 240
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.Utils
+  syntax:
+    content: public bool HasAsset(Guid assetID)
+    parameters:
+    - id: assetID
+      type: System.Guid
+    return:
+      type: System.Boolean
+    content.vb: Public Function HasAsset(assetID As Guid) As Boolean
+  overload: Prowl.Runtime.Utils.AssetBundle.HasAsset*
+- uid: Prowl.Runtime.Utils.AssetBundle.TryGetGuid(System.String,System.Guid@)
+  commentId: M:Prowl.Runtime.Utils.AssetBundle.TryGetGuid(System.String,System.Guid@)
+  id: TryGetGuid(System.String,System.Guid@)
+  parent: Prowl.Runtime.Utils.AssetBundle
+  langs:
+  - csharp
+  - vb
+  name: TryGetGuid(string, out Guid)
+  nameWithType: AssetBundle.TryGetGuid(string, out Guid)
+  fullName: Prowl.Runtime.Utils.AssetBundle.TryGetGuid(string, out System.Guid)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Utils/AssetBundle.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: TryGetGuid
+    path: ../Prowl/Prowl.Runtime/Utils/AssetBundle.cs
+    startLine: 242
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.Utils
+  syntax:
+    content: public bool TryGetGuid(string assetPath, out Guid guid)
+    parameters:
+    - id: assetPath
+      type: System.String
+    - id: guid
+      type: System.Guid
+    return:
+      type: System.Boolean
+    content.vb: Public Function TryGetGuid(assetPath As String, guid As Guid) As Boolean
+  overload: Prowl.Runtime.Utils.AssetBundle.TryGetGuid*
+  nameWithType.vb: AssetBundle.TryGetGuid(String, Guid)
+  fullName.vb: Prowl.Runtime.Utils.AssetBundle.TryGetGuid(String, System.Guid)
+  name.vb: TryGetGuid(String, Guid)
+- uid: Prowl.Runtime.Utils.AssetBundle.TryGetPath(System.Guid,System.String@)
+  commentId: M:Prowl.Runtime.Utils.AssetBundle.TryGetPath(System.Guid,System.String@)
+  id: TryGetPath(System.Guid,System.String@)
+  parent: Prowl.Runtime.Utils.AssetBundle
+  langs:
+  - csharp
+  - vb
+  name: TryGetPath(Guid, out string?)
+  nameWithType: AssetBundle.TryGetPath(Guid, out string?)
+  fullName: Prowl.Runtime.Utils.AssetBundle.TryGetPath(System.Guid, out string?)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Utils/AssetBundle.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: TryGetPath
+    path: ../Prowl/Prowl.Runtime/Utils/AssetBundle.cs
+    startLine: 244
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.Utils
+  syntax:
+    content: public bool TryGetPath(Guid guid, out string? assetPath)
+    parameters:
+    - id: guid
+      type: System.Guid
+    - id: assetPath
+      type: System.String
+    return:
+      type: System.Boolean
+    content.vb: Public Function TryGetPath(guid As Guid, assetPath As String) As Boolean
+  overload: Prowl.Runtime.Utils.AssetBundle.TryGetPath*
+  nameWithType.vb: AssetBundle.TryGetPath(Guid, String)
+  fullName.vb: Prowl.Runtime.Utils.AssetBundle.TryGetPath(System.Guid, String)
+  name.vb: TryGetPath(Guid, String)
+- uid: Prowl.Runtime.Utils.AssetBundle.TryGetAsset(System.Guid,Prowl.Runtime.Utils.SerializedAsset@)
+  commentId: M:Prowl.Runtime.Utils.AssetBundle.TryGetAsset(System.Guid,Prowl.Runtime.Utils.SerializedAsset@)
+  id: TryGetAsset(System.Guid,Prowl.Runtime.Utils.SerializedAsset@)
+  parent: Prowl.Runtime.Utils.AssetBundle
+  langs:
+  - csharp
+  - vb
+  name: TryGetAsset(Guid, out SerializedAsset?)
+  nameWithType: AssetBundle.TryGetAsset(Guid, out SerializedAsset?)
+  fullName: Prowl.Runtime.Utils.AssetBundle.TryGetAsset(System.Guid, out Prowl.Runtime.Utils.SerializedAsset?)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Utils/AssetBundle.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: TryGetAsset
+    path: ../Prowl/Prowl.Runtime/Utils/AssetBundle.cs
+    startLine: 246
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.Utils
+  syntax:
+    content: public bool TryGetAsset(Guid guid, out SerializedAsset? asset)
+    parameters:
+    - id: guid
+      type: System.Guid
+    - id: asset
+      type: Prowl.Runtime.Utils.SerializedAsset
+    return:
+      type: System.Boolean
+    content.vb: Public Function TryGetAsset(guid As Guid, asset As SerializedAsset) As Boolean
+  overload: Prowl.Runtime.Utils.AssetBundle.TryGetAsset*
+  nameWithType.vb: AssetBundle.TryGetAsset(Guid, SerializedAsset)
+  fullName.vb: Prowl.Runtime.Utils.AssetBundle.TryGetAsset(System.Guid, Prowl.Runtime.Utils.SerializedAsset)
+  name.vb: TryGetAsset(Guid, SerializedAsset)
+- uid: Prowl.Runtime.Utils.AssetBundle.TryGetAsset(System.String,Prowl.Runtime.Utils.SerializedAsset@)
+  commentId: M:Prowl.Runtime.Utils.AssetBundle.TryGetAsset(System.String,Prowl.Runtime.Utils.SerializedAsset@)
+  id: TryGetAsset(System.String,Prowl.Runtime.Utils.SerializedAsset@)
+  parent: Prowl.Runtime.Utils.AssetBundle
+  langs:
+  - csharp
+  - vb
+  name: TryGetAsset(string, out SerializedAsset?)
+  nameWithType: AssetBundle.TryGetAsset(string, out SerializedAsset?)
+  fullName: Prowl.Runtime.Utils.AssetBundle.TryGetAsset(string, out Prowl.Runtime.Utils.SerializedAsset?)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Utils/AssetBundle.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: TryGetAsset
+    path: ../Prowl/Prowl.Runtime/Utils/AssetBundle.cs
+    startLine: 265
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.Utils
+  syntax:
+    content: public bool TryGetAsset(string assetPath, out SerializedAsset? asset)
+    parameters:
+    - id: assetPath
+      type: System.String
+    - id: asset
+      type: Prowl.Runtime.Utils.SerializedAsset
+    return:
+      type: System.Boolean
+    content.vb: Public Function TryGetAsset(assetPath As String, asset As SerializedAsset) As Boolean
+  overload: Prowl.Runtime.Utils.AssetBundle.TryGetAsset*
+  nameWithType.vb: AssetBundle.TryGetAsset(String, SerializedAsset)
+  fullName.vb: Prowl.Runtime.Utils.AssetBundle.TryGetAsset(String, Prowl.Runtime.Utils.SerializedAsset)
+  name.vb: TryGetAsset(String, SerializedAsset)
+- uid: Prowl.Runtime.Utils.AssetBundle.Dispose
+  commentId: M:Prowl.Runtime.Utils.AssetBundle.Dispose
+  id: Dispose
+  parent: Prowl.Runtime.Utils.AssetBundle
+  langs:
+  - csharp
+  - vb
+  name: Dispose()
+  nameWithType: AssetBundle.Dispose()
+  fullName: Prowl.Runtime.Utils.AssetBundle.Dispose()
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Utils/AssetBundle.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Dispose
+    path: ../Prowl/Prowl.Runtime/Utils/AssetBundle.cs
+    startLine: 303
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.Utils
+  summary: Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources.
+  example: []
+  syntax:
+    content: public void Dispose()
+    content.vb: Public Sub Dispose()
+  overload: Prowl.Runtime.Utils.AssetBundle.Dispose*
+  implements:
+  - System.IDisposable.Dispose
+references:
+- uid: Prowl.Runtime.Utils
+  commentId: N:Prowl.Runtime.Utils
+  href: Prowl.html
+  name: Prowl.Runtime.Utils
+  nameWithType: Prowl.Runtime.Utils
+  fullName: Prowl.Runtime.Utils
+  spec.csharp:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+  - name: .
+  - uid: Prowl.Runtime.Utils
+    name: Utils
+    href: Prowl.Runtime.Utils.html
+  spec.vb:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+  - name: .
+  - uid: Prowl.Runtime.Utils
+    name: Utils
+    href: Prowl.Runtime.Utils.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.IDisposable
+  commentId: T:System.IDisposable
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.idisposable
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Prowl.Runtime.RuntimeUtils.GetSerializableFields
+  commentId: M:Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  parent: Prowl.Runtime.RuntimeUtils
+  definition: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  name: GetSerializableFields(object)
+  nameWithType: RuntimeUtils.GetSerializableFields(object)
+  fullName: Prowl.Runtime.RuntimeUtils.GetSerializableFields(object)
+  nameWithType.vb: RuntimeUtils.GetSerializableFields(Object)
+  fullName.vb: Prowl.Runtime.RuntimeUtils.GetSerializableFields(Object)
+  name.vb: GetSerializableFields(Object)
+  spec.csharp:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  commentId: M:Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  isExternal: true
+  href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  name: GetSerializableFields(object)
+  nameWithType: RuntimeUtils.GetSerializableFields(object)
+  fullName: Prowl.Runtime.RuntimeUtils.GetSerializableFields(object)
+  nameWithType.vb: RuntimeUtils.GetSerializableFields(Object)
+  fullName.vb: Prowl.Runtime.RuntimeUtils.GetSerializableFields(Object)
+  name.vb: GetSerializableFields(Object)
+  spec.csharp:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: Prowl.Runtime.RuntimeUtils
+  commentId: T:Prowl.Runtime.RuntimeUtils
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.RuntimeUtils.html
+  name: RuntimeUtils
+  nameWithType: RuntimeUtils
+  fullName: Prowl.Runtime.RuntimeUtils
+- uid: Prowl.Runtime
+  commentId: N:Prowl.Runtime
+  href: Prowl.html
+  name: Prowl.Runtime
+  nameWithType: Prowl.Runtime
+  fullName: Prowl.Runtime
+  spec.csharp:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+  spec.vb:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+- uid: Prowl.Runtime.Utils.AssetBundle.#ctor*
+  commentId: Overload:Prowl.Runtime.Utils.AssetBundle.#ctor
+  href: Prowl.Runtime.Utils.AssetBundle.html#Prowl_Runtime_Utils_AssetBundle__ctor_System_IO_Stream_System_IO_Compression_ZipArchiveMode_
+  name: AssetBundle
+  nameWithType: AssetBundle.AssetBundle
+  fullName: Prowl.Runtime.Utils.AssetBundle.AssetBundle
+  nameWithType.vb: AssetBundle.New
+  fullName.vb: Prowl.Runtime.Utils.AssetBundle.New
+  name.vb: New
+- uid: System.IO.Stream
+  commentId: T:System.IO.Stream
+  parent: System.IO
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.io.stream
+  name: Stream
+  nameWithType: Stream
+  fullName: System.IO.Stream
+- uid: System.IO.Compression.ZipArchiveMode
+  commentId: T:System.IO.Compression.ZipArchiveMode
+  parent: System.IO.Compression
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.io.compression.ziparchivemode
+  name: ZipArchiveMode
+  nameWithType: ZipArchiveMode
+  fullName: System.IO.Compression.ZipArchiveMode
+- uid: System.IO
+  commentId: N:System.IO
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.IO
+  nameWithType: System.IO
+  fullName: System.IO
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.IO
+    name: IO
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.io
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.IO
+    name: IO
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.io
+- uid: System.IO.Compression
+  commentId: N:System.IO.Compression
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.IO.Compression
+  nameWithType: System.IO.Compression
+  fullName: System.IO.Compression
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.IO
+    name: IO
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.io
+  - name: .
+  - uid: System.IO.Compression
+    name: Compression
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.io.compression
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.IO
+    name: IO
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.io
+  - name: .
+  - uid: System.IO.Compression
+    name: Compression
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.io.compression
+- uid: Prowl.Runtime.Utils.AssetBundle.CreateNew*
+  commentId: Overload:Prowl.Runtime.Utils.AssetBundle.CreateNew
+  href: Prowl.Runtime.Utils.AssetBundle.html#Prowl_Runtime_Utils_AssetBundle_CreateNew_System_IO_FileInfo_
+  name: CreateNew
+  nameWithType: AssetBundle.CreateNew
+  fullName: Prowl.Runtime.Utils.AssetBundle.CreateNew
+- uid: System.IO.FileInfo
+  commentId: T:System.IO.FileInfo
+  parent: System.IO
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.io.fileinfo
+  name: FileInfo
+  nameWithType: FileInfo
+  fullName: System.IO.FileInfo
+- uid: Prowl.Runtime.Utils.AssetBundle
+  commentId: T:Prowl.Runtime.Utils.AssetBundle
+  parent: Prowl.Runtime.Utils
+  href: Prowl.Runtime.Utils.AssetBundle.html
+  name: AssetBundle
+  nameWithType: AssetBundle
+  fullName: Prowl.Runtime.Utils.AssetBundle
+- uid: System.Int64
+  commentId: T:System.Int64
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int64
+  name: long
+  nameWithType: long
+  fullName: long
+  nameWithType.vb: Long
+  fullName.vb: Long
+  name.vb: Long
+- uid: Prowl.Runtime.Utils.AssetBundle.SizeInGB*
+  commentId: Overload:Prowl.Runtime.Utils.AssetBundle.SizeInGB
+  href: Prowl.Runtime.Utils.AssetBundle.html#Prowl_Runtime_Utils_AssetBundle_SizeInGB
+  name: SizeInGB
+  nameWithType: AssetBundle.SizeInGB
+  fullName: Prowl.Runtime.Utils.AssetBundle.SizeInGB
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.single
+  name: float
+  nameWithType: float
+  fullName: float
+  nameWithType.vb: Single
+  fullName.vb: Single
+  name.vb: Single
+- uid: Prowl.Runtime.Utils.AssetBundle.AddAsset*
+  commentId: Overload:Prowl.Runtime.Utils.AssetBundle.AddAsset
+  href: Prowl.Runtime.Utils.AssetBundle.html#Prowl_Runtime_Utils_AssetBundle_AddAsset_System_String_System_Guid_Prowl_Runtime_Utils_SerializedAsset_
+  name: AddAsset
+  nameWithType: AssetBundle.AddAsset
+  fullName: Prowl.Runtime.Utils.AssetBundle.AddAsset
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System.Guid
+  commentId: T:System.Guid
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.guid
+  name: Guid
+  nameWithType: Guid
+  fullName: System.Guid
+- uid: Prowl.Runtime.Utils.SerializedAsset
+  commentId: T:Prowl.Runtime.Utils.SerializedAsset
+  parent: Prowl.Runtime.Utils
+  href: Prowl.Runtime.Utils.SerializedAsset.html
+  name: SerializedAsset
+  nameWithType: SerializedAsset
+  fullName: Prowl.Runtime.Utils.SerializedAsset
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: Prowl.Runtime.Utils.AssetBundle.RemoveAsset*
+  commentId: Overload:Prowl.Runtime.Utils.AssetBundle.RemoveAsset
+  href: Prowl.Runtime.Utils.AssetBundle.html#Prowl_Runtime_Utils_AssetBundle_RemoveAsset_System_Guid_
+  name: RemoveAsset
+  nameWithType: AssetBundle.RemoveAsset
+  fullName: Prowl.Runtime.Utils.AssetBundle.RemoveAsset
+- uid: Prowl.Runtime.Utils.AssetBundle.MoveFile*
+  commentId: Overload:Prowl.Runtime.Utils.AssetBundle.MoveFile
+  href: Prowl.Runtime.Utils.AssetBundle.html#Prowl_Runtime_Utils_AssetBundle_MoveFile_System_String_System_String_
+  name: MoveFile
+  nameWithType: AssetBundle.MoveFile
+  fullName: Prowl.Runtime.Utils.AssetBundle.MoveFile
+- uid: Prowl.Runtime.Utils.AssetBundle.RenameFile*
+  commentId: Overload:Prowl.Runtime.Utils.AssetBundle.RenameFile
+  href: Prowl.Runtime.Utils.AssetBundle.html#Prowl_Runtime_Utils_AssetBundle_RenameFile_System_String_System_String_
+  name: RenameFile
+  nameWithType: AssetBundle.RenameFile
+  fullName: Prowl.Runtime.Utils.AssetBundle.RenameFile
+- uid: Prowl.Runtime.Utils.AssetBundle.GetAssets*
+  commentId: Overload:Prowl.Runtime.Utils.AssetBundle.GetAssets
+  href: Prowl.Runtime.Utils.AssetBundle.html#Prowl_Runtime_Utils_AssetBundle_GetAssets_System_String_System_Boolean_
+  name: GetAssets
+  nameWithType: AssetBundle.GetAssets
+  fullName: Prowl.Runtime.Utils.AssetBundle.GetAssets
+- uid: System.Collections.Generic.List{System.String}
+  commentId: T:System.Collections.Generic.List{System.String}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<string>
+  nameWithType: List<string>
+  fullName: System.Collections.Generic.List<string>
+  nameWithType.vb: List(Of String)
+  fullName.vb: System.Collections.Generic.List(Of String)
+  name.vb: List(Of String)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: Prowl.Runtime.Utils.AssetBundle.GetAllGuids*
+  commentId: Overload:Prowl.Runtime.Utils.AssetBundle.GetAllGuids
+  href: Prowl.Runtime.Utils.AssetBundle.html#Prowl_Runtime_Utils_AssetBundle_GetAllGuids
+  name: GetAllGuids
+  nameWithType: AssetBundle.GetAllGuids
+  fullName: Prowl.Runtime.Utils.AssetBundle.GetAllGuids
+- uid: System.Collections.Generic.List{System.Guid}
+  commentId: T:System.Collections.Generic.List{System.Guid}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<Guid>
+  nameWithType: List<Guid>
+  fullName: System.Collections.Generic.List<System.Guid>
+  nameWithType.vb: List(Of Guid)
+  fullName.vb: System.Collections.Generic.List(Of System.Guid)
+  name.vb: List(Of Guid)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - uid: System.Guid
+    name: Guid
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.guid
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Guid
+    name: Guid
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.guid
+  - name: )
+- uid: Prowl.Runtime.Utils.AssetBundle.GetRootFolders*
+  commentId: Overload:Prowl.Runtime.Utils.AssetBundle.GetRootFolders
+  href: Prowl.Runtime.Utils.AssetBundle.html#Prowl_Runtime_Utils_AssetBundle_GetRootFolders
+  name: GetRootFolders
+  nameWithType: AssetBundle.GetRootFolders
+  fullName: Prowl.Runtime.Utils.AssetBundle.GetRootFolders
+- uid: Prowl.Runtime.Utils.AssetBundle.GetFolders*
+  commentId: Overload:Prowl.Runtime.Utils.AssetBundle.GetFolders
+  href: Prowl.Runtime.Utils.AssetBundle.html#Prowl_Runtime_Utils_AssetBundle_GetFolders_System_String_
+  name: GetFolders
+  nameWithType: AssetBundle.GetFolders
+  fullName: Prowl.Runtime.Utils.AssetBundle.GetFolders
+- uid: Prowl.Runtime.Utils.AssetBundle.HasAsset*
+  commentId: Overload:Prowl.Runtime.Utils.AssetBundle.HasAsset
+  href: Prowl.Runtime.Utils.AssetBundle.html#Prowl_Runtime_Utils_AssetBundle_HasAsset_System_Guid_
+  name: HasAsset
+  nameWithType: AssetBundle.HasAsset
+  fullName: Prowl.Runtime.Utils.AssetBundle.HasAsset
+- uid: Prowl.Runtime.Utils.AssetBundle.TryGetGuid*
+  commentId: Overload:Prowl.Runtime.Utils.AssetBundle.TryGetGuid
+  href: Prowl.Runtime.Utils.AssetBundle.html#Prowl_Runtime_Utils_AssetBundle_TryGetGuid_System_String_System_Guid__
+  name: TryGetGuid
+  nameWithType: AssetBundle.TryGetGuid
+  fullName: Prowl.Runtime.Utils.AssetBundle.TryGetGuid
+- uid: Prowl.Runtime.Utils.AssetBundle.TryGetPath*
+  commentId: Overload:Prowl.Runtime.Utils.AssetBundle.TryGetPath
+  href: Prowl.Runtime.Utils.AssetBundle.html#Prowl_Runtime_Utils_AssetBundle_TryGetPath_System_Guid_System_String__
+  name: TryGetPath
+  nameWithType: AssetBundle.TryGetPath
+  fullName: Prowl.Runtime.Utils.AssetBundle.TryGetPath
+- uid: Prowl.Runtime.Utils.AssetBundle.TryGetAsset*
+  commentId: Overload:Prowl.Runtime.Utils.AssetBundle.TryGetAsset
+  href: Prowl.Runtime.Utils.AssetBundle.html#Prowl_Runtime_Utils_AssetBundle_TryGetAsset_System_Guid_Prowl_Runtime_Utils_SerializedAsset__
+  name: TryGetAsset
+  nameWithType: AssetBundle.TryGetAsset
+  fullName: Prowl.Runtime.Utils.AssetBundle.TryGetAsset
+- uid: Prowl.Runtime.Utils.AssetBundle.Dispose*
+  commentId: Overload:Prowl.Runtime.Utils.AssetBundle.Dispose
+  href: Prowl.Runtime.Utils.AssetBundle.html#Prowl_Runtime_Utils_AssetBundle_Dispose
+  name: Dispose
+  nameWithType: AssetBundle.Dispose
+  fullName: Prowl.Runtime.Utils.AssetBundle.Dispose
+- uid: System.IDisposable.Dispose
+  commentId: M:System.IDisposable.Dispose
+  parent: System.IDisposable
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
+  name: Dispose()
+  nameWithType: IDisposable.Dispose()
+  fullName: System.IDisposable.Dispose()
+  spec.csharp:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
+  - name: (
+  - name: )

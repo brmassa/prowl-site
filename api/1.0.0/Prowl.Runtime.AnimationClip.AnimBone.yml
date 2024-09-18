@@ -1,0 +1,842 @@
+### YamlMime:ManagedReference
+items:
+- uid: Prowl.Runtime.AnimationClip.AnimBone
+  commentId: T:Prowl.Runtime.AnimationClip.AnimBone
+  id: AnimationClip.AnimBone
+  parent: Prowl.Runtime
+  children:
+  - Prowl.Runtime.AnimationClip.AnimBone.BoneName
+  - Prowl.Runtime.AnimationClip.AnimBone.EvaluatePositionAt(System.Double)
+  - Prowl.Runtime.AnimationClip.AnimBone.EvaluateRotationAt(System.Double)
+  - Prowl.Runtime.AnimationClip.AnimBone.EvaluateScaleAt(System.Double)
+  - Prowl.Runtime.AnimationClip.AnimBone.PosX
+  - Prowl.Runtime.AnimationClip.AnimBone.PosY
+  - Prowl.Runtime.AnimationClip.AnimBone.PosZ
+  - Prowl.Runtime.AnimationClip.AnimBone.RotW
+  - Prowl.Runtime.AnimationClip.AnimBone.RotX
+  - Prowl.Runtime.AnimationClip.AnimBone.RotY
+  - Prowl.Runtime.AnimationClip.AnimBone.RotZ
+  - Prowl.Runtime.AnimationClip.AnimBone.ScaleX
+  - Prowl.Runtime.AnimationClip.AnimBone.ScaleY
+  - Prowl.Runtime.AnimationClip.AnimBone.ScaleZ
+  langs:
+  - csharp
+  - vb
+  name: AnimationClip.AnimBone
+  nameWithType: AnimationClip.AnimBone
+  fullName: Prowl.Runtime.AnimationClip.AnimBone
+  type: Class
+  source:
+    remote:
+      path: Prowl.Runtime/Resources/AnimationClip.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: AnimBone
+    path: ../Prowl/Prowl.Runtime/Resources/AnimationClip.cs
+    startLine: 155
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public class AnimationClip.AnimBone
+    content.vb: Public Class AnimationClip.AnimBone
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  extensionMethods:
+  - System.Object.Prowl.Runtime.RuntimeUtils.GetSerializableFields
+- uid: Prowl.Runtime.AnimationClip.AnimBone.BoneName
+  commentId: F:Prowl.Runtime.AnimationClip.AnimBone.BoneName
+  id: BoneName
+  parent: Prowl.Runtime.AnimationClip.AnimBone
+  langs:
+  - csharp
+  - vb
+  name: BoneName
+  nameWithType: AnimationClip.AnimBone.BoneName
+  fullName: Prowl.Runtime.AnimationClip.AnimBone.BoneName
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/Resources/AnimationClip.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: BoneName
+    path: ../Prowl/Prowl.Runtime/Resources/AnimationClip.cs
+    startLine: 157
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public string BoneName
+    return:
+      type: System.String
+    content.vb: Public BoneName As String
+- uid: Prowl.Runtime.AnimationClip.AnimBone.PosX
+  commentId: F:Prowl.Runtime.AnimationClip.AnimBone.PosX
+  id: PosX
+  parent: Prowl.Runtime.AnimationClip.AnimBone
+  langs:
+  - csharp
+  - vb
+  name: PosX
+  nameWithType: AnimationClip.AnimBone.PosX
+  fullName: Prowl.Runtime.AnimationClip.AnimBone.PosX
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/Resources/AnimationClip.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: PosX
+    path: ../Prowl/Prowl.Runtime/Resources/AnimationClip.cs
+    startLine: 159
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public AnimationCurve PosX
+    return:
+      type: Prowl.Runtime.AnimationCurve
+    content.vb: Public PosX As AnimationCurve
+- uid: Prowl.Runtime.AnimationClip.AnimBone.PosY
+  commentId: F:Prowl.Runtime.AnimationClip.AnimBone.PosY
+  id: PosY
+  parent: Prowl.Runtime.AnimationClip.AnimBone
+  langs:
+  - csharp
+  - vb
+  name: PosY
+  nameWithType: AnimationClip.AnimBone.PosY
+  fullName: Prowl.Runtime.AnimationClip.AnimBone.PosY
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/Resources/AnimationClip.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: PosY
+    path: ../Prowl/Prowl.Runtime/Resources/AnimationClip.cs
+    startLine: 159
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public AnimationCurve PosY
+    return:
+      type: Prowl.Runtime.AnimationCurve
+    content.vb: Public PosY As AnimationCurve
+- uid: Prowl.Runtime.AnimationClip.AnimBone.PosZ
+  commentId: F:Prowl.Runtime.AnimationClip.AnimBone.PosZ
+  id: PosZ
+  parent: Prowl.Runtime.AnimationClip.AnimBone
+  langs:
+  - csharp
+  - vb
+  name: PosZ
+  nameWithType: AnimationClip.AnimBone.PosZ
+  fullName: Prowl.Runtime.AnimationClip.AnimBone.PosZ
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/Resources/AnimationClip.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: PosZ
+    path: ../Prowl/Prowl.Runtime/Resources/AnimationClip.cs
+    startLine: 159
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public AnimationCurve PosZ
+    return:
+      type: Prowl.Runtime.AnimationCurve
+    content.vb: Public PosZ As AnimationCurve
+- uid: Prowl.Runtime.AnimationClip.AnimBone.RotX
+  commentId: F:Prowl.Runtime.AnimationClip.AnimBone.RotX
+  id: RotX
+  parent: Prowl.Runtime.AnimationClip.AnimBone
+  langs:
+  - csharp
+  - vb
+  name: RotX
+  nameWithType: AnimationClip.AnimBone.RotX
+  fullName: Prowl.Runtime.AnimationClip.AnimBone.RotX
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/Resources/AnimationClip.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: RotX
+    path: ../Prowl/Prowl.Runtime/Resources/AnimationClip.cs
+    startLine: 160
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public AnimationCurve RotX
+    return:
+      type: Prowl.Runtime.AnimationCurve
+    content.vb: Public RotX As AnimationCurve
+- uid: Prowl.Runtime.AnimationClip.AnimBone.RotY
+  commentId: F:Prowl.Runtime.AnimationClip.AnimBone.RotY
+  id: RotY
+  parent: Prowl.Runtime.AnimationClip.AnimBone
+  langs:
+  - csharp
+  - vb
+  name: RotY
+  nameWithType: AnimationClip.AnimBone.RotY
+  fullName: Prowl.Runtime.AnimationClip.AnimBone.RotY
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/Resources/AnimationClip.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: RotY
+    path: ../Prowl/Prowl.Runtime/Resources/AnimationClip.cs
+    startLine: 160
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public AnimationCurve RotY
+    return:
+      type: Prowl.Runtime.AnimationCurve
+    content.vb: Public RotY As AnimationCurve
+- uid: Prowl.Runtime.AnimationClip.AnimBone.RotZ
+  commentId: F:Prowl.Runtime.AnimationClip.AnimBone.RotZ
+  id: RotZ
+  parent: Prowl.Runtime.AnimationClip.AnimBone
+  langs:
+  - csharp
+  - vb
+  name: RotZ
+  nameWithType: AnimationClip.AnimBone.RotZ
+  fullName: Prowl.Runtime.AnimationClip.AnimBone.RotZ
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/Resources/AnimationClip.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: RotZ
+    path: ../Prowl/Prowl.Runtime/Resources/AnimationClip.cs
+    startLine: 160
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public AnimationCurve RotZ
+    return:
+      type: Prowl.Runtime.AnimationCurve
+    content.vb: Public RotZ As AnimationCurve
+- uid: Prowl.Runtime.AnimationClip.AnimBone.RotW
+  commentId: F:Prowl.Runtime.AnimationClip.AnimBone.RotW
+  id: RotW
+  parent: Prowl.Runtime.AnimationClip.AnimBone
+  langs:
+  - csharp
+  - vb
+  name: RotW
+  nameWithType: AnimationClip.AnimBone.RotW
+  fullName: Prowl.Runtime.AnimationClip.AnimBone.RotW
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/Resources/AnimationClip.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: RotW
+    path: ../Prowl/Prowl.Runtime/Resources/AnimationClip.cs
+    startLine: 160
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public AnimationCurve RotW
+    return:
+      type: Prowl.Runtime.AnimationCurve
+    content.vb: Public RotW As AnimationCurve
+- uid: Prowl.Runtime.AnimationClip.AnimBone.ScaleX
+  commentId: F:Prowl.Runtime.AnimationClip.AnimBone.ScaleX
+  id: ScaleX
+  parent: Prowl.Runtime.AnimationClip.AnimBone
+  langs:
+  - csharp
+  - vb
+  name: ScaleX
+  nameWithType: AnimationClip.AnimBone.ScaleX
+  fullName: Prowl.Runtime.AnimationClip.AnimBone.ScaleX
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/Resources/AnimationClip.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: ScaleX
+    path: ../Prowl/Prowl.Runtime/Resources/AnimationClip.cs
+    startLine: 161
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public AnimationCurve ScaleX
+    return:
+      type: Prowl.Runtime.AnimationCurve
+    content.vb: Public ScaleX As AnimationCurve
+- uid: Prowl.Runtime.AnimationClip.AnimBone.ScaleY
+  commentId: F:Prowl.Runtime.AnimationClip.AnimBone.ScaleY
+  id: ScaleY
+  parent: Prowl.Runtime.AnimationClip.AnimBone
+  langs:
+  - csharp
+  - vb
+  name: ScaleY
+  nameWithType: AnimationClip.AnimBone.ScaleY
+  fullName: Prowl.Runtime.AnimationClip.AnimBone.ScaleY
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/Resources/AnimationClip.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: ScaleY
+    path: ../Prowl/Prowl.Runtime/Resources/AnimationClip.cs
+    startLine: 161
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public AnimationCurve ScaleY
+    return:
+      type: Prowl.Runtime.AnimationCurve
+    content.vb: Public ScaleY As AnimationCurve
+- uid: Prowl.Runtime.AnimationClip.AnimBone.ScaleZ
+  commentId: F:Prowl.Runtime.AnimationClip.AnimBone.ScaleZ
+  id: ScaleZ
+  parent: Prowl.Runtime.AnimationClip.AnimBone
+  langs:
+  - csharp
+  - vb
+  name: ScaleZ
+  nameWithType: AnimationClip.AnimBone.ScaleZ
+  fullName: Prowl.Runtime.AnimationClip.AnimBone.ScaleZ
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/Resources/AnimationClip.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: ScaleZ
+    path: ../Prowl/Prowl.Runtime/Resources/AnimationClip.cs
+    startLine: 161
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public AnimationCurve ScaleZ
+    return:
+      type: Prowl.Runtime.AnimationCurve
+    content.vb: Public ScaleZ As AnimationCurve
+- uid: Prowl.Runtime.AnimationClip.AnimBone.EvaluatePositionAt(System.Double)
+  commentId: M:Prowl.Runtime.AnimationClip.AnimBone.EvaluatePositionAt(System.Double)
+  id: EvaluatePositionAt(System.Double)
+  parent: Prowl.Runtime.AnimationClip.AnimBone
+  langs:
+  - csharp
+  - vb
+  name: EvaluatePositionAt(double)
+  nameWithType: AnimationClip.AnimBone.EvaluatePositionAt(double)
+  fullName: Prowl.Runtime.AnimationClip.AnimBone.EvaluatePositionAt(double)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Resources/AnimationClip.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: EvaluatePositionAt
+    path: ../Prowl/Prowl.Runtime/Resources/AnimationClip.cs
+    startLine: 163
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public Vector3 EvaluatePositionAt(double time)
+    parameters:
+    - id: time
+      type: System.Double
+    return:
+      type: Prowl.Runtime.Vector3
+    content.vb: Public Function EvaluatePositionAt(time As Double) As Vector3
+  overload: Prowl.Runtime.AnimationClip.AnimBone.EvaluatePositionAt*
+  nameWithType.vb: AnimationClip.AnimBone.EvaluatePositionAt(Double)
+  fullName.vb: Prowl.Runtime.AnimationClip.AnimBone.EvaluatePositionAt(Double)
+  name.vb: EvaluatePositionAt(Double)
+- uid: Prowl.Runtime.AnimationClip.AnimBone.EvaluateRotationAt(System.Double)
+  commentId: M:Prowl.Runtime.AnimationClip.AnimBone.EvaluateRotationAt(System.Double)
+  id: EvaluateRotationAt(System.Double)
+  parent: Prowl.Runtime.AnimationClip.AnimBone
+  langs:
+  - csharp
+  - vb
+  name: EvaluateRotationAt(double)
+  nameWithType: AnimationClip.AnimBone.EvaluateRotationAt(double)
+  fullName: Prowl.Runtime.AnimationClip.AnimBone.EvaluateRotationAt(double)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Resources/AnimationClip.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: EvaluateRotationAt
+    path: ../Prowl/Prowl.Runtime/Resources/AnimationClip.cs
+    startLine: 166
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public Quaternion EvaluateRotationAt(double time)
+    parameters:
+    - id: time
+      type: System.Double
+    return:
+      type: Prowl.Runtime.Quaternion
+    content.vb: Public Function EvaluateRotationAt(time As Double) As Quaternion
+  overload: Prowl.Runtime.AnimationClip.AnimBone.EvaluateRotationAt*
+  nameWithType.vb: AnimationClip.AnimBone.EvaluateRotationAt(Double)
+  fullName.vb: Prowl.Runtime.AnimationClip.AnimBone.EvaluateRotationAt(Double)
+  name.vb: EvaluateRotationAt(Double)
+- uid: Prowl.Runtime.AnimationClip.AnimBone.EvaluateScaleAt(System.Double)
+  commentId: M:Prowl.Runtime.AnimationClip.AnimBone.EvaluateScaleAt(System.Double)
+  id: EvaluateScaleAt(System.Double)
+  parent: Prowl.Runtime.AnimationClip.AnimBone
+  langs:
+  - csharp
+  - vb
+  name: EvaluateScaleAt(double)
+  nameWithType: AnimationClip.AnimBone.EvaluateScaleAt(double)
+  fullName: Prowl.Runtime.AnimationClip.AnimBone.EvaluateScaleAt(double)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Resources/AnimationClip.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: EvaluateScaleAt
+    path: ../Prowl/Prowl.Runtime/Resources/AnimationClip.cs
+    startLine: 169
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public Vector3 EvaluateScaleAt(double time)
+    parameters:
+    - id: time
+      type: System.Double
+    return:
+      type: Prowl.Runtime.Vector3
+    content.vb: Public Function EvaluateScaleAt(time As Double) As Vector3
+  overload: Prowl.Runtime.AnimationClip.AnimBone.EvaluateScaleAt*
+  nameWithType.vb: AnimationClip.AnimBone.EvaluateScaleAt(Double)
+  fullName.vb: Prowl.Runtime.AnimationClip.AnimBone.EvaluateScaleAt(Double)
+  name.vb: EvaluateScaleAt(Double)
+references:
+- uid: Prowl.Runtime
+  commentId: N:Prowl.Runtime
+  href: Prowl.html
+  name: Prowl.Runtime
+  nameWithType: Prowl.Runtime
+  fullName: Prowl.Runtime
+  spec.csharp:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+  spec.vb:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Prowl.Runtime.RuntimeUtils.GetSerializableFields
+  commentId: M:Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  parent: Prowl.Runtime.RuntimeUtils
+  definition: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  name: GetSerializableFields(object)
+  nameWithType: RuntimeUtils.GetSerializableFields(object)
+  fullName: Prowl.Runtime.RuntimeUtils.GetSerializableFields(object)
+  nameWithType.vb: RuntimeUtils.GetSerializableFields(Object)
+  fullName.vb: Prowl.Runtime.RuntimeUtils.GetSerializableFields(Object)
+  name.vb: GetSerializableFields(Object)
+  spec.csharp:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  commentId: M:Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  isExternal: true
+  href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  name: GetSerializableFields(object)
+  nameWithType: RuntimeUtils.GetSerializableFields(object)
+  fullName: Prowl.Runtime.RuntimeUtils.GetSerializableFields(object)
+  nameWithType.vb: RuntimeUtils.GetSerializableFields(Object)
+  fullName.vb: Prowl.Runtime.RuntimeUtils.GetSerializableFields(Object)
+  name.vb: GetSerializableFields(Object)
+  spec.csharp:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: Prowl.Runtime.RuntimeUtils
+  commentId: T:Prowl.Runtime.RuntimeUtils
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.RuntimeUtils.html
+  name: RuntimeUtils
+  nameWithType: RuntimeUtils
+  fullName: Prowl.Runtime.RuntimeUtils
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: Prowl.Runtime.AnimationCurve
+  commentId: T:Prowl.Runtime.AnimationCurve
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.AnimationCurve.html
+  name: AnimationCurve
+  nameWithType: AnimationCurve
+  fullName: Prowl.Runtime.AnimationCurve
+- uid: Prowl.Runtime.AnimationClip.AnimBone.EvaluatePositionAt*
+  commentId: Overload:Prowl.Runtime.AnimationClip.AnimBone.EvaluatePositionAt
+  href: Prowl.Runtime.AnimationClip.AnimBone.html#Prowl_Runtime_AnimationClip_AnimBone_EvaluatePositionAt_System_Double_
+  name: EvaluatePositionAt
+  nameWithType: AnimationClip.AnimBone.EvaluatePositionAt
+  fullName: Prowl.Runtime.AnimationClip.AnimBone.EvaluatePositionAt
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.double
+  name: double
+  nameWithType: double
+  fullName: double
+  nameWithType.vb: Double
+  fullName.vb: Double
+  name.vb: Double
+- uid: Prowl.Runtime.Vector3
+  commentId: T:Prowl.Runtime.Vector3
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.Vector3.html
+  name: Vector3
+  nameWithType: Vector3
+  fullName: Prowl.Runtime.Vector3
+- uid: Prowl.Runtime.AnimationClip.AnimBone.EvaluateRotationAt*
+  commentId: Overload:Prowl.Runtime.AnimationClip.AnimBone.EvaluateRotationAt
+  href: Prowl.Runtime.AnimationClip.AnimBone.html#Prowl_Runtime_AnimationClip_AnimBone_EvaluateRotationAt_System_Double_
+  name: EvaluateRotationAt
+  nameWithType: AnimationClip.AnimBone.EvaluateRotationAt
+  fullName: Prowl.Runtime.AnimationClip.AnimBone.EvaluateRotationAt
+- uid: Prowl.Runtime.Quaternion
+  commentId: T:Prowl.Runtime.Quaternion
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.Quaternion.html
+  name: Quaternion
+  nameWithType: Quaternion
+  fullName: Prowl.Runtime.Quaternion
+- uid: Prowl.Runtime.AnimationClip.AnimBone.EvaluateScaleAt*
+  commentId: Overload:Prowl.Runtime.AnimationClip.AnimBone.EvaluateScaleAt
+  href: Prowl.Runtime.AnimationClip.AnimBone.html#Prowl_Runtime_AnimationClip_AnimBone_EvaluateScaleAt_System_Double_
+  name: EvaluateScaleAt
+  nameWithType: AnimationClip.AnimBone.EvaluateScaleAt
+  fullName: Prowl.Runtime.AnimationClip.AnimBone.EvaluateScaleAt

@@ -1,0 +1,387 @@
+### YamlMime:ManagedReference
+items:
+- uid: Prowl.Runtime.StringTagConverter.TextTokenType
+  commentId: T:Prowl.Runtime.StringTagConverter.TextTokenType
+  id: StringTagConverter.TextTokenType
+  parent: Prowl.Runtime
+  children:
+  - Prowl.Runtime.StringTagConverter.TextTokenType.BeginArray
+  - Prowl.Runtime.StringTagConverter.TextTokenType.BeginCompound
+  - Prowl.Runtime.StringTagConverter.TextTokenType.BeginList
+  - Prowl.Runtime.StringTagConverter.TextTokenType.EndCompound
+  - Prowl.Runtime.StringTagConverter.TextTokenType.EndList
+  - Prowl.Runtime.StringTagConverter.TextTokenType.NameValueSeparator
+  - Prowl.Runtime.StringTagConverter.TextTokenType.None
+  - Prowl.Runtime.StringTagConverter.TextTokenType.Separator
+  - Prowl.Runtime.StringTagConverter.TextTokenType.Value
+  langs:
+  - csharp
+  - vb
+  name: StringTagConverter.TextTokenType
+  nameWithType: StringTagConverter.TextTokenType
+  fullName: Prowl.Runtime.StringTagConverter.TextTokenType
+  type: Enum
+  source:
+    remote:
+      path: Prowl.Runtime/Serializer/Formats/StringTagConverter.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: TextTokenType
+    path: ../Prowl/Prowl.Runtime/Serializer/Formats/StringTagConverter.cs
+    startLine: 235
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public enum StringTagConverter.TextTokenType
+    content.vb: Public Enum StringTagConverter.TextTokenType
+  extensionMethods:
+  - System.Object.Prowl.Runtime.RuntimeUtils.GetSerializableFields
+- uid: Prowl.Runtime.StringTagConverter.TextTokenType.None
+  commentId: F:Prowl.Runtime.StringTagConverter.TextTokenType.None
+  id: None
+  parent: Prowl.Runtime.StringTagConverter.TextTokenType
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: StringTagConverter.TextTokenType.None
+  fullName: Prowl.Runtime.StringTagConverter.TextTokenType.None
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/Serializer/Formats/StringTagConverter.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: None
+    path: ../Prowl/Prowl.Runtime/Serializer/Formats/StringTagConverter.cs
+    startLine: 237
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: None = 0
+    return:
+      type: Prowl.Runtime.StringTagConverter.TextTokenType
+- uid: Prowl.Runtime.StringTagConverter.TextTokenType.BeginCompound
+  commentId: F:Prowl.Runtime.StringTagConverter.TextTokenType.BeginCompound
+  id: BeginCompound
+  parent: Prowl.Runtime.StringTagConverter.TextTokenType
+  langs:
+  - csharp
+  - vb
+  name: BeginCompound
+  nameWithType: StringTagConverter.TextTokenType.BeginCompound
+  fullName: Prowl.Runtime.StringTagConverter.TextTokenType.BeginCompound
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/Serializer/Formats/StringTagConverter.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: BeginCompound
+    path: ../Prowl/Prowl.Runtime/Serializer/Formats/StringTagConverter.cs
+    startLine: 238
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: BeginCompound = 1
+    return:
+      type: Prowl.Runtime.StringTagConverter.TextTokenType
+- uid: Prowl.Runtime.StringTagConverter.TextTokenType.EndCompound
+  commentId: F:Prowl.Runtime.StringTagConverter.TextTokenType.EndCompound
+  id: EndCompound
+  parent: Prowl.Runtime.StringTagConverter.TextTokenType
+  langs:
+  - csharp
+  - vb
+  name: EndCompound
+  nameWithType: StringTagConverter.TextTokenType.EndCompound
+  fullName: Prowl.Runtime.StringTagConverter.TextTokenType.EndCompound
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/Serializer/Formats/StringTagConverter.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: EndCompound
+    path: ../Prowl/Prowl.Runtime/Serializer/Formats/StringTagConverter.cs
+    startLine: 239
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: EndCompound = 2
+    return:
+      type: Prowl.Runtime.StringTagConverter.TextTokenType
+- uid: Prowl.Runtime.StringTagConverter.TextTokenType.BeginList
+  commentId: F:Prowl.Runtime.StringTagConverter.TextTokenType.BeginList
+  id: BeginList
+  parent: Prowl.Runtime.StringTagConverter.TextTokenType
+  langs:
+  - csharp
+  - vb
+  name: BeginList
+  nameWithType: StringTagConverter.TextTokenType.BeginList
+  fullName: Prowl.Runtime.StringTagConverter.TextTokenType.BeginList
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/Serializer/Formats/StringTagConverter.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: BeginList
+    path: ../Prowl/Prowl.Runtime/Serializer/Formats/StringTagConverter.cs
+    startLine: 240
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: BeginList = 3
+    return:
+      type: Prowl.Runtime.StringTagConverter.TextTokenType
+- uid: Prowl.Runtime.StringTagConverter.TextTokenType.BeginArray
+  commentId: F:Prowl.Runtime.StringTagConverter.TextTokenType.BeginArray
+  id: BeginArray
+  parent: Prowl.Runtime.StringTagConverter.TextTokenType
+  langs:
+  - csharp
+  - vb
+  name: BeginArray
+  nameWithType: StringTagConverter.TextTokenType.BeginArray
+  fullName: Prowl.Runtime.StringTagConverter.TextTokenType.BeginArray
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/Serializer/Formats/StringTagConverter.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: BeginArray
+    path: ../Prowl/Prowl.Runtime/Serializer/Formats/StringTagConverter.cs
+    startLine: 241
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: BeginArray = 4
+    return:
+      type: Prowl.Runtime.StringTagConverter.TextTokenType
+- uid: Prowl.Runtime.StringTagConverter.TextTokenType.EndList
+  commentId: F:Prowl.Runtime.StringTagConverter.TextTokenType.EndList
+  id: EndList
+  parent: Prowl.Runtime.StringTagConverter.TextTokenType
+  langs:
+  - csharp
+  - vb
+  name: EndList
+  nameWithType: StringTagConverter.TextTokenType.EndList
+  fullName: Prowl.Runtime.StringTagConverter.TextTokenType.EndList
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/Serializer/Formats/StringTagConverter.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: EndList
+    path: ../Prowl/Prowl.Runtime/Serializer/Formats/StringTagConverter.cs
+    startLine: 242
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: EndList = 5
+    return:
+      type: Prowl.Runtime.StringTagConverter.TextTokenType
+- uid: Prowl.Runtime.StringTagConverter.TextTokenType.Separator
+  commentId: F:Prowl.Runtime.StringTagConverter.TextTokenType.Separator
+  id: Separator
+  parent: Prowl.Runtime.StringTagConverter.TextTokenType
+  langs:
+  - csharp
+  - vb
+  name: Separator
+  nameWithType: StringTagConverter.TextTokenType.Separator
+  fullName: Prowl.Runtime.StringTagConverter.TextTokenType.Separator
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/Serializer/Formats/StringTagConverter.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Separator
+    path: ../Prowl/Prowl.Runtime/Serializer/Formats/StringTagConverter.cs
+    startLine: 243
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: Separator = 6
+    return:
+      type: Prowl.Runtime.StringTagConverter.TextTokenType
+- uid: Prowl.Runtime.StringTagConverter.TextTokenType.NameValueSeparator
+  commentId: F:Prowl.Runtime.StringTagConverter.TextTokenType.NameValueSeparator
+  id: NameValueSeparator
+  parent: Prowl.Runtime.StringTagConverter.TextTokenType
+  langs:
+  - csharp
+  - vb
+  name: NameValueSeparator
+  nameWithType: StringTagConverter.TextTokenType.NameValueSeparator
+  fullName: Prowl.Runtime.StringTagConverter.TextTokenType.NameValueSeparator
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/Serializer/Formats/StringTagConverter.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: NameValueSeparator
+    path: ../Prowl/Prowl.Runtime/Serializer/Formats/StringTagConverter.cs
+    startLine: 244
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: NameValueSeparator = 7
+    return:
+      type: Prowl.Runtime.StringTagConverter.TextTokenType
+- uid: Prowl.Runtime.StringTagConverter.TextTokenType.Value
+  commentId: F:Prowl.Runtime.StringTagConverter.TextTokenType.Value
+  id: Value
+  parent: Prowl.Runtime.StringTagConverter.TextTokenType
+  langs:
+  - csharp
+  - vb
+  name: Value
+  nameWithType: StringTagConverter.TextTokenType.Value
+  fullName: Prowl.Runtime.StringTagConverter.TextTokenType.Value
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/Serializer/Formats/StringTagConverter.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Value
+    path: ../Prowl/Prowl.Runtime/Serializer/Formats/StringTagConverter.cs
+    startLine: 245
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: Value = 8
+    return:
+      type: Prowl.Runtime.StringTagConverter.TextTokenType
+references:
+- uid: Prowl.Runtime
+  commentId: N:Prowl.Runtime
+  href: Prowl.html
+  name: Prowl.Runtime
+  nameWithType: Prowl.Runtime
+  fullName: Prowl.Runtime
+  spec.csharp:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+  spec.vb:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+- uid: System.Object.Prowl.Runtime.RuntimeUtils.GetSerializableFields
+  commentId: M:Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  parent: Prowl.Runtime.RuntimeUtils
+  definition: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  name: GetSerializableFields(object)
+  nameWithType: RuntimeUtils.GetSerializableFields(object)
+  fullName: Prowl.Runtime.RuntimeUtils.GetSerializableFields(object)
+  nameWithType.vb: RuntimeUtils.GetSerializableFields(Object)
+  fullName.vb: Prowl.Runtime.RuntimeUtils.GetSerializableFields(Object)
+  name.vb: GetSerializableFields(Object)
+  spec.csharp:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  commentId: M:Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  isExternal: true
+  href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  name: GetSerializableFields(object)
+  nameWithType: RuntimeUtils.GetSerializableFields(object)
+  fullName: Prowl.Runtime.RuntimeUtils.GetSerializableFields(object)
+  nameWithType.vb: RuntimeUtils.GetSerializableFields(Object)
+  fullName.vb: Prowl.Runtime.RuntimeUtils.GetSerializableFields(Object)
+  name.vb: GetSerializableFields(Object)
+  spec.csharp:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: Prowl.Runtime.RuntimeUtils
+  commentId: T:Prowl.Runtime.RuntimeUtils
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.RuntimeUtils.html
+  name: RuntimeUtils
+  nameWithType: RuntimeUtils
+  fullName: Prowl.Runtime.RuntimeUtils
+- uid: Prowl.Runtime.StringTagConverter.TextTokenType
+  commentId: T:Prowl.Runtime.StringTagConverter.TextTokenType
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.StringTagConverter.html
+  name: StringTagConverter.TextTokenType
+  nameWithType: StringTagConverter.TextTokenType
+  fullName: Prowl.Runtime.StringTagConverter.TextTokenType
+  spec.csharp:
+  - uid: Prowl.Runtime.StringTagConverter
+    name: StringTagConverter
+    href: Prowl.Runtime.StringTagConverter.html
+  - name: .
+  - uid: Prowl.Runtime.StringTagConverter.TextTokenType
+    name: TextTokenType
+    href: Prowl.Runtime.StringTagConverter.TextTokenType.html
+  spec.vb:
+  - uid: Prowl.Runtime.StringTagConverter
+    name: StringTagConverter
+    href: Prowl.Runtime.StringTagConverter.html
+  - name: .
+  - uid: Prowl.Runtime.StringTagConverter.TextTokenType
+    name: TextTokenType
+    href: Prowl.Runtime.StringTagConverter.TextTokenType.html

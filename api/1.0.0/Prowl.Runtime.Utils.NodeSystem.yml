@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: Prowl.Runtime.Utils.NodeSystem
+  commentId: N:Prowl.Runtime.Utils.NodeSystem
+  id: Prowl.Runtime.Utils.NodeSystem
+  children:
+  - Prowl.Runtime.Utils.NodeSystem.NodeDataCache
+  langs:
+  - csharp
+  - vb
+  name: Prowl.Runtime.Utils.NodeSystem
+  nameWithType: Prowl.Runtime.Utils.NodeSystem
+  fullName: Prowl.Runtime.Utils.NodeSystem
+  type: Namespace
+  assemblies:
+  - Prowl.Runtime
+references:
+- uid: Prowl.Runtime.Utils.NodeSystem.NodeDataCache
+  commentId: T:Prowl.Runtime.Utils.NodeSystem.NodeDataCache
+  href: Prowl.Runtime.Utils.NodeSystem.NodeDataCache.html
+  name: NodeDataCache
+  nameWithType: NodeDataCache
+  fullName: Prowl.Runtime.Utils.NodeSystem.NodeDataCache

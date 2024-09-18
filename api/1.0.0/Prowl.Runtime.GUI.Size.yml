@@ -1,0 +1,1024 @@
+### YamlMime:ManagedReference
+items:
+- uid: Prowl.Runtime.GUI.Size
+  commentId: T:Prowl.Runtime.GUI.Size
+  id: Size
+  parent: Prowl.Runtime.GUI
+  children:
+  - Prowl.Runtime.GUI.Size.#ctor
+  - Prowl.Runtime.GUI.Size.#ctor(System.Double,Prowl.Runtime.GUI.LayoutValueType)
+  - Prowl.Runtime.GUI.Size.#ctor(System.Double,System.Double,Prowl.Runtime.GUI.LayoutValueType)
+  - Prowl.Runtime.GUI.Size.Default
+  - Prowl.Runtime.GUI.Size.GetHashCode64
+  - Prowl.Runtime.GUI.Size.Lerp(Prowl.Runtime.GUI.Size,Prowl.Runtime.GUI.Size,System.Double)
+  - Prowl.Runtime.GUI.Size.Max
+  - Prowl.Runtime.GUI.Size.Percentage(System.Double,System.Double)
+  - Prowl.Runtime.GUI.Size.PixelOffset
+  - Prowl.Runtime.GUI.Size.Pixels(System.Double,System.Double)
+  - Prowl.Runtime.GUI.Size.ToPixels(System.Double)
+  - Prowl.Runtime.GUI.Size.Type
+  - Prowl.Runtime.GUI.Size.Value
+  - Prowl.Runtime.GUI.Size.op_Implicit(System.Double)~Prowl.Runtime.GUI.Size
+  - Prowl.Runtime.GUI.Size.op_Implicit(System.Int32)~Prowl.Runtime.GUI.Size
+  - Prowl.Runtime.GUI.Size.op_Implicit(System.Single)~Prowl.Runtime.GUI.Size
+  langs:
+  - csharp
+  - vb
+  name: Size
+  nameWithType: Size
+  fullName: Prowl.Runtime.GUI.Size
+  type: Struct
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Layout/Size.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Size
+    path: ../Prowl/Prowl.Runtime/GUI/Layout/Size.cs
+    startLine: 5
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  syntax:
+    content: public struct Size
+    content.vb: Public Structure Size
+  inheritedMembers:
+  - System.ValueType.Equals(System.Object)
+  - System.ValueType.GetHashCode
+  - System.ValueType.ToString
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  extensionMethods:
+  - System.Object.Prowl.Runtime.RuntimeUtils.GetSerializableFields
+- uid: Prowl.Runtime.GUI.Size.Default
+  commentId: P:Prowl.Runtime.GUI.Size.Default
+  id: Default
+  parent: Prowl.Runtime.GUI.Size
+  langs:
+  - csharp
+  - vb
+  name: Default
+  nameWithType: Size.Default
+  fullName: Prowl.Runtime.GUI.Size.Default
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Layout/Size.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Default
+    path: ../Prowl/Prowl.Runtime/GUI/Layout/Size.cs
+    startLine: 7
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  syntax:
+    content: public static Size Default { get; }
+    parameters: []
+    return:
+      type: Prowl.Runtime.GUI.Size
+    content.vb: Public Shared ReadOnly Property [Default] As Size
+  overload: Prowl.Runtime.GUI.Size.Default*
+- uid: Prowl.Runtime.GUI.Size.Max
+  commentId: P:Prowl.Runtime.GUI.Size.Max
+  id: Max
+  parent: Prowl.Runtime.GUI.Size
+  langs:
+  - csharp
+  - vb
+  name: Max
+  nameWithType: Size.Max
+  fullName: Prowl.Runtime.GUI.Size.Max
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Layout/Size.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Max
+    path: ../Prowl/Prowl.Runtime/GUI/Layout/Size.cs
+    startLine: 9
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  syntax:
+    content: public static Size Max { get; }
+    parameters: []
+    return:
+      type: Prowl.Runtime.GUI.Size
+    content.vb: Public Shared ReadOnly Property Max As Size
+  overload: Prowl.Runtime.GUI.Size.Max*
+- uid: Prowl.Runtime.GUI.Size.Value
+  commentId: F:Prowl.Runtime.GUI.Size.Value
+  id: Value
+  parent: Prowl.Runtime.GUI.Size
+  langs:
+  - csharp
+  - vb
+  name: Value
+  nameWithType: Size.Value
+  fullName: Prowl.Runtime.GUI.Size.Value
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Layout/Size.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Value
+    path: ../Prowl/Prowl.Runtime/GUI/Layout/Size.cs
+    startLine: 13
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  syntax:
+    content: public double Value
+    return:
+      type: System.Double
+    content.vb: Public Value As Double
+- uid: Prowl.Runtime.GUI.Size.PixelOffset
+  commentId: F:Prowl.Runtime.GUI.Size.PixelOffset
+  id: PixelOffset
+  parent: Prowl.Runtime.GUI.Size
+  langs:
+  - csharp
+  - vb
+  name: PixelOffset
+  nameWithType: Size.PixelOffset
+  fullName: Prowl.Runtime.GUI.Size.PixelOffset
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Layout/Size.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: PixelOffset
+    path: ../Prowl/Prowl.Runtime/GUI/Layout/Size.cs
+    startLine: 14
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  syntax:
+    content: public double PixelOffset
+    return:
+      type: System.Double
+    content.vb: Public PixelOffset As Double
+- uid: Prowl.Runtime.GUI.Size.Type
+  commentId: F:Prowl.Runtime.GUI.Size.Type
+  id: Type
+  parent: Prowl.Runtime.GUI.Size
+  langs:
+  - csharp
+  - vb
+  name: Type
+  nameWithType: Size.Type
+  fullName: Prowl.Runtime.GUI.Size.Type
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Layout/Size.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Type
+    path: ../Prowl/Prowl.Runtime/GUI/Layout/Size.cs
+    startLine: 15
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  syntax:
+    content: public LayoutValueType Type
+    return:
+      type: Prowl.Runtime.GUI.LayoutValueType
+    content.vb: Public Type As LayoutValueType
+- uid: Prowl.Runtime.GUI.Size.#ctor
+  commentId: M:Prowl.Runtime.GUI.Size.#ctor
+  id: '#ctor'
+  parent: Prowl.Runtime.GUI.Size
+  langs:
+  - csharp
+  - vb
+  name: Size()
+  nameWithType: Size.Size()
+  fullName: Prowl.Runtime.GUI.Size.Size()
+  type: Constructor
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Layout/Size.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: .ctor
+    path: ../Prowl/Prowl.Runtime/GUI/Layout/Size.cs
+    startLine: 22
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  syntax:
+    content: public Size()
+    content.vb: Public Sub New()
+  overload: Prowl.Runtime.GUI.Size.#ctor*
+  nameWithType.vb: Size.New()
+  fullName.vb: Prowl.Runtime.GUI.Size.New()
+  name.vb: New()
+- uid: Prowl.Runtime.GUI.Size.#ctor(System.Double,Prowl.Runtime.GUI.LayoutValueType)
+  commentId: M:Prowl.Runtime.GUI.Size.#ctor(System.Double,Prowl.Runtime.GUI.LayoutValueType)
+  id: '#ctor(System.Double,Prowl.Runtime.GUI.LayoutValueType)'
+  parent: Prowl.Runtime.GUI.Size
+  langs:
+  - csharp
+  - vb
+  name: Size(double, LayoutValueType)
+  nameWithType: Size.Size(double, LayoutValueType)
+  fullName: Prowl.Runtime.GUI.Size.Size(double, Prowl.Runtime.GUI.LayoutValueType)
+  type: Constructor
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Layout/Size.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: .ctor
+    path: ../Prowl/Prowl.Runtime/GUI/Layout/Size.cs
+    startLine: 24
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  syntax:
+    content: public Size(double value, LayoutValueType type)
+    parameters:
+    - id: value
+      type: System.Double
+    - id: type
+      type: Prowl.Runtime.GUI.LayoutValueType
+    content.vb: Public Sub New(value As Double, type As LayoutValueType)
+  overload: Prowl.Runtime.GUI.Size.#ctor*
+  nameWithType.vb: Size.New(Double, LayoutValueType)
+  fullName.vb: Prowl.Runtime.GUI.Size.New(Double, Prowl.Runtime.GUI.LayoutValueType)
+  name.vb: New(Double, LayoutValueType)
+- uid: Prowl.Runtime.GUI.Size.#ctor(System.Double,System.Double,Prowl.Runtime.GUI.LayoutValueType)
+  commentId: M:Prowl.Runtime.GUI.Size.#ctor(System.Double,System.Double,Prowl.Runtime.GUI.LayoutValueType)
+  id: '#ctor(System.Double,System.Double,Prowl.Runtime.GUI.LayoutValueType)'
+  parent: Prowl.Runtime.GUI.Size
+  langs:
+  - csharp
+  - vb
+  name: Size(double, double, LayoutValueType)
+  nameWithType: Size.Size(double, double, LayoutValueType)
+  fullName: Prowl.Runtime.GUI.Size.Size(double, double, Prowl.Runtime.GUI.LayoutValueType)
+  type: Constructor
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Layout/Size.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: .ctor
+    path: ../Prowl/Prowl.Runtime/GUI/Layout/Size.cs
+    startLine: 29
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  syntax:
+    content: public Size(double value, double pixelOffset, LayoutValueType type)
+    parameters:
+    - id: value
+      type: System.Double
+    - id: pixelOffset
+      type: System.Double
+    - id: type
+      type: Prowl.Runtime.GUI.LayoutValueType
+    content.vb: Public Sub New(value As Double, pixelOffset As Double, type As LayoutValueType)
+  overload: Prowl.Runtime.GUI.Size.#ctor*
+  nameWithType.vb: Size.New(Double, Double, LayoutValueType)
+  fullName.vb: Prowl.Runtime.GUI.Size.New(Double, Double, Prowl.Runtime.GUI.LayoutValueType)
+  name.vb: New(Double, Double, LayoutValueType)
+- uid: Prowl.Runtime.GUI.Size.ToPixels(System.Double)
+  commentId: M:Prowl.Runtime.GUI.Size.ToPixels(System.Double)
+  id: ToPixels(System.Double)
+  parent: Prowl.Runtime.GUI.Size
+  langs:
+  - csharp
+  - vb
+  name: ToPixels(double)
+  nameWithType: Size.ToPixels(double)
+  fullName: Prowl.Runtime.GUI.Size.ToPixels(double)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Layout/Size.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: ToPixels
+    path: ../Prowl/Prowl.Runtime/GUI/Layout/Size.cs
+    startLine: 36
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  syntax:
+    content: public double ToPixels(double parentValue)
+    parameters:
+    - id: parentValue
+      type: System.Double
+    return:
+      type: System.Double
+    content.vb: Public Function ToPixels(parentValue As Double) As Double
+  overload: Prowl.Runtime.GUI.Size.ToPixels*
+  nameWithType.vb: Size.ToPixels(Double)
+  fullName.vb: Prowl.Runtime.GUI.Size.ToPixels(Double)
+  name.vb: ToPixels(Double)
+- uid: Prowl.Runtime.GUI.Size.Percentage(System.Double,System.Double)
+  commentId: M:Prowl.Runtime.GUI.Size.Percentage(System.Double,System.Double)
+  id: Percentage(System.Double,System.Double)
+  parent: Prowl.Runtime.GUI.Size
+  langs:
+  - csharp
+  - vb
+  name: Percentage(double, double)
+  nameWithType: Size.Percentage(double, double)
+  fullName: Prowl.Runtime.GUI.Size.Percentage(double, double)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Layout/Size.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Percentage
+    path: ../Prowl/Prowl.Runtime/GUI/Layout/Size.cs
+    startLine: 50
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  syntax:
+    content: public static Size Percentage(double normalized, double pixelOffset = 0)
+    parameters:
+    - id: normalized
+      type: System.Double
+    - id: pixelOffset
+      type: System.Double
+    return:
+      type: Prowl.Runtime.GUI.Size
+    content.vb: Public Shared Function Percentage(normalized As Double, pixelOffset As Double = 0) As Size
+  overload: Prowl.Runtime.GUI.Size.Percentage*
+  nameWithType.vb: Size.Percentage(Double, Double)
+  fullName.vb: Prowl.Runtime.GUI.Size.Percentage(Double, Double)
+  name.vb: Percentage(Double, Double)
+- uid: Prowl.Runtime.GUI.Size.Pixels(System.Double,System.Double)
+  commentId: M:Prowl.Runtime.GUI.Size.Pixels(System.Double,System.Double)
+  id: Pixels(System.Double,System.Double)
+  parent: Prowl.Runtime.GUI.Size
+  langs:
+  - csharp
+  - vb
+  name: Pixels(double, double)
+  nameWithType: Size.Pixels(double, double)
+  fullName: Prowl.Runtime.GUI.Size.Pixels(double, double)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Layout/Size.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Pixels
+    path: ../Prowl/Prowl.Runtime/GUI/Layout/Size.cs
+    startLine: 51
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  syntax:
+    content: public static Size Pixels(double pixels, double pixelOffset = 0)
+    parameters:
+    - id: pixels
+      type: System.Double
+    - id: pixelOffset
+      type: System.Double
+    return:
+      type: Prowl.Runtime.GUI.Size
+    content.vb: Public Shared Function Pixels(pixels As Double, pixelOffset As Double = 0) As Size
+  overload: Prowl.Runtime.GUI.Size.Pixels*
+  nameWithType.vb: Size.Pixels(Double, Double)
+  fullName.vb: Prowl.Runtime.GUI.Size.Pixels(Double, Double)
+  name.vb: Pixels(Double, Double)
+- uid: Prowl.Runtime.GUI.Size.Lerp(Prowl.Runtime.GUI.Size,Prowl.Runtime.GUI.Size,System.Double)
+  commentId: M:Prowl.Runtime.GUI.Size.Lerp(Prowl.Runtime.GUI.Size,Prowl.Runtime.GUI.Size,System.Double)
+  id: Lerp(Prowl.Runtime.GUI.Size,Prowl.Runtime.GUI.Size,System.Double)
+  parent: Prowl.Runtime.GUI.Size
+  langs:
+  - csharp
+  - vb
+  name: Lerp(Size, Size, double)
+  nameWithType: Size.Lerp(Size, Size, double)
+  fullName: Prowl.Runtime.GUI.Size.Lerp(Prowl.Runtime.GUI.Size, Prowl.Runtime.GUI.Size, double)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Layout/Size.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Lerp
+    path: ../Prowl/Prowl.Runtime/GUI/Layout/Size.cs
+    startLine: 53
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  syntax:
+    content: public static Size Lerp(Size a, Size b, double t)
+    parameters:
+    - id: a
+      type: Prowl.Runtime.GUI.Size
+    - id: b
+      type: Prowl.Runtime.GUI.Size
+    - id: t
+      type: System.Double
+    return:
+      type: Prowl.Runtime.GUI.Size
+    content.vb: Public Shared Function Lerp(a As Size, b As Size, t As Double) As Size
+  overload: Prowl.Runtime.GUI.Size.Lerp*
+  nameWithType.vb: Size.Lerp(Size, Size, Double)
+  fullName.vb: Prowl.Runtime.GUI.Size.Lerp(Prowl.Runtime.GUI.Size, Prowl.Runtime.GUI.Size, Double)
+  name.vb: Lerp(Size, Size, Double)
+- uid: Prowl.Runtime.GUI.Size.op_Implicit(System.Int32)~Prowl.Runtime.GUI.Size
+  commentId: M:Prowl.Runtime.GUI.Size.op_Implicit(System.Int32)~Prowl.Runtime.GUI.Size
+  id: op_Implicit(System.Int32)~Prowl.Runtime.GUI.Size
+  parent: Prowl.Runtime.GUI.Size
+  langs:
+  - csharp
+  - vb
+  name: implicit operator Size(int)
+  nameWithType: Size.implicit operator Size(int)
+  fullName: Prowl.Runtime.GUI.Size.implicit operator Prowl.Runtime.GUI.Size(int)
+  type: Operator
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Layout/Size.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: op_Implicit
+    path: ../Prowl/Prowl.Runtime/GUI/Layout/Size.cs
+    startLine: 68
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  syntax:
+    content: public static implicit operator Size(int value)
+    parameters:
+    - id: value
+      type: System.Int32
+    return:
+      type: Prowl.Runtime.GUI.Size
+    content.vb: Public Shared Widening Operator CType(value As Integer) As Size
+  overload: Prowl.Runtime.GUI.Size.op_Implicit*
+  nameWithType.vb: Size.CType(Integer)
+  fullName.vb: Prowl.Runtime.GUI.Size.CType(Integer)
+  name.vb: CType(Integer)
+- uid: Prowl.Runtime.GUI.Size.op_Implicit(System.Single)~Prowl.Runtime.GUI.Size
+  commentId: M:Prowl.Runtime.GUI.Size.op_Implicit(System.Single)~Prowl.Runtime.GUI.Size
+  id: op_Implicit(System.Single)~Prowl.Runtime.GUI.Size
+  parent: Prowl.Runtime.GUI.Size
+  langs:
+  - csharp
+  - vb
+  name: implicit operator Size(float)
+  nameWithType: Size.implicit operator Size(float)
+  fullName: Prowl.Runtime.GUI.Size.implicit operator Prowl.Runtime.GUI.Size(float)
+  type: Operator
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Layout/Size.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: op_Implicit
+    path: ../Prowl/Prowl.Runtime/GUI/Layout/Size.cs
+    startLine: 69
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  syntax:
+    content: public static implicit operator Size(float value)
+    parameters:
+    - id: value
+      type: System.Single
+    return:
+      type: Prowl.Runtime.GUI.Size
+    content.vb: Public Shared Widening Operator CType(value As Single) As Size
+  overload: Prowl.Runtime.GUI.Size.op_Implicit*
+  nameWithType.vb: Size.CType(Single)
+  fullName.vb: Prowl.Runtime.GUI.Size.CType(Single)
+  name.vb: CType(Single)
+- uid: Prowl.Runtime.GUI.Size.op_Implicit(System.Double)~Prowl.Runtime.GUI.Size
+  commentId: M:Prowl.Runtime.GUI.Size.op_Implicit(System.Double)~Prowl.Runtime.GUI.Size
+  id: op_Implicit(System.Double)~Prowl.Runtime.GUI.Size
+  parent: Prowl.Runtime.GUI.Size
+  langs:
+  - csharp
+  - vb
+  name: implicit operator Size(double)
+  nameWithType: Size.implicit operator Size(double)
+  fullName: Prowl.Runtime.GUI.Size.implicit operator Prowl.Runtime.GUI.Size(double)
+  type: Operator
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Layout/Size.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: op_Implicit
+    path: ../Prowl/Prowl.Runtime/GUI/Layout/Size.cs
+    startLine: 70
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  syntax:
+    content: public static implicit operator Size(double value)
+    parameters:
+    - id: value
+      type: System.Double
+    return:
+      type: Prowl.Runtime.GUI.Size
+    content.vb: Public Shared Widening Operator CType(value As Double) As Size
+  overload: Prowl.Runtime.GUI.Size.op_Implicit*
+  nameWithType.vb: Size.CType(Double)
+  fullName.vb: Prowl.Runtime.GUI.Size.CType(Double)
+  name.vb: CType(Double)
+- uid: Prowl.Runtime.GUI.Size.GetHashCode64
+  commentId: M:Prowl.Runtime.GUI.Size.GetHashCode64
+  id: GetHashCode64
+  parent: Prowl.Runtime.GUI.Size
+  langs:
+  - csharp
+  - vb
+  name: GetHashCode64()
+  nameWithType: Size.GetHashCode64()
+  fullName: Prowl.Runtime.GUI.Size.GetHashCode64()
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Layout/Size.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: GetHashCode64
+    path: ../Prowl/Prowl.Runtime/GUI/Layout/Size.cs
+    startLine: 72
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  syntax:
+    content: public ulong GetHashCode64()
+    return:
+      type: System.UInt64
+    content.vb: Public Function GetHashCode64() As ULong
+  overload: Prowl.Runtime.GUI.Size.GetHashCode64*
+references:
+- uid: Prowl.Runtime.GUI
+  commentId: N:Prowl.Runtime.GUI
+  href: Prowl.html
+  name: Prowl.Runtime.GUI
+  nameWithType: Prowl.Runtime.GUI
+  fullName: Prowl.Runtime.GUI
+  spec.csharp:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+  - name: .
+  - uid: Prowl.Runtime.GUI
+    name: GUI
+    href: Prowl.Runtime.GUI.html
+  spec.vb:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+  - name: .
+  - uid: Prowl.Runtime.GUI
+    name: GUI
+    href: Prowl.Runtime.GUI.html
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  name: Equals(object)
+  nameWithType: ValueType.Equals(object)
+  fullName: System.ValueType.Equals(object)
+  nameWithType.vb: ValueType.Equals(Object)
+  fullName.vb: System.ValueType.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Prowl.Runtime.RuntimeUtils.GetSerializableFields
+  commentId: M:Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  parent: Prowl.Runtime.RuntimeUtils
+  definition: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  name: GetSerializableFields(object)
+  nameWithType: RuntimeUtils.GetSerializableFields(object)
+  fullName: Prowl.Runtime.RuntimeUtils.GetSerializableFields(object)
+  nameWithType.vb: RuntimeUtils.GetSerializableFields(Object)
+  fullName.vb: Prowl.Runtime.RuntimeUtils.GetSerializableFields(Object)
+  name.vb: GetSerializableFields(Object)
+  spec.csharp:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  commentId: M:Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  isExternal: true
+  href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  name: GetSerializableFields(object)
+  nameWithType: RuntimeUtils.GetSerializableFields(object)
+  fullName: Prowl.Runtime.RuntimeUtils.GetSerializableFields(object)
+  nameWithType.vb: RuntimeUtils.GetSerializableFields(Object)
+  fullName.vb: Prowl.Runtime.RuntimeUtils.GetSerializableFields(Object)
+  name.vb: GetSerializableFields(Object)
+  spec.csharp:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: Prowl.Runtime.RuntimeUtils
+  commentId: T:Prowl.Runtime.RuntimeUtils
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.RuntimeUtils.html
+  name: RuntimeUtils
+  nameWithType: RuntimeUtils
+  fullName: Prowl.Runtime.RuntimeUtils
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Prowl.Runtime
+  commentId: N:Prowl.Runtime
+  href: Prowl.html
+  name: Prowl.Runtime
+  nameWithType: Prowl.Runtime
+  fullName: Prowl.Runtime
+  spec.csharp:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+  spec.vb:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+- uid: Prowl.Runtime.GUI.Size.Default*
+  commentId: Overload:Prowl.Runtime.GUI.Size.Default
+  href: Prowl.Runtime.GUI.Size.html#Prowl_Runtime_GUI_Size_Default
+  name: Default
+  nameWithType: Size.Default
+  fullName: Prowl.Runtime.GUI.Size.Default
+- uid: Prowl.Runtime.GUI.Size
+  commentId: T:Prowl.Runtime.GUI.Size
+  parent: Prowl.Runtime.GUI
+  href: Prowl.Runtime.GUI.Size.html
+  name: Size
+  nameWithType: Size
+  fullName: Prowl.Runtime.GUI.Size
+- uid: Prowl.Runtime.GUI.Size.Max*
+  commentId: Overload:Prowl.Runtime.GUI.Size.Max
+  href: Prowl.Runtime.GUI.Size.html#Prowl_Runtime_GUI_Size_Max
+  name: Max
+  nameWithType: Size.Max
+  fullName: Prowl.Runtime.GUI.Size.Max
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.double
+  name: double
+  nameWithType: double
+  fullName: double
+  nameWithType.vb: Double
+  fullName.vb: Double
+  name.vb: Double
+- uid: Prowl.Runtime.GUI.LayoutValueType
+  commentId: T:Prowl.Runtime.GUI.LayoutValueType
+  parent: Prowl.Runtime.GUI
+  href: Prowl.Runtime.GUI.LayoutValueType.html
+  name: LayoutValueType
+  nameWithType: LayoutValueType
+  fullName: Prowl.Runtime.GUI.LayoutValueType
+- uid: Prowl.Runtime.GUI.Size.#ctor*
+  commentId: Overload:Prowl.Runtime.GUI.Size.#ctor
+  href: Prowl.Runtime.GUI.Size.html#Prowl_Runtime_GUI_Size__ctor
+  name: Size
+  nameWithType: Size.Size
+  fullName: Prowl.Runtime.GUI.Size.Size
+  nameWithType.vb: Size.New
+  fullName.vb: Prowl.Runtime.GUI.Size.New
+  name.vb: New
+- uid: Prowl.Runtime.GUI.Size.ToPixels*
+  commentId: Overload:Prowl.Runtime.GUI.Size.ToPixels
+  href: Prowl.Runtime.GUI.Size.html#Prowl_Runtime_GUI_Size_ToPixels_System_Double_
+  name: ToPixels
+  nameWithType: Size.ToPixels
+  fullName: Prowl.Runtime.GUI.Size.ToPixels
+- uid: Prowl.Runtime.GUI.Size.Percentage*
+  commentId: Overload:Prowl.Runtime.GUI.Size.Percentage
+  href: Prowl.Runtime.GUI.Size.html#Prowl_Runtime_GUI_Size_Percentage_System_Double_System_Double_
+  name: Percentage
+  nameWithType: Size.Percentage
+  fullName: Prowl.Runtime.GUI.Size.Percentage
+- uid: Prowl.Runtime.GUI.Size.Pixels*
+  commentId: Overload:Prowl.Runtime.GUI.Size.Pixels
+  href: Prowl.Runtime.GUI.Size.html#Prowl_Runtime_GUI_Size_Pixels_System_Double_System_Double_
+  name: Pixels
+  nameWithType: Size.Pixels
+  fullName: Prowl.Runtime.GUI.Size.Pixels
+- uid: Prowl.Runtime.GUI.Size.Lerp*
+  commentId: Overload:Prowl.Runtime.GUI.Size.Lerp
+  href: Prowl.Runtime.GUI.Size.html#Prowl_Runtime_GUI_Size_Lerp_Prowl_Runtime_GUI_Size_Prowl_Runtime_GUI_Size_System_Double_
+  name: Lerp
+  nameWithType: Size.Lerp
+  fullName: Prowl.Runtime.GUI.Size.Lerp
+- uid: Prowl.Runtime.GUI.Size.op_Implicit*
+  commentId: Overload:Prowl.Runtime.GUI.Size.op_Implicit
+  name: implicit operator
+  nameWithType: Size.implicit operator
+  fullName: Prowl.Runtime.GUI.Size.implicit operator
+  nameWithType.vb: Size.CType
+  fullName.vb: Prowl.Runtime.GUI.Size.CType
+  name.vb: CType
+  spec.csharp:
+  - name: implicit
+  - name: " "
+  - name: operator
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.single
+  name: float
+  nameWithType: float
+  fullName: float
+  nameWithType.vb: Single
+  fullName.vb: Single
+  name.vb: Single
+- uid: Prowl.Runtime.GUI.Size.GetHashCode64*
+  commentId: Overload:Prowl.Runtime.GUI.Size.GetHashCode64
+  href: Prowl.Runtime.GUI.Size.html#Prowl_Runtime_GUI_Size_GetHashCode64
+  name: GetHashCode64
+  nameWithType: Size.GetHashCode64
+  fullName: Prowl.Runtime.GUI.Size.GetHashCode64
+- uid: System.UInt64
+  commentId: T:System.UInt64
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.uint64
+  name: ulong
+  nameWithType: ulong
+  fullName: ulong
+  nameWithType.vb: ULong
+  fullName.vb: ULong
+  name.vb: ULong

@@ -1,0 +1,719 @@
+### YamlMime:ManagedReference
+items:
+- uid: Prowl.Runtime.GUI.GizmoResult
+  commentId: T:Prowl.Runtime.GUI.GizmoResult
+  id: GizmoResult
+  parent: Prowl.Runtime.GUI
+  children:
+  - Prowl.Runtime.GUI.GizmoResult.IsViewAxis
+  - Prowl.Runtime.GUI.GizmoResult.RotationAxis
+  - Prowl.Runtime.GUI.GizmoResult.RotationDelta
+  - Prowl.Runtime.GUI.GizmoResult.Scale
+  - Prowl.Runtime.GUI.GizmoResult.ScaleDelta
+  - Prowl.Runtime.GUI.GizmoResult.StartScale
+  - Prowl.Runtime.GUI.GizmoResult.TotalRotation
+  - Prowl.Runtime.GUI.GizmoResult.TotalTranslation
+  - Prowl.Runtime.GUI.GizmoResult.TranslationDelta
+  langs:
+  - csharp
+  - vb
+  name: GizmoResult
+  nameWithType: GizmoResult
+  fullName: Prowl.Runtime.GUI.GizmoResult
+  type: Struct
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Widgets/Gizmo/TransformGizmo.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: GizmoResult
+    path: ../Prowl/Prowl.Runtime/GUI/Widgets/Gizmo/TransformGizmo.cs
+    startLine: 22
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  syntax:
+    content: public struct GizmoResult
+    content.vb: Public Structure GizmoResult
+  inheritedMembers:
+  - System.ValueType.Equals(System.Object)
+  - System.ValueType.GetHashCode
+  - System.ValueType.ToString
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  extensionMethods:
+  - System.Object.Prowl.Runtime.RuntimeUtils.GetSerializableFields
+- uid: Prowl.Runtime.GUI.GizmoResult.TranslationDelta
+  commentId: F:Prowl.Runtime.GUI.GizmoResult.TranslationDelta
+  id: TranslationDelta
+  parent: Prowl.Runtime.GUI.GizmoResult
+  langs:
+  - csharp
+  - vb
+  name: TranslationDelta
+  nameWithType: GizmoResult.TranslationDelta
+  fullName: Prowl.Runtime.GUI.GizmoResult.TranslationDelta
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Widgets/Gizmo/TransformGizmo.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: TranslationDelta
+    path: ../Prowl/Prowl.Runtime/GUI/Widgets/Gizmo/TransformGizmo.cs
+    startLine: 24
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  syntax:
+    content: public Vector3? TranslationDelta
+    return:
+      type: System.Nullable{Prowl.Runtime.Vector3}
+    content.vb: Public TranslationDelta As Vector3?
+- uid: Prowl.Runtime.GUI.GizmoResult.TotalTranslation
+  commentId: F:Prowl.Runtime.GUI.GizmoResult.TotalTranslation
+  id: TotalTranslation
+  parent: Prowl.Runtime.GUI.GizmoResult
+  langs:
+  - csharp
+  - vb
+  name: TotalTranslation
+  nameWithType: GizmoResult.TotalTranslation
+  fullName: Prowl.Runtime.GUI.GizmoResult.TotalTranslation
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Widgets/Gizmo/TransformGizmo.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: TotalTranslation
+    path: ../Prowl/Prowl.Runtime/GUI/Widgets/Gizmo/TransformGizmo.cs
+    startLine: 25
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  syntax:
+    content: public Vector3? TotalTranslation
+    return:
+      type: System.Nullable{Prowl.Runtime.Vector3}
+    content.vb: Public TotalTranslation As Vector3?
+- uid: Prowl.Runtime.GUI.GizmoResult.Scale
+  commentId: F:Prowl.Runtime.GUI.GizmoResult.Scale
+  id: Scale
+  parent: Prowl.Runtime.GUI.GizmoResult
+  langs:
+  - csharp
+  - vb
+  name: Scale
+  nameWithType: GizmoResult.Scale
+  fullName: Prowl.Runtime.GUI.GizmoResult.Scale
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Widgets/Gizmo/TransformGizmo.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Scale
+    path: ../Prowl/Prowl.Runtime/GUI/Widgets/Gizmo/TransformGizmo.cs
+    startLine: 27
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  syntax:
+    content: public Vector3? Scale
+    return:
+      type: System.Nullable{Prowl.Runtime.Vector3}
+    content.vb: Public Scale As Vector3?
+- uid: Prowl.Runtime.GUI.GizmoResult.ScaleDelta
+  commentId: F:Prowl.Runtime.GUI.GizmoResult.ScaleDelta
+  id: ScaleDelta
+  parent: Prowl.Runtime.GUI.GizmoResult
+  langs:
+  - csharp
+  - vb
+  name: ScaleDelta
+  nameWithType: GizmoResult.ScaleDelta
+  fullName: Prowl.Runtime.GUI.GizmoResult.ScaleDelta
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Widgets/Gizmo/TransformGizmo.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: ScaleDelta
+    path: ../Prowl/Prowl.Runtime/GUI/Widgets/Gizmo/TransformGizmo.cs
+    startLine: 28
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  syntax:
+    content: public Vector3? ScaleDelta
+    return:
+      type: System.Nullable{Prowl.Runtime.Vector3}
+    content.vb: Public ScaleDelta As Vector3?
+- uid: Prowl.Runtime.GUI.GizmoResult.StartScale
+  commentId: F:Prowl.Runtime.GUI.GizmoResult.StartScale
+  id: StartScale
+  parent: Prowl.Runtime.GUI.GizmoResult
+  langs:
+  - csharp
+  - vb
+  name: StartScale
+  nameWithType: GizmoResult.StartScale
+  fullName: Prowl.Runtime.GUI.GizmoResult.StartScale
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Widgets/Gizmo/TransformGizmo.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: StartScale
+    path: ../Prowl/Prowl.Runtime/GUI/Widgets/Gizmo/TransformGizmo.cs
+    startLine: 29
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  syntax:
+    content: public Vector3? StartScale
+    return:
+      type: System.Nullable{Prowl.Runtime.Vector3}
+    content.vb: Public StartScale As Vector3?
+- uid: Prowl.Runtime.GUI.GizmoResult.RotationAxis
+  commentId: F:Prowl.Runtime.GUI.GizmoResult.RotationAxis
+  id: RotationAxis
+  parent: Prowl.Runtime.GUI.GizmoResult
+  langs:
+  - csharp
+  - vb
+  name: RotationAxis
+  nameWithType: GizmoResult.RotationAxis
+  fullName: Prowl.Runtime.GUI.GizmoResult.RotationAxis
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Widgets/Gizmo/TransformGizmo.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: RotationAxis
+    path: ../Prowl/Prowl.Runtime/GUI/Widgets/Gizmo/TransformGizmo.cs
+    startLine: 31
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  syntax:
+    content: public Vector3? RotationAxis
+    return:
+      type: System.Nullable{Prowl.Runtime.Vector3}
+    content.vb: Public RotationAxis As Vector3?
+- uid: Prowl.Runtime.GUI.GizmoResult.RotationDelta
+  commentId: F:Prowl.Runtime.GUI.GizmoResult.RotationDelta
+  id: RotationDelta
+  parent: Prowl.Runtime.GUI.GizmoResult
+  langs:
+  - csharp
+  - vb
+  name: RotationDelta
+  nameWithType: GizmoResult.RotationDelta
+  fullName: Prowl.Runtime.GUI.GizmoResult.RotationDelta
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Widgets/Gizmo/TransformGizmo.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: RotationDelta
+    path: ../Prowl/Prowl.Runtime/GUI/Widgets/Gizmo/TransformGizmo.cs
+    startLine: 32
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  syntax:
+    content: public double? RotationDelta
+    return:
+      type: System.Nullable{System.Double}
+    content.vb: Public RotationDelta As Double?
+- uid: Prowl.Runtime.GUI.GizmoResult.TotalRotation
+  commentId: F:Prowl.Runtime.GUI.GizmoResult.TotalRotation
+  id: TotalRotation
+  parent: Prowl.Runtime.GUI.GizmoResult
+  langs:
+  - csharp
+  - vb
+  name: TotalRotation
+  nameWithType: GizmoResult.TotalRotation
+  fullName: Prowl.Runtime.GUI.GizmoResult.TotalRotation
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Widgets/Gizmo/TransformGizmo.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: TotalRotation
+    path: ../Prowl/Prowl.Runtime/GUI/Widgets/Gizmo/TransformGizmo.cs
+    startLine: 33
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  syntax:
+    content: public double? TotalRotation
+    return:
+      type: System.Nullable{System.Double}
+    content.vb: Public TotalRotation As Double?
+- uid: Prowl.Runtime.GUI.GizmoResult.IsViewAxis
+  commentId: F:Prowl.Runtime.GUI.GizmoResult.IsViewAxis
+  id: IsViewAxis
+  parent: Prowl.Runtime.GUI.GizmoResult
+  langs:
+  - csharp
+  - vb
+  name: IsViewAxis
+  nameWithType: GizmoResult.IsViewAxis
+  fullName: Prowl.Runtime.GUI.GizmoResult.IsViewAxis
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Widgets/Gizmo/TransformGizmo.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: IsViewAxis
+    path: ../Prowl/Prowl.Runtime/GUI/Widgets/Gizmo/TransformGizmo.cs
+    startLine: 34
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  syntax:
+    content: public bool? IsViewAxis
+    return:
+      type: System.Nullable{System.Boolean}
+    content.vb: Public IsViewAxis As Boolean?
+references:
+- uid: Prowl.Runtime.GUI
+  commentId: N:Prowl.Runtime.GUI
+  href: Prowl.html
+  name: Prowl.Runtime.GUI
+  nameWithType: Prowl.Runtime.GUI
+  fullName: Prowl.Runtime.GUI
+  spec.csharp:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+  - name: .
+  - uid: Prowl.Runtime.GUI
+    name: GUI
+    href: Prowl.Runtime.GUI.html
+  spec.vb:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+  - name: .
+  - uid: Prowl.Runtime.GUI
+    name: GUI
+    href: Prowl.Runtime.GUI.html
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  name: Equals(object)
+  nameWithType: ValueType.Equals(object)
+  fullName: System.ValueType.Equals(object)
+  nameWithType.vb: ValueType.Equals(Object)
+  fullName.vb: System.ValueType.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Prowl.Runtime.RuntimeUtils.GetSerializableFields
+  commentId: M:Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  parent: Prowl.Runtime.RuntimeUtils
+  definition: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  name: GetSerializableFields(object)
+  nameWithType: RuntimeUtils.GetSerializableFields(object)
+  fullName: Prowl.Runtime.RuntimeUtils.GetSerializableFields(object)
+  nameWithType.vb: RuntimeUtils.GetSerializableFields(Object)
+  fullName.vb: Prowl.Runtime.RuntimeUtils.GetSerializableFields(Object)
+  name.vb: GetSerializableFields(Object)
+  spec.csharp:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  commentId: M:Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  isExternal: true
+  href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  name: GetSerializableFields(object)
+  nameWithType: RuntimeUtils.GetSerializableFields(object)
+  fullName: Prowl.Runtime.RuntimeUtils.GetSerializableFields(object)
+  nameWithType.vb: RuntimeUtils.GetSerializableFields(Object)
+  fullName.vb: Prowl.Runtime.RuntimeUtils.GetSerializableFields(Object)
+  name.vb: GetSerializableFields(Object)
+  spec.csharp:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: Prowl.Runtime.RuntimeUtils
+  commentId: T:Prowl.Runtime.RuntimeUtils
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.RuntimeUtils.html
+  name: RuntimeUtils
+  nameWithType: RuntimeUtils
+  fullName: Prowl.Runtime.RuntimeUtils
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Prowl.Runtime
+  commentId: N:Prowl.Runtime
+  href: Prowl.html
+  name: Prowl.Runtime
+  nameWithType: Prowl.Runtime
+  fullName: Prowl.Runtime
+  spec.csharp:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+  spec.vb:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+- uid: System.Nullable{Prowl.Runtime.Vector3}
+  commentId: T:System.Nullable{Prowl.Runtime.Vector3}
+  parent: System
+  definition: System.Nullable`1
+  href: Prowl.Runtime.Vector3.html
+  name: Vector3?
+  nameWithType: Vector3?
+  fullName: Prowl.Runtime.Vector3?
+  spec.csharp:
+  - uid: Prowl.Runtime.Vector3
+    name: Vector3
+    href: Prowl.Runtime.Vector3.html
+  - name: '?'
+  spec.vb:
+  - uid: Prowl.Runtime.Vector3
+    name: Vector3
+    href: Prowl.Runtime.Vector3.html
+  - name: '?'
+- uid: System.Nullable`1
+  commentId: T:System.Nullable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  name: Nullable<T>
+  nameWithType: Nullable<T>
+  fullName: System.Nullable<T>
+  nameWithType.vb: Nullable(Of T)
+  fullName.vb: System.Nullable(Of T)
+  name.vb: Nullable(Of T)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Nullable{System.Double}
+  commentId: T:System.Nullable{System.Double}
+  parent: System
+  definition: System.Nullable`1
+  href: https://learn.microsoft.com/dotnet/api/system.double
+  name: double?
+  nameWithType: double?
+  fullName: double?
+  nameWithType.vb: Double?
+  fullName.vb: Double?
+  name.vb: Double?
+  spec.csharp:
+  - uid: System.Double
+    name: double
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.double
+  - name: '?'
+  spec.vb:
+  - uid: System.Double
+    name: Double
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.double
+  - name: '?'
+- uid: System.Nullable{System.Boolean}
+  commentId: T:System.Nullable{System.Boolean}
+  parent: System
+  definition: System.Nullable`1
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool?
+  nameWithType: bool?
+  fullName: bool?
+  nameWithType.vb: Boolean?
+  fullName.vb: Boolean?
+  name.vb: Boolean?
+  spec.csharp:
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: '?'
+  spec.vb:
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: '?'

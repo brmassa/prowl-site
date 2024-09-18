@@ -1,0 +1,2037 @@
+### YamlMime:ManagedReference
+items:
+- uid: Prowl.Runtime.Bounds
+  commentId: T:Prowl.Runtime.Bounds
+  id: Bounds
+  parent: Prowl.Runtime
+  children:
+  - Prowl.Runtime.Bounds.#ctor(Prowl.Runtime.Vector3,Prowl.Runtime.Vector3)
+  - Prowl.Runtime.Bounds.Contains(Prowl.Runtime.BoundingFrustum)
+  - Prowl.Runtime.Bounds.Contains(Prowl.Runtime.Bounds)
+  - Prowl.Runtime.Bounds.Contains(Prowl.Runtime.Bounds@,Prowl.Runtime.ContainmentType@)
+  - Prowl.Runtime.Bounds.Contains(Prowl.Runtime.Vector3)
+  - Prowl.Runtime.Bounds.Contains(Prowl.Runtime.Vector3@,Prowl.Runtime.ContainmentType@)
+  - Prowl.Runtime.Bounds.CornerCount
+  - Prowl.Runtime.Bounds.CreateFromPoints(System.Collections.Generic.IEnumerable{Prowl.Runtime.Vector3})
+  - Prowl.Runtime.Bounds.CreateMerged(Prowl.Runtime.Bounds,Prowl.Runtime.Bounds)
+  - Prowl.Runtime.Bounds.CreateMerged(Prowl.Runtime.Bounds@,Prowl.Runtime.Bounds@,Prowl.Runtime.Bounds@)
+  - Prowl.Runtime.Bounds.Encapsulate(Prowl.Runtime.Bounds)
+  - Prowl.Runtime.Bounds.Encapsulate(Prowl.Runtime.Vector3)
+  - Prowl.Runtime.Bounds.Equals(Prowl.Runtime.Bounds)
+  - Prowl.Runtime.Bounds.Equals(System.Object)
+  - Prowl.Runtime.Bounds.Expand(Prowl.Runtime.Vector3)
+  - Prowl.Runtime.Bounds.Expand(System.Double)
+  - Prowl.Runtime.Bounds.GetCorners
+  - Prowl.Runtime.Bounds.GetCorners(Prowl.Runtime.Vector3[])
+  - Prowl.Runtime.Bounds.GetHashCode
+  - Prowl.Runtime.Bounds.Intersects(Prowl.Runtime.BoundingFrustum)
+  - Prowl.Runtime.Bounds.Intersects(Prowl.Runtime.Bounds)
+  - Prowl.Runtime.Bounds.Intersects(Prowl.Runtime.Bounds@,System.Boolean@)
+  - Prowl.Runtime.Bounds.Intersects(Prowl.Runtime.Plane)
+  - Prowl.Runtime.Bounds.Intersects(Prowl.Runtime.Plane@,Prowl.Runtime.PlaneIntersectionType@)
+  - Prowl.Runtime.Bounds.Intersects(Prowl.Runtime.Ray)
+  - Prowl.Runtime.Bounds.Intersects(Prowl.Runtime.Ray@,System.Nullable{System.Double}@)
+  - Prowl.Runtime.Bounds.ToString
+  - Prowl.Runtime.Bounds.Transform(Prowl.Runtime.Matrix4x4)
+  - Prowl.Runtime.Bounds.center
+  - Prowl.Runtime.Bounds.extents
+  - Prowl.Runtime.Bounds.max
+  - Prowl.Runtime.Bounds.min
+  - Prowl.Runtime.Bounds.op_Equality(Prowl.Runtime.Bounds,Prowl.Runtime.Bounds)
+  - Prowl.Runtime.Bounds.op_Inequality(Prowl.Runtime.Bounds,Prowl.Runtime.Bounds)
+  - Prowl.Runtime.Bounds.size
+  langs:
+  - csharp
+  - vb
+  name: Bounds
+  nameWithType: Bounds
+  fullName: Prowl.Runtime.Bounds
+  type: Struct
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Bounds.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Bounds
+    path: ../Prowl/Prowl.Runtime/Math/Bounds.cs
+    startLine: 46
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: 'public struct Bounds : IEquatable<Bounds>'
+    content.vb: Public Structure Bounds Implements IEquatable(Of Bounds)
+  implements:
+  - System.IEquatable{Prowl.Runtime.Bounds}
+  inheritedMembers:
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  extensionMethods:
+  - System.Object.Prowl.Runtime.RuntimeUtils.GetSerializableFields
+- uid: Prowl.Runtime.Bounds.min
+  commentId: F:Prowl.Runtime.Bounds.min
+  id: min
+  parent: Prowl.Runtime.Bounds
+  langs:
+  - csharp
+  - vb
+  name: min
+  nameWithType: Bounds.min
+  fullName: Prowl.Runtime.Bounds.min
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Bounds.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: min
+    path: ../Prowl/Prowl.Runtime/Math/Bounds.cs
+    startLine: 52
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: >-
+      [DataMember]
+
+      public Vector3 min
+    return:
+      type: Prowl.Runtime.Vector3
+    content.vb: >-
+      <DataMember>
+
+      Public min As Vector3
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+- uid: Prowl.Runtime.Bounds.max
+  commentId: F:Prowl.Runtime.Bounds.max
+  id: max
+  parent: Prowl.Runtime.Bounds
+  langs:
+  - csharp
+  - vb
+  name: max
+  nameWithType: Bounds.max
+  fullName: Prowl.Runtime.Bounds.max
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Bounds.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: max
+    path: ../Prowl/Prowl.Runtime/Math/Bounds.cs
+    startLine: 55
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: >-
+      [DataMember]
+
+      public Vector3 max
+    return:
+      type: Prowl.Runtime.Vector3
+    content.vb: >-
+      <DataMember>
+
+      Public max As Vector3
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+- uid: Prowl.Runtime.Bounds.CornerCount
+  commentId: F:Prowl.Runtime.Bounds.CornerCount
+  id: CornerCount
+  parent: Prowl.Runtime.Bounds
+  langs:
+  - csharp
+  - vb
+  name: CornerCount
+  nameWithType: Bounds.CornerCount
+  fullName: Prowl.Runtime.Bounds.CornerCount
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Bounds.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: CornerCount
+    path: ../Prowl/Prowl.Runtime/Math/Bounds.cs
+    startLine: 57
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public const int CornerCount = 8
+    return:
+      type: System.Int32
+    content.vb: Public Const CornerCount As Integer = 8
+- uid: Prowl.Runtime.Bounds.center
+  commentId: P:Prowl.Runtime.Bounds.center
+  id: center
+  parent: Prowl.Runtime.Bounds
+  langs:
+  - csharp
+  - vb
+  name: center
+  nameWithType: Bounds.center
+  fullName: Prowl.Runtime.Bounds.center
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Bounds.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: center
+    path: ../Prowl/Prowl.Runtime/Math/Bounds.cs
+    startLine: 62
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public Vector3 center { get; set; }
+    parameters: []
+    return:
+      type: Prowl.Runtime.Vector3
+    content.vb: Public Property center As Vector3
+  overload: Prowl.Runtime.Bounds.center*
+- uid: Prowl.Runtime.Bounds.extents
+  commentId: P:Prowl.Runtime.Bounds.extents
+  id: extents
+  parent: Prowl.Runtime.Bounds
+  langs:
+  - csharp
+  - vb
+  name: extents
+  nameWithType: Bounds.extents
+  fullName: Prowl.Runtime.Bounds.extents
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Bounds.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: extents
+    path: ../Prowl/Prowl.Runtime/Math/Bounds.cs
+    startLine: 63
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public Vector3 extents { get; set; }
+    parameters: []
+    return:
+      type: Prowl.Runtime.Vector3
+    content.vb: Public Property extents As Vector3
+  overload: Prowl.Runtime.Bounds.extents*
+- uid: Prowl.Runtime.Bounds.size
+  commentId: P:Prowl.Runtime.Bounds.size
+  id: size
+  parent: Prowl.Runtime.Bounds
+  langs:
+  - csharp
+  - vb
+  name: size
+  nameWithType: Bounds.size
+  fullName: Prowl.Runtime.Bounds.size
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Bounds.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: size
+    path: ../Prowl/Prowl.Runtime/Math/Bounds.cs
+    startLine: 64
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public Vector3 size { get; set; }
+    parameters: []
+    return:
+      type: Prowl.Runtime.Vector3
+    content.vb: Public Property size As Vector3
+  overload: Prowl.Runtime.Bounds.size*
+- uid: Prowl.Runtime.Bounds.#ctor(Prowl.Runtime.Vector3,Prowl.Runtime.Vector3)
+  commentId: M:Prowl.Runtime.Bounds.#ctor(Prowl.Runtime.Vector3,Prowl.Runtime.Vector3)
+  id: '#ctor(Prowl.Runtime.Vector3,Prowl.Runtime.Vector3)'
+  parent: Prowl.Runtime.Bounds
+  langs:
+  - csharp
+  - vb
+  name: Bounds(Vector3, Vector3)
+  nameWithType: Bounds.Bounds(Vector3, Vector3)
+  fullName: Prowl.Runtime.Bounds.Bounds(Prowl.Runtime.Vector3, Prowl.Runtime.Vector3)
+  type: Constructor
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Bounds.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: .ctor
+    path: ../Prowl/Prowl.Runtime/Math/Bounds.cs
+    startLine: 70
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public Bounds(Vector3 center, Vector3 size)
+    parameters:
+    - id: center
+      type: Prowl.Runtime.Vector3
+    - id: size
+      type: Prowl.Runtime.Vector3
+    content.vb: Public Sub New(center As Vector3, size As Vector3)
+  overload: Prowl.Runtime.Bounds.#ctor*
+  nameWithType.vb: Bounds.New(Vector3, Vector3)
+  fullName.vb: Prowl.Runtime.Bounds.New(Prowl.Runtime.Vector3, Prowl.Runtime.Vector3)
+  name.vb: New(Vector3, Vector3)
+- uid: Prowl.Runtime.Bounds.Contains(Prowl.Runtime.Bounds)
+  commentId: M:Prowl.Runtime.Bounds.Contains(Prowl.Runtime.Bounds)
+  id: Contains(Prowl.Runtime.Bounds)
+  parent: Prowl.Runtime.Bounds
+  langs:
+  - csharp
+  - vb
+  name: Contains(Bounds)
+  nameWithType: Bounds.Contains(Bounds)
+  fullName: Prowl.Runtime.Bounds.Contains(Prowl.Runtime.Bounds)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Bounds.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Contains
+    path: ../Prowl/Prowl.Runtime/Math/Bounds.cs
+    startLine: 82
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public ContainmentType Contains(Bounds box)
+    parameters:
+    - id: box
+      type: Prowl.Runtime.Bounds
+    return:
+      type: Prowl.Runtime.ContainmentType
+    content.vb: Public Function Contains(box As Bounds) As ContainmentType
+  overload: Prowl.Runtime.Bounds.Contains*
+- uid: Prowl.Runtime.Bounds.Contains(Prowl.Runtime.Bounds@,Prowl.Runtime.ContainmentType@)
+  commentId: M:Prowl.Runtime.Bounds.Contains(Prowl.Runtime.Bounds@,Prowl.Runtime.ContainmentType@)
+  id: Contains(Prowl.Runtime.Bounds@,Prowl.Runtime.ContainmentType@)
+  parent: Prowl.Runtime.Bounds
+  langs:
+  - csharp
+  - vb
+  name: Contains(ref Bounds, out ContainmentType)
+  nameWithType: Bounds.Contains(ref Bounds, out ContainmentType)
+  fullName: Prowl.Runtime.Bounds.Contains(ref Prowl.Runtime.Bounds, out Prowl.Runtime.ContainmentType)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Bounds.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Contains
+    path: ../Prowl/Prowl.Runtime/Math/Bounds.cs
+    startLine: 105
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public void Contains(ref Bounds box, out ContainmentType result)
+    parameters:
+    - id: box
+      type: Prowl.Runtime.Bounds
+    - id: result
+      type: Prowl.Runtime.ContainmentType
+    content.vb: Public Sub Contains(box As Bounds, result As ContainmentType)
+  overload: Prowl.Runtime.Bounds.Contains*
+  nameWithType.vb: Bounds.Contains(Bounds, ContainmentType)
+  fullName.vb: Prowl.Runtime.Bounds.Contains(Prowl.Runtime.Bounds, Prowl.Runtime.ContainmentType)
+  name.vb: Contains(Bounds, ContainmentType)
+- uid: Prowl.Runtime.Bounds.Contains(Prowl.Runtime.BoundingFrustum)
+  commentId: M:Prowl.Runtime.Bounds.Contains(Prowl.Runtime.BoundingFrustum)
+  id: Contains(Prowl.Runtime.BoundingFrustum)
+  parent: Prowl.Runtime.Bounds
+  langs:
+  - csharp
+  - vb
+  name: Contains(BoundingFrustum)
+  nameWithType: Bounds.Contains(BoundingFrustum)
+  fullName: Prowl.Runtime.Bounds.Contains(Prowl.Runtime.BoundingFrustum)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Bounds.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Contains
+    path: ../Prowl/Prowl.Runtime/Math/Bounds.cs
+    startLine: 110
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public ContainmentType Contains(BoundingFrustum frustum)
+    parameters:
+    - id: frustum
+      type: Prowl.Runtime.BoundingFrustum
+    return:
+      type: Prowl.Runtime.ContainmentType
+    content.vb: Public Function Contains(frustum As BoundingFrustum) As ContainmentType
+  overload: Prowl.Runtime.Bounds.Contains*
+- uid: Prowl.Runtime.Bounds.Contains(Prowl.Runtime.Vector3)
+  commentId: M:Prowl.Runtime.Bounds.Contains(Prowl.Runtime.Vector3)
+  id: Contains(Prowl.Runtime.Vector3)
+  parent: Prowl.Runtime.Bounds
+  langs:
+  - csharp
+  - vb
+  name: Contains(Vector3)
+  nameWithType: Bounds.Contains(Vector3)
+  fullName: Prowl.Runtime.Bounds.Contains(Prowl.Runtime.Vector3)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Bounds.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Contains
+    path: ../Prowl/Prowl.Runtime/Math/Bounds.cs
+    startLine: 149
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public ContainmentType Contains(Vector3 point)
+    parameters:
+    - id: point
+      type: Prowl.Runtime.Vector3
+    return:
+      type: Prowl.Runtime.ContainmentType
+    content.vb: Public Function Contains(point As Vector3) As ContainmentType
+  overload: Prowl.Runtime.Bounds.Contains*
+- uid: Prowl.Runtime.Bounds.Contains(Prowl.Runtime.Vector3@,Prowl.Runtime.ContainmentType@)
+  commentId: M:Prowl.Runtime.Bounds.Contains(Prowl.Runtime.Vector3@,Prowl.Runtime.ContainmentType@)
+  id: Contains(Prowl.Runtime.Vector3@,Prowl.Runtime.ContainmentType@)
+  parent: Prowl.Runtime.Bounds
+  langs:
+  - csharp
+  - vb
+  name: Contains(ref Vector3, out ContainmentType)
+  nameWithType: Bounds.Contains(ref Vector3, out ContainmentType)
+  fullName: Prowl.Runtime.Bounds.Contains(ref Prowl.Runtime.Vector3, out Prowl.Runtime.ContainmentType)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Bounds.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Contains
+    path: ../Prowl/Prowl.Runtime/Math/Bounds.cs
+    startLine: 156
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public void Contains(ref Vector3 point, out ContainmentType result)
+    parameters:
+    - id: point
+      type: Prowl.Runtime.Vector3
+    - id: result
+      type: Prowl.Runtime.ContainmentType
+    content.vb: Public Sub Contains(point As Vector3, result As ContainmentType)
+  overload: Prowl.Runtime.Bounds.Contains*
+  nameWithType.vb: Bounds.Contains(Vector3, ContainmentType)
+  fullName.vb: Prowl.Runtime.Bounds.Contains(Prowl.Runtime.Vector3, Prowl.Runtime.ContainmentType)
+  name.vb: Contains(Vector3, ContainmentType)
+- uid: Prowl.Runtime.Bounds.CreateFromPoints(System.Collections.Generic.IEnumerable{Prowl.Runtime.Vector3})
+  commentId: M:Prowl.Runtime.Bounds.CreateFromPoints(System.Collections.Generic.IEnumerable{Prowl.Runtime.Vector3})
+  id: CreateFromPoints(System.Collections.Generic.IEnumerable{Prowl.Runtime.Vector3})
+  parent: Prowl.Runtime.Bounds
+  langs:
+  - csharp
+  - vb
+  name: CreateFromPoints(IEnumerable<Vector3>)
+  nameWithType: Bounds.CreateFromPoints(IEnumerable<Vector3>)
+  fullName: Prowl.Runtime.Bounds.CreateFromPoints(System.Collections.Generic.IEnumerable<Prowl.Runtime.Vector3>)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Bounds.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: CreateFromPoints
+    path: ../Prowl/Prowl.Runtime/Math/Bounds.cs
+    startLine: 188
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: Create a bounding box from the given list of points.
+  example: []
+  syntax:
+    content: public static Bounds CreateFromPoints(IEnumerable<Vector3> points)
+    parameters:
+    - id: points
+      type: System.Collections.Generic.IEnumerable{Prowl.Runtime.Vector3}
+      description: The list of Vector3 instances defining the point cloud to bound
+    return:
+      type: Prowl.Runtime.Bounds
+      description: A bounding box that encapsulates the given point cloud.
+    content.vb: Public Shared Function CreateFromPoints(points As IEnumerable(Of Vector3)) As Bounds
+  overload: Prowl.Runtime.Bounds.CreateFromPoints*
+  exceptions:
+  - type: System.ArgumentException
+    commentId: T:System.ArgumentException
+    description: Thrown if the given list has no points.
+  nameWithType.vb: Bounds.CreateFromPoints(IEnumerable(Of Vector3))
+  fullName.vb: Prowl.Runtime.Bounds.CreateFromPoints(System.Collections.Generic.IEnumerable(Of Prowl.Runtime.Vector3))
+  name.vb: CreateFromPoints(IEnumerable(Of Vector3))
+- uid: Prowl.Runtime.Bounds.Encapsulate(Prowl.Runtime.Vector3)
+  commentId: M:Prowl.Runtime.Bounds.Encapsulate(Prowl.Runtime.Vector3)
+  id: Encapsulate(Prowl.Runtime.Vector3)
+  parent: Prowl.Runtime.Bounds
+  langs:
+  - csharp
+  - vb
+  name: Encapsulate(Vector3)
+  nameWithType: Bounds.Encapsulate(Vector3)
+  fullName: Prowl.Runtime.Bounds.Encapsulate(Prowl.Runtime.Vector3)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Bounds.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Encapsulate
+    path: ../Prowl/Prowl.Runtime/Math/Bounds.cs
+    startLine: 214
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public void Encapsulate(Vector3 point)
+    parameters:
+    - id: point
+      type: Prowl.Runtime.Vector3
+    content.vb: Public Sub Encapsulate(point As Vector3)
+  overload: Prowl.Runtime.Bounds.Encapsulate*
+- uid: Prowl.Runtime.Bounds.Encapsulate(Prowl.Runtime.Bounds)
+  commentId: M:Prowl.Runtime.Bounds.Encapsulate(Prowl.Runtime.Bounds)
+  id: Encapsulate(Prowl.Runtime.Bounds)
+  parent: Prowl.Runtime.Bounds
+  langs:
+  - csharp
+  - vb
+  name: Encapsulate(Bounds)
+  nameWithType: Bounds.Encapsulate(Bounds)
+  fullName: Prowl.Runtime.Bounds.Encapsulate(Prowl.Runtime.Bounds)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Bounds.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Encapsulate
+    path: ../Prowl/Prowl.Runtime/Math/Bounds.cs
+    startLine: 220
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public void Encapsulate(Bounds bounds)
+    parameters:
+    - id: bounds
+      type: Prowl.Runtime.Bounds
+    content.vb: Public Sub Encapsulate(bounds As Bounds)
+  overload: Prowl.Runtime.Bounds.Encapsulate*
+- uid: Prowl.Runtime.Bounds.Expand(System.Double)
+  commentId: M:Prowl.Runtime.Bounds.Expand(System.Double)
+  id: Expand(System.Double)
+  parent: Prowl.Runtime.Bounds
+  langs:
+  - csharp
+  - vb
+  name: Expand(double)
+  nameWithType: Bounds.Expand(double)
+  fullName: Prowl.Runtime.Bounds.Expand(double)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Bounds.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Expand
+    path: ../Prowl/Prowl.Runtime/Math/Bounds.cs
+    startLine: 226
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public void Expand(double amount)
+    parameters:
+    - id: amount
+      type: System.Double
+    content.vb: Public Sub Expand(amount As Double)
+  overload: Prowl.Runtime.Bounds.Expand*
+  nameWithType.vb: Bounds.Expand(Double)
+  fullName.vb: Prowl.Runtime.Bounds.Expand(Double)
+  name.vb: Expand(Double)
+- uid: Prowl.Runtime.Bounds.Expand(Prowl.Runtime.Vector3)
+  commentId: M:Prowl.Runtime.Bounds.Expand(Prowl.Runtime.Vector3)
+  id: Expand(Prowl.Runtime.Vector3)
+  parent: Prowl.Runtime.Bounds
+  langs:
+  - csharp
+  - vb
+  name: Expand(Vector3)
+  nameWithType: Bounds.Expand(Vector3)
+  fullName: Prowl.Runtime.Bounds.Expand(Prowl.Runtime.Vector3)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Bounds.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Expand
+    path: ../Prowl/Prowl.Runtime/Math/Bounds.cs
+    startLine: 231
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public void Expand(Vector3 amount)
+    parameters:
+    - id: amount
+      type: Prowl.Runtime.Vector3
+    content.vb: Public Sub Expand(amount As Vector3)
+  overload: Prowl.Runtime.Bounds.Expand*
+- uid: Prowl.Runtime.Bounds.CreateMerged(Prowl.Runtime.Bounds,Prowl.Runtime.Bounds)
+  commentId: M:Prowl.Runtime.Bounds.CreateMerged(Prowl.Runtime.Bounds,Prowl.Runtime.Bounds)
+  id: CreateMerged(Prowl.Runtime.Bounds,Prowl.Runtime.Bounds)
+  parent: Prowl.Runtime.Bounds
+  langs:
+  - csharp
+  - vb
+  name: CreateMerged(Bounds, Bounds)
+  nameWithType: Bounds.CreateMerged(Bounds, Bounds)
+  fullName: Prowl.Runtime.Bounds.CreateMerged(Prowl.Runtime.Bounds, Prowl.Runtime.Bounds)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Bounds.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: CreateMerged
+    path: ../Prowl/Prowl.Runtime/Math/Bounds.cs
+    startLine: 236
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public static Bounds CreateMerged(Bounds original, Bounds additional)
+    parameters:
+    - id: original
+      type: Prowl.Runtime.Bounds
+    - id: additional
+      type: Prowl.Runtime.Bounds
+    return:
+      type: Prowl.Runtime.Bounds
+    content.vb: Public Shared Function CreateMerged(original As Bounds, additional As Bounds) As Bounds
+  overload: Prowl.Runtime.Bounds.CreateMerged*
+- uid: Prowl.Runtime.Bounds.CreateMerged(Prowl.Runtime.Bounds@,Prowl.Runtime.Bounds@,Prowl.Runtime.Bounds@)
+  commentId: M:Prowl.Runtime.Bounds.CreateMerged(Prowl.Runtime.Bounds@,Prowl.Runtime.Bounds@,Prowl.Runtime.Bounds@)
+  id: CreateMerged(Prowl.Runtime.Bounds@,Prowl.Runtime.Bounds@,Prowl.Runtime.Bounds@)
+  parent: Prowl.Runtime.Bounds
+  langs:
+  - csharp
+  - vb
+  name: CreateMerged(ref Bounds, ref Bounds, out Bounds)
+  nameWithType: Bounds.CreateMerged(ref Bounds, ref Bounds, out Bounds)
+  fullName: Prowl.Runtime.Bounds.CreateMerged(ref Prowl.Runtime.Bounds, ref Prowl.Runtime.Bounds, out Prowl.Runtime.Bounds)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Bounds.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: CreateMerged
+    path: ../Prowl/Prowl.Runtime/Math/Bounds.cs
+    startLine: 243
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public static void CreateMerged(ref Bounds original, ref Bounds additional, out Bounds result)
+    parameters:
+    - id: original
+      type: Prowl.Runtime.Bounds
+    - id: additional
+      type: Prowl.Runtime.Bounds
+    - id: result
+      type: Prowl.Runtime.Bounds
+    content.vb: Public Shared Sub CreateMerged(original As Bounds, additional As Bounds, result As Bounds)
+  overload: Prowl.Runtime.Bounds.CreateMerged*
+  nameWithType.vb: Bounds.CreateMerged(Bounds, Bounds, Bounds)
+  fullName.vb: Prowl.Runtime.Bounds.CreateMerged(Prowl.Runtime.Bounds, Prowl.Runtime.Bounds, Prowl.Runtime.Bounds)
+  name.vb: CreateMerged(Bounds, Bounds, Bounds)
+- uid: Prowl.Runtime.Bounds.Equals(Prowl.Runtime.Bounds)
+  commentId: M:Prowl.Runtime.Bounds.Equals(Prowl.Runtime.Bounds)
+  id: Equals(Prowl.Runtime.Bounds)
+  parent: Prowl.Runtime.Bounds
+  langs:
+  - csharp
+  - vb
+  name: Equals(Bounds)
+  nameWithType: Bounds.Equals(Bounds)
+  fullName: Prowl.Runtime.Bounds.Equals(Prowl.Runtime.Bounds)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Bounds.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Equals
+    path: ../Prowl/Prowl.Runtime/Math/Bounds.cs
+    startLine: 253
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: Indicates whether the current object is equal to another object of the same type.
+  example: []
+  syntax:
+    content: public bool Equals(Bounds other)
+    parameters:
+    - id: other
+      type: Prowl.Runtime.Bounds
+      description: An object to compare with this object.
+    return:
+      type: System.Boolean
+      description: <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if the current object is equal to the <code class="paramref">other</code> parameter; otherwise, <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a>.
+    content.vb: Public Function Equals(other As Bounds) As Boolean
+  overload: Prowl.Runtime.Bounds.Equals*
+  implements:
+  - System.IEquatable{Prowl.Runtime.Bounds}.Equals(Prowl.Runtime.Bounds)
+- uid: Prowl.Runtime.Bounds.Equals(System.Object)
+  commentId: M:Prowl.Runtime.Bounds.Equals(System.Object)
+  id: Equals(System.Object)
+  parent: Prowl.Runtime.Bounds
+  langs:
+  - csharp
+  - vb
+  name: Equals(object?)
+  nameWithType: Bounds.Equals(object?)
+  fullName: Prowl.Runtime.Bounds.Equals(object?)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Bounds.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Equals
+    path: ../Prowl/Prowl.Runtime/Math/Bounds.cs
+    startLine: 258
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: Indicates whether this instance and a specified object are equal.
+  example: []
+  syntax:
+    content: public override bool Equals(object? obj)
+    parameters:
+    - id: obj
+      type: System.Object
+      description: The object to compare with the current instance.
+    return:
+      type: System.Boolean
+      description: <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if <code class="paramref">obj</code> and this instance are the same type and represent the same value; otherwise, <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a>.
+    content.vb: Public Overrides Function Equals(obj As Object) As Boolean
+  overridden: System.ValueType.Equals(System.Object)
+  overload: Prowl.Runtime.Bounds.Equals*
+  nameWithType.vb: Bounds.Equals(Object)
+  fullName.vb: Prowl.Runtime.Bounds.Equals(Object)
+  name.vb: Equals(Object)
+- uid: Prowl.Runtime.Bounds.GetCorners
+  commentId: M:Prowl.Runtime.Bounds.GetCorners
+  id: GetCorners
+  parent: Prowl.Runtime.Bounds
+  langs:
+  - csharp
+  - vb
+  name: GetCorners()
+  nameWithType: Bounds.GetCorners()
+  fullName: Prowl.Runtime.Bounds.GetCorners()
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Bounds.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: GetCorners
+    path: ../Prowl/Prowl.Runtime/Math/Bounds.cs
+    startLine: 263
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public Vector3[] GetCorners()
+    return:
+      type: Prowl.Runtime.Vector3[]
+    content.vb: Public Function GetCorners() As Vector3()
+  overload: Prowl.Runtime.Bounds.GetCorners*
+- uid: Prowl.Runtime.Bounds.GetCorners(Prowl.Runtime.Vector3[])
+  commentId: M:Prowl.Runtime.Bounds.GetCorners(Prowl.Runtime.Vector3[])
+  id: GetCorners(Prowl.Runtime.Vector3[])
+  parent: Prowl.Runtime.Bounds
+  langs:
+  - csharp
+  - vb
+  name: GetCorners(Vector3[])
+  nameWithType: Bounds.GetCorners(Vector3[])
+  fullName: Prowl.Runtime.Bounds.GetCorners(Prowl.Runtime.Vector3[])
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Bounds.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: GetCorners
+    path: ../Prowl/Prowl.Runtime/Math/Bounds.cs
+    startLine: 278
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public void GetCorners(Vector3[] corners)
+    parameters:
+    - id: corners
+      type: Prowl.Runtime.Vector3[]
+    content.vb: Public Sub GetCorners(corners As Vector3())
+  overload: Prowl.Runtime.Bounds.GetCorners*
+  nameWithType.vb: Bounds.GetCorners(Vector3())
+  fullName.vb: Prowl.Runtime.Bounds.GetCorners(Prowl.Runtime.Vector3())
+  name.vb: GetCorners(Vector3())
+- uid: Prowl.Runtime.Bounds.GetHashCode
+  commentId: M:Prowl.Runtime.Bounds.GetHashCode
+  id: GetHashCode
+  parent: Prowl.Runtime.Bounds
+  langs:
+  - csharp
+  - vb
+  name: GetHashCode()
+  nameWithType: Bounds.GetHashCode()
+  fullName: Prowl.Runtime.Bounds.GetHashCode()
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Bounds.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: GetHashCode
+    path: ../Prowl/Prowl.Runtime/Math/Bounds.cs
+    startLine: 311
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: Returns the hash code for this instance.
+  example: []
+  syntax:
+    content: public override int GetHashCode()
+    return:
+      type: System.Int32
+      description: A 32-bit signed integer that is the hash code for this instance.
+    content.vb: Public Overrides Function GetHashCode() As Integer
+  overridden: System.ValueType.GetHashCode
+  overload: Prowl.Runtime.Bounds.GetHashCode*
+- uid: Prowl.Runtime.Bounds.Intersects(Prowl.Runtime.Bounds)
+  commentId: M:Prowl.Runtime.Bounds.Intersects(Prowl.Runtime.Bounds)
+  id: Intersects(Prowl.Runtime.Bounds)
+  parent: Prowl.Runtime.Bounds
+  langs:
+  - csharp
+  - vb
+  name: Intersects(Bounds)
+  nameWithType: Bounds.Intersects(Bounds)
+  fullName: Prowl.Runtime.Bounds.Intersects(Prowl.Runtime.Bounds)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Bounds.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Intersects
+    path: ../Prowl/Prowl.Runtime/Math/Bounds.cs
+    startLine: 316
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public bool Intersects(Bounds box)
+    parameters:
+    - id: box
+      type: Prowl.Runtime.Bounds
+    return:
+      type: System.Boolean
+    content.vb: Public Function Intersects(box As Bounds) As Boolean
+  overload: Prowl.Runtime.Bounds.Intersects*
+- uid: Prowl.Runtime.Bounds.Intersects(Prowl.Runtime.Bounds@,System.Boolean@)
+  commentId: M:Prowl.Runtime.Bounds.Intersects(Prowl.Runtime.Bounds@,System.Boolean@)
+  id: Intersects(Prowl.Runtime.Bounds@,System.Boolean@)
+  parent: Prowl.Runtime.Bounds
+  langs:
+  - csharp
+  - vb
+  name: Intersects(ref Bounds, out bool)
+  nameWithType: Bounds.Intersects(ref Bounds, out bool)
+  fullName: Prowl.Runtime.Bounds.Intersects(ref Prowl.Runtime.Bounds, out bool)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Bounds.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Intersects
+    path: ../Prowl/Prowl.Runtime/Math/Bounds.cs
+    startLine: 323
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public void Intersects(ref Bounds box, out bool result)
+    parameters:
+    - id: box
+      type: Prowl.Runtime.Bounds
+    - id: result
+      type: System.Boolean
+    content.vb: Public Sub Intersects(box As Bounds, result As Boolean)
+  overload: Prowl.Runtime.Bounds.Intersects*
+  nameWithType.vb: Bounds.Intersects(Bounds, Boolean)
+  fullName.vb: Prowl.Runtime.Bounds.Intersects(Prowl.Runtime.Bounds, Boolean)
+  name.vb: Intersects(Bounds, Boolean)
+- uid: Prowl.Runtime.Bounds.Intersects(Prowl.Runtime.BoundingFrustum)
+  commentId: M:Prowl.Runtime.Bounds.Intersects(Prowl.Runtime.BoundingFrustum)
+  id: Intersects(Prowl.Runtime.BoundingFrustum)
+  parent: Prowl.Runtime.Bounds
+  langs:
+  - csharp
+  - vb
+  name: Intersects(BoundingFrustum)
+  nameWithType: Bounds.Intersects(BoundingFrustum)
+  fullName: Prowl.Runtime.Bounds.Intersects(Prowl.Runtime.BoundingFrustum)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Bounds.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Intersects
+    path: ../Prowl/Prowl.Runtime/Math/Bounds.cs
+    startLine: 341
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public bool Intersects(BoundingFrustum frustum)
+    parameters:
+    - id: frustum
+      type: Prowl.Runtime.BoundingFrustum
+    return:
+      type: System.Boolean
+    content.vb: Public Function Intersects(frustum As BoundingFrustum) As Boolean
+  overload: Prowl.Runtime.Bounds.Intersects*
+- uid: Prowl.Runtime.Bounds.Intersects(Prowl.Runtime.Plane)
+  commentId: M:Prowl.Runtime.Bounds.Intersects(Prowl.Runtime.Plane)
+  id: Intersects(Prowl.Runtime.Plane)
+  parent: Prowl.Runtime.Bounds
+  langs:
+  - csharp
+  - vb
+  name: Intersects(Plane)
+  nameWithType: Bounds.Intersects(Plane)
+  fullName: Prowl.Runtime.Bounds.Intersects(Prowl.Runtime.Plane)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Bounds.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Intersects
+    path: ../Prowl/Prowl.Runtime/Math/Bounds.cs
+    startLine: 346
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public PlaneIntersectionType Intersects(Plane plane)
+    parameters:
+    - id: plane
+      type: Prowl.Runtime.Plane
+    return:
+      type: Prowl.Runtime.PlaneIntersectionType
+    content.vb: Public Function Intersects(plane As Plane) As PlaneIntersectionType
+  overload: Prowl.Runtime.Bounds.Intersects*
+- uid: Prowl.Runtime.Bounds.Intersects(Prowl.Runtime.Plane@,Prowl.Runtime.PlaneIntersectionType@)
+  commentId: M:Prowl.Runtime.Bounds.Intersects(Prowl.Runtime.Plane@,Prowl.Runtime.PlaneIntersectionType@)
+  id: Intersects(Prowl.Runtime.Plane@,Prowl.Runtime.PlaneIntersectionType@)
+  parent: Prowl.Runtime.Bounds
+  langs:
+  - csharp
+  - vb
+  name: Intersects(ref Plane, out PlaneIntersectionType)
+  nameWithType: Bounds.Intersects(ref Plane, out PlaneIntersectionType)
+  fullName: Prowl.Runtime.Bounds.Intersects(ref Prowl.Runtime.Plane, out Prowl.Runtime.PlaneIntersectionType)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Bounds.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Intersects
+    path: ../Prowl/Prowl.Runtime/Math/Bounds.cs
+    startLine: 353
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public void Intersects(ref Plane plane, out PlaneIntersectionType result)
+    parameters:
+    - id: plane
+      type: Prowl.Runtime.Plane
+    - id: result
+      type: Prowl.Runtime.PlaneIntersectionType
+    content.vb: Public Sub Intersects(plane As Plane, result As PlaneIntersectionType)
+  overload: Prowl.Runtime.Bounds.Intersects*
+  nameWithType.vb: Bounds.Intersects(Plane, PlaneIntersectionType)
+  fullName.vb: Prowl.Runtime.Bounds.Intersects(Prowl.Runtime.Plane, Prowl.Runtime.PlaneIntersectionType)
+  name.vb: Intersects(Plane, PlaneIntersectionType)
+- uid: Prowl.Runtime.Bounds.Intersects(Prowl.Runtime.Ray)
+  commentId: M:Prowl.Runtime.Bounds.Intersects(Prowl.Runtime.Ray)
+  id: Intersects(Prowl.Runtime.Ray)
+  parent: Prowl.Runtime.Bounds
+  langs:
+  - csharp
+  - vb
+  name: Intersects(Ray)
+  nameWithType: Bounds.Intersects(Ray)
+  fullName: Prowl.Runtime.Bounds.Intersects(Prowl.Runtime.Ray)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Bounds.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Intersects
+    path: ../Prowl/Prowl.Runtime/Math/Bounds.cs
+    startLine: 412
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public double? Intersects(Ray ray)
+    parameters:
+    - id: ray
+      type: Prowl.Runtime.Ray
+    return:
+      type: System.Nullable{System.Double}
+    content.vb: Public Function Intersects(ray As Ray) As Double?
+  overload: Prowl.Runtime.Bounds.Intersects*
+- uid: Prowl.Runtime.Bounds.Intersects(Prowl.Runtime.Ray@,System.Nullable{System.Double}@)
+  commentId: M:Prowl.Runtime.Bounds.Intersects(Prowl.Runtime.Ray@,System.Nullable{System.Double}@)
+  id: Intersects(Prowl.Runtime.Ray@,System.Nullable{System.Double}@)
+  parent: Prowl.Runtime.Bounds
+  langs:
+  - csharp
+  - vb
+  name: Intersects(ref Ray, out double?)
+  nameWithType: Bounds.Intersects(ref Ray, out double?)
+  fullName: Prowl.Runtime.Bounds.Intersects(ref Prowl.Runtime.Ray, out double?)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Bounds.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Intersects
+    path: ../Prowl/Prowl.Runtime/Math/Bounds.cs
+    startLine: 417
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public void Intersects(ref Ray ray, out double? result)
+    parameters:
+    - id: ray
+      type: Prowl.Runtime.Ray
+    - id: result
+      type: System.Nullable{System.Double}
+    content.vb: Public Sub Intersects(ray As Ray, result As Double?)
+  overload: Prowl.Runtime.Bounds.Intersects*
+  nameWithType.vb: Bounds.Intersects(Ray, Double?)
+  fullName.vb: Prowl.Runtime.Bounds.Intersects(Prowl.Runtime.Ray, Double?)
+  name.vb: Intersects(Ray, Double?)
+- uid: Prowl.Runtime.Bounds.Transform(Prowl.Runtime.Matrix4x4)
+  commentId: M:Prowl.Runtime.Bounds.Transform(Prowl.Runtime.Matrix4x4)
+  id: Transform(Prowl.Runtime.Matrix4x4)
+  parent: Prowl.Runtime.Bounds
+  langs:
+  - csharp
+  - vb
+  name: Transform(Matrix4x4)
+  nameWithType: Bounds.Transform(Matrix4x4)
+  fullName: Prowl.Runtime.Bounds.Transform(Prowl.Runtime.Matrix4x4)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Bounds.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Transform
+    path: ../Prowl/Prowl.Runtime/Math/Bounds.cs
+    startLine: 422
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public Bounds Transform(Matrix4x4 matrix)
+    parameters:
+    - id: matrix
+      type: Prowl.Runtime.Matrix4x4
+    return:
+      type: Prowl.Runtime.Bounds
+    content.vb: Public Function Transform(matrix As Matrix4x4) As Bounds
+  overload: Prowl.Runtime.Bounds.Transform*
+- uid: Prowl.Runtime.Bounds.op_Equality(Prowl.Runtime.Bounds,Prowl.Runtime.Bounds)
+  commentId: M:Prowl.Runtime.Bounds.op_Equality(Prowl.Runtime.Bounds,Prowl.Runtime.Bounds)
+  id: op_Equality(Prowl.Runtime.Bounds,Prowl.Runtime.Bounds)
+  parent: Prowl.Runtime.Bounds
+  langs:
+  - csharp
+  - vb
+  name: operator ==(Bounds, Bounds)
+  nameWithType: Bounds.operator ==(Bounds, Bounds)
+  fullName: Prowl.Runtime.Bounds.operator ==(Prowl.Runtime.Bounds, Prowl.Runtime.Bounds)
+  type: Operator
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Bounds.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: op_Equality
+    path: ../Prowl/Prowl.Runtime/Math/Bounds.cs
+    startLine: 456
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public static bool operator ==(Bounds a, Bounds b)
+    parameters:
+    - id: a
+      type: Prowl.Runtime.Bounds
+    - id: b
+      type: Prowl.Runtime.Bounds
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Operator =(a As Bounds, b As Bounds) As Boolean
+  overload: Prowl.Runtime.Bounds.op_Equality*
+  nameWithType.vb: Bounds.=(Bounds, Bounds)
+  fullName.vb: Prowl.Runtime.Bounds.=(Prowl.Runtime.Bounds, Prowl.Runtime.Bounds)
+  name.vb: =(Bounds, Bounds)
+- uid: Prowl.Runtime.Bounds.op_Inequality(Prowl.Runtime.Bounds,Prowl.Runtime.Bounds)
+  commentId: M:Prowl.Runtime.Bounds.op_Inequality(Prowl.Runtime.Bounds,Prowl.Runtime.Bounds)
+  id: op_Inequality(Prowl.Runtime.Bounds,Prowl.Runtime.Bounds)
+  parent: Prowl.Runtime.Bounds
+  langs:
+  - csharp
+  - vb
+  name: operator !=(Bounds, Bounds)
+  nameWithType: Bounds.operator !=(Bounds, Bounds)
+  fullName: Prowl.Runtime.Bounds.operator !=(Prowl.Runtime.Bounds, Prowl.Runtime.Bounds)
+  type: Operator
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Bounds.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: op_Inequality
+    path: ../Prowl/Prowl.Runtime/Math/Bounds.cs
+    startLine: 461
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public static bool operator !=(Bounds a, Bounds b)
+    parameters:
+    - id: a
+      type: Prowl.Runtime.Bounds
+    - id: b
+      type: Prowl.Runtime.Bounds
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Operator <>(a As Bounds, b As Bounds) As Boolean
+  overload: Prowl.Runtime.Bounds.op_Inequality*
+  nameWithType.vb: Bounds.<>(Bounds, Bounds)
+  fullName.vb: Prowl.Runtime.Bounds.<>(Prowl.Runtime.Bounds, Prowl.Runtime.Bounds)
+  name.vb: <>(Bounds, Bounds)
+- uid: Prowl.Runtime.Bounds.ToString
+  commentId: M:Prowl.Runtime.Bounds.ToString
+  id: ToString
+  parent: Prowl.Runtime.Bounds
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: Bounds.ToString()
+  fullName: Prowl.Runtime.Bounds.ToString()
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Bounds.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: ToString
+    path: ../Prowl/Prowl.Runtime/Math/Bounds.cs
+    startLine: 477
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: Returns the fully qualified type name of this instance.
+  example: []
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+      description: The fully qualified type name.
+    content.vb: Public Overrides Function ToString() As String
+  overridden: System.ValueType.ToString
+  overload: Prowl.Runtime.Bounds.ToString*
+references:
+- uid: Prowl.Runtime
+  commentId: N:Prowl.Runtime
+  href: Prowl.html
+  name: Prowl.Runtime
+  nameWithType: Prowl.Runtime
+  fullName: Prowl.Runtime
+  spec.csharp:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+  spec.vb:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+- uid: System.IEquatable{Prowl.Runtime.Bounds}
+  commentId: T:System.IEquatable{Prowl.Runtime.Bounds}
+  parent: System
+  definition: System.IEquatable`1
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<Bounds>
+  nameWithType: IEquatable<Bounds>
+  fullName: System.IEquatable<Prowl.Runtime.Bounds>
+  nameWithType.vb: IEquatable(Of Bounds)
+  fullName.vb: System.IEquatable(Of Prowl.Runtime.Bounds)
+  name.vb: IEquatable(Of Bounds)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - uid: Prowl.Runtime.Bounds
+    name: Bounds
+    href: Prowl.Runtime.Bounds.html
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Prowl.Runtime.Bounds
+    name: Bounds
+    href: Prowl.Runtime.Bounds.html
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Prowl.Runtime.RuntimeUtils.GetSerializableFields
+  commentId: M:Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  parent: Prowl.Runtime.RuntimeUtils
+  definition: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  name: GetSerializableFields(object)
+  nameWithType: RuntimeUtils.GetSerializableFields(object)
+  fullName: Prowl.Runtime.RuntimeUtils.GetSerializableFields(object)
+  nameWithType.vb: RuntimeUtils.GetSerializableFields(Object)
+  fullName.vb: Prowl.Runtime.RuntimeUtils.GetSerializableFields(Object)
+  name.vb: GetSerializableFields(Object)
+  spec.csharp:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.IEquatable`1
+  commentId: T:System.IEquatable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<T>
+  nameWithType: IEquatable<T>
+  fullName: System.IEquatable<T>
+  nameWithType.vb: IEquatable(Of T)
+  fullName.vb: System.IEquatable(Of T)
+  name.vb: IEquatable(Of T)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  commentId: M:Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  isExternal: true
+  href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  name: GetSerializableFields(object)
+  nameWithType: RuntimeUtils.GetSerializableFields(object)
+  fullName: Prowl.Runtime.RuntimeUtils.GetSerializableFields(object)
+  nameWithType.vb: RuntimeUtils.GetSerializableFields(Object)
+  fullName.vb: Prowl.Runtime.RuntimeUtils.GetSerializableFields(Object)
+  name.vb: GetSerializableFields(Object)
+  spec.csharp:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: Prowl.Runtime.RuntimeUtils
+  commentId: T:Prowl.Runtime.RuntimeUtils
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.RuntimeUtils.html
+  name: RuntimeUtils
+  nameWithType: RuntimeUtils
+  fullName: Prowl.Runtime.RuntimeUtils
+- uid: Prowl.Runtime.Vector3
+  commentId: T:Prowl.Runtime.Vector3
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.Vector3.html
+  name: Vector3
+  nameWithType: Vector3
+  fullName: Prowl.Runtime.Vector3
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: Prowl.Runtime.Bounds.center*
+  commentId: Overload:Prowl.Runtime.Bounds.center
+  href: Prowl.Runtime.Bounds.html#Prowl_Runtime_Bounds_center
+  name: center
+  nameWithType: Bounds.center
+  fullName: Prowl.Runtime.Bounds.center
+- uid: Prowl.Runtime.Bounds.extents*
+  commentId: Overload:Prowl.Runtime.Bounds.extents
+  href: Prowl.Runtime.Bounds.html#Prowl_Runtime_Bounds_extents
+  name: extents
+  nameWithType: Bounds.extents
+  fullName: Prowl.Runtime.Bounds.extents
+- uid: Prowl.Runtime.Bounds.size*
+  commentId: Overload:Prowl.Runtime.Bounds.size
+  href: Prowl.Runtime.Bounds.html#Prowl_Runtime_Bounds_size
+  name: size
+  nameWithType: Bounds.size
+  fullName: Prowl.Runtime.Bounds.size
+- uid: Prowl.Runtime.Bounds.#ctor*
+  commentId: Overload:Prowl.Runtime.Bounds.#ctor
+  href: Prowl.Runtime.Bounds.html#Prowl_Runtime_Bounds__ctor_Prowl_Runtime_Vector3_Prowl_Runtime_Vector3_
+  name: Bounds
+  nameWithType: Bounds.Bounds
+  fullName: Prowl.Runtime.Bounds.Bounds
+  nameWithType.vb: Bounds.New
+  fullName.vb: Prowl.Runtime.Bounds.New
+  name.vb: New
+- uid: Prowl.Runtime.Bounds.Contains*
+  commentId: Overload:Prowl.Runtime.Bounds.Contains
+  href: Prowl.Runtime.Bounds.html#Prowl_Runtime_Bounds_Contains_Prowl_Runtime_Bounds_
+  name: Contains
+  nameWithType: Bounds.Contains
+  fullName: Prowl.Runtime.Bounds.Contains
+- uid: Prowl.Runtime.Bounds
+  commentId: T:Prowl.Runtime.Bounds
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.Bounds.html
+  name: Bounds
+  nameWithType: Bounds
+  fullName: Prowl.Runtime.Bounds
+- uid: Prowl.Runtime.ContainmentType
+  commentId: T:Prowl.Runtime.ContainmentType
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.ContainmentType.html
+  name: ContainmentType
+  nameWithType: ContainmentType
+  fullName: Prowl.Runtime.ContainmentType
+- uid: Prowl.Runtime.BoundingFrustum
+  commentId: T:Prowl.Runtime.BoundingFrustum
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.BoundingFrustum.html
+  name: BoundingFrustum
+  nameWithType: BoundingFrustum
+  fullName: Prowl.Runtime.BoundingFrustum
+- uid: System.ArgumentException
+  commentId: T:System.ArgumentException
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.argumentexception
+  name: ArgumentException
+  nameWithType: ArgumentException
+  fullName: System.ArgumentException
+- uid: Prowl.Runtime.Bounds.CreateFromPoints*
+  commentId: Overload:Prowl.Runtime.Bounds.CreateFromPoints
+  href: Prowl.Runtime.Bounds.html#Prowl_Runtime_Bounds_CreateFromPoints_System_Collections_Generic_IEnumerable_Prowl_Runtime_Vector3__
+  name: CreateFromPoints
+  nameWithType: Bounds.CreateFromPoints
+  fullName: Prowl.Runtime.Bounds.CreateFromPoints
+- uid: System.Collections.Generic.IEnumerable{Prowl.Runtime.Vector3}
+  commentId: T:System.Collections.Generic.IEnumerable{Prowl.Runtime.Vector3}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<Vector3>
+  nameWithType: IEnumerable<Vector3>
+  fullName: System.Collections.Generic.IEnumerable<Prowl.Runtime.Vector3>
+  nameWithType.vb: IEnumerable(Of Vector3)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of Prowl.Runtime.Vector3)
+  name.vb: IEnumerable(Of Vector3)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - uid: Prowl.Runtime.Vector3
+    name: Vector3
+    href: Prowl.Runtime.Vector3.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Prowl.Runtime.Vector3
+    name: Vector3
+    href: Prowl.Runtime.Vector3.html
+  - name: )
+- uid: System.Collections.Generic.IEnumerable`1
+  commentId: T:System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: Prowl.Runtime.Bounds.Encapsulate*
+  commentId: Overload:Prowl.Runtime.Bounds.Encapsulate
+  href: Prowl.Runtime.Bounds.html#Prowl_Runtime_Bounds_Encapsulate_Prowl_Runtime_Vector3_
+  name: Encapsulate
+  nameWithType: Bounds.Encapsulate
+  fullName: Prowl.Runtime.Bounds.Encapsulate
+- uid: Prowl.Runtime.Bounds.Expand*
+  commentId: Overload:Prowl.Runtime.Bounds.Expand
+  href: Prowl.Runtime.Bounds.html#Prowl_Runtime_Bounds_Expand_System_Double_
+  name: Expand
+  nameWithType: Bounds.Expand
+  fullName: Prowl.Runtime.Bounds.Expand
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.double
+  name: double
+  nameWithType: double
+  fullName: double
+  nameWithType.vb: Double
+  fullName.vb: Double
+  name.vb: Double
+- uid: Prowl.Runtime.Bounds.CreateMerged*
+  commentId: Overload:Prowl.Runtime.Bounds.CreateMerged
+  href: Prowl.Runtime.Bounds.html#Prowl_Runtime_Bounds_CreateMerged_Prowl_Runtime_Bounds_Prowl_Runtime_Bounds_
+  name: CreateMerged
+  nameWithType: Bounds.CreateMerged
+  fullName: Prowl.Runtime.Bounds.CreateMerged
+- uid: Prowl.Runtime.Bounds.Equals*
+  commentId: Overload:Prowl.Runtime.Bounds.Equals
+  href: Prowl.Runtime.Bounds.html#Prowl_Runtime_Bounds_Equals_Prowl_Runtime_Bounds_
+  name: Equals
+  nameWithType: Bounds.Equals
+  fullName: Prowl.Runtime.Bounds.Equals
+- uid: System.IEquatable{Prowl.Runtime.Bounds}.Equals(Prowl.Runtime.Bounds)
+  commentId: M:System.IEquatable{Prowl.Runtime.Bounds}.Equals(Prowl.Runtime.Bounds)
+  parent: System.IEquatable{Prowl.Runtime.Bounds}
+  definition: System.IEquatable`1.Equals(`0)
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  name: Equals(Bounds)
+  nameWithType: IEquatable<Bounds>.Equals(Bounds)
+  fullName: System.IEquatable<Prowl.Runtime.Bounds>.Equals(Prowl.Runtime.Bounds)
+  nameWithType.vb: IEquatable(Of Bounds).Equals(Bounds)
+  fullName.vb: System.IEquatable(Of Prowl.Runtime.Bounds).Equals(Prowl.Runtime.Bounds)
+  spec.csharp:
+  - uid: System.IEquatable{Prowl.Runtime.Bounds}.Equals(Prowl.Runtime.Bounds)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - uid: Prowl.Runtime.Bounds
+    name: Bounds
+    href: Prowl.Runtime.Bounds.html
+  - name: )
+  spec.vb:
+  - uid: System.IEquatable{Prowl.Runtime.Bounds}.Equals(Prowl.Runtime.Bounds)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - uid: Prowl.Runtime.Bounds
+    name: Bounds
+    href: Prowl.Runtime.Bounds.html
+  - name: )
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: System.IEquatable`1.Equals(`0)
+  commentId: M:System.IEquatable`1.Equals(`0)
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  name: Equals(T)
+  nameWithType: IEquatable<T>.Equals(T)
+  fullName: System.IEquatable<T>.Equals(T)
+  nameWithType.vb: IEquatable(Of T).Equals(T)
+  fullName.vb: System.IEquatable(Of T).Equals(T)
+  spec.csharp:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - name: T
+  - name: )
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  name: Equals(object)
+  nameWithType: ValueType.Equals(object)
+  fullName: System.ValueType.Equals(object)
+  nameWithType.vb: ValueType.Equals(Object)
+  fullName.vb: System.ValueType.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: Prowl.Runtime.Bounds.GetCorners*
+  commentId: Overload:Prowl.Runtime.Bounds.GetCorners
+  href: Prowl.Runtime.Bounds.html#Prowl_Runtime_Bounds_GetCorners
+  name: GetCorners
+  nameWithType: Bounds.GetCorners
+  fullName: Prowl.Runtime.Bounds.GetCorners
+- uid: Prowl.Runtime.Vector3[]
+  isExternal: true
+  href: Prowl.Runtime.Vector3.html
+  name: Vector3[]
+  nameWithType: Vector3[]
+  fullName: Prowl.Runtime.Vector3[]
+  nameWithType.vb: Vector3()
+  fullName.vb: Prowl.Runtime.Vector3()
+  name.vb: Vector3()
+  spec.csharp:
+  - uid: Prowl.Runtime.Vector3
+    name: Vector3
+    href: Prowl.Runtime.Vector3.html
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: Prowl.Runtime.Vector3
+    name: Vector3
+    href: Prowl.Runtime.Vector3.html
+  - name: (
+  - name: )
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+- uid: Prowl.Runtime.Bounds.GetHashCode*
+  commentId: Overload:Prowl.Runtime.Bounds.GetHashCode
+  href: Prowl.Runtime.Bounds.html#Prowl_Runtime_Bounds_GetHashCode
+  name: GetHashCode
+  nameWithType: Bounds.GetHashCode
+  fullName: Prowl.Runtime.Bounds.GetHashCode
+- uid: Prowl.Runtime.Bounds.Intersects*
+  commentId: Overload:Prowl.Runtime.Bounds.Intersects
+  href: Prowl.Runtime.Bounds.html#Prowl_Runtime_Bounds_Intersects_Prowl_Runtime_Bounds_
+  name: Intersects
+  nameWithType: Bounds.Intersects
+  fullName: Prowl.Runtime.Bounds.Intersects
+- uid: Prowl.Runtime.Plane
+  commentId: T:Prowl.Runtime.Plane
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.Plane.html
+  name: Plane
+  nameWithType: Plane
+  fullName: Prowl.Runtime.Plane
+- uid: Prowl.Runtime.PlaneIntersectionType
+  commentId: T:Prowl.Runtime.PlaneIntersectionType
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.PlaneIntersectionType.html
+  name: PlaneIntersectionType
+  nameWithType: PlaneIntersectionType
+  fullName: Prowl.Runtime.PlaneIntersectionType
+- uid: Prowl.Runtime.Ray
+  commentId: T:Prowl.Runtime.Ray
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.Ray.html
+  name: Ray
+  nameWithType: Ray
+  fullName: Prowl.Runtime.Ray
+- uid: System.Nullable{System.Double}
+  commentId: T:System.Nullable{System.Double}
+  parent: System
+  definition: System.Nullable`1
+  href: https://learn.microsoft.com/dotnet/api/system.double
+  name: double?
+  nameWithType: double?
+  fullName: double?
+  nameWithType.vb: Double?
+  fullName.vb: Double?
+  name.vb: Double?
+  spec.csharp:
+  - uid: System.Double
+    name: double
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.double
+  - name: '?'
+  spec.vb:
+  - uid: System.Double
+    name: Double
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.double
+  - name: '?'
+- uid: System.Nullable`1
+  commentId: T:System.Nullable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  name: Nullable<T>
+  nameWithType: Nullable<T>
+  fullName: System.Nullable<T>
+  nameWithType.vb: Nullable(Of T)
+  fullName.vb: System.Nullable(Of T)
+  name.vb: Nullable(Of T)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Prowl.Runtime.Bounds.Transform*
+  commentId: Overload:Prowl.Runtime.Bounds.Transform
+  href: Prowl.Runtime.Bounds.html#Prowl_Runtime_Bounds_Transform_Prowl_Runtime_Matrix4x4_
+  name: Transform
+  nameWithType: Bounds.Transform
+  fullName: Prowl.Runtime.Bounds.Transform
+- uid: Prowl.Runtime.Matrix4x4
+  commentId: T:Prowl.Runtime.Matrix4x4
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.Matrix4x4.html
+  name: Matrix4x4
+  nameWithType: Matrix4x4
+  fullName: Prowl.Runtime.Matrix4x4
+- uid: Prowl.Runtime.Bounds.op_Equality*
+  commentId: Overload:Prowl.Runtime.Bounds.op_Equality
+  href: Prowl.Runtime.Bounds.html#Prowl_Runtime_Bounds_op_Equality_Prowl_Runtime_Bounds_Prowl_Runtime_Bounds_
+  name: operator ==
+  nameWithType: Bounds.operator ==
+  fullName: Prowl.Runtime.Bounds.operator ==
+  nameWithType.vb: Bounds.=
+  fullName.vb: Prowl.Runtime.Bounds.=
+  name.vb: =
+  spec.csharp:
+  - name: operator
+  - name: " "
+  - uid: Prowl.Runtime.Bounds.op_Equality*
+    name: ==
+    href: Prowl.Runtime.Bounds.html#Prowl_Runtime_Bounds_op_Equality_Prowl_Runtime_Bounds_Prowl_Runtime_Bounds_
+- uid: Prowl.Runtime.Bounds.op_Inequality*
+  commentId: Overload:Prowl.Runtime.Bounds.op_Inequality
+  href: Prowl.Runtime.Bounds.html#Prowl_Runtime_Bounds_op_Inequality_Prowl_Runtime_Bounds_Prowl_Runtime_Bounds_
+  name: operator !=
+  nameWithType: Bounds.operator !=
+  fullName: Prowl.Runtime.Bounds.operator !=
+  nameWithType.vb: Bounds.<>
+  fullName.vb: Prowl.Runtime.Bounds.<>
+  name.vb: <>
+  spec.csharp:
+  - name: operator
+  - name: " "
+  - uid: Prowl.Runtime.Bounds.op_Inequality*
+    name: '!='
+    href: Prowl.Runtime.Bounds.html#Prowl_Runtime_Bounds_op_Inequality_Prowl_Runtime_Bounds_Prowl_Runtime_Bounds_
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+- uid: Prowl.Runtime.Bounds.ToString*
+  commentId: Overload:Prowl.Runtime.Bounds.ToString
+  href: Prowl.Runtime.Bounds.html#Prowl_Runtime_Bounds_ToString
+  name: ToString
+  nameWithType: Bounds.ToString
+  fullName: Prowl.Runtime.Bounds.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String

@@ -1,0 +1,2338 @@
+### YamlMime:ManagedReference
+items:
+- uid: Prowl.Runtime.CommandBuffer
+  commentId: T:Prowl.Runtime.CommandBuffer
+  id: CommandBuffer
+  parent: Prowl.Runtime
+  children:
+  - Prowl.Runtime.CommandBuffer.#ctor
+  - Prowl.Runtime.CommandBuffer.#ctor(System.String)
+  - Prowl.Runtime.CommandBuffer.ApplyPropertyState(Prowl.Runtime.PropertyState)
+  - Prowl.Runtime.CommandBuffer.BindResources
+  - Prowl.Runtime.CommandBuffer.Clear
+  - Prowl.Runtime.CommandBuffer.ClearRenderTarget(System.Boolean,System.Boolean,Prowl.Runtime.Color,System.Int32,System.Single,System.Byte)
+  - Prowl.Runtime.CommandBuffer.Dispose
+  - Prowl.Runtime.CommandBuffer.DrawIndexed(System.UInt32,System.UInt32,System.UInt32,System.UInt32,System.Int32)
+  - Prowl.Runtime.CommandBuffer.DrawIndexedIndirect(Prowl.Runtime.GraphicsBuffer,System.UInt32,System.UInt32,System.UInt32)
+  - Prowl.Runtime.CommandBuffer.DrawIndirect(Prowl.Runtime.GraphicsBuffer,System.UInt32,System.UInt32,System.UInt32)
+  - Prowl.Runtime.CommandBuffer.DrawSingle(Prowl.Runtime.IGeometryDrawData,System.Int32,System.UInt32)
+  - Prowl.Runtime.CommandBuffer.Finalize
+  - Prowl.Runtime.CommandBuffer.Name
+  - Prowl.Runtime.CommandBuffer.PopDebugGroup
+  - Prowl.Runtime.CommandBuffer.PushDebugGroup(System.String)
+  - Prowl.Runtime.CommandBuffer.ResolveMultisampledTexture(Prowl.Runtime.RenderTexture,Prowl.Runtime.RenderTexture)
+  - Prowl.Runtime.CommandBuffer.ResolveMultisampledTexture(Prowl.Runtime.Texture,Prowl.Runtime.Texture)
+  - Prowl.Runtime.CommandBuffer.SetColor(System.String,Prowl.Runtime.Color)
+  - Prowl.Runtime.CommandBuffer.SetDrawData(Prowl.Runtime.IGeometryDrawData)
+  - Prowl.Runtime.CommandBuffer.SetFloat(System.String,System.Single)
+  - Prowl.Runtime.CommandBuffer.SetFullScissorRect(System.UInt32)
+  - Prowl.Runtime.CommandBuffer.SetFullScissorRects
+  - Prowl.Runtime.CommandBuffer.SetFullViewport(System.UInt32)
+  - Prowl.Runtime.CommandBuffer.SetFullViewports
+  - Prowl.Runtime.CommandBuffer.SetInt(System.String,System.Int32)
+  - Prowl.Runtime.CommandBuffer.SetKeyword(System.String,System.String)
+  - Prowl.Runtime.CommandBuffer.SetMaterial(Prowl.Runtime.Material,System.Int32)
+  - Prowl.Runtime.CommandBuffer.SetMatrix(System.String,System.Numerics.Matrix4x4)
+  - Prowl.Runtime.CommandBuffer.SetPass(Prowl.Runtime.ShaderPass)
+  - Prowl.Runtime.CommandBuffer.SetRenderTarget(Prowl.Runtime.RenderTexture)
+  - Prowl.Runtime.CommandBuffer.SetRenderTarget(Veldrid.Framebuffer)
+  - Prowl.Runtime.CommandBuffer.SetScissor(System.Boolean)
+  - Prowl.Runtime.CommandBuffer.SetScissorRect(System.UInt32,System.UInt32,System.UInt32,System.UInt32,System.UInt32)
+  - Prowl.Runtime.CommandBuffer.SetScissorRects(System.UInt32,System.UInt32,System.UInt32,System.UInt32)
+  - Prowl.Runtime.CommandBuffer.SetTexture(System.String,Prowl.Runtime.AssetRef{Prowl.Runtime.Texture})
+  - Prowl.Runtime.CommandBuffer.SetTexture(System.String,Veldrid.Texture)
+  - Prowl.Runtime.CommandBuffer.SetVector(System.String,System.Numerics.Vector2)
+  - Prowl.Runtime.CommandBuffer.SetVector(System.String,System.Numerics.Vector3)
+  - Prowl.Runtime.CommandBuffer.SetVector(System.String,System.Numerics.Vector4)
+  - Prowl.Runtime.CommandBuffer.SetViewport(System.UInt32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)
+  - Prowl.Runtime.CommandBuffer.SetViewports(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)
+  - Prowl.Runtime.CommandBuffer.SetWireframe(System.Boolean)
+  - Prowl.Runtime.CommandBuffer.UpdateBuffer(System.String)
+  langs:
+  - csharp
+  - vb
+  name: CommandBuffer
+  nameWithType: CommandBuffer
+  fullName: Prowl.Runtime.CommandBuffer
+  type: Class
+  source:
+    remote:
+      path: Prowl.Runtime/Rendering/CommandBuffer.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: CommandBuffer
+    path: ../Prowl/Prowl.Runtime/Rendering/CommandBuffer.cs
+    startLine: 10
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: 'public class CommandBuffer : IDisposable'
+    content.vb: Public Class CommandBuffer Implements IDisposable
+  inheritance:
+  - System.Object
+  implements:
+  - System.IDisposable
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  extensionMethods:
+  - System.Object.Prowl.Runtime.RuntimeUtils.GetSerializableFields
+- uid: Prowl.Runtime.CommandBuffer.Name
+  commentId: P:Prowl.Runtime.CommandBuffer.Name
+  id: Name
+  parent: Prowl.Runtime.CommandBuffer
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: CommandBuffer.Name
+  fullName: Prowl.Runtime.CommandBuffer.Name
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/Rendering/CommandBuffer.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Name
+    path: ../Prowl/Prowl.Runtime/Rendering/CommandBuffer.cs
+    startLine: 36
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Name As String
+  overload: Prowl.Runtime.CommandBuffer.Name*
+- uid: Prowl.Runtime.CommandBuffer.#ctor
+  commentId: M:Prowl.Runtime.CommandBuffer.#ctor
+  id: '#ctor'
+  parent: Prowl.Runtime.CommandBuffer
+  langs:
+  - csharp
+  - vb
+  name: CommandBuffer()
+  nameWithType: CommandBuffer.CommandBuffer()
+  fullName: Prowl.Runtime.CommandBuffer.CommandBuffer()
+  type: Constructor
+  source:
+    remote:
+      path: Prowl.Runtime/Rendering/CommandBuffer.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: .ctor
+    path: ../Prowl/Prowl.Runtime/Rendering/CommandBuffer.cs
+    startLine: 64
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public CommandBuffer()
+    content.vb: Public Sub New()
+  overload: Prowl.Runtime.CommandBuffer.#ctor*
+  nameWithType.vb: CommandBuffer.New()
+  fullName.vb: Prowl.Runtime.CommandBuffer.New()
+  name.vb: New()
+- uid: Prowl.Runtime.CommandBuffer.#ctor(System.String)
+  commentId: M:Prowl.Runtime.CommandBuffer.#ctor(System.String)
+  id: '#ctor(System.String)'
+  parent: Prowl.Runtime.CommandBuffer
+  langs:
+  - csharp
+  - vb
+  name: CommandBuffer(string)
+  nameWithType: CommandBuffer.CommandBuffer(string)
+  fullName: Prowl.Runtime.CommandBuffer.CommandBuffer(string)
+  type: Constructor
+  source:
+    remote:
+      path: Prowl.Runtime/Rendering/CommandBuffer.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: .ctor
+    path: ../Prowl/Prowl.Runtime/Rendering/CommandBuffer.cs
+    startLine: 67
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public CommandBuffer(string name)
+    parameters:
+    - id: name
+      type: System.String
+    content.vb: Public Sub New(name As String)
+  overload: Prowl.Runtime.CommandBuffer.#ctor*
+  nameWithType.vb: CommandBuffer.New(String)
+  fullName.vb: Prowl.Runtime.CommandBuffer.New(String)
+  name.vb: New(String)
+- uid: Prowl.Runtime.CommandBuffer.SetRenderTarget(Veldrid.Framebuffer)
+  commentId: M:Prowl.Runtime.CommandBuffer.SetRenderTarget(Veldrid.Framebuffer)
+  id: SetRenderTarget(Veldrid.Framebuffer)
+  parent: Prowl.Runtime.CommandBuffer
+  langs:
+  - csharp
+  - vb
+  name: SetRenderTarget(Framebuffer)
+  nameWithType: CommandBuffer.SetRenderTarget(Framebuffer)
+  fullName: Prowl.Runtime.CommandBuffer.SetRenderTarget(Veldrid.Framebuffer)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Rendering/CommandBuffer.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: SetRenderTarget
+    path: ../Prowl/Prowl.Runtime/Rendering/CommandBuffer.cs
+    startLine: 81
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public void SetRenderTarget(Framebuffer framebuffer)
+    parameters:
+    - id: framebuffer
+      type: Veldrid.Framebuffer
+    content.vb: Public Sub SetRenderTarget(framebuffer As Framebuffer)
+  overload: Prowl.Runtime.CommandBuffer.SetRenderTarget*
+- uid: Prowl.Runtime.CommandBuffer.SetRenderTarget(Prowl.Runtime.RenderTexture)
+  commentId: M:Prowl.Runtime.CommandBuffer.SetRenderTarget(Prowl.Runtime.RenderTexture)
+  id: SetRenderTarget(Prowl.Runtime.RenderTexture)
+  parent: Prowl.Runtime.CommandBuffer
+  langs:
+  - csharp
+  - vb
+  name: SetRenderTarget(RenderTexture)
+  nameWithType: CommandBuffer.SetRenderTarget(RenderTexture)
+  fullName: Prowl.Runtime.CommandBuffer.SetRenderTarget(Prowl.Runtime.RenderTexture)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Rendering/CommandBuffer.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: SetRenderTarget
+    path: ../Prowl/Prowl.Runtime/Rendering/CommandBuffer.cs
+    startLine: 89
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public void SetRenderTarget(RenderTexture renderTarget)
+    parameters:
+    - id: renderTarget
+      type: Prowl.Runtime.RenderTexture
+    content.vb: Public Sub SetRenderTarget(renderTarget As RenderTexture)
+  overload: Prowl.Runtime.CommandBuffer.SetRenderTarget*
+- uid: Prowl.Runtime.CommandBuffer.ClearRenderTarget(System.Boolean,System.Boolean,Prowl.Runtime.Color,System.Int32,System.Single,System.Byte)
+  commentId: M:Prowl.Runtime.CommandBuffer.ClearRenderTarget(System.Boolean,System.Boolean,Prowl.Runtime.Color,System.Int32,System.Single,System.Byte)
+  id: ClearRenderTarget(System.Boolean,System.Boolean,Prowl.Runtime.Color,System.Int32,System.Single,System.Byte)
+  parent: Prowl.Runtime.CommandBuffer
+  langs:
+  - csharp
+  - vb
+  name: ClearRenderTarget(bool, bool, Color, int, float, byte)
+  nameWithType: CommandBuffer.ClearRenderTarget(bool, bool, Color, int, float, byte)
+  fullName: Prowl.Runtime.CommandBuffer.ClearRenderTarget(bool, bool, Prowl.Runtime.Color, int, float, byte)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Rendering/CommandBuffer.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: ClearRenderTarget
+    path: ../Prowl/Prowl.Runtime/Rendering/CommandBuffer.cs
+    startLine: 92
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public void ClearRenderTarget(bool clearDepth, bool clearColor, Color backgroundColor, int attachment = -1, float depth = 1, byte stencil = 0)
+    parameters:
+    - id: clearDepth
+      type: System.Boolean
+    - id: clearColor
+      type: System.Boolean
+    - id: backgroundColor
+      type: Prowl.Runtime.Color
+    - id: attachment
+      type: System.Int32
+    - id: depth
+      type: System.Single
+    - id: stencil
+      type: System.Byte
+    content.vb: Public Sub ClearRenderTarget(clearDepth As Boolean, clearColor As Boolean, backgroundColor As Color, attachment As Integer = -1, depth As Single = 1, stencil As Byte = 0)
+  overload: Prowl.Runtime.CommandBuffer.ClearRenderTarget*
+  nameWithType.vb: CommandBuffer.ClearRenderTarget(Boolean, Boolean, Color, Integer, Single, Byte)
+  fullName.vb: Prowl.Runtime.CommandBuffer.ClearRenderTarget(Boolean, Boolean, Prowl.Runtime.Color, Integer, Single, Byte)
+  name.vb: ClearRenderTarget(Boolean, Boolean, Color, Integer, Single, Byte)
+- uid: Prowl.Runtime.CommandBuffer.SetMaterial(Prowl.Runtime.Material,System.Int32)
+  commentId: M:Prowl.Runtime.CommandBuffer.SetMaterial(Prowl.Runtime.Material,System.Int32)
+  id: SetMaterial(Prowl.Runtime.Material,System.Int32)
+  parent: Prowl.Runtime.CommandBuffer
+  langs:
+  - csharp
+  - vb
+  name: SetMaterial(Material, int)
+  nameWithType: CommandBuffer.SetMaterial(Material, int)
+  fullName: Prowl.Runtime.CommandBuffer.SetMaterial(Prowl.Runtime.Material, int)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Rendering/CommandBuffer.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: SetMaterial
+    path: ../Prowl/Prowl.Runtime/Rendering/CommandBuffer.cs
+    startLine: 113
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public void SetMaterial(Material material, int pass = 0)
+    parameters:
+    - id: material
+      type: Prowl.Runtime.Material
+    - id: pass
+      type: System.Int32
+    content.vb: Public Sub SetMaterial(material As Material, pass As Integer = 0)
+  overload: Prowl.Runtime.CommandBuffer.SetMaterial*
+  nameWithType.vb: CommandBuffer.SetMaterial(Material, Integer)
+  fullName.vb: Prowl.Runtime.CommandBuffer.SetMaterial(Prowl.Runtime.Material, Integer)
+  name.vb: SetMaterial(Material, Integer)
+- uid: Prowl.Runtime.CommandBuffer.DrawSingle(Prowl.Runtime.IGeometryDrawData,System.Int32,System.UInt32)
+  commentId: M:Prowl.Runtime.CommandBuffer.DrawSingle(Prowl.Runtime.IGeometryDrawData,System.Int32,System.UInt32)
+  id: DrawSingle(Prowl.Runtime.IGeometryDrawData,System.Int32,System.UInt32)
+  parent: Prowl.Runtime.CommandBuffer
+  langs:
+  - csharp
+  - vb
+  name: DrawSingle(IGeometryDrawData, int, uint)
+  nameWithType: CommandBuffer.DrawSingle(IGeometryDrawData, int, uint)
+  fullName: Prowl.Runtime.CommandBuffer.DrawSingle(Prowl.Runtime.IGeometryDrawData, int, uint)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Rendering/CommandBuffer.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: DrawSingle
+    path: ../Prowl/Prowl.Runtime/Rendering/CommandBuffer.cs
+    startLine: 120
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public void DrawSingle(IGeometryDrawData drawData, int indexCount = -1, uint indexOffset = 0)
+    parameters:
+    - id: drawData
+      type: Prowl.Runtime.IGeometryDrawData
+    - id: indexCount
+      type: System.Int32
+    - id: indexOffset
+      type: System.UInt32
+    content.vb: Public Sub DrawSingle(drawData As IGeometryDrawData, indexCount As Integer = -1, indexOffset As UInteger = 0)
+  overload: Prowl.Runtime.CommandBuffer.DrawSingle*
+  nameWithType.vb: CommandBuffer.DrawSingle(IGeometryDrawData, Integer, UInteger)
+  fullName.vb: Prowl.Runtime.CommandBuffer.DrawSingle(Prowl.Runtime.IGeometryDrawData, Integer, UInteger)
+  name.vb: DrawSingle(IGeometryDrawData, Integer, UInteger)
+- uid: Prowl.Runtime.CommandBuffer.SetDrawData(Prowl.Runtime.IGeometryDrawData)
+  commentId: M:Prowl.Runtime.CommandBuffer.SetDrawData(Prowl.Runtime.IGeometryDrawData)
+  id: SetDrawData(Prowl.Runtime.IGeometryDrawData)
+  parent: Prowl.Runtime.CommandBuffer
+  langs:
+  - csharp
+  - vb
+  name: SetDrawData(IGeometryDrawData)
+  nameWithType: CommandBuffer.SetDrawData(IGeometryDrawData)
+  fullName: Prowl.Runtime.CommandBuffer.SetDrawData(Prowl.Runtime.IGeometryDrawData)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Rendering/CommandBuffer.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: SetDrawData
+    path: ../Prowl/Prowl.Runtime/Rendering/CommandBuffer.cs
+    startLine: 127
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public void SetDrawData(IGeometryDrawData drawData)
+    parameters:
+    - id: drawData
+      type: Prowl.Runtime.IGeometryDrawData
+    content.vb: Public Sub SetDrawData(drawData As IGeometryDrawData)
+  overload: Prowl.Runtime.CommandBuffer.SetDrawData*
+- uid: Prowl.Runtime.CommandBuffer.DrawIndexed(System.UInt32,System.UInt32,System.UInt32,System.UInt32,System.Int32)
+  commentId: M:Prowl.Runtime.CommandBuffer.DrawIndexed(System.UInt32,System.UInt32,System.UInt32,System.UInt32,System.Int32)
+  id: DrawIndexed(System.UInt32,System.UInt32,System.UInt32,System.UInt32,System.Int32)
+  parent: Prowl.Runtime.CommandBuffer
+  langs:
+  - csharp
+  - vb
+  name: DrawIndexed(uint, uint, uint, uint, int)
+  nameWithType: CommandBuffer.DrawIndexed(uint, uint, uint, uint, int)
+  fullName: Prowl.Runtime.CommandBuffer.DrawIndexed(uint, uint, uint, uint, int)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Rendering/CommandBuffer.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: DrawIndexed
+    path: ../Prowl/Prowl.Runtime/Rendering/CommandBuffer.cs
+    startLine: 134
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public void DrawIndexed(uint indexCount, uint indexOffset, uint instanceCount, uint instanceStart, int vertexOffset)
+    parameters:
+    - id: indexCount
+      type: System.UInt32
+    - id: indexOffset
+      type: System.UInt32
+    - id: instanceCount
+      type: System.UInt32
+    - id: instanceStart
+      type: System.UInt32
+    - id: vertexOffset
+      type: System.Int32
+    content.vb: Public Sub DrawIndexed(indexCount As UInteger, indexOffset As UInteger, instanceCount As UInteger, instanceStart As UInteger, vertexOffset As Integer)
+  overload: Prowl.Runtime.CommandBuffer.DrawIndexed*
+  nameWithType.vb: CommandBuffer.DrawIndexed(UInteger, UInteger, UInteger, UInteger, Integer)
+  fullName.vb: Prowl.Runtime.CommandBuffer.DrawIndexed(UInteger, UInteger, UInteger, UInteger, Integer)
+  name.vb: DrawIndexed(UInteger, UInteger, UInteger, UInteger, Integer)
+- uid: Prowl.Runtime.CommandBuffer.DrawIndirect(Prowl.Runtime.GraphicsBuffer,System.UInt32,System.UInt32,System.UInt32)
+  commentId: M:Prowl.Runtime.CommandBuffer.DrawIndirect(Prowl.Runtime.GraphicsBuffer,System.UInt32,System.UInt32,System.UInt32)
+  id: DrawIndirect(Prowl.Runtime.GraphicsBuffer,System.UInt32,System.UInt32,System.UInt32)
+  parent: Prowl.Runtime.CommandBuffer
+  langs:
+  - csharp
+  - vb
+  name: DrawIndirect(GraphicsBuffer, uint, uint, uint)
+  nameWithType: CommandBuffer.DrawIndirect(GraphicsBuffer, uint, uint, uint)
+  fullName: Prowl.Runtime.CommandBuffer.DrawIndirect(Prowl.Runtime.GraphicsBuffer, uint, uint, uint)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Rendering/CommandBuffer.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: DrawIndirect
+    path: ../Prowl/Prowl.Runtime/Rendering/CommandBuffer.cs
+    startLine: 140
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public void DrawIndirect(GraphicsBuffer buffer, uint offset, uint drawCount, uint stride)
+    parameters:
+    - id: buffer
+      type: Prowl.Runtime.GraphicsBuffer
+    - id: offset
+      type: System.UInt32
+    - id: drawCount
+      type: System.UInt32
+    - id: stride
+      type: System.UInt32
+    content.vb: Public Sub DrawIndirect(buffer As GraphicsBuffer, offset As UInteger, drawCount As UInteger, stride As UInteger)
+  overload: Prowl.Runtime.CommandBuffer.DrawIndirect*
+  nameWithType.vb: CommandBuffer.DrawIndirect(GraphicsBuffer, UInteger, UInteger, UInteger)
+  fullName.vb: Prowl.Runtime.CommandBuffer.DrawIndirect(Prowl.Runtime.GraphicsBuffer, UInteger, UInteger, UInteger)
+  name.vb: DrawIndirect(GraphicsBuffer, UInteger, UInteger, UInteger)
+- uid: Prowl.Runtime.CommandBuffer.DrawIndexedIndirect(Prowl.Runtime.GraphicsBuffer,System.UInt32,System.UInt32,System.UInt32)
+  commentId: M:Prowl.Runtime.CommandBuffer.DrawIndexedIndirect(Prowl.Runtime.GraphicsBuffer,System.UInt32,System.UInt32,System.UInt32)
+  id: DrawIndexedIndirect(Prowl.Runtime.GraphicsBuffer,System.UInt32,System.UInt32,System.UInt32)
+  parent: Prowl.Runtime.CommandBuffer
+  langs:
+  - csharp
+  - vb
+  name: DrawIndexedIndirect(GraphicsBuffer, uint, uint, uint)
+  nameWithType: CommandBuffer.DrawIndexedIndirect(GraphicsBuffer, uint, uint, uint)
+  fullName: Prowl.Runtime.CommandBuffer.DrawIndexedIndirect(Prowl.Runtime.GraphicsBuffer, uint, uint, uint)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Rendering/CommandBuffer.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: DrawIndexedIndirect
+    path: ../Prowl/Prowl.Runtime/Rendering/CommandBuffer.cs
+    startLine: 146
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public void DrawIndexedIndirect(GraphicsBuffer buffer, uint offset, uint drawCount, uint stride)
+    parameters:
+    - id: buffer
+      type: Prowl.Runtime.GraphicsBuffer
+    - id: offset
+      type: System.UInt32
+    - id: drawCount
+      type: System.UInt32
+    - id: stride
+      type: System.UInt32
+    content.vb: Public Sub DrawIndexedIndirect(buffer As GraphicsBuffer, offset As UInteger, drawCount As UInteger, stride As UInteger)
+  overload: Prowl.Runtime.CommandBuffer.DrawIndexedIndirect*
+  nameWithType.vb: CommandBuffer.DrawIndexedIndirect(GraphicsBuffer, UInteger, UInteger, UInteger)
+  fullName.vb: Prowl.Runtime.CommandBuffer.DrawIndexedIndirect(Prowl.Runtime.GraphicsBuffer, UInteger, UInteger, UInteger)
+  name.vb: DrawIndexedIndirect(GraphicsBuffer, UInteger, UInteger, UInteger)
+- uid: Prowl.Runtime.CommandBuffer.SetPass(Prowl.Runtime.ShaderPass)
+  commentId: M:Prowl.Runtime.CommandBuffer.SetPass(Prowl.Runtime.ShaderPass)
+  id: SetPass(Prowl.Runtime.ShaderPass)
+  parent: Prowl.Runtime.CommandBuffer
+  langs:
+  - csharp
+  - vb
+  name: SetPass(ShaderPass)
+  nameWithType: CommandBuffer.SetPass(ShaderPass)
+  fullName: Prowl.Runtime.CommandBuffer.SetPass(Prowl.Runtime.ShaderPass)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Rendering/CommandBuffer.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: SetPass
+    path: ../Prowl/Prowl.Runtime/Rendering/CommandBuffer.cs
+    startLine: 152
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public void SetPass(ShaderPass pass)
+    parameters:
+    - id: pass
+      type: Prowl.Runtime.ShaderPass
+    content.vb: Public Sub SetPass(pass As ShaderPass)
+  overload: Prowl.Runtime.CommandBuffer.SetPass*
+- uid: Prowl.Runtime.CommandBuffer.BindResources
+  commentId: M:Prowl.Runtime.CommandBuffer.BindResources
+  id: BindResources
+  parent: Prowl.Runtime.CommandBuffer
+  langs:
+  - csharp
+  - vb
+  name: BindResources()
+  nameWithType: CommandBuffer.BindResources()
+  fullName: Prowl.Runtime.CommandBuffer.BindResources()
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Rendering/CommandBuffer.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: BindResources
+    path: ../Prowl/Prowl.Runtime/Rendering/CommandBuffer.cs
+    startLine: 160
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public void BindResources()
+    content.vb: Public Sub BindResources()
+  overload: Prowl.Runtime.CommandBuffer.BindResources*
+- uid: Prowl.Runtime.CommandBuffer.ApplyPropertyState(Prowl.Runtime.PropertyState)
+  commentId: M:Prowl.Runtime.CommandBuffer.ApplyPropertyState(Prowl.Runtime.PropertyState)
+  id: ApplyPropertyState(Prowl.Runtime.PropertyState)
+  parent: Prowl.Runtime.CommandBuffer
+  langs:
+  - csharp
+  - vb
+  name: ApplyPropertyState(PropertyState)
+  nameWithType: CommandBuffer.ApplyPropertyState(PropertyState)
+  fullName: Prowl.Runtime.CommandBuffer.ApplyPropertyState(Prowl.Runtime.PropertyState)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Rendering/CommandBuffer.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: ApplyPropertyState
+    path: ../Prowl/Prowl.Runtime/Rendering/CommandBuffer.cs
+    startLine: 166
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public void ApplyPropertyState(PropertyState state)
+    parameters:
+    - id: state
+      type: Prowl.Runtime.PropertyState
+    content.vb: Public Sub ApplyPropertyState(state As PropertyState)
+  overload: Prowl.Runtime.CommandBuffer.ApplyPropertyState*
+- uid: Prowl.Runtime.CommandBuffer.UpdateBuffer(System.String)
+  commentId: M:Prowl.Runtime.CommandBuffer.UpdateBuffer(System.String)
+  id: UpdateBuffer(System.String)
+  parent: Prowl.Runtime.CommandBuffer
+  langs:
+  - csharp
+  - vb
+  name: UpdateBuffer(string)
+  nameWithType: CommandBuffer.UpdateBuffer(string)
+  fullName: Prowl.Runtime.CommandBuffer.UpdateBuffer(string)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Rendering/CommandBuffer.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: UpdateBuffer
+    path: ../Prowl/Prowl.Runtime/Rendering/CommandBuffer.cs
+    startLine: 169
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public void UpdateBuffer(string name)
+    parameters:
+    - id: name
+      type: System.String
+    content.vb: Public Sub UpdateBuffer(name As String)
+  overload: Prowl.Runtime.CommandBuffer.UpdateBuffer*
+  nameWithType.vb: CommandBuffer.UpdateBuffer(String)
+  fullName.vb: Prowl.Runtime.CommandBuffer.UpdateBuffer(String)
+  name.vb: UpdateBuffer(String)
+- uid: Prowl.Runtime.CommandBuffer.PushDebugGroup(System.String)
+  commentId: M:Prowl.Runtime.CommandBuffer.PushDebugGroup(System.String)
+  id: PushDebugGroup(System.String)
+  parent: Prowl.Runtime.CommandBuffer
+  langs:
+  - csharp
+  - vb
+  name: PushDebugGroup(string)
+  nameWithType: CommandBuffer.PushDebugGroup(string)
+  fullName: Prowl.Runtime.CommandBuffer.PushDebugGroup(string)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Rendering/CommandBuffer.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: PushDebugGroup
+    path: ../Prowl/Prowl.Runtime/Rendering/CommandBuffer.cs
+    startLine: 172
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public void PushDebugGroup(string name)
+    parameters:
+    - id: name
+      type: System.String
+    content.vb: Public Sub PushDebugGroup(name As String)
+  overload: Prowl.Runtime.CommandBuffer.PushDebugGroup*
+  nameWithType.vb: CommandBuffer.PushDebugGroup(String)
+  fullName.vb: Prowl.Runtime.CommandBuffer.PushDebugGroup(String)
+  name.vb: PushDebugGroup(String)
+- uid: Prowl.Runtime.CommandBuffer.PopDebugGroup
+  commentId: M:Prowl.Runtime.CommandBuffer.PopDebugGroup
+  id: PopDebugGroup
+  parent: Prowl.Runtime.CommandBuffer
+  langs:
+  - csharp
+  - vb
+  name: PopDebugGroup()
+  nameWithType: CommandBuffer.PopDebugGroup()
+  fullName: Prowl.Runtime.CommandBuffer.PopDebugGroup()
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Rendering/CommandBuffer.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: PopDebugGroup
+    path: ../Prowl/Prowl.Runtime/Rendering/CommandBuffer.cs
+    startLine: 175
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public void PopDebugGroup()
+    content.vb: Public Sub PopDebugGroup()
+  overload: Prowl.Runtime.CommandBuffer.PopDebugGroup*
+- uid: Prowl.Runtime.CommandBuffer.ResolveMultisampledTexture(Prowl.Runtime.Texture,Prowl.Runtime.Texture)
+  commentId: M:Prowl.Runtime.CommandBuffer.ResolveMultisampledTexture(Prowl.Runtime.Texture,Prowl.Runtime.Texture)
+  id: ResolveMultisampledTexture(Prowl.Runtime.Texture,Prowl.Runtime.Texture)
+  parent: Prowl.Runtime.CommandBuffer
+  langs:
+  - csharp
+  - vb
+  name: ResolveMultisampledTexture(Texture, Texture)
+  nameWithType: CommandBuffer.ResolveMultisampledTexture(Texture, Texture)
+  fullName: Prowl.Runtime.CommandBuffer.ResolveMultisampledTexture(Prowl.Runtime.Texture, Prowl.Runtime.Texture)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Rendering/CommandBuffer.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: ResolveMultisampledTexture
+    path: ../Prowl/Prowl.Runtime/Rendering/CommandBuffer.cs
+    startLine: 178
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public void ResolveMultisampledTexture(Texture src, Texture dest)
+    parameters:
+    - id: src
+      type: Prowl.Runtime.Texture
+    - id: dest
+      type: Prowl.Runtime.Texture
+    content.vb: Public Sub ResolveMultisampledTexture(src As Texture, dest As Texture)
+  overload: Prowl.Runtime.CommandBuffer.ResolveMultisampledTexture*
+- uid: Prowl.Runtime.CommandBuffer.ResolveMultisampledTexture(Prowl.Runtime.RenderTexture,Prowl.Runtime.RenderTexture)
+  commentId: M:Prowl.Runtime.CommandBuffer.ResolveMultisampledTexture(Prowl.Runtime.RenderTexture,Prowl.Runtime.RenderTexture)
+  id: ResolveMultisampledTexture(Prowl.Runtime.RenderTexture,Prowl.Runtime.RenderTexture)
+  parent: Prowl.Runtime.CommandBuffer
+  langs:
+  - csharp
+  - vb
+  name: ResolveMultisampledTexture(RenderTexture, RenderTexture)
+  nameWithType: CommandBuffer.ResolveMultisampledTexture(RenderTexture, RenderTexture)
+  fullName: Prowl.Runtime.CommandBuffer.ResolveMultisampledTexture(Prowl.Runtime.RenderTexture, Prowl.Runtime.RenderTexture)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Rendering/CommandBuffer.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: ResolveMultisampledTexture
+    path: ../Prowl/Prowl.Runtime/Rendering/CommandBuffer.cs
+    startLine: 186
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public void ResolveMultisampledTexture(RenderTexture src, RenderTexture dest)
+    parameters:
+    - id: src
+      type: Prowl.Runtime.RenderTexture
+    - id: dest
+      type: Prowl.Runtime.RenderTexture
+    content.vb: Public Sub ResolveMultisampledTexture(src As RenderTexture, dest As RenderTexture)
+  overload: Prowl.Runtime.CommandBuffer.ResolveMultisampledTexture*
+- uid: Prowl.Runtime.CommandBuffer.SetViewport(System.UInt32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)
+  commentId: M:Prowl.Runtime.CommandBuffer.SetViewport(System.UInt32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)
+  id: SetViewport(System.UInt32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)
+  parent: Prowl.Runtime.CommandBuffer
+  langs:
+  - csharp
+  - vb
+  name: SetViewport(uint, int, int, int, int, int, int)
+  nameWithType: CommandBuffer.SetViewport(uint, int, int, int, int, int, int)
+  fullName: Prowl.Runtime.CommandBuffer.SetViewport(uint, int, int, int, int, int, int)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Rendering/CommandBuffer.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: SetViewport
+    path: ../Prowl/Prowl.Runtime/Rendering/CommandBuffer.cs
+    startLine: 195
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public void SetViewport(uint viewport, int x, int y, int width, int height, int z, int depth)
+    parameters:
+    - id: viewport
+      type: System.UInt32
+    - id: x
+      type: System.Int32
+    - id: y
+      type: System.Int32
+    - id: width
+      type: System.Int32
+    - id: height
+      type: System.Int32
+    - id: z
+      type: System.Int32
+    - id: depth
+      type: System.Int32
+    content.vb: Public Sub SetViewport(viewport As UInteger, x As Integer, y As Integer, width As Integer, height As Integer, z As Integer, depth As Integer)
+  overload: Prowl.Runtime.CommandBuffer.SetViewport*
+  nameWithType.vb: CommandBuffer.SetViewport(UInteger, Integer, Integer, Integer, Integer, Integer, Integer)
+  fullName.vb: Prowl.Runtime.CommandBuffer.SetViewport(UInteger, Integer, Integer, Integer, Integer, Integer, Integer)
+  name.vb: SetViewport(UInteger, Integer, Integer, Integer, Integer, Integer, Integer)
+- uid: Prowl.Runtime.CommandBuffer.SetViewports(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)
+  commentId: M:Prowl.Runtime.CommandBuffer.SetViewports(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)
+  id: SetViewports(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)
+  parent: Prowl.Runtime.CommandBuffer
+  langs:
+  - csharp
+  - vb
+  name: SetViewports(int, int, int, int, int, int)
+  nameWithType: CommandBuffer.SetViewports(int, int, int, int, int, int)
+  fullName: Prowl.Runtime.CommandBuffer.SetViewports(int, int, int, int, int, int)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Rendering/CommandBuffer.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: SetViewports
+    path: ../Prowl/Prowl.Runtime/Rendering/CommandBuffer.cs
+    startLine: 198
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public void SetViewports(int x, int y, int width, int height, int z, int depth)
+    parameters:
+    - id: x
+      type: System.Int32
+    - id: y
+      type: System.Int32
+    - id: width
+      type: System.Int32
+    - id: height
+      type: System.Int32
+    - id: z
+      type: System.Int32
+    - id: depth
+      type: System.Int32
+    content.vb: Public Sub SetViewports(x As Integer, y As Integer, width As Integer, height As Integer, z As Integer, depth As Integer)
+  overload: Prowl.Runtime.CommandBuffer.SetViewports*
+  nameWithType.vb: CommandBuffer.SetViewports(Integer, Integer, Integer, Integer, Integer, Integer)
+  fullName.vb: Prowl.Runtime.CommandBuffer.SetViewports(Integer, Integer, Integer, Integer, Integer, Integer)
+  name.vb: SetViewports(Integer, Integer, Integer, Integer, Integer, Integer)
+- uid: Prowl.Runtime.CommandBuffer.SetFullViewport(System.UInt32)
+  commentId: M:Prowl.Runtime.CommandBuffer.SetFullViewport(System.UInt32)
+  id: SetFullViewport(System.UInt32)
+  parent: Prowl.Runtime.CommandBuffer
+  langs:
+  - csharp
+  - vb
+  name: SetFullViewport(uint)
+  nameWithType: CommandBuffer.SetFullViewport(uint)
+  fullName: Prowl.Runtime.CommandBuffer.SetFullViewport(uint)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Rendering/CommandBuffer.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: SetFullViewport
+    path: ../Prowl/Prowl.Runtime/Rendering/CommandBuffer.cs
+    startLine: 201
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public void SetFullViewport(uint index = 0)
+    parameters:
+    - id: index
+      type: System.UInt32
+    content.vb: Public Sub SetFullViewport(index As UInteger = 0)
+  overload: Prowl.Runtime.CommandBuffer.SetFullViewport*
+  nameWithType.vb: CommandBuffer.SetFullViewport(UInteger)
+  fullName.vb: Prowl.Runtime.CommandBuffer.SetFullViewport(UInteger)
+  name.vb: SetFullViewport(UInteger)
+- uid: Prowl.Runtime.CommandBuffer.SetFullViewports
+  commentId: M:Prowl.Runtime.CommandBuffer.SetFullViewports
+  id: SetFullViewports
+  parent: Prowl.Runtime.CommandBuffer
+  langs:
+  - csharp
+  - vb
+  name: SetFullViewports()
+  nameWithType: CommandBuffer.SetFullViewports()
+  fullName: Prowl.Runtime.CommandBuffer.SetFullViewports()
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Rendering/CommandBuffer.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: SetFullViewports
+    path: ../Prowl/Prowl.Runtime/Rendering/CommandBuffer.cs
+    startLine: 204
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public void SetFullViewports()
+    content.vb: Public Sub SetFullViewports()
+  overload: Prowl.Runtime.CommandBuffer.SetFullViewports*
+- uid: Prowl.Runtime.CommandBuffer.SetScissorRect(System.UInt32,System.UInt32,System.UInt32,System.UInt32,System.UInt32)
+  commentId: M:Prowl.Runtime.CommandBuffer.SetScissorRect(System.UInt32,System.UInt32,System.UInt32,System.UInt32,System.UInt32)
+  id: SetScissorRect(System.UInt32,System.UInt32,System.UInt32,System.UInt32,System.UInt32)
+  parent: Prowl.Runtime.CommandBuffer
+  langs:
+  - csharp
+  - vb
+  name: SetScissorRect(uint, uint, uint, uint, uint)
+  nameWithType: CommandBuffer.SetScissorRect(uint, uint, uint, uint, uint)
+  fullName: Prowl.Runtime.CommandBuffer.SetScissorRect(uint, uint, uint, uint, uint)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Rendering/CommandBuffer.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: SetScissorRect
+    path: ../Prowl/Prowl.Runtime/Rendering/CommandBuffer.cs
+    startLine: 207
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public void SetScissorRect(uint index, uint x, uint y, uint width, uint height)
+    parameters:
+    - id: index
+      type: System.UInt32
+    - id: x
+      type: System.UInt32
+    - id: y
+      type: System.UInt32
+    - id: width
+      type: System.UInt32
+    - id: height
+      type: System.UInt32
+    content.vb: Public Sub SetScissorRect(index As UInteger, x As UInteger, y As UInteger, width As UInteger, height As UInteger)
+  overload: Prowl.Runtime.CommandBuffer.SetScissorRect*
+  nameWithType.vb: CommandBuffer.SetScissorRect(UInteger, UInteger, UInteger, UInteger, UInteger)
+  fullName.vb: Prowl.Runtime.CommandBuffer.SetScissorRect(UInteger, UInteger, UInteger, UInteger, UInteger)
+  name.vb: SetScissorRect(UInteger, UInteger, UInteger, UInteger, UInteger)
+- uid: Prowl.Runtime.CommandBuffer.SetScissorRects(System.UInt32,System.UInt32,System.UInt32,System.UInt32)
+  commentId: M:Prowl.Runtime.CommandBuffer.SetScissorRects(System.UInt32,System.UInt32,System.UInt32,System.UInt32)
+  id: SetScissorRects(System.UInt32,System.UInt32,System.UInt32,System.UInt32)
+  parent: Prowl.Runtime.CommandBuffer
+  langs:
+  - csharp
+  - vb
+  name: SetScissorRects(uint, uint, uint, uint)
+  nameWithType: CommandBuffer.SetScissorRects(uint, uint, uint, uint)
+  fullName: Prowl.Runtime.CommandBuffer.SetScissorRects(uint, uint, uint, uint)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Rendering/CommandBuffer.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: SetScissorRects
+    path: ../Prowl/Prowl.Runtime/Rendering/CommandBuffer.cs
+    startLine: 210
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public void SetScissorRects(uint x, uint y, uint width, uint height)
+    parameters:
+    - id: x
+      type: System.UInt32
+    - id: y
+      type: System.UInt32
+    - id: width
+      type: System.UInt32
+    - id: height
+      type: System.UInt32
+    content.vb: Public Sub SetScissorRects(x As UInteger, y As UInteger, width As UInteger, height As UInteger)
+  overload: Prowl.Runtime.CommandBuffer.SetScissorRects*
+  nameWithType.vb: CommandBuffer.SetScissorRects(UInteger, UInteger, UInteger, UInteger)
+  fullName.vb: Prowl.Runtime.CommandBuffer.SetScissorRects(UInteger, UInteger, UInteger, UInteger)
+  name.vb: SetScissorRects(UInteger, UInteger, UInteger, UInteger)
+- uid: Prowl.Runtime.CommandBuffer.SetFullScissorRect(System.UInt32)
+  commentId: M:Prowl.Runtime.CommandBuffer.SetFullScissorRect(System.UInt32)
+  id: SetFullScissorRect(System.UInt32)
+  parent: Prowl.Runtime.CommandBuffer
+  langs:
+  - csharp
+  - vb
+  name: SetFullScissorRect(uint)
+  nameWithType: CommandBuffer.SetFullScissorRect(uint)
+  fullName: Prowl.Runtime.CommandBuffer.SetFullScissorRect(uint)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Rendering/CommandBuffer.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: SetFullScissorRect
+    path: ../Prowl/Prowl.Runtime/Rendering/CommandBuffer.cs
+    startLine: 213
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public void SetFullScissorRect(uint index)
+    parameters:
+    - id: index
+      type: System.UInt32
+    content.vb: Public Sub SetFullScissorRect(index As UInteger)
+  overload: Prowl.Runtime.CommandBuffer.SetFullScissorRect*
+  nameWithType.vb: CommandBuffer.SetFullScissorRect(UInteger)
+  fullName.vb: Prowl.Runtime.CommandBuffer.SetFullScissorRect(UInteger)
+  name.vb: SetFullScissorRect(UInteger)
+- uid: Prowl.Runtime.CommandBuffer.SetFullScissorRects
+  commentId: M:Prowl.Runtime.CommandBuffer.SetFullScissorRects
+  id: SetFullScissorRects
+  parent: Prowl.Runtime.CommandBuffer
+  langs:
+  - csharp
+  - vb
+  name: SetFullScissorRects()
+  nameWithType: CommandBuffer.SetFullScissorRects()
+  fullName: Prowl.Runtime.CommandBuffer.SetFullScissorRects()
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Rendering/CommandBuffer.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: SetFullScissorRects
+    path: ../Prowl/Prowl.Runtime/Rendering/CommandBuffer.cs
+    startLine: 216
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public void SetFullScissorRects()
+    content.vb: Public Sub SetFullScissorRects()
+  overload: Prowl.Runtime.CommandBuffer.SetFullScissorRects*
+- uid: Prowl.Runtime.CommandBuffer.SetScissor(System.Boolean)
+  commentId: M:Prowl.Runtime.CommandBuffer.SetScissor(System.Boolean)
+  id: SetScissor(System.Boolean)
+  parent: Prowl.Runtime.CommandBuffer
+  langs:
+  - csharp
+  - vb
+  name: SetScissor(bool)
+  nameWithType: CommandBuffer.SetScissor(bool)
+  fullName: Prowl.Runtime.CommandBuffer.SetScissor(bool)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Rendering/CommandBuffer.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: SetScissor
+    path: ../Prowl/Prowl.Runtime/Rendering/CommandBuffer.cs
+    startLine: 219
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public void SetScissor(bool active)
+    parameters:
+    - id: active
+      type: System.Boolean
+    content.vb: Public Sub SetScissor(active As Boolean)
+  overload: Prowl.Runtime.CommandBuffer.SetScissor*
+  nameWithType.vb: CommandBuffer.SetScissor(Boolean)
+  fullName.vb: Prowl.Runtime.CommandBuffer.SetScissor(Boolean)
+  name.vb: SetScissor(Boolean)
+- uid: Prowl.Runtime.CommandBuffer.SetKeyword(System.String,System.String)
+  commentId: M:Prowl.Runtime.CommandBuffer.SetKeyword(System.String,System.String)
+  id: SetKeyword(System.String,System.String)
+  parent: Prowl.Runtime.CommandBuffer
+  langs:
+  - csharp
+  - vb
+  name: SetKeyword(string, string)
+  nameWithType: CommandBuffer.SetKeyword(string, string)
+  fullName: Prowl.Runtime.CommandBuffer.SetKeyword(string, string)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Rendering/CommandBuffer.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: SetKeyword
+    path: ../Prowl/Prowl.Runtime/Rendering/CommandBuffer.cs
+    startLine: 223
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public void SetKeyword(string keyword, string value)
+    parameters:
+    - id: keyword
+      type: System.String
+    - id: value
+      type: System.String
+    content.vb: Public Sub SetKeyword(keyword As String, value As String)
+  overload: Prowl.Runtime.CommandBuffer.SetKeyword*
+  nameWithType.vb: CommandBuffer.SetKeyword(String, String)
+  fullName.vb: Prowl.Runtime.CommandBuffer.SetKeyword(String, String)
+  name.vb: SetKeyword(String, String)
+- uid: Prowl.Runtime.CommandBuffer.SetWireframe(System.Boolean)
+  commentId: M:Prowl.Runtime.CommandBuffer.SetWireframe(System.Boolean)
+  id: SetWireframe(System.Boolean)
+  parent: Prowl.Runtime.CommandBuffer
+  langs:
+  - csharp
+  - vb
+  name: SetWireframe(bool)
+  nameWithType: CommandBuffer.SetWireframe(bool)
+  fullName: Prowl.Runtime.CommandBuffer.SetWireframe(bool)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Rendering/CommandBuffer.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: SetWireframe
+    path: ../Prowl/Prowl.Runtime/Rendering/CommandBuffer.cs
+    startLine: 230
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public void SetWireframe(bool wireframe)
+    parameters:
+    - id: wireframe
+      type: System.Boolean
+    content.vb: Public Sub SetWireframe(wireframe As Boolean)
+  overload: Prowl.Runtime.CommandBuffer.SetWireframe*
+  nameWithType.vb: CommandBuffer.SetWireframe(Boolean)
+  fullName.vb: Prowl.Runtime.CommandBuffer.SetWireframe(Boolean)
+  name.vb: SetWireframe(Boolean)
+- uid: Prowl.Runtime.CommandBuffer.SetTexture(System.String,Prowl.Runtime.AssetRef{Prowl.Runtime.Texture})
+  commentId: M:Prowl.Runtime.CommandBuffer.SetTexture(System.String,Prowl.Runtime.AssetRef{Prowl.Runtime.Texture})
+  id: SetTexture(System.String,Prowl.Runtime.AssetRef{Prowl.Runtime.Texture})
+  parent: Prowl.Runtime.CommandBuffer
+  langs:
+  - csharp
+  - vb
+  name: SetTexture(string, AssetRef<Texture>)
+  nameWithType: CommandBuffer.SetTexture(string, AssetRef<Texture>)
+  fullName: Prowl.Runtime.CommandBuffer.SetTexture(string, Prowl.Runtime.AssetRef<Prowl.Runtime.Texture>)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Rendering/CommandBuffer.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: SetTexture
+    path: ../Prowl/Prowl.Runtime/Rendering/CommandBuffer.cs
+    startLine: 233
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public void SetTexture(string name, AssetRef<Texture> texture)
+    parameters:
+    - id: name
+      type: System.String
+    - id: texture
+      type: Prowl.Runtime.AssetRef{Prowl.Runtime.Texture}
+    content.vb: Public Sub SetTexture(name As String, texture As AssetRef(Of Texture))
+  overload: Prowl.Runtime.CommandBuffer.SetTexture*
+  nameWithType.vb: CommandBuffer.SetTexture(String, AssetRef(Of Texture))
+  fullName.vb: Prowl.Runtime.CommandBuffer.SetTexture(String, Prowl.Runtime.AssetRef(Of Prowl.Runtime.Texture))
+  name.vb: SetTexture(String, AssetRef(Of Texture))
+- uid: Prowl.Runtime.CommandBuffer.SetTexture(System.String,Veldrid.Texture)
+  commentId: M:Prowl.Runtime.CommandBuffer.SetTexture(System.String,Veldrid.Texture)
+  id: SetTexture(System.String,Veldrid.Texture)
+  parent: Prowl.Runtime.CommandBuffer
+  langs:
+  - csharp
+  - vb
+  name: SetTexture(string, Texture)
+  nameWithType: CommandBuffer.SetTexture(string, Texture)
+  fullName: Prowl.Runtime.CommandBuffer.SetTexture(string, Veldrid.Texture)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Rendering/CommandBuffer.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: SetTexture
+    path: ../Prowl/Prowl.Runtime/Rendering/CommandBuffer.cs
+    startLine: 236
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public void SetTexture(string name, Texture texture)
+    parameters:
+    - id: name
+      type: System.String
+    - id: texture
+      type: Veldrid.Texture
+    content.vb: Public Sub SetTexture(name As String, texture As Texture)
+  overload: Prowl.Runtime.CommandBuffer.SetTexture*
+  nameWithType.vb: CommandBuffer.SetTexture(String, Texture)
+  fullName.vb: Prowl.Runtime.CommandBuffer.SetTexture(String, Veldrid.Texture)
+  name.vb: SetTexture(String, Texture)
+- uid: Prowl.Runtime.CommandBuffer.SetInt(System.String,System.Int32)
+  commentId: M:Prowl.Runtime.CommandBuffer.SetInt(System.String,System.Int32)
+  id: SetInt(System.String,System.Int32)
+  parent: Prowl.Runtime.CommandBuffer
+  langs:
+  - csharp
+  - vb
+  name: SetInt(string, int)
+  nameWithType: CommandBuffer.SetInt(string, int)
+  fullName: Prowl.Runtime.CommandBuffer.SetInt(string, int)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Rendering/CommandBuffer.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: SetInt
+    path: ../Prowl/Prowl.Runtime/Rendering/CommandBuffer.cs
+    startLine: 239
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public void SetInt(string name, int value)
+    parameters:
+    - id: name
+      type: System.String
+    - id: value
+      type: System.Int32
+    content.vb: Public Sub SetInt(name As String, value As Integer)
+  overload: Prowl.Runtime.CommandBuffer.SetInt*
+  nameWithType.vb: CommandBuffer.SetInt(String, Integer)
+  fullName.vb: Prowl.Runtime.CommandBuffer.SetInt(String, Integer)
+  name.vb: SetInt(String, Integer)
+- uid: Prowl.Runtime.CommandBuffer.SetFloat(System.String,System.Single)
+  commentId: M:Prowl.Runtime.CommandBuffer.SetFloat(System.String,System.Single)
+  id: SetFloat(System.String,System.Single)
+  parent: Prowl.Runtime.CommandBuffer
+  langs:
+  - csharp
+  - vb
+  name: SetFloat(string, float)
+  nameWithType: CommandBuffer.SetFloat(string, float)
+  fullName: Prowl.Runtime.CommandBuffer.SetFloat(string, float)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Rendering/CommandBuffer.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: SetFloat
+    path: ../Prowl/Prowl.Runtime/Rendering/CommandBuffer.cs
+    startLine: 242
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public void SetFloat(string name, float value)
+    parameters:
+    - id: name
+      type: System.String
+    - id: value
+      type: System.Single
+    content.vb: Public Sub SetFloat(name As String, value As Single)
+  overload: Prowl.Runtime.CommandBuffer.SetFloat*
+  nameWithType.vb: CommandBuffer.SetFloat(String, Single)
+  fullName.vb: Prowl.Runtime.CommandBuffer.SetFloat(String, Single)
+  name.vb: SetFloat(String, Single)
+- uid: Prowl.Runtime.CommandBuffer.SetVector(System.String,System.Numerics.Vector2)
+  commentId: M:Prowl.Runtime.CommandBuffer.SetVector(System.String,System.Numerics.Vector2)
+  id: SetVector(System.String,System.Numerics.Vector2)
+  parent: Prowl.Runtime.CommandBuffer
+  langs:
+  - csharp
+  - vb
+  name: SetVector(string, Vector2)
+  nameWithType: CommandBuffer.SetVector(string, Vector2)
+  fullName: Prowl.Runtime.CommandBuffer.SetVector(string, System.Numerics.Vector2)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Rendering/CommandBuffer.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: SetVector
+    path: ../Prowl/Prowl.Runtime/Rendering/CommandBuffer.cs
+    startLine: 245
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public void SetVector(string name, Vector2 value)
+    parameters:
+    - id: name
+      type: System.String
+    - id: value
+      type: System.Numerics.Vector2
+    content.vb: Public Sub SetVector(name As String, value As Vector2)
+  overload: Prowl.Runtime.CommandBuffer.SetVector*
+  nameWithType.vb: CommandBuffer.SetVector(String, Vector2)
+  fullName.vb: Prowl.Runtime.CommandBuffer.SetVector(String, System.Numerics.Vector2)
+  name.vb: SetVector(String, Vector2)
+- uid: Prowl.Runtime.CommandBuffer.SetVector(System.String,System.Numerics.Vector3)
+  commentId: M:Prowl.Runtime.CommandBuffer.SetVector(System.String,System.Numerics.Vector3)
+  id: SetVector(System.String,System.Numerics.Vector3)
+  parent: Prowl.Runtime.CommandBuffer
+  langs:
+  - csharp
+  - vb
+  name: SetVector(string, Vector3)
+  nameWithType: CommandBuffer.SetVector(string, Vector3)
+  fullName: Prowl.Runtime.CommandBuffer.SetVector(string, System.Numerics.Vector3)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Rendering/CommandBuffer.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: SetVector
+    path: ../Prowl/Prowl.Runtime/Rendering/CommandBuffer.cs
+    startLine: 248
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public void SetVector(string name, Vector3 value)
+    parameters:
+    - id: name
+      type: System.String
+    - id: value
+      type: System.Numerics.Vector3
+    content.vb: Public Sub SetVector(name As String, value As Vector3)
+  overload: Prowl.Runtime.CommandBuffer.SetVector*
+  nameWithType.vb: CommandBuffer.SetVector(String, Vector3)
+  fullName.vb: Prowl.Runtime.CommandBuffer.SetVector(String, System.Numerics.Vector3)
+  name.vb: SetVector(String, Vector3)
+- uid: Prowl.Runtime.CommandBuffer.SetVector(System.String,System.Numerics.Vector4)
+  commentId: M:Prowl.Runtime.CommandBuffer.SetVector(System.String,System.Numerics.Vector4)
+  id: SetVector(System.String,System.Numerics.Vector4)
+  parent: Prowl.Runtime.CommandBuffer
+  langs:
+  - csharp
+  - vb
+  name: SetVector(string, Vector4)
+  nameWithType: CommandBuffer.SetVector(string, Vector4)
+  fullName: Prowl.Runtime.CommandBuffer.SetVector(string, System.Numerics.Vector4)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Rendering/CommandBuffer.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: SetVector
+    path: ../Prowl/Prowl.Runtime/Rendering/CommandBuffer.cs
+    startLine: 251
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public void SetVector(string name, Vector4 value)
+    parameters:
+    - id: name
+      type: System.String
+    - id: value
+      type: System.Numerics.Vector4
+    content.vb: Public Sub SetVector(name As String, value As Vector4)
+  overload: Prowl.Runtime.CommandBuffer.SetVector*
+  nameWithType.vb: CommandBuffer.SetVector(String, Vector4)
+  fullName.vb: Prowl.Runtime.CommandBuffer.SetVector(String, System.Numerics.Vector4)
+  name.vb: SetVector(String, Vector4)
+- uid: Prowl.Runtime.CommandBuffer.SetColor(System.String,Prowl.Runtime.Color)
+  commentId: M:Prowl.Runtime.CommandBuffer.SetColor(System.String,Prowl.Runtime.Color)
+  id: SetColor(System.String,Prowl.Runtime.Color)
+  parent: Prowl.Runtime.CommandBuffer
+  langs:
+  - csharp
+  - vb
+  name: SetColor(string, Color)
+  nameWithType: CommandBuffer.SetColor(string, Color)
+  fullName: Prowl.Runtime.CommandBuffer.SetColor(string, Prowl.Runtime.Color)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Rendering/CommandBuffer.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: SetColor
+    path: ../Prowl/Prowl.Runtime/Rendering/CommandBuffer.cs
+    startLine: 254
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public void SetColor(string name, Color value)
+    parameters:
+    - id: name
+      type: System.String
+    - id: value
+      type: Prowl.Runtime.Color
+    content.vb: Public Sub SetColor(name As String, value As Color)
+  overload: Prowl.Runtime.CommandBuffer.SetColor*
+  nameWithType.vb: CommandBuffer.SetColor(String, Color)
+  fullName.vb: Prowl.Runtime.CommandBuffer.SetColor(String, Prowl.Runtime.Color)
+  name.vb: SetColor(String, Color)
+- uid: Prowl.Runtime.CommandBuffer.SetMatrix(System.String,System.Numerics.Matrix4x4)
+  commentId: M:Prowl.Runtime.CommandBuffer.SetMatrix(System.String,System.Numerics.Matrix4x4)
+  id: SetMatrix(System.String,System.Numerics.Matrix4x4)
+  parent: Prowl.Runtime.CommandBuffer
+  langs:
+  - csharp
+  - vb
+  name: SetMatrix(string, Matrix4x4)
+  nameWithType: CommandBuffer.SetMatrix(string, Matrix4x4)
+  fullName: Prowl.Runtime.CommandBuffer.SetMatrix(string, System.Numerics.Matrix4x4)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Rendering/CommandBuffer.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: SetMatrix
+    path: ../Prowl/Prowl.Runtime/Rendering/CommandBuffer.cs
+    startLine: 257
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public void SetMatrix(string name, Matrix4x4 value)
+    parameters:
+    - id: name
+      type: System.String
+    - id: value
+      type: System.Numerics.Matrix4x4
+    content.vb: Public Sub SetMatrix(name As String, value As Matrix4x4)
+  overload: Prowl.Runtime.CommandBuffer.SetMatrix*
+  nameWithType.vb: CommandBuffer.SetMatrix(String, Matrix4x4)
+  fullName.vb: Prowl.Runtime.CommandBuffer.SetMatrix(String, System.Numerics.Matrix4x4)
+  name.vb: SetMatrix(String, Matrix4x4)
+- uid: Prowl.Runtime.CommandBuffer.Clear
+  commentId: M:Prowl.Runtime.CommandBuffer.Clear
+  id: Clear
+  parent: Prowl.Runtime.CommandBuffer
+  langs:
+  - csharp
+  - vb
+  name: Clear()
+  nameWithType: CommandBuffer.Clear()
+  fullName: Prowl.Runtime.CommandBuffer.Clear()
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Rendering/CommandBuffer.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Clear
+    path: ../Prowl/Prowl.Runtime/Rendering/CommandBuffer.cs
+    startLine: 293
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public void Clear()
+    content.vb: Public Sub Clear()
+  overload: Prowl.Runtime.CommandBuffer.Clear*
+- uid: Prowl.Runtime.CommandBuffer.Dispose
+  commentId: M:Prowl.Runtime.CommandBuffer.Dispose
+  id: Dispose
+  parent: Prowl.Runtime.CommandBuffer
+  langs:
+  - csharp
+  - vb
+  name: Dispose()
+  nameWithType: CommandBuffer.Dispose()
+  fullName: Prowl.Runtime.CommandBuffer.Dispose()
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Rendering/CommandBuffer.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Dispose
+    path: ../Prowl/Prowl.Runtime/Rendering/CommandBuffer.cs
+    startLine: 306
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources.
+  example: []
+  syntax:
+    content: public void Dispose()
+    content.vb: Public Sub Dispose()
+  overload: Prowl.Runtime.CommandBuffer.Dispose*
+  implements:
+  - System.IDisposable.Dispose
+- uid: Prowl.Runtime.CommandBuffer.Finalize
+  commentId: M:Prowl.Runtime.CommandBuffer.Finalize
+  id: Finalize
+  parent: Prowl.Runtime.CommandBuffer
+  langs:
+  - csharp
+  - vb
+  name: ~CommandBuffer()
+  nameWithType: CommandBuffer.~CommandBuffer()
+  fullName: Prowl.Runtime.CommandBuffer.~CommandBuffer()
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Rendering/CommandBuffer.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Finalize
+    path: ../Prowl/Prowl.Runtime/Rendering/CommandBuffer.cs
+    startLine: 317
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: protected ~CommandBuffer()
+    content.vb: 'Protected '
+  overload: Prowl.Runtime.CommandBuffer.Finalize*
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+references:
+- uid: Prowl.Runtime
+  commentId: N:Prowl.Runtime
+  href: Prowl.html
+  name: Prowl.Runtime
+  nameWithType: Prowl.Runtime
+  fullName: Prowl.Runtime
+  spec.csharp:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+  spec.vb:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.IDisposable
+  commentId: T:System.IDisposable
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.idisposable
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Prowl.Runtime.RuntimeUtils.GetSerializableFields
+  commentId: M:Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  parent: Prowl.Runtime.RuntimeUtils
+  definition: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  name: GetSerializableFields(object)
+  nameWithType: RuntimeUtils.GetSerializableFields(object)
+  fullName: Prowl.Runtime.RuntimeUtils.GetSerializableFields(object)
+  nameWithType.vb: RuntimeUtils.GetSerializableFields(Object)
+  fullName.vb: Prowl.Runtime.RuntimeUtils.GetSerializableFields(Object)
+  name.vb: GetSerializableFields(Object)
+  spec.csharp:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  commentId: M:Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  isExternal: true
+  href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  name: GetSerializableFields(object)
+  nameWithType: RuntimeUtils.GetSerializableFields(object)
+  fullName: Prowl.Runtime.RuntimeUtils.GetSerializableFields(object)
+  nameWithType.vb: RuntimeUtils.GetSerializableFields(Object)
+  fullName.vb: Prowl.Runtime.RuntimeUtils.GetSerializableFields(Object)
+  name.vb: GetSerializableFields(Object)
+  spec.csharp:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: Prowl.Runtime.RuntimeUtils
+  commentId: T:Prowl.Runtime.RuntimeUtils
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.RuntimeUtils.html
+  name: RuntimeUtils
+  nameWithType: RuntimeUtils
+  fullName: Prowl.Runtime.RuntimeUtils
+- uid: Prowl.Runtime.CommandBuffer.Name*
+  commentId: Overload:Prowl.Runtime.CommandBuffer.Name
+  href: Prowl.Runtime.CommandBuffer.html#Prowl_Runtime_CommandBuffer_Name
+  name: Name
+  nameWithType: CommandBuffer.Name
+  fullName: Prowl.Runtime.CommandBuffer.Name
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: Prowl.Runtime.CommandBuffer.#ctor*
+  commentId: Overload:Prowl.Runtime.CommandBuffer.#ctor
+  href: Prowl.Runtime.CommandBuffer.html#Prowl_Runtime_CommandBuffer__ctor
+  name: CommandBuffer
+  nameWithType: CommandBuffer.CommandBuffer
+  fullName: Prowl.Runtime.CommandBuffer.CommandBuffer
+  nameWithType.vb: CommandBuffer.New
+  fullName.vb: Prowl.Runtime.CommandBuffer.New
+  name.vb: New
+- uid: Prowl.Runtime.CommandBuffer.SetRenderTarget*
+  commentId: Overload:Prowl.Runtime.CommandBuffer.SetRenderTarget
+  href: Prowl.Runtime.CommandBuffer.html#Prowl_Runtime_CommandBuffer_SetRenderTarget_Veldrid_Framebuffer_
+  name: SetRenderTarget
+  nameWithType: CommandBuffer.SetRenderTarget
+  fullName: Prowl.Runtime.CommandBuffer.SetRenderTarget
+- uid: Veldrid.Framebuffer
+  commentId: T:Veldrid.Framebuffer
+  parent: Veldrid
+  name: Framebuffer
+  nameWithType: Framebuffer
+  fullName: Veldrid.Framebuffer
+- uid: Veldrid
+  commentId: N:Veldrid
+  name: Veldrid
+  nameWithType: Veldrid
+  fullName: Veldrid
+- uid: Prowl.Runtime.RenderTexture
+  commentId: T:Prowl.Runtime.RenderTexture
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.RenderTexture.html
+  name: RenderTexture
+  nameWithType: RenderTexture
+  fullName: Prowl.Runtime.RenderTexture
+- uid: Prowl.Runtime.CommandBuffer.ClearRenderTarget*
+  commentId: Overload:Prowl.Runtime.CommandBuffer.ClearRenderTarget
+  href: Prowl.Runtime.CommandBuffer.html#Prowl_Runtime_CommandBuffer_ClearRenderTarget_System_Boolean_System_Boolean_Prowl_Runtime_Color_System_Int32_System_Single_System_Byte_
+  name: ClearRenderTarget
+  nameWithType: CommandBuffer.ClearRenderTarget
+  fullName: Prowl.Runtime.CommandBuffer.ClearRenderTarget
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: Prowl.Runtime.Color
+  commentId: T:Prowl.Runtime.Color
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.Color.html
+  name: Color
+  nameWithType: Color
+  fullName: Prowl.Runtime.Color
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.single
+  name: float
+  nameWithType: float
+  fullName: float
+  nameWithType.vb: Single
+  fullName.vb: Single
+  name.vb: Single
+- uid: System.Byte
+  commentId: T:System.Byte
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.byte
+  name: byte
+  nameWithType: byte
+  fullName: byte
+  nameWithType.vb: Byte
+  fullName.vb: Byte
+  name.vb: Byte
+- uid: Prowl.Runtime.CommandBuffer.SetMaterial*
+  commentId: Overload:Prowl.Runtime.CommandBuffer.SetMaterial
+  href: Prowl.Runtime.CommandBuffer.html#Prowl_Runtime_CommandBuffer_SetMaterial_Prowl_Runtime_Material_System_Int32_
+  name: SetMaterial
+  nameWithType: CommandBuffer.SetMaterial
+  fullName: Prowl.Runtime.CommandBuffer.SetMaterial
+- uid: Prowl.Runtime.Material
+  commentId: T:Prowl.Runtime.Material
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.Material.html
+  name: Material
+  nameWithType: Material
+  fullName: Prowl.Runtime.Material
+- uid: Prowl.Runtime.CommandBuffer.DrawSingle*
+  commentId: Overload:Prowl.Runtime.CommandBuffer.DrawSingle
+  href: Prowl.Runtime.CommandBuffer.html#Prowl_Runtime_CommandBuffer_DrawSingle_Prowl_Runtime_IGeometryDrawData_System_Int32_System_UInt32_
+  name: DrawSingle
+  nameWithType: CommandBuffer.DrawSingle
+  fullName: Prowl.Runtime.CommandBuffer.DrawSingle
+- uid: Prowl.Runtime.IGeometryDrawData
+  commentId: T:Prowl.Runtime.IGeometryDrawData
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.IGeometryDrawData.html
+  name: IGeometryDrawData
+  nameWithType: IGeometryDrawData
+  fullName: Prowl.Runtime.IGeometryDrawData
+- uid: System.UInt32
+  commentId: T:System.UInt32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.uint32
+  name: uint
+  nameWithType: uint
+  fullName: uint
+  nameWithType.vb: UInteger
+  fullName.vb: UInteger
+  name.vb: UInteger
+- uid: Prowl.Runtime.CommandBuffer.SetDrawData*
+  commentId: Overload:Prowl.Runtime.CommandBuffer.SetDrawData
+  href: Prowl.Runtime.CommandBuffer.html#Prowl_Runtime_CommandBuffer_SetDrawData_Prowl_Runtime_IGeometryDrawData_
+  name: SetDrawData
+  nameWithType: CommandBuffer.SetDrawData
+  fullName: Prowl.Runtime.CommandBuffer.SetDrawData
+- uid: Prowl.Runtime.CommandBuffer.DrawIndexed*
+  commentId: Overload:Prowl.Runtime.CommandBuffer.DrawIndexed
+  href: Prowl.Runtime.CommandBuffer.html#Prowl_Runtime_CommandBuffer_DrawIndexed_System_UInt32_System_UInt32_System_UInt32_System_UInt32_System_Int32_
+  name: DrawIndexed
+  nameWithType: CommandBuffer.DrawIndexed
+  fullName: Prowl.Runtime.CommandBuffer.DrawIndexed
+- uid: Prowl.Runtime.CommandBuffer.DrawIndirect*
+  commentId: Overload:Prowl.Runtime.CommandBuffer.DrawIndirect
+  href: Prowl.Runtime.CommandBuffer.html#Prowl_Runtime_CommandBuffer_DrawIndirect_Prowl_Runtime_GraphicsBuffer_System_UInt32_System_UInt32_System_UInt32_
+  name: DrawIndirect
+  nameWithType: CommandBuffer.DrawIndirect
+  fullName: Prowl.Runtime.CommandBuffer.DrawIndirect
+- uid: Prowl.Runtime.GraphicsBuffer
+  commentId: T:Prowl.Runtime.GraphicsBuffer
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.GraphicsBuffer.html
+  name: GraphicsBuffer
+  nameWithType: GraphicsBuffer
+  fullName: Prowl.Runtime.GraphicsBuffer
+- uid: Prowl.Runtime.CommandBuffer.DrawIndexedIndirect*
+  commentId: Overload:Prowl.Runtime.CommandBuffer.DrawIndexedIndirect
+  href: Prowl.Runtime.CommandBuffer.html#Prowl_Runtime_CommandBuffer_DrawIndexedIndirect_Prowl_Runtime_GraphicsBuffer_System_UInt32_System_UInt32_System_UInt32_
+  name: DrawIndexedIndirect
+  nameWithType: CommandBuffer.DrawIndexedIndirect
+  fullName: Prowl.Runtime.CommandBuffer.DrawIndexedIndirect
+- uid: Prowl.Runtime.CommandBuffer.SetPass*
+  commentId: Overload:Prowl.Runtime.CommandBuffer.SetPass
+  href: Prowl.Runtime.CommandBuffer.html#Prowl_Runtime_CommandBuffer_SetPass_Prowl_Runtime_ShaderPass_
+  name: SetPass
+  nameWithType: CommandBuffer.SetPass
+  fullName: Prowl.Runtime.CommandBuffer.SetPass
+- uid: Prowl.Runtime.ShaderPass
+  commentId: T:Prowl.Runtime.ShaderPass
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.ShaderPass.html
+  name: ShaderPass
+  nameWithType: ShaderPass
+  fullName: Prowl.Runtime.ShaderPass
+- uid: Prowl.Runtime.CommandBuffer.BindResources*
+  commentId: Overload:Prowl.Runtime.CommandBuffer.BindResources
+  href: Prowl.Runtime.CommandBuffer.html#Prowl_Runtime_CommandBuffer_BindResources
+  name: BindResources
+  nameWithType: CommandBuffer.BindResources
+  fullName: Prowl.Runtime.CommandBuffer.BindResources
+- uid: Prowl.Runtime.CommandBuffer.ApplyPropertyState*
+  commentId: Overload:Prowl.Runtime.CommandBuffer.ApplyPropertyState
+  href: Prowl.Runtime.CommandBuffer.html#Prowl_Runtime_CommandBuffer_ApplyPropertyState_Prowl_Runtime_PropertyState_
+  name: ApplyPropertyState
+  nameWithType: CommandBuffer.ApplyPropertyState
+  fullName: Prowl.Runtime.CommandBuffer.ApplyPropertyState
+- uid: Prowl.Runtime.PropertyState
+  commentId: T:Prowl.Runtime.PropertyState
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.PropertyState.html
+  name: PropertyState
+  nameWithType: PropertyState
+  fullName: Prowl.Runtime.PropertyState
+- uid: Prowl.Runtime.CommandBuffer.UpdateBuffer*
+  commentId: Overload:Prowl.Runtime.CommandBuffer.UpdateBuffer
+  href: Prowl.Runtime.CommandBuffer.html#Prowl_Runtime_CommandBuffer_UpdateBuffer_System_String_
+  name: UpdateBuffer
+  nameWithType: CommandBuffer.UpdateBuffer
+  fullName: Prowl.Runtime.CommandBuffer.UpdateBuffer
+- uid: Prowl.Runtime.CommandBuffer.PushDebugGroup*
+  commentId: Overload:Prowl.Runtime.CommandBuffer.PushDebugGroup
+  href: Prowl.Runtime.CommandBuffer.html#Prowl_Runtime_CommandBuffer_PushDebugGroup_System_String_
+  name: PushDebugGroup
+  nameWithType: CommandBuffer.PushDebugGroup
+  fullName: Prowl.Runtime.CommandBuffer.PushDebugGroup
+- uid: Prowl.Runtime.CommandBuffer.PopDebugGroup*
+  commentId: Overload:Prowl.Runtime.CommandBuffer.PopDebugGroup
+  href: Prowl.Runtime.CommandBuffer.html#Prowl_Runtime_CommandBuffer_PopDebugGroup
+  name: PopDebugGroup
+  nameWithType: CommandBuffer.PopDebugGroup
+  fullName: Prowl.Runtime.CommandBuffer.PopDebugGroup
+- uid: Prowl.Runtime.CommandBuffer.ResolveMultisampledTexture*
+  commentId: Overload:Prowl.Runtime.CommandBuffer.ResolveMultisampledTexture
+  href: Prowl.Runtime.CommandBuffer.html#Prowl_Runtime_CommandBuffer_ResolveMultisampledTexture_Prowl_Runtime_Texture_Prowl_Runtime_Texture_
+  name: ResolveMultisampledTexture
+  nameWithType: CommandBuffer.ResolveMultisampledTexture
+  fullName: Prowl.Runtime.CommandBuffer.ResolveMultisampledTexture
+- uid: Prowl.Runtime.Texture
+  commentId: T:Prowl.Runtime.Texture
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.Texture.html
+  name: Texture
+  nameWithType: Texture
+  fullName: Prowl.Runtime.Texture
+- uid: Prowl.Runtime.CommandBuffer.SetViewport*
+  commentId: Overload:Prowl.Runtime.CommandBuffer.SetViewport
+  href: Prowl.Runtime.CommandBuffer.html#Prowl_Runtime_CommandBuffer_SetViewport_System_UInt32_System_Int32_System_Int32_System_Int32_System_Int32_System_Int32_System_Int32_
+  name: SetViewport
+  nameWithType: CommandBuffer.SetViewport
+  fullName: Prowl.Runtime.CommandBuffer.SetViewport
+- uid: Prowl.Runtime.CommandBuffer.SetViewports*
+  commentId: Overload:Prowl.Runtime.CommandBuffer.SetViewports
+  href: Prowl.Runtime.CommandBuffer.html#Prowl_Runtime_CommandBuffer_SetViewports_System_Int32_System_Int32_System_Int32_System_Int32_System_Int32_System_Int32_
+  name: SetViewports
+  nameWithType: CommandBuffer.SetViewports
+  fullName: Prowl.Runtime.CommandBuffer.SetViewports
+- uid: Prowl.Runtime.CommandBuffer.SetFullViewport*
+  commentId: Overload:Prowl.Runtime.CommandBuffer.SetFullViewport
+  href: Prowl.Runtime.CommandBuffer.html#Prowl_Runtime_CommandBuffer_SetFullViewport_System_UInt32_
+  name: SetFullViewport
+  nameWithType: CommandBuffer.SetFullViewport
+  fullName: Prowl.Runtime.CommandBuffer.SetFullViewport
+- uid: Prowl.Runtime.CommandBuffer.SetFullViewports*
+  commentId: Overload:Prowl.Runtime.CommandBuffer.SetFullViewports
+  href: Prowl.Runtime.CommandBuffer.html#Prowl_Runtime_CommandBuffer_SetFullViewports
+  name: SetFullViewports
+  nameWithType: CommandBuffer.SetFullViewports
+  fullName: Prowl.Runtime.CommandBuffer.SetFullViewports
+- uid: Prowl.Runtime.CommandBuffer.SetScissorRect*
+  commentId: Overload:Prowl.Runtime.CommandBuffer.SetScissorRect
+  href: Prowl.Runtime.CommandBuffer.html#Prowl_Runtime_CommandBuffer_SetScissorRect_System_UInt32_System_UInt32_System_UInt32_System_UInt32_System_UInt32_
+  name: SetScissorRect
+  nameWithType: CommandBuffer.SetScissorRect
+  fullName: Prowl.Runtime.CommandBuffer.SetScissorRect
+- uid: Prowl.Runtime.CommandBuffer.SetScissorRects*
+  commentId: Overload:Prowl.Runtime.CommandBuffer.SetScissorRects
+  href: Prowl.Runtime.CommandBuffer.html#Prowl_Runtime_CommandBuffer_SetScissorRects_System_UInt32_System_UInt32_System_UInt32_System_UInt32_
+  name: SetScissorRects
+  nameWithType: CommandBuffer.SetScissorRects
+  fullName: Prowl.Runtime.CommandBuffer.SetScissorRects
+- uid: Prowl.Runtime.CommandBuffer.SetFullScissorRect*
+  commentId: Overload:Prowl.Runtime.CommandBuffer.SetFullScissorRect
+  href: Prowl.Runtime.CommandBuffer.html#Prowl_Runtime_CommandBuffer_SetFullScissorRect_System_UInt32_
+  name: SetFullScissorRect
+  nameWithType: CommandBuffer.SetFullScissorRect
+  fullName: Prowl.Runtime.CommandBuffer.SetFullScissorRect
+- uid: Prowl.Runtime.CommandBuffer.SetFullScissorRects*
+  commentId: Overload:Prowl.Runtime.CommandBuffer.SetFullScissorRects
+  href: Prowl.Runtime.CommandBuffer.html#Prowl_Runtime_CommandBuffer_SetFullScissorRects
+  name: SetFullScissorRects
+  nameWithType: CommandBuffer.SetFullScissorRects
+  fullName: Prowl.Runtime.CommandBuffer.SetFullScissorRects
+- uid: Prowl.Runtime.CommandBuffer.SetScissor*
+  commentId: Overload:Prowl.Runtime.CommandBuffer.SetScissor
+  href: Prowl.Runtime.CommandBuffer.html#Prowl_Runtime_CommandBuffer_SetScissor_System_Boolean_
+  name: SetScissor
+  nameWithType: CommandBuffer.SetScissor
+  fullName: Prowl.Runtime.CommandBuffer.SetScissor
+- uid: Prowl.Runtime.CommandBuffer.SetKeyword*
+  commentId: Overload:Prowl.Runtime.CommandBuffer.SetKeyword
+  href: Prowl.Runtime.CommandBuffer.html#Prowl_Runtime_CommandBuffer_SetKeyword_System_String_System_String_
+  name: SetKeyword
+  nameWithType: CommandBuffer.SetKeyword
+  fullName: Prowl.Runtime.CommandBuffer.SetKeyword
+- uid: Prowl.Runtime.CommandBuffer.SetWireframe*
+  commentId: Overload:Prowl.Runtime.CommandBuffer.SetWireframe
+  href: Prowl.Runtime.CommandBuffer.html#Prowl_Runtime_CommandBuffer_SetWireframe_System_Boolean_
+  name: SetWireframe
+  nameWithType: CommandBuffer.SetWireframe
+  fullName: Prowl.Runtime.CommandBuffer.SetWireframe
+- uid: Prowl.Runtime.CommandBuffer.SetTexture*
+  commentId: Overload:Prowl.Runtime.CommandBuffer.SetTexture
+  href: Prowl.Runtime.CommandBuffer.html#Prowl_Runtime_CommandBuffer_SetTexture_System_String_Prowl_Runtime_AssetRef_Prowl_Runtime_Texture__
+  name: SetTexture
+  nameWithType: CommandBuffer.SetTexture
+  fullName: Prowl.Runtime.CommandBuffer.SetTexture
+- uid: Prowl.Runtime.AssetRef{Prowl.Runtime.Texture}
+  commentId: T:Prowl.Runtime.AssetRef{Prowl.Runtime.Texture}
+  parent: Prowl.Runtime
+  definition: Prowl.Runtime.AssetRef`1
+  href: Prowl.Runtime.AssetRef-1.html
+  name: AssetRef<Texture>
+  nameWithType: AssetRef<Texture>
+  fullName: Prowl.Runtime.AssetRef<Prowl.Runtime.Texture>
+  nameWithType.vb: AssetRef(Of Texture)
+  fullName.vb: Prowl.Runtime.AssetRef(Of Prowl.Runtime.Texture)
+  name.vb: AssetRef(Of Texture)
+  spec.csharp:
+  - uid: Prowl.Runtime.AssetRef`1
+    name: AssetRef
+    href: Prowl.Runtime.AssetRef-1.html
+  - name: <
+  - uid: Prowl.Runtime.Texture
+    name: Texture
+    href: Prowl.Runtime.Texture.html
+  - name: '>'
+  spec.vb:
+  - uid: Prowl.Runtime.AssetRef`1
+    name: AssetRef
+    href: Prowl.Runtime.AssetRef-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Prowl.Runtime.Texture
+    name: Texture
+    href: Prowl.Runtime.Texture.html
+  - name: )
+- uid: Prowl.Runtime.AssetRef`1
+  commentId: T:Prowl.Runtime.AssetRef`1
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.AssetRef-1.html
+  name: AssetRef<T>
+  nameWithType: AssetRef<T>
+  fullName: Prowl.Runtime.AssetRef<T>
+  nameWithType.vb: AssetRef(Of T)
+  fullName.vb: Prowl.Runtime.AssetRef(Of T)
+  name.vb: AssetRef(Of T)
+  spec.csharp:
+  - uid: Prowl.Runtime.AssetRef`1
+    name: AssetRef
+    href: Prowl.Runtime.AssetRef-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Prowl.Runtime.AssetRef`1
+    name: AssetRef
+    href: Prowl.Runtime.AssetRef-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Veldrid.Texture
+  commentId: T:Veldrid.Texture
+  parent: Veldrid
+  name: Texture
+  nameWithType: Texture
+  fullName: Veldrid.Texture
+- uid: Prowl.Runtime.CommandBuffer.SetInt*
+  commentId: Overload:Prowl.Runtime.CommandBuffer.SetInt
+  href: Prowl.Runtime.CommandBuffer.html#Prowl_Runtime_CommandBuffer_SetInt_System_String_System_Int32_
+  name: SetInt
+  nameWithType: CommandBuffer.SetInt
+  fullName: Prowl.Runtime.CommandBuffer.SetInt
+- uid: Prowl.Runtime.CommandBuffer.SetFloat*
+  commentId: Overload:Prowl.Runtime.CommandBuffer.SetFloat
+  href: Prowl.Runtime.CommandBuffer.html#Prowl_Runtime_CommandBuffer_SetFloat_System_String_System_Single_
+  name: SetFloat
+  nameWithType: CommandBuffer.SetFloat
+  fullName: Prowl.Runtime.CommandBuffer.SetFloat
+- uid: Prowl.Runtime.CommandBuffer.SetVector*
+  commentId: Overload:Prowl.Runtime.CommandBuffer.SetVector
+  href: Prowl.Runtime.CommandBuffer.html#Prowl_Runtime_CommandBuffer_SetVector_System_String_System_Numerics_Vector2_
+  name: SetVector
+  nameWithType: CommandBuffer.SetVector
+  fullName: Prowl.Runtime.CommandBuffer.SetVector
+- uid: System.Numerics.Vector2
+  commentId: T:System.Numerics.Vector2
+  parent: System.Numerics
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.numerics.vector2
+  name: Vector2
+  nameWithType: Vector2
+  fullName: System.Numerics.Vector2
+- uid: System.Numerics
+  commentId: N:System.Numerics
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Numerics
+  nameWithType: System.Numerics
+  fullName: System.Numerics
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Numerics
+    name: Numerics
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.numerics
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Numerics
+    name: Numerics
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.numerics
+- uid: System.Numerics.Vector3
+  commentId: T:System.Numerics.Vector3
+  parent: System.Numerics
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.numerics.vector3
+  name: Vector3
+  nameWithType: Vector3
+  fullName: System.Numerics.Vector3
+- uid: System.Numerics.Vector4
+  commentId: T:System.Numerics.Vector4
+  parent: System.Numerics
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.numerics.vector4
+  name: Vector4
+  nameWithType: Vector4
+  fullName: System.Numerics.Vector4
+- uid: Prowl.Runtime.CommandBuffer.SetColor*
+  commentId: Overload:Prowl.Runtime.CommandBuffer.SetColor
+  href: Prowl.Runtime.CommandBuffer.html#Prowl_Runtime_CommandBuffer_SetColor_System_String_Prowl_Runtime_Color_
+  name: SetColor
+  nameWithType: CommandBuffer.SetColor
+  fullName: Prowl.Runtime.CommandBuffer.SetColor
+- uid: Prowl.Runtime.CommandBuffer.SetMatrix*
+  commentId: Overload:Prowl.Runtime.CommandBuffer.SetMatrix
+  href: Prowl.Runtime.CommandBuffer.html#Prowl_Runtime_CommandBuffer_SetMatrix_System_String_System_Numerics_Matrix4x4_
+  name: SetMatrix
+  nameWithType: CommandBuffer.SetMatrix
+  fullName: Prowl.Runtime.CommandBuffer.SetMatrix
+- uid: System.Numerics.Matrix4x4
+  commentId: T:System.Numerics.Matrix4x4
+  parent: System.Numerics
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.numerics.matrix4x4
+  name: Matrix4x4
+  nameWithType: Matrix4x4
+  fullName: System.Numerics.Matrix4x4
+- uid: Prowl.Runtime.CommandBuffer.Clear*
+  commentId: Overload:Prowl.Runtime.CommandBuffer.Clear
+  href: Prowl.Runtime.CommandBuffer.html#Prowl_Runtime_CommandBuffer_Clear
+  name: Clear
+  nameWithType: CommandBuffer.Clear
+  fullName: Prowl.Runtime.CommandBuffer.Clear
+- uid: Prowl.Runtime.CommandBuffer.Dispose*
+  commentId: Overload:Prowl.Runtime.CommandBuffer.Dispose
+  href: Prowl.Runtime.CommandBuffer.html#Prowl_Runtime_CommandBuffer_Dispose
+  name: Dispose
+  nameWithType: CommandBuffer.Dispose
+  fullName: Prowl.Runtime.CommandBuffer.Dispose
+- uid: System.IDisposable.Dispose
+  commentId: M:System.IDisposable.Dispose
+  parent: System.IDisposable
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
+  name: Dispose()
+  nameWithType: IDisposable.Dispose()
+  fullName: System.IDisposable.Dispose()
+  spec.csharp:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
+  - name: (
+  - name: )
+- uid: Prowl.Runtime.CommandBuffer.Finalize*
+  commentId: Overload:Prowl.Runtime.CommandBuffer.Finalize
+  href: Prowl.Runtime.CommandBuffer.html#Prowl_Runtime_CommandBuffer_Finalize
+  name: ~CommandBuffer
+  nameWithType: CommandBuffer.~CommandBuffer
+  fullName: Prowl.Runtime.CommandBuffer.~CommandBuffer
+  spec.csharp:
+  - name: "~"
+  - uid: Prowl.Runtime.CommandBuffer.Finalize*
+    name: CommandBuffer
+    href: Prowl.Runtime.CommandBuffer.html#Prowl_Runtime_CommandBuffer_Finalize

@@ -1,0 +1,196 @@
+### YamlMime:ManagedReference
+items:
+- uid: Prowl.Runtime.ISerializationCallbackReceiver
+  commentId: T:Prowl.Runtime.ISerializationCallbackReceiver
+  id: ISerializationCallbackReceiver
+  parent: Prowl.Runtime
+  children:
+  - Prowl.Runtime.ISerializationCallbackReceiver.OnAfterDeserialize
+  - Prowl.Runtime.ISerializationCallbackReceiver.OnBeforeSerialize
+  langs:
+  - csharp
+  - vb
+  name: ISerializationCallbackReceiver
+  nameWithType: ISerializationCallbackReceiver
+  fullName: Prowl.Runtime.ISerializationCallbackReceiver
+  type: Interface
+  source:
+    remote:
+      path: Prowl.Runtime/Serializer/ISerializationCallbackReceiver.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: ISerializationCallbackReceiver
+    path: ../Prowl/Prowl.Runtime/Serializer/ISerializationCallbackReceiver.cs
+    startLine: 9
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: >-
+    Sometimes you dont want a Constructor to be called when deserializing, but still need todo some work after the object has been created
+
+    This interface allows you to do that
+  example: []
+  syntax:
+    content: public interface ISerializationCallbackReceiver
+    content.vb: Public Interface ISerializationCallbackReceiver
+  extensionMethods:
+  - System.Object.Prowl.Runtime.RuntimeUtils.GetSerializableFields
+- uid: Prowl.Runtime.ISerializationCallbackReceiver.OnBeforeSerialize
+  commentId: M:Prowl.Runtime.ISerializationCallbackReceiver.OnBeforeSerialize
+  id: OnBeforeSerialize
+  parent: Prowl.Runtime.ISerializationCallbackReceiver
+  langs:
+  - csharp
+  - vb
+  name: OnBeforeSerialize()
+  nameWithType: ISerializationCallbackReceiver.OnBeforeSerialize()
+  fullName: Prowl.Runtime.ISerializationCallbackReceiver.OnBeforeSerialize()
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Serializer/ISerializationCallbackReceiver.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: OnBeforeSerialize
+    path: ../Prowl/Prowl.Runtime/Serializer/ISerializationCallbackReceiver.cs
+    startLine: 14
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: Called right before the Serializer serializes this object
+  example: []
+  syntax:
+    content: void OnBeforeSerialize()
+    content.vb: Sub OnBeforeSerialize()
+  overload: Prowl.Runtime.ISerializationCallbackReceiver.OnBeforeSerialize*
+- uid: Prowl.Runtime.ISerializationCallbackReceiver.OnAfterDeserialize
+  commentId: M:Prowl.Runtime.ISerializationCallbackReceiver.OnAfterDeserialize
+  id: OnAfterDeserialize
+  parent: Prowl.Runtime.ISerializationCallbackReceiver
+  langs:
+  - csharp
+  - vb
+  name: OnAfterDeserialize()
+  nameWithType: ISerializationCallbackReceiver.OnAfterDeserialize()
+  fullName: Prowl.Runtime.ISerializationCallbackReceiver.OnAfterDeserialize()
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Serializer/ISerializationCallbackReceiver.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: OnAfterDeserialize
+    path: ../Prowl/Prowl.Runtime/Serializer/ISerializationCallbackReceiver.cs
+    startLine: 19
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: Called right after the Serializer deserializes this object
+  example: []
+  syntax:
+    content: void OnAfterDeserialize()
+    content.vb: Sub OnAfterDeserialize()
+  overload: Prowl.Runtime.ISerializationCallbackReceiver.OnAfterDeserialize*
+references:
+- uid: Prowl.Runtime
+  commentId: N:Prowl.Runtime
+  href: Prowl.html
+  name: Prowl.Runtime
+  nameWithType: Prowl.Runtime
+  fullName: Prowl.Runtime
+  spec.csharp:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+  spec.vb:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+- uid: System.Object.Prowl.Runtime.RuntimeUtils.GetSerializableFields
+  commentId: M:Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  parent: Prowl.Runtime.RuntimeUtils
+  definition: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  name: GetSerializableFields(object)
+  nameWithType: RuntimeUtils.GetSerializableFields(object)
+  fullName: Prowl.Runtime.RuntimeUtils.GetSerializableFields(object)
+  nameWithType.vb: RuntimeUtils.GetSerializableFields(Object)
+  fullName.vb: Prowl.Runtime.RuntimeUtils.GetSerializableFields(Object)
+  name.vb: GetSerializableFields(Object)
+  spec.csharp:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  commentId: M:Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  isExternal: true
+  href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  name: GetSerializableFields(object)
+  nameWithType: RuntimeUtils.GetSerializableFields(object)
+  fullName: Prowl.Runtime.RuntimeUtils.GetSerializableFields(object)
+  nameWithType.vb: RuntimeUtils.GetSerializableFields(Object)
+  fullName.vb: Prowl.Runtime.RuntimeUtils.GetSerializableFields(Object)
+  name.vb: GetSerializableFields(Object)
+  spec.csharp:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: Prowl.Runtime.RuntimeUtils
+  commentId: T:Prowl.Runtime.RuntimeUtils
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.RuntimeUtils.html
+  name: RuntimeUtils
+  nameWithType: RuntimeUtils
+  fullName: Prowl.Runtime.RuntimeUtils
+- uid: Prowl.Runtime.ISerializationCallbackReceiver.OnBeforeSerialize*
+  commentId: Overload:Prowl.Runtime.ISerializationCallbackReceiver.OnBeforeSerialize
+  href: Prowl.Runtime.ISerializationCallbackReceiver.html#Prowl_Runtime_ISerializationCallbackReceiver_OnBeforeSerialize
+  name: OnBeforeSerialize
+  nameWithType: ISerializationCallbackReceiver.OnBeforeSerialize
+  fullName: Prowl.Runtime.ISerializationCallbackReceiver.OnBeforeSerialize
+- uid: Prowl.Runtime.ISerializationCallbackReceiver.OnAfterDeserialize*
+  commentId: Overload:Prowl.Runtime.ISerializationCallbackReceiver.OnAfterDeserialize
+  href: Prowl.Runtime.ISerializationCallbackReceiver.html#Prowl_Runtime_ISerializationCallbackReceiver_OnAfterDeserialize
+  name: OnAfterDeserialize
+  nameWithType: ISerializationCallbackReceiver.OnAfterDeserialize
+  fullName: Prowl.Runtime.ISerializationCallbackReceiver.OnAfterDeserialize

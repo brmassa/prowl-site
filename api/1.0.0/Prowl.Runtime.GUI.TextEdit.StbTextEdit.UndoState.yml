@@ -1,0 +1,876 @@
+### YamlMime:ManagedReference
+items:
+- uid: Prowl.Runtime.GUI.TextEdit.StbTextEdit.UndoState
+  commentId: T:Prowl.Runtime.GUI.TextEdit.StbTextEdit.UndoState
+  id: StbTextEdit.UndoState
+  parent: Prowl.Runtime.GUI.TextEdit
+  children:
+  - Prowl.Runtime.GUI.TextEdit.StbTextEdit.UndoState.CreateUndo(System.Int32,System.Int32,System.Int32)
+  - Prowl.Runtime.GUI.TextEdit.StbTextEdit.UndoState.CreateUndoRecord(System.Int32)
+  - Prowl.Runtime.GUI.TextEdit.StbTextEdit.UndoState.DiscardRedo
+  - Prowl.Runtime.GUI.TextEdit.StbTextEdit.UndoState.DiscardUndo
+  - Prowl.Runtime.GUI.TextEdit.StbTextEdit.UndoState.FlushRedo
+  - Prowl.Runtime.GUI.TextEdit.StbTextEdit.UndoState.redo_char_point
+  - Prowl.Runtime.GUI.TextEdit.StbTextEdit.UndoState.redo_point
+  - Prowl.Runtime.GUI.TextEdit.StbTextEdit.UndoState.undo_char
+  - Prowl.Runtime.GUI.TextEdit.StbTextEdit.UndoState.undo_char_point
+  - Prowl.Runtime.GUI.TextEdit.StbTextEdit.UndoState.undo_point
+  - Prowl.Runtime.GUI.TextEdit.StbTextEdit.UndoState.undo_rec
+  langs:
+  - csharp
+  - vb
+  name: StbTextEdit.UndoState
+  nameWithType: StbTextEdit.UndoState
+  fullName: Prowl.Runtime.GUI.TextEdit.StbTextEdit.UndoState
+  type: Class
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/TextEdit/StbTextEdit.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: UndoState
+    path: ../Prowl/Prowl.Runtime/GUI/TextEdit/StbTextEdit.cs
+    startLine: 846
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI.TextEdit
+  syntax:
+    content: public class StbTextEdit.UndoState
+    content.vb: Public Class StbTextEdit.UndoState
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  extensionMethods:
+  - System.Object.Prowl.Runtime.RuntimeUtils.GetSerializableFields
+- uid: Prowl.Runtime.GUI.TextEdit.StbTextEdit.UndoState.redo_char_point
+  commentId: F:Prowl.Runtime.GUI.TextEdit.StbTextEdit.UndoState.redo_char_point
+  id: redo_char_point
+  parent: Prowl.Runtime.GUI.TextEdit.StbTextEdit.UndoState
+  langs:
+  - csharp
+  - vb
+  name: redo_char_point
+  nameWithType: StbTextEdit.UndoState.redo_char_point
+  fullName: Prowl.Runtime.GUI.TextEdit.StbTextEdit.UndoState.redo_char_point
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/TextEdit/StbTextEdit.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: redo_char_point
+    path: ../Prowl/Prowl.Runtime/GUI/TextEdit/StbTextEdit.cs
+    startLine: 848
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI.TextEdit
+  syntax:
+    content: public int redo_char_point
+    return:
+      type: System.Int32
+    content.vb: Public redo_char_point As Integer
+- uid: Prowl.Runtime.GUI.TextEdit.StbTextEdit.UndoState.redo_point
+  commentId: F:Prowl.Runtime.GUI.TextEdit.StbTextEdit.UndoState.redo_point
+  id: redo_point
+  parent: Prowl.Runtime.GUI.TextEdit.StbTextEdit.UndoState
+  langs:
+  - csharp
+  - vb
+  name: redo_point
+  nameWithType: StbTextEdit.UndoState.redo_point
+  fullName: Prowl.Runtime.GUI.TextEdit.StbTextEdit.UndoState.redo_point
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/TextEdit/StbTextEdit.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: redo_point
+    path: ../Prowl/Prowl.Runtime/GUI/TextEdit/StbTextEdit.cs
+    startLine: 849
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI.TextEdit
+  syntax:
+    content: public short redo_point
+    return:
+      type: System.Int16
+    content.vb: Public redo_point As Short
+- uid: Prowl.Runtime.GUI.TextEdit.StbTextEdit.UndoState.undo_char
+  commentId: F:Prowl.Runtime.GUI.TextEdit.StbTextEdit.UndoState.undo_char
+  id: undo_char
+  parent: Prowl.Runtime.GUI.TextEdit.StbTextEdit.UndoState
+  langs:
+  - csharp
+  - vb
+  name: undo_char
+  nameWithType: StbTextEdit.UndoState.undo_char
+  fullName: Prowl.Runtime.GUI.TextEdit.StbTextEdit.UndoState.undo_char
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/TextEdit/StbTextEdit.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: undo_char
+    path: ../Prowl/Prowl.Runtime/GUI/TextEdit/StbTextEdit.cs
+    startLine: 850
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI.TextEdit
+  syntax:
+    content: public int[] undo_char
+    return:
+      type: System.Int32[]
+    content.vb: Public undo_char As Integer()
+- uid: Prowl.Runtime.GUI.TextEdit.StbTextEdit.UndoState.undo_char_point
+  commentId: F:Prowl.Runtime.GUI.TextEdit.StbTextEdit.UndoState.undo_char_point
+  id: undo_char_point
+  parent: Prowl.Runtime.GUI.TextEdit.StbTextEdit.UndoState
+  langs:
+  - csharp
+  - vb
+  name: undo_char_point
+  nameWithType: StbTextEdit.UndoState.undo_char_point
+  fullName: Prowl.Runtime.GUI.TextEdit.StbTextEdit.UndoState.undo_char_point
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/TextEdit/StbTextEdit.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: undo_char_point
+    path: ../Prowl/Prowl.Runtime/GUI/TextEdit/StbTextEdit.cs
+    startLine: 851
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI.TextEdit
+  syntax:
+    content: public int undo_char_point
+    return:
+      type: System.Int32
+    content.vb: Public undo_char_point As Integer
+- uid: Prowl.Runtime.GUI.TextEdit.StbTextEdit.UndoState.undo_point
+  commentId: F:Prowl.Runtime.GUI.TextEdit.StbTextEdit.UndoState.undo_point
+  id: undo_point
+  parent: Prowl.Runtime.GUI.TextEdit.StbTextEdit.UndoState
+  langs:
+  - csharp
+  - vb
+  name: undo_point
+  nameWithType: StbTextEdit.UndoState.undo_point
+  fullName: Prowl.Runtime.GUI.TextEdit.StbTextEdit.UndoState.undo_point
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/TextEdit/StbTextEdit.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: undo_point
+    path: ../Prowl/Prowl.Runtime/GUI/TextEdit/StbTextEdit.cs
+    startLine: 852
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI.TextEdit
+  syntax:
+    content: public short undo_point
+    return:
+      type: System.Int16
+    content.vb: Public undo_point As Short
+- uid: Prowl.Runtime.GUI.TextEdit.StbTextEdit.UndoState.undo_rec
+  commentId: F:Prowl.Runtime.GUI.TextEdit.StbTextEdit.UndoState.undo_rec
+  id: undo_rec
+  parent: Prowl.Runtime.GUI.TextEdit.StbTextEdit.UndoState
+  langs:
+  - csharp
+  - vb
+  name: undo_rec
+  nameWithType: StbTextEdit.UndoState.undo_rec
+  fullName: Prowl.Runtime.GUI.TextEdit.StbTextEdit.UndoState.undo_rec
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/TextEdit/StbTextEdit.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: undo_rec
+    path: ../Prowl/Prowl.Runtime/GUI/TextEdit/StbTextEdit.cs
+    startLine: 853
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI.TextEdit
+  syntax:
+    content: public StbTextEdit.UndoRecord[] undo_rec
+    return:
+      type: Prowl.Runtime.GUI.TextEdit.StbTextEdit.UndoRecord[]
+    content.vb: Public undo_rec As StbTextEdit.UndoRecord()
+- uid: Prowl.Runtime.GUI.TextEdit.StbTextEdit.UndoState.FlushRedo
+  commentId: M:Prowl.Runtime.GUI.TextEdit.StbTextEdit.UndoState.FlushRedo
+  id: FlushRedo
+  parent: Prowl.Runtime.GUI.TextEdit.StbTextEdit.UndoState
+  langs:
+  - csharp
+  - vb
+  name: FlushRedo()
+  nameWithType: StbTextEdit.UndoState.FlushRedo()
+  fullName: Prowl.Runtime.GUI.TextEdit.StbTextEdit.UndoState.FlushRedo()
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/TextEdit/StbTextEdit.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: FlushRedo
+    path: ../Prowl/Prowl.Runtime/GUI/TextEdit/StbTextEdit.cs
+    startLine: 855
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI.TextEdit
+  syntax:
+    content: public void FlushRedo()
+    content.vb: Public Sub FlushRedo()
+  overload: Prowl.Runtime.GUI.TextEdit.StbTextEdit.UndoState.FlushRedo*
+- uid: Prowl.Runtime.GUI.TextEdit.StbTextEdit.UndoState.DiscardUndo
+  commentId: M:Prowl.Runtime.GUI.TextEdit.StbTextEdit.UndoState.DiscardUndo
+  id: DiscardUndo
+  parent: Prowl.Runtime.GUI.TextEdit.StbTextEdit.UndoState
+  langs:
+  - csharp
+  - vb
+  name: DiscardUndo()
+  nameWithType: StbTextEdit.UndoState.DiscardUndo()
+  fullName: Prowl.Runtime.GUI.TextEdit.StbTextEdit.UndoState.DiscardUndo()
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/TextEdit/StbTextEdit.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: DiscardUndo
+    path: ../Prowl/Prowl.Runtime/GUI/TextEdit/StbTextEdit.cs
+    startLine: 861
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI.TextEdit
+  syntax:
+    content: public void DiscardUndo()
+    content.vb: Public Sub DiscardUndo()
+  overload: Prowl.Runtime.GUI.TextEdit.StbTextEdit.UndoState.DiscardUndo*
+- uid: Prowl.Runtime.GUI.TextEdit.StbTextEdit.UndoState.DiscardRedo
+  commentId: M:Prowl.Runtime.GUI.TextEdit.StbTextEdit.UndoState.DiscardRedo
+  id: DiscardRedo
+  parent: Prowl.Runtime.GUI.TextEdit.StbTextEdit.UndoState
+  langs:
+  - csharp
+  - vb
+  name: DiscardRedo()
+  nameWithType: StbTextEdit.UndoState.DiscardRedo()
+  fullName: Prowl.Runtime.GUI.TextEdit.StbTextEdit.UndoState.DiscardRedo()
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/TextEdit/StbTextEdit.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: DiscardRedo
+    path: ../Prowl/Prowl.Runtime/GUI/TextEdit/StbTextEdit.cs
+    startLine: 882
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI.TextEdit
+  syntax:
+    content: public void DiscardRedo()
+    content.vb: Public Sub DiscardRedo()
+  overload: Prowl.Runtime.GUI.TextEdit.StbTextEdit.UndoState.DiscardRedo*
+- uid: Prowl.Runtime.GUI.TextEdit.StbTextEdit.UndoState.CreateUndoRecord(System.Int32)
+  commentId: M:Prowl.Runtime.GUI.TextEdit.StbTextEdit.UndoState.CreateUndoRecord(System.Int32)
+  id: CreateUndoRecord(System.Int32)
+  parent: Prowl.Runtime.GUI.TextEdit.StbTextEdit.UndoState
+  langs:
+  - csharp
+  - vb
+  name: CreateUndoRecord(int)
+  nameWithType: StbTextEdit.UndoState.CreateUndoRecord(int)
+  fullName: Prowl.Runtime.GUI.TextEdit.StbTextEdit.UndoState.CreateUndoRecord(int)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/TextEdit/StbTextEdit.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: CreateUndoRecord
+    path: ../Prowl/Prowl.Runtime/GUI/TextEdit/StbTextEdit.cs
+    startLine: 907
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI.TextEdit
+  syntax:
+    content: public int? CreateUndoRecord(int numchars)
+    parameters:
+    - id: numchars
+      type: System.Int32
+    return:
+      type: System.Nullable{System.Int32}
+    content.vb: Public Function CreateUndoRecord(numchars As Integer) As Integer?
+  overload: Prowl.Runtime.GUI.TextEdit.StbTextEdit.UndoState.CreateUndoRecord*
+  nameWithType.vb: StbTextEdit.UndoState.CreateUndoRecord(Integer)
+  fullName.vb: Prowl.Runtime.GUI.TextEdit.StbTextEdit.UndoState.CreateUndoRecord(Integer)
+  name.vb: CreateUndoRecord(Integer)
+- uid: Prowl.Runtime.GUI.TextEdit.StbTextEdit.UndoState.CreateUndo(System.Int32,System.Int32,System.Int32)
+  commentId: M:Prowl.Runtime.GUI.TextEdit.StbTextEdit.UndoState.CreateUndo(System.Int32,System.Int32,System.Int32)
+  id: CreateUndo(System.Int32,System.Int32,System.Int32)
+  parent: Prowl.Runtime.GUI.TextEdit.StbTextEdit.UndoState
+  langs:
+  - csharp
+  - vb
+  name: CreateUndo(int, int, int)
+  nameWithType: StbTextEdit.UndoState.CreateUndo(int, int, int)
+  fullName: Prowl.Runtime.GUI.TextEdit.StbTextEdit.UndoState.CreateUndo(int, int, int)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/TextEdit/StbTextEdit.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: CreateUndo
+    path: ../Prowl/Prowl.Runtime/GUI/TextEdit/StbTextEdit.cs
+    startLine: 923
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI.TextEdit
+  syntax:
+    content: public int? CreateUndo(int pos, int insert_len, int delete_len)
+    parameters:
+    - id: pos
+      type: System.Int32
+    - id: insert_len
+      type: System.Int32
+    - id: delete_len
+      type: System.Int32
+    return:
+      type: System.Nullable{System.Int32}
+    content.vb: Public Function CreateUndo(pos As Integer, insert_len As Integer, delete_len As Integer) As Integer?
+  overload: Prowl.Runtime.GUI.TextEdit.StbTextEdit.UndoState.CreateUndo*
+  nameWithType.vb: StbTextEdit.UndoState.CreateUndo(Integer, Integer, Integer)
+  fullName.vb: Prowl.Runtime.GUI.TextEdit.StbTextEdit.UndoState.CreateUndo(Integer, Integer, Integer)
+  name.vb: CreateUndo(Integer, Integer, Integer)
+references:
+- uid: Prowl.Runtime.GUI.TextEdit
+  commentId: N:Prowl.Runtime.GUI.TextEdit
+  href: Prowl.html
+  name: Prowl.Runtime.GUI.TextEdit
+  nameWithType: Prowl.Runtime.GUI.TextEdit
+  fullName: Prowl.Runtime.GUI.TextEdit
+  spec.csharp:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+  - name: .
+  - uid: Prowl.Runtime.GUI
+    name: GUI
+    href: Prowl.Runtime.GUI.html
+  - name: .
+  - uid: Prowl.Runtime.GUI.TextEdit
+    name: TextEdit
+    href: Prowl.Runtime.GUI.TextEdit.html
+  spec.vb:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+  - name: .
+  - uid: Prowl.Runtime.GUI
+    name: GUI
+    href: Prowl.Runtime.GUI.html
+  - name: .
+  - uid: Prowl.Runtime.GUI.TextEdit
+    name: TextEdit
+    href: Prowl.Runtime.GUI.TextEdit.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Prowl.Runtime.RuntimeUtils.GetSerializableFields
+  commentId: M:Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  parent: Prowl.Runtime.RuntimeUtils
+  definition: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  name: GetSerializableFields(object)
+  nameWithType: RuntimeUtils.GetSerializableFields(object)
+  fullName: Prowl.Runtime.RuntimeUtils.GetSerializableFields(object)
+  nameWithType.vb: RuntimeUtils.GetSerializableFields(Object)
+  fullName.vb: Prowl.Runtime.RuntimeUtils.GetSerializableFields(Object)
+  name.vb: GetSerializableFields(Object)
+  spec.csharp:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  commentId: M:Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  isExternal: true
+  href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  name: GetSerializableFields(object)
+  nameWithType: RuntimeUtils.GetSerializableFields(object)
+  fullName: Prowl.Runtime.RuntimeUtils.GetSerializableFields(object)
+  nameWithType.vb: RuntimeUtils.GetSerializableFields(Object)
+  fullName.vb: Prowl.Runtime.RuntimeUtils.GetSerializableFields(Object)
+  name.vb: GetSerializableFields(Object)
+  spec.csharp:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: Prowl.Runtime.RuntimeUtils
+  commentId: T:Prowl.Runtime.RuntimeUtils
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.RuntimeUtils.html
+  name: RuntimeUtils
+  nameWithType: RuntimeUtils
+  fullName: Prowl.Runtime.RuntimeUtils
+- uid: Prowl.Runtime
+  commentId: N:Prowl.Runtime
+  href: Prowl.html
+  name: Prowl.Runtime
+  nameWithType: Prowl.Runtime
+  fullName: Prowl.Runtime
+  spec.csharp:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+  spec.vb:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int16
+  name: short
+  nameWithType: short
+  fullName: short
+  nameWithType.vb: Short
+  fullName.vb: Short
+  name.vb: Short
+- uid: System.Int32[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int[]
+  nameWithType: int[]
+  fullName: int[]
+  nameWithType.vb: Integer()
+  fullName.vb: Integer()
+  name.vb: Integer()
+  spec.csharp:
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: (
+  - name: )
+- uid: Prowl.Runtime.GUI.TextEdit.StbTextEdit.UndoRecord[]
+  isExternal: true
+  href: Prowl.Runtime.GUI.TextEdit.StbTextEdit.UndoRecord.html
+  name: UndoRecord[]
+  nameWithType: StbTextEdit.UndoRecord[]
+  fullName: Prowl.Runtime.GUI.TextEdit.StbTextEdit.UndoRecord[]
+  nameWithType.vb: StbTextEdit.UndoRecord()
+  fullName.vb: Prowl.Runtime.GUI.TextEdit.StbTextEdit.UndoRecord()
+  name.vb: UndoRecord()
+  spec.csharp:
+  - uid: Prowl.Runtime.GUI.TextEdit.StbTextEdit.UndoRecord
+    name: UndoRecord
+    href: Prowl.Runtime.GUI.TextEdit.StbTextEdit.UndoRecord.html
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: Prowl.Runtime.GUI.TextEdit.StbTextEdit.UndoRecord
+    name: UndoRecord
+    href: Prowl.Runtime.GUI.TextEdit.StbTextEdit.UndoRecord.html
+  - name: (
+  - name: )
+- uid: Prowl.Runtime.GUI.TextEdit.StbTextEdit.UndoState.FlushRedo*
+  commentId: Overload:Prowl.Runtime.GUI.TextEdit.StbTextEdit.UndoState.FlushRedo
+  href: Prowl.Runtime.GUI.TextEdit.StbTextEdit.UndoState.html#Prowl_Runtime_GUI_TextEdit_StbTextEdit_UndoState_FlushRedo
+  name: FlushRedo
+  nameWithType: StbTextEdit.UndoState.FlushRedo
+  fullName: Prowl.Runtime.GUI.TextEdit.StbTextEdit.UndoState.FlushRedo
+- uid: Prowl.Runtime.GUI.TextEdit.StbTextEdit.UndoState.DiscardUndo*
+  commentId: Overload:Prowl.Runtime.GUI.TextEdit.StbTextEdit.UndoState.DiscardUndo
+  href: Prowl.Runtime.GUI.TextEdit.StbTextEdit.UndoState.html#Prowl_Runtime_GUI_TextEdit_StbTextEdit_UndoState_DiscardUndo
+  name: DiscardUndo
+  nameWithType: StbTextEdit.UndoState.DiscardUndo
+  fullName: Prowl.Runtime.GUI.TextEdit.StbTextEdit.UndoState.DiscardUndo
+- uid: Prowl.Runtime.GUI.TextEdit.StbTextEdit.UndoState.DiscardRedo*
+  commentId: Overload:Prowl.Runtime.GUI.TextEdit.StbTextEdit.UndoState.DiscardRedo
+  href: Prowl.Runtime.GUI.TextEdit.StbTextEdit.UndoState.html#Prowl_Runtime_GUI_TextEdit_StbTextEdit_UndoState_DiscardRedo
+  name: DiscardRedo
+  nameWithType: StbTextEdit.UndoState.DiscardRedo
+  fullName: Prowl.Runtime.GUI.TextEdit.StbTextEdit.UndoState.DiscardRedo
+- uid: Prowl.Runtime.GUI.TextEdit.StbTextEdit.UndoState.CreateUndoRecord*
+  commentId: Overload:Prowl.Runtime.GUI.TextEdit.StbTextEdit.UndoState.CreateUndoRecord
+  href: Prowl.Runtime.GUI.TextEdit.StbTextEdit.UndoState.html#Prowl_Runtime_GUI_TextEdit_StbTextEdit_UndoState_CreateUndoRecord_System_Int32_
+  name: CreateUndoRecord
+  nameWithType: StbTextEdit.UndoState.CreateUndoRecord
+  fullName: Prowl.Runtime.GUI.TextEdit.StbTextEdit.UndoState.CreateUndoRecord
+- uid: System.Nullable{System.Int32}
+  commentId: T:System.Nullable{System.Int32}
+  parent: System
+  definition: System.Nullable`1
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int?
+  nameWithType: int?
+  fullName: int?
+  nameWithType.vb: Integer?
+  fullName.vb: Integer?
+  name.vb: Integer?
+  spec.csharp:
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '?'
+  spec.vb:
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '?'
+- uid: System.Nullable`1
+  commentId: T:System.Nullable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  name: Nullable<T>
+  nameWithType: Nullable<T>
+  fullName: System.Nullable<T>
+  nameWithType.vb: Nullable(Of T)
+  fullName.vb: System.Nullable(Of T)
+  name.vb: Nullable(Of T)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Prowl.Runtime.GUI.TextEdit.StbTextEdit.UndoState.CreateUndo*
+  commentId: Overload:Prowl.Runtime.GUI.TextEdit.StbTextEdit.UndoState.CreateUndo
+  href: Prowl.Runtime.GUI.TextEdit.StbTextEdit.UndoState.html#Prowl_Runtime_GUI_TextEdit_StbTextEdit_UndoState_CreateUndo_System_Int32_System_Int32_System_Int32_
+  name: CreateUndo
+  nameWithType: StbTextEdit.UndoState.CreateUndo
+  fullName: Prowl.Runtime.GUI.TextEdit.StbTextEdit.UndoState.CreateUndo

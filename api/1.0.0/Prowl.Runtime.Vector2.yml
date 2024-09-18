@@ -1,0 +1,2850 @@
+### YamlMime:ManagedReference
+items:
+- uid: Prowl.Runtime.Vector2
+  commentId: T:Prowl.Runtime.Vector2
+  id: Vector2
+  parent: Prowl.Runtime
+  children:
+  - Prowl.Runtime.Vector2.#ctor(System.Double)
+  - Prowl.Runtime.Vector2.#ctor(System.Double,System.Double)
+  - Prowl.Runtime.Vector2.Abs(Prowl.Runtime.Vector2)
+  - Prowl.Runtime.Vector2.AngleBetween(Prowl.Runtime.Vector2,Prowl.Runtime.Vector2)
+  - Prowl.Runtime.Vector2.Clamp(Prowl.Runtime.Vector2,Prowl.Runtime.Vector2,Prowl.Runtime.Vector2)
+  - Prowl.Runtime.Vector2.ClampMagnitude(Prowl.Runtime.Vector2,System.Double)
+  - Prowl.Runtime.Vector2.Distance(Prowl.Runtime.Vector2,Prowl.Runtime.Vector2)
+  - Prowl.Runtime.Vector2.Dot(Prowl.Runtime.Vector2,Prowl.Runtime.Vector2)
+  - Prowl.Runtime.Vector2.Equals(Prowl.Runtime.Vector2)
+  - Prowl.Runtime.Vector2.Equals(System.Object)
+  - Prowl.Runtime.Vector2.GetHashCode
+  - Prowl.Runtime.Vector2.IsFinate
+  - Prowl.Runtime.Vector2.Item(System.Int32)
+  - Prowl.Runtime.Vector2.Lerp(Prowl.Runtime.Vector2,Prowl.Runtime.Vector2,System.Double)
+  - Prowl.Runtime.Vector2.Max(Prowl.Runtime.Vector2,Prowl.Runtime.Vector2)
+  - Prowl.Runtime.Vector2.Min(Prowl.Runtime.Vector2,Prowl.Runtime.Vector2)
+  - Prowl.Runtime.Vector2.MoveTowards(Prowl.Runtime.Vector2,Prowl.Runtime.Vector2,System.Double)
+  - Prowl.Runtime.Vector2.Normalize
+  - Prowl.Runtime.Vector2.Normalize(Prowl.Runtime.Vector2)
+  - Prowl.Runtime.Vector2.Reflect(Prowl.Runtime.Vector2,Prowl.Runtime.Vector2)
+  - Prowl.Runtime.Vector2.Scale(Prowl.Runtime.Vector2)
+  - Prowl.Runtime.Vector2.SquareRoot(Prowl.Runtime.Vector2)
+  - Prowl.Runtime.Vector2.ToFloat
+  - Prowl.Runtime.Vector2.ToString
+  - Prowl.Runtime.Vector2.ToString(System.String)
+  - Prowl.Runtime.Vector2.ToString(System.String,System.IFormatProvider)
+  - Prowl.Runtime.Vector2.Transform(Prowl.Runtime.Vector2,Prowl.Runtime.Matrix4x4)
+  - Prowl.Runtime.Vector2.Transform(Prowl.Runtime.Vector2,Prowl.Runtime.Quaternion)
+  - Prowl.Runtime.Vector2.TransformNormal(Prowl.Runtime.Vector2,Prowl.Runtime.Matrix4x4)
+  - Prowl.Runtime.Vector2.down
+  - Prowl.Runtime.Vector2.infinity
+  - Prowl.Runtime.Vector2.left
+  - Prowl.Runtime.Vector2.magnitude
+  - Prowl.Runtime.Vector2.normalized
+  - Prowl.Runtime.Vector2.one
+  - Prowl.Runtime.Vector2.op_Addition(Prowl.Runtime.Vector2,Prowl.Runtime.Vector2)
+  - Prowl.Runtime.Vector2.op_Division(Prowl.Runtime.Vector2,Prowl.Runtime.Vector2)
+  - Prowl.Runtime.Vector2.op_Division(Prowl.Runtime.Vector2,System.Double)
+  - Prowl.Runtime.Vector2.op_Equality(Prowl.Runtime.Vector2,Prowl.Runtime.Vector2)
+  - Prowl.Runtime.Vector2.op_Implicit(Prowl.Runtime.Vector2)~System.Numerics.Vector2
+  - Prowl.Runtime.Vector2.op_Implicit(System.Numerics.Vector2)~Prowl.Runtime.Vector2
+  - Prowl.Runtime.Vector2.op_Inequality(Prowl.Runtime.Vector2,Prowl.Runtime.Vector2)
+  - Prowl.Runtime.Vector2.op_Multiply(Prowl.Runtime.Vector2,Prowl.Runtime.Vector2)
+  - Prowl.Runtime.Vector2.op_Multiply(Prowl.Runtime.Vector2,System.Double)
+  - Prowl.Runtime.Vector2.op_Multiply(System.Double,Prowl.Runtime.Vector2)
+  - Prowl.Runtime.Vector2.op_Subtraction(Prowl.Runtime.Vector2,Prowl.Runtime.Vector2)
+  - Prowl.Runtime.Vector2.op_UnaryNegation(Prowl.Runtime.Vector2)
+  - Prowl.Runtime.Vector2.right
+  - Prowl.Runtime.Vector2.sqrMagnitude
+  - Prowl.Runtime.Vector2.up
+  - Prowl.Runtime.Vector2.x
+  - Prowl.Runtime.Vector2.y
+  - Prowl.Runtime.Vector2.zero
+  langs:
+  - csharp
+  - vb
+  name: Vector2
+  nameWithType: Vector2
+  fullName: Prowl.Runtime.Vector2
+  type: Struct
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Vector2.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Vector2
+    path: ../Prowl/Prowl.Runtime/Math/Vector2.cs
+    startLine: 13
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: A structure encapsulating two single precision floating point values and provides hardware accelerated methods.
+  example: []
+  syntax:
+    content: 'public struct Vector2 : IEquatable<Vector2>, IFormattable'
+    content.vb: Public Structure Vector2 Implements IEquatable(Of Vector2), IFormattable
+  implements:
+  - System.IEquatable{Prowl.Runtime.Vector2}
+  - System.IFormattable
+  inheritedMembers:
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  extensionMethods:
+  - System.Object.Prowl.Runtime.RuntimeUtils.GetSerializableFields
+- uid: Prowl.Runtime.Vector2.x
+  commentId: F:Prowl.Runtime.Vector2.x
+  id: x
+  parent: Prowl.Runtime.Vector2
+  langs:
+  - csharp
+  - vb
+  name: x
+  nameWithType: Vector2.x
+  fullName: Prowl.Runtime.Vector2.x
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Vector2.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: x
+    path: ../Prowl/Prowl.Runtime/Math/Vector2.cs
+    startLine: 15
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public double x
+    return:
+      type: System.Double
+    content.vb: Public x As Double
+- uid: Prowl.Runtime.Vector2.y
+  commentId: F:Prowl.Runtime.Vector2.y
+  id: y
+  parent: Prowl.Runtime.Vector2
+  langs:
+  - csharp
+  - vb
+  name: y
+  nameWithType: Vector2.y
+  fullName: Prowl.Runtime.Vector2.y
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Vector2.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: y
+    path: ../Prowl/Prowl.Runtime/Math/Vector2.cs
+    startLine: 15
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public double y
+    return:
+      type: System.Double
+    content.vb: Public y As Double
+- uid: Prowl.Runtime.Vector2.#ctor(System.Double)
+  commentId: M:Prowl.Runtime.Vector2.#ctor(System.Double)
+  id: '#ctor(System.Double)'
+  parent: Prowl.Runtime.Vector2
+  langs:
+  - csharp
+  - vb
+  name: Vector2(double)
+  nameWithType: Vector2.Vector2(double)
+  fullName: Prowl.Runtime.Vector2.Vector2(double)
+  type: Constructor
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Vector2.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: .ctor
+    path: ../Prowl/Prowl.Runtime/Math/Vector2.cs
+    startLine: 19
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: Constructs a vector whose elements are all the single specified value.
+  example: []
+  syntax:
+    content: public Vector2(double value)
+    parameters:
+    - id: value
+      type: System.Double
+    content.vb: Public Sub New(value As Double)
+  overload: Prowl.Runtime.Vector2.#ctor*
+  nameWithType.vb: Vector2.New(Double)
+  fullName.vb: Prowl.Runtime.Vector2.New(Double)
+  name.vb: New(Double)
+- uid: Prowl.Runtime.Vector2.#ctor(System.Double,System.Double)
+  commentId: M:Prowl.Runtime.Vector2.#ctor(System.Double,System.Double)
+  id: '#ctor(System.Double,System.Double)'
+  parent: Prowl.Runtime.Vector2
+  langs:
+  - csharp
+  - vb
+  name: Vector2(double, double)
+  nameWithType: Vector2.Vector2(double, double)
+  fullName: Prowl.Runtime.Vector2.Vector2(double, double)
+  type: Constructor
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Vector2.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: .ctor
+    path: ../Prowl/Prowl.Runtime/Math/Vector2.cs
+    startLine: 22
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: Constructs a vector with the given individual elements.
+  example: []
+  syntax:
+    content: public Vector2(double x, double y)
+    parameters:
+    - id: x
+      type: System.Double
+    - id: y
+      type: System.Double
+    content.vb: Public Sub New(x As Double, y As Double)
+  overload: Prowl.Runtime.Vector2.#ctor*
+  nameWithType.vb: Vector2.New(Double, Double)
+  fullName.vb: Prowl.Runtime.Vector2.New(Double, Double)
+  name.vb: New(Double, Double)
+- uid: Prowl.Runtime.Vector2.normalized
+  commentId: P:Prowl.Runtime.Vector2.normalized
+  id: normalized
+  parent: Prowl.Runtime.Vector2
+  langs:
+  - csharp
+  - vb
+  name: normalized
+  nameWithType: Vector2.normalized
+  fullName: Prowl.Runtime.Vector2.normalized
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Vector2.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: normalized
+    path: ../Prowl/Prowl.Runtime/Math/Vector2.cs
+    startLine: 30
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public Vector2 normalized { get; }
+    parameters: []
+    return:
+      type: Prowl.Runtime.Vector2
+    content.vb: Public ReadOnly Property normalized As Vector2
+  overload: Prowl.Runtime.Vector2.normalized*
+- uid: Prowl.Runtime.Vector2.magnitude
+  commentId: P:Prowl.Runtime.Vector2.magnitude
+  id: magnitude
+  parent: Prowl.Runtime.Vector2
+  langs:
+  - csharp
+  - vb
+  name: magnitude
+  nameWithType: Vector2.magnitude
+  fullName: Prowl.Runtime.Vector2.magnitude
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Vector2.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: magnitude
+    path: ../Prowl/Prowl.Runtime/Math/Vector2.cs
+    startLine: 32
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public double magnitude { get; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public ReadOnly Property magnitude As Double
+  overload: Prowl.Runtime.Vector2.magnitude*
+- uid: Prowl.Runtime.Vector2.sqrMagnitude
+  commentId: P:Prowl.Runtime.Vector2.sqrMagnitude
+  id: sqrMagnitude
+  parent: Prowl.Runtime.Vector2
+  langs:
+  - csharp
+  - vb
+  name: sqrMagnitude
+  nameWithType: Vector2.sqrMagnitude
+  fullName: Prowl.Runtime.Vector2.sqrMagnitude
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Vector2.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: sqrMagnitude
+    path: ../Prowl/Prowl.Runtime/Math/Vector2.cs
+    startLine: 34
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public double sqrMagnitude { get; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public ReadOnly Property sqrMagnitude As Double
+  overload: Prowl.Runtime.Vector2.sqrMagnitude*
+- uid: Prowl.Runtime.Vector2.Item(System.Int32)
+  commentId: P:Prowl.Runtime.Vector2.Item(System.Int32)
+  id: Item(System.Int32)
+  parent: Prowl.Runtime.Vector2
+  langs:
+  - csharp
+  - vb
+  name: this[int]
+  nameWithType: Vector2.this[int]
+  fullName: Prowl.Runtime.Vector2.this[int]
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Vector2.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: this[]
+    path: ../Prowl/Prowl.Runtime/Math/Vector2.cs
+    startLine: 36
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public double this[int index] { get; set; }
+    parameters:
+    - id: index
+      type: System.Int32
+    return:
+      type: System.Double
+    content.vb: Public Default Property this[](index As Integer) As Double
+  overload: Prowl.Runtime.Vector2.Item*
+  nameWithType.vb: Vector2.this[](Integer)
+  fullName.vb: Prowl.Runtime.Vector2.this[](Integer)
+  name.vb: this[](Integer)
+- uid: Prowl.Runtime.Vector2.ToFloat
+  commentId: M:Prowl.Runtime.Vector2.ToFloat
+  id: ToFloat
+  parent: Prowl.Runtime.Vector2
+  langs:
+  - csharp
+  - vb
+  name: ToFloat()
+  nameWithType: Vector2.ToFloat()
+  fullName: Prowl.Runtime.Vector2.ToFloat()
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Vector2.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: ToFloat
+    path: ../Prowl/Prowl.Runtime/Math/Vector2.cs
+    startLine: 65
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public Vector2 ToFloat()
+    return:
+      type: System.Numerics.Vector2
+    content.vb: Public Function ToFloat() As Vector2
+  overload: Prowl.Runtime.Vector2.ToFloat*
+- uid: Prowl.Runtime.Vector2.Scale(Prowl.Runtime.Vector2)
+  commentId: M:Prowl.Runtime.Vector2.Scale(Prowl.Runtime.Vector2)
+  id: Scale(Prowl.Runtime.Vector2)
+  parent: Prowl.Runtime.Vector2
+  langs:
+  - csharp
+  - vb
+  name: Scale(Vector2)
+  nameWithType: Vector2.Scale(Vector2)
+  fullName: Prowl.Runtime.Vector2.Scale(Prowl.Runtime.Vector2)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Vector2.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Scale
+    path: ../Prowl/Prowl.Runtime/Math/Vector2.cs
+    startLine: 67
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public void Scale(Vector2 scale)
+    parameters:
+    - id: scale
+      type: Prowl.Runtime.Vector2
+    content.vb: Public Sub Scale(scale As Vector2)
+  overload: Prowl.Runtime.Vector2.Scale*
+- uid: Prowl.Runtime.Vector2.Normalize
+  commentId: M:Prowl.Runtime.Vector2.Normalize
+  id: Normalize
+  parent: Prowl.Runtime.Vector2
+  langs:
+  - csharp
+  - vb
+  name: Normalize()
+  nameWithType: Vector2.Normalize()
+  fullName: Prowl.Runtime.Vector2.Normalize()
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Vector2.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Normalize
+    path: ../Prowl/Prowl.Runtime/Math/Vector2.cs
+    startLine: 69
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public void Normalize()
+    content.vb: Public Sub Normalize()
+  overload: Prowl.Runtime.Vector2.Normalize*
+- uid: Prowl.Runtime.Vector2.GetHashCode
+  commentId: M:Prowl.Runtime.Vector2.GetHashCode
+  id: GetHashCode
+  parent: Prowl.Runtime.Vector2
+  langs:
+  - csharp
+  - vb
+  name: GetHashCode()
+  nameWithType: Vector2.GetHashCode()
+  fullName: Prowl.Runtime.Vector2.GetHashCode()
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Vector2.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: GetHashCode
+    path: ../Prowl/Prowl.Runtime/Math/Vector2.cs
+    startLine: 83
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: Returns the hash code for this instance.
+  example: []
+  syntax:
+    content: public override int GetHashCode()
+    return:
+      type: System.Int32
+      description: The hash code.
+    content.vb: Public Overrides Function GetHashCode() As Integer
+  overridden: System.ValueType.GetHashCode
+  overload: Prowl.Runtime.Vector2.GetHashCode*
+- uid: Prowl.Runtime.Vector2.Equals(System.Object)
+  commentId: M:Prowl.Runtime.Vector2.Equals(System.Object)
+  id: Equals(System.Object)
+  parent: Prowl.Runtime.Vector2
+  langs:
+  - csharp
+  - vb
+  name: Equals(object?)
+  nameWithType: Vector2.Equals(object?)
+  fullName: Prowl.Runtime.Vector2.Equals(object?)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Vector2.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Equals
+    path: ../Prowl/Prowl.Runtime/Math/Vector2.cs
+    startLine: 95
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: Returns a boolean indicating whether the given Object is equal to this Vector2 instance.
+  example: []
+  syntax:
+    content: public override bool Equals(object? obj)
+    parameters:
+    - id: obj
+      type: System.Object
+      description: The Object to compare against.
+    return:
+      type: System.Boolean
+      description: True if the Object is equal to this Vector2; False otherwise.
+    content.vb: Public Overrides Function Equals(obj As Object) As Boolean
+  overridden: System.ValueType.Equals(System.Object)
+  overload: Prowl.Runtime.Vector2.Equals*
+  nameWithType.vb: Vector2.Equals(Object)
+  fullName.vb: Prowl.Runtime.Vector2.Equals(Object)
+  name.vb: Equals(Object)
+- uid: Prowl.Runtime.Vector2.Equals(Prowl.Runtime.Vector2)
+  commentId: M:Prowl.Runtime.Vector2.Equals(Prowl.Runtime.Vector2)
+  id: Equals(Prowl.Runtime.Vector2)
+  parent: Prowl.Runtime.Vector2
+  langs:
+  - csharp
+  - vb
+  name: Equals(Vector2)
+  nameWithType: Vector2.Equals(Vector2)
+  fullName: Prowl.Runtime.Vector2.Equals(Prowl.Runtime.Vector2)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Vector2.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Equals
+    path: ../Prowl/Prowl.Runtime/Math/Vector2.cs
+    startLine: 108
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: Returns a boolean indicating whether the given Vector2 is equal to this Vector2 instance.
+  example: []
+  syntax:
+    content: public bool Equals(Vector2 other)
+    parameters:
+    - id: other
+      type: Prowl.Runtime.Vector2
+      description: The Vector2 to compare this instance to.
+    return:
+      type: System.Boolean
+      description: True if the other Vector2 is equal to this instance; False otherwise.
+    content.vb: Public Function Equals(other As Vector2) As Boolean
+  overload: Prowl.Runtime.Vector2.Equals*
+  implements:
+  - System.IEquatable{Prowl.Runtime.Vector2}.Equals(Prowl.Runtime.Vector2)
+- uid: Prowl.Runtime.Vector2.ToString
+  commentId: M:Prowl.Runtime.Vector2.ToString
+  id: ToString
+  parent: Prowl.Runtime.Vector2
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: Vector2.ToString()
+  fullName: Prowl.Runtime.Vector2.ToString()
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Vector2.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: ToString
+    path: ../Prowl/Prowl.Runtime/Math/Vector2.cs
+    startLine: 118
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: Returns a String representing this Vector2 instance.
+  example: []
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+      description: The string representation.
+    content.vb: Public Overrides Function ToString() As String
+  overridden: System.ValueType.ToString
+  overload: Prowl.Runtime.Vector2.ToString*
+- uid: Prowl.Runtime.Vector2.ToString(System.String)
+  commentId: M:Prowl.Runtime.Vector2.ToString(System.String)
+  id: ToString(System.String)
+  parent: Prowl.Runtime.Vector2
+  langs:
+  - csharp
+  - vb
+  name: ToString(string)
+  nameWithType: Vector2.ToString(string)
+  fullName: Prowl.Runtime.Vector2.ToString(string)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Vector2.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: ToString
+    path: ../Prowl/Prowl.Runtime/Math/Vector2.cs
+    startLine: 128
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: Returns a String representing this Vector2 instance, using the specified format to format individual elements.
+  example: []
+  syntax:
+    content: public string ToString(string format)
+    parameters:
+    - id: format
+      type: System.String
+      description: The format of individual elements.
+    return:
+      type: System.String
+      description: The string representation.
+    content.vb: Public Function ToString(format As String) As String
+  overload: Prowl.Runtime.Vector2.ToString*
+  nameWithType.vb: Vector2.ToString(String)
+  fullName.vb: Prowl.Runtime.Vector2.ToString(String)
+  name.vb: ToString(String)
+- uid: Prowl.Runtime.Vector2.ToString(System.String,System.IFormatProvider)
+  commentId: M:Prowl.Runtime.Vector2.ToString(System.String,System.IFormatProvider)
+  id: ToString(System.String,System.IFormatProvider)
+  parent: Prowl.Runtime.Vector2
+  langs:
+  - csharp
+  - vb
+  name: ToString(string?, IFormatProvider?)
+  nameWithType: Vector2.ToString(string?, IFormatProvider?)
+  fullName: Prowl.Runtime.Vector2.ToString(string?, System.IFormatProvider?)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Vector2.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: ToString
+    path: ../Prowl/Prowl.Runtime/Math/Vector2.cs
+    startLine: 140
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: >-
+    Returns a String representing this Vector2 instance, using the specified format to format individual elements
+
+    and the given IFormatProvider.
+  example: []
+  syntax:
+    content: public string ToString(string? format, IFormatProvider? formatProvider)
+    parameters:
+    - id: format
+      type: System.String
+      description: The format of individual elements.
+    - id: formatProvider
+      type: System.IFormatProvider
+      description: The format provider to use when formatting elements.
+    return:
+      type: System.String
+      description: The string representation.
+    content.vb: Public Function ToString(format As String, formatProvider As IFormatProvider) As String
+  overload: Prowl.Runtime.Vector2.ToString*
+  implements:
+  - System.IFormattable.ToString(System.String,System.IFormatProvider)
+  nameWithType.vb: Vector2.ToString(String, IFormatProvider)
+  fullName.vb: Prowl.Runtime.Vector2.ToString(String, System.IFormatProvider)
+  name.vb: ToString(String, IFormatProvider)
+- uid: Prowl.Runtime.Vector2.IsFinate
+  commentId: M:Prowl.Runtime.Vector2.IsFinate
+  id: IsFinate
+  parent: Prowl.Runtime.Vector2
+  langs:
+  - csharp
+  - vb
+  name: IsFinate()
+  nameWithType: Vector2.IsFinate()
+  fullName: Prowl.Runtime.Vector2.IsFinate()
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Vector2.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: IsFinate
+    path: ../Prowl/Prowl.Runtime/Math/Vector2.cs
+    startLine: 153
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public bool IsFinate()
+    return:
+      type: System.Boolean
+    content.vb: Public Function IsFinate() As Boolean
+  overload: Prowl.Runtime.Vector2.IsFinate*
+- uid: Prowl.Runtime.Vector2.zero
+  commentId: P:Prowl.Runtime.Vector2.zero
+  id: zero
+  parent: Prowl.Runtime.Vector2
+  langs:
+  - csharp
+  - vb
+  name: zero
+  nameWithType: Vector2.zero
+  fullName: Prowl.Runtime.Vector2.zero
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Vector2.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: zero
+    path: ../Prowl/Prowl.Runtime/Math/Vector2.cs
+    startLine: 157
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public static Vector2 zero { get; }
+    parameters: []
+    return:
+      type: Prowl.Runtime.Vector2
+    content.vb: Public Shared ReadOnly Property zero As Vector2
+  overload: Prowl.Runtime.Vector2.zero*
+- uid: Prowl.Runtime.Vector2.one
+  commentId: P:Prowl.Runtime.Vector2.one
+  id: one
+  parent: Prowl.Runtime.Vector2
+  langs:
+  - csharp
+  - vb
+  name: one
+  nameWithType: Vector2.one
+  fullName: Prowl.Runtime.Vector2.one
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Vector2.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: one
+    path: ../Prowl/Prowl.Runtime/Math/Vector2.cs
+    startLine: 158
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public static Vector2 one { get; }
+    parameters: []
+    return:
+      type: Prowl.Runtime.Vector2
+    content.vb: Public Shared ReadOnly Property one As Vector2
+  overload: Prowl.Runtime.Vector2.one*
+- uid: Prowl.Runtime.Vector2.right
+  commentId: P:Prowl.Runtime.Vector2.right
+  id: right
+  parent: Prowl.Runtime.Vector2
+  langs:
+  - csharp
+  - vb
+  name: right
+  nameWithType: Vector2.right
+  fullName: Prowl.Runtime.Vector2.right
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Vector2.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: right
+    path: ../Prowl/Prowl.Runtime/Math/Vector2.cs
+    startLine: 159
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public static Vector2 right { get; }
+    parameters: []
+    return:
+      type: Prowl.Runtime.Vector2
+    content.vb: Public Shared ReadOnly Property right As Vector2
+  overload: Prowl.Runtime.Vector2.right*
+- uid: Prowl.Runtime.Vector2.left
+  commentId: P:Prowl.Runtime.Vector2.left
+  id: left
+  parent: Prowl.Runtime.Vector2
+  langs:
+  - csharp
+  - vb
+  name: left
+  nameWithType: Vector2.left
+  fullName: Prowl.Runtime.Vector2.left
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Vector2.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: left
+    path: ../Prowl/Prowl.Runtime/Math/Vector2.cs
+    startLine: 160
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public static Vector2 left { get; }
+    parameters: []
+    return:
+      type: Prowl.Runtime.Vector2
+    content.vb: Public Shared ReadOnly Property left As Vector2
+  overload: Prowl.Runtime.Vector2.left*
+- uid: Prowl.Runtime.Vector2.up
+  commentId: P:Prowl.Runtime.Vector2.up
+  id: up
+  parent: Prowl.Runtime.Vector2
+  langs:
+  - csharp
+  - vb
+  name: up
+  nameWithType: Vector2.up
+  fullName: Prowl.Runtime.Vector2.up
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Vector2.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: up
+    path: ../Prowl/Prowl.Runtime/Math/Vector2.cs
+    startLine: 161
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public static Vector2 up { get; }
+    parameters: []
+    return:
+      type: Prowl.Runtime.Vector2
+    content.vb: Public Shared ReadOnly Property up As Vector2
+  overload: Prowl.Runtime.Vector2.up*
+- uid: Prowl.Runtime.Vector2.down
+  commentId: P:Prowl.Runtime.Vector2.down
+  id: down
+  parent: Prowl.Runtime.Vector2
+  langs:
+  - csharp
+  - vb
+  name: down
+  nameWithType: Vector2.down
+  fullName: Prowl.Runtime.Vector2.down
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Vector2.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: down
+    path: ../Prowl/Prowl.Runtime/Math/Vector2.cs
+    startLine: 162
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public static Vector2 down { get; }
+    parameters: []
+    return:
+      type: Prowl.Runtime.Vector2
+    content.vb: Public Shared ReadOnly Property down As Vector2
+  overload: Prowl.Runtime.Vector2.down*
+- uid: Prowl.Runtime.Vector2.infinity
+  commentId: F:Prowl.Runtime.Vector2.infinity
+  id: infinity
+  parent: Prowl.Runtime.Vector2
+  langs:
+  - csharp
+  - vb
+  name: infinity
+  nameWithType: Vector2.infinity
+  fullName: Prowl.Runtime.Vector2.infinity
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Vector2.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: infinity
+    path: ../Prowl/Prowl.Runtime/Math/Vector2.cs
+    startLine: 164
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public static Vector2 infinity
+    return:
+      type: Prowl.Runtime.Vector2
+    content.vb: Public Shared infinity As Vector2
+- uid: Prowl.Runtime.Vector2.AngleBetween(Prowl.Runtime.Vector2,Prowl.Runtime.Vector2)
+  commentId: M:Prowl.Runtime.Vector2.AngleBetween(Prowl.Runtime.Vector2,Prowl.Runtime.Vector2)
+  id: AngleBetween(Prowl.Runtime.Vector2,Prowl.Runtime.Vector2)
+  parent: Prowl.Runtime.Vector2
+  langs:
+  - csharp
+  - vb
+  name: AngleBetween(Vector2, Vector2)
+  nameWithType: Vector2.AngleBetween(Vector2, Vector2)
+  fullName: Prowl.Runtime.Vector2.AngleBetween(Prowl.Runtime.Vector2, Prowl.Runtime.Vector2)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Vector2.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: AngleBetween
+    path: ../Prowl/Prowl.Runtime/Math/Vector2.cs
+    startLine: 169
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public static double AngleBetween(Vector2 from, Vector2 to)
+    parameters:
+    - id: from
+      type: Prowl.Runtime.Vector2
+    - id: to
+      type: Prowl.Runtime.Vector2
+    return:
+      type: System.Double
+    content.vb: Public Shared Function AngleBetween(from As Vector2, [to] As Vector2) As Double
+  overload: Prowl.Runtime.Vector2.AngleBetween*
+- uid: Prowl.Runtime.Vector2.Distance(Prowl.Runtime.Vector2,Prowl.Runtime.Vector2)
+  commentId: M:Prowl.Runtime.Vector2.Distance(Prowl.Runtime.Vector2,Prowl.Runtime.Vector2)
+  id: Distance(Prowl.Runtime.Vector2,Prowl.Runtime.Vector2)
+  parent: Prowl.Runtime.Vector2
+  langs:
+  - csharp
+  - vb
+  name: Distance(Vector2, Vector2)
+  nameWithType: Vector2.Distance(Vector2, Vector2)
+  fullName: Prowl.Runtime.Vector2.Distance(Prowl.Runtime.Vector2, Prowl.Runtime.Vector2)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Vector2.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Distance
+    path: ../Prowl/Prowl.Runtime/Math/Vector2.cs
+    startLine: 179
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: Returns the Euclidean distance between the two given points.
+  example: []
+  syntax:
+    content: public static double Distance(Vector2 value1, Vector2 value2)
+    parameters:
+    - id: value1
+      type: Prowl.Runtime.Vector2
+      description: The first point.
+    - id: value2
+      type: Prowl.Runtime.Vector2
+      description: The second point.
+    return:
+      type: System.Double
+      description: The distance.
+    content.vb: Public Shared Function Distance(value1 As Vector2, value2 As Vector2) As Double
+  overload: Prowl.Runtime.Vector2.Distance*
+- uid: Prowl.Runtime.Vector2.MoveTowards(Prowl.Runtime.Vector2,Prowl.Runtime.Vector2,System.Double)
+  commentId: M:Prowl.Runtime.Vector2.MoveTowards(Prowl.Runtime.Vector2,Prowl.Runtime.Vector2,System.Double)
+  id: MoveTowards(Prowl.Runtime.Vector2,Prowl.Runtime.Vector2,System.Double)
+  parent: Prowl.Runtime.Vector2
+  langs:
+  - csharp
+  - vb
+  name: MoveTowards(Vector2, Vector2, double)
+  nameWithType: Vector2.MoveTowards(Vector2, Vector2, double)
+  fullName: Prowl.Runtime.Vector2.MoveTowards(Prowl.Runtime.Vector2, Prowl.Runtime.Vector2, double)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Vector2.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: MoveTowards
+    path: ../Prowl/Prowl.Runtime/Math/Vector2.cs
+    startLine: 190
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public static Vector2 MoveTowards(Vector2 current, Vector2 target, double maxDistanceDelta)
+    parameters:
+    - id: current
+      type: Prowl.Runtime.Vector2
+    - id: target
+      type: Prowl.Runtime.Vector2
+    - id: maxDistanceDelta
+      type: System.Double
+    return:
+      type: Prowl.Runtime.Vector2
+    content.vb: Public Shared Function MoveTowards(current As Vector2, target As Vector2, maxDistanceDelta As Double) As Vector2
+  overload: Prowl.Runtime.Vector2.MoveTowards*
+  nameWithType.vb: Vector2.MoveTowards(Vector2, Vector2, Double)
+  fullName.vb: Prowl.Runtime.Vector2.MoveTowards(Prowl.Runtime.Vector2, Prowl.Runtime.Vector2, Double)
+  name.vb: MoveTowards(Vector2, Vector2, Double)
+- uid: Prowl.Runtime.Vector2.Normalize(Prowl.Runtime.Vector2)
+  commentId: M:Prowl.Runtime.Vector2.Normalize(Prowl.Runtime.Vector2)
+  id: Normalize(Prowl.Runtime.Vector2)
+  parent: Prowl.Runtime.Vector2
+  langs:
+  - csharp
+  - vb
+  name: Normalize(Vector2)
+  nameWithType: Vector2.Normalize(Vector2)
+  fullName: Prowl.Runtime.Vector2.Normalize(Prowl.Runtime.Vector2)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Vector2.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Normalize
+    path: ../Prowl/Prowl.Runtime/Math/Vector2.cs
+    startLine: 204
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: Returns a vector with the same direction as the given vector, but with a length of 1.
+  example: []
+  syntax:
+    content: public static Vector2 Normalize(Vector2 value)
+    parameters:
+    - id: value
+      type: Prowl.Runtime.Vector2
+      description: The vector to normalize.
+    return:
+      type: Prowl.Runtime.Vector2
+      description: The normalized vector.
+    content.vb: Public Shared Function Normalize(value As Vector2) As Vector2
+  overload: Prowl.Runtime.Vector2.Normalize*
+- uid: Prowl.Runtime.Vector2.ClampMagnitude(Prowl.Runtime.Vector2,System.Double)
+  commentId: M:Prowl.Runtime.Vector2.ClampMagnitude(Prowl.Runtime.Vector2,System.Double)
+  id: ClampMagnitude(Prowl.Runtime.Vector2,System.Double)
+  parent: Prowl.Runtime.Vector2
+  langs:
+  - csharp
+  - vb
+  name: ClampMagnitude(Vector2, double)
+  nameWithType: Vector2.ClampMagnitude(Vector2, double)
+  fullName: Prowl.Runtime.Vector2.ClampMagnitude(Prowl.Runtime.Vector2, double)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Vector2.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: ClampMagnitude
+    path: ../Prowl/Prowl.Runtime/Math/Vector2.cs
+    startLine: 218
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: Clamps the magnitude of the given vector to the given value.
+  example: []
+  syntax:
+    content: public static Vector2 ClampMagnitude(Vector2 vector, double maxLength)
+    parameters:
+    - id: vector
+      type: Prowl.Runtime.Vector2
+    - id: maxLength
+      type: System.Double
+    return:
+      type: Prowl.Runtime.Vector2
+    content.vb: Public Shared Function ClampMagnitude(vector As Vector2, maxLength As Double) As Vector2
+  overload: Prowl.Runtime.Vector2.ClampMagnitude*
+  nameWithType.vb: Vector2.ClampMagnitude(Vector2, Double)
+  fullName.vb: Prowl.Runtime.Vector2.ClampMagnitude(Prowl.Runtime.Vector2, Double)
+  name.vb: ClampMagnitude(Vector2, Double)
+- uid: Prowl.Runtime.Vector2.Reflect(Prowl.Runtime.Vector2,Prowl.Runtime.Vector2)
+  commentId: M:Prowl.Runtime.Vector2.Reflect(Prowl.Runtime.Vector2,Prowl.Runtime.Vector2)
+  id: Reflect(Prowl.Runtime.Vector2,Prowl.Runtime.Vector2)
+  parent: Prowl.Runtime.Vector2
+  langs:
+  - csharp
+  - vb
+  name: Reflect(Vector2, Vector2)
+  nameWithType: Vector2.Reflect(Vector2, Vector2)
+  fullName: Prowl.Runtime.Vector2.Reflect(Prowl.Runtime.Vector2, Prowl.Runtime.Vector2)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Vector2.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Reflect
+    path: ../Prowl/Prowl.Runtime/Math/Vector2.cs
+    startLine: 232
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: Returns the reflection of a vector off a surface that has the specified normal.
+  example: []
+  syntax:
+    content: public static Vector2 Reflect(Vector2 vector, Vector2 normal)
+    parameters:
+    - id: vector
+      type: Prowl.Runtime.Vector2
+      description: The source vector.
+    - id: normal
+      type: Prowl.Runtime.Vector2
+      description: The normal of the surface being reflected off.
+    return:
+      type: Prowl.Runtime.Vector2
+      description: The reflected vector.
+    content.vb: Public Shared Function Reflect(vector As Vector2, normal As Vector2) As Vector2
+  overload: Prowl.Runtime.Vector2.Reflect*
+- uid: Prowl.Runtime.Vector2.Clamp(Prowl.Runtime.Vector2,Prowl.Runtime.Vector2,Prowl.Runtime.Vector2)
+  commentId: M:Prowl.Runtime.Vector2.Clamp(Prowl.Runtime.Vector2,Prowl.Runtime.Vector2,Prowl.Runtime.Vector2)
+  id: Clamp(Prowl.Runtime.Vector2,Prowl.Runtime.Vector2,Prowl.Runtime.Vector2)
+  parent: Prowl.Runtime.Vector2
+  langs:
+  - csharp
+  - vb
+  name: Clamp(Vector2, Vector2, Vector2)
+  nameWithType: Vector2.Clamp(Vector2, Vector2, Vector2)
+  fullName: Prowl.Runtime.Vector2.Clamp(Prowl.Runtime.Vector2, Prowl.Runtime.Vector2, Prowl.Runtime.Vector2)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Vector2.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Clamp
+    path: ../Prowl/Prowl.Runtime/Math/Vector2.cs
+    startLine: 248
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: Restricts a vector between a min and max value.
+  example: []
+  syntax:
+    content: public static Vector2 Clamp(Vector2 value1, Vector2 min, Vector2 max)
+    parameters:
+    - id: value1
+      type: Prowl.Runtime.Vector2
+      description: The source vector.
+    - id: min
+      type: Prowl.Runtime.Vector2
+      description: The minimum value.
+    - id: max
+      type: Prowl.Runtime.Vector2
+      description: The maximum value.
+    return:
+      type: Prowl.Runtime.Vector2
+    content.vb: Public Shared Function Clamp(value1 As Vector2, min As Vector2, max As Vector2) As Vector2
+  overload: Prowl.Runtime.Vector2.Clamp*
+- uid: Prowl.Runtime.Vector2.Lerp(Prowl.Runtime.Vector2,Prowl.Runtime.Vector2,System.Double)
+  commentId: M:Prowl.Runtime.Vector2.Lerp(Prowl.Runtime.Vector2,Prowl.Runtime.Vector2,System.Double)
+  id: Lerp(Prowl.Runtime.Vector2,Prowl.Runtime.Vector2,System.Double)
+  parent: Prowl.Runtime.Vector2
+  langs:
+  - csharp
+  - vb
+  name: Lerp(Vector2, Vector2, double)
+  nameWithType: Vector2.Lerp(Vector2, Vector2, double)
+  fullName: Prowl.Runtime.Vector2.Lerp(Prowl.Runtime.Vector2, Prowl.Runtime.Vector2, double)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Vector2.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Lerp
+    path: ../Prowl/Prowl.Runtime/Math/Vector2.cs
+    startLine: 271
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: Linearly interpolates between two vectors based on the given weighting.
+  example: []
+  syntax:
+    content: public static Vector2 Lerp(Vector2 value1, Vector2 value2, double amount)
+    parameters:
+    - id: value1
+      type: Prowl.Runtime.Vector2
+      description: The first source vector.
+    - id: value2
+      type: Prowl.Runtime.Vector2
+      description: The second source vector.
+    - id: amount
+      type: System.Double
+      description: Value between 0 and 1 indicating the weight of the second source vector.
+    return:
+      type: Prowl.Runtime.Vector2
+      description: The interpolated vector.
+    content.vb: Public Shared Function Lerp(value1 As Vector2, value2 As Vector2, amount As Double) As Vector2
+  overload: Prowl.Runtime.Vector2.Lerp*
+  nameWithType.vb: Vector2.Lerp(Vector2, Vector2, Double)
+  fullName.vb: Prowl.Runtime.Vector2.Lerp(Prowl.Runtime.Vector2, Prowl.Runtime.Vector2, Double)
+  name.vb: Lerp(Vector2, Vector2, Double)
+- uid: Prowl.Runtime.Vector2.Transform(Prowl.Runtime.Vector2,Prowl.Runtime.Matrix4x4)
+  commentId: M:Prowl.Runtime.Vector2.Transform(Prowl.Runtime.Vector2,Prowl.Runtime.Matrix4x4)
+  id: Transform(Prowl.Runtime.Vector2,Prowl.Runtime.Matrix4x4)
+  parent: Prowl.Runtime.Vector2
+  langs:
+  - csharp
+  - vb
+  name: Transform(Vector2, Matrix4x4)
+  nameWithType: Vector2.Transform(Vector2, Matrix4x4)
+  fullName: Prowl.Runtime.Vector2.Transform(Prowl.Runtime.Vector2, Prowl.Runtime.Matrix4x4)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Vector2.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Transform
+    path: ../Prowl/Prowl.Runtime/Math/Vector2.cs
+    startLine: 285
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: Transforms a vector by the given matrix.
+  example: []
+  syntax:
+    content: public static Vector2 Transform(Vector2 position, Matrix4x4 matrix)
+    parameters:
+    - id: position
+      type: Prowl.Runtime.Vector2
+      description: The source vector.
+    - id: matrix
+      type: Prowl.Runtime.Matrix4x4
+      description: The transformation matrix.
+    return:
+      type: Prowl.Runtime.Vector2
+      description: The transformed vector.
+    content.vb: Public Shared Function Transform(position As Vector2, matrix As Matrix4x4) As Vector2
+  overload: Prowl.Runtime.Vector2.Transform*
+- uid: Prowl.Runtime.Vector2.TransformNormal(Prowl.Runtime.Vector2,Prowl.Runtime.Matrix4x4)
+  commentId: M:Prowl.Runtime.Vector2.TransformNormal(Prowl.Runtime.Vector2,Prowl.Runtime.Matrix4x4)
+  id: TransformNormal(Prowl.Runtime.Vector2,Prowl.Runtime.Matrix4x4)
+  parent: Prowl.Runtime.Vector2
+  langs:
+  - csharp
+  - vb
+  name: TransformNormal(Vector2, Matrix4x4)
+  nameWithType: Vector2.TransformNormal(Vector2, Matrix4x4)
+  fullName: Prowl.Runtime.Vector2.TransformNormal(Prowl.Runtime.Vector2, Prowl.Runtime.Matrix4x4)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Vector2.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: TransformNormal
+    path: ../Prowl/Prowl.Runtime/Math/Vector2.cs
+    startLine: 299
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: Transforms a vector normal by the given matrix.
+  example: []
+  syntax:
+    content: public static Vector2 TransformNormal(Vector2 normal, Matrix4x4 matrix)
+    parameters:
+    - id: normal
+      type: Prowl.Runtime.Vector2
+      description: The source vector.
+    - id: matrix
+      type: Prowl.Runtime.Matrix4x4
+      description: The transformation matrix.
+    return:
+      type: Prowl.Runtime.Vector2
+      description: The transformed vector.
+    content.vb: Public Shared Function TransformNormal(normal As Vector2, matrix As Matrix4x4) As Vector2
+  overload: Prowl.Runtime.Vector2.TransformNormal*
+- uid: Prowl.Runtime.Vector2.Transform(Prowl.Runtime.Vector2,Prowl.Runtime.Quaternion)
+  commentId: M:Prowl.Runtime.Vector2.Transform(Prowl.Runtime.Vector2,Prowl.Runtime.Quaternion)
+  id: Transform(Prowl.Runtime.Vector2,Prowl.Runtime.Quaternion)
+  parent: Prowl.Runtime.Vector2
+  langs:
+  - csharp
+  - vb
+  name: Transform(Vector2, Quaternion)
+  nameWithType: Vector2.Transform(Vector2, Quaternion)
+  fullName: Prowl.Runtime.Vector2.Transform(Prowl.Runtime.Vector2, Prowl.Runtime.Quaternion)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Vector2.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Transform
+    path: ../Prowl/Prowl.Runtime/Math/Vector2.cs
+    startLine: 313
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: Transforms a vector by the given Quaternion rotation value.
+  example: []
+  syntax:
+    content: public static Vector2 Transform(Vector2 value, Quaternion rotation)
+    parameters:
+    - id: value
+      type: Prowl.Runtime.Vector2
+      description: The source vector to be rotated.
+    - id: rotation
+      type: Prowl.Runtime.Quaternion
+      description: The rotation to apply.
+    return:
+      type: Prowl.Runtime.Vector2
+      description: The transformed vector.
+    content.vb: Public Shared Function Transform(value As Vector2, rotation As Quaternion) As Vector2
+  overload: Prowl.Runtime.Vector2.Transform*
+- uid: Prowl.Runtime.Vector2.Dot(Prowl.Runtime.Vector2,Prowl.Runtime.Vector2)
+  commentId: M:Prowl.Runtime.Vector2.Dot(Prowl.Runtime.Vector2,Prowl.Runtime.Vector2)
+  id: Dot(Prowl.Runtime.Vector2,Prowl.Runtime.Vector2)
+  parent: Prowl.Runtime.Vector2
+  langs:
+  - csharp
+  - vb
+  name: Dot(Vector2, Vector2)
+  nameWithType: Vector2.Dot(Vector2, Vector2)
+  fullName: Prowl.Runtime.Vector2.Dot(Prowl.Runtime.Vector2, Prowl.Runtime.Vector2)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Vector2.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Dot
+    path: ../Prowl/Prowl.Runtime/Math/Vector2.cs
+    startLine: 337
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: Returns the dot product of two vectors.
+  example: []
+  syntax:
+    content: public static double Dot(Vector2 value1, Vector2 value2)
+    parameters:
+    - id: value1
+      type: Prowl.Runtime.Vector2
+      description: The first vector.
+    - id: value2
+      type: Prowl.Runtime.Vector2
+      description: The second vector.
+    return:
+      type: System.Double
+      description: The dot product.
+    content.vb: Public Shared Function Dot(value1 As Vector2, value2 As Vector2) As Double
+  overload: Prowl.Runtime.Vector2.Dot*
+- uid: Prowl.Runtime.Vector2.Min(Prowl.Runtime.Vector2,Prowl.Runtime.Vector2)
+  commentId: M:Prowl.Runtime.Vector2.Min(Prowl.Runtime.Vector2,Prowl.Runtime.Vector2)
+  id: Min(Prowl.Runtime.Vector2,Prowl.Runtime.Vector2)
+  parent: Prowl.Runtime.Vector2
+  langs:
+  - csharp
+  - vb
+  name: Min(Vector2, Vector2)
+  nameWithType: Vector2.Min(Vector2, Vector2)
+  fullName: Prowl.Runtime.Vector2.Min(Prowl.Runtime.Vector2, Prowl.Runtime.Vector2)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Vector2.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Min
+    path: ../Prowl/Prowl.Runtime/Math/Vector2.cs
+    startLine: 350
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: Returns a vector whose elements are the minimum of each of the pairs of elements in the two source vectors.
+  example: []
+  syntax:
+    content: public static Vector2 Min(Vector2 value1, Vector2 value2)
+    parameters:
+    - id: value1
+      type: Prowl.Runtime.Vector2
+      description: The first source vector.
+    - id: value2
+      type: Prowl.Runtime.Vector2
+      description: The second source vector.
+    return:
+      type: Prowl.Runtime.Vector2
+      description: The minimized vector.
+    content.vb: Public Shared Function Min(value1 As Vector2, value2 As Vector2) As Vector2
+  overload: Prowl.Runtime.Vector2.Min*
+- uid: Prowl.Runtime.Vector2.Max(Prowl.Runtime.Vector2,Prowl.Runtime.Vector2)
+  commentId: M:Prowl.Runtime.Vector2.Max(Prowl.Runtime.Vector2,Prowl.Runtime.Vector2)
+  id: Max(Prowl.Runtime.Vector2,Prowl.Runtime.Vector2)
+  parent: Prowl.Runtime.Vector2
+  langs:
+  - csharp
+  - vb
+  name: Max(Vector2, Vector2)
+  nameWithType: Vector2.Max(Vector2, Vector2)
+  fullName: Prowl.Runtime.Vector2.Max(Prowl.Runtime.Vector2, Prowl.Runtime.Vector2)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Vector2.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Max
+    path: ../Prowl/Prowl.Runtime/Math/Vector2.cs
+    startLine: 364
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: Returns a vector whose elements are the maximum of each of the pairs of elements in the two source vectors
+  example: []
+  syntax:
+    content: public static Vector2 Max(Vector2 value1, Vector2 value2)
+    parameters:
+    - id: value1
+      type: Prowl.Runtime.Vector2
+      description: The first source vector
+    - id: value2
+      type: Prowl.Runtime.Vector2
+      description: The second source vector
+    return:
+      type: Prowl.Runtime.Vector2
+      description: The maximized vector
+    content.vb: Public Shared Function Max(value1 As Vector2, value2 As Vector2) As Vector2
+  overload: Prowl.Runtime.Vector2.Max*
+- uid: Prowl.Runtime.Vector2.Abs(Prowl.Runtime.Vector2)
+  commentId: M:Prowl.Runtime.Vector2.Abs(Prowl.Runtime.Vector2)
+  id: Abs(Prowl.Runtime.Vector2)
+  parent: Prowl.Runtime.Vector2
+  langs:
+  - csharp
+  - vb
+  name: Abs(Vector2)
+  nameWithType: Vector2.Abs(Vector2)
+  fullName: Prowl.Runtime.Vector2.Abs(Prowl.Runtime.Vector2)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Vector2.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Abs
+    path: ../Prowl/Prowl.Runtime/Math/Vector2.cs
+    startLine: 377
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: Returns a vector whose elements are the absolute values of each of the source vector's elements.
+  example: []
+  syntax:
+    content: public static Vector2 Abs(Vector2 value)
+    parameters:
+    - id: value
+      type: Prowl.Runtime.Vector2
+      description: The source vector.
+    return:
+      type: Prowl.Runtime.Vector2
+      description: The absolute value vector.
+    content.vb: Public Shared Function Abs(value As Vector2) As Vector2
+  overload: Prowl.Runtime.Vector2.Abs*
+- uid: Prowl.Runtime.Vector2.SquareRoot(Prowl.Runtime.Vector2)
+  commentId: M:Prowl.Runtime.Vector2.SquareRoot(Prowl.Runtime.Vector2)
+  id: SquareRoot(Prowl.Runtime.Vector2)
+  parent: Prowl.Runtime.Vector2
+  langs:
+  - csharp
+  - vb
+  name: SquareRoot(Vector2)
+  nameWithType: Vector2.SquareRoot(Vector2)
+  fullName: Prowl.Runtime.Vector2.SquareRoot(Prowl.Runtime.Vector2)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Vector2.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: SquareRoot
+    path: ../Prowl/Prowl.Runtime/Math/Vector2.cs
+    startLine: 388
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: Returns a vector whose elements are the square root of each of the source vector's elements.
+  example: []
+  syntax:
+    content: public static Vector2 SquareRoot(Vector2 value)
+    parameters:
+    - id: value
+      type: Prowl.Runtime.Vector2
+      description: The source vector.
+    return:
+      type: Prowl.Runtime.Vector2
+      description: The square root vector.
+    content.vb: Public Shared Function SquareRoot(value As Vector2) As Vector2
+  overload: Prowl.Runtime.Vector2.SquareRoot*
+- uid: Prowl.Runtime.Vector2.op_Addition(Prowl.Runtime.Vector2,Prowl.Runtime.Vector2)
+  commentId: M:Prowl.Runtime.Vector2.op_Addition(Prowl.Runtime.Vector2,Prowl.Runtime.Vector2)
+  id: op_Addition(Prowl.Runtime.Vector2,Prowl.Runtime.Vector2)
+  parent: Prowl.Runtime.Vector2
+  langs:
+  - csharp
+  - vb
+  name: operator +(Vector2, Vector2)
+  nameWithType: Vector2.operator +(Vector2, Vector2)
+  fullName: Prowl.Runtime.Vector2.operator +(Prowl.Runtime.Vector2, Prowl.Runtime.Vector2)
+  type: Operator
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Vector2.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: op_Addition
+    path: ../Prowl/Prowl.Runtime/Math/Vector2.cs
+    startLine: 402
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: Adds two vectors together.
+  example: []
+  syntax:
+    content: public static Vector2 operator +(Vector2 left, Vector2 right)
+    parameters:
+    - id: left
+      type: Prowl.Runtime.Vector2
+      description: The first source vector.
+    - id: right
+      type: Prowl.Runtime.Vector2
+      description: The second source vector.
+    return:
+      type: Prowl.Runtime.Vector2
+      description: The summed vector.
+    content.vb: Public Shared Operator +(left As Vector2, right As Vector2) As Vector2
+  overload: Prowl.Runtime.Vector2.op_Addition*
+  nameWithType.vb: Vector2.+(Vector2, Vector2)
+  fullName.vb: Prowl.Runtime.Vector2.+(Prowl.Runtime.Vector2, Prowl.Runtime.Vector2)
+  name.vb: +(Vector2, Vector2)
+- uid: Prowl.Runtime.Vector2.op_Subtraction(Prowl.Runtime.Vector2,Prowl.Runtime.Vector2)
+  commentId: M:Prowl.Runtime.Vector2.op_Subtraction(Prowl.Runtime.Vector2,Prowl.Runtime.Vector2)
+  id: op_Subtraction(Prowl.Runtime.Vector2,Prowl.Runtime.Vector2)
+  parent: Prowl.Runtime.Vector2
+  langs:
+  - csharp
+  - vb
+  name: operator -(Vector2, Vector2)
+  nameWithType: Vector2.operator -(Vector2, Vector2)
+  fullName: Prowl.Runtime.Vector2.operator -(Prowl.Runtime.Vector2, Prowl.Runtime.Vector2)
+  type: Operator
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Vector2.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: op_Subtraction
+    path: ../Prowl/Prowl.Runtime/Math/Vector2.cs
+    startLine: 414
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: Subtracts the second vector from the first.
+  example: []
+  syntax:
+    content: public static Vector2 operator -(Vector2 left, Vector2 right)
+    parameters:
+    - id: left
+      type: Prowl.Runtime.Vector2
+      description: The first source vector.
+    - id: right
+      type: Prowl.Runtime.Vector2
+      description: The second source vector.
+    return:
+      type: Prowl.Runtime.Vector2
+      description: The difference vector.
+    content.vb: Public Shared Operator -(left As Vector2, right As Vector2) As Vector2
+  overload: Prowl.Runtime.Vector2.op_Subtraction*
+  nameWithType.vb: Vector2.-(Vector2, Vector2)
+  fullName.vb: Prowl.Runtime.Vector2.-(Prowl.Runtime.Vector2, Prowl.Runtime.Vector2)
+  name.vb: -(Vector2, Vector2)
+- uid: Prowl.Runtime.Vector2.op_Multiply(Prowl.Runtime.Vector2,Prowl.Runtime.Vector2)
+  commentId: M:Prowl.Runtime.Vector2.op_Multiply(Prowl.Runtime.Vector2,Prowl.Runtime.Vector2)
+  id: op_Multiply(Prowl.Runtime.Vector2,Prowl.Runtime.Vector2)
+  parent: Prowl.Runtime.Vector2
+  langs:
+  - csharp
+  - vb
+  name: operator *(Vector2, Vector2)
+  nameWithType: Vector2.operator *(Vector2, Vector2)
+  fullName: Prowl.Runtime.Vector2.operator *(Prowl.Runtime.Vector2, Prowl.Runtime.Vector2)
+  type: Operator
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Vector2.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: op_Multiply
+    path: ../Prowl/Prowl.Runtime/Math/Vector2.cs
+    startLine: 426
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: Multiplies two vectors together.
+  example: []
+  syntax:
+    content: public static Vector2 operator *(Vector2 left, Vector2 right)
+    parameters:
+    - id: left
+      type: Prowl.Runtime.Vector2
+      description: The first source vector.
+    - id: right
+      type: Prowl.Runtime.Vector2
+      description: The second source vector.
+    return:
+      type: Prowl.Runtime.Vector2
+      description: The product vector.
+    content.vb: Public Shared Operator *(left As Vector2, right As Vector2) As Vector2
+  overload: Prowl.Runtime.Vector2.op_Multiply*
+  nameWithType.vb: Vector2.*(Vector2, Vector2)
+  fullName.vb: Prowl.Runtime.Vector2.*(Prowl.Runtime.Vector2, Prowl.Runtime.Vector2)
+  name.vb: '*(Vector2, Vector2)'
+- uid: Prowl.Runtime.Vector2.op_Multiply(System.Double,Prowl.Runtime.Vector2)
+  commentId: M:Prowl.Runtime.Vector2.op_Multiply(System.Double,Prowl.Runtime.Vector2)
+  id: op_Multiply(System.Double,Prowl.Runtime.Vector2)
+  parent: Prowl.Runtime.Vector2
+  langs:
+  - csharp
+  - vb
+  name: operator *(double, Vector2)
+  nameWithType: Vector2.operator *(double, Vector2)
+  fullName: Prowl.Runtime.Vector2.operator *(double, Prowl.Runtime.Vector2)
+  type: Operator
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Vector2.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: op_Multiply
+    path: ../Prowl/Prowl.Runtime/Math/Vector2.cs
+    startLine: 438
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: Multiplies a vector by the given scalar.
+  example: []
+  syntax:
+    content: public static Vector2 operator *(double left, Vector2 right)
+    parameters:
+    - id: left
+      type: System.Double
+      description: The scalar value.
+    - id: right
+      type: Prowl.Runtime.Vector2
+      description: The source vector.
+    return:
+      type: Prowl.Runtime.Vector2
+      description: The scaled vector.
+    content.vb: Public Shared Operator *(left As Double, right As Vector2) As Vector2
+  overload: Prowl.Runtime.Vector2.op_Multiply*
+  nameWithType.vb: Vector2.*(Double, Vector2)
+  fullName.vb: Prowl.Runtime.Vector2.*(Double, Prowl.Runtime.Vector2)
+  name.vb: '*(Double, Vector2)'
+- uid: Prowl.Runtime.Vector2.op_Multiply(Prowl.Runtime.Vector2,System.Double)
+  commentId: M:Prowl.Runtime.Vector2.op_Multiply(Prowl.Runtime.Vector2,System.Double)
+  id: op_Multiply(Prowl.Runtime.Vector2,System.Double)
+  parent: Prowl.Runtime.Vector2
+  langs:
+  - csharp
+  - vb
+  name: operator *(Vector2, double)
+  nameWithType: Vector2.operator *(Vector2, double)
+  fullName: Prowl.Runtime.Vector2.operator *(Prowl.Runtime.Vector2, double)
+  type: Operator
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Vector2.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: op_Multiply
+    path: ../Prowl/Prowl.Runtime/Math/Vector2.cs
+    startLine: 450
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: Multiplies a vector by the given scalar.
+  example: []
+  syntax:
+    content: public static Vector2 operator *(Vector2 left, double right)
+    parameters:
+    - id: left
+      type: Prowl.Runtime.Vector2
+      description: The source vector.
+    - id: right
+      type: System.Double
+      description: The scalar value.
+    return:
+      type: Prowl.Runtime.Vector2
+      description: The scaled vector.
+    content.vb: Public Shared Operator *(left As Vector2, right As Double) As Vector2
+  overload: Prowl.Runtime.Vector2.op_Multiply*
+  nameWithType.vb: Vector2.*(Vector2, Double)
+  fullName.vb: Prowl.Runtime.Vector2.*(Prowl.Runtime.Vector2, Double)
+  name.vb: '*(Vector2, Double)'
+- uid: Prowl.Runtime.Vector2.op_Division(Prowl.Runtime.Vector2,Prowl.Runtime.Vector2)
+  commentId: M:Prowl.Runtime.Vector2.op_Division(Prowl.Runtime.Vector2,Prowl.Runtime.Vector2)
+  id: op_Division(Prowl.Runtime.Vector2,Prowl.Runtime.Vector2)
+  parent: Prowl.Runtime.Vector2
+  langs:
+  - csharp
+  - vb
+  name: operator /(Vector2, Vector2)
+  nameWithType: Vector2.operator /(Vector2, Vector2)
+  fullName: Prowl.Runtime.Vector2.operator /(Prowl.Runtime.Vector2, Prowl.Runtime.Vector2)
+  type: Operator
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Vector2.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: op_Division
+    path: ../Prowl/Prowl.Runtime/Math/Vector2.cs
+    startLine: 462
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: Divides the first vector by the second.
+  example: []
+  syntax:
+    content: public static Vector2 operator /(Vector2 left, Vector2 right)
+    parameters:
+    - id: left
+      type: Prowl.Runtime.Vector2
+      description: The first source vector.
+    - id: right
+      type: Prowl.Runtime.Vector2
+      description: The second source vector.
+    return:
+      type: Prowl.Runtime.Vector2
+      description: The vector resulting from the division.
+    content.vb: Public Shared Operator /(left As Vector2, right As Vector2) As Vector2
+  overload: Prowl.Runtime.Vector2.op_Division*
+  nameWithType.vb: Vector2./(Vector2, Vector2)
+  fullName.vb: Prowl.Runtime.Vector2./(Prowl.Runtime.Vector2, Prowl.Runtime.Vector2)
+  name.vb: /(Vector2, Vector2)
+- uid: Prowl.Runtime.Vector2.op_Division(Prowl.Runtime.Vector2,System.Double)
+  commentId: M:Prowl.Runtime.Vector2.op_Division(Prowl.Runtime.Vector2,System.Double)
+  id: op_Division(Prowl.Runtime.Vector2,System.Double)
+  parent: Prowl.Runtime.Vector2
+  langs:
+  - csharp
+  - vb
+  name: operator /(Vector2, double)
+  nameWithType: Vector2.operator /(Vector2, double)
+  fullName: Prowl.Runtime.Vector2.operator /(Prowl.Runtime.Vector2, double)
+  type: Operator
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Vector2.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: op_Division
+    path: ../Prowl/Prowl.Runtime/Math/Vector2.cs
+    startLine: 474
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: Divides the vector by the given scalar.
+  example: []
+  syntax:
+    content: public static Vector2 operator /(Vector2 value1, double value2)
+    parameters:
+    - id: value1
+      type: Prowl.Runtime.Vector2
+      description: The source vector.
+    - id: value2
+      type: System.Double
+      description: The scalar value.
+    return:
+      type: Prowl.Runtime.Vector2
+      description: The result of the division.
+    content.vb: Public Shared Operator /(value1 As Vector2, value2 As Double) As Vector2
+  overload: Prowl.Runtime.Vector2.op_Division*
+  nameWithType.vb: Vector2./(Vector2, Double)
+  fullName.vb: Prowl.Runtime.Vector2./(Prowl.Runtime.Vector2, Double)
+  name.vb: /(Vector2, Double)
+- uid: Prowl.Runtime.Vector2.op_UnaryNegation(Prowl.Runtime.Vector2)
+  commentId: M:Prowl.Runtime.Vector2.op_UnaryNegation(Prowl.Runtime.Vector2)
+  id: op_UnaryNegation(Prowl.Runtime.Vector2)
+  parent: Prowl.Runtime.Vector2
+  langs:
+  - csharp
+  - vb
+  name: operator -(Vector2)
+  nameWithType: Vector2.operator -(Vector2)
+  fullName: Prowl.Runtime.Vector2.operator -(Prowl.Runtime.Vector2)
+  type: Operator
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Vector2.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: op_UnaryNegation
+    path: ../Prowl/Prowl.Runtime/Math/Vector2.cs
+    startLine: 488
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: Negates a given vector.
+  example: []
+  syntax:
+    content: public static Vector2 operator -(Vector2 value)
+    parameters:
+    - id: value
+      type: Prowl.Runtime.Vector2
+      description: The source vector.
+    return:
+      type: Prowl.Runtime.Vector2
+      description: The negated vector.
+    content.vb: Public Shared Operator -(value As Vector2) As Vector2
+  overload: Prowl.Runtime.Vector2.op_UnaryNegation*
+  nameWithType.vb: Vector2.-(Vector2)
+  fullName.vb: Prowl.Runtime.Vector2.-(Prowl.Runtime.Vector2)
+  name.vb: -(Vector2)
+- uid: Prowl.Runtime.Vector2.op_Equality(Prowl.Runtime.Vector2,Prowl.Runtime.Vector2)
+  commentId: M:Prowl.Runtime.Vector2.op_Equality(Prowl.Runtime.Vector2,Prowl.Runtime.Vector2)
+  id: op_Equality(Prowl.Runtime.Vector2,Prowl.Runtime.Vector2)
+  parent: Prowl.Runtime.Vector2
+  langs:
+  - csharp
+  - vb
+  name: operator ==(Vector2, Vector2)
+  nameWithType: Vector2.operator ==(Vector2, Vector2)
+  fullName: Prowl.Runtime.Vector2.operator ==(Prowl.Runtime.Vector2, Prowl.Runtime.Vector2)
+  type: Operator
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Vector2.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: op_Equality
+    path: ../Prowl/Prowl.Runtime/Math/Vector2.cs
+    startLine: 500
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: Returns a boolean indicating whether the two given vectors are equal.
+  example: []
+  syntax:
+    content: public static bool operator ==(Vector2 left, Vector2 right)
+    parameters:
+    - id: left
+      type: Prowl.Runtime.Vector2
+      description: The first vector to compare.
+    - id: right
+      type: Prowl.Runtime.Vector2
+      description: The second vector to compare.
+    return:
+      type: System.Boolean
+      description: True if the vectors are equal; False otherwise.
+    content.vb: Public Shared Operator =(left As Vector2, right As Vector2) As Boolean
+  overload: Prowl.Runtime.Vector2.op_Equality*
+  nameWithType.vb: Vector2.=(Vector2, Vector2)
+  fullName.vb: Prowl.Runtime.Vector2.=(Prowl.Runtime.Vector2, Prowl.Runtime.Vector2)
+  name.vb: =(Vector2, Vector2)
+- uid: Prowl.Runtime.Vector2.op_Inequality(Prowl.Runtime.Vector2,Prowl.Runtime.Vector2)
+  commentId: M:Prowl.Runtime.Vector2.op_Inequality(Prowl.Runtime.Vector2,Prowl.Runtime.Vector2)
+  id: op_Inequality(Prowl.Runtime.Vector2,Prowl.Runtime.Vector2)
+  parent: Prowl.Runtime.Vector2
+  langs:
+  - csharp
+  - vb
+  name: operator !=(Vector2, Vector2)
+  nameWithType: Vector2.operator !=(Vector2, Vector2)
+  fullName: Prowl.Runtime.Vector2.operator !=(Prowl.Runtime.Vector2, Prowl.Runtime.Vector2)
+  type: Operator
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Vector2.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: op_Inequality
+    path: ../Prowl/Prowl.Runtime/Math/Vector2.cs
+    startLine: 512
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: Returns a boolean indicating whether the two given vectors are not equal.
+  example: []
+  syntax:
+    content: public static bool operator !=(Vector2 left, Vector2 right)
+    parameters:
+    - id: left
+      type: Prowl.Runtime.Vector2
+      description: The first vector to compare.
+    - id: right
+      type: Prowl.Runtime.Vector2
+      description: The second vector to compare.
+    return:
+      type: System.Boolean
+      description: True if the vectors are not equal; False if they are equal.
+    content.vb: Public Shared Operator <>(left As Vector2, right As Vector2) As Boolean
+  overload: Prowl.Runtime.Vector2.op_Inequality*
+  nameWithType.vb: Vector2.<>(Vector2, Vector2)
+  fullName.vb: Prowl.Runtime.Vector2.<>(Prowl.Runtime.Vector2, Prowl.Runtime.Vector2)
+  name.vb: <>(Vector2, Vector2)
+- uid: Prowl.Runtime.Vector2.op_Implicit(Prowl.Runtime.Vector2)~System.Numerics.Vector2
+  commentId: M:Prowl.Runtime.Vector2.op_Implicit(Prowl.Runtime.Vector2)~System.Numerics.Vector2
+  id: op_Implicit(Prowl.Runtime.Vector2)~System.Numerics.Vector2
+  parent: Prowl.Runtime.Vector2
+  langs:
+  - csharp
+  - vb
+  name: implicit operator Vector2(Vector2)
+  nameWithType: Vector2.implicit operator Vector2(Vector2)
+  fullName: Prowl.Runtime.Vector2.implicit operator System.Numerics.Vector2(Prowl.Runtime.Vector2)
+  type: Operator
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Vector2.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: op_Implicit
+    path: ../Prowl/Prowl.Runtime/Math/Vector2.cs
+    startLine: 518
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public static implicit operator Vector2(Vector2 value)
+    parameters:
+    - id: value
+      type: Prowl.Runtime.Vector2
+    return:
+      type: System.Numerics.Vector2
+    content.vb: Public Shared Widening Operator CType(value As Vector2) As Vector2
+  overload: Prowl.Runtime.Vector2.op_Implicit*
+  nameWithType.vb: Vector2.CType(Vector2)
+  fullName.vb: Prowl.Runtime.Vector2.CType(Prowl.Runtime.Vector2)
+  name.vb: CType(Vector2)
+- uid: Prowl.Runtime.Vector2.op_Implicit(System.Numerics.Vector2)~Prowl.Runtime.Vector2
+  commentId: M:Prowl.Runtime.Vector2.op_Implicit(System.Numerics.Vector2)~Prowl.Runtime.Vector2
+  id: op_Implicit(System.Numerics.Vector2)~Prowl.Runtime.Vector2
+  parent: Prowl.Runtime.Vector2
+  langs:
+  - csharp
+  - vb
+  name: implicit operator Vector2(Vector2)
+  nameWithType: Vector2.implicit operator Vector2(Vector2)
+  fullName: Prowl.Runtime.Vector2.implicit operator Prowl.Runtime.Vector2(System.Numerics.Vector2)
+  type: Operator
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Vector2.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: op_Implicit
+    path: ../Prowl/Prowl.Runtime/Math/Vector2.cs
+    startLine: 524
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public static implicit operator Vector2(Vector2 value)
+    parameters:
+    - id: value
+      type: System.Numerics.Vector2
+    return:
+      type: Prowl.Runtime.Vector2
+    content.vb: Public Shared Widening Operator CType(value As Vector2) As Vector2
+  overload: Prowl.Runtime.Vector2.op_Implicit*
+  nameWithType.vb: Vector2.CType(Vector2)
+  fullName.vb: Prowl.Runtime.Vector2.CType(System.Numerics.Vector2)
+  name.vb: CType(Vector2)
+references:
+- uid: Prowl.Runtime
+  commentId: N:Prowl.Runtime
+  href: Prowl.html
+  name: Prowl.Runtime
+  nameWithType: Prowl.Runtime
+  fullName: Prowl.Runtime
+  spec.csharp:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+  spec.vb:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+- uid: System.IEquatable{Prowl.Runtime.Vector2}
+  commentId: T:System.IEquatable{Prowl.Runtime.Vector2}
+  parent: System
+  definition: System.IEquatable`1
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<Vector2>
+  nameWithType: IEquatable<Vector2>
+  fullName: System.IEquatable<Prowl.Runtime.Vector2>
+  nameWithType.vb: IEquatable(Of Vector2)
+  fullName.vb: System.IEquatable(Of Prowl.Runtime.Vector2)
+  name.vb: IEquatable(Of Vector2)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - uid: Prowl.Runtime.Vector2
+    name: Vector2
+    href: Prowl.Runtime.Vector2.html
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Prowl.Runtime.Vector2
+    name: Vector2
+    href: Prowl.Runtime.Vector2.html
+  - name: )
+- uid: System.IFormattable
+  commentId: T:System.IFormattable
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iformattable
+  name: IFormattable
+  nameWithType: IFormattable
+  fullName: System.IFormattable
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Prowl.Runtime.RuntimeUtils.GetSerializableFields
+  commentId: M:Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  parent: Prowl.Runtime.RuntimeUtils
+  definition: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  name: GetSerializableFields(object)
+  nameWithType: RuntimeUtils.GetSerializableFields(object)
+  fullName: Prowl.Runtime.RuntimeUtils.GetSerializableFields(object)
+  nameWithType.vb: RuntimeUtils.GetSerializableFields(Object)
+  fullName.vb: Prowl.Runtime.RuntimeUtils.GetSerializableFields(Object)
+  name.vb: GetSerializableFields(Object)
+  spec.csharp:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.IEquatable`1
+  commentId: T:System.IEquatable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<T>
+  nameWithType: IEquatable<T>
+  fullName: System.IEquatable<T>
+  nameWithType.vb: IEquatable(Of T)
+  fullName.vb: System.IEquatable(Of T)
+  name.vb: IEquatable(Of T)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  commentId: M:Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  isExternal: true
+  href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  name: GetSerializableFields(object)
+  nameWithType: RuntimeUtils.GetSerializableFields(object)
+  fullName: Prowl.Runtime.RuntimeUtils.GetSerializableFields(object)
+  nameWithType.vb: RuntimeUtils.GetSerializableFields(Object)
+  fullName.vb: Prowl.Runtime.RuntimeUtils.GetSerializableFields(Object)
+  name.vb: GetSerializableFields(Object)
+  spec.csharp:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: Prowl.Runtime.RuntimeUtils
+  commentId: T:Prowl.Runtime.RuntimeUtils
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.RuntimeUtils.html
+  name: RuntimeUtils
+  nameWithType: RuntimeUtils
+  fullName: Prowl.Runtime.RuntimeUtils
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.double
+  name: double
+  nameWithType: double
+  fullName: double
+  nameWithType.vb: Double
+  fullName.vb: Double
+  name.vb: Double
+- uid: Prowl.Runtime.Vector2.#ctor*
+  commentId: Overload:Prowl.Runtime.Vector2.#ctor
+  href: Prowl.Runtime.Vector2.html#Prowl_Runtime_Vector2__ctor_System_Double_
+  name: Vector2
+  nameWithType: Vector2.Vector2
+  fullName: Prowl.Runtime.Vector2.Vector2
+  nameWithType.vb: Vector2.New
+  fullName.vb: Prowl.Runtime.Vector2.New
+  name.vb: New
+- uid: Prowl.Runtime.Vector2.normalized*
+  commentId: Overload:Prowl.Runtime.Vector2.normalized
+  href: Prowl.Runtime.Vector2.html#Prowl_Runtime_Vector2_normalized
+  name: normalized
+  nameWithType: Vector2.normalized
+  fullName: Prowl.Runtime.Vector2.normalized
+- uid: Prowl.Runtime.Vector2
+  commentId: T:Prowl.Runtime.Vector2
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.Vector2.html
+  name: Vector2
+  nameWithType: Vector2
+  fullName: Prowl.Runtime.Vector2
+- uid: Prowl.Runtime.Vector2.magnitude*
+  commentId: Overload:Prowl.Runtime.Vector2.magnitude
+  href: Prowl.Runtime.Vector2.html#Prowl_Runtime_Vector2_magnitude
+  name: magnitude
+  nameWithType: Vector2.magnitude
+  fullName: Prowl.Runtime.Vector2.magnitude
+- uid: Prowl.Runtime.Vector2.sqrMagnitude*
+  commentId: Overload:Prowl.Runtime.Vector2.sqrMagnitude
+  href: Prowl.Runtime.Vector2.html#Prowl_Runtime_Vector2_sqrMagnitude
+  name: sqrMagnitude
+  nameWithType: Vector2.sqrMagnitude
+  fullName: Prowl.Runtime.Vector2.sqrMagnitude
+- uid: Prowl.Runtime.Vector2.Item*
+  commentId: Overload:Prowl.Runtime.Vector2.Item
+  href: Prowl.Runtime.Vector2.html#Prowl_Runtime_Vector2_Item_System_Int32_
+  name: this
+  nameWithType: Vector2.this
+  fullName: Prowl.Runtime.Vector2.this
+  nameWithType.vb: Vector2.this[]
+  fullName.vb: Prowl.Runtime.Vector2.this[]
+  name.vb: this[]
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: Prowl.Runtime.Vector2.ToFloat*
+  commentId: Overload:Prowl.Runtime.Vector2.ToFloat
+  href: Prowl.Runtime.Vector2.html#Prowl_Runtime_Vector2_ToFloat
+  name: ToFloat
+  nameWithType: Vector2.ToFloat
+  fullName: Prowl.Runtime.Vector2.ToFloat
+- uid: System.Numerics.Vector2
+  commentId: T:System.Numerics.Vector2
+  parent: System.Numerics
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.numerics.vector2
+  name: Vector2
+  nameWithType: Vector2
+  fullName: System.Numerics.Vector2
+- uid: System.Numerics
+  commentId: N:System.Numerics
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Numerics
+  nameWithType: System.Numerics
+  fullName: System.Numerics
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Numerics
+    name: Numerics
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.numerics
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Numerics
+    name: Numerics
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.numerics
+- uid: Prowl.Runtime.Vector2.Scale*
+  commentId: Overload:Prowl.Runtime.Vector2.Scale
+  href: Prowl.Runtime.Vector2.html#Prowl_Runtime_Vector2_Scale_Prowl_Runtime_Vector2_
+  name: Scale
+  nameWithType: Vector2.Scale
+  fullName: Prowl.Runtime.Vector2.Scale
+- uid: Prowl.Runtime.Vector2.Normalize*
+  commentId: Overload:Prowl.Runtime.Vector2.Normalize
+  href: Prowl.Runtime.Vector2.html#Prowl_Runtime_Vector2_Normalize
+  name: Normalize
+  nameWithType: Vector2.Normalize
+  fullName: Prowl.Runtime.Vector2.Normalize
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+- uid: Prowl.Runtime.Vector2.GetHashCode*
+  commentId: Overload:Prowl.Runtime.Vector2.GetHashCode
+  href: Prowl.Runtime.Vector2.html#Prowl_Runtime_Vector2_GetHashCode
+  name: GetHashCode
+  nameWithType: Vector2.GetHashCode
+  fullName: Prowl.Runtime.Vector2.GetHashCode
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  name: Equals(object)
+  nameWithType: ValueType.Equals(object)
+  fullName: System.ValueType.Equals(object)
+  nameWithType.vb: ValueType.Equals(Object)
+  fullName.vb: System.ValueType.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: Prowl.Runtime.Vector2.Equals*
+  commentId: Overload:Prowl.Runtime.Vector2.Equals
+  href: Prowl.Runtime.Vector2.html#Prowl_Runtime_Vector2_Equals_System_Object_
+  name: Equals
+  nameWithType: Vector2.Equals
+  fullName: Prowl.Runtime.Vector2.Equals
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: System.IEquatable{Prowl.Runtime.Vector2}.Equals(Prowl.Runtime.Vector2)
+  commentId: M:System.IEquatable{Prowl.Runtime.Vector2}.Equals(Prowl.Runtime.Vector2)
+  parent: System.IEquatable{Prowl.Runtime.Vector2}
+  definition: System.IEquatable`1.Equals(`0)
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  name: Equals(Vector2)
+  nameWithType: IEquatable<Vector2>.Equals(Vector2)
+  fullName: System.IEquatable<Prowl.Runtime.Vector2>.Equals(Prowl.Runtime.Vector2)
+  nameWithType.vb: IEquatable(Of Vector2).Equals(Vector2)
+  fullName.vb: System.IEquatable(Of Prowl.Runtime.Vector2).Equals(Prowl.Runtime.Vector2)
+  spec.csharp:
+  - uid: System.IEquatable{Prowl.Runtime.Vector2}.Equals(Prowl.Runtime.Vector2)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - uid: Prowl.Runtime.Vector2
+    name: Vector2
+    href: Prowl.Runtime.Vector2.html
+  - name: )
+  spec.vb:
+  - uid: System.IEquatable{Prowl.Runtime.Vector2}.Equals(Prowl.Runtime.Vector2)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - uid: Prowl.Runtime.Vector2
+    name: Vector2
+    href: Prowl.Runtime.Vector2.html
+  - name: )
+- uid: System.IEquatable`1.Equals(`0)
+  commentId: M:System.IEquatable`1.Equals(`0)
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  name: Equals(T)
+  nameWithType: IEquatable<T>.Equals(T)
+  fullName: System.IEquatable<T>.Equals(T)
+  nameWithType.vb: IEquatable(Of T).Equals(T)
+  fullName.vb: System.IEquatable(Of T).Equals(T)
+  spec.csharp:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - name: T
+  - name: )
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+- uid: Prowl.Runtime.Vector2.ToString*
+  commentId: Overload:Prowl.Runtime.Vector2.ToString
+  href: Prowl.Runtime.Vector2.html#Prowl_Runtime_Vector2_ToString
+  name: ToString
+  nameWithType: Vector2.ToString
+  fullName: Prowl.Runtime.Vector2.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System.IFormattable.ToString(System.String,System.IFormatProvider)
+  commentId: M:System.IFormattable.ToString(System.String,System.IFormatProvider)
+  parent: System.IFormattable
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iformattable.tostring
+  name: ToString(string, IFormatProvider)
+  nameWithType: IFormattable.ToString(string, IFormatProvider)
+  fullName: System.IFormattable.ToString(string, System.IFormatProvider)
+  nameWithType.vb: IFormattable.ToString(String, IFormatProvider)
+  fullName.vb: System.IFormattable.ToString(String, System.IFormatProvider)
+  name.vb: ToString(String, IFormatProvider)
+  spec.csharp:
+  - uid: System.IFormattable.ToString(System.String,System.IFormatProvider)
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iformattable.tostring
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.IFormatProvider
+    name: IFormatProvider
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iformatprovider
+  - name: )
+  spec.vb:
+  - uid: System.IFormattable.ToString(System.String,System.IFormatProvider)
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iformattable.tostring
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.IFormatProvider
+    name: IFormatProvider
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iformatprovider
+  - name: )
+- uid: System.IFormatProvider
+  commentId: T:System.IFormatProvider
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iformatprovider
+  name: IFormatProvider
+  nameWithType: IFormatProvider
+  fullName: System.IFormatProvider
+- uid: Prowl.Runtime.Vector2.IsFinate*
+  commentId: Overload:Prowl.Runtime.Vector2.IsFinate
+  href: Prowl.Runtime.Vector2.html#Prowl_Runtime_Vector2_IsFinate
+  name: IsFinate
+  nameWithType: Vector2.IsFinate
+  fullName: Prowl.Runtime.Vector2.IsFinate
+- uid: Prowl.Runtime.Vector2.zero*
+  commentId: Overload:Prowl.Runtime.Vector2.zero
+  href: Prowl.Runtime.Vector2.html#Prowl_Runtime_Vector2_zero
+  name: zero
+  nameWithType: Vector2.zero
+  fullName: Prowl.Runtime.Vector2.zero
+- uid: Prowl.Runtime.Vector2.one*
+  commentId: Overload:Prowl.Runtime.Vector2.one
+  href: Prowl.Runtime.Vector2.html#Prowl_Runtime_Vector2_one
+  name: one
+  nameWithType: Vector2.one
+  fullName: Prowl.Runtime.Vector2.one
+- uid: Prowl.Runtime.Vector2.right*
+  commentId: Overload:Prowl.Runtime.Vector2.right
+  href: Prowl.Runtime.Vector2.html#Prowl_Runtime_Vector2_right
+  name: right
+  nameWithType: Vector2.right
+  fullName: Prowl.Runtime.Vector2.right
+- uid: Prowl.Runtime.Vector2.left*
+  commentId: Overload:Prowl.Runtime.Vector2.left
+  href: Prowl.Runtime.Vector2.html#Prowl_Runtime_Vector2_left
+  name: left
+  nameWithType: Vector2.left
+  fullName: Prowl.Runtime.Vector2.left
+- uid: Prowl.Runtime.Vector2.up*
+  commentId: Overload:Prowl.Runtime.Vector2.up
+  href: Prowl.Runtime.Vector2.html#Prowl_Runtime_Vector2_up
+  name: up
+  nameWithType: Vector2.up
+  fullName: Prowl.Runtime.Vector2.up
+- uid: Prowl.Runtime.Vector2.down*
+  commentId: Overload:Prowl.Runtime.Vector2.down
+  href: Prowl.Runtime.Vector2.html#Prowl_Runtime_Vector2_down
+  name: down
+  nameWithType: Vector2.down
+  fullName: Prowl.Runtime.Vector2.down
+- uid: Prowl.Runtime.Vector2.AngleBetween*
+  commentId: Overload:Prowl.Runtime.Vector2.AngleBetween
+  href: Prowl.Runtime.Vector2.html#Prowl_Runtime_Vector2_AngleBetween_Prowl_Runtime_Vector2_Prowl_Runtime_Vector2_
+  name: AngleBetween
+  nameWithType: Vector2.AngleBetween
+  fullName: Prowl.Runtime.Vector2.AngleBetween
+- uid: Prowl.Runtime.Vector2.Distance*
+  commentId: Overload:Prowl.Runtime.Vector2.Distance
+  href: Prowl.Runtime.Vector2.html#Prowl_Runtime_Vector2_Distance_Prowl_Runtime_Vector2_Prowl_Runtime_Vector2_
+  name: Distance
+  nameWithType: Vector2.Distance
+  fullName: Prowl.Runtime.Vector2.Distance
+- uid: Prowl.Runtime.Vector2.MoveTowards*
+  commentId: Overload:Prowl.Runtime.Vector2.MoveTowards
+  href: Prowl.Runtime.Vector2.html#Prowl_Runtime_Vector2_MoveTowards_Prowl_Runtime_Vector2_Prowl_Runtime_Vector2_System_Double_
+  name: MoveTowards
+  nameWithType: Vector2.MoveTowards
+  fullName: Prowl.Runtime.Vector2.MoveTowards
+- uid: Prowl.Runtime.Vector2.ClampMagnitude*
+  commentId: Overload:Prowl.Runtime.Vector2.ClampMagnitude
+  href: Prowl.Runtime.Vector2.html#Prowl_Runtime_Vector2_ClampMagnitude_Prowl_Runtime_Vector2_System_Double_
+  name: ClampMagnitude
+  nameWithType: Vector2.ClampMagnitude
+  fullName: Prowl.Runtime.Vector2.ClampMagnitude
+- uid: Prowl.Runtime.Vector2.Reflect*
+  commentId: Overload:Prowl.Runtime.Vector2.Reflect
+  href: Prowl.Runtime.Vector2.html#Prowl_Runtime_Vector2_Reflect_Prowl_Runtime_Vector2_Prowl_Runtime_Vector2_
+  name: Reflect
+  nameWithType: Vector2.Reflect
+  fullName: Prowl.Runtime.Vector2.Reflect
+- uid: Prowl.Runtime.Vector2.Clamp*
+  commentId: Overload:Prowl.Runtime.Vector2.Clamp
+  href: Prowl.Runtime.Vector2.html#Prowl_Runtime_Vector2_Clamp_Prowl_Runtime_Vector2_Prowl_Runtime_Vector2_Prowl_Runtime_Vector2_
+  name: Clamp
+  nameWithType: Vector2.Clamp
+  fullName: Prowl.Runtime.Vector2.Clamp
+- uid: Prowl.Runtime.Vector2.Lerp*
+  commentId: Overload:Prowl.Runtime.Vector2.Lerp
+  href: Prowl.Runtime.Vector2.html#Prowl_Runtime_Vector2_Lerp_Prowl_Runtime_Vector2_Prowl_Runtime_Vector2_System_Double_
+  name: Lerp
+  nameWithType: Vector2.Lerp
+  fullName: Prowl.Runtime.Vector2.Lerp
+- uid: Prowl.Runtime.Vector2.Transform*
+  commentId: Overload:Prowl.Runtime.Vector2.Transform
+  href: Prowl.Runtime.Vector2.html#Prowl_Runtime_Vector2_Transform_Prowl_Runtime_Vector2_Prowl_Runtime_Matrix4x4_
+  name: Transform
+  nameWithType: Vector2.Transform
+  fullName: Prowl.Runtime.Vector2.Transform
+- uid: Prowl.Runtime.Matrix4x4
+  commentId: T:Prowl.Runtime.Matrix4x4
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.Matrix4x4.html
+  name: Matrix4x4
+  nameWithType: Matrix4x4
+  fullName: Prowl.Runtime.Matrix4x4
+- uid: Prowl.Runtime.Vector2.TransformNormal*
+  commentId: Overload:Prowl.Runtime.Vector2.TransformNormal
+  href: Prowl.Runtime.Vector2.html#Prowl_Runtime_Vector2_TransformNormal_Prowl_Runtime_Vector2_Prowl_Runtime_Matrix4x4_
+  name: TransformNormal
+  nameWithType: Vector2.TransformNormal
+  fullName: Prowl.Runtime.Vector2.TransformNormal
+- uid: Prowl.Runtime.Quaternion
+  commentId: T:Prowl.Runtime.Quaternion
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.Quaternion.html
+  name: Quaternion
+  nameWithType: Quaternion
+  fullName: Prowl.Runtime.Quaternion
+- uid: Prowl.Runtime.Vector2.Dot*
+  commentId: Overload:Prowl.Runtime.Vector2.Dot
+  href: Prowl.Runtime.Vector2.html#Prowl_Runtime_Vector2_Dot_Prowl_Runtime_Vector2_Prowl_Runtime_Vector2_
+  name: Dot
+  nameWithType: Vector2.Dot
+  fullName: Prowl.Runtime.Vector2.Dot
+- uid: Prowl.Runtime.Vector2.Min*
+  commentId: Overload:Prowl.Runtime.Vector2.Min
+  href: Prowl.Runtime.Vector2.html#Prowl_Runtime_Vector2_Min_Prowl_Runtime_Vector2_Prowl_Runtime_Vector2_
+  name: Min
+  nameWithType: Vector2.Min
+  fullName: Prowl.Runtime.Vector2.Min
+- uid: Prowl.Runtime.Vector2.Max*
+  commentId: Overload:Prowl.Runtime.Vector2.Max
+  href: Prowl.Runtime.Vector2.html#Prowl_Runtime_Vector2_Max_Prowl_Runtime_Vector2_Prowl_Runtime_Vector2_
+  name: Max
+  nameWithType: Vector2.Max
+  fullName: Prowl.Runtime.Vector2.Max
+- uid: Prowl.Runtime.Vector2.Abs*
+  commentId: Overload:Prowl.Runtime.Vector2.Abs
+  href: Prowl.Runtime.Vector2.html#Prowl_Runtime_Vector2_Abs_Prowl_Runtime_Vector2_
+  name: Abs
+  nameWithType: Vector2.Abs
+  fullName: Prowl.Runtime.Vector2.Abs
+- uid: Prowl.Runtime.Vector2.SquareRoot*
+  commentId: Overload:Prowl.Runtime.Vector2.SquareRoot
+  href: Prowl.Runtime.Vector2.html#Prowl_Runtime_Vector2_SquareRoot_Prowl_Runtime_Vector2_
+  name: SquareRoot
+  nameWithType: Vector2.SquareRoot
+  fullName: Prowl.Runtime.Vector2.SquareRoot
+- uid: Prowl.Runtime.Vector2.op_Addition*
+  commentId: Overload:Prowl.Runtime.Vector2.op_Addition
+  href: Prowl.Runtime.Vector2.html#Prowl_Runtime_Vector2_op_Addition_Prowl_Runtime_Vector2_Prowl_Runtime_Vector2_
+  name: operator +
+  nameWithType: Vector2.operator +
+  fullName: Prowl.Runtime.Vector2.operator +
+  nameWithType.vb: Vector2.+
+  fullName.vb: Prowl.Runtime.Vector2.+
+  name.vb: +
+  spec.csharp:
+  - name: operator
+  - name: " "
+  - uid: Prowl.Runtime.Vector2.op_Addition*
+    name: +
+    href: Prowl.Runtime.Vector2.html#Prowl_Runtime_Vector2_op_Addition_Prowl_Runtime_Vector2_Prowl_Runtime_Vector2_
+- uid: Prowl.Runtime.Vector2.op_Subtraction*
+  commentId: Overload:Prowl.Runtime.Vector2.op_Subtraction
+  href: Prowl.Runtime.Vector2.html#Prowl_Runtime_Vector2_op_Subtraction_Prowl_Runtime_Vector2_Prowl_Runtime_Vector2_
+  name: operator -
+  nameWithType: Vector2.operator -
+  fullName: Prowl.Runtime.Vector2.operator -
+  nameWithType.vb: Vector2.-
+  fullName.vb: Prowl.Runtime.Vector2.-
+  name.vb: '-'
+  spec.csharp:
+  - name: operator
+  - name: " "
+  - uid: Prowl.Runtime.Vector2.op_Subtraction*
+    name: '-'
+    href: Prowl.Runtime.Vector2.html#Prowl_Runtime_Vector2_op_Subtraction_Prowl_Runtime_Vector2_Prowl_Runtime_Vector2_
+- uid: Prowl.Runtime.Vector2.op_Multiply*
+  commentId: Overload:Prowl.Runtime.Vector2.op_Multiply
+  href: Prowl.Runtime.Vector2.html#Prowl_Runtime_Vector2_op_Multiply_Prowl_Runtime_Vector2_Prowl_Runtime_Vector2_
+  name: operator *
+  nameWithType: Vector2.operator *
+  fullName: Prowl.Runtime.Vector2.operator *
+  nameWithType.vb: Vector2.*
+  fullName.vb: Prowl.Runtime.Vector2.*
+  name.vb: '*'
+  spec.csharp:
+  - name: operator
+  - name: " "
+  - uid: Prowl.Runtime.Vector2.op_Multiply*
+    name: '*'
+    href: Prowl.Runtime.Vector2.html#Prowl_Runtime_Vector2_op_Multiply_Prowl_Runtime_Vector2_Prowl_Runtime_Vector2_
+- uid: Prowl.Runtime.Vector2.op_Division*
+  commentId: Overload:Prowl.Runtime.Vector2.op_Division
+  href: Prowl.Runtime.Vector2.html#Prowl_Runtime_Vector2_op_Division_Prowl_Runtime_Vector2_Prowl_Runtime_Vector2_
+  name: operator /
+  nameWithType: Vector2.operator /
+  fullName: Prowl.Runtime.Vector2.operator /
+  nameWithType.vb: Vector2./
+  fullName.vb: Prowl.Runtime.Vector2./
+  name.vb: /
+  spec.csharp:
+  - name: operator
+  - name: " "
+  - uid: Prowl.Runtime.Vector2.op_Division*
+    name: /
+    href: Prowl.Runtime.Vector2.html#Prowl_Runtime_Vector2_op_Division_Prowl_Runtime_Vector2_Prowl_Runtime_Vector2_
+- uid: Prowl.Runtime.Vector2.op_UnaryNegation*
+  commentId: Overload:Prowl.Runtime.Vector2.op_UnaryNegation
+  href: Prowl.Runtime.Vector2.html#Prowl_Runtime_Vector2_op_UnaryNegation_Prowl_Runtime_Vector2_
+  name: operator -
+  nameWithType: Vector2.operator -
+  fullName: Prowl.Runtime.Vector2.operator -
+  nameWithType.vb: Vector2.-
+  fullName.vb: Prowl.Runtime.Vector2.-
+  name.vb: '-'
+  spec.csharp:
+  - name: operator
+  - name: " "
+  - uid: Prowl.Runtime.Vector2.op_UnaryNegation*
+    name: '-'
+    href: Prowl.Runtime.Vector2.html#Prowl_Runtime_Vector2_op_UnaryNegation_Prowl_Runtime_Vector2_
+- uid: Prowl.Runtime.Vector2.op_Equality*
+  commentId: Overload:Prowl.Runtime.Vector2.op_Equality
+  href: Prowl.Runtime.Vector2.html#Prowl_Runtime_Vector2_op_Equality_Prowl_Runtime_Vector2_Prowl_Runtime_Vector2_
+  name: operator ==
+  nameWithType: Vector2.operator ==
+  fullName: Prowl.Runtime.Vector2.operator ==
+  nameWithType.vb: Vector2.=
+  fullName.vb: Prowl.Runtime.Vector2.=
+  name.vb: =
+  spec.csharp:
+  - name: operator
+  - name: " "
+  - uid: Prowl.Runtime.Vector2.op_Equality*
+    name: ==
+    href: Prowl.Runtime.Vector2.html#Prowl_Runtime_Vector2_op_Equality_Prowl_Runtime_Vector2_Prowl_Runtime_Vector2_
+- uid: Prowl.Runtime.Vector2.op_Inequality*
+  commentId: Overload:Prowl.Runtime.Vector2.op_Inequality
+  href: Prowl.Runtime.Vector2.html#Prowl_Runtime_Vector2_op_Inequality_Prowl_Runtime_Vector2_Prowl_Runtime_Vector2_
+  name: operator !=
+  nameWithType: Vector2.operator !=
+  fullName: Prowl.Runtime.Vector2.operator !=
+  nameWithType.vb: Vector2.<>
+  fullName.vb: Prowl.Runtime.Vector2.<>
+  name.vb: <>
+  spec.csharp:
+  - name: operator
+  - name: " "
+  - uid: Prowl.Runtime.Vector2.op_Inequality*
+    name: '!='
+    href: Prowl.Runtime.Vector2.html#Prowl_Runtime_Vector2_op_Inequality_Prowl_Runtime_Vector2_Prowl_Runtime_Vector2_
+- uid: Prowl.Runtime.Vector2.op_Implicit*
+  commentId: Overload:Prowl.Runtime.Vector2.op_Implicit
+  name: implicit operator
+  nameWithType: Vector2.implicit operator
+  fullName: Prowl.Runtime.Vector2.implicit operator
+  nameWithType.vb: Vector2.CType
+  fullName.vb: Prowl.Runtime.Vector2.CType
+  name.vb: CType
+  spec.csharp:
+  - name: implicit
+  - name: " "
+  - name: operator

@@ -1,0 +1,686 @@
+### YamlMime:ManagedReference
+items:
+- uid: Prowl.Editor.Utilities.EditorUtils
+  commentId: T:Prowl.Editor.Utilities.EditorUtils
+  id: EditorUtils
+  parent: Prowl.Editor.Utilities
+  children:
+  - Prowl.Editor.Utilities.EditorUtils.FilterAlpha(System.String)
+  - Prowl.Editor.Utilities.EditorUtils.GetDerivedTypes(System.Type,System.Reflection.Assembly)
+  - Prowl.Editor.Utilities.EditorUtils.GetUniqueFilePath(System.IO.DirectoryInfo,System.String,System.String)
+  - Prowl.Editor.Utilities.EditorUtils.IsSubclassOf(System.Type,System.Type)
+  langs:
+  - csharp
+  - vb
+  name: EditorUtils
+  nameWithType: EditorUtils
+  fullName: Prowl.Editor.Utilities.EditorUtils
+  type: Class
+  source:
+    remote:
+      path: Prowl.Editor/Utilities/EditorUtils.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: EditorUtils
+    path: ../Prowl/Prowl.Editor/Utilities/EditorUtils.cs
+    startLine: 7
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor.Utilities
+  syntax:
+    content: public static class EditorUtils
+    content.vb: Public Module EditorUtils
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: Prowl.Editor.Utilities.EditorUtils.FilterAlpha(System.String)
+  commentId: M:Prowl.Editor.Utilities.EditorUtils.FilterAlpha(System.String)
+  id: FilterAlpha(System.String)
+  parent: Prowl.Editor.Utilities.EditorUtils
+  langs:
+  - csharp
+  - vb
+  name: FilterAlpha(string)
+  nameWithType: EditorUtils.FilterAlpha(string)
+  fullName: Prowl.Editor.Utilities.EditorUtils.FilterAlpha(string)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Editor/Utilities/EditorUtils.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: FilterAlpha
+    path: ../Prowl/Prowl.Editor/Utilities/EditorUtils.cs
+    startLine: 9
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor.Utilities
+  syntax:
+    content: public static string FilterAlpha(string input)
+    parameters:
+    - id: input
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Shared Function FilterAlpha(input As String) As String
+  overload: Prowl.Editor.Utilities.EditorUtils.FilterAlpha*
+  nameWithType.vb: EditorUtils.FilterAlpha(String)
+  fullName.vb: Prowl.Editor.Utilities.EditorUtils.FilterAlpha(String)
+  name.vb: FilterAlpha(String)
+- uid: Prowl.Editor.Utilities.EditorUtils.GetDerivedTypes(System.Type,System.Reflection.Assembly)
+  commentId: M:Prowl.Editor.Utilities.EditorUtils.GetDerivedTypes(System.Type,System.Reflection.Assembly)
+  id: GetDerivedTypes(System.Type,System.Reflection.Assembly)
+  parent: Prowl.Editor.Utilities.EditorUtils
+  langs:
+  - csharp
+  - vb
+  name: GetDerivedTypes(Type, Assembly)
+  nameWithType: EditorUtils.GetDerivedTypes(Type, Assembly)
+  fullName: Prowl.Editor.Utilities.EditorUtils.GetDerivedTypes(System.Type, System.Reflection.Assembly)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Editor/Utilities/EditorUtils.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: GetDerivedTypes
+    path: ../Prowl/Prowl.Editor/Utilities/EditorUtils.cs
+    startLine: 11
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor.Utilities
+  syntax:
+    content: public static List<Type> GetDerivedTypes(Type baseType, Assembly assembly)
+    parameters:
+    - id: baseType
+      type: System.Type
+    - id: assembly
+      type: System.Reflection.Assembly
+    return:
+      type: System.Collections.Generic.List{System.Type}
+    content.vb: Public Shared Function GetDerivedTypes(baseType As Type, assembly As Assembly) As List(Of Type)
+  overload: Prowl.Editor.Utilities.EditorUtils.GetDerivedTypes*
+- uid: Prowl.Editor.Utilities.EditorUtils.IsSubclassOf(System.Type,System.Type)
+  commentId: M:Prowl.Editor.Utilities.EditorUtils.IsSubclassOf(System.Type,System.Type)
+  id: IsSubclassOf(System.Type,System.Type)
+  parent: Prowl.Editor.Utilities.EditorUtils
+  langs:
+  - csharp
+  - vb
+  name: IsSubclassOf(Type, Type)
+  nameWithType: EditorUtils.IsSubclassOf(Type, Type)
+  fullName: Prowl.Editor.Utilities.EditorUtils.IsSubclassOf(System.Type, System.Type)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Editor/Utilities/EditorUtils.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: IsSubclassOf
+    path: ../Prowl/Prowl.Editor/Utilities/EditorUtils.cs
+    startLine: 31
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor.Utilities
+  syntax:
+    content: public static bool IsSubclassOf(Type type, Type baseType)
+    parameters:
+    - id: type
+      type: System.Type
+    - id: baseType
+      type: System.Type
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function IsSubclassOf(type As Type, baseType As Type) As Boolean
+  overload: Prowl.Editor.Utilities.EditorUtils.IsSubclassOf*
+- uid: Prowl.Editor.Utilities.EditorUtils.GetUniqueFilePath(System.IO.DirectoryInfo,System.String,System.String)
+  commentId: M:Prowl.Editor.Utilities.EditorUtils.GetUniqueFilePath(System.IO.DirectoryInfo,System.String,System.String)
+  id: GetUniqueFilePath(System.IO.DirectoryInfo,System.String,System.String)
+  parent: Prowl.Editor.Utilities.EditorUtils
+  langs:
+  - csharp
+  - vb
+  name: GetUniqueFilePath(DirectoryInfo, string, string)
+  nameWithType: EditorUtils.GetUniqueFilePath(DirectoryInfo, string, string)
+  fullName: Prowl.Editor.Utilities.EditorUtils.GetUniqueFilePath(System.IO.DirectoryInfo, string, string)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Editor/Utilities/EditorUtils.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: GetUniqueFilePath
+    path: ../Prowl/Prowl.Editor/Utilities/EditorUtils.cs
+    startLine: 66
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor.Utilities
+  summary: Calculate a unique file path for the given directory, file name and extension with period '.mat'
+  example: []
+  syntax:
+    content: public static FileInfo GetUniqueFilePath(DirectoryInfo dir, string fileName, string ext)
+    parameters:
+    - id: dir
+      type: System.IO.DirectoryInfo
+    - id: fileName
+      type: System.String
+    - id: ext
+      type: System.String
+    return:
+      type: System.IO.FileInfo
+      description: >-
+        Path.Combine(dir.FullName, $"{fileName}.{ext}") If that path exists,
+
+        we add an incrementing number to the end of the file name and try again.
+    content.vb: Public Shared Function GetUniqueFilePath(dir As DirectoryInfo, fileName As String, ext As String) As FileInfo
+  overload: Prowl.Editor.Utilities.EditorUtils.GetUniqueFilePath*
+  nameWithType.vb: EditorUtils.GetUniqueFilePath(DirectoryInfo, String, String)
+  fullName.vb: Prowl.Editor.Utilities.EditorUtils.GetUniqueFilePath(System.IO.DirectoryInfo, String, String)
+  name.vb: GetUniqueFilePath(DirectoryInfo, String, String)
+references:
+- uid: Prowl.Editor.Utilities
+  commentId: N:Prowl.Editor.Utilities
+  href: Prowl.html
+  name: Prowl.Editor.Utilities
+  nameWithType: Prowl.Editor.Utilities
+  fullName: Prowl.Editor.Utilities
+  spec.csharp:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Editor
+    name: Editor
+    href: Prowl.Editor.html
+  - name: .
+  - uid: Prowl.Editor.Utilities
+    name: Utilities
+    href: Prowl.Editor.Utilities.html
+  spec.vb:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Editor
+    name: Editor
+    href: Prowl.Editor.html
+  - name: .
+  - uid: Prowl.Editor.Utilities
+    name: Utilities
+    href: Prowl.Editor.Utilities.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Prowl.Editor.Utilities.EditorUtils.FilterAlpha*
+  commentId: Overload:Prowl.Editor.Utilities.EditorUtils.FilterAlpha
+  href: Prowl.Editor.Utilities.EditorUtils.html#Prowl_Editor_Utilities_EditorUtils_FilterAlpha_System_String_
+  name: FilterAlpha
+  nameWithType: EditorUtils.FilterAlpha
+  fullName: Prowl.Editor.Utilities.EditorUtils.FilterAlpha
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: Prowl.Editor.Utilities.EditorUtils.GetDerivedTypes*
+  commentId: Overload:Prowl.Editor.Utilities.EditorUtils.GetDerivedTypes
+  href: Prowl.Editor.Utilities.EditorUtils.html#Prowl_Editor_Utilities_EditorUtils_GetDerivedTypes_System_Type_System_Reflection_Assembly_
+  name: GetDerivedTypes
+  nameWithType: EditorUtils.GetDerivedTypes
+  fullName: Prowl.Editor.Utilities.EditorUtils.GetDerivedTypes
+- uid: System.Type
+  commentId: T:System.Type
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.type
+  name: Type
+  nameWithType: Type
+  fullName: System.Type
+- uid: System.Reflection.Assembly
+  commentId: T:System.Reflection.Assembly
+  parent: System.Reflection
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.reflection.assembly
+  name: Assembly
+  nameWithType: Assembly
+  fullName: System.Reflection.Assembly
+- uid: System.Collections.Generic.List{System.Type}
+  commentId: T:System.Collections.Generic.List{System.Type}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<Type>
+  nameWithType: List<Type>
+  fullName: System.Collections.Generic.List<System.Type>
+  nameWithType.vb: List(Of Type)
+  fullName.vb: System.Collections.Generic.List(Of System.Type)
+  name.vb: List(Of Type)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - uid: System.Type
+    name: Type
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.type
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Type
+    name: Type
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.type
+  - name: )
+- uid: System.Reflection
+  commentId: N:System.Reflection
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Reflection
+  nameWithType: System.Reflection
+  fullName: System.Reflection
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Reflection
+    name: Reflection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.reflection
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Reflection
+    name: Reflection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.reflection
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: Prowl.Editor.Utilities.EditorUtils.IsSubclassOf*
+  commentId: Overload:Prowl.Editor.Utilities.EditorUtils.IsSubclassOf
+  href: Prowl.Editor.Utilities.EditorUtils.html#Prowl_Editor_Utilities_EditorUtils_IsSubclassOf_System_Type_System_Type_
+  name: IsSubclassOf
+  nameWithType: EditorUtils.IsSubclassOf
+  fullName: Prowl.Editor.Utilities.EditorUtils.IsSubclassOf
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: Prowl.Editor.Utilities.EditorUtils.GetUniqueFilePath*
+  commentId: Overload:Prowl.Editor.Utilities.EditorUtils.GetUniqueFilePath
+  href: Prowl.Editor.Utilities.EditorUtils.html#Prowl_Editor_Utilities_EditorUtils_GetUniqueFilePath_System_IO_DirectoryInfo_System_String_System_String_
+  name: GetUniqueFilePath
+  nameWithType: EditorUtils.GetUniqueFilePath
+  fullName: Prowl.Editor.Utilities.EditorUtils.GetUniqueFilePath
+- uid: System.IO.DirectoryInfo
+  commentId: T:System.IO.DirectoryInfo
+  parent: System.IO
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.io.directoryinfo
+  name: DirectoryInfo
+  nameWithType: DirectoryInfo
+  fullName: System.IO.DirectoryInfo
+- uid: System.IO.FileInfo
+  commentId: T:System.IO.FileInfo
+  parent: System.IO
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.io.fileinfo
+  name: FileInfo
+  nameWithType: FileInfo
+  fullName: System.IO.FileInfo
+- uid: System.IO
+  commentId: N:System.IO
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.IO
+  nameWithType: System.IO
+  fullName: System.IO
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.IO
+    name: IO
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.io
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.IO
+    name: IO
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.io

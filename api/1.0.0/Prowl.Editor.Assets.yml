@@ -1,0 +1,319 @@
+### YamlMime:ManagedReference
+items:
+- uid: Prowl.Editor.Assets
+  commentId: N:Prowl.Editor.Assets
+  id: Prowl.Editor.Assets
+  children:
+  - Prowl.Editor.Assets.AssetDatabase
+  - Prowl.Editor.Assets.AssetDatabase.NugetLogger
+  - Prowl.Editor.Assets.AssetDatabase.SubAssetCache
+  - Prowl.Editor.Assets.AssetDirectoryCache
+  - Prowl.Editor.Assets.AssetDirectoryCache.DirNode
+  - Prowl.Editor.Assets.AssetDirectoryCache.FileNode
+  - Prowl.Editor.Assets.CustomEditorAttribute
+  - Prowl.Editor.Assets.EditorAssetProvider
+  - Prowl.Editor.Assets.FontEditor
+  - Prowl.Editor.Assets.FontImporter
+  - Prowl.Editor.Assets.ImporterAttribute
+  - Prowl.Editor.Assets.LastWriteTimesCache
+  - Prowl.Editor.Assets.MaterialImporter
+  - Prowl.Editor.Assets.MaterialImporterEditor
+  - Prowl.Editor.Assets.MeshImporter
+  - Prowl.Editor.Assets.MetaFile
+  - Prowl.Editor.Assets.ModelEditor
+  - Prowl.Editor.Assets.ModelImporter
+  - Prowl.Editor.Assets.MonoScriptImporter
+  - Prowl.Editor.Assets.PrefabImporter
+  - Prowl.Editor.Assets.SceneImporter
+  - Prowl.Editor.Assets.ScriptableObjectImporter
+  - Prowl.Editor.Assets.ScriptedEditor
+  - Prowl.Editor.Assets.ScriptedImporter
+  - Prowl.Editor.Assets.ShaderImporter
+  - Prowl.Editor.Assets.TextAssetImporter
+  - Prowl.Editor.Assets.TextureEditor
+  - Prowl.Editor.Assets.TextureImporter
+  langs:
+  - csharp
+  - vb
+  name: Prowl.Editor.Assets
+  nameWithType: Prowl.Editor.Assets
+  fullName: Prowl.Editor.Assets
+  type: Namespace
+  assemblies:
+  - Prowl.Editor
+references:
+- uid: Prowl.Editor.Assets.LastWriteTimesCache
+  commentId: T:Prowl.Editor.Assets.LastWriteTimesCache
+  href: Prowl.Editor.Assets.LastWriteTimesCache.html
+  name: LastWriteTimesCache
+  nameWithType: LastWriteTimesCache
+  fullName: Prowl.Editor.Assets.LastWriteTimesCache
+- uid: Prowl.Editor.Assets.AssetDatabase
+  commentId: T:Prowl.Editor.Assets.AssetDatabase
+  href: Prowl.Editor.Assets.AssetDatabase.html
+  name: AssetDatabase
+  nameWithType: AssetDatabase
+  fullName: Prowl.Editor.Assets.AssetDatabase
+- uid: Prowl.Editor.Assets.AssetDatabase.NugetLogger
+  commentId: T:Prowl.Editor.Assets.AssetDatabase.NugetLogger
+  href: Prowl.Editor.Assets.AssetDatabase.html
+  name: AssetDatabase.NugetLogger
+  nameWithType: AssetDatabase.NugetLogger
+  fullName: Prowl.Editor.Assets.AssetDatabase.NugetLogger
+  spec.csharp:
+  - uid: Prowl.Editor.Assets.AssetDatabase
+    name: AssetDatabase
+    href: Prowl.Editor.Assets.AssetDatabase.html
+  - name: .
+  - uid: Prowl.Editor.Assets.AssetDatabase.NugetLogger
+    name: NugetLogger
+    href: Prowl.Editor.Assets.AssetDatabase.NugetLogger.html
+  spec.vb:
+  - uid: Prowl.Editor.Assets.AssetDatabase
+    name: AssetDatabase
+    href: Prowl.Editor.Assets.AssetDatabase.html
+  - name: .
+  - uid: Prowl.Editor.Assets.AssetDatabase.NugetLogger
+    name: NugetLogger
+    href: Prowl.Editor.Assets.AssetDatabase.NugetLogger.html
+- uid: Prowl.Editor.Assets.AssetDatabase.SubAssetCache
+  commentId: T:Prowl.Editor.Assets.AssetDatabase.SubAssetCache
+  href: Prowl.Editor.Assets.AssetDatabase.html
+  name: AssetDatabase.SubAssetCache
+  nameWithType: AssetDatabase.SubAssetCache
+  fullName: Prowl.Editor.Assets.AssetDatabase.SubAssetCache
+  spec.csharp:
+  - uid: Prowl.Editor.Assets.AssetDatabase
+    name: AssetDatabase
+    href: Prowl.Editor.Assets.AssetDatabase.html
+  - name: .
+  - uid: Prowl.Editor.Assets.AssetDatabase.SubAssetCache
+    name: SubAssetCache
+    href: Prowl.Editor.Assets.AssetDatabase.SubAssetCache.html
+  spec.vb:
+  - uid: Prowl.Editor.Assets.AssetDatabase
+    name: AssetDatabase
+    href: Prowl.Editor.Assets.AssetDatabase.html
+  - name: .
+  - uid: Prowl.Editor.Assets.AssetDatabase.SubAssetCache
+    name: SubAssetCache
+    href: Prowl.Editor.Assets.AssetDatabase.SubAssetCache.html
+- uid: Prowl.Editor.Assets.AssetDirectoryCache
+  commentId: T:Prowl.Editor.Assets.AssetDirectoryCache
+  parent: Prowl.Editor.Assets
+  href: Prowl.Editor.Assets.AssetDirectoryCache.html
+  name: AssetDirectoryCache
+  nameWithType: AssetDirectoryCache
+  fullName: Prowl.Editor.Assets.AssetDirectoryCache
+- uid: Prowl.Editor.Assets.AssetDirectoryCache.DirNode
+  commentId: T:Prowl.Editor.Assets.AssetDirectoryCache.DirNode
+  parent: Prowl.Editor.Assets
+  href: Prowl.Editor.Assets.AssetDirectoryCache.html
+  name: AssetDirectoryCache.DirNode
+  nameWithType: AssetDirectoryCache.DirNode
+  fullName: Prowl.Editor.Assets.AssetDirectoryCache.DirNode
+  spec.csharp:
+  - uid: Prowl.Editor.Assets.AssetDirectoryCache
+    name: AssetDirectoryCache
+    href: Prowl.Editor.Assets.AssetDirectoryCache.html
+  - name: .
+  - uid: Prowl.Editor.Assets.AssetDirectoryCache.DirNode
+    name: DirNode
+    href: Prowl.Editor.Assets.AssetDirectoryCache.DirNode.html
+  spec.vb:
+  - uid: Prowl.Editor.Assets.AssetDirectoryCache
+    name: AssetDirectoryCache
+    href: Prowl.Editor.Assets.AssetDirectoryCache.html
+  - name: .
+  - uid: Prowl.Editor.Assets.AssetDirectoryCache.DirNode
+    name: DirNode
+    href: Prowl.Editor.Assets.AssetDirectoryCache.DirNode.html
+- uid: Prowl.Editor.Assets.AssetDirectoryCache.FileNode
+  commentId: T:Prowl.Editor.Assets.AssetDirectoryCache.FileNode
+  parent: Prowl.Editor.Assets
+  href: Prowl.Editor.Assets.AssetDirectoryCache.html
+  name: AssetDirectoryCache.FileNode
+  nameWithType: AssetDirectoryCache.FileNode
+  fullName: Prowl.Editor.Assets.AssetDirectoryCache.FileNode
+  spec.csharp:
+  - uid: Prowl.Editor.Assets.AssetDirectoryCache
+    name: AssetDirectoryCache
+    href: Prowl.Editor.Assets.AssetDirectoryCache.html
+  - name: .
+  - uid: Prowl.Editor.Assets.AssetDirectoryCache.FileNode
+    name: FileNode
+    href: Prowl.Editor.Assets.AssetDirectoryCache.FileNode.html
+  spec.vb:
+  - uid: Prowl.Editor.Assets.AssetDirectoryCache
+    name: AssetDirectoryCache
+    href: Prowl.Editor.Assets.AssetDirectoryCache.html
+  - name: .
+  - uid: Prowl.Editor.Assets.AssetDirectoryCache.FileNode
+    name: FileNode
+    href: Prowl.Editor.Assets.AssetDirectoryCache.FileNode.html
+- uid: Prowl.Editor.Assets.EditorAssetProvider
+  commentId: T:Prowl.Editor.Assets.EditorAssetProvider
+  href: Prowl.Editor.Assets.EditorAssetProvider.html
+  name: EditorAssetProvider
+  nameWithType: EditorAssetProvider
+  fullName: Prowl.Editor.Assets.EditorAssetProvider
+- uid: Prowl.Editor.Assets.ImporterAttribute
+  commentId: T:Prowl.Editor.Assets.ImporterAttribute
+  parent: Prowl.Editor.Assets
+  href: Prowl.Editor.Assets.ImporterAttribute.html
+  name: ImporterAttribute
+  nameWithType: ImporterAttribute
+  fullName: Prowl.Editor.Assets.ImporterAttribute
+- uid: Prowl.Editor.Assets.CustomEditorAttribute
+  commentId: T:Prowl.Editor.Assets.CustomEditorAttribute
+  parent: Prowl.Editor.Assets
+  href: Prowl.Editor.Assets.CustomEditorAttribute.html
+  name: CustomEditorAttribute
+  nameWithType: CustomEditorAttribute
+  fullName: Prowl.Editor.Assets.CustomEditorAttribute
+- uid: Prowl.Editor.Assets.FontImporter
+  commentId: T:Prowl.Editor.Assets.FontImporter
+  parent: Prowl.Editor.Assets
+  href: Prowl.Editor.Assets.FontImporter.html
+  name: FontImporter
+  nameWithType: FontImporter
+  fullName: Prowl.Editor.Assets.FontImporter
+- uid: Prowl.Editor.Assets.FontEditor
+  commentId: T:Prowl.Editor.Assets.FontEditor
+  href: Prowl.Editor.Assets.FontEditor.html
+  name: FontEditor
+  nameWithType: FontEditor
+  fullName: Prowl.Editor.Assets.FontEditor
+- uid: Prowl.Editor.Assets.MaterialImporter
+  commentId: T:Prowl.Editor.Assets.MaterialImporter
+  parent: Prowl.Editor.Assets
+  href: Prowl.Editor.Assets.MaterialImporter.html
+  name: MaterialImporter
+  nameWithType: MaterialImporter
+  fullName: Prowl.Editor.Assets.MaterialImporter
+- uid: Prowl.Editor.Assets.MaterialImporterEditor
+  commentId: T:Prowl.Editor.Assets.MaterialImporterEditor
+  href: Prowl.Editor.Assets.MaterialImporterEditor.html
+  name: MaterialImporterEditor
+  nameWithType: MaterialImporterEditor
+  fullName: Prowl.Editor.Assets.MaterialImporterEditor
+- uid: Prowl.Editor.Assets.MeshImporter
+  commentId: T:Prowl.Editor.Assets.MeshImporter
+  href: Prowl.Editor.Assets.MeshImporter.html
+  name: MeshImporter
+  nameWithType: MeshImporter
+  fullName: Prowl.Editor.Assets.MeshImporter
+- uid: Prowl.Editor.Assets.ModelImporter
+  commentId: T:Prowl.Editor.Assets.ModelImporter
+  parent: Prowl.Editor.Assets
+  href: Prowl.Editor.Assets.ModelImporter.html
+  name: ModelImporter
+  nameWithType: ModelImporter
+  fullName: Prowl.Editor.Assets.ModelImporter
+- uid: Prowl.Editor.Assets.ModelEditor
+  commentId: T:Prowl.Editor.Assets.ModelEditor
+  href: Prowl.Editor.Assets.ModelEditor.html
+  name: ModelEditor
+  nameWithType: ModelEditor
+  fullName: Prowl.Editor.Assets.ModelEditor
+- uid: Prowl.Editor.Assets.MonoScriptImporter
+  commentId: T:Prowl.Editor.Assets.MonoScriptImporter
+  href: Prowl.Editor.Assets.MonoScriptImporter.html
+  name: MonoScriptImporter
+  nameWithType: MonoScriptImporter
+  fullName: Prowl.Editor.Assets.MonoScriptImporter
+- uid: Prowl.Editor.Assets.PrefabImporter
+  commentId: T:Prowl.Editor.Assets.PrefabImporter
+  href: Prowl.Editor.Assets.PrefabImporter.html
+  name: PrefabImporter
+  nameWithType: PrefabImporter
+  fullName: Prowl.Editor.Assets.PrefabImporter
+- uid: Prowl.Editor.Assets.SceneImporter
+  commentId: T:Prowl.Editor.Assets.SceneImporter
+  href: Prowl.Editor.Assets.SceneImporter.html
+  name: SceneImporter
+  nameWithType: SceneImporter
+  fullName: Prowl.Editor.Assets.SceneImporter
+- uid: Prowl.Editor.Assets.ScriptableObjectImporter
+  commentId: T:Prowl.Editor.Assets.ScriptableObjectImporter
+  parent: Prowl.Editor.Assets
+  href: Prowl.Editor.Assets.ScriptableObjectImporter.html
+  name: ScriptableObjectImporter
+  nameWithType: ScriptableObjectImporter
+  fullName: Prowl.Editor.Assets.ScriptableObjectImporter
+- uid: Prowl.Editor.Assets.ShaderImporter
+  commentId: T:Prowl.Editor.Assets.ShaderImporter
+  href: Prowl.Editor.Assets.ShaderImporter.html
+  name: ShaderImporter
+  nameWithType: ShaderImporter
+  fullName: Prowl.Editor.Assets.ShaderImporter
+- uid: Prowl.Editor.Assets.TextAssetImporter
+  commentId: T:Prowl.Editor.Assets.TextAssetImporter
+  href: Prowl.Editor.Assets.TextAssetImporter.html
+  name: TextAssetImporter
+  nameWithType: TextAssetImporter
+  fullName: Prowl.Editor.Assets.TextAssetImporter
+- uid: Prowl.Editor.Assets.TextureImporter
+  commentId: T:Prowl.Editor.Assets.TextureImporter
+  parent: Prowl.Editor.Assets
+  href: Prowl.Editor.Assets.TextureImporter.html
+  name: TextureImporter
+  nameWithType: TextureImporter
+  fullName: Prowl.Editor.Assets.TextureImporter
+- uid: Prowl.Editor.Assets.ScriptedEditor
+  commentId: T:Prowl.Editor.Assets.ScriptedEditor
+  parent: Prowl.Editor.Assets
+  href: Prowl.Editor.Assets.ScriptedEditor.html
+  name: ScriptedEditor
+  nameWithType: ScriptedEditor
+  fullName: Prowl.Editor.Assets.ScriptedEditor
+- uid: Prowl.Editor.Assets.TextureEditor
+  commentId: T:Prowl.Editor.Assets.TextureEditor
+  href: Prowl.Editor.Assets.TextureEditor.html
+  name: TextureEditor
+  nameWithType: TextureEditor
+  fullName: Prowl.Editor.Assets.TextureEditor
+- uid: Prowl.Editor.Assets.MetaFile
+  commentId: T:Prowl.Editor.Assets.MetaFile
+  parent: Prowl.Editor.Assets
+  href: Prowl.Editor.Assets.MetaFile.html
+  name: MetaFile
+  nameWithType: MetaFile
+  fullName: Prowl.Editor.Assets.MetaFile
+- uid: Prowl.Editor.Assets.ScriptedImporter
+  commentId: T:Prowl.Editor.Assets.ScriptedImporter
+  parent: Prowl.Editor.Assets
+  href: Prowl.Editor.Assets.ScriptedImporter.html
+  name: ScriptedImporter
+  nameWithType: ScriptedImporter
+  fullName: Prowl.Editor.Assets.ScriptedImporter
+- uid: Prowl.Editor.Assets
+  commentId: N:Prowl.Editor.Assets
+  href: Prowl.html
+  name: Prowl.Editor.Assets
+  nameWithType: Prowl.Editor.Assets
+  fullName: Prowl.Editor.Assets
+  spec.csharp:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Editor
+    name: Editor
+    href: Prowl.Editor.html
+  - name: .
+  - uid: Prowl.Editor.Assets
+    name: Assets
+    href: Prowl.Editor.Assets.html
+  spec.vb:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Editor
+    name: Editor
+    href: Prowl.Editor.html
+  - name: .
+  - uid: Prowl.Editor.Assets
+    name: Assets
+    href: Prowl.Editor.Assets.html

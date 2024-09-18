@@ -1,0 +1,106 @@
+### YamlMime:ManagedReference
+items:
+- uid: Prowl.Runtime.GUI.Graphics
+  commentId: N:Prowl.Runtime.GUI.Graphics
+  id: Prowl.Runtime.GUI.Graphics
+  children:
+  - Prowl.Runtime.GUI.Graphics.ColorSpaceHandling
+  - Prowl.Runtime.GUI.Graphics.UIDrawChannel
+  - Prowl.Runtime.GUI.Graphics.UIDrawCmd
+  - Prowl.Runtime.GUI.Graphics.UIDrawList
+  - Prowl.Runtime.GUI.Graphics.UIDrawListRenderer
+  - Prowl.Runtime.GUI.Graphics.UIListExtensions
+  - Prowl.Runtime.GUI.Graphics.UIVertex
+  langs:
+  - csharp
+  - vb
+  name: Prowl.Runtime.GUI.Graphics
+  nameWithType: Prowl.Runtime.GUI.Graphics
+  fullName: Prowl.Runtime.GUI.Graphics
+  type: Namespace
+  assemblies:
+  - Prowl.Runtime
+references:
+- uid: Prowl.Runtime.GUI.Graphics.UIDrawChannel
+  commentId: T:Prowl.Runtime.GUI.Graphics.UIDrawChannel
+  href: Prowl.Runtime.GUI.Graphics.UIDrawChannel.html
+  name: UIDrawChannel
+  nameWithType: UIDrawChannel
+  fullName: Prowl.Runtime.GUI.Graphics.UIDrawChannel
+- uid: Prowl.Runtime.GUI.Graphics.UIVertex
+  commentId: T:Prowl.Runtime.GUI.Graphics.UIVertex
+  href: Prowl.Runtime.GUI.Graphics.UIVertex.html
+  name: UIVertex
+  nameWithType: UIVertex
+  fullName: Prowl.Runtime.GUI.Graphics.UIVertex
+- uid: Prowl.Runtime.GUI.Graphics.UIDrawCmd
+  commentId: T:Prowl.Runtime.GUI.Graphics.UIDrawCmd
+  parent: Prowl.Runtime.GUI.Graphics
+  href: Prowl.Runtime.GUI.Graphics.UIDrawCmd.html
+  name: UIDrawCmd
+  nameWithType: UIDrawCmd
+  fullName: Prowl.Runtime.GUI.Graphics.UIDrawCmd
+- uid: Prowl.Runtime.GUI.Graphics.UIDrawList
+  commentId: T:Prowl.Runtime.GUI.Graphics.UIDrawList
+  parent: Prowl.Runtime.GUI.Graphics
+  href: Prowl.Runtime.GUI.Graphics.UIDrawList.html
+  name: UIDrawList
+  nameWithType: UIDrawList
+  fullName: Prowl.Runtime.GUI.Graphics.UIDrawList
+- uid: Prowl.Runtime.GUI.Graphics.ColorSpaceHandling
+  commentId: T:Prowl.Runtime.GUI.Graphics.ColorSpaceHandling
+  parent: Prowl.Runtime.GUI.Graphics
+  href: Prowl.Runtime.GUI.Graphics.ColorSpaceHandling.html
+  name: ColorSpaceHandling
+  nameWithType: ColorSpaceHandling
+  fullName: Prowl.Runtime.GUI.Graphics.ColorSpaceHandling
+- uid: Prowl.Runtime.GUI.Graphics.UIDrawListRenderer
+  commentId: T:Prowl.Runtime.GUI.Graphics.UIDrawListRenderer
+  href: Prowl.Runtime.GUI.Graphics.UIDrawListRenderer.html
+  name: UIDrawListRenderer
+  nameWithType: UIDrawListRenderer
+  fullName: Prowl.Runtime.GUI.Graphics.UIDrawListRenderer
+- uid: Prowl.Runtime.GUI.Graphics.UIListExtensions
+  commentId: T:Prowl.Runtime.GUI.Graphics.UIListExtensions
+  href: Prowl.Runtime.GUI.Graphics.UIListExtensions.html
+  name: UIListExtensions
+  nameWithType: UIListExtensions
+  fullName: Prowl.Runtime.GUI.Graphics.UIListExtensions
+- uid: Prowl.Runtime.GUI.Graphics
+  commentId: N:Prowl.Runtime.GUI.Graphics
+  href: Prowl.html
+  name: Prowl.Runtime.GUI.Graphics
+  nameWithType: Prowl.Runtime.GUI.Graphics
+  fullName: Prowl.Runtime.GUI.Graphics
+  spec.csharp:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+  - name: .
+  - uid: Prowl.Runtime.GUI
+    name: GUI
+    href: Prowl.Runtime.GUI.html
+  - name: .
+  - uid: Prowl.Runtime.GUI.Graphics
+    name: Graphics
+    href: Prowl.Runtime.GUI.Graphics.html
+  spec.vb:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+  - name: .
+  - uid: Prowl.Runtime.GUI
+    name: GUI
+    href: Prowl.Runtime.GUI.html
+  - name: .
+  - uid: Prowl.Runtime.GUI.Graphics
+    name: Graphics
+    href: Prowl.Runtime.GUI.Graphics.html

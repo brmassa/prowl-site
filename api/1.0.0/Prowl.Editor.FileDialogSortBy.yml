@@ -1,0 +1,285 @@
+### YamlMime:ManagedReference
+items:
+- uid: Prowl.Editor.FileDialogSortBy
+  commentId: T:Prowl.Editor.FileDialogSortBy
+  id: FileDialogSortBy
+  parent: Prowl.Editor
+  children:
+  - Prowl.Editor.FileDialogSortBy.Date
+  - Prowl.Editor.FileDialogSortBy.Name
+  - Prowl.Editor.FileDialogSortBy.None
+  - Prowl.Editor.FileDialogSortBy.Size
+  - Prowl.Editor.FileDialogSortBy.Type
+  langs:
+  - csharp
+  - vb
+  name: FileDialogSortBy
+  nameWithType: FileDialogSortBy
+  fullName: Prowl.Editor.FileDialogSortBy
+  type: Enum
+  source:
+    remote:
+      path: Prowl.Editor/Editor/Widgets/FileDialog.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: FileDialogSortBy
+    path: ../Prowl/Prowl.Editor/Editor/Widgets/FileDialog.cs
+    startLine: 19
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor
+  syntax:
+    content: public enum FileDialogSortBy
+    content.vb: Public Enum FileDialogSortBy
+  extensionMethods:
+  - System.Object.Prowl.Runtime.RuntimeUtils.GetSerializableFields
+- uid: Prowl.Editor.FileDialogSortBy.Name
+  commentId: F:Prowl.Editor.FileDialogSortBy.Name
+  id: Name
+  parent: Prowl.Editor.FileDialogSortBy
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: FileDialogSortBy.Name
+  fullName: Prowl.Editor.FileDialogSortBy.Name
+  type: Field
+  source:
+    remote:
+      path: Prowl.Editor/Editor/Widgets/FileDialog.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Name
+    path: ../Prowl/Prowl.Editor/Editor/Widgets/FileDialog.cs
+    startLine: 21
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor
+  syntax:
+    content: Name = 0
+    return:
+      type: Prowl.Editor.FileDialogSortBy
+- uid: Prowl.Editor.FileDialogSortBy.Date
+  commentId: F:Prowl.Editor.FileDialogSortBy.Date
+  id: Date
+  parent: Prowl.Editor.FileDialogSortBy
+  langs:
+  - csharp
+  - vb
+  name: Date
+  nameWithType: FileDialogSortBy.Date
+  fullName: Prowl.Editor.FileDialogSortBy.Date
+  type: Field
+  source:
+    remote:
+      path: Prowl.Editor/Editor/Widgets/FileDialog.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Date
+    path: ../Prowl/Prowl.Editor/Editor/Widgets/FileDialog.cs
+    startLine: 22
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor
+  syntax:
+    content: Date = 1
+    return:
+      type: Prowl.Editor.FileDialogSortBy
+- uid: Prowl.Editor.FileDialogSortBy.Size
+  commentId: F:Prowl.Editor.FileDialogSortBy.Size
+  id: Size
+  parent: Prowl.Editor.FileDialogSortBy
+  langs:
+  - csharp
+  - vb
+  name: Size
+  nameWithType: FileDialogSortBy.Size
+  fullName: Prowl.Editor.FileDialogSortBy.Size
+  type: Field
+  source:
+    remote:
+      path: Prowl.Editor/Editor/Widgets/FileDialog.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Size
+    path: ../Prowl/Prowl.Editor/Editor/Widgets/FileDialog.cs
+    startLine: 23
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor
+  syntax:
+    content: Size = 2
+    return:
+      type: Prowl.Editor.FileDialogSortBy
+- uid: Prowl.Editor.FileDialogSortBy.Type
+  commentId: F:Prowl.Editor.FileDialogSortBy.Type
+  id: Type
+  parent: Prowl.Editor.FileDialogSortBy
+  langs:
+  - csharp
+  - vb
+  name: Type
+  nameWithType: FileDialogSortBy.Type
+  fullName: Prowl.Editor.FileDialogSortBy.Type
+  type: Field
+  source:
+    remote:
+      path: Prowl.Editor/Editor/Widgets/FileDialog.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Type
+    path: ../Prowl/Prowl.Editor/Editor/Widgets/FileDialog.cs
+    startLine: 24
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor
+  syntax:
+    content: Type = 3
+    return:
+      type: Prowl.Editor.FileDialogSortBy
+- uid: Prowl.Editor.FileDialogSortBy.None
+  commentId: F:Prowl.Editor.FileDialogSortBy.None
+  id: None
+  parent: Prowl.Editor.FileDialogSortBy
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: FileDialogSortBy.None
+  fullName: Prowl.Editor.FileDialogSortBy.None
+  type: Field
+  source:
+    remote:
+      path: Prowl.Editor/Editor/Widgets/FileDialog.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: None
+    path: ../Prowl/Prowl.Editor/Editor/Widgets/FileDialog.cs
+    startLine: 25
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor
+  syntax:
+    content: None = 4
+    return:
+      type: Prowl.Editor.FileDialogSortBy
+references:
+- uid: Prowl.Editor
+  commentId: N:Prowl.Editor
+  href: Prowl.html
+  name: Prowl.Editor
+  nameWithType: Prowl.Editor
+  fullName: Prowl.Editor
+  spec.csharp:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Editor
+    name: Editor
+    href: Prowl.Editor.html
+  spec.vb:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Editor
+    name: Editor
+    href: Prowl.Editor.html
+- uid: System.Object.Prowl.Runtime.RuntimeUtils.GetSerializableFields
+  commentId: M:Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  parent: Prowl.Runtime.RuntimeUtils
+  definition: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  name: GetSerializableFields(object)
+  nameWithType: RuntimeUtils.GetSerializableFields(object)
+  fullName: Prowl.Runtime.RuntimeUtils.GetSerializableFields(object)
+  nameWithType.vb: RuntimeUtils.GetSerializableFields(Object)
+  fullName.vb: Prowl.Runtime.RuntimeUtils.GetSerializableFields(Object)
+  name.vb: GetSerializableFields(Object)
+  spec.csharp:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  commentId: M:Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  isExternal: true
+  href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  name: GetSerializableFields(object)
+  nameWithType: RuntimeUtils.GetSerializableFields(object)
+  fullName: Prowl.Runtime.RuntimeUtils.GetSerializableFields(object)
+  nameWithType.vb: RuntimeUtils.GetSerializableFields(Object)
+  fullName.vb: Prowl.Runtime.RuntimeUtils.GetSerializableFields(Object)
+  name.vb: GetSerializableFields(Object)
+  spec.csharp:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: Prowl.Runtime.RuntimeUtils
+  commentId: T:Prowl.Runtime.RuntimeUtils
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.RuntimeUtils.html
+  name: RuntimeUtils
+  nameWithType: RuntimeUtils
+  fullName: Prowl.Runtime.RuntimeUtils
+- uid: Prowl.Runtime
+  commentId: N:Prowl.Runtime
+  href: Prowl.html
+  name: Prowl.Runtime
+  nameWithType: Prowl.Runtime
+  fullName: Prowl.Runtime
+  spec.csharp:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+  spec.vb:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+- uid: Prowl.Editor.FileDialogSortBy
+  commentId: T:Prowl.Editor.FileDialogSortBy
+  parent: Prowl.Editor
+  href: Prowl.Editor.FileDialogSortBy.html
+  name: FileDialogSortBy
+  nameWithType: FileDialogSortBy
+  fullName: Prowl.Editor.FileDialogSortBy

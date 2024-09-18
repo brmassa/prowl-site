@@ -1,0 +1,6 @@
+- name: Versions
+  href: index.md
+- name: 1.0,0
+  href: 1.0.0/
+- name: 1.2.0-beta
+  href: 1.2.0-beta/

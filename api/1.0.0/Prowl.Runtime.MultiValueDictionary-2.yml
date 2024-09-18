@@ -1,0 +1,3468 @@
+### YamlMime:ManagedReference
+items:
+- uid: Prowl.Runtime.MultiValueDictionary`2
+  commentId: T:Prowl.Runtime.MultiValueDictionary`2
+  id: MultiValueDictionary`2
+  parent: Prowl.Runtime
+  children:
+  - Prowl.Runtime.MultiValueDictionary`2.#ctor
+  - Prowl.Runtime.MultiValueDictionary`2.#ctor(System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{`0,System.Collections.Generic.IReadOnlyCollection{`1}}})
+  - Prowl.Runtime.MultiValueDictionary`2.#ctor(System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{`0,System.Collections.Generic.IReadOnlyCollection{`1}}},System.Collections.Generic.IEqualityComparer{`0})
+  - Prowl.Runtime.MultiValueDictionary`2.#ctor(System.Collections.Generic.IEqualityComparer{`0})
+  - Prowl.Runtime.MultiValueDictionary`2.#ctor(System.Int32)
+  - Prowl.Runtime.MultiValueDictionary`2.#ctor(System.Int32,System.Collections.Generic.IEqualityComparer{`0})
+  - Prowl.Runtime.MultiValueDictionary`2.Add(`0,`1)
+  - Prowl.Runtime.MultiValueDictionary`2.AddRange(`0,System.Collections.Generic.IEnumerable{`1})
+  - Prowl.Runtime.MultiValueDictionary`2.Clear
+  - Prowl.Runtime.MultiValueDictionary`2.Contains(`0,`1)
+  - Prowl.Runtime.MultiValueDictionary`2.ContainsKey(`0)
+  - Prowl.Runtime.MultiValueDictionary`2.ContainsValue(`1)
+  - Prowl.Runtime.MultiValueDictionary`2.Count
+  - Prowl.Runtime.MultiValueDictionary`2.Create``1
+  - Prowl.Runtime.MultiValueDictionary`2.Create``1(System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{`0,System.Collections.Generic.IReadOnlyCollection{`1}}})
+  - Prowl.Runtime.MultiValueDictionary`2.Create``1(System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{`0,System.Collections.Generic.IReadOnlyCollection{`1}}},System.Collections.Generic.IEqualityComparer{`0})
+  - Prowl.Runtime.MultiValueDictionary`2.Create``1(System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{`0,System.Collections.Generic.IReadOnlyCollection{`1}}},System.Collections.Generic.IEqualityComparer{`0},System.Func{``0})
+  - Prowl.Runtime.MultiValueDictionary`2.Create``1(System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{`0,System.Collections.Generic.IReadOnlyCollection{`1}}},System.Func{``0})
+  - Prowl.Runtime.MultiValueDictionary`2.Create``1(System.Collections.Generic.IEqualityComparer{`0})
+  - Prowl.Runtime.MultiValueDictionary`2.Create``1(System.Collections.Generic.IEqualityComparer{`0},System.Func{``0})
+  - Prowl.Runtime.MultiValueDictionary`2.Create``1(System.Func{``0})
+  - Prowl.Runtime.MultiValueDictionary`2.Create``1(System.Int32)
+  - Prowl.Runtime.MultiValueDictionary`2.Create``1(System.Int32,System.Collections.Generic.IEqualityComparer{`0})
+  - Prowl.Runtime.MultiValueDictionary`2.Create``1(System.Int32,System.Collections.Generic.IEqualityComparer{`0},System.Func{``0})
+  - Prowl.Runtime.MultiValueDictionary`2.Create``1(System.Int32,System.Func{``0})
+  - Prowl.Runtime.MultiValueDictionary`2.GetEnumerator
+  - Prowl.Runtime.MultiValueDictionary`2.Item(`0)
+  - Prowl.Runtime.MultiValueDictionary`2.Keys
+  - Prowl.Runtime.MultiValueDictionary`2.Remove(`0)
+  - Prowl.Runtime.MultiValueDictionary`2.Remove(`0,`1)
+  - Prowl.Runtime.MultiValueDictionary`2.TryGetValue(`0,System.Collections.Generic.IReadOnlyCollection{`1}@)
+  - Prowl.Runtime.MultiValueDictionary`2.Values
+  langs:
+  - csharp
+  - vb
+  name: MultiValueDictionary<TKey, TValue>
+  nameWithType: MultiValueDictionary<TKey, TValue>
+  fullName: Prowl.Runtime.MultiValueDictionary<TKey, TValue>
+  type: Class
+  source:
+    remote:
+      path: Prowl.Runtime/Utils/MultiValueDictionary.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: MultiValueDictionary
+    path: ../Prowl/Prowl.Runtime/Utils/MultiValueDictionary.cs
+    startLine: 29
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: >-
+    A MultiValueDictionary can be viewed as a <xref href="System.Collections.IDictionary" data-throw-if-not-resolved="false"></xref> that allows multiple
+
+    values for any given unique key. While the MultiValueDictionary API is
+
+    mostly the same as that of a regular <xref href="System.Collections.IDictionary" data-throw-if-not-resolved="false"></xref>, there is a distinction
+
+    in that getting the value for a key returns a <xref href="System.Collections.Generic.IReadOnlyCollection%601" data-throw-if-not-resolved="false"></xref> of values
+
+    rather than a single value associated with that key. Additionally,
+
+    there is functionality to allow adding or removing more than a single
+
+    value at once.
+
+
+    The MultiValueDictionary can also be viewed as a IReadOnlyDictionary&lt;TKey,IReadOnlyCollection&lt;TValue&gt;t&gt;
+
+    where the <xref href="System.Collections.Generic.IReadOnlyCollection%601" data-throw-if-not-resolved="false"></xref> is abstracted from the view of the programmer.
+
+
+    For a read-only MultiValueDictionary, see <xref href="System.Linq.ILookup%602" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: 'public class MultiValueDictionary<TKey, TValue> : IReadOnlyDictionary<TKey, IReadOnlyCollection<TValue>>, IReadOnlyCollection<KeyValuePair<TKey, IReadOnlyCollection<TValue>>>, IEnumerable<KeyValuePair<TKey, IReadOnlyCollection<TValue>>>, IEnumerable where TKey : notnull'
+    typeParameters:
+    - id: TKey
+      description: The type of the key.
+    - id: TValue
+      description: The type of the value.
+    content.vb: Public Class MultiValueDictionary(Of TKey, TValue) Implements IReadOnlyDictionary(Of TKey, IReadOnlyCollection(Of TValue)), IReadOnlyCollection(Of KeyValuePair(Of TKey, IReadOnlyCollection(Of TValue))), IEnumerable(Of KeyValuePair(Of TKey, IReadOnlyCollection(Of TValue))), IEnumerable
+  inheritance:
+  - System.Object
+  implements:
+  - System.Collections.Generic.IReadOnlyDictionary{{TKey},System.Collections.Generic.IReadOnlyCollection{{TValue}}}
+  - System.Collections.Generic.IReadOnlyCollection{System.Collections.Generic.KeyValuePair{{TKey},System.Collections.Generic.IReadOnlyCollection{{TValue}}}}
+  - System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{{TKey},System.Collections.Generic.IReadOnlyCollection{{TValue}}}}
+  - System.Collections.IEnumerable
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  extensionMethods:
+  - System.Object.Prowl.Runtime.RuntimeUtils.GetSerializableFields
+  nameWithType.vb: MultiValueDictionary(Of TKey, TValue)
+  fullName.vb: Prowl.Runtime.MultiValueDictionary(Of TKey, TValue)
+  name.vb: MultiValueDictionary(Of TKey, TValue)
+- uid: Prowl.Runtime.MultiValueDictionary`2.#ctor
+  commentId: M:Prowl.Runtime.MultiValueDictionary`2.#ctor
+  id: '#ctor'
+  parent: Prowl.Runtime.MultiValueDictionary`2
+  langs:
+  - csharp
+  - vb
+  name: MultiValueDictionary()
+  nameWithType: MultiValueDictionary<TKey, TValue>.MultiValueDictionary()
+  fullName: Prowl.Runtime.MultiValueDictionary<TKey, TValue>.MultiValueDictionary()
+  type: Constructor
+  source:
+    remote:
+      path: Prowl.Runtime/Utils/MultiValueDictionary.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: .ctor
+    path: ../Prowl/Prowl.Runtime/Utils/MultiValueDictionary.cs
+    startLine: 66
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: >-
+    Initializes a new instance of the <xref href="Prowl.Runtime.MultiValueDictionary%602" data-throw-if-not-resolved="false"></xref>
+
+    class that is empty, has the default initial capacity, and uses the default
+
+    <xref href="System.Collections.Generic.IEqualityComparer%601" data-throw-if-not-resolved="false"></xref> for <code class="typeparamref">TKey</code>.
+  example: []
+  syntax:
+    content: public MultiValueDictionary()
+    content.vb: Public Sub New()
+  overload: Prowl.Runtime.MultiValueDictionary`2.#ctor*
+  nameWithType.vb: MultiValueDictionary(Of TKey, TValue).New()
+  fullName.vb: Prowl.Runtime.MultiValueDictionary(Of TKey, TValue).New()
+  name.vb: New()
+- uid: Prowl.Runtime.MultiValueDictionary`2.#ctor(System.Int32)
+  commentId: M:Prowl.Runtime.MultiValueDictionary`2.#ctor(System.Int32)
+  id: '#ctor(System.Int32)'
+  parent: Prowl.Runtime.MultiValueDictionary`2
+  langs:
+  - csharp
+  - vb
+  name: MultiValueDictionary(int)
+  nameWithType: MultiValueDictionary<TKey, TValue>.MultiValueDictionary(int)
+  fullName: Prowl.Runtime.MultiValueDictionary<TKey, TValue>.MultiValueDictionary(int)
+  type: Constructor
+  source:
+    remote:
+      path: Prowl.Runtime/Utils/MultiValueDictionary.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: .ctor
+    path: ../Prowl/Prowl.Runtime/Utils/MultiValueDictionary.cs
+    startLine: 78
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: >-
+    Initializes a new instance of the <xref href="Prowl.Runtime.MultiValueDictionary%602" data-throw-if-not-resolved="false"></xref> class that is
+
+    empty, has the specified initial capacity, and uses the default <xref href="System.Collections.Generic.IEqualityComparer%601" data-throw-if-not-resolved="false"></xref>
+
+    for <code class="typeparamref">TKey</code>.
+  example: []
+  syntax:
+    content: public MultiValueDictionary(int capacity)
+    parameters:
+    - id: capacity
+      type: System.Int32
+      description: Initial number of keys that the <xref href="Prowl.Runtime.MultiValueDictionary%602" data-throw-if-not-resolved="false"></xref> will allocate space for
+    content.vb: Public Sub New(capacity As Integer)
+  overload: Prowl.Runtime.MultiValueDictionary`2.#ctor*
+  exceptions:
+  - type: System.ArgumentOutOfRangeException
+    commentId: T:System.ArgumentOutOfRangeException
+    description: capacity must be &gt;= 0
+  nameWithType.vb: MultiValueDictionary(Of TKey, TValue).New(Integer)
+  fullName.vb: Prowl.Runtime.MultiValueDictionary(Of TKey, TValue).New(Integer)
+  name.vb: New(Integer)
+- uid: Prowl.Runtime.MultiValueDictionary`2.#ctor(System.Collections.Generic.IEqualityComparer{`0})
+  commentId: M:Prowl.Runtime.MultiValueDictionary`2.#ctor(System.Collections.Generic.IEqualityComparer{`0})
+  id: '#ctor(System.Collections.Generic.IEqualityComparer{`0})'
+  parent: Prowl.Runtime.MultiValueDictionary`2
+  langs:
+  - csharp
+  - vb
+  name: MultiValueDictionary(IEqualityComparer<TKey>)
+  nameWithType: MultiValueDictionary<TKey, TValue>.MultiValueDictionary(IEqualityComparer<TKey>)
+  fullName: Prowl.Runtime.MultiValueDictionary<TKey, TValue>.MultiValueDictionary(System.Collections.Generic.IEqualityComparer<TKey>)
+  type: Constructor
+  source:
+    remote:
+      path: Prowl.Runtime/Utils/MultiValueDictionary.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: .ctor
+    path: ../Prowl/Prowl.Runtime/Utils/MultiValueDictionary.cs
+    startLine: 92
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: >-
+    Initializes a new instance of the <xref href="Prowl.Runtime.MultiValueDictionary%602" data-throw-if-not-resolved="false"></xref> class
+
+    that is empty, has the default initial capacity, and uses the
+
+    specified <xref href="System.Collections.Generic.IEqualityComparer%601" data-throw-if-not-resolved="false"></xref>.
+  remarks: If <code class="paramref">comparer</code> is set to null, then the default <xref href="System.Collections.IEqualityComparer" data-throw-if-not-resolved="false"></xref> for <code class="typeparamref">TKey</code> is used.
+  example: []
+  syntax:
+    content: public MultiValueDictionary(IEqualityComparer<TKey> comparer)
+    parameters:
+    - id: comparer
+      type: System.Collections.Generic.IEqualityComparer{{TKey}}
+      description: Specified comparer to use for the <code class="typeparamref">TKey</code>s
+    content.vb: Public Sub New(comparer As IEqualityComparer(Of TKey))
+  overload: Prowl.Runtime.MultiValueDictionary`2.#ctor*
+  nameWithType.vb: MultiValueDictionary(Of TKey, TValue).New(IEqualityComparer(Of TKey))
+  fullName.vb: Prowl.Runtime.MultiValueDictionary(Of TKey, TValue).New(System.Collections.Generic.IEqualityComparer(Of TKey))
+  name.vb: New(IEqualityComparer(Of TKey))
+- uid: Prowl.Runtime.MultiValueDictionary`2.#ctor(System.Int32,System.Collections.Generic.IEqualityComparer{`0})
+  commentId: M:Prowl.Runtime.MultiValueDictionary`2.#ctor(System.Int32,System.Collections.Generic.IEqualityComparer{`0})
+  id: '#ctor(System.Int32,System.Collections.Generic.IEqualityComparer{`0})'
+  parent: Prowl.Runtime.MultiValueDictionary`2
+  langs:
+  - csharp
+  - vb
+  name: MultiValueDictionary(int, IEqualityComparer<TKey>)
+  nameWithType: MultiValueDictionary<TKey, TValue>.MultiValueDictionary(int, IEqualityComparer<TKey>)
+  fullName: Prowl.Runtime.MultiValueDictionary<TKey, TValue>.MultiValueDictionary(int, System.Collections.Generic.IEqualityComparer<TKey>)
+  type: Constructor
+  source:
+    remote:
+      path: Prowl.Runtime/Utils/MultiValueDictionary.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: .ctor
+    path: ../Prowl/Prowl.Runtime/Utils/MultiValueDictionary.cs
+    startLine: 106
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: >-
+    Initializes a new instance of the <xref href="Prowl.Runtime.MultiValueDictionary%602" data-throw-if-not-resolved="false"></xref> class
+
+    that is empty, has the specified initial capacity, and uses the
+
+    specified <xref href="System.Collections.Generic.IEqualityComparer%601" data-throw-if-not-resolved="false"></xref>.
+  remarks: If <code class="paramref">comparer</code> is set to null, then the default <xref href="System.Collections.IEqualityComparer" data-throw-if-not-resolved="false"></xref> for <code class="typeparamref">TKey</code> is used.
+  example: []
+  syntax:
+    content: public MultiValueDictionary(int capacity, IEqualityComparer<TKey> comparer)
+    parameters:
+    - id: capacity
+      type: System.Int32
+      description: Initial number of keys that the <xref href="Prowl.Runtime.MultiValueDictionary%602" data-throw-if-not-resolved="false"></xref> will allocate space for
+    - id: comparer
+      type: System.Collections.Generic.IEqualityComparer{{TKey}}
+      description: Specified comparer to use for the <code class="typeparamref">TKey</code>s
+    content.vb: Public Sub New(capacity As Integer, comparer As IEqualityComparer(Of TKey))
+  overload: Prowl.Runtime.MultiValueDictionary`2.#ctor*
+  exceptions:
+  - type: System.ArgumentOutOfRangeException
+    commentId: T:System.ArgumentOutOfRangeException
+    description: Capacity must be &gt;= 0
+  nameWithType.vb: MultiValueDictionary(Of TKey, TValue).New(Integer, IEqualityComparer(Of TKey))
+  fullName.vb: Prowl.Runtime.MultiValueDictionary(Of TKey, TValue).New(Integer, System.Collections.Generic.IEqualityComparer(Of TKey))
+  name.vb: New(Integer, IEqualityComparer(Of TKey))
+- uid: Prowl.Runtime.MultiValueDictionary`2.#ctor(System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{`0,System.Collections.Generic.IReadOnlyCollection{`1}}})
+  commentId: M:Prowl.Runtime.MultiValueDictionary`2.#ctor(System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{`0,System.Collections.Generic.IReadOnlyCollection{`1}}})
+  id: '#ctor(System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{`0,System.Collections.Generic.IReadOnlyCollection{`1}}})'
+  parent: Prowl.Runtime.MultiValueDictionary`2
+  langs:
+  - csharp
+  - vb
+  name: MultiValueDictionary(IEnumerable<KeyValuePair<TKey, IReadOnlyCollection<TValue>>>)
+  nameWithType: MultiValueDictionary<TKey, TValue>.MultiValueDictionary(IEnumerable<KeyValuePair<TKey, IReadOnlyCollection<TValue>>>)
+  fullName: Prowl.Runtime.MultiValueDictionary<TKey, TValue>.MultiValueDictionary(System.Collections.Generic.IEnumerable<System.Collections.Generic.KeyValuePair<TKey, System.Collections.Generic.IReadOnlyCollection<TValue>>>)
+  type: Constructor
+  source:
+    remote:
+      path: Prowl.Runtime/Utils/MultiValueDictionary.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: .ctor
+    path: ../Prowl/Prowl.Runtime/Utils/MultiValueDictionary.cs
+    startLine: 120
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: >-
+    Initializes a new instance of the <xref href="Prowl.Runtime.MultiValueDictionary%602" data-throw-if-not-resolved="false"></xref> class that contains
+
+    elements copied from the specified IEnumerable&lt;KeyValuePair&lt;TKey, IReadOnlyCollection&lt;TValue&gt;&gt;&gt; and uses the
+
+    default <xref href="System.Collections.Generic.IEqualityComparer%601" data-throw-if-not-resolved="false"></xref> for the <code class="typeparamref">TKey</code> type.
+  example: []
+  syntax:
+    content: public MultiValueDictionary(IEnumerable<KeyValuePair<TKey, IReadOnlyCollection<TValue>>> enumerable)
+    parameters:
+    - id: enumerable
+      type: System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{{TKey},System.Collections.Generic.IReadOnlyCollection{{TValue}}}}
+      description: IEnumerable to copy elements into this from
+    content.vb: Public Sub New(enumerable As IEnumerable(Of KeyValuePair(Of TKey, IReadOnlyCollection(Of TValue))))
+  overload: Prowl.Runtime.MultiValueDictionary`2.#ctor*
+  exceptions:
+  - type: System.ArgumentNullException
+    commentId: T:System.ArgumentNullException
+    description: enumerable must be non-null
+  nameWithType.vb: MultiValueDictionary(Of TKey, TValue).New(IEnumerable(Of KeyValuePair(Of TKey, IReadOnlyCollection(Of TValue))))
+  fullName.vb: Prowl.Runtime.MultiValueDictionary(Of TKey, TValue).New(System.Collections.Generic.IEnumerable(Of System.Collections.Generic.KeyValuePair(Of TKey, System.Collections.Generic.IReadOnlyCollection(Of TValue))))
+  name.vb: New(IEnumerable(Of KeyValuePair(Of TKey, IReadOnlyCollection(Of TValue))))
+- uid: Prowl.Runtime.MultiValueDictionary`2.#ctor(System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{`0,System.Collections.Generic.IReadOnlyCollection{`1}}},System.Collections.Generic.IEqualityComparer{`0})
+  commentId: M:Prowl.Runtime.MultiValueDictionary`2.#ctor(System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{`0,System.Collections.Generic.IReadOnlyCollection{`1}}},System.Collections.Generic.IEqualityComparer{`0})
+  id: '#ctor(System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{`0,System.Collections.Generic.IReadOnlyCollection{`1}}},System.Collections.Generic.IEqualityComparer{`0})'
+  parent: Prowl.Runtime.MultiValueDictionary`2
+  langs:
+  - csharp
+  - vb
+  name: MultiValueDictionary(IEnumerable<KeyValuePair<TKey, IReadOnlyCollection<TValue>>>, IEqualityComparer<TKey>)
+  nameWithType: MultiValueDictionary<TKey, TValue>.MultiValueDictionary(IEnumerable<KeyValuePair<TKey, IReadOnlyCollection<TValue>>>, IEqualityComparer<TKey>)
+  fullName: Prowl.Runtime.MultiValueDictionary<TKey, TValue>.MultiValueDictionary(System.Collections.Generic.IEnumerable<System.Collections.Generic.KeyValuePair<TKey, System.Collections.Generic.IReadOnlyCollection<TValue>>>, System.Collections.Generic.IEqualityComparer<TKey>)
+  type: Constructor
+  source:
+    remote:
+      path: Prowl.Runtime/Utils/MultiValueDictionary.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: .ctor
+    path: ../Prowl/Prowl.Runtime/Utils/MultiValueDictionary.cs
+    startLine: 133
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: >-
+    Initializes a new instance of the <xref href="Prowl.Runtime.MultiValueDictionary%602" data-throw-if-not-resolved="false"></xref> class that contains
+
+    elements copied from the specified IEnumerable&lt;KeyValuePair&lt;TKey, IReadOnlyCollection&lt;TValue&gt;&gt;&gt; and uses the
+
+    specified <xref href="System.Collections.Generic.IEqualityComparer%601" data-throw-if-not-resolved="false"></xref>.
+  remarks: If <code class="paramref">comparer</code> is set to null, then the default <xref href="System.Collections.IEqualityComparer" data-throw-if-not-resolved="false"></xref> for <code class="typeparamref">TKey</code> is used.
+  example: []
+  syntax:
+    content: public MultiValueDictionary(IEnumerable<KeyValuePair<TKey, IReadOnlyCollection<TValue>>> enumerable, IEqualityComparer<TKey> comparer)
+    parameters:
+    - id: enumerable
+      type: System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{{TKey},System.Collections.Generic.IReadOnlyCollection{{TValue}}}}
+      description: IEnumerable to copy elements into this from
+    - id: comparer
+      type: System.Collections.Generic.IEqualityComparer{{TKey}}
+      description: Specified comparer to use for the <code class="typeparamref">TKey</code>s
+    content.vb: Public Sub New(enumerable As IEnumerable(Of KeyValuePair(Of TKey, IReadOnlyCollection(Of TValue))), comparer As IEqualityComparer(Of TKey))
+  overload: Prowl.Runtime.MultiValueDictionary`2.#ctor*
+  exceptions:
+  - type: System.ArgumentNullException
+    commentId: T:System.ArgumentNullException
+    description: enumerable must be non-null
+  nameWithType.vb: MultiValueDictionary(Of TKey, TValue).New(IEnumerable(Of KeyValuePair(Of TKey, IReadOnlyCollection(Of TValue))), IEqualityComparer(Of TKey))
+  fullName.vb: Prowl.Runtime.MultiValueDictionary(Of TKey, TValue).New(System.Collections.Generic.IEnumerable(Of System.Collections.Generic.KeyValuePair(Of TKey, System.Collections.Generic.IReadOnlyCollection(Of TValue))), System.Collections.Generic.IEqualityComparer(Of TKey))
+  name.vb: New(IEnumerable(Of KeyValuePair(Of TKey, IReadOnlyCollection(Of TValue))), IEqualityComparer(Of TKey))
+- uid: Prowl.Runtime.MultiValueDictionary`2.Create``1
+  commentId: M:Prowl.Runtime.MultiValueDictionary`2.Create``1
+  id: Create``1
+  parent: Prowl.Runtime.MultiValueDictionary`2
+  langs:
+  - csharp
+  - vb
+  name: Create<TValueCollection>()
+  nameWithType: MultiValueDictionary<TKey, TValue>.Create<TValueCollection>()
+  fullName: Prowl.Runtime.MultiValueDictionary<TKey, TValue>.Create<TValueCollection>()
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Utils/MultiValueDictionary.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Create
+    path: ../Prowl/Prowl.Runtime/Utils/MultiValueDictionary.cs
+    startLine: 169
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: >-
+    Creates a new new instance of the <xref href="Prowl.Runtime.MultiValueDictionary%602" data-throw-if-not-resolved="false"></xref>
+
+    class that is empty, has the default initial capacity, and uses the default
+
+    <xref href="System.Collections.Generic.IEqualityComparer%601" data-throw-if-not-resolved="false"></xref> for <code class="typeparamref">TKey</code>. The
+
+    internal dictionary will use instances of the <code class="typeparamref">TValueCollection</code>
+
+    class as its collection type.
+  remarks: >-
+    Note that <code class="typeparamref">TValueCollection</code> must implement <xref href="System.Collections.Generic.ICollection%601" data-throw-if-not-resolved="false"></xref>
+
+    in addition to being constructable through new(). The collection returned from the constructor
+
+    must also not have IsReadOnly set to True by default.
+  example: []
+  syntax:
+    content: 'public static MultiValueDictionary<TKey, TValue> Create<TValueCollection>() where TValueCollection : ICollection<TValue>, new()'
+    typeParameters:
+    - id: TValueCollection
+      description: >-
+        The collection type that this <xref href="Prowl.Runtime.MultiValueDictionary%602" data-throw-if-not-resolved="false"></xref>
+
+        will contain in its internal dictionary.
+    return:
+      type: Prowl.Runtime.MultiValueDictionary`2
+      description: >-
+        A new <xref href="Prowl.Runtime.MultiValueDictionary%602" data-throw-if-not-resolved="false"></xref> with the specified
+            parameters.
+    content.vb: Public Shared Function Create(Of TValueCollection As {ICollection(Of TValue), New})() As MultiValueDictionary(Of TKey, TValue)
+  overload: Prowl.Runtime.MultiValueDictionary`2.Create*
+  exceptions:
+  - type: System.InvalidOperationException
+    commentId: T:System.InvalidOperationException
+    description: >-
+      <code class="typeparamref">TValueCollection</code> must not have
+
+      IsReadOnly set to true by default.
+  nameWithType.vb: MultiValueDictionary(Of TKey, TValue).Create(Of TValueCollection)()
+  fullName.vb: Prowl.Runtime.MultiValueDictionary(Of TKey, TValue).Create(Of TValueCollection)()
+  name.vb: Create(Of TValueCollection)()
+- uid: Prowl.Runtime.MultiValueDictionary`2.Create``1(System.Int32)
+  commentId: M:Prowl.Runtime.MultiValueDictionary`2.Create``1(System.Int32)
+  id: Create``1(System.Int32)
+  parent: Prowl.Runtime.MultiValueDictionary`2
+  langs:
+  - csharp
+  - vb
+  name: Create<TValueCollection>(int)
+  nameWithType: MultiValueDictionary<TKey, TValue>.Create<TValueCollection>(int)
+  fullName: Prowl.Runtime.MultiValueDictionary<TKey, TValue>.Create<TValueCollection>(int)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Utils/MultiValueDictionary.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Create
+    path: ../Prowl/Prowl.Runtime/Utils/MultiValueDictionary.cs
+    startLine: 203
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: >-
+    Creates a new new instance of the <xref href="Prowl.Runtime.MultiValueDictionary%602" data-throw-if-not-resolved="false"></xref>
+
+    class that is empty, has the specified initial capacity, and uses the default
+
+    <xref href="System.Collections.Generic.IEqualityComparer%601" data-throw-if-not-resolved="false"></xref> for <code class="typeparamref">TKey</code>. The
+
+    internal dictionary will use instances of the <code class="typeparamref">TValueCollection</code>
+
+    class as its collection type.
+  remarks: >-
+    Note that <code class="typeparamref">TValueCollection</code> must implement <xref href="System.Collections.Generic.ICollection%601" data-throw-if-not-resolved="false"></xref>
+
+    in addition to being constructable through new(). The collection returned from the constructor
+
+    must also not have IsReadOnly set to True by default.
+  example: []
+  syntax:
+    content: 'public static MultiValueDictionary<TKey, TValue> Create<TValueCollection>(int capacity) where TValueCollection : ICollection<TValue>, new()'
+    parameters:
+    - id: capacity
+      type: System.Int32
+      description: Initial number of keys that the <xref href="Prowl.Runtime.MultiValueDictionary%602" data-throw-if-not-resolved="false"></xref> will allocate space for
+    typeParameters:
+    - id: TValueCollection
+      description: >-
+        The collection type that this <xref href="Prowl.Runtime.MultiValueDictionary%602" data-throw-if-not-resolved="false"></xref>
+
+        will contain in its internal dictionary.
+    return:
+      type: Prowl.Runtime.MultiValueDictionary`2
+      description: >-
+        A new <xref href="Prowl.Runtime.MultiValueDictionary%602" data-throw-if-not-resolved="false"></xref> with the specified
+            parameters.
+    content.vb: Public Shared Function Create(Of TValueCollection As {ICollection(Of TValue), New})(capacity As Integer) As MultiValueDictionary(Of TKey, TValue)
+  overload: Prowl.Runtime.MultiValueDictionary`2.Create*
+  exceptions:
+  - type: System.ArgumentOutOfRangeException
+    commentId: T:System.ArgumentOutOfRangeException
+    description: Capacity must be &gt;= 0
+  - type: System.InvalidOperationException
+    commentId: T:System.InvalidOperationException
+    description: >-
+      <code class="typeparamref">TValueCollection</code> must not have
+
+      IsReadOnly set to true by default.
+  nameWithType.vb: MultiValueDictionary(Of TKey, TValue).Create(Of TValueCollection)(Integer)
+  fullName.vb: Prowl.Runtime.MultiValueDictionary(Of TKey, TValue).Create(Of TValueCollection)(Integer)
+  name.vb: Create(Of TValueCollection)(Integer)
+- uid: Prowl.Runtime.MultiValueDictionary`2.Create``1(System.Collections.Generic.IEqualityComparer{`0})
+  commentId: M:Prowl.Runtime.MultiValueDictionary`2.Create``1(System.Collections.Generic.IEqualityComparer{`0})
+  id: Create``1(System.Collections.Generic.IEqualityComparer{`0})
+  parent: Prowl.Runtime.MultiValueDictionary`2
+  langs:
+  - csharp
+  - vb
+  name: Create<TValueCollection>(IEqualityComparer<TKey>)
+  nameWithType: MultiValueDictionary<TKey, TValue>.Create<TValueCollection>(IEqualityComparer<TKey>)
+  fullName: Prowl.Runtime.MultiValueDictionary<TKey, TValue>.Create<TValueCollection>(System.Collections.Generic.IEqualityComparer<TKey>)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Utils/MultiValueDictionary.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Create
+    path: ../Prowl/Prowl.Runtime/Utils/MultiValueDictionary.cs
+    startLine: 239
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: >-
+    Creates a new new instance of the <xref href="Prowl.Runtime.MultiValueDictionary%602" data-throw-if-not-resolved="false"></xref>
+
+    class that is empty, has the default initial capacity, and uses the specified
+
+    <xref href="System.Collections.Generic.IEqualityComparer%601" data-throw-if-not-resolved="false"></xref> for <code class="typeparamref">TKey</code>. The
+
+    internal dictionary will use instances of the <code class="typeparamref">TValueCollection</code>
+
+    class as its collection type.
+  remarks: If <code class="paramref">comparer</code> is set to null, then the default <xref href="System.Collections.IEqualityComparer" data-throw-if-not-resolved="false"></xref> for <code class="typeparamref">TKey</code> is used.
+  example: []
+  syntax:
+    content: 'public static MultiValueDictionary<TKey, TValue> Create<TValueCollection>(IEqualityComparer<TKey> comparer) where TValueCollection : ICollection<TValue>, new()'
+    parameters:
+    - id: comparer
+      type: System.Collections.Generic.IEqualityComparer{{TKey}}
+      description: Specified comparer to use for the <code class="typeparamref">TKey</code>s
+    typeParameters:
+    - id: TValueCollection
+      description: >-
+        The collection type that this <xref href="Prowl.Runtime.MultiValueDictionary%602" data-throw-if-not-resolved="false"></xref>
+
+        will contain in its internal dictionary.
+    return:
+      type: Prowl.Runtime.MultiValueDictionary`2
+      description: >-
+        A new <xref href="Prowl.Runtime.MultiValueDictionary%602" data-throw-if-not-resolved="false"></xref> with the specified
+            parameters.
+    content.vb: Public Shared Function Create(Of TValueCollection As {ICollection(Of TValue), New})(comparer As IEqualityComparer(Of TKey)) As MultiValueDictionary(Of TKey, TValue)
+  overload: Prowl.Runtime.MultiValueDictionary`2.Create*
+  exceptions:
+  - type: System.InvalidOperationException
+    commentId: T:System.InvalidOperationException
+    description: >-
+      <code class="typeparamref">TValueCollection</code> must not have
+
+      IsReadOnly set to true by default.
+  nameWithType.vb: MultiValueDictionary(Of TKey, TValue).Create(Of TValueCollection)(IEqualityComparer(Of TKey))
+  fullName.vb: Prowl.Runtime.MultiValueDictionary(Of TKey, TValue).Create(Of TValueCollection)(System.Collections.Generic.IEqualityComparer(Of TKey))
+  name.vb: Create(Of TValueCollection)(IEqualityComparer(Of TKey))
+- uid: Prowl.Runtime.MultiValueDictionary`2.Create``1(System.Int32,System.Collections.Generic.IEqualityComparer{`0})
+  commentId: M:Prowl.Runtime.MultiValueDictionary`2.Create``1(System.Int32,System.Collections.Generic.IEqualityComparer{`0})
+  id: Create``1(System.Int32,System.Collections.Generic.IEqualityComparer{`0})
+  parent: Prowl.Runtime.MultiValueDictionary`2
+  langs:
+  - csharp
+  - vb
+  name: Create<TValueCollection>(int, IEqualityComparer<TKey>)
+  nameWithType: MultiValueDictionary<TKey, TValue>.Create<TValueCollection>(int, IEqualityComparer<TKey>)
+  fullName: Prowl.Runtime.MultiValueDictionary<TKey, TValue>.Create<TValueCollection>(int, System.Collections.Generic.IEqualityComparer<TKey>)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Utils/MultiValueDictionary.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Create
+    path: ../Prowl/Prowl.Runtime/Utils/MultiValueDictionary.cs
+    startLine: 275
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: >-
+    Creates a new new instance of the <xref href="Prowl.Runtime.MultiValueDictionary%602" data-throw-if-not-resolved="false"></xref>
+
+    class that is empty, has the specified initial capacity, and uses the specified
+
+    <xref href="System.Collections.Generic.IEqualityComparer%601" data-throw-if-not-resolved="false"></xref> for <code class="typeparamref">TKey</code>. The
+
+    internal dictionary will use instances of the <code class="typeparamref">TValueCollection</code>
+
+    class as its collection type.
+  remarks: If <code class="paramref">comparer</code> is set to null, then the default <xref href="System.Collections.IEqualityComparer" data-throw-if-not-resolved="false"></xref> for <code class="typeparamref">TKey</code> is used.
+  example: []
+  syntax:
+    content: 'public static MultiValueDictionary<TKey, TValue> Create<TValueCollection>(int capacity, IEqualityComparer<TKey> comparer) where TValueCollection : ICollection<TValue>, new()'
+    parameters:
+    - id: capacity
+      type: System.Int32
+      description: Initial number of keys that the <xref href="Prowl.Runtime.MultiValueDictionary%602" data-throw-if-not-resolved="false"></xref> will allocate space for
+    - id: comparer
+      type: System.Collections.Generic.IEqualityComparer{{TKey}}
+      description: Specified comparer to use for the <code class="typeparamref">TKey</code>s
+    typeParameters:
+    - id: TValueCollection
+      description: >-
+        The collection type that this <xref href="Prowl.Runtime.MultiValueDictionary%602" data-throw-if-not-resolved="false"></xref>
+
+        will contain in its internal dictionary.
+    return:
+      type: Prowl.Runtime.MultiValueDictionary`2
+      description: >-
+        A new <xref href="Prowl.Runtime.MultiValueDictionary%602" data-throw-if-not-resolved="false"></xref> with the specified
+            parameters.
+    content.vb: Public Shared Function Create(Of TValueCollection As {ICollection(Of TValue), New})(capacity As Integer, comparer As IEqualityComparer(Of TKey)) As MultiValueDictionary(Of TKey, TValue)
+  overload: Prowl.Runtime.MultiValueDictionary`2.Create*
+  exceptions:
+  - type: System.InvalidOperationException
+    commentId: T:System.InvalidOperationException
+    description: >-
+      <code class="typeparamref">TValueCollection</code> must not have
+
+      IsReadOnly set to true by default.
+  - type: System.ArgumentOutOfRangeException
+    commentId: T:System.ArgumentOutOfRangeException
+    description: Capacity must be &gt;= 0
+  nameWithType.vb: MultiValueDictionary(Of TKey, TValue).Create(Of TValueCollection)(Integer, IEqualityComparer(Of TKey))
+  fullName.vb: Prowl.Runtime.MultiValueDictionary(Of TKey, TValue).Create(Of TValueCollection)(Integer, System.Collections.Generic.IEqualityComparer(Of TKey))
+  name.vb: Create(Of TValueCollection)(Integer, IEqualityComparer(Of TKey))
+- uid: Prowl.Runtime.MultiValueDictionary`2.Create``1(System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{`0,System.Collections.Generic.IReadOnlyCollection{`1}}})
+  commentId: M:Prowl.Runtime.MultiValueDictionary`2.Create``1(System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{`0,System.Collections.Generic.IReadOnlyCollection{`1}}})
+  id: Create``1(System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{`0,System.Collections.Generic.IReadOnlyCollection{`1}}})
+  parent: Prowl.Runtime.MultiValueDictionary`2
+  langs:
+  - csharp
+  - vb
+  name: Create<TValueCollection>(IEnumerable<KeyValuePair<TKey, IReadOnlyCollection<TValue>>>)
+  nameWithType: MultiValueDictionary<TKey, TValue>.Create<TValueCollection>(IEnumerable<KeyValuePair<TKey, IReadOnlyCollection<TValue>>>)
+  fullName: Prowl.Runtime.MultiValueDictionary<TKey, TValue>.Create<TValueCollection>(System.Collections.Generic.IEnumerable<System.Collections.Generic.KeyValuePair<TKey, System.Collections.Generic.IReadOnlyCollection<TValue>>>)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Utils/MultiValueDictionary.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Create
+    path: ../Prowl/Prowl.Runtime/Utils/MultiValueDictionary.cs
+    startLine: 311
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: >-
+    Initializes a new instance of the <xref href="Prowl.Runtime.MultiValueDictionary%602" data-throw-if-not-resolved="false"></xref> class that contains
+
+    elements copied from the specified IEnumerable&lt;KeyValuePair&lt;TKey, IReadOnlyCollection&lt;TValue&gt;&gt;&gt;
+
+    and uses the default <xref href="System.Collections.Generic.IEqualityComparer%601" data-throw-if-not-resolved="false"></xref> for the <code class="typeparamref">TKey</code> type.
+
+    The internal dictionary will use instances of the <code class="typeparamref">TValueCollection</code>
+
+    class as its collection type.
+  remarks: >-
+    Note that <code class="typeparamref">TValueCollection</code> must implement <xref href="System.Collections.Generic.ICollection%601" data-throw-if-not-resolved="false"></xref>
+
+    in addition to being constructable through new(). The collection returned from the constructor
+
+    must also not have IsReadOnly set to True by default.
+  example: []
+  syntax:
+    content: 'public static MultiValueDictionary<TKey, TValue> Create<TValueCollection>(IEnumerable<KeyValuePair<TKey, IReadOnlyCollection<TValue>>> enumerable) where TValueCollection : ICollection<TValue>, new()'
+    parameters:
+    - id: enumerable
+      type: System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{{TKey},System.Collections.Generic.IReadOnlyCollection{{TValue}}}}
+      description: IEnumerable to copy elements into this from
+    typeParameters:
+    - id: TValueCollection
+      description: >-
+        The collection type that this <xref href="Prowl.Runtime.MultiValueDictionary%602" data-throw-if-not-resolved="false"></xref>
+
+        will contain in its internal dictionary.
+    return:
+      type: Prowl.Runtime.MultiValueDictionary`2
+      description: >-
+        A new <xref href="Prowl.Runtime.MultiValueDictionary%602" data-throw-if-not-resolved="false"></xref> with the specified
+            parameters.
+    content.vb: Public Shared Function Create(Of TValueCollection As {ICollection(Of TValue), New})(enumerable As IEnumerable(Of KeyValuePair(Of TKey, IReadOnlyCollection(Of TValue)))) As MultiValueDictionary(Of TKey, TValue)
+  overload: Prowl.Runtime.MultiValueDictionary`2.Create*
+  exceptions:
+  - type: System.InvalidOperationException
+    commentId: T:System.InvalidOperationException
+    description: >-
+      <code class="typeparamref">TValueCollection</code> must not have
+
+      IsReadOnly set to true by default.
+  - type: System.ArgumentNullException
+    commentId: T:System.ArgumentNullException
+    description: enumerable must be non-null
+  nameWithType.vb: MultiValueDictionary(Of TKey, TValue).Create(Of TValueCollection)(IEnumerable(Of KeyValuePair(Of TKey, IReadOnlyCollection(Of TValue))))
+  fullName.vb: Prowl.Runtime.MultiValueDictionary(Of TKey, TValue).Create(Of TValueCollection)(System.Collections.Generic.IEnumerable(Of System.Collections.Generic.KeyValuePair(Of TKey, System.Collections.Generic.IReadOnlyCollection(Of TValue))))
+  name.vb: Create(Of TValueCollection)(IEnumerable(Of KeyValuePair(Of TKey, IReadOnlyCollection(Of TValue))))
+- uid: Prowl.Runtime.MultiValueDictionary`2.Create``1(System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{`0,System.Collections.Generic.IReadOnlyCollection{`1}}},System.Collections.Generic.IEqualityComparer{`0})
+  commentId: M:Prowl.Runtime.MultiValueDictionary`2.Create``1(System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{`0,System.Collections.Generic.IReadOnlyCollection{`1}}},System.Collections.Generic.IEqualityComparer{`0})
+  id: Create``1(System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{`0,System.Collections.Generic.IReadOnlyCollection{`1}}},System.Collections.Generic.IEqualityComparer{`0})
+  parent: Prowl.Runtime.MultiValueDictionary`2
+  langs:
+  - csharp
+  - vb
+  name: Create<TValueCollection>(IEnumerable<KeyValuePair<TKey, IReadOnlyCollection<TValue>>>, IEqualityComparer<TKey>)
+  nameWithType: MultiValueDictionary<TKey, TValue>.Create<TValueCollection>(IEnumerable<KeyValuePair<TKey, IReadOnlyCollection<TValue>>>, IEqualityComparer<TKey>)
+  fullName: Prowl.Runtime.MultiValueDictionary<TKey, TValue>.Create<TValueCollection>(System.Collections.Generic.IEnumerable<System.Collections.Generic.KeyValuePair<TKey, System.Collections.Generic.IReadOnlyCollection<TValue>>>, System.Collections.Generic.IEqualityComparer<TKey>)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Utils/MultiValueDictionary.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Create
+    path: ../Prowl/Prowl.Runtime/Utils/MultiValueDictionary.cs
+    startLine: 352
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: >-
+    Initializes a new instance of the <xref href="Prowl.Runtime.MultiValueDictionary%602" data-throw-if-not-resolved="false"></xref> class that contains
+
+    elements copied from the specified IEnumerable&lt;KeyValuePair&lt;TKey, IReadOnlyCollection&lt;TValue&gt;&gt;&gt;
+
+    and uses the specified <xref href="System.Collections.Generic.IEqualityComparer%601" data-throw-if-not-resolved="false"></xref> for the <code class="typeparamref">TKey</code> type.
+
+    The internal dictionary will use instances of the <code class="typeparamref">TValueCollection</code>
+
+    class as its collection type.
+  remarks: If <code class="paramref">comparer</code> is set to null, then the default <xref href="System.Collections.IEqualityComparer" data-throw-if-not-resolved="false"></xref> for <code class="typeparamref">TKey</code> is used.
+  example: []
+  syntax:
+    content: 'public static MultiValueDictionary<TKey, TValue> Create<TValueCollection>(IEnumerable<KeyValuePair<TKey, IReadOnlyCollection<TValue>>> enumerable, IEqualityComparer<TKey> comparer) where TValueCollection : ICollection<TValue>, new()'
+    parameters:
+    - id: enumerable
+      type: System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{{TKey},System.Collections.Generic.IReadOnlyCollection{{TValue}}}}
+      description: IEnumerable to copy elements into this from
+    - id: comparer
+      type: System.Collections.Generic.IEqualityComparer{{TKey}}
+      description: Specified comparer to use for the <code class="typeparamref">TKey</code>s
+    typeParameters:
+    - id: TValueCollection
+      description: >-
+        The collection type that this <xref href="Prowl.Runtime.MultiValueDictionary%602" data-throw-if-not-resolved="false"></xref>
+
+        will contain in its internal dictionary.
+    return:
+      type: Prowl.Runtime.MultiValueDictionary`2
+      description: >-
+        A new <xref href="Prowl.Runtime.MultiValueDictionary%602" data-throw-if-not-resolved="false"></xref> with the specified
+            parameters.
+    content.vb: Public Shared Function Create(Of TValueCollection As {ICollection(Of TValue), New})(enumerable As IEnumerable(Of KeyValuePair(Of TKey, IReadOnlyCollection(Of TValue))), comparer As IEqualityComparer(Of TKey)) As MultiValueDictionary(Of TKey, TValue)
+  overload: Prowl.Runtime.MultiValueDictionary`2.Create*
+  exceptions:
+  - type: System.InvalidOperationException
+    commentId: T:System.InvalidOperationException
+    description: >-
+      <code class="typeparamref">TValueCollection</code> must not have
+
+      IsReadOnly set to true by default.
+  - type: System.ArgumentNullException
+    commentId: T:System.ArgumentNullException
+    description: enumerable must be non-null
+  nameWithType.vb: MultiValueDictionary(Of TKey, TValue).Create(Of TValueCollection)(IEnumerable(Of KeyValuePair(Of TKey, IReadOnlyCollection(Of TValue))), IEqualityComparer(Of TKey))
+  fullName.vb: Prowl.Runtime.MultiValueDictionary(Of TKey, TValue).Create(Of TValueCollection)(System.Collections.Generic.IEnumerable(Of System.Collections.Generic.KeyValuePair(Of TKey, System.Collections.Generic.IReadOnlyCollection(Of TValue))), System.Collections.Generic.IEqualityComparer(Of TKey))
+  name.vb: Create(Of TValueCollection)(IEnumerable(Of KeyValuePair(Of TKey, IReadOnlyCollection(Of TValue))), IEqualityComparer(Of TKey))
+- uid: Prowl.Runtime.MultiValueDictionary`2.Create``1(System.Func{``0})
+  commentId: M:Prowl.Runtime.MultiValueDictionary`2.Create``1(System.Func{``0})
+  id: Create``1(System.Func{``0})
+  parent: Prowl.Runtime.MultiValueDictionary`2
+  langs:
+  - csharp
+  - vb
+  name: Create<TValueCollection>(Func<TValueCollection>)
+  nameWithType: MultiValueDictionary<TKey, TValue>.Create<TValueCollection>(Func<TValueCollection>)
+  fullName: Prowl.Runtime.MultiValueDictionary<TKey, TValue>.Create<TValueCollection>(System.Func<TValueCollection>)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Utils/MultiValueDictionary.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Create
+    path: ../Prowl/Prowl.Runtime/Utils/MultiValueDictionary.cs
+    startLine: 398
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: >-
+    Creates a new new instance of the <xref href="Prowl.Runtime.MultiValueDictionary%602" data-throw-if-not-resolved="false"></xref>
+
+    class that is empty, has the default initial capacity, and uses the default
+
+    <xref href="System.Collections.Generic.IEqualityComparer%601" data-throw-if-not-resolved="false"></xref> for <code class="typeparamref">TKey</code>. The
+
+    internal dictionary will use instances of the <code class="typeparamref">TValueCollection</code>
+
+    class as its collection type.
+  remarks: >-
+    Note that <code class="typeparamref">TValueCollection</code> must implement <xref href="System.Collections.Generic.ICollection%601" data-throw-if-not-resolved="false"></xref>
+
+    in addition to being constructable through new(). The collection returned from the constructor
+
+    must also not have IsReadOnly set to True by default.
+  example: []
+  syntax:
+    content: 'public static MultiValueDictionary<TKey, TValue> Create<TValueCollection>(Func<TValueCollection> collectionFactory) where TValueCollection : ICollection<TValue>'
+    parameters:
+    - id: collectionFactory
+      type: System.Func{{TValueCollection}}
+      description: >-
+        A function to create a new <xref href="System.Collections.Generic.ICollection%601" data-throw-if-not-resolved="false"></xref> to use
+            in the internal dictionary store of this <xref href="Prowl.Runtime.MultiValueDictionary%602" data-throw-if-not-resolved="false"></xref>.
+    typeParameters:
+    - id: TValueCollection
+      description: >-
+        The collection type that this <xref href="Prowl.Runtime.MultiValueDictionary%602" data-throw-if-not-resolved="false"></xref>
+
+        will contain in its internal dictionary.
+    return:
+      type: Prowl.Runtime.MultiValueDictionary`2
+      description: >-
+        A new <xref href="Prowl.Runtime.MultiValueDictionary%602" data-throw-if-not-resolved="false"></xref> with the specified
+            parameters.
+    content.vb: Public Shared Function Create(Of TValueCollection As ICollection(Of TValue))(collectionFactory As Func(Of TValueCollection)) As MultiValueDictionary(Of TKey, TValue)
+  overload: Prowl.Runtime.MultiValueDictionary`2.Create*
+  exceptions:
+  - type: System.InvalidOperationException
+    commentId: T:System.InvalidOperationException
+    description: >-
+      <code class="paramref">collectionFactory</code> must create collections with
+
+      IsReadOnly set to true by default.
+  nameWithType.vb: MultiValueDictionary(Of TKey, TValue).Create(Of TValueCollection)(Func(Of TValueCollection))
+  fullName.vb: Prowl.Runtime.MultiValueDictionary(Of TKey, TValue).Create(Of TValueCollection)(System.Func(Of TValueCollection))
+  name.vb: Create(Of TValueCollection)(Func(Of TValueCollection))
+- uid: Prowl.Runtime.MultiValueDictionary`2.Create``1(System.Int32,System.Func{``0})
+  commentId: M:Prowl.Runtime.MultiValueDictionary`2.Create``1(System.Int32,System.Func{``0})
+  id: Create``1(System.Int32,System.Func{``0})
+  parent: Prowl.Runtime.MultiValueDictionary`2
+  langs:
+  - csharp
+  - vb
+  name: Create<TValueCollection>(int, Func<TValueCollection>)
+  nameWithType: MultiValueDictionary<TKey, TValue>.Create<TValueCollection>(int, Func<TValueCollection>)
+  fullName: Prowl.Runtime.MultiValueDictionary<TKey, TValue>.Create<TValueCollection>(int, System.Func<TValueCollection>)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Utils/MultiValueDictionary.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Create
+    path: ../Prowl/Prowl.Runtime/Utils/MultiValueDictionary.cs
+    startLine: 434
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: >-
+    Creates a new new instance of the <xref href="Prowl.Runtime.MultiValueDictionary%602" data-throw-if-not-resolved="false"></xref>
+
+    class that is empty, has the specified initial capacity, and uses the default
+
+    <xref href="System.Collections.Generic.IEqualityComparer%601" data-throw-if-not-resolved="false"></xref> for <code class="typeparamref">TKey</code>. The
+
+    internal dictionary will use instances of the <code class="typeparamref">TValueCollection</code>
+
+    class as its collection type.
+  remarks: >-
+    Note that <code class="typeparamref">TValueCollection</code> must implement <xref href="System.Collections.Generic.ICollection%601" data-throw-if-not-resolved="false"></xref>
+
+    in addition to being constructable through new(). The collection returned from the constructor
+
+    must also not have IsReadOnly set to True by default.
+  example: []
+  syntax:
+    content: 'public static MultiValueDictionary<TKey, TValue> Create<TValueCollection>(int capacity, Func<TValueCollection> collectionFactory) where TValueCollection : ICollection<TValue>'
+    parameters:
+    - id: capacity
+      type: System.Int32
+      description: Initial number of keys that the <xref href="Prowl.Runtime.MultiValueDictionary%602" data-throw-if-not-resolved="false"></xref> will allocate space for
+    - id: collectionFactory
+      type: System.Func{{TValueCollection}}
+      description: >-
+        A function to create a new <xref href="System.Collections.Generic.ICollection%601" data-throw-if-not-resolved="false"></xref> to use
+            in the internal dictionary store of this <xref href="Prowl.Runtime.MultiValueDictionary%602" data-throw-if-not-resolved="false"></xref>.
+    typeParameters:
+    - id: TValueCollection
+      description: >-
+        The collection type that this <xref href="Prowl.Runtime.MultiValueDictionary%602" data-throw-if-not-resolved="false"></xref>
+
+        will contain in its internal dictionary.
+    return:
+      type: Prowl.Runtime.MultiValueDictionary`2
+      description: >-
+        A new <xref href="Prowl.Runtime.MultiValueDictionary%602" data-throw-if-not-resolved="false"></xref> with the specified
+            parameters.
+    content.vb: Public Shared Function Create(Of TValueCollection As ICollection(Of TValue))(capacity As Integer, collectionFactory As Func(Of TValueCollection)) As MultiValueDictionary(Of TKey, TValue)
+  overload: Prowl.Runtime.MultiValueDictionary`2.Create*
+  exceptions:
+  - type: System.ArgumentOutOfRangeException
+    commentId: T:System.ArgumentOutOfRangeException
+    description: Capacity must be &gt;= 0
+  - type: System.InvalidOperationException
+    commentId: T:System.InvalidOperationException
+    description: >-
+      <code class="paramref">collectionFactory</code> must create collections with
+
+      IsReadOnly set to true by default.
+  nameWithType.vb: MultiValueDictionary(Of TKey, TValue).Create(Of TValueCollection)(Integer, Func(Of TValueCollection))
+  fullName.vb: Prowl.Runtime.MultiValueDictionary(Of TKey, TValue).Create(Of TValueCollection)(Integer, System.Func(Of TValueCollection))
+  name.vb: Create(Of TValueCollection)(Integer, Func(Of TValueCollection))
+- uid: Prowl.Runtime.MultiValueDictionary`2.Create``1(System.Collections.Generic.IEqualityComparer{`0},System.Func{``0})
+  commentId: M:Prowl.Runtime.MultiValueDictionary`2.Create``1(System.Collections.Generic.IEqualityComparer{`0},System.Func{``0})
+  id: Create``1(System.Collections.Generic.IEqualityComparer{`0},System.Func{``0})
+  parent: Prowl.Runtime.MultiValueDictionary`2
+  langs:
+  - csharp
+  - vb
+  name: Create<TValueCollection>(IEqualityComparer<TKey>, Func<TValueCollection>)
+  nameWithType: MultiValueDictionary<TKey, TValue>.Create<TValueCollection>(IEqualityComparer<TKey>, Func<TValueCollection>)
+  fullName: Prowl.Runtime.MultiValueDictionary<TKey, TValue>.Create<TValueCollection>(System.Collections.Generic.IEqualityComparer<TKey>, System.Func<TValueCollection>)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Utils/MultiValueDictionary.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Create
+    path: ../Prowl/Prowl.Runtime/Utils/MultiValueDictionary.cs
+    startLine: 472
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: >-
+    Creates a new new instance of the <xref href="Prowl.Runtime.MultiValueDictionary%602" data-throw-if-not-resolved="false"></xref>
+
+    class that is empty, has the default initial capacity, and uses the specified
+
+    <xref href="System.Collections.Generic.IEqualityComparer%601" data-throw-if-not-resolved="false"></xref> for <code class="typeparamref">TKey</code>. The
+
+    internal dictionary will use instances of the <code class="typeparamref">TValueCollection</code>
+
+    class as its collection type.
+  remarks: If <code class="paramref">comparer</code> is set to null, then the default <xref href="System.Collections.IEqualityComparer" data-throw-if-not-resolved="false"></xref> for <code class="typeparamref">TKey</code> is used.
+  example: []
+  syntax:
+    content: 'public static MultiValueDictionary<TKey, TValue> Create<TValueCollection>(IEqualityComparer<TKey> comparer, Func<TValueCollection> collectionFactory) where TValueCollection : ICollection<TValue>'
+    parameters:
+    - id: comparer
+      type: System.Collections.Generic.IEqualityComparer{{TKey}}
+      description: Specified comparer to use for the <code class="typeparamref">TKey</code>s
+    - id: collectionFactory
+      type: System.Func{{TValueCollection}}
+      description: >-
+        A function to create a new <xref href="System.Collections.Generic.ICollection%601" data-throw-if-not-resolved="false"></xref> to use
+            in the internal dictionary store of this <xref href="Prowl.Runtime.MultiValueDictionary%602" data-throw-if-not-resolved="false"></xref>.
+    typeParameters:
+    - id: TValueCollection
+      description: >-
+        The collection type that this <xref href="Prowl.Runtime.MultiValueDictionary%602" data-throw-if-not-resolved="false"></xref>
+
+        will contain in its internal dictionary.
+    return:
+      type: Prowl.Runtime.MultiValueDictionary`2
+      description: >-
+        A new <xref href="Prowl.Runtime.MultiValueDictionary%602" data-throw-if-not-resolved="false"></xref> with the specified
+            parameters.
+    content.vb: Public Shared Function Create(Of TValueCollection As ICollection(Of TValue))(comparer As IEqualityComparer(Of TKey), collectionFactory As Func(Of TValueCollection)) As MultiValueDictionary(Of TKey, TValue)
+  overload: Prowl.Runtime.MultiValueDictionary`2.Create*
+  exceptions:
+  - type: System.InvalidOperationException
+    commentId: T:System.InvalidOperationException
+    description: >-
+      <code class="paramref">collectionFactory</code> must create collections with
+
+      IsReadOnly set to true by default.
+  nameWithType.vb: MultiValueDictionary(Of TKey, TValue).Create(Of TValueCollection)(IEqualityComparer(Of TKey), Func(Of TValueCollection))
+  fullName.vb: Prowl.Runtime.MultiValueDictionary(Of TKey, TValue).Create(Of TValueCollection)(System.Collections.Generic.IEqualityComparer(Of TKey), System.Func(Of TValueCollection))
+  name.vb: Create(Of TValueCollection)(IEqualityComparer(Of TKey), Func(Of TValueCollection))
+- uid: Prowl.Runtime.MultiValueDictionary`2.Create``1(System.Int32,System.Collections.Generic.IEqualityComparer{`0},System.Func{``0})
+  commentId: M:Prowl.Runtime.MultiValueDictionary`2.Create``1(System.Int32,System.Collections.Generic.IEqualityComparer{`0},System.Func{``0})
+  id: Create``1(System.Int32,System.Collections.Generic.IEqualityComparer{`0},System.Func{``0})
+  parent: Prowl.Runtime.MultiValueDictionary`2
+  langs:
+  - csharp
+  - vb
+  name: Create<TValueCollection>(int, IEqualityComparer<TKey>, Func<TValueCollection>)
+  nameWithType: MultiValueDictionary<TKey, TValue>.Create<TValueCollection>(int, IEqualityComparer<TKey>, Func<TValueCollection>)
+  fullName: Prowl.Runtime.MultiValueDictionary<TKey, TValue>.Create<TValueCollection>(int, System.Collections.Generic.IEqualityComparer<TKey>, System.Func<TValueCollection>)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Utils/MultiValueDictionary.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Create
+    path: ../Prowl/Prowl.Runtime/Utils/MultiValueDictionary.cs
+    startLine: 510
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: >-
+    Creates a new new instance of the <xref href="Prowl.Runtime.MultiValueDictionary%602" data-throw-if-not-resolved="false"></xref>
+
+    class that is empty, has the specified initial capacity, and uses the specified
+
+    <xref href="System.Collections.Generic.IEqualityComparer%601" data-throw-if-not-resolved="false"></xref> for <code class="typeparamref">TKey</code>. The
+
+    internal dictionary will use instances of the <code class="typeparamref">TValueCollection</code>
+
+    class as its collection type.
+  remarks: If <code class="paramref">comparer</code> is set to null, then the default <xref href="System.Collections.IEqualityComparer" data-throw-if-not-resolved="false"></xref> for <code class="typeparamref">TKey</code> is used.
+  example: []
+  syntax:
+    content: 'public static MultiValueDictionary<TKey, TValue> Create<TValueCollection>(int capacity, IEqualityComparer<TKey> comparer, Func<TValueCollection> collectionFactory) where TValueCollection : ICollection<TValue>'
+    parameters:
+    - id: capacity
+      type: System.Int32
+      description: Initial number of keys that the <xref href="Prowl.Runtime.MultiValueDictionary%602" data-throw-if-not-resolved="false"></xref> will allocate space for
+    - id: comparer
+      type: System.Collections.Generic.IEqualityComparer{{TKey}}
+      description: Specified comparer to use for the <code class="typeparamref">TKey</code>s
+    - id: collectionFactory
+      type: System.Func{{TValueCollection}}
+      description: >-
+        A function to create a new <xref href="System.Collections.Generic.ICollection%601" data-throw-if-not-resolved="false"></xref> to use
+            in the internal dictionary store of this <xref href="Prowl.Runtime.MultiValueDictionary%602" data-throw-if-not-resolved="false"></xref>.
+    typeParameters:
+    - id: TValueCollection
+      description: >-
+        The collection type that this <xref href="Prowl.Runtime.MultiValueDictionary%602" data-throw-if-not-resolved="false"></xref>
+
+        will contain in its internal dictionary.
+    return:
+      type: Prowl.Runtime.MultiValueDictionary`2
+      description: >-
+        A new <xref href="Prowl.Runtime.MultiValueDictionary%602" data-throw-if-not-resolved="false"></xref> with the specified
+            parameters.
+    content.vb: Public Shared Function Create(Of TValueCollection As ICollection(Of TValue))(capacity As Integer, comparer As IEqualityComparer(Of TKey), collectionFactory As Func(Of TValueCollection)) As MultiValueDictionary(Of TKey, TValue)
+  overload: Prowl.Runtime.MultiValueDictionary`2.Create*
+  exceptions:
+  - type: System.InvalidOperationException
+    commentId: T:System.InvalidOperationException
+    description: >-
+      <code class="paramref">collectionFactory</code> must create collections with
+
+      IsReadOnly set to true by default.
+  - type: System.ArgumentOutOfRangeException
+    commentId: T:System.ArgumentOutOfRangeException
+    description: Capacity must be &gt;= 0
+  nameWithType.vb: MultiValueDictionary(Of TKey, TValue).Create(Of TValueCollection)(Integer, IEqualityComparer(Of TKey), Func(Of TValueCollection))
+  fullName.vb: Prowl.Runtime.MultiValueDictionary(Of TKey, TValue).Create(Of TValueCollection)(Integer, System.Collections.Generic.IEqualityComparer(Of TKey), System.Func(Of TValueCollection))
+  name.vb: Create(Of TValueCollection)(Integer, IEqualityComparer(Of TKey), Func(Of TValueCollection))
+- uid: Prowl.Runtime.MultiValueDictionary`2.Create``1(System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{`0,System.Collections.Generic.IReadOnlyCollection{`1}}},System.Func{``0})
+  commentId: M:Prowl.Runtime.MultiValueDictionary`2.Create``1(System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{`0,System.Collections.Generic.IReadOnlyCollection{`1}}},System.Func{``0})
+  id: Create``1(System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{`0,System.Collections.Generic.IReadOnlyCollection{`1}}},System.Func{``0})
+  parent: Prowl.Runtime.MultiValueDictionary`2
+  langs:
+  - csharp
+  - vb
+  name: Create<TValueCollection>(IEnumerable<KeyValuePair<TKey, IReadOnlyCollection<TValue>>>, Func<TValueCollection>)
+  nameWithType: MultiValueDictionary<TKey, TValue>.Create<TValueCollection>(IEnumerable<KeyValuePair<TKey, IReadOnlyCollection<TValue>>>, Func<TValueCollection>)
+  fullName: Prowl.Runtime.MultiValueDictionary<TKey, TValue>.Create<TValueCollection>(System.Collections.Generic.IEnumerable<System.Collections.Generic.KeyValuePair<TKey, System.Collections.Generic.IReadOnlyCollection<TValue>>>, System.Func<TValueCollection>)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Utils/MultiValueDictionary.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Create
+    path: ../Prowl/Prowl.Runtime/Utils/MultiValueDictionary.cs
+    startLine: 548
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: >-
+    Initializes a new instance of the <xref href="Prowl.Runtime.MultiValueDictionary%602" data-throw-if-not-resolved="false"></xref> class that contains
+
+    elements copied from the specified IEnumerable&lt;KeyValuePair&lt;TKey, IReadOnlyCollection&lt;TValue&gt;&gt;&gt;
+
+    and uses the default <xref href="System.Collections.Generic.IEqualityComparer%601" data-throw-if-not-resolved="false"></xref> for the <code class="typeparamref">TKey</code> type.
+
+    The internal dictionary will use instances of the <code class="typeparamref">TValueCollection</code>
+
+    class as its collection type.
+  remarks: >-
+    Note that <code class="typeparamref">TValueCollection</code> must implement <xref href="System.Collections.Generic.ICollection%601" data-throw-if-not-resolved="false"></xref>
+
+    in addition to being constructable through new(). The collection returned from the constructor
+
+    must also not have IsReadOnly set to True by default.
+  example: []
+  syntax:
+    content: 'public static MultiValueDictionary<TKey, TValue> Create<TValueCollection>(IEnumerable<KeyValuePair<TKey, IReadOnlyCollection<TValue>>> enumerable, Func<TValueCollection> collectionFactory) where TValueCollection : ICollection<TValue>'
+    parameters:
+    - id: enumerable
+      type: System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{{TKey},System.Collections.Generic.IReadOnlyCollection{{TValue}}}}
+      description: IEnumerable to copy elements into this from
+    - id: collectionFactory
+      type: System.Func{{TValueCollection}}
+      description: >-
+        A function to create a new <xref href="System.Collections.Generic.ICollection%601" data-throw-if-not-resolved="false"></xref> to use
+            in the internal dictionary store of this <xref href="Prowl.Runtime.MultiValueDictionary%602" data-throw-if-not-resolved="false"></xref>.
+    typeParameters:
+    - id: TValueCollection
+      description: >-
+        The collection type that this <xref href="Prowl.Runtime.MultiValueDictionary%602" data-throw-if-not-resolved="false"></xref>
+
+        will contain in its internal dictionary.
+    return:
+      type: Prowl.Runtime.MultiValueDictionary`2
+      description: >-
+        A new <xref href="Prowl.Runtime.MultiValueDictionary%602" data-throw-if-not-resolved="false"></xref> with the specified
+            parameters.
+    content.vb: Public Shared Function Create(Of TValueCollection As ICollection(Of TValue))(enumerable As IEnumerable(Of KeyValuePair(Of TKey, IReadOnlyCollection(Of TValue))), collectionFactory As Func(Of TValueCollection)) As MultiValueDictionary(Of TKey, TValue)
+  overload: Prowl.Runtime.MultiValueDictionary`2.Create*
+  exceptions:
+  - type: System.InvalidOperationException
+    commentId: T:System.InvalidOperationException
+    description: >-
+      <code class="paramref">collectionFactory</code> must create collections with
+
+      IsReadOnly set to true by default.
+  - type: System.ArgumentNullException
+    commentId: T:System.ArgumentNullException
+    description: enumerable must be non-null
+  nameWithType.vb: MultiValueDictionary(Of TKey, TValue).Create(Of TValueCollection)(IEnumerable(Of KeyValuePair(Of TKey, IReadOnlyCollection(Of TValue))), Func(Of TValueCollection))
+  fullName.vb: Prowl.Runtime.MultiValueDictionary(Of TKey, TValue).Create(Of TValueCollection)(System.Collections.Generic.IEnumerable(Of System.Collections.Generic.KeyValuePair(Of TKey, System.Collections.Generic.IReadOnlyCollection(Of TValue))), System.Func(Of TValueCollection))
+  name.vb: Create(Of TValueCollection)(IEnumerable(Of KeyValuePair(Of TKey, IReadOnlyCollection(Of TValue))), Func(Of TValueCollection))
+- uid: Prowl.Runtime.MultiValueDictionary`2.Create``1(System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{`0,System.Collections.Generic.IReadOnlyCollection{`1}}},System.Collections.Generic.IEqualityComparer{`0},System.Func{``0})
+  commentId: M:Prowl.Runtime.MultiValueDictionary`2.Create``1(System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{`0,System.Collections.Generic.IReadOnlyCollection{`1}}},System.Collections.Generic.IEqualityComparer{`0},System.Func{``0})
+  id: Create``1(System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{`0,System.Collections.Generic.IReadOnlyCollection{`1}}},System.Collections.Generic.IEqualityComparer{`0},System.Func{``0})
+  parent: Prowl.Runtime.MultiValueDictionary`2
+  langs:
+  - csharp
+  - vb
+  name: Create<TValueCollection>(IEnumerable<KeyValuePair<TKey, IReadOnlyCollection<TValue>>>, IEqualityComparer<TKey>, Func<TValueCollection>)
+  nameWithType: MultiValueDictionary<TKey, TValue>.Create<TValueCollection>(IEnumerable<KeyValuePair<TKey, IReadOnlyCollection<TValue>>>, IEqualityComparer<TKey>, Func<TValueCollection>)
+  fullName: Prowl.Runtime.MultiValueDictionary<TKey, TValue>.Create<TValueCollection>(System.Collections.Generic.IEnumerable<System.Collections.Generic.KeyValuePair<TKey, System.Collections.Generic.IReadOnlyCollection<TValue>>>, System.Collections.Generic.IEqualityComparer<TKey>, System.Func<TValueCollection>)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Utils/MultiValueDictionary.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Create
+    path: ../Prowl/Prowl.Runtime/Utils/MultiValueDictionary.cs
+    startLine: 591
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: >-
+    Initializes a new instance of the <xref href="Prowl.Runtime.MultiValueDictionary%602" data-throw-if-not-resolved="false"></xref> class that contains
+
+    elements copied from the specified IEnumerable&lt;KeyValuePair&lt;TKey, IReadOnlyCollection&lt;TValue&gt;&gt;&gt;
+
+    and uses the specified <xref href="System.Collections.Generic.IEqualityComparer%601" data-throw-if-not-resolved="false"></xref> for the <code class="typeparamref">TKey</code> type.
+
+    The internal dictionary will use instances of the <code class="typeparamref">TValueCollection</code>
+
+    class as its collection type.
+  remarks: If <code class="paramref">comparer</code> is set to null, then the default <xref href="System.Collections.IEqualityComparer" data-throw-if-not-resolved="false"></xref> for <code class="typeparamref">TKey</code> is used.
+  example: []
+  syntax:
+    content: 'public static MultiValueDictionary<TKey, TValue> Create<TValueCollection>(IEnumerable<KeyValuePair<TKey, IReadOnlyCollection<TValue>>> enumerable, IEqualityComparer<TKey> comparer, Func<TValueCollection> collectionFactory) where TValueCollection : ICollection<TValue>'
+    parameters:
+    - id: enumerable
+      type: System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{{TKey},System.Collections.Generic.IReadOnlyCollection{{TValue}}}}
+      description: IEnumerable to copy elements into this from
+    - id: comparer
+      type: System.Collections.Generic.IEqualityComparer{{TKey}}
+      description: Specified comparer to use for the <code class="typeparamref">TKey</code>s
+    - id: collectionFactory
+      type: System.Func{{TValueCollection}}
+      description: >-
+        A function to create a new <xref href="System.Collections.Generic.ICollection%601" data-throw-if-not-resolved="false"></xref> to use
+            in the internal dictionary store of this <xref href="Prowl.Runtime.MultiValueDictionary%602" data-throw-if-not-resolved="false"></xref>.
+    typeParameters:
+    - id: TValueCollection
+      description: >-
+        The collection type that this <xref href="Prowl.Runtime.MultiValueDictionary%602" data-throw-if-not-resolved="false"></xref>
+
+        will contain in its internal dictionary.
+    return:
+      type: Prowl.Runtime.MultiValueDictionary`2
+      description: >-
+        A new <xref href="Prowl.Runtime.MultiValueDictionary%602" data-throw-if-not-resolved="false"></xref> with the specified
+            parameters.
+    content.vb: Public Shared Function Create(Of TValueCollection As ICollection(Of TValue))(enumerable As IEnumerable(Of KeyValuePair(Of TKey, IReadOnlyCollection(Of TValue))), comparer As IEqualityComparer(Of TKey), collectionFactory As Func(Of TValueCollection)) As MultiValueDictionary(Of TKey, TValue)
+  overload: Prowl.Runtime.MultiValueDictionary`2.Create*
+  exceptions:
+  - type: System.InvalidOperationException
+    commentId: T:System.InvalidOperationException
+    description: >-
+      <code class="paramref">collectionFactory</code> must create collections with
+
+      IsReadOnly set to true by default.
+  - type: System.ArgumentNullException
+    commentId: T:System.ArgumentNullException
+    description: enumerable must be non-null
+  nameWithType.vb: MultiValueDictionary(Of TKey, TValue).Create(Of TValueCollection)(IEnumerable(Of KeyValuePair(Of TKey, IReadOnlyCollection(Of TValue))), IEqualityComparer(Of TKey), Func(Of TValueCollection))
+  fullName.vb: Prowl.Runtime.MultiValueDictionary(Of TKey, TValue).Create(Of TValueCollection)(System.Collections.Generic.IEnumerable(Of System.Collections.Generic.KeyValuePair(Of TKey, System.Collections.Generic.IReadOnlyCollection(Of TValue))), System.Collections.Generic.IEqualityComparer(Of TKey), System.Func(Of TValueCollection))
+  name.vb: Create(Of TValueCollection)(IEnumerable(Of KeyValuePair(Of TKey, IReadOnlyCollection(Of TValue))), IEqualityComparer(Of TKey), Func(Of TValueCollection))
+- uid: Prowl.Runtime.MultiValueDictionary`2.Add(`0,`1)
+  commentId: M:Prowl.Runtime.MultiValueDictionary`2.Add(`0,`1)
+  id: Add(`0,`1)
+  parent: Prowl.Runtime.MultiValueDictionary`2
+  langs:
+  - csharp
+  - vb
+  name: Add(TKey, TValue)
+  nameWithType: MultiValueDictionary<TKey, TValue>.Add(TKey, TValue)
+  fullName: Prowl.Runtime.MultiValueDictionary<TKey, TValue>.Add(TKey, TValue)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Utils/MultiValueDictionary.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Add
+    path: ../Prowl/Prowl.Runtime/Utils/MultiValueDictionary.cs
+    startLine: 630
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: Adds the specified <code class="typeparamref">TKey</code> and <code class="typeparamref">TValue</code> to the <xref href="Prowl.Runtime.MultiValueDictionary%602" data-throw-if-not-resolved="false"></xref>.
+  remarks: >-
+    Unlike the Add for <xref href="System.Collections.IDictionary" data-throw-if-not-resolved="false"></xref>, the <xref href="Prowl.Runtime.MultiValueDictionary%602" data-throw-if-not-resolved="false"></xref> Add will not
+
+    throw any exceptions. If the given <code class="typeparamref">TKey</code> is already in the <xref href="Prowl.Runtime.MultiValueDictionary%602" data-throw-if-not-resolved="false"></xref>,
+
+    then <code class="typeparamref">TValue</code> will be added to <xref href="System.Collections.Generic.IReadOnlyCollection%601" data-throw-if-not-resolved="false"></xref> associated with <code class="paramref">key</code>
+  example: []
+  syntax:
+    content: public void Add(TKey key, TValue value)
+    parameters:
+    - id: key
+      type: '{TKey}'
+      description: The <code class="typeparamref">TKey</code> of the element to add.
+    - id: value
+      type: '{TValue}'
+      description: The <code class="typeparamref">TValue</code> of the element to add.
+    content.vb: Public Sub Add(key As TKey, value As TValue)
+  overload: Prowl.Runtime.MultiValueDictionary`2.Add*
+  exceptions:
+  - type: System.ArgumentNullException
+    commentId: T:System.ArgumentNullException
+    description: <code class="paramref">key</code> is <code>null</code>.
+  nameWithType.vb: MultiValueDictionary(Of TKey, TValue).Add(TKey, TValue)
+  fullName.vb: Prowl.Runtime.MultiValueDictionary(Of TKey, TValue).Add(TKey, TValue)
+- uid: Prowl.Runtime.MultiValueDictionary`2.AddRange(`0,System.Collections.Generic.IEnumerable{`1})
+  commentId: M:Prowl.Runtime.MultiValueDictionary`2.AddRange(`0,System.Collections.Generic.IEnumerable{`1})
+  id: AddRange(`0,System.Collections.Generic.IEnumerable{`1})
+  parent: Prowl.Runtime.MultiValueDictionary`2
+  langs:
+  - csharp
+  - vb
+  name: AddRange(TKey, IEnumerable<TValue>)
+  nameWithType: MultiValueDictionary<TKey, TValue>.AddRange(TKey, IEnumerable<TValue>)
+  fullName: Prowl.Runtime.MultiValueDictionary<TKey, TValue>.AddRange(TKey, System.Collections.Generic.IEnumerable<TValue>)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Utils/MultiValueDictionary.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: AddRange
+    path: ../Prowl/Prowl.Runtime/Utils/MultiValueDictionary.cs
+    startLine: 655
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: >-
+    Adds a number of key-value pairs to this <xref href="Prowl.Runtime.MultiValueDictionary%602" data-throw-if-not-resolved="false"></xref>, where
+
+    the key for each value is <code class="paramref">key</code>, and the value for a pair
+
+    is an element from <code class="paramref">values</code>
+  remarks: >-
+    A call to this AddRange method will always invalidate any currently running enumeration regardless
+
+    of whether the AddRange method actually modified the <xref href="Prowl.Runtime.MultiValueDictionary%602" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public void AddRange(TKey key, IEnumerable<TValue> values)
+    parameters:
+    - id: key
+      type: '{TKey}'
+      description: The <code class="typeparamref">TKey</code> of all entries to add
+    - id: values
+      type: System.Collections.Generic.IEnumerable{{TValue}}
+      description: An <xref href="System.Collections.Generic.IEnumerable%601" data-throw-if-not-resolved="false"></xref> of values to add
+    content.vb: Public Sub AddRange(key As TKey, values As IEnumerable(Of TValue))
+  overload: Prowl.Runtime.MultiValueDictionary`2.AddRange*
+  exceptions:
+  - type: System.ArgumentNullException
+    commentId: T:System.ArgumentNullException
+    description: <code class="paramref">key</code> and <code class="paramref">values</code> must be non-null
+  nameWithType.vb: MultiValueDictionary(Of TKey, TValue).AddRange(TKey, IEnumerable(Of TValue))
+  fullName.vb: Prowl.Runtime.MultiValueDictionary(Of TKey, TValue).AddRange(TKey, System.Collections.Generic.IEnumerable(Of TValue))
+  name.vb: AddRange(TKey, IEnumerable(Of TValue))
+- uid: Prowl.Runtime.MultiValueDictionary`2.Remove(`0)
+  commentId: M:Prowl.Runtime.MultiValueDictionary`2.Remove(`0)
+  id: Remove(`0)
+  parent: Prowl.Runtime.MultiValueDictionary`2
+  langs:
+  - csharp
+  - vb
+  name: Remove(TKey)
+  nameWithType: MultiValueDictionary<TKey, TValue>.Remove(TKey)
+  fullName: Prowl.Runtime.MultiValueDictionary<TKey, TValue>.Remove(TKey)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Utils/MultiValueDictionary.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Remove
+    path: ../Prowl/Prowl.Runtime/Utils/MultiValueDictionary.cs
+    startLine: 681
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: >-
+    Removes every <code class="typeparamref">TValue</code> associated with the given <code class="typeparamref">TKey</code>
+
+    from the <xref href="Prowl.Runtime.MultiValueDictionary%602" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public bool Remove(TKey key)
+    parameters:
+    - id: key
+      type: '{TKey}'
+      description: The <code class="typeparamref">TKey</code> of the elements to remove
+    return:
+      type: System.Boolean
+      description: <code>true</code> if the removal was successful; otherwise <code>false</code>
+    content.vb: Public Function Remove(key As TKey) As Boolean
+  overload: Prowl.Runtime.MultiValueDictionary`2.Remove*
+  exceptions:
+  - type: System.ArgumentNullException
+    commentId: T:System.ArgumentNullException
+    description: <code class="paramref">key</code> is <code>null</code>.
+  nameWithType.vb: MultiValueDictionary(Of TKey, TValue).Remove(TKey)
+  fullName.vb: Prowl.Runtime.MultiValueDictionary(Of TKey, TValue).Remove(TKey)
+- uid: Prowl.Runtime.MultiValueDictionary`2.Remove(`0,`1)
+  commentId: M:Prowl.Runtime.MultiValueDictionary`2.Remove(`0,`1)
+  id: Remove(`0,`1)
+  parent: Prowl.Runtime.MultiValueDictionary`2
+  langs:
+  - csharp
+  - vb
+  name: Remove(TKey, TValue)
+  nameWithType: MultiValueDictionary<TKey, TValue>.Remove(TKey, TValue)
+  fullName: Prowl.Runtime.MultiValueDictionary<TKey, TValue>.Remove(TKey, TValue)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Utils/MultiValueDictionary.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Remove
+    path: ../Prowl/Prowl.Runtime/Utils/MultiValueDictionary.cs
+    startLine: 708
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: >-
+    Removes the first instance (if any) of the given <code class="typeparamref">TKey</code>-<code class="typeparamref">TValue</code>
+
+    pair from this <xref href="Prowl.Runtime.MultiValueDictionary%602" data-throw-if-not-resolved="false"></xref>.
+  remarks: >-
+    If the <code class="typeparamref">TValue</code> being removed is the last one associated with its <code class="typeparamref">TKey</code>, then that
+
+    <code class="typeparamref">TKey</code> will be removed from the <xref href="Prowl.Runtime.MultiValueDictionary%602" data-throw-if-not-resolved="false"></xref> and its
+
+    associated <xref href="System.Collections.Generic.IReadOnlyCollection%601" data-throw-if-not-resolved="false"></xref> will be freed as if a call to <xref href="Prowl.Runtime.MultiValueDictionary%602.Remove(%600)" data-throw-if-not-resolved="false"></xref>
+
+    had been made.
+  example: []
+  syntax:
+    content: public bool Remove(TKey key, TValue value)
+    parameters:
+    - id: key
+      type: '{TKey}'
+      description: The <code class="typeparamref">TKey</code> of the element to remove
+    - id: value
+      type: '{TValue}'
+      description: The <code class="typeparamref">TValue</code> of the element to remove
+    return:
+      type: System.Boolean
+      description: <code>true</code> if the removal was successful; otherwise <code>false</code>
+    content.vb: Public Function Remove(key As TKey, value As TValue) As Boolean
+  overload: Prowl.Runtime.MultiValueDictionary`2.Remove*
+  exceptions:
+  - type: System.ArgumentNullException
+    commentId: T:System.ArgumentNullException
+    description: <code class="paramref">key</code> must be non-null
+  nameWithType.vb: MultiValueDictionary(Of TKey, TValue).Remove(TKey, TValue)
+  fullName.vb: Prowl.Runtime.MultiValueDictionary(Of TKey, TValue).Remove(TKey, TValue)
+- uid: Prowl.Runtime.MultiValueDictionary`2.Contains(`0,`1)
+  commentId: M:Prowl.Runtime.MultiValueDictionary`2.Contains(`0,`1)
+  id: Contains(`0,`1)
+  parent: Prowl.Runtime.MultiValueDictionary`2
+  langs:
+  - csharp
+  - vb
+  name: Contains(TKey, TValue)
+  nameWithType: MultiValueDictionary<TKey, TValue>.Contains(TKey, TValue)
+  fullName: Prowl.Runtime.MultiValueDictionary<TKey, TValue>.Contains(TKey, TValue)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Utils/MultiValueDictionary.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Contains
+    path: ../Prowl/Prowl.Runtime/Utils/MultiValueDictionary.cs
+    startLine: 731
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: >-
+    Determines if the given <code class="typeparamref">TKey</code>-<code class="typeparamref">TValue</code>
+
+    pair exists within this <xref href="Prowl.Runtime.MultiValueDictionary%602" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public bool Contains(TKey key, TValue value)
+    parameters:
+    - id: key
+      type: '{TKey}'
+      description: The <code class="typeparamref">TKey</code> of the element.
+    - id: value
+      type: '{TValue}'
+      description: The <code class="typeparamref">TValue</code> of the element.
+    return:
+      type: System.Boolean
+      description: <code>true</code> if found; otherwise <code>false</code>
+    content.vb: Public Function Contains(key As TKey, value As TValue) As Boolean
+  overload: Prowl.Runtime.MultiValueDictionary`2.Contains*
+  exceptions:
+  - type: System.ArgumentNullException
+    commentId: T:System.ArgumentNullException
+    description: <code class="paramref">key</code> must be non-null
+  nameWithType.vb: MultiValueDictionary(Of TKey, TValue).Contains(TKey, TValue)
+  fullName.vb: Prowl.Runtime.MultiValueDictionary(Of TKey, TValue).Contains(TKey, TValue)
+- uid: Prowl.Runtime.MultiValueDictionary`2.ContainsValue(`1)
+  commentId: M:Prowl.Runtime.MultiValueDictionary`2.ContainsValue(`1)
+  id: ContainsValue(`1)
+  parent: Prowl.Runtime.MultiValueDictionary`2
+  langs:
+  - csharp
+  - vb
+  name: ContainsValue(TValue)
+  nameWithType: MultiValueDictionary<TKey, TValue>.ContainsValue(TValue)
+  fullName: Prowl.Runtime.MultiValueDictionary<TKey, TValue>.ContainsValue(TValue)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Utils/MultiValueDictionary.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: ContainsValue
+    path: ../Prowl/Prowl.Runtime/Utils/MultiValueDictionary.cs
+    startLine: 744
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: Determines if the given <code class="typeparamref">TValue</code> exists within this <xref href="Prowl.Runtime.MultiValueDictionary%602" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public bool ContainsValue(TValue value)
+    parameters:
+    - id: value
+      type: '{TValue}'
+      description: A <code class="typeparamref">TValue</code> to search the <xref href="Prowl.Runtime.MultiValueDictionary%602" data-throw-if-not-resolved="false"></xref> for
+    return:
+      type: System.Boolean
+      description: <code>true</code> if the <xref href="Prowl.Runtime.MultiValueDictionary%602" data-throw-if-not-resolved="false"></xref> contains the <code class="paramref">value</code>; otherwise <code>false</code>
+    content.vb: Public Function ContainsValue(value As TValue) As Boolean
+  overload: Prowl.Runtime.MultiValueDictionary`2.ContainsValue*
+  nameWithType.vb: MultiValueDictionary(Of TKey, TValue).ContainsValue(TValue)
+  fullName.vb: Prowl.Runtime.MultiValueDictionary(Of TKey, TValue).ContainsValue(TValue)
+- uid: Prowl.Runtime.MultiValueDictionary`2.Clear
+  commentId: M:Prowl.Runtime.MultiValueDictionary`2.Clear
+  id: Clear
+  parent: Prowl.Runtime.MultiValueDictionary`2
+  langs:
+  - csharp
+  - vb
+  name: Clear()
+  nameWithType: MultiValueDictionary<TKey, TValue>.Clear()
+  fullName: Prowl.Runtime.MultiValueDictionary<TKey, TValue>.Clear()
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Utils/MultiValueDictionary.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Clear
+    path: ../Prowl/Prowl.Runtime/Utils/MultiValueDictionary.cs
+    startLine: 756
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: >-
+    Removes every <code class="typeparamref">TKey</code> and <code class="typeparamref">TValue</code> from this
+
+    <xref href="Prowl.Runtime.MultiValueDictionary%602" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public void Clear()
+    content.vb: Public Sub Clear()
+  overload: Prowl.Runtime.MultiValueDictionary`2.Clear*
+  nameWithType.vb: MultiValueDictionary(Of TKey, TValue).Clear()
+  fullName.vb: Prowl.Runtime.MultiValueDictionary(Of TKey, TValue).Clear()
+- uid: Prowl.Runtime.MultiValueDictionary`2.ContainsKey(`0)
+  commentId: M:Prowl.Runtime.MultiValueDictionary`2.ContainsKey(`0)
+  id: ContainsKey(`0)
+  parent: Prowl.Runtime.MultiValueDictionary`2
+  langs:
+  - csharp
+  - vb
+  name: ContainsKey(TKey)
+  nameWithType: MultiValueDictionary<TKey, TValue>.ContainsKey(TKey)
+  fullName: Prowl.Runtime.MultiValueDictionary<TKey, TValue>.ContainsKey(TKey)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Utils/MultiValueDictionary.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: ContainsKey
+    path: ../Prowl/Prowl.Runtime/Utils/MultiValueDictionary.cs
+    startLine: 777
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: >-
+    Determines if the given <code class="typeparamref">TKey</code> exists within this <xref href="Prowl.Runtime.MultiValueDictionary%602" data-throw-if-not-resolved="false"></xref> and has
+
+    at least one <code class="typeparamref">TValue</code> associated with it.
+  example: []
+  syntax:
+    content: public bool ContainsKey(TKey key)
+    parameters:
+    - id: key
+      type: '{TKey}'
+      description: The <code class="typeparamref">TKey</code> to search the <xref href="Prowl.Runtime.MultiValueDictionary%602" data-throw-if-not-resolved="false"></xref> for
+    return:
+      type: System.Boolean
+      description: >-
+        <code>true</code> if the <xref href="Prowl.Runtime.MultiValueDictionary%602" data-throw-if-not-resolved="false"></xref> contains the requested <code class="typeparamref">TKey</code>;
+
+        otherwise <code>false</code>.
+    content.vb: Public Function ContainsKey(key As TKey) As Boolean
+  overload: Prowl.Runtime.MultiValueDictionary`2.ContainsKey*
+  exceptions:
+  - type: System.ArgumentNullException
+    commentId: T:System.ArgumentNullException
+    description: <code class="paramref">key</code> must be non-null
+  implements:
+  - System.Collections.Generic.IReadOnlyDictionary{{TKey},System.Collections.Generic.IReadOnlyCollection{{TValue}}}.ContainsKey({TKey})
+  nameWithType.vb: MultiValueDictionary(Of TKey, TValue).ContainsKey(TKey)
+  fullName.vb: Prowl.Runtime.MultiValueDictionary(Of TKey, TValue).ContainsKey(TKey)
+- uid: Prowl.Runtime.MultiValueDictionary`2.Keys
+  commentId: P:Prowl.Runtime.MultiValueDictionary`2.Keys
+  id: Keys
+  parent: Prowl.Runtime.MultiValueDictionary`2
+  langs:
+  - csharp
+  - vb
+  name: Keys
+  nameWithType: MultiValueDictionary<TKey, TValue>.Keys
+  fullName: Prowl.Runtime.MultiValueDictionary<TKey, TValue>.Keys
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/Utils/MultiValueDictionary.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Keys
+    path: ../Prowl/Prowl.Runtime/Utils/MultiValueDictionary.cs
+    startLine: 796
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: >-
+    Gets each <code class="typeparamref">TKey</code> in this <xref href="Prowl.Runtime.MultiValueDictionary%602" data-throw-if-not-resolved="false"></xref> that
+
+    has one or more associated <code class="typeparamref">TValue</code>.
+  example: []
+  syntax:
+    content: public IEnumerable<TKey> Keys { get; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.IEnumerable{{TKey}}
+      description: >-
+        An <xref href="System.Collections.Generic.IEnumerable%601" data-throw-if-not-resolved="false"></xref> containing each <code class="typeparamref">TKey</code>
+
+        in this <xref href="Prowl.Runtime.MultiValueDictionary%602" data-throw-if-not-resolved="false"></xref> that has one or more associated
+
+        <code class="typeparamref">TValue</code>.
+    content.vb: Public ReadOnly Property Keys As IEnumerable(Of TKey)
+  overload: Prowl.Runtime.MultiValueDictionary`2.Keys*
+  implements:
+  - System.Collections.Generic.IReadOnlyDictionary{{TKey},System.Collections.Generic.IReadOnlyCollection{{TValue}}}.Keys
+  nameWithType.vb: MultiValueDictionary(Of TKey, TValue).Keys
+  fullName.vb: Prowl.Runtime.MultiValueDictionary(Of TKey, TValue).Keys
+- uid: Prowl.Runtime.MultiValueDictionary`2.TryGetValue(`0,System.Collections.Generic.IReadOnlyCollection{`1}@)
+  commentId: M:Prowl.Runtime.MultiValueDictionary`2.TryGetValue(`0,System.Collections.Generic.IReadOnlyCollection{`1}@)
+  id: TryGetValue(`0,System.Collections.Generic.IReadOnlyCollection{`1}@)
+  parent: Prowl.Runtime.MultiValueDictionary`2
+  langs:
+  - csharp
+  - vb
+  name: TryGetValue(TKey, out IReadOnlyCollection<TValue>)
+  nameWithType: MultiValueDictionary<TKey, TValue>.TryGetValue(TKey, out IReadOnlyCollection<TValue>)
+  fullName: Prowl.Runtime.MultiValueDictionary<TKey, TValue>.TryGetValue(TKey, out System.Collections.Generic.IReadOnlyCollection<TValue>)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Utils/MultiValueDictionary.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: TryGetValue
+    path: ../Prowl/Prowl.Runtime/Utils/MultiValueDictionary.cs
+    startLine: 812
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: >-
+    Attempts to get the <code class="typeparamref">TValue</code> associated with the given
+
+    <code class="typeparamref">TKey</code> and place it into <code class="paramref">value</code>.
+  example: []
+  syntax:
+    content: public bool TryGetValue(TKey key, out IReadOnlyCollection<TValue> value)
+    parameters:
+    - id: key
+      type: '{TKey}'
+      description: The <code class="typeparamref">TKey</code> of the element to retrieve
+    - id: value
+      type: System.Collections.Generic.IReadOnlyCollection{{TValue}}
+      description: >-
+        When this method returns, contains the <code class="typeparamref">TValue</code> associated with the specified
+
+        <code class="typeparamref">TKey</code> if it is found; otherwise contains the default value of <code class="typeparamref">TValue</code>.
+    return:
+      type: System.Boolean
+      description: >-
+        <code>true</code> if the <xref href="Prowl.Runtime.MultiValueDictionary%602" data-throw-if-not-resolved="false"></xref> contains an element with the specified
+
+        <code class="typeparamref">TKey</code>; otherwise, <code>false</code>.
+    content.vb: Public Function TryGetValue(key As TKey, value As IReadOnlyCollection(Of TValue)) As Boolean
+  overload: Prowl.Runtime.MultiValueDictionary`2.TryGetValue*
+  exceptions:
+  - type: System.ArgumentNullException
+    commentId: T:System.ArgumentNullException
+    description: <code class="paramref">key</code> must be non-null
+  implements:
+  - System.Collections.Generic.IReadOnlyDictionary{{TKey},System.Collections.Generic.IReadOnlyCollection{{TValue}}}.TryGetValue({TKey},System.Collections.Generic.IReadOnlyCollection{{TValue}}@)
+  nameWithType.vb: MultiValueDictionary(Of TKey, TValue).TryGetValue(TKey, IReadOnlyCollection(Of TValue))
+  fullName.vb: Prowl.Runtime.MultiValueDictionary(Of TKey, TValue).TryGetValue(TKey, System.Collections.Generic.IReadOnlyCollection(Of TValue))
+  name.vb: TryGetValue(TKey, IReadOnlyCollection(Of TValue))
+- uid: Prowl.Runtime.MultiValueDictionary`2.Values
+  commentId: P:Prowl.Runtime.MultiValueDictionary`2.Values
+  id: Values
+  parent: Prowl.Runtime.MultiValueDictionary`2
+  langs:
+  - csharp
+  - vb
+  name: Values
+  nameWithType: MultiValueDictionary<TKey, TValue>.Values
+  fullName: Prowl.Runtime.MultiValueDictionary<TKey, TValue>.Values
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/Utils/MultiValueDictionary.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Values
+    path: ../Prowl/Prowl.Runtime/Utils/MultiValueDictionary.cs
+    startLine: 829
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: >-
+    Gets an enumerable of <xref href="System.Collections.Generic.IReadOnlyCollection%601" data-throw-if-not-resolved="false"></xref> from this <xref href="Prowl.Runtime.MultiValueDictionary%602" data-throw-if-not-resolved="false"></xref>,
+
+    where each <xref href="System.Collections.Generic.IReadOnlyCollection%601" data-throw-if-not-resolved="false"></xref> is the collection of every <code class="typeparamref">TValue</code> associated
+
+    with a <code class="typeparamref">TKey</code> present in the <xref href="Prowl.Runtime.MultiValueDictionary%602" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public IEnumerable<IReadOnlyCollection<TValue>> Values { get; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.IEnumerable{System.Collections.Generic.IReadOnlyCollection{{TValue}}}
+      description: >-
+        An IEnumerable of each <xref href="System.Collections.Generic.IReadOnlyCollection%601" data-throw-if-not-resolved="false"></xref> in this
+            <xref href="Prowl.Runtime.MultiValueDictionary%602" data-throw-if-not-resolved="false"></xref>
+    content.vb: Public ReadOnly Property Values As IEnumerable(Of IReadOnlyCollection(Of TValue))
+  overload: Prowl.Runtime.MultiValueDictionary`2.Values*
+  implements:
+  - System.Collections.Generic.IReadOnlyDictionary{{TKey},System.Collections.Generic.IReadOnlyCollection{{TValue}}}.Values
+  nameWithType.vb: MultiValueDictionary(Of TKey, TValue).Values
+  fullName.vb: Prowl.Runtime.MultiValueDictionary(Of TKey, TValue).Values
+- uid: Prowl.Runtime.MultiValueDictionary`2.Item(`0)
+  commentId: P:Prowl.Runtime.MultiValueDictionary`2.Item(`0)
+  id: Item(`0)
+  parent: Prowl.Runtime.MultiValueDictionary`2
+  langs:
+  - csharp
+  - vb
+  name: this[TKey]
+  nameWithType: MultiValueDictionary<TKey, TValue>.this[TKey]
+  fullName: Prowl.Runtime.MultiValueDictionary<TKey, TValue>.this[TKey]
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/Utils/MultiValueDictionary.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: this[]
+    path: ../Prowl/Prowl.Runtime/Utils/MultiValueDictionary.cs
+    startLine: 848
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: >-
+    Get every <code class="typeparamref">TValue</code> associated with the given <code class="typeparamref">TKey</code>. If
+
+    <code class="paramref">key</code> is not found in this <xref href="Prowl.Runtime.MultiValueDictionary%602" data-throw-if-not-resolved="false"></xref>, will
+
+    throw a <xref href="System.Collections.Generic.KeyNotFoundException" data-throw-if-not-resolved="false"></xref>.
+  remarks: >-
+    Note that the <xref href="System.Collections.Generic.IReadOnlyCollection%601" data-throw-if-not-resolved="false"></xref> returned will change alongside any changes
+
+    to the <xref href="Prowl.Runtime.MultiValueDictionary%602" data-throw-if-not-resolved="false"></xref>
+  example: []
+  syntax:
+    content: public IReadOnlyCollection<TValue> this[TKey key] { get; }
+    parameters:
+    - id: key
+      type: '{TKey}'
+      description: The <code class="typeparamref">TKey</code> of the elements to retrieve.
+    return:
+      type: System.Collections.Generic.IReadOnlyCollection{{TValue}}
+      description: >-
+        An <xref href="System.Collections.Generic.IReadOnlyCollection%601" data-throw-if-not-resolved="false"></xref> containing every <code class="typeparamref">TValue</code>
+
+        associated with <code class="paramref">key</code>.
+    content.vb: Public ReadOnly Default Property this[](key As TKey) As IReadOnlyCollection(Of TValue)
+  overload: Prowl.Runtime.MultiValueDictionary`2.Item*
+  exceptions:
+  - type: System.ArgumentNullException
+    commentId: T:System.ArgumentNullException
+    description: <code class="paramref">key</code> must be non-null
+  - type: System.Collections.Generic.KeyNotFoundException
+    commentId: T:System.Collections.Generic.KeyNotFoundException
+    description: >-
+      <code class="paramref">key</code> does not have any associated
+
+      <code class="typeparamref">TValue</code>s in this <xref href="Prowl.Runtime.MultiValueDictionary%602" data-throw-if-not-resolved="false"></xref>.
+  implements:
+  - System.Collections.Generic.IReadOnlyDictionary{{TKey},System.Collections.Generic.IReadOnlyCollection{{TValue}}}.Item({TKey})
+  nameWithType.vb: MultiValueDictionary(Of TKey, TValue).this[](TKey)
+  fullName.vb: Prowl.Runtime.MultiValueDictionary(Of TKey, TValue).this[](TKey)
+  name.vb: this[](TKey)
+- uid: Prowl.Runtime.MultiValueDictionary`2.Count
+  commentId: P:Prowl.Runtime.MultiValueDictionary`2.Count
+  id: Count
+  parent: Prowl.Runtime.MultiValueDictionary`2
+  langs:
+  - csharp
+  - vb
+  name: Count
+  nameWithType: MultiValueDictionary<TKey, TValue>.Count
+  fullName: Prowl.Runtime.MultiValueDictionary<TKey, TValue>.Count
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/Utils/MultiValueDictionary.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Count
+    path: ../Prowl/Prowl.Runtime/Utils/MultiValueDictionary.cs
+    startLine: 867
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: >-
+    Returns the number of <code class="typeparamref">TKey</code>s with one or more associated <code class="typeparamref">TValue</code>
+
+    in this <xref href="Prowl.Runtime.MultiValueDictionary%602" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public int Count { get; }
+    parameters: []
+    return:
+      type: System.Int32
+      description: The number of <code class="typeparamref">TKey</code>s in this <xref href="Prowl.Runtime.MultiValueDictionary%602" data-throw-if-not-resolved="false"></xref>.
+    content.vb: Public ReadOnly Property Count As Integer
+  overload: Prowl.Runtime.MultiValueDictionary`2.Count*
+  implements:
+  - System.Collections.Generic.IReadOnlyCollection{System.Collections.Generic.KeyValuePair{{TKey},System.Collections.Generic.IReadOnlyCollection{{TValue}}}}.Count
+  nameWithType.vb: MultiValueDictionary(Of TKey, TValue).Count
+  fullName.vb: Prowl.Runtime.MultiValueDictionary(Of TKey, TValue).Count
+- uid: Prowl.Runtime.MultiValueDictionary`2.GetEnumerator
+  commentId: M:Prowl.Runtime.MultiValueDictionary`2.GetEnumerator
+  id: GetEnumerator
+  parent: Prowl.Runtime.MultiValueDictionary`2
+  langs:
+  - csharp
+  - vb
+  name: GetEnumerator()
+  nameWithType: MultiValueDictionary<TKey, TValue>.GetEnumerator()
+  fullName: Prowl.Runtime.MultiValueDictionary<TKey, TValue>.GetEnumerator()
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Utils/MultiValueDictionary.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: GetEnumerator
+    path: ../Prowl/Prowl.Runtime/Utils/MultiValueDictionary.cs
+    startLine: 875
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: >-
+    Get an Enumerator over the <code class="typeparamref">TKey</code>-<xref href="System.Collections.Generic.IReadOnlyCollection%601" data-throw-if-not-resolved="false"></xref>
+
+    pairs in this <xref href="Prowl.Runtime.MultiValueDictionary%602" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public IEnumerator<KeyValuePair<TKey, IReadOnlyCollection<TValue>>> GetEnumerator()
+    return:
+      type: System.Collections.Generic.IEnumerator{System.Collections.Generic.KeyValuePair{{TKey},System.Collections.Generic.IReadOnlyCollection{{TValue}}}}
+      description: >-
+        an Enumerator over the <code class="typeparamref">TKey</code>-<xref href="System.Collections.Generic.IReadOnlyCollection%601" data-throw-if-not-resolved="false"></xref>
+            pairs in this <xref href="Prowl.Runtime.MultiValueDictionary%602" data-throw-if-not-resolved="false"></xref>.
+    content.vb: Public Function GetEnumerator() As IEnumerator(Of KeyValuePair(Of TKey, IReadOnlyCollection(Of TValue)))
+  overload: Prowl.Runtime.MultiValueDictionary`2.GetEnumerator*
+  implements:
+  - System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{{TKey},System.Collections.Generic.IReadOnlyCollection{{TValue}}}}.GetEnumerator
+  nameWithType.vb: MultiValueDictionary(Of TKey, TValue).GetEnumerator()
+  fullName.vb: Prowl.Runtime.MultiValueDictionary(Of TKey, TValue).GetEnumerator()
+references:
+- uid: System.Collections.IDictionary
+  commentId: T:System.Collections.IDictionary
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.idictionary
+  name: IDictionary
+  nameWithType: IDictionary
+  fullName: System.Collections.IDictionary
+- uid: System.Collections.Generic.IReadOnlyCollection`1
+  commentId: T:System.Collections.Generic.IReadOnlyCollection`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlycollection-1
+  name: IReadOnlyCollection<T>
+  nameWithType: IReadOnlyCollection<T>
+  fullName: System.Collections.Generic.IReadOnlyCollection<T>
+  nameWithType.vb: IReadOnlyCollection(Of T)
+  fullName.vb: System.Collections.Generic.IReadOnlyCollection(Of T)
+  name.vb: IReadOnlyCollection(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IReadOnlyCollection`1
+    name: IReadOnlyCollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlycollection-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IReadOnlyCollection`1
+    name: IReadOnlyCollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlycollection-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Linq.ILookup`2
+  commentId: T:System.Linq.ILookup`2
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.linq.ilookup-2
+  name: ILookup<TKey, TElement>
+  nameWithType: ILookup<TKey, TElement>
+  fullName: System.Linq.ILookup<TKey, TElement>
+  nameWithType.vb: ILookup(Of TKey, TElement)
+  fullName.vb: System.Linq.ILookup(Of TKey, TElement)
+  name.vb: ILookup(Of TKey, TElement)
+  spec.csharp:
+  - uid: System.Linq.ILookup`2
+    name: ILookup
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.linq.ilookup-2
+  - name: <
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TElement
+  - name: '>'
+  spec.vb:
+  - uid: System.Linq.ILookup`2
+    name: ILookup
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.linq.ilookup-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TElement
+  - name: )
+- uid: Prowl.Runtime
+  commentId: N:Prowl.Runtime
+  href: Prowl.html
+  name: Prowl.Runtime
+  nameWithType: Prowl.Runtime
+  fullName: Prowl.Runtime
+  spec.csharp:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+  spec.vb:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Collections.Generic.IReadOnlyDictionary{{TKey},System.Collections.Generic.IReadOnlyCollection{{TValue}}}
+  commentId: T:System.Collections.Generic.IReadOnlyDictionary{`0,System.Collections.Generic.IReadOnlyCollection{`1}}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IReadOnlyDictionary`2
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlydictionary-2
+  name: IReadOnlyDictionary<TKey, IReadOnlyCollection<TValue>>
+  nameWithType: IReadOnlyDictionary<TKey, IReadOnlyCollection<TValue>>
+  fullName: System.Collections.Generic.IReadOnlyDictionary<TKey, System.Collections.Generic.IReadOnlyCollection<TValue>>
+  nameWithType.vb: IReadOnlyDictionary(Of TKey, IReadOnlyCollection(Of TValue))
+  fullName.vb: System.Collections.Generic.IReadOnlyDictionary(Of TKey, System.Collections.Generic.IReadOnlyCollection(Of TValue))
+  name.vb: IReadOnlyDictionary(Of TKey, IReadOnlyCollection(Of TValue))
+  spec.csharp:
+  - uid: System.Collections.Generic.IReadOnlyDictionary`2
+    name: IReadOnlyDictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlydictionary-2
+  - name: <
+  - name: TKey
+  - name: ','
+  - name: " "
+  - uid: System.Collections.Generic.IReadOnlyCollection`1
+    name: IReadOnlyCollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlycollection-1
+  - name: <
+  - name: TValue
+  - name: '>'
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IReadOnlyDictionary`2
+    name: IReadOnlyDictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlydictionary-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TKey
+  - name: ','
+  - name: " "
+  - uid: System.Collections.Generic.IReadOnlyCollection`1
+    name: IReadOnlyCollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlycollection-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TValue
+  - name: )
+  - name: )
+- uid: System.Collections.Generic.IReadOnlyCollection{System.Collections.Generic.KeyValuePair{{TKey},System.Collections.Generic.IReadOnlyCollection{{TValue}}}}
+  commentId: T:System.Collections.Generic.IReadOnlyCollection{System.Collections.Generic.KeyValuePair{`0,System.Collections.Generic.IReadOnlyCollection{`1}}}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IReadOnlyCollection`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlycollection-1
+  name: IReadOnlyCollection<KeyValuePair<TKey, IReadOnlyCollection<TValue>>>
+  nameWithType: IReadOnlyCollection<KeyValuePair<TKey, IReadOnlyCollection<TValue>>>
+  fullName: System.Collections.Generic.IReadOnlyCollection<System.Collections.Generic.KeyValuePair<TKey, System.Collections.Generic.IReadOnlyCollection<TValue>>>
+  nameWithType.vb: IReadOnlyCollection(Of KeyValuePair(Of TKey, IReadOnlyCollection(Of TValue)))
+  fullName.vb: System.Collections.Generic.IReadOnlyCollection(Of System.Collections.Generic.KeyValuePair(Of TKey, System.Collections.Generic.IReadOnlyCollection(Of TValue)))
+  name.vb: IReadOnlyCollection(Of KeyValuePair(Of TKey, IReadOnlyCollection(Of TValue)))
+  spec.csharp:
+  - uid: System.Collections.Generic.IReadOnlyCollection`1
+    name: IReadOnlyCollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlycollection-1
+  - name: <
+  - uid: System.Collections.Generic.KeyValuePair`2
+    name: KeyValuePair
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair-2
+  - name: <
+  - name: TKey
+  - name: ','
+  - name: " "
+  - uid: System.Collections.Generic.IReadOnlyCollection`1
+    name: IReadOnlyCollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlycollection-1
+  - name: <
+  - name: TValue
+  - name: '>'
+  - name: '>'
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IReadOnlyCollection`1
+    name: IReadOnlyCollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlycollection-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Collections.Generic.KeyValuePair`2
+    name: KeyValuePair
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TKey
+  - name: ','
+  - name: " "
+  - uid: System.Collections.Generic.IReadOnlyCollection`1
+    name: IReadOnlyCollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlycollection-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TValue
+  - name: )
+  - name: )
+  - name: )
+- uid: System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{{TKey},System.Collections.Generic.IReadOnlyCollection{{TValue}}}}
+  commentId: T:System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{`0,System.Collections.Generic.IReadOnlyCollection{`1}}}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<KeyValuePair<TKey, IReadOnlyCollection<TValue>>>
+  nameWithType: IEnumerable<KeyValuePair<TKey, IReadOnlyCollection<TValue>>>
+  fullName: System.Collections.Generic.IEnumerable<System.Collections.Generic.KeyValuePair<TKey, System.Collections.Generic.IReadOnlyCollection<TValue>>>
+  nameWithType.vb: IEnumerable(Of KeyValuePair(Of TKey, IReadOnlyCollection(Of TValue)))
+  fullName.vb: System.Collections.Generic.IEnumerable(Of System.Collections.Generic.KeyValuePair(Of TKey, System.Collections.Generic.IReadOnlyCollection(Of TValue)))
+  name.vb: IEnumerable(Of KeyValuePair(Of TKey, IReadOnlyCollection(Of TValue)))
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - uid: System.Collections.Generic.KeyValuePair`2
+    name: KeyValuePair
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair-2
+  - name: <
+  - name: TKey
+  - name: ','
+  - name: " "
+  - uid: System.Collections.Generic.IReadOnlyCollection`1
+    name: IReadOnlyCollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlycollection-1
+  - name: <
+  - name: TValue
+  - name: '>'
+  - name: '>'
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Collections.Generic.KeyValuePair`2
+    name: KeyValuePair
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TKey
+  - name: ','
+  - name: " "
+  - uid: System.Collections.Generic.IReadOnlyCollection`1
+    name: IReadOnlyCollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlycollection-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TValue
+  - name: )
+  - name: )
+  - name: )
+- uid: System.Collections.IEnumerable
+  commentId: T:System.Collections.IEnumerable
+  parent: System.Collections
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.ienumerable
+  name: IEnumerable
+  nameWithType: IEnumerable
+  fullName: System.Collections.IEnumerable
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Prowl.Runtime.RuntimeUtils.GetSerializableFields
+  commentId: M:Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  parent: Prowl.Runtime.RuntimeUtils
+  definition: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  name: GetSerializableFields(object)
+  nameWithType: RuntimeUtils.GetSerializableFields(object)
+  fullName: Prowl.Runtime.RuntimeUtils.GetSerializableFields(object)
+  nameWithType.vb: RuntimeUtils.GetSerializableFields(Object)
+  fullName.vb: Prowl.Runtime.RuntimeUtils.GetSerializableFields(Object)
+  name.vb: GetSerializableFields(Object)
+  spec.csharp:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Collections.Generic.IReadOnlyDictionary`2
+  commentId: T:System.Collections.Generic.IReadOnlyDictionary`2
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlydictionary-2
+  name: IReadOnlyDictionary<TKey, TValue>
+  nameWithType: IReadOnlyDictionary<TKey, TValue>
+  fullName: System.Collections.Generic.IReadOnlyDictionary<TKey, TValue>
+  nameWithType.vb: IReadOnlyDictionary(Of TKey, TValue)
+  fullName.vb: System.Collections.Generic.IReadOnlyDictionary(Of TKey, TValue)
+  name.vb: IReadOnlyDictionary(Of TKey, TValue)
+  spec.csharp:
+  - uid: System.Collections.Generic.IReadOnlyDictionary`2
+    name: IReadOnlyDictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlydictionary-2
+  - name: <
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IReadOnlyDictionary`2
+    name: IReadOnlyDictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlydictionary-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: System.Collections.Generic.IEnumerable`1
+  commentId: T:System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections
+  commentId: N:System.Collections
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections
+  nameWithType: System.Collections
+  fullName: System.Collections
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+- uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  commentId: M:Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  isExternal: true
+  href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  name: GetSerializableFields(object)
+  nameWithType: RuntimeUtils.GetSerializableFields(object)
+  fullName: Prowl.Runtime.RuntimeUtils.GetSerializableFields(object)
+  nameWithType.vb: RuntimeUtils.GetSerializableFields(Object)
+  fullName.vb: Prowl.Runtime.RuntimeUtils.GetSerializableFields(Object)
+  name.vb: GetSerializableFields(Object)
+  spec.csharp:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: Prowl.Runtime.RuntimeUtils
+  commentId: T:Prowl.Runtime.RuntimeUtils
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.RuntimeUtils.html
+  name: RuntimeUtils
+  nameWithType: RuntimeUtils
+  fullName: Prowl.Runtime.RuntimeUtils
+- uid: Prowl.Runtime.MultiValueDictionary`2
+  commentId: T:Prowl.Runtime.MultiValueDictionary`2
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.MultiValueDictionary-2.html
+  name: MultiValueDictionary<TKey, TValue>
+  nameWithType: MultiValueDictionary<TKey, TValue>
+  fullName: Prowl.Runtime.MultiValueDictionary<TKey, TValue>
+  nameWithType.vb: MultiValueDictionary(Of TKey, TValue)
+  fullName.vb: Prowl.Runtime.MultiValueDictionary(Of TKey, TValue)
+  name.vb: MultiValueDictionary(Of TKey, TValue)
+  spec.csharp:
+  - uid: Prowl.Runtime.MultiValueDictionary`2
+    name: MultiValueDictionary
+    href: Prowl.Runtime.MultiValueDictionary-2.html
+  - name: <
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: '>'
+  spec.vb:
+  - uid: Prowl.Runtime.MultiValueDictionary`2
+    name: MultiValueDictionary
+    href: Prowl.Runtime.MultiValueDictionary-2.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: )
+- uid: System.Collections.Generic.IEqualityComparer`1
+  commentId: T:System.Collections.Generic.IEqualityComparer`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.iequalitycomparer-1
+  name: IEqualityComparer<T>
+  nameWithType: IEqualityComparer<T>
+  fullName: System.Collections.Generic.IEqualityComparer<T>
+  nameWithType.vb: IEqualityComparer(Of T)
+  fullName.vb: System.Collections.Generic.IEqualityComparer(Of T)
+  name.vb: IEqualityComparer(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEqualityComparer`1
+    name: IEqualityComparer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.iequalitycomparer-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEqualityComparer`1
+    name: IEqualityComparer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.iequalitycomparer-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Prowl.Runtime.MultiValueDictionary`2.#ctor*
+  commentId: Overload:Prowl.Runtime.MultiValueDictionary`2.#ctor
+  href: Prowl.Runtime.MultiValueDictionary-2.html#Prowl_Runtime_MultiValueDictionary_2__ctor
+  name: MultiValueDictionary
+  nameWithType: MultiValueDictionary<TKey, TValue>.MultiValueDictionary
+  fullName: Prowl.Runtime.MultiValueDictionary<TKey, TValue>.MultiValueDictionary
+  nameWithType.vb: MultiValueDictionary(Of TKey, TValue).New
+  fullName.vb: Prowl.Runtime.MultiValueDictionary(Of TKey, TValue).New
+  name.vb: New
+- uid: System.ArgumentOutOfRangeException
+  commentId: T:System.ArgumentOutOfRangeException
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.argumentoutofrangeexception
+  name: ArgumentOutOfRangeException
+  nameWithType: ArgumentOutOfRangeException
+  fullName: System.ArgumentOutOfRangeException
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: System.Collections.IEqualityComparer
+  commentId: T:System.Collections.IEqualityComparer
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.iequalitycomparer
+  name: IEqualityComparer
+  nameWithType: IEqualityComparer
+  fullName: System.Collections.IEqualityComparer
+- uid: System.Collections.Generic.IEqualityComparer{{TKey}}
+  commentId: T:System.Collections.Generic.IEqualityComparer{`0}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEqualityComparer`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.iequalitycomparer-1
+  name: IEqualityComparer<TKey>
+  nameWithType: IEqualityComparer<TKey>
+  fullName: System.Collections.Generic.IEqualityComparer<TKey>
+  nameWithType.vb: IEqualityComparer(Of TKey)
+  fullName.vb: System.Collections.Generic.IEqualityComparer(Of TKey)
+  name.vb: IEqualityComparer(Of TKey)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEqualityComparer`1
+    name: IEqualityComparer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.iequalitycomparer-1
+  - name: <
+  - name: TKey
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEqualityComparer`1
+    name: IEqualityComparer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.iequalitycomparer-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TKey
+  - name: )
+- uid: System.ArgumentNullException
+  commentId: T:System.ArgumentNullException
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.argumentnullexception
+  name: ArgumentNullException
+  nameWithType: ArgumentNullException
+  fullName: System.ArgumentNullException
+- uid: System.Collections.Generic.ICollection`1
+  commentId: T:System.Collections.Generic.ICollection`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  name: ICollection<T>
+  nameWithType: ICollection<T>
+  fullName: System.Collections.Generic.ICollection<T>
+  nameWithType.vb: ICollection(Of T)
+  fullName.vb: System.Collections.Generic.ICollection(Of T)
+  name.vb: ICollection(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.InvalidOperationException
+  commentId: T:System.InvalidOperationException
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.invalidoperationexception
+  name: InvalidOperationException
+  nameWithType: InvalidOperationException
+  fullName: System.InvalidOperationException
+- uid: Prowl.Runtime.MultiValueDictionary`2.Create*
+  commentId: Overload:Prowl.Runtime.MultiValueDictionary`2.Create
+  href: Prowl.Runtime.MultiValueDictionary-2.html#Prowl_Runtime_MultiValueDictionary_2_Create__1
+  name: Create
+  nameWithType: MultiValueDictionary<TKey, TValue>.Create
+  fullName: Prowl.Runtime.MultiValueDictionary<TKey, TValue>.Create
+  nameWithType.vb: MultiValueDictionary(Of TKey, TValue).Create
+  fullName.vb: Prowl.Runtime.MultiValueDictionary(Of TKey, TValue).Create
+- uid: System.Func{{TValueCollection}}
+  commentId: T:System.Func{``0}
+  parent: System
+  definition: System.Func`1
+  href: https://learn.microsoft.com/dotnet/api/system.func-1
+  name: Func<TValueCollection>
+  nameWithType: Func<TValueCollection>
+  fullName: System.Func<TValueCollection>
+  nameWithType.vb: Func(Of TValueCollection)
+  fullName.vb: System.Func(Of TValueCollection)
+  name.vb: Func(Of TValueCollection)
+  spec.csharp:
+  - uid: System.Func`1
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-1
+  - name: <
+  - name: TValueCollection
+  - name: '>'
+  spec.vb:
+  - uid: System.Func`1
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TValueCollection
+  - name: )
+- uid: System.Func`1
+  commentId: T:System.Func`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.func-1
+  name: Func<TResult>
+  nameWithType: Func<TResult>
+  fullName: System.Func<TResult>
+  nameWithType.vb: Func(Of TResult)
+  fullName.vb: System.Func(Of TResult)
+  name.vb: Func(Of TResult)
+  spec.csharp:
+  - uid: System.Func`1
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-1
+  - name: <
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Func`1
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: Prowl.Runtime.MultiValueDictionary`2.Add*
+  commentId: Overload:Prowl.Runtime.MultiValueDictionary`2.Add
+  href: Prowl.Runtime.MultiValueDictionary-2.html#Prowl_Runtime_MultiValueDictionary_2_Add__0__1_
+  name: Add
+  nameWithType: MultiValueDictionary<TKey, TValue>.Add
+  fullName: Prowl.Runtime.MultiValueDictionary<TKey, TValue>.Add
+  nameWithType.vb: MultiValueDictionary(Of TKey, TValue).Add
+  fullName.vb: Prowl.Runtime.MultiValueDictionary(Of TKey, TValue).Add
+- uid: '{TKey}'
+  commentId: '!:TKey'
+  definition: TKey
+  name: TKey
+  nameWithType: TKey
+  fullName: TKey
+- uid: '{TValue}'
+  commentId: '!:TValue'
+  definition: TValue
+  name: TValue
+  nameWithType: TValue
+  fullName: TValue
+- uid: TKey
+  name: TKey
+  nameWithType: TKey
+  fullName: TKey
+- uid: TValue
+  name: TValue
+  nameWithType: TValue
+  fullName: TValue
+- uid: Prowl.Runtime.MultiValueDictionary`2.AddRange*
+  commentId: Overload:Prowl.Runtime.MultiValueDictionary`2.AddRange
+  href: Prowl.Runtime.MultiValueDictionary-2.html#Prowl_Runtime_MultiValueDictionary_2_AddRange__0_System_Collections_Generic_IEnumerable__1__
+  name: AddRange
+  nameWithType: MultiValueDictionary<TKey, TValue>.AddRange
+  fullName: Prowl.Runtime.MultiValueDictionary<TKey, TValue>.AddRange
+  nameWithType.vb: MultiValueDictionary(Of TKey, TValue).AddRange
+  fullName.vb: Prowl.Runtime.MultiValueDictionary(Of TKey, TValue).AddRange
+- uid: System.Collections.Generic.IEnumerable{{TValue}}
+  commentId: T:System.Collections.Generic.IEnumerable{`1}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<TValue>
+  nameWithType: IEnumerable<TValue>
+  fullName: System.Collections.Generic.IEnumerable<TValue>
+  nameWithType.vb: IEnumerable(Of TValue)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of TValue)
+  name.vb: IEnumerable(Of TValue)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - name: TValue
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TValue
+  - name: )
+- uid: Prowl.Runtime.MultiValueDictionary`2.Remove*
+  commentId: Overload:Prowl.Runtime.MultiValueDictionary`2.Remove
+  href: Prowl.Runtime.MultiValueDictionary-2.html#Prowl_Runtime_MultiValueDictionary_2_Remove__0_
+  name: Remove
+  nameWithType: MultiValueDictionary<TKey, TValue>.Remove
+  fullName: Prowl.Runtime.MultiValueDictionary<TKey, TValue>.Remove
+  nameWithType.vb: MultiValueDictionary(Of TKey, TValue).Remove
+  fullName.vb: Prowl.Runtime.MultiValueDictionary(Of TKey, TValue).Remove
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: Prowl.Runtime.MultiValueDictionary`2.Remove(`0)
+  commentId: M:Prowl.Runtime.MultiValueDictionary`2.Remove(`0)
+  href: Prowl.Runtime.MultiValueDictionary-2.html#Prowl_Runtime_MultiValueDictionary_2_Remove__0_
+  name: Remove(TKey)
+  nameWithType: MultiValueDictionary<TKey, TValue>.Remove(TKey)
+  fullName: Prowl.Runtime.MultiValueDictionary<TKey, TValue>.Remove(TKey)
+  nameWithType.vb: MultiValueDictionary(Of TKey, TValue).Remove(TKey)
+  fullName.vb: Prowl.Runtime.MultiValueDictionary(Of TKey, TValue).Remove(TKey)
+  spec.csharp:
+  - uid: Prowl.Runtime.MultiValueDictionary`2.Remove(`0)
+    name: Remove
+    href: Prowl.Runtime.MultiValueDictionary-2.html#Prowl_Runtime_MultiValueDictionary_2_Remove__0_
+  - name: (
+  - name: TKey
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.MultiValueDictionary`2.Remove(`0)
+    name: Remove
+    href: Prowl.Runtime.MultiValueDictionary-2.html#Prowl_Runtime_MultiValueDictionary_2_Remove__0_
+  - name: (
+  - name: TKey
+  - name: )
+- uid: Prowl.Runtime.MultiValueDictionary`2.Contains*
+  commentId: Overload:Prowl.Runtime.MultiValueDictionary`2.Contains
+  href: Prowl.Runtime.MultiValueDictionary-2.html#Prowl_Runtime_MultiValueDictionary_2_Contains__0__1_
+  name: Contains
+  nameWithType: MultiValueDictionary<TKey, TValue>.Contains
+  fullName: Prowl.Runtime.MultiValueDictionary<TKey, TValue>.Contains
+  nameWithType.vb: MultiValueDictionary(Of TKey, TValue).Contains
+  fullName.vb: Prowl.Runtime.MultiValueDictionary(Of TKey, TValue).Contains
+- uid: Prowl.Runtime.MultiValueDictionary`2.ContainsValue*
+  commentId: Overload:Prowl.Runtime.MultiValueDictionary`2.ContainsValue
+  href: Prowl.Runtime.MultiValueDictionary-2.html#Prowl_Runtime_MultiValueDictionary_2_ContainsValue__1_
+  name: ContainsValue
+  nameWithType: MultiValueDictionary<TKey, TValue>.ContainsValue
+  fullName: Prowl.Runtime.MultiValueDictionary<TKey, TValue>.ContainsValue
+  nameWithType.vb: MultiValueDictionary(Of TKey, TValue).ContainsValue
+  fullName.vb: Prowl.Runtime.MultiValueDictionary(Of TKey, TValue).ContainsValue
+- uid: Prowl.Runtime.MultiValueDictionary`2.Clear*
+  commentId: Overload:Prowl.Runtime.MultiValueDictionary`2.Clear
+  href: Prowl.Runtime.MultiValueDictionary-2.html#Prowl_Runtime_MultiValueDictionary_2_Clear
+  name: Clear
+  nameWithType: MultiValueDictionary<TKey, TValue>.Clear
+  fullName: Prowl.Runtime.MultiValueDictionary<TKey, TValue>.Clear
+  nameWithType.vb: MultiValueDictionary(Of TKey, TValue).Clear
+  fullName.vb: Prowl.Runtime.MultiValueDictionary(Of TKey, TValue).Clear
+- uid: Prowl.Runtime.MultiValueDictionary`2.ContainsKey*
+  commentId: Overload:Prowl.Runtime.MultiValueDictionary`2.ContainsKey
+  href: Prowl.Runtime.MultiValueDictionary-2.html#Prowl_Runtime_MultiValueDictionary_2_ContainsKey__0_
+  name: ContainsKey
+  nameWithType: MultiValueDictionary<TKey, TValue>.ContainsKey
+  fullName: Prowl.Runtime.MultiValueDictionary<TKey, TValue>.ContainsKey
+  nameWithType.vb: MultiValueDictionary(Of TKey, TValue).ContainsKey
+  fullName.vb: Prowl.Runtime.MultiValueDictionary(Of TKey, TValue).ContainsKey
+- uid: System.Collections.Generic.IReadOnlyDictionary{{TKey},System.Collections.Generic.IReadOnlyCollection{{TValue}}}.ContainsKey({TKey})
+  commentId: M:System.Collections.Generic.IReadOnlyDictionary{`0,System.Collections.Generic.IReadOnlyCollection{`1}}.ContainsKey(`0)
+  parent: System.Collections.Generic.IReadOnlyDictionary{{TKey},System.Collections.Generic.IReadOnlyCollection{{TValue}}}
+  definition: System.Collections.Generic.IReadOnlyDictionary`2.ContainsKey(`0)
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlydictionary-2.containskey
+  name: ContainsKey(TKey)
+  nameWithType: IReadOnlyDictionary<TKey, IReadOnlyCollection<TValue>>.ContainsKey(TKey)
+  fullName: System.Collections.Generic.IReadOnlyDictionary<TKey, System.Collections.Generic.IReadOnlyCollection<TValue>>.ContainsKey(TKey)
+  nameWithType.vb: IReadOnlyDictionary(Of TKey, IReadOnlyCollection(Of TValue)).ContainsKey(TKey)
+  fullName.vb: System.Collections.Generic.IReadOnlyDictionary(Of TKey, System.Collections.Generic.IReadOnlyCollection(Of TValue)).ContainsKey(TKey)
+  spec.csharp:
+  - uid: System.Collections.Generic.IReadOnlyDictionary{`0,System.Collections.Generic.IReadOnlyCollection{`1}}.ContainsKey(`0)
+    name: ContainsKey
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlydictionary-2.containskey
+  - name: (
+  - name: TKey
+  - name: )
+  spec.vb:
+  - uid: System.Collections.Generic.IReadOnlyDictionary{`0,System.Collections.Generic.IReadOnlyCollection{`1}}.ContainsKey(`0)
+    name: ContainsKey
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlydictionary-2.containskey
+  - name: (
+  - name: TKey
+  - name: )
+- uid: System.Collections.Generic.IReadOnlyDictionary`2.ContainsKey(`0)
+  commentId: M:System.Collections.Generic.IReadOnlyDictionary`2.ContainsKey(`0)
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlydictionary-2.containskey
+  name: ContainsKey(TKey)
+  nameWithType: IReadOnlyDictionary<TKey, TValue>.ContainsKey(TKey)
+  fullName: System.Collections.Generic.IReadOnlyDictionary<TKey, TValue>.ContainsKey(TKey)
+  nameWithType.vb: IReadOnlyDictionary(Of TKey, TValue).ContainsKey(TKey)
+  fullName.vb: System.Collections.Generic.IReadOnlyDictionary(Of TKey, TValue).ContainsKey(TKey)
+  spec.csharp:
+  - uid: System.Collections.Generic.IReadOnlyDictionary`2.ContainsKey(`0)
+    name: ContainsKey
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlydictionary-2.containskey
+  - name: (
+  - name: TKey
+  - name: )
+  spec.vb:
+  - uid: System.Collections.Generic.IReadOnlyDictionary`2.ContainsKey(`0)
+    name: ContainsKey
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlydictionary-2.containskey
+  - name: (
+  - name: TKey
+  - name: )
+- uid: Prowl.Runtime.MultiValueDictionary`2.Keys*
+  commentId: Overload:Prowl.Runtime.MultiValueDictionary`2.Keys
+  href: Prowl.Runtime.MultiValueDictionary-2.html#Prowl_Runtime_MultiValueDictionary_2_Keys
+  name: Keys
+  nameWithType: MultiValueDictionary<TKey, TValue>.Keys
+  fullName: Prowl.Runtime.MultiValueDictionary<TKey, TValue>.Keys
+  nameWithType.vb: MultiValueDictionary(Of TKey, TValue).Keys
+  fullName.vb: Prowl.Runtime.MultiValueDictionary(Of TKey, TValue).Keys
+- uid: System.Collections.Generic.IReadOnlyDictionary{{TKey},System.Collections.Generic.IReadOnlyCollection{{TValue}}}.Keys
+  commentId: P:System.Collections.Generic.IReadOnlyDictionary{`0,System.Collections.Generic.IReadOnlyCollection{`1}}.Keys
+  parent: System.Collections.Generic.IReadOnlyDictionary{{TKey},System.Collections.Generic.IReadOnlyCollection{{TValue}}}
+  definition: System.Collections.Generic.IReadOnlyDictionary`2.Keys
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlydictionary-2.keys
+  name: Keys
+  nameWithType: IReadOnlyDictionary<TKey, IReadOnlyCollection<TValue>>.Keys
+  fullName: System.Collections.Generic.IReadOnlyDictionary<TKey, System.Collections.Generic.IReadOnlyCollection<TValue>>.Keys
+  nameWithType.vb: IReadOnlyDictionary(Of TKey, IReadOnlyCollection(Of TValue)).Keys
+  fullName.vb: System.Collections.Generic.IReadOnlyDictionary(Of TKey, System.Collections.Generic.IReadOnlyCollection(Of TValue)).Keys
+- uid: System.Collections.Generic.IEnumerable{{TKey}}
+  commentId: T:System.Collections.Generic.IEnumerable{`0}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<TKey>
+  nameWithType: IEnumerable<TKey>
+  fullName: System.Collections.Generic.IEnumerable<TKey>
+  nameWithType.vb: IEnumerable(Of TKey)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of TKey)
+  name.vb: IEnumerable(Of TKey)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - name: TKey
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TKey
+  - name: )
+- uid: System.Collections.Generic.IReadOnlyDictionary`2.Keys
+  commentId: P:System.Collections.Generic.IReadOnlyDictionary`2.Keys
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlydictionary-2.keys
+  name: Keys
+  nameWithType: IReadOnlyDictionary<TKey, TValue>.Keys
+  fullName: System.Collections.Generic.IReadOnlyDictionary<TKey, TValue>.Keys
+  nameWithType.vb: IReadOnlyDictionary(Of TKey, TValue).Keys
+  fullName.vb: System.Collections.Generic.IReadOnlyDictionary(Of TKey, TValue).Keys
+- uid: Prowl.Runtime.MultiValueDictionary`2.TryGetValue*
+  commentId: Overload:Prowl.Runtime.MultiValueDictionary`2.TryGetValue
+  href: Prowl.Runtime.MultiValueDictionary-2.html#Prowl_Runtime_MultiValueDictionary_2_TryGetValue__0_System_Collections_Generic_IReadOnlyCollection__1___
+  name: TryGetValue
+  nameWithType: MultiValueDictionary<TKey, TValue>.TryGetValue
+  fullName: Prowl.Runtime.MultiValueDictionary<TKey, TValue>.TryGetValue
+  nameWithType.vb: MultiValueDictionary(Of TKey, TValue).TryGetValue
+  fullName.vb: Prowl.Runtime.MultiValueDictionary(Of TKey, TValue).TryGetValue
+- uid: System.Collections.Generic.IReadOnlyDictionary{{TKey},System.Collections.Generic.IReadOnlyCollection{{TValue}}}.TryGetValue({TKey},System.Collections.Generic.IReadOnlyCollection{{TValue}}@)
+  commentId: M:System.Collections.Generic.IReadOnlyDictionary{`0,System.Collections.Generic.IReadOnlyCollection{`1}}.TryGetValue(`0,System.Collections.Generic.IReadOnlyCollection{`1}@)
+  parent: System.Collections.Generic.IReadOnlyDictionary{{TKey},System.Collections.Generic.IReadOnlyCollection{{TValue}}}
+  definition: System.Collections.Generic.IReadOnlyDictionary`2.TryGetValue(`0,`1@)
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlydictionary-2.trygetvalue
+  name: TryGetValue(TKey, out IReadOnlyCollection<TValue>)
+  nameWithType: IReadOnlyDictionary<TKey, IReadOnlyCollection<TValue>>.TryGetValue(TKey, out IReadOnlyCollection<TValue>)
+  fullName: System.Collections.Generic.IReadOnlyDictionary<TKey, System.Collections.Generic.IReadOnlyCollection<TValue>>.TryGetValue(TKey, out System.Collections.Generic.IReadOnlyCollection<TValue>)
+  nameWithType.vb: IReadOnlyDictionary(Of TKey, IReadOnlyCollection(Of TValue)).TryGetValue(TKey, IReadOnlyCollection(Of TValue))
+  fullName.vb: System.Collections.Generic.IReadOnlyDictionary(Of TKey, System.Collections.Generic.IReadOnlyCollection(Of TValue)).TryGetValue(TKey, System.Collections.Generic.IReadOnlyCollection(Of TValue))
+  name.vb: TryGetValue(TKey, IReadOnlyCollection(Of TValue))
+  spec.csharp:
+  - uid: System.Collections.Generic.IReadOnlyDictionary{`0,System.Collections.Generic.IReadOnlyCollection{`1}}.TryGetValue(`0,System.Collections.Generic.IReadOnlyCollection{`1}@)
+    name: TryGetValue
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlydictionary-2.trygetvalue
+  - name: (
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: out
+  - name: " "
+  - uid: System.Collections.Generic.IReadOnlyCollection`1
+    name: IReadOnlyCollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlycollection-1
+  - name: <
+  - name: TValue
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: System.Collections.Generic.IReadOnlyDictionary{`0,System.Collections.Generic.IReadOnlyCollection{`1}}.TryGetValue(`0,System.Collections.Generic.IReadOnlyCollection{`1}@)
+    name: TryGetValue
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlydictionary-2.trygetvalue
+  - name: (
+  - name: TKey
+  - name: ','
+  - name: " "
+  - uid: System.Collections.Generic.IReadOnlyCollection`1
+    name: IReadOnlyCollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlycollection-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TValue
+  - name: )
+  - name: )
+- uid: System.Collections.Generic.IReadOnlyCollection{{TValue}}
+  commentId: T:System.Collections.Generic.IReadOnlyCollection{`1}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IReadOnlyCollection`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlycollection-1
+  name: IReadOnlyCollection<TValue>
+  nameWithType: IReadOnlyCollection<TValue>
+  fullName: System.Collections.Generic.IReadOnlyCollection<TValue>
+  nameWithType.vb: IReadOnlyCollection(Of TValue)
+  fullName.vb: System.Collections.Generic.IReadOnlyCollection(Of TValue)
+  name.vb: IReadOnlyCollection(Of TValue)
+  spec.csharp:
+  - uid: System.Collections.Generic.IReadOnlyCollection`1
+    name: IReadOnlyCollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlycollection-1
+  - name: <
+  - name: TValue
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IReadOnlyCollection`1
+    name: IReadOnlyCollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlycollection-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TValue
+  - name: )
+- uid: System.Collections.Generic.IReadOnlyDictionary`2.TryGetValue(`0,`1@)
+  commentId: M:System.Collections.Generic.IReadOnlyDictionary`2.TryGetValue(`0,`1@)
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlydictionary-2.trygetvalue
+  name: TryGetValue(TKey, out TValue)
+  nameWithType: IReadOnlyDictionary<TKey, TValue>.TryGetValue(TKey, out TValue)
+  fullName: System.Collections.Generic.IReadOnlyDictionary<TKey, TValue>.TryGetValue(TKey, out TValue)
+  nameWithType.vb: IReadOnlyDictionary(Of TKey, TValue).TryGetValue(TKey, TValue)
+  fullName.vb: System.Collections.Generic.IReadOnlyDictionary(Of TKey, TValue).TryGetValue(TKey, TValue)
+  name.vb: TryGetValue(TKey, TValue)
+  spec.csharp:
+  - uid: System.Collections.Generic.IReadOnlyDictionary`2.TryGetValue(`0,`1@)
+    name: TryGetValue
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlydictionary-2.trygetvalue
+  - name: (
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: out
+  - name: " "
+  - name: TValue
+  - name: )
+  spec.vb:
+  - uid: System.Collections.Generic.IReadOnlyDictionary`2.TryGetValue(`0,`1@)
+    name: TryGetValue
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlydictionary-2.trygetvalue
+  - name: (
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: )
+- uid: Prowl.Runtime.MultiValueDictionary`2.Values*
+  commentId: Overload:Prowl.Runtime.MultiValueDictionary`2.Values
+  href: Prowl.Runtime.MultiValueDictionary-2.html#Prowl_Runtime_MultiValueDictionary_2_Values
+  name: Values
+  nameWithType: MultiValueDictionary<TKey, TValue>.Values
+  fullName: Prowl.Runtime.MultiValueDictionary<TKey, TValue>.Values
+  nameWithType.vb: MultiValueDictionary(Of TKey, TValue).Values
+  fullName.vb: Prowl.Runtime.MultiValueDictionary(Of TKey, TValue).Values
+- uid: System.Collections.Generic.IReadOnlyDictionary{{TKey},System.Collections.Generic.IReadOnlyCollection{{TValue}}}.Values
+  commentId: P:System.Collections.Generic.IReadOnlyDictionary{`0,System.Collections.Generic.IReadOnlyCollection{`1}}.Values
+  parent: System.Collections.Generic.IReadOnlyDictionary{{TKey},System.Collections.Generic.IReadOnlyCollection{{TValue}}}
+  definition: System.Collections.Generic.IReadOnlyDictionary`2.Values
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlydictionary-2.values
+  name: Values
+  nameWithType: IReadOnlyDictionary<TKey, IReadOnlyCollection<TValue>>.Values
+  fullName: System.Collections.Generic.IReadOnlyDictionary<TKey, System.Collections.Generic.IReadOnlyCollection<TValue>>.Values
+  nameWithType.vb: IReadOnlyDictionary(Of TKey, IReadOnlyCollection(Of TValue)).Values
+  fullName.vb: System.Collections.Generic.IReadOnlyDictionary(Of TKey, System.Collections.Generic.IReadOnlyCollection(Of TValue)).Values
+- uid: System.Collections.Generic.IEnumerable{System.Collections.Generic.IReadOnlyCollection{{TValue}}}
+  commentId: T:System.Collections.Generic.IEnumerable{System.Collections.Generic.IReadOnlyCollection{`1}}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<IReadOnlyCollection<TValue>>
+  nameWithType: IEnumerable<IReadOnlyCollection<TValue>>
+  fullName: System.Collections.Generic.IEnumerable<System.Collections.Generic.IReadOnlyCollection<TValue>>
+  nameWithType.vb: IEnumerable(Of IReadOnlyCollection(Of TValue))
+  fullName.vb: System.Collections.Generic.IEnumerable(Of System.Collections.Generic.IReadOnlyCollection(Of TValue))
+  name.vb: IEnumerable(Of IReadOnlyCollection(Of TValue))
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - uid: System.Collections.Generic.IReadOnlyCollection`1
+    name: IReadOnlyCollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlycollection-1
+  - name: <
+  - name: TValue
+  - name: '>'
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Collections.Generic.IReadOnlyCollection`1
+    name: IReadOnlyCollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlycollection-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TValue
+  - name: )
+  - name: )
+- uid: System.Collections.Generic.IReadOnlyDictionary`2.Values
+  commentId: P:System.Collections.Generic.IReadOnlyDictionary`2.Values
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlydictionary-2.values
+  name: Values
+  nameWithType: IReadOnlyDictionary<TKey, TValue>.Values
+  fullName: System.Collections.Generic.IReadOnlyDictionary<TKey, TValue>.Values
+  nameWithType.vb: IReadOnlyDictionary(Of TKey, TValue).Values
+  fullName.vb: System.Collections.Generic.IReadOnlyDictionary(Of TKey, TValue).Values
+- uid: System.Collections.Generic.KeyNotFoundException
+  commentId: T:System.Collections.Generic.KeyNotFoundException
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.keynotfoundexception
+  name: KeyNotFoundException
+  nameWithType: KeyNotFoundException
+  fullName: System.Collections.Generic.KeyNotFoundException
+- uid: Prowl.Runtime.MultiValueDictionary`2.Item*
+  commentId: Overload:Prowl.Runtime.MultiValueDictionary`2.Item
+  href: Prowl.Runtime.MultiValueDictionary-2.html#Prowl_Runtime_MultiValueDictionary_2_Item__0_
+  name: this
+  nameWithType: MultiValueDictionary<TKey, TValue>.this
+  fullName: Prowl.Runtime.MultiValueDictionary<TKey, TValue>.this
+  nameWithType.vb: MultiValueDictionary(Of TKey, TValue).this[]
+  fullName.vb: Prowl.Runtime.MultiValueDictionary(Of TKey, TValue).this[]
+  name.vb: this[]
+- uid: System.Collections.Generic.IReadOnlyDictionary{{TKey},System.Collections.Generic.IReadOnlyCollection{{TValue}}}.Item({TKey})
+  commentId: P:System.Collections.Generic.IReadOnlyDictionary{`0,System.Collections.Generic.IReadOnlyCollection{`1}}.Item(`0)
+  parent: System.Collections.Generic.IReadOnlyDictionary{{TKey},System.Collections.Generic.IReadOnlyCollection{{TValue}}}
+  definition: System.Collections.Generic.IReadOnlyDictionary`2.Item(`0)
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlydictionary-2.item
+  name: this[TKey]
+  nameWithType: IReadOnlyDictionary<TKey, IReadOnlyCollection<TValue>>.this[TKey]
+  fullName: System.Collections.Generic.IReadOnlyDictionary<TKey, System.Collections.Generic.IReadOnlyCollection<TValue>>.this[TKey]
+  nameWithType.vb: IReadOnlyDictionary(Of TKey, IReadOnlyCollection(Of TValue)).this[](TKey)
+  fullName.vb: System.Collections.Generic.IReadOnlyDictionary(Of TKey, System.Collections.Generic.IReadOnlyCollection(Of TValue)).this[](TKey)
+  name.vb: this[](TKey)
+  spec.csharp:
+  - name: this
+  - name: '['
+  - name: TKey
+  - name: ']'
+  spec.vb:
+  - uid: System.Collections.Generic.IReadOnlyDictionary{`0,System.Collections.Generic.IReadOnlyCollection{`1}}.Item(`0)
+    name: this[]
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlydictionary-2.item
+  - name: (
+  - name: TKey
+  - name: )
+- uid: System.Collections.Generic.IReadOnlyDictionary`2.Item(`0)
+  commentId: P:System.Collections.Generic.IReadOnlyDictionary`2.Item(`0)
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlydictionary-2.item
+  name: this[TKey]
+  nameWithType: IReadOnlyDictionary<TKey, TValue>.this[TKey]
+  fullName: System.Collections.Generic.IReadOnlyDictionary<TKey, TValue>.this[TKey]
+  nameWithType.vb: IReadOnlyDictionary(Of TKey, TValue).this[](TKey)
+  fullName.vb: System.Collections.Generic.IReadOnlyDictionary(Of TKey, TValue).this[](TKey)
+  name.vb: this[](TKey)
+  spec.csharp:
+  - name: this
+  - name: '['
+  - name: TKey
+  - name: ']'
+  spec.vb:
+  - uid: System.Collections.Generic.IReadOnlyDictionary`2.Item(`0)
+    name: this[]
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlydictionary-2.item
+  - name: (
+  - name: TKey
+  - name: )
+- uid: Prowl.Runtime.MultiValueDictionary`2.Count*
+  commentId: Overload:Prowl.Runtime.MultiValueDictionary`2.Count
+  href: Prowl.Runtime.MultiValueDictionary-2.html#Prowl_Runtime_MultiValueDictionary_2_Count
+  name: Count
+  nameWithType: MultiValueDictionary<TKey, TValue>.Count
+  fullName: Prowl.Runtime.MultiValueDictionary<TKey, TValue>.Count
+  nameWithType.vb: MultiValueDictionary(Of TKey, TValue).Count
+  fullName.vb: Prowl.Runtime.MultiValueDictionary(Of TKey, TValue).Count
+- uid: System.Collections.Generic.IReadOnlyCollection{System.Collections.Generic.KeyValuePair{{TKey},System.Collections.Generic.IReadOnlyCollection{{TValue}}}}.Count
+  commentId: P:System.Collections.Generic.IReadOnlyCollection{System.Collections.Generic.KeyValuePair{`0,System.Collections.Generic.IReadOnlyCollection{`1}}}.Count
+  parent: System.Collections.Generic.IReadOnlyCollection{System.Collections.Generic.KeyValuePair{{TKey},System.Collections.Generic.IReadOnlyCollection{{TValue}}}}
+  definition: System.Collections.Generic.IReadOnlyCollection`1.Count
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlycollection-1.count
+  name: Count
+  nameWithType: IReadOnlyCollection<KeyValuePair<TKey, IReadOnlyCollection<TValue>>>.Count
+  fullName: System.Collections.Generic.IReadOnlyCollection<System.Collections.Generic.KeyValuePair<TKey, System.Collections.Generic.IReadOnlyCollection<TValue>>>.Count
+  nameWithType.vb: IReadOnlyCollection(Of KeyValuePair(Of TKey, IReadOnlyCollection(Of TValue))).Count
+  fullName.vb: System.Collections.Generic.IReadOnlyCollection(Of System.Collections.Generic.KeyValuePair(Of TKey, System.Collections.Generic.IReadOnlyCollection(Of TValue))).Count
+- uid: System.Collections.Generic.IReadOnlyCollection`1.Count
+  commentId: P:System.Collections.Generic.IReadOnlyCollection`1.Count
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlycollection-1.count
+  name: Count
+  nameWithType: IReadOnlyCollection<T>.Count
+  fullName: System.Collections.Generic.IReadOnlyCollection<T>.Count
+  nameWithType.vb: IReadOnlyCollection(Of T).Count
+  fullName.vb: System.Collections.Generic.IReadOnlyCollection(Of T).Count
+- uid: Prowl.Runtime.MultiValueDictionary`2.GetEnumerator*
+  commentId: Overload:Prowl.Runtime.MultiValueDictionary`2.GetEnumerator
+  href: Prowl.Runtime.MultiValueDictionary-2.html#Prowl_Runtime_MultiValueDictionary_2_GetEnumerator
+  name: GetEnumerator
+  nameWithType: MultiValueDictionary<TKey, TValue>.GetEnumerator
+  fullName: Prowl.Runtime.MultiValueDictionary<TKey, TValue>.GetEnumerator
+  nameWithType.vb: MultiValueDictionary(Of TKey, TValue).GetEnumerator
+  fullName.vb: Prowl.Runtime.MultiValueDictionary(Of TKey, TValue).GetEnumerator
+- uid: System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{{TKey},System.Collections.Generic.IReadOnlyCollection{{TValue}}}}.GetEnumerator
+  commentId: M:System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{`0,System.Collections.Generic.IReadOnlyCollection{`1}}}.GetEnumerator
+  parent: System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{{TKey},System.Collections.Generic.IReadOnlyCollection{{TValue}}}}
+  definition: System.Collections.Generic.IEnumerable`1.GetEnumerator
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1.getenumerator
+  name: GetEnumerator()
+  nameWithType: IEnumerable<KeyValuePair<TKey, IReadOnlyCollection<TValue>>>.GetEnumerator()
+  fullName: System.Collections.Generic.IEnumerable<System.Collections.Generic.KeyValuePair<TKey, System.Collections.Generic.IReadOnlyCollection<TValue>>>.GetEnumerator()
+  nameWithType.vb: IEnumerable(Of KeyValuePair(Of TKey, IReadOnlyCollection(Of TValue))).GetEnumerator()
+  fullName.vb: System.Collections.Generic.IEnumerable(Of System.Collections.Generic.KeyValuePair(Of TKey, System.Collections.Generic.IReadOnlyCollection(Of TValue))).GetEnumerator()
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{`0,System.Collections.Generic.IReadOnlyCollection{`1}}}.GetEnumerator
+    name: GetEnumerator
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1.getenumerator
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{`0,System.Collections.Generic.IReadOnlyCollection{`1}}}.GetEnumerator
+    name: GetEnumerator
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1.getenumerator
+  - name: (
+  - name: )
+- uid: System.Collections.Generic.IEnumerator{System.Collections.Generic.KeyValuePair{{TKey},System.Collections.Generic.IReadOnlyCollection{{TValue}}}}
+  commentId: T:System.Collections.Generic.IEnumerator{System.Collections.Generic.KeyValuePair{`0,System.Collections.Generic.IReadOnlyCollection{`1}}}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerator`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerator-1
+  name: IEnumerator<KeyValuePair<TKey, IReadOnlyCollection<TValue>>>
+  nameWithType: IEnumerator<KeyValuePair<TKey, IReadOnlyCollection<TValue>>>
+  fullName: System.Collections.Generic.IEnumerator<System.Collections.Generic.KeyValuePair<TKey, System.Collections.Generic.IReadOnlyCollection<TValue>>>
+  nameWithType.vb: IEnumerator(Of KeyValuePair(Of TKey, IReadOnlyCollection(Of TValue)))
+  fullName.vb: System.Collections.Generic.IEnumerator(Of System.Collections.Generic.KeyValuePair(Of TKey, System.Collections.Generic.IReadOnlyCollection(Of TValue)))
+  name.vb: IEnumerator(Of KeyValuePair(Of TKey, IReadOnlyCollection(Of TValue)))
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerator`1
+    name: IEnumerator
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerator-1
+  - name: <
+  - uid: System.Collections.Generic.KeyValuePair`2
+    name: KeyValuePair
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair-2
+  - name: <
+  - name: TKey
+  - name: ','
+  - name: " "
+  - uid: System.Collections.Generic.IReadOnlyCollection`1
+    name: IReadOnlyCollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlycollection-1
+  - name: <
+  - name: TValue
+  - name: '>'
+  - name: '>'
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerator`1
+    name: IEnumerator
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerator-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Collections.Generic.KeyValuePair`2
+    name: KeyValuePair
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TKey
+  - name: ','
+  - name: " "
+  - uid: System.Collections.Generic.IReadOnlyCollection`1
+    name: IReadOnlyCollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlycollection-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TValue
+  - name: )
+  - name: )
+  - name: )
+- uid: System.Collections.Generic.IEnumerable`1.GetEnumerator
+  commentId: M:System.Collections.Generic.IEnumerable`1.GetEnumerator
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1.getenumerator
+  name: GetEnumerator()
+  nameWithType: IEnumerable<T>.GetEnumerator()
+  fullName: System.Collections.Generic.IEnumerable<T>.GetEnumerator()
+  nameWithType.vb: IEnumerable(Of T).GetEnumerator()
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T).GetEnumerator()
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1.GetEnumerator
+    name: GetEnumerator
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1.getenumerator
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1.GetEnumerator
+    name: GetEnumerator
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1.getenumerator
+  - name: (
+  - name: )
+- uid: System.Collections.Generic.IEnumerator`1
+  commentId: T:System.Collections.Generic.IEnumerator`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerator-1
+  name: IEnumerator<T>
+  nameWithType: IEnumerator<T>
+  fullName: System.Collections.Generic.IEnumerator<T>
+  nameWithType.vb: IEnumerator(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerator(Of T)
+  name.vb: IEnumerator(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerator`1
+    name: IEnumerator
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerator-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerator`1
+    name: IEnumerator
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerator-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )

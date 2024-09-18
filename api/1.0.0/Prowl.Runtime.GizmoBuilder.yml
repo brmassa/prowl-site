@@ -1,0 +1,1158 @@
+### YamlMime:ManagedReference
+items:
+- uid: Prowl.Runtime.GizmoBuilder
+  commentId: T:Prowl.Runtime.GizmoBuilder
+  id: GizmoBuilder
+  parent: Prowl.Runtime
+  children:
+  - Prowl.Runtime.GizmoBuilder.Clear
+  - Prowl.Runtime.GizmoBuilder.DrawArrow(Prowl.Runtime.Vector3,Prowl.Runtime.Vector3,Prowl.Runtime.Color)
+  - Prowl.Runtime.GizmoBuilder.DrawCube(Prowl.Runtime.Vector3,Prowl.Runtime.Vector3,Prowl.Runtime.Color)
+  - Prowl.Runtime.GizmoBuilder.DrawIcon(Prowl.Runtime.Texture2D,Prowl.Runtime.Vector3,System.Single,Prowl.Runtime.Color)
+  - Prowl.Runtime.GizmoBuilder.DrawLine(Prowl.Runtime.Vector3,Prowl.Runtime.Vector3,Prowl.Runtime.Color)
+  - Prowl.Runtime.GizmoBuilder.DrawSphere(Prowl.Runtime.Vector3,System.Single,Prowl.Runtime.Color,System.Int32)
+  - Prowl.Runtime.GizmoBuilder.DrawText(Prowl.Runtime.Font,System.String,Prowl.Runtime.Vector3,Prowl.Runtime.Color)
+  - Prowl.Runtime.GizmoBuilder.DrawTriangle(Prowl.Runtime.Vector3,Prowl.Runtime.Vector3,Prowl.Runtime.Vector3,Prowl.Runtime.Color)
+  - Prowl.Runtime.GizmoBuilder.DrawWireCone(Prowl.Runtime.Vector3,Prowl.Runtime.Vector3,System.Single,Prowl.Runtime.Color,System.Int32)
+  - Prowl.Runtime.GizmoBuilder.DrawWireCube(Prowl.Runtime.Vector3,Prowl.Runtime.Vector3,Prowl.Runtime.Color)
+  - Prowl.Runtime.GizmoBuilder.DrawWireSphere(Prowl.Runtime.Vector3,System.Single,Prowl.Runtime.Color,System.Int32)
+  - Prowl.Runtime.GizmoBuilder.GetIcons
+  - Prowl.Runtime.GizmoBuilder.UpdateMesh(System.Boolean,Prowl.Runtime.Vector3)
+  langs:
+  - csharp
+  - vb
+  name: GizmoBuilder
+  nameWithType: GizmoBuilder
+  fullName: Prowl.Runtime.GizmoBuilder
+  type: Class
+  source:
+    remote:
+      path: Prowl.Runtime/Debug.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: GizmoBuilder
+    path: ../Prowl/Prowl.Runtime/Debug.cs
+    startLine: 206
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public class GizmoBuilder
+    content.vb: Public Class GizmoBuilder
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  extensionMethods:
+  - System.Object.Prowl.Runtime.RuntimeUtils.GetSerializableFields
+- uid: Prowl.Runtime.GizmoBuilder.Clear
+  commentId: M:Prowl.Runtime.GizmoBuilder.Clear
+  id: Clear
+  parent: Prowl.Runtime.GizmoBuilder
+  langs:
+  - csharp
+  - vb
+  name: Clear()
+  nameWithType: GizmoBuilder.Clear()
+  fullName: Prowl.Runtime.GizmoBuilder.Clear()
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Debug.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Clear
+    path: ../Prowl/Prowl.Runtime/Debug.cs
+    startLine: 244
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public void Clear()
+    content.vb: Public Sub Clear()
+  overload: Prowl.Runtime.GizmoBuilder.Clear*
+- uid: Prowl.Runtime.GizmoBuilder.DrawLine(Prowl.Runtime.Vector3,Prowl.Runtime.Vector3,Prowl.Runtime.Color)
+  commentId: M:Prowl.Runtime.GizmoBuilder.DrawLine(Prowl.Runtime.Vector3,Prowl.Runtime.Vector3,Prowl.Runtime.Color)
+  id: DrawLine(Prowl.Runtime.Vector3,Prowl.Runtime.Vector3,Prowl.Runtime.Color)
+  parent: Prowl.Runtime.GizmoBuilder
+  langs:
+  - csharp
+  - vb
+  name: DrawLine(Vector3, Vector3, Color)
+  nameWithType: GizmoBuilder.DrawLine(Vector3, Vector3, Color)
+  fullName: Prowl.Runtime.GizmoBuilder.DrawLine(Prowl.Runtime.Vector3, Prowl.Runtime.Vector3, Prowl.Runtime.Color)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Debug.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: DrawLine
+    path: ../Prowl/Prowl.Runtime/Debug.cs
+    startLine: 289
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public void DrawLine(Vector3 start, Vector3 end, Color color)
+    parameters:
+    - id: start
+      type: Prowl.Runtime.Vector3
+    - id: end
+      type: Prowl.Runtime.Vector3
+    - id: color
+      type: Prowl.Runtime.Color
+    content.vb: Public Sub DrawLine(start As Vector3, [end] As Vector3, color As Color)
+  overload: Prowl.Runtime.GizmoBuilder.DrawLine*
+- uid: Prowl.Runtime.GizmoBuilder.DrawTriangle(Prowl.Runtime.Vector3,Prowl.Runtime.Vector3,Prowl.Runtime.Vector3,Prowl.Runtime.Color)
+  commentId: M:Prowl.Runtime.GizmoBuilder.DrawTriangle(Prowl.Runtime.Vector3,Prowl.Runtime.Vector3,Prowl.Runtime.Vector3,Prowl.Runtime.Color)
+  id: DrawTriangle(Prowl.Runtime.Vector3,Prowl.Runtime.Vector3,Prowl.Runtime.Vector3,Prowl.Runtime.Color)
+  parent: Prowl.Runtime.GizmoBuilder
+  langs:
+  - csharp
+  - vb
+  name: DrawTriangle(Vector3, Vector3, Vector3, Color)
+  nameWithType: GizmoBuilder.DrawTriangle(Vector3, Vector3, Vector3, Color)
+  fullName: Prowl.Runtime.GizmoBuilder.DrawTriangle(Prowl.Runtime.Vector3, Prowl.Runtime.Vector3, Prowl.Runtime.Vector3, Prowl.Runtime.Color)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Debug.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: DrawTriangle
+    path: ../Prowl/Prowl.Runtime/Debug.cs
+    startLine: 291
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public void DrawTriangle(Vector3 a, Vector3 b, Vector3 c, Color color)
+    parameters:
+    - id: a
+      type: Prowl.Runtime.Vector3
+    - id: b
+      type: Prowl.Runtime.Vector3
+    - id: c
+      type: Prowl.Runtime.Vector3
+    - id: color
+      type: Prowl.Runtime.Color
+    content.vb: Public Sub DrawTriangle(a As Vector3, b As Vector3, c As Vector3, color As Color)
+  overload: Prowl.Runtime.GizmoBuilder.DrawTriangle*
+- uid: Prowl.Runtime.GizmoBuilder.DrawWireCube(Prowl.Runtime.Vector3,Prowl.Runtime.Vector3,Prowl.Runtime.Color)
+  commentId: M:Prowl.Runtime.GizmoBuilder.DrawWireCube(Prowl.Runtime.Vector3,Prowl.Runtime.Vector3,Prowl.Runtime.Color)
+  id: DrawWireCube(Prowl.Runtime.Vector3,Prowl.Runtime.Vector3,Prowl.Runtime.Color)
+  parent: Prowl.Runtime.GizmoBuilder
+  langs:
+  - csharp
+  - vb
+  name: DrawWireCube(Vector3, Vector3, Color)
+  nameWithType: GizmoBuilder.DrawWireCube(Vector3, Vector3, Color)
+  fullName: Prowl.Runtime.GizmoBuilder.DrawWireCube(Prowl.Runtime.Vector3, Prowl.Runtime.Vector3, Prowl.Runtime.Color)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Debug.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: DrawWireCube
+    path: ../Prowl/Prowl.Runtime/Debug.cs
+    startLine: 293
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public void DrawWireCube(Vector3 center, Vector3 halfExtents, Color color)
+    parameters:
+    - id: center
+      type: Prowl.Runtime.Vector3
+    - id: halfExtents
+      type: Prowl.Runtime.Vector3
+    - id: color
+      type: Prowl.Runtime.Color
+    content.vb: Public Sub DrawWireCube(center As Vector3, halfExtents As Vector3, color As Color)
+  overload: Prowl.Runtime.GizmoBuilder.DrawWireCube*
+- uid: Prowl.Runtime.GizmoBuilder.DrawCube(Prowl.Runtime.Vector3,Prowl.Runtime.Vector3,Prowl.Runtime.Color)
+  commentId: M:Prowl.Runtime.GizmoBuilder.DrawCube(Prowl.Runtime.Vector3,Prowl.Runtime.Vector3,Prowl.Runtime.Color)
+  id: DrawCube(Prowl.Runtime.Vector3,Prowl.Runtime.Vector3,Prowl.Runtime.Color)
+  parent: Prowl.Runtime.GizmoBuilder
+  langs:
+  - csharp
+  - vb
+  name: DrawCube(Vector3, Vector3, Color)
+  nameWithType: GizmoBuilder.DrawCube(Vector3, Vector3, Color)
+  fullName: Prowl.Runtime.GizmoBuilder.DrawCube(Prowl.Runtime.Vector3, Prowl.Runtime.Vector3, Prowl.Runtime.Color)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Debug.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: DrawCube
+    path: ../Prowl/Prowl.Runtime/Debug.cs
+    startLine: 322
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public void DrawCube(Vector3 center, Vector3 halfExtents, Color color)
+    parameters:
+    - id: center
+      type: Prowl.Runtime.Vector3
+    - id: halfExtents
+      type: Prowl.Runtime.Vector3
+    - id: color
+      type: Prowl.Runtime.Color
+    content.vb: Public Sub DrawCube(center As Vector3, halfExtents As Vector3, color As Color)
+  overload: Prowl.Runtime.GizmoBuilder.DrawCube*
+- uid: Prowl.Runtime.GizmoBuilder.DrawWireSphere(Prowl.Runtime.Vector3,System.Single,Prowl.Runtime.Color,System.Int32)
+  commentId: M:Prowl.Runtime.GizmoBuilder.DrawWireSphere(Prowl.Runtime.Vector3,System.Single,Prowl.Runtime.Color,System.Int32)
+  id: DrawWireSphere(Prowl.Runtime.Vector3,System.Single,Prowl.Runtime.Color,System.Int32)
+  parent: Prowl.Runtime.GizmoBuilder
+  langs:
+  - csharp
+  - vb
+  name: DrawWireSphere(Vector3, float, Color, int)
+  nameWithType: GizmoBuilder.DrawWireSphere(Vector3, float, Color, int)
+  fullName: Prowl.Runtime.GizmoBuilder.DrawWireSphere(Prowl.Runtime.Vector3, float, Prowl.Runtime.Color, int)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Debug.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: DrawWireSphere
+    path: ../Prowl/Prowl.Runtime/Debug.cs
+    startLine: 361
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public void DrawWireSphere(Vector3 center, float radius, Color color, int segments = 16)
+    parameters:
+    - id: center
+      type: Prowl.Runtime.Vector3
+    - id: radius
+      type: System.Single
+    - id: color
+      type: Prowl.Runtime.Color
+    - id: segments
+      type: System.Int32
+    content.vb: Public Sub DrawWireSphere(center As Vector3, radius As Single, color As Color, segments As Integer = 16)
+  overload: Prowl.Runtime.GizmoBuilder.DrawWireSphere*
+  nameWithType.vb: GizmoBuilder.DrawWireSphere(Vector3, Single, Color, Integer)
+  fullName.vb: Prowl.Runtime.GizmoBuilder.DrawWireSphere(Prowl.Runtime.Vector3, Single, Prowl.Runtime.Color, Integer)
+  name.vb: DrawWireSphere(Vector3, Single, Color, Integer)
+- uid: Prowl.Runtime.GizmoBuilder.DrawSphere(Prowl.Runtime.Vector3,System.Single,Prowl.Runtime.Color,System.Int32)
+  commentId: M:Prowl.Runtime.GizmoBuilder.DrawSphere(Prowl.Runtime.Vector3,System.Single,Prowl.Runtime.Color,System.Int32)
+  id: DrawSphere(Prowl.Runtime.Vector3,System.Single,Prowl.Runtime.Color,System.Int32)
+  parent: Prowl.Runtime.GizmoBuilder
+  langs:
+  - csharp
+  - vb
+  name: DrawSphere(Vector3, float, Color, int)
+  nameWithType: GizmoBuilder.DrawSphere(Vector3, float, Color, int)
+  fullName: Prowl.Runtime.GizmoBuilder.DrawSphere(Prowl.Runtime.Vector3, float, Prowl.Runtime.Color, int)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Debug.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: DrawSphere
+    path: ../Prowl/Prowl.Runtime/Debug.cs
+    startLine: 420
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public void DrawSphere(Vector3 center, float radius, Color color, int segments = 16)
+    parameters:
+    - id: center
+      type: Prowl.Runtime.Vector3
+    - id: radius
+      type: System.Single
+    - id: color
+      type: Prowl.Runtime.Color
+    - id: segments
+      type: System.Int32
+    content.vb: Public Sub DrawSphere(center As Vector3, radius As Single, color As Color, segments As Integer = 16)
+  overload: Prowl.Runtime.GizmoBuilder.DrawSphere*
+  nameWithType.vb: GizmoBuilder.DrawSphere(Vector3, Single, Color, Integer)
+  fullName.vb: Prowl.Runtime.GizmoBuilder.DrawSphere(Prowl.Runtime.Vector3, Single, Prowl.Runtime.Color, Integer)
+  name.vb: DrawSphere(Vector3, Single, Color, Integer)
+- uid: Prowl.Runtime.GizmoBuilder.DrawWireCone(Prowl.Runtime.Vector3,Prowl.Runtime.Vector3,System.Single,Prowl.Runtime.Color,System.Int32)
+  commentId: M:Prowl.Runtime.GizmoBuilder.DrawWireCone(Prowl.Runtime.Vector3,Prowl.Runtime.Vector3,System.Single,Prowl.Runtime.Color,System.Int32)
+  id: DrawWireCone(Prowl.Runtime.Vector3,Prowl.Runtime.Vector3,System.Single,Prowl.Runtime.Color,System.Int32)
+  parent: Prowl.Runtime.GizmoBuilder
+  langs:
+  - csharp
+  - vb
+  name: DrawWireCone(Vector3, Vector3, float, Color, int)
+  nameWithType: GizmoBuilder.DrawWireCone(Vector3, Vector3, float, Color, int)
+  fullName: Prowl.Runtime.GizmoBuilder.DrawWireCone(Prowl.Runtime.Vector3, Prowl.Runtime.Vector3, float, Prowl.Runtime.Color, int)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Debug.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: DrawWireCone
+    path: ../Prowl/Prowl.Runtime/Debug.cs
+    startLine: 462
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public void DrawWireCone(Vector3 start, Vector3 direction, float radius, Color color, int segments = 16)
+    parameters:
+    - id: start
+      type: Prowl.Runtime.Vector3
+    - id: direction
+      type: Prowl.Runtime.Vector3
+    - id: radius
+      type: System.Single
+    - id: color
+      type: Prowl.Runtime.Color
+    - id: segments
+      type: System.Int32
+    content.vb: Public Sub DrawWireCone(start As Vector3, direction As Vector3, radius As Single, color As Color, segments As Integer = 16)
+  overload: Prowl.Runtime.GizmoBuilder.DrawWireCone*
+  nameWithType.vb: GizmoBuilder.DrawWireCone(Vector3, Vector3, Single, Color, Integer)
+  fullName.vb: Prowl.Runtime.GizmoBuilder.DrawWireCone(Prowl.Runtime.Vector3, Prowl.Runtime.Vector3, Single, Prowl.Runtime.Color, Integer)
+  name.vb: DrawWireCone(Vector3, Vector3, Single, Color, Integer)
+- uid: Prowl.Runtime.GizmoBuilder.DrawArrow(Prowl.Runtime.Vector3,Prowl.Runtime.Vector3,Prowl.Runtime.Color)
+  commentId: M:Prowl.Runtime.GizmoBuilder.DrawArrow(Prowl.Runtime.Vector3,Prowl.Runtime.Vector3,Prowl.Runtime.Color)
+  id: DrawArrow(Prowl.Runtime.Vector3,Prowl.Runtime.Vector3,Prowl.Runtime.Color)
+  parent: Prowl.Runtime.GizmoBuilder
+  langs:
+  - csharp
+  - vb
+  name: DrawArrow(Vector3, Vector3, Color)
+  nameWithType: GizmoBuilder.DrawArrow(Vector3, Vector3, Color)
+  fullName: Prowl.Runtime.GizmoBuilder.DrawArrow(Prowl.Runtime.Vector3, Prowl.Runtime.Vector3, Prowl.Runtime.Color)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Debug.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: DrawArrow
+    path: ../Prowl/Prowl.Runtime/Debug.cs
+    startLine: 501
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public void DrawArrow(Vector3 start, Vector3 direction, Color color)
+    parameters:
+    - id: start
+      type: Prowl.Runtime.Vector3
+    - id: direction
+      type: Prowl.Runtime.Vector3
+    - id: color
+      type: Prowl.Runtime.Color
+    content.vb: Public Sub DrawArrow(start As Vector3, direction As Vector3, color As Color)
+  overload: Prowl.Runtime.GizmoBuilder.DrawArrow*
+- uid: Prowl.Runtime.GizmoBuilder.DrawIcon(Prowl.Runtime.Texture2D,Prowl.Runtime.Vector3,System.Single,Prowl.Runtime.Color)
+  commentId: M:Prowl.Runtime.GizmoBuilder.DrawIcon(Prowl.Runtime.Texture2D,Prowl.Runtime.Vector3,System.Single,Prowl.Runtime.Color)
+  id: DrawIcon(Prowl.Runtime.Texture2D,Prowl.Runtime.Vector3,System.Single,Prowl.Runtime.Color)
+  parent: Prowl.Runtime.GizmoBuilder
+  langs:
+  - csharp
+  - vb
+  name: DrawIcon(Texture2D, Vector3, float, Color)
+  nameWithType: GizmoBuilder.DrawIcon(Texture2D, Vector3, float, Color)
+  fullName: Prowl.Runtime.GizmoBuilder.DrawIcon(Prowl.Runtime.Texture2D, Prowl.Runtime.Vector3, float, Prowl.Runtime.Color)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Debug.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: DrawIcon
+    path: ../Prowl/Prowl.Runtime/Debug.cs
+    startLine: 511
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public void DrawIcon(Texture2D icon, Vector3 center, float scale, Color color)
+    parameters:
+    - id: icon
+      type: Prowl.Runtime.Texture2D
+    - id: center
+      type: Prowl.Runtime.Vector3
+    - id: scale
+      type: System.Single
+    - id: color
+      type: Prowl.Runtime.Color
+    content.vb: Public Sub DrawIcon(icon As Texture2D, center As Vector3, scale As Single, color As Color)
+  overload: Prowl.Runtime.GizmoBuilder.DrawIcon*
+  nameWithType.vb: GizmoBuilder.DrawIcon(Texture2D, Vector3, Single, Color)
+  fullName.vb: Prowl.Runtime.GizmoBuilder.DrawIcon(Prowl.Runtime.Texture2D, Prowl.Runtime.Vector3, Single, Prowl.Runtime.Color)
+  name.vb: DrawIcon(Texture2D, Vector3, Single, Color)
+- uid: Prowl.Runtime.GizmoBuilder.DrawText(Prowl.Runtime.Font,System.String,Prowl.Runtime.Vector3,Prowl.Runtime.Color)
+  commentId: M:Prowl.Runtime.GizmoBuilder.DrawText(Prowl.Runtime.Font,System.String,Prowl.Runtime.Vector3,Prowl.Runtime.Color)
+  id: DrawText(Prowl.Runtime.Font,System.String,Prowl.Runtime.Vector3,Prowl.Runtime.Color)
+  parent: Prowl.Runtime.GizmoBuilder
+  langs:
+  - csharp
+  - vb
+  name: DrawText(Font, string, Vector3, Color)
+  nameWithType: GizmoBuilder.DrawText(Font, string, Vector3, Color)
+  fullName: Prowl.Runtime.GizmoBuilder.DrawText(Prowl.Runtime.Font, string, Prowl.Runtime.Vector3, Prowl.Runtime.Color)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Debug.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: DrawText
+    path: ../Prowl/Prowl.Runtime/Debug.cs
+    startLine: 513
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public void DrawText(Font font, string text, Vector3 position, Color color)
+    parameters:
+    - id: font
+      type: Prowl.Runtime.Font
+    - id: text
+      type: System.String
+    - id: position
+      type: Prowl.Runtime.Vector3
+    - id: color
+      type: Prowl.Runtime.Color
+    content.vb: Public Sub DrawText(font As Font, text As String, position As Vector3, color As Color)
+  overload: Prowl.Runtime.GizmoBuilder.DrawText*
+  nameWithType.vb: GizmoBuilder.DrawText(Font, String, Vector3, Color)
+  fullName.vb: Prowl.Runtime.GizmoBuilder.DrawText(Prowl.Runtime.Font, String, Prowl.Runtime.Vector3, Prowl.Runtime.Color)
+  name.vb: DrawText(Font, String, Vector3, Color)
+- uid: Prowl.Runtime.GizmoBuilder.UpdateMesh(System.Boolean,Prowl.Runtime.Vector3)
+  commentId: M:Prowl.Runtime.GizmoBuilder.UpdateMesh(System.Boolean,Prowl.Runtime.Vector3)
+  id: UpdateMesh(System.Boolean,Prowl.Runtime.Vector3)
+  parent: Prowl.Runtime.GizmoBuilder
+  langs:
+  - csharp
+  - vb
+  name: UpdateMesh(bool, Vector3)
+  nameWithType: GizmoBuilder.UpdateMesh(bool, Vector3)
+  fullName: Prowl.Runtime.GizmoBuilder.UpdateMesh(bool, Prowl.Runtime.Vector3)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Debug.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: UpdateMesh
+    path: ../Prowl/Prowl.Runtime/Debug.cs
+    startLine: 518
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public (Mesh? wire, Mesh? solid) UpdateMesh(bool cameraRelative, Vector3 cameraPosition)
+    parameters:
+    - id: cameraRelative
+      type: System.Boolean
+    - id: cameraPosition
+      type: Prowl.Runtime.Vector3
+    return:
+      type: System.ValueTuple{Prowl.Runtime.Mesh,Prowl.Runtime.Mesh}
+    content.vb: Public Function UpdateMesh(cameraRelative As Boolean, cameraPosition As Vector3) As (wire As Mesh, solid As Mesh)
+  overload: Prowl.Runtime.GizmoBuilder.UpdateMesh*
+  nameWithType.vb: GizmoBuilder.UpdateMesh(Boolean, Vector3)
+  fullName.vb: Prowl.Runtime.GizmoBuilder.UpdateMesh(Boolean, Prowl.Runtime.Vector3)
+  name.vb: UpdateMesh(Boolean, Vector3)
+- uid: Prowl.Runtime.GizmoBuilder.GetIcons
+  commentId: M:Prowl.Runtime.GizmoBuilder.GetIcons
+  id: GetIcons
+  parent: Prowl.Runtime.GizmoBuilder
+  langs:
+  - csharp
+  - vb
+  name: GetIcons()
+  nameWithType: GizmoBuilder.GetIcons()
+  fullName: Prowl.Runtime.GizmoBuilder.GetIcons()
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Debug.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: GetIcons
+    path: ../Prowl/Prowl.Runtime/Debug.cs
+    startLine: 580
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public List<GizmoBuilder.IconDrawCall> GetIcons()
+    return:
+      type: System.Collections.Generic.List{Prowl.Runtime.GizmoBuilder.IconDrawCall}
+    content.vb: Public Function GetIcons() As List(Of GizmoBuilder.IconDrawCall)
+  overload: Prowl.Runtime.GizmoBuilder.GetIcons*
+references:
+- uid: Prowl.Runtime
+  commentId: N:Prowl.Runtime
+  href: Prowl.html
+  name: Prowl.Runtime
+  nameWithType: Prowl.Runtime
+  fullName: Prowl.Runtime
+  spec.csharp:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+  spec.vb:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Prowl.Runtime.RuntimeUtils.GetSerializableFields
+  commentId: M:Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  parent: Prowl.Runtime.RuntimeUtils
+  definition: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  name: GetSerializableFields(object)
+  nameWithType: RuntimeUtils.GetSerializableFields(object)
+  fullName: Prowl.Runtime.RuntimeUtils.GetSerializableFields(object)
+  nameWithType.vb: RuntimeUtils.GetSerializableFields(Object)
+  fullName.vb: Prowl.Runtime.RuntimeUtils.GetSerializableFields(Object)
+  name.vb: GetSerializableFields(Object)
+  spec.csharp:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  commentId: M:Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  isExternal: true
+  href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  name: GetSerializableFields(object)
+  nameWithType: RuntimeUtils.GetSerializableFields(object)
+  fullName: Prowl.Runtime.RuntimeUtils.GetSerializableFields(object)
+  nameWithType.vb: RuntimeUtils.GetSerializableFields(Object)
+  fullName.vb: Prowl.Runtime.RuntimeUtils.GetSerializableFields(Object)
+  name.vb: GetSerializableFields(Object)
+  spec.csharp:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: Prowl.Runtime.RuntimeUtils
+  commentId: T:Prowl.Runtime.RuntimeUtils
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.RuntimeUtils.html
+  name: RuntimeUtils
+  nameWithType: RuntimeUtils
+  fullName: Prowl.Runtime.RuntimeUtils
+- uid: Prowl.Runtime.GizmoBuilder.Clear*
+  commentId: Overload:Prowl.Runtime.GizmoBuilder.Clear
+  href: Prowl.Runtime.GizmoBuilder.html#Prowl_Runtime_GizmoBuilder_Clear
+  name: Clear
+  nameWithType: GizmoBuilder.Clear
+  fullName: Prowl.Runtime.GizmoBuilder.Clear
+- uid: Prowl.Runtime.GizmoBuilder.DrawLine*
+  commentId: Overload:Prowl.Runtime.GizmoBuilder.DrawLine
+  href: Prowl.Runtime.GizmoBuilder.html#Prowl_Runtime_GizmoBuilder_DrawLine_Prowl_Runtime_Vector3_Prowl_Runtime_Vector3_Prowl_Runtime_Color_
+  name: DrawLine
+  nameWithType: GizmoBuilder.DrawLine
+  fullName: Prowl.Runtime.GizmoBuilder.DrawLine
+- uid: Prowl.Runtime.Vector3
+  commentId: T:Prowl.Runtime.Vector3
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.Vector3.html
+  name: Vector3
+  nameWithType: Vector3
+  fullName: Prowl.Runtime.Vector3
+- uid: Prowl.Runtime.Color
+  commentId: T:Prowl.Runtime.Color
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.Color.html
+  name: Color
+  nameWithType: Color
+  fullName: Prowl.Runtime.Color
+- uid: Prowl.Runtime.GizmoBuilder.DrawTriangle*
+  commentId: Overload:Prowl.Runtime.GizmoBuilder.DrawTriangle
+  href: Prowl.Runtime.GizmoBuilder.html#Prowl_Runtime_GizmoBuilder_DrawTriangle_Prowl_Runtime_Vector3_Prowl_Runtime_Vector3_Prowl_Runtime_Vector3_Prowl_Runtime_Color_
+  name: DrawTriangle
+  nameWithType: GizmoBuilder.DrawTriangle
+  fullName: Prowl.Runtime.GizmoBuilder.DrawTriangle
+- uid: Prowl.Runtime.GizmoBuilder.DrawWireCube*
+  commentId: Overload:Prowl.Runtime.GizmoBuilder.DrawWireCube
+  href: Prowl.Runtime.GizmoBuilder.html#Prowl_Runtime_GizmoBuilder_DrawWireCube_Prowl_Runtime_Vector3_Prowl_Runtime_Vector3_Prowl_Runtime_Color_
+  name: DrawWireCube
+  nameWithType: GizmoBuilder.DrawWireCube
+  fullName: Prowl.Runtime.GizmoBuilder.DrawWireCube
+- uid: Prowl.Runtime.GizmoBuilder.DrawCube*
+  commentId: Overload:Prowl.Runtime.GizmoBuilder.DrawCube
+  href: Prowl.Runtime.GizmoBuilder.html#Prowl_Runtime_GizmoBuilder_DrawCube_Prowl_Runtime_Vector3_Prowl_Runtime_Vector3_Prowl_Runtime_Color_
+  name: DrawCube
+  nameWithType: GizmoBuilder.DrawCube
+  fullName: Prowl.Runtime.GizmoBuilder.DrawCube
+- uid: Prowl.Runtime.GizmoBuilder.DrawWireSphere*
+  commentId: Overload:Prowl.Runtime.GizmoBuilder.DrawWireSphere
+  href: Prowl.Runtime.GizmoBuilder.html#Prowl_Runtime_GizmoBuilder_DrawWireSphere_Prowl_Runtime_Vector3_System_Single_Prowl_Runtime_Color_System_Int32_
+  name: DrawWireSphere
+  nameWithType: GizmoBuilder.DrawWireSphere
+  fullName: Prowl.Runtime.GizmoBuilder.DrawWireSphere
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.single
+  name: float
+  nameWithType: float
+  fullName: float
+  nameWithType.vb: Single
+  fullName.vb: Single
+  name.vb: Single
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: Prowl.Runtime.GizmoBuilder.DrawSphere*
+  commentId: Overload:Prowl.Runtime.GizmoBuilder.DrawSphere
+  href: Prowl.Runtime.GizmoBuilder.html#Prowl_Runtime_GizmoBuilder_DrawSphere_Prowl_Runtime_Vector3_System_Single_Prowl_Runtime_Color_System_Int32_
+  name: DrawSphere
+  nameWithType: GizmoBuilder.DrawSphere
+  fullName: Prowl.Runtime.GizmoBuilder.DrawSphere
+- uid: Prowl.Runtime.GizmoBuilder.DrawWireCone*
+  commentId: Overload:Prowl.Runtime.GizmoBuilder.DrawWireCone
+  href: Prowl.Runtime.GizmoBuilder.html#Prowl_Runtime_GizmoBuilder_DrawWireCone_Prowl_Runtime_Vector3_Prowl_Runtime_Vector3_System_Single_Prowl_Runtime_Color_System_Int32_
+  name: DrawWireCone
+  nameWithType: GizmoBuilder.DrawWireCone
+  fullName: Prowl.Runtime.GizmoBuilder.DrawWireCone
+- uid: Prowl.Runtime.GizmoBuilder.DrawArrow*
+  commentId: Overload:Prowl.Runtime.GizmoBuilder.DrawArrow
+  href: Prowl.Runtime.GizmoBuilder.html#Prowl_Runtime_GizmoBuilder_DrawArrow_Prowl_Runtime_Vector3_Prowl_Runtime_Vector3_Prowl_Runtime_Color_
+  name: DrawArrow
+  nameWithType: GizmoBuilder.DrawArrow
+  fullName: Prowl.Runtime.GizmoBuilder.DrawArrow
+- uid: Prowl.Runtime.GizmoBuilder.DrawIcon*
+  commentId: Overload:Prowl.Runtime.GizmoBuilder.DrawIcon
+  href: Prowl.Runtime.GizmoBuilder.html#Prowl_Runtime_GizmoBuilder_DrawIcon_Prowl_Runtime_Texture2D_Prowl_Runtime_Vector3_System_Single_Prowl_Runtime_Color_
+  name: DrawIcon
+  nameWithType: GizmoBuilder.DrawIcon
+  fullName: Prowl.Runtime.GizmoBuilder.DrawIcon
+- uid: Prowl.Runtime.Texture2D
+  commentId: T:Prowl.Runtime.Texture2D
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.Texture2D.html
+  name: Texture2D
+  nameWithType: Texture2D
+  fullName: Prowl.Runtime.Texture2D
+- uid: Prowl.Runtime.GizmoBuilder.DrawText*
+  commentId: Overload:Prowl.Runtime.GizmoBuilder.DrawText
+  href: Prowl.Runtime.GizmoBuilder.html#Prowl_Runtime_GizmoBuilder_DrawText_Prowl_Runtime_Font_System_String_Prowl_Runtime_Vector3_Prowl_Runtime_Color_
+  name: DrawText
+  nameWithType: GizmoBuilder.DrawText
+  fullName: Prowl.Runtime.GizmoBuilder.DrawText
+- uid: Prowl.Runtime.Font
+  commentId: T:Prowl.Runtime.Font
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.Font.html
+  name: Font
+  nameWithType: Font
+  fullName: Prowl.Runtime.Font
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: Prowl.Runtime.GizmoBuilder.UpdateMesh*
+  commentId: Overload:Prowl.Runtime.GizmoBuilder.UpdateMesh
+  href: Prowl.Runtime.GizmoBuilder.html#Prowl_Runtime_GizmoBuilder_UpdateMesh_System_Boolean_Prowl_Runtime_Vector3_
+  name: UpdateMesh
+  nameWithType: GizmoBuilder.UpdateMesh
+  fullName: Prowl.Runtime.GizmoBuilder.UpdateMesh
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: System.ValueTuple{Prowl.Runtime.Mesh,Prowl.Runtime.Mesh}
+  commentId: T:System.ValueTuple{Prowl.Runtime.Mesh,Prowl.Runtime.Mesh}
+  parent: System
+  definition: System.ValueTuple`2
+  href: Prowl.Runtime.Mesh.html
+  name: (Mesh wire, Mesh solid)
+  nameWithType: (Mesh wire, Mesh solid)
+  fullName: (Prowl.Runtime.Mesh wire, Prowl.Runtime.Mesh solid)
+  nameWithType.vb: (wire As Mesh, solid As Mesh)
+  fullName.vb: (wire As Prowl.Runtime.Mesh, solid As Prowl.Runtime.Mesh)
+  name.vb: (wire As Mesh, solid As Mesh)
+  spec.csharp:
+  - name: (
+  - uid: Prowl.Runtime.Mesh
+    name: Mesh
+    href: Prowl.Runtime.Mesh.html
+  - name: " "
+  - uid: System.ValueTuple{Prowl.Runtime.Mesh,Prowl.Runtime.Mesh}.wire
+    name: wire
+    href: https://learn.microsoft.com/dotnet/api/system.valuetuple-prowl.runtime.mesh,prowl.runtime.mesh-.wire
+  - name: ','
+  - name: " "
+  - uid: Prowl.Runtime.Mesh
+    name: Mesh
+    href: Prowl.Runtime.Mesh.html
+  - name: " "
+  - uid: System.ValueTuple{Prowl.Runtime.Mesh,Prowl.Runtime.Mesh}.solid
+    name: solid
+    href: https://learn.microsoft.com/dotnet/api/system.valuetuple-prowl.runtime.mesh,prowl.runtime.mesh-.solid
+  - name: )
+  spec.vb:
+  - name: (
+  - uid: System.ValueTuple{Prowl.Runtime.Mesh,Prowl.Runtime.Mesh}.wire
+    name: wire
+    href: https://learn.microsoft.com/dotnet/api/system.valuetuple-prowl.runtime.mesh,prowl.runtime.mesh-.wire
+  - name: " "
+  - name: As
+  - name: " "
+  - uid: Prowl.Runtime.Mesh
+    name: Mesh
+    href: Prowl.Runtime.Mesh.html
+  - name: ','
+  - name: " "
+  - uid: System.ValueTuple{Prowl.Runtime.Mesh,Prowl.Runtime.Mesh}.solid
+    name: solid
+    href: https://learn.microsoft.com/dotnet/api/system.valuetuple-prowl.runtime.mesh,prowl.runtime.mesh-.solid
+  - name: " "
+  - name: As
+  - name: " "
+  - uid: Prowl.Runtime.Mesh
+    name: Mesh
+    href: Prowl.Runtime.Mesh.html
+  - name: )
+- uid: System.ValueTuple`2
+  commentId: T:System.ValueTuple`2
+  name: (T1, T2)
+  nameWithType: (T1, T2)
+  fullName: (T1, T2)
+  spec.csharp:
+  - name: (
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: )
+  spec.vb:
+  - name: (
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: )
+- uid: Prowl.Runtime.GizmoBuilder.GetIcons*
+  commentId: Overload:Prowl.Runtime.GizmoBuilder.GetIcons
+  href: Prowl.Runtime.GizmoBuilder.html#Prowl_Runtime_GizmoBuilder_GetIcons
+  name: GetIcons
+  nameWithType: GizmoBuilder.GetIcons
+  fullName: Prowl.Runtime.GizmoBuilder.GetIcons
+- uid: System.Collections.Generic.List{Prowl.Runtime.GizmoBuilder.IconDrawCall}
+  commentId: T:System.Collections.Generic.List{Prowl.Runtime.GizmoBuilder.IconDrawCall}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<GizmoBuilder.IconDrawCall>
+  nameWithType: List<GizmoBuilder.IconDrawCall>
+  fullName: System.Collections.Generic.List<Prowl.Runtime.GizmoBuilder.IconDrawCall>
+  nameWithType.vb: List(Of GizmoBuilder.IconDrawCall)
+  fullName.vb: System.Collections.Generic.List(Of Prowl.Runtime.GizmoBuilder.IconDrawCall)
+  name.vb: List(Of GizmoBuilder.IconDrawCall)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - uid: Prowl.Runtime.GizmoBuilder
+    name: GizmoBuilder
+    href: Prowl.Runtime.GizmoBuilder.html
+  - name: .
+  - uid: Prowl.Runtime.GizmoBuilder.IconDrawCall
+    name: IconDrawCall
+    href: Prowl.Runtime.GizmoBuilder.IconDrawCall.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Prowl.Runtime.GizmoBuilder
+    name: GizmoBuilder
+    href: Prowl.Runtime.GizmoBuilder.html
+  - name: .
+  - uid: Prowl.Runtime.GizmoBuilder.IconDrawCall
+    name: IconDrawCall
+    href: Prowl.Runtime.GizmoBuilder.IconDrawCall.html
+  - name: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic

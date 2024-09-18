@@ -1,0 +1,236 @@
+### YamlMime:ManagedReference
+items:
+- uid: Prowl.Runtime.TextureWrapMode
+  commentId: T:Prowl.Runtime.TextureWrapMode
+  id: TextureWrapMode
+  parent: Prowl.Runtime
+  children:
+  - Prowl.Runtime.TextureWrapMode.Border
+  - Prowl.Runtime.TextureWrapMode.Clamp
+  - Prowl.Runtime.TextureWrapMode.Mirror
+  - Prowl.Runtime.TextureWrapMode.Wrap
+  langs:
+  - csharp
+  - vb
+  name: TextureWrapMode
+  nameWithType: TextureWrapMode
+  fullName: Prowl.Runtime.TextureWrapMode
+  type: Enum
+  source:
+    remote:
+      path: Prowl.Runtime/Rendering/Texture/TextureSampler.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: TextureWrapMode
+    path: ../Prowl/Prowl.Runtime/Rendering/Texture/TextureSampler.cs
+    startLine: 21
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public enum TextureWrapMode
+    content.vb: Public Enum TextureWrapMode
+  extensionMethods:
+  - System.Object.Prowl.Runtime.RuntimeUtils.GetSerializableFields
+- uid: Prowl.Runtime.TextureWrapMode.Border
+  commentId: F:Prowl.Runtime.TextureWrapMode.Border
+  id: Border
+  parent: Prowl.Runtime.TextureWrapMode
+  langs:
+  - csharp
+  - vb
+  name: Border
+  nameWithType: TextureWrapMode.Border
+  fullName: Prowl.Runtime.TextureWrapMode.Border
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/Rendering/Texture/TextureSampler.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Border
+    path: ../Prowl/Prowl.Runtime/Rendering/Texture/TextureSampler.cs
+    startLine: 23
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: Border = 3
+    return:
+      type: Prowl.Runtime.TextureWrapMode
+- uid: Prowl.Runtime.TextureWrapMode.Clamp
+  commentId: F:Prowl.Runtime.TextureWrapMode.Clamp
+  id: Clamp
+  parent: Prowl.Runtime.TextureWrapMode
+  langs:
+  - csharp
+  - vb
+  name: Clamp
+  nameWithType: TextureWrapMode.Clamp
+  fullName: Prowl.Runtime.TextureWrapMode.Clamp
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/Rendering/Texture/TextureSampler.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Clamp
+    path: ../Prowl/Prowl.Runtime/Rendering/Texture/TextureSampler.cs
+    startLine: 24
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: Clamp = 2
+    return:
+      type: Prowl.Runtime.TextureWrapMode
+- uid: Prowl.Runtime.TextureWrapMode.Mirror
+  commentId: F:Prowl.Runtime.TextureWrapMode.Mirror
+  id: Mirror
+  parent: Prowl.Runtime.TextureWrapMode
+  langs:
+  - csharp
+  - vb
+  name: Mirror
+  nameWithType: TextureWrapMode.Mirror
+  fullName: Prowl.Runtime.TextureWrapMode.Mirror
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/Rendering/Texture/TextureSampler.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Mirror
+    path: ../Prowl/Prowl.Runtime/Rendering/Texture/TextureSampler.cs
+    startLine: 25
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: Mirror = 1
+    return:
+      type: Prowl.Runtime.TextureWrapMode
+- uid: Prowl.Runtime.TextureWrapMode.Wrap
+  commentId: F:Prowl.Runtime.TextureWrapMode.Wrap
+  id: Wrap
+  parent: Prowl.Runtime.TextureWrapMode
+  langs:
+  - csharp
+  - vb
+  name: Wrap
+  nameWithType: TextureWrapMode.Wrap
+  fullName: Prowl.Runtime.TextureWrapMode.Wrap
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/Rendering/Texture/TextureSampler.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Wrap
+    path: ../Prowl/Prowl.Runtime/Rendering/Texture/TextureSampler.cs
+    startLine: 26
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: Wrap = 0
+    return:
+      type: Prowl.Runtime.TextureWrapMode
+references:
+- uid: Prowl.Runtime
+  commentId: N:Prowl.Runtime
+  href: Prowl.html
+  name: Prowl.Runtime
+  nameWithType: Prowl.Runtime
+  fullName: Prowl.Runtime
+  spec.csharp:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+  spec.vb:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+- uid: System.Object.Prowl.Runtime.RuntimeUtils.GetSerializableFields
+  commentId: M:Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  parent: Prowl.Runtime.RuntimeUtils
+  definition: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  name: GetSerializableFields(object)
+  nameWithType: RuntimeUtils.GetSerializableFields(object)
+  fullName: Prowl.Runtime.RuntimeUtils.GetSerializableFields(object)
+  nameWithType.vb: RuntimeUtils.GetSerializableFields(Object)
+  fullName.vb: Prowl.Runtime.RuntimeUtils.GetSerializableFields(Object)
+  name.vb: GetSerializableFields(Object)
+  spec.csharp:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  commentId: M:Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  isExternal: true
+  href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  name: GetSerializableFields(object)
+  nameWithType: RuntimeUtils.GetSerializableFields(object)
+  fullName: Prowl.Runtime.RuntimeUtils.GetSerializableFields(object)
+  nameWithType.vb: RuntimeUtils.GetSerializableFields(Object)
+  fullName.vb: Prowl.Runtime.RuntimeUtils.GetSerializableFields(Object)
+  name.vb: GetSerializableFields(Object)
+  spec.csharp:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: Prowl.Runtime.RuntimeUtils
+  commentId: T:Prowl.Runtime.RuntimeUtils
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.RuntimeUtils.html
+  name: RuntimeUtils
+  nameWithType: RuntimeUtils
+  fullName: Prowl.Runtime.RuntimeUtils
+- uid: Prowl.Runtime.TextureWrapMode
+  commentId: T:Prowl.Runtime.TextureWrapMode
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.TextureWrapMode.html
+  name: TextureWrapMode
+  nameWithType: TextureWrapMode
+  fullName: Prowl.Runtime.TextureWrapMode

@@ -1,0 +1,602 @@
+### YamlMime:ManagedReference
+items:
+- uid: Prowl.Runtime.Audio.AudioEngine
+  commentId: T:Prowl.Runtime.Audio.AudioEngine
+  id: AudioEngine
+  parent: Prowl.Runtime.Audio
+  children:
+  - Prowl.Runtime.Audio.AudioEngine.CreateAudioBuffer
+  - Prowl.Runtime.Audio.AudioEngine.CreateAudioSource
+  - Prowl.Runtime.Audio.AudioEngine.SetListenerOrientation(Prowl.Runtime.Vector3,Prowl.Runtime.Vector3)
+  - Prowl.Runtime.Audio.AudioEngine.SetListenerPosition(Prowl.Runtime.Vector3)
+  - Prowl.Runtime.Audio.AudioEngine.SetListenerVelocity(Prowl.Runtime.Vector3)
+  langs:
+  - csharp
+  - vb
+  name: AudioEngine
+  nameWithType: AudioEngine
+  fullName: Prowl.Runtime.Audio.AudioEngine
+  type: Class
+  source:
+    remote:
+      path: Prowl.Runtime/Audio/AudioEngine.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: AudioEngine
+    path: ../Prowl/Prowl.Runtime/Audio/AudioEngine.cs
+    startLine: 5
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.Audio
+  syntax:
+    content: public abstract class AudioEngine
+    content.vb: Public MustInherit Class AudioEngine
+  inheritance:
+  - System.Object
+  derivedClasses:
+  - Prowl.Runtime.Audio.Null.NullAudioEngine
+  - Prowl.Runtime.Audio.OpenAL.OpenALEngine
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  extensionMethods:
+  - System.Object.Prowl.Runtime.RuntimeUtils.GetSerializableFields
+- uid: Prowl.Runtime.Audio.AudioEngine.SetListenerPosition(Prowl.Runtime.Vector3)
+  commentId: M:Prowl.Runtime.Audio.AudioEngine.SetListenerPosition(Prowl.Runtime.Vector3)
+  id: SetListenerPosition(Prowl.Runtime.Vector3)
+  parent: Prowl.Runtime.Audio.AudioEngine
+  langs:
+  - csharp
+  - vb
+  name: SetListenerPosition(Vector3)
+  nameWithType: AudioEngine.SetListenerPosition(Vector3)
+  fullName: Prowl.Runtime.Audio.AudioEngine.SetListenerPosition(Prowl.Runtime.Vector3)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Audio/AudioEngine.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: SetListenerPosition
+    path: ../Prowl/Prowl.Runtime/Audio/AudioEngine.cs
+    startLine: 7
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.Audio
+  syntax:
+    content: public abstract void SetListenerPosition(Vector3 position)
+    parameters:
+    - id: position
+      type: Prowl.Runtime.Vector3
+    content.vb: Public MustOverride Sub SetListenerPosition(position As Vector3)
+  overload: Prowl.Runtime.Audio.AudioEngine.SetListenerPosition*
+- uid: Prowl.Runtime.Audio.AudioEngine.SetListenerVelocity(Prowl.Runtime.Vector3)
+  commentId: M:Prowl.Runtime.Audio.AudioEngine.SetListenerVelocity(Prowl.Runtime.Vector3)
+  id: SetListenerVelocity(Prowl.Runtime.Vector3)
+  parent: Prowl.Runtime.Audio.AudioEngine
+  langs:
+  - csharp
+  - vb
+  name: SetListenerVelocity(Vector3)
+  nameWithType: AudioEngine.SetListenerVelocity(Vector3)
+  fullName: Prowl.Runtime.Audio.AudioEngine.SetListenerVelocity(Prowl.Runtime.Vector3)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Audio/AudioEngine.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: SetListenerVelocity
+    path: ../Prowl/Prowl.Runtime/Audio/AudioEngine.cs
+    startLine: 8
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.Audio
+  syntax:
+    content: public abstract void SetListenerVelocity(Vector3 velocity)
+    parameters:
+    - id: velocity
+      type: Prowl.Runtime.Vector3
+    content.vb: Public MustOverride Sub SetListenerVelocity(velocity As Vector3)
+  overload: Prowl.Runtime.Audio.AudioEngine.SetListenerVelocity*
+- uid: Prowl.Runtime.Audio.AudioEngine.SetListenerOrientation(Prowl.Runtime.Vector3,Prowl.Runtime.Vector3)
+  commentId: M:Prowl.Runtime.Audio.AudioEngine.SetListenerOrientation(Prowl.Runtime.Vector3,Prowl.Runtime.Vector3)
+  id: SetListenerOrientation(Prowl.Runtime.Vector3,Prowl.Runtime.Vector3)
+  parent: Prowl.Runtime.Audio.AudioEngine
+  langs:
+  - csharp
+  - vb
+  name: SetListenerOrientation(Vector3, Vector3)
+  nameWithType: AudioEngine.SetListenerOrientation(Vector3, Vector3)
+  fullName: Prowl.Runtime.Audio.AudioEngine.SetListenerOrientation(Prowl.Runtime.Vector3, Prowl.Runtime.Vector3)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Audio/AudioEngine.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: SetListenerOrientation
+    path: ../Prowl/Prowl.Runtime/Audio/AudioEngine.cs
+    startLine: 9
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.Audio
+  syntax:
+    content: public abstract void SetListenerOrientation(Vector3 forward, Vector3 up)
+    parameters:
+    - id: forward
+      type: Prowl.Runtime.Vector3
+    - id: up
+      type: Prowl.Runtime.Vector3
+    content.vb: Public MustOverride Sub SetListenerOrientation(forward As Vector3, up As Vector3)
+  overload: Prowl.Runtime.Audio.AudioEngine.SetListenerOrientation*
+- uid: Prowl.Runtime.Audio.AudioEngine.CreateAudioSource
+  commentId: M:Prowl.Runtime.Audio.AudioEngine.CreateAudioSource
+  id: CreateAudioSource
+  parent: Prowl.Runtime.Audio.AudioEngine
+  langs:
+  - csharp
+  - vb
+  name: CreateAudioSource()
+  nameWithType: AudioEngine.CreateAudioSource()
+  fullName: Prowl.Runtime.Audio.AudioEngine.CreateAudioSource()
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Audio/AudioEngine.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: CreateAudioSource
+    path: ../Prowl/Prowl.Runtime/Audio/AudioEngine.cs
+    startLine: 10
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.Audio
+  syntax:
+    content: public abstract ActiveAudio CreateAudioSource()
+    return:
+      type: Prowl.Runtime.Audio.ActiveAudio
+    content.vb: Public MustOverride Function CreateAudioSource() As ActiveAudio
+  overload: Prowl.Runtime.Audio.AudioEngine.CreateAudioSource*
+- uid: Prowl.Runtime.Audio.AudioEngine.CreateAudioBuffer
+  commentId: M:Prowl.Runtime.Audio.AudioEngine.CreateAudioBuffer
+  id: CreateAudioBuffer
+  parent: Prowl.Runtime.Audio.AudioEngine
+  langs:
+  - csharp
+  - vb
+  name: CreateAudioBuffer()
+  nameWithType: AudioEngine.CreateAudioBuffer()
+  fullName: Prowl.Runtime.Audio.AudioEngine.CreateAudioBuffer()
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Audio/AudioEngine.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: CreateAudioBuffer
+    path: ../Prowl/Prowl.Runtime/Audio/AudioEngine.cs
+    startLine: 11
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.Audio
+  syntax:
+    content: public abstract AudioBuffer CreateAudioBuffer()
+    return:
+      type: Prowl.Runtime.Audio.AudioBuffer
+    content.vb: Public MustOverride Function CreateAudioBuffer() As AudioBuffer
+  overload: Prowl.Runtime.Audio.AudioEngine.CreateAudioBuffer*
+references:
+- uid: Prowl.Runtime.Audio
+  commentId: N:Prowl.Runtime.Audio
+  href: Prowl.html
+  name: Prowl.Runtime.Audio
+  nameWithType: Prowl.Runtime.Audio
+  fullName: Prowl.Runtime.Audio
+  spec.csharp:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+  - name: .
+  - uid: Prowl.Runtime.Audio
+    name: Audio
+    href: Prowl.Runtime.Audio.html
+  spec.vb:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+  - name: .
+  - uid: Prowl.Runtime.Audio
+    name: Audio
+    href: Prowl.Runtime.Audio.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Prowl.Runtime.RuntimeUtils.GetSerializableFields
+  commentId: M:Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  parent: Prowl.Runtime.RuntimeUtils
+  definition: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  name: GetSerializableFields(object)
+  nameWithType: RuntimeUtils.GetSerializableFields(object)
+  fullName: Prowl.Runtime.RuntimeUtils.GetSerializableFields(object)
+  nameWithType.vb: RuntimeUtils.GetSerializableFields(Object)
+  fullName.vb: Prowl.Runtime.RuntimeUtils.GetSerializableFields(Object)
+  name.vb: GetSerializableFields(Object)
+  spec.csharp:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  commentId: M:Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  isExternal: true
+  href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  name: GetSerializableFields(object)
+  nameWithType: RuntimeUtils.GetSerializableFields(object)
+  fullName: Prowl.Runtime.RuntimeUtils.GetSerializableFields(object)
+  nameWithType.vb: RuntimeUtils.GetSerializableFields(Object)
+  fullName.vb: Prowl.Runtime.RuntimeUtils.GetSerializableFields(Object)
+  name.vb: GetSerializableFields(Object)
+  spec.csharp:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: Prowl.Runtime.RuntimeUtils
+  commentId: T:Prowl.Runtime.RuntimeUtils
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.RuntimeUtils.html
+  name: RuntimeUtils
+  nameWithType: RuntimeUtils
+  fullName: Prowl.Runtime.RuntimeUtils
+- uid: Prowl.Runtime
+  commentId: N:Prowl.Runtime
+  href: Prowl.html
+  name: Prowl.Runtime
+  nameWithType: Prowl.Runtime
+  fullName: Prowl.Runtime
+  spec.csharp:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+  spec.vb:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+- uid: Prowl.Runtime.Audio.AudioEngine.SetListenerPosition*
+  commentId: Overload:Prowl.Runtime.Audio.AudioEngine.SetListenerPosition
+  href: Prowl.Runtime.Audio.AudioEngine.html#Prowl_Runtime_Audio_AudioEngine_SetListenerPosition_Prowl_Runtime_Vector3_
+  name: SetListenerPosition
+  nameWithType: AudioEngine.SetListenerPosition
+  fullName: Prowl.Runtime.Audio.AudioEngine.SetListenerPosition
+- uid: Prowl.Runtime.Vector3
+  commentId: T:Prowl.Runtime.Vector3
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.Vector3.html
+  name: Vector3
+  nameWithType: Vector3
+  fullName: Prowl.Runtime.Vector3
+- uid: Prowl.Runtime.Audio.AudioEngine.SetListenerVelocity*
+  commentId: Overload:Prowl.Runtime.Audio.AudioEngine.SetListenerVelocity
+  href: Prowl.Runtime.Audio.AudioEngine.html#Prowl_Runtime_Audio_AudioEngine_SetListenerVelocity_Prowl_Runtime_Vector3_
+  name: SetListenerVelocity
+  nameWithType: AudioEngine.SetListenerVelocity
+  fullName: Prowl.Runtime.Audio.AudioEngine.SetListenerVelocity
+- uid: Prowl.Runtime.Audio.AudioEngine.SetListenerOrientation*
+  commentId: Overload:Prowl.Runtime.Audio.AudioEngine.SetListenerOrientation
+  href: Prowl.Runtime.Audio.AudioEngine.html#Prowl_Runtime_Audio_AudioEngine_SetListenerOrientation_Prowl_Runtime_Vector3_Prowl_Runtime_Vector3_
+  name: SetListenerOrientation
+  nameWithType: AudioEngine.SetListenerOrientation
+  fullName: Prowl.Runtime.Audio.AudioEngine.SetListenerOrientation
+- uid: Prowl.Runtime.Audio.AudioEngine.CreateAudioSource*
+  commentId: Overload:Prowl.Runtime.Audio.AudioEngine.CreateAudioSource
+  href: Prowl.Runtime.Audio.AudioEngine.html#Prowl_Runtime_Audio_AudioEngine_CreateAudioSource
+  name: CreateAudioSource
+  nameWithType: AudioEngine.CreateAudioSource
+  fullName: Prowl.Runtime.Audio.AudioEngine.CreateAudioSource
+- uid: Prowl.Runtime.Audio.ActiveAudio
+  commentId: T:Prowl.Runtime.Audio.ActiveAudio
+  parent: Prowl.Runtime.Audio
+  href: Prowl.Runtime.Audio.ActiveAudio.html
+  name: ActiveAudio
+  nameWithType: ActiveAudio
+  fullName: Prowl.Runtime.Audio.ActiveAudio
+- uid: Prowl.Runtime.Audio.AudioEngine.CreateAudioBuffer*
+  commentId: Overload:Prowl.Runtime.Audio.AudioEngine.CreateAudioBuffer
+  href: Prowl.Runtime.Audio.AudioEngine.html#Prowl_Runtime_Audio_AudioEngine_CreateAudioBuffer
+  name: CreateAudioBuffer
+  nameWithType: AudioEngine.CreateAudioBuffer
+  fullName: Prowl.Runtime.Audio.AudioEngine.CreateAudioBuffer
+- uid: Prowl.Runtime.Audio.AudioBuffer
+  commentId: T:Prowl.Runtime.Audio.AudioBuffer
+  parent: Prowl.Runtime.Audio
+  href: Prowl.Runtime.Audio.AudioBuffer.html
+  name: AudioBuffer
+  nameWithType: AudioBuffer
+  fullName: Prowl.Runtime.Audio.AudioBuffer

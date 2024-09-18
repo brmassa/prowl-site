@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: Prowl.Editor.ProjectSettings
+  commentId: N:Prowl.Editor.ProjectSettings
+  id: Prowl.Editor.ProjectSettings
+  children:
+  - Prowl.Editor.ProjectSettings.BuildProjectSetting
+  langs:
+  - csharp
+  - vb
+  name: Prowl.Editor.ProjectSettings
+  nameWithType: Prowl.Editor.ProjectSettings
+  fullName: Prowl.Editor.ProjectSettings
+  type: Namespace
+  assemblies:
+  - Prowl.Editor
+references:
+- uid: Prowl.Editor.ProjectSettings.BuildProjectSetting
+  commentId: T:Prowl.Editor.ProjectSettings.BuildProjectSetting
+  href: Prowl.Editor.ProjectSettings.BuildProjectSetting.html
+  name: BuildProjectSetting
+  nameWithType: BuildProjectSetting
+  fullName: Prowl.Editor.ProjectSettings.BuildProjectSetting

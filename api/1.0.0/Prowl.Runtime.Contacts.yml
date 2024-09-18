@@ -1,0 +1,54 @@
+### YamlMime:ManagedReference
+items:
+- uid: Prowl.Runtime.Contacts
+  commentId: N:Prowl.Runtime.Contacts
+  id: Prowl.Runtime.Contacts
+  children:
+  - Prowl.Runtime.Contacts.IContactEventHandler
+  langs:
+  - csharp
+  - vb
+  name: Prowl.Runtime.Contacts
+  nameWithType: Prowl.Runtime.Contacts
+  fullName: Prowl.Runtime.Contacts
+  type: Namespace
+  assemblies:
+  - Prowl.Runtime
+references:
+- uid: Prowl.Runtime.Contacts.IContactEventHandler
+  commentId: T:Prowl.Runtime.Contacts.IContactEventHandler
+  parent: Prowl.Runtime.Contacts
+  href: Prowl.Runtime.Contacts.IContactEventHandler.html
+  name: IContactEventHandler
+  nameWithType: IContactEventHandler
+  fullName: Prowl.Runtime.Contacts.IContactEventHandler
+- uid: Prowl.Runtime.Contacts
+  commentId: N:Prowl.Runtime.Contacts
+  href: Prowl.html
+  name: Prowl.Runtime.Contacts
+  nameWithType: Prowl.Runtime.Contacts
+  fullName: Prowl.Runtime.Contacts
+  spec.csharp:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+  - name: .
+  - uid: Prowl.Runtime.Contacts
+    name: Contacts
+    href: Prowl.Runtime.Contacts.html
+  spec.vb:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+  - name: .
+  - uid: Prowl.Runtime.Contacts
+    name: Contacts
+    href: Prowl.Runtime.Contacts.html

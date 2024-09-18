@@ -1,0 +1,37 @@
+### YamlMime:ManagedReference
+items:
+- uid: Prowl.Runtime.Audio.Null
+  commentId: N:Prowl.Runtime.Audio.Null
+  id: Prowl.Runtime.Audio.Null
+  children:
+  - Prowl.Runtime.Audio.Null.NullAudioBuffer
+  - Prowl.Runtime.Audio.Null.NullAudioEngine
+  - Prowl.Runtime.Audio.Null.NullAudioSource
+  langs:
+  - csharp
+  - vb
+  name: Prowl.Runtime.Audio.Null
+  nameWithType: Prowl.Runtime.Audio.Null
+  fullName: Prowl.Runtime.Audio.Null
+  type: Namespace
+  assemblies:
+  - Prowl.Runtime
+references:
+- uid: Prowl.Runtime.Audio.Null.NullAudioBuffer
+  commentId: T:Prowl.Runtime.Audio.Null.NullAudioBuffer
+  href: Prowl.Runtime.Audio.Null.NullAudioBuffer.html
+  name: NullAudioBuffer
+  nameWithType: NullAudioBuffer
+  fullName: Prowl.Runtime.Audio.Null.NullAudioBuffer
+- uid: Prowl.Runtime.Audio.Null.NullAudioEngine
+  commentId: T:Prowl.Runtime.Audio.Null.NullAudioEngine
+  href: Prowl.Runtime.Audio.Null.NullAudioEngine.html
+  name: NullAudioEngine
+  nameWithType: NullAudioEngine
+  fullName: Prowl.Runtime.Audio.Null.NullAudioEngine
+- uid: Prowl.Runtime.Audio.Null.NullAudioSource
+  commentId: T:Prowl.Runtime.Audio.Null.NullAudioSource
+  href: Prowl.Runtime.Audio.Null.NullAudioSource.html
+  name: NullAudioSource
+  nameWithType: NullAudioSource
+  fullName: Prowl.Runtime.Audio.Null.NullAudioSource

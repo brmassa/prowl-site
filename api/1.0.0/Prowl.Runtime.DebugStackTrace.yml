@@ -1,0 +1,668 @@
+### YamlMime:ManagedReference
+items:
+- uid: Prowl.Runtime.DebugStackTrace
+  commentId: T:Prowl.Runtime.DebugStackTrace
+  id: DebugStackTrace
+  parent: Prowl.Runtime
+  children:
+  - Prowl.Runtime.DebugStackTrace.#ctor(Prowl.Runtime.DebugStackFrame[])
+  - Prowl.Runtime.DebugStackTrace.ToString
+  - Prowl.Runtime.DebugStackTrace.op_Explicit(System.Diagnostics.StackTrace)~Prowl.Runtime.DebugStackTrace
+  - Prowl.Runtime.DebugStackTrace.stackFrames
+  langs:
+  - csharp
+  - vb
+  name: DebugStackTrace
+  nameWithType: DebugStackTrace
+  fullName: Prowl.Runtime.DebugStackTrace
+  type: Class
+  source:
+    remote:
+      path: Prowl.Runtime/Debug.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: DebugStackTrace
+    path: ../Prowl/Prowl.Runtime/Debug.cs
+    startLine: 38
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: 'public record DebugStackTrace : IEquatable<DebugStackTrace>'
+    content.vb: Public Class DebugStackTrace Implements IEquatable(Of DebugStackTrace)
+  inheritance:
+  - System.Object
+  implements:
+  - System.IEquatable{Prowl.Runtime.DebugStackTrace}
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  extensionMethods:
+  - System.Object.Prowl.Runtime.RuntimeUtils.GetSerializableFields
+- uid: Prowl.Runtime.DebugStackTrace.#ctor(Prowl.Runtime.DebugStackFrame[])
+  commentId: M:Prowl.Runtime.DebugStackTrace.#ctor(Prowl.Runtime.DebugStackFrame[])
+  id: '#ctor(Prowl.Runtime.DebugStackFrame[])'
+  parent: Prowl.Runtime.DebugStackTrace
+  langs:
+  - csharp
+  - vb
+  name: DebugStackTrace(params DebugStackFrame[])
+  nameWithType: DebugStackTrace.DebugStackTrace(params DebugStackFrame[])
+  fullName: Prowl.Runtime.DebugStackTrace.DebugStackTrace(params Prowl.Runtime.DebugStackFrame[])
+  type: Constructor
+  source:
+    remote:
+      path: Prowl.Runtime/Debug.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: .ctor
+    path: ../Prowl/Prowl.Runtime/Debug.cs
+    startLine: 38
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public DebugStackTrace(params DebugStackFrame[] stackFrames)
+    parameters:
+    - id: stackFrames
+      type: Prowl.Runtime.DebugStackFrame[]
+    content.vb: Public Sub New(ParamArray stackFrames As DebugStackFrame())
+  overload: Prowl.Runtime.DebugStackTrace.#ctor*
+  nameWithType.vb: DebugStackTrace.New(ParamArray DebugStackFrame())
+  fullName.vb: Prowl.Runtime.DebugStackTrace.New(ParamArray Prowl.Runtime.DebugStackFrame())
+  name.vb: New(ParamArray DebugStackFrame())
+- uid: Prowl.Runtime.DebugStackTrace.stackFrames
+  commentId: P:Prowl.Runtime.DebugStackTrace.stackFrames
+  id: stackFrames
+  parent: Prowl.Runtime.DebugStackTrace
+  langs:
+  - csharp
+  - vb
+  name: stackFrames
+  nameWithType: DebugStackTrace.stackFrames
+  fullName: Prowl.Runtime.DebugStackTrace.stackFrames
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/Debug.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: stackFrames
+    path: ../Prowl/Prowl.Runtime/Debug.cs
+    startLine: 38
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public DebugStackFrame[] stackFrames { get; init; }
+    parameters: []
+    return:
+      type: Prowl.Runtime.DebugStackFrame[]
+    content.vb: Public Property stackFrames As DebugStackFrame()
+  overload: Prowl.Runtime.DebugStackTrace.stackFrames*
+- uid: Prowl.Runtime.DebugStackTrace.op_Explicit(System.Diagnostics.StackTrace)~Prowl.Runtime.DebugStackTrace
+  commentId: M:Prowl.Runtime.DebugStackTrace.op_Explicit(System.Diagnostics.StackTrace)~Prowl.Runtime.DebugStackTrace
+  id: op_Explicit(System.Diagnostics.StackTrace)~Prowl.Runtime.DebugStackTrace
+  parent: Prowl.Runtime.DebugStackTrace
+  langs:
+  - csharp
+  - vb
+  name: explicit operator DebugStackTrace(StackTrace)
+  nameWithType: DebugStackTrace.explicit operator DebugStackTrace(StackTrace)
+  fullName: Prowl.Runtime.DebugStackTrace.explicit operator Prowl.Runtime.DebugStackTrace(System.Diagnostics.StackTrace)
+  type: Operator
+  source:
+    remote:
+      path: Prowl.Runtime/Debug.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: op_Explicit
+    path: ../Prowl/Prowl.Runtime/Debug.cs
+    startLine: 40
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public static explicit operator DebugStackTrace(StackTrace stackTrace)
+    parameters:
+    - id: stackTrace
+      type: System.Diagnostics.StackTrace
+    return:
+      type: Prowl.Runtime.DebugStackTrace
+    content.vb: Public Shared Narrowing Operator CType(stackTrace As StackTrace) As DebugStackTrace
+  overload: Prowl.Runtime.DebugStackTrace.op_Explicit*
+  nameWithType.vb: DebugStackTrace.CType(StackTrace)
+  fullName.vb: Prowl.Runtime.DebugStackTrace.CType(System.Diagnostics.StackTrace)
+  name.vb: CType(StackTrace)
+- uid: Prowl.Runtime.DebugStackTrace.ToString
+  commentId: M:Prowl.Runtime.DebugStackTrace.ToString
+  id: ToString
+  parent: Prowl.Runtime.DebugStackTrace
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: DebugStackTrace.ToString()
+  fullName: Prowl.Runtime.DebugStackTrace.ToString()
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Debug.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: ToString
+    path: ../Prowl/Prowl.Runtime/Debug.cs
+    startLine: 54
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: Returns a string that represents the current object.
+  example: []
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+      description: A string that represents the current object.
+    content.vb: Public Overrides Function ToString() As String
+  overridden: System.Object.ToString
+  overload: Prowl.Runtime.DebugStackTrace.ToString*
+references:
+- uid: Prowl.Runtime
+  commentId: N:Prowl.Runtime
+  href: Prowl.html
+  name: Prowl.Runtime
+  nameWithType: Prowl.Runtime
+  fullName: Prowl.Runtime
+  spec.csharp:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+  spec.vb:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.IEquatable{Prowl.Runtime.DebugStackTrace}
+  commentId: T:System.IEquatable{Prowl.Runtime.DebugStackTrace}
+  parent: System
+  definition: System.IEquatable`1
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<DebugStackTrace>
+  nameWithType: IEquatable<DebugStackTrace>
+  fullName: System.IEquatable<Prowl.Runtime.DebugStackTrace>
+  nameWithType.vb: IEquatable(Of DebugStackTrace)
+  fullName.vb: System.IEquatable(Of Prowl.Runtime.DebugStackTrace)
+  name.vb: IEquatable(Of DebugStackTrace)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - uid: Prowl.Runtime.DebugStackTrace
+    name: DebugStackTrace
+    href: Prowl.Runtime.DebugStackTrace.html
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Prowl.Runtime.DebugStackTrace
+    name: DebugStackTrace
+    href: Prowl.Runtime.DebugStackTrace.html
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Prowl.Runtime.RuntimeUtils.GetSerializableFields
+  commentId: M:Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  parent: Prowl.Runtime.RuntimeUtils
+  definition: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  name: GetSerializableFields(object)
+  nameWithType: RuntimeUtils.GetSerializableFields(object)
+  fullName: Prowl.Runtime.RuntimeUtils.GetSerializableFields(object)
+  nameWithType.vb: RuntimeUtils.GetSerializableFields(Object)
+  fullName.vb: Prowl.Runtime.RuntimeUtils.GetSerializableFields(Object)
+  name.vb: GetSerializableFields(Object)
+  spec.csharp:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.IEquatable`1
+  commentId: T:System.IEquatable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<T>
+  nameWithType: IEquatable<T>
+  fullName: System.IEquatable<T>
+  nameWithType.vb: IEquatable(Of T)
+  fullName.vb: System.IEquatable(Of T)
+  name.vb: IEquatable(Of T)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  commentId: M:Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  isExternal: true
+  href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  name: GetSerializableFields(object)
+  nameWithType: RuntimeUtils.GetSerializableFields(object)
+  fullName: Prowl.Runtime.RuntimeUtils.GetSerializableFields(object)
+  nameWithType.vb: RuntimeUtils.GetSerializableFields(Object)
+  fullName.vb: Prowl.Runtime.RuntimeUtils.GetSerializableFields(Object)
+  name.vb: GetSerializableFields(Object)
+  spec.csharp:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: Prowl.Runtime.RuntimeUtils
+  commentId: T:Prowl.Runtime.RuntimeUtils
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.RuntimeUtils.html
+  name: RuntimeUtils
+  nameWithType: RuntimeUtils
+  fullName: Prowl.Runtime.RuntimeUtils
+- uid: Prowl.Runtime.DebugStackTrace.#ctor*
+  commentId: Overload:Prowl.Runtime.DebugStackTrace.#ctor
+  href: Prowl.Runtime.DebugStackTrace.html#Prowl_Runtime_DebugStackTrace__ctor_Prowl_Runtime_DebugStackFrame___
+  name: DebugStackTrace
+  nameWithType: DebugStackTrace.DebugStackTrace
+  fullName: Prowl.Runtime.DebugStackTrace.DebugStackTrace
+  nameWithType.vb: DebugStackTrace.New
+  fullName.vb: Prowl.Runtime.DebugStackTrace.New
+  name.vb: New
+- uid: Prowl.Runtime.DebugStackFrame[]
+  isExternal: true
+  href: Prowl.Runtime.DebugStackFrame.html
+  name: DebugStackFrame[]
+  nameWithType: DebugStackFrame[]
+  fullName: Prowl.Runtime.DebugStackFrame[]
+  nameWithType.vb: DebugStackFrame()
+  fullName.vb: Prowl.Runtime.DebugStackFrame()
+  name.vb: DebugStackFrame()
+  spec.csharp:
+  - uid: Prowl.Runtime.DebugStackFrame
+    name: DebugStackFrame
+    href: Prowl.Runtime.DebugStackFrame.html
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: Prowl.Runtime.DebugStackFrame
+    name: DebugStackFrame
+    href: Prowl.Runtime.DebugStackFrame.html
+  - name: (
+  - name: )
+- uid: Prowl.Runtime.DebugStackTrace.stackFrames*
+  commentId: Overload:Prowl.Runtime.DebugStackTrace.stackFrames
+  href: Prowl.Runtime.DebugStackTrace.html#Prowl_Runtime_DebugStackTrace_stackFrames
+  name: stackFrames
+  nameWithType: DebugStackTrace.stackFrames
+  fullName: Prowl.Runtime.DebugStackTrace.stackFrames
+- uid: Prowl.Runtime.DebugStackTrace.op_Explicit*
+  commentId: Overload:Prowl.Runtime.DebugStackTrace.op_Explicit
+  name: explicit operator
+  nameWithType: DebugStackTrace.explicit operator
+  fullName: Prowl.Runtime.DebugStackTrace.explicit operator
+  nameWithType.vb: DebugStackTrace.CType
+  fullName.vb: Prowl.Runtime.DebugStackTrace.CType
+  name.vb: CType
+  spec.csharp:
+  - name: explicit
+  - name: " "
+  - name: operator
+- uid: System.Diagnostics.StackTrace
+  commentId: T:System.Diagnostics.StackTrace
+  parent: System.Diagnostics
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.diagnostics.stacktrace
+  name: StackTrace
+  nameWithType: StackTrace
+  fullName: System.Diagnostics.StackTrace
+- uid: Prowl.Runtime.DebugStackTrace
+  commentId: T:Prowl.Runtime.DebugStackTrace
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.DebugStackTrace.html
+  name: DebugStackTrace
+  nameWithType: DebugStackTrace
+  fullName: Prowl.Runtime.DebugStackTrace
+- uid: System.Diagnostics
+  commentId: N:System.Diagnostics
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Diagnostics
+  nameWithType: System.Diagnostics
+  fullName: System.Diagnostics
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Diagnostics
+    name: Diagnostics
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.diagnostics
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Diagnostics
+    name: Diagnostics
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.diagnostics
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: Prowl.Runtime.DebugStackTrace.ToString*
+  commentId: Overload:Prowl.Runtime.DebugStackTrace.ToString
+  href: Prowl.Runtime.DebugStackTrace.html#Prowl_Runtime_DebugStackTrace_ToString
+  name: ToString
+  nameWithType: DebugStackTrace.ToString
+  fullName: Prowl.Runtime.DebugStackTrace.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String

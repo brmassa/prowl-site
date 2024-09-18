@@ -1,0 +1,54 @@
+### YamlMime:ManagedReference
+items:
+- uid: Prowl.Runtime.Raycast
+  commentId: N:Prowl.Runtime.Raycast
+  id: Prowl.Runtime.Raycast
+  children:
+  - Prowl.Runtime.Raycast.HitInfo
+  langs:
+  - csharp
+  - vb
+  name: Prowl.Runtime.Raycast
+  nameWithType: Prowl.Runtime.Raycast
+  fullName: Prowl.Runtime.Raycast
+  type: Namespace
+  assemblies:
+  - Prowl.Runtime
+references:
+- uid: Prowl.Runtime.Raycast.HitInfo
+  commentId: T:Prowl.Runtime.Raycast.HitInfo
+  parent: Prowl.Runtime.Raycast
+  href: Prowl.Runtime.Raycast.HitInfo.html
+  name: HitInfo
+  nameWithType: HitInfo
+  fullName: Prowl.Runtime.Raycast.HitInfo
+- uid: Prowl.Runtime.Raycast
+  commentId: N:Prowl.Runtime.Raycast
+  href: Prowl.html
+  name: Prowl.Runtime.Raycast
+  nameWithType: Prowl.Runtime.Raycast
+  fullName: Prowl.Runtime.Raycast
+  spec.csharp:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+  - name: .
+  - uid: Prowl.Runtime.Raycast
+    name: Raycast
+    href: Prowl.Runtime.Raycast.html
+  spec.vb:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+  - name: .
+  - uid: Prowl.Runtime.Raycast
+    name: Raycast
+    href: Prowl.Runtime.Raycast.html

@@ -1,0 +1,2302 @@
+### YamlMime:ManagedReference
+items:
+- uid: Prowl.Editor.Preferences.EditorStylePrefs
+  commentId: T:Prowl.Editor.Preferences.EditorStylePrefs
+  id: EditorStylePrefs
+  parent: Prowl.Editor.Preferences
+  children:
+  - Prowl.Editor.Preferences.EditorStylePrefs.AssetRoundness
+  - Prowl.Editor.Preferences.EditorStylePrefs.Background
+  - Prowl.Editor.Preferences.EditorStylePrefs.Base10
+  - Prowl.Editor.Preferences.EditorStylePrefs.Base11
+  - Prowl.Editor.Preferences.EditorStylePrefs.Base4
+  - Prowl.Editor.Preferences.EditorStylePrefs.Base5
+  - Prowl.Editor.Preferences.EditorStylePrefs.Base6
+  - Prowl.Editor.Preferences.EditorStylePrefs.Base7
+  - Prowl.Editor.Preferences.EditorStylePrefs.Base8
+  - Prowl.Editor.Preferences.EditorStylePrefs.Base9
+  - Prowl.Editor.Preferences.EditorStylePrefs.Black
+  - Prowl.Editor.Preferences.EditorStylePrefs.Blue
+  - Prowl.Editor.Preferences.EditorStylePrefs.Borders
+  - Prowl.Editor.Preferences.EditorStylePrefs.ButtonRoundness
+  - Prowl.Editor.Preferences.EditorStylePrefs.Disabled
+  - Prowl.Editor.Preferences.EditorStylePrefs.DockSpacing
+  - Prowl.Editor.Preferences.EditorStylePrefs.DropHighlight
+  - Prowl.Editor.Preferences.EditorStylePrefs.Emerald
+  - Prowl.Editor.Preferences.EditorStylePrefs.Fuchsia
+  - Prowl.Editor.Preferences.EditorStylePrefs.Green
+  - Prowl.Editor.Preferences.EditorStylePrefs.Highlighted
+  - Prowl.Editor.Preferences.EditorStylePrefs.Hovering
+  - Prowl.Editor.Preferences.EditorStylePrefs.Indigo
+  - Prowl.Editor.Preferences.EditorStylePrefs.ItemSize
+  - Prowl.Editor.Preferences.EditorStylePrefs.LesserText
+  - Prowl.Editor.Preferences.EditorStylePrefs.NoodlePathType
+  - Prowl.Editor.Preferences.EditorStylePrefs.NoodleStrokeType
+  - Prowl.Editor.Preferences.EditorStylePrefs.NoodleStrokeWidth
+  - Prowl.Editor.Preferences.EditorStylePrefs.OnValidate
+  - Prowl.Editor.Preferences.EditorStylePrefs.Orange
+  - Prowl.Editor.Preferences.EditorStylePrefs.Ping
+  - Prowl.Editor.Preferences.EditorStylePrefs.Pink
+  - Prowl.Editor.Preferences.EditorStylePrefs.RandomPastel(System.Type,System.Single,System.Single)
+  - Prowl.Editor.Preferences.EditorStylePrefs.RandomPastelColor(System.Int32,System.Single)
+  - Prowl.Editor.Preferences.EditorStylePrefs.Red
+  - Prowl.Editor.Preferences.EditorStylePrefs.ResetDefault
+  - Prowl.Editor.Preferences.EditorStylePrefs.Scale
+  - Prowl.Editor.Preferences.EditorStylePrefs.Sky
+  - Prowl.Editor.Preferences.EditorStylePrefs.TabRoundness
+  - Prowl.Editor.Preferences.EditorStylePrefs.Violet
+  - Prowl.Editor.Preferences.EditorStylePrefs.Warning
+  - Prowl.Editor.Preferences.EditorStylePrefs.WindowBGOne
+  - Prowl.Editor.Preferences.EditorStylePrefs.WindowBGTwo
+  - Prowl.Editor.Preferences.EditorStylePrefs.WindowRoundness
+  - Prowl.Editor.Preferences.EditorStylePrefs.Yellow
+  langs:
+  - csharp
+  - vb
+  name: EditorStylePrefs
+  nameWithType: EditorStylePrefs
+  fullName: Prowl.Editor.Preferences.EditorStylePrefs
+  type: Class
+  source:
+    remote:
+      path: Prowl.Editor/Editor/Preferences/GeneralPreferences.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: EditorStylePrefs
+    path: ../Prowl/Prowl.Editor/Editor/Preferences/GeneralPreferences.cs
+    startLine: 46
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor.Preferences
+  syntax:
+    content: >-
+      [FilePath("EditorStyle.pref", FilePathAttribute.Location.EditorPreference)]
+
+      public class EditorStylePrefs : ScriptableSingleton<EditorStylePrefs>
+    content.vb: >-
+      <FilePath("EditorStyle.pref", FilePathAttribute.Location.EditorPreference)>
+
+      Public Class EditorStylePrefs Inherits ScriptableSingleton(Of EditorStylePrefs)
+  inheritance:
+  - System.Object
+  - Prowl.Runtime.Utils.ScriptableSingleton{Prowl.Editor.Preferences.EditorStylePrefs}
+  inheritedMembers:
+  - Prowl.Runtime.Utils.ScriptableSingleton{Prowl.Editor.Preferences.EditorStylePrefs}._instance
+  - Prowl.Runtime.Utils.ScriptableSingleton{Prowl.Editor.Preferences.EditorStylePrefs}.Instance
+  - Prowl.Runtime.Utils.ScriptableSingleton{Prowl.Editor.Preferences.EditorStylePrefs}.Save
+  - Prowl.Runtime.Utils.ScriptableSingleton{Prowl.Editor.Preferences.EditorStylePrefs}.GetFilePath(System.String)
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  extensionMethods:
+  - System.Object.Prowl.Runtime.RuntimeUtils.GetSerializableFields
+  attributes:
+  - type: Prowl.Runtime.Utils.FilePathAttribute
+    ctor: Prowl.Runtime.Utils.FilePathAttribute.#ctor(System.String,Prowl.Runtime.Utils.FilePathAttribute.Location)
+    arguments:
+    - type: System.String
+      value: EditorStyle.pref
+    - type: Prowl.Runtime.Utils.FilePathAttribute.Location
+      value: 3
+- uid: Prowl.Editor.Preferences.EditorStylePrefs.Disabled
+  commentId: F:Prowl.Editor.Preferences.EditorStylePrefs.Disabled
+  id: Disabled
+  parent: Prowl.Editor.Preferences.EditorStylePrefs
+  langs:
+  - csharp
+  - vb
+  name: Disabled
+  nameWithType: EditorStylePrefs.Disabled
+  fullName: Prowl.Editor.Preferences.EditorStylePrefs.Disabled
+  type: Field
+  source:
+    remote:
+      path: Prowl.Editor/Editor/Preferences/GeneralPreferences.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Disabled
+    path: ../Prowl/Prowl.Editor/Editor/Preferences/GeneralPreferences.cs
+    startLine: 50
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor.Preferences
+  syntax:
+    content: >-
+      [Text("Colors:")]
+
+      public double Disabled
+    return:
+      type: System.Double
+    content.vb: >-
+      <Text("Colors:")>
+
+      Public Disabled As Double
+  attributes:
+  - type: Prowl.Runtime.TextAttribute
+    ctor: Prowl.Runtime.TextAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: 'Colors:'
+- uid: Prowl.Editor.Preferences.EditorStylePrefs.LesserText
+  commentId: F:Prowl.Editor.Preferences.EditorStylePrefs.LesserText
+  id: LesserText
+  parent: Prowl.Editor.Preferences.EditorStylePrefs
+  langs:
+  - csharp
+  - vb
+  name: LesserText
+  nameWithType: EditorStylePrefs.LesserText
+  fullName: Prowl.Editor.Preferences.EditorStylePrefs.LesserText
+  type: Field
+  source:
+    remote:
+      path: Prowl.Editor/Editor/Preferences/GeneralPreferences.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: LesserText
+    path: ../Prowl/Prowl.Editor/Editor/Preferences/GeneralPreferences.cs
+    startLine: 51
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor.Preferences
+  syntax:
+    content: public Color LesserText
+    return:
+      type: Prowl.Runtime.Color
+    content.vb: Public LesserText As Color
+- uid: Prowl.Editor.Preferences.EditorStylePrefs.Background
+  commentId: F:Prowl.Editor.Preferences.EditorStylePrefs.Background
+  id: Background
+  parent: Prowl.Editor.Preferences.EditorStylePrefs
+  langs:
+  - csharp
+  - vb
+  name: Background
+  nameWithType: EditorStylePrefs.Background
+  fullName: Prowl.Editor.Preferences.EditorStylePrefs.Background
+  type: Field
+  source:
+    remote:
+      path: Prowl.Editor/Editor/Preferences/GeneralPreferences.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Background
+    path: ../Prowl/Prowl.Editor/Editor/Preferences/GeneralPreferences.cs
+    startLine: 52
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor.Preferences
+  syntax:
+    content: public Color Background
+    return:
+      type: Prowl.Runtime.Color
+    content.vb: Public Background As Color
+- uid: Prowl.Editor.Preferences.EditorStylePrefs.WindowBGOne
+  commentId: F:Prowl.Editor.Preferences.EditorStylePrefs.WindowBGOne
+  id: WindowBGOne
+  parent: Prowl.Editor.Preferences.EditorStylePrefs
+  langs:
+  - csharp
+  - vb
+  name: WindowBGOne
+  nameWithType: EditorStylePrefs.WindowBGOne
+  fullName: Prowl.Editor.Preferences.EditorStylePrefs.WindowBGOne
+  type: Field
+  source:
+    remote:
+      path: Prowl.Editor/Editor/Preferences/GeneralPreferences.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: WindowBGOne
+    path: ../Prowl/Prowl.Editor/Editor/Preferences/GeneralPreferences.cs
+    startLine: 53
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor.Preferences
+  syntax:
+    content: public Color WindowBGOne
+    return:
+      type: Prowl.Runtime.Color
+    content.vb: Public WindowBGOne As Color
+- uid: Prowl.Editor.Preferences.EditorStylePrefs.WindowBGTwo
+  commentId: F:Prowl.Editor.Preferences.EditorStylePrefs.WindowBGTwo
+  id: WindowBGTwo
+  parent: Prowl.Editor.Preferences.EditorStylePrefs
+  langs:
+  - csharp
+  - vb
+  name: WindowBGTwo
+  nameWithType: EditorStylePrefs.WindowBGTwo
+  fullName: Prowl.Editor.Preferences.EditorStylePrefs.WindowBGTwo
+  type: Field
+  source:
+    remote:
+      path: Prowl.Editor/Editor/Preferences/GeneralPreferences.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: WindowBGTwo
+    path: ../Prowl/Prowl.Editor/Editor/Preferences/GeneralPreferences.cs
+    startLine: 54
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor.Preferences
+  syntax:
+    content: public Color WindowBGTwo
+    return:
+      type: Prowl.Runtime.Color
+    content.vb: Public WindowBGTwo As Color
+- uid: Prowl.Editor.Preferences.EditorStylePrefs.Borders
+  commentId: F:Prowl.Editor.Preferences.EditorStylePrefs.Borders
+  id: Borders
+  parent: Prowl.Editor.Preferences.EditorStylePrefs
+  langs:
+  - csharp
+  - vb
+  name: Borders
+  nameWithType: EditorStylePrefs.Borders
+  fullName: Prowl.Editor.Preferences.EditorStylePrefs.Borders
+  type: Field
+  source:
+    remote:
+      path: Prowl.Editor/Editor/Preferences/GeneralPreferences.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Borders
+    path: ../Prowl/Prowl.Editor/Editor/Preferences/GeneralPreferences.cs
+    startLine: 55
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor.Preferences
+  syntax:
+    content: public Color Borders
+    return:
+      type: Prowl.Runtime.Color
+    content.vb: Public Borders As Color
+- uid: Prowl.Editor.Preferences.EditorStylePrefs.Hovering
+  commentId: F:Prowl.Editor.Preferences.EditorStylePrefs.Hovering
+  id: Hovering
+  parent: Prowl.Editor.Preferences.EditorStylePrefs
+  langs:
+  - csharp
+  - vb
+  name: Hovering
+  nameWithType: EditorStylePrefs.Hovering
+  fullName: Prowl.Editor.Preferences.EditorStylePrefs.Hovering
+  type: Field
+  source:
+    remote:
+      path: Prowl.Editor/Editor/Preferences/GeneralPreferences.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Hovering
+    path: ../Prowl/Prowl.Editor/Editor/Preferences/GeneralPreferences.cs
+    startLine: 56
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor.Preferences
+  syntax:
+    content: public Color Hovering
+    return:
+      type: Prowl.Runtime.Color
+    content.vb: Public Hovering As Color
+- uid: Prowl.Editor.Preferences.EditorStylePrefs.Highlighted
+  commentId: F:Prowl.Editor.Preferences.EditorStylePrefs.Highlighted
+  id: Highlighted
+  parent: Prowl.Editor.Preferences.EditorStylePrefs
+  langs:
+  - csharp
+  - vb
+  name: Highlighted
+  nameWithType: EditorStylePrefs.Highlighted
+  fullName: Prowl.Editor.Preferences.EditorStylePrefs.Highlighted
+  type: Field
+  source:
+    remote:
+      path: Prowl.Editor/Editor/Preferences/GeneralPreferences.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Highlighted
+    path: ../Prowl/Prowl.Editor/Editor/Preferences/GeneralPreferences.cs
+    startLine: 57
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor.Preferences
+  syntax:
+    content: public Color Highlighted
+    return:
+      type: Prowl.Runtime.Color
+    content.vb: Public Highlighted As Color
+- uid: Prowl.Editor.Preferences.EditorStylePrefs.Ping
+  commentId: F:Prowl.Editor.Preferences.EditorStylePrefs.Ping
+  id: Ping
+  parent: Prowl.Editor.Preferences.EditorStylePrefs
+  langs:
+  - csharp
+  - vb
+  name: Ping
+  nameWithType: EditorStylePrefs.Ping
+  fullName: Prowl.Editor.Preferences.EditorStylePrefs.Ping
+  type: Field
+  source:
+    remote:
+      path: Prowl.Editor/Editor/Preferences/GeneralPreferences.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Ping
+    path: ../Prowl/Prowl.Editor/Editor/Preferences/GeneralPreferences.cs
+    startLine: 58
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor.Preferences
+  syntax:
+    content: public Color Ping
+    return:
+      type: Prowl.Runtime.Color
+    content.vb: Public Ping As Color
+- uid: Prowl.Editor.Preferences.EditorStylePrefs.DropHighlight
+  commentId: F:Prowl.Editor.Preferences.EditorStylePrefs.DropHighlight
+  id: DropHighlight
+  parent: Prowl.Editor.Preferences.EditorStylePrefs
+  langs:
+  - csharp
+  - vb
+  name: DropHighlight
+  nameWithType: EditorStylePrefs.DropHighlight
+  fullName: Prowl.Editor.Preferences.EditorStylePrefs.DropHighlight
+  type: Field
+  source:
+    remote:
+      path: Prowl.Editor/Editor/Preferences/GeneralPreferences.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: DropHighlight
+    path: ../Prowl/Prowl.Editor/Editor/Preferences/GeneralPreferences.cs
+    startLine: 59
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor.Preferences
+  syntax:
+    content: public Color DropHighlight
+    return:
+      type: Prowl.Runtime.Color
+    content.vb: Public DropHighlight As Color
+- uid: Prowl.Editor.Preferences.EditorStylePrefs.Warning
+  commentId: F:Prowl.Editor.Preferences.EditorStylePrefs.Warning
+  id: Warning
+  parent: Prowl.Editor.Preferences.EditorStylePrefs
+  langs:
+  - csharp
+  - vb
+  name: Warning
+  nameWithType: EditorStylePrefs.Warning
+  fullName: Prowl.Editor.Preferences.EditorStylePrefs.Warning
+  type: Field
+  source:
+    remote:
+      path: Prowl.Editor/Editor/Preferences/GeneralPreferences.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Warning
+    path: ../Prowl/Prowl.Editor/Editor/Preferences/GeneralPreferences.cs
+    startLine: 60
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor.Preferences
+  syntax:
+    content: public Color Warning
+    return:
+      type: Prowl.Runtime.Color
+    content.vb: Public Warning As Color
+- uid: Prowl.Editor.Preferences.EditorStylePrefs.Scale
+  commentId: F:Prowl.Editor.Preferences.EditorStylePrefs.Scale
+  id: Scale
+  parent: Prowl.Editor.Preferences.EditorStylePrefs
+  langs:
+  - csharp
+  - vb
+  name: Scale
+  nameWithType: EditorStylePrefs.Scale
+  fullName: Prowl.Editor.Preferences.EditorStylePrefs.Scale
+  type: Field
+  source:
+    remote:
+      path: Prowl.Editor/Editor/Preferences/GeneralPreferences.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Scale
+    path: ../Prowl/Prowl.Editor/Editor/Preferences/GeneralPreferences.cs
+    startLine: 63
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor.Preferences
+  syntax:
+    content: >-
+      [Text("Sizing:")]
+
+      public double Scale
+    return:
+      type: System.Double
+    content.vb: >-
+      <Text("Sizing:")>
+
+      Public Scale As Double
+  attributes:
+  - type: Prowl.Runtime.TextAttribute
+    ctor: Prowl.Runtime.TextAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: 'Sizing:'
+- uid: Prowl.Editor.Preferences.EditorStylePrefs.ItemSize
+  commentId: F:Prowl.Editor.Preferences.EditorStylePrefs.ItemSize
+  id: ItemSize
+  parent: Prowl.Editor.Preferences.EditorStylePrefs
+  langs:
+  - csharp
+  - vb
+  name: ItemSize
+  nameWithType: EditorStylePrefs.ItemSize
+  fullName: Prowl.Editor.Preferences.EditorStylePrefs.ItemSize
+  type: Field
+  source:
+    remote:
+      path: Prowl.Editor/Editor/Preferences/GeneralPreferences.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: ItemSize
+    path: ../Prowl/Prowl.Editor/Editor/Preferences/GeneralPreferences.cs
+    startLine: 64
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor.Preferences
+  syntax:
+    content: public double ItemSize
+    return:
+      type: System.Double
+    content.vb: Public ItemSize As Double
+- uid: Prowl.Editor.Preferences.EditorStylePrefs.DockSpacing
+  commentId: F:Prowl.Editor.Preferences.EditorStylePrefs.DockSpacing
+  id: DockSpacing
+  parent: Prowl.Editor.Preferences.EditorStylePrefs
+  langs:
+  - csharp
+  - vb
+  name: DockSpacing
+  nameWithType: EditorStylePrefs.DockSpacing
+  fullName: Prowl.Editor.Preferences.EditorStylePrefs.DockSpacing
+  type: Field
+  source:
+    remote:
+      path: Prowl.Editor/Editor/Preferences/GeneralPreferences.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: DockSpacing
+    path: ../Prowl/Prowl.Editor/Editor/Preferences/GeneralPreferences.cs
+    startLine: 67
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor.Preferences
+  syntax:
+    content: >-
+      [Text("Spacing:")]
+
+      public double DockSpacing
+    return:
+      type: System.Double
+    content.vb: >-
+      <Text("Spacing:")>
+
+      Public DockSpacing As Double
+  attributes:
+  - type: Prowl.Runtime.TextAttribute
+    ctor: Prowl.Runtime.TextAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: 'Spacing:'
+- uid: Prowl.Editor.Preferences.EditorStylePrefs.WindowRoundness
+  commentId: F:Prowl.Editor.Preferences.EditorStylePrefs.WindowRoundness
+  id: WindowRoundness
+  parent: Prowl.Editor.Preferences.EditorStylePrefs
+  langs:
+  - csharp
+  - vb
+  name: WindowRoundness
+  nameWithType: EditorStylePrefs.WindowRoundness
+  fullName: Prowl.Editor.Preferences.EditorStylePrefs.WindowRoundness
+  type: Field
+  source:
+    remote:
+      path: Prowl.Editor/Editor/Preferences/GeneralPreferences.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: WindowRoundness
+    path: ../Prowl/Prowl.Editor/Editor/Preferences/GeneralPreferences.cs
+    startLine: 70
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor.Preferences
+  syntax:
+    content: >-
+      [Text("Rounding:")]
+
+      public double WindowRoundness
+    return:
+      type: System.Double
+    content.vb: >-
+      <Text("Rounding:")>
+
+      Public WindowRoundness As Double
+  attributes:
+  - type: Prowl.Runtime.TextAttribute
+    ctor: Prowl.Runtime.TextAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: 'Rounding:'
+- uid: Prowl.Editor.Preferences.EditorStylePrefs.TabRoundness
+  commentId: F:Prowl.Editor.Preferences.EditorStylePrefs.TabRoundness
+  id: TabRoundness
+  parent: Prowl.Editor.Preferences.EditorStylePrefs
+  langs:
+  - csharp
+  - vb
+  name: TabRoundness
+  nameWithType: EditorStylePrefs.TabRoundness
+  fullName: Prowl.Editor.Preferences.EditorStylePrefs.TabRoundness
+  type: Field
+  source:
+    remote:
+      path: Prowl.Editor/Editor/Preferences/GeneralPreferences.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: TabRoundness
+    path: ../Prowl/Prowl.Editor/Editor/Preferences/GeneralPreferences.cs
+    startLine: 71
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor.Preferences
+  syntax:
+    content: public double TabRoundness
+    return:
+      type: System.Double
+    content.vb: Public TabRoundness As Double
+- uid: Prowl.Editor.Preferences.EditorStylePrefs.AssetRoundness
+  commentId: F:Prowl.Editor.Preferences.EditorStylePrefs.AssetRoundness
+  id: AssetRoundness
+  parent: Prowl.Editor.Preferences.EditorStylePrefs
+  langs:
+  - csharp
+  - vb
+  name: AssetRoundness
+  nameWithType: EditorStylePrefs.AssetRoundness
+  fullName: Prowl.Editor.Preferences.EditorStylePrefs.AssetRoundness
+  type: Field
+  source:
+    remote:
+      path: Prowl.Editor/Editor/Preferences/GeneralPreferences.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: AssetRoundness
+    path: ../Prowl/Prowl.Editor/Editor/Preferences/GeneralPreferences.cs
+    startLine: 72
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor.Preferences
+  syntax:
+    content: public double AssetRoundness
+    return:
+      type: System.Double
+    content.vb: Public AssetRoundness As Double
+- uid: Prowl.Editor.Preferences.EditorStylePrefs.ButtonRoundness
+  commentId: F:Prowl.Editor.Preferences.EditorStylePrefs.ButtonRoundness
+  id: ButtonRoundness
+  parent: Prowl.Editor.Preferences.EditorStylePrefs
+  langs:
+  - csharp
+  - vb
+  name: ButtonRoundness
+  nameWithType: EditorStylePrefs.ButtonRoundness
+  fullName: Prowl.Editor.Preferences.EditorStylePrefs.ButtonRoundness
+  type: Field
+  source:
+    remote:
+      path: Prowl.Editor/Editor/Preferences/GeneralPreferences.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: ButtonRoundness
+    path: ../Prowl/Prowl.Editor/Editor/Preferences/GeneralPreferences.cs
+    startLine: 73
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor.Preferences
+  syntax:
+    content: public double ButtonRoundness
+    return:
+      type: System.Double
+    content.vb: Public ButtonRoundness As Double
+- uid: Prowl.Editor.Preferences.EditorStylePrefs.NoodlePathType
+  commentId: F:Prowl.Editor.Preferences.EditorStylePrefs.NoodlePathType
+  id: NoodlePathType
+  parent: Prowl.Editor.Preferences.EditorStylePrefs
+  langs:
+  - csharp
+  - vb
+  name: NoodlePathType
+  nameWithType: EditorStylePrefs.NoodlePathType
+  fullName: Prowl.Editor.Preferences.EditorStylePrefs.NoodlePathType
+  type: Field
+  source:
+    remote:
+      path: Prowl.Editor/Editor/Preferences/GeneralPreferences.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: NoodlePathType
+    path: ../Prowl/Prowl.Editor/Editor/Preferences/GeneralPreferences.cs
+    startLine: 78
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor.Preferences
+  syntax:
+    content: >-
+      [Text("Node Editor:")]
+
+      public EditorStylePrefs.NoodlePath NoodlePathType
+    return:
+      type: Prowl.Editor.Preferences.EditorStylePrefs.NoodlePath
+    content.vb: >-
+      <Text("Node Editor:")>
+
+      Public NoodlePathType As EditorStylePrefs.NoodlePath
+  attributes:
+  - type: Prowl.Runtime.TextAttribute
+    ctor: Prowl.Runtime.TextAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: 'Node Editor:'
+- uid: Prowl.Editor.Preferences.EditorStylePrefs.NoodleStrokeType
+  commentId: F:Prowl.Editor.Preferences.EditorStylePrefs.NoodleStrokeType
+  id: NoodleStrokeType
+  parent: Prowl.Editor.Preferences.EditorStylePrefs
+  langs:
+  - csharp
+  - vb
+  name: NoodleStrokeType
+  nameWithType: EditorStylePrefs.NoodleStrokeType
+  fullName: Prowl.Editor.Preferences.EditorStylePrefs.NoodleStrokeType
+  type: Field
+  source:
+    remote:
+      path: Prowl.Editor/Editor/Preferences/GeneralPreferences.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: NoodleStrokeType
+    path: ../Prowl/Prowl.Editor/Editor/Preferences/GeneralPreferences.cs
+    startLine: 79
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor.Preferences
+  syntax:
+    content: public EditorStylePrefs.NoodleStroke NoodleStrokeType
+    return:
+      type: Prowl.Editor.Preferences.EditorStylePrefs.NoodleStroke
+    content.vb: Public NoodleStrokeType As EditorStylePrefs.NoodleStroke
+- uid: Prowl.Editor.Preferences.EditorStylePrefs.NoodleStrokeWidth
+  commentId: F:Prowl.Editor.Preferences.EditorStylePrefs.NoodleStrokeWidth
+  id: NoodleStrokeWidth
+  parent: Prowl.Editor.Preferences.EditorStylePrefs
+  langs:
+  - csharp
+  - vb
+  name: NoodleStrokeWidth
+  nameWithType: EditorStylePrefs.NoodleStrokeWidth
+  fullName: Prowl.Editor.Preferences.EditorStylePrefs.NoodleStrokeWidth
+  type: Field
+  source:
+    remote:
+      path: Prowl.Editor/Editor/Preferences/GeneralPreferences.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: NoodleStrokeWidth
+    path: ../Prowl/Prowl.Editor/Editor/Preferences/GeneralPreferences.cs
+    startLine: 80
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor.Preferences
+  syntax:
+    content: public double NoodleStrokeWidth
+    return:
+      type: System.Double
+    content.vb: Public NoodleStrokeWidth As Double
+- uid: Prowl.Editor.Preferences.EditorStylePrefs.Black
+  commentId: P:Prowl.Editor.Preferences.EditorStylePrefs.Black
+  id: Black
+  parent: Prowl.Editor.Preferences.EditorStylePrefs
+  langs:
+  - csharp
+  - vb
+  name: Black
+  nameWithType: EditorStylePrefs.Black
+  fullName: Prowl.Editor.Preferences.EditorStylePrefs.Black
+  type: Property
+  source:
+    remote:
+      path: Prowl.Editor/Editor/Preferences/GeneralPreferences.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Black
+    path: ../Prowl/Prowl.Editor/Editor/Preferences/GeneralPreferences.cs
+    startLine: 83
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor.Preferences
+  syntax:
+    content: public static Color Black { get; }
+    parameters: []
+    return:
+      type: Prowl.Runtime.Color
+    content.vb: Public Shared ReadOnly Property Black As Color
+  overload: Prowl.Editor.Preferences.EditorStylePrefs.Black*
+- uid: Prowl.Editor.Preferences.EditorStylePrefs.Base4
+  commentId: P:Prowl.Editor.Preferences.EditorStylePrefs.Base4
+  id: Base4
+  parent: Prowl.Editor.Preferences.EditorStylePrefs
+  langs:
+  - csharp
+  - vb
+  name: Base4
+  nameWithType: EditorStylePrefs.Base4
+  fullName: Prowl.Editor.Preferences.EditorStylePrefs.Base4
+  type: Property
+  source:
+    remote:
+      path: Prowl.Editor/Editor/Preferences/GeneralPreferences.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Base4
+    path: ../Prowl/Prowl.Editor/Editor/Preferences/GeneralPreferences.cs
+    startLine: 84
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor.Preferences
+  syntax:
+    content: public static Color Base4 { get; }
+    parameters: []
+    return:
+      type: Prowl.Runtime.Color
+    content.vb: Public Shared ReadOnly Property Base4 As Color
+  overload: Prowl.Editor.Preferences.EditorStylePrefs.Base4*
+- uid: Prowl.Editor.Preferences.EditorStylePrefs.Base5
+  commentId: P:Prowl.Editor.Preferences.EditorStylePrefs.Base5
+  id: Base5
+  parent: Prowl.Editor.Preferences.EditorStylePrefs
+  langs:
+  - csharp
+  - vb
+  name: Base5
+  nameWithType: EditorStylePrefs.Base5
+  fullName: Prowl.Editor.Preferences.EditorStylePrefs.Base5
+  type: Property
+  source:
+    remote:
+      path: Prowl.Editor/Editor/Preferences/GeneralPreferences.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Base5
+    path: ../Prowl/Prowl.Editor/Editor/Preferences/GeneralPreferences.cs
+    startLine: 85
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor.Preferences
+  syntax:
+    content: public static Color Base5 { get; }
+    parameters: []
+    return:
+      type: Prowl.Runtime.Color
+    content.vb: Public Shared ReadOnly Property Base5 As Color
+  overload: Prowl.Editor.Preferences.EditorStylePrefs.Base5*
+- uid: Prowl.Editor.Preferences.EditorStylePrefs.Base6
+  commentId: P:Prowl.Editor.Preferences.EditorStylePrefs.Base6
+  id: Base6
+  parent: Prowl.Editor.Preferences.EditorStylePrefs
+  langs:
+  - csharp
+  - vb
+  name: Base6
+  nameWithType: EditorStylePrefs.Base6
+  fullName: Prowl.Editor.Preferences.EditorStylePrefs.Base6
+  type: Property
+  source:
+    remote:
+      path: Prowl.Editor/Editor/Preferences/GeneralPreferences.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Base6
+    path: ../Prowl/Prowl.Editor/Editor/Preferences/GeneralPreferences.cs
+    startLine: 86
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor.Preferences
+  syntax:
+    content: public static Color Base6 { get; }
+    parameters: []
+    return:
+      type: Prowl.Runtime.Color
+    content.vb: Public Shared ReadOnly Property Base6 As Color
+  overload: Prowl.Editor.Preferences.EditorStylePrefs.Base6*
+- uid: Prowl.Editor.Preferences.EditorStylePrefs.Base7
+  commentId: P:Prowl.Editor.Preferences.EditorStylePrefs.Base7
+  id: Base7
+  parent: Prowl.Editor.Preferences.EditorStylePrefs
+  langs:
+  - csharp
+  - vb
+  name: Base7
+  nameWithType: EditorStylePrefs.Base7
+  fullName: Prowl.Editor.Preferences.EditorStylePrefs.Base7
+  type: Property
+  source:
+    remote:
+      path: Prowl.Editor/Editor/Preferences/GeneralPreferences.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Base7
+    path: ../Prowl/Prowl.Editor/Editor/Preferences/GeneralPreferences.cs
+    startLine: 87
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor.Preferences
+  syntax:
+    content: public static Color Base7 { get; }
+    parameters: []
+    return:
+      type: Prowl.Runtime.Color
+    content.vb: Public Shared ReadOnly Property Base7 As Color
+  overload: Prowl.Editor.Preferences.EditorStylePrefs.Base7*
+- uid: Prowl.Editor.Preferences.EditorStylePrefs.Base8
+  commentId: P:Prowl.Editor.Preferences.EditorStylePrefs.Base8
+  id: Base8
+  parent: Prowl.Editor.Preferences.EditorStylePrefs
+  langs:
+  - csharp
+  - vb
+  name: Base8
+  nameWithType: EditorStylePrefs.Base8
+  fullName: Prowl.Editor.Preferences.EditorStylePrefs.Base8
+  type: Property
+  source:
+    remote:
+      path: Prowl.Editor/Editor/Preferences/GeneralPreferences.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Base8
+    path: ../Prowl/Prowl.Editor/Editor/Preferences/GeneralPreferences.cs
+    startLine: 88
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor.Preferences
+  syntax:
+    content: public static Color Base8 { get; }
+    parameters: []
+    return:
+      type: Prowl.Runtime.Color
+    content.vb: Public Shared ReadOnly Property Base8 As Color
+  overload: Prowl.Editor.Preferences.EditorStylePrefs.Base8*
+- uid: Prowl.Editor.Preferences.EditorStylePrefs.Base9
+  commentId: P:Prowl.Editor.Preferences.EditorStylePrefs.Base9
+  id: Base9
+  parent: Prowl.Editor.Preferences.EditorStylePrefs
+  langs:
+  - csharp
+  - vb
+  name: Base9
+  nameWithType: EditorStylePrefs.Base9
+  fullName: Prowl.Editor.Preferences.EditorStylePrefs.Base9
+  type: Property
+  source:
+    remote:
+      path: Prowl.Editor/Editor/Preferences/GeneralPreferences.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Base9
+    path: ../Prowl/Prowl.Editor/Editor/Preferences/GeneralPreferences.cs
+    startLine: 89
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor.Preferences
+  syntax:
+    content: public static Color Base9 { get; }
+    parameters: []
+    return:
+      type: Prowl.Runtime.Color
+    content.vb: Public Shared ReadOnly Property Base9 As Color
+  overload: Prowl.Editor.Preferences.EditorStylePrefs.Base9*
+- uid: Prowl.Editor.Preferences.EditorStylePrefs.Base10
+  commentId: P:Prowl.Editor.Preferences.EditorStylePrefs.Base10
+  id: Base10
+  parent: Prowl.Editor.Preferences.EditorStylePrefs
+  langs:
+  - csharp
+  - vb
+  name: Base10
+  nameWithType: EditorStylePrefs.Base10
+  fullName: Prowl.Editor.Preferences.EditorStylePrefs.Base10
+  type: Property
+  source:
+    remote:
+      path: Prowl.Editor/Editor/Preferences/GeneralPreferences.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Base10
+    path: ../Prowl/Prowl.Editor/Editor/Preferences/GeneralPreferences.cs
+    startLine: 90
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor.Preferences
+  syntax:
+    content: public static Color Base10 { get; }
+    parameters: []
+    return:
+      type: Prowl.Runtime.Color
+    content.vb: Public Shared ReadOnly Property Base10 As Color
+  overload: Prowl.Editor.Preferences.EditorStylePrefs.Base10*
+- uid: Prowl.Editor.Preferences.EditorStylePrefs.Base11
+  commentId: P:Prowl.Editor.Preferences.EditorStylePrefs.Base11
+  id: Base11
+  parent: Prowl.Editor.Preferences.EditorStylePrefs
+  langs:
+  - csharp
+  - vb
+  name: Base11
+  nameWithType: EditorStylePrefs.Base11
+  fullName: Prowl.Editor.Preferences.EditorStylePrefs.Base11
+  type: Property
+  source:
+    remote:
+      path: Prowl.Editor/Editor/Preferences/GeneralPreferences.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Base11
+    path: ../Prowl/Prowl.Editor/Editor/Preferences/GeneralPreferences.cs
+    startLine: 91
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor.Preferences
+  syntax:
+    content: public static Color Base11 { get; }
+    parameters: []
+    return:
+      type: Prowl.Runtime.Color
+    content.vb: Public Shared ReadOnly Property Base11 As Color
+  overload: Prowl.Editor.Preferences.EditorStylePrefs.Base11*
+- uid: Prowl.Editor.Preferences.EditorStylePrefs.Blue
+  commentId: P:Prowl.Editor.Preferences.EditorStylePrefs.Blue
+  id: Blue
+  parent: Prowl.Editor.Preferences.EditorStylePrefs
+  langs:
+  - csharp
+  - vb
+  name: Blue
+  nameWithType: EditorStylePrefs.Blue
+  fullName: Prowl.Editor.Preferences.EditorStylePrefs.Blue
+  type: Property
+  source:
+    remote:
+      path: Prowl.Editor/Editor/Preferences/GeneralPreferences.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Blue
+    path: ../Prowl/Prowl.Editor/Editor/Preferences/GeneralPreferences.cs
+    startLine: 94
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor.Preferences
+  syntax:
+    content: public static Color Blue { get; }
+    parameters: []
+    return:
+      type: Prowl.Runtime.Color
+    content.vb: Public Shared ReadOnly Property Blue As Color
+  overload: Prowl.Editor.Preferences.EditorStylePrefs.Blue*
+- uid: Prowl.Editor.Preferences.EditorStylePrefs.Green
+  commentId: P:Prowl.Editor.Preferences.EditorStylePrefs.Green
+  id: Green
+  parent: Prowl.Editor.Preferences.EditorStylePrefs
+  langs:
+  - csharp
+  - vb
+  name: Green
+  nameWithType: EditorStylePrefs.Green
+  fullName: Prowl.Editor.Preferences.EditorStylePrefs.Green
+  type: Property
+  source:
+    remote:
+      path: Prowl.Editor/Editor/Preferences/GeneralPreferences.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Green
+    path: ../Prowl/Prowl.Editor/Editor/Preferences/GeneralPreferences.cs
+    startLine: 95
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor.Preferences
+  syntax:
+    content: public static Color Green { get; }
+    parameters: []
+    return:
+      type: Prowl.Runtime.Color
+    content.vb: Public Shared ReadOnly Property Green As Color
+  overload: Prowl.Editor.Preferences.EditorStylePrefs.Green*
+- uid: Prowl.Editor.Preferences.EditorStylePrefs.Violet
+  commentId: P:Prowl.Editor.Preferences.EditorStylePrefs.Violet
+  id: Violet
+  parent: Prowl.Editor.Preferences.EditorStylePrefs
+  langs:
+  - csharp
+  - vb
+  name: Violet
+  nameWithType: EditorStylePrefs.Violet
+  fullName: Prowl.Editor.Preferences.EditorStylePrefs.Violet
+  type: Property
+  source:
+    remote:
+      path: Prowl.Editor/Editor/Preferences/GeneralPreferences.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Violet
+    path: ../Prowl/Prowl.Editor/Editor/Preferences/GeneralPreferences.cs
+    startLine: 96
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor.Preferences
+  syntax:
+    content: public static Color Violet { get; }
+    parameters: []
+    return:
+      type: Prowl.Runtime.Color
+    content.vb: Public Shared ReadOnly Property Violet As Color
+  overload: Prowl.Editor.Preferences.EditorStylePrefs.Violet*
+- uid: Prowl.Editor.Preferences.EditorStylePrefs.Orange
+  commentId: P:Prowl.Editor.Preferences.EditorStylePrefs.Orange
+  id: Orange
+  parent: Prowl.Editor.Preferences.EditorStylePrefs
+  langs:
+  - csharp
+  - vb
+  name: Orange
+  nameWithType: EditorStylePrefs.Orange
+  fullName: Prowl.Editor.Preferences.EditorStylePrefs.Orange
+  type: Property
+  source:
+    remote:
+      path: Prowl.Editor/Editor/Preferences/GeneralPreferences.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Orange
+    path: ../Prowl/Prowl.Editor/Editor/Preferences/GeneralPreferences.cs
+    startLine: 97
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor.Preferences
+  syntax:
+    content: public static Color Orange { get; }
+    parameters: []
+    return:
+      type: Prowl.Runtime.Color
+    content.vb: Public Shared ReadOnly Property Orange As Color
+  overload: Prowl.Editor.Preferences.EditorStylePrefs.Orange*
+- uid: Prowl.Editor.Preferences.EditorStylePrefs.Yellow
+  commentId: P:Prowl.Editor.Preferences.EditorStylePrefs.Yellow
+  id: Yellow
+  parent: Prowl.Editor.Preferences.EditorStylePrefs
+  langs:
+  - csharp
+  - vb
+  name: Yellow
+  nameWithType: EditorStylePrefs.Yellow
+  fullName: Prowl.Editor.Preferences.EditorStylePrefs.Yellow
+  type: Property
+  source:
+    remote:
+      path: Prowl.Editor/Editor/Preferences/GeneralPreferences.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Yellow
+    path: ../Prowl/Prowl.Editor/Editor/Preferences/GeneralPreferences.cs
+    startLine: 98
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor.Preferences
+  syntax:
+    content: public static Color Yellow { get; }
+    parameters: []
+    return:
+      type: Prowl.Runtime.Color
+    content.vb: Public Shared ReadOnly Property Yellow As Color
+  overload: Prowl.Editor.Preferences.EditorStylePrefs.Yellow*
+- uid: Prowl.Editor.Preferences.EditorStylePrefs.Indigo
+  commentId: P:Prowl.Editor.Preferences.EditorStylePrefs.Indigo
+  id: Indigo
+  parent: Prowl.Editor.Preferences.EditorStylePrefs
+  langs:
+  - csharp
+  - vb
+  name: Indigo
+  nameWithType: EditorStylePrefs.Indigo
+  fullName: Prowl.Editor.Preferences.EditorStylePrefs.Indigo
+  type: Property
+  source:
+    remote:
+      path: Prowl.Editor/Editor/Preferences/GeneralPreferences.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Indigo
+    path: ../Prowl/Prowl.Editor/Editor/Preferences/GeneralPreferences.cs
+    startLine: 99
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor.Preferences
+  syntax:
+    content: public static Color Indigo { get; }
+    parameters: []
+    return:
+      type: Prowl.Runtime.Color
+    content.vb: Public Shared ReadOnly Property Indigo As Color
+  overload: Prowl.Editor.Preferences.EditorStylePrefs.Indigo*
+- uid: Prowl.Editor.Preferences.EditorStylePrefs.Emerald
+  commentId: P:Prowl.Editor.Preferences.EditorStylePrefs.Emerald
+  id: Emerald
+  parent: Prowl.Editor.Preferences.EditorStylePrefs
+  langs:
+  - csharp
+  - vb
+  name: Emerald
+  nameWithType: EditorStylePrefs.Emerald
+  fullName: Prowl.Editor.Preferences.EditorStylePrefs.Emerald
+  type: Property
+  source:
+    remote:
+      path: Prowl.Editor/Editor/Preferences/GeneralPreferences.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Emerald
+    path: ../Prowl/Prowl.Editor/Editor/Preferences/GeneralPreferences.cs
+    startLine: 100
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor.Preferences
+  syntax:
+    content: public static Color Emerald { get; }
+    parameters: []
+    return:
+      type: Prowl.Runtime.Color
+    content.vb: Public Shared ReadOnly Property Emerald As Color
+  overload: Prowl.Editor.Preferences.EditorStylePrefs.Emerald*
+- uid: Prowl.Editor.Preferences.EditorStylePrefs.Fuchsia
+  commentId: P:Prowl.Editor.Preferences.EditorStylePrefs.Fuchsia
+  id: Fuchsia
+  parent: Prowl.Editor.Preferences.EditorStylePrefs
+  langs:
+  - csharp
+  - vb
+  name: Fuchsia
+  nameWithType: EditorStylePrefs.Fuchsia
+  fullName: Prowl.Editor.Preferences.EditorStylePrefs.Fuchsia
+  type: Property
+  source:
+    remote:
+      path: Prowl.Editor/Editor/Preferences/GeneralPreferences.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Fuchsia
+    path: ../Prowl/Prowl.Editor/Editor/Preferences/GeneralPreferences.cs
+    startLine: 101
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor.Preferences
+  syntax:
+    content: public static Color Fuchsia { get; }
+    parameters: []
+    return:
+      type: Prowl.Runtime.Color
+    content.vb: Public Shared ReadOnly Property Fuchsia As Color
+  overload: Prowl.Editor.Preferences.EditorStylePrefs.Fuchsia*
+- uid: Prowl.Editor.Preferences.EditorStylePrefs.Red
+  commentId: P:Prowl.Editor.Preferences.EditorStylePrefs.Red
+  id: Red
+  parent: Prowl.Editor.Preferences.EditorStylePrefs
+  langs:
+  - csharp
+  - vb
+  name: Red
+  nameWithType: EditorStylePrefs.Red
+  fullName: Prowl.Editor.Preferences.EditorStylePrefs.Red
+  type: Property
+  source:
+    remote:
+      path: Prowl.Editor/Editor/Preferences/GeneralPreferences.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Red
+    path: ../Prowl/Prowl.Editor/Editor/Preferences/GeneralPreferences.cs
+    startLine: 102
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor.Preferences
+  syntax:
+    content: public static Color Red { get; }
+    parameters: []
+    return:
+      type: Prowl.Runtime.Color
+    content.vb: Public Shared ReadOnly Property Red As Color
+  overload: Prowl.Editor.Preferences.EditorStylePrefs.Red*
+- uid: Prowl.Editor.Preferences.EditorStylePrefs.Sky
+  commentId: P:Prowl.Editor.Preferences.EditorStylePrefs.Sky
+  id: Sky
+  parent: Prowl.Editor.Preferences.EditorStylePrefs
+  langs:
+  - csharp
+  - vb
+  name: Sky
+  nameWithType: EditorStylePrefs.Sky
+  fullName: Prowl.Editor.Preferences.EditorStylePrefs.Sky
+  type: Property
+  source:
+    remote:
+      path: Prowl.Editor/Editor/Preferences/GeneralPreferences.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Sky
+    path: ../Prowl/Prowl.Editor/Editor/Preferences/GeneralPreferences.cs
+    startLine: 103
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor.Preferences
+  syntax:
+    content: public static Color Sky { get; }
+    parameters: []
+    return:
+      type: Prowl.Runtime.Color
+    content.vb: Public Shared ReadOnly Property Sky As Color
+  overload: Prowl.Editor.Preferences.EditorStylePrefs.Sky*
+- uid: Prowl.Editor.Preferences.EditorStylePrefs.Pink
+  commentId: P:Prowl.Editor.Preferences.EditorStylePrefs.Pink
+  id: Pink
+  parent: Prowl.Editor.Preferences.EditorStylePrefs
+  langs:
+  - csharp
+  - vb
+  name: Pink
+  nameWithType: EditorStylePrefs.Pink
+  fullName: Prowl.Editor.Preferences.EditorStylePrefs.Pink
+  type: Property
+  source:
+    remote:
+      path: Prowl.Editor/Editor/Preferences/GeneralPreferences.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Pink
+    path: ../Prowl/Prowl.Editor/Editor/Preferences/GeneralPreferences.cs
+    startLine: 104
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor.Preferences
+  syntax:
+    content: public static Color Pink { get; }
+    parameters: []
+    return:
+      type: Prowl.Runtime.Color
+    content.vb: Public Shared ReadOnly Property Pink As Color
+  overload: Prowl.Editor.Preferences.EditorStylePrefs.Pink*
+- uid: Prowl.Editor.Preferences.EditorStylePrefs.RandomPastel(System.Type,System.Single,System.Single)
+  commentId: M:Prowl.Editor.Preferences.EditorStylePrefs.RandomPastel(System.Type,System.Single,System.Single)
+  id: RandomPastel(System.Type,System.Single,System.Single)
+  parent: Prowl.Editor.Preferences.EditorStylePrefs
+  langs:
+  - csharp
+  - vb
+  name: RandomPastel(Type, float, float)
+  nameWithType: EditorStylePrefs.RandomPastel(Type, float, float)
+  fullName: Prowl.Editor.Preferences.EditorStylePrefs.RandomPastel(System.Type, float, float)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Editor/Editor/Preferences/GeneralPreferences.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: RandomPastel
+    path: ../Prowl/Prowl.Editor/Editor/Preferences/GeneralPreferences.cs
+    startLine: 106
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor.Preferences
+  syntax:
+    content: public static Color RandomPastel(Type type, float alpha = 1, float pastelStrength = 0.5)
+    parameters:
+    - id: type
+      type: System.Type
+    - id: alpha
+      type: System.Single
+    - id: pastelStrength
+      type: System.Single
+    return:
+      type: Prowl.Runtime.Color
+    content.vb: Public Shared Function RandomPastel(type As Type, alpha As Single = 1, pastelStrength As Single = 0.5) As Color
+  overload: Prowl.Editor.Preferences.EditorStylePrefs.RandomPastel*
+  nameWithType.vb: EditorStylePrefs.RandomPastel(Type, Single, Single)
+  fullName.vb: Prowl.Editor.Preferences.EditorStylePrefs.RandomPastel(System.Type, Single, Single)
+  name.vb: RandomPastel(Type, Single, Single)
+- uid: Prowl.Editor.Preferences.EditorStylePrefs.RandomPastelColor(System.Int32,System.Single)
+  commentId: M:Prowl.Editor.Preferences.EditorStylePrefs.RandomPastelColor(System.Int32,System.Single)
+  id: RandomPastelColor(System.Int32,System.Single)
+  parent: Prowl.Editor.Preferences.EditorStylePrefs
+  langs:
+  - csharp
+  - vb
+  name: RandomPastelColor(int, float)
+  nameWithType: EditorStylePrefs.RandomPastelColor(int, float)
+  fullName: Prowl.Editor.Preferences.EditorStylePrefs.RandomPastelColor(int, float)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Editor/Editor/Preferences/GeneralPreferences.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: RandomPastelColor
+    path: ../Prowl/Prowl.Editor/Editor/Preferences/GeneralPreferences.cs
+    startLine: 118
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor.Preferences
+  syntax:
+    content: public static Color RandomPastelColor(int seed, float alpha = 1)
+    parameters:
+    - id: seed
+      type: System.Int32
+    - id: alpha
+      type: System.Single
+    return:
+      type: Prowl.Runtime.Color
+    content.vb: Public Shared Function RandomPastelColor(seed As Integer, alpha As Single = 1) As Color
+  overload: Prowl.Editor.Preferences.EditorStylePrefs.RandomPastelColor*
+  nameWithType.vb: EditorStylePrefs.RandomPastelColor(Integer, Single)
+  fullName.vb: Prowl.Editor.Preferences.EditorStylePrefs.RandomPastelColor(Integer, Single)
+  name.vb: RandomPastelColor(Integer, Single)
+- uid: Prowl.Editor.Preferences.EditorStylePrefs.OnValidate
+  commentId: M:Prowl.Editor.Preferences.EditorStylePrefs.OnValidate
+  id: OnValidate
+  parent: Prowl.Editor.Preferences.EditorStylePrefs
+  langs:
+  - csharp
+  - vb
+  name: OnValidate()
+  nameWithType: EditorStylePrefs.OnValidate()
+  fullName: Prowl.Editor.Preferences.EditorStylePrefs.OnValidate()
+  type: Method
+  source:
+    remote:
+      path: Prowl.Editor/Editor/Preferences/GeneralPreferences.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: OnValidate
+    path: ../Prowl/Prowl.Editor/Editor/Preferences/GeneralPreferences.cs
+    startLine: 127
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor.Preferences
+  example: []
+  syntax:
+    content: public override void OnValidate()
+    content.vb: Public Overrides Sub OnValidate()
+  overridden: Prowl.Runtime.Utils.ScriptableSingleton{Prowl.Editor.Preferences.EditorStylePrefs}.OnValidate
+  overload: Prowl.Editor.Preferences.EditorStylePrefs.OnValidate*
+- uid: Prowl.Editor.Preferences.EditorStylePrefs.ResetDefault
+  commentId: M:Prowl.Editor.Preferences.EditorStylePrefs.ResetDefault
+  id: ResetDefault
+  parent: Prowl.Editor.Preferences.EditorStylePrefs
+  langs:
+  - csharp
+  - vb
+  name: ResetDefault()
+  nameWithType: EditorStylePrefs.ResetDefault()
+  fullName: Prowl.Editor.Preferences.EditorStylePrefs.ResetDefault()
+  type: Method
+  source:
+    remote:
+      path: Prowl.Editor/Editor/Preferences/GeneralPreferences.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: ResetDefault
+    path: ../Prowl/Prowl.Editor/Editor/Preferences/GeneralPreferences.cs
+    startLine: 135
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor.Preferences
+  syntax:
+    content: >-
+      [GUIButton("Reset to Default")]
+
+      public static void ResetDefault()
+    content.vb: >-
+      <GUIButton("Reset to Default")>
+
+      Public Shared Sub ResetDefault()
+  overload: Prowl.Editor.Preferences.EditorStylePrefs.ResetDefault*
+  attributes:
+  - type: Prowl.Runtime.GUIButtonAttribute
+    ctor: Prowl.Runtime.GUIButtonAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Reset to Default
+references:
+- uid: Prowl.Editor.Preferences
+  commentId: N:Prowl.Editor.Preferences
+  href: Prowl.html
+  name: Prowl.Editor.Preferences
+  nameWithType: Prowl.Editor.Preferences
+  fullName: Prowl.Editor.Preferences
+  spec.csharp:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Editor
+    name: Editor
+    href: Prowl.Editor.html
+  - name: .
+  - uid: Prowl.Editor.Preferences
+    name: Preferences
+    href: Prowl.Editor.Preferences.html
+  spec.vb:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Editor
+    name: Editor
+    href: Prowl.Editor.html
+  - name: .
+  - uid: Prowl.Editor.Preferences
+    name: Preferences
+    href: Prowl.Editor.Preferences.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Prowl.Runtime.Utils.ScriptableSingleton{Prowl.Editor.Preferences.EditorStylePrefs}
+  commentId: T:Prowl.Runtime.Utils.ScriptableSingleton{Prowl.Editor.Preferences.EditorStylePrefs}
+  parent: Prowl.Runtime.Utils
+  definition: Prowl.Runtime.Utils.ScriptableSingleton`1
+  href: Prowl.Editor.Preferences.EditorStylePrefs.html
+  name: ScriptableSingleton<EditorStylePrefs>
+  nameWithType: ScriptableSingleton<EditorStylePrefs>
+  fullName: Prowl.Runtime.Utils.ScriptableSingleton<Prowl.Editor.Preferences.EditorStylePrefs>
+  nameWithType.vb: ScriptableSingleton(Of EditorStylePrefs)
+  fullName.vb: Prowl.Runtime.Utils.ScriptableSingleton(Of Prowl.Editor.Preferences.EditorStylePrefs)
+  name.vb: ScriptableSingleton(Of EditorStylePrefs)
+  spec.csharp:
+  - uid: Prowl.Runtime.Utils.ScriptableSingleton`1
+    name: ScriptableSingleton
+  - name: <
+  - uid: Prowl.Editor.Preferences.EditorStylePrefs
+    name: EditorStylePrefs
+    href: Prowl.Editor.Preferences.EditorStylePrefs.html
+  - name: '>'
+  spec.vb:
+  - uid: Prowl.Runtime.Utils.ScriptableSingleton`1
+    name: ScriptableSingleton
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Prowl.Editor.Preferences.EditorStylePrefs
+    name: EditorStylePrefs
+    href: Prowl.Editor.Preferences.EditorStylePrefs.html
+  - name: )
+- uid: Prowl.Runtime.Utils.ScriptableSingleton{Prowl.Editor.Preferences.EditorStylePrefs}._instance
+  commentId: F:Prowl.Runtime.Utils.ScriptableSingleton{Prowl.Editor.Preferences.EditorStylePrefs}._instance
+  parent: Prowl.Runtime.Utils.ScriptableSingleton{Prowl.Editor.Preferences.EditorStylePrefs}
+  definition: Prowl.Runtime.Utils.ScriptableSingleton`1._instance
+  name: _instance
+  nameWithType: ScriptableSingleton<EditorStylePrefs>._instance
+  fullName: Prowl.Runtime.Utils.ScriptableSingleton<Prowl.Editor.Preferences.EditorStylePrefs>._instance
+  nameWithType.vb: ScriptableSingleton(Of EditorStylePrefs)._instance
+  fullName.vb: Prowl.Runtime.Utils.ScriptableSingleton(Of Prowl.Editor.Preferences.EditorStylePrefs)._instance
+- uid: Prowl.Runtime.Utils.ScriptableSingleton{Prowl.Editor.Preferences.EditorStylePrefs}.Instance
+  commentId: P:Prowl.Runtime.Utils.ScriptableSingleton{Prowl.Editor.Preferences.EditorStylePrefs}.Instance
+  parent: Prowl.Runtime.Utils.ScriptableSingleton{Prowl.Editor.Preferences.EditorStylePrefs}
+  definition: Prowl.Runtime.Utils.ScriptableSingleton`1.Instance
+  name: Instance
+  nameWithType: ScriptableSingleton<EditorStylePrefs>.Instance
+  fullName: Prowl.Runtime.Utils.ScriptableSingleton<Prowl.Editor.Preferences.EditorStylePrefs>.Instance
+  nameWithType.vb: ScriptableSingleton(Of EditorStylePrefs).Instance
+  fullName.vb: Prowl.Runtime.Utils.ScriptableSingleton(Of Prowl.Editor.Preferences.EditorStylePrefs).Instance
+- uid: Prowl.Runtime.Utils.ScriptableSingleton{Prowl.Editor.Preferences.EditorStylePrefs}.Save
+  commentId: M:Prowl.Runtime.Utils.ScriptableSingleton{Prowl.Editor.Preferences.EditorStylePrefs}.Save
+  parent: Prowl.Runtime.Utils.ScriptableSingleton{Prowl.Editor.Preferences.EditorStylePrefs}
+  definition: Prowl.Runtime.Utils.ScriptableSingleton`1.Save
+  name: Save()
+  nameWithType: ScriptableSingleton<EditorStylePrefs>.Save()
+  fullName: Prowl.Runtime.Utils.ScriptableSingleton<Prowl.Editor.Preferences.EditorStylePrefs>.Save()
+  nameWithType.vb: ScriptableSingleton(Of EditorStylePrefs).Save()
+  fullName.vb: Prowl.Runtime.Utils.ScriptableSingleton(Of Prowl.Editor.Preferences.EditorStylePrefs).Save()
+  spec.csharp:
+  - uid: Prowl.Runtime.Utils.ScriptableSingleton{Prowl.Editor.Preferences.EditorStylePrefs}.Save
+    name: Save
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.Utils.ScriptableSingleton{Prowl.Editor.Preferences.EditorStylePrefs}.Save
+    name: Save
+  - name: (
+  - name: )
+- uid: Prowl.Runtime.Utils.ScriptableSingleton{Prowl.Editor.Preferences.EditorStylePrefs}.GetFilePath(System.String)
+  commentId: M:Prowl.Runtime.Utils.ScriptableSingleton{Prowl.Editor.Preferences.EditorStylePrefs}.GetFilePath(System.String)
+  parent: Prowl.Runtime.Utils.ScriptableSingleton{Prowl.Editor.Preferences.EditorStylePrefs}
+  definition: Prowl.Runtime.Utils.ScriptableSingleton`1.GetFilePath(System.String)
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: GetFilePath(string)
+  nameWithType: ScriptableSingleton<EditorStylePrefs>.GetFilePath(string)
+  fullName: Prowl.Runtime.Utils.ScriptableSingleton<Prowl.Editor.Preferences.EditorStylePrefs>.GetFilePath(string)
+  nameWithType.vb: ScriptableSingleton(Of EditorStylePrefs).GetFilePath(String)
+  fullName.vb: Prowl.Runtime.Utils.ScriptableSingleton(Of Prowl.Editor.Preferences.EditorStylePrefs).GetFilePath(String)
+  name.vb: GetFilePath(String)
+  spec.csharp:
+  - uid: Prowl.Runtime.Utils.ScriptableSingleton{Prowl.Editor.Preferences.EditorStylePrefs}.GetFilePath(System.String)
+    name: GetFilePath
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.Utils.ScriptableSingleton{Prowl.Editor.Preferences.EditorStylePrefs}.GetFilePath(System.String)
+    name: GetFilePath
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Prowl.Runtime.RuntimeUtils.GetSerializableFields
+  commentId: M:Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  parent: Prowl.Runtime.RuntimeUtils
+  definition: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  name: GetSerializableFields(object)
+  nameWithType: RuntimeUtils.GetSerializableFields(object)
+  fullName: Prowl.Runtime.RuntimeUtils.GetSerializableFields(object)
+  nameWithType.vb: RuntimeUtils.GetSerializableFields(Object)
+  fullName.vb: Prowl.Runtime.RuntimeUtils.GetSerializableFields(Object)
+  name.vb: GetSerializableFields(Object)
+  spec.csharp:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Prowl.Runtime.Utils.ScriptableSingleton`1
+  commentId: T:Prowl.Runtime.Utils.ScriptableSingleton`1
+  href: Prowl.Runtime.Utils.ScriptableSingleton-1.html
+  name: ScriptableSingleton<T>
+  nameWithType: ScriptableSingleton<T>
+  fullName: Prowl.Runtime.Utils.ScriptableSingleton<T>
+  nameWithType.vb: ScriptableSingleton(Of T)
+  fullName.vb: Prowl.Runtime.Utils.ScriptableSingleton(Of T)
+  name.vb: ScriptableSingleton(Of T)
+  spec.csharp:
+  - uid: Prowl.Runtime.Utils.ScriptableSingleton`1
+    name: ScriptableSingleton
+    href: Prowl.Runtime.Utils.ScriptableSingleton-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Prowl.Runtime.Utils.ScriptableSingleton`1
+    name: ScriptableSingleton
+    href: Prowl.Runtime.Utils.ScriptableSingleton-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Prowl.Runtime.Utils
+  commentId: N:Prowl.Runtime.Utils
+  href: Prowl.html
+  name: Prowl.Runtime.Utils
+  nameWithType: Prowl.Runtime.Utils
+  fullName: Prowl.Runtime.Utils
+  spec.csharp:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+  - name: .
+  - uid: Prowl.Runtime.Utils
+    name: Utils
+    href: Prowl.Runtime.Utils.html
+  spec.vb:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+  - name: .
+  - uid: Prowl.Runtime.Utils
+    name: Utils
+    href: Prowl.Runtime.Utils.html
+- uid: Prowl.Runtime.Utils.ScriptableSingleton`1._instance
+  commentId: F:Prowl.Runtime.Utils.ScriptableSingleton`1._instance
+  href: Prowl.Runtime.Utils.ScriptableSingleton-1.html#Prowl_Runtime_Utils_ScriptableSingleton_1__instance
+  name: _instance
+  nameWithType: ScriptableSingleton<T>._instance
+  fullName: Prowl.Runtime.Utils.ScriptableSingleton<T>._instance
+  nameWithType.vb: ScriptableSingleton(Of T)._instance
+  fullName.vb: Prowl.Runtime.Utils.ScriptableSingleton(Of T)._instance
+- uid: Prowl.Runtime.Utils.ScriptableSingleton`1.Instance
+  commentId: P:Prowl.Runtime.Utils.ScriptableSingleton`1.Instance
+  href: Prowl.Runtime.Utils.ScriptableSingleton-1.html#Prowl_Runtime_Utils_ScriptableSingleton_1_Instance
+  name: Instance
+  nameWithType: ScriptableSingleton<T>.Instance
+  fullName: Prowl.Runtime.Utils.ScriptableSingleton<T>.Instance
+  nameWithType.vb: ScriptableSingleton(Of T).Instance
+  fullName.vb: Prowl.Runtime.Utils.ScriptableSingleton(Of T).Instance
+- uid: Prowl.Runtime.Utils.ScriptableSingleton`1.Save
+  commentId: M:Prowl.Runtime.Utils.ScriptableSingleton`1.Save
+  href: Prowl.Runtime.Utils.ScriptableSingleton-1.html#Prowl_Runtime_Utils_ScriptableSingleton_1_Save
+  name: Save()
+  nameWithType: ScriptableSingleton<T>.Save()
+  fullName: Prowl.Runtime.Utils.ScriptableSingleton<T>.Save()
+  nameWithType.vb: ScriptableSingleton(Of T).Save()
+  fullName.vb: Prowl.Runtime.Utils.ScriptableSingleton(Of T).Save()
+  spec.csharp:
+  - uid: Prowl.Runtime.Utils.ScriptableSingleton`1.Save
+    name: Save
+    href: Prowl.Runtime.Utils.ScriptableSingleton-1.html#Prowl_Runtime_Utils_ScriptableSingleton_1_Save
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.Utils.ScriptableSingleton`1.Save
+    name: Save
+    href: Prowl.Runtime.Utils.ScriptableSingleton-1.html#Prowl_Runtime_Utils_ScriptableSingleton_1_Save
+  - name: (
+  - name: )
+- uid: Prowl.Runtime.Utils.ScriptableSingleton`1.GetFilePath(System.String)
+  commentId: M:Prowl.Runtime.Utils.ScriptableSingleton`1.GetFilePath(System.String)
+  isExternal: true
+  href: Prowl.Runtime.Utils.ScriptableSingleton-1.html#Prowl_Runtime_Utils_ScriptableSingleton_1_GetFilePath_System_String_
+  name: GetFilePath(string)
+  nameWithType: ScriptableSingleton<T>.GetFilePath(string)
+  fullName: Prowl.Runtime.Utils.ScriptableSingleton<T>.GetFilePath(string)
+  nameWithType.vb: ScriptableSingleton(Of T).GetFilePath(String)
+  fullName.vb: Prowl.Runtime.Utils.ScriptableSingleton(Of T).GetFilePath(String)
+  name.vb: GetFilePath(String)
+  spec.csharp:
+  - uid: Prowl.Runtime.Utils.ScriptableSingleton`1.GetFilePath(System.String)
+    name: GetFilePath
+    href: Prowl.Runtime.Utils.ScriptableSingleton-1.html#Prowl_Runtime_Utils_ScriptableSingleton_1_GetFilePath_System_String_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.Utils.ScriptableSingleton`1.GetFilePath(System.String)
+    name: GetFilePath
+    href: Prowl.Runtime.Utils.ScriptableSingleton-1.html#Prowl_Runtime_Utils_ScriptableSingleton_1_GetFilePath_System_String_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  commentId: M:Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  isExternal: true
+  href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  name: GetSerializableFields(object)
+  nameWithType: RuntimeUtils.GetSerializableFields(object)
+  fullName: Prowl.Runtime.RuntimeUtils.GetSerializableFields(object)
+  nameWithType.vb: RuntimeUtils.GetSerializableFields(Object)
+  fullName.vb: Prowl.Runtime.RuntimeUtils.GetSerializableFields(Object)
+  name.vb: GetSerializableFields(Object)
+  spec.csharp:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: Prowl.Runtime.RuntimeUtils
+  commentId: T:Prowl.Runtime.RuntimeUtils
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.RuntimeUtils.html
+  name: RuntimeUtils
+  nameWithType: RuntimeUtils
+  fullName: Prowl.Runtime.RuntimeUtils
+- uid: Prowl.Runtime
+  commentId: N:Prowl.Runtime
+  href: Prowl.html
+  name: Prowl.Runtime
+  nameWithType: Prowl.Runtime
+  fullName: Prowl.Runtime
+  spec.csharp:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+  spec.vb:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.double
+  name: double
+  nameWithType: double
+  fullName: double
+  nameWithType.vb: Double
+  fullName.vb: Double
+  name.vb: Double
+- uid: Prowl.Runtime.Color
+  commentId: T:Prowl.Runtime.Color
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.Color.html
+  name: Color
+  nameWithType: Color
+  fullName: Prowl.Runtime.Color
+- uid: Prowl.Editor.Preferences.EditorStylePrefs.NoodlePath
+  commentId: T:Prowl.Editor.Preferences.EditorStylePrefs.NoodlePath
+  parent: Prowl.Editor.Preferences
+  href: Prowl.Editor.Preferences.EditorStylePrefs.html
+  name: EditorStylePrefs.NoodlePath
+  nameWithType: EditorStylePrefs.NoodlePath
+  fullName: Prowl.Editor.Preferences.EditorStylePrefs.NoodlePath
+  spec.csharp:
+  - uid: Prowl.Editor.Preferences.EditorStylePrefs
+    name: EditorStylePrefs
+    href: Prowl.Editor.Preferences.EditorStylePrefs.html
+  - name: .
+  - uid: Prowl.Editor.Preferences.EditorStylePrefs.NoodlePath
+    name: NoodlePath
+    href: Prowl.Editor.Preferences.EditorStylePrefs.NoodlePath.html
+  spec.vb:
+  - uid: Prowl.Editor.Preferences.EditorStylePrefs
+    name: EditorStylePrefs
+    href: Prowl.Editor.Preferences.EditorStylePrefs.html
+  - name: .
+  - uid: Prowl.Editor.Preferences.EditorStylePrefs.NoodlePath
+    name: NoodlePath
+    href: Prowl.Editor.Preferences.EditorStylePrefs.NoodlePath.html
+- uid: Prowl.Editor.Preferences.EditorStylePrefs.NoodleStroke
+  commentId: T:Prowl.Editor.Preferences.EditorStylePrefs.NoodleStroke
+  parent: Prowl.Editor.Preferences
+  href: Prowl.Editor.Preferences.EditorStylePrefs.html
+  name: EditorStylePrefs.NoodleStroke
+  nameWithType: EditorStylePrefs.NoodleStroke
+  fullName: Prowl.Editor.Preferences.EditorStylePrefs.NoodleStroke
+  spec.csharp:
+  - uid: Prowl.Editor.Preferences.EditorStylePrefs
+    name: EditorStylePrefs
+    href: Prowl.Editor.Preferences.EditorStylePrefs.html
+  - name: .
+  - uid: Prowl.Editor.Preferences.EditorStylePrefs.NoodleStroke
+    name: NoodleStroke
+    href: Prowl.Editor.Preferences.EditorStylePrefs.NoodleStroke.html
+  spec.vb:
+  - uid: Prowl.Editor.Preferences.EditorStylePrefs
+    name: EditorStylePrefs
+    href: Prowl.Editor.Preferences.EditorStylePrefs.html
+  - name: .
+  - uid: Prowl.Editor.Preferences.EditorStylePrefs.NoodleStroke
+    name: NoodleStroke
+    href: Prowl.Editor.Preferences.EditorStylePrefs.NoodleStroke.html
+- uid: Prowl.Editor.Preferences.EditorStylePrefs.Black*
+  commentId: Overload:Prowl.Editor.Preferences.EditorStylePrefs.Black
+  href: Prowl.Editor.Preferences.EditorStylePrefs.html#Prowl_Editor_Preferences_EditorStylePrefs_Black
+  name: Black
+  nameWithType: EditorStylePrefs.Black
+  fullName: Prowl.Editor.Preferences.EditorStylePrefs.Black
+- uid: Prowl.Editor.Preferences.EditorStylePrefs.Base4*
+  commentId: Overload:Prowl.Editor.Preferences.EditorStylePrefs.Base4
+  href: Prowl.Editor.Preferences.EditorStylePrefs.html#Prowl_Editor_Preferences_EditorStylePrefs_Base4
+  name: Base4
+  nameWithType: EditorStylePrefs.Base4
+  fullName: Prowl.Editor.Preferences.EditorStylePrefs.Base4
+- uid: Prowl.Editor.Preferences.EditorStylePrefs.Base5*
+  commentId: Overload:Prowl.Editor.Preferences.EditorStylePrefs.Base5
+  href: Prowl.Editor.Preferences.EditorStylePrefs.html#Prowl_Editor_Preferences_EditorStylePrefs_Base5
+  name: Base5
+  nameWithType: EditorStylePrefs.Base5
+  fullName: Prowl.Editor.Preferences.EditorStylePrefs.Base5
+- uid: Prowl.Editor.Preferences.EditorStylePrefs.Base6*
+  commentId: Overload:Prowl.Editor.Preferences.EditorStylePrefs.Base6
+  href: Prowl.Editor.Preferences.EditorStylePrefs.html#Prowl_Editor_Preferences_EditorStylePrefs_Base6
+  name: Base6
+  nameWithType: EditorStylePrefs.Base6
+  fullName: Prowl.Editor.Preferences.EditorStylePrefs.Base6
+- uid: Prowl.Editor.Preferences.EditorStylePrefs.Base7*
+  commentId: Overload:Prowl.Editor.Preferences.EditorStylePrefs.Base7
+  href: Prowl.Editor.Preferences.EditorStylePrefs.html#Prowl_Editor_Preferences_EditorStylePrefs_Base7
+  name: Base7
+  nameWithType: EditorStylePrefs.Base7
+  fullName: Prowl.Editor.Preferences.EditorStylePrefs.Base7
+- uid: Prowl.Editor.Preferences.EditorStylePrefs.Base8*
+  commentId: Overload:Prowl.Editor.Preferences.EditorStylePrefs.Base8
+  href: Prowl.Editor.Preferences.EditorStylePrefs.html#Prowl_Editor_Preferences_EditorStylePrefs_Base8
+  name: Base8
+  nameWithType: EditorStylePrefs.Base8
+  fullName: Prowl.Editor.Preferences.EditorStylePrefs.Base8
+- uid: Prowl.Editor.Preferences.EditorStylePrefs.Base9*
+  commentId: Overload:Prowl.Editor.Preferences.EditorStylePrefs.Base9
+  href: Prowl.Editor.Preferences.EditorStylePrefs.html#Prowl_Editor_Preferences_EditorStylePrefs_Base9
+  name: Base9
+  nameWithType: EditorStylePrefs.Base9
+  fullName: Prowl.Editor.Preferences.EditorStylePrefs.Base9
+- uid: Prowl.Editor.Preferences.EditorStylePrefs.Base10*
+  commentId: Overload:Prowl.Editor.Preferences.EditorStylePrefs.Base10
+  href: Prowl.Editor.Preferences.EditorStylePrefs.html#Prowl_Editor_Preferences_EditorStylePrefs_Base10
+  name: Base10
+  nameWithType: EditorStylePrefs.Base10
+  fullName: Prowl.Editor.Preferences.EditorStylePrefs.Base10
+- uid: Prowl.Editor.Preferences.EditorStylePrefs.Base11*
+  commentId: Overload:Prowl.Editor.Preferences.EditorStylePrefs.Base11
+  href: Prowl.Editor.Preferences.EditorStylePrefs.html#Prowl_Editor_Preferences_EditorStylePrefs_Base11
+  name: Base11
+  nameWithType: EditorStylePrefs.Base11
+  fullName: Prowl.Editor.Preferences.EditorStylePrefs.Base11
+- uid: Prowl.Editor.Preferences.EditorStylePrefs.Blue*
+  commentId: Overload:Prowl.Editor.Preferences.EditorStylePrefs.Blue
+  href: Prowl.Editor.Preferences.EditorStylePrefs.html#Prowl_Editor_Preferences_EditorStylePrefs_Blue
+  name: Blue
+  nameWithType: EditorStylePrefs.Blue
+  fullName: Prowl.Editor.Preferences.EditorStylePrefs.Blue
+- uid: Prowl.Editor.Preferences.EditorStylePrefs.Green*
+  commentId: Overload:Prowl.Editor.Preferences.EditorStylePrefs.Green
+  href: Prowl.Editor.Preferences.EditorStylePrefs.html#Prowl_Editor_Preferences_EditorStylePrefs_Green
+  name: Green
+  nameWithType: EditorStylePrefs.Green
+  fullName: Prowl.Editor.Preferences.EditorStylePrefs.Green
+- uid: Prowl.Editor.Preferences.EditorStylePrefs.Violet*
+  commentId: Overload:Prowl.Editor.Preferences.EditorStylePrefs.Violet
+  href: Prowl.Editor.Preferences.EditorStylePrefs.html#Prowl_Editor_Preferences_EditorStylePrefs_Violet
+  name: Violet
+  nameWithType: EditorStylePrefs.Violet
+  fullName: Prowl.Editor.Preferences.EditorStylePrefs.Violet
+- uid: Prowl.Editor.Preferences.EditorStylePrefs.Orange*
+  commentId: Overload:Prowl.Editor.Preferences.EditorStylePrefs.Orange
+  href: Prowl.Editor.Preferences.EditorStylePrefs.html#Prowl_Editor_Preferences_EditorStylePrefs_Orange
+  name: Orange
+  nameWithType: EditorStylePrefs.Orange
+  fullName: Prowl.Editor.Preferences.EditorStylePrefs.Orange
+- uid: Prowl.Editor.Preferences.EditorStylePrefs.Yellow*
+  commentId: Overload:Prowl.Editor.Preferences.EditorStylePrefs.Yellow
+  href: Prowl.Editor.Preferences.EditorStylePrefs.html#Prowl_Editor_Preferences_EditorStylePrefs_Yellow
+  name: Yellow
+  nameWithType: EditorStylePrefs.Yellow
+  fullName: Prowl.Editor.Preferences.EditorStylePrefs.Yellow
+- uid: Prowl.Editor.Preferences.EditorStylePrefs.Indigo*
+  commentId: Overload:Prowl.Editor.Preferences.EditorStylePrefs.Indigo
+  href: Prowl.Editor.Preferences.EditorStylePrefs.html#Prowl_Editor_Preferences_EditorStylePrefs_Indigo
+  name: Indigo
+  nameWithType: EditorStylePrefs.Indigo
+  fullName: Prowl.Editor.Preferences.EditorStylePrefs.Indigo
+- uid: Prowl.Editor.Preferences.EditorStylePrefs.Emerald*
+  commentId: Overload:Prowl.Editor.Preferences.EditorStylePrefs.Emerald
+  href: Prowl.Editor.Preferences.EditorStylePrefs.html#Prowl_Editor_Preferences_EditorStylePrefs_Emerald
+  name: Emerald
+  nameWithType: EditorStylePrefs.Emerald
+  fullName: Prowl.Editor.Preferences.EditorStylePrefs.Emerald
+- uid: Prowl.Editor.Preferences.EditorStylePrefs.Fuchsia*
+  commentId: Overload:Prowl.Editor.Preferences.EditorStylePrefs.Fuchsia
+  href: Prowl.Editor.Preferences.EditorStylePrefs.html#Prowl_Editor_Preferences_EditorStylePrefs_Fuchsia
+  name: Fuchsia
+  nameWithType: EditorStylePrefs.Fuchsia
+  fullName: Prowl.Editor.Preferences.EditorStylePrefs.Fuchsia
+- uid: Prowl.Editor.Preferences.EditorStylePrefs.Red*
+  commentId: Overload:Prowl.Editor.Preferences.EditorStylePrefs.Red
+  href: Prowl.Editor.Preferences.EditorStylePrefs.html#Prowl_Editor_Preferences_EditorStylePrefs_Red
+  name: Red
+  nameWithType: EditorStylePrefs.Red
+  fullName: Prowl.Editor.Preferences.EditorStylePrefs.Red
+- uid: Prowl.Editor.Preferences.EditorStylePrefs.Sky*
+  commentId: Overload:Prowl.Editor.Preferences.EditorStylePrefs.Sky
+  href: Prowl.Editor.Preferences.EditorStylePrefs.html#Prowl_Editor_Preferences_EditorStylePrefs_Sky
+  name: Sky
+  nameWithType: EditorStylePrefs.Sky
+  fullName: Prowl.Editor.Preferences.EditorStylePrefs.Sky
+- uid: Prowl.Editor.Preferences.EditorStylePrefs.Pink*
+  commentId: Overload:Prowl.Editor.Preferences.EditorStylePrefs.Pink
+  href: Prowl.Editor.Preferences.EditorStylePrefs.html#Prowl_Editor_Preferences_EditorStylePrefs_Pink
+  name: Pink
+  nameWithType: EditorStylePrefs.Pink
+  fullName: Prowl.Editor.Preferences.EditorStylePrefs.Pink
+- uid: Prowl.Editor.Preferences.EditorStylePrefs.RandomPastel*
+  commentId: Overload:Prowl.Editor.Preferences.EditorStylePrefs.RandomPastel
+  href: Prowl.Editor.Preferences.EditorStylePrefs.html#Prowl_Editor_Preferences_EditorStylePrefs_RandomPastel_System_Type_System_Single_System_Single_
+  name: RandomPastel
+  nameWithType: EditorStylePrefs.RandomPastel
+  fullName: Prowl.Editor.Preferences.EditorStylePrefs.RandomPastel
+- uid: System.Type
+  commentId: T:System.Type
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.type
+  name: Type
+  nameWithType: Type
+  fullName: System.Type
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.single
+  name: float
+  nameWithType: float
+  fullName: float
+  nameWithType.vb: Single
+  fullName.vb: Single
+  name.vb: Single
+- uid: Prowl.Editor.Preferences.EditorStylePrefs.RandomPastelColor*
+  commentId: Overload:Prowl.Editor.Preferences.EditorStylePrefs.RandomPastelColor
+  href: Prowl.Editor.Preferences.EditorStylePrefs.html#Prowl_Editor_Preferences_EditorStylePrefs_RandomPastelColor_System_Int32_System_Single_
+  name: RandomPastelColor
+  nameWithType: EditorStylePrefs.RandomPastelColor
+  fullName: Prowl.Editor.Preferences.EditorStylePrefs.RandomPastelColor
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: Prowl.Runtime.Utils.ScriptableSingleton{Prowl.Editor.Preferences.EditorStylePrefs}.OnValidate
+  commentId: M:Prowl.Runtime.Utils.ScriptableSingleton{Prowl.Editor.Preferences.EditorStylePrefs}.OnValidate
+  parent: Prowl.Runtime.Utils.ScriptableSingleton{Prowl.Editor.Preferences.EditorStylePrefs}
+  definition: Prowl.Runtime.Utils.ScriptableSingleton`1.OnValidate
+  name: OnValidate()
+  nameWithType: ScriptableSingleton<EditorStylePrefs>.OnValidate()
+  fullName: Prowl.Runtime.Utils.ScriptableSingleton<Prowl.Editor.Preferences.EditorStylePrefs>.OnValidate()
+  nameWithType.vb: ScriptableSingleton(Of EditorStylePrefs).OnValidate()
+  fullName.vb: Prowl.Runtime.Utils.ScriptableSingleton(Of Prowl.Editor.Preferences.EditorStylePrefs).OnValidate()
+  spec.csharp:
+  - uid: Prowl.Runtime.Utils.ScriptableSingleton{Prowl.Editor.Preferences.EditorStylePrefs}.OnValidate
+    name: OnValidate
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.Utils.ScriptableSingleton{Prowl.Editor.Preferences.EditorStylePrefs}.OnValidate
+    name: OnValidate
+  - name: (
+  - name: )
+- uid: Prowl.Editor.Preferences.EditorStylePrefs.OnValidate*
+  commentId: Overload:Prowl.Editor.Preferences.EditorStylePrefs.OnValidate
+  href: Prowl.Editor.Preferences.EditorStylePrefs.html#Prowl_Editor_Preferences_EditorStylePrefs_OnValidate
+  name: OnValidate
+  nameWithType: EditorStylePrefs.OnValidate
+  fullName: Prowl.Editor.Preferences.EditorStylePrefs.OnValidate
+- uid: Prowl.Runtime.Utils.ScriptableSingleton`1.OnValidate
+  commentId: M:Prowl.Runtime.Utils.ScriptableSingleton`1.OnValidate
+  href: Prowl.Runtime.Utils.ScriptableSingleton-1.html#Prowl_Runtime_Utils_ScriptableSingleton_1_OnValidate
+  name: OnValidate()
+  nameWithType: ScriptableSingleton<T>.OnValidate()
+  fullName: Prowl.Runtime.Utils.ScriptableSingleton<T>.OnValidate()
+  nameWithType.vb: ScriptableSingleton(Of T).OnValidate()
+  fullName.vb: Prowl.Runtime.Utils.ScriptableSingleton(Of T).OnValidate()
+  spec.csharp:
+  - uid: Prowl.Runtime.Utils.ScriptableSingleton`1.OnValidate
+    name: OnValidate
+    href: Prowl.Runtime.Utils.ScriptableSingleton-1.html#Prowl_Runtime_Utils_ScriptableSingleton_1_OnValidate
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.Utils.ScriptableSingleton`1.OnValidate
+    name: OnValidate
+    href: Prowl.Runtime.Utils.ScriptableSingleton-1.html#Prowl_Runtime_Utils_ScriptableSingleton_1_OnValidate
+  - name: (
+  - name: )
+- uid: Prowl.Editor.Preferences.EditorStylePrefs.ResetDefault*
+  commentId: Overload:Prowl.Editor.Preferences.EditorStylePrefs.ResetDefault
+  href: Prowl.Editor.Preferences.EditorStylePrefs.html#Prowl_Editor_Preferences_EditorStylePrefs_ResetDefault
+  name: ResetDefault
+  nameWithType: EditorStylePrefs.ResetDefault
+  fullName: Prowl.Editor.Preferences.EditorStylePrefs.ResetDefault

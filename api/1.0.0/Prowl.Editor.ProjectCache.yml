@@ -1,0 +1,1000 @@
+### YamlMime:ManagedReference
+items:
+- uid: Prowl.Editor.ProjectCache
+  commentId: T:Prowl.Editor.ProjectCache
+  id: ProjectCache
+  parent: Prowl.Editor
+  children:
+  - Prowl.Editor.ProjectCache.AddProject(Prowl.Editor.Project)
+  - Prowl.Editor.ProjectCache.GetProject(System.Int32)
+  - Prowl.Editor.ProjectCache.OnAfterDeserialize
+  - Prowl.Editor.ProjectCache.OnBeforeSerialize
+  - Prowl.Editor.ProjectCache.ProjectsCount
+  - Prowl.Editor.ProjectCache.RemoveProject(Prowl.Editor.Project)
+  - Prowl.Editor.ProjectCache.SavedProjectsFolder
+  langs:
+  - csharp
+  - vb
+  name: ProjectCache
+  nameWithType: ProjectCache
+  fullName: Prowl.Editor.ProjectCache
+  type: Class
+  source:
+    remote:
+      path: Prowl.Editor/Utilities/ProjectCache.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: ProjectCache
+    path: ../Prowl/Prowl.Editor/Utilities/ProjectCache.cs
+    startLine: 8
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor
+  syntax:
+    content: >-
+      [FilePath("Projects.cache", FilePathAttribute.Location.EditorPreference)]
+
+      public class ProjectCache : ScriptableSingleton<ProjectCache>, ISerializationCallbackReceiver
+    content.vb: >-
+      <FilePath("Projects.cache", FilePathAttribute.Location.EditorPreference)>
+
+      Public Class ProjectCache Inherits ScriptableSingleton(Of ProjectCache) Implements ISerializationCallbackReceiver
+  inheritance:
+  - System.Object
+  - Prowl.Runtime.Utils.ScriptableSingleton{Prowl.Editor.ProjectCache}
+  implements:
+  - Prowl.Runtime.ISerializationCallbackReceiver
+  inheritedMembers:
+  - Prowl.Runtime.Utils.ScriptableSingleton{Prowl.Editor.ProjectCache}._instance
+  - Prowl.Runtime.Utils.ScriptableSingleton{Prowl.Editor.ProjectCache}.Instance
+  - Prowl.Runtime.Utils.ScriptableSingleton{Prowl.Editor.ProjectCache}.OnValidate
+  - Prowl.Runtime.Utils.ScriptableSingleton{Prowl.Editor.ProjectCache}.Save
+  - Prowl.Runtime.Utils.ScriptableSingleton{Prowl.Editor.ProjectCache}.GetFilePath(System.String)
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  extensionMethods:
+  - System.Object.Prowl.Runtime.RuntimeUtils.GetSerializableFields
+  attributes:
+  - type: Prowl.Runtime.Utils.FilePathAttribute
+    ctor: Prowl.Runtime.Utils.FilePathAttribute.#ctor(System.String,Prowl.Runtime.Utils.FilePathAttribute.Location)
+    arguments:
+    - type: System.String
+      value: Projects.cache
+    - type: Prowl.Runtime.Utils.FilePathAttribute.Location
+      value: 3
+- uid: Prowl.Editor.ProjectCache.ProjectsCount
+  commentId: P:Prowl.Editor.ProjectCache.ProjectsCount
+  id: ProjectsCount
+  parent: Prowl.Editor.ProjectCache
+  langs:
+  - csharp
+  - vb
+  name: ProjectsCount
+  nameWithType: ProjectCache.ProjectsCount
+  fullName: Prowl.Editor.ProjectCache.ProjectsCount
+  type: Property
+  source:
+    remote:
+      path: Prowl.Editor/Utilities/ProjectCache.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: ProjectsCount
+    path: ../Prowl/Prowl.Editor/Utilities/ProjectCache.cs
+    startLine: 17
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor
+  syntax:
+    content: public int ProjectsCount { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property ProjectsCount As Integer
+  overload: Prowl.Editor.ProjectCache.ProjectsCount*
+- uid: Prowl.Editor.ProjectCache.SavedProjectsFolder
+  commentId: P:Prowl.Editor.ProjectCache.SavedProjectsFolder
+  id: SavedProjectsFolder
+  parent: Prowl.Editor.ProjectCache
+  langs:
+  - csharp
+  - vb
+  name: SavedProjectsFolder
+  nameWithType: ProjectCache.SavedProjectsFolder
+  fullName: Prowl.Editor.ProjectCache.SavedProjectsFolder
+  type: Property
+  source:
+    remote:
+      path: Prowl.Editor/Utilities/ProjectCache.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: SavedProjectsFolder
+    path: ../Prowl/Prowl.Editor/Utilities/ProjectCache.cs
+    startLine: 21
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor
+  syntax:
+    content: public string SavedProjectsFolder { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property SavedProjectsFolder As String
+  overload: Prowl.Editor.ProjectCache.SavedProjectsFolder*
+- uid: Prowl.Editor.ProjectCache.AddProject(Prowl.Editor.Project)
+  commentId: M:Prowl.Editor.ProjectCache.AddProject(Prowl.Editor.Project)
+  id: AddProject(Prowl.Editor.Project)
+  parent: Prowl.Editor.ProjectCache
+  langs:
+  - csharp
+  - vb
+  name: AddProject(Project)
+  nameWithType: ProjectCache.AddProject(Project)
+  fullName: Prowl.Editor.ProjectCache.AddProject(Prowl.Editor.Project)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Editor/Utilities/ProjectCache.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: AddProject
+    path: ../Prowl/Prowl.Editor/Utilities/ProjectCache.cs
+    startLine: 45
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor
+  syntax:
+    content: public void AddProject(Project project)
+    parameters:
+    - id: project
+      type: Prowl.Editor.Project
+    content.vb: Public Sub AddProject(project As Project)
+  overload: Prowl.Editor.ProjectCache.AddProject*
+- uid: Prowl.Editor.ProjectCache.GetProject(System.Int32)
+  commentId: M:Prowl.Editor.ProjectCache.GetProject(System.Int32)
+  id: GetProject(System.Int32)
+  parent: Prowl.Editor.ProjectCache
+  langs:
+  - csharp
+  - vb
+  name: GetProject(int)
+  nameWithType: ProjectCache.GetProject(int)
+  fullName: Prowl.Editor.ProjectCache.GetProject(int)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Editor/Utilities/ProjectCache.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: GetProject
+    path: ../Prowl/Prowl.Editor/Utilities/ProjectCache.cs
+    startLine: 94
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor
+  syntax:
+    content: public Project? GetProject(int index)
+    parameters:
+    - id: index
+      type: System.Int32
+    return:
+      type: Prowl.Editor.Project
+    content.vb: Public Function GetProject(index As Integer) As Project
+  overload: Prowl.Editor.ProjectCache.GetProject*
+  nameWithType.vb: ProjectCache.GetProject(Integer)
+  fullName.vb: Prowl.Editor.ProjectCache.GetProject(Integer)
+  name.vb: GetProject(Integer)
+- uid: Prowl.Editor.ProjectCache.RemoveProject(Prowl.Editor.Project)
+  commentId: M:Prowl.Editor.ProjectCache.RemoveProject(Prowl.Editor.Project)
+  id: RemoveProject(Prowl.Editor.Project)
+  parent: Prowl.Editor.ProjectCache
+  langs:
+  - csharp
+  - vb
+  name: RemoveProject(Project)
+  nameWithType: ProjectCache.RemoveProject(Project)
+  fullName: Prowl.Editor.ProjectCache.RemoveProject(Prowl.Editor.Project)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Editor/Utilities/ProjectCache.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: RemoveProject
+    path: ../Prowl/Prowl.Editor/Utilities/ProjectCache.cs
+    startLine: 102
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor
+  syntax:
+    content: public void RemoveProject(Project project)
+    parameters:
+    - id: project
+      type: Prowl.Editor.Project
+    content.vb: Public Sub RemoveProject(project As Project)
+  overload: Prowl.Editor.ProjectCache.RemoveProject*
+- uid: Prowl.Editor.ProjectCache.OnBeforeSerialize
+  commentId: M:Prowl.Editor.ProjectCache.OnBeforeSerialize
+  id: OnBeforeSerialize
+  parent: Prowl.Editor.ProjectCache
+  langs:
+  - csharp
+  - vb
+  name: OnBeforeSerialize()
+  nameWithType: ProjectCache.OnBeforeSerialize()
+  fullName: Prowl.Editor.ProjectCache.OnBeforeSerialize()
+  type: Method
+  source:
+    remote:
+      path: Prowl.Editor/Utilities/ProjectCache.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: OnBeforeSerialize
+    path: ../Prowl/Prowl.Editor/Utilities/ProjectCache.cs
+    startLine: 109
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor
+  summary: Called right before the Serializer serializes this object
+  example: []
+  syntax:
+    content: public void OnBeforeSerialize()
+    content.vb: Public Sub OnBeforeSerialize()
+  overload: Prowl.Editor.ProjectCache.OnBeforeSerialize*
+  implements:
+  - Prowl.Runtime.ISerializationCallbackReceiver.OnBeforeSerialize
+- uid: Prowl.Editor.ProjectCache.OnAfterDeserialize
+  commentId: M:Prowl.Editor.ProjectCache.OnAfterDeserialize
+  id: OnAfterDeserialize
+  parent: Prowl.Editor.ProjectCache
+  langs:
+  - csharp
+  - vb
+  name: OnAfterDeserialize()
+  nameWithType: ProjectCache.OnAfterDeserialize()
+  fullName: Prowl.Editor.ProjectCache.OnAfterDeserialize()
+  type: Method
+  source:
+    remote:
+      path: Prowl.Editor/Utilities/ProjectCache.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: OnAfterDeserialize
+    path: ../Prowl/Prowl.Editor/Utilities/ProjectCache.cs
+    startLine: 115
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor
+  summary: Called right after the Serializer deserializes this object
+  example: []
+  syntax:
+    content: public void OnAfterDeserialize()
+    content.vb: Public Sub OnAfterDeserialize()
+  overload: Prowl.Editor.ProjectCache.OnAfterDeserialize*
+  implements:
+  - Prowl.Runtime.ISerializationCallbackReceiver.OnAfterDeserialize
+references:
+- uid: Prowl.Editor
+  commentId: N:Prowl.Editor
+  href: Prowl.html
+  name: Prowl.Editor
+  nameWithType: Prowl.Editor
+  fullName: Prowl.Editor
+  spec.csharp:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Editor
+    name: Editor
+    href: Prowl.Editor.html
+  spec.vb:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Editor
+    name: Editor
+    href: Prowl.Editor.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Prowl.Runtime.Utils.ScriptableSingleton{Prowl.Editor.ProjectCache}
+  commentId: T:Prowl.Runtime.Utils.ScriptableSingleton{Prowl.Editor.ProjectCache}
+  parent: Prowl.Runtime.Utils
+  definition: Prowl.Runtime.Utils.ScriptableSingleton`1
+  href: Prowl.Editor.ProjectCache.html
+  name: ScriptableSingleton<ProjectCache>
+  nameWithType: ScriptableSingleton<ProjectCache>
+  fullName: Prowl.Runtime.Utils.ScriptableSingleton<Prowl.Editor.ProjectCache>
+  nameWithType.vb: ScriptableSingleton(Of ProjectCache)
+  fullName.vb: Prowl.Runtime.Utils.ScriptableSingleton(Of Prowl.Editor.ProjectCache)
+  name.vb: ScriptableSingleton(Of ProjectCache)
+  spec.csharp:
+  - uid: Prowl.Runtime.Utils.ScriptableSingleton`1
+    name: ScriptableSingleton
+  - name: <
+  - uid: Prowl.Editor.ProjectCache
+    name: ProjectCache
+    href: Prowl.Editor.ProjectCache.html
+  - name: '>'
+  spec.vb:
+  - uid: Prowl.Runtime.Utils.ScriptableSingleton`1
+    name: ScriptableSingleton
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Prowl.Editor.ProjectCache
+    name: ProjectCache
+    href: Prowl.Editor.ProjectCache.html
+  - name: )
+- uid: Prowl.Runtime.ISerializationCallbackReceiver
+  commentId: T:Prowl.Runtime.ISerializationCallbackReceiver
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.ISerializationCallbackReceiver.html
+  name: ISerializationCallbackReceiver
+  nameWithType: ISerializationCallbackReceiver
+  fullName: Prowl.Runtime.ISerializationCallbackReceiver
+- uid: Prowl.Runtime.Utils.ScriptableSingleton{Prowl.Editor.ProjectCache}._instance
+  commentId: F:Prowl.Runtime.Utils.ScriptableSingleton{Prowl.Editor.ProjectCache}._instance
+  parent: Prowl.Runtime.Utils.ScriptableSingleton{Prowl.Editor.ProjectCache}
+  definition: Prowl.Runtime.Utils.ScriptableSingleton`1._instance
+  name: _instance
+  nameWithType: ScriptableSingleton<ProjectCache>._instance
+  fullName: Prowl.Runtime.Utils.ScriptableSingleton<Prowl.Editor.ProjectCache>._instance
+  nameWithType.vb: ScriptableSingleton(Of ProjectCache)._instance
+  fullName.vb: Prowl.Runtime.Utils.ScriptableSingleton(Of Prowl.Editor.ProjectCache)._instance
+- uid: Prowl.Runtime.Utils.ScriptableSingleton{Prowl.Editor.ProjectCache}.Instance
+  commentId: P:Prowl.Runtime.Utils.ScriptableSingleton{Prowl.Editor.ProjectCache}.Instance
+  parent: Prowl.Runtime.Utils.ScriptableSingleton{Prowl.Editor.ProjectCache}
+  definition: Prowl.Runtime.Utils.ScriptableSingleton`1.Instance
+  name: Instance
+  nameWithType: ScriptableSingleton<ProjectCache>.Instance
+  fullName: Prowl.Runtime.Utils.ScriptableSingleton<Prowl.Editor.ProjectCache>.Instance
+  nameWithType.vb: ScriptableSingleton(Of ProjectCache).Instance
+  fullName.vb: Prowl.Runtime.Utils.ScriptableSingleton(Of Prowl.Editor.ProjectCache).Instance
+- uid: Prowl.Runtime.Utils.ScriptableSingleton{Prowl.Editor.ProjectCache}.OnValidate
+  commentId: M:Prowl.Runtime.Utils.ScriptableSingleton{Prowl.Editor.ProjectCache}.OnValidate
+  parent: Prowl.Runtime.Utils.ScriptableSingleton{Prowl.Editor.ProjectCache}
+  definition: Prowl.Runtime.Utils.ScriptableSingleton`1.OnValidate
+  name: OnValidate()
+  nameWithType: ScriptableSingleton<ProjectCache>.OnValidate()
+  fullName: Prowl.Runtime.Utils.ScriptableSingleton<Prowl.Editor.ProjectCache>.OnValidate()
+  nameWithType.vb: ScriptableSingleton(Of ProjectCache).OnValidate()
+  fullName.vb: Prowl.Runtime.Utils.ScriptableSingleton(Of Prowl.Editor.ProjectCache).OnValidate()
+  spec.csharp:
+  - uid: Prowl.Runtime.Utils.ScriptableSingleton{Prowl.Editor.ProjectCache}.OnValidate
+    name: OnValidate
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.Utils.ScriptableSingleton{Prowl.Editor.ProjectCache}.OnValidate
+    name: OnValidate
+  - name: (
+  - name: )
+- uid: Prowl.Runtime.Utils.ScriptableSingleton{Prowl.Editor.ProjectCache}.Save
+  commentId: M:Prowl.Runtime.Utils.ScriptableSingleton{Prowl.Editor.ProjectCache}.Save
+  parent: Prowl.Runtime.Utils.ScriptableSingleton{Prowl.Editor.ProjectCache}
+  definition: Prowl.Runtime.Utils.ScriptableSingleton`1.Save
+  name: Save()
+  nameWithType: ScriptableSingleton<ProjectCache>.Save()
+  fullName: Prowl.Runtime.Utils.ScriptableSingleton<Prowl.Editor.ProjectCache>.Save()
+  nameWithType.vb: ScriptableSingleton(Of ProjectCache).Save()
+  fullName.vb: Prowl.Runtime.Utils.ScriptableSingleton(Of Prowl.Editor.ProjectCache).Save()
+  spec.csharp:
+  - uid: Prowl.Runtime.Utils.ScriptableSingleton{Prowl.Editor.ProjectCache}.Save
+    name: Save
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.Utils.ScriptableSingleton{Prowl.Editor.ProjectCache}.Save
+    name: Save
+  - name: (
+  - name: )
+- uid: Prowl.Runtime.Utils.ScriptableSingleton{Prowl.Editor.ProjectCache}.GetFilePath(System.String)
+  commentId: M:Prowl.Runtime.Utils.ScriptableSingleton{Prowl.Editor.ProjectCache}.GetFilePath(System.String)
+  parent: Prowl.Runtime.Utils.ScriptableSingleton{Prowl.Editor.ProjectCache}
+  definition: Prowl.Runtime.Utils.ScriptableSingleton`1.GetFilePath(System.String)
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: GetFilePath(string)
+  nameWithType: ScriptableSingleton<ProjectCache>.GetFilePath(string)
+  fullName: Prowl.Runtime.Utils.ScriptableSingleton<Prowl.Editor.ProjectCache>.GetFilePath(string)
+  nameWithType.vb: ScriptableSingleton(Of ProjectCache).GetFilePath(String)
+  fullName.vb: Prowl.Runtime.Utils.ScriptableSingleton(Of Prowl.Editor.ProjectCache).GetFilePath(String)
+  name.vb: GetFilePath(String)
+  spec.csharp:
+  - uid: Prowl.Runtime.Utils.ScriptableSingleton{Prowl.Editor.ProjectCache}.GetFilePath(System.String)
+    name: GetFilePath
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.Utils.ScriptableSingleton{Prowl.Editor.ProjectCache}.GetFilePath(System.String)
+    name: GetFilePath
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Prowl.Runtime.RuntimeUtils.GetSerializableFields
+  commentId: M:Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  parent: Prowl.Runtime.RuntimeUtils
+  definition: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  name: GetSerializableFields(object)
+  nameWithType: RuntimeUtils.GetSerializableFields(object)
+  fullName: Prowl.Runtime.RuntimeUtils.GetSerializableFields(object)
+  nameWithType.vb: RuntimeUtils.GetSerializableFields(Object)
+  fullName.vb: Prowl.Runtime.RuntimeUtils.GetSerializableFields(Object)
+  name.vb: GetSerializableFields(Object)
+  spec.csharp:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Prowl.Runtime.Utils.ScriptableSingleton`1
+  commentId: T:Prowl.Runtime.Utils.ScriptableSingleton`1
+  href: Prowl.Runtime.Utils.ScriptableSingleton-1.html
+  name: ScriptableSingleton<T>
+  nameWithType: ScriptableSingleton<T>
+  fullName: Prowl.Runtime.Utils.ScriptableSingleton<T>
+  nameWithType.vb: ScriptableSingleton(Of T)
+  fullName.vb: Prowl.Runtime.Utils.ScriptableSingleton(Of T)
+  name.vb: ScriptableSingleton(Of T)
+  spec.csharp:
+  - uid: Prowl.Runtime.Utils.ScriptableSingleton`1
+    name: ScriptableSingleton
+    href: Prowl.Runtime.Utils.ScriptableSingleton-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Prowl.Runtime.Utils.ScriptableSingleton`1
+    name: ScriptableSingleton
+    href: Prowl.Runtime.Utils.ScriptableSingleton-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Prowl.Runtime.Utils
+  commentId: N:Prowl.Runtime.Utils
+  href: Prowl.html
+  name: Prowl.Runtime.Utils
+  nameWithType: Prowl.Runtime.Utils
+  fullName: Prowl.Runtime.Utils
+  spec.csharp:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+  - name: .
+  - uid: Prowl.Runtime.Utils
+    name: Utils
+    href: Prowl.Runtime.Utils.html
+  spec.vb:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+  - name: .
+  - uid: Prowl.Runtime.Utils
+    name: Utils
+    href: Prowl.Runtime.Utils.html
+- uid: Prowl.Runtime
+  commentId: N:Prowl.Runtime
+  href: Prowl.html
+  name: Prowl.Runtime
+  nameWithType: Prowl.Runtime
+  fullName: Prowl.Runtime
+  spec.csharp:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+  spec.vb:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+- uid: Prowl.Runtime.Utils.ScriptableSingleton`1._instance
+  commentId: F:Prowl.Runtime.Utils.ScriptableSingleton`1._instance
+  href: Prowl.Runtime.Utils.ScriptableSingleton-1.html#Prowl_Runtime_Utils_ScriptableSingleton_1__instance
+  name: _instance
+  nameWithType: ScriptableSingleton<T>._instance
+  fullName: Prowl.Runtime.Utils.ScriptableSingleton<T>._instance
+  nameWithType.vb: ScriptableSingleton(Of T)._instance
+  fullName.vb: Prowl.Runtime.Utils.ScriptableSingleton(Of T)._instance
+- uid: Prowl.Runtime.Utils.ScriptableSingleton`1.Instance
+  commentId: P:Prowl.Runtime.Utils.ScriptableSingleton`1.Instance
+  href: Prowl.Runtime.Utils.ScriptableSingleton-1.html#Prowl_Runtime_Utils_ScriptableSingleton_1_Instance
+  name: Instance
+  nameWithType: ScriptableSingleton<T>.Instance
+  fullName: Prowl.Runtime.Utils.ScriptableSingleton<T>.Instance
+  nameWithType.vb: ScriptableSingleton(Of T).Instance
+  fullName.vb: Prowl.Runtime.Utils.ScriptableSingleton(Of T).Instance
+- uid: Prowl.Runtime.Utils.ScriptableSingleton`1.OnValidate
+  commentId: M:Prowl.Runtime.Utils.ScriptableSingleton`1.OnValidate
+  href: Prowl.Runtime.Utils.ScriptableSingleton-1.html#Prowl_Runtime_Utils_ScriptableSingleton_1_OnValidate
+  name: OnValidate()
+  nameWithType: ScriptableSingleton<T>.OnValidate()
+  fullName: Prowl.Runtime.Utils.ScriptableSingleton<T>.OnValidate()
+  nameWithType.vb: ScriptableSingleton(Of T).OnValidate()
+  fullName.vb: Prowl.Runtime.Utils.ScriptableSingleton(Of T).OnValidate()
+  spec.csharp:
+  - uid: Prowl.Runtime.Utils.ScriptableSingleton`1.OnValidate
+    name: OnValidate
+    href: Prowl.Runtime.Utils.ScriptableSingleton-1.html#Prowl_Runtime_Utils_ScriptableSingleton_1_OnValidate
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.Utils.ScriptableSingleton`1.OnValidate
+    name: OnValidate
+    href: Prowl.Runtime.Utils.ScriptableSingleton-1.html#Prowl_Runtime_Utils_ScriptableSingleton_1_OnValidate
+  - name: (
+  - name: )
+- uid: Prowl.Runtime.Utils.ScriptableSingleton`1.Save
+  commentId: M:Prowl.Runtime.Utils.ScriptableSingleton`1.Save
+  href: Prowl.Runtime.Utils.ScriptableSingleton-1.html#Prowl_Runtime_Utils_ScriptableSingleton_1_Save
+  name: Save()
+  nameWithType: ScriptableSingleton<T>.Save()
+  fullName: Prowl.Runtime.Utils.ScriptableSingleton<T>.Save()
+  nameWithType.vb: ScriptableSingleton(Of T).Save()
+  fullName.vb: Prowl.Runtime.Utils.ScriptableSingleton(Of T).Save()
+  spec.csharp:
+  - uid: Prowl.Runtime.Utils.ScriptableSingleton`1.Save
+    name: Save
+    href: Prowl.Runtime.Utils.ScriptableSingleton-1.html#Prowl_Runtime_Utils_ScriptableSingleton_1_Save
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.Utils.ScriptableSingleton`1.Save
+    name: Save
+    href: Prowl.Runtime.Utils.ScriptableSingleton-1.html#Prowl_Runtime_Utils_ScriptableSingleton_1_Save
+  - name: (
+  - name: )
+- uid: Prowl.Runtime.Utils.ScriptableSingleton`1.GetFilePath(System.String)
+  commentId: M:Prowl.Runtime.Utils.ScriptableSingleton`1.GetFilePath(System.String)
+  isExternal: true
+  href: Prowl.Runtime.Utils.ScriptableSingleton-1.html#Prowl_Runtime_Utils_ScriptableSingleton_1_GetFilePath_System_String_
+  name: GetFilePath(string)
+  nameWithType: ScriptableSingleton<T>.GetFilePath(string)
+  fullName: Prowl.Runtime.Utils.ScriptableSingleton<T>.GetFilePath(string)
+  nameWithType.vb: ScriptableSingleton(Of T).GetFilePath(String)
+  fullName.vb: Prowl.Runtime.Utils.ScriptableSingleton(Of T).GetFilePath(String)
+  name.vb: GetFilePath(String)
+  spec.csharp:
+  - uid: Prowl.Runtime.Utils.ScriptableSingleton`1.GetFilePath(System.String)
+    name: GetFilePath
+    href: Prowl.Runtime.Utils.ScriptableSingleton-1.html#Prowl_Runtime_Utils_ScriptableSingleton_1_GetFilePath_System_String_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.Utils.ScriptableSingleton`1.GetFilePath(System.String)
+    name: GetFilePath
+    href: Prowl.Runtime.Utils.ScriptableSingleton-1.html#Prowl_Runtime_Utils_ScriptableSingleton_1_GetFilePath_System_String_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  commentId: M:Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  isExternal: true
+  href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  name: GetSerializableFields(object)
+  nameWithType: RuntimeUtils.GetSerializableFields(object)
+  fullName: Prowl.Runtime.RuntimeUtils.GetSerializableFields(object)
+  nameWithType.vb: RuntimeUtils.GetSerializableFields(Object)
+  fullName.vb: Prowl.Runtime.RuntimeUtils.GetSerializableFields(Object)
+  name.vb: GetSerializableFields(Object)
+  spec.csharp:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: Prowl.Runtime.RuntimeUtils
+  commentId: T:Prowl.Runtime.RuntimeUtils
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.RuntimeUtils.html
+  name: RuntimeUtils
+  nameWithType: RuntimeUtils
+  fullName: Prowl.Runtime.RuntimeUtils
+- uid: Prowl.Editor.ProjectCache.ProjectsCount*
+  commentId: Overload:Prowl.Editor.ProjectCache.ProjectsCount
+  href: Prowl.Editor.ProjectCache.html#Prowl_Editor_ProjectCache_ProjectsCount
+  name: ProjectsCount
+  nameWithType: ProjectCache.ProjectsCount
+  fullName: Prowl.Editor.ProjectCache.ProjectsCount
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: Prowl.Editor.ProjectCache.SavedProjectsFolder*
+  commentId: Overload:Prowl.Editor.ProjectCache.SavedProjectsFolder
+  href: Prowl.Editor.ProjectCache.html#Prowl_Editor_ProjectCache_SavedProjectsFolder
+  name: SavedProjectsFolder
+  nameWithType: ProjectCache.SavedProjectsFolder
+  fullName: Prowl.Editor.ProjectCache.SavedProjectsFolder
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: Prowl.Editor.ProjectCache.AddProject*
+  commentId: Overload:Prowl.Editor.ProjectCache.AddProject
+  href: Prowl.Editor.ProjectCache.html#Prowl_Editor_ProjectCache_AddProject_Prowl_Editor_Project_
+  name: AddProject
+  nameWithType: ProjectCache.AddProject
+  fullName: Prowl.Editor.ProjectCache.AddProject
+- uid: Prowl.Editor.Project
+  commentId: T:Prowl.Editor.Project
+  parent: Prowl.Editor
+  href: Prowl.Editor.Project.html
+  name: Project
+  nameWithType: Project
+  fullName: Prowl.Editor.Project
+- uid: Prowl.Editor.ProjectCache.GetProject*
+  commentId: Overload:Prowl.Editor.ProjectCache.GetProject
+  href: Prowl.Editor.ProjectCache.html#Prowl_Editor_ProjectCache_GetProject_System_Int32_
+  name: GetProject
+  nameWithType: ProjectCache.GetProject
+  fullName: Prowl.Editor.ProjectCache.GetProject
+- uid: Prowl.Editor.ProjectCache.RemoveProject*
+  commentId: Overload:Prowl.Editor.ProjectCache.RemoveProject
+  href: Prowl.Editor.ProjectCache.html#Prowl_Editor_ProjectCache_RemoveProject_Prowl_Editor_Project_
+  name: RemoveProject
+  nameWithType: ProjectCache.RemoveProject
+  fullName: Prowl.Editor.ProjectCache.RemoveProject
+- uid: Prowl.Editor.ProjectCache.OnBeforeSerialize*
+  commentId: Overload:Prowl.Editor.ProjectCache.OnBeforeSerialize
+  href: Prowl.Editor.ProjectCache.html#Prowl_Editor_ProjectCache_OnBeforeSerialize
+  name: OnBeforeSerialize
+  nameWithType: ProjectCache.OnBeforeSerialize
+  fullName: Prowl.Editor.ProjectCache.OnBeforeSerialize
+- uid: Prowl.Runtime.ISerializationCallbackReceiver.OnBeforeSerialize
+  commentId: M:Prowl.Runtime.ISerializationCallbackReceiver.OnBeforeSerialize
+  parent: Prowl.Runtime.ISerializationCallbackReceiver
+  href: Prowl.Runtime.ISerializationCallbackReceiver.html#Prowl_Runtime_ISerializationCallbackReceiver_OnBeforeSerialize
+  name: OnBeforeSerialize()
+  nameWithType: ISerializationCallbackReceiver.OnBeforeSerialize()
+  fullName: Prowl.Runtime.ISerializationCallbackReceiver.OnBeforeSerialize()
+  spec.csharp:
+  - uid: Prowl.Runtime.ISerializationCallbackReceiver.OnBeforeSerialize
+    name: OnBeforeSerialize
+    href: Prowl.Runtime.ISerializationCallbackReceiver.html#Prowl_Runtime_ISerializationCallbackReceiver_OnBeforeSerialize
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.ISerializationCallbackReceiver.OnBeforeSerialize
+    name: OnBeforeSerialize
+    href: Prowl.Runtime.ISerializationCallbackReceiver.html#Prowl_Runtime_ISerializationCallbackReceiver_OnBeforeSerialize
+  - name: (
+  - name: )
+- uid: Prowl.Editor.ProjectCache.OnAfterDeserialize*
+  commentId: Overload:Prowl.Editor.ProjectCache.OnAfterDeserialize
+  href: Prowl.Editor.ProjectCache.html#Prowl_Editor_ProjectCache_OnAfterDeserialize
+  name: OnAfterDeserialize
+  nameWithType: ProjectCache.OnAfterDeserialize
+  fullName: Prowl.Editor.ProjectCache.OnAfterDeserialize
+- uid: Prowl.Runtime.ISerializationCallbackReceiver.OnAfterDeserialize
+  commentId: M:Prowl.Runtime.ISerializationCallbackReceiver.OnAfterDeserialize
+  parent: Prowl.Runtime.ISerializationCallbackReceiver
+  href: Prowl.Runtime.ISerializationCallbackReceiver.html#Prowl_Runtime_ISerializationCallbackReceiver_OnAfterDeserialize
+  name: OnAfterDeserialize()
+  nameWithType: ISerializationCallbackReceiver.OnAfterDeserialize()
+  fullName: Prowl.Runtime.ISerializationCallbackReceiver.OnAfterDeserialize()
+  spec.csharp:
+  - uid: Prowl.Runtime.ISerializationCallbackReceiver.OnAfterDeserialize
+    name: OnAfterDeserialize
+    href: Prowl.Runtime.ISerializationCallbackReceiver.html#Prowl_Runtime_ISerializationCallbackReceiver_OnAfterDeserialize
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.ISerializationCallbackReceiver.OnAfterDeserialize
+    name: OnAfterDeserialize
+    href: Prowl.Runtime.ISerializationCallbackReceiver.html#Prowl_Runtime_ISerializationCallbackReceiver_OnAfterDeserialize
+  - name: (
+  - name: )

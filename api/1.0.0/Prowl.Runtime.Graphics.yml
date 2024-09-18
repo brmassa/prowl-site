@@ -1,0 +1,740 @@
+### YamlMime:ManagedReference
+items:
+- uid: Prowl.Runtime.Graphics
+  commentId: T:Prowl.Runtime.Graphics
+  id: Graphics
+  parent: Prowl.Runtime
+  children:
+  - Prowl.Runtime.Graphics.Device
+  - Prowl.Runtime.Graphics.EndFrame
+  - Prowl.Runtime.Graphics.Factory
+  - Prowl.Runtime.Graphics.GetCommandList
+  - Prowl.Runtime.Graphics.Initialize(System.Boolean,Veldrid.GraphicsBackend)
+  - Prowl.Runtime.Graphics.ScreenTarget
+  - Prowl.Runtime.Graphics.SubmitCommandBuffer(Prowl.Runtime.CommandBuffer,System.Boolean,System.UInt64)
+  - Prowl.Runtime.Graphics.SubmitCommandList(Veldrid.CommandList,System.Boolean,System.UInt64)
+  - Prowl.Runtime.Graphics.TargetResolution
+  - Prowl.Runtime.Graphics.VSync
+  langs:
+  - csharp
+  - vb
+  name: Graphics
+  nameWithType: Graphics
+  fullName: Prowl.Runtime.Graphics
+  type: Class
+  source:
+    id: Graphics
+    path: Microsoft.Interop.LibraryImportGenerator/Microsoft.Interop.LibraryImportGenerator/LibraryImports.g.cs
+    startLine: 3
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public static class Graphics
+    content.vb: Public Module Graphics
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: Prowl.Runtime.Graphics.Device
+  commentId: P:Prowl.Runtime.Graphics.Device
+  id: Device
+  parent: Prowl.Runtime.Graphics
+  langs:
+  - csharp
+  - vb
+  name: Device
+  nameWithType: Graphics.Device
+  fullName: Prowl.Runtime.Graphics.Device
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/Graphics.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Device
+    path: ../Prowl/Prowl.Runtime/Graphics.cs
+    startLine: 17
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public static GraphicsDevice Device { get; }
+    parameters: []
+    return:
+      type: Veldrid.GraphicsDevice
+    content.vb: Public Shared Property Device As GraphicsDevice
+  overload: Prowl.Runtime.Graphics.Device*
+- uid: Prowl.Runtime.Graphics.Factory
+  commentId: P:Prowl.Runtime.Graphics.Factory
+  id: Factory
+  parent: Prowl.Runtime.Graphics
+  langs:
+  - csharp
+  - vb
+  name: Factory
+  nameWithType: Graphics.Factory
+  fullName: Prowl.Runtime.Graphics.Factory
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/Graphics.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Factory
+    path: ../Prowl/Prowl.Runtime/Graphics.cs
+    startLine: 18
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public static ResourceFactory Factory { get; }
+    parameters: []
+    return:
+      type: Veldrid.ResourceFactory
+    content.vb: Public Shared ReadOnly Property Factory As ResourceFactory
+  overload: Prowl.Runtime.Graphics.Factory*
+- uid: Prowl.Runtime.Graphics.ScreenTarget
+  commentId: P:Prowl.Runtime.Graphics.ScreenTarget
+  id: ScreenTarget
+  parent: Prowl.Runtime.Graphics
+  langs:
+  - csharp
+  - vb
+  name: ScreenTarget
+  nameWithType: Graphics.ScreenTarget
+  fullName: Prowl.Runtime.Graphics.ScreenTarget
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/Graphics.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: ScreenTarget
+    path: ../Prowl/Prowl.Runtime/Graphics.cs
+    startLine: 20
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public static Framebuffer ScreenTarget { get; }
+    parameters: []
+    return:
+      type: Veldrid.Framebuffer
+    content.vb: Public Shared ReadOnly Property ScreenTarget As Framebuffer
+  overload: Prowl.Runtime.Graphics.ScreenTarget*
+- uid: Prowl.Runtime.Graphics.TargetResolution
+  commentId: P:Prowl.Runtime.Graphics.TargetResolution
+  id: TargetResolution
+  parent: Prowl.Runtime.Graphics
+  langs:
+  - csharp
+  - vb
+  name: TargetResolution
+  nameWithType: Graphics.TargetResolution
+  fullName: Prowl.Runtime.Graphics.TargetResolution
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/Graphics.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: TargetResolution
+    path: ../Prowl/Prowl.Runtime/Graphics.cs
+    startLine: 22
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public static Vector2Int TargetResolution { get; }
+    parameters: []
+    return:
+      type: Prowl.Runtime.Vector2Int
+    content.vb: Public Shared ReadOnly Property TargetResolution As Vector2Int
+  overload: Prowl.Runtime.Graphics.TargetResolution*
+- uid: Prowl.Runtime.Graphics.VSync
+  commentId: P:Prowl.Runtime.Graphics.VSync
+  id: VSync
+  parent: Prowl.Runtime.Graphics
+  langs:
+  - csharp
+  - vb
+  name: VSync
+  nameWithType: Graphics.VSync
+  fullName: Prowl.Runtime.Graphics.VSync
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/Graphics.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: VSync
+    path: ../Prowl/Prowl.Runtime/Graphics.cs
+    startLine: 26
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public static bool VSync { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Property VSync As Boolean
+  overload: Prowl.Runtime.Graphics.VSync*
+- uid: Prowl.Runtime.Graphics.Initialize(System.Boolean,Veldrid.GraphicsBackend)
+  commentId: M:Prowl.Runtime.Graphics.Initialize(System.Boolean,Veldrid.GraphicsBackend)
+  id: Initialize(System.Boolean,Veldrid.GraphicsBackend)
+  parent: Prowl.Runtime.Graphics
+  langs:
+  - csharp
+  - vb
+  name: Initialize(bool, GraphicsBackend)
+  nameWithType: Graphics.Initialize(bool, GraphicsBackend)
+  fullName: Prowl.Runtime.Graphics.Initialize(bool, Veldrid.GraphicsBackend)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Graphics.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Initialize
+    path: ../Prowl/Prowl.Runtime/Graphics.cs
+    startLine: 35
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public static void Initialize(bool VSync = true, GraphicsBackend preferredBackend = GraphicsBackend.OpenGL)
+    parameters:
+    - id: VSync
+      type: System.Boolean
+    - id: preferredBackend
+      type: Veldrid.GraphicsBackend
+    content.vb: Public Shared Sub Initialize(VSync As Boolean = True, preferredBackend As GraphicsBackend = GraphicsBackend.OpenGL)
+  overload: Prowl.Runtime.Graphics.Initialize*
+  nameWithType.vb: Graphics.Initialize(Boolean, GraphicsBackend)
+  fullName.vb: Prowl.Runtime.Graphics.Initialize(Boolean, Veldrid.GraphicsBackend)
+  name.vb: Initialize(Boolean, GraphicsBackend)
+- uid: Prowl.Runtime.Graphics.EndFrame
+  commentId: M:Prowl.Runtime.Graphics.EndFrame
+  id: EndFrame
+  parent: Prowl.Runtime.Graphics
+  langs:
+  - csharp
+  - vb
+  name: EndFrame()
+  nameWithType: Graphics.EndFrame()
+  fullName: Prowl.Runtime.Graphics.EndFrame()
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Graphics.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: EndFrame
+    path: ../Prowl/Prowl.Runtime/Graphics.cs
+    startLine: 66
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public static void EndFrame()
+    content.vb: Public Shared Sub EndFrame()
+  overload: Prowl.Runtime.Graphics.EndFrame*
+- uid: Prowl.Runtime.Graphics.GetCommandList
+  commentId: M:Prowl.Runtime.Graphics.GetCommandList
+  id: GetCommandList
+  parent: Prowl.Runtime.Graphics
+  langs:
+  - csharp
+  - vb
+  name: GetCommandList()
+  nameWithType: Graphics.GetCommandList()
+  fullName: Prowl.Runtime.Graphics.GetCommandList()
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Graphics.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: GetCommandList
+    path: ../Prowl/Prowl.Runtime/Graphics.cs
+    startLine: 81
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public static CommandList GetCommandList()
+    return:
+      type: Veldrid.CommandList
+    content.vb: Public Shared Function GetCommandList() As CommandList
+  overload: Prowl.Runtime.Graphics.GetCommandList*
+- uid: Prowl.Runtime.Graphics.SubmitCommandBuffer(Prowl.Runtime.CommandBuffer,System.Boolean,System.UInt64)
+  commentId: M:Prowl.Runtime.Graphics.SubmitCommandBuffer(Prowl.Runtime.CommandBuffer,System.Boolean,System.UInt64)
+  id: SubmitCommandBuffer(Prowl.Runtime.CommandBuffer,System.Boolean,System.UInt64)
+  parent: Prowl.Runtime.Graphics
+  langs:
+  - csharp
+  - vb
+  name: SubmitCommandBuffer(CommandBuffer, bool, ulong)
+  nameWithType: Graphics.SubmitCommandBuffer(CommandBuffer, bool, ulong)
+  fullName: Prowl.Runtime.Graphics.SubmitCommandBuffer(Prowl.Runtime.CommandBuffer, bool, ulong)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Graphics.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: SubmitCommandBuffer
+    path: ../Prowl/Prowl.Runtime/Graphics.cs
+    startLine: 90
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public static void SubmitCommandBuffer(CommandBuffer commandBuffer, bool awaitComplete = false, ulong timeout = 18446744073709551615)
+    parameters:
+    - id: commandBuffer
+      type: Prowl.Runtime.CommandBuffer
+    - id: awaitComplete
+      type: System.Boolean
+    - id: timeout
+      type: System.UInt64
+    content.vb: Public Shared Sub SubmitCommandBuffer(commandBuffer As CommandBuffer, awaitComplete As Boolean = False, timeout As ULong = 18446744073709551615)
+  overload: Prowl.Runtime.Graphics.SubmitCommandBuffer*
+  nameWithType.vb: Graphics.SubmitCommandBuffer(CommandBuffer, Boolean, ULong)
+  fullName.vb: Prowl.Runtime.Graphics.SubmitCommandBuffer(Prowl.Runtime.CommandBuffer, Boolean, ULong)
+  name.vb: SubmitCommandBuffer(CommandBuffer, Boolean, ULong)
+- uid: Prowl.Runtime.Graphics.SubmitCommandList(Veldrid.CommandList,System.Boolean,System.UInt64)
+  commentId: M:Prowl.Runtime.Graphics.SubmitCommandList(Veldrid.CommandList,System.Boolean,System.UInt64)
+  id: SubmitCommandList(Veldrid.CommandList,System.Boolean,System.UInt64)
+  parent: Prowl.Runtime.Graphics
+  langs:
+  - csharp
+  - vb
+  name: SubmitCommandList(CommandList, bool, ulong)
+  nameWithType: Graphics.SubmitCommandList(CommandList, bool, ulong)
+  fullName: Prowl.Runtime.Graphics.SubmitCommandList(Veldrid.CommandList, bool, ulong)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Graphics.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: SubmitCommandList
+    path: ../Prowl/Prowl.Runtime/Graphics.cs
+    startLine: 114
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public static void SubmitCommandList(CommandList list, bool awaitComplete = false, ulong timeout = 18446744073709551615)
+    parameters:
+    - id: list
+      type: Veldrid.CommandList
+    - id: awaitComplete
+      type: System.Boolean
+    - id: timeout
+      type: System.UInt64
+    content.vb: Public Shared Sub SubmitCommandList(list As CommandList, awaitComplete As Boolean = False, timeout As ULong = 18446744073709551615)
+  overload: Prowl.Runtime.Graphics.SubmitCommandList*
+  nameWithType.vb: Graphics.SubmitCommandList(CommandList, Boolean, ULong)
+  fullName.vb: Prowl.Runtime.Graphics.SubmitCommandList(Veldrid.CommandList, Boolean, ULong)
+  name.vb: SubmitCommandList(CommandList, Boolean, ULong)
+references:
+- uid: Prowl.Runtime
+  commentId: N:Prowl.Runtime
+  href: Prowl.html
+  name: Prowl.Runtime
+  nameWithType: Prowl.Runtime
+  fullName: Prowl.Runtime
+  spec.csharp:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+  spec.vb:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Prowl.Runtime.Graphics.Device*
+  commentId: Overload:Prowl.Runtime.Graphics.Device
+  href: Prowl.Runtime.Graphics.html#Prowl_Runtime_Graphics_Device
+  name: Device
+  nameWithType: Graphics.Device
+  fullName: Prowl.Runtime.Graphics.Device
+- uid: Veldrid.GraphicsDevice
+  commentId: T:Veldrid.GraphicsDevice
+  parent: Veldrid
+  name: GraphicsDevice
+  nameWithType: GraphicsDevice
+  fullName: Veldrid.GraphicsDevice
+- uid: Veldrid
+  commentId: N:Veldrid
+  name: Veldrid
+  nameWithType: Veldrid
+  fullName: Veldrid
+- uid: Prowl.Runtime.Graphics.Factory*
+  commentId: Overload:Prowl.Runtime.Graphics.Factory
+  href: Prowl.Runtime.Graphics.html#Prowl_Runtime_Graphics_Factory
+  name: Factory
+  nameWithType: Graphics.Factory
+  fullName: Prowl.Runtime.Graphics.Factory
+- uid: Veldrid.ResourceFactory
+  commentId: T:Veldrid.ResourceFactory
+  parent: Veldrid
+  name: ResourceFactory
+  nameWithType: ResourceFactory
+  fullName: Veldrid.ResourceFactory
+- uid: Prowl.Runtime.Graphics.ScreenTarget*
+  commentId: Overload:Prowl.Runtime.Graphics.ScreenTarget
+  href: Prowl.Runtime.Graphics.html#Prowl_Runtime_Graphics_ScreenTarget
+  name: ScreenTarget
+  nameWithType: Graphics.ScreenTarget
+  fullName: Prowl.Runtime.Graphics.ScreenTarget
+- uid: Veldrid.Framebuffer
+  commentId: T:Veldrid.Framebuffer
+  parent: Veldrid
+  name: Framebuffer
+  nameWithType: Framebuffer
+  fullName: Veldrid.Framebuffer
+- uid: Prowl.Runtime.Graphics.TargetResolution*
+  commentId: Overload:Prowl.Runtime.Graphics.TargetResolution
+  href: Prowl.Runtime.Graphics.html#Prowl_Runtime_Graphics_TargetResolution
+  name: TargetResolution
+  nameWithType: Graphics.TargetResolution
+  fullName: Prowl.Runtime.Graphics.TargetResolution
+- uid: Prowl.Runtime.Vector2Int
+  commentId: T:Prowl.Runtime.Vector2Int
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.Vector2Int.html
+  name: Vector2Int
+  nameWithType: Vector2Int
+  fullName: Prowl.Runtime.Vector2Int
+- uid: Prowl.Runtime.Graphics.VSync*
+  commentId: Overload:Prowl.Runtime.Graphics.VSync
+  href: Prowl.Runtime.Graphics.html#Prowl_Runtime_Graphics_VSync
+  name: VSync
+  nameWithType: Graphics.VSync
+  fullName: Prowl.Runtime.Graphics.VSync
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: Prowl.Runtime.Graphics.Initialize*
+  commentId: Overload:Prowl.Runtime.Graphics.Initialize
+  href: Prowl.Runtime.Graphics.html#Prowl_Runtime_Graphics_Initialize_System_Boolean_Veldrid_GraphicsBackend_
+  name: Initialize
+  nameWithType: Graphics.Initialize
+  fullName: Prowl.Runtime.Graphics.Initialize
+- uid: Veldrid.GraphicsBackend
+  commentId: T:Veldrid.GraphicsBackend
+  parent: Veldrid
+  name: GraphicsBackend
+  nameWithType: GraphicsBackend
+  fullName: Veldrid.GraphicsBackend
+- uid: Prowl.Runtime.Graphics.EndFrame*
+  commentId: Overload:Prowl.Runtime.Graphics.EndFrame
+  href: Prowl.Runtime.Graphics.html#Prowl_Runtime_Graphics_EndFrame
+  name: EndFrame
+  nameWithType: Graphics.EndFrame
+  fullName: Prowl.Runtime.Graphics.EndFrame
+- uid: Prowl.Runtime.Graphics.GetCommandList*
+  commentId: Overload:Prowl.Runtime.Graphics.GetCommandList
+  href: Prowl.Runtime.Graphics.html#Prowl_Runtime_Graphics_GetCommandList
+  name: GetCommandList
+  nameWithType: Graphics.GetCommandList
+  fullName: Prowl.Runtime.Graphics.GetCommandList
+- uid: Veldrid.CommandList
+  commentId: T:Veldrid.CommandList
+  parent: Veldrid
+  name: CommandList
+  nameWithType: CommandList
+  fullName: Veldrid.CommandList
+- uid: Prowl.Runtime.Graphics.SubmitCommandBuffer*
+  commentId: Overload:Prowl.Runtime.Graphics.SubmitCommandBuffer
+  href: Prowl.Runtime.Graphics.html#Prowl_Runtime_Graphics_SubmitCommandBuffer_Prowl_Runtime_CommandBuffer_System_Boolean_System_UInt64_
+  name: SubmitCommandBuffer
+  nameWithType: Graphics.SubmitCommandBuffer
+  fullName: Prowl.Runtime.Graphics.SubmitCommandBuffer
+- uid: Prowl.Runtime.CommandBuffer
+  commentId: T:Prowl.Runtime.CommandBuffer
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.CommandBuffer.html
+  name: CommandBuffer
+  nameWithType: CommandBuffer
+  fullName: Prowl.Runtime.CommandBuffer
+- uid: System.UInt64
+  commentId: T:System.UInt64
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.uint64
+  name: ulong
+  nameWithType: ulong
+  fullName: ulong
+  nameWithType.vb: ULong
+  fullName.vb: ULong
+  name.vb: ULong
+- uid: Prowl.Runtime.Graphics.SubmitCommandList*
+  commentId: Overload:Prowl.Runtime.Graphics.SubmitCommandList
+  href: Prowl.Runtime.Graphics.html#Prowl_Runtime_Graphics_SubmitCommandList_Veldrid_CommandList_System_Boolean_System_UInt64_
+  name: SubmitCommandList
+  nameWithType: Graphics.SubmitCommandList
+  fullName: Prowl.Runtime.Graphics.SubmitCommandList

@@ -1,0 +1,1569 @@
+### YamlMime:ManagedReference
+items:
+- uid: Prowl.Runtime.PropertyState
+  commentId: T:Prowl.Runtime.PropertyState
+  id: PropertyState
+  parent: Prowl.Runtime
+  children:
+  - Prowl.Runtime.PropertyState.#ctor
+  - Prowl.Runtime.PropertyState.#ctor(Prowl.Runtime.PropertyState)
+  - Prowl.Runtime.PropertyState.ApplyOverride(Prowl.Runtime.PropertyState)
+  - Prowl.Runtime.PropertyState.Clear
+  - Prowl.Runtime.PropertyState.IsEmpty
+  - Prowl.Runtime.PropertyState.SetBuffer(System.String,Prowl.Runtime.GraphicsBuffer)
+  - Prowl.Runtime.PropertyState.SetColor(System.String,Prowl.Runtime.Color)
+  - Prowl.Runtime.PropertyState.SetColorArray(System.String,Prowl.Runtime.Color[])
+  - Prowl.Runtime.PropertyState.SetFloat(System.String,System.Single)
+  - Prowl.Runtime.PropertyState.SetFloatArray(System.String,System.Single[])
+  - Prowl.Runtime.PropertyState.SetInt(System.String,System.Int32)
+  - Prowl.Runtime.PropertyState.SetIntArray(System.String,System.Int32[])
+  - Prowl.Runtime.PropertyState.SetMatrix(System.String,System.Numerics.Matrix4x4)
+  - Prowl.Runtime.PropertyState.SetMatrixArray(System.String,System.Numerics.Matrix4x4[])
+  - Prowl.Runtime.PropertyState.SetRawTexture(System.String,Veldrid.Texture)
+  - Prowl.Runtime.PropertyState.SetTexture(System.String,Prowl.Runtime.AssetRef{Prowl.Runtime.Texture})
+  - Prowl.Runtime.PropertyState.SetVector(System.String,System.Numerics.Vector2)
+  - Prowl.Runtime.PropertyState.SetVector(System.String,System.Numerics.Vector3)
+  - Prowl.Runtime.PropertyState.SetVector(System.String,System.Numerics.Vector4)
+  - Prowl.Runtime.PropertyState.SetVectorArray(System.String,System.Numerics.Vector2[])
+  - Prowl.Runtime.PropertyState.SetVectorArray(System.String,System.Numerics.Vector3[])
+  - Prowl.Runtime.PropertyState.SetVectorArray(System.String,System.Numerics.Vector4[])
+  langs:
+  - csharp
+  - vb
+  name: PropertyState
+  nameWithType: PropertyState
+  fullName: Prowl.Runtime.PropertyState
+  type: Class
+  source:
+    remote:
+      path: Prowl.Runtime/Rendering/PropertyState.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: PropertyState
+    path: ../Prowl/Prowl.Runtime/Rendering/PropertyState.cs
+    startLine: 48
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public class PropertyState
+    content.vb: Public Class PropertyState
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  extensionMethods:
+  - System.Object.Prowl.Runtime.RuntimeUtils.GetSerializableFields
+- uid: Prowl.Runtime.PropertyState.IsEmpty
+  commentId: P:Prowl.Runtime.PropertyState.IsEmpty
+  id: IsEmpty
+  parent: Prowl.Runtime.PropertyState
+  langs:
+  - csharp
+  - vb
+  name: IsEmpty
+  nameWithType: PropertyState.IsEmpty
+  fullName: Prowl.Runtime.PropertyState.IsEmpty
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/Rendering/PropertyState.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: IsEmpty
+    path: ../Prowl/Prowl.Runtime/Rendering/PropertyState.cs
+    startLine: 51
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public bool IsEmpty { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property IsEmpty As Boolean
+  overload: Prowl.Runtime.PropertyState.IsEmpty*
+- uid: Prowl.Runtime.PropertyState.#ctor
+  commentId: M:Prowl.Runtime.PropertyState.#ctor
+  id: '#ctor'
+  parent: Prowl.Runtime.PropertyState
+  langs:
+  - csharp
+  - vb
+  name: PropertyState()
+  nameWithType: PropertyState.PropertyState()
+  fullName: Prowl.Runtime.PropertyState.PropertyState()
+  type: Constructor
+  source:
+    remote:
+      path: Prowl.Runtime/Rendering/PropertyState.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: .ctor
+    path: ../Prowl/Prowl.Runtime/Rendering/PropertyState.cs
+    startLine: 60
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public PropertyState()
+    content.vb: Public Sub New()
+  overload: Prowl.Runtime.PropertyState.#ctor*
+  nameWithType.vb: PropertyState.New()
+  fullName.vb: Prowl.Runtime.PropertyState.New()
+  name.vb: New()
+- uid: Prowl.Runtime.PropertyState.#ctor(Prowl.Runtime.PropertyState)
+  commentId: M:Prowl.Runtime.PropertyState.#ctor(Prowl.Runtime.PropertyState)
+  id: '#ctor(Prowl.Runtime.PropertyState)'
+  parent: Prowl.Runtime.PropertyState
+  langs:
+  - csharp
+  - vb
+  name: PropertyState(PropertyState)
+  nameWithType: PropertyState.PropertyState(PropertyState)
+  fullName: Prowl.Runtime.PropertyState.PropertyState(Prowl.Runtime.PropertyState)
+  type: Constructor
+  source:
+    remote:
+      path: Prowl.Runtime/Rendering/PropertyState.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: .ctor
+    path: ../Prowl/Prowl.Runtime/Rendering/PropertyState.cs
+    startLine: 67
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public PropertyState(PropertyState clone)
+    parameters:
+    - id: clone
+      type: Prowl.Runtime.PropertyState
+    content.vb: Public Sub New(clone As PropertyState)
+  overload: Prowl.Runtime.PropertyState.#ctor*
+  nameWithType.vb: PropertyState.New(PropertyState)
+  fullName.vb: Prowl.Runtime.PropertyState.New(Prowl.Runtime.PropertyState)
+  name.vb: New(PropertyState)
+- uid: Prowl.Runtime.PropertyState.ApplyOverride(Prowl.Runtime.PropertyState)
+  commentId: M:Prowl.Runtime.PropertyState.ApplyOverride(Prowl.Runtime.PropertyState)
+  id: ApplyOverride(Prowl.Runtime.PropertyState)
+  parent: Prowl.Runtime.PropertyState
+  langs:
+  - csharp
+  - vb
+  name: ApplyOverride(PropertyState)
+  nameWithType: PropertyState.ApplyOverride(PropertyState)
+  fullName: Prowl.Runtime.PropertyState.ApplyOverride(Prowl.Runtime.PropertyState)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Rendering/PropertyState.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: ApplyOverride
+    path: ../Prowl/Prowl.Runtime/Rendering/PropertyState.cs
+    startLine: 74
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public void ApplyOverride(PropertyState overrideState)
+    parameters:
+    - id: overrideState
+      type: Prowl.Runtime.PropertyState
+    content.vb: Public Sub ApplyOverride(overrideState As PropertyState)
+  overload: Prowl.Runtime.PropertyState.ApplyOverride*
+- uid: Prowl.Runtime.PropertyState.SetColor(System.String,Prowl.Runtime.Color)
+  commentId: M:Prowl.Runtime.PropertyState.SetColor(System.String,Prowl.Runtime.Color)
+  id: SetColor(System.String,Prowl.Runtime.Color)
+  parent: Prowl.Runtime.PropertyState
+  langs:
+  - csharp
+  - vb
+  name: SetColor(string, Color)
+  nameWithType: PropertyState.SetColor(string, Color)
+  fullName: Prowl.Runtime.PropertyState.SetColor(string, Prowl.Runtime.Color)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Rendering/PropertyState.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: SetColor
+    path: ../Prowl/Prowl.Runtime/Rendering/PropertyState.cs
+    startLine: 93
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public void SetColor(string name, Color value)
+    parameters:
+    - id: name
+      type: System.String
+    - id: value
+      type: Prowl.Runtime.Color
+    content.vb: Public Sub SetColor(name As String, value As Color)
+  overload: Prowl.Runtime.PropertyState.SetColor*
+  nameWithType.vb: PropertyState.SetColor(String, Color)
+  fullName.vb: Prowl.Runtime.PropertyState.SetColor(String, Prowl.Runtime.Color)
+  name.vb: SetColor(String, Color)
+- uid: Prowl.Runtime.PropertyState.SetVector(System.String,System.Numerics.Vector2)
+  commentId: M:Prowl.Runtime.PropertyState.SetVector(System.String,System.Numerics.Vector2)
+  id: SetVector(System.String,System.Numerics.Vector2)
+  parent: Prowl.Runtime.PropertyState
+  langs:
+  - csharp
+  - vb
+  name: SetVector(string, Vector2)
+  nameWithType: PropertyState.SetVector(string, Vector2)
+  fullName: Prowl.Runtime.PropertyState.SetVector(string, System.Numerics.Vector2)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Rendering/PropertyState.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: SetVector
+    path: ../Prowl/Prowl.Runtime/Rendering/PropertyState.cs
+    startLine: 94
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public void SetVector(string name, Vector2 value)
+    parameters:
+    - id: name
+      type: System.String
+    - id: value
+      type: System.Numerics.Vector2
+    content.vb: Public Sub SetVector(name As String, value As Vector2)
+  overload: Prowl.Runtime.PropertyState.SetVector*
+  nameWithType.vb: PropertyState.SetVector(String, Vector2)
+  fullName.vb: Prowl.Runtime.PropertyState.SetVector(String, System.Numerics.Vector2)
+  name.vb: SetVector(String, Vector2)
+- uid: Prowl.Runtime.PropertyState.SetVector(System.String,System.Numerics.Vector3)
+  commentId: M:Prowl.Runtime.PropertyState.SetVector(System.String,System.Numerics.Vector3)
+  id: SetVector(System.String,System.Numerics.Vector3)
+  parent: Prowl.Runtime.PropertyState
+  langs:
+  - csharp
+  - vb
+  name: SetVector(string, Vector3)
+  nameWithType: PropertyState.SetVector(string, Vector3)
+  fullName: Prowl.Runtime.PropertyState.SetVector(string, System.Numerics.Vector3)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Rendering/PropertyState.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: SetVector
+    path: ../Prowl/Prowl.Runtime/Rendering/PropertyState.cs
+    startLine: 95
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public void SetVector(string name, Vector3 value)
+    parameters:
+    - id: name
+      type: System.String
+    - id: value
+      type: System.Numerics.Vector3
+    content.vb: Public Sub SetVector(name As String, value As Vector3)
+  overload: Prowl.Runtime.PropertyState.SetVector*
+  nameWithType.vb: PropertyState.SetVector(String, Vector3)
+  fullName.vb: Prowl.Runtime.PropertyState.SetVector(String, System.Numerics.Vector3)
+  name.vb: SetVector(String, Vector3)
+- uid: Prowl.Runtime.PropertyState.SetVector(System.String,System.Numerics.Vector4)
+  commentId: M:Prowl.Runtime.PropertyState.SetVector(System.String,System.Numerics.Vector4)
+  id: SetVector(System.String,System.Numerics.Vector4)
+  parent: Prowl.Runtime.PropertyState
+  langs:
+  - csharp
+  - vb
+  name: SetVector(string, Vector4)
+  nameWithType: PropertyState.SetVector(string, Vector4)
+  fullName: Prowl.Runtime.PropertyState.SetVector(string, System.Numerics.Vector4)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Rendering/PropertyState.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: SetVector
+    path: ../Prowl/Prowl.Runtime/Rendering/PropertyState.cs
+    startLine: 96
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public void SetVector(string name, Vector4 value)
+    parameters:
+    - id: name
+      type: System.String
+    - id: value
+      type: System.Numerics.Vector4
+    content.vb: Public Sub SetVector(name As String, value As Vector4)
+  overload: Prowl.Runtime.PropertyState.SetVector*
+  nameWithType.vb: PropertyState.SetVector(String, Vector4)
+  fullName.vb: Prowl.Runtime.PropertyState.SetVector(String, System.Numerics.Vector4)
+  name.vb: SetVector(String, Vector4)
+- uid: Prowl.Runtime.PropertyState.SetFloat(System.String,System.Single)
+  commentId: M:Prowl.Runtime.PropertyState.SetFloat(System.String,System.Single)
+  id: SetFloat(System.String,System.Single)
+  parent: Prowl.Runtime.PropertyState
+  langs:
+  - csharp
+  - vb
+  name: SetFloat(string, float)
+  nameWithType: PropertyState.SetFloat(string, float)
+  fullName: Prowl.Runtime.PropertyState.SetFloat(string, float)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Rendering/PropertyState.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: SetFloat
+    path: ../Prowl/Prowl.Runtime/Rendering/PropertyState.cs
+    startLine: 97
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public void SetFloat(string name, float value)
+    parameters:
+    - id: name
+      type: System.String
+    - id: value
+      type: System.Single
+    content.vb: Public Sub SetFloat(name As String, value As Single)
+  overload: Prowl.Runtime.PropertyState.SetFloat*
+  nameWithType.vb: PropertyState.SetFloat(String, Single)
+  fullName.vb: Prowl.Runtime.PropertyState.SetFloat(String, Single)
+  name.vb: SetFloat(String, Single)
+- uid: Prowl.Runtime.PropertyState.SetInt(System.String,System.Int32)
+  commentId: M:Prowl.Runtime.PropertyState.SetInt(System.String,System.Int32)
+  id: SetInt(System.String,System.Int32)
+  parent: Prowl.Runtime.PropertyState
+  langs:
+  - csharp
+  - vb
+  name: SetInt(string, int)
+  nameWithType: PropertyState.SetInt(string, int)
+  fullName: Prowl.Runtime.PropertyState.SetInt(string, int)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Rendering/PropertyState.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: SetInt
+    path: ../Prowl/Prowl.Runtime/Rendering/PropertyState.cs
+    startLine: 98
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public void SetInt(string name, int value)
+    parameters:
+    - id: name
+      type: System.String
+    - id: value
+      type: System.Int32
+    content.vb: Public Sub SetInt(name As String, value As Integer)
+  overload: Prowl.Runtime.PropertyState.SetInt*
+  nameWithType.vb: PropertyState.SetInt(String, Integer)
+  fullName.vb: Prowl.Runtime.PropertyState.SetInt(String, Integer)
+  name.vb: SetInt(String, Integer)
+- uid: Prowl.Runtime.PropertyState.SetMatrix(System.String,System.Numerics.Matrix4x4)
+  commentId: M:Prowl.Runtime.PropertyState.SetMatrix(System.String,System.Numerics.Matrix4x4)
+  id: SetMatrix(System.String,System.Numerics.Matrix4x4)
+  parent: Prowl.Runtime.PropertyState
+  langs:
+  - csharp
+  - vb
+  name: SetMatrix(string, Matrix4x4)
+  nameWithType: PropertyState.SetMatrix(string, Matrix4x4)
+  fullName: Prowl.Runtime.PropertyState.SetMatrix(string, System.Numerics.Matrix4x4)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Rendering/PropertyState.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: SetMatrix
+    path: ../Prowl/Prowl.Runtime/Rendering/PropertyState.cs
+    startLine: 99
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public void SetMatrix(string name, Matrix4x4 value)
+    parameters:
+    - id: name
+      type: System.String
+    - id: value
+      type: System.Numerics.Matrix4x4
+    content.vb: Public Sub SetMatrix(name As String, value As Matrix4x4)
+  overload: Prowl.Runtime.PropertyState.SetMatrix*
+  nameWithType.vb: PropertyState.SetMatrix(String, Matrix4x4)
+  fullName.vb: Prowl.Runtime.PropertyState.SetMatrix(String, System.Numerics.Matrix4x4)
+  name.vb: SetMatrix(String, Matrix4x4)
+- uid: Prowl.Runtime.PropertyState.SetTexture(System.String,Prowl.Runtime.AssetRef{Prowl.Runtime.Texture})
+  commentId: M:Prowl.Runtime.PropertyState.SetTexture(System.String,Prowl.Runtime.AssetRef{Prowl.Runtime.Texture})
+  id: SetTexture(System.String,Prowl.Runtime.AssetRef{Prowl.Runtime.Texture})
+  parent: Prowl.Runtime.PropertyState
+  langs:
+  - csharp
+  - vb
+  name: SetTexture(string, AssetRef<Texture>)
+  nameWithType: PropertyState.SetTexture(string, AssetRef<Texture>)
+  fullName: Prowl.Runtime.PropertyState.SetTexture(string, Prowl.Runtime.AssetRef<Prowl.Runtime.Texture>)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Rendering/PropertyState.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: SetTexture
+    path: ../Prowl/Prowl.Runtime/Rendering/PropertyState.cs
+    startLine: 100
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public void SetTexture(string name, AssetRef<Texture> value)
+    parameters:
+    - id: name
+      type: System.String
+    - id: value
+      type: Prowl.Runtime.AssetRef{Prowl.Runtime.Texture}
+    content.vb: Public Sub SetTexture(name As String, value As AssetRef(Of Texture))
+  overload: Prowl.Runtime.PropertyState.SetTexture*
+  nameWithType.vb: PropertyState.SetTexture(String, AssetRef(Of Texture))
+  fullName.vb: Prowl.Runtime.PropertyState.SetTexture(String, Prowl.Runtime.AssetRef(Of Prowl.Runtime.Texture))
+  name.vb: SetTexture(String, AssetRef(Of Texture))
+- uid: Prowl.Runtime.PropertyState.SetRawTexture(System.String,Veldrid.Texture)
+  commentId: M:Prowl.Runtime.PropertyState.SetRawTexture(System.String,Veldrid.Texture)
+  id: SetRawTexture(System.String,Veldrid.Texture)
+  parent: Prowl.Runtime.PropertyState
+  langs:
+  - csharp
+  - vb
+  name: SetRawTexture(string, Texture)
+  nameWithType: PropertyState.SetRawTexture(string, Texture)
+  fullName: Prowl.Runtime.PropertyState.SetRawTexture(string, Veldrid.Texture)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Rendering/PropertyState.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: SetRawTexture
+    path: ../Prowl/Prowl.Runtime/Rendering/PropertyState.cs
+    startLine: 101
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public void SetRawTexture(string name, Texture value)
+    parameters:
+    - id: name
+      type: System.String
+    - id: value
+      type: Veldrid.Texture
+    content.vb: Public Sub SetRawTexture(name As String, value As Texture)
+  overload: Prowl.Runtime.PropertyState.SetRawTexture*
+  nameWithType.vb: PropertyState.SetRawTexture(String, Texture)
+  fullName.vb: Prowl.Runtime.PropertyState.SetRawTexture(String, Veldrid.Texture)
+  name.vb: SetRawTexture(String, Texture)
+- uid: Prowl.Runtime.PropertyState.SetBuffer(System.String,Prowl.Runtime.GraphicsBuffer)
+  commentId: M:Prowl.Runtime.PropertyState.SetBuffer(System.String,Prowl.Runtime.GraphicsBuffer)
+  id: SetBuffer(System.String,Prowl.Runtime.GraphicsBuffer)
+  parent: Prowl.Runtime.PropertyState
+  langs:
+  - csharp
+  - vb
+  name: SetBuffer(string, GraphicsBuffer)
+  nameWithType: PropertyState.SetBuffer(string, GraphicsBuffer)
+  fullName: Prowl.Runtime.PropertyState.SetBuffer(string, Prowl.Runtime.GraphicsBuffer)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Rendering/PropertyState.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: SetBuffer
+    path: ../Prowl/Prowl.Runtime/Rendering/PropertyState.cs
+    startLine: 102
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public void SetBuffer(string name, GraphicsBuffer value)
+    parameters:
+    - id: name
+      type: System.String
+    - id: value
+      type: Prowl.Runtime.GraphicsBuffer
+    content.vb: Public Sub SetBuffer(name As String, value As GraphicsBuffer)
+  overload: Prowl.Runtime.PropertyState.SetBuffer*
+  nameWithType.vb: PropertyState.SetBuffer(String, GraphicsBuffer)
+  fullName.vb: Prowl.Runtime.PropertyState.SetBuffer(String, Prowl.Runtime.GraphicsBuffer)
+  name.vb: SetBuffer(String, GraphicsBuffer)
+- uid: Prowl.Runtime.PropertyState.SetIntArray(System.String,System.Int32[])
+  commentId: M:Prowl.Runtime.PropertyState.SetIntArray(System.String,System.Int32[])
+  id: SetIntArray(System.String,System.Int32[])
+  parent: Prowl.Runtime.PropertyState
+  langs:
+  - csharp
+  - vb
+  name: SetIntArray(string, int[])
+  nameWithType: PropertyState.SetIntArray(string, int[])
+  fullName: Prowl.Runtime.PropertyState.SetIntArray(string, int[])
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Rendering/PropertyState.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: SetIntArray
+    path: ../Prowl/Prowl.Runtime/Rendering/PropertyState.cs
+    startLine: 104
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public void SetIntArray(string name, int[] values)
+    parameters:
+    - id: name
+      type: System.String
+    - id: values
+      type: System.Int32[]
+    content.vb: Public Sub SetIntArray(name As String, values As Integer())
+  overload: Prowl.Runtime.PropertyState.SetIntArray*
+  nameWithType.vb: PropertyState.SetIntArray(String, Integer())
+  fullName.vb: Prowl.Runtime.PropertyState.SetIntArray(String, Integer())
+  name.vb: SetIntArray(String, Integer())
+- uid: Prowl.Runtime.PropertyState.SetFloatArray(System.String,System.Single[])
+  commentId: M:Prowl.Runtime.PropertyState.SetFloatArray(System.String,System.Single[])
+  id: SetFloatArray(System.String,System.Single[])
+  parent: Prowl.Runtime.PropertyState
+  langs:
+  - csharp
+  - vb
+  name: SetFloatArray(string, float[])
+  nameWithType: PropertyState.SetFloatArray(string, float[])
+  fullName: Prowl.Runtime.PropertyState.SetFloatArray(string, float[])
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Rendering/PropertyState.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: SetFloatArray
+    path: ../Prowl/Prowl.Runtime/Rendering/PropertyState.cs
+    startLine: 105
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public void SetFloatArray(string name, float[] values)
+    parameters:
+    - id: name
+      type: System.String
+    - id: values
+      type: System.Single[]
+    content.vb: Public Sub SetFloatArray(name As String, values As Single())
+  overload: Prowl.Runtime.PropertyState.SetFloatArray*
+  nameWithType.vb: PropertyState.SetFloatArray(String, Single())
+  fullName.vb: Prowl.Runtime.PropertyState.SetFloatArray(String, Single())
+  name.vb: SetFloatArray(String, Single())
+- uid: Prowl.Runtime.PropertyState.SetVectorArray(System.String,System.Numerics.Vector2[])
+  commentId: M:Prowl.Runtime.PropertyState.SetVectorArray(System.String,System.Numerics.Vector2[])
+  id: SetVectorArray(System.String,System.Numerics.Vector2[])
+  parent: Prowl.Runtime.PropertyState
+  langs:
+  - csharp
+  - vb
+  name: SetVectorArray(string, Vector2[])
+  nameWithType: PropertyState.SetVectorArray(string, Vector2[])
+  fullName: Prowl.Runtime.PropertyState.SetVectorArray(string, System.Numerics.Vector2[])
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Rendering/PropertyState.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: SetVectorArray
+    path: ../Prowl/Prowl.Runtime/Rendering/PropertyState.cs
+    startLine: 106
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public void SetVectorArray(string name, Vector2[] values)
+    parameters:
+    - id: name
+      type: System.String
+    - id: values
+      type: System.Numerics.Vector2[]
+    content.vb: Public Sub SetVectorArray(name As String, values As Vector2())
+  overload: Prowl.Runtime.PropertyState.SetVectorArray*
+  nameWithType.vb: PropertyState.SetVectorArray(String, Vector2())
+  fullName.vb: Prowl.Runtime.PropertyState.SetVectorArray(String, System.Numerics.Vector2())
+  name.vb: SetVectorArray(String, Vector2())
+- uid: Prowl.Runtime.PropertyState.SetVectorArray(System.String,System.Numerics.Vector3[])
+  commentId: M:Prowl.Runtime.PropertyState.SetVectorArray(System.String,System.Numerics.Vector3[])
+  id: SetVectorArray(System.String,System.Numerics.Vector3[])
+  parent: Prowl.Runtime.PropertyState
+  langs:
+  - csharp
+  - vb
+  name: SetVectorArray(string, Vector3[])
+  nameWithType: PropertyState.SetVectorArray(string, Vector3[])
+  fullName: Prowl.Runtime.PropertyState.SetVectorArray(string, System.Numerics.Vector3[])
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Rendering/PropertyState.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: SetVectorArray
+    path: ../Prowl/Prowl.Runtime/Rendering/PropertyState.cs
+    startLine: 107
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public void SetVectorArray(string name, Vector3[] values)
+    parameters:
+    - id: name
+      type: System.String
+    - id: values
+      type: System.Numerics.Vector3[]
+    content.vb: Public Sub SetVectorArray(name As String, values As Vector3())
+  overload: Prowl.Runtime.PropertyState.SetVectorArray*
+  nameWithType.vb: PropertyState.SetVectorArray(String, Vector3())
+  fullName.vb: Prowl.Runtime.PropertyState.SetVectorArray(String, System.Numerics.Vector3())
+  name.vb: SetVectorArray(String, Vector3())
+- uid: Prowl.Runtime.PropertyState.SetVectorArray(System.String,System.Numerics.Vector4[])
+  commentId: M:Prowl.Runtime.PropertyState.SetVectorArray(System.String,System.Numerics.Vector4[])
+  id: SetVectorArray(System.String,System.Numerics.Vector4[])
+  parent: Prowl.Runtime.PropertyState
+  langs:
+  - csharp
+  - vb
+  name: SetVectorArray(string, Vector4[])
+  nameWithType: PropertyState.SetVectorArray(string, Vector4[])
+  fullName: Prowl.Runtime.PropertyState.SetVectorArray(string, System.Numerics.Vector4[])
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Rendering/PropertyState.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: SetVectorArray
+    path: ../Prowl/Prowl.Runtime/Rendering/PropertyState.cs
+    startLine: 108
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public void SetVectorArray(string name, Vector4[] values)
+    parameters:
+    - id: name
+      type: System.String
+    - id: values
+      type: System.Numerics.Vector4[]
+    content.vb: Public Sub SetVectorArray(name As String, values As Vector4())
+  overload: Prowl.Runtime.PropertyState.SetVectorArray*
+  nameWithType.vb: PropertyState.SetVectorArray(String, Vector4())
+  fullName.vb: Prowl.Runtime.PropertyState.SetVectorArray(String, System.Numerics.Vector4())
+  name.vb: SetVectorArray(String, Vector4())
+- uid: Prowl.Runtime.PropertyState.SetColorArray(System.String,Prowl.Runtime.Color[])
+  commentId: M:Prowl.Runtime.PropertyState.SetColorArray(System.String,Prowl.Runtime.Color[])
+  id: SetColorArray(System.String,Prowl.Runtime.Color[])
+  parent: Prowl.Runtime.PropertyState
+  langs:
+  - csharp
+  - vb
+  name: SetColorArray(string, Color[])
+  nameWithType: PropertyState.SetColorArray(string, Color[])
+  fullName: Prowl.Runtime.PropertyState.SetColorArray(string, Prowl.Runtime.Color[])
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Rendering/PropertyState.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: SetColorArray
+    path: ../Prowl/Prowl.Runtime/Rendering/PropertyState.cs
+    startLine: 109
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public void SetColorArray(string name, Color[] values)
+    parameters:
+    - id: name
+      type: System.String
+    - id: values
+      type: Prowl.Runtime.Color[]
+    content.vb: Public Sub SetColorArray(name As String, values As Color())
+  overload: Prowl.Runtime.PropertyState.SetColorArray*
+  nameWithType.vb: PropertyState.SetColorArray(String, Color())
+  fullName.vb: Prowl.Runtime.PropertyState.SetColorArray(String, Prowl.Runtime.Color())
+  name.vb: SetColorArray(String, Color())
+- uid: Prowl.Runtime.PropertyState.SetMatrixArray(System.String,System.Numerics.Matrix4x4[])
+  commentId: M:Prowl.Runtime.PropertyState.SetMatrixArray(System.String,System.Numerics.Matrix4x4[])
+  id: SetMatrixArray(System.String,System.Numerics.Matrix4x4[])
+  parent: Prowl.Runtime.PropertyState
+  langs:
+  - csharp
+  - vb
+  name: SetMatrixArray(string, Matrix4x4[])
+  nameWithType: PropertyState.SetMatrixArray(string, Matrix4x4[])
+  fullName: Prowl.Runtime.PropertyState.SetMatrixArray(string, System.Numerics.Matrix4x4[])
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Rendering/PropertyState.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: SetMatrixArray
+    path: ../Prowl/Prowl.Runtime/Rendering/PropertyState.cs
+    startLine: 110
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public void SetMatrixArray(string name, Matrix4x4[] values)
+    parameters:
+    - id: name
+      type: System.String
+    - id: values
+      type: System.Numerics.Matrix4x4[]
+    content.vb: Public Sub SetMatrixArray(name As String, values As Matrix4x4())
+  overload: Prowl.Runtime.PropertyState.SetMatrixArray*
+  nameWithType.vb: PropertyState.SetMatrixArray(String, Matrix4x4())
+  fullName.vb: Prowl.Runtime.PropertyState.SetMatrixArray(String, System.Numerics.Matrix4x4())
+  name.vb: SetMatrixArray(String, Matrix4x4())
+- uid: Prowl.Runtime.PropertyState.Clear
+  commentId: M:Prowl.Runtime.PropertyState.Clear
+  id: Clear
+  parent: Prowl.Runtime.PropertyState
+  langs:
+  - csharp
+  - vb
+  name: Clear()
+  nameWithType: PropertyState.Clear()
+  fullName: Prowl.Runtime.PropertyState.Clear()
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Rendering/PropertyState.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Clear
+    path: ../Prowl/Prowl.Runtime/Rendering/PropertyState.cs
+    startLine: 113
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public void Clear()
+    content.vb: Public Sub Clear()
+  overload: Prowl.Runtime.PropertyState.Clear*
+references:
+- uid: Prowl.Runtime
+  commentId: N:Prowl.Runtime
+  href: Prowl.html
+  name: Prowl.Runtime
+  nameWithType: Prowl.Runtime
+  fullName: Prowl.Runtime
+  spec.csharp:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+  spec.vb:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Prowl.Runtime.RuntimeUtils.GetSerializableFields
+  commentId: M:Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  parent: Prowl.Runtime.RuntimeUtils
+  definition: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  name: GetSerializableFields(object)
+  nameWithType: RuntimeUtils.GetSerializableFields(object)
+  fullName: Prowl.Runtime.RuntimeUtils.GetSerializableFields(object)
+  nameWithType.vb: RuntimeUtils.GetSerializableFields(Object)
+  fullName.vb: Prowl.Runtime.RuntimeUtils.GetSerializableFields(Object)
+  name.vb: GetSerializableFields(Object)
+  spec.csharp:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  commentId: M:Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  isExternal: true
+  href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  name: GetSerializableFields(object)
+  nameWithType: RuntimeUtils.GetSerializableFields(object)
+  fullName: Prowl.Runtime.RuntimeUtils.GetSerializableFields(object)
+  nameWithType.vb: RuntimeUtils.GetSerializableFields(Object)
+  fullName.vb: Prowl.Runtime.RuntimeUtils.GetSerializableFields(Object)
+  name.vb: GetSerializableFields(Object)
+  spec.csharp:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: Prowl.Runtime.RuntimeUtils
+  commentId: T:Prowl.Runtime.RuntimeUtils
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.RuntimeUtils.html
+  name: RuntimeUtils
+  nameWithType: RuntimeUtils
+  fullName: Prowl.Runtime.RuntimeUtils
+- uid: Prowl.Runtime.PropertyState.IsEmpty*
+  commentId: Overload:Prowl.Runtime.PropertyState.IsEmpty
+  href: Prowl.Runtime.PropertyState.html#Prowl_Runtime_PropertyState_IsEmpty
+  name: IsEmpty
+  nameWithType: PropertyState.IsEmpty
+  fullName: Prowl.Runtime.PropertyState.IsEmpty
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: Prowl.Runtime.PropertyState.#ctor*
+  commentId: Overload:Prowl.Runtime.PropertyState.#ctor
+  href: Prowl.Runtime.PropertyState.html#Prowl_Runtime_PropertyState__ctor
+  name: PropertyState
+  nameWithType: PropertyState.PropertyState
+  fullName: Prowl.Runtime.PropertyState.PropertyState
+  nameWithType.vb: PropertyState.New
+  fullName.vb: Prowl.Runtime.PropertyState.New
+  name.vb: New
+- uid: Prowl.Runtime.PropertyState
+  commentId: T:Prowl.Runtime.PropertyState
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.PropertyState.html
+  name: PropertyState
+  nameWithType: PropertyState
+  fullName: Prowl.Runtime.PropertyState
+- uid: Prowl.Runtime.PropertyState.ApplyOverride*
+  commentId: Overload:Prowl.Runtime.PropertyState.ApplyOverride
+  href: Prowl.Runtime.PropertyState.html#Prowl_Runtime_PropertyState_ApplyOverride_Prowl_Runtime_PropertyState_
+  name: ApplyOverride
+  nameWithType: PropertyState.ApplyOverride
+  fullName: Prowl.Runtime.PropertyState.ApplyOverride
+- uid: Prowl.Runtime.PropertyState.SetColor*
+  commentId: Overload:Prowl.Runtime.PropertyState.SetColor
+  href: Prowl.Runtime.PropertyState.html#Prowl_Runtime_PropertyState_SetColor_System_String_Prowl_Runtime_Color_
+  name: SetColor
+  nameWithType: PropertyState.SetColor
+  fullName: Prowl.Runtime.PropertyState.SetColor
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: Prowl.Runtime.Color
+  commentId: T:Prowl.Runtime.Color
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.Color.html
+  name: Color
+  nameWithType: Color
+  fullName: Prowl.Runtime.Color
+- uid: Prowl.Runtime.PropertyState.SetVector*
+  commentId: Overload:Prowl.Runtime.PropertyState.SetVector
+  href: Prowl.Runtime.PropertyState.html#Prowl_Runtime_PropertyState_SetVector_System_String_System_Numerics_Vector2_
+  name: SetVector
+  nameWithType: PropertyState.SetVector
+  fullName: Prowl.Runtime.PropertyState.SetVector
+- uid: System.Numerics.Vector2
+  commentId: T:System.Numerics.Vector2
+  parent: System.Numerics
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.numerics.vector2
+  name: Vector2
+  nameWithType: Vector2
+  fullName: System.Numerics.Vector2
+- uid: System.Numerics
+  commentId: N:System.Numerics
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Numerics
+  nameWithType: System.Numerics
+  fullName: System.Numerics
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Numerics
+    name: Numerics
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.numerics
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Numerics
+    name: Numerics
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.numerics
+- uid: System.Numerics.Vector3
+  commentId: T:System.Numerics.Vector3
+  parent: System.Numerics
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.numerics.vector3
+  name: Vector3
+  nameWithType: Vector3
+  fullName: System.Numerics.Vector3
+- uid: System.Numerics.Vector4
+  commentId: T:System.Numerics.Vector4
+  parent: System.Numerics
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.numerics.vector4
+  name: Vector4
+  nameWithType: Vector4
+  fullName: System.Numerics.Vector4
+- uid: Prowl.Runtime.PropertyState.SetFloat*
+  commentId: Overload:Prowl.Runtime.PropertyState.SetFloat
+  href: Prowl.Runtime.PropertyState.html#Prowl_Runtime_PropertyState_SetFloat_System_String_System_Single_
+  name: SetFloat
+  nameWithType: PropertyState.SetFloat
+  fullName: Prowl.Runtime.PropertyState.SetFloat
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.single
+  name: float
+  nameWithType: float
+  fullName: float
+  nameWithType.vb: Single
+  fullName.vb: Single
+  name.vb: Single
+- uid: Prowl.Runtime.PropertyState.SetInt*
+  commentId: Overload:Prowl.Runtime.PropertyState.SetInt
+  href: Prowl.Runtime.PropertyState.html#Prowl_Runtime_PropertyState_SetInt_System_String_System_Int32_
+  name: SetInt
+  nameWithType: PropertyState.SetInt
+  fullName: Prowl.Runtime.PropertyState.SetInt
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: Prowl.Runtime.PropertyState.SetMatrix*
+  commentId: Overload:Prowl.Runtime.PropertyState.SetMatrix
+  href: Prowl.Runtime.PropertyState.html#Prowl_Runtime_PropertyState_SetMatrix_System_String_System_Numerics_Matrix4x4_
+  name: SetMatrix
+  nameWithType: PropertyState.SetMatrix
+  fullName: Prowl.Runtime.PropertyState.SetMatrix
+- uid: System.Numerics.Matrix4x4
+  commentId: T:System.Numerics.Matrix4x4
+  parent: System.Numerics
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.numerics.matrix4x4
+  name: Matrix4x4
+  nameWithType: Matrix4x4
+  fullName: System.Numerics.Matrix4x4
+- uid: Prowl.Runtime.PropertyState.SetTexture*
+  commentId: Overload:Prowl.Runtime.PropertyState.SetTexture
+  href: Prowl.Runtime.PropertyState.html#Prowl_Runtime_PropertyState_SetTexture_System_String_Prowl_Runtime_AssetRef_Prowl_Runtime_Texture__
+  name: SetTexture
+  nameWithType: PropertyState.SetTexture
+  fullName: Prowl.Runtime.PropertyState.SetTexture
+- uid: Prowl.Runtime.AssetRef{Prowl.Runtime.Texture}
+  commentId: T:Prowl.Runtime.AssetRef{Prowl.Runtime.Texture}
+  parent: Prowl.Runtime
+  definition: Prowl.Runtime.AssetRef`1
+  href: Prowl.Runtime.AssetRef-1.html
+  name: AssetRef<Texture>
+  nameWithType: AssetRef<Texture>
+  fullName: Prowl.Runtime.AssetRef<Prowl.Runtime.Texture>
+  nameWithType.vb: AssetRef(Of Texture)
+  fullName.vb: Prowl.Runtime.AssetRef(Of Prowl.Runtime.Texture)
+  name.vb: AssetRef(Of Texture)
+  spec.csharp:
+  - uid: Prowl.Runtime.AssetRef`1
+    name: AssetRef
+    href: Prowl.Runtime.AssetRef-1.html
+  - name: <
+  - uid: Prowl.Runtime.Texture
+    name: Texture
+    href: Prowl.Runtime.Texture.html
+  - name: '>'
+  spec.vb:
+  - uid: Prowl.Runtime.AssetRef`1
+    name: AssetRef
+    href: Prowl.Runtime.AssetRef-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Prowl.Runtime.Texture
+    name: Texture
+    href: Prowl.Runtime.Texture.html
+  - name: )
+- uid: Prowl.Runtime.AssetRef`1
+  commentId: T:Prowl.Runtime.AssetRef`1
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.AssetRef-1.html
+  name: AssetRef<T>
+  nameWithType: AssetRef<T>
+  fullName: Prowl.Runtime.AssetRef<T>
+  nameWithType.vb: AssetRef(Of T)
+  fullName.vb: Prowl.Runtime.AssetRef(Of T)
+  name.vb: AssetRef(Of T)
+  spec.csharp:
+  - uid: Prowl.Runtime.AssetRef`1
+    name: AssetRef
+    href: Prowl.Runtime.AssetRef-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Prowl.Runtime.AssetRef`1
+    name: AssetRef
+    href: Prowl.Runtime.AssetRef-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Prowl.Runtime.PropertyState.SetRawTexture*
+  commentId: Overload:Prowl.Runtime.PropertyState.SetRawTexture
+  href: Prowl.Runtime.PropertyState.html#Prowl_Runtime_PropertyState_SetRawTexture_System_String_Veldrid_Texture_
+  name: SetRawTexture
+  nameWithType: PropertyState.SetRawTexture
+  fullName: Prowl.Runtime.PropertyState.SetRawTexture
+- uid: Veldrid.Texture
+  commentId: T:Veldrid.Texture
+  parent: Veldrid
+  name: Texture
+  nameWithType: Texture
+  fullName: Veldrid.Texture
+- uid: Veldrid
+  commentId: N:Veldrid
+  name: Veldrid
+  nameWithType: Veldrid
+  fullName: Veldrid
+- uid: Prowl.Runtime.PropertyState.SetBuffer*
+  commentId: Overload:Prowl.Runtime.PropertyState.SetBuffer
+  href: Prowl.Runtime.PropertyState.html#Prowl_Runtime_PropertyState_SetBuffer_System_String_Prowl_Runtime_GraphicsBuffer_
+  name: SetBuffer
+  nameWithType: PropertyState.SetBuffer
+  fullName: Prowl.Runtime.PropertyState.SetBuffer
+- uid: Prowl.Runtime.GraphicsBuffer
+  commentId: T:Prowl.Runtime.GraphicsBuffer
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.GraphicsBuffer.html
+  name: GraphicsBuffer
+  nameWithType: GraphicsBuffer
+  fullName: Prowl.Runtime.GraphicsBuffer
+- uid: Prowl.Runtime.PropertyState.SetIntArray*
+  commentId: Overload:Prowl.Runtime.PropertyState.SetIntArray
+  href: Prowl.Runtime.PropertyState.html#Prowl_Runtime_PropertyState_SetIntArray_System_String_System_Int32___
+  name: SetIntArray
+  nameWithType: PropertyState.SetIntArray
+  fullName: Prowl.Runtime.PropertyState.SetIntArray
+- uid: System.Int32[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int[]
+  nameWithType: int[]
+  fullName: int[]
+  nameWithType.vb: Integer()
+  fullName.vb: Integer()
+  name.vb: Integer()
+  spec.csharp:
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: (
+  - name: )
+- uid: Prowl.Runtime.PropertyState.SetFloatArray*
+  commentId: Overload:Prowl.Runtime.PropertyState.SetFloatArray
+  href: Prowl.Runtime.PropertyState.html#Prowl_Runtime_PropertyState_SetFloatArray_System_String_System_Single___
+  name: SetFloatArray
+  nameWithType: PropertyState.SetFloatArray
+  fullName: Prowl.Runtime.PropertyState.SetFloatArray
+- uid: System.Single[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.single
+  name: float[]
+  nameWithType: float[]
+  fullName: float[]
+  nameWithType.vb: Single()
+  fullName.vb: Single()
+  name.vb: Single()
+  spec.csharp:
+  - uid: System.Single
+    name: float
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.single
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.Single
+    name: Single
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.single
+  - name: (
+  - name: )
+- uid: Prowl.Runtime.PropertyState.SetVectorArray*
+  commentId: Overload:Prowl.Runtime.PropertyState.SetVectorArray
+  href: Prowl.Runtime.PropertyState.html#Prowl_Runtime_PropertyState_SetVectorArray_System_String_System_Numerics_Vector2___
+  name: SetVectorArray
+  nameWithType: PropertyState.SetVectorArray
+  fullName: Prowl.Runtime.PropertyState.SetVectorArray
+- uid: System.Numerics.Vector2[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.numerics.vector2
+  name: Vector2[]
+  nameWithType: Vector2[]
+  fullName: System.Numerics.Vector2[]
+  nameWithType.vb: Vector2()
+  fullName.vb: System.Numerics.Vector2()
+  name.vb: Vector2()
+  spec.csharp:
+  - uid: System.Numerics.Vector2
+    name: Vector2
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.numerics.vector2
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.Numerics.Vector2
+    name: Vector2
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.numerics.vector2
+  - name: (
+  - name: )
+- uid: System.Numerics.Vector3[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.numerics.vector3
+  name: Vector3[]
+  nameWithType: Vector3[]
+  fullName: System.Numerics.Vector3[]
+  nameWithType.vb: Vector3()
+  fullName.vb: System.Numerics.Vector3()
+  name.vb: Vector3()
+  spec.csharp:
+  - uid: System.Numerics.Vector3
+    name: Vector3
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.numerics.vector3
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.Numerics.Vector3
+    name: Vector3
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.numerics.vector3
+  - name: (
+  - name: )
+- uid: System.Numerics.Vector4[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.numerics.vector4
+  name: Vector4[]
+  nameWithType: Vector4[]
+  fullName: System.Numerics.Vector4[]
+  nameWithType.vb: Vector4()
+  fullName.vb: System.Numerics.Vector4()
+  name.vb: Vector4()
+  spec.csharp:
+  - uid: System.Numerics.Vector4
+    name: Vector4
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.numerics.vector4
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.Numerics.Vector4
+    name: Vector4
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.numerics.vector4
+  - name: (
+  - name: )
+- uid: Prowl.Runtime.PropertyState.SetColorArray*
+  commentId: Overload:Prowl.Runtime.PropertyState.SetColorArray
+  href: Prowl.Runtime.PropertyState.html#Prowl_Runtime_PropertyState_SetColorArray_System_String_Prowl_Runtime_Color___
+  name: SetColorArray
+  nameWithType: PropertyState.SetColorArray
+  fullName: Prowl.Runtime.PropertyState.SetColorArray
+- uid: Prowl.Runtime.Color[]
+  isExternal: true
+  href: Prowl.Runtime.Color.html
+  name: Color[]
+  nameWithType: Color[]
+  fullName: Prowl.Runtime.Color[]
+  nameWithType.vb: Color()
+  fullName.vb: Prowl.Runtime.Color()
+  name.vb: Color()
+  spec.csharp:
+  - uid: Prowl.Runtime.Color
+    name: Color
+    href: Prowl.Runtime.Color.html
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: Prowl.Runtime.Color
+    name: Color
+    href: Prowl.Runtime.Color.html
+  - name: (
+  - name: )
+- uid: Prowl.Runtime.PropertyState.SetMatrixArray*
+  commentId: Overload:Prowl.Runtime.PropertyState.SetMatrixArray
+  href: Prowl.Runtime.PropertyState.html#Prowl_Runtime_PropertyState_SetMatrixArray_System_String_System_Numerics_Matrix4x4___
+  name: SetMatrixArray
+  nameWithType: PropertyState.SetMatrixArray
+  fullName: Prowl.Runtime.PropertyState.SetMatrixArray
+- uid: System.Numerics.Matrix4x4[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.numerics.matrix4x4
+  name: Matrix4x4[]
+  nameWithType: Matrix4x4[]
+  fullName: System.Numerics.Matrix4x4[]
+  nameWithType.vb: Matrix4x4()
+  fullName.vb: System.Numerics.Matrix4x4()
+  name.vb: Matrix4x4()
+  spec.csharp:
+  - uid: System.Numerics.Matrix4x4
+    name: Matrix4x4
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.numerics.matrix4x4
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.Numerics.Matrix4x4
+    name: Matrix4x4
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.numerics.matrix4x4
+  - name: (
+  - name: )
+- uid: Prowl.Runtime.PropertyState.Clear*
+  commentId: Overload:Prowl.Runtime.PropertyState.Clear
+  href: Prowl.Runtime.PropertyState.html#Prowl_Runtime_PropertyState_Clear
+  name: Clear
+  nameWithType: PropertyState.Clear
+  fullName: Prowl.Runtime.PropertyState.Clear

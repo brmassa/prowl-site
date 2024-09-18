@@ -1,0 +1,806 @@
+### YamlMime:ManagedReference
+items:
+- uid: Prowl.Runtime.StringTagConverter.StringTagTokenizer
+  commentId: T:Prowl.Runtime.StringTagConverter.StringTagTokenizer
+  id: StringTagConverter.StringTagTokenizer
+  parent: Prowl.Runtime
+  children:
+  - Prowl.Runtime.StringTagConverter.StringTagTokenizer.#ctor(System.ReadOnlyMemory{System.Char})
+  - Prowl.Runtime.StringTagConverter.StringTagTokenizer.InputPosition
+  - Prowl.Runtime.StringTagConverter.StringTagTokenizer.MoveNext
+  - Prowl.Runtime.StringTagConverter.StringTagTokenizer.ParseQuotedStringValue
+  - Prowl.Runtime.StringTagConverter.StringTagTokenizer.Token
+  - Prowl.Runtime.StringTagConverter.StringTagTokenizer.TokenPosition
+  - Prowl.Runtime.StringTagConverter.StringTagTokenizer.TokenType
+  langs:
+  - csharp
+  - vb
+  name: StringTagConverter.StringTagTokenizer
+  nameWithType: StringTagConverter.StringTagTokenizer
+  fullName: Prowl.Runtime.StringTagConverter.StringTagTokenizer
+  type: Class
+  source:
+    remote:
+      path: Prowl.Runtime/Serializer/Formats/StringTagConverter.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: StringTagTokenizer
+    path: ../Prowl/Prowl.Runtime/Serializer/Formats/StringTagConverter.cs
+    startLine: 402
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public class StringTagConverter.StringTagTokenizer
+    content.vb: Public Class StringTagConverter.StringTagTokenizer
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  extensionMethods:
+  - System.Object.Prowl.Runtime.RuntimeUtils.GetSerializableFields
+- uid: Prowl.Runtime.StringTagConverter.StringTagTokenizer.#ctor(System.ReadOnlyMemory{System.Char})
+  commentId: M:Prowl.Runtime.StringTagConverter.StringTagTokenizer.#ctor(System.ReadOnlyMemory{System.Char})
+  id: '#ctor(System.ReadOnlyMemory{System.Char})'
+  parent: Prowl.Runtime.StringTagConverter.StringTagTokenizer
+  langs:
+  - csharp
+  - vb
+  name: StringTagTokenizer(ReadOnlyMemory<char>)
+  nameWithType: StringTagConverter.StringTagTokenizer.StringTagTokenizer(ReadOnlyMemory<char>)
+  fullName: Prowl.Runtime.StringTagConverter.StringTagTokenizer.StringTagTokenizer(System.ReadOnlyMemory<char>)
+  type: Constructor
+  source:
+    remote:
+      path: Prowl.Runtime/Serializer/Formats/StringTagConverter.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: .ctor
+    path: ../Prowl/Prowl.Runtime/Serializer/Formats/StringTagConverter.cs
+    startLine: 406
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public StringTagTokenizer(ReadOnlyMemory<char> input)
+    parameters:
+    - id: input
+      type: System.ReadOnlyMemory{System.Char}
+    content.vb: Public Sub New(input As ReadOnlyMemory(Of Char))
+  overload: Prowl.Runtime.StringTagConverter.StringTagTokenizer.#ctor*
+  nameWithType.vb: StringTagConverter.StringTagTokenizer.New(ReadOnlyMemory(Of Char))
+  fullName.vb: Prowl.Runtime.StringTagConverter.StringTagTokenizer.New(System.ReadOnlyMemory(Of Char))
+  name.vb: New(ReadOnlyMemory(Of Char))
+- uid: Prowl.Runtime.StringTagConverter.StringTagTokenizer.MoveNext
+  commentId: M:Prowl.Runtime.StringTagConverter.StringTagTokenizer.MoveNext
+  id: MoveNext
+  parent: Prowl.Runtime.StringTagConverter.StringTagTokenizer
+  langs:
+  - csharp
+  - vb
+  name: MoveNext()
+  nameWithType: StringTagConverter.StringTagTokenizer.MoveNext()
+  fullName: Prowl.Runtime.StringTagConverter.StringTagTokenizer.MoveNext()
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Serializer/Formats/StringTagConverter.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: MoveNext
+    path: ../Prowl/Prowl.Runtime/Serializer/Formats/StringTagConverter.cs
+    startLine: 448
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public bool MoveNext()
+    return:
+      type: System.Boolean
+    content.vb: Public Function MoveNext() As Boolean
+  overload: Prowl.Runtime.StringTagConverter.StringTagTokenizer.MoveNext*
+- uid: Prowl.Runtime.StringTagConverter.StringTagTokenizer.ParseQuotedStringValue
+  commentId: M:Prowl.Runtime.StringTagConverter.StringTagTokenizer.ParseQuotedStringValue
+  id: ParseQuotedStringValue
+  parent: Prowl.Runtime.StringTagConverter.StringTagTokenizer
+  langs:
+  - csharp
+  - vb
+  name: ParseQuotedStringValue()
+  nameWithType: StringTagConverter.StringTagTokenizer.ParseQuotedStringValue()
+  fullName: Prowl.Runtime.StringTagConverter.StringTagTokenizer.ParseQuotedStringValue()
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Serializer/Formats/StringTagConverter.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: ParseQuotedStringValue
+    path: ../Prowl/Prowl.Runtime/Serializer/Formats/StringTagConverter.cs
+    startLine: 450
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public string ParseQuotedStringValue()
+    return:
+      type: System.String
+    content.vb: Public Function ParseQuotedStringValue() As String
+  overload: Prowl.Runtime.StringTagConverter.StringTagTokenizer.ParseQuotedStringValue*
+- uid: Prowl.Runtime.StringTagConverter.StringTagTokenizer.TokenType
+  commentId: P:Prowl.Runtime.StringTagConverter.StringTagTokenizer.TokenType
+  id: TokenType
+  parent: Prowl.Runtime.StringTagConverter.StringTagTokenizer
+  langs:
+  - csharp
+  - vb
+  name: TokenType
+  nameWithType: StringTagConverter.StringTagTokenizer.TokenType
+  fullName: Prowl.Runtime.StringTagConverter.StringTagTokenizer.TokenType
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/Serializer/Formats/StringTagConverter.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: TokenType
+    path: ../Prowl/Prowl.Runtime/Serializer/Formats/StringTagConverter.cs
+    startLine: 452
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public StringTagConverter.TextTokenType TokenType { get; }
+    parameters: []
+    return:
+      type: Prowl.Runtime.StringTagConverter.TextTokenType
+    content.vb: Public ReadOnly Property TokenType As StringTagConverter.TextTokenType
+  overload: Prowl.Runtime.StringTagConverter.StringTagTokenizer.TokenType*
+- uid: Prowl.Runtime.StringTagConverter.StringTagTokenizer.Token
+  commentId: P:Prowl.Runtime.StringTagConverter.StringTagTokenizer.Token
+  id: Token
+  parent: Prowl.Runtime.StringTagConverter.StringTagTokenizer
+  langs:
+  - csharp
+  - vb
+  name: Token
+  nameWithType: StringTagConverter.StringTagTokenizer.Token
+  fullName: Prowl.Runtime.StringTagConverter.StringTagTokenizer.Token
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/Serializer/Formats/StringTagConverter.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Token
+    path: ../Prowl/Prowl.Runtime/Serializer/Formats/StringTagConverter.cs
+    startLine: 453
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public ReadOnlySpan<char> Token { get; }
+    parameters: []
+    return:
+      type: System.ReadOnlySpan{System.Char}
+    content.vb: Public ReadOnly Property Token As ReadOnlySpan(Of Char)
+  overload: Prowl.Runtime.StringTagConverter.StringTagTokenizer.Token*
+- uid: Prowl.Runtime.StringTagConverter.StringTagTokenizer.TokenPosition
+  commentId: P:Prowl.Runtime.StringTagConverter.StringTagTokenizer.TokenPosition
+  id: TokenPosition
+  parent: Prowl.Runtime.StringTagConverter.StringTagTokenizer
+  langs:
+  - csharp
+  - vb
+  name: TokenPosition
+  nameWithType: StringTagConverter.StringTagTokenizer.TokenPosition
+  fullName: Prowl.Runtime.StringTagConverter.StringTagTokenizer.TokenPosition
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/Serializer/Formats/StringTagConverter.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: TokenPosition
+    path: ../Prowl/Prowl.Runtime/Serializer/Formats/StringTagConverter.cs
+    startLine: 454
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public int TokenPosition { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property TokenPosition As Integer
+  overload: Prowl.Runtime.StringTagConverter.StringTagTokenizer.TokenPosition*
+- uid: Prowl.Runtime.StringTagConverter.StringTagTokenizer.InputPosition
+  commentId: P:Prowl.Runtime.StringTagConverter.StringTagTokenizer.InputPosition
+  id: InputPosition
+  parent: Prowl.Runtime.StringTagConverter.StringTagTokenizer
+  langs:
+  - csharp
+  - vb
+  name: InputPosition
+  nameWithType: StringTagConverter.StringTagTokenizer.InputPosition
+  fullName: Prowl.Runtime.StringTagConverter.StringTagTokenizer.InputPosition
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/Serializer/Formats/StringTagConverter.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: InputPosition
+    path: ../Prowl/Prowl.Runtime/Serializer/Formats/StringTagConverter.cs
+    startLine: 455
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public int InputPosition { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property InputPosition As Integer
+  overload: Prowl.Runtime.StringTagConverter.StringTagTokenizer.InputPosition*
+references:
+- uid: Prowl.Runtime
+  commentId: N:Prowl.Runtime
+  href: Prowl.html
+  name: Prowl.Runtime
+  nameWithType: Prowl.Runtime
+  fullName: Prowl.Runtime
+  spec.csharp:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+  spec.vb:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Prowl.Runtime.RuntimeUtils.GetSerializableFields
+  commentId: M:Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  parent: Prowl.Runtime.RuntimeUtils
+  definition: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  name: GetSerializableFields(object)
+  nameWithType: RuntimeUtils.GetSerializableFields(object)
+  fullName: Prowl.Runtime.RuntimeUtils.GetSerializableFields(object)
+  nameWithType.vb: RuntimeUtils.GetSerializableFields(Object)
+  fullName.vb: Prowl.Runtime.RuntimeUtils.GetSerializableFields(Object)
+  name.vb: GetSerializableFields(Object)
+  spec.csharp:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  commentId: M:Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  isExternal: true
+  href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  name: GetSerializableFields(object)
+  nameWithType: RuntimeUtils.GetSerializableFields(object)
+  fullName: Prowl.Runtime.RuntimeUtils.GetSerializableFields(object)
+  nameWithType.vb: RuntimeUtils.GetSerializableFields(Object)
+  fullName.vb: Prowl.Runtime.RuntimeUtils.GetSerializableFields(Object)
+  name.vb: GetSerializableFields(Object)
+  spec.csharp:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: Prowl.Runtime.RuntimeUtils
+  commentId: T:Prowl.Runtime.RuntimeUtils
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.RuntimeUtils.html
+  name: RuntimeUtils
+  nameWithType: RuntimeUtils
+  fullName: Prowl.Runtime.RuntimeUtils
+- uid: Prowl.Runtime.StringTagConverter.StringTagTokenizer.#ctor*
+  commentId: Overload:Prowl.Runtime.StringTagConverter.StringTagTokenizer.#ctor
+  href: Prowl.Runtime.StringTagConverter.StringTagTokenizer.html#Prowl_Runtime_StringTagConverter_StringTagTokenizer__ctor_System_ReadOnlyMemory_System_Char__
+  name: StringTagTokenizer
+  nameWithType: StringTagConverter.StringTagTokenizer.StringTagTokenizer
+  fullName: Prowl.Runtime.StringTagConverter.StringTagTokenizer.StringTagTokenizer
+  nameWithType.vb: StringTagConverter.StringTagTokenizer.New
+  fullName.vb: Prowl.Runtime.StringTagConverter.StringTagTokenizer.New
+  name.vb: New
+- uid: System.ReadOnlyMemory{System.Char}
+  commentId: T:System.ReadOnlyMemory{System.Char}
+  parent: System
+  definition: System.ReadOnlyMemory`1
+  href: https://learn.microsoft.com/dotnet/api/system.readonlymemory-1
+  name: ReadOnlyMemory<char>
+  nameWithType: ReadOnlyMemory<char>
+  fullName: System.ReadOnlyMemory<char>
+  nameWithType.vb: ReadOnlyMemory(Of Char)
+  fullName.vb: System.ReadOnlyMemory(Of Char)
+  name.vb: ReadOnlyMemory(Of Char)
+  spec.csharp:
+  - uid: System.ReadOnlyMemory`1
+    name: ReadOnlyMemory
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.readonlymemory-1
+  - name: <
+  - uid: System.Char
+    name: char
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.char
+  - name: '>'
+  spec.vb:
+  - uid: System.ReadOnlyMemory`1
+    name: ReadOnlyMemory
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.readonlymemory-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Char
+    name: Char
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.char
+  - name: )
+- uid: System.ReadOnlyMemory`1
+  commentId: T:System.ReadOnlyMemory`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.readonlymemory-1
+  name: ReadOnlyMemory<T>
+  nameWithType: ReadOnlyMemory<T>
+  fullName: System.ReadOnlyMemory<T>
+  nameWithType.vb: ReadOnlyMemory(Of T)
+  fullName.vb: System.ReadOnlyMemory(Of T)
+  name.vb: ReadOnlyMemory(Of T)
+  spec.csharp:
+  - uid: System.ReadOnlyMemory`1
+    name: ReadOnlyMemory
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.readonlymemory-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.ReadOnlyMemory`1
+    name: ReadOnlyMemory
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.readonlymemory-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Prowl.Runtime.StringTagConverter.StringTagTokenizer.MoveNext*
+  commentId: Overload:Prowl.Runtime.StringTagConverter.StringTagTokenizer.MoveNext
+  href: Prowl.Runtime.StringTagConverter.StringTagTokenizer.html#Prowl_Runtime_StringTagConverter_StringTagTokenizer_MoveNext
+  name: MoveNext
+  nameWithType: StringTagConverter.StringTagTokenizer.MoveNext
+  fullName: Prowl.Runtime.StringTagConverter.StringTagTokenizer.MoveNext
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: Prowl.Runtime.StringTagConverter.StringTagTokenizer.ParseQuotedStringValue*
+  commentId: Overload:Prowl.Runtime.StringTagConverter.StringTagTokenizer.ParseQuotedStringValue
+  href: Prowl.Runtime.StringTagConverter.StringTagTokenizer.html#Prowl_Runtime_StringTagConverter_StringTagTokenizer_ParseQuotedStringValue
+  name: ParseQuotedStringValue
+  nameWithType: StringTagConverter.StringTagTokenizer.ParseQuotedStringValue
+  fullName: Prowl.Runtime.StringTagConverter.StringTagTokenizer.ParseQuotedStringValue
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: Prowl.Runtime.StringTagConverter.StringTagTokenizer.TokenType*
+  commentId: Overload:Prowl.Runtime.StringTagConverter.StringTagTokenizer.TokenType
+  href: Prowl.Runtime.StringTagConverter.StringTagTokenizer.html#Prowl_Runtime_StringTagConverter_StringTagTokenizer_TokenType
+  name: TokenType
+  nameWithType: StringTagConverter.StringTagTokenizer.TokenType
+  fullName: Prowl.Runtime.StringTagConverter.StringTagTokenizer.TokenType
+- uid: Prowl.Runtime.StringTagConverter.TextTokenType
+  commentId: T:Prowl.Runtime.StringTagConverter.TextTokenType
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.StringTagConverter.html
+  name: StringTagConverter.TextTokenType
+  nameWithType: StringTagConverter.TextTokenType
+  fullName: Prowl.Runtime.StringTagConverter.TextTokenType
+  spec.csharp:
+  - uid: Prowl.Runtime.StringTagConverter
+    name: StringTagConverter
+    href: Prowl.Runtime.StringTagConverter.html
+  - name: .
+  - uid: Prowl.Runtime.StringTagConverter.TextTokenType
+    name: TextTokenType
+    href: Prowl.Runtime.StringTagConverter.TextTokenType.html
+  spec.vb:
+  - uid: Prowl.Runtime.StringTagConverter
+    name: StringTagConverter
+    href: Prowl.Runtime.StringTagConverter.html
+  - name: .
+  - uid: Prowl.Runtime.StringTagConverter.TextTokenType
+    name: TextTokenType
+    href: Prowl.Runtime.StringTagConverter.TextTokenType.html
+- uid: Prowl.Runtime.StringTagConverter.StringTagTokenizer.Token*
+  commentId: Overload:Prowl.Runtime.StringTagConverter.StringTagTokenizer.Token
+  href: Prowl.Runtime.StringTagConverter.StringTagTokenizer.html#Prowl_Runtime_StringTagConverter_StringTagTokenizer_Token
+  name: Token
+  nameWithType: StringTagConverter.StringTagTokenizer.Token
+  fullName: Prowl.Runtime.StringTagConverter.StringTagTokenizer.Token
+- uid: System.ReadOnlySpan{System.Char}
+  commentId: T:System.ReadOnlySpan{System.Char}
+  parent: System
+  definition: System.ReadOnlySpan`1
+  href: https://learn.microsoft.com/dotnet/api/system.readonlyspan-1
+  name: ReadOnlySpan<char>
+  nameWithType: ReadOnlySpan<char>
+  fullName: System.ReadOnlySpan<char>
+  nameWithType.vb: ReadOnlySpan(Of Char)
+  fullName.vb: System.ReadOnlySpan(Of Char)
+  name.vb: ReadOnlySpan(Of Char)
+  spec.csharp:
+  - uid: System.ReadOnlySpan`1
+    name: ReadOnlySpan
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.readonlyspan-1
+  - name: <
+  - uid: System.Char
+    name: char
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.char
+  - name: '>'
+  spec.vb:
+  - uid: System.ReadOnlySpan`1
+    name: ReadOnlySpan
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.readonlyspan-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Char
+    name: Char
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.char
+  - name: )
+- uid: System.ReadOnlySpan`1
+  commentId: T:System.ReadOnlySpan`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.readonlyspan-1
+  name: ReadOnlySpan<T>
+  nameWithType: ReadOnlySpan<T>
+  fullName: System.ReadOnlySpan<T>
+  nameWithType.vb: ReadOnlySpan(Of T)
+  fullName.vb: System.ReadOnlySpan(Of T)
+  name.vb: ReadOnlySpan(Of T)
+  spec.csharp:
+  - uid: System.ReadOnlySpan`1
+    name: ReadOnlySpan
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.readonlyspan-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.ReadOnlySpan`1
+    name: ReadOnlySpan
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.readonlyspan-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Prowl.Runtime.StringTagConverter.StringTagTokenizer.TokenPosition*
+  commentId: Overload:Prowl.Runtime.StringTagConverter.StringTagTokenizer.TokenPosition
+  href: Prowl.Runtime.StringTagConverter.StringTagTokenizer.html#Prowl_Runtime_StringTagConverter_StringTagTokenizer_TokenPosition
+  name: TokenPosition
+  nameWithType: StringTagConverter.StringTagTokenizer.TokenPosition
+  fullName: Prowl.Runtime.StringTagConverter.StringTagTokenizer.TokenPosition
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: Prowl.Runtime.StringTagConverter.StringTagTokenizer.InputPosition*
+  commentId: Overload:Prowl.Runtime.StringTagConverter.StringTagTokenizer.InputPosition
+  href: Prowl.Runtime.StringTagConverter.StringTagTokenizer.html#Prowl_Runtime_StringTagConverter_StringTagTokenizer_InputPosition
+  name: InputPosition
+  nameWithType: StringTagConverter.StringTagTokenizer.InputPosition
+  fullName: Prowl.Runtime.StringTagConverter.StringTagTokenizer.InputPosition

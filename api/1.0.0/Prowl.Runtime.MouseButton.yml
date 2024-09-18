@@ -1,0 +1,479 @@
+### YamlMime:ManagedReference
+items:
+- uid: Prowl.Runtime.MouseButton
+  commentId: T:Prowl.Runtime.MouseButton
+  id: MouseButton
+  parent: Prowl.Runtime
+  children:
+  - Prowl.Runtime.MouseButton.Button1
+  - Prowl.Runtime.MouseButton.Button2
+  - Prowl.Runtime.MouseButton.Button3
+  - Prowl.Runtime.MouseButton.Button4
+  - Prowl.Runtime.MouseButton.Button5
+  - Prowl.Runtime.MouseButton.Button6
+  - Prowl.Runtime.MouseButton.Button7
+  - Prowl.Runtime.MouseButton.Button8
+  - Prowl.Runtime.MouseButton.Button9
+  - Prowl.Runtime.MouseButton.Left
+  - Prowl.Runtime.MouseButton.Middle
+  - Prowl.Runtime.MouseButton.Right
+  - Prowl.Runtime.MouseButton.Unknown
+  langs:
+  - csharp
+  - vb
+  name: MouseButton
+  nameWithType: MouseButton
+  fullName: Prowl.Runtime.MouseButton
+  type: Enum
+  source:
+    remote:
+      path: Prowl.Runtime/InputManagement/MouseButton.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: MouseButton
+    path: ../Prowl/Prowl.Runtime/InputManagement/MouseButton.cs
+    startLine: 5
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public enum MouseButton
+    content.vb: Public Enum MouseButton
+  extensionMethods:
+  - System.Object.Prowl.Runtime.RuntimeUtils.GetSerializableFields
+- uid: Prowl.Runtime.MouseButton.Left
+  commentId: F:Prowl.Runtime.MouseButton.Left
+  id: Left
+  parent: Prowl.Runtime.MouseButton
+  langs:
+  - csharp
+  - vb
+  name: Left
+  nameWithType: MouseButton.Left
+  fullName: Prowl.Runtime.MouseButton.Left
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/InputManagement/MouseButton.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Left
+    path: ../Prowl/Prowl.Runtime/InputManagement/MouseButton.cs
+    startLine: 7
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: Left = 1
+    return:
+      type: Prowl.Runtime.MouseButton
+- uid: Prowl.Runtime.MouseButton.Middle
+  commentId: F:Prowl.Runtime.MouseButton.Middle
+  id: Middle
+  parent: Prowl.Runtime.MouseButton
+  langs:
+  - csharp
+  - vb
+  name: Middle
+  nameWithType: MouseButton.Middle
+  fullName: Prowl.Runtime.MouseButton.Middle
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/InputManagement/MouseButton.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Middle
+    path: ../Prowl/Prowl.Runtime/InputManagement/MouseButton.cs
+    startLine: 8
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: Middle = 2
+    return:
+      type: Prowl.Runtime.MouseButton
+- uid: Prowl.Runtime.MouseButton.Right
+  commentId: F:Prowl.Runtime.MouseButton.Right
+  id: Right
+  parent: Prowl.Runtime.MouseButton
+  langs:
+  - csharp
+  - vb
+  name: Right
+  nameWithType: MouseButton.Right
+  fullName: Prowl.Runtime.MouseButton.Right
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/InputManagement/MouseButton.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Right
+    path: ../Prowl/Prowl.Runtime/InputManagement/MouseButton.cs
+    startLine: 9
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: Right = 4
+    return:
+      type: Prowl.Runtime.MouseButton
+- uid: Prowl.Runtime.MouseButton.Button1
+  commentId: F:Prowl.Runtime.MouseButton.Button1
+  id: Button1
+  parent: Prowl.Runtime.MouseButton
+  langs:
+  - csharp
+  - vb
+  name: Button1
+  nameWithType: MouseButton.Button1
+  fullName: Prowl.Runtime.MouseButton.Button1
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/InputManagement/MouseButton.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Button1
+    path: ../Prowl/Prowl.Runtime/InputManagement/MouseButton.cs
+    startLine: 10
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: Button1 = 8
+    return:
+      type: Prowl.Runtime.MouseButton
+- uid: Prowl.Runtime.MouseButton.Button2
+  commentId: F:Prowl.Runtime.MouseButton.Button2
+  id: Button2
+  parent: Prowl.Runtime.MouseButton
+  langs:
+  - csharp
+  - vb
+  name: Button2
+  nameWithType: MouseButton.Button2
+  fullName: Prowl.Runtime.MouseButton.Button2
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/InputManagement/MouseButton.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Button2
+    path: ../Prowl/Prowl.Runtime/InputManagement/MouseButton.cs
+    startLine: 11
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: Button2 = 16
+    return:
+      type: Prowl.Runtime.MouseButton
+- uid: Prowl.Runtime.MouseButton.Button3
+  commentId: F:Prowl.Runtime.MouseButton.Button3
+  id: Button3
+  parent: Prowl.Runtime.MouseButton
+  langs:
+  - csharp
+  - vb
+  name: Button3
+  nameWithType: MouseButton.Button3
+  fullName: Prowl.Runtime.MouseButton.Button3
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/InputManagement/MouseButton.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Button3
+    path: ../Prowl/Prowl.Runtime/InputManagement/MouseButton.cs
+    startLine: 12
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: Button3 = 32
+    return:
+      type: Prowl.Runtime.MouseButton
+- uid: Prowl.Runtime.MouseButton.Button4
+  commentId: F:Prowl.Runtime.MouseButton.Button4
+  id: Button4
+  parent: Prowl.Runtime.MouseButton
+  langs:
+  - csharp
+  - vb
+  name: Button4
+  nameWithType: MouseButton.Button4
+  fullName: Prowl.Runtime.MouseButton.Button4
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/InputManagement/MouseButton.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Button4
+    path: ../Prowl/Prowl.Runtime/InputManagement/MouseButton.cs
+    startLine: 13
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: Button4 = 64
+    return:
+      type: Prowl.Runtime.MouseButton
+- uid: Prowl.Runtime.MouseButton.Button5
+  commentId: F:Prowl.Runtime.MouseButton.Button5
+  id: Button5
+  parent: Prowl.Runtime.MouseButton
+  langs:
+  - csharp
+  - vb
+  name: Button5
+  nameWithType: MouseButton.Button5
+  fullName: Prowl.Runtime.MouseButton.Button5
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/InputManagement/MouseButton.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Button5
+    path: ../Prowl/Prowl.Runtime/InputManagement/MouseButton.cs
+    startLine: 14
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: Button5 = 128
+    return:
+      type: Prowl.Runtime.MouseButton
+- uid: Prowl.Runtime.MouseButton.Button6
+  commentId: F:Prowl.Runtime.MouseButton.Button6
+  id: Button6
+  parent: Prowl.Runtime.MouseButton
+  langs:
+  - csharp
+  - vb
+  name: Button6
+  nameWithType: MouseButton.Button6
+  fullName: Prowl.Runtime.MouseButton.Button6
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/InputManagement/MouseButton.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Button6
+    path: ../Prowl/Prowl.Runtime/InputManagement/MouseButton.cs
+    startLine: 15
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: Button6 = 256
+    return:
+      type: Prowl.Runtime.MouseButton
+- uid: Prowl.Runtime.MouseButton.Button7
+  commentId: F:Prowl.Runtime.MouseButton.Button7
+  id: Button7
+  parent: Prowl.Runtime.MouseButton
+  langs:
+  - csharp
+  - vb
+  name: Button7
+  nameWithType: MouseButton.Button7
+  fullName: Prowl.Runtime.MouseButton.Button7
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/InputManagement/MouseButton.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Button7
+    path: ../Prowl/Prowl.Runtime/InputManagement/MouseButton.cs
+    startLine: 16
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: Button7 = 512
+    return:
+      type: Prowl.Runtime.MouseButton
+- uid: Prowl.Runtime.MouseButton.Button8
+  commentId: F:Prowl.Runtime.MouseButton.Button8
+  id: Button8
+  parent: Prowl.Runtime.MouseButton
+  langs:
+  - csharp
+  - vb
+  name: Button8
+  nameWithType: MouseButton.Button8
+  fullName: Prowl.Runtime.MouseButton.Button8
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/InputManagement/MouseButton.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Button8
+    path: ../Prowl/Prowl.Runtime/InputManagement/MouseButton.cs
+    startLine: 17
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: Button8 = 1024
+    return:
+      type: Prowl.Runtime.MouseButton
+- uid: Prowl.Runtime.MouseButton.Button9
+  commentId: F:Prowl.Runtime.MouseButton.Button9
+  id: Button9
+  parent: Prowl.Runtime.MouseButton
+  langs:
+  - csharp
+  - vb
+  name: Button9
+  nameWithType: MouseButton.Button9
+  fullName: Prowl.Runtime.MouseButton.Button9
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/InputManagement/MouseButton.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Button9
+    path: ../Prowl/Prowl.Runtime/InputManagement/MouseButton.cs
+    startLine: 18
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: Button9 = 2048
+    return:
+      type: Prowl.Runtime.MouseButton
+- uid: Prowl.Runtime.MouseButton.Unknown
+  commentId: F:Prowl.Runtime.MouseButton.Unknown
+  id: Unknown
+  parent: Prowl.Runtime.MouseButton
+  langs:
+  - csharp
+  - vb
+  name: Unknown
+  nameWithType: MouseButton.Unknown
+  fullName: Prowl.Runtime.MouseButton.Unknown
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/InputManagement/MouseButton.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Unknown
+    path: ../Prowl/Prowl.Runtime/InputManagement/MouseButton.cs
+    startLine: 19
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: Unknown = -1
+    return:
+      type: Prowl.Runtime.MouseButton
+references:
+- uid: Prowl.Runtime
+  commentId: N:Prowl.Runtime
+  href: Prowl.html
+  name: Prowl.Runtime
+  nameWithType: Prowl.Runtime
+  fullName: Prowl.Runtime
+  spec.csharp:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+  spec.vb:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+- uid: System.Object.Prowl.Runtime.RuntimeUtils.GetSerializableFields
+  commentId: M:Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  parent: Prowl.Runtime.RuntimeUtils
+  definition: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  name: GetSerializableFields(object)
+  nameWithType: RuntimeUtils.GetSerializableFields(object)
+  fullName: Prowl.Runtime.RuntimeUtils.GetSerializableFields(object)
+  nameWithType.vb: RuntimeUtils.GetSerializableFields(Object)
+  fullName.vb: Prowl.Runtime.RuntimeUtils.GetSerializableFields(Object)
+  name.vb: GetSerializableFields(Object)
+  spec.csharp:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  commentId: M:Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  isExternal: true
+  href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  name: GetSerializableFields(object)
+  nameWithType: RuntimeUtils.GetSerializableFields(object)
+  fullName: Prowl.Runtime.RuntimeUtils.GetSerializableFields(object)
+  nameWithType.vb: RuntimeUtils.GetSerializableFields(Object)
+  fullName.vb: Prowl.Runtime.RuntimeUtils.GetSerializableFields(Object)
+  name.vb: GetSerializableFields(Object)
+  spec.csharp:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: Prowl.Runtime.RuntimeUtils
+  commentId: T:Prowl.Runtime.RuntimeUtils
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.RuntimeUtils.html
+  name: RuntimeUtils
+  nameWithType: RuntimeUtils
+  fullName: Prowl.Runtime.RuntimeUtils
+- uid: Prowl.Runtime.MouseButton
+  commentId: T:Prowl.Runtime.MouseButton
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.MouseButton.html
+  name: MouseButton
+  nameWithType: MouseButton
+  fullName: Prowl.Runtime.MouseButton

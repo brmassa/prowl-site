@@ -1,0 +1,966 @@
+### YamlMime:ManagedReference
+items:
+- uid: Prowl.Runtime.GUI.Spacing
+  commentId: T:Prowl.Runtime.GUI.Spacing
+  id: Spacing
+  parent: Prowl.Runtime.GUI
+  children:
+  - Prowl.Runtime.GUI.Spacing.#ctor
+  - Prowl.Runtime.GUI.Spacing.#ctor(System.Double,System.Double,System.Double,System.Double)
+  - Prowl.Runtime.GUI.Spacing.Bottom
+  - Prowl.Runtime.GUI.Spacing.BottomLeft
+  - Prowl.Runtime.GUI.Spacing.BottomRight
+  - Prowl.Runtime.GUI.Spacing.Equals(System.Object)
+  - Prowl.Runtime.GUI.Spacing.Horizontal
+  - Prowl.Runtime.GUI.Spacing.Left
+  - Prowl.Runtime.GUI.Spacing.Right
+  - Prowl.Runtime.GUI.Spacing.Top
+  - Prowl.Runtime.GUI.Spacing.TopLeft
+  - Prowl.Runtime.GUI.Spacing.TopRight
+  - Prowl.Runtime.GUI.Spacing.Vertical
+  - Prowl.Runtime.GUI.Spacing.op_Equality(Prowl.Runtime.GUI.Spacing,Prowl.Runtime.GUI.Spacing)
+  - Prowl.Runtime.GUI.Spacing.op_Inequality(Prowl.Runtime.GUI.Spacing,Prowl.Runtime.GUI.Spacing)
+  langs:
+  - csharp
+  - vb
+  name: Spacing
+  nameWithType: Spacing
+  fullName: Prowl.Runtime.GUI.Spacing
+  type: Struct
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Layout/Spacing.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Spacing
+    path: ../Prowl/Prowl.Runtime/GUI/Layout/Spacing.cs
+    startLine: 7
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  syntax:
+    content: public struct Spacing
+    content.vb: Public Structure Spacing
+  inheritedMembers:
+  - System.ValueType.GetHashCode
+  - System.ValueType.ToString
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  extensionMethods:
+  - System.Object.Prowl.Runtime.RuntimeUtils.GetSerializableFields
+- uid: Prowl.Runtime.GUI.Spacing.Left
+  commentId: F:Prowl.Runtime.GUI.Spacing.Left
+  id: Left
+  parent: Prowl.Runtime.GUI.Spacing
+  langs:
+  - csharp
+  - vb
+  name: Left
+  nameWithType: Spacing.Left
+  fullName: Prowl.Runtime.GUI.Spacing.Left
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Layout/Spacing.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Left
+    path: ../Prowl/Prowl.Runtime/GUI/Layout/Spacing.cs
+    startLine: 9
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  syntax:
+    content: public double Left
+    return:
+      type: System.Double
+    content.vb: Public Left As Double
+- uid: Prowl.Runtime.GUI.Spacing.Right
+  commentId: F:Prowl.Runtime.GUI.Spacing.Right
+  id: Right
+  parent: Prowl.Runtime.GUI.Spacing
+  langs:
+  - csharp
+  - vb
+  name: Right
+  nameWithType: Spacing.Right
+  fullName: Prowl.Runtime.GUI.Spacing.Right
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Layout/Spacing.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Right
+    path: ../Prowl/Prowl.Runtime/GUI/Layout/Spacing.cs
+    startLine: 10
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  syntax:
+    content: public double Right
+    return:
+      type: System.Double
+    content.vb: Public Right As Double
+- uid: Prowl.Runtime.GUI.Spacing.Top
+  commentId: F:Prowl.Runtime.GUI.Spacing.Top
+  id: Top
+  parent: Prowl.Runtime.GUI.Spacing
+  langs:
+  - csharp
+  - vb
+  name: Top
+  nameWithType: Spacing.Top
+  fullName: Prowl.Runtime.GUI.Spacing.Top
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Layout/Spacing.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Top
+    path: ../Prowl/Prowl.Runtime/GUI/Layout/Spacing.cs
+    startLine: 11
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  syntax:
+    content: public double Top
+    return:
+      type: System.Double
+    content.vb: Public Top As Double
+- uid: Prowl.Runtime.GUI.Spacing.Bottom
+  commentId: F:Prowl.Runtime.GUI.Spacing.Bottom
+  id: Bottom
+  parent: Prowl.Runtime.GUI.Spacing
+  langs:
+  - csharp
+  - vb
+  name: Bottom
+  nameWithType: Spacing.Bottom
+  fullName: Prowl.Runtime.GUI.Spacing.Bottom
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Layout/Spacing.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Bottom
+    path: ../Prowl/Prowl.Runtime/GUI/Layout/Spacing.cs
+    startLine: 12
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  syntax:
+    content: public double Bottom
+    return:
+      type: System.Double
+    content.vb: Public Bottom As Double
+- uid: Prowl.Runtime.GUI.Spacing.Horizontal
+  commentId: P:Prowl.Runtime.GUI.Spacing.Horizontal
+  id: Horizontal
+  parent: Prowl.Runtime.GUI.Spacing
+  langs:
+  - csharp
+  - vb
+  name: Horizontal
+  nameWithType: Spacing.Horizontal
+  fullName: Prowl.Runtime.GUI.Spacing.Horizontal
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Layout/Spacing.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Horizontal
+    path: ../Prowl/Prowl.Runtime/GUI/Layout/Spacing.cs
+    startLine: 14
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  syntax:
+    content: public readonly double Horizontal { get; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public ReadOnly Property Horizontal As Double
+  overload: Prowl.Runtime.GUI.Spacing.Horizontal*
+- uid: Prowl.Runtime.GUI.Spacing.Vertical
+  commentId: P:Prowl.Runtime.GUI.Spacing.Vertical
+  id: Vertical
+  parent: Prowl.Runtime.GUI.Spacing
+  langs:
+  - csharp
+  - vb
+  name: Vertical
+  nameWithType: Spacing.Vertical
+  fullName: Prowl.Runtime.GUI.Spacing.Vertical
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Layout/Spacing.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Vertical
+    path: ../Prowl/Prowl.Runtime/GUI/Layout/Spacing.cs
+    startLine: 15
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  syntax:
+    content: public readonly double Vertical { get; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public ReadOnly Property Vertical As Double
+  overload: Prowl.Runtime.GUI.Spacing.Vertical*
+- uid: Prowl.Runtime.GUI.Spacing.TopLeft
+  commentId: P:Prowl.Runtime.GUI.Spacing.TopLeft
+  id: TopLeft
+  parent: Prowl.Runtime.GUI.Spacing
+  langs:
+  - csharp
+  - vb
+  name: TopLeft
+  nameWithType: Spacing.TopLeft
+  fullName: Prowl.Runtime.GUI.Spacing.TopLeft
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Layout/Spacing.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: TopLeft
+    path: ../Prowl/Prowl.Runtime/GUI/Layout/Spacing.cs
+    startLine: 16
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  syntax:
+    content: public readonly Vector2 TopLeft { get; }
+    parameters: []
+    return:
+      type: Prowl.Runtime.Vector2
+    content.vb: Public ReadOnly Property TopLeft As Vector2
+  overload: Prowl.Runtime.GUI.Spacing.TopLeft*
+- uid: Prowl.Runtime.GUI.Spacing.TopRight
+  commentId: P:Prowl.Runtime.GUI.Spacing.TopRight
+  id: TopRight
+  parent: Prowl.Runtime.GUI.Spacing
+  langs:
+  - csharp
+  - vb
+  name: TopRight
+  nameWithType: Spacing.TopRight
+  fullName: Prowl.Runtime.GUI.Spacing.TopRight
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Layout/Spacing.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: TopRight
+    path: ../Prowl/Prowl.Runtime/GUI/Layout/Spacing.cs
+    startLine: 17
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  syntax:
+    content: public readonly Vector2 TopRight { get; }
+    parameters: []
+    return:
+      type: Prowl.Runtime.Vector2
+    content.vb: Public ReadOnly Property TopRight As Vector2
+  overload: Prowl.Runtime.GUI.Spacing.TopRight*
+- uid: Prowl.Runtime.GUI.Spacing.BottomLeft
+  commentId: P:Prowl.Runtime.GUI.Spacing.BottomLeft
+  id: BottomLeft
+  parent: Prowl.Runtime.GUI.Spacing
+  langs:
+  - csharp
+  - vb
+  name: BottomLeft
+  nameWithType: Spacing.BottomLeft
+  fullName: Prowl.Runtime.GUI.Spacing.BottomLeft
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Layout/Spacing.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: BottomLeft
+    path: ../Prowl/Prowl.Runtime/GUI/Layout/Spacing.cs
+    startLine: 18
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  syntax:
+    content: public readonly Vector2 BottomLeft { get; }
+    parameters: []
+    return:
+      type: Prowl.Runtime.Vector2
+    content.vb: Public ReadOnly Property BottomLeft As Vector2
+  overload: Prowl.Runtime.GUI.Spacing.BottomLeft*
+- uid: Prowl.Runtime.GUI.Spacing.BottomRight
+  commentId: P:Prowl.Runtime.GUI.Spacing.BottomRight
+  id: BottomRight
+  parent: Prowl.Runtime.GUI.Spacing
+  langs:
+  - csharp
+  - vb
+  name: BottomRight
+  nameWithType: Spacing.BottomRight
+  fullName: Prowl.Runtime.GUI.Spacing.BottomRight
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Layout/Spacing.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: BottomRight
+    path: ../Prowl/Prowl.Runtime/GUI/Layout/Spacing.cs
+    startLine: 19
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  syntax:
+    content: public readonly Vector2 BottomRight { get; }
+    parameters: []
+    return:
+      type: Prowl.Runtime.Vector2
+    content.vb: Public ReadOnly Property BottomRight As Vector2
+  overload: Prowl.Runtime.GUI.Spacing.BottomRight*
+- uid: Prowl.Runtime.GUI.Spacing.#ctor
+  commentId: M:Prowl.Runtime.GUI.Spacing.#ctor
+  id: '#ctor'
+  parent: Prowl.Runtime.GUI.Spacing
+  langs:
+  - csharp
+  - vb
+  name: Spacing()
+  nameWithType: Spacing.Spacing()
+  fullName: Prowl.Runtime.GUI.Spacing.Spacing()
+  type: Constructor
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Layout/Spacing.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: .ctor
+    path: ../Prowl/Prowl.Runtime/GUI/Layout/Spacing.cs
+    startLine: 21
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  syntax:
+    content: public Spacing()
+    content.vb: Public Sub New()
+  overload: Prowl.Runtime.GUI.Spacing.#ctor*
+  nameWithType.vb: Spacing.New()
+  fullName.vb: Prowl.Runtime.GUI.Spacing.New()
+  name.vb: New()
+- uid: Prowl.Runtime.GUI.Spacing.#ctor(System.Double,System.Double,System.Double,System.Double)
+  commentId: M:Prowl.Runtime.GUI.Spacing.#ctor(System.Double,System.Double,System.Double,System.Double)
+  id: '#ctor(System.Double,System.Double,System.Double,System.Double)'
+  parent: Prowl.Runtime.GUI.Spacing
+  langs:
+  - csharp
+  - vb
+  name: Spacing(double, double, double, double)
+  nameWithType: Spacing.Spacing(double, double, double, double)
+  fullName: Prowl.Runtime.GUI.Spacing.Spacing(double, double, double, double)
+  type: Constructor
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Layout/Spacing.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: .ctor
+    path: ../Prowl/Prowl.Runtime/GUI/Layout/Spacing.cs
+    startLine: 23
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  syntax:
+    content: public Spacing(double left, double right, double top, double bottom)
+    parameters:
+    - id: left
+      type: System.Double
+    - id: right
+      type: System.Double
+    - id: top
+      type: System.Double
+    - id: bottom
+      type: System.Double
+    content.vb: Public Sub New(left As Double, right As Double, top As Double, bottom As Double)
+  overload: Prowl.Runtime.GUI.Spacing.#ctor*
+  nameWithType.vb: Spacing.New(Double, Double, Double, Double)
+  fullName.vb: Prowl.Runtime.GUI.Spacing.New(Double, Double, Double, Double)
+  name.vb: New(Double, Double, Double, Double)
+- uid: Prowl.Runtime.GUI.Spacing.op_Equality(Prowl.Runtime.GUI.Spacing,Prowl.Runtime.GUI.Spacing)
+  commentId: M:Prowl.Runtime.GUI.Spacing.op_Equality(Prowl.Runtime.GUI.Spacing,Prowl.Runtime.GUI.Spacing)
+  id: op_Equality(Prowl.Runtime.GUI.Spacing,Prowl.Runtime.GUI.Spacing)
+  parent: Prowl.Runtime.GUI.Spacing
+  langs:
+  - csharp
+  - vb
+  name: operator ==(Spacing, Spacing)
+  nameWithType: Spacing.operator ==(Spacing, Spacing)
+  fullName: Prowl.Runtime.GUI.Spacing.operator ==(Prowl.Runtime.GUI.Spacing, Prowl.Runtime.GUI.Spacing)
+  type: Operator
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Layout/Spacing.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: op_Equality
+    path: ../Prowl/Prowl.Runtime/GUI/Layout/Spacing.cs
+    startLine: 31
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  syntax:
+    content: public static bool operator ==(Spacing s1, Spacing s2)
+    parameters:
+    - id: s1
+      type: Prowl.Runtime.GUI.Spacing
+    - id: s2
+      type: Prowl.Runtime.GUI.Spacing
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Operator =(s1 As Spacing, s2 As Spacing) As Boolean
+  overload: Prowl.Runtime.GUI.Spacing.op_Equality*
+  nameWithType.vb: Spacing.=(Spacing, Spacing)
+  fullName.vb: Prowl.Runtime.GUI.Spacing.=(Prowl.Runtime.GUI.Spacing, Prowl.Runtime.GUI.Spacing)
+  name.vb: =(Spacing, Spacing)
+- uid: Prowl.Runtime.GUI.Spacing.op_Inequality(Prowl.Runtime.GUI.Spacing,Prowl.Runtime.GUI.Spacing)
+  commentId: M:Prowl.Runtime.GUI.Spacing.op_Inequality(Prowl.Runtime.GUI.Spacing,Prowl.Runtime.GUI.Spacing)
+  id: op_Inequality(Prowl.Runtime.GUI.Spacing,Prowl.Runtime.GUI.Spacing)
+  parent: Prowl.Runtime.GUI.Spacing
+  langs:
+  - csharp
+  - vb
+  name: operator !=(Spacing, Spacing)
+  nameWithType: Spacing.operator !=(Spacing, Spacing)
+  fullName: Prowl.Runtime.GUI.Spacing.operator !=(Prowl.Runtime.GUI.Spacing, Prowl.Runtime.GUI.Spacing)
+  type: Operator
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Layout/Spacing.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: op_Inequality
+    path: ../Prowl/Prowl.Runtime/GUI/Layout/Spacing.cs
+    startLine: 39
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  syntax:
+    content: public static bool operator !=(Spacing s1, Spacing s2)
+    parameters:
+    - id: s1
+      type: Prowl.Runtime.GUI.Spacing
+    - id: s2
+      type: Prowl.Runtime.GUI.Spacing
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Operator <>(s1 As Spacing, s2 As Spacing) As Boolean
+  overload: Prowl.Runtime.GUI.Spacing.op_Inequality*
+  nameWithType.vb: Spacing.<>(Spacing, Spacing)
+  fullName.vb: Prowl.Runtime.GUI.Spacing.<>(Prowl.Runtime.GUI.Spacing, Prowl.Runtime.GUI.Spacing)
+  name.vb: <>(Spacing, Spacing)
+- uid: Prowl.Runtime.GUI.Spacing.Equals(System.Object)
+  commentId: M:Prowl.Runtime.GUI.Spacing.Equals(System.Object)
+  id: Equals(System.Object)
+  parent: Prowl.Runtime.GUI.Spacing
+  langs:
+  - csharp
+  - vb
+  name: Equals(object)
+  nameWithType: Spacing.Equals(object)
+  fullName: Prowl.Runtime.GUI.Spacing.Equals(object)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Layout/Spacing.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Equals
+    path: ../Prowl/Prowl.Runtime/GUI/Layout/Spacing.cs
+    startLine: 47
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  summary: Indicates whether this instance and a specified object are equal.
+  example: []
+  syntax:
+    content: public override bool Equals(object obj)
+    parameters:
+    - id: obj
+      type: System.Object
+      description: The object to compare with the current instance.
+    return:
+      type: System.Boolean
+      description: <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if <code class="paramref">obj</code> and this instance are the same type and represent the same value; otherwise, <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a>.
+    content.vb: Public Overrides Function Equals(obj As Object) As Boolean
+  overridden: System.ValueType.Equals(System.Object)
+  overload: Prowl.Runtime.GUI.Spacing.Equals*
+  nameWithType.vb: Spacing.Equals(Object)
+  fullName.vb: Prowl.Runtime.GUI.Spacing.Equals(Object)
+  name.vb: Equals(Object)
+references:
+- uid: Prowl.Runtime.GUI
+  commentId: N:Prowl.Runtime.GUI
+  href: Prowl.html
+  name: Prowl.Runtime.GUI
+  nameWithType: Prowl.Runtime.GUI
+  fullName: Prowl.Runtime.GUI
+  spec.csharp:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+  - name: .
+  - uid: Prowl.Runtime.GUI
+    name: GUI
+    href: Prowl.Runtime.GUI.html
+  spec.vb:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+  - name: .
+  - uid: Prowl.Runtime.GUI
+    name: GUI
+    href: Prowl.Runtime.GUI.html
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Prowl.Runtime.RuntimeUtils.GetSerializableFields
+  commentId: M:Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  parent: Prowl.Runtime.RuntimeUtils
+  definition: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  name: GetSerializableFields(object)
+  nameWithType: RuntimeUtils.GetSerializableFields(object)
+  fullName: Prowl.Runtime.RuntimeUtils.GetSerializableFields(object)
+  nameWithType.vb: RuntimeUtils.GetSerializableFields(Object)
+  fullName.vb: Prowl.Runtime.RuntimeUtils.GetSerializableFields(Object)
+  name.vb: GetSerializableFields(Object)
+  spec.csharp:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  commentId: M:Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  isExternal: true
+  href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  name: GetSerializableFields(object)
+  nameWithType: RuntimeUtils.GetSerializableFields(object)
+  fullName: Prowl.Runtime.RuntimeUtils.GetSerializableFields(object)
+  nameWithType.vb: RuntimeUtils.GetSerializableFields(Object)
+  fullName.vb: Prowl.Runtime.RuntimeUtils.GetSerializableFields(Object)
+  name.vb: GetSerializableFields(Object)
+  spec.csharp:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: Prowl.Runtime.RuntimeUtils
+  commentId: T:Prowl.Runtime.RuntimeUtils
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.RuntimeUtils.html
+  name: RuntimeUtils
+  nameWithType: RuntimeUtils
+  fullName: Prowl.Runtime.RuntimeUtils
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Prowl.Runtime
+  commentId: N:Prowl.Runtime
+  href: Prowl.html
+  name: Prowl.Runtime
+  nameWithType: Prowl.Runtime
+  fullName: Prowl.Runtime
+  spec.csharp:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+  spec.vb:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.double
+  name: double
+  nameWithType: double
+  fullName: double
+  nameWithType.vb: Double
+  fullName.vb: Double
+  name.vb: Double
+- uid: Prowl.Runtime.GUI.Spacing.Horizontal*
+  commentId: Overload:Prowl.Runtime.GUI.Spacing.Horizontal
+  href: Prowl.Runtime.GUI.Spacing.html#Prowl_Runtime_GUI_Spacing_Horizontal
+  name: Horizontal
+  nameWithType: Spacing.Horizontal
+  fullName: Prowl.Runtime.GUI.Spacing.Horizontal
+- uid: Prowl.Runtime.GUI.Spacing.Vertical*
+  commentId: Overload:Prowl.Runtime.GUI.Spacing.Vertical
+  href: Prowl.Runtime.GUI.Spacing.html#Prowl_Runtime_GUI_Spacing_Vertical
+  name: Vertical
+  nameWithType: Spacing.Vertical
+  fullName: Prowl.Runtime.GUI.Spacing.Vertical
+- uid: Prowl.Runtime.GUI.Spacing.TopLeft*
+  commentId: Overload:Prowl.Runtime.GUI.Spacing.TopLeft
+  href: Prowl.Runtime.GUI.Spacing.html#Prowl_Runtime_GUI_Spacing_TopLeft
+  name: TopLeft
+  nameWithType: Spacing.TopLeft
+  fullName: Prowl.Runtime.GUI.Spacing.TopLeft
+- uid: Prowl.Runtime.Vector2
+  commentId: T:Prowl.Runtime.Vector2
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.Vector2.html
+  name: Vector2
+  nameWithType: Vector2
+  fullName: Prowl.Runtime.Vector2
+- uid: Prowl.Runtime.GUI.Spacing.TopRight*
+  commentId: Overload:Prowl.Runtime.GUI.Spacing.TopRight
+  href: Prowl.Runtime.GUI.Spacing.html#Prowl_Runtime_GUI_Spacing_TopRight
+  name: TopRight
+  nameWithType: Spacing.TopRight
+  fullName: Prowl.Runtime.GUI.Spacing.TopRight
+- uid: Prowl.Runtime.GUI.Spacing.BottomLeft*
+  commentId: Overload:Prowl.Runtime.GUI.Spacing.BottomLeft
+  href: Prowl.Runtime.GUI.Spacing.html#Prowl_Runtime_GUI_Spacing_BottomLeft
+  name: BottomLeft
+  nameWithType: Spacing.BottomLeft
+  fullName: Prowl.Runtime.GUI.Spacing.BottomLeft
+- uid: Prowl.Runtime.GUI.Spacing.BottomRight*
+  commentId: Overload:Prowl.Runtime.GUI.Spacing.BottomRight
+  href: Prowl.Runtime.GUI.Spacing.html#Prowl_Runtime_GUI_Spacing_BottomRight
+  name: BottomRight
+  nameWithType: Spacing.BottomRight
+  fullName: Prowl.Runtime.GUI.Spacing.BottomRight
+- uid: Prowl.Runtime.GUI.Spacing.#ctor*
+  commentId: Overload:Prowl.Runtime.GUI.Spacing.#ctor
+  href: Prowl.Runtime.GUI.Spacing.html#Prowl_Runtime_GUI_Spacing__ctor
+  name: Spacing
+  nameWithType: Spacing.Spacing
+  fullName: Prowl.Runtime.GUI.Spacing.Spacing
+  nameWithType.vb: Spacing.New
+  fullName.vb: Prowl.Runtime.GUI.Spacing.New
+  name.vb: New
+- uid: Prowl.Runtime.GUI.Spacing.op_Equality*
+  commentId: Overload:Prowl.Runtime.GUI.Spacing.op_Equality
+  href: Prowl.Runtime.GUI.Spacing.html#Prowl_Runtime_GUI_Spacing_op_Equality_Prowl_Runtime_GUI_Spacing_Prowl_Runtime_GUI_Spacing_
+  name: operator ==
+  nameWithType: Spacing.operator ==
+  fullName: Prowl.Runtime.GUI.Spacing.operator ==
+  nameWithType.vb: Spacing.=
+  fullName.vb: Prowl.Runtime.GUI.Spacing.=
+  name.vb: =
+  spec.csharp:
+  - name: operator
+  - name: " "
+  - uid: Prowl.Runtime.GUI.Spacing.op_Equality*
+    name: ==
+    href: Prowl.Runtime.GUI.Spacing.html#Prowl_Runtime_GUI_Spacing_op_Equality_Prowl_Runtime_GUI_Spacing_Prowl_Runtime_GUI_Spacing_
+- uid: Prowl.Runtime.GUI.Spacing
+  commentId: T:Prowl.Runtime.GUI.Spacing
+  parent: Prowl.Runtime.GUI
+  href: Prowl.Runtime.GUI.Spacing.html
+  name: Spacing
+  nameWithType: Spacing
+  fullName: Prowl.Runtime.GUI.Spacing
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: Prowl.Runtime.GUI.Spacing.op_Inequality*
+  commentId: Overload:Prowl.Runtime.GUI.Spacing.op_Inequality
+  href: Prowl.Runtime.GUI.Spacing.html#Prowl_Runtime_GUI_Spacing_op_Inequality_Prowl_Runtime_GUI_Spacing_Prowl_Runtime_GUI_Spacing_
+  name: operator !=
+  nameWithType: Spacing.operator !=
+  fullName: Prowl.Runtime.GUI.Spacing.operator !=
+  nameWithType.vb: Spacing.<>
+  fullName.vb: Prowl.Runtime.GUI.Spacing.<>
+  name.vb: <>
+  spec.csharp:
+  - name: operator
+  - name: " "
+  - uid: Prowl.Runtime.GUI.Spacing.op_Inequality*
+    name: '!='
+    href: Prowl.Runtime.GUI.Spacing.html#Prowl_Runtime_GUI_Spacing_op_Inequality_Prowl_Runtime_GUI_Spacing_Prowl_Runtime_GUI_Spacing_
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  name: Equals(object)
+  nameWithType: ValueType.Equals(object)
+  fullName: System.ValueType.Equals(object)
+  nameWithType.vb: ValueType.Equals(Object)
+  fullName.vb: System.ValueType.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: Prowl.Runtime.GUI.Spacing.Equals*
+  commentId: Overload:Prowl.Runtime.GUI.Spacing.Equals
+  href: Prowl.Runtime.GUI.Spacing.html#Prowl_Runtime_GUI_Spacing_Equals_System_Object_
+  name: Equals
+  nameWithType: Spacing.Equals
+  fullName: Prowl.Runtime.GUI.Spacing.Equals

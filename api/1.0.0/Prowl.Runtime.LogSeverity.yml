@@ -1,0 +1,263 @@
+### YamlMime:ManagedReference
+items:
+- uid: Prowl.Runtime.LogSeverity
+  commentId: T:Prowl.Runtime.LogSeverity
+  id: LogSeverity
+  parent: Prowl.Runtime
+  children:
+  - Prowl.Runtime.LogSeverity.Error
+  - Prowl.Runtime.LogSeverity.Exception
+  - Prowl.Runtime.LogSeverity.Normal
+  - Prowl.Runtime.LogSeverity.Success
+  - Prowl.Runtime.LogSeverity.Warning
+  langs:
+  - csharp
+  - vb
+  name: LogSeverity
+  nameWithType: LogSeverity
+  fullName: Prowl.Runtime.LogSeverity
+  type: Enum
+  source:
+    remote:
+      path: Prowl.Runtime/Debug.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: LogSeverity
+    path: ../Prowl/Prowl.Runtime/Debug.cs
+    startLine: 13
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public enum LogSeverity
+    content.vb: Public Enum LogSeverity
+  extensionMethods:
+  - System.Object.Prowl.Runtime.RuntimeUtils.GetSerializableFields
+- uid: Prowl.Runtime.LogSeverity.Success
+  commentId: F:Prowl.Runtime.LogSeverity.Success
+  id: Success
+  parent: Prowl.Runtime.LogSeverity
+  langs:
+  - csharp
+  - vb
+  name: Success
+  nameWithType: LogSeverity.Success
+  fullName: Prowl.Runtime.LogSeverity.Success
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/Debug.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Success
+    path: ../Prowl/Prowl.Runtime/Debug.cs
+    startLine: 15
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: Success = 1
+    return:
+      type: Prowl.Runtime.LogSeverity
+- uid: Prowl.Runtime.LogSeverity.Normal
+  commentId: F:Prowl.Runtime.LogSeverity.Normal
+  id: Normal
+  parent: Prowl.Runtime.LogSeverity
+  langs:
+  - csharp
+  - vb
+  name: Normal
+  nameWithType: LogSeverity.Normal
+  fullName: Prowl.Runtime.LogSeverity.Normal
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/Debug.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Normal
+    path: ../Prowl/Prowl.Runtime/Debug.cs
+    startLine: 16
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: Normal = 2
+    return:
+      type: Prowl.Runtime.LogSeverity
+- uid: Prowl.Runtime.LogSeverity.Warning
+  commentId: F:Prowl.Runtime.LogSeverity.Warning
+  id: Warning
+  parent: Prowl.Runtime.LogSeverity
+  langs:
+  - csharp
+  - vb
+  name: Warning
+  nameWithType: LogSeverity.Warning
+  fullName: Prowl.Runtime.LogSeverity.Warning
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/Debug.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Warning
+    path: ../Prowl/Prowl.Runtime/Debug.cs
+    startLine: 17
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: Warning = 4
+    return:
+      type: Prowl.Runtime.LogSeverity
+- uid: Prowl.Runtime.LogSeverity.Error
+  commentId: F:Prowl.Runtime.LogSeverity.Error
+  id: Error
+  parent: Prowl.Runtime.LogSeverity
+  langs:
+  - csharp
+  - vb
+  name: Error
+  nameWithType: LogSeverity.Error
+  fullName: Prowl.Runtime.LogSeverity.Error
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/Debug.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Error
+    path: ../Prowl/Prowl.Runtime/Debug.cs
+    startLine: 18
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: Error = 8
+    return:
+      type: Prowl.Runtime.LogSeverity
+- uid: Prowl.Runtime.LogSeverity.Exception
+  commentId: F:Prowl.Runtime.LogSeverity.Exception
+  id: Exception
+  parent: Prowl.Runtime.LogSeverity
+  langs:
+  - csharp
+  - vb
+  name: Exception
+  nameWithType: LogSeverity.Exception
+  fullName: Prowl.Runtime.LogSeverity.Exception
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/Debug.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Exception
+    path: ../Prowl/Prowl.Runtime/Debug.cs
+    startLine: 19
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: Exception = 16
+    return:
+      type: Prowl.Runtime.LogSeverity
+references:
+- uid: Prowl.Runtime
+  commentId: N:Prowl.Runtime
+  href: Prowl.html
+  name: Prowl.Runtime
+  nameWithType: Prowl.Runtime
+  fullName: Prowl.Runtime
+  spec.csharp:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+  spec.vb:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+- uid: System.Object.Prowl.Runtime.RuntimeUtils.GetSerializableFields
+  commentId: M:Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  parent: Prowl.Runtime.RuntimeUtils
+  definition: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  name: GetSerializableFields(object)
+  nameWithType: RuntimeUtils.GetSerializableFields(object)
+  fullName: Prowl.Runtime.RuntimeUtils.GetSerializableFields(object)
+  nameWithType.vb: RuntimeUtils.GetSerializableFields(Object)
+  fullName.vb: Prowl.Runtime.RuntimeUtils.GetSerializableFields(Object)
+  name.vb: GetSerializableFields(Object)
+  spec.csharp:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  commentId: M:Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  isExternal: true
+  href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  name: GetSerializableFields(object)
+  nameWithType: RuntimeUtils.GetSerializableFields(object)
+  fullName: Prowl.Runtime.RuntimeUtils.GetSerializableFields(object)
+  nameWithType.vb: RuntimeUtils.GetSerializableFields(Object)
+  fullName.vb: Prowl.Runtime.RuntimeUtils.GetSerializableFields(Object)
+  name.vb: GetSerializableFields(Object)
+  spec.csharp:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: Prowl.Runtime.RuntimeUtils
+  commentId: T:Prowl.Runtime.RuntimeUtils
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.RuntimeUtils.html
+  name: RuntimeUtils
+  nameWithType: RuntimeUtils
+  fullName: Prowl.Runtime.RuntimeUtils
+- uid: Prowl.Runtime.LogSeverity
+  commentId: T:Prowl.Runtime.LogSeverity
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.LogSeverity.html
+  name: LogSeverity
+  nameWithType: LogSeverity
+  fullName: Prowl.Runtime.LogSeverity

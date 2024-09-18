@@ -1,0 +1,454 @@
+### YamlMime:ManagedReference
+items:
+- uid: Prowl.Runtime.GUI.Gui.InputFieldFlags
+  commentId: T:Prowl.Runtime.GUI.Gui.InputFieldFlags
+  id: Gui.InputFieldFlags
+  parent: Prowl.Runtime.GUI
+  children:
+  - Prowl.Runtime.GUI.Gui.InputFieldFlags.AllowTab
+  - Prowl.Runtime.GUI.Gui.InputFieldFlags.AutoSelectAll
+  - Prowl.Runtime.GUI.Gui.InputFieldFlags.EnterReturnsTrue
+  - Prowl.Runtime.GUI.Gui.InputFieldFlags.Multiline
+  - Prowl.Runtime.GUI.Gui.InputFieldFlags.NoHorizontalScroll
+  - Prowl.Runtime.GUI.Gui.InputFieldFlags.NoSelection
+  - Prowl.Runtime.GUI.Gui.InputFieldFlags.None
+  - Prowl.Runtime.GUI.Gui.InputFieldFlags.NumbersOnly
+  - Prowl.Runtime.GUI.Gui.InputFieldFlags.OnlyDisplay
+  - Prowl.Runtime.GUI.Gui.InputFieldFlags.Readonly
+  langs:
+  - csharp
+  - vb
+  name: Gui.InputFieldFlags
+  nameWithType: Gui.InputFieldFlags
+  fullName: Prowl.Runtime.GUI.Gui.InputFieldFlags
+  type: Enum
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Widgets/Gui.InputField.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: InputFieldFlags
+    path: ../Prowl/Prowl.Runtime/GUI/Widgets/Gui.InputField.cs
+    startLine: 13
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  syntax:
+    content: >-
+      [Flags]
+
+      public enum Gui.InputFieldFlags : uint
+    content.vb: >-
+      <Flags>
+
+      Public Enum Gui.InputFieldFlags As UInteger
+  extensionMethods:
+  - System.Object.Prowl.Runtime.RuntimeUtils.GetSerializableFields
+  attributes:
+  - type: System.FlagsAttribute
+    ctor: System.FlagsAttribute.#ctor
+    arguments: []
+- uid: Prowl.Runtime.GUI.Gui.InputFieldFlags.None
+  commentId: F:Prowl.Runtime.GUI.Gui.InputFieldFlags.None
+  id: None
+  parent: Prowl.Runtime.GUI.Gui.InputFieldFlags
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: Gui.InputFieldFlags.None
+  fullName: Prowl.Runtime.GUI.Gui.InputFieldFlags.None
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Widgets/Gui.InputField.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: None
+    path: ../Prowl/Prowl.Runtime/GUI/Widgets/Gui.InputField.cs
+    startLine: 16
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  syntax:
+    content: None = 0
+    return:
+      type: Prowl.Runtime.GUI.Gui.InputFieldFlags
+- uid: Prowl.Runtime.GUI.Gui.InputFieldFlags.NumbersOnly
+  commentId: F:Prowl.Runtime.GUI.Gui.InputFieldFlags.NumbersOnly
+  id: NumbersOnly
+  parent: Prowl.Runtime.GUI.Gui.InputFieldFlags
+  langs:
+  - csharp
+  - vb
+  name: NumbersOnly
+  nameWithType: Gui.InputFieldFlags.NumbersOnly
+  fullName: Prowl.Runtime.GUI.Gui.InputFieldFlags.NumbersOnly
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Widgets/Gui.InputField.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: NumbersOnly
+    path: ../Prowl/Prowl.Runtime/GUI/Widgets/Gui.InputField.cs
+    startLine: 18
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  syntax:
+    content: NumbersOnly = 1
+    return:
+      type: Prowl.Runtime.GUI.Gui.InputFieldFlags
+- uid: Prowl.Runtime.GUI.Gui.InputFieldFlags.Multiline
+  commentId: F:Prowl.Runtime.GUI.Gui.InputFieldFlags.Multiline
+  id: Multiline
+  parent: Prowl.Runtime.GUI.Gui.InputFieldFlags
+  langs:
+  - csharp
+  - vb
+  name: Multiline
+  nameWithType: Gui.InputFieldFlags.Multiline
+  fullName: Prowl.Runtime.GUI.Gui.InputFieldFlags.Multiline
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Widgets/Gui.InputField.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Multiline
+    path: ../Prowl/Prowl.Runtime/GUI/Widgets/Gui.InputField.cs
+    startLine: 19
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  syntax:
+    content: Multiline = 2
+    return:
+      type: Prowl.Runtime.GUI.Gui.InputFieldFlags
+- uid: Prowl.Runtime.GUI.Gui.InputFieldFlags.AllowTab
+  commentId: F:Prowl.Runtime.GUI.Gui.InputFieldFlags.AllowTab
+  id: AllowTab
+  parent: Prowl.Runtime.GUI.Gui.InputFieldFlags
+  langs:
+  - csharp
+  - vb
+  name: AllowTab
+  nameWithType: Gui.InputFieldFlags.AllowTab
+  fullName: Prowl.Runtime.GUI.Gui.InputFieldFlags.AllowTab
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Widgets/Gui.InputField.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: AllowTab
+    path: ../Prowl/Prowl.Runtime/GUI/Widgets/Gui.InputField.cs
+    startLine: 20
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  syntax:
+    content: AllowTab = 4
+    return:
+      type: Prowl.Runtime.GUI.Gui.InputFieldFlags
+- uid: Prowl.Runtime.GUI.Gui.InputFieldFlags.NoSelection
+  commentId: F:Prowl.Runtime.GUI.Gui.InputFieldFlags.NoSelection
+  id: NoSelection
+  parent: Prowl.Runtime.GUI.Gui.InputFieldFlags
+  langs:
+  - csharp
+  - vb
+  name: NoSelection
+  nameWithType: Gui.InputFieldFlags.NoSelection
+  fullName: Prowl.Runtime.GUI.Gui.InputFieldFlags.NoSelection
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Widgets/Gui.InputField.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: NoSelection
+    path: ../Prowl/Prowl.Runtime/GUI/Widgets/Gui.InputField.cs
+    startLine: 21
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  syntax:
+    content: NoSelection = 8
+    return:
+      type: Prowl.Runtime.GUI.Gui.InputFieldFlags
+- uid: Prowl.Runtime.GUI.Gui.InputFieldFlags.AutoSelectAll
+  commentId: F:Prowl.Runtime.GUI.Gui.InputFieldFlags.AutoSelectAll
+  id: AutoSelectAll
+  parent: Prowl.Runtime.GUI.Gui.InputFieldFlags
+  langs:
+  - csharp
+  - vb
+  name: AutoSelectAll
+  nameWithType: Gui.InputFieldFlags.AutoSelectAll
+  fullName: Prowl.Runtime.GUI.Gui.InputFieldFlags.AutoSelectAll
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Widgets/Gui.InputField.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: AutoSelectAll
+    path: ../Prowl/Prowl.Runtime/GUI/Widgets/Gui.InputField.cs
+    startLine: 22
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  syntax:
+    content: AutoSelectAll = 16
+    return:
+      type: Prowl.Runtime.GUI.Gui.InputFieldFlags
+- uid: Prowl.Runtime.GUI.Gui.InputFieldFlags.EnterReturnsTrue
+  commentId: F:Prowl.Runtime.GUI.Gui.InputFieldFlags.EnterReturnsTrue
+  id: EnterReturnsTrue
+  parent: Prowl.Runtime.GUI.Gui.InputFieldFlags
+  langs:
+  - csharp
+  - vb
+  name: EnterReturnsTrue
+  nameWithType: Gui.InputFieldFlags.EnterReturnsTrue
+  fullName: Prowl.Runtime.GUI.Gui.InputFieldFlags.EnterReturnsTrue
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Widgets/Gui.InputField.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: EnterReturnsTrue
+    path: ../Prowl/Prowl.Runtime/GUI/Widgets/Gui.InputField.cs
+    startLine: 23
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  syntax:
+    content: EnterReturnsTrue = 32
+    return:
+      type: Prowl.Runtime.GUI.Gui.InputFieldFlags
+- uid: Prowl.Runtime.GUI.Gui.InputFieldFlags.OnlyDisplay
+  commentId: F:Prowl.Runtime.GUI.Gui.InputFieldFlags.OnlyDisplay
+  id: OnlyDisplay
+  parent: Prowl.Runtime.GUI.Gui.InputFieldFlags
+  langs:
+  - csharp
+  - vb
+  name: OnlyDisplay
+  nameWithType: Gui.InputFieldFlags.OnlyDisplay
+  fullName: Prowl.Runtime.GUI.Gui.InputFieldFlags.OnlyDisplay
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Widgets/Gui.InputField.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: OnlyDisplay
+    path: ../Prowl/Prowl.Runtime/GUI/Widgets/Gui.InputField.cs
+    startLine: 24
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  syntax:
+    content: OnlyDisplay = 64
+    return:
+      type: Prowl.Runtime.GUI.Gui.InputFieldFlags
+- uid: Prowl.Runtime.GUI.Gui.InputFieldFlags.Readonly
+  commentId: F:Prowl.Runtime.GUI.Gui.InputFieldFlags.Readonly
+  id: Readonly
+  parent: Prowl.Runtime.GUI.Gui.InputFieldFlags
+  langs:
+  - csharp
+  - vb
+  name: Readonly
+  nameWithType: Gui.InputFieldFlags.Readonly
+  fullName: Prowl.Runtime.GUI.Gui.InputFieldFlags.Readonly
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Widgets/Gui.InputField.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Readonly
+    path: ../Prowl/Prowl.Runtime/GUI/Widgets/Gui.InputField.cs
+    startLine: 25
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  syntax:
+    content: Readonly = 128
+    return:
+      type: Prowl.Runtime.GUI.Gui.InputFieldFlags
+- uid: Prowl.Runtime.GUI.Gui.InputFieldFlags.NoHorizontalScroll
+  commentId: F:Prowl.Runtime.GUI.Gui.InputFieldFlags.NoHorizontalScroll
+  id: NoHorizontalScroll
+  parent: Prowl.Runtime.GUI.Gui.InputFieldFlags
+  langs:
+  - csharp
+  - vb
+  name: NoHorizontalScroll
+  nameWithType: Gui.InputFieldFlags.NoHorizontalScroll
+  fullName: Prowl.Runtime.GUI.Gui.InputFieldFlags.NoHorizontalScroll
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Widgets/Gui.InputField.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: NoHorizontalScroll
+    path: ../Prowl/Prowl.Runtime/GUI/Widgets/Gui.InputField.cs
+    startLine: 26
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  syntax:
+    content: NoHorizontalScroll = 256
+    return:
+      type: Prowl.Runtime.GUI.Gui.InputFieldFlags
+references:
+- uid: Prowl.Runtime.GUI
+  commentId: N:Prowl.Runtime.GUI
+  href: Prowl.html
+  name: Prowl.Runtime.GUI
+  nameWithType: Prowl.Runtime.GUI
+  fullName: Prowl.Runtime.GUI
+  spec.csharp:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+  - name: .
+  - uid: Prowl.Runtime.GUI
+    name: GUI
+    href: Prowl.Runtime.GUI.html
+  spec.vb:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+  - name: .
+  - uid: Prowl.Runtime.GUI
+    name: GUI
+    href: Prowl.Runtime.GUI.html
+- uid: System.Object.Prowl.Runtime.RuntimeUtils.GetSerializableFields
+  commentId: M:Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  parent: Prowl.Runtime.RuntimeUtils
+  definition: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  name: GetSerializableFields(object)
+  nameWithType: RuntimeUtils.GetSerializableFields(object)
+  fullName: Prowl.Runtime.RuntimeUtils.GetSerializableFields(object)
+  nameWithType.vb: RuntimeUtils.GetSerializableFields(Object)
+  fullName.vb: Prowl.Runtime.RuntimeUtils.GetSerializableFields(Object)
+  name.vb: GetSerializableFields(Object)
+  spec.csharp:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  commentId: M:Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  isExternal: true
+  href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  name: GetSerializableFields(object)
+  nameWithType: RuntimeUtils.GetSerializableFields(object)
+  fullName: Prowl.Runtime.RuntimeUtils.GetSerializableFields(object)
+  nameWithType.vb: RuntimeUtils.GetSerializableFields(Object)
+  fullName.vb: Prowl.Runtime.RuntimeUtils.GetSerializableFields(Object)
+  name.vb: GetSerializableFields(Object)
+  spec.csharp:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: Prowl.Runtime.RuntimeUtils
+  commentId: T:Prowl.Runtime.RuntimeUtils
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.RuntimeUtils.html
+  name: RuntimeUtils
+  nameWithType: RuntimeUtils
+  fullName: Prowl.Runtime.RuntimeUtils
+- uid: Prowl.Runtime
+  commentId: N:Prowl.Runtime
+  href: Prowl.html
+  name: Prowl.Runtime
+  nameWithType: Prowl.Runtime
+  fullName: Prowl.Runtime
+  spec.csharp:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+  spec.vb:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+- uid: Prowl.Runtime.GUI.Gui.InputFieldFlags
+  commentId: T:Prowl.Runtime.GUI.Gui.InputFieldFlags
+  parent: Prowl.Runtime.GUI
+  href: Prowl.Runtime.GUI.Gui.html
+  name: Gui.InputFieldFlags
+  nameWithType: Gui.InputFieldFlags
+  fullName: Prowl.Runtime.GUI.Gui.InputFieldFlags
+  spec.csharp:
+  - uid: Prowl.Runtime.GUI.Gui
+    name: Gui
+    href: Prowl.Runtime.GUI.Gui.html
+  - name: .
+  - uid: Prowl.Runtime.GUI.Gui.InputFieldFlags
+    name: InputFieldFlags
+    href: Prowl.Runtime.GUI.Gui.InputFieldFlags.html
+  spec.vb:
+  - uid: Prowl.Runtime.GUI.Gui
+    name: Gui
+    href: Prowl.Runtime.GUI.Gui.html
+  - name: .
+  - uid: Prowl.Runtime.GUI.Gui.InputFieldFlags
+    name: InputFieldFlags
+    href: Prowl.Runtime.GUI.Gui.InputFieldFlags.html

@@ -1,0 +1,685 @@
+### YamlMime:ManagedReference
+items:
+- uid: Prowl.Runtime.Contacts.IContactEventHandler
+  commentId: T:Prowl.Runtime.Contacts.IContactEventHandler
+  id: IContactEventHandler
+  parent: Prowl.Runtime.Contacts
+  children:
+  - Prowl.Runtime.Contacts.IContactEventHandler.NoContactResponse
+  - Prowl.Runtime.Contacts.IContactEventHandler.OnContactAdded``1(BepuPhysics.Collidables.CollidableReference,BepuPhysics.Collidables.CollidableReference,``0@,System.Int32,System.Int32)
+  - Prowl.Runtime.Contacts.IContactEventHandler.OnContactRemoved``1(BepuPhysics.Collidables.CollidableReference,BepuPhysics.Collidables.CollidableReference,``0@,System.Int32,System.Int32)
+  - Prowl.Runtime.Contacts.IContactEventHandler.OnPairCreated``1(BepuPhysics.Collidables.CollidableReference,BepuPhysics.Collidables.CollidableReference,``0@,System.Int32)
+  - Prowl.Runtime.Contacts.IContactEventHandler.OnPairEnded(BepuPhysics.Collidables.CollidableReference,BepuPhysics.Collidables.CollidableReference)
+  - Prowl.Runtime.Contacts.IContactEventHandler.OnPairUpdated``1(BepuPhysics.Collidables.CollidableReference,BepuPhysics.Collidables.CollidableReference,``0@,System.Int32)
+  - Prowl.Runtime.Contacts.IContactEventHandler.OnStartedTouching``1(BepuPhysics.Collidables.CollidableReference,BepuPhysics.Collidables.CollidableReference,``0@,System.Int32)
+  - Prowl.Runtime.Contacts.IContactEventHandler.OnStoppedTouching``1(BepuPhysics.Collidables.CollidableReference,BepuPhysics.Collidables.CollidableReference,``0@,System.Int32)
+  - Prowl.Runtime.Contacts.IContactEventHandler.OnTouching``1(BepuPhysics.Collidables.CollidableReference,BepuPhysics.Collidables.CollidableReference,``0@,System.Int32)
+  langs:
+  - csharp
+  - vb
+  name: IContactEventHandler
+  nameWithType: IContactEventHandler
+  fullName: Prowl.Runtime.Contacts.IContactEventHandler
+  type: Interface
+  source:
+    remote:
+      path: Prowl.Runtime/Components/Physics/Types/Contacts/IContactEventHandler.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: IContactEventHandler
+    path: ../Prowl/Prowl.Runtime/Components/Physics/Types/Contacts/IContactEventHandler.cs
+    startLine: 11
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.Contacts
+  summary: Implements handlers for various collision events.
+  example: []
+  syntax:
+    content: public interface IContactEventHandler
+    content.vb: Public Interface IContactEventHandler
+  extensionMethods:
+  - System.Object.Prowl.Runtime.RuntimeUtils.GetSerializableFields
+- uid: Prowl.Runtime.Contacts.IContactEventHandler.NoContactResponse
+  commentId: P:Prowl.Runtime.Contacts.IContactEventHandler.NoContactResponse
+  id: NoContactResponse
+  parent: Prowl.Runtime.Contacts.IContactEventHandler
+  langs:
+  - csharp
+  - vb
+  name: NoContactResponse
+  nameWithType: IContactEventHandler.NoContactResponse
+  fullName: Prowl.Runtime.Contacts.IContactEventHandler.NoContactResponse
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/Components/Physics/Types/Contacts/IContactEventHandler.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: NoContactResponse
+    path: ../Prowl/Prowl.Runtime/Components/Physics/Types/Contacts/IContactEventHandler.cs
+    startLine: 16
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.Contacts
+  summary: Whether the object this is attached to should let colliders pass through it
+  example: []
+  syntax:
+    content: bool NoContactResponse { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: ReadOnly Property NoContactResponse As Boolean
+  overload: Prowl.Runtime.Contacts.IContactEventHandler.NoContactResponse*
+- uid: Prowl.Runtime.Contacts.IContactEventHandler.OnContactAdded``1(BepuPhysics.Collidables.CollidableReference,BepuPhysics.Collidables.CollidableReference,``0@,System.Int32,System.Int32)
+  commentId: M:Prowl.Runtime.Contacts.IContactEventHandler.OnContactAdded``1(BepuPhysics.Collidables.CollidableReference,BepuPhysics.Collidables.CollidableReference,``0@,System.Int32,System.Int32)
+  id: OnContactAdded``1(BepuPhysics.Collidables.CollidableReference,BepuPhysics.Collidables.CollidableReference,``0@,System.Int32,System.Int32)
+  parent: Prowl.Runtime.Contacts.IContactEventHandler
+  langs:
+  - csharp
+  - vb
+  name: OnContactAdded<TManifold>(CollidableReference, CollidableReference, ref TManifold, int, int)
+  nameWithType: IContactEventHandler.OnContactAdded<TManifold>(CollidableReference, CollidableReference, ref TManifold, int, int)
+  fullName: Prowl.Runtime.Contacts.IContactEventHandler.OnContactAdded<TManifold>(BepuPhysics.Collidables.CollidableReference, BepuPhysics.Collidables.CollidableReference, ref TManifold, int, int)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Components/Physics/Types/Contacts/IContactEventHandler.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: OnContactAdded
+    path: ../Prowl/Prowl.Runtime/Components/Physics/Types/Contacts/IContactEventHandler.cs
+    startLine: 27
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.Contacts
+  summary: Fires when a contact is added.
+  example: []
+  syntax:
+    content: 'void OnContactAdded<TManifold>(CollidableReference eventSource, CollidableReference other, ref TManifold contactManifold, int contactIndex, int workerIndex) where TManifold : unmanaged, IContactManifold<TManifold>'
+    parameters:
+    - id: eventSource
+      type: BepuPhysics.Collidables.CollidableReference
+      description: Collidable that the event was attached to.
+    - id: other
+      type: BepuPhysics.Collidables.CollidableReference
+      description: Other collider <code class="paramref">eventSource</code> collided with.
+    - id: contactManifold
+      type: '{TManifold}'
+      description: Set of remaining contacts in the collision.
+    - id: contactIndex
+      type: System.Int32
+      description: Index of the new contact in the contact manifold.
+    - id: workerIndex
+      type: System.Int32
+      description: Index of the worker thread that fired this event.
+    typeParameters:
+    - id: TManifold
+      description: Type of the contact manifold detected.
+    content.vb: Sub OnContactAdded(Of TManifold As {Structure, IContactManifold(Of TManifold)})(eventSource As CollidableReference, other As CollidableReference, contactManifold As TManifold, contactIndex As Integer, workerIndex As Integer)
+  overload: Prowl.Runtime.Contacts.IContactEventHandler.OnContactAdded*
+  nameWithType.vb: IContactEventHandler.OnContactAdded(Of TManifold)(CollidableReference, CollidableReference, TManifold, Integer, Integer)
+  fullName.vb: Prowl.Runtime.Contacts.IContactEventHandler.OnContactAdded(Of TManifold)(BepuPhysics.Collidables.CollidableReference, BepuPhysics.Collidables.CollidableReference, TManifold, Integer, Integer)
+  name.vb: OnContactAdded(Of TManifold)(CollidableReference, CollidableReference, TManifold, Integer, Integer)
+- uid: Prowl.Runtime.Contacts.IContactEventHandler.OnContactRemoved``1(BepuPhysics.Collidables.CollidableReference,BepuPhysics.Collidables.CollidableReference,``0@,System.Int32,System.Int32)
+  commentId: M:Prowl.Runtime.Contacts.IContactEventHandler.OnContactRemoved``1(BepuPhysics.Collidables.CollidableReference,BepuPhysics.Collidables.CollidableReference,``0@,System.Int32,System.Int32)
+  id: OnContactRemoved``1(BepuPhysics.Collidables.CollidableReference,BepuPhysics.Collidables.CollidableReference,``0@,System.Int32,System.Int32)
+  parent: Prowl.Runtime.Contacts.IContactEventHandler
+  langs:
+  - csharp
+  - vb
+  name: OnContactRemoved<TManifold>(CollidableReference, CollidableReference, ref TManifold, int, int)
+  nameWithType: IContactEventHandler.OnContactRemoved<TManifold>(CollidableReference, CollidableReference, ref TManifold, int, int)
+  fullName: Prowl.Runtime.Contacts.IContactEventHandler.OnContactRemoved<TManifold>(BepuPhysics.Collidables.CollidableReference, BepuPhysics.Collidables.CollidableReference, ref TManifold, int, int)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Components/Physics/Types/Contacts/IContactEventHandler.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: OnContactRemoved
+    path: ../Prowl/Prowl.Runtime/Components/Physics/Types/Contacts/IContactEventHandler.cs
+    startLine: 40
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.Contacts
+  summary: Fires when a contact is removed.
+  example: []
+  syntax:
+    content: 'void OnContactRemoved<TManifold>(CollidableReference eventSource, CollidableReference other, ref TManifold contactManifold, int removedFeatureId, int workerIndex) where TManifold : unmanaged, IContactManifold<TManifold>'
+    parameters:
+    - id: eventSource
+      type: BepuPhysics.Collidables.CollidableReference
+      description: Collidable that the event was attached to.
+    - id: other
+      type: BepuPhysics.Collidables.CollidableReference
+      description: Other collider <code class="paramref">eventSource</code> collided with.
+    - id: contactManifold
+      type: '{TManifold}'
+      description: Set of remaining contacts in the collision.
+    - id: removedFeatureId
+      type: System.Int32
+      description: Feature id of the contact that was removed and is no longer present in the contact manifold.
+    - id: workerIndex
+      type: System.Int32
+      description: Index of the worker thread that fired this event.
+    typeParameters:
+    - id: TManifold
+      description: Type of the contact manifold detected.
+    content.vb: Sub OnContactRemoved(Of TManifold As {Structure, IContactManifold(Of TManifold)})(eventSource As CollidableReference, other As CollidableReference, contactManifold As TManifold, removedFeatureId As Integer, workerIndex As Integer)
+  overload: Prowl.Runtime.Contacts.IContactEventHandler.OnContactRemoved*
+  nameWithType.vb: IContactEventHandler.OnContactRemoved(Of TManifold)(CollidableReference, CollidableReference, TManifold, Integer, Integer)
+  fullName.vb: Prowl.Runtime.Contacts.IContactEventHandler.OnContactRemoved(Of TManifold)(BepuPhysics.Collidables.CollidableReference, BepuPhysics.Collidables.CollidableReference, TManifold, Integer, Integer)
+  name.vb: OnContactRemoved(Of TManifold)(CollidableReference, CollidableReference, TManifold, Integer, Integer)
+- uid: Prowl.Runtime.Contacts.IContactEventHandler.OnStartedTouching``1(BepuPhysics.Collidables.CollidableReference,BepuPhysics.Collidables.CollidableReference,``0@,System.Int32)
+  commentId: M:Prowl.Runtime.Contacts.IContactEventHandler.OnStartedTouching``1(BepuPhysics.Collidables.CollidableReference,BepuPhysics.Collidables.CollidableReference,``0@,System.Int32)
+  id: OnStartedTouching``1(BepuPhysics.Collidables.CollidableReference,BepuPhysics.Collidables.CollidableReference,``0@,System.Int32)
+  parent: Prowl.Runtime.Contacts.IContactEventHandler
+  langs:
+  - csharp
+  - vb
+  name: OnStartedTouching<TManifold>(CollidableReference, CollidableReference, ref TManifold, int)
+  nameWithType: IContactEventHandler.OnStartedTouching<TManifold>(CollidableReference, CollidableReference, ref TManifold, int)
+  fullName: Prowl.Runtime.Contacts.IContactEventHandler.OnStartedTouching<TManifold>(BepuPhysics.Collidables.CollidableReference, BepuPhysics.Collidables.CollidableReference, ref TManifold, int)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Components/Physics/Types/Contacts/IContactEventHandler.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: OnStartedTouching
+    path: ../Prowl/Prowl.Runtime/Components/Physics/Types/Contacts/IContactEventHandler.cs
+    startLine: 52
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.Contacts
+  summary: Fires the first time a pair is observed to be touching. Touching means that there are contacts with nonnegative depths in the manifold.
+  example: []
+  syntax:
+    content: 'void OnStartedTouching<TManifold>(CollidableReference eventSource, CollidableReference other, ref TManifold contactManifold, int workerIndex) where TManifold : unmanaged, IContactManifold<TManifold>'
+    parameters:
+    - id: eventSource
+      type: BepuPhysics.Collidables.CollidableReference
+      description: Collidable that the event was attached to.
+    - id: other
+      type: BepuPhysics.Collidables.CollidableReference
+      description: Other collider <code class="paramref">eventSource</code> collided with.
+    - id: contactManifold
+      type: '{TManifold}'
+      description: Set of remaining contacts in the collision.
+    - id: workerIndex
+      type: System.Int32
+      description: Index of the worker thread that fired this event.
+    typeParameters:
+    - id: TManifold
+      description: Type of the contact manifold detected.
+    content.vb: Sub OnStartedTouching(Of TManifold As {Structure, IContactManifold(Of TManifold)})(eventSource As CollidableReference, other As CollidableReference, contactManifold As TManifold, workerIndex As Integer)
+  overload: Prowl.Runtime.Contacts.IContactEventHandler.OnStartedTouching*
+  nameWithType.vb: IContactEventHandler.OnStartedTouching(Of TManifold)(CollidableReference, CollidableReference, TManifold, Integer)
+  fullName.vb: Prowl.Runtime.Contacts.IContactEventHandler.OnStartedTouching(Of TManifold)(BepuPhysics.Collidables.CollidableReference, BepuPhysics.Collidables.CollidableReference, TManifold, Integer)
+  name.vb: OnStartedTouching(Of TManifold)(CollidableReference, CollidableReference, TManifold, Integer)
+- uid: Prowl.Runtime.Contacts.IContactEventHandler.OnTouching``1(BepuPhysics.Collidables.CollidableReference,BepuPhysics.Collidables.CollidableReference,``0@,System.Int32)
+  commentId: M:Prowl.Runtime.Contacts.IContactEventHandler.OnTouching``1(BepuPhysics.Collidables.CollidableReference,BepuPhysics.Collidables.CollidableReference,``0@,System.Int32)
+  id: OnTouching``1(BepuPhysics.Collidables.CollidableReference,BepuPhysics.Collidables.CollidableReference,``0@,System.Int32)
+  parent: Prowl.Runtime.Contacts.IContactEventHandler
+  langs:
+  - csharp
+  - vb
+  name: OnTouching<TManifold>(CollidableReference, CollidableReference, ref TManifold, int)
+  nameWithType: IContactEventHandler.OnTouching<TManifold>(CollidableReference, CollidableReference, ref TManifold, int)
+  fullName: Prowl.Runtime.Contacts.IContactEventHandler.OnTouching<TManifold>(BepuPhysics.Collidables.CollidableReference, BepuPhysics.Collidables.CollidableReference, ref TManifold, int)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Components/Physics/Types/Contacts/IContactEventHandler.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: OnTouching
+    path: ../Prowl/Prowl.Runtime/Components/Physics/Types/Contacts/IContactEventHandler.cs
+    startLine: 64
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.Contacts
+  summary: Fires whenever a pair is observed to be touching. Touching means that there are contacts with nonnegative depths in the manifold. Will not fire for sleeping pairs.
+  example: []
+  syntax:
+    content: 'void OnTouching<TManifold>(CollidableReference eventSource, CollidableReference other, ref TManifold contactManifold, int workerIndex) where TManifold : unmanaged, IContactManifold<TManifold>'
+    parameters:
+    - id: eventSource
+      type: BepuPhysics.Collidables.CollidableReference
+      description: Collidable that the event was attached to.
+    - id: other
+      type: BepuPhysics.Collidables.CollidableReference
+      description: Other collider <code class="paramref">eventSource</code> collided with.
+    - id: contactManifold
+      type: '{TManifold}'
+      description: Set of remaining contacts in the collision.
+    - id: workerIndex
+      type: System.Int32
+      description: Index of the worker thread that fired this event.
+    typeParameters:
+    - id: TManifold
+      description: Type of the contact manifold detected.
+    content.vb: Sub OnTouching(Of TManifold As {Structure, IContactManifold(Of TManifold)})(eventSource As CollidableReference, other As CollidableReference, contactManifold As TManifold, workerIndex As Integer)
+  overload: Prowl.Runtime.Contacts.IContactEventHandler.OnTouching*
+  nameWithType.vb: IContactEventHandler.OnTouching(Of TManifold)(CollidableReference, CollidableReference, TManifold, Integer)
+  fullName.vb: Prowl.Runtime.Contacts.IContactEventHandler.OnTouching(Of TManifold)(BepuPhysics.Collidables.CollidableReference, BepuPhysics.Collidables.CollidableReference, TManifold, Integer)
+  name.vb: OnTouching(Of TManifold)(CollidableReference, CollidableReference, TManifold, Integer)
+- uid: Prowl.Runtime.Contacts.IContactEventHandler.OnStoppedTouching``1(BepuPhysics.Collidables.CollidableReference,BepuPhysics.Collidables.CollidableReference,``0@,System.Int32)
+  commentId: M:Prowl.Runtime.Contacts.IContactEventHandler.OnStoppedTouching``1(BepuPhysics.Collidables.CollidableReference,BepuPhysics.Collidables.CollidableReference,``0@,System.Int32)
+  id: OnStoppedTouching``1(BepuPhysics.Collidables.CollidableReference,BepuPhysics.Collidables.CollidableReference,``0@,System.Int32)
+  parent: Prowl.Runtime.Contacts.IContactEventHandler
+  langs:
+  - csharp
+  - vb
+  name: OnStoppedTouching<TManifold>(CollidableReference, CollidableReference, ref TManifold, int)
+  nameWithType: IContactEventHandler.OnStoppedTouching<TManifold>(CollidableReference, CollidableReference, ref TManifold, int)
+  fullName: Prowl.Runtime.Contacts.IContactEventHandler.OnStoppedTouching<TManifold>(BepuPhysics.Collidables.CollidableReference, BepuPhysics.Collidables.CollidableReference, ref TManifold, int)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Components/Physics/Types/Contacts/IContactEventHandler.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: OnStoppedTouching
+    path: ../Prowl/Prowl.Runtime/Components/Physics/Types/Contacts/IContactEventHandler.cs
+    startLine: 77
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.Contacts
+  summary: Fires when a pair stops touching. Touching means that there are contacts with nonnegative depths in the manifold.
+  example: []
+  syntax:
+    content: 'void OnStoppedTouching<TManifold>(CollidableReference eventSource, CollidableReference other, ref TManifold contactManifold, int workerIndex) where TManifold : unmanaged, IContactManifold<TManifold>'
+    parameters:
+    - id: eventSource
+      type: BepuPhysics.Collidables.CollidableReference
+      description: Collidable that the event was attached to.
+    - id: other
+      type: BepuPhysics.Collidables.CollidableReference
+      description: Other collider <code class="paramref">eventSource</code> collided with.
+    - id: contactManifold
+      type: '{TManifold}'
+      description: Set of remaining contacts in the collision.
+    - id: workerIndex
+      type: System.Int32
+      description: Index of the worker thread that fired this event.
+    typeParameters:
+    - id: TManifold
+      description: Type of the contact manifold detected.
+    content.vb: Sub OnStoppedTouching(Of TManifold As {Structure, IContactManifold(Of TManifold)})(eventSource As CollidableReference, other As CollidableReference, contactManifold As TManifold, workerIndex As Integer)
+  overload: Prowl.Runtime.Contacts.IContactEventHandler.OnStoppedTouching*
+  nameWithType.vb: IContactEventHandler.OnStoppedTouching(Of TManifold)(CollidableReference, CollidableReference, TManifold, Integer)
+  fullName.vb: Prowl.Runtime.Contacts.IContactEventHandler.OnStoppedTouching(Of TManifold)(BepuPhysics.Collidables.CollidableReference, BepuPhysics.Collidables.CollidableReference, TManifold, Integer)
+  name.vb: OnStoppedTouching(Of TManifold)(CollidableReference, CollidableReference, TManifold, Integer)
+- uid: Prowl.Runtime.Contacts.IContactEventHandler.OnPairCreated``1(BepuPhysics.Collidables.CollidableReference,BepuPhysics.Collidables.CollidableReference,``0@,System.Int32)
+  commentId: M:Prowl.Runtime.Contacts.IContactEventHandler.OnPairCreated``1(BepuPhysics.Collidables.CollidableReference,BepuPhysics.Collidables.CollidableReference,``0@,System.Int32)
+  id: OnPairCreated``1(BepuPhysics.Collidables.CollidableReference,BepuPhysics.Collidables.CollidableReference,``0@,System.Int32)
+  parent: Prowl.Runtime.Contacts.IContactEventHandler
+  langs:
+  - csharp
+  - vb
+  name: OnPairCreated<TManifold>(CollidableReference, CollidableReference, ref TManifold, int)
+  nameWithType: IContactEventHandler.OnPairCreated<TManifold>(CollidableReference, CollidableReference, ref TManifold, int)
+  fullName: Prowl.Runtime.Contacts.IContactEventHandler.OnPairCreated<TManifold>(BepuPhysics.Collidables.CollidableReference, BepuPhysics.Collidables.CollidableReference, ref TManifold, int)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Components/Physics/Types/Contacts/IContactEventHandler.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: OnPairCreated
+    path: ../Prowl/Prowl.Runtime/Components/Physics/Types/Contacts/IContactEventHandler.cs
+    startLine: 90
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.Contacts
+  summary: Fires when a pair is observed for the first time.
+  example: []
+  syntax:
+    content: 'void OnPairCreated<TManifold>(CollidableReference eventSource, CollidableReference other, ref TManifold contactManifold, int workerIndex) where TManifold : unmanaged, IContactManifold<TManifold>'
+    parameters:
+    - id: eventSource
+      type: BepuPhysics.Collidables.CollidableReference
+      description: Collidable that the event was attached to.
+    - id: other
+      type: BepuPhysics.Collidables.CollidableReference
+      description: Other collider <code class="paramref">eventSource</code> collided with.
+    - id: contactManifold
+      type: '{TManifold}'
+      description: Set of remaining contacts in the collision.
+    - id: workerIndex
+      type: System.Int32
+      description: Index of the worker thread that fired this event.
+    typeParameters:
+    - id: TManifold
+      description: Type of the contact manifold detected.
+    content.vb: Sub OnPairCreated(Of TManifold As {Structure, IContactManifold(Of TManifold)})(eventSource As CollidableReference, other As CollidableReference, contactManifold As TManifold, workerIndex As Integer)
+  overload: Prowl.Runtime.Contacts.IContactEventHandler.OnPairCreated*
+  nameWithType.vb: IContactEventHandler.OnPairCreated(Of TManifold)(CollidableReference, CollidableReference, TManifold, Integer)
+  fullName.vb: Prowl.Runtime.Contacts.IContactEventHandler.OnPairCreated(Of TManifold)(BepuPhysics.Collidables.CollidableReference, BepuPhysics.Collidables.CollidableReference, TManifold, Integer)
+  name.vb: OnPairCreated(Of TManifold)(CollidableReference, CollidableReference, TManifold, Integer)
+- uid: Prowl.Runtime.Contacts.IContactEventHandler.OnPairUpdated``1(BepuPhysics.Collidables.CollidableReference,BepuPhysics.Collidables.CollidableReference,``0@,System.Int32)
+  commentId: M:Prowl.Runtime.Contacts.IContactEventHandler.OnPairUpdated``1(BepuPhysics.Collidables.CollidableReference,BepuPhysics.Collidables.CollidableReference,``0@,System.Int32)
+  id: OnPairUpdated``1(BepuPhysics.Collidables.CollidableReference,BepuPhysics.Collidables.CollidableReference,``0@,System.Int32)
+  parent: Prowl.Runtime.Contacts.IContactEventHandler
+  langs:
+  - csharp
+  - vb
+  name: OnPairUpdated<TManifold>(CollidableReference, CollidableReference, ref TManifold, int)
+  nameWithType: IContactEventHandler.OnPairUpdated<TManifold>(CollidableReference, CollidableReference, ref TManifold, int)
+  fullName: Prowl.Runtime.Contacts.IContactEventHandler.OnPairUpdated<TManifold>(BepuPhysics.Collidables.CollidableReference, BepuPhysics.Collidables.CollidableReference, ref TManifold, int)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Components/Physics/Types/Contacts/IContactEventHandler.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: OnPairUpdated
+    path: ../Prowl/Prowl.Runtime/Components/Physics/Types/Contacts/IContactEventHandler.cs
+    startLine: 102
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.Contacts
+  summary: Fires whenever a pair is updated. Will not fire for sleeping pairs.
+  example: []
+  syntax:
+    content: 'void OnPairUpdated<TManifold>(CollidableReference eventSource, CollidableReference other, ref TManifold contactManifold, int workerIndex) where TManifold : unmanaged, IContactManifold<TManifold>'
+    parameters:
+    - id: eventSource
+      type: BepuPhysics.Collidables.CollidableReference
+      description: Collidable that the event was attached to.
+    - id: other
+      type: BepuPhysics.Collidables.CollidableReference
+      description: Other collider <code class="paramref">eventSource</code> collided with.
+    - id: contactManifold
+      type: '{TManifold}'
+      description: Set of remaining contacts in the collision.
+    - id: workerIndex
+      type: System.Int32
+      description: Index of the worker thread that fired this event.
+    typeParameters:
+    - id: TManifold
+      description: Type of the contact manifold detected.
+    content.vb: Sub OnPairUpdated(Of TManifold As {Structure, IContactManifold(Of TManifold)})(eventSource As CollidableReference, other As CollidableReference, contactManifold As TManifold, workerIndex As Integer)
+  overload: Prowl.Runtime.Contacts.IContactEventHandler.OnPairUpdated*
+  nameWithType.vb: IContactEventHandler.OnPairUpdated(Of TManifold)(CollidableReference, CollidableReference, TManifold, Integer)
+  fullName.vb: Prowl.Runtime.Contacts.IContactEventHandler.OnPairUpdated(Of TManifold)(BepuPhysics.Collidables.CollidableReference, BepuPhysics.Collidables.CollidableReference, TManifold, Integer)
+  name.vb: OnPairUpdated(Of TManifold)(CollidableReference, CollidableReference, TManifold, Integer)
+- uid: Prowl.Runtime.Contacts.IContactEventHandler.OnPairEnded(BepuPhysics.Collidables.CollidableReference,BepuPhysics.Collidables.CollidableReference)
+  commentId: M:Prowl.Runtime.Contacts.IContactEventHandler.OnPairEnded(BepuPhysics.Collidables.CollidableReference,BepuPhysics.Collidables.CollidableReference)
+  id: OnPairEnded(BepuPhysics.Collidables.CollidableReference,BepuPhysics.Collidables.CollidableReference)
+  parent: Prowl.Runtime.Contacts.IContactEventHandler
+  langs:
+  - csharp
+  - vb
+  name: OnPairEnded(CollidableReference, CollidableReference)
+  nameWithType: IContactEventHandler.OnPairEnded(CollidableReference, CollidableReference)
+  fullName: Prowl.Runtime.Contacts.IContactEventHandler.OnPairEnded(BepuPhysics.Collidables.CollidableReference, BepuPhysics.Collidables.CollidableReference)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Components/Physics/Types/Contacts/IContactEventHandler.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: OnPairEnded
+    path: ../Prowl/Prowl.Runtime/Components/Physics/Types/Contacts/IContactEventHandler.cs
+    startLine: 112
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.Contacts
+  summary: Fires when a pair ends.
+  example: []
+  syntax:
+    content: void OnPairEnded(CollidableReference eventSource, CollidableReference other)
+    parameters:
+    - id: eventSource
+      type: BepuPhysics.Collidables.CollidableReference
+      description: Collidable that the event was attached to.
+    - id: other
+      type: BepuPhysics.Collidables.CollidableReference
+      description: Other collider <code class="paramref">eventSource</code> collided with.
+    content.vb: Sub OnPairEnded(eventSource As CollidableReference, other As CollidableReference)
+  overload: Prowl.Runtime.Contacts.IContactEventHandler.OnPairEnded*
+references:
+- uid: Prowl.Runtime.Contacts
+  commentId: N:Prowl.Runtime.Contacts
+  href: Prowl.html
+  name: Prowl.Runtime.Contacts
+  nameWithType: Prowl.Runtime.Contacts
+  fullName: Prowl.Runtime.Contacts
+  spec.csharp:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+  - name: .
+  - uid: Prowl.Runtime.Contacts
+    name: Contacts
+    href: Prowl.Runtime.Contacts.html
+  spec.vb:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+  - name: .
+  - uid: Prowl.Runtime.Contacts
+    name: Contacts
+    href: Prowl.Runtime.Contacts.html
+- uid: System.Object.Prowl.Runtime.RuntimeUtils.GetSerializableFields
+  commentId: M:Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  parent: Prowl.Runtime.RuntimeUtils
+  definition: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  name: GetSerializableFields(object)
+  nameWithType: RuntimeUtils.GetSerializableFields(object)
+  fullName: Prowl.Runtime.RuntimeUtils.GetSerializableFields(object)
+  nameWithType.vb: RuntimeUtils.GetSerializableFields(Object)
+  fullName.vb: Prowl.Runtime.RuntimeUtils.GetSerializableFields(Object)
+  name.vb: GetSerializableFields(Object)
+  spec.csharp:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  commentId: M:Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  isExternal: true
+  href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  name: GetSerializableFields(object)
+  nameWithType: RuntimeUtils.GetSerializableFields(object)
+  fullName: Prowl.Runtime.RuntimeUtils.GetSerializableFields(object)
+  nameWithType.vb: RuntimeUtils.GetSerializableFields(Object)
+  fullName.vb: Prowl.Runtime.RuntimeUtils.GetSerializableFields(Object)
+  name.vb: GetSerializableFields(Object)
+  spec.csharp:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: Prowl.Runtime.RuntimeUtils
+  commentId: T:Prowl.Runtime.RuntimeUtils
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.RuntimeUtils.html
+  name: RuntimeUtils
+  nameWithType: RuntimeUtils
+  fullName: Prowl.Runtime.RuntimeUtils
+- uid: Prowl.Runtime
+  commentId: N:Prowl.Runtime
+  href: Prowl.html
+  name: Prowl.Runtime
+  nameWithType: Prowl.Runtime
+  fullName: Prowl.Runtime
+  spec.csharp:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+  spec.vb:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+- uid: Prowl.Runtime.Contacts.IContactEventHandler.NoContactResponse*
+  commentId: Overload:Prowl.Runtime.Contacts.IContactEventHandler.NoContactResponse
+  href: Prowl.Runtime.Contacts.IContactEventHandler.html#Prowl_Runtime_Contacts_IContactEventHandler_NoContactResponse
+  name: NoContactResponse
+  nameWithType: IContactEventHandler.NoContactResponse
+  fullName: Prowl.Runtime.Contacts.IContactEventHandler.NoContactResponse
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Prowl.Runtime.Contacts.IContactEventHandler.OnContactAdded*
+  commentId: Overload:Prowl.Runtime.Contacts.IContactEventHandler.OnContactAdded
+  href: Prowl.Runtime.Contacts.IContactEventHandler.html#Prowl_Runtime_Contacts_IContactEventHandler_OnContactAdded__1_BepuPhysics_Collidables_CollidableReference_BepuPhysics_Collidables_CollidableReference___0__System_Int32_System_Int32_
+  name: OnContactAdded
+  nameWithType: IContactEventHandler.OnContactAdded
+  fullName: Prowl.Runtime.Contacts.IContactEventHandler.OnContactAdded
+- uid: BepuPhysics.Collidables.CollidableReference
+  commentId: T:BepuPhysics.Collidables.CollidableReference
+  parent: BepuPhysics.Collidables
+  isExternal: true
+  name: CollidableReference
+  nameWithType: CollidableReference
+  fullName: BepuPhysics.Collidables.CollidableReference
+- uid: '{TManifold}'
+  commentId: '!:TManifold'
+  definition: TManifold
+  name: TManifold
+  nameWithType: TManifold
+  fullName: TManifold
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: BepuPhysics.Collidables
+  commentId: N:BepuPhysics.Collidables
+  isExternal: true
+  name: BepuPhysics.Collidables
+  nameWithType: BepuPhysics.Collidables
+  fullName: BepuPhysics.Collidables
+  spec.csharp:
+  - uid: BepuPhysics
+    name: BepuPhysics
+    isExternal: true
+  - name: .
+  - uid: BepuPhysics.Collidables
+    name: Collidables
+    isExternal: true
+  spec.vb:
+  - uid: BepuPhysics
+    name: BepuPhysics
+    isExternal: true
+  - name: .
+  - uid: BepuPhysics.Collidables
+    name: Collidables
+    isExternal: true
+- uid: TManifold
+  name: TManifold
+  nameWithType: TManifold
+  fullName: TManifold
+- uid: Prowl.Runtime.Contacts.IContactEventHandler.OnContactRemoved*
+  commentId: Overload:Prowl.Runtime.Contacts.IContactEventHandler.OnContactRemoved
+  href: Prowl.Runtime.Contacts.IContactEventHandler.html#Prowl_Runtime_Contacts_IContactEventHandler_OnContactRemoved__1_BepuPhysics_Collidables_CollidableReference_BepuPhysics_Collidables_CollidableReference___0__System_Int32_System_Int32_
+  name: OnContactRemoved
+  nameWithType: IContactEventHandler.OnContactRemoved
+  fullName: Prowl.Runtime.Contacts.IContactEventHandler.OnContactRemoved
+- uid: Prowl.Runtime.Contacts.IContactEventHandler.OnStartedTouching*
+  commentId: Overload:Prowl.Runtime.Contacts.IContactEventHandler.OnStartedTouching
+  href: Prowl.Runtime.Contacts.IContactEventHandler.html#Prowl_Runtime_Contacts_IContactEventHandler_OnStartedTouching__1_BepuPhysics_Collidables_CollidableReference_BepuPhysics_Collidables_CollidableReference___0__System_Int32_
+  name: OnStartedTouching
+  nameWithType: IContactEventHandler.OnStartedTouching
+  fullName: Prowl.Runtime.Contacts.IContactEventHandler.OnStartedTouching
+- uid: Prowl.Runtime.Contacts.IContactEventHandler.OnTouching*
+  commentId: Overload:Prowl.Runtime.Contacts.IContactEventHandler.OnTouching
+  href: Prowl.Runtime.Contacts.IContactEventHandler.html#Prowl_Runtime_Contacts_IContactEventHandler_OnTouching__1_BepuPhysics_Collidables_CollidableReference_BepuPhysics_Collidables_CollidableReference___0__System_Int32_
+  name: OnTouching
+  nameWithType: IContactEventHandler.OnTouching
+  fullName: Prowl.Runtime.Contacts.IContactEventHandler.OnTouching
+- uid: Prowl.Runtime.Contacts.IContactEventHandler.OnStoppedTouching*
+  commentId: Overload:Prowl.Runtime.Contacts.IContactEventHandler.OnStoppedTouching
+  href: Prowl.Runtime.Contacts.IContactEventHandler.html#Prowl_Runtime_Contacts_IContactEventHandler_OnStoppedTouching__1_BepuPhysics_Collidables_CollidableReference_BepuPhysics_Collidables_CollidableReference___0__System_Int32_
+  name: OnStoppedTouching
+  nameWithType: IContactEventHandler.OnStoppedTouching
+  fullName: Prowl.Runtime.Contacts.IContactEventHandler.OnStoppedTouching
+- uid: Prowl.Runtime.Contacts.IContactEventHandler.OnPairCreated*
+  commentId: Overload:Prowl.Runtime.Contacts.IContactEventHandler.OnPairCreated
+  href: Prowl.Runtime.Contacts.IContactEventHandler.html#Prowl_Runtime_Contacts_IContactEventHandler_OnPairCreated__1_BepuPhysics_Collidables_CollidableReference_BepuPhysics_Collidables_CollidableReference___0__System_Int32_
+  name: OnPairCreated
+  nameWithType: IContactEventHandler.OnPairCreated
+  fullName: Prowl.Runtime.Contacts.IContactEventHandler.OnPairCreated
+- uid: Prowl.Runtime.Contacts.IContactEventHandler.OnPairUpdated*
+  commentId: Overload:Prowl.Runtime.Contacts.IContactEventHandler.OnPairUpdated
+  href: Prowl.Runtime.Contacts.IContactEventHandler.html#Prowl_Runtime_Contacts_IContactEventHandler_OnPairUpdated__1_BepuPhysics_Collidables_CollidableReference_BepuPhysics_Collidables_CollidableReference___0__System_Int32_
+  name: OnPairUpdated
+  nameWithType: IContactEventHandler.OnPairUpdated
+  fullName: Prowl.Runtime.Contacts.IContactEventHandler.OnPairUpdated
+- uid: Prowl.Runtime.Contacts.IContactEventHandler.OnPairEnded*
+  commentId: Overload:Prowl.Runtime.Contacts.IContactEventHandler.OnPairEnded
+  href: Prowl.Runtime.Contacts.IContactEventHandler.html#Prowl_Runtime_Contacts_IContactEventHandler_OnPairEnded_BepuPhysics_Collidables_CollidableReference_BepuPhysics_Collidables_CollidableReference_
+  name: OnPairEnded
+  nameWithType: IContactEventHandler.OnPairEnded
+  fullName: Prowl.Runtime.Contacts.IContactEventHandler.OnPairEnded

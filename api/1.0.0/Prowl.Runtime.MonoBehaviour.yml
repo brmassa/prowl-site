@@ -1,0 +1,3004 @@
+### YamlMime:ManagedReference
+items:
+- uid: Prowl.Runtime.MonoBehaviour
+  commentId: T:Prowl.Runtime.MonoBehaviour
+  id: MonoBehaviour
+  parent: Prowl.Runtime
+  children:
+  - Prowl.Runtime.MonoBehaviour.#ctor
+  - Prowl.Runtime.MonoBehaviour.AddComponent(System.Type)
+  - Prowl.Runtime.MonoBehaviour.AddComponent``1
+  - Prowl.Runtime.MonoBehaviour.Awake
+  - Prowl.Runtime.MonoBehaviour.BroadcastMessage(System.String,System.Object[])
+  - Prowl.Runtime.MonoBehaviour.ClearCache
+  - Prowl.Runtime.MonoBehaviour.CompareTag(System.String)
+  - Prowl.Runtime.MonoBehaviour.DrawGizmos
+  - Prowl.Runtime.MonoBehaviour.DrawGizmosSelected
+  - Prowl.Runtime.MonoBehaviour.Enabled
+  - Prowl.Runtime.MonoBehaviour.EnabledInHierarchy
+  - Prowl.Runtime.MonoBehaviour.ExecuteAlways
+  - Prowl.Runtime.MonoBehaviour.FixedUpdate
+  - Prowl.Runtime.MonoBehaviour.GameObject
+  - Prowl.Runtime.MonoBehaviour.GetComponent(System.Type)
+  - Prowl.Runtime.MonoBehaviour.GetComponentInChildren(System.Type,System.Boolean)
+  - Prowl.Runtime.MonoBehaviour.GetComponentInChildren``1(System.Boolean)
+  - Prowl.Runtime.MonoBehaviour.GetComponentInParent(System.Type,System.Boolean)
+  - Prowl.Runtime.MonoBehaviour.GetComponentInParent``1(System.Boolean)
+  - Prowl.Runtime.MonoBehaviour.GetComponent``1
+  - Prowl.Runtime.MonoBehaviour.GetComponents(System.Type)
+  - Prowl.Runtime.MonoBehaviour.GetComponentsInChildren(System.Type,System.Boolean)
+  - Prowl.Runtime.MonoBehaviour.GetComponentsInChildren``1(System.Boolean)
+  - Prowl.Runtime.MonoBehaviour.GetComponentsInParent(System.Type,System.Boolean)
+  - Prowl.Runtime.MonoBehaviour.GetComponentsInParent``1(System.Boolean)
+  - Prowl.Runtime.MonoBehaviour.GetComponents``1
+  - Prowl.Runtime.MonoBehaviour.HasAwoken
+  - Prowl.Runtime.MonoBehaviour.HasStarted
+  - Prowl.Runtime.MonoBehaviour.LateUpdate
+  - Prowl.Runtime.MonoBehaviour.OnDestroy
+  - Prowl.Runtime.MonoBehaviour.OnDisable
+  - Prowl.Runtime.MonoBehaviour.OnEnable
+  - Prowl.Runtime.MonoBehaviour.OnLevelWasLoaded
+  - Prowl.Runtime.MonoBehaviour.RemoveAll``1
+  - Prowl.Runtime.MonoBehaviour.RemoveComponent(Prowl.Runtime.MonoBehaviour)
+  - Prowl.Runtime.MonoBehaviour.RemoveComponent``1(``0)
+  - Prowl.Runtime.MonoBehaviour.RemoveSelf
+  - Prowl.Runtime.MonoBehaviour.SendMessage(System.String,System.Object[])
+  - Prowl.Runtime.MonoBehaviour.Start
+  - Prowl.Runtime.MonoBehaviour.StartCoroutine(System.String)
+  - Prowl.Runtime.MonoBehaviour.StopAllCoroutines
+  - Prowl.Runtime.MonoBehaviour.StopCoroutine(System.String)
+  - Prowl.Runtime.MonoBehaviour.Tag
+  - Prowl.Runtime.MonoBehaviour.Transform
+  - Prowl.Runtime.MonoBehaviour.TryGetComponent``1(``0@)
+  - Prowl.Runtime.MonoBehaviour.Update
+  - Prowl.Runtime.MonoBehaviour._enabled
+  - Prowl.Runtime.MonoBehaviour._enabledInHierarchy
+  - Prowl.Runtime.MonoBehaviour.hideFlags
+  langs:
+  - csharp
+  - vb
+  name: MonoBehaviour
+  nameWithType: MonoBehaviour
+  fullName: Prowl.Runtime.MonoBehaviour
+  type: Class
+  source:
+    remote:
+      path: Prowl.Runtime/GameObject/MonoBehaviour.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: MonoBehaviour
+    path: ../Prowl/Prowl.Runtime/GameObject/MonoBehaviour.cs
+    startLine: 12
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: 'public abstract class MonoBehaviour : EngineObject, IDisposable'
+    content.vb: Public MustInherit Class MonoBehaviour Inherits EngineObject Implements IDisposable
+  inheritance:
+  - System.Object
+  - Prowl.Runtime.EngineObject
+  derivedClasses:
+  - Prowl.Runtime.Animation
+  - Prowl.Runtime.AudioListener
+  - Prowl.Runtime.AudioSource
+  - Prowl.Runtime.Camera
+  - Prowl.Runtime.Collider
+  - Prowl.Runtime.Components.Testings.TestDrawers
+  - Prowl.Runtime.Components.UI.GUICanvas
+  - Prowl.Runtime.ConstraintComponentBase
+  - Prowl.Runtime.Light
+  - Prowl.Runtime.MeshRenderer
+  - Prowl.Runtime.MissingMonobehaviour
+  - Prowl.Runtime.NavMeshAgent
+  - Prowl.Runtime.NavMeshSurface
+  - Prowl.Runtime.PhysicsBody
+  - Prowl.Runtime.SkinnedMeshRenderer
+  implements:
+  - System.IDisposable
+  inheritedMembers:
+  - Prowl.Runtime.EngineObject._instanceID
+  - Prowl.Runtime.EngineObject.InstanceID
+  - Prowl.Runtime.EngineObject.AssetID
+  - Prowl.Runtime.EngineObject.FileID
+  - Prowl.Runtime.EngineObject.Name
+  - Prowl.Runtime.EngineObject.IsDestroyed
+  - Prowl.Runtime.EngineObject.CreatedInstance
+  - Prowl.Runtime.EngineObject.OnValidate
+  - Prowl.Runtime.EngineObject.FindObjectOfType``1
+  - Prowl.Runtime.EngineObject.FindObjectsOfType``1
+  - Prowl.Runtime.EngineObject.FindObjectByID``1(System.Int32)
+  - Prowl.Runtime.EngineObject.Foreach``1(System.Action{{T}})
+  - Prowl.Runtime.EngineObject.Destroy
+  - Prowl.Runtime.EngineObject.DestroyImmediate
+  - Prowl.Runtime.EngineObject.Destroy(Prowl.Runtime.EngineObject)
+  - Prowl.Runtime.EngineObject.DestroyImmediate(Prowl.Runtime.EngineObject)
+  - Prowl.Runtime.EngineObject.HandleDestroyed
+  - Prowl.Runtime.EngineObject.Instantiate(Prowl.Runtime.EngineObject,System.Boolean)
+  - Prowl.Runtime.EngineObject.Dispose
+  - Prowl.Runtime.EngineObject.OnDispose
+  - Prowl.Runtime.EngineObject.ToString
+  - Prowl.Runtime.EngineObject.SerializeHeader(Prowl.Runtime.SerializedProperty)
+  - Prowl.Runtime.EngineObject.DeserializeHeader(Prowl.Runtime.SerializedProperty)
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  extensionMethods:
+  - Prowl.Runtime.EngineObject.Prowl.Runtime.EngineObjectExtensions.Null
+  - System.Object.Prowl.Runtime.RuntimeUtils.GetSerializableFields
+- uid: Prowl.Runtime.MonoBehaviour._enabled
+  commentId: F:Prowl.Runtime.MonoBehaviour._enabled
+  id: _enabled
+  parent: Prowl.Runtime.MonoBehaviour
+  langs:
+  - csharp
+  - vb
+  name: _enabled
+  nameWithType: MonoBehaviour._enabled
+  fullName: Prowl.Runtime.MonoBehaviour._enabled
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/GameObject/MonoBehaviour.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: _enabled
+    path: ../Prowl/Prowl.Runtime/GameObject/MonoBehaviour.cs
+    startLine: 15
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: protected bool _enabled
+    return:
+      type: System.Boolean
+    content.vb: Protected _enabled As Boolean
+- uid: Prowl.Runtime.MonoBehaviour._enabledInHierarchy
+  commentId: F:Prowl.Runtime.MonoBehaviour._enabledInHierarchy
+  id: _enabledInHierarchy
+  parent: Prowl.Runtime.MonoBehaviour
+  langs:
+  - csharp
+  - vb
+  name: _enabledInHierarchy
+  nameWithType: MonoBehaviour._enabledInHierarchy
+  fullName: Prowl.Runtime.MonoBehaviour._enabledInHierarchy
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/GameObject/MonoBehaviour.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: _enabledInHierarchy
+    path: ../Prowl/Prowl.Runtime/GameObject/MonoBehaviour.cs
+    startLine: 17
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: protected bool _enabledInHierarchy
+    return:
+      type: System.Boolean
+    content.vb: Protected _enabledInHierarchy As Boolean
+- uid: Prowl.Runtime.MonoBehaviour.hideFlags
+  commentId: F:Prowl.Runtime.MonoBehaviour.hideFlags
+  id: hideFlags
+  parent: Prowl.Runtime.MonoBehaviour
+  langs:
+  - csharp
+  - vb
+  name: hideFlags
+  nameWithType: MonoBehaviour.hideFlags
+  fullName: Prowl.Runtime.MonoBehaviour.hideFlags
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/GameObject/MonoBehaviour.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: hideFlags
+    path: ../Prowl/Prowl.Runtime/GameObject/MonoBehaviour.cs
+    startLine: 20
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public HideFlags hideFlags
+    return:
+      type: Prowl.Runtime.HideFlags
+    content.vb: Public hideFlags As HideFlags
+- uid: Prowl.Runtime.MonoBehaviour.GameObject
+  commentId: P:Prowl.Runtime.MonoBehaviour.GameObject
+  id: GameObject
+  parent: Prowl.Runtime.MonoBehaviour
+  langs:
+  - csharp
+  - vb
+  name: GameObject
+  nameWithType: MonoBehaviour.GameObject
+  fullName: Prowl.Runtime.MonoBehaviour.GameObject
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/GameObject/MonoBehaviour.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: GameObject
+    path: ../Prowl/Prowl.Runtime/GameObject/MonoBehaviour.cs
+    startLine: 29
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public GameObject GameObject { get; }
+    parameters: []
+    return:
+      type: Prowl.Runtime.GameObject
+    content.vb: Public ReadOnly Property GameObject As GameObject
+  overload: Prowl.Runtime.MonoBehaviour.GameObject*
+- uid: Prowl.Runtime.MonoBehaviour.Transform
+  commentId: P:Prowl.Runtime.MonoBehaviour.Transform
+  id: Transform
+  parent: Prowl.Runtime.MonoBehaviour
+  langs:
+  - csharp
+  - vb
+  name: Transform
+  nameWithType: MonoBehaviour.Transform
+  fullName: Prowl.Runtime.MonoBehaviour.Transform
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/GameObject/MonoBehaviour.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Transform
+    path: ../Prowl/Prowl.Runtime/GameObject/MonoBehaviour.cs
+    startLine: 30
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public Transform Transform { get; }
+    parameters: []
+    return:
+      type: Prowl.Runtime.Transform
+    content.vb: Public ReadOnly Property Transform As Transform
+  overload: Prowl.Runtime.MonoBehaviour.Transform*
+- uid: Prowl.Runtime.MonoBehaviour.ExecuteAlways
+  commentId: P:Prowl.Runtime.MonoBehaviour.ExecuteAlways
+  id: ExecuteAlways
+  parent: Prowl.Runtime.MonoBehaviour
+  langs:
+  - csharp
+  - vb
+  name: ExecuteAlways
+  nameWithType: MonoBehaviour.ExecuteAlways
+  fullName: Prowl.Runtime.MonoBehaviour.ExecuteAlways
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/GameObject/MonoBehaviour.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: ExecuteAlways
+    path: ../Prowl/Prowl.Runtime/GameObject/MonoBehaviour.cs
+    startLine: 32
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public bool ExecuteAlways { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property ExecuteAlways As Boolean
+  overload: Prowl.Runtime.MonoBehaviour.ExecuteAlways*
+- uid: Prowl.Runtime.MonoBehaviour.HasAwoken
+  commentId: P:Prowl.Runtime.MonoBehaviour.HasAwoken
+  id: HasAwoken
+  parent: Prowl.Runtime.MonoBehaviour
+  langs:
+  - csharp
+  - vb
+  name: HasAwoken
+  nameWithType: MonoBehaviour.HasAwoken
+  fullName: Prowl.Runtime.MonoBehaviour.HasAwoken
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/GameObject/MonoBehaviour.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: HasAwoken
+    path: ../Prowl/Prowl.Runtime/GameObject/MonoBehaviour.cs
+    startLine: 33
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public bool HasAwoken { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property HasAwoken As Boolean
+  overload: Prowl.Runtime.MonoBehaviour.HasAwoken*
+- uid: Prowl.Runtime.MonoBehaviour.HasStarted
+  commentId: P:Prowl.Runtime.MonoBehaviour.HasStarted
+  id: HasStarted
+  parent: Prowl.Runtime.MonoBehaviour
+  langs:
+  - csharp
+  - vb
+  name: HasStarted
+  nameWithType: MonoBehaviour.HasStarted
+  fullName: Prowl.Runtime.MonoBehaviour.HasStarted
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/GameObject/MonoBehaviour.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: HasStarted
+    path: ../Prowl/Prowl.Runtime/GameObject/MonoBehaviour.cs
+    startLine: 34
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public bool HasStarted { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property HasStarted As Boolean
+  overload: Prowl.Runtime.MonoBehaviour.HasStarted*
+- uid: Prowl.Runtime.MonoBehaviour.Tag
+  commentId: P:Prowl.Runtime.MonoBehaviour.Tag
+  id: Tag
+  parent: Prowl.Runtime.MonoBehaviour
+  langs:
+  - csharp
+  - vb
+  name: Tag
+  nameWithType: MonoBehaviour.Tag
+  fullName: Prowl.Runtime.MonoBehaviour.Tag
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/GameObject/MonoBehaviour.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Tag
+    path: ../Prowl/Prowl.Runtime/GameObject/MonoBehaviour.cs
+    startLine: 36
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public string Tag { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property Tag As String
+  overload: Prowl.Runtime.MonoBehaviour.Tag*
+- uid: Prowl.Runtime.MonoBehaviour.Enabled
+  commentId: P:Prowl.Runtime.MonoBehaviour.Enabled
+  id: Enabled
+  parent: Prowl.Runtime.MonoBehaviour
+  langs:
+  - csharp
+  - vb
+  name: Enabled
+  nameWithType: MonoBehaviour.Enabled
+  fullName: Prowl.Runtime.MonoBehaviour.Enabled
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/GameObject/MonoBehaviour.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Enabled
+    path: ../Prowl/Prowl.Runtime/GameObject/MonoBehaviour.cs
+    startLine: 38
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public bool Enabled { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property Enabled As Boolean
+  overload: Prowl.Runtime.MonoBehaviour.Enabled*
+- uid: Prowl.Runtime.MonoBehaviour.EnabledInHierarchy
+  commentId: P:Prowl.Runtime.MonoBehaviour.EnabledInHierarchy
+  id: EnabledInHierarchy
+  parent: Prowl.Runtime.MonoBehaviour
+  langs:
+  - csharp
+  - vb
+  name: EnabledInHierarchy
+  nameWithType: MonoBehaviour.EnabledInHierarchy
+  fullName: Prowl.Runtime.MonoBehaviour.EnabledInHierarchy
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/GameObject/MonoBehaviour.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: EnabledInHierarchy
+    path: ../Prowl/Prowl.Runtime/GameObject/MonoBehaviour.cs
+    startLine: 51
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public bool EnabledInHierarchy { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property EnabledInHierarchy As Boolean
+  overload: Prowl.Runtime.MonoBehaviour.EnabledInHierarchy*
+- uid: Prowl.Runtime.MonoBehaviour.#ctor
+  commentId: M:Prowl.Runtime.MonoBehaviour.#ctor
+  id: '#ctor'
+  parent: Prowl.Runtime.MonoBehaviour
+  langs:
+  - csharp
+  - vb
+  name: MonoBehaviour()
+  nameWithType: MonoBehaviour.MonoBehaviour()
+  fullName: Prowl.Runtime.MonoBehaviour.MonoBehaviour()
+  type: Constructor
+  source:
+    remote:
+      path: Prowl.Runtime/GameObject/MonoBehaviour.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: .ctor
+    path: ../Prowl/Prowl.Runtime/GameObject/MonoBehaviour.cs
+    startLine: 53
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public MonoBehaviour()
+    content.vb: Public Sub New()
+  overload: Prowl.Runtime.MonoBehaviour.#ctor*
+  nameWithType.vb: MonoBehaviour.New()
+  fullName.vb: Prowl.Runtime.MonoBehaviour.New()
+  name.vb: New()
+- uid: Prowl.Runtime.MonoBehaviour.CompareTag(System.String)
+  commentId: M:Prowl.Runtime.MonoBehaviour.CompareTag(System.String)
+  id: CompareTag(System.String)
+  parent: Prowl.Runtime.MonoBehaviour
+  langs:
+  - csharp
+  - vb
+  name: CompareTag(string)
+  nameWithType: MonoBehaviour.CompareTag(string)
+  fullName: Prowl.Runtime.MonoBehaviour.CompareTag(string)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GameObject/MonoBehaviour.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: CompareTag
+    path: ../Prowl/Prowl.Runtime/GameObject/MonoBehaviour.cs
+    startLine: 55
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public bool CompareTag(string otherTag)
+    parameters:
+    - id: otherTag
+      type: System.String
+    return:
+      type: System.Boolean
+    content.vb: Public Function CompareTag(otherTag As String) As Boolean
+  overload: Prowl.Runtime.MonoBehaviour.CompareTag*
+  nameWithType.vb: MonoBehaviour.CompareTag(String)
+  fullName.vb: Prowl.Runtime.MonoBehaviour.CompareTag(String)
+  name.vb: CompareTag(String)
+- uid: Prowl.Runtime.MonoBehaviour.AddComponent``1
+  commentId: M:Prowl.Runtime.MonoBehaviour.AddComponent``1
+  id: AddComponent``1
+  parent: Prowl.Runtime.MonoBehaviour
+  langs:
+  - csharp
+  - vb
+  name: AddComponent<T>()
+  nameWithType: MonoBehaviour.AddComponent<T>()
+  fullName: Prowl.Runtime.MonoBehaviour.AddComponent<T>()
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GameObject/MonoBehaviour.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: AddComponent
+    path: ../Prowl/Prowl.Runtime/GameObject/MonoBehaviour.cs
+    startLine: 59
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: 'public T AddComponent<T>() where T : MonoBehaviour, new()'
+    typeParameters:
+    - id: T
+    return:
+      type: '{T}'
+    content.vb: Public Function AddComponent(Of T As {MonoBehaviour, New})() As T
+  overload: Prowl.Runtime.MonoBehaviour.AddComponent*
+  nameWithType.vb: MonoBehaviour.AddComponent(Of T)()
+  fullName.vb: Prowl.Runtime.MonoBehaviour.AddComponent(Of T)()
+  name.vb: AddComponent(Of T)()
+- uid: Prowl.Runtime.MonoBehaviour.AddComponent(System.Type)
+  commentId: M:Prowl.Runtime.MonoBehaviour.AddComponent(System.Type)
+  id: AddComponent(System.Type)
+  parent: Prowl.Runtime.MonoBehaviour
+  langs:
+  - csharp
+  - vb
+  name: AddComponent(Type)
+  nameWithType: MonoBehaviour.AddComponent(Type)
+  fullName: Prowl.Runtime.MonoBehaviour.AddComponent(System.Type)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GameObject/MonoBehaviour.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: AddComponent
+    path: ../Prowl/Prowl.Runtime/GameObject/MonoBehaviour.cs
+    startLine: 60
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public MonoBehaviour AddComponent(Type type)
+    parameters:
+    - id: type
+      type: System.Type
+    return:
+      type: Prowl.Runtime.MonoBehaviour
+    content.vb: Public Function AddComponent(type As Type) As MonoBehaviour
+  overload: Prowl.Runtime.MonoBehaviour.AddComponent*
+- uid: Prowl.Runtime.MonoBehaviour.RemoveAll``1
+  commentId: M:Prowl.Runtime.MonoBehaviour.RemoveAll``1
+  id: RemoveAll``1
+  parent: Prowl.Runtime.MonoBehaviour
+  langs:
+  - csharp
+  - vb
+  name: RemoveAll<T>()
+  nameWithType: MonoBehaviour.RemoveAll<T>()
+  fullName: Prowl.Runtime.MonoBehaviour.RemoveAll<T>()
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GameObject/MonoBehaviour.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: RemoveAll
+    path: ../Prowl/Prowl.Runtime/GameObject/MonoBehaviour.cs
+    startLine: 61
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: 'public void RemoveAll<T>() where T : MonoBehaviour'
+    typeParameters:
+    - id: T
+    content.vb: Public Sub RemoveAll(Of T As MonoBehaviour)()
+  overload: Prowl.Runtime.MonoBehaviour.RemoveAll*
+  nameWithType.vb: MonoBehaviour.RemoveAll(Of T)()
+  fullName.vb: Prowl.Runtime.MonoBehaviour.RemoveAll(Of T)()
+  name.vb: RemoveAll(Of T)()
+- uid: Prowl.Runtime.MonoBehaviour.RemoveComponent``1(``0)
+  commentId: M:Prowl.Runtime.MonoBehaviour.RemoveComponent``1(``0)
+  id: RemoveComponent``1(``0)
+  parent: Prowl.Runtime.MonoBehaviour
+  langs:
+  - csharp
+  - vb
+  name: RemoveComponent<T>(T)
+  nameWithType: MonoBehaviour.RemoveComponent<T>(T)
+  fullName: Prowl.Runtime.MonoBehaviour.RemoveComponent<T>(T)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GameObject/MonoBehaviour.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: RemoveComponent
+    path: ../Prowl/Prowl.Runtime/GameObject/MonoBehaviour.cs
+    startLine: 62
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: 'public void RemoveComponent<T>(T component) where T : MonoBehaviour'
+    parameters:
+    - id: component
+      type: '{T}'
+    typeParameters:
+    - id: T
+    content.vb: Public Sub RemoveComponent(Of T As MonoBehaviour)(component As T)
+  overload: Prowl.Runtime.MonoBehaviour.RemoveComponent*
+  nameWithType.vb: MonoBehaviour.RemoveComponent(Of T)(T)
+  fullName.vb: Prowl.Runtime.MonoBehaviour.RemoveComponent(Of T)(T)
+  name.vb: RemoveComponent(Of T)(T)
+- uid: Prowl.Runtime.MonoBehaviour.RemoveComponent(Prowl.Runtime.MonoBehaviour)
+  commentId: M:Prowl.Runtime.MonoBehaviour.RemoveComponent(Prowl.Runtime.MonoBehaviour)
+  id: RemoveComponent(Prowl.Runtime.MonoBehaviour)
+  parent: Prowl.Runtime.MonoBehaviour
+  langs:
+  - csharp
+  - vb
+  name: RemoveComponent(MonoBehaviour)
+  nameWithType: MonoBehaviour.RemoveComponent(MonoBehaviour)
+  fullName: Prowl.Runtime.MonoBehaviour.RemoveComponent(Prowl.Runtime.MonoBehaviour)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GameObject/MonoBehaviour.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: RemoveComponent
+    path: ../Prowl/Prowl.Runtime/GameObject/MonoBehaviour.cs
+    startLine: 63
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public void RemoveComponent(MonoBehaviour component)
+    parameters:
+    - id: component
+      type: Prowl.Runtime.MonoBehaviour
+    content.vb: Public Sub RemoveComponent(component As MonoBehaviour)
+  overload: Prowl.Runtime.MonoBehaviour.RemoveComponent*
+- uid: Prowl.Runtime.MonoBehaviour.RemoveSelf
+  commentId: M:Prowl.Runtime.MonoBehaviour.RemoveSelf
+  id: RemoveSelf
+  parent: Prowl.Runtime.MonoBehaviour
+  langs:
+  - csharp
+  - vb
+  name: RemoveSelf()
+  nameWithType: MonoBehaviour.RemoveSelf()
+  fullName: Prowl.Runtime.MonoBehaviour.RemoveSelf()
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GameObject/MonoBehaviour.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: RemoveSelf
+    path: ../Prowl/Prowl.Runtime/GameObject/MonoBehaviour.cs
+    startLine: 64
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public void RemoveSelf()
+    content.vb: Public Sub RemoveSelf()
+  overload: Prowl.Runtime.MonoBehaviour.RemoveSelf*
+- uid: Prowl.Runtime.MonoBehaviour.GetComponent``1
+  commentId: M:Prowl.Runtime.MonoBehaviour.GetComponent``1
+  id: GetComponent``1
+  parent: Prowl.Runtime.MonoBehaviour
+  langs:
+  - csharp
+  - vb
+  name: GetComponent<T>()
+  nameWithType: MonoBehaviour.GetComponent<T>()
+  fullName: Prowl.Runtime.MonoBehaviour.GetComponent<T>()
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GameObject/MonoBehaviour.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: GetComponent
+    path: ../Prowl/Prowl.Runtime/GameObject/MonoBehaviour.cs
+    startLine: 65
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: 'public T? GetComponent<T>() where T : MonoBehaviour'
+    typeParameters:
+    - id: T
+    return:
+      type: '{T}'
+    content.vb: Public Function GetComponent(Of T As MonoBehaviour)() As T
+  overload: Prowl.Runtime.MonoBehaviour.GetComponent*
+  nameWithType.vb: MonoBehaviour.GetComponent(Of T)()
+  fullName.vb: Prowl.Runtime.MonoBehaviour.GetComponent(Of T)()
+  name.vb: GetComponent(Of T)()
+- uid: Prowl.Runtime.MonoBehaviour.GetComponent(System.Type)
+  commentId: M:Prowl.Runtime.MonoBehaviour.GetComponent(System.Type)
+  id: GetComponent(System.Type)
+  parent: Prowl.Runtime.MonoBehaviour
+  langs:
+  - csharp
+  - vb
+  name: GetComponent(Type)
+  nameWithType: MonoBehaviour.GetComponent(Type)
+  fullName: Prowl.Runtime.MonoBehaviour.GetComponent(System.Type)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GameObject/MonoBehaviour.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: GetComponent
+    path: ../Prowl/Prowl.Runtime/GameObject/MonoBehaviour.cs
+    startLine: 66
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public MonoBehaviour? GetComponent(Type type)
+    parameters:
+    - id: type
+      type: System.Type
+    return:
+      type: Prowl.Runtime.MonoBehaviour
+    content.vb: Public Function GetComponent(type As Type) As MonoBehaviour
+  overload: Prowl.Runtime.MonoBehaviour.GetComponent*
+- uid: Prowl.Runtime.MonoBehaviour.TryGetComponent``1(``0@)
+  commentId: M:Prowl.Runtime.MonoBehaviour.TryGetComponent``1(``0@)
+  id: TryGetComponent``1(``0@)
+  parent: Prowl.Runtime.MonoBehaviour
+  langs:
+  - csharp
+  - vb
+  name: TryGetComponent<T>(out T)
+  nameWithType: MonoBehaviour.TryGetComponent<T>(out T)
+  fullName: Prowl.Runtime.MonoBehaviour.TryGetComponent<T>(out T)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GameObject/MonoBehaviour.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: TryGetComponent
+    path: ../Prowl/Prowl.Runtime/GameObject/MonoBehaviour.cs
+    startLine: 67
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: 'public bool TryGetComponent<T>(out T component) where T : MonoBehaviour'
+    parameters:
+    - id: component
+      type: '{T}'
+    typeParameters:
+    - id: T
+    return:
+      type: System.Boolean
+    content.vb: Public Function TryGetComponent(Of T As MonoBehaviour)(component As T) As Boolean
+  overload: Prowl.Runtime.MonoBehaviour.TryGetComponent*
+  nameWithType.vb: MonoBehaviour.TryGetComponent(Of T)(T)
+  fullName.vb: Prowl.Runtime.MonoBehaviour.TryGetComponent(Of T)(T)
+  name.vb: TryGetComponent(Of T)(T)
+- uid: Prowl.Runtime.MonoBehaviour.GetComponents``1
+  commentId: M:Prowl.Runtime.MonoBehaviour.GetComponents``1
+  id: GetComponents``1
+  parent: Prowl.Runtime.MonoBehaviour
+  langs:
+  - csharp
+  - vb
+  name: GetComponents<T>()
+  nameWithType: MonoBehaviour.GetComponents<T>()
+  fullName: Prowl.Runtime.MonoBehaviour.GetComponents<T>()
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GameObject/MonoBehaviour.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: GetComponents
+    path: ../Prowl/Prowl.Runtime/GameObject/MonoBehaviour.cs
+    startLine: 68
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: 'public IEnumerable<T> GetComponents<T>() where T : MonoBehaviour'
+    typeParameters:
+    - id: T
+    return:
+      type: System.Collections.Generic.IEnumerable{{T}}
+    content.vb: Public Function GetComponents(Of T As MonoBehaviour)() As IEnumerable(Of T)
+  overload: Prowl.Runtime.MonoBehaviour.GetComponents*
+  nameWithType.vb: MonoBehaviour.GetComponents(Of T)()
+  fullName.vb: Prowl.Runtime.MonoBehaviour.GetComponents(Of T)()
+  name.vb: GetComponents(Of T)()
+- uid: Prowl.Runtime.MonoBehaviour.GetComponents(System.Type)
+  commentId: M:Prowl.Runtime.MonoBehaviour.GetComponents(System.Type)
+  id: GetComponents(System.Type)
+  parent: Prowl.Runtime.MonoBehaviour
+  langs:
+  - csharp
+  - vb
+  name: GetComponents(Type)
+  nameWithType: MonoBehaviour.GetComponents(Type)
+  fullName: Prowl.Runtime.MonoBehaviour.GetComponents(System.Type)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GameObject/MonoBehaviour.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: GetComponents
+    path: ../Prowl/Prowl.Runtime/GameObject/MonoBehaviour.cs
+    startLine: 69
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public IEnumerable<MonoBehaviour> GetComponents(Type type)
+    parameters:
+    - id: type
+      type: System.Type
+    return:
+      type: System.Collections.Generic.IEnumerable{Prowl.Runtime.MonoBehaviour}
+    content.vb: Public Function GetComponents(type As Type) As IEnumerable(Of MonoBehaviour)
+  overload: Prowl.Runtime.MonoBehaviour.GetComponents*
+- uid: Prowl.Runtime.MonoBehaviour.GetComponentInParent``1(System.Boolean)
+  commentId: M:Prowl.Runtime.MonoBehaviour.GetComponentInParent``1(System.Boolean)
+  id: GetComponentInParent``1(System.Boolean)
+  parent: Prowl.Runtime.MonoBehaviour
+  langs:
+  - csharp
+  - vb
+  name: GetComponentInParent<T>(bool)
+  nameWithType: MonoBehaviour.GetComponentInParent<T>(bool)
+  fullName: Prowl.Runtime.MonoBehaviour.GetComponentInParent<T>(bool)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GameObject/MonoBehaviour.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: GetComponentInParent
+    path: ../Prowl/Prowl.Runtime/GameObject/MonoBehaviour.cs
+    startLine: 70
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: 'public T? GetComponentInParent<T>(bool includeSelf = true) where T : MonoBehaviour'
+    parameters:
+    - id: includeSelf
+      type: System.Boolean
+    typeParameters:
+    - id: T
+    return:
+      type: '{T}'
+    content.vb: Public Function GetComponentInParent(Of T As MonoBehaviour)(includeSelf As Boolean = True) As T
+  overload: Prowl.Runtime.MonoBehaviour.GetComponentInParent*
+  nameWithType.vb: MonoBehaviour.GetComponentInParent(Of T)(Boolean)
+  fullName.vb: Prowl.Runtime.MonoBehaviour.GetComponentInParent(Of T)(Boolean)
+  name.vb: GetComponentInParent(Of T)(Boolean)
+- uid: Prowl.Runtime.MonoBehaviour.GetComponentInParent(System.Type,System.Boolean)
+  commentId: M:Prowl.Runtime.MonoBehaviour.GetComponentInParent(System.Type,System.Boolean)
+  id: GetComponentInParent(System.Type,System.Boolean)
+  parent: Prowl.Runtime.MonoBehaviour
+  langs:
+  - csharp
+  - vb
+  name: GetComponentInParent(Type, bool)
+  nameWithType: MonoBehaviour.GetComponentInParent(Type, bool)
+  fullName: Prowl.Runtime.MonoBehaviour.GetComponentInParent(System.Type, bool)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GameObject/MonoBehaviour.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: GetComponentInParent
+    path: ../Prowl/Prowl.Runtime/GameObject/MonoBehaviour.cs
+    startLine: 71
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public MonoBehaviour? GetComponentInParent(Type componentType, bool includeSelf = true)
+    parameters:
+    - id: componentType
+      type: System.Type
+    - id: includeSelf
+      type: System.Boolean
+    return:
+      type: Prowl.Runtime.MonoBehaviour
+    content.vb: Public Function GetComponentInParent(componentType As Type, includeSelf As Boolean = True) As MonoBehaviour
+  overload: Prowl.Runtime.MonoBehaviour.GetComponentInParent*
+  nameWithType.vb: MonoBehaviour.GetComponentInParent(Type, Boolean)
+  fullName.vb: Prowl.Runtime.MonoBehaviour.GetComponentInParent(System.Type, Boolean)
+  name.vb: GetComponentInParent(Type, Boolean)
+- uid: Prowl.Runtime.MonoBehaviour.GetComponentsInParent``1(System.Boolean)
+  commentId: M:Prowl.Runtime.MonoBehaviour.GetComponentsInParent``1(System.Boolean)
+  id: GetComponentsInParent``1(System.Boolean)
+  parent: Prowl.Runtime.MonoBehaviour
+  langs:
+  - csharp
+  - vb
+  name: GetComponentsInParent<T>(bool)
+  nameWithType: MonoBehaviour.GetComponentsInParent<T>(bool)
+  fullName: Prowl.Runtime.MonoBehaviour.GetComponentsInParent<T>(bool)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GameObject/MonoBehaviour.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: GetComponentsInParent
+    path: ../Prowl/Prowl.Runtime/GameObject/MonoBehaviour.cs
+    startLine: 72
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: 'public IEnumerable<T> GetComponentsInParent<T>(bool includeSelf = true) where T : MonoBehaviour'
+    parameters:
+    - id: includeSelf
+      type: System.Boolean
+    typeParameters:
+    - id: T
+    return:
+      type: System.Collections.Generic.IEnumerable{{T}}
+    content.vb: Public Function GetComponentsInParent(Of T As MonoBehaviour)(includeSelf As Boolean = True) As IEnumerable(Of T)
+  overload: Prowl.Runtime.MonoBehaviour.GetComponentsInParent*
+  nameWithType.vb: MonoBehaviour.GetComponentsInParent(Of T)(Boolean)
+  fullName.vb: Prowl.Runtime.MonoBehaviour.GetComponentsInParent(Of T)(Boolean)
+  name.vb: GetComponentsInParent(Of T)(Boolean)
+- uid: Prowl.Runtime.MonoBehaviour.GetComponentsInParent(System.Type,System.Boolean)
+  commentId: M:Prowl.Runtime.MonoBehaviour.GetComponentsInParent(System.Type,System.Boolean)
+  id: GetComponentsInParent(System.Type,System.Boolean)
+  parent: Prowl.Runtime.MonoBehaviour
+  langs:
+  - csharp
+  - vb
+  name: GetComponentsInParent(Type, bool)
+  nameWithType: MonoBehaviour.GetComponentsInParent(Type, bool)
+  fullName: Prowl.Runtime.MonoBehaviour.GetComponentsInParent(System.Type, bool)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GameObject/MonoBehaviour.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: GetComponentsInParent
+    path: ../Prowl/Prowl.Runtime/GameObject/MonoBehaviour.cs
+    startLine: 73
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public IEnumerable<MonoBehaviour> GetComponentsInParent(Type type, bool includeSelf = true)
+    parameters:
+    - id: type
+      type: System.Type
+    - id: includeSelf
+      type: System.Boolean
+    return:
+      type: System.Collections.Generic.IEnumerable{Prowl.Runtime.MonoBehaviour}
+    content.vb: Public Function GetComponentsInParent(type As Type, includeSelf As Boolean = True) As IEnumerable(Of MonoBehaviour)
+  overload: Prowl.Runtime.MonoBehaviour.GetComponentsInParent*
+  nameWithType.vb: MonoBehaviour.GetComponentsInParent(Type, Boolean)
+  fullName.vb: Prowl.Runtime.MonoBehaviour.GetComponentsInParent(System.Type, Boolean)
+  name.vb: GetComponentsInParent(Type, Boolean)
+- uid: Prowl.Runtime.MonoBehaviour.GetComponentInChildren``1(System.Boolean)
+  commentId: M:Prowl.Runtime.MonoBehaviour.GetComponentInChildren``1(System.Boolean)
+  id: GetComponentInChildren``1(System.Boolean)
+  parent: Prowl.Runtime.MonoBehaviour
+  langs:
+  - csharp
+  - vb
+  name: GetComponentInChildren<T>(bool)
+  nameWithType: MonoBehaviour.GetComponentInChildren<T>(bool)
+  fullName: Prowl.Runtime.MonoBehaviour.GetComponentInChildren<T>(bool)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GameObject/MonoBehaviour.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: GetComponentInChildren
+    path: ../Prowl/Prowl.Runtime/GameObject/MonoBehaviour.cs
+    startLine: 74
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: 'public T? GetComponentInChildren<T>(bool includeSelf = true) where T : MonoBehaviour'
+    parameters:
+    - id: includeSelf
+      type: System.Boolean
+    typeParameters:
+    - id: T
+    return:
+      type: '{T}'
+    content.vb: Public Function GetComponentInChildren(Of T As MonoBehaviour)(includeSelf As Boolean = True) As T
+  overload: Prowl.Runtime.MonoBehaviour.GetComponentInChildren*
+  nameWithType.vb: MonoBehaviour.GetComponentInChildren(Of T)(Boolean)
+  fullName.vb: Prowl.Runtime.MonoBehaviour.GetComponentInChildren(Of T)(Boolean)
+  name.vb: GetComponentInChildren(Of T)(Boolean)
+- uid: Prowl.Runtime.MonoBehaviour.GetComponentInChildren(System.Type,System.Boolean)
+  commentId: M:Prowl.Runtime.MonoBehaviour.GetComponentInChildren(System.Type,System.Boolean)
+  id: GetComponentInChildren(System.Type,System.Boolean)
+  parent: Prowl.Runtime.MonoBehaviour
+  langs:
+  - csharp
+  - vb
+  name: GetComponentInChildren(Type, bool)
+  nameWithType: MonoBehaviour.GetComponentInChildren(Type, bool)
+  fullName: Prowl.Runtime.MonoBehaviour.GetComponentInChildren(System.Type, bool)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GameObject/MonoBehaviour.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: GetComponentInChildren
+    path: ../Prowl/Prowl.Runtime/GameObject/MonoBehaviour.cs
+    startLine: 75
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public MonoBehaviour? GetComponentInChildren(Type componentType, bool includeSelf = true)
+    parameters:
+    - id: componentType
+      type: System.Type
+    - id: includeSelf
+      type: System.Boolean
+    return:
+      type: Prowl.Runtime.MonoBehaviour
+    content.vb: Public Function GetComponentInChildren(componentType As Type, includeSelf As Boolean = True) As MonoBehaviour
+  overload: Prowl.Runtime.MonoBehaviour.GetComponentInChildren*
+  nameWithType.vb: MonoBehaviour.GetComponentInChildren(Type, Boolean)
+  fullName.vb: Prowl.Runtime.MonoBehaviour.GetComponentInChildren(System.Type, Boolean)
+  name.vb: GetComponentInChildren(Type, Boolean)
+- uid: Prowl.Runtime.MonoBehaviour.GetComponentsInChildren``1(System.Boolean)
+  commentId: M:Prowl.Runtime.MonoBehaviour.GetComponentsInChildren``1(System.Boolean)
+  id: GetComponentsInChildren``1(System.Boolean)
+  parent: Prowl.Runtime.MonoBehaviour
+  langs:
+  - csharp
+  - vb
+  name: GetComponentsInChildren<T>(bool)
+  nameWithType: MonoBehaviour.GetComponentsInChildren<T>(bool)
+  fullName: Prowl.Runtime.MonoBehaviour.GetComponentsInChildren<T>(bool)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GameObject/MonoBehaviour.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: GetComponentsInChildren
+    path: ../Prowl/Prowl.Runtime/GameObject/MonoBehaviour.cs
+    startLine: 76
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: 'public IEnumerable<T> GetComponentsInChildren<T>(bool includeSelf = true) where T : MonoBehaviour'
+    parameters:
+    - id: includeSelf
+      type: System.Boolean
+    typeParameters:
+    - id: T
+    return:
+      type: System.Collections.Generic.IEnumerable{{T}}
+    content.vb: Public Function GetComponentsInChildren(Of T As MonoBehaviour)(includeSelf As Boolean = True) As IEnumerable(Of T)
+  overload: Prowl.Runtime.MonoBehaviour.GetComponentsInChildren*
+  nameWithType.vb: MonoBehaviour.GetComponentsInChildren(Of T)(Boolean)
+  fullName.vb: Prowl.Runtime.MonoBehaviour.GetComponentsInChildren(Of T)(Boolean)
+  name.vb: GetComponentsInChildren(Of T)(Boolean)
+- uid: Prowl.Runtime.MonoBehaviour.GetComponentsInChildren(System.Type,System.Boolean)
+  commentId: M:Prowl.Runtime.MonoBehaviour.GetComponentsInChildren(System.Type,System.Boolean)
+  id: GetComponentsInChildren(System.Type,System.Boolean)
+  parent: Prowl.Runtime.MonoBehaviour
+  langs:
+  - csharp
+  - vb
+  name: GetComponentsInChildren(Type, bool)
+  nameWithType: MonoBehaviour.GetComponentsInChildren(Type, bool)
+  fullName: Prowl.Runtime.MonoBehaviour.GetComponentsInChildren(System.Type, bool)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GameObject/MonoBehaviour.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: GetComponentsInChildren
+    path: ../Prowl/Prowl.Runtime/GameObject/MonoBehaviour.cs
+    startLine: 77
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public IEnumerable<MonoBehaviour> GetComponentsInChildren(Type type, bool includeSelf = true)
+    parameters:
+    - id: type
+      type: System.Type
+    - id: includeSelf
+      type: System.Boolean
+    return:
+      type: System.Collections.Generic.IEnumerable{Prowl.Runtime.MonoBehaviour}
+    content.vb: Public Function GetComponentsInChildren(type As Type, includeSelf As Boolean = True) As IEnumerable(Of MonoBehaviour)
+  overload: Prowl.Runtime.MonoBehaviour.GetComponentsInChildren*
+  nameWithType.vb: MonoBehaviour.GetComponentsInChildren(Type, Boolean)
+  fullName.vb: Prowl.Runtime.MonoBehaviour.GetComponentsInChildren(System.Type, Boolean)
+  name.vb: GetComponentsInChildren(Type, Boolean)
+- uid: Prowl.Runtime.MonoBehaviour.Awake
+  commentId: M:Prowl.Runtime.MonoBehaviour.Awake
+  id: Awake
+  parent: Prowl.Runtime.MonoBehaviour
+  langs:
+  - csharp
+  - vb
+  name: Awake()
+  nameWithType: MonoBehaviour.Awake()
+  fullName: Prowl.Runtime.MonoBehaviour.Awake()
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GameObject/MonoBehaviour.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Awake
+    path: ../Prowl/Prowl.Runtime/GameObject/MonoBehaviour.cs
+    startLine: 114
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public virtual void Awake()
+    content.vb: Public Overridable Sub Awake()
+  overload: Prowl.Runtime.MonoBehaviour.Awake*
+- uid: Prowl.Runtime.MonoBehaviour.OnEnable
+  commentId: M:Prowl.Runtime.MonoBehaviour.OnEnable
+  id: OnEnable
+  parent: Prowl.Runtime.MonoBehaviour
+  langs:
+  - csharp
+  - vb
+  name: OnEnable()
+  nameWithType: MonoBehaviour.OnEnable()
+  fullName: Prowl.Runtime.MonoBehaviour.OnEnable()
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GameObject/MonoBehaviour.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: OnEnable
+    path: ../Prowl/Prowl.Runtime/GameObject/MonoBehaviour.cs
+    startLine: 115
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public virtual void OnEnable()
+    content.vb: Public Overridable Sub OnEnable()
+  overload: Prowl.Runtime.MonoBehaviour.OnEnable*
+- uid: Prowl.Runtime.MonoBehaviour.OnDisable
+  commentId: M:Prowl.Runtime.MonoBehaviour.OnDisable
+  id: OnDisable
+  parent: Prowl.Runtime.MonoBehaviour
+  langs:
+  - csharp
+  - vb
+  name: OnDisable()
+  nameWithType: MonoBehaviour.OnDisable()
+  fullName: Prowl.Runtime.MonoBehaviour.OnDisable()
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GameObject/MonoBehaviour.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: OnDisable
+    path: ../Prowl/Prowl.Runtime/GameObject/MonoBehaviour.cs
+    startLine: 116
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public virtual void OnDisable()
+    content.vb: Public Overridable Sub OnDisable()
+  overload: Prowl.Runtime.MonoBehaviour.OnDisable*
+- uid: Prowl.Runtime.MonoBehaviour.Start
+  commentId: M:Prowl.Runtime.MonoBehaviour.Start
+  id: Start
+  parent: Prowl.Runtime.MonoBehaviour
+  langs:
+  - csharp
+  - vb
+  name: Start()
+  nameWithType: MonoBehaviour.Start()
+  fullName: Prowl.Runtime.MonoBehaviour.Start()
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GameObject/MonoBehaviour.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Start
+    path: ../Prowl/Prowl.Runtime/GameObject/MonoBehaviour.cs
+    startLine: 117
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public virtual void Start()
+    content.vb: Public Overridable Sub Start()
+  overload: Prowl.Runtime.MonoBehaviour.Start*
+- uid: Prowl.Runtime.MonoBehaviour.FixedUpdate
+  commentId: M:Prowl.Runtime.MonoBehaviour.FixedUpdate
+  id: FixedUpdate
+  parent: Prowl.Runtime.MonoBehaviour
+  langs:
+  - csharp
+  - vb
+  name: FixedUpdate()
+  nameWithType: MonoBehaviour.FixedUpdate()
+  fullName: Prowl.Runtime.MonoBehaviour.FixedUpdate()
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GameObject/MonoBehaviour.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: FixedUpdate
+    path: ../Prowl/Prowl.Runtime/GameObject/MonoBehaviour.cs
+    startLine: 118
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public virtual void FixedUpdate()
+    content.vb: Public Overridable Sub FixedUpdate()
+  overload: Prowl.Runtime.MonoBehaviour.FixedUpdate*
+- uid: Prowl.Runtime.MonoBehaviour.Update
+  commentId: M:Prowl.Runtime.MonoBehaviour.Update
+  id: Update
+  parent: Prowl.Runtime.MonoBehaviour
+  langs:
+  - csharp
+  - vb
+  name: Update()
+  nameWithType: MonoBehaviour.Update()
+  fullName: Prowl.Runtime.MonoBehaviour.Update()
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GameObject/MonoBehaviour.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Update
+    path: ../Prowl/Prowl.Runtime/GameObject/MonoBehaviour.cs
+    startLine: 119
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public virtual void Update()
+    content.vb: Public Overridable Sub Update()
+  overload: Prowl.Runtime.MonoBehaviour.Update*
+- uid: Prowl.Runtime.MonoBehaviour.LateUpdate
+  commentId: M:Prowl.Runtime.MonoBehaviour.LateUpdate
+  id: LateUpdate
+  parent: Prowl.Runtime.MonoBehaviour
+  langs:
+  - csharp
+  - vb
+  name: LateUpdate()
+  nameWithType: MonoBehaviour.LateUpdate()
+  fullName: Prowl.Runtime.MonoBehaviour.LateUpdate()
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GameObject/MonoBehaviour.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: LateUpdate
+    path: ../Prowl/Prowl.Runtime/GameObject/MonoBehaviour.cs
+    startLine: 120
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public virtual void LateUpdate()
+    content.vb: Public Overridable Sub LateUpdate()
+  overload: Prowl.Runtime.MonoBehaviour.LateUpdate*
+- uid: Prowl.Runtime.MonoBehaviour.DrawGizmos
+  commentId: M:Prowl.Runtime.MonoBehaviour.DrawGizmos
+  id: DrawGizmos
+  parent: Prowl.Runtime.MonoBehaviour
+  langs:
+  - csharp
+  - vb
+  name: DrawGizmos()
+  nameWithType: MonoBehaviour.DrawGizmos()
+  fullName: Prowl.Runtime.MonoBehaviour.DrawGizmos()
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GameObject/MonoBehaviour.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: DrawGizmos
+    path: ../Prowl/Prowl.Runtime/GameObject/MonoBehaviour.cs
+    startLine: 121
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public virtual void DrawGizmos()
+    content.vb: Public Overridable Sub DrawGizmos()
+  overload: Prowl.Runtime.MonoBehaviour.DrawGizmos*
+- uid: Prowl.Runtime.MonoBehaviour.DrawGizmosSelected
+  commentId: M:Prowl.Runtime.MonoBehaviour.DrawGizmosSelected
+  id: DrawGizmosSelected
+  parent: Prowl.Runtime.MonoBehaviour
+  langs:
+  - csharp
+  - vb
+  name: DrawGizmosSelected()
+  nameWithType: MonoBehaviour.DrawGizmosSelected()
+  fullName: Prowl.Runtime.MonoBehaviour.DrawGizmosSelected()
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GameObject/MonoBehaviour.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: DrawGizmosSelected
+    path: ../Prowl/Prowl.Runtime/GameObject/MonoBehaviour.cs
+    startLine: 122
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public virtual void DrawGizmosSelected()
+    content.vb: Public Overridable Sub DrawGizmosSelected()
+  overload: Prowl.Runtime.MonoBehaviour.DrawGizmosSelected*
+- uid: Prowl.Runtime.MonoBehaviour.OnLevelWasLoaded
+  commentId: M:Prowl.Runtime.MonoBehaviour.OnLevelWasLoaded
+  id: OnLevelWasLoaded
+  parent: Prowl.Runtime.MonoBehaviour
+  langs:
+  - csharp
+  - vb
+  name: OnLevelWasLoaded()
+  nameWithType: MonoBehaviour.OnLevelWasLoaded()
+  fullName: Prowl.Runtime.MonoBehaviour.OnLevelWasLoaded()
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GameObject/MonoBehaviour.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: OnLevelWasLoaded
+    path: ../Prowl/Prowl.Runtime/GameObject/MonoBehaviour.cs
+    startLine: 123
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public virtual void OnLevelWasLoaded()
+    content.vb: Public Overridable Sub OnLevelWasLoaded()
+  overload: Prowl.Runtime.MonoBehaviour.OnLevelWasLoaded*
+- uid: Prowl.Runtime.MonoBehaviour.OnDestroy
+  commentId: M:Prowl.Runtime.MonoBehaviour.OnDestroy
+  id: OnDestroy
+  parent: Prowl.Runtime.MonoBehaviour
+  langs:
+  - csharp
+  - vb
+  name: OnDestroy()
+  nameWithType: MonoBehaviour.OnDestroy()
+  fullName: Prowl.Runtime.MonoBehaviour.OnDestroy()
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GameObject/MonoBehaviour.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: OnDestroy
+    path: ../Prowl/Prowl.Runtime/GameObject/MonoBehaviour.cs
+    startLine: 124
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public virtual void OnDestroy()
+    content.vb: Public Overridable Sub OnDestroy()
+  overload: Prowl.Runtime.MonoBehaviour.OnDestroy*
+- uid: Prowl.Runtime.MonoBehaviour.ClearCache
+  commentId: M:Prowl.Runtime.MonoBehaviour.ClearCache
+  id: ClearCache
+  parent: Prowl.Runtime.MonoBehaviour
+  langs:
+  - csharp
+  - vb
+  name: ClearCache()
+  nameWithType: MonoBehaviour.ClearCache()
+  fullName: Prowl.Runtime.MonoBehaviour.ClearCache()
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GameObject/MonoBehaviour.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: ClearCache
+    path: ../Prowl/Prowl.Runtime/GameObject/MonoBehaviour.cs
+    startLine: 165
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: >-
+      [OnAssemblyUnload]
+
+      public static void ClearCache()
+    content.vb: >-
+      <OnAssemblyUnload>
+
+      Public Shared Sub ClearCache()
+  overload: Prowl.Runtime.MonoBehaviour.ClearCache*
+  attributes:
+  - type: Prowl.Runtime.Utils.OnAssemblyUnloadAttribute
+    ctor: Prowl.Runtime.Utils.OnAssemblyUnloadAttribute.#ctor
+    arguments: []
+- uid: Prowl.Runtime.MonoBehaviour.StartCoroutine(System.String)
+  commentId: M:Prowl.Runtime.MonoBehaviour.StartCoroutine(System.String)
+  id: StartCoroutine(System.String)
+  parent: Prowl.Runtime.MonoBehaviour
+  langs:
+  - csharp
+  - vb
+  name: StartCoroutine(string)
+  nameWithType: MonoBehaviour.StartCoroutine(string)
+  fullName: Prowl.Runtime.MonoBehaviour.StartCoroutine(string)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GameObject/MonoBehaviour.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: StartCoroutine
+    path: ../Prowl/Prowl.Runtime/GameObject/MonoBehaviour.cs
+    startLine: 168
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public MonoBehaviour.Coroutine StartCoroutine(string methodName)
+    parameters:
+    - id: methodName
+      type: System.String
+    return:
+      type: Prowl.Runtime.MonoBehaviour.Coroutine
+    content.vb: Public Function StartCoroutine(methodName As String) As MonoBehaviour.Coroutine
+  overload: Prowl.Runtime.MonoBehaviour.StartCoroutine*
+  nameWithType.vb: MonoBehaviour.StartCoroutine(String)
+  fullName.vb: Prowl.Runtime.MonoBehaviour.StartCoroutine(String)
+  name.vb: StartCoroutine(String)
+- uid: Prowl.Runtime.MonoBehaviour.StopAllCoroutines
+  commentId: M:Prowl.Runtime.MonoBehaviour.StopAllCoroutines
+  id: StopAllCoroutines
+  parent: Prowl.Runtime.MonoBehaviour
+  langs:
+  - csharp
+  - vb
+  name: StopAllCoroutines()
+  nameWithType: MonoBehaviour.StopAllCoroutines()
+  fullName: Prowl.Runtime.MonoBehaviour.StopAllCoroutines()
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GameObject/MonoBehaviour.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: StopAllCoroutines
+    path: ../Prowl/Prowl.Runtime/GameObject/MonoBehaviour.cs
+    startLine: 190
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public void StopAllCoroutines()
+    content.vb: Public Sub StopAllCoroutines()
+  overload: Prowl.Runtime.MonoBehaviour.StopAllCoroutines*
+- uid: Prowl.Runtime.MonoBehaviour.StopCoroutine(System.String)
+  commentId: M:Prowl.Runtime.MonoBehaviour.StopCoroutine(System.String)
+  id: StopCoroutine(System.String)
+  parent: Prowl.Runtime.MonoBehaviour
+  langs:
+  - csharp
+  - vb
+  name: StopCoroutine(string)
+  nameWithType: MonoBehaviour.StopCoroutine(string)
+  fullName: Prowl.Runtime.MonoBehaviour.StopCoroutine(string)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GameObject/MonoBehaviour.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: StopCoroutine
+    path: ../Prowl/Prowl.Runtime/GameObject/MonoBehaviour.cs
+    startLine: 197
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public void StopCoroutine(string methodName)
+    parameters:
+    - id: methodName
+      type: System.String
+    content.vb: Public Sub StopCoroutine(methodName As String)
+  overload: Prowl.Runtime.MonoBehaviour.StopCoroutine*
+  nameWithType.vb: MonoBehaviour.StopCoroutine(String)
+  fullName.vb: Prowl.Runtime.MonoBehaviour.StopCoroutine(String)
+  name.vb: StopCoroutine(String)
+- uid: Prowl.Runtime.MonoBehaviour.BroadcastMessage(System.String,System.Object[])
+  commentId: M:Prowl.Runtime.MonoBehaviour.BroadcastMessage(System.String,System.Object[])
+  id: BroadcastMessage(System.String,System.Object[])
+  parent: Prowl.Runtime.MonoBehaviour
+  langs:
+  - csharp
+  - vb
+  name: BroadcastMessage(string, params object[])
+  nameWithType: MonoBehaviour.BroadcastMessage(string, params object[])
+  fullName: Prowl.Runtime.MonoBehaviour.BroadcastMessage(string, params object[])
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GameObject/MonoBehaviour.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: BroadcastMessage
+    path: ../Prowl/Prowl.Runtime/GameObject/MonoBehaviour.cs
+    startLine: 324
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: Calls the method named methodName on every MonoBehaviour in this game object or any of its children.
+  example: []
+  syntax:
+    content: public void BroadcastMessage(string methodName, params object[] objs)
+    parameters:
+    - id: methodName
+      type: System.String
+    - id: objs
+      type: System.Object[]
+    content.vb: Public Sub BroadcastMessage(methodName As String, ParamArray objs As Object())
+  overload: Prowl.Runtime.MonoBehaviour.BroadcastMessage*
+  nameWithType.vb: MonoBehaviour.BroadcastMessage(String, ParamArray Object())
+  fullName.vb: Prowl.Runtime.MonoBehaviour.BroadcastMessage(String, ParamArray Object())
+  name.vb: BroadcastMessage(String, ParamArray Object())
+- uid: Prowl.Runtime.MonoBehaviour.SendMessage(System.String,System.Object[])
+  commentId: M:Prowl.Runtime.MonoBehaviour.SendMessage(System.String,System.Object[])
+  id: SendMessage(System.String,System.Object[])
+  parent: Prowl.Runtime.MonoBehaviour
+  langs:
+  - csharp
+  - vb
+  name: SendMessage(string, params object[])
+  nameWithType: MonoBehaviour.SendMessage(string, params object[])
+  fullName: Prowl.Runtime.MonoBehaviour.SendMessage(string, params object[])
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GameObject/MonoBehaviour.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: SendMessage
+    path: ../Prowl/Prowl.Runtime/GameObject/MonoBehaviour.cs
+    startLine: 327
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: Calls the method named methodName on every MonoBehaviour in this game object.
+  example: []
+  syntax:
+    content: public void SendMessage(string methodName, params object[] objs)
+    parameters:
+    - id: methodName
+      type: System.String
+    - id: objs
+      type: System.Object[]
+    content.vb: Public Sub SendMessage(methodName As String, ParamArray objs As Object())
+  overload: Prowl.Runtime.MonoBehaviour.SendMessage*
+  nameWithType.vb: MonoBehaviour.SendMessage(String, ParamArray Object())
+  fullName.vb: Prowl.Runtime.MonoBehaviour.SendMessage(String, ParamArray Object())
+  name.vb: SendMessage(String, ParamArray Object())
+references:
+- uid: Prowl.Runtime
+  commentId: N:Prowl.Runtime
+  href: Prowl.html
+  name: Prowl.Runtime
+  nameWithType: Prowl.Runtime
+  fullName: Prowl.Runtime
+  spec.csharp:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+  spec.vb:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Prowl.Runtime.EngineObject
+  commentId: T:Prowl.Runtime.EngineObject
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.EngineObject.html
+  name: EngineObject
+  nameWithType: EngineObject
+  fullName: Prowl.Runtime.EngineObject
+- uid: System.IDisposable
+  commentId: T:System.IDisposable
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.idisposable
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
+- uid: Prowl.Runtime.EngineObject._instanceID
+  commentId: F:Prowl.Runtime.EngineObject._instanceID
+  parent: Prowl.Runtime.EngineObject
+  href: Prowl.Runtime.EngineObject.html#Prowl_Runtime_EngineObject__instanceID
+  name: _instanceID
+  nameWithType: EngineObject._instanceID
+  fullName: Prowl.Runtime.EngineObject._instanceID
+- uid: Prowl.Runtime.EngineObject.InstanceID
+  commentId: P:Prowl.Runtime.EngineObject.InstanceID
+  parent: Prowl.Runtime.EngineObject
+  href: Prowl.Runtime.EngineObject.html#Prowl_Runtime_EngineObject_InstanceID
+  name: InstanceID
+  nameWithType: EngineObject.InstanceID
+  fullName: Prowl.Runtime.EngineObject.InstanceID
+- uid: Prowl.Runtime.EngineObject.AssetID
+  commentId: F:Prowl.Runtime.EngineObject.AssetID
+  parent: Prowl.Runtime.EngineObject
+  href: Prowl.Runtime.EngineObject.html#Prowl_Runtime_EngineObject_AssetID
+  name: AssetID
+  nameWithType: EngineObject.AssetID
+  fullName: Prowl.Runtime.EngineObject.AssetID
+- uid: Prowl.Runtime.EngineObject.FileID
+  commentId: F:Prowl.Runtime.EngineObject.FileID
+  parent: Prowl.Runtime.EngineObject
+  href: Prowl.Runtime.EngineObject.html#Prowl_Runtime_EngineObject_FileID
+  name: FileID
+  nameWithType: EngineObject.FileID
+  fullName: Prowl.Runtime.EngineObject.FileID
+- uid: Prowl.Runtime.EngineObject.Name
+  commentId: F:Prowl.Runtime.EngineObject.Name
+  parent: Prowl.Runtime.EngineObject
+  href: Prowl.Runtime.EngineObject.html#Prowl_Runtime_EngineObject_Name
+  name: Name
+  nameWithType: EngineObject.Name
+  fullName: Prowl.Runtime.EngineObject.Name
+- uid: Prowl.Runtime.EngineObject.IsDestroyed
+  commentId: F:Prowl.Runtime.EngineObject.IsDestroyed
+  parent: Prowl.Runtime.EngineObject
+  href: Prowl.Runtime.EngineObject.html#Prowl_Runtime_EngineObject_IsDestroyed
+  name: IsDestroyed
+  nameWithType: EngineObject.IsDestroyed
+  fullName: Prowl.Runtime.EngineObject.IsDestroyed
+- uid: Prowl.Runtime.EngineObject.CreatedInstance
+  commentId: M:Prowl.Runtime.EngineObject.CreatedInstance
+  parent: Prowl.Runtime.EngineObject
+  href: Prowl.Runtime.EngineObject.html#Prowl_Runtime_EngineObject_CreatedInstance
+  name: CreatedInstance()
+  nameWithType: EngineObject.CreatedInstance()
+  fullName: Prowl.Runtime.EngineObject.CreatedInstance()
+  spec.csharp:
+  - uid: Prowl.Runtime.EngineObject.CreatedInstance
+    name: CreatedInstance
+    href: Prowl.Runtime.EngineObject.html#Prowl_Runtime_EngineObject_CreatedInstance
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.EngineObject.CreatedInstance
+    name: CreatedInstance
+    href: Prowl.Runtime.EngineObject.html#Prowl_Runtime_EngineObject_CreatedInstance
+  - name: (
+  - name: )
+- uid: Prowl.Runtime.EngineObject.OnValidate
+  commentId: M:Prowl.Runtime.EngineObject.OnValidate
+  parent: Prowl.Runtime.EngineObject
+  href: Prowl.Runtime.EngineObject.html#Prowl_Runtime_EngineObject_OnValidate
+  name: OnValidate()
+  nameWithType: EngineObject.OnValidate()
+  fullName: Prowl.Runtime.EngineObject.OnValidate()
+  spec.csharp:
+  - uid: Prowl.Runtime.EngineObject.OnValidate
+    name: OnValidate
+    href: Prowl.Runtime.EngineObject.html#Prowl_Runtime_EngineObject_OnValidate
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.EngineObject.OnValidate
+    name: OnValidate
+    href: Prowl.Runtime.EngineObject.html#Prowl_Runtime_EngineObject_OnValidate
+  - name: (
+  - name: )
+- uid: Prowl.Runtime.EngineObject.FindObjectOfType``1
+  commentId: M:Prowl.Runtime.EngineObject.FindObjectOfType``1
+  parent: Prowl.Runtime.EngineObject
+  href: Prowl.Runtime.EngineObject.html#Prowl_Runtime_EngineObject_FindObjectOfType__1
+  name: FindObjectOfType<T>()
+  nameWithType: EngineObject.FindObjectOfType<T>()
+  fullName: Prowl.Runtime.EngineObject.FindObjectOfType<T>()
+  nameWithType.vb: EngineObject.FindObjectOfType(Of T)()
+  fullName.vb: Prowl.Runtime.EngineObject.FindObjectOfType(Of T)()
+  name.vb: FindObjectOfType(Of T)()
+  spec.csharp:
+  - uid: Prowl.Runtime.EngineObject.FindObjectOfType``1
+    name: FindObjectOfType
+    href: Prowl.Runtime.EngineObject.html#Prowl_Runtime_EngineObject_FindObjectOfType__1
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.EngineObject.FindObjectOfType``1
+    name: FindObjectOfType
+    href: Prowl.Runtime.EngineObject.html#Prowl_Runtime_EngineObject_FindObjectOfType__1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: )
+- uid: Prowl.Runtime.EngineObject.FindObjectsOfType``1
+  commentId: M:Prowl.Runtime.EngineObject.FindObjectsOfType``1
+  parent: Prowl.Runtime.EngineObject
+  href: Prowl.Runtime.EngineObject.html#Prowl_Runtime_EngineObject_FindObjectsOfType__1
+  name: FindObjectsOfType<T>()
+  nameWithType: EngineObject.FindObjectsOfType<T>()
+  fullName: Prowl.Runtime.EngineObject.FindObjectsOfType<T>()
+  nameWithType.vb: EngineObject.FindObjectsOfType(Of T)()
+  fullName.vb: Prowl.Runtime.EngineObject.FindObjectsOfType(Of T)()
+  name.vb: FindObjectsOfType(Of T)()
+  spec.csharp:
+  - uid: Prowl.Runtime.EngineObject.FindObjectsOfType``1
+    name: FindObjectsOfType
+    href: Prowl.Runtime.EngineObject.html#Prowl_Runtime_EngineObject_FindObjectsOfType__1
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.EngineObject.FindObjectsOfType``1
+    name: FindObjectsOfType
+    href: Prowl.Runtime.EngineObject.html#Prowl_Runtime_EngineObject_FindObjectsOfType__1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: )
+- uid: Prowl.Runtime.EngineObject.FindObjectByID``1(System.Int32)
+  commentId: M:Prowl.Runtime.EngineObject.FindObjectByID``1(System.Int32)
+  parent: Prowl.Runtime.EngineObject
+  isExternal: true
+  href: Prowl.Runtime.EngineObject.html#Prowl_Runtime_EngineObject_FindObjectByID__1_System_Int32_
+  name: FindObjectByID<T>(int)
+  nameWithType: EngineObject.FindObjectByID<T>(int)
+  fullName: Prowl.Runtime.EngineObject.FindObjectByID<T>(int)
+  nameWithType.vb: EngineObject.FindObjectByID(Of T)(Integer)
+  fullName.vb: Prowl.Runtime.EngineObject.FindObjectByID(Of T)(Integer)
+  name.vb: FindObjectByID(Of T)(Integer)
+  spec.csharp:
+  - uid: Prowl.Runtime.EngineObject.FindObjectByID``1(System.Int32)
+    name: FindObjectByID
+    href: Prowl.Runtime.EngineObject.html#Prowl_Runtime_EngineObject_FindObjectByID__1_System_Int32_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.EngineObject.FindObjectByID``1(System.Int32)
+    name: FindObjectByID
+    href: Prowl.Runtime.EngineObject.html#Prowl_Runtime_EngineObject_FindObjectByID__1_System_Int32_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: Prowl.Runtime.EngineObject.Foreach``1(System.Action{{T}})
+  commentId: M:Prowl.Runtime.EngineObject.Foreach``1(System.Action{``0})
+  parent: Prowl.Runtime.EngineObject
+  definition: Prowl.Runtime.EngineObject.Foreach``1(System.Action{``0})
+  href: Prowl.Runtime.EngineObject.html#Prowl_Runtime_EngineObject_Foreach__1_System_Action___0__
+  name: Foreach<T>(Action<T>)
+  nameWithType: EngineObject.Foreach<T>(Action<T>)
+  fullName: Prowl.Runtime.EngineObject.Foreach<T>(System.Action<T>)
+  nameWithType.vb: EngineObject.Foreach(Of T)(Action(Of T))
+  fullName.vb: Prowl.Runtime.EngineObject.Foreach(Of T)(System.Action(Of T))
+  name.vb: Foreach(Of T)(Action(Of T))
+  spec.csharp:
+  - uid: Prowl.Runtime.EngineObject.Foreach``1(System.Action{``0})
+    name: Foreach
+    href: Prowl.Runtime.EngineObject.html#Prowl_Runtime_EngineObject_Foreach__1_System_Action___0__
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: <
+  - name: T
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.EngineObject.Foreach``1(System.Action{``0})
+    name: Foreach
+    href: Prowl.Runtime.EngineObject.html#Prowl_Runtime_EngineObject_Foreach__1_System_Action___0__
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: )
+- uid: Prowl.Runtime.EngineObject.Destroy
+  commentId: M:Prowl.Runtime.EngineObject.Destroy
+  parent: Prowl.Runtime.EngineObject
+  href: Prowl.Runtime.EngineObject.html#Prowl_Runtime_EngineObject_Destroy
+  name: Destroy()
+  nameWithType: EngineObject.Destroy()
+  fullName: Prowl.Runtime.EngineObject.Destroy()
+  spec.csharp:
+  - uid: Prowl.Runtime.EngineObject.Destroy
+    name: Destroy
+    href: Prowl.Runtime.EngineObject.html#Prowl_Runtime_EngineObject_Destroy
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.EngineObject.Destroy
+    name: Destroy
+    href: Prowl.Runtime.EngineObject.html#Prowl_Runtime_EngineObject_Destroy
+  - name: (
+  - name: )
+- uid: Prowl.Runtime.EngineObject.DestroyImmediate
+  commentId: M:Prowl.Runtime.EngineObject.DestroyImmediate
+  parent: Prowl.Runtime.EngineObject
+  href: Prowl.Runtime.EngineObject.html#Prowl_Runtime_EngineObject_DestroyImmediate
+  name: DestroyImmediate()
+  nameWithType: EngineObject.DestroyImmediate()
+  fullName: Prowl.Runtime.EngineObject.DestroyImmediate()
+  spec.csharp:
+  - uid: Prowl.Runtime.EngineObject.DestroyImmediate
+    name: DestroyImmediate
+    href: Prowl.Runtime.EngineObject.html#Prowl_Runtime_EngineObject_DestroyImmediate
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.EngineObject.DestroyImmediate
+    name: DestroyImmediate
+    href: Prowl.Runtime.EngineObject.html#Prowl_Runtime_EngineObject_DestroyImmediate
+  - name: (
+  - name: )
+- uid: Prowl.Runtime.EngineObject.Destroy(Prowl.Runtime.EngineObject)
+  commentId: M:Prowl.Runtime.EngineObject.Destroy(Prowl.Runtime.EngineObject)
+  parent: Prowl.Runtime.EngineObject
+  href: Prowl.Runtime.EngineObject.html#Prowl_Runtime_EngineObject_Destroy_Prowl_Runtime_EngineObject_
+  name: Destroy(EngineObject)
+  nameWithType: EngineObject.Destroy(EngineObject)
+  fullName: Prowl.Runtime.EngineObject.Destroy(Prowl.Runtime.EngineObject)
+  spec.csharp:
+  - uid: Prowl.Runtime.EngineObject.Destroy(Prowl.Runtime.EngineObject)
+    name: Destroy
+    href: Prowl.Runtime.EngineObject.html#Prowl_Runtime_EngineObject_Destroy_Prowl_Runtime_EngineObject_
+  - name: (
+  - uid: Prowl.Runtime.EngineObject
+    name: EngineObject
+    href: Prowl.Runtime.EngineObject.html
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.EngineObject.Destroy(Prowl.Runtime.EngineObject)
+    name: Destroy
+    href: Prowl.Runtime.EngineObject.html#Prowl_Runtime_EngineObject_Destroy_Prowl_Runtime_EngineObject_
+  - name: (
+  - uid: Prowl.Runtime.EngineObject
+    name: EngineObject
+    href: Prowl.Runtime.EngineObject.html
+  - name: )
+- uid: Prowl.Runtime.EngineObject.DestroyImmediate(Prowl.Runtime.EngineObject)
+  commentId: M:Prowl.Runtime.EngineObject.DestroyImmediate(Prowl.Runtime.EngineObject)
+  parent: Prowl.Runtime.EngineObject
+  href: Prowl.Runtime.EngineObject.html#Prowl_Runtime_EngineObject_DestroyImmediate_Prowl_Runtime_EngineObject_
+  name: DestroyImmediate(EngineObject)
+  nameWithType: EngineObject.DestroyImmediate(EngineObject)
+  fullName: Prowl.Runtime.EngineObject.DestroyImmediate(Prowl.Runtime.EngineObject)
+  spec.csharp:
+  - uid: Prowl.Runtime.EngineObject.DestroyImmediate(Prowl.Runtime.EngineObject)
+    name: DestroyImmediate
+    href: Prowl.Runtime.EngineObject.html#Prowl_Runtime_EngineObject_DestroyImmediate_Prowl_Runtime_EngineObject_
+  - name: (
+  - uid: Prowl.Runtime.EngineObject
+    name: EngineObject
+    href: Prowl.Runtime.EngineObject.html
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.EngineObject.DestroyImmediate(Prowl.Runtime.EngineObject)
+    name: DestroyImmediate
+    href: Prowl.Runtime.EngineObject.html#Prowl_Runtime_EngineObject_DestroyImmediate_Prowl_Runtime_EngineObject_
+  - name: (
+  - uid: Prowl.Runtime.EngineObject
+    name: EngineObject
+    href: Prowl.Runtime.EngineObject.html
+  - name: )
+- uid: Prowl.Runtime.EngineObject.HandleDestroyed
+  commentId: M:Prowl.Runtime.EngineObject.HandleDestroyed
+  parent: Prowl.Runtime.EngineObject
+  href: Prowl.Runtime.EngineObject.html#Prowl_Runtime_EngineObject_HandleDestroyed
+  name: HandleDestroyed()
+  nameWithType: EngineObject.HandleDestroyed()
+  fullName: Prowl.Runtime.EngineObject.HandleDestroyed()
+  spec.csharp:
+  - uid: Prowl.Runtime.EngineObject.HandleDestroyed
+    name: HandleDestroyed
+    href: Prowl.Runtime.EngineObject.html#Prowl_Runtime_EngineObject_HandleDestroyed
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.EngineObject.HandleDestroyed
+    name: HandleDestroyed
+    href: Prowl.Runtime.EngineObject.html#Prowl_Runtime_EngineObject_HandleDestroyed
+  - name: (
+  - name: )
+- uid: Prowl.Runtime.EngineObject.Instantiate(Prowl.Runtime.EngineObject,System.Boolean)
+  commentId: M:Prowl.Runtime.EngineObject.Instantiate(Prowl.Runtime.EngineObject,System.Boolean)
+  parent: Prowl.Runtime.EngineObject
+  isExternal: true
+  href: Prowl.Runtime.EngineObject.html#Prowl_Runtime_EngineObject_Instantiate_Prowl_Runtime_EngineObject_System_Boolean_
+  name: Instantiate(EngineObject, bool)
+  nameWithType: EngineObject.Instantiate(EngineObject, bool)
+  fullName: Prowl.Runtime.EngineObject.Instantiate(Prowl.Runtime.EngineObject, bool)
+  nameWithType.vb: EngineObject.Instantiate(EngineObject, Boolean)
+  fullName.vb: Prowl.Runtime.EngineObject.Instantiate(Prowl.Runtime.EngineObject, Boolean)
+  name.vb: Instantiate(EngineObject, Boolean)
+  spec.csharp:
+  - uid: Prowl.Runtime.EngineObject.Instantiate(Prowl.Runtime.EngineObject,System.Boolean)
+    name: Instantiate
+    href: Prowl.Runtime.EngineObject.html#Prowl_Runtime_EngineObject_Instantiate_Prowl_Runtime_EngineObject_System_Boolean_
+  - name: (
+  - uid: Prowl.Runtime.EngineObject
+    name: EngineObject
+    href: Prowl.Runtime.EngineObject.html
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.EngineObject.Instantiate(Prowl.Runtime.EngineObject,System.Boolean)
+    name: Instantiate
+    href: Prowl.Runtime.EngineObject.html#Prowl_Runtime_EngineObject_Instantiate_Prowl_Runtime_EngineObject_System_Boolean_
+  - name: (
+  - uid: Prowl.Runtime.EngineObject
+    name: EngineObject
+    href: Prowl.Runtime.EngineObject.html
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+- uid: Prowl.Runtime.EngineObject.Dispose
+  commentId: M:Prowl.Runtime.EngineObject.Dispose
+  parent: Prowl.Runtime.EngineObject
+  href: Prowl.Runtime.EngineObject.html#Prowl_Runtime_EngineObject_Dispose
+  name: Dispose()
+  nameWithType: EngineObject.Dispose()
+  fullName: Prowl.Runtime.EngineObject.Dispose()
+  spec.csharp:
+  - uid: Prowl.Runtime.EngineObject.Dispose
+    name: Dispose
+    href: Prowl.Runtime.EngineObject.html#Prowl_Runtime_EngineObject_Dispose
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.EngineObject.Dispose
+    name: Dispose
+    href: Prowl.Runtime.EngineObject.html#Prowl_Runtime_EngineObject_Dispose
+  - name: (
+  - name: )
+- uid: Prowl.Runtime.EngineObject.OnDispose
+  commentId: M:Prowl.Runtime.EngineObject.OnDispose
+  parent: Prowl.Runtime.EngineObject
+  href: Prowl.Runtime.EngineObject.html#Prowl_Runtime_EngineObject_OnDispose
+  name: OnDispose()
+  nameWithType: EngineObject.OnDispose()
+  fullName: Prowl.Runtime.EngineObject.OnDispose()
+  spec.csharp:
+  - uid: Prowl.Runtime.EngineObject.OnDispose
+    name: OnDispose
+    href: Prowl.Runtime.EngineObject.html#Prowl_Runtime_EngineObject_OnDispose
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.EngineObject.OnDispose
+    name: OnDispose
+    href: Prowl.Runtime.EngineObject.html#Prowl_Runtime_EngineObject_OnDispose
+  - name: (
+  - name: )
+- uid: Prowl.Runtime.EngineObject.ToString
+  commentId: M:Prowl.Runtime.EngineObject.ToString
+  parent: Prowl.Runtime.EngineObject
+  href: Prowl.Runtime.EngineObject.html#Prowl_Runtime_EngineObject_ToString
+  name: ToString()
+  nameWithType: EngineObject.ToString()
+  fullName: Prowl.Runtime.EngineObject.ToString()
+  spec.csharp:
+  - uid: Prowl.Runtime.EngineObject.ToString
+    name: ToString
+    href: Prowl.Runtime.EngineObject.html#Prowl_Runtime_EngineObject_ToString
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.EngineObject.ToString
+    name: ToString
+    href: Prowl.Runtime.EngineObject.html#Prowl_Runtime_EngineObject_ToString
+  - name: (
+  - name: )
+- uid: Prowl.Runtime.EngineObject.SerializeHeader(Prowl.Runtime.SerializedProperty)
+  commentId: M:Prowl.Runtime.EngineObject.SerializeHeader(Prowl.Runtime.SerializedProperty)
+  parent: Prowl.Runtime.EngineObject
+  href: Prowl.Runtime.EngineObject.html#Prowl_Runtime_EngineObject_SerializeHeader_Prowl_Runtime_SerializedProperty_
+  name: SerializeHeader(SerializedProperty)
+  nameWithType: EngineObject.SerializeHeader(SerializedProperty)
+  fullName: Prowl.Runtime.EngineObject.SerializeHeader(Prowl.Runtime.SerializedProperty)
+  spec.csharp:
+  - uid: Prowl.Runtime.EngineObject.SerializeHeader(Prowl.Runtime.SerializedProperty)
+    name: SerializeHeader
+    href: Prowl.Runtime.EngineObject.html#Prowl_Runtime_EngineObject_SerializeHeader_Prowl_Runtime_SerializedProperty_
+  - name: (
+  - uid: Prowl.Runtime.SerializedProperty
+    name: SerializedProperty
+    href: Prowl.Runtime.SerializedProperty.html
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.EngineObject.SerializeHeader(Prowl.Runtime.SerializedProperty)
+    name: SerializeHeader
+    href: Prowl.Runtime.EngineObject.html#Prowl_Runtime_EngineObject_SerializeHeader_Prowl_Runtime_SerializedProperty_
+  - name: (
+  - uid: Prowl.Runtime.SerializedProperty
+    name: SerializedProperty
+    href: Prowl.Runtime.SerializedProperty.html
+  - name: )
+- uid: Prowl.Runtime.EngineObject.DeserializeHeader(Prowl.Runtime.SerializedProperty)
+  commentId: M:Prowl.Runtime.EngineObject.DeserializeHeader(Prowl.Runtime.SerializedProperty)
+  parent: Prowl.Runtime.EngineObject
+  href: Prowl.Runtime.EngineObject.html#Prowl_Runtime_EngineObject_DeserializeHeader_Prowl_Runtime_SerializedProperty_
+  name: DeserializeHeader(SerializedProperty)
+  nameWithType: EngineObject.DeserializeHeader(SerializedProperty)
+  fullName: Prowl.Runtime.EngineObject.DeserializeHeader(Prowl.Runtime.SerializedProperty)
+  spec.csharp:
+  - uid: Prowl.Runtime.EngineObject.DeserializeHeader(Prowl.Runtime.SerializedProperty)
+    name: DeserializeHeader
+    href: Prowl.Runtime.EngineObject.html#Prowl_Runtime_EngineObject_DeserializeHeader_Prowl_Runtime_SerializedProperty_
+  - name: (
+  - uid: Prowl.Runtime.SerializedProperty
+    name: SerializedProperty
+    href: Prowl.Runtime.SerializedProperty.html
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.EngineObject.DeserializeHeader(Prowl.Runtime.SerializedProperty)
+    name: DeserializeHeader
+    href: Prowl.Runtime.EngineObject.html#Prowl_Runtime_EngineObject_DeserializeHeader_Prowl_Runtime_SerializedProperty_
+  - name: (
+  - uid: Prowl.Runtime.SerializedProperty
+    name: SerializedProperty
+    href: Prowl.Runtime.SerializedProperty.html
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: Prowl.Runtime.EngineObject.Prowl.Runtime.EngineObjectExtensions.Null
+  commentId: M:Prowl.Runtime.EngineObjectExtensions.Null(Prowl.Runtime.EngineObject)
+  parent: Prowl.Runtime.EngineObjectExtensions
+  definition: Prowl.Runtime.EngineObjectExtensions.Null(Prowl.Runtime.EngineObject)
+  href: Prowl.Runtime.EngineObjectExtensions.html#Prowl_Runtime_EngineObjectExtensions_Null_Prowl_Runtime_EngineObject_
+  name: Null(EngineObject)
+  nameWithType: EngineObjectExtensions.Null(EngineObject)
+  fullName: Prowl.Runtime.EngineObjectExtensions.Null(Prowl.Runtime.EngineObject)
+  spec.csharp:
+  - uid: Prowl.Runtime.EngineObjectExtensions.Null(Prowl.Runtime.EngineObject)
+    name: "Null"
+    href: Prowl.Runtime.EngineObjectExtensions.html#Prowl_Runtime_EngineObjectExtensions_Null_Prowl_Runtime_EngineObject_
+  - name: (
+  - uid: Prowl.Runtime.EngineObject
+    name: EngineObject
+    href: Prowl.Runtime.EngineObject.html
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.EngineObjectExtensions.Null(Prowl.Runtime.EngineObject)
+    name: "Null"
+    href: Prowl.Runtime.EngineObjectExtensions.html#Prowl_Runtime_EngineObjectExtensions_Null_Prowl_Runtime_EngineObject_
+  - name: (
+  - uid: Prowl.Runtime.EngineObject
+    name: EngineObject
+    href: Prowl.Runtime.EngineObject.html
+  - name: )
+- uid: System.Object.Prowl.Runtime.RuntimeUtils.GetSerializableFields
+  commentId: M:Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  parent: Prowl.Runtime.RuntimeUtils
+  definition: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  name: GetSerializableFields(object)
+  nameWithType: RuntimeUtils.GetSerializableFields(object)
+  fullName: Prowl.Runtime.RuntimeUtils.GetSerializableFields(object)
+  nameWithType.vb: RuntimeUtils.GetSerializableFields(Object)
+  fullName.vb: Prowl.Runtime.RuntimeUtils.GetSerializableFields(Object)
+  name.vb: GetSerializableFields(Object)
+  spec.csharp:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Prowl.Runtime.EngineObject.Foreach``1(System.Action{``0})
+  commentId: M:Prowl.Runtime.EngineObject.Foreach``1(System.Action{``0})
+  isExternal: true
+  href: Prowl.Runtime.EngineObject.html#Prowl_Runtime_EngineObject_Foreach__1_System_Action___0__
+  name: Foreach<T>(Action<T>)
+  nameWithType: EngineObject.Foreach<T>(Action<T>)
+  fullName: Prowl.Runtime.EngineObject.Foreach<T>(System.Action<T>)
+  nameWithType.vb: EngineObject.Foreach(Of T)(Action(Of T))
+  fullName.vb: Prowl.Runtime.EngineObject.Foreach(Of T)(System.Action(Of T))
+  name.vb: Foreach(Of T)(Action(Of T))
+  spec.csharp:
+  - uid: Prowl.Runtime.EngineObject.Foreach``1(System.Action{``0})
+    name: Foreach
+    href: Prowl.Runtime.EngineObject.html#Prowl_Runtime_EngineObject_Foreach__1_System_Action___0__
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: <
+  - name: T
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.EngineObject.Foreach``1(System.Action{``0})
+    name: Foreach
+    href: Prowl.Runtime.EngineObject.html#Prowl_Runtime_EngineObject_Foreach__1_System_Action___0__
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: )
+- uid: Prowl.Runtime.EngineObjectExtensions.Null(Prowl.Runtime.EngineObject)
+  commentId: M:Prowl.Runtime.EngineObjectExtensions.Null(Prowl.Runtime.EngineObject)
+  href: Prowl.Runtime.EngineObjectExtensions.html#Prowl_Runtime_EngineObjectExtensions_Null_Prowl_Runtime_EngineObject_
+  name: Null(EngineObject)
+  nameWithType: EngineObjectExtensions.Null(EngineObject)
+  fullName: Prowl.Runtime.EngineObjectExtensions.Null(Prowl.Runtime.EngineObject)
+  spec.csharp:
+  - uid: Prowl.Runtime.EngineObjectExtensions.Null(Prowl.Runtime.EngineObject)
+    name: "Null"
+    href: Prowl.Runtime.EngineObjectExtensions.html#Prowl_Runtime_EngineObjectExtensions_Null_Prowl_Runtime_EngineObject_
+  - name: (
+  - uid: Prowl.Runtime.EngineObject
+    name: EngineObject
+    href: Prowl.Runtime.EngineObject.html
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.EngineObjectExtensions.Null(Prowl.Runtime.EngineObject)
+    name: "Null"
+    href: Prowl.Runtime.EngineObjectExtensions.html#Prowl_Runtime_EngineObjectExtensions_Null_Prowl_Runtime_EngineObject_
+  - name: (
+  - uid: Prowl.Runtime.EngineObject
+    name: EngineObject
+    href: Prowl.Runtime.EngineObject.html
+  - name: )
+- uid: Prowl.Runtime.EngineObjectExtensions
+  commentId: T:Prowl.Runtime.EngineObjectExtensions
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.EngineObjectExtensions.html
+  name: EngineObjectExtensions
+  nameWithType: EngineObjectExtensions
+  fullName: Prowl.Runtime.EngineObjectExtensions
+- uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  commentId: M:Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  isExternal: true
+  href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  name: GetSerializableFields(object)
+  nameWithType: RuntimeUtils.GetSerializableFields(object)
+  fullName: Prowl.Runtime.RuntimeUtils.GetSerializableFields(object)
+  nameWithType.vb: RuntimeUtils.GetSerializableFields(Object)
+  fullName.vb: Prowl.Runtime.RuntimeUtils.GetSerializableFields(Object)
+  name.vb: GetSerializableFields(Object)
+  spec.csharp:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: Prowl.Runtime.RuntimeUtils
+  commentId: T:Prowl.Runtime.RuntimeUtils
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.RuntimeUtils.html
+  name: RuntimeUtils
+  nameWithType: RuntimeUtils
+  fullName: Prowl.Runtime.RuntimeUtils
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: Prowl.Runtime.HideFlags
+  commentId: T:Prowl.Runtime.HideFlags
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.HideFlags.html
+  name: HideFlags
+  nameWithType: HideFlags
+  fullName: Prowl.Runtime.HideFlags
+- uid: Prowl.Runtime.MonoBehaviour.GameObject*
+  commentId: Overload:Prowl.Runtime.MonoBehaviour.GameObject
+  href: Prowl.Runtime.MonoBehaviour.html#Prowl_Runtime_MonoBehaviour_GameObject
+  name: GameObject
+  nameWithType: MonoBehaviour.GameObject
+  fullName: Prowl.Runtime.MonoBehaviour.GameObject
+- uid: Prowl.Runtime.GameObject
+  commentId: T:Prowl.Runtime.GameObject
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.GameObject.html
+  name: GameObject
+  nameWithType: GameObject
+  fullName: Prowl.Runtime.GameObject
+- uid: Prowl.Runtime.MonoBehaviour.Transform*
+  commentId: Overload:Prowl.Runtime.MonoBehaviour.Transform
+  href: Prowl.Runtime.MonoBehaviour.html#Prowl_Runtime_MonoBehaviour_Transform
+  name: Transform
+  nameWithType: MonoBehaviour.Transform
+  fullName: Prowl.Runtime.MonoBehaviour.Transform
+- uid: Prowl.Runtime.Transform
+  commentId: T:Prowl.Runtime.Transform
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.Transform.html
+  name: Transform
+  nameWithType: Transform
+  fullName: Prowl.Runtime.Transform
+- uid: Prowl.Runtime.MonoBehaviour.ExecuteAlways*
+  commentId: Overload:Prowl.Runtime.MonoBehaviour.ExecuteAlways
+  href: Prowl.Runtime.MonoBehaviour.html#Prowl_Runtime_MonoBehaviour_ExecuteAlways
+  name: ExecuteAlways
+  nameWithType: MonoBehaviour.ExecuteAlways
+  fullName: Prowl.Runtime.MonoBehaviour.ExecuteAlways
+- uid: Prowl.Runtime.MonoBehaviour.HasAwoken*
+  commentId: Overload:Prowl.Runtime.MonoBehaviour.HasAwoken
+  href: Prowl.Runtime.MonoBehaviour.html#Prowl_Runtime_MonoBehaviour_HasAwoken
+  name: HasAwoken
+  nameWithType: MonoBehaviour.HasAwoken
+  fullName: Prowl.Runtime.MonoBehaviour.HasAwoken
+- uid: Prowl.Runtime.MonoBehaviour.HasStarted*
+  commentId: Overload:Prowl.Runtime.MonoBehaviour.HasStarted
+  href: Prowl.Runtime.MonoBehaviour.html#Prowl_Runtime_MonoBehaviour_HasStarted
+  name: HasStarted
+  nameWithType: MonoBehaviour.HasStarted
+  fullName: Prowl.Runtime.MonoBehaviour.HasStarted
+- uid: Prowl.Runtime.MonoBehaviour.Tag*
+  commentId: Overload:Prowl.Runtime.MonoBehaviour.Tag
+  href: Prowl.Runtime.MonoBehaviour.html#Prowl_Runtime_MonoBehaviour_Tag
+  name: Tag
+  nameWithType: MonoBehaviour.Tag
+  fullName: Prowl.Runtime.MonoBehaviour.Tag
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: Prowl.Runtime.MonoBehaviour.Enabled*
+  commentId: Overload:Prowl.Runtime.MonoBehaviour.Enabled
+  href: Prowl.Runtime.MonoBehaviour.html#Prowl_Runtime_MonoBehaviour_Enabled
+  name: Enabled
+  nameWithType: MonoBehaviour.Enabled
+  fullName: Prowl.Runtime.MonoBehaviour.Enabled
+- uid: Prowl.Runtime.MonoBehaviour.EnabledInHierarchy*
+  commentId: Overload:Prowl.Runtime.MonoBehaviour.EnabledInHierarchy
+  href: Prowl.Runtime.MonoBehaviour.html#Prowl_Runtime_MonoBehaviour_EnabledInHierarchy
+  name: EnabledInHierarchy
+  nameWithType: MonoBehaviour.EnabledInHierarchy
+  fullName: Prowl.Runtime.MonoBehaviour.EnabledInHierarchy
+- uid: Prowl.Runtime.MonoBehaviour.#ctor*
+  commentId: Overload:Prowl.Runtime.MonoBehaviour.#ctor
+  href: Prowl.Runtime.MonoBehaviour.html#Prowl_Runtime_MonoBehaviour__ctor
+  name: MonoBehaviour
+  nameWithType: MonoBehaviour.MonoBehaviour
+  fullName: Prowl.Runtime.MonoBehaviour.MonoBehaviour
+  nameWithType.vb: MonoBehaviour.New
+  fullName.vb: Prowl.Runtime.MonoBehaviour.New
+  name.vb: New
+- uid: Prowl.Runtime.MonoBehaviour.CompareTag*
+  commentId: Overload:Prowl.Runtime.MonoBehaviour.CompareTag
+  href: Prowl.Runtime.MonoBehaviour.html#Prowl_Runtime_MonoBehaviour_CompareTag_System_String_
+  name: CompareTag
+  nameWithType: MonoBehaviour.CompareTag
+  fullName: Prowl.Runtime.MonoBehaviour.CompareTag
+- uid: Prowl.Runtime.MonoBehaviour.AddComponent*
+  commentId: Overload:Prowl.Runtime.MonoBehaviour.AddComponent
+  href: Prowl.Runtime.MonoBehaviour.html#Prowl_Runtime_MonoBehaviour_AddComponent__1
+  name: AddComponent
+  nameWithType: MonoBehaviour.AddComponent
+  fullName: Prowl.Runtime.MonoBehaviour.AddComponent
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: System.Type
+  commentId: T:System.Type
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.type
+  name: Type
+  nameWithType: Type
+  fullName: System.Type
+- uid: Prowl.Runtime.MonoBehaviour
+  commentId: T:Prowl.Runtime.MonoBehaviour
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.MonoBehaviour.html
+  name: MonoBehaviour
+  nameWithType: MonoBehaviour
+  fullName: Prowl.Runtime.MonoBehaviour
+- uid: Prowl.Runtime.MonoBehaviour.RemoveAll*
+  commentId: Overload:Prowl.Runtime.MonoBehaviour.RemoveAll
+  href: Prowl.Runtime.MonoBehaviour.html#Prowl_Runtime_MonoBehaviour_RemoveAll__1
+  name: RemoveAll
+  nameWithType: MonoBehaviour.RemoveAll
+  fullName: Prowl.Runtime.MonoBehaviour.RemoveAll
+- uid: Prowl.Runtime.MonoBehaviour.RemoveComponent*
+  commentId: Overload:Prowl.Runtime.MonoBehaviour.RemoveComponent
+  href: Prowl.Runtime.MonoBehaviour.html#Prowl_Runtime_MonoBehaviour_RemoveComponent__1___0_
+  name: RemoveComponent
+  nameWithType: MonoBehaviour.RemoveComponent
+  fullName: Prowl.Runtime.MonoBehaviour.RemoveComponent
+- uid: Prowl.Runtime.MonoBehaviour.RemoveSelf*
+  commentId: Overload:Prowl.Runtime.MonoBehaviour.RemoveSelf
+  href: Prowl.Runtime.MonoBehaviour.html#Prowl_Runtime_MonoBehaviour_RemoveSelf
+  name: RemoveSelf
+  nameWithType: MonoBehaviour.RemoveSelf
+  fullName: Prowl.Runtime.MonoBehaviour.RemoveSelf
+- uid: Prowl.Runtime.MonoBehaviour.GetComponent*
+  commentId: Overload:Prowl.Runtime.MonoBehaviour.GetComponent
+  href: Prowl.Runtime.MonoBehaviour.html#Prowl_Runtime_MonoBehaviour_GetComponent__1
+  name: GetComponent
+  nameWithType: MonoBehaviour.GetComponent
+  fullName: Prowl.Runtime.MonoBehaviour.GetComponent
+- uid: Prowl.Runtime.MonoBehaviour.TryGetComponent*
+  commentId: Overload:Prowl.Runtime.MonoBehaviour.TryGetComponent
+  href: Prowl.Runtime.MonoBehaviour.html#Prowl_Runtime_MonoBehaviour_TryGetComponent__1___0__
+  name: TryGetComponent
+  nameWithType: MonoBehaviour.TryGetComponent
+  fullName: Prowl.Runtime.MonoBehaviour.TryGetComponent
+- uid: Prowl.Runtime.MonoBehaviour.GetComponents*
+  commentId: Overload:Prowl.Runtime.MonoBehaviour.GetComponents
+  href: Prowl.Runtime.MonoBehaviour.html#Prowl_Runtime_MonoBehaviour_GetComponents__1
+  name: GetComponents
+  nameWithType: MonoBehaviour.GetComponents
+  fullName: Prowl.Runtime.MonoBehaviour.GetComponents
+- uid: System.Collections.Generic.IEnumerable{{T}}
+  commentId: T:System.Collections.Generic.IEnumerable{``0}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic.IEnumerable`1
+  commentId: T:System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: System.Collections.Generic.IEnumerable{Prowl.Runtime.MonoBehaviour}
+  commentId: T:System.Collections.Generic.IEnumerable{Prowl.Runtime.MonoBehaviour}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<MonoBehaviour>
+  nameWithType: IEnumerable<MonoBehaviour>
+  fullName: System.Collections.Generic.IEnumerable<Prowl.Runtime.MonoBehaviour>
+  nameWithType.vb: IEnumerable(Of MonoBehaviour)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of Prowl.Runtime.MonoBehaviour)
+  name.vb: IEnumerable(Of MonoBehaviour)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - uid: Prowl.Runtime.MonoBehaviour
+    name: MonoBehaviour
+    href: Prowl.Runtime.MonoBehaviour.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Prowl.Runtime.MonoBehaviour
+    name: MonoBehaviour
+    href: Prowl.Runtime.MonoBehaviour.html
+  - name: )
+- uid: Prowl.Runtime.MonoBehaviour.GetComponentInParent*
+  commentId: Overload:Prowl.Runtime.MonoBehaviour.GetComponentInParent
+  href: Prowl.Runtime.MonoBehaviour.html#Prowl_Runtime_MonoBehaviour_GetComponentInParent__1_System_Boolean_
+  name: GetComponentInParent
+  nameWithType: MonoBehaviour.GetComponentInParent
+  fullName: Prowl.Runtime.MonoBehaviour.GetComponentInParent
+- uid: Prowl.Runtime.MonoBehaviour.GetComponentsInParent*
+  commentId: Overload:Prowl.Runtime.MonoBehaviour.GetComponentsInParent
+  href: Prowl.Runtime.MonoBehaviour.html#Prowl_Runtime_MonoBehaviour_GetComponentsInParent__1_System_Boolean_
+  name: GetComponentsInParent
+  nameWithType: MonoBehaviour.GetComponentsInParent
+  fullName: Prowl.Runtime.MonoBehaviour.GetComponentsInParent
+- uid: Prowl.Runtime.MonoBehaviour.GetComponentInChildren*
+  commentId: Overload:Prowl.Runtime.MonoBehaviour.GetComponentInChildren
+  href: Prowl.Runtime.MonoBehaviour.html#Prowl_Runtime_MonoBehaviour_GetComponentInChildren__1_System_Boolean_
+  name: GetComponentInChildren
+  nameWithType: MonoBehaviour.GetComponentInChildren
+  fullName: Prowl.Runtime.MonoBehaviour.GetComponentInChildren
+- uid: Prowl.Runtime.MonoBehaviour.GetComponentsInChildren*
+  commentId: Overload:Prowl.Runtime.MonoBehaviour.GetComponentsInChildren
+  href: Prowl.Runtime.MonoBehaviour.html#Prowl_Runtime_MonoBehaviour_GetComponentsInChildren__1_System_Boolean_
+  name: GetComponentsInChildren
+  nameWithType: MonoBehaviour.GetComponentsInChildren
+  fullName: Prowl.Runtime.MonoBehaviour.GetComponentsInChildren
+- uid: Prowl.Runtime.MonoBehaviour.Awake*
+  commentId: Overload:Prowl.Runtime.MonoBehaviour.Awake
+  href: Prowl.Runtime.MonoBehaviour.html#Prowl_Runtime_MonoBehaviour_Awake
+  name: Awake
+  nameWithType: MonoBehaviour.Awake
+  fullName: Prowl.Runtime.MonoBehaviour.Awake
+- uid: Prowl.Runtime.MonoBehaviour.OnEnable*
+  commentId: Overload:Prowl.Runtime.MonoBehaviour.OnEnable
+  href: Prowl.Runtime.MonoBehaviour.html#Prowl_Runtime_MonoBehaviour_OnEnable
+  name: OnEnable
+  nameWithType: MonoBehaviour.OnEnable
+  fullName: Prowl.Runtime.MonoBehaviour.OnEnable
+- uid: Prowl.Runtime.MonoBehaviour.OnDisable*
+  commentId: Overload:Prowl.Runtime.MonoBehaviour.OnDisable
+  href: Prowl.Runtime.MonoBehaviour.html#Prowl_Runtime_MonoBehaviour_OnDisable
+  name: OnDisable
+  nameWithType: MonoBehaviour.OnDisable
+  fullName: Prowl.Runtime.MonoBehaviour.OnDisable
+- uid: Prowl.Runtime.MonoBehaviour.Start*
+  commentId: Overload:Prowl.Runtime.MonoBehaviour.Start
+  href: Prowl.Runtime.MonoBehaviour.html#Prowl_Runtime_MonoBehaviour_Start
+  name: Start
+  nameWithType: MonoBehaviour.Start
+  fullName: Prowl.Runtime.MonoBehaviour.Start
+- uid: Prowl.Runtime.MonoBehaviour.FixedUpdate*
+  commentId: Overload:Prowl.Runtime.MonoBehaviour.FixedUpdate
+  href: Prowl.Runtime.MonoBehaviour.html#Prowl_Runtime_MonoBehaviour_FixedUpdate
+  name: FixedUpdate
+  nameWithType: MonoBehaviour.FixedUpdate
+  fullName: Prowl.Runtime.MonoBehaviour.FixedUpdate
+- uid: Prowl.Runtime.MonoBehaviour.Update*
+  commentId: Overload:Prowl.Runtime.MonoBehaviour.Update
+  href: Prowl.Runtime.MonoBehaviour.html#Prowl_Runtime_MonoBehaviour_Update
+  name: Update
+  nameWithType: MonoBehaviour.Update
+  fullName: Prowl.Runtime.MonoBehaviour.Update
+- uid: Prowl.Runtime.MonoBehaviour.LateUpdate*
+  commentId: Overload:Prowl.Runtime.MonoBehaviour.LateUpdate
+  href: Prowl.Runtime.MonoBehaviour.html#Prowl_Runtime_MonoBehaviour_LateUpdate
+  name: LateUpdate
+  nameWithType: MonoBehaviour.LateUpdate
+  fullName: Prowl.Runtime.MonoBehaviour.LateUpdate
+- uid: Prowl.Runtime.MonoBehaviour.DrawGizmos*
+  commentId: Overload:Prowl.Runtime.MonoBehaviour.DrawGizmos
+  href: Prowl.Runtime.MonoBehaviour.html#Prowl_Runtime_MonoBehaviour_DrawGizmos
+  name: DrawGizmos
+  nameWithType: MonoBehaviour.DrawGizmos
+  fullName: Prowl.Runtime.MonoBehaviour.DrawGizmos
+- uid: Prowl.Runtime.MonoBehaviour.DrawGizmosSelected*
+  commentId: Overload:Prowl.Runtime.MonoBehaviour.DrawGizmosSelected
+  href: Prowl.Runtime.MonoBehaviour.html#Prowl_Runtime_MonoBehaviour_DrawGizmosSelected
+  name: DrawGizmosSelected
+  nameWithType: MonoBehaviour.DrawGizmosSelected
+  fullName: Prowl.Runtime.MonoBehaviour.DrawGizmosSelected
+- uid: Prowl.Runtime.MonoBehaviour.OnLevelWasLoaded*
+  commentId: Overload:Prowl.Runtime.MonoBehaviour.OnLevelWasLoaded
+  href: Prowl.Runtime.MonoBehaviour.html#Prowl_Runtime_MonoBehaviour_OnLevelWasLoaded
+  name: OnLevelWasLoaded
+  nameWithType: MonoBehaviour.OnLevelWasLoaded
+  fullName: Prowl.Runtime.MonoBehaviour.OnLevelWasLoaded
+- uid: Prowl.Runtime.MonoBehaviour.OnDestroy*
+  commentId: Overload:Prowl.Runtime.MonoBehaviour.OnDestroy
+  href: Prowl.Runtime.MonoBehaviour.html#Prowl_Runtime_MonoBehaviour_OnDestroy
+  name: OnDestroy
+  nameWithType: MonoBehaviour.OnDestroy
+  fullName: Prowl.Runtime.MonoBehaviour.OnDestroy
+- uid: Prowl.Runtime.MonoBehaviour.ClearCache*
+  commentId: Overload:Prowl.Runtime.MonoBehaviour.ClearCache
+  href: Prowl.Runtime.MonoBehaviour.html#Prowl_Runtime_MonoBehaviour_ClearCache
+  name: ClearCache
+  nameWithType: MonoBehaviour.ClearCache
+  fullName: Prowl.Runtime.MonoBehaviour.ClearCache
+- uid: Prowl.Runtime.MonoBehaviour.StartCoroutine*
+  commentId: Overload:Prowl.Runtime.MonoBehaviour.StartCoroutine
+  href: Prowl.Runtime.MonoBehaviour.html#Prowl_Runtime_MonoBehaviour_StartCoroutine_System_String_
+  name: StartCoroutine
+  nameWithType: MonoBehaviour.StartCoroutine
+  fullName: Prowl.Runtime.MonoBehaviour.StartCoroutine
+- uid: Prowl.Runtime.MonoBehaviour.Coroutine
+  commentId: T:Prowl.Runtime.MonoBehaviour.Coroutine
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.MonoBehaviour.html
+  name: MonoBehaviour.Coroutine
+  nameWithType: MonoBehaviour.Coroutine
+  fullName: Prowl.Runtime.MonoBehaviour.Coroutine
+  spec.csharp:
+  - uid: Prowl.Runtime.MonoBehaviour
+    name: MonoBehaviour
+    href: Prowl.Runtime.MonoBehaviour.html
+  - name: .
+  - uid: Prowl.Runtime.MonoBehaviour.Coroutine
+    name: Coroutine
+    href: Prowl.Runtime.MonoBehaviour.Coroutine.html
+  spec.vb:
+  - uid: Prowl.Runtime.MonoBehaviour
+    name: MonoBehaviour
+    href: Prowl.Runtime.MonoBehaviour.html
+  - name: .
+  - uid: Prowl.Runtime.MonoBehaviour.Coroutine
+    name: Coroutine
+    href: Prowl.Runtime.MonoBehaviour.Coroutine.html
+- uid: Prowl.Runtime.MonoBehaviour.StopAllCoroutines*
+  commentId: Overload:Prowl.Runtime.MonoBehaviour.StopAllCoroutines
+  href: Prowl.Runtime.MonoBehaviour.html#Prowl_Runtime_MonoBehaviour_StopAllCoroutines
+  name: StopAllCoroutines
+  nameWithType: MonoBehaviour.StopAllCoroutines
+  fullName: Prowl.Runtime.MonoBehaviour.StopAllCoroutines
+- uid: Prowl.Runtime.MonoBehaviour.StopCoroutine*
+  commentId: Overload:Prowl.Runtime.MonoBehaviour.StopCoroutine
+  href: Prowl.Runtime.MonoBehaviour.html#Prowl_Runtime_MonoBehaviour_StopCoroutine_System_String_
+  name: StopCoroutine
+  nameWithType: MonoBehaviour.StopCoroutine
+  fullName: Prowl.Runtime.MonoBehaviour.StopCoroutine
+- uid: Prowl.Runtime.MonoBehaviour.BroadcastMessage*
+  commentId: Overload:Prowl.Runtime.MonoBehaviour.BroadcastMessage
+  href: Prowl.Runtime.MonoBehaviour.html#Prowl_Runtime_MonoBehaviour_BroadcastMessage_System_String_System_Object___
+  name: BroadcastMessage
+  nameWithType: MonoBehaviour.BroadcastMessage
+  fullName: Prowl.Runtime.MonoBehaviour.BroadcastMessage
+- uid: System.Object[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object[]
+  nameWithType: object[]
+  fullName: object[]
+  nameWithType.vb: Object()
+  fullName.vb: Object()
+  name.vb: Object()
+  spec.csharp:
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: (
+  - name: )
+- uid: Prowl.Runtime.MonoBehaviour.SendMessage*
+  commentId: Overload:Prowl.Runtime.MonoBehaviour.SendMessage
+  href: Prowl.Runtime.MonoBehaviour.html#Prowl_Runtime_MonoBehaviour_SendMessage_System_String_System_Object___
+  name: SendMessage
+  nameWithType: MonoBehaviour.SendMessage
+  fullName: Prowl.Runtime.MonoBehaviour.SendMessage

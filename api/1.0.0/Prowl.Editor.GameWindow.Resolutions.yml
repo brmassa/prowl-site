@@ -1,0 +1,726 @@
+### YamlMime:ManagedReference
+items:
+- uid: Prowl.Editor.GameWindow.Resolutions
+  commentId: T:Prowl.Editor.GameWindow.Resolutions
+  id: GameWindow.Resolutions
+  parent: Prowl.Editor
+  children:
+  - Prowl.Editor.GameWindow.Resolutions._1080p
+  - Prowl.Editor.GameWindow.Resolutions._1080p_4_3
+  - Prowl.Editor.GameWindow.Resolutions._1440p
+  - Prowl.Editor.GameWindow.Resolutions._1440p_4_3
+  - Prowl.Editor.GameWindow.Resolutions._2160p
+  - Prowl.Editor.GameWindow.Resolutions._2160p_4_3
+  - Prowl.Editor.GameWindow.Resolutions._4320p
+  - Prowl.Editor.GameWindow.Resolutions._4320p_4_3
+  - Prowl.Editor.GameWindow.Resolutions._480p
+  - Prowl.Editor.GameWindow.Resolutions._480p_4_3
+  - Prowl.Editor.GameWindow.Resolutions._720p
+  - Prowl.Editor.GameWindow.Resolutions._720p_4_3
+  - Prowl.Editor.GameWindow.Resolutions.custom
+  - Prowl.Editor.GameWindow.Resolutions.fit
+  langs:
+  - csharp
+  - vb
+  name: GameWindow.Resolutions
+  nameWithType: GameWindow.Resolutions
+  fullName: Prowl.Editor.GameWindow.Resolutions
+  type: Enum
+  source:
+    remote:
+      path: Prowl.Editor/Editor/GameWindow.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Resolutions
+    path: ../Prowl/Prowl.Editor/Editor/GameWindow.cs
+    startLine: 15
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor
+  syntax:
+    content: public enum GameWindow.Resolutions
+    content.vb: Public Enum GameWindow.Resolutions
+  extensionMethods:
+  - System.Object.Prowl.Runtime.RuntimeUtils.GetSerializableFields
+- uid: Prowl.Editor.GameWindow.Resolutions.fit
+  commentId: F:Prowl.Editor.GameWindow.Resolutions.fit
+  id: fit
+  parent: Prowl.Editor.GameWindow.Resolutions
+  langs:
+  - csharp
+  - vb
+  name: fit
+  nameWithType: GameWindow.Resolutions.fit
+  fullName: Prowl.Editor.GameWindow.Resolutions.fit
+  type: Field
+  source:
+    remote:
+      path: Prowl.Editor/Editor/GameWindow.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: fit
+    path: ../Prowl/Prowl.Editor/Editor/GameWindow.cs
+    startLine: 17
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor
+  syntax:
+    content: >-
+      [Text("Fit")]
+
+      fit = 0
+    return:
+      type: Prowl.Editor.GameWindow.Resolutions
+    content.vb: >-
+      <Text("Fit")>
+
+      fit = 0
+  attributes:
+  - type: Prowl.Runtime.TextAttribute
+    ctor: Prowl.Runtime.TextAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Fit
+- uid: Prowl.Editor.GameWindow.Resolutions.custom
+  commentId: F:Prowl.Editor.GameWindow.Resolutions.custom
+  id: custom
+  parent: Prowl.Editor.GameWindow.Resolutions
+  langs:
+  - csharp
+  - vb
+  name: custom
+  nameWithType: GameWindow.Resolutions.custom
+  fullName: Prowl.Editor.GameWindow.Resolutions.custom
+  type: Field
+  source:
+    remote:
+      path: Prowl.Editor/Editor/GameWindow.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: custom
+    path: ../Prowl/Prowl.Editor/Editor/GameWindow.cs
+    startLine: 18
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor
+  syntax:
+    content: >-
+      [Text("Custom")]
+
+      custom = 1
+    return:
+      type: Prowl.Editor.GameWindow.Resolutions
+    content.vb: >-
+      <Text("Custom")>
+
+      custom = 1
+  attributes:
+  - type: Prowl.Runtime.TextAttribute
+    ctor: Prowl.Runtime.TextAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Custom
+- uid: Prowl.Editor.GameWindow.Resolutions._480p
+  commentId: F:Prowl.Editor.GameWindow.Resolutions._480p
+  id: _480p
+  parent: Prowl.Editor.GameWindow.Resolutions
+  langs:
+  - csharp
+  - vb
+  name: _480p
+  nameWithType: GameWindow.Resolutions._480p
+  fullName: Prowl.Editor.GameWindow.Resolutions._480p
+  type: Field
+  source:
+    remote:
+      path: Prowl.Editor/Editor/GameWindow.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: _480p
+    path: ../Prowl/Prowl.Editor/Editor/GameWindow.cs
+    startLine: 19
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor
+  syntax:
+    content: >-
+      [Text("16:9 480p")]
+
+      _480p = 2
+    return:
+      type: Prowl.Editor.GameWindow.Resolutions
+    content.vb: >-
+      <Text("16:9 480p")>
+
+      _480p = 2
+  attributes:
+  - type: Prowl.Runtime.TextAttribute
+    ctor: Prowl.Runtime.TextAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: 16:9 480p
+- uid: Prowl.Editor.GameWindow.Resolutions._720p
+  commentId: F:Prowl.Editor.GameWindow.Resolutions._720p
+  id: _720p
+  parent: Prowl.Editor.GameWindow.Resolutions
+  langs:
+  - csharp
+  - vb
+  name: _720p
+  nameWithType: GameWindow.Resolutions._720p
+  fullName: Prowl.Editor.GameWindow.Resolutions._720p
+  type: Field
+  source:
+    remote:
+      path: Prowl.Editor/Editor/GameWindow.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: _720p
+    path: ../Prowl/Prowl.Editor/Editor/GameWindow.cs
+    startLine: 20
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor
+  syntax:
+    content: >-
+      [Text("16:9 720p")]
+
+      _720p = 3
+    return:
+      type: Prowl.Editor.GameWindow.Resolutions
+    content.vb: >-
+      <Text("16:9 720p")>
+
+      _720p = 3
+  attributes:
+  - type: Prowl.Runtime.TextAttribute
+    ctor: Prowl.Runtime.TextAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: 16:9 720p
+- uid: Prowl.Editor.GameWindow.Resolutions._1080p
+  commentId: F:Prowl.Editor.GameWindow.Resolutions._1080p
+  id: _1080p
+  parent: Prowl.Editor.GameWindow.Resolutions
+  langs:
+  - csharp
+  - vb
+  name: _1080p
+  nameWithType: GameWindow.Resolutions._1080p
+  fullName: Prowl.Editor.GameWindow.Resolutions._1080p
+  type: Field
+  source:
+    remote:
+      path: Prowl.Editor/Editor/GameWindow.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: _1080p
+    path: ../Prowl/Prowl.Editor/Editor/GameWindow.cs
+    startLine: 21
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor
+  syntax:
+    content: >-
+      [Text("16:9 1080p")]
+
+      _1080p = 4
+    return:
+      type: Prowl.Editor.GameWindow.Resolutions
+    content.vb: >-
+      <Text("16:9 1080p")>
+
+      _1080p = 4
+  attributes:
+  - type: Prowl.Runtime.TextAttribute
+    ctor: Prowl.Runtime.TextAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: 16:9 1080p
+- uid: Prowl.Editor.GameWindow.Resolutions._1440p
+  commentId: F:Prowl.Editor.GameWindow.Resolutions._1440p
+  id: _1440p
+  parent: Prowl.Editor.GameWindow.Resolutions
+  langs:
+  - csharp
+  - vb
+  name: _1440p
+  nameWithType: GameWindow.Resolutions._1440p
+  fullName: Prowl.Editor.GameWindow.Resolutions._1440p
+  type: Field
+  source:
+    remote:
+      path: Prowl.Editor/Editor/GameWindow.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: _1440p
+    path: ../Prowl/Prowl.Editor/Editor/GameWindow.cs
+    startLine: 22
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor
+  syntax:
+    content: >-
+      [Text("16:9 1440p")]
+
+      _1440p = 5
+    return:
+      type: Prowl.Editor.GameWindow.Resolutions
+    content.vb: >-
+      <Text("16:9 1440p")>
+
+      _1440p = 5
+  attributes:
+  - type: Prowl.Runtime.TextAttribute
+    ctor: Prowl.Runtime.TextAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: 16:9 1440p
+- uid: Prowl.Editor.GameWindow.Resolutions._2160p
+  commentId: F:Prowl.Editor.GameWindow.Resolutions._2160p
+  id: _2160p
+  parent: Prowl.Editor.GameWindow.Resolutions
+  langs:
+  - csharp
+  - vb
+  name: _2160p
+  nameWithType: GameWindow.Resolutions._2160p
+  fullName: Prowl.Editor.GameWindow.Resolutions._2160p
+  type: Field
+  source:
+    remote:
+      path: Prowl.Editor/Editor/GameWindow.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: _2160p
+    path: ../Prowl/Prowl.Editor/Editor/GameWindow.cs
+    startLine: 23
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor
+  syntax:
+    content: >-
+      [Text("16:9 2160p")]
+
+      _2160p = 6
+    return:
+      type: Prowl.Editor.GameWindow.Resolutions
+    content.vb: >-
+      <Text("16:9 2160p")>
+
+      _2160p = 6
+  attributes:
+  - type: Prowl.Runtime.TextAttribute
+    ctor: Prowl.Runtime.TextAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: 16:9 2160p
+- uid: Prowl.Editor.GameWindow.Resolutions._4320p
+  commentId: F:Prowl.Editor.GameWindow.Resolutions._4320p
+  id: _4320p
+  parent: Prowl.Editor.GameWindow.Resolutions
+  langs:
+  - csharp
+  - vb
+  name: _4320p
+  nameWithType: GameWindow.Resolutions._4320p
+  fullName: Prowl.Editor.GameWindow.Resolutions._4320p
+  type: Field
+  source:
+    remote:
+      path: Prowl.Editor/Editor/GameWindow.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: _4320p
+    path: ../Prowl/Prowl.Editor/Editor/GameWindow.cs
+    startLine: 24
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor
+  syntax:
+    content: >-
+      [Text("16:9 4320p")]
+
+      _4320p = 7
+    return:
+      type: Prowl.Editor.GameWindow.Resolutions
+    content.vb: >-
+      <Text("16:9 4320p")>
+
+      _4320p = 7
+  attributes:
+  - type: Prowl.Runtime.TextAttribute
+    ctor: Prowl.Runtime.TextAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: 16:9 4320p
+- uid: Prowl.Editor.GameWindow.Resolutions._480p_4_3
+  commentId: F:Prowl.Editor.GameWindow.Resolutions._480p_4_3
+  id: _480p_4_3
+  parent: Prowl.Editor.GameWindow.Resolutions
+  langs:
+  - csharp
+  - vb
+  name: _480p_4_3
+  nameWithType: GameWindow.Resolutions._480p_4_3
+  fullName: Prowl.Editor.GameWindow.Resolutions._480p_4_3
+  type: Field
+  source:
+    remote:
+      path: Prowl.Editor/Editor/GameWindow.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: _480p_4_3
+    path: ../Prowl/Prowl.Editor/Editor/GameWindow.cs
+    startLine: 25
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor
+  syntax:
+    content: >-
+      [Text("4:3 480p")]
+
+      _480p_4_3 = 8
+    return:
+      type: Prowl.Editor.GameWindow.Resolutions
+    content.vb: >-
+      <Text("4:3 480p")>
+
+      _480p_4_3 = 8
+  attributes:
+  - type: Prowl.Runtime.TextAttribute
+    ctor: Prowl.Runtime.TextAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: 4:3 480p
+- uid: Prowl.Editor.GameWindow.Resolutions._720p_4_3
+  commentId: F:Prowl.Editor.GameWindow.Resolutions._720p_4_3
+  id: _720p_4_3
+  parent: Prowl.Editor.GameWindow.Resolutions
+  langs:
+  - csharp
+  - vb
+  name: _720p_4_3
+  nameWithType: GameWindow.Resolutions._720p_4_3
+  fullName: Prowl.Editor.GameWindow.Resolutions._720p_4_3
+  type: Field
+  source:
+    remote:
+      path: Prowl.Editor/Editor/GameWindow.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: _720p_4_3
+    path: ../Prowl/Prowl.Editor/Editor/GameWindow.cs
+    startLine: 26
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor
+  syntax:
+    content: >-
+      [Text("4:3 720p")]
+
+      _720p_4_3 = 9
+    return:
+      type: Prowl.Editor.GameWindow.Resolutions
+    content.vb: >-
+      <Text("4:3 720p")>
+
+      _720p_4_3 = 9
+  attributes:
+  - type: Prowl.Runtime.TextAttribute
+    ctor: Prowl.Runtime.TextAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: 4:3 720p
+- uid: Prowl.Editor.GameWindow.Resolutions._1080p_4_3
+  commentId: F:Prowl.Editor.GameWindow.Resolutions._1080p_4_3
+  id: _1080p_4_3
+  parent: Prowl.Editor.GameWindow.Resolutions
+  langs:
+  - csharp
+  - vb
+  name: _1080p_4_3
+  nameWithType: GameWindow.Resolutions._1080p_4_3
+  fullName: Prowl.Editor.GameWindow.Resolutions._1080p_4_3
+  type: Field
+  source:
+    remote:
+      path: Prowl.Editor/Editor/GameWindow.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: _1080p_4_3
+    path: ../Prowl/Prowl.Editor/Editor/GameWindow.cs
+    startLine: 27
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor
+  syntax:
+    content: >-
+      [Text("4:3 1080p")]
+
+      _1080p_4_3 = 10
+    return:
+      type: Prowl.Editor.GameWindow.Resolutions
+    content.vb: >-
+      <Text("4:3 1080p")>
+
+      _1080p_4_3 = 10
+  attributes:
+  - type: Prowl.Runtime.TextAttribute
+    ctor: Prowl.Runtime.TextAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: 4:3 1080p
+- uid: Prowl.Editor.GameWindow.Resolutions._1440p_4_3
+  commentId: F:Prowl.Editor.GameWindow.Resolutions._1440p_4_3
+  id: _1440p_4_3
+  parent: Prowl.Editor.GameWindow.Resolutions
+  langs:
+  - csharp
+  - vb
+  name: _1440p_4_3
+  nameWithType: GameWindow.Resolutions._1440p_4_3
+  fullName: Prowl.Editor.GameWindow.Resolutions._1440p_4_3
+  type: Field
+  source:
+    remote:
+      path: Prowl.Editor/Editor/GameWindow.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: _1440p_4_3
+    path: ../Prowl/Prowl.Editor/Editor/GameWindow.cs
+    startLine: 28
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor
+  syntax:
+    content: >-
+      [Text("4:3 1440p")]
+
+      _1440p_4_3 = 11
+    return:
+      type: Prowl.Editor.GameWindow.Resolutions
+    content.vb: >-
+      <Text("4:3 1440p")>
+
+      _1440p_4_3 = 11
+  attributes:
+  - type: Prowl.Runtime.TextAttribute
+    ctor: Prowl.Runtime.TextAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: 4:3 1440p
+- uid: Prowl.Editor.GameWindow.Resolutions._2160p_4_3
+  commentId: F:Prowl.Editor.GameWindow.Resolutions._2160p_4_3
+  id: _2160p_4_3
+  parent: Prowl.Editor.GameWindow.Resolutions
+  langs:
+  - csharp
+  - vb
+  name: _2160p_4_3
+  nameWithType: GameWindow.Resolutions._2160p_4_3
+  fullName: Prowl.Editor.GameWindow.Resolutions._2160p_4_3
+  type: Field
+  source:
+    remote:
+      path: Prowl.Editor/Editor/GameWindow.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: _2160p_4_3
+    path: ../Prowl/Prowl.Editor/Editor/GameWindow.cs
+    startLine: 29
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor
+  syntax:
+    content: >-
+      [Text("4:3 2160p")]
+
+      _2160p_4_3 = 12
+    return:
+      type: Prowl.Editor.GameWindow.Resolutions
+    content.vb: >-
+      <Text("4:3 2160p")>
+
+      _2160p_4_3 = 12
+  attributes:
+  - type: Prowl.Runtime.TextAttribute
+    ctor: Prowl.Runtime.TextAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: 4:3 2160p
+- uid: Prowl.Editor.GameWindow.Resolutions._4320p_4_3
+  commentId: F:Prowl.Editor.GameWindow.Resolutions._4320p_4_3
+  id: _4320p_4_3
+  parent: Prowl.Editor.GameWindow.Resolutions
+  langs:
+  - csharp
+  - vb
+  name: _4320p_4_3
+  nameWithType: GameWindow.Resolutions._4320p_4_3
+  fullName: Prowl.Editor.GameWindow.Resolutions._4320p_4_3
+  type: Field
+  source:
+    remote:
+      path: Prowl.Editor/Editor/GameWindow.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: _4320p_4_3
+    path: ../Prowl/Prowl.Editor/Editor/GameWindow.cs
+    startLine: 30
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor
+  syntax:
+    content: >-
+      [Text("4:3 4320p")]
+
+      _4320p_4_3 = 13
+    return:
+      type: Prowl.Editor.GameWindow.Resolutions
+    content.vb: >-
+      <Text("4:3 4320p")>
+
+      _4320p_4_3 = 13
+  attributes:
+  - type: Prowl.Runtime.TextAttribute
+    ctor: Prowl.Runtime.TextAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: 4:3 4320p
+references:
+- uid: Prowl.Editor
+  commentId: N:Prowl.Editor
+  href: Prowl.html
+  name: Prowl.Editor
+  nameWithType: Prowl.Editor
+  fullName: Prowl.Editor
+  spec.csharp:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Editor
+    name: Editor
+    href: Prowl.Editor.html
+  spec.vb:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Editor
+    name: Editor
+    href: Prowl.Editor.html
+- uid: System.Object.Prowl.Runtime.RuntimeUtils.GetSerializableFields
+  commentId: M:Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  parent: Prowl.Runtime.RuntimeUtils
+  definition: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  name: GetSerializableFields(object)
+  nameWithType: RuntimeUtils.GetSerializableFields(object)
+  fullName: Prowl.Runtime.RuntimeUtils.GetSerializableFields(object)
+  nameWithType.vb: RuntimeUtils.GetSerializableFields(Object)
+  fullName.vb: Prowl.Runtime.RuntimeUtils.GetSerializableFields(Object)
+  name.vb: GetSerializableFields(Object)
+  spec.csharp:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  commentId: M:Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  isExternal: true
+  href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  name: GetSerializableFields(object)
+  nameWithType: RuntimeUtils.GetSerializableFields(object)
+  fullName: Prowl.Runtime.RuntimeUtils.GetSerializableFields(object)
+  nameWithType.vb: RuntimeUtils.GetSerializableFields(Object)
+  fullName.vb: Prowl.Runtime.RuntimeUtils.GetSerializableFields(Object)
+  name.vb: GetSerializableFields(Object)
+  spec.csharp:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: Prowl.Runtime.RuntimeUtils
+  commentId: T:Prowl.Runtime.RuntimeUtils
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.RuntimeUtils.html
+  name: RuntimeUtils
+  nameWithType: RuntimeUtils
+  fullName: Prowl.Runtime.RuntimeUtils
+- uid: Prowl.Runtime
+  commentId: N:Prowl.Runtime
+  href: Prowl.html
+  name: Prowl.Runtime
+  nameWithType: Prowl.Runtime
+  fullName: Prowl.Runtime
+  spec.csharp:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+  spec.vb:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+- uid: Prowl.Editor.GameWindow.Resolutions
+  commentId: T:Prowl.Editor.GameWindow.Resolutions
+  parent: Prowl.Editor
+  href: Prowl.Editor.GameWindow.html
+  name: GameWindow.Resolutions
+  nameWithType: GameWindow.Resolutions
+  fullName: Prowl.Editor.GameWindow.Resolutions
+  spec.csharp:
+  - uid: Prowl.Editor.GameWindow
+    name: GameWindow
+    href: Prowl.Editor.GameWindow.html
+  - name: .
+  - uid: Prowl.Editor.GameWindow.Resolutions
+    name: Resolutions
+    href: Prowl.Editor.GameWindow.Resolutions.html
+  spec.vb:
+  - uid: Prowl.Editor.GameWindow
+    name: GameWindow
+    href: Prowl.Editor.GameWindow.html
+  - name: .
+  - uid: Prowl.Editor.GameWindow.Resolutions
+    name: Resolutions
+    href: Prowl.Editor.GameWindow.Resolutions.html

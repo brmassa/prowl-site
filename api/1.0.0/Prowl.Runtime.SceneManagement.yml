@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: Prowl.Runtime.SceneManagement
+  commentId: N:Prowl.Runtime.SceneManagement
+  id: Prowl.Runtime.SceneManagement
+  children:
+  - Prowl.Runtime.SceneManagement.SceneManager
+  langs:
+  - csharp
+  - vb
+  name: Prowl.Runtime.SceneManagement
+  nameWithType: Prowl.Runtime.SceneManagement
+  fullName: Prowl.Runtime.SceneManagement
+  type: Namespace
+  assemblies:
+  - Prowl.Runtime
+references:
+- uid: Prowl.Runtime.SceneManagement.SceneManager
+  commentId: T:Prowl.Runtime.SceneManagement.SceneManager
+  href: Prowl.Runtime.SceneManagement.SceneManager.html
+  name: SceneManager
+  nameWithType: SceneManager
+  fullName: Prowl.Runtime.SceneManagement.SceneManager

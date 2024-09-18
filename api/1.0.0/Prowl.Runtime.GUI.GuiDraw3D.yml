@@ -1,0 +1,1249 @@
+### YamlMime:ManagedReference
+items:
+- uid: Prowl.Runtime.GUI.GuiDraw3D
+  commentId: T:Prowl.Runtime.GUI.GuiDraw3D
+  id: GuiDraw3D
+  parent: Prowl.Runtime.GUI
+  children:
+  - Prowl.Runtime.GUI.GuiDraw3D.#ctor(Prowl.Runtime.GUI.Gui)
+  - Prowl.Runtime.GUI.GuiDraw3D.Arc(System.Double,System.Double,System.Double,Prowl.Runtime.GUI.Stroke3D)
+  - Prowl.Runtime.GUI.GuiDraw3D.Arrow(Prowl.Runtime.Vector3,Prowl.Runtime.Vector3,Prowl.Runtime.GUI.Stroke3D)
+  - Prowl.Runtime.GUI.GuiDraw3D.Circle(System.Double,Prowl.Runtime.GUI.Stroke3D)
+  - Prowl.Runtime.GUI.GuiDraw3D.Cube(System.Double,Prowl.Runtime.GUI.Stroke3D)
+  - Prowl.Runtime.GUI.GuiDraw3D.FilledCircle(System.Double,Prowl.Runtime.GUI.Stroke3D)
+  - Prowl.Runtime.GUI.GuiDraw3D.FilledSphere(System.Double,Prowl.Runtime.GUI.Stroke3D)
+  - Prowl.Runtime.GUI.GuiDraw3D.LineSegment(Prowl.Runtime.Vector3,Prowl.Runtime.Vector3,Prowl.Runtime.GUI.Stroke3D)
+  - Prowl.Runtime.GUI.GuiDraw3D.Matrix(Prowl.Runtime.Matrix4x4)
+  - Prowl.Runtime.GUI.GuiDraw3D.Polygon(System.Collections.Generic.IEnumerable{Prowl.Runtime.Vector3},Prowl.Runtime.GUI.Stroke3D)
+  - Prowl.Runtime.GUI.GuiDraw3D.Polyline(System.Collections.Generic.IEnumerable{Prowl.Runtime.Vector3},Prowl.Runtime.GUI.Stroke3D)
+  - Prowl.Runtime.GUI.GuiDraw3D.Quad(System.Double,Prowl.Runtime.GUI.Stroke3D)
+  - Prowl.Runtime.GUI.GuiDraw3D.QuadImage(Prowl.Runtime.Vector3,Prowl.Runtime.Texture2D)
+  - Prowl.Runtime.GUI.GuiDraw3D.Sector(System.Double,System.Double,System.Double,Prowl.Runtime.GUI.Stroke3D)
+  - Prowl.Runtime.GUI.GuiDraw3D.Sphere(System.Double,Prowl.Runtime.GUI.Stroke3D)
+  - Prowl.Runtime.GUI.GuiDraw3D.Viewport(Prowl.Runtime.Rect)
+  langs:
+  - csharp
+  - vb
+  name: GuiDraw3D
+  nameWithType: GuiDraw3D
+  fullName: Prowl.Runtime.GUI.GuiDraw3D
+  type: Class
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/GuiDraw3D.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: GuiDraw3D
+    path: ../Prowl/Prowl.Runtime/GUI/GuiDraw3D.cs
+    startLine: 16
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  syntax:
+    content: public class GuiDraw3D
+    content.vb: Public Class GuiDraw3D
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  extensionMethods:
+  - System.Object.Prowl.Runtime.RuntimeUtils.GetSerializableFields
+- uid: Prowl.Runtime.GUI.GuiDraw3D.#ctor(Prowl.Runtime.GUI.Gui)
+  commentId: M:Prowl.Runtime.GUI.GuiDraw3D.#ctor(Prowl.Runtime.GUI.Gui)
+  id: '#ctor(Prowl.Runtime.GUI.Gui)'
+  parent: Prowl.Runtime.GUI.GuiDraw3D
+  langs:
+  - csharp
+  - vb
+  name: GuiDraw3D(Gui)
+  nameWithType: GuiDraw3D.GuiDraw3D(Gui)
+  fullName: Prowl.Runtime.GUI.GuiDraw3D.GuiDraw3D(Prowl.Runtime.GUI.Gui)
+  type: Constructor
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/GuiDraw3D.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: .ctor
+    path: ../Prowl/Prowl.Runtime/GUI/GuiDraw3D.cs
+    startLine: 16
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  syntax:
+    content: public GuiDraw3D(Gui gui)
+    parameters:
+    - id: gui
+      type: Prowl.Runtime.GUI.Gui
+    content.vb: Public Sub New(gui As Gui)
+  overload: Prowl.Runtime.GUI.GuiDraw3D.#ctor*
+  nameWithType.vb: GuiDraw3D.New(Gui)
+  fullName.vb: Prowl.Runtime.GUI.GuiDraw3D.New(Prowl.Runtime.GUI.Gui)
+  name.vb: New(Gui)
+- uid: Prowl.Runtime.GUI.GuiDraw3D.Viewport(Prowl.Runtime.Rect)
+  commentId: M:Prowl.Runtime.GUI.GuiDraw3D.Viewport(Prowl.Runtime.Rect)
+  id: Viewport(Prowl.Runtime.Rect)
+  parent: Prowl.Runtime.GUI.GuiDraw3D
+  langs:
+  - csharp
+  - vb
+  name: Viewport(Rect)
+  nameWithType: GuiDraw3D.Viewport(Rect)
+  fullName: Prowl.Runtime.GUI.GuiDraw3D.Viewport(Prowl.Runtime.Rect)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/GuiDraw3D.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Viewport
+    path: ../Prowl/Prowl.Runtime/GUI/GuiDraw3D.cs
+    startLine: 41
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  syntax:
+    content: public GuiDraw3D.GUI3DViewScope Viewport(Rect viewport)
+    parameters:
+    - id: viewport
+      type: Prowl.Runtime.Rect
+    return:
+      type: Prowl.Runtime.GUI.GuiDraw3D.GUI3DViewScope
+    content.vb: Public Function Viewport(viewport As Rect) As GuiDraw3D.GUI3DViewScope
+  overload: Prowl.Runtime.GUI.GuiDraw3D.Viewport*
+- uid: Prowl.Runtime.GUI.GuiDraw3D.Matrix(Prowl.Runtime.Matrix4x4)
+  commentId: M:Prowl.Runtime.GUI.GuiDraw3D.Matrix(Prowl.Runtime.Matrix4x4)
+  id: Matrix(Prowl.Runtime.Matrix4x4)
+  parent: Prowl.Runtime.GUI.GuiDraw3D
+  langs:
+  - csharp
+  - vb
+  name: Matrix(Matrix4x4)
+  nameWithType: GuiDraw3D.Matrix(Matrix4x4)
+  fullName: Prowl.Runtime.GUI.GuiDraw3D.Matrix(Prowl.Runtime.Matrix4x4)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/GuiDraw3D.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Matrix
+    path: ../Prowl/Prowl.Runtime/GUI/GuiDraw3D.cs
+    startLine: 42
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  syntax:
+    content: public GuiDraw3D.GUI3DMVPScope Matrix(Matrix4x4 mvp)
+    parameters:
+    - id: mvp
+      type: Prowl.Runtime.Matrix4x4
+    return:
+      type: Prowl.Runtime.GUI.GuiDraw3D.GUI3DMVPScope
+    content.vb: Public Function Matrix(mvp As Matrix4x4) As GuiDraw3D.GUI3DMVPScope
+  overload: Prowl.Runtime.GUI.GuiDraw3D.Matrix*
+- uid: Prowl.Runtime.GUI.GuiDraw3D.Arc(System.Double,System.Double,System.Double,Prowl.Runtime.GUI.Stroke3D)
+  commentId: M:Prowl.Runtime.GUI.GuiDraw3D.Arc(System.Double,System.Double,System.Double,Prowl.Runtime.GUI.Stroke3D)
+  id: Arc(System.Double,System.Double,System.Double,Prowl.Runtime.GUI.Stroke3D)
+  parent: Prowl.Runtime.GUI.GuiDraw3D
+  langs:
+  - csharp
+  - vb
+  name: Arc(double, double, double, Stroke3D)
+  nameWithType: GuiDraw3D.Arc(double, double, double, Stroke3D)
+  fullName: Prowl.Runtime.GUI.GuiDraw3D.Arc(double, double, double, Prowl.Runtime.GUI.Stroke3D)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/GuiDraw3D.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Arc
+    path: ../Prowl/Prowl.Runtime/GUI/GuiDraw3D.cs
+    startLine: 44
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  syntax:
+    content: public void Arc(double radius, double startAngle, double endAngle, Stroke3D stroke)
+    parameters:
+    - id: radius
+      type: System.Double
+    - id: startAngle
+      type: System.Double
+    - id: endAngle
+      type: System.Double
+    - id: stroke
+      type: Prowl.Runtime.GUI.Stroke3D
+    content.vb: Public Sub Arc(radius As Double, startAngle As Double, endAngle As Double, stroke As Stroke3D)
+  overload: Prowl.Runtime.GUI.GuiDraw3D.Arc*
+  nameWithType.vb: GuiDraw3D.Arc(Double, Double, Double, Stroke3D)
+  fullName.vb: Prowl.Runtime.GUI.GuiDraw3D.Arc(Double, Double, Double, Prowl.Runtime.GUI.Stroke3D)
+  name.vb: Arc(Double, Double, Double, Stroke3D)
+- uid: Prowl.Runtime.GUI.GuiDraw3D.Circle(System.Double,Prowl.Runtime.GUI.Stroke3D)
+  commentId: M:Prowl.Runtime.GUI.GuiDraw3D.Circle(System.Double,Prowl.Runtime.GUI.Stroke3D)
+  id: Circle(System.Double,Prowl.Runtime.GUI.Stroke3D)
+  parent: Prowl.Runtime.GUI.GuiDraw3D
+  langs:
+  - csharp
+  - vb
+  name: Circle(double, Stroke3D)
+  nameWithType: GuiDraw3D.Circle(double, Stroke3D)
+  fullName: Prowl.Runtime.GUI.GuiDraw3D.Circle(double, Prowl.Runtime.GUI.Stroke3D)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/GuiDraw3D.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Circle
+    path: ../Prowl/Prowl.Runtime/GUI/GuiDraw3D.cs
+    startLine: 59
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  syntax:
+    content: public void Circle(double radius, Stroke3D stroke)
+    parameters:
+    - id: radius
+      type: System.Double
+    - id: stroke
+      type: Prowl.Runtime.GUI.Stroke3D
+    content.vb: Public Sub Circle(radius As Double, stroke As Stroke3D)
+  overload: Prowl.Runtime.GUI.GuiDraw3D.Circle*
+  nameWithType.vb: GuiDraw3D.Circle(Double, Stroke3D)
+  fullName.vb: Prowl.Runtime.GUI.GuiDraw3D.Circle(Double, Prowl.Runtime.GUI.Stroke3D)
+  name.vb: Circle(Double, Stroke3D)
+- uid: Prowl.Runtime.GUI.GuiDraw3D.Quad(System.Double,Prowl.Runtime.GUI.Stroke3D)
+  commentId: M:Prowl.Runtime.GUI.GuiDraw3D.Quad(System.Double,Prowl.Runtime.GUI.Stroke3D)
+  id: Quad(System.Double,Prowl.Runtime.GUI.Stroke3D)
+  parent: Prowl.Runtime.GUI.GuiDraw3D
+  langs:
+  - csharp
+  - vb
+  name: Quad(double, Stroke3D)
+  nameWithType: GuiDraw3D.Quad(double, Stroke3D)
+  fullName: Prowl.Runtime.GUI.GuiDraw3D.Quad(double, Prowl.Runtime.GUI.Stroke3D)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/GuiDraw3D.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Quad
+    path: ../Prowl/Prowl.Runtime/GUI/GuiDraw3D.cs
+    startLine: 60
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  syntax:
+    content: public void Quad(double radius, Stroke3D stroke)
+    parameters:
+    - id: radius
+      type: System.Double
+    - id: stroke
+      type: Prowl.Runtime.GUI.Stroke3D
+    content.vb: Public Sub Quad(radius As Double, stroke As Stroke3D)
+  overload: Prowl.Runtime.GUI.GuiDraw3D.Quad*
+  nameWithType.vb: GuiDraw3D.Quad(Double, Stroke3D)
+  fullName.vb: Prowl.Runtime.GUI.GuiDraw3D.Quad(Double, Prowl.Runtime.GUI.Stroke3D)
+  name.vb: Quad(Double, Stroke3D)
+- uid: Prowl.Runtime.GUI.GuiDraw3D.FilledCircle(System.Double,Prowl.Runtime.GUI.Stroke3D)
+  commentId: M:Prowl.Runtime.GUI.GuiDraw3D.FilledCircle(System.Double,Prowl.Runtime.GUI.Stroke3D)
+  id: FilledCircle(System.Double,Prowl.Runtime.GUI.Stroke3D)
+  parent: Prowl.Runtime.GUI.GuiDraw3D
+  langs:
+  - csharp
+  - vb
+  name: FilledCircle(double, Stroke3D)
+  nameWithType: GuiDraw3D.FilledCircle(double, Stroke3D)
+  fullName: Prowl.Runtime.GUI.GuiDraw3D.FilledCircle(double, Prowl.Runtime.GUI.Stroke3D)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/GuiDraw3D.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: FilledCircle
+    path: ../Prowl/Prowl.Runtime/GUI/GuiDraw3D.cs
+    startLine: 70
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  syntax:
+    content: public void FilledCircle(double radius, Stroke3D stroke)
+    parameters:
+    - id: radius
+      type: System.Double
+    - id: stroke
+      type: Prowl.Runtime.GUI.Stroke3D
+    content.vb: Public Sub FilledCircle(radius As Double, stroke As Stroke3D)
+  overload: Prowl.Runtime.GUI.GuiDraw3D.FilledCircle*
+  nameWithType.vb: GuiDraw3D.FilledCircle(Double, Stroke3D)
+  fullName.vb: Prowl.Runtime.GUI.GuiDraw3D.FilledCircle(Double, Prowl.Runtime.GUI.Stroke3D)
+  name.vb: FilledCircle(Double, Stroke3D)
+- uid: Prowl.Runtime.GUI.GuiDraw3D.LineSegment(Prowl.Runtime.Vector3,Prowl.Runtime.Vector3,Prowl.Runtime.GUI.Stroke3D)
+  commentId: M:Prowl.Runtime.GUI.GuiDraw3D.LineSegment(Prowl.Runtime.Vector3,Prowl.Runtime.Vector3,Prowl.Runtime.GUI.Stroke3D)
+  id: LineSegment(Prowl.Runtime.Vector3,Prowl.Runtime.Vector3,Prowl.Runtime.GUI.Stroke3D)
+  parent: Prowl.Runtime.GUI.GuiDraw3D
+  langs:
+  - csharp
+  - vb
+  name: LineSegment(Vector3, Vector3, Stroke3D)
+  nameWithType: GuiDraw3D.LineSegment(Vector3, Vector3, Stroke3D)
+  fullName: Prowl.Runtime.GUI.GuiDraw3D.LineSegment(Prowl.Runtime.Vector3, Prowl.Runtime.Vector3, Prowl.Runtime.GUI.Stroke3D)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/GuiDraw3D.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: LineSegment
+    path: ../Prowl/Prowl.Runtime/GUI/GuiDraw3D.cs
+    startLine: 80
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  syntax:
+    content: public void LineSegment(Vector3 from, Vector3 to, Stroke3D stroke)
+    parameters:
+    - id: from
+      type: Prowl.Runtime.Vector3
+    - id: to
+      type: Prowl.Runtime.Vector3
+    - id: stroke
+      type: Prowl.Runtime.GUI.Stroke3D
+    content.vb: Public Sub LineSegment(from As Vector3, [to] As Vector3, stroke As Stroke3D)
+  overload: Prowl.Runtime.GUI.GuiDraw3D.LineSegment*
+- uid: Prowl.Runtime.GUI.GuiDraw3D.Arrow(Prowl.Runtime.Vector3,Prowl.Runtime.Vector3,Prowl.Runtime.GUI.Stroke3D)
+  commentId: M:Prowl.Runtime.GUI.GuiDraw3D.Arrow(Prowl.Runtime.Vector3,Prowl.Runtime.Vector3,Prowl.Runtime.GUI.Stroke3D)
+  id: Arrow(Prowl.Runtime.Vector3,Prowl.Runtime.Vector3,Prowl.Runtime.GUI.Stroke3D)
+  parent: Prowl.Runtime.GUI.GuiDraw3D
+  langs:
+  - csharp
+  - vb
+  name: Arrow(Vector3, Vector3, Stroke3D)
+  nameWithType: GuiDraw3D.Arrow(Vector3, Vector3, Stroke3D)
+  fullName: Prowl.Runtime.GUI.GuiDraw3D.Arrow(Prowl.Runtime.Vector3, Prowl.Runtime.Vector3, Prowl.Runtime.GUI.Stroke3D)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/GuiDraw3D.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Arrow
+    path: ../Prowl/Prowl.Runtime/GUI/GuiDraw3D.cs
+    startLine: 99
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  syntax:
+    content: public void Arrow(Vector3 from, Vector3 to, Stroke3D stroke)
+    parameters:
+    - id: from
+      type: Prowl.Runtime.Vector3
+    - id: to
+      type: Prowl.Runtime.Vector3
+    - id: stroke
+      type: Prowl.Runtime.GUI.Stroke3D
+    content.vb: Public Sub Arrow(from As Vector3, [to] As Vector3, stroke As Stroke3D)
+  overload: Prowl.Runtime.GUI.GuiDraw3D.Arrow*
+- uid: Prowl.Runtime.GUI.GuiDraw3D.Polygon(System.Collections.Generic.IEnumerable{Prowl.Runtime.Vector3},Prowl.Runtime.GUI.Stroke3D)
+  commentId: M:Prowl.Runtime.GUI.GuiDraw3D.Polygon(System.Collections.Generic.IEnumerable{Prowl.Runtime.Vector3},Prowl.Runtime.GUI.Stroke3D)
+  id: Polygon(System.Collections.Generic.IEnumerable{Prowl.Runtime.Vector3},Prowl.Runtime.GUI.Stroke3D)
+  parent: Prowl.Runtime.GUI.GuiDraw3D
+  langs:
+  - csharp
+  - vb
+  name: Polygon(IEnumerable<Vector3>, Stroke3D)
+  nameWithType: GuiDraw3D.Polygon(IEnumerable<Vector3>, Stroke3D)
+  fullName: Prowl.Runtime.GUI.GuiDraw3D.Polygon(System.Collections.Generic.IEnumerable<Prowl.Runtime.Vector3>, Prowl.Runtime.GUI.Stroke3D)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/GuiDraw3D.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Polygon
+    path: ../Prowl/Prowl.Runtime/GUI/GuiDraw3D.cs
+    startLine: 121
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  syntax:
+    content: public void Polygon(IEnumerable<Vector3> points, Stroke3D stroke)
+    parameters:
+    - id: points
+      type: System.Collections.Generic.IEnumerable{Prowl.Runtime.Vector3}
+    - id: stroke
+      type: Prowl.Runtime.GUI.Stroke3D
+    content.vb: Public Sub Polygon(points As IEnumerable(Of Vector3), stroke As Stroke3D)
+  overload: Prowl.Runtime.GUI.GuiDraw3D.Polygon*
+  nameWithType.vb: GuiDraw3D.Polygon(IEnumerable(Of Vector3), Stroke3D)
+  fullName.vb: Prowl.Runtime.GUI.GuiDraw3D.Polygon(System.Collections.Generic.IEnumerable(Of Prowl.Runtime.Vector3), Prowl.Runtime.GUI.Stroke3D)
+  name.vb: Polygon(IEnumerable(Of Vector3), Stroke3D)
+- uid: Prowl.Runtime.GUI.GuiDraw3D.Polyline(System.Collections.Generic.IEnumerable{Prowl.Runtime.Vector3},Prowl.Runtime.GUI.Stroke3D)
+  commentId: M:Prowl.Runtime.GUI.GuiDraw3D.Polyline(System.Collections.Generic.IEnumerable{Prowl.Runtime.Vector3},Prowl.Runtime.GUI.Stroke3D)
+  id: Polyline(System.Collections.Generic.IEnumerable{Prowl.Runtime.Vector3},Prowl.Runtime.GUI.Stroke3D)
+  parent: Prowl.Runtime.GUI.GuiDraw3D
+  langs:
+  - csharp
+  - vb
+  name: Polyline(IEnumerable<Vector3>, Stroke3D)
+  nameWithType: GuiDraw3D.Polyline(IEnumerable<Vector3>, Stroke3D)
+  fullName: Prowl.Runtime.GUI.GuiDraw3D.Polyline(System.Collections.Generic.IEnumerable<Prowl.Runtime.Vector3>, Prowl.Runtime.GUI.Stroke3D)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/GuiDraw3D.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Polyline
+    path: ../Prowl/Prowl.Runtime/GUI/GuiDraw3D.cs
+    startLine: 135
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  syntax:
+    content: public void Polyline(IEnumerable<Vector3> points, Stroke3D stroke)
+    parameters:
+    - id: points
+      type: System.Collections.Generic.IEnumerable{Prowl.Runtime.Vector3}
+    - id: stroke
+      type: Prowl.Runtime.GUI.Stroke3D
+    content.vb: Public Sub Polyline(points As IEnumerable(Of Vector3), stroke As Stroke3D)
+  overload: Prowl.Runtime.GUI.GuiDraw3D.Polyline*
+  nameWithType.vb: GuiDraw3D.Polyline(IEnumerable(Of Vector3), Stroke3D)
+  fullName.vb: Prowl.Runtime.GUI.GuiDraw3D.Polyline(System.Collections.Generic.IEnumerable(Of Prowl.Runtime.Vector3), Prowl.Runtime.GUI.Stroke3D)
+  name.vb: Polyline(IEnumerable(Of Vector3), Stroke3D)
+- uid: Prowl.Runtime.GUI.GuiDraw3D.Sector(System.Double,System.Double,System.Double,Prowl.Runtime.GUI.Stroke3D)
+  commentId: M:Prowl.Runtime.GUI.GuiDraw3D.Sector(System.Double,System.Double,System.Double,Prowl.Runtime.GUI.Stroke3D)
+  id: Sector(System.Double,System.Double,System.Double,Prowl.Runtime.GUI.Stroke3D)
+  parent: Prowl.Runtime.GUI.GuiDraw3D
+  langs:
+  - csharp
+  - vb
+  name: Sector(double, double, double, Stroke3D)
+  nameWithType: GuiDraw3D.Sector(double, double, double, Stroke3D)
+  fullName: Prowl.Runtime.GUI.GuiDraw3D.Sector(double, double, double, Prowl.Runtime.GUI.Stroke3D)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/GuiDraw3D.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Sector
+    path: ../Prowl/Prowl.Runtime/GUI/GuiDraw3D.cs
+    startLine: 149
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  syntax:
+    content: public void Sector(double radius, double startAngle, double endAngle, Stroke3D stroke)
+    parameters:
+    - id: radius
+      type: System.Double
+    - id: startAngle
+      type: System.Double
+    - id: endAngle
+      type: System.Double
+    - id: stroke
+      type: Prowl.Runtime.GUI.Stroke3D
+    content.vb: Public Sub Sector(radius As Double, startAngle As Double, endAngle As Double, stroke As Stroke3D)
+  overload: Prowl.Runtime.GUI.GuiDraw3D.Sector*
+  nameWithType.vb: GuiDraw3D.Sector(Double, Double, Double, Stroke3D)
+  fullName.vb: Prowl.Runtime.GUI.GuiDraw3D.Sector(Double, Double, Double, Prowl.Runtime.GUI.Stroke3D)
+  name.vb: Sector(Double, Double, Double, Stroke3D)
+- uid: Prowl.Runtime.GUI.GuiDraw3D.Sphere(System.Double,Prowl.Runtime.GUI.Stroke3D)
+  commentId: M:Prowl.Runtime.GUI.GuiDraw3D.Sphere(System.Double,Prowl.Runtime.GUI.Stroke3D)
+  id: Sphere(System.Double,Prowl.Runtime.GUI.Stroke3D)
+  parent: Prowl.Runtime.GUI.GuiDraw3D
+  langs:
+  - csharp
+  - vb
+  name: Sphere(double, Stroke3D)
+  nameWithType: GuiDraw3D.Sphere(double, Stroke3D)
+  fullName: Prowl.Runtime.GUI.GuiDraw3D.Sphere(double, Prowl.Runtime.GUI.Stroke3D)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/GuiDraw3D.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Sphere
+    path: ../Prowl/Prowl.Runtime/GUI/GuiDraw3D.cs
+    startLine: 201
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  syntax:
+    content: public void Sphere(double radius, Stroke3D stroke)
+    parameters:
+    - id: radius
+      type: System.Double
+    - id: stroke
+      type: Prowl.Runtime.GUI.Stroke3D
+    content.vb: Public Sub Sphere(radius As Double, stroke As Stroke3D)
+  overload: Prowl.Runtime.GUI.GuiDraw3D.Sphere*
+  nameWithType.vb: GuiDraw3D.Sphere(Double, Stroke3D)
+  fullName.vb: Prowl.Runtime.GUI.GuiDraw3D.Sphere(Double, Prowl.Runtime.GUI.Stroke3D)
+  name.vb: Sphere(Double, Stroke3D)
+- uid: Prowl.Runtime.GUI.GuiDraw3D.FilledSphere(System.Double,Prowl.Runtime.GUI.Stroke3D)
+  commentId: M:Prowl.Runtime.GUI.GuiDraw3D.FilledSphere(System.Double,Prowl.Runtime.GUI.Stroke3D)
+  id: FilledSphere(System.Double,Prowl.Runtime.GUI.Stroke3D)
+  parent: Prowl.Runtime.GUI.GuiDraw3D
+  langs:
+  - csharp
+  - vb
+  name: FilledSphere(double, Stroke3D)
+  nameWithType: GuiDraw3D.FilledSphere(double, Stroke3D)
+  fullName: Prowl.Runtime.GUI.GuiDraw3D.FilledSphere(double, Prowl.Runtime.GUI.Stroke3D)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/GuiDraw3D.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: FilledSphere
+    path: ../Prowl/Prowl.Runtime/GUI/GuiDraw3D.cs
+    startLine: 223
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  syntax:
+    content: public void FilledSphere(double radius, Stroke3D stroke)
+    parameters:
+    - id: radius
+      type: System.Double
+    - id: stroke
+      type: Prowl.Runtime.GUI.Stroke3D
+    content.vb: Public Sub FilledSphere(radius As Double, stroke As Stroke3D)
+  overload: Prowl.Runtime.GUI.GuiDraw3D.FilledSphere*
+  nameWithType.vb: GuiDraw3D.FilledSphere(Double, Stroke3D)
+  fullName.vb: Prowl.Runtime.GUI.GuiDraw3D.FilledSphere(Double, Prowl.Runtime.GUI.Stroke3D)
+  name.vb: FilledSphere(Double, Stroke3D)
+- uid: Prowl.Runtime.GUI.GuiDraw3D.Cube(System.Double,Prowl.Runtime.GUI.Stroke3D)
+  commentId: M:Prowl.Runtime.GUI.GuiDraw3D.Cube(System.Double,Prowl.Runtime.GUI.Stroke3D)
+  id: Cube(System.Double,Prowl.Runtime.GUI.Stroke3D)
+  parent: Prowl.Runtime.GUI.GuiDraw3D
+  langs:
+  - csharp
+  - vb
+  name: Cube(double, Stroke3D)
+  nameWithType: GuiDraw3D.Cube(double, Stroke3D)
+  fullName: Prowl.Runtime.GUI.GuiDraw3D.Cube(double, Prowl.Runtime.GUI.Stroke3D)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/GuiDraw3D.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Cube
+    path: ../Prowl/Prowl.Runtime/GUI/GuiDraw3D.cs
+    startLine: 266
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  syntax:
+    content: public void Cube(double size, Stroke3D stroke)
+    parameters:
+    - id: size
+      type: System.Double
+    - id: stroke
+      type: Prowl.Runtime.GUI.Stroke3D
+    content.vb: Public Sub Cube(size As Double, stroke As Stroke3D)
+  overload: Prowl.Runtime.GUI.GuiDraw3D.Cube*
+  nameWithType.vb: GuiDraw3D.Cube(Double, Stroke3D)
+  fullName.vb: Prowl.Runtime.GUI.GuiDraw3D.Cube(Double, Prowl.Runtime.GUI.Stroke3D)
+  name.vb: Cube(Double, Stroke3D)
+- uid: Prowl.Runtime.GUI.GuiDraw3D.QuadImage(Prowl.Runtime.Vector3,Prowl.Runtime.Texture2D)
+  commentId: M:Prowl.Runtime.GUI.GuiDraw3D.QuadImage(Prowl.Runtime.Vector3,Prowl.Runtime.Texture2D)
+  id: QuadImage(Prowl.Runtime.Vector3,Prowl.Runtime.Texture2D)
+  parent: Prowl.Runtime.GUI.GuiDraw3D
+  langs:
+  - csharp
+  - vb
+  name: QuadImage(Vector3, Texture2D)
+  nameWithType: GuiDraw3D.QuadImage(Vector3, Texture2D)
+  fullName: Prowl.Runtime.GUI.GuiDraw3D.QuadImage(Prowl.Runtime.Vector3, Prowl.Runtime.Texture2D)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/GuiDraw3D.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: QuadImage
+    path: ../Prowl/Prowl.Runtime/GUI/GuiDraw3D.cs
+    startLine: 289
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  syntax:
+    content: public void QuadImage(Vector3 size, Texture2D texture)
+    parameters:
+    - id: size
+      type: Prowl.Runtime.Vector3
+    - id: texture
+      type: Prowl.Runtime.Texture2D
+    content.vb: Public Sub QuadImage(size As Vector3, texture As Texture2D)
+  overload: Prowl.Runtime.GUI.GuiDraw3D.QuadImage*
+references:
+- uid: Prowl.Runtime.GUI
+  commentId: N:Prowl.Runtime.GUI
+  href: Prowl.html
+  name: Prowl.Runtime.GUI
+  nameWithType: Prowl.Runtime.GUI
+  fullName: Prowl.Runtime.GUI
+  spec.csharp:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+  - name: .
+  - uid: Prowl.Runtime.GUI
+    name: GUI
+    href: Prowl.Runtime.GUI.html
+  spec.vb:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+  - name: .
+  - uid: Prowl.Runtime.GUI
+    name: GUI
+    href: Prowl.Runtime.GUI.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Prowl.Runtime.RuntimeUtils.GetSerializableFields
+  commentId: M:Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  parent: Prowl.Runtime.RuntimeUtils
+  definition: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  name: GetSerializableFields(object)
+  nameWithType: RuntimeUtils.GetSerializableFields(object)
+  fullName: Prowl.Runtime.RuntimeUtils.GetSerializableFields(object)
+  nameWithType.vb: RuntimeUtils.GetSerializableFields(Object)
+  fullName.vb: Prowl.Runtime.RuntimeUtils.GetSerializableFields(Object)
+  name.vb: GetSerializableFields(Object)
+  spec.csharp:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  commentId: M:Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  isExternal: true
+  href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  name: GetSerializableFields(object)
+  nameWithType: RuntimeUtils.GetSerializableFields(object)
+  fullName: Prowl.Runtime.RuntimeUtils.GetSerializableFields(object)
+  nameWithType.vb: RuntimeUtils.GetSerializableFields(Object)
+  fullName.vb: Prowl.Runtime.RuntimeUtils.GetSerializableFields(Object)
+  name.vb: GetSerializableFields(Object)
+  spec.csharp:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: Prowl.Runtime.RuntimeUtils
+  commentId: T:Prowl.Runtime.RuntimeUtils
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.RuntimeUtils.html
+  name: RuntimeUtils
+  nameWithType: RuntimeUtils
+  fullName: Prowl.Runtime.RuntimeUtils
+- uid: Prowl.Runtime
+  commentId: N:Prowl.Runtime
+  href: Prowl.html
+  name: Prowl.Runtime
+  nameWithType: Prowl.Runtime
+  fullName: Prowl.Runtime
+  spec.csharp:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+  spec.vb:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+- uid: Prowl.Runtime.GUI.GuiDraw3D.#ctor*
+  commentId: Overload:Prowl.Runtime.GUI.GuiDraw3D.#ctor
+  href: Prowl.Runtime.GUI.GuiDraw3D.html#Prowl_Runtime_GUI_GuiDraw3D__ctor_Prowl_Runtime_GUI_Gui_
+  name: GuiDraw3D
+  nameWithType: GuiDraw3D.GuiDraw3D
+  fullName: Prowl.Runtime.GUI.GuiDraw3D.GuiDraw3D
+  nameWithType.vb: GuiDraw3D.New
+  fullName.vb: Prowl.Runtime.GUI.GuiDraw3D.New
+  name.vb: New
+- uid: Prowl.Runtime.GUI.Gui
+  commentId: T:Prowl.Runtime.GUI.Gui
+  parent: Prowl.Runtime.GUI
+  href: Prowl.Runtime.GUI.Gui.html
+  name: Gui
+  nameWithType: Gui
+  fullName: Prowl.Runtime.GUI.Gui
+- uid: Prowl.Runtime.GUI.GuiDraw3D.Viewport*
+  commentId: Overload:Prowl.Runtime.GUI.GuiDraw3D.Viewport
+  href: Prowl.Runtime.GUI.GuiDraw3D.html#Prowl_Runtime_GUI_GuiDraw3D_Viewport_Prowl_Runtime_Rect_
+  name: Viewport
+  nameWithType: GuiDraw3D.Viewport
+  fullName: Prowl.Runtime.GUI.GuiDraw3D.Viewport
+- uid: Prowl.Runtime.Rect
+  commentId: T:Prowl.Runtime.Rect
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.Rect.html
+  name: Rect
+  nameWithType: Rect
+  fullName: Prowl.Runtime.Rect
+- uid: Prowl.Runtime.GUI.GuiDraw3D.GUI3DViewScope
+  commentId: T:Prowl.Runtime.GUI.GuiDraw3D.GUI3DViewScope
+  parent: Prowl.Runtime.GUI
+  href: Prowl.Runtime.GUI.GuiDraw3D.html
+  name: GuiDraw3D.GUI3DViewScope
+  nameWithType: GuiDraw3D.GUI3DViewScope
+  fullName: Prowl.Runtime.GUI.GuiDraw3D.GUI3DViewScope
+  spec.csharp:
+  - uid: Prowl.Runtime.GUI.GuiDraw3D
+    name: GuiDraw3D
+    href: Prowl.Runtime.GUI.GuiDraw3D.html
+  - name: .
+  - uid: Prowl.Runtime.GUI.GuiDraw3D.GUI3DViewScope
+    name: GUI3DViewScope
+    href: Prowl.Runtime.GUI.GuiDraw3D.GUI3DViewScope.html
+  spec.vb:
+  - uid: Prowl.Runtime.GUI.GuiDraw3D
+    name: GuiDraw3D
+    href: Prowl.Runtime.GUI.GuiDraw3D.html
+  - name: .
+  - uid: Prowl.Runtime.GUI.GuiDraw3D.GUI3DViewScope
+    name: GUI3DViewScope
+    href: Prowl.Runtime.GUI.GuiDraw3D.GUI3DViewScope.html
+- uid: Prowl.Runtime.GUI.GuiDraw3D.Matrix*
+  commentId: Overload:Prowl.Runtime.GUI.GuiDraw3D.Matrix
+  href: Prowl.Runtime.GUI.GuiDraw3D.html#Prowl_Runtime_GUI_GuiDraw3D_Matrix_Prowl_Runtime_Matrix4x4_
+  name: Matrix
+  nameWithType: GuiDraw3D.Matrix
+  fullName: Prowl.Runtime.GUI.GuiDraw3D.Matrix
+- uid: Prowl.Runtime.Matrix4x4
+  commentId: T:Prowl.Runtime.Matrix4x4
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.Matrix4x4.html
+  name: Matrix4x4
+  nameWithType: Matrix4x4
+  fullName: Prowl.Runtime.Matrix4x4
+- uid: Prowl.Runtime.GUI.GuiDraw3D.GUI3DMVPScope
+  commentId: T:Prowl.Runtime.GUI.GuiDraw3D.GUI3DMVPScope
+  parent: Prowl.Runtime.GUI
+  href: Prowl.Runtime.GUI.GuiDraw3D.html
+  name: GuiDraw3D.GUI3DMVPScope
+  nameWithType: GuiDraw3D.GUI3DMVPScope
+  fullName: Prowl.Runtime.GUI.GuiDraw3D.GUI3DMVPScope
+  spec.csharp:
+  - uid: Prowl.Runtime.GUI.GuiDraw3D
+    name: GuiDraw3D
+    href: Prowl.Runtime.GUI.GuiDraw3D.html
+  - name: .
+  - uid: Prowl.Runtime.GUI.GuiDraw3D.GUI3DMVPScope
+    name: GUI3DMVPScope
+    href: Prowl.Runtime.GUI.GuiDraw3D.GUI3DMVPScope.html
+  spec.vb:
+  - uid: Prowl.Runtime.GUI.GuiDraw3D
+    name: GuiDraw3D
+    href: Prowl.Runtime.GUI.GuiDraw3D.html
+  - name: .
+  - uid: Prowl.Runtime.GUI.GuiDraw3D.GUI3DMVPScope
+    name: GUI3DMVPScope
+    href: Prowl.Runtime.GUI.GuiDraw3D.GUI3DMVPScope.html
+- uid: Prowl.Runtime.GUI.GuiDraw3D.Arc*
+  commentId: Overload:Prowl.Runtime.GUI.GuiDraw3D.Arc
+  href: Prowl.Runtime.GUI.GuiDraw3D.html#Prowl_Runtime_GUI_GuiDraw3D_Arc_System_Double_System_Double_System_Double_Prowl_Runtime_GUI_Stroke3D_
+  name: Arc
+  nameWithType: GuiDraw3D.Arc
+  fullName: Prowl.Runtime.GUI.GuiDraw3D.Arc
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.double
+  name: double
+  nameWithType: double
+  fullName: double
+  nameWithType.vb: Double
+  fullName.vb: Double
+  name.vb: Double
+- uid: Prowl.Runtime.GUI.Stroke3D
+  commentId: T:Prowl.Runtime.GUI.Stroke3D
+  parent: Prowl.Runtime.GUI
+  href: Prowl.Runtime.GUI.Stroke3D.html
+  name: Stroke3D
+  nameWithType: Stroke3D
+  fullName: Prowl.Runtime.GUI.Stroke3D
+- uid: Prowl.Runtime.GUI.GuiDraw3D.Circle*
+  commentId: Overload:Prowl.Runtime.GUI.GuiDraw3D.Circle
+  href: Prowl.Runtime.GUI.GuiDraw3D.html#Prowl_Runtime_GUI_GuiDraw3D_Circle_System_Double_Prowl_Runtime_GUI_Stroke3D_
+  name: Circle
+  nameWithType: GuiDraw3D.Circle
+  fullName: Prowl.Runtime.GUI.GuiDraw3D.Circle
+- uid: Prowl.Runtime.GUI.GuiDraw3D.Quad*
+  commentId: Overload:Prowl.Runtime.GUI.GuiDraw3D.Quad
+  href: Prowl.Runtime.GUI.GuiDraw3D.html#Prowl_Runtime_GUI_GuiDraw3D_Quad_System_Double_Prowl_Runtime_GUI_Stroke3D_
+  name: Quad
+  nameWithType: GuiDraw3D.Quad
+  fullName: Prowl.Runtime.GUI.GuiDraw3D.Quad
+- uid: Prowl.Runtime.GUI.GuiDraw3D.FilledCircle*
+  commentId: Overload:Prowl.Runtime.GUI.GuiDraw3D.FilledCircle
+  href: Prowl.Runtime.GUI.GuiDraw3D.html#Prowl_Runtime_GUI_GuiDraw3D_FilledCircle_System_Double_Prowl_Runtime_GUI_Stroke3D_
+  name: FilledCircle
+  nameWithType: GuiDraw3D.FilledCircle
+  fullName: Prowl.Runtime.GUI.GuiDraw3D.FilledCircle
+- uid: Prowl.Runtime.GUI.GuiDraw3D.LineSegment*
+  commentId: Overload:Prowl.Runtime.GUI.GuiDraw3D.LineSegment
+  href: Prowl.Runtime.GUI.GuiDraw3D.html#Prowl_Runtime_GUI_GuiDraw3D_LineSegment_Prowl_Runtime_Vector3_Prowl_Runtime_Vector3_Prowl_Runtime_GUI_Stroke3D_
+  name: LineSegment
+  nameWithType: GuiDraw3D.LineSegment
+  fullName: Prowl.Runtime.GUI.GuiDraw3D.LineSegment
+- uid: Prowl.Runtime.Vector3
+  commentId: T:Prowl.Runtime.Vector3
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.Vector3.html
+  name: Vector3
+  nameWithType: Vector3
+  fullName: Prowl.Runtime.Vector3
+- uid: Prowl.Runtime.GUI.GuiDraw3D.Arrow*
+  commentId: Overload:Prowl.Runtime.GUI.GuiDraw3D.Arrow
+  href: Prowl.Runtime.GUI.GuiDraw3D.html#Prowl_Runtime_GUI_GuiDraw3D_Arrow_Prowl_Runtime_Vector3_Prowl_Runtime_Vector3_Prowl_Runtime_GUI_Stroke3D_
+  name: Arrow
+  nameWithType: GuiDraw3D.Arrow
+  fullName: Prowl.Runtime.GUI.GuiDraw3D.Arrow
+- uid: Prowl.Runtime.GUI.GuiDraw3D.Polygon*
+  commentId: Overload:Prowl.Runtime.GUI.GuiDraw3D.Polygon
+  href: Prowl.Runtime.GUI.GuiDraw3D.html#Prowl_Runtime_GUI_GuiDraw3D_Polygon_System_Collections_Generic_IEnumerable_Prowl_Runtime_Vector3__Prowl_Runtime_GUI_Stroke3D_
+  name: Polygon
+  nameWithType: GuiDraw3D.Polygon
+  fullName: Prowl.Runtime.GUI.GuiDraw3D.Polygon
+- uid: System.Collections.Generic.IEnumerable{Prowl.Runtime.Vector3}
+  commentId: T:System.Collections.Generic.IEnumerable{Prowl.Runtime.Vector3}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<Vector3>
+  nameWithType: IEnumerable<Vector3>
+  fullName: System.Collections.Generic.IEnumerable<Prowl.Runtime.Vector3>
+  nameWithType.vb: IEnumerable(Of Vector3)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of Prowl.Runtime.Vector3)
+  name.vb: IEnumerable(Of Vector3)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - uid: Prowl.Runtime.Vector3
+    name: Vector3
+    href: Prowl.Runtime.Vector3.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Prowl.Runtime.Vector3
+    name: Vector3
+    href: Prowl.Runtime.Vector3.html
+  - name: )
+- uid: System.Collections.Generic.IEnumerable`1
+  commentId: T:System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: Prowl.Runtime.GUI.GuiDraw3D.Polyline*
+  commentId: Overload:Prowl.Runtime.GUI.GuiDraw3D.Polyline
+  href: Prowl.Runtime.GUI.GuiDraw3D.html#Prowl_Runtime_GUI_GuiDraw3D_Polyline_System_Collections_Generic_IEnumerable_Prowl_Runtime_Vector3__Prowl_Runtime_GUI_Stroke3D_
+  name: Polyline
+  nameWithType: GuiDraw3D.Polyline
+  fullName: Prowl.Runtime.GUI.GuiDraw3D.Polyline
+- uid: Prowl.Runtime.GUI.GuiDraw3D.Sector*
+  commentId: Overload:Prowl.Runtime.GUI.GuiDraw3D.Sector
+  href: Prowl.Runtime.GUI.GuiDraw3D.html#Prowl_Runtime_GUI_GuiDraw3D_Sector_System_Double_System_Double_System_Double_Prowl_Runtime_GUI_Stroke3D_
+  name: Sector
+  nameWithType: GuiDraw3D.Sector
+  fullName: Prowl.Runtime.GUI.GuiDraw3D.Sector
+- uid: Prowl.Runtime.GUI.GuiDraw3D.Sphere*
+  commentId: Overload:Prowl.Runtime.GUI.GuiDraw3D.Sphere
+  href: Prowl.Runtime.GUI.GuiDraw3D.html#Prowl_Runtime_GUI_GuiDraw3D_Sphere_System_Double_Prowl_Runtime_GUI_Stroke3D_
+  name: Sphere
+  nameWithType: GuiDraw3D.Sphere
+  fullName: Prowl.Runtime.GUI.GuiDraw3D.Sphere
+- uid: Prowl.Runtime.GUI.GuiDraw3D.FilledSphere*
+  commentId: Overload:Prowl.Runtime.GUI.GuiDraw3D.FilledSphere
+  href: Prowl.Runtime.GUI.GuiDraw3D.html#Prowl_Runtime_GUI_GuiDraw3D_FilledSphere_System_Double_Prowl_Runtime_GUI_Stroke3D_
+  name: FilledSphere
+  nameWithType: GuiDraw3D.FilledSphere
+  fullName: Prowl.Runtime.GUI.GuiDraw3D.FilledSphere
+- uid: Prowl.Runtime.GUI.GuiDraw3D.Cube*
+  commentId: Overload:Prowl.Runtime.GUI.GuiDraw3D.Cube
+  href: Prowl.Runtime.GUI.GuiDraw3D.html#Prowl_Runtime_GUI_GuiDraw3D_Cube_System_Double_Prowl_Runtime_GUI_Stroke3D_
+  name: Cube
+  nameWithType: GuiDraw3D.Cube
+  fullName: Prowl.Runtime.GUI.GuiDraw3D.Cube
+- uid: Prowl.Runtime.GUI.GuiDraw3D.QuadImage*
+  commentId: Overload:Prowl.Runtime.GUI.GuiDraw3D.QuadImage
+  href: Prowl.Runtime.GUI.GuiDraw3D.html#Prowl_Runtime_GUI_GuiDraw3D_QuadImage_Prowl_Runtime_Vector3_Prowl_Runtime_Texture2D_
+  name: QuadImage
+  nameWithType: GuiDraw3D.QuadImage
+  fullName: Prowl.Runtime.GUI.GuiDraw3D.QuadImage
+- uid: Prowl.Runtime.Texture2D
+  commentId: T:Prowl.Runtime.Texture2D
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.Texture2D.html
+  name: Texture2D
+  nameWithType: Texture2D
+  fullName: Prowl.Runtime.Texture2D

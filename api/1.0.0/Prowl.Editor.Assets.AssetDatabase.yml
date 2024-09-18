@@ -1,0 +1,3736 @@
+### YamlMime:ManagedReference
+items:
+- uid: Prowl.Editor.Assets.AssetDatabase
+  commentId: T:Prowl.Editor.Assets.AssetDatabase
+  id: AssetDatabase
+  parent: Prowl.Editor.Assets
+  children:
+  - Prowl.Editor.Assets.AssetDatabase.AddRootFolder(System.String)
+  - Prowl.Editor.Assets.AssetDatabase.AllThatDependOn(System.Guid)
+  - Prowl.Editor.Assets.AssetDatabase.AssetCacheUpdated
+  - Prowl.Editor.Assets.AssetDatabase.AssetRemoved
+  - Prowl.Editor.Assets.AssetDatabase.Contains(System.Guid)
+  - Prowl.Editor.Assets.AssetDatabase.Delete(System.IO.DirectoryInfo)
+  - Prowl.Editor.Assets.AssetDatabase.Delete(System.IO.FileInfo)
+  - Prowl.Editor.Assets.AssetDatabase.DesiredPackages
+  - Prowl.Editor.Assets.AssetDatabase.ExportAllBuildPackages(System.IO.DirectoryInfo)
+  - Prowl.Editor.Assets.AssetDatabase.ExportBuildPackages(System.Guid[],System.IO.DirectoryInfo)
+  - Prowl.Editor.Assets.AssetDatabase.ExportProwlPackage(System.IO.DirectoryInfo,System.Boolean)
+  - Prowl.Editor.Assets.AssetDatabase.FileIsInProject(System.IO.FileInfo)
+  - Prowl.Editor.Assets.AssetDatabase.FromRelativePath(System.String)
+  - Prowl.Editor.Assets.AssetDatabase.GenerateUniqueAssetPath(System.IO.DirectoryInfo@)
+  - Prowl.Editor.Assets.AssetDatabase.GenerateUniqueAssetPath(System.IO.FileInfo@)
+  - Prowl.Editor.Assets.AssetDatabase.GetAllAssetsOfType(System.Type)
+  - Prowl.Editor.Assets.AssetDatabase.GetAllAssetsOfType``1
+  - Prowl.Editor.Assets.AssetDatabase.GetDependenciesDeep(System.Guid,System.Collections.Generic.HashSet{System.Guid}@)
+  - Prowl.Editor.Assets.AssetDatabase.GetInstalledPackage(System.String)
+  - Prowl.Editor.Assets.AssetDatabase.GetPackageDependencies(NuGet.Packaging.Core.PackageIdentity,NuGet.Frameworks.NuGetFramework,NuGet.Protocol.Core.Types.SourceCacheContext,NuGet.Common.ILogger,System.Collections.Generic.IEnumerable{NuGet.Protocol.Core.Types.SourceRepository},System.Collections.Generic.ISet{NuGet.Protocol.Core.Types.SourcePackageDependencyInfo})
+  - Prowl.Editor.Assets.AssetDatabase.GetPackageMetadata(System.String,System.String,System.Boolean)
+  - Prowl.Editor.Assets.AssetDatabase.GetPackageVersions(System.String,System.String,System.Boolean)
+  - Prowl.Editor.Assets.AssetDatabase.GetRelativePath(System.String)
+  - Prowl.Editor.Assets.AssetDatabase.GetRootFolderCache(System.Int32)
+  - Prowl.Editor.Assets.AssetDatabase.GetRootFolders
+  - Prowl.Editor.Assets.AssetDatabase.GetSubAssetsCache(System.Guid)
+  - Prowl.Editor.Assets.AssetDatabase.GetTypeOfAsset(System.Guid,System.UInt16)
+  - Prowl.Editor.Assets.AssetDatabase.GuidFromRelativePath(System.String)
+  - Prowl.Editor.Assets.AssetDatabase.ImportProwlPackage(System.IO.FileInfo)
+  - Prowl.Editor.Assets.AssetDatabase.InstallPackage(System.String,System.String)
+  - Prowl.Editor.Assets.AssetDatabase.LastLoadedAssetID
+  - Prowl.Editor.Assets.AssetDatabase.LoadAsset(System.Guid)
+  - Prowl.Editor.Assets.AssetDatabase.LoadAsset(System.IO.FileInfo)
+  - Prowl.Editor.Assets.AssetDatabase.LoadAsset``1(System.Guid,System.UInt16)
+  - Prowl.Editor.Assets.AssetDatabase.LoadAsset``1(System.IO.FileInfo,System.UInt16)
+  - Prowl.Editor.Assets.AssetDatabase.Move(System.IO.DirectoryInfo,System.String)
+  - Prowl.Editor.Assets.AssetDatabase.Move(System.IO.FileInfo,System.String)
+  - Prowl.Editor.Assets.AssetDatabase.OpenPath(System.IO.FileSystemInfo,System.Int32,System.Int32)
+  - Prowl.Editor.Assets.AssetDatabase.Packages
+  - Prowl.Editor.Assets.AssetDatabase.PathToCachedNode(System.String,Prowl.Editor.Assets.AssetDirectoryCache.DirNode@)
+  - Prowl.Editor.Assets.AssetDatabase.Ping(System.Guid)
+  - Prowl.Editor.Assets.AssetDatabase.Ping(System.IO.FileInfo)
+  - Prowl.Editor.Assets.AssetDatabase.Pinged
+  - Prowl.Editor.Assets.AssetDatabase.Reimport(System.IO.FileInfo,System.Boolean)
+  - Prowl.Editor.Assets.AssetDatabase.ReimportAll
+  - Prowl.Editor.Assets.AssetDatabase.ReimportFolder(System.IO.DirectoryInfo)
+  - Prowl.Editor.Assets.AssetDatabase.Rename(System.IO.DirectoryInfo,System.String)
+  - Prowl.Editor.Assets.AssetDatabase.Rename(System.IO.FileInfo,System.String)
+  - Prowl.Editor.Assets.AssetDatabase.SaveProjectPackagesFile
+  - Prowl.Editor.Assets.AssetDatabase.SearchPackages(System.String,System.String,System.Boolean)
+  - Prowl.Editor.Assets.AssetDatabase.TempAssetDirectory
+  - Prowl.Editor.Assets.AssetDatabase.ToRelativePath(System.IO.FileInfo)
+  - Prowl.Editor.Assets.AssetDatabase.TryGetFile(System.Guid,System.IO.FileInfo@)
+  - Prowl.Editor.Assets.AssetDatabase.TryGetGuid(System.IO.FileInfo,System.Guid@)
+  - Prowl.Editor.Assets.AssetDatabase.UninstallPackage(System.String,System.String)
+  - Prowl.Editor.Assets.AssetDatabase.Update(System.Boolean,System.Boolean)
+  langs:
+  - csharp
+  - vb
+  name: AssetDatabase
+  nameWithType: AssetDatabase
+  fullName: Prowl.Editor.Assets.AssetDatabase
+  type: Class
+  source:
+    remote:
+      path: Prowl.Editor/Assets/AssetDatabase.Utilities.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: AssetDatabase
+    path: ../Prowl/Prowl.Editor/Assets/AssetDatabase.Utilities.cs
+    startLine: 9
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor.Assets
+  syntax:
+    content: public static class AssetDatabase
+    content.vb: Public Module AssetDatabase
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: Prowl.Editor.Assets.AssetDatabase.LastLoadedAssetID
+  commentId: P:Prowl.Editor.Assets.AssetDatabase.LastLoadedAssetID
+  id: LastLoadedAssetID
+  parent: Prowl.Editor.Assets.AssetDatabase
+  langs:
+  - csharp
+  - vb
+  name: LastLoadedAssetID
+  nameWithType: AssetDatabase.LastLoadedAssetID
+  fullName: Prowl.Editor.Assets.AssetDatabase.LastLoadedAssetID
+  type: Property
+  source:
+    remote:
+      path: Prowl.Editor/Assets/AssetDatabase.Core.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: LastLoadedAssetID
+    path: ../Prowl/Prowl.Editor/Assets/AssetDatabase.Core.cs
+    startLine: 19
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor.Assets
+  syntax:
+    content: public static Guid LastLoadedAssetID { get; }
+    parameters: []
+    return:
+      type: System.Guid
+    content.vb: Public Shared Property LastLoadedAssetID As Guid
+  overload: Prowl.Editor.Assets.AssetDatabase.LastLoadedAssetID*
+- uid: Prowl.Editor.Assets.AssetDatabase.TempAssetDirectory
+  commentId: P:Prowl.Editor.Assets.AssetDatabase.TempAssetDirectory
+  id: TempAssetDirectory
+  parent: Prowl.Editor.Assets.AssetDatabase
+  langs:
+  - csharp
+  - vb
+  name: TempAssetDirectory
+  nameWithType: AssetDatabase.TempAssetDirectory
+  fullName: Prowl.Editor.Assets.AssetDatabase.TempAssetDirectory
+  type: Property
+  source:
+    remote:
+      path: Prowl.Editor/Assets/AssetDatabase.Core.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: TempAssetDirectory
+    path: ../Prowl/Prowl.Editor/Assets/AssetDatabase.Core.cs
+    startLine: 20
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor.Assets
+  syntax:
+    content: public static string TempAssetDirectory { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property TempAssetDirectory As String
+  overload: Prowl.Editor.Assets.AssetDatabase.TempAssetDirectory*
+- uid: Prowl.Editor.Assets.AssetDatabase.AssetCacheUpdated
+  commentId: E:Prowl.Editor.Assets.AssetDatabase.AssetCacheUpdated
+  id: AssetCacheUpdated
+  parent: Prowl.Editor.Assets.AssetDatabase
+  langs:
+  - csharp
+  - vb
+  name: AssetCacheUpdated
+  nameWithType: AssetDatabase.AssetCacheUpdated
+  fullName: Prowl.Editor.Assets.AssetDatabase.AssetCacheUpdated
+  type: Event
+  source:
+    remote:
+      path: Prowl.Editor/Assets/AssetDatabase.Core.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: AssetCacheUpdated
+    path: ../Prowl/Prowl.Editor/Assets/AssetDatabase.Core.cs
+    startLine: 26
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor.Assets
+  syntax:
+    content: public static event Action? AssetCacheUpdated
+    return:
+      type: System.Action
+    content.vb: Public Shared Event AssetCacheUpdated As Action
+- uid: Prowl.Editor.Assets.AssetDatabase.AssetRemoved
+  commentId: E:Prowl.Editor.Assets.AssetDatabase.AssetRemoved
+  id: AssetRemoved
+  parent: Prowl.Editor.Assets.AssetDatabase
+  langs:
+  - csharp
+  - vb
+  name: AssetRemoved
+  nameWithType: AssetDatabase.AssetRemoved
+  fullName: Prowl.Editor.Assets.AssetDatabase.AssetRemoved
+  type: Event
+  source:
+    remote:
+      path: Prowl.Editor/Assets/AssetDatabase.Core.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: AssetRemoved
+    path: ../Prowl/Prowl.Editor/Assets/AssetDatabase.Core.cs
+    startLine: 28
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor.Assets
+  syntax:
+    content: public static event Action<Guid, FileInfo>? AssetRemoved
+    return:
+      type: System.Action{System.Guid,System.IO.FileInfo}
+    content.vb: Public Shared Event AssetRemoved As Action(Of Guid, FileInfo)
+- uid: Prowl.Editor.Assets.AssetDatabase.Pinged
+  commentId: E:Prowl.Editor.Assets.AssetDatabase.Pinged
+  id: Pinged
+  parent: Prowl.Editor.Assets.AssetDatabase
+  langs:
+  - csharp
+  - vb
+  name: Pinged
+  nameWithType: AssetDatabase.Pinged
+  fullName: Prowl.Editor.Assets.AssetDatabase.Pinged
+  type: Event
+  source:
+    remote:
+      path: Prowl.Editor/Assets/AssetDatabase.Core.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Pinged
+    path: ../Prowl/Prowl.Editor/Assets/AssetDatabase.Core.cs
+    startLine: 29
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor.Assets
+  syntax:
+    content: public static event Action<FileInfo>? Pinged
+    return:
+      type: System.Action{System.IO.FileInfo}
+    content.vb: Public Shared Event Pinged As Action(Of FileInfo)
+- uid: Prowl.Editor.Assets.AssetDatabase.GetRootFolderCache(System.Int32)
+  commentId: M:Prowl.Editor.Assets.AssetDatabase.GetRootFolderCache(System.Int32)
+  id: GetRootFolderCache(System.Int32)
+  parent: Prowl.Editor.Assets.AssetDatabase
+  langs:
+  - csharp
+  - vb
+  name: GetRootFolderCache(int)
+  nameWithType: AssetDatabase.GetRootFolderCache(int)
+  fullName: Prowl.Editor.Assets.AssetDatabase.GetRootFolderCache(int)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Editor/Assets/AssetDatabase.Core.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: GetRootFolderCache
+    path: ../Prowl/Prowl.Editor/Assets/AssetDatabase.Core.cs
+    startLine: 62
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor.Assets
+  summary: Gets the root folder cache at the specified index.
+  example: []
+  syntax:
+    content: public static AssetDirectoryCache GetRootFolderCache(int index)
+    parameters:
+    - id: index
+      type: System.Int32
+    return:
+      type: Prowl.Editor.Assets.AssetDirectoryCache
+    content.vb: Public Shared Function GetRootFolderCache(index As Integer) As AssetDirectoryCache
+  overload: Prowl.Editor.Assets.AssetDatabase.GetRootFolderCache*
+  nameWithType.vb: AssetDatabase.GetRootFolderCache(Integer)
+  fullName.vb: Prowl.Editor.Assets.AssetDatabase.GetRootFolderCache(Integer)
+  name.vb: GetRootFolderCache(Integer)
+- uid: Prowl.Editor.Assets.AssetDatabase.GetRootFolders
+  commentId: M:Prowl.Editor.Assets.AssetDatabase.GetRootFolders
+  id: GetRootFolders
+  parent: Prowl.Editor.Assets.AssetDatabase
+  langs:
+  - csharp
+  - vb
+  name: GetRootFolders()
+  nameWithType: AssetDatabase.GetRootFolders()
+  fullName: Prowl.Editor.Assets.AssetDatabase.GetRootFolders()
+  type: Method
+  source:
+    remote:
+      path: Prowl.Editor/Assets/AssetDatabase.Core.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: GetRootFolders
+    path: ../Prowl/Prowl.Editor/Assets/AssetDatabase.Core.cs
+    startLine: 73
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor.Assets
+  summary: Gets the list of root folders in the AssetDatabase.
+  example: []
+  syntax:
+    content: public static List<DirectoryInfo> GetRootFolders()
+    return:
+      type: System.Collections.Generic.List{System.IO.DirectoryInfo}
+      description: List of root folders.
+    content.vb: Public Shared Function GetRootFolders() As List(Of DirectoryInfo)
+  overload: Prowl.Editor.Assets.AssetDatabase.GetRootFolders*
+- uid: Prowl.Editor.Assets.AssetDatabase.AddRootFolder(System.String)
+  commentId: M:Prowl.Editor.Assets.AssetDatabase.AddRootFolder(System.String)
+  id: AddRootFolder(System.String)
+  parent: Prowl.Editor.Assets.AssetDatabase
+  langs:
+  - csharp
+  - vb
+  name: AddRootFolder(string)
+  nameWithType: AssetDatabase.AddRootFolder(string)
+  fullName: Prowl.Editor.Assets.AssetDatabase.AddRootFolder(string)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Editor/Assets/AssetDatabase.Core.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: AddRootFolder
+    path: ../Prowl/Prowl.Editor/Assets/AssetDatabase.Core.cs
+    startLine: 79
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor.Assets
+  summary: Adds a root folder to the AssetDatabase.
+  example: []
+  syntax:
+    content: public static void AddRootFolder(string rootFolder)
+    parameters:
+    - id: rootFolder
+      type: System.String
+      description: The path to the root folder.
+    content.vb: Public Shared Sub AddRootFolder(rootFolder As String)
+  overload: Prowl.Editor.Assets.AssetDatabase.AddRootFolder*
+  nameWithType.vb: AssetDatabase.AddRootFolder(String)
+  fullName.vb: Prowl.Editor.Assets.AssetDatabase.AddRootFolder(String)
+  name.vb: AddRootFolder(String)
+- uid: Prowl.Editor.Assets.AssetDatabase.Update(System.Boolean,System.Boolean)
+  commentId: M:Prowl.Editor.Assets.AssetDatabase.Update(System.Boolean,System.Boolean)
+  id: Update(System.Boolean,System.Boolean)
+  parent: Prowl.Editor.Assets.AssetDatabase
+  langs:
+  - csharp
+  - vb
+  name: Update(bool, bool)
+  nameWithType: AssetDatabase.Update(bool, bool)
+  fullName: Prowl.Editor.Assets.AssetDatabase.Update(bool, bool)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Editor/Assets/AssetDatabase.Core.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Update
+    path: ../Prowl/Prowl.Editor/Assets/AssetDatabase.Core.cs
+    startLine: 99
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor.Assets
+  summary: >-
+    Checks for changes in the AssetDatabase.
+
+    Call manually when you make changes to the asset files to ensure the changes are loaded
+  example: []
+  syntax:
+    content: public static void Update(bool doUnload = true, bool forceCacheUpdate = false)
+    parameters:
+    - id: doUnload
+      type: System.Boolean
+    - id: forceCacheUpdate
+      type: System.Boolean
+    content.vb: Public Shared Sub Update(doUnload As Boolean = True, forceCacheUpdate As Boolean = False)
+  overload: Prowl.Editor.Assets.AssetDatabase.Update*
+  nameWithType.vb: AssetDatabase.Update(Boolean, Boolean)
+  fullName.vb: Prowl.Editor.Assets.AssetDatabase.Update(Boolean, Boolean)
+  name.vb: Update(Boolean, Boolean)
+- uid: Prowl.Editor.Assets.AssetDatabase.TryGetGuid(System.IO.FileInfo,System.Guid@)
+  commentId: M:Prowl.Editor.Assets.AssetDatabase.TryGetGuid(System.IO.FileInfo,System.Guid@)
+  id: TryGetGuid(System.IO.FileInfo,System.Guid@)
+  parent: Prowl.Editor.Assets.AssetDatabase
+  langs:
+  - csharp
+  - vb
+  name: TryGetGuid(FileInfo, out Guid)
+  nameWithType: AssetDatabase.TryGetGuid(FileInfo, out Guid)
+  fullName: Prowl.Editor.Assets.AssetDatabase.TryGetGuid(System.IO.FileInfo, out System.Guid)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Editor/Assets/AssetDatabase.Core.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: TryGetGuid
+    path: ../Prowl/Prowl.Editor/Assets/AssetDatabase.Core.cs
+    startLine: 270
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor.Assets
+  summary: Tries to get the GUID of a file.
+  example: []
+  syntax:
+    content: public static bool TryGetGuid(FileInfo file, out Guid guid)
+    parameters:
+    - id: file
+      type: System.IO.FileInfo
+      description: The file to get the GUID for.
+    - id: guid
+      type: System.Guid
+      description: The GUID of the file.
+    return:
+      type: System.Boolean
+      description: True if the GUID was found, false otherwise.
+    content.vb: Public Shared Function TryGetGuid(file As FileInfo, guid As Guid) As Boolean
+  overload: Prowl.Editor.Assets.AssetDatabase.TryGetGuid*
+  nameWithType.vb: AssetDatabase.TryGetGuid(FileInfo, Guid)
+  fullName.vb: Prowl.Editor.Assets.AssetDatabase.TryGetGuid(System.IO.FileInfo, System.Guid)
+  name.vb: TryGetGuid(FileInfo, Guid)
+- uid: Prowl.Editor.Assets.AssetDatabase.TryGetFile(System.Guid,System.IO.FileInfo@)
+  commentId: M:Prowl.Editor.Assets.AssetDatabase.TryGetFile(System.Guid,System.IO.FileInfo@)
+  id: TryGetFile(System.Guid,System.IO.FileInfo@)
+  parent: Prowl.Editor.Assets.AssetDatabase
+  langs:
+  - csharp
+  - vb
+  name: TryGetFile(Guid, out FileInfo?)
+  nameWithType: AssetDatabase.TryGetFile(Guid, out FileInfo?)
+  fullName: Prowl.Editor.Assets.AssetDatabase.TryGetFile(System.Guid, out System.IO.FileInfo?)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Editor/Assets/AssetDatabase.Core.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: TryGetFile
+    path: ../Prowl/Prowl.Editor/Assets/AssetDatabase.Core.cs
+    startLine: 289
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor.Assets
+  summary: Tries to get the file with the specified GUID.
+  example: []
+  syntax:
+    content: public static bool TryGetFile(Guid guid, out FileInfo? file)
+    parameters:
+    - id: guid
+      type: System.Guid
+      description: The GUID of the file.
+    - id: file
+      type: System.IO.FileInfo
+      description: The file with the specified GUID.
+    return:
+      type: System.Boolean
+      description: True if the file was found, false otherwise.
+    content.vb: Public Shared Function TryGetFile(guid As Guid, file As FileInfo) As Boolean
+  overload: Prowl.Editor.Assets.AssetDatabase.TryGetFile*
+  nameWithType.vb: AssetDatabase.TryGetFile(Guid, FileInfo)
+  fullName.vb: Prowl.Editor.Assets.AssetDatabase.TryGetFile(System.Guid, System.IO.FileInfo)
+  name.vb: TryGetFile(Guid, FileInfo)
+- uid: Prowl.Editor.Assets.AssetDatabase.ReimportAll
+  commentId: M:Prowl.Editor.Assets.AssetDatabase.ReimportAll
+  id: ReimportAll
+  parent: Prowl.Editor.Assets.AssetDatabase
+  langs:
+  - csharp
+  - vb
+  name: ReimportAll()
+  nameWithType: AssetDatabase.ReimportAll()
+  fullName: Prowl.Editor.Assets.AssetDatabase.ReimportAll()
+  type: Method
+  source:
+    remote:
+      path: Prowl.Editor/Assets/AssetDatabase.Core.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: ReimportAll
+    path: ../Prowl/Prowl.Editor/Assets/AssetDatabase.Core.cs
+    startLine: 304
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor.Assets
+  summary: Reimports all assets in the AssetDatabase.
+  example: []
+  syntax:
+    content: public static void ReimportAll()
+    content.vb: Public Shared Sub ReimportAll()
+  overload: Prowl.Editor.Assets.AssetDatabase.ReimportAll*
+- uid: Prowl.Editor.Assets.AssetDatabase.ReimportFolder(System.IO.DirectoryInfo)
+  commentId: M:Prowl.Editor.Assets.AssetDatabase.ReimportFolder(System.IO.DirectoryInfo)
+  id: ReimportFolder(System.IO.DirectoryInfo)
+  parent: Prowl.Editor.Assets.AssetDatabase
+  langs:
+  - csharp
+  - vb
+  name: ReimportFolder(DirectoryInfo)
+  nameWithType: AssetDatabase.ReimportFolder(DirectoryInfo)
+  fullName: Prowl.Editor.Assets.AssetDatabase.ReimportFolder(System.IO.DirectoryInfo)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Editor/Assets/AssetDatabase.Core.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: ReimportFolder
+    path: ../Prowl/Prowl.Editor/Assets/AssetDatabase.Core.cs
+    startLine: 314
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor.Assets
+  summary: Reimports all assets in the specified directory.
+  example: []
+  syntax:
+    content: public static void ReimportFolder(DirectoryInfo directory)
+    parameters:
+    - id: directory
+      type: System.IO.DirectoryInfo
+      description: The directory to reimport assets from.
+    content.vb: Public Shared Sub ReimportFolder(directory As DirectoryInfo)
+  overload: Prowl.Editor.Assets.AssetDatabase.ReimportFolder*
+- uid: Prowl.Editor.Assets.AssetDatabase.Reimport(System.IO.FileInfo,System.Boolean)
+  commentId: M:Prowl.Editor.Assets.AssetDatabase.Reimport(System.IO.FileInfo,System.Boolean)
+  id: Reimport(System.IO.FileInfo,System.Boolean)
+  parent: Prowl.Editor.Assets.AssetDatabase
+  langs:
+  - csharp
+  - vb
+  name: Reimport(FileInfo, bool)
+  nameWithType: AssetDatabase.Reimport(FileInfo, bool)
+  fullName: Prowl.Editor.Assets.AssetDatabase.Reimport(System.IO.FileInfo, bool)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Editor/Assets/AssetDatabase.Core.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Reimport
+    path: ../Prowl/Prowl.Editor/Assets/AssetDatabase.Core.cs
+    startLine: 330
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor.Assets
+  summary: Reimports an asset from the specified file.
+  example: []
+  syntax:
+    content: public static bool Reimport(FileInfo assetFile, bool disposeExisting = true)
+    parameters:
+    - id: assetFile
+      type: System.IO.FileInfo
+      description: The asset file to reimport.
+    - id: disposeExisting
+      type: System.Boolean
+      description: Whether to dispose the existing asset in memory before reimporting.
+    return:
+      type: System.Boolean
+      description: True if the asset was reimported successfully, false otherwise.
+    content.vb: Public Shared Function Reimport(assetFile As FileInfo, disposeExisting As Boolean = True) As Boolean
+  overload: Prowl.Editor.Assets.AssetDatabase.Reimport*
+  nameWithType.vb: AssetDatabase.Reimport(FileInfo, Boolean)
+  fullName.vb: Prowl.Editor.Assets.AssetDatabase.Reimport(System.IO.FileInfo, Boolean)
+  name.vb: Reimport(FileInfo, Boolean)
+- uid: Prowl.Editor.Assets.AssetDatabase.LoadAsset``1(System.IO.FileInfo,System.UInt16)
+  commentId: M:Prowl.Editor.Assets.AssetDatabase.LoadAsset``1(System.IO.FileInfo,System.UInt16)
+  id: LoadAsset``1(System.IO.FileInfo,System.UInt16)
+  parent: Prowl.Editor.Assets.AssetDatabase
+  langs:
+  - csharp
+  - vb
+  name: LoadAsset<T>(FileInfo, ushort)
+  nameWithType: AssetDatabase.LoadAsset<T>(FileInfo, ushort)
+  fullName: Prowl.Editor.Assets.AssetDatabase.LoadAsset<T>(System.IO.FileInfo, ushort)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Editor/Assets/AssetDatabase.Core.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: LoadAsset
+    path: ../Prowl/Prowl.Editor/Assets/AssetDatabase.Core.cs
+    startLine: 408
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor.Assets
+  summary: Loads an asset of the specified type from the specified file path and file ID.
+  example: []
+  syntax:
+    content: 'public static T? LoadAsset<T>(FileInfo assetPath, ushort fileID) where T : EngineObject'
+    parameters:
+    - id: assetPath
+      type: System.IO.FileInfo
+      description: The file path of the asset to load.
+    - id: fileID
+      type: System.UInt16
+      description: The file ID of the asset to load.
+    typeParameters:
+    - id: T
+      description: The type of the asset to load.
+    return:
+      type: '{T}'
+      description: The loaded asset, or null if the asset could not be loaded.
+    content.vb: Public Shared Function LoadAsset(Of T As EngineObject)(assetPath As FileInfo, fileID As UShort) As T
+  overload: Prowl.Editor.Assets.AssetDatabase.LoadAsset*
+  nameWithType.vb: AssetDatabase.LoadAsset(Of T)(FileInfo, UShort)
+  fullName.vb: Prowl.Editor.Assets.AssetDatabase.LoadAsset(Of T)(System.IO.FileInfo, UShort)
+  name.vb: LoadAsset(Of T)(FileInfo, UShort)
+- uid: Prowl.Editor.Assets.AssetDatabase.LoadAsset``1(System.Guid,System.UInt16)
+  commentId: M:Prowl.Editor.Assets.AssetDatabase.LoadAsset``1(System.Guid,System.UInt16)
+  id: LoadAsset``1(System.Guid,System.UInt16)
+  parent: Prowl.Editor.Assets.AssetDatabase
+  langs:
+  - csharp
+  - vb
+  name: LoadAsset<T>(Guid, ushort)
+  nameWithType: AssetDatabase.LoadAsset<T>(Guid, ushort)
+  fullName: Prowl.Editor.Assets.AssetDatabase.LoadAsset<T>(System.Guid, ushort)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Editor/Assets/AssetDatabase.Core.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: LoadAsset
+    path: ../Prowl/Prowl.Editor/Assets/AssetDatabase.Core.cs
+    startLine: 423
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor.Assets
+  summary: Loads an asset of the specified type from the specified GUID and file ID.
+  example: []
+  syntax:
+    content: 'public static T? LoadAsset<T>(Guid assetGuid, ushort fileID) where T : EngineObject'
+    parameters:
+    - id: assetGuid
+      type: System.Guid
+      description: The GUID of the asset to load.
+    - id: fileID
+      type: System.UInt16
+      description: The file ID of the asset to load.
+    typeParameters:
+    - id: T
+      description: The type of the asset to load.
+    return:
+      type: '{T}'
+      description: The loaded asset, or null if the asset could not be loaded.
+    content.vb: Public Shared Function LoadAsset(Of T As EngineObject)(assetGuid As Guid, fileID As UShort) As T
+  overload: Prowl.Editor.Assets.AssetDatabase.LoadAsset*
+  nameWithType.vb: AssetDatabase.LoadAsset(Of T)(Guid, UShort)
+  fullName.vb: Prowl.Editor.Assets.AssetDatabase.LoadAsset(Of T)(System.Guid, UShort)
+  name.vb: LoadAsset(Of T)(Guid, UShort)
+- uid: Prowl.Editor.Assets.AssetDatabase.LoadAsset(System.IO.FileInfo)
+  commentId: M:Prowl.Editor.Assets.AssetDatabase.LoadAsset(System.IO.FileInfo)
+  id: LoadAsset(System.IO.FileInfo)
+  parent: Prowl.Editor.Assets.AssetDatabase
+  langs:
+  - csharp
+  - vb
+  name: LoadAsset(FileInfo)
+  nameWithType: AssetDatabase.LoadAsset(FileInfo)
+  fullName: Prowl.Editor.Assets.AssetDatabase.LoadAsset(System.IO.FileInfo)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Editor/Assets/AssetDatabase.Core.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: LoadAsset
+    path: ../Prowl/Prowl.Editor/Assets/AssetDatabase.Core.cs
+    startLine: 460
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor.Assets
+  summary: Loads a serialized asset from the specified file path.
+  example: []
+  syntax:
+    content: public static SerializedAsset? LoadAsset(FileInfo assetPath)
+    parameters:
+    - id: assetPath
+      type: System.IO.FileInfo
+      description: The file path of the serialized asset to load.
+    return:
+      type: Prowl.Runtime.Utils.SerializedAsset
+      description: The loaded serialized asset, or null if the asset could not be loaded.
+    content.vb: Public Shared Function LoadAsset(assetPath As FileInfo) As SerializedAsset
+  overload: Prowl.Editor.Assets.AssetDatabase.LoadAsset*
+- uid: Prowl.Editor.Assets.AssetDatabase.LoadAsset(System.Guid)
+  commentId: M:Prowl.Editor.Assets.AssetDatabase.LoadAsset(System.Guid)
+  id: LoadAsset(System.Guid)
+  parent: Prowl.Editor.Assets.AssetDatabase
+  langs:
+  - csharp
+  - vb
+  name: LoadAsset(Guid)
+  nameWithType: AssetDatabase.LoadAsset(Guid)
+  fullName: Prowl.Editor.Assets.AssetDatabase.LoadAsset(System.Guid)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Editor/Assets/AssetDatabase.Core.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: LoadAsset
+    path: ../Prowl/Prowl.Editor/Assets/AssetDatabase.Core.cs
+    startLine: 473
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor.Assets
+  summary: Loads a serialized asset from the specified GUID.
+  example: []
+  syntax:
+    content: public static SerializedAsset? LoadAsset(Guid assetGuid)
+    parameters:
+    - id: assetGuid
+      type: System.Guid
+      description: The GUID of the serialized asset to load.
+    return:
+      type: Prowl.Runtime.Utils.SerializedAsset
+      description: The loaded serialized asset, or null if the asset could not be loaded.
+    content.vb: Public Shared Function LoadAsset(assetGuid As Guid) As SerializedAsset
+  overload: Prowl.Editor.Assets.AssetDatabase.LoadAsset*
+- uid: Prowl.Editor.Assets.AssetDatabase.Move(System.IO.FileInfo,System.String)
+  commentId: M:Prowl.Editor.Assets.AssetDatabase.Move(System.IO.FileInfo,System.String)
+  id: Move(System.IO.FileInfo,System.String)
+  parent: Prowl.Editor.Assets.AssetDatabase
+  langs:
+  - csharp
+  - vb
+  name: Move(FileInfo, string)
+  nameWithType: AssetDatabase.Move(FileInfo, string)
+  fullName: Prowl.Editor.Assets.AssetDatabase.Move(System.IO.FileInfo, string)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Editor/Assets/AssetDatabase.FileOperations.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Move
+    path: ../Prowl/Prowl.Editor/Assets/AssetDatabase.FileOperations.cs
+    startLine: 16
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor.Assets
+  summary: Moves a file to a new location.
+  example: []
+  syntax:
+    content: public static bool Move(FileInfo source, string destination)
+    parameters:
+    - id: source
+      type: System.IO.FileInfo
+      description: The source file.
+    - id: destination
+      type: System.String
+      description: The destination file.
+    return:
+      type: System.Boolean
+      description: True if the file was moved successfully, false otherwise.
+    content.vb: Public Shared Function Move(source As FileInfo, destination As String) As Boolean
+  overload: Prowl.Editor.Assets.AssetDatabase.Move*
+  nameWithType.vb: AssetDatabase.Move(FileInfo, String)
+  fullName.vb: Prowl.Editor.Assets.AssetDatabase.Move(System.IO.FileInfo, String)
+  name.vb: Move(FileInfo, String)
+- uid: Prowl.Editor.Assets.AssetDatabase.Move(System.IO.DirectoryInfo,System.String)
+  commentId: M:Prowl.Editor.Assets.AssetDatabase.Move(System.IO.DirectoryInfo,System.String)
+  id: Move(System.IO.DirectoryInfo,System.String)
+  parent: Prowl.Editor.Assets.AssetDatabase
+  langs:
+  - csharp
+  - vb
+  name: Move(DirectoryInfo, string)
+  nameWithType: AssetDatabase.Move(DirectoryInfo, string)
+  fullName: Prowl.Editor.Assets.AssetDatabase.Move(System.IO.DirectoryInfo, string)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Editor/Assets/AssetDatabase.FileOperations.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Move
+    path: ../Prowl/Prowl.Editor/Assets/AssetDatabase.FileOperations.cs
+    startLine: 49
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor.Assets
+  summary: Moves a folder to a new location.
+  example: []
+  syntax:
+    content: public static bool Move(DirectoryInfo source, string destination)
+    parameters:
+    - id: source
+      type: System.IO.DirectoryInfo
+      description: The source folder.
+    - id: destination
+      type: System.String
+      description: The destination folder.
+    return:
+      type: System.Boolean
+      description: True if the folder was moved successfully, false otherwise.
+    content.vb: Public Shared Function Move(source As DirectoryInfo, destination As String) As Boolean
+  overload: Prowl.Editor.Assets.AssetDatabase.Move*
+  nameWithType.vb: AssetDatabase.Move(DirectoryInfo, String)
+  fullName.vb: Prowl.Editor.Assets.AssetDatabase.Move(System.IO.DirectoryInfo, String)
+  name.vb: Move(DirectoryInfo, String)
+- uid: Prowl.Editor.Assets.AssetDatabase.Rename(System.IO.FileInfo,System.String)
+  commentId: M:Prowl.Editor.Assets.AssetDatabase.Rename(System.IO.FileInfo,System.String)
+  id: Rename(System.IO.FileInfo,System.String)
+  parent: Prowl.Editor.Assets.AssetDatabase
+  langs:
+  - csharp
+  - vb
+  name: Rename(FileInfo, string)
+  nameWithType: AssetDatabase.Rename(FileInfo, string)
+  fullName: Prowl.Editor.Assets.AssetDatabase.Rename(System.IO.FileInfo, string)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Editor/Assets/AssetDatabase.FileOperations.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Rename
+    path: ../Prowl/Prowl.Editor/Assets/AssetDatabase.FileOperations.cs
+    startLine: 76
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor.Assets
+  summary: Renames a file.
+  example: []
+  syntax:
+    content: public static bool Rename(FileInfo file, string newName)
+    parameters:
+    - id: file
+      type: System.IO.FileInfo
+      description: The file to rename.
+    - id: newName
+      type: System.String
+      description: The new name of the file.
+    return:
+      type: System.Boolean
+      description: True if the file was renamed successfully, false otherwise.
+    content.vb: Public Shared Function Rename(file As FileInfo, newName As String) As Boolean
+  overload: Prowl.Editor.Assets.AssetDatabase.Rename*
+  nameWithType.vb: AssetDatabase.Rename(FileInfo, String)
+  fullName.vb: Prowl.Editor.Assets.AssetDatabase.Rename(System.IO.FileInfo, String)
+  name.vb: Rename(FileInfo, String)
+- uid: Prowl.Editor.Assets.AssetDatabase.Rename(System.IO.DirectoryInfo,System.String)
+  commentId: M:Prowl.Editor.Assets.AssetDatabase.Rename(System.IO.DirectoryInfo,System.String)
+  id: Rename(System.IO.DirectoryInfo,System.String)
+  parent: Prowl.Editor.Assets.AssetDatabase
+  langs:
+  - csharp
+  - vb
+  name: Rename(DirectoryInfo, string)
+  nameWithType: AssetDatabase.Rename(DirectoryInfo, string)
+  fullName: Prowl.Editor.Assets.AssetDatabase.Rename(System.IO.DirectoryInfo, string)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Editor/Assets/AssetDatabase.FileOperations.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Rename
+    path: ../Prowl/Prowl.Editor/Assets/AssetDatabase.FileOperations.cs
+    startLine: 105
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor.Assets
+  summary: Renames a folder.
+  example: []
+  syntax:
+    content: public static bool Rename(DirectoryInfo source, string newName)
+    parameters:
+    - id: source
+      type: System.IO.DirectoryInfo
+    - id: newName
+      type: System.String
+      description: The new name of the folder.
+    return:
+      type: System.Boolean
+      description: True if the folder was renamed successfully, false otherwise.
+    content.vb: Public Shared Function Rename(source As DirectoryInfo, newName As String) As Boolean
+  overload: Prowl.Editor.Assets.AssetDatabase.Rename*
+  nameWithType.vb: AssetDatabase.Rename(DirectoryInfo, String)
+  fullName.vb: Prowl.Editor.Assets.AssetDatabase.Rename(System.IO.DirectoryInfo, String)
+  name.vb: Rename(DirectoryInfo, String)
+- uid: Prowl.Editor.Assets.AssetDatabase.Delete(System.IO.FileInfo)
+  commentId: M:Prowl.Editor.Assets.AssetDatabase.Delete(System.IO.FileInfo)
+  id: Delete(System.IO.FileInfo)
+  parent: Prowl.Editor.Assets.AssetDatabase
+  langs:
+  - csharp
+  - vb
+  name: Delete(FileInfo)
+  nameWithType: AssetDatabase.Delete(FileInfo)
+  fullName: Prowl.Editor.Assets.AssetDatabase.Delete(System.IO.FileInfo)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Editor/Assets/AssetDatabase.FileOperations.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Delete
+    path: ../Prowl/Prowl.Editor/Assets/AssetDatabase.FileOperations.cs
+    startLine: 125
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor.Assets
+  summary: Deletes a file.
+  example: []
+  syntax:
+    content: public static bool Delete(FileInfo file)
+    parameters:
+    - id: file
+      type: System.IO.FileInfo
+      description: The file to delete.
+    return:
+      type: System.Boolean
+      description: True if the file was deleted successfully, false otherwise.
+    content.vb: Public Shared Function Delete(file As FileInfo) As Boolean
+  overload: Prowl.Editor.Assets.AssetDatabase.Delete*
+- uid: Prowl.Editor.Assets.AssetDatabase.Delete(System.IO.DirectoryInfo)
+  commentId: M:Prowl.Editor.Assets.AssetDatabase.Delete(System.IO.DirectoryInfo)
+  id: Delete(System.IO.DirectoryInfo)
+  parent: Prowl.Editor.Assets.AssetDatabase
+  langs:
+  - csharp
+  - vb
+  name: Delete(DirectoryInfo)
+  nameWithType: AssetDatabase.Delete(DirectoryInfo)
+  fullName: Prowl.Editor.Assets.AssetDatabase.Delete(System.IO.DirectoryInfo)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Editor/Assets/AssetDatabase.FileOperations.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Delete
+    path: ../Prowl/Prowl.Editor/Assets/AssetDatabase.FileOperations.cs
+    startLine: 147
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor.Assets
+  summary: Deletes a folder.
+  example: []
+  syntax:
+    content: public static bool Delete(DirectoryInfo source)
+    parameters:
+    - id: source
+      type: System.IO.DirectoryInfo
+    return:
+      type: System.Boolean
+      description: True if the folder was deleted successfully, false otherwise.
+    content.vb: Public Shared Function Delete(source As DirectoryInfo) As Boolean
+  overload: Prowl.Editor.Assets.AssetDatabase.Delete*
+- uid: Prowl.Editor.Assets.AssetDatabase.DesiredPackages
+  commentId: F:Prowl.Editor.Assets.AssetDatabase.DesiredPackages
+  id: DesiredPackages
+  parent: Prowl.Editor.Assets.AssetDatabase
+  langs:
+  - csharp
+  - vb
+  name: DesiredPackages
+  nameWithType: AssetDatabase.DesiredPackages
+  fullName: Prowl.Editor.Assets.AssetDatabase.DesiredPackages
+  type: Field
+  source:
+    remote:
+      path: Prowl.Editor/Assets/AssetDatabase.Packages.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: DesiredPackages
+    path: ../Prowl/Prowl.Editor/Assets/AssetDatabase.Packages.cs
+    startLine: 30
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor.Assets
+  summary: >-
+    The packages the projects wants.
+
+    Key: Package ID
+
+    Value: Package Version
+  example: []
+  syntax:
+    content: public static Dictionary<string, string> DesiredPackages
+    return:
+      type: System.Collections.Generic.Dictionary{System.String,System.String}
+    content.vb: Public Shared DesiredPackages As Dictionary(Of String, String)
+- uid: Prowl.Editor.Assets.AssetDatabase.Packages
+  commentId: F:Prowl.Editor.Assets.AssetDatabase.Packages
+  id: Packages
+  parent: Prowl.Editor.Assets.AssetDatabase
+  langs:
+  - csharp
+  - vb
+  name: Packages
+  nameWithType: AssetDatabase.Packages
+  fullName: Prowl.Editor.Assets.AssetDatabase.Packages
+  type: Field
+  source:
+    remote:
+      path: Prowl.Editor/Assets/AssetDatabase.Packages.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Packages
+    path: ../Prowl/Prowl.Editor/Assets/AssetDatabase.Packages.cs
+    startLine: 32
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor.Assets
+  syntax:
+    content: public static List<IPackageSearchMetadata> Packages
+    return:
+      type: System.Collections.Generic.List{NuGet.Protocol.Core.Types.IPackageSearchMetadata}
+    content.vb: Public Shared Packages As List(Of IPackageSearchMetadata)
+- uid: Prowl.Editor.Assets.AssetDatabase.ExportAllBuildPackages(System.IO.DirectoryInfo)
+  commentId: M:Prowl.Editor.Assets.AssetDatabase.ExportAllBuildPackages(System.IO.DirectoryInfo)
+  id: ExportAllBuildPackages(System.IO.DirectoryInfo)
+  parent: Prowl.Editor.Assets.AssetDatabase
+  langs:
+  - csharp
+  - vb
+  name: ExportAllBuildPackages(DirectoryInfo)
+  nameWithType: AssetDatabase.ExportAllBuildPackages(DirectoryInfo)
+  fullName: Prowl.Editor.Assets.AssetDatabase.ExportAllBuildPackages(System.IO.DirectoryInfo)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Editor/Assets/AssetDatabase.Packages.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: ExportAllBuildPackages
+    path: ../Prowl/Prowl.Editor/Assets/AssetDatabase.Packages.cs
+    startLine: 40
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor.Assets
+  summary: Exports all assets to build packages at the specified destination directory.
+  example: []
+  syntax:
+    content: public static void ExportAllBuildPackages(DirectoryInfo destination)
+    parameters:
+    - id: destination
+      type: System.IO.DirectoryInfo
+      description: The destination directory.
+    content.vb: Public Shared Sub ExportAllBuildPackages(destination As DirectoryInfo)
+  overload: Prowl.Editor.Assets.AssetDatabase.ExportAllBuildPackages*
+- uid: Prowl.Editor.Assets.AssetDatabase.ExportBuildPackages(System.Guid[],System.IO.DirectoryInfo)
+  commentId: M:Prowl.Editor.Assets.AssetDatabase.ExportBuildPackages(System.Guid[],System.IO.DirectoryInfo)
+  id: ExportBuildPackages(System.Guid[],System.IO.DirectoryInfo)
+  parent: Prowl.Editor.Assets.AssetDatabase
+  langs:
+  - csharp
+  - vb
+  name: ExportBuildPackages(Guid[], DirectoryInfo)
+  nameWithType: AssetDatabase.ExportBuildPackages(Guid[], DirectoryInfo)
+  fullName: Prowl.Editor.Assets.AssetDatabase.ExportBuildPackages(System.Guid[], System.IO.DirectoryInfo)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Editor/Assets/AssetDatabase.Packages.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: ExportBuildPackages
+    path: ../Prowl/Prowl.Editor/Assets/AssetDatabase.Packages.cs
+    startLine: 58
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor.Assets
+  summary: Exports build packages for the specified assets to the destination directory.
+  example: []
+  syntax:
+    content: public static void ExportBuildPackages(Guid[] assetsToExport, DirectoryInfo destination)
+    parameters:
+    - id: assetsToExport
+      type: System.Guid[]
+      description: The assets to export.
+    - id: destination
+      type: System.IO.DirectoryInfo
+      description: The destination directory.
+    content.vb: Public Shared Sub ExportBuildPackages(assetsToExport As Guid(), destination As DirectoryInfo)
+  overload: Prowl.Editor.Assets.AssetDatabase.ExportBuildPackages*
+  nameWithType.vb: AssetDatabase.ExportBuildPackages(Guid(), DirectoryInfo)
+  fullName.vb: Prowl.Editor.Assets.AssetDatabase.ExportBuildPackages(System.Guid(), System.IO.DirectoryInfo)
+  name.vb: ExportBuildPackages(Guid(), DirectoryInfo)
+- uid: Prowl.Editor.Assets.AssetDatabase.ExportProwlPackage(System.IO.DirectoryInfo,System.Boolean)
+  commentId: M:Prowl.Editor.Assets.AssetDatabase.ExportProwlPackage(System.IO.DirectoryInfo,System.Boolean)
+  id: ExportProwlPackage(System.IO.DirectoryInfo,System.Boolean)
+  parent: Prowl.Editor.Assets.AssetDatabase
+  langs:
+  - csharp
+  - vb
+  name: ExportProwlPackage(DirectoryInfo, bool)
+  nameWithType: AssetDatabase.ExportProwlPackage(DirectoryInfo, bool)
+  fullName: Prowl.Editor.Assets.AssetDatabase.ExportProwlPackage(System.IO.DirectoryInfo, bool)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Editor/Assets/AssetDatabase.Packages.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: ExportProwlPackage
+    path: ../Prowl/Prowl.Editor/Assets/AssetDatabase.Packages.cs
+    startLine: 114
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor.Assets
+  summary: Exports a package from the specified directory.
+  example: []
+  syntax:
+    content: public static void ExportProwlPackage(DirectoryInfo directory, bool includeDependencies = false)
+    parameters:
+    - id: directory
+      type: System.IO.DirectoryInfo
+      description: The directory to export the package from.
+    - id: includeDependencies
+      type: System.Boolean
+      description: Whether to include dependencies in the package.
+    content.vb: Public Shared Sub ExportProwlPackage(directory As DirectoryInfo, includeDependencies As Boolean = False)
+  overload: Prowl.Editor.Assets.AssetDatabase.ExportProwlPackage*
+  nameWithType.vb: AssetDatabase.ExportProwlPackage(DirectoryInfo, Boolean)
+  fullName.vb: Prowl.Editor.Assets.AssetDatabase.ExportProwlPackage(System.IO.DirectoryInfo, Boolean)
+  name.vb: ExportProwlPackage(DirectoryInfo, Boolean)
+- uid: Prowl.Editor.Assets.AssetDatabase.ImportProwlPackage(System.IO.FileInfo)
+  commentId: M:Prowl.Editor.Assets.AssetDatabase.ImportProwlPackage(System.IO.FileInfo)
+  id: ImportProwlPackage(System.IO.FileInfo)
+  parent: Prowl.Editor.Assets.AssetDatabase
+  langs:
+  - csharp
+  - vb
+  name: ImportProwlPackage(FileInfo)
+  nameWithType: AssetDatabase.ImportProwlPackage(FileInfo)
+  fullName: Prowl.Editor.Assets.AssetDatabase.ImportProwlPackage(System.IO.FileInfo)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Editor/Assets/AssetDatabase.Packages.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: ImportProwlPackage
+    path: ../Prowl/Prowl.Editor/Assets/AssetDatabase.Packages.cs
+    startLine: 150
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor.Assets
+  summary: Imports a package from the specified file.
+  example: []
+  syntax:
+    content: public static void ImportProwlPackage(FileInfo packageFile)
+    parameters:
+    - id: packageFile
+      type: System.IO.FileInfo
+      description: The package file to import.
+    content.vb: Public Shared Sub ImportProwlPackage(packageFile As FileInfo)
+  overload: Prowl.Editor.Assets.AssetDatabase.ImportProwlPackage*
+- uid: Prowl.Editor.Assets.AssetDatabase.GetInstalledPackage(System.String)
+  commentId: M:Prowl.Editor.Assets.AssetDatabase.GetInstalledPackage(System.String)
+  id: GetInstalledPackage(System.String)
+  parent: Prowl.Editor.Assets.AssetDatabase
+  langs:
+  - csharp
+  - vb
+  name: GetInstalledPackage(string)
+  nameWithType: AssetDatabase.GetInstalledPackage(string)
+  fullName: Prowl.Editor.Assets.AssetDatabase.GetInstalledPackage(string)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Editor/Assets/AssetDatabase.Packages.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: GetInstalledPackage
+    path: ../Prowl/Prowl.Editor/Assets/AssetDatabase.Packages.cs
+    startLine: 171
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor.Assets
+  syntax:
+    content: public static IPackageSearchMetadata? GetInstalledPackage(string packageId)
+    parameters:
+    - id: packageId
+      type: System.String
+    return:
+      type: NuGet.Protocol.Core.Types.IPackageSearchMetadata
+    content.vb: Public Shared Function GetInstalledPackage(packageId As String) As IPackageSearchMetadata
+  overload: Prowl.Editor.Assets.AssetDatabase.GetInstalledPackage*
+  nameWithType.vb: AssetDatabase.GetInstalledPackage(String)
+  fullName.vb: Prowl.Editor.Assets.AssetDatabase.GetInstalledPackage(String)
+  name.vb: GetInstalledPackage(String)
+- uid: Prowl.Editor.Assets.AssetDatabase.SaveProjectPackagesFile
+  commentId: M:Prowl.Editor.Assets.AssetDatabase.SaveProjectPackagesFile
+  id: SaveProjectPackagesFile
+  parent: Prowl.Editor.Assets.AssetDatabase
+  langs:
+  - csharp
+  - vb
+  name: SaveProjectPackagesFile()
+  nameWithType: AssetDatabase.SaveProjectPackagesFile()
+  fullName: Prowl.Editor.Assets.AssetDatabase.SaveProjectPackagesFile()
+  type: Method
+  source:
+    remote:
+      path: Prowl.Editor/Assets/AssetDatabase.Packages.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: SaveProjectPackagesFile
+    path: ../Prowl/Prowl.Editor/Assets/AssetDatabase.Packages.cs
+    startLine: 223
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor.Assets
+  syntax:
+    content: public static void SaveProjectPackagesFile()
+    content.vb: Public Shared Sub SaveProjectPackagesFile()
+  overload: Prowl.Editor.Assets.AssetDatabase.SaveProjectPackagesFile*
+- uid: Prowl.Editor.Assets.AssetDatabase.GetPackageVersions(System.String,System.String,System.Boolean)
+  commentId: M:Prowl.Editor.Assets.AssetDatabase.GetPackageVersions(System.String,System.String,System.Boolean)
+  id: GetPackageVersions(System.String,System.String,System.Boolean)
+  parent: Prowl.Editor.Assets.AssetDatabase
+  langs:
+  - csharp
+  - vb
+  name: GetPackageVersions(string, string, bool)
+  nameWithType: AssetDatabase.GetPackageVersions(string, string, bool)
+  fullName: Prowl.Editor.Assets.AssetDatabase.GetPackageVersions(string, string, bool)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Editor/Assets/AssetDatabase.Packages.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: GetPackageVersions
+    path: ../Prowl/Prowl.Editor/Assets/AssetDatabase.Packages.cs
+    startLine: 233
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor.Assets
+  syntax:
+    content: public static Task<List<NuGetVersion>> GetPackageVersions(string packageId, string source, bool includePrerelease)
+    parameters:
+    - id: packageId
+      type: System.String
+    - id: source
+      type: System.String
+    - id: includePrerelease
+      type: System.Boolean
+    return:
+      type: System.Threading.Tasks.Task{System.Collections.Generic.List{NuGet.Versioning.NuGetVersion}}
+    content.vb: Public Shared Function GetPackageVersions(packageId As String, source As String, includePrerelease As Boolean) As Task(Of List(Of NuGetVersion))
+  overload: Prowl.Editor.Assets.AssetDatabase.GetPackageVersions*
+  nameWithType.vb: AssetDatabase.GetPackageVersions(String, String, Boolean)
+  fullName.vb: Prowl.Editor.Assets.AssetDatabase.GetPackageVersions(String, String, Boolean)
+  name.vb: GetPackageVersions(String, String, Boolean)
+- uid: Prowl.Editor.Assets.AssetDatabase.SearchPackages(System.String,System.String,System.Boolean)
+  commentId: M:Prowl.Editor.Assets.AssetDatabase.SearchPackages(System.String,System.String,System.Boolean)
+  id: SearchPackages(System.String,System.String,System.Boolean)
+  parent: Prowl.Editor.Assets.AssetDatabase
+  langs:
+  - csharp
+  - vb
+  name: SearchPackages(string, string, bool)
+  nameWithType: AssetDatabase.SearchPackages(string, string, bool)
+  fullName: Prowl.Editor.Assets.AssetDatabase.SearchPackages(string, string, bool)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Editor/Assets/AssetDatabase.Packages.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: SearchPackages
+    path: ../Prowl/Prowl.Editor/Assets/AssetDatabase.Packages.cs
+    startLine: 244
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor.Assets
+  syntax:
+    content: public static Task<List<IPackageSearchMetadata>> SearchPackages(string packageKeyword, string source, bool includePrerelease)
+    parameters:
+    - id: packageKeyword
+      type: System.String
+    - id: source
+      type: System.String
+    - id: includePrerelease
+      type: System.Boolean
+    return:
+      type: System.Threading.Tasks.Task{System.Collections.Generic.List{NuGet.Protocol.Core.Types.IPackageSearchMetadata}}
+    content.vb: Public Shared Function SearchPackages(packageKeyword As String, source As String, includePrerelease As Boolean) As Task(Of List(Of IPackageSearchMetadata))
+  overload: Prowl.Editor.Assets.AssetDatabase.SearchPackages*
+  nameWithType.vb: AssetDatabase.SearchPackages(String, String, Boolean)
+  fullName.vb: Prowl.Editor.Assets.AssetDatabase.SearchPackages(String, String, Boolean)
+  name.vb: SearchPackages(String, String, Boolean)
+- uid: Prowl.Editor.Assets.AssetDatabase.GetPackageMetadata(System.String,System.String,System.Boolean)
+  commentId: M:Prowl.Editor.Assets.AssetDatabase.GetPackageMetadata(System.String,System.String,System.Boolean)
+  id: GetPackageMetadata(System.String,System.String,System.Boolean)
+  parent: Prowl.Editor.Assets.AssetDatabase
+  langs:
+  - csharp
+  - vb
+  name: GetPackageMetadata(string, string, bool)
+  nameWithType: AssetDatabase.GetPackageMetadata(string, string, bool)
+  fullName: Prowl.Editor.Assets.AssetDatabase.GetPackageMetadata(string, string, bool)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Editor/Assets/AssetDatabase.Packages.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: GetPackageMetadata
+    path: ../Prowl/Prowl.Editor/Assets/AssetDatabase.Packages.cs
+    startLine: 256
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor.Assets
+  syntax:
+    content: public static Task<List<IPackageSearchMetadata>> GetPackageMetadata(string packageId, string source, bool includePrerelease)
+    parameters:
+    - id: packageId
+      type: System.String
+    - id: source
+      type: System.String
+    - id: includePrerelease
+      type: System.Boolean
+    return:
+      type: System.Threading.Tasks.Task{System.Collections.Generic.List{NuGet.Protocol.Core.Types.IPackageSearchMetadata}}
+    content.vb: Public Shared Function GetPackageMetadata(packageId As String, source As String, includePrerelease As Boolean) As Task(Of List(Of IPackageSearchMetadata))
+  overload: Prowl.Editor.Assets.AssetDatabase.GetPackageMetadata*
+  nameWithType.vb: AssetDatabase.GetPackageMetadata(String, String, Boolean)
+  fullName.vb: Prowl.Editor.Assets.AssetDatabase.GetPackageMetadata(String, String, Boolean)
+  name.vb: GetPackageMetadata(String, String, Boolean)
+- uid: Prowl.Editor.Assets.AssetDatabase.InstallPackage(System.String,System.String)
+  commentId: M:Prowl.Editor.Assets.AssetDatabase.InstallPackage(System.String,System.String)
+  id: InstallPackage(System.String,System.String)
+  parent: Prowl.Editor.Assets.AssetDatabase
+  langs:
+  - csharp
+  - vb
+  name: InstallPackage(string, string)
+  nameWithType: AssetDatabase.InstallPackage(string, string)
+  fullName: Prowl.Editor.Assets.AssetDatabase.InstallPackage(string, string)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Editor/Assets/AssetDatabase.Packages.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: InstallPackage
+    path: ../Prowl/Prowl.Editor/Assets/AssetDatabase.Packages.cs
+    startLine: 266
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor.Assets
+  syntax:
+    content: public static Task InstallPackage(string packageId, string version)
+    parameters:
+    - id: packageId
+      type: System.String
+    - id: version
+      type: System.String
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Shared Function InstallPackage(packageId As String, version As String) As Task
+  overload: Prowl.Editor.Assets.AssetDatabase.InstallPackage*
+  nameWithType.vb: AssetDatabase.InstallPackage(String, String)
+  fullName.vb: Prowl.Editor.Assets.AssetDatabase.InstallPackage(String, String)
+  name.vb: InstallPackage(String, String)
+- uid: Prowl.Editor.Assets.AssetDatabase.UninstallPackage(System.String,System.String)
+  commentId: M:Prowl.Editor.Assets.AssetDatabase.UninstallPackage(System.String,System.String)
+  id: UninstallPackage(System.String,System.String)
+  parent: Prowl.Editor.Assets.AssetDatabase
+  langs:
+  - csharp
+  - vb
+  name: UninstallPackage(string, string)
+  nameWithType: AssetDatabase.UninstallPackage(string, string)
+  fullName: Prowl.Editor.Assets.AssetDatabase.UninstallPackage(string, string)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Editor/Assets/AssetDatabase.Packages.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: UninstallPackage
+    path: ../Prowl/Prowl.Editor/Assets/AssetDatabase.Packages.cs
+    startLine: 327
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor.Assets
+  syntax:
+    content: public static Task UninstallPackage(string packageId, string version)
+    parameters:
+    - id: packageId
+      type: System.String
+    - id: version
+      type: System.String
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Shared Function UninstallPackage(packageId As String, version As String) As Task
+  overload: Prowl.Editor.Assets.AssetDatabase.UninstallPackage*
+  nameWithType.vb: AssetDatabase.UninstallPackage(String, String)
+  fullName.vb: Prowl.Editor.Assets.AssetDatabase.UninstallPackage(String, String)
+  name.vb: UninstallPackage(String, String)
+- uid: Prowl.Editor.Assets.AssetDatabase.GetPackageDependencies(NuGet.Packaging.Core.PackageIdentity,NuGet.Frameworks.NuGetFramework,NuGet.Protocol.Core.Types.SourceCacheContext,NuGet.Common.ILogger,System.Collections.Generic.IEnumerable{NuGet.Protocol.Core.Types.SourceRepository},System.Collections.Generic.ISet{NuGet.Protocol.Core.Types.SourcePackageDependencyInfo})
+  commentId: M:Prowl.Editor.Assets.AssetDatabase.GetPackageDependencies(NuGet.Packaging.Core.PackageIdentity,NuGet.Frameworks.NuGetFramework,NuGet.Protocol.Core.Types.SourceCacheContext,NuGet.Common.ILogger,System.Collections.Generic.IEnumerable{NuGet.Protocol.Core.Types.SourceRepository},System.Collections.Generic.ISet{NuGet.Protocol.Core.Types.SourcePackageDependencyInfo})
+  id: GetPackageDependencies(NuGet.Packaging.Core.PackageIdentity,NuGet.Frameworks.NuGetFramework,NuGet.Protocol.Core.Types.SourceCacheContext,NuGet.Common.ILogger,System.Collections.Generic.IEnumerable{NuGet.Protocol.Core.Types.SourceRepository},System.Collections.Generic.ISet{NuGet.Protocol.Core.Types.SourcePackageDependencyInfo})
+  parent: Prowl.Editor.Assets.AssetDatabase
+  langs:
+  - csharp
+  - vb
+  name: GetPackageDependencies(PackageIdentity, NuGetFramework, SourceCacheContext, ILogger, IEnumerable<SourceRepository>, ISet<SourcePackageDependencyInfo>)
+  nameWithType: AssetDatabase.GetPackageDependencies(PackageIdentity, NuGetFramework, SourceCacheContext, ILogger, IEnumerable<SourceRepository>, ISet<SourcePackageDependencyInfo>)
+  fullName: Prowl.Editor.Assets.AssetDatabase.GetPackageDependencies(NuGet.Packaging.Core.PackageIdentity, NuGet.Frameworks.NuGetFramework, NuGet.Protocol.Core.Types.SourceCacheContext, NuGet.Common.ILogger, System.Collections.Generic.IEnumerable<NuGet.Protocol.Core.Types.SourceRepository>, System.Collections.Generic.ISet<NuGet.Protocol.Core.Types.SourcePackageDependencyInfo>)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Editor/Assets/AssetDatabase.Packages.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: GetPackageDependencies
+    path: ../Prowl/Prowl.Editor/Assets/AssetDatabase.Packages.cs
+    startLine: 345
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor.Assets
+  syntax:
+    content: public static Task GetPackageDependencies(PackageIdentity package, NuGetFramework framework, SourceCacheContext cacheContext, ILogger logger, IEnumerable<SourceRepository> repositories, ISet<SourcePackageDependencyInfo> availablePackages)
+    parameters:
+    - id: package
+      type: NuGet.Packaging.Core.PackageIdentity
+    - id: framework
+      type: NuGet.Frameworks.NuGetFramework
+    - id: cacheContext
+      type: NuGet.Protocol.Core.Types.SourceCacheContext
+    - id: logger
+      type: NuGet.Common.ILogger
+    - id: repositories
+      type: System.Collections.Generic.IEnumerable{NuGet.Protocol.Core.Types.SourceRepository}
+    - id: availablePackages
+      type: System.Collections.Generic.ISet{NuGet.Protocol.Core.Types.SourcePackageDependencyInfo}
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Shared Function GetPackageDependencies(package As PackageIdentity, framework As NuGetFramework, cacheContext As SourceCacheContext, logger As ILogger, repositories As IEnumerable(Of SourceRepository), availablePackages As ISet(Of SourcePackageDependencyInfo)) As Task
+  overload: Prowl.Editor.Assets.AssetDatabase.GetPackageDependencies*
+  nameWithType.vb: AssetDatabase.GetPackageDependencies(PackageIdentity, NuGetFramework, SourceCacheContext, ILogger, IEnumerable(Of SourceRepository), ISet(Of SourcePackageDependencyInfo))
+  fullName.vb: Prowl.Editor.Assets.AssetDatabase.GetPackageDependencies(NuGet.Packaging.Core.PackageIdentity, NuGet.Frameworks.NuGetFramework, NuGet.Protocol.Core.Types.SourceCacheContext, NuGet.Common.ILogger, System.Collections.Generic.IEnumerable(Of NuGet.Protocol.Core.Types.SourceRepository), System.Collections.Generic.ISet(Of NuGet.Protocol.Core.Types.SourcePackageDependencyInfo))
+  name.vb: GetPackageDependencies(PackageIdentity, NuGetFramework, SourceCacheContext, ILogger, IEnumerable(Of SourceRepository), ISet(Of SourcePackageDependencyInfo))
+- uid: Prowl.Editor.Assets.AssetDatabase.PathToCachedNode(System.String,Prowl.Editor.Assets.AssetDirectoryCache.DirNode@)
+  commentId: M:Prowl.Editor.Assets.AssetDatabase.PathToCachedNode(System.String,Prowl.Editor.Assets.AssetDirectoryCache.DirNode@)
+  id: PathToCachedNode(System.String,Prowl.Editor.Assets.AssetDirectoryCache.DirNode@)
+  parent: Prowl.Editor.Assets.AssetDatabase
+  langs:
+  - csharp
+  - vb
+  name: PathToCachedNode(string, out DirNode)
+  nameWithType: AssetDatabase.PathToCachedNode(string, out AssetDirectoryCache.DirNode)
+  fullName: Prowl.Editor.Assets.AssetDatabase.PathToCachedNode(string, out Prowl.Editor.Assets.AssetDirectoryCache.DirNode)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Editor/Assets/AssetDatabase.Utilities.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: PathToCachedNode
+    path: ../Prowl/Prowl.Editor/Assets/AssetDatabase.Utilities.cs
+    startLine: 14
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor.Assets
+  syntax:
+    content: public static bool PathToCachedNode(string path, out AssetDirectoryCache.DirNode node)
+    parameters:
+    - id: path
+      type: System.String
+    - id: node
+      type: Prowl.Editor.Assets.AssetDirectoryCache.DirNode
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function PathToCachedNode(path As String, node As AssetDirectoryCache.DirNode) As Boolean
+  overload: Prowl.Editor.Assets.AssetDatabase.PathToCachedNode*
+  nameWithType.vb: AssetDatabase.PathToCachedNode(String, AssetDirectoryCache.DirNode)
+  fullName.vb: Prowl.Editor.Assets.AssetDatabase.PathToCachedNode(String, Prowl.Editor.Assets.AssetDirectoryCache.DirNode)
+  name.vb: PathToCachedNode(String, DirNode)
+- uid: Prowl.Editor.Assets.AssetDatabase.ToRelativePath(System.IO.FileInfo)
+  commentId: M:Prowl.Editor.Assets.AssetDatabase.ToRelativePath(System.IO.FileInfo)
+  id: ToRelativePath(System.IO.FileInfo)
+  parent: Prowl.Editor.Assets.AssetDatabase
+  langs:
+  - csharp
+  - vb
+  name: ToRelativePath(FileInfo)
+  nameWithType: AssetDatabase.ToRelativePath(FileInfo)
+  fullName: Prowl.Editor.Assets.AssetDatabase.ToRelativePath(System.IO.FileInfo)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Editor/Assets/AssetDatabase.Utilities.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: ToRelativePath
+    path: ../Prowl/Prowl.Editor/Assets/AssetDatabase.Utilities.cs
+    startLine: 30
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor.Assets
+  summary: Converts a file path to a relative path within the project.
+  example: []
+  syntax:
+    content: public static string ToRelativePath(FileInfo file)
+    parameters:
+    - id: file
+      type: System.IO.FileInfo
+      description: The file to convert to a relative path.
+    return:
+      type: System.String
+      description: The relative path of the file within the project.
+    content.vb: Public Shared Function ToRelativePath(file As FileInfo) As String
+  overload: Prowl.Editor.Assets.AssetDatabase.ToRelativePath*
+- uid: Prowl.Editor.Assets.AssetDatabase.FromRelativePath(System.String)
+  commentId: M:Prowl.Editor.Assets.AssetDatabase.FromRelativePath(System.String)
+  id: FromRelativePath(System.String)
+  parent: Prowl.Editor.Assets.AssetDatabase
+  langs:
+  - csharp
+  - vb
+  name: FromRelativePath(string)
+  nameWithType: AssetDatabase.FromRelativePath(string)
+  fullName: Prowl.Editor.Assets.AssetDatabase.FromRelativePath(string)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Editor/Assets/AssetDatabase.Utilities.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: FromRelativePath
+    path: ../Prowl/Prowl.Editor/Assets/AssetDatabase.Utilities.cs
+    startLine: 37
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor.Assets
+  summary: Converts a relative path within the project to a full file path.
+  example: []
+  syntax:
+    content: public static FileInfo FromRelativePath(string relativePath)
+    parameters:
+    - id: relativePath
+      type: System.String
+      description: The relative path to convert to a full file path.
+    return:
+      type: System.IO.FileInfo
+      description: The full file path of the relative path.
+    content.vb: Public Shared Function FromRelativePath(relativePath As String) As FileInfo
+  overload: Prowl.Editor.Assets.AssetDatabase.FromRelativePath*
+  nameWithType.vb: AssetDatabase.FromRelativePath(String)
+  fullName.vb: Prowl.Editor.Assets.AssetDatabase.FromRelativePath(String)
+  name.vb: FromRelativePath(String)
+- uid: Prowl.Editor.Assets.AssetDatabase.OpenPath(System.IO.FileSystemInfo,System.Int32,System.Int32)
+  commentId: M:Prowl.Editor.Assets.AssetDatabase.OpenPath(System.IO.FileSystemInfo,System.Int32,System.Int32)
+  id: OpenPath(System.IO.FileSystemInfo,System.Int32,System.Int32)
+  parent: Prowl.Editor.Assets.AssetDatabase
+  langs:
+  - csharp
+  - vb
+  name: OpenPath(FileSystemInfo, int, int)
+  nameWithType: AssetDatabase.OpenPath(FileSystemInfo, int, int)
+  fullName: Prowl.Editor.Assets.AssetDatabase.OpenPath(System.IO.FileSystemInfo, int, int)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Editor/Assets/AssetDatabase.Utilities.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: OpenPath
+    path: ../Prowl/Prowl.Editor/Assets/AssetDatabase.Utilities.cs
+    startLine: 43
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor.Assets
+  summary: Opens the specified file with the operating system's default program.
+  example: []
+  syntax:
+    content: public static void OpenPath(FileSystemInfo file, int line = 0, int character = 0)
+    parameters:
+    - id: file
+      type: System.IO.FileSystemInfo
+      description: The file to open.
+    - id: line
+      type: System.Int32
+    - id: character
+      type: System.Int32
+    content.vb: Public Shared Sub OpenPath(file As FileSystemInfo, line As Integer = 0, character As Integer = 0)
+  overload: Prowl.Editor.Assets.AssetDatabase.OpenPath*
+  nameWithType.vb: AssetDatabase.OpenPath(FileSystemInfo, Integer, Integer)
+  fullName.vb: Prowl.Editor.Assets.AssetDatabase.OpenPath(System.IO.FileSystemInfo, Integer, Integer)
+  name.vb: OpenPath(FileSystemInfo, Integer, Integer)
+- uid: Prowl.Editor.Assets.AssetDatabase.GuidFromRelativePath(System.String)
+  commentId: M:Prowl.Editor.Assets.AssetDatabase.GuidFromRelativePath(System.String)
+  id: GuidFromRelativePath(System.String)
+  parent: Prowl.Editor.Assets.AssetDatabase
+  langs:
+  - csharp
+  - vb
+  name: GuidFromRelativePath(string)
+  nameWithType: AssetDatabase.GuidFromRelativePath(string)
+  fullName: Prowl.Editor.Assets.AssetDatabase.GuidFromRelativePath(string)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Editor/Assets/AssetDatabase.Utilities.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: GuidFromRelativePath
+    path: ../Prowl/Prowl.Editor/Assets/AssetDatabase.Utilities.cs
+    startLine: 88
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor.Assets
+  summary: Gets the GUID of a file from its relative path.
+  example: []
+  syntax:
+    content: public static Guid GuidFromRelativePath(string relativePath)
+    parameters:
+    - id: relativePath
+      type: System.String
+      description: The relative path of the file.
+    return:
+      type: System.Guid
+      description: The GUID of the file.
+    content.vb: Public Shared Function GuidFromRelativePath(relativePath As String) As Guid
+  overload: Prowl.Editor.Assets.AssetDatabase.GuidFromRelativePath*
+  nameWithType.vb: AssetDatabase.GuidFromRelativePath(String)
+  fullName.vb: Prowl.Editor.Assets.AssetDatabase.GuidFromRelativePath(String)
+  name.vb: GuidFromRelativePath(String)
+- uid: Prowl.Editor.Assets.AssetDatabase.Contains(System.Guid)
+  commentId: M:Prowl.Editor.Assets.AssetDatabase.Contains(System.Guid)
+  id: Contains(System.Guid)
+  parent: Prowl.Editor.Assets.AssetDatabase
+  langs:
+  - csharp
+  - vb
+  name: Contains(Guid)
+  nameWithType: AssetDatabase.Contains(Guid)
+  fullName: Prowl.Editor.Assets.AssetDatabase.Contains(System.Guid)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Editor/Assets/AssetDatabase.Utilities.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Contains
+    path: ../Prowl/Prowl.Editor/Assets/AssetDatabase.Utilities.cs
+    startLine: 101
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor.Assets
+  summary: Checks if the AssetDatabase contains a file with the specified GUID.
+  example: []
+  syntax:
+    content: public static bool Contains(Guid assetID)
+    parameters:
+    - id: assetID
+      type: System.Guid
+      description: The GUID of the file.
+    return:
+      type: System.Boolean
+      description: True if the file exists in the AssetDatabase, false otherwise.
+    content.vb: Public Shared Function Contains(assetID As Guid) As Boolean
+  overload: Prowl.Editor.Assets.AssetDatabase.Contains*
+- uid: Prowl.Editor.Assets.AssetDatabase.Ping(System.Guid)
+  commentId: M:Prowl.Editor.Assets.AssetDatabase.Ping(System.Guid)
+  id: Ping(System.Guid)
+  parent: Prowl.Editor.Assets.AssetDatabase
+  langs:
+  - csharp
+  - vb
+  name: Ping(Guid)
+  nameWithType: AssetDatabase.Ping(Guid)
+  fullName: Prowl.Editor.Assets.AssetDatabase.Ping(System.Guid)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Editor/Assets/AssetDatabase.Utilities.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Ping
+    path: ../Prowl/Prowl.Editor/Assets/AssetDatabase.Utilities.cs
+    startLine: 107
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor.Assets
+  summary: Pings a file with the specified GUID.
+  example: []
+  syntax:
+    content: public static void Ping(Guid guid)
+    parameters:
+    - id: guid
+      type: System.Guid
+      description: The GUID of the file.
+    content.vb: Public Shared Sub Ping(guid As Guid)
+  overload: Prowl.Editor.Assets.AssetDatabase.Ping*
+- uid: Prowl.Editor.Assets.AssetDatabase.Ping(System.IO.FileInfo)
+  commentId: M:Prowl.Editor.Assets.AssetDatabase.Ping(System.IO.FileInfo)
+  id: Ping(System.IO.FileInfo)
+  parent: Prowl.Editor.Assets.AssetDatabase
+  langs:
+  - csharp
+  - vb
+  name: Ping(FileInfo)
+  nameWithType: AssetDatabase.Ping(FileInfo)
+  fullName: Prowl.Editor.Assets.AssetDatabase.Ping(System.IO.FileInfo)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Editor/Assets/AssetDatabase.Utilities.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Ping
+    path: ../Prowl/Prowl.Editor/Assets/AssetDatabase.Utilities.cs
+    startLine: 118
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor.Assets
+  summary: Pings a file.
+  example: []
+  syntax:
+    content: public static void Ping(FileInfo file)
+    parameters:
+    - id: file
+      type: System.IO.FileInfo
+      description: The file to ping.
+    content.vb: Public Shared Sub Ping(file As FileInfo)
+  overload: Prowl.Editor.Assets.AssetDatabase.Ping*
+- uid: Prowl.Editor.Assets.AssetDatabase.GetRelativePath(System.String)
+  commentId: M:Prowl.Editor.Assets.AssetDatabase.GetRelativePath(System.String)
+  id: GetRelativePath(System.String)
+  parent: Prowl.Editor.Assets.AssetDatabase
+  langs:
+  - csharp
+  - vb
+  name: GetRelativePath(string)
+  nameWithType: AssetDatabase.GetRelativePath(string)
+  fullName: Prowl.Editor.Assets.AssetDatabase.GetRelativePath(string)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Editor/Assets/AssetDatabase.Utilities.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: GetRelativePath
+    path: ../Prowl/Prowl.Editor/Assets/AssetDatabase.Utilities.cs
+    startLine: 125
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor.Assets
+  summary: Gets the relative path of a file within the project.
+  example: []
+  syntax:
+    content: public static string? GetRelativePath(string fullFilePath)
+    parameters:
+    - id: fullFilePath
+      type: System.String
+      description: The full file path of the file.
+    return:
+      type: System.String
+      description: The relative path of the file within the project, or null if the file is not within the project.
+    content.vb: Public Shared Function GetRelativePath(fullFilePath As String) As String
+  overload: Prowl.Editor.Assets.AssetDatabase.GetRelativePath*
+  nameWithType.vb: AssetDatabase.GetRelativePath(String)
+  fullName.vb: Prowl.Editor.Assets.AssetDatabase.GetRelativePath(String)
+  name.vb: GetRelativePath(String)
+- uid: Prowl.Editor.Assets.AssetDatabase.GetDependenciesDeep(System.Guid,System.Collections.Generic.HashSet{System.Guid}@)
+  commentId: M:Prowl.Editor.Assets.AssetDatabase.GetDependenciesDeep(System.Guid,System.Collections.Generic.HashSet{System.Guid}@)
+  id: GetDependenciesDeep(System.Guid,System.Collections.Generic.HashSet{System.Guid}@)
+  parent: Prowl.Editor.Assets.AssetDatabase
+  langs:
+  - csharp
+  - vb
+  name: GetDependenciesDeep(Guid, ref HashSet<Guid>)
+  nameWithType: AssetDatabase.GetDependenciesDeep(Guid, ref HashSet<Guid>)
+  fullName: Prowl.Editor.Assets.AssetDatabase.GetDependenciesDeep(System.Guid, ref System.Collections.Generic.HashSet<System.Guid>)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Editor/Assets/AssetDatabase.Utilities.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: GetDependenciesDeep
+    path: ../Prowl/Prowl.Editor/Assets/AssetDatabase.Utilities.cs
+    startLine: 147
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor.Assets
+  syntax:
+    content: public static void GetDependenciesDeep(Guid assetID, ref HashSet<Guid> dependencies)
+    parameters:
+    - id: assetID
+      type: System.Guid
+    - id: dependencies
+      type: System.Collections.Generic.HashSet{System.Guid}
+    content.vb: Public Shared Sub GetDependenciesDeep(assetID As Guid, dependencies As HashSet(Of Guid))
+  overload: Prowl.Editor.Assets.AssetDatabase.GetDependenciesDeep*
+  nameWithType.vb: AssetDatabase.GetDependenciesDeep(Guid, HashSet(Of Guid))
+  fullName.vb: Prowl.Editor.Assets.AssetDatabase.GetDependenciesDeep(System.Guid, System.Collections.Generic.HashSet(Of System.Guid))
+  name.vb: GetDependenciesDeep(Guid, HashSet(Of Guid))
+- uid: Prowl.Editor.Assets.AssetDatabase.AllThatDependOn(System.Guid)
+  commentId: M:Prowl.Editor.Assets.AssetDatabase.AllThatDependOn(System.Guid)
+  id: AllThatDependOn(System.Guid)
+  parent: Prowl.Editor.Assets.AssetDatabase
+  langs:
+  - csharp
+  - vb
+  name: AllThatDependOn(Guid)
+  nameWithType: AssetDatabase.AllThatDependOn(Guid)
+  fullName: Prowl.Editor.Assets.AssetDatabase.AllThatDependOn(System.Guid)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Editor/Assets/AssetDatabase.Utilities.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: AllThatDependOn
+    path: ../Prowl/Prowl.Editor/Assets/AssetDatabase.Utilities.cs
+    startLine: 163
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor.Assets
+  syntax:
+    content: public static HashSet<Guid> AllThatDependOn(Guid dependsOn)
+    parameters:
+    - id: dependsOn
+      type: System.Guid
+    return:
+      type: System.Collections.Generic.HashSet{System.Guid}
+    content.vb: Public Shared Function AllThatDependOn(dependsOn As Guid) As HashSet(Of Guid)
+  overload: Prowl.Editor.Assets.AssetDatabase.AllThatDependOn*
+- uid: Prowl.Editor.Assets.AssetDatabase.FileIsInProject(System.IO.FileInfo)
+  commentId: M:Prowl.Editor.Assets.AssetDatabase.FileIsInProject(System.IO.FileInfo)
+  id: FileIsInProject(System.IO.FileInfo)
+  parent: Prowl.Editor.Assets.AssetDatabase
+  langs:
+  - csharp
+  - vb
+  name: FileIsInProject(FileInfo)
+  nameWithType: AssetDatabase.FileIsInProject(FileInfo)
+  fullName: Prowl.Editor.Assets.AssetDatabase.FileIsInProject(System.IO.FileInfo)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Editor/Assets/AssetDatabase.Utilities.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: FileIsInProject
+    path: ../Prowl/Prowl.Editor/Assets/AssetDatabase.Utilities.cs
+    startLine: 181
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor.Assets
+  summary: Checks if a file is within the project directory.
+  example: []
+  syntax:
+    content: public static bool FileIsInProject(FileInfo file)
+    parameters:
+    - id: file
+      type: System.IO.FileInfo
+      description: The file to check.
+    return:
+      type: System.Boolean
+      description: True if the file is within the project directory, false otherwise.
+    content.vb: Public Shared Function FileIsInProject(file As FileInfo) As Boolean
+  overload: Prowl.Editor.Assets.AssetDatabase.FileIsInProject*
+- uid: Prowl.Editor.Assets.AssetDatabase.GenerateUniqueAssetPath(System.IO.DirectoryInfo@)
+  commentId: M:Prowl.Editor.Assets.AssetDatabase.GenerateUniqueAssetPath(System.IO.DirectoryInfo@)
+  id: GenerateUniqueAssetPath(System.IO.DirectoryInfo@)
+  parent: Prowl.Editor.Assets.AssetDatabase
+  langs:
+  - csharp
+  - vb
+  name: GenerateUniqueAssetPath(ref DirectoryInfo)
+  nameWithType: AssetDatabase.GenerateUniqueAssetPath(ref DirectoryInfo)
+  fullName: Prowl.Editor.Assets.AssetDatabase.GenerateUniqueAssetPath(ref System.IO.DirectoryInfo)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Editor/Assets/AssetDatabase.Utilities.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: GenerateUniqueAssetPath
+    path: ../Prowl/Prowl.Editor/Assets/AssetDatabase.Utilities.cs
+    startLine: 186
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor.Assets
+  syntax:
+    content: public static void GenerateUniqueAssetPath(ref DirectoryInfo dir)
+    parameters:
+    - id: dir
+      type: System.IO.DirectoryInfo
+    content.vb: Public Shared Sub GenerateUniqueAssetPath(dir As DirectoryInfo)
+  overload: Prowl.Editor.Assets.AssetDatabase.GenerateUniqueAssetPath*
+  nameWithType.vb: AssetDatabase.GenerateUniqueAssetPath(DirectoryInfo)
+  fullName.vb: Prowl.Editor.Assets.AssetDatabase.GenerateUniqueAssetPath(System.IO.DirectoryInfo)
+  name.vb: GenerateUniqueAssetPath(DirectoryInfo)
+- uid: Prowl.Editor.Assets.AssetDatabase.GenerateUniqueAssetPath(System.IO.FileInfo@)
+  commentId: M:Prowl.Editor.Assets.AssetDatabase.GenerateUniqueAssetPath(System.IO.FileInfo@)
+  id: GenerateUniqueAssetPath(System.IO.FileInfo@)
+  parent: Prowl.Editor.Assets.AssetDatabase
+  langs:
+  - csharp
+  - vb
+  name: GenerateUniqueAssetPath(ref FileInfo)
+  nameWithType: AssetDatabase.GenerateUniqueAssetPath(ref FileInfo)
+  fullName: Prowl.Editor.Assets.AssetDatabase.GenerateUniqueAssetPath(ref System.IO.FileInfo)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Editor/Assets/AssetDatabase.Utilities.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: GenerateUniqueAssetPath
+    path: ../Prowl/Prowl.Editor/Assets/AssetDatabase.Utilities.cs
+    startLine: 200
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor.Assets
+  syntax:
+    content: public static void GenerateUniqueAssetPath(ref FileInfo file)
+    parameters:
+    - id: file
+      type: System.IO.FileInfo
+    content.vb: Public Shared Sub GenerateUniqueAssetPath(file As FileInfo)
+  overload: Prowl.Editor.Assets.AssetDatabase.GenerateUniqueAssetPath*
+  nameWithType.vb: AssetDatabase.GenerateUniqueAssetPath(FileInfo)
+  fullName.vb: Prowl.Editor.Assets.AssetDatabase.GenerateUniqueAssetPath(System.IO.FileInfo)
+  name.vb: GenerateUniqueAssetPath(FileInfo)
+- uid: Prowl.Editor.Assets.AssetDatabase.GetAllAssetsOfType``1
+  commentId: M:Prowl.Editor.Assets.AssetDatabase.GetAllAssetsOfType``1
+  id: GetAllAssetsOfType``1
+  parent: Prowl.Editor.Assets.AssetDatabase
+  langs:
+  - csharp
+  - vb
+  name: GetAllAssetsOfType<T>()
+  nameWithType: AssetDatabase.GetAllAssetsOfType<T>()
+  fullName: Prowl.Editor.Assets.AssetDatabase.GetAllAssetsOfType<T>()
+  type: Method
+  source:
+    remote:
+      path: Prowl.Editor/Assets/AssetDatabase.Utilities.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: GetAllAssetsOfType
+    path: ../Prowl/Prowl.Editor/Assets/AssetDatabase.Utilities.cs
+    startLine: 215
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor.Assets
+  syntax:
+    content: 'public static List<(string, Guid, ushort)> GetAllAssetsOfType<T>() where T : EngineObject'
+    typeParameters:
+    - id: T
+    return:
+      type: System.Collections.Generic.List{System.ValueTuple{System.String,System.Guid,System.UInt16}}
+    content.vb: Public Shared Function GetAllAssetsOfType(Of T As EngineObject)() As List(Of (String, Guid, UShort))
+  overload: Prowl.Editor.Assets.AssetDatabase.GetAllAssetsOfType*
+  nameWithType.vb: AssetDatabase.GetAllAssetsOfType(Of T)()
+  fullName.vb: Prowl.Editor.Assets.AssetDatabase.GetAllAssetsOfType(Of T)()
+  name.vb: GetAllAssetsOfType(Of T)()
+- uid: Prowl.Editor.Assets.AssetDatabase.GetAllAssetsOfType(System.Type)
+  commentId: M:Prowl.Editor.Assets.AssetDatabase.GetAllAssetsOfType(System.Type)
+  id: GetAllAssetsOfType(System.Type)
+  parent: Prowl.Editor.Assets.AssetDatabase
+  langs:
+  - csharp
+  - vb
+  name: GetAllAssetsOfType(Type)
+  nameWithType: AssetDatabase.GetAllAssetsOfType(Type)
+  fullName: Prowl.Editor.Assets.AssetDatabase.GetAllAssetsOfType(System.Type)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Editor/Assets/AssetDatabase.Utilities.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: GetAllAssetsOfType
+    path: ../Prowl/Prowl.Editor/Assets/AssetDatabase.Utilities.cs
+    startLine: 216
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor.Assets
+  syntax:
+    content: public static List<(string name, Guid assetID, ushort fileID)> GetAllAssetsOfType(Type type)
+    parameters:
+    - id: type
+      type: System.Type
+    return:
+      type: System.Collections.Generic.List{System.ValueTuple{System.String,System.Guid,System.UInt16}}
+    content.vb: Public Shared Function GetAllAssetsOfType(type As Type) As List(Of (name As String, assetID As Guid, fileID As UShort))
+  overload: Prowl.Editor.Assets.AssetDatabase.GetAllAssetsOfType*
+- uid: Prowl.Editor.Assets.AssetDatabase.GetTypeOfAsset(System.Guid,System.UInt16)
+  commentId: M:Prowl.Editor.Assets.AssetDatabase.GetTypeOfAsset(System.Guid,System.UInt16)
+  id: GetTypeOfAsset(System.Guid,System.UInt16)
+  parent: Prowl.Editor.Assets.AssetDatabase
+  langs:
+  - csharp
+  - vb
+  name: GetTypeOfAsset(Guid, ushort)
+  nameWithType: AssetDatabase.GetTypeOfAsset(Guid, ushort)
+  fullName: Prowl.Editor.Assets.AssetDatabase.GetTypeOfAsset(System.Guid, ushort)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Editor/Assets/AssetDatabase.Utilities.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: GetTypeOfAsset
+    path: ../Prowl/Prowl.Editor/Assets/AssetDatabase.Utilities.cs
+    startLine: 241
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor.Assets
+  syntax:
+    content: public static Type GetTypeOfAsset(Guid guid, ushort fileID)
+    parameters:
+    - id: guid
+      type: System.Guid
+    - id: fileID
+      type: System.UInt16
+    return:
+      type: System.Type
+    content.vb: Public Shared Function GetTypeOfAsset(guid As Guid, fileID As UShort) As Type
+  overload: Prowl.Editor.Assets.AssetDatabase.GetTypeOfAsset*
+  nameWithType.vb: AssetDatabase.GetTypeOfAsset(Guid, UShort)
+  fullName.vb: Prowl.Editor.Assets.AssetDatabase.GetTypeOfAsset(System.Guid, UShort)
+  name.vb: GetTypeOfAsset(Guid, UShort)
+- uid: Prowl.Editor.Assets.AssetDatabase.GetSubAssetsCache(System.Guid)
+  commentId: M:Prowl.Editor.Assets.AssetDatabase.GetSubAssetsCache(System.Guid)
+  id: GetSubAssetsCache(System.Guid)
+  parent: Prowl.Editor.Assets.AssetDatabase
+  langs:
+  - csharp
+  - vb
+  name: GetSubAssetsCache(Guid)
+  nameWithType: AssetDatabase.GetSubAssetsCache(Guid)
+  fullName: Prowl.Editor.Assets.AssetDatabase.GetSubAssetsCache(System.Guid)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Editor/Assets/AssetDatabase.Utilities.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: GetSubAssetsCache
+    path: ../Prowl/Prowl.Editor/Assets/AssetDatabase.Utilities.cs
+    startLine: 255
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor.Assets
+  syntax:
+    content: public static AssetDatabase.SubAssetCache[] GetSubAssetsCache(Guid guid)
+    parameters:
+    - id: guid
+      type: System.Guid
+    return:
+      type: Prowl.Editor.Assets.AssetDatabase.SubAssetCache[]
+    content.vb: Public Shared Function GetSubAssetsCache(guid As Guid) As AssetDatabase.SubAssetCache()
+  overload: Prowl.Editor.Assets.AssetDatabase.GetSubAssetsCache*
+references:
+- uid: Prowl.Editor.Assets
+  commentId: N:Prowl.Editor.Assets
+  href: Prowl.html
+  name: Prowl.Editor.Assets
+  nameWithType: Prowl.Editor.Assets
+  fullName: Prowl.Editor.Assets
+  spec.csharp:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Editor
+    name: Editor
+    href: Prowl.Editor.html
+  - name: .
+  - uid: Prowl.Editor.Assets
+    name: Assets
+    href: Prowl.Editor.Assets.html
+  spec.vb:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Editor
+    name: Editor
+    href: Prowl.Editor.html
+  - name: .
+  - uid: Prowl.Editor.Assets
+    name: Assets
+    href: Prowl.Editor.Assets.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Prowl.Editor.Assets.AssetDatabase.LastLoadedAssetID*
+  commentId: Overload:Prowl.Editor.Assets.AssetDatabase.LastLoadedAssetID
+  href: Prowl.Editor.Assets.AssetDatabase.html#Prowl_Editor_Assets_AssetDatabase_LastLoadedAssetID
+  name: LastLoadedAssetID
+  nameWithType: AssetDatabase.LastLoadedAssetID
+  fullName: Prowl.Editor.Assets.AssetDatabase.LastLoadedAssetID
+- uid: System.Guid
+  commentId: T:System.Guid
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.guid
+  name: Guid
+  nameWithType: Guid
+  fullName: System.Guid
+- uid: Prowl.Editor.Assets.AssetDatabase.TempAssetDirectory*
+  commentId: Overload:Prowl.Editor.Assets.AssetDatabase.TempAssetDirectory
+  href: Prowl.Editor.Assets.AssetDatabase.html#Prowl_Editor_Assets_AssetDatabase_TempAssetDirectory
+  name: TempAssetDirectory
+  nameWithType: AssetDatabase.TempAssetDirectory
+  fullName: Prowl.Editor.Assets.AssetDatabase.TempAssetDirectory
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System.Action
+  commentId: T:System.Action
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.action
+  name: Action
+  nameWithType: Action
+  fullName: System.Action
+- uid: System.Action{System.Guid,System.IO.FileInfo}
+  commentId: T:System.Action{System.Guid,System.IO.FileInfo}
+  parent: System
+  definition: System.Action`2
+  href: https://learn.microsoft.com/dotnet/api/system.action-2
+  name: Action<Guid, FileInfo>
+  nameWithType: Action<Guid, FileInfo>
+  fullName: System.Action<System.Guid, System.IO.FileInfo>
+  nameWithType.vb: Action(Of Guid, FileInfo)
+  fullName.vb: System.Action(Of System.Guid, System.IO.FileInfo)
+  name.vb: Action(Of Guid, FileInfo)
+  spec.csharp:
+  - uid: System.Action`2
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-2
+  - name: <
+  - uid: System.Guid
+    name: Guid
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.guid
+  - name: ','
+  - name: " "
+  - uid: System.IO.FileInfo
+    name: FileInfo
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.io.fileinfo
+  - name: '>'
+  spec.vb:
+  - uid: System.Action`2
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-2
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Guid
+    name: Guid
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.guid
+  - name: ','
+  - name: " "
+  - uid: System.IO.FileInfo
+    name: FileInfo
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.io.fileinfo
+  - name: )
+- uid: System.Action`2
+  commentId: T:System.Action`2
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.action-2
+  name: Action<T1, T2>
+  nameWithType: Action<T1, T2>
+  fullName: System.Action<T1, T2>
+  nameWithType.vb: Action(Of T1, T2)
+  fullName.vb: System.Action(Of T1, T2)
+  name.vb: Action(Of T1, T2)
+  spec.csharp:
+  - uid: System.Action`2
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-2
+  - name: <
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: '>'
+  spec.vb:
+  - uid: System.Action`2
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: )
+- uid: System.Action{System.IO.FileInfo}
+  commentId: T:System.Action{System.IO.FileInfo}
+  parent: System
+  definition: System.Action`1
+  href: https://learn.microsoft.com/dotnet/api/system.action-1
+  name: Action<FileInfo>
+  nameWithType: Action<FileInfo>
+  fullName: System.Action<System.IO.FileInfo>
+  nameWithType.vb: Action(Of FileInfo)
+  fullName.vb: System.Action(Of System.IO.FileInfo)
+  name.vb: Action(Of FileInfo)
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: <
+  - uid: System.IO.FileInfo
+    name: FileInfo
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.io.fileinfo
+  - name: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.IO.FileInfo
+    name: FileInfo
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.io.fileinfo
+  - name: )
+- uid: System.Action`1
+  commentId: T:System.Action`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.action-1
+  name: Action<T>
+  nameWithType: Action<T>
+  fullName: System.Action<T>
+  nameWithType.vb: Action(Of T)
+  fullName.vb: System.Action(Of T)
+  name.vb: Action(Of T)
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Prowl.Editor.Assets.AssetDatabase.GetRootFolderCache*
+  commentId: Overload:Prowl.Editor.Assets.AssetDatabase.GetRootFolderCache
+  href: Prowl.Editor.Assets.AssetDatabase.html#Prowl_Editor_Assets_AssetDatabase_GetRootFolderCache_System_Int32_
+  name: GetRootFolderCache
+  nameWithType: AssetDatabase.GetRootFolderCache
+  fullName: Prowl.Editor.Assets.AssetDatabase.GetRootFolderCache
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: Prowl.Editor.Assets.AssetDirectoryCache
+  commentId: T:Prowl.Editor.Assets.AssetDirectoryCache
+  parent: Prowl.Editor.Assets
+  href: Prowl.Editor.Assets.AssetDirectoryCache.html
+  name: AssetDirectoryCache
+  nameWithType: AssetDirectoryCache
+  fullName: Prowl.Editor.Assets.AssetDirectoryCache
+- uid: Prowl.Editor.Assets.AssetDatabase.GetRootFolders*
+  commentId: Overload:Prowl.Editor.Assets.AssetDatabase.GetRootFolders
+  href: Prowl.Editor.Assets.AssetDatabase.html#Prowl_Editor_Assets_AssetDatabase_GetRootFolders
+  name: GetRootFolders
+  nameWithType: AssetDatabase.GetRootFolders
+  fullName: Prowl.Editor.Assets.AssetDatabase.GetRootFolders
+- uid: System.Collections.Generic.List{System.IO.DirectoryInfo}
+  commentId: T:System.Collections.Generic.List{System.IO.DirectoryInfo}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<DirectoryInfo>
+  nameWithType: List<DirectoryInfo>
+  fullName: System.Collections.Generic.List<System.IO.DirectoryInfo>
+  nameWithType.vb: List(Of DirectoryInfo)
+  fullName.vb: System.Collections.Generic.List(Of System.IO.DirectoryInfo)
+  name.vb: List(Of DirectoryInfo)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - uid: System.IO.DirectoryInfo
+    name: DirectoryInfo
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.io.directoryinfo
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.IO.DirectoryInfo
+    name: DirectoryInfo
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.io.directoryinfo
+  - name: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: Prowl.Editor.Assets.AssetDatabase.AddRootFolder*
+  commentId: Overload:Prowl.Editor.Assets.AssetDatabase.AddRootFolder
+  href: Prowl.Editor.Assets.AssetDatabase.html#Prowl_Editor_Assets_AssetDatabase_AddRootFolder_System_String_
+  name: AddRootFolder
+  nameWithType: AssetDatabase.AddRootFolder
+  fullName: Prowl.Editor.Assets.AssetDatabase.AddRootFolder
+- uid: Prowl.Editor.Assets.AssetDatabase.Update*
+  commentId: Overload:Prowl.Editor.Assets.AssetDatabase.Update
+  href: Prowl.Editor.Assets.AssetDatabase.html#Prowl_Editor_Assets_AssetDatabase_Update_System_Boolean_System_Boolean_
+  name: Update
+  nameWithType: AssetDatabase.Update
+  fullName: Prowl.Editor.Assets.AssetDatabase.Update
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: Prowl.Editor.Assets.AssetDatabase.TryGetGuid*
+  commentId: Overload:Prowl.Editor.Assets.AssetDatabase.TryGetGuid
+  href: Prowl.Editor.Assets.AssetDatabase.html#Prowl_Editor_Assets_AssetDatabase_TryGetGuid_System_IO_FileInfo_System_Guid__
+  name: TryGetGuid
+  nameWithType: AssetDatabase.TryGetGuid
+  fullName: Prowl.Editor.Assets.AssetDatabase.TryGetGuid
+- uid: System.IO.FileInfo
+  commentId: T:System.IO.FileInfo
+  parent: System.IO
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.io.fileinfo
+  name: FileInfo
+  nameWithType: FileInfo
+  fullName: System.IO.FileInfo
+- uid: System.IO
+  commentId: N:System.IO
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.IO
+  nameWithType: System.IO
+  fullName: System.IO
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.IO
+    name: IO
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.io
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.IO
+    name: IO
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.io
+- uid: Prowl.Editor.Assets.AssetDatabase.TryGetFile*
+  commentId: Overload:Prowl.Editor.Assets.AssetDatabase.TryGetFile
+  href: Prowl.Editor.Assets.AssetDatabase.html#Prowl_Editor_Assets_AssetDatabase_TryGetFile_System_Guid_System_IO_FileInfo__
+  name: TryGetFile
+  nameWithType: AssetDatabase.TryGetFile
+  fullName: Prowl.Editor.Assets.AssetDatabase.TryGetFile
+- uid: Prowl.Editor.Assets.AssetDatabase.ReimportAll*
+  commentId: Overload:Prowl.Editor.Assets.AssetDatabase.ReimportAll
+  href: Prowl.Editor.Assets.AssetDatabase.html#Prowl_Editor_Assets_AssetDatabase_ReimportAll
+  name: ReimportAll
+  nameWithType: AssetDatabase.ReimportAll
+  fullName: Prowl.Editor.Assets.AssetDatabase.ReimportAll
+- uid: Prowl.Editor.Assets.AssetDatabase.ReimportFolder*
+  commentId: Overload:Prowl.Editor.Assets.AssetDatabase.ReimportFolder
+  href: Prowl.Editor.Assets.AssetDatabase.html#Prowl_Editor_Assets_AssetDatabase_ReimportFolder_System_IO_DirectoryInfo_
+  name: ReimportFolder
+  nameWithType: AssetDatabase.ReimportFolder
+  fullName: Prowl.Editor.Assets.AssetDatabase.ReimportFolder
+- uid: System.IO.DirectoryInfo
+  commentId: T:System.IO.DirectoryInfo
+  parent: System.IO
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.io.directoryinfo
+  name: DirectoryInfo
+  nameWithType: DirectoryInfo
+  fullName: System.IO.DirectoryInfo
+- uid: Prowl.Editor.Assets.AssetDatabase.Reimport*
+  commentId: Overload:Prowl.Editor.Assets.AssetDatabase.Reimport
+  href: Prowl.Editor.Assets.AssetDatabase.html#Prowl_Editor_Assets_AssetDatabase_Reimport_System_IO_FileInfo_System_Boolean_
+  name: Reimport
+  nameWithType: AssetDatabase.Reimport
+  fullName: Prowl.Editor.Assets.AssetDatabase.Reimport
+- uid: Prowl.Editor.Assets.AssetDatabase.LoadAsset*
+  commentId: Overload:Prowl.Editor.Assets.AssetDatabase.LoadAsset
+  href: Prowl.Editor.Assets.AssetDatabase.html#Prowl_Editor_Assets_AssetDatabase_LoadAsset__1_System_IO_FileInfo_System_UInt16_
+  name: LoadAsset
+  nameWithType: AssetDatabase.LoadAsset
+  fullName: Prowl.Editor.Assets.AssetDatabase.LoadAsset
+- uid: System.UInt16
+  commentId: T:System.UInt16
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.uint16
+  name: ushort
+  nameWithType: ushort
+  fullName: ushort
+  nameWithType.vb: UShort
+  fullName.vb: UShort
+  name.vb: UShort
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: Prowl.Runtime.Utils.SerializedAsset
+  commentId: T:Prowl.Runtime.Utils.SerializedAsset
+  parent: Prowl.Runtime.Utils
+  href: Prowl.Runtime.Utils.SerializedAsset.html
+  name: SerializedAsset
+  nameWithType: SerializedAsset
+  fullName: Prowl.Runtime.Utils.SerializedAsset
+- uid: Prowl.Runtime.Utils
+  commentId: N:Prowl.Runtime.Utils
+  href: Prowl.html
+  name: Prowl.Runtime.Utils
+  nameWithType: Prowl.Runtime.Utils
+  fullName: Prowl.Runtime.Utils
+  spec.csharp:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+  - name: .
+  - uid: Prowl.Runtime.Utils
+    name: Utils
+    href: Prowl.Runtime.Utils.html
+  spec.vb:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+  - name: .
+  - uid: Prowl.Runtime.Utils
+    name: Utils
+    href: Prowl.Runtime.Utils.html
+- uid: Prowl.Editor.Assets.AssetDatabase.Move*
+  commentId: Overload:Prowl.Editor.Assets.AssetDatabase.Move
+  href: Prowl.Editor.Assets.AssetDatabase.html#Prowl_Editor_Assets_AssetDatabase_Move_System_IO_FileInfo_System_String_
+  name: Move
+  nameWithType: AssetDatabase.Move
+  fullName: Prowl.Editor.Assets.AssetDatabase.Move
+- uid: Prowl.Editor.Assets.AssetDatabase.Rename*
+  commentId: Overload:Prowl.Editor.Assets.AssetDatabase.Rename
+  href: Prowl.Editor.Assets.AssetDatabase.html#Prowl_Editor_Assets_AssetDatabase_Rename_System_IO_FileInfo_System_String_
+  name: Rename
+  nameWithType: AssetDatabase.Rename
+  fullName: Prowl.Editor.Assets.AssetDatabase.Rename
+- uid: Prowl.Editor.Assets.AssetDatabase.Delete*
+  commentId: Overload:Prowl.Editor.Assets.AssetDatabase.Delete
+  href: Prowl.Editor.Assets.AssetDatabase.html#Prowl_Editor_Assets_AssetDatabase_Delete_System_IO_FileInfo_
+  name: Delete
+  nameWithType: AssetDatabase.Delete
+  fullName: Prowl.Editor.Assets.AssetDatabase.Delete
+- uid: System.Collections.Generic.Dictionary{System.String,System.String}
+  commentId: T:System.Collections.Generic.Dictionary{System.String,System.String}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.Dictionary`2
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  name: Dictionary<string, string>
+  nameWithType: Dictionary<string, string>
+  fullName: System.Collections.Generic.Dictionary<string, string>
+  nameWithType.vb: Dictionary(Of String, String)
+  fullName.vb: System.Collections.Generic.Dictionary(Of String, String)
+  name.vb: Dictionary(Of String, String)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: System.Collections.Generic.Dictionary`2
+  commentId: T:System.Collections.Generic.Dictionary`2
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  name: Dictionary<TKey, TValue>
+  nameWithType: Dictionary<TKey, TValue>
+  fullName: System.Collections.Generic.Dictionary<TKey, TValue>
+  nameWithType.vb: Dictionary(Of TKey, TValue)
+  fullName.vb: System.Collections.Generic.Dictionary(Of TKey, TValue)
+  name.vb: Dictionary(Of TKey, TValue)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  - name: <
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: )
+- uid: System.Collections.Generic.List{NuGet.Protocol.Core.Types.IPackageSearchMetadata}
+  commentId: T:System.Collections.Generic.List{NuGet.Protocol.Core.Types.IPackageSearchMetadata}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<IPackageSearchMetadata>
+  nameWithType: List<IPackageSearchMetadata>
+  fullName: System.Collections.Generic.List<NuGet.Protocol.Core.Types.IPackageSearchMetadata>
+  nameWithType.vb: List(Of IPackageSearchMetadata)
+  fullName.vb: System.Collections.Generic.List(Of NuGet.Protocol.Core.Types.IPackageSearchMetadata)
+  name.vb: List(Of IPackageSearchMetadata)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - uid: NuGet.Protocol.Core.Types.IPackageSearchMetadata
+    name: IPackageSearchMetadata
+    isExternal: true
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: NuGet.Protocol.Core.Types.IPackageSearchMetadata
+    name: IPackageSearchMetadata
+    isExternal: true
+  - name: )
+- uid: Prowl.Editor.Assets.AssetDatabase.ExportAllBuildPackages*
+  commentId: Overload:Prowl.Editor.Assets.AssetDatabase.ExportAllBuildPackages
+  href: Prowl.Editor.Assets.AssetDatabase.html#Prowl_Editor_Assets_AssetDatabase_ExportAllBuildPackages_System_IO_DirectoryInfo_
+  name: ExportAllBuildPackages
+  nameWithType: AssetDatabase.ExportAllBuildPackages
+  fullName: Prowl.Editor.Assets.AssetDatabase.ExportAllBuildPackages
+- uid: Prowl.Editor.Assets.AssetDatabase.ExportBuildPackages*
+  commentId: Overload:Prowl.Editor.Assets.AssetDatabase.ExportBuildPackages
+  href: Prowl.Editor.Assets.AssetDatabase.html#Prowl_Editor_Assets_AssetDatabase_ExportBuildPackages_System_Guid___System_IO_DirectoryInfo_
+  name: ExportBuildPackages
+  nameWithType: AssetDatabase.ExportBuildPackages
+  fullName: Prowl.Editor.Assets.AssetDatabase.ExportBuildPackages
+- uid: System.Guid[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.guid
+  name: Guid[]
+  nameWithType: Guid[]
+  fullName: System.Guid[]
+  nameWithType.vb: Guid()
+  fullName.vb: System.Guid()
+  name.vb: Guid()
+  spec.csharp:
+  - uid: System.Guid
+    name: Guid
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.guid
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.Guid
+    name: Guid
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.guid
+  - name: (
+  - name: )
+- uid: Prowl.Editor.Assets.AssetDatabase.ExportProwlPackage*
+  commentId: Overload:Prowl.Editor.Assets.AssetDatabase.ExportProwlPackage
+  href: Prowl.Editor.Assets.AssetDatabase.html#Prowl_Editor_Assets_AssetDatabase_ExportProwlPackage_System_IO_DirectoryInfo_System_Boolean_
+  name: ExportProwlPackage
+  nameWithType: AssetDatabase.ExportProwlPackage
+  fullName: Prowl.Editor.Assets.AssetDatabase.ExportProwlPackage
+- uid: Prowl.Editor.Assets.AssetDatabase.ImportProwlPackage*
+  commentId: Overload:Prowl.Editor.Assets.AssetDatabase.ImportProwlPackage
+  href: Prowl.Editor.Assets.AssetDatabase.html#Prowl_Editor_Assets_AssetDatabase_ImportProwlPackage_System_IO_FileInfo_
+  name: ImportProwlPackage
+  nameWithType: AssetDatabase.ImportProwlPackage
+  fullName: Prowl.Editor.Assets.AssetDatabase.ImportProwlPackage
+- uid: Prowl.Editor.Assets.AssetDatabase.GetInstalledPackage*
+  commentId: Overload:Prowl.Editor.Assets.AssetDatabase.GetInstalledPackage
+  href: Prowl.Editor.Assets.AssetDatabase.html#Prowl_Editor_Assets_AssetDatabase_GetInstalledPackage_System_String_
+  name: GetInstalledPackage
+  nameWithType: AssetDatabase.GetInstalledPackage
+  fullName: Prowl.Editor.Assets.AssetDatabase.GetInstalledPackage
+- uid: NuGet.Protocol.Core.Types.IPackageSearchMetadata
+  commentId: T:NuGet.Protocol.Core.Types.IPackageSearchMetadata
+  parent: NuGet.Protocol.Core.Types
+  isExternal: true
+  name: IPackageSearchMetadata
+  nameWithType: IPackageSearchMetadata
+  fullName: NuGet.Protocol.Core.Types.IPackageSearchMetadata
+- uid: NuGet.Protocol.Core.Types
+  commentId: N:NuGet.Protocol.Core.Types
+  isExternal: true
+  name: NuGet.Protocol.Core.Types
+  nameWithType: NuGet.Protocol.Core.Types
+  fullName: NuGet.Protocol.Core.Types
+  spec.csharp:
+  - uid: NuGet
+    name: NuGet
+    isExternal: true
+  - name: .
+  - uid: NuGet.Protocol
+    name: Protocol
+    isExternal: true
+  - name: .
+  - uid: NuGet.Protocol.Core
+    name: Core
+    isExternal: true
+  - name: .
+  - uid: NuGet.Protocol.Core.Types
+    name: Types
+    isExternal: true
+  spec.vb:
+  - uid: NuGet
+    name: NuGet
+    isExternal: true
+  - name: .
+  - uid: NuGet.Protocol
+    name: Protocol
+    isExternal: true
+  - name: .
+  - uid: NuGet.Protocol.Core
+    name: Core
+    isExternal: true
+  - name: .
+  - uid: NuGet.Protocol.Core.Types
+    name: Types
+    isExternal: true
+- uid: Prowl.Editor.Assets.AssetDatabase.SaveProjectPackagesFile*
+  commentId: Overload:Prowl.Editor.Assets.AssetDatabase.SaveProjectPackagesFile
+  href: Prowl.Editor.Assets.AssetDatabase.html#Prowl_Editor_Assets_AssetDatabase_SaveProjectPackagesFile
+  name: SaveProjectPackagesFile
+  nameWithType: AssetDatabase.SaveProjectPackagesFile
+  fullName: Prowl.Editor.Assets.AssetDatabase.SaveProjectPackagesFile
+- uid: Prowl.Editor.Assets.AssetDatabase.GetPackageVersions*
+  commentId: Overload:Prowl.Editor.Assets.AssetDatabase.GetPackageVersions
+  href: Prowl.Editor.Assets.AssetDatabase.html#Prowl_Editor_Assets_AssetDatabase_GetPackageVersions_System_String_System_String_System_Boolean_
+  name: GetPackageVersions
+  nameWithType: AssetDatabase.GetPackageVersions
+  fullName: Prowl.Editor.Assets.AssetDatabase.GetPackageVersions
+- uid: System.Threading.Tasks.Task{System.Collections.Generic.List{NuGet.Versioning.NuGetVersion}}
+  commentId: T:System.Threading.Tasks.Task{System.Collections.Generic.List{NuGet.Versioning.NuGetVersion}}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<List<NuGetVersion>>
+  nameWithType: Task<List<NuGetVersion>>
+  fullName: System.Threading.Tasks.Task<System.Collections.Generic.List<NuGet.Versioning.NuGetVersion>>
+  nameWithType.vb: Task(Of List(Of NuGetVersion))
+  fullName.vb: System.Threading.Tasks.Task(Of System.Collections.Generic.List(Of NuGet.Versioning.NuGetVersion))
+  name.vb: Task(Of List(Of NuGetVersion))
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - uid: NuGet.Versioning.NuGetVersion
+    name: NuGetVersion
+    isExternal: true
+  - name: '>'
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: NuGet.Versioning.NuGetVersion
+    name: NuGetVersion
+    isExternal: true
+  - name: )
+  - name: )
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+- uid: Prowl.Editor.Assets.AssetDatabase.SearchPackages*
+  commentId: Overload:Prowl.Editor.Assets.AssetDatabase.SearchPackages
+  href: Prowl.Editor.Assets.AssetDatabase.html#Prowl_Editor_Assets_AssetDatabase_SearchPackages_System_String_System_String_System_Boolean_
+  name: SearchPackages
+  nameWithType: AssetDatabase.SearchPackages
+  fullName: Prowl.Editor.Assets.AssetDatabase.SearchPackages
+- uid: System.Threading.Tasks.Task{System.Collections.Generic.List{NuGet.Protocol.Core.Types.IPackageSearchMetadata}}
+  commentId: T:System.Threading.Tasks.Task{System.Collections.Generic.List{NuGet.Protocol.Core.Types.IPackageSearchMetadata}}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<List<IPackageSearchMetadata>>
+  nameWithType: Task<List<IPackageSearchMetadata>>
+  fullName: System.Threading.Tasks.Task<System.Collections.Generic.List<NuGet.Protocol.Core.Types.IPackageSearchMetadata>>
+  nameWithType.vb: Task(Of List(Of IPackageSearchMetadata))
+  fullName.vb: System.Threading.Tasks.Task(Of System.Collections.Generic.List(Of NuGet.Protocol.Core.Types.IPackageSearchMetadata))
+  name.vb: Task(Of List(Of IPackageSearchMetadata))
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - uid: NuGet.Protocol.Core.Types.IPackageSearchMetadata
+    name: IPackageSearchMetadata
+    isExternal: true
+  - name: '>'
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: NuGet.Protocol.Core.Types.IPackageSearchMetadata
+    name: IPackageSearchMetadata
+    isExternal: true
+  - name: )
+  - name: )
+- uid: Prowl.Editor.Assets.AssetDatabase.GetPackageMetadata*
+  commentId: Overload:Prowl.Editor.Assets.AssetDatabase.GetPackageMetadata
+  href: Prowl.Editor.Assets.AssetDatabase.html#Prowl_Editor_Assets_AssetDatabase_GetPackageMetadata_System_String_System_String_System_Boolean_
+  name: GetPackageMetadata
+  nameWithType: AssetDatabase.GetPackageMetadata
+  fullName: Prowl.Editor.Assets.AssetDatabase.GetPackageMetadata
+- uid: Prowl.Editor.Assets.AssetDatabase.InstallPackage*
+  commentId: Overload:Prowl.Editor.Assets.AssetDatabase.InstallPackage
+  href: Prowl.Editor.Assets.AssetDatabase.html#Prowl_Editor_Assets_AssetDatabase_InstallPackage_System_String_System_String_
+  name: InstallPackage
+  nameWithType: AssetDatabase.InstallPackage
+  fullName: Prowl.Editor.Assets.AssetDatabase.InstallPackage
+- uid: System.Threading.Tasks.Task
+  commentId: T:System.Threading.Tasks.Task
+  parent: System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: Prowl.Editor.Assets.AssetDatabase.UninstallPackage*
+  commentId: Overload:Prowl.Editor.Assets.AssetDatabase.UninstallPackage
+  href: Prowl.Editor.Assets.AssetDatabase.html#Prowl_Editor_Assets_AssetDatabase_UninstallPackage_System_String_System_String_
+  name: UninstallPackage
+  nameWithType: AssetDatabase.UninstallPackage
+  fullName: Prowl.Editor.Assets.AssetDatabase.UninstallPackage
+- uid: Prowl.Editor.Assets.AssetDatabase.GetPackageDependencies*
+  commentId: Overload:Prowl.Editor.Assets.AssetDatabase.GetPackageDependencies
+  href: Prowl.Editor.Assets.AssetDatabase.html#Prowl_Editor_Assets_AssetDatabase_GetPackageDependencies_NuGet_Packaging_Core_PackageIdentity_NuGet_Frameworks_NuGetFramework_NuGet_Protocol_Core_Types_SourceCacheContext_NuGet_Common_ILogger_System_Collections_Generic_IEnumerable_NuGet_Protocol_Core_Types_SourceRepository__System_Collections_Generic_ISet_NuGet_Protocol_Core_Types_SourcePackageDependencyInfo__
+  name: GetPackageDependencies
+  nameWithType: AssetDatabase.GetPackageDependencies
+  fullName: Prowl.Editor.Assets.AssetDatabase.GetPackageDependencies
+- uid: NuGet.Packaging.Core.PackageIdentity
+  commentId: T:NuGet.Packaging.Core.PackageIdentity
+  parent: NuGet.Packaging.Core
+  isExternal: true
+  name: PackageIdentity
+  nameWithType: PackageIdentity
+  fullName: NuGet.Packaging.Core.PackageIdentity
+- uid: NuGet.Frameworks.NuGetFramework
+  commentId: T:NuGet.Frameworks.NuGetFramework
+  parent: NuGet.Frameworks
+  isExternal: true
+  name: NuGetFramework
+  nameWithType: NuGetFramework
+  fullName: NuGet.Frameworks.NuGetFramework
+- uid: NuGet.Protocol.Core.Types.SourceCacheContext
+  commentId: T:NuGet.Protocol.Core.Types.SourceCacheContext
+  parent: NuGet.Protocol.Core.Types
+  isExternal: true
+  name: SourceCacheContext
+  nameWithType: SourceCacheContext
+  fullName: NuGet.Protocol.Core.Types.SourceCacheContext
+- uid: NuGet.Common.ILogger
+  commentId: T:NuGet.Common.ILogger
+  parent: NuGet.Common
+  isExternal: true
+  name: ILogger
+  nameWithType: ILogger
+  fullName: NuGet.Common.ILogger
+- uid: System.Collections.Generic.IEnumerable{NuGet.Protocol.Core.Types.SourceRepository}
+  commentId: T:System.Collections.Generic.IEnumerable{NuGet.Protocol.Core.Types.SourceRepository}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<SourceRepository>
+  nameWithType: IEnumerable<SourceRepository>
+  fullName: System.Collections.Generic.IEnumerable<NuGet.Protocol.Core.Types.SourceRepository>
+  nameWithType.vb: IEnumerable(Of SourceRepository)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of NuGet.Protocol.Core.Types.SourceRepository)
+  name.vb: IEnumerable(Of SourceRepository)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - uid: NuGet.Protocol.Core.Types.SourceRepository
+    name: SourceRepository
+    isExternal: true
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: NuGet.Protocol.Core.Types.SourceRepository
+    name: SourceRepository
+    isExternal: true
+  - name: )
+- uid: System.Collections.Generic.ISet{NuGet.Protocol.Core.Types.SourcePackageDependencyInfo}
+  commentId: T:System.Collections.Generic.ISet{NuGet.Protocol.Core.Types.SourcePackageDependencyInfo}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.ISet`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.iset-1
+  name: ISet<SourcePackageDependencyInfo>
+  nameWithType: ISet<SourcePackageDependencyInfo>
+  fullName: System.Collections.Generic.ISet<NuGet.Protocol.Core.Types.SourcePackageDependencyInfo>
+  nameWithType.vb: ISet(Of SourcePackageDependencyInfo)
+  fullName.vb: System.Collections.Generic.ISet(Of NuGet.Protocol.Core.Types.SourcePackageDependencyInfo)
+  name.vb: ISet(Of SourcePackageDependencyInfo)
+  spec.csharp:
+  - uid: System.Collections.Generic.ISet`1
+    name: ISet
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.iset-1
+  - name: <
+  - uid: NuGet.Protocol.Core.Types.SourcePackageDependencyInfo
+    name: SourcePackageDependencyInfo
+    isExternal: true
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.ISet`1
+    name: ISet
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.iset-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: NuGet.Protocol.Core.Types.SourcePackageDependencyInfo
+    name: SourcePackageDependencyInfo
+    isExternal: true
+  - name: )
+- uid: NuGet.Packaging.Core
+  commentId: N:NuGet.Packaging.Core
+  isExternal: true
+  name: NuGet.Packaging.Core
+  nameWithType: NuGet.Packaging.Core
+  fullName: NuGet.Packaging.Core
+  spec.csharp:
+  - uid: NuGet
+    name: NuGet
+    isExternal: true
+  - name: .
+  - uid: NuGet.Packaging
+    name: Packaging
+    isExternal: true
+  - name: .
+  - uid: NuGet.Packaging.Core
+    name: Core
+    isExternal: true
+  spec.vb:
+  - uid: NuGet
+    name: NuGet
+    isExternal: true
+  - name: .
+  - uid: NuGet.Packaging
+    name: Packaging
+    isExternal: true
+  - name: .
+  - uid: NuGet.Packaging.Core
+    name: Core
+    isExternal: true
+- uid: NuGet.Frameworks
+  commentId: N:NuGet.Frameworks
+  isExternal: true
+  name: NuGet.Frameworks
+  nameWithType: NuGet.Frameworks
+  fullName: NuGet.Frameworks
+  spec.csharp:
+  - uid: NuGet
+    name: NuGet
+    isExternal: true
+  - name: .
+  - uid: NuGet.Frameworks
+    name: Frameworks
+    isExternal: true
+  spec.vb:
+  - uid: NuGet
+    name: NuGet
+    isExternal: true
+  - name: .
+  - uid: NuGet.Frameworks
+    name: Frameworks
+    isExternal: true
+- uid: NuGet.Common
+  commentId: N:NuGet.Common
+  isExternal: true
+  name: NuGet.Common
+  nameWithType: NuGet.Common
+  fullName: NuGet.Common
+  spec.csharp:
+  - uid: NuGet
+    name: NuGet
+    isExternal: true
+  - name: .
+  - uid: NuGet.Common
+    name: Common
+    isExternal: true
+  spec.vb:
+  - uid: NuGet
+    name: NuGet
+    isExternal: true
+  - name: .
+  - uid: NuGet.Common
+    name: Common
+    isExternal: true
+- uid: System.Collections.Generic.IEnumerable`1
+  commentId: T:System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic.ISet`1
+  commentId: T:System.Collections.Generic.ISet`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.iset-1
+  name: ISet<T>
+  nameWithType: ISet<T>
+  fullName: System.Collections.Generic.ISet<T>
+  nameWithType.vb: ISet(Of T)
+  fullName.vb: System.Collections.Generic.ISet(Of T)
+  name.vb: ISet(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.ISet`1
+    name: ISet
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.iset-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.ISet`1
+    name: ISet
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.iset-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Prowl.Editor.Assets.AssetDatabase.PathToCachedNode*
+  commentId: Overload:Prowl.Editor.Assets.AssetDatabase.PathToCachedNode
+  href: Prowl.Editor.Assets.AssetDatabase.html#Prowl_Editor_Assets_AssetDatabase_PathToCachedNode_System_String_Prowl_Editor_Assets_AssetDirectoryCache_DirNode__
+  name: PathToCachedNode
+  nameWithType: AssetDatabase.PathToCachedNode
+  fullName: Prowl.Editor.Assets.AssetDatabase.PathToCachedNode
+- uid: Prowl.Editor.Assets.AssetDirectoryCache.DirNode
+  commentId: T:Prowl.Editor.Assets.AssetDirectoryCache.DirNode
+  parent: Prowl.Editor.Assets
+  href: Prowl.Editor.Assets.AssetDirectoryCache.html
+  name: AssetDirectoryCache.DirNode
+  nameWithType: AssetDirectoryCache.DirNode
+  fullName: Prowl.Editor.Assets.AssetDirectoryCache.DirNode
+  spec.csharp:
+  - uid: Prowl.Editor.Assets.AssetDirectoryCache
+    name: AssetDirectoryCache
+    href: Prowl.Editor.Assets.AssetDirectoryCache.html
+  - name: .
+  - uid: Prowl.Editor.Assets.AssetDirectoryCache.DirNode
+    name: DirNode
+    href: Prowl.Editor.Assets.AssetDirectoryCache.DirNode.html
+  spec.vb:
+  - uid: Prowl.Editor.Assets.AssetDirectoryCache
+    name: AssetDirectoryCache
+    href: Prowl.Editor.Assets.AssetDirectoryCache.html
+  - name: .
+  - uid: Prowl.Editor.Assets.AssetDirectoryCache.DirNode
+    name: DirNode
+    href: Prowl.Editor.Assets.AssetDirectoryCache.DirNode.html
+- uid: Prowl.Editor.Assets.AssetDatabase.ToRelativePath*
+  commentId: Overload:Prowl.Editor.Assets.AssetDatabase.ToRelativePath
+  href: Prowl.Editor.Assets.AssetDatabase.html#Prowl_Editor_Assets_AssetDatabase_ToRelativePath_System_IO_FileInfo_
+  name: ToRelativePath
+  nameWithType: AssetDatabase.ToRelativePath
+  fullName: Prowl.Editor.Assets.AssetDatabase.ToRelativePath
+- uid: Prowl.Editor.Assets.AssetDatabase.FromRelativePath*
+  commentId: Overload:Prowl.Editor.Assets.AssetDatabase.FromRelativePath
+  href: Prowl.Editor.Assets.AssetDatabase.html#Prowl_Editor_Assets_AssetDatabase_FromRelativePath_System_String_
+  name: FromRelativePath
+  nameWithType: AssetDatabase.FromRelativePath
+  fullName: Prowl.Editor.Assets.AssetDatabase.FromRelativePath
+- uid: Prowl.Editor.Assets.AssetDatabase.OpenPath*
+  commentId: Overload:Prowl.Editor.Assets.AssetDatabase.OpenPath
+  href: Prowl.Editor.Assets.AssetDatabase.html#Prowl_Editor_Assets_AssetDatabase_OpenPath_System_IO_FileSystemInfo_System_Int32_System_Int32_
+  name: OpenPath
+  nameWithType: AssetDatabase.OpenPath
+  fullName: Prowl.Editor.Assets.AssetDatabase.OpenPath
+- uid: System.IO.FileSystemInfo
+  commentId: T:System.IO.FileSystemInfo
+  parent: System.IO
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.io.filesysteminfo
+  name: FileSystemInfo
+  nameWithType: FileSystemInfo
+  fullName: System.IO.FileSystemInfo
+- uid: Prowl.Editor.Assets.AssetDatabase.GuidFromRelativePath*
+  commentId: Overload:Prowl.Editor.Assets.AssetDatabase.GuidFromRelativePath
+  href: Prowl.Editor.Assets.AssetDatabase.html#Prowl_Editor_Assets_AssetDatabase_GuidFromRelativePath_System_String_
+  name: GuidFromRelativePath
+  nameWithType: AssetDatabase.GuidFromRelativePath
+  fullName: Prowl.Editor.Assets.AssetDatabase.GuidFromRelativePath
+- uid: Prowl.Editor.Assets.AssetDatabase.Contains*
+  commentId: Overload:Prowl.Editor.Assets.AssetDatabase.Contains
+  href: Prowl.Editor.Assets.AssetDatabase.html#Prowl_Editor_Assets_AssetDatabase_Contains_System_Guid_
+  name: Contains
+  nameWithType: AssetDatabase.Contains
+  fullName: Prowl.Editor.Assets.AssetDatabase.Contains
+- uid: Prowl.Editor.Assets.AssetDatabase.Ping*
+  commentId: Overload:Prowl.Editor.Assets.AssetDatabase.Ping
+  href: Prowl.Editor.Assets.AssetDatabase.html#Prowl_Editor_Assets_AssetDatabase_Ping_System_Guid_
+  name: Ping
+  nameWithType: AssetDatabase.Ping
+  fullName: Prowl.Editor.Assets.AssetDatabase.Ping
+- uid: Prowl.Editor.Assets.AssetDatabase.GetRelativePath*
+  commentId: Overload:Prowl.Editor.Assets.AssetDatabase.GetRelativePath
+  href: Prowl.Editor.Assets.AssetDatabase.html#Prowl_Editor_Assets_AssetDatabase_GetRelativePath_System_String_
+  name: GetRelativePath
+  nameWithType: AssetDatabase.GetRelativePath
+  fullName: Prowl.Editor.Assets.AssetDatabase.GetRelativePath
+- uid: Prowl.Editor.Assets.AssetDatabase.GetDependenciesDeep*
+  commentId: Overload:Prowl.Editor.Assets.AssetDatabase.GetDependenciesDeep
+  href: Prowl.Editor.Assets.AssetDatabase.html#Prowl_Editor_Assets_AssetDatabase_GetDependenciesDeep_System_Guid_System_Collections_Generic_HashSet_System_Guid___
+  name: GetDependenciesDeep
+  nameWithType: AssetDatabase.GetDependenciesDeep
+  fullName: Prowl.Editor.Assets.AssetDatabase.GetDependenciesDeep
+- uid: System.Collections.Generic.HashSet{System.Guid}
+  commentId: T:System.Collections.Generic.HashSet{System.Guid}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.HashSet`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1
+  name: HashSet<Guid>
+  nameWithType: HashSet<Guid>
+  fullName: System.Collections.Generic.HashSet<System.Guid>
+  nameWithType.vb: HashSet(Of Guid)
+  fullName.vb: System.Collections.Generic.HashSet(Of System.Guid)
+  name.vb: HashSet(Of Guid)
+  spec.csharp:
+  - uid: System.Collections.Generic.HashSet`1
+    name: HashSet
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1
+  - name: <
+  - uid: System.Guid
+    name: Guid
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.guid
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.HashSet`1
+    name: HashSet
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Guid
+    name: Guid
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.guid
+  - name: )
+- uid: System.Collections.Generic.HashSet`1
+  commentId: T:System.Collections.Generic.HashSet`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1
+  name: HashSet<T>
+  nameWithType: HashSet<T>
+  fullName: System.Collections.Generic.HashSet<T>
+  nameWithType.vb: HashSet(Of T)
+  fullName.vb: System.Collections.Generic.HashSet(Of T)
+  name.vb: HashSet(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.HashSet`1
+    name: HashSet
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.HashSet`1
+    name: HashSet
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Prowl.Editor.Assets.AssetDatabase.AllThatDependOn*
+  commentId: Overload:Prowl.Editor.Assets.AssetDatabase.AllThatDependOn
+  href: Prowl.Editor.Assets.AssetDatabase.html#Prowl_Editor_Assets_AssetDatabase_AllThatDependOn_System_Guid_
+  name: AllThatDependOn
+  nameWithType: AssetDatabase.AllThatDependOn
+  fullName: Prowl.Editor.Assets.AssetDatabase.AllThatDependOn
+- uid: Prowl.Editor.Assets.AssetDatabase.FileIsInProject*
+  commentId: Overload:Prowl.Editor.Assets.AssetDatabase.FileIsInProject
+  href: Prowl.Editor.Assets.AssetDatabase.html#Prowl_Editor_Assets_AssetDatabase_FileIsInProject_System_IO_FileInfo_
+  name: FileIsInProject
+  nameWithType: AssetDatabase.FileIsInProject
+  fullName: Prowl.Editor.Assets.AssetDatabase.FileIsInProject
+- uid: Prowl.Editor.Assets.AssetDatabase.GenerateUniqueAssetPath*
+  commentId: Overload:Prowl.Editor.Assets.AssetDatabase.GenerateUniqueAssetPath
+  href: Prowl.Editor.Assets.AssetDatabase.html#Prowl_Editor_Assets_AssetDatabase_GenerateUniqueAssetPath_System_IO_DirectoryInfo__
+  name: GenerateUniqueAssetPath
+  nameWithType: AssetDatabase.GenerateUniqueAssetPath
+  fullName: Prowl.Editor.Assets.AssetDatabase.GenerateUniqueAssetPath
+- uid: Prowl.Editor.Assets.AssetDatabase.GetAllAssetsOfType*
+  commentId: Overload:Prowl.Editor.Assets.AssetDatabase.GetAllAssetsOfType
+  href: Prowl.Editor.Assets.AssetDatabase.html#Prowl_Editor_Assets_AssetDatabase_GetAllAssetsOfType__1
+  name: GetAllAssetsOfType
+  nameWithType: AssetDatabase.GetAllAssetsOfType
+  fullName: Prowl.Editor.Assets.AssetDatabase.GetAllAssetsOfType
+- uid: System.Collections.Generic.List{System.ValueTuple{System.String,System.Guid,System.UInt16}}
+  commentId: T:System.Collections.Generic.List{System.ValueTuple{System.String,System.Guid,System.UInt16}}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<(string, Guid, ushort)>
+  nameWithType: List<(string, Guid, ushort)>
+  fullName: System.Collections.Generic.List<(string, System.Guid, ushort)>
+  nameWithType.vb: List(Of (String, Guid, UShort))
+  fullName.vb: System.Collections.Generic.List(Of (String, System.Guid, UShort))
+  name.vb: List(Of (String, Guid, UShort))
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Guid
+    name: Guid
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.guid
+  - name: ','
+  - name: " "
+  - uid: System.UInt16
+    name: ushort
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.uint16
+  - name: )
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Guid
+    name: Guid
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.guid
+  - name: ','
+  - name: " "
+  - uid: System.UInt16
+    name: UShort
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.uint16
+  - name: )
+  - name: )
+- uid: System.Type
+  commentId: T:System.Type
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.type
+  name: Type
+  nameWithType: Type
+  fullName: System.Type
+- uid: Prowl.Editor.Assets.AssetDatabase.GetTypeOfAsset*
+  commentId: Overload:Prowl.Editor.Assets.AssetDatabase.GetTypeOfAsset
+  href: Prowl.Editor.Assets.AssetDatabase.html#Prowl_Editor_Assets_AssetDatabase_GetTypeOfAsset_System_Guid_System_UInt16_
+  name: GetTypeOfAsset
+  nameWithType: AssetDatabase.GetTypeOfAsset
+  fullName: Prowl.Editor.Assets.AssetDatabase.GetTypeOfAsset
+- uid: Prowl.Editor.Assets.AssetDatabase.GetSubAssetsCache*
+  commentId: Overload:Prowl.Editor.Assets.AssetDatabase.GetSubAssetsCache
+  href: Prowl.Editor.Assets.AssetDatabase.html#Prowl_Editor_Assets_AssetDatabase_GetSubAssetsCache_System_Guid_
+  name: GetSubAssetsCache
+  nameWithType: AssetDatabase.GetSubAssetsCache
+  fullName: Prowl.Editor.Assets.AssetDatabase.GetSubAssetsCache
+- uid: Prowl.Editor.Assets.AssetDatabase.SubAssetCache[]
+  isExternal: true
+  href: Prowl.Editor.Assets.AssetDatabase.SubAssetCache.html
+  name: SubAssetCache[]
+  nameWithType: AssetDatabase.SubAssetCache[]
+  fullName: Prowl.Editor.Assets.AssetDatabase.SubAssetCache[]
+  nameWithType.vb: AssetDatabase.SubAssetCache()
+  fullName.vb: Prowl.Editor.Assets.AssetDatabase.SubAssetCache()
+  name.vb: SubAssetCache()
+  spec.csharp:
+  - uid: Prowl.Editor.Assets.AssetDatabase.SubAssetCache
+    name: SubAssetCache
+    href: Prowl.Editor.Assets.AssetDatabase.SubAssetCache.html
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: Prowl.Editor.Assets.AssetDatabase.SubAssetCache
+    name: SubAssetCache
+    href: Prowl.Editor.Assets.AssetDatabase.SubAssetCache.html
+  - name: (
+  - name: )

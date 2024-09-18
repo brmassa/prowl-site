@@ -1,0 +1,765 @@
+### YamlMime:ManagedReference
+items:
+- uid: Prowl.Runtime.GUI.CornerRounding
+  commentId: T:Prowl.Runtime.GUI.CornerRounding
+  id: CornerRounding
+  parent: Prowl.Runtime.GUI
+  children:
+  - Prowl.Runtime.GUI.CornerRounding.All
+  - Prowl.Runtime.GUI.CornerRounding.Bottom
+  - Prowl.Runtime.GUI.CornerRounding.BottomAndLeft
+  - Prowl.Runtime.GUI.CornerRounding.BottomAndRight
+  - Prowl.Runtime.GUI.CornerRounding.BottomLeft
+  - Prowl.Runtime.GUI.CornerRounding.BottomLeftAndTopRight
+  - Prowl.Runtime.GUI.CornerRounding.BottomRight
+  - Prowl.Runtime.GUI.CornerRounding.BottomRightAndTopLeft
+  - Prowl.Runtime.GUI.CornerRounding.Left
+  - Prowl.Runtime.GUI.CornerRounding.None
+  - Prowl.Runtime.GUI.CornerRounding.Right
+  - Prowl.Runtime.GUI.CornerRounding.RightAndTop
+  - Prowl.Runtime.GUI.CornerRounding.Top
+  - Prowl.Runtime.GUI.CornerRounding.TopAndLeft
+  - Prowl.Runtime.GUI.CornerRounding.TopLeft
+  - Prowl.Runtime.GUI.CornerRounding.TopRight
+  langs:
+  - csharp
+  - vb
+  name: CornerRounding
+  nameWithType: CornerRounding
+  fullName: Prowl.Runtime.GUI.CornerRounding
+  type: Class
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Graphics/UIDrawList.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: CornerRounding
+    path: ../Prowl/Prowl.Runtime/GUI/Graphics/UIDrawList.cs
+    startLine: 11
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  syntax:
+    content: public static class CornerRounding
+    content.vb: Public Module CornerRounding
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: Prowl.Runtime.GUI.CornerRounding.None
+  commentId: F:Prowl.Runtime.GUI.CornerRounding.None
+  id: None
+  parent: Prowl.Runtime.GUI.CornerRounding
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: CornerRounding.None
+  fullName: Prowl.Runtime.GUI.CornerRounding.None
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Graphics/UIDrawList.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: None
+    path: ../Prowl/Prowl.Runtime/GUI/Graphics/UIDrawList.cs
+    startLine: 13
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  syntax:
+    content: public const int None = 0
+    return:
+      type: System.Int32
+    content.vb: Public Const None As Integer = 0
+- uid: Prowl.Runtime.GUI.CornerRounding.TopLeft
+  commentId: F:Prowl.Runtime.GUI.CornerRounding.TopLeft
+  id: TopLeft
+  parent: Prowl.Runtime.GUI.CornerRounding
+  langs:
+  - csharp
+  - vb
+  name: TopLeft
+  nameWithType: CornerRounding.TopLeft
+  fullName: Prowl.Runtime.GUI.CornerRounding.TopLeft
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Graphics/UIDrawList.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: TopLeft
+    path: ../Prowl/Prowl.Runtime/GUI/Graphics/UIDrawList.cs
+    startLine: 15
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  syntax:
+    content: public const int TopLeft = 1
+    return:
+      type: System.Int32
+    content.vb: Public Const TopLeft As Integer = 1
+- uid: Prowl.Runtime.GUI.CornerRounding.TopRight
+  commentId: F:Prowl.Runtime.GUI.CornerRounding.TopRight
+  id: TopRight
+  parent: Prowl.Runtime.GUI.CornerRounding
+  langs:
+  - csharp
+  - vb
+  name: TopRight
+  nameWithType: CornerRounding.TopRight
+  fullName: Prowl.Runtime.GUI.CornerRounding.TopRight
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Graphics/UIDrawList.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: TopRight
+    path: ../Prowl/Prowl.Runtime/GUI/Graphics/UIDrawList.cs
+    startLine: 16
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  syntax:
+    content: public const int TopRight = 2
+    return:
+      type: System.Int32
+    content.vb: Public Const TopRight As Integer = 2
+- uid: Prowl.Runtime.GUI.CornerRounding.BottomLeft
+  commentId: F:Prowl.Runtime.GUI.CornerRounding.BottomLeft
+  id: BottomLeft
+  parent: Prowl.Runtime.GUI.CornerRounding
+  langs:
+  - csharp
+  - vb
+  name: BottomLeft
+  nameWithType: CornerRounding.BottomLeft
+  fullName: Prowl.Runtime.GUI.CornerRounding.BottomLeft
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Graphics/UIDrawList.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: BottomLeft
+    path: ../Prowl/Prowl.Runtime/GUI/Graphics/UIDrawList.cs
+    startLine: 17
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  syntax:
+    content: public const int BottomLeft = 8
+    return:
+      type: System.Int32
+    content.vb: Public Const BottomLeft As Integer = 8
+- uid: Prowl.Runtime.GUI.CornerRounding.BottomRight
+  commentId: F:Prowl.Runtime.GUI.CornerRounding.BottomRight
+  id: BottomRight
+  parent: Prowl.Runtime.GUI.CornerRounding
+  langs:
+  - csharp
+  - vb
+  name: BottomRight
+  nameWithType: CornerRounding.BottomRight
+  fullName: Prowl.Runtime.GUI.CornerRounding.BottomRight
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Graphics/UIDrawList.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: BottomRight
+    path: ../Prowl/Prowl.Runtime/GUI/Graphics/UIDrawList.cs
+    startLine: 18
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  syntax:
+    content: public const int BottomRight = 4
+    return:
+      type: System.Int32
+    content.vb: Public Const BottomRight As Integer = 4
+- uid: Prowl.Runtime.GUI.CornerRounding.Top
+  commentId: F:Prowl.Runtime.GUI.CornerRounding.Top
+  id: Top
+  parent: Prowl.Runtime.GUI.CornerRounding
+  langs:
+  - csharp
+  - vb
+  name: Top
+  nameWithType: CornerRounding.Top
+  fullName: Prowl.Runtime.GUI.CornerRounding.Top
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Graphics/UIDrawList.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Top
+    path: ../Prowl/Prowl.Runtime/GUI/Graphics/UIDrawList.cs
+    startLine: 20
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  syntax:
+    content: public const int Top = 3
+    return:
+      type: System.Int32
+    content.vb: Public Const Top As Integer = 3
+- uid: Prowl.Runtime.GUI.CornerRounding.Bottom
+  commentId: F:Prowl.Runtime.GUI.CornerRounding.Bottom
+  id: Bottom
+  parent: Prowl.Runtime.GUI.CornerRounding
+  langs:
+  - csharp
+  - vb
+  name: Bottom
+  nameWithType: CornerRounding.Bottom
+  fullName: Prowl.Runtime.GUI.CornerRounding.Bottom
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Graphics/UIDrawList.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Bottom
+    path: ../Prowl/Prowl.Runtime/GUI/Graphics/UIDrawList.cs
+    startLine: 21
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  syntax:
+    content: public const int Bottom = 12
+    return:
+      type: System.Int32
+    content.vb: Public Const Bottom As Integer = 12
+- uid: Prowl.Runtime.GUI.CornerRounding.Left
+  commentId: F:Prowl.Runtime.GUI.CornerRounding.Left
+  id: Left
+  parent: Prowl.Runtime.GUI.CornerRounding
+  langs:
+  - csharp
+  - vb
+  name: Left
+  nameWithType: CornerRounding.Left
+  fullName: Prowl.Runtime.GUI.CornerRounding.Left
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Graphics/UIDrawList.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Left
+    path: ../Prowl/Prowl.Runtime/GUI/Graphics/UIDrawList.cs
+    startLine: 22
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  syntax:
+    content: public const int Left = 9
+    return:
+      type: System.Int32
+    content.vb: Public Const Left As Integer = 9
+- uid: Prowl.Runtime.GUI.CornerRounding.Right
+  commentId: F:Prowl.Runtime.GUI.CornerRounding.Right
+  id: Right
+  parent: Prowl.Runtime.GUI.CornerRounding
+  langs:
+  - csharp
+  - vb
+  name: Right
+  nameWithType: CornerRounding.Right
+  fullName: Prowl.Runtime.GUI.CornerRounding.Right
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Graphics/UIDrawList.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Right
+    path: ../Prowl/Prowl.Runtime/GUI/Graphics/UIDrawList.cs
+    startLine: 23
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  syntax:
+    content: public const int Right = 6
+    return:
+      type: System.Int32
+    content.vb: Public Const Right As Integer = 6
+- uid: Prowl.Runtime.GUI.CornerRounding.BottomRightAndTopLeft
+  commentId: F:Prowl.Runtime.GUI.CornerRounding.BottomRightAndTopLeft
+  id: BottomRightAndTopLeft
+  parent: Prowl.Runtime.GUI.CornerRounding
+  langs:
+  - csharp
+  - vb
+  name: BottomRightAndTopLeft
+  nameWithType: CornerRounding.BottomRightAndTopLeft
+  fullName: Prowl.Runtime.GUI.CornerRounding.BottomRightAndTopLeft
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Graphics/UIDrawList.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: BottomRightAndTopLeft
+    path: ../Prowl/Prowl.Runtime/GUI/Graphics/UIDrawList.cs
+    startLine: 25
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  syntax:
+    content: public const int BottomRightAndTopLeft = 5
+    return:
+      type: System.Int32
+    content.vb: Public Const BottomRightAndTopLeft As Integer = 5
+- uid: Prowl.Runtime.GUI.CornerRounding.BottomLeftAndTopRight
+  commentId: F:Prowl.Runtime.GUI.CornerRounding.BottomLeftAndTopRight
+  id: BottomLeftAndTopRight
+  parent: Prowl.Runtime.GUI.CornerRounding
+  langs:
+  - csharp
+  - vb
+  name: BottomLeftAndTopRight
+  nameWithType: CornerRounding.BottomLeftAndTopRight
+  fullName: Prowl.Runtime.GUI.CornerRounding.BottomLeftAndTopRight
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Graphics/UIDrawList.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: BottomLeftAndTopRight
+    path: ../Prowl/Prowl.Runtime/GUI/Graphics/UIDrawList.cs
+    startLine: 26
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  syntax:
+    content: public const int BottomLeftAndTopRight = 10
+    return:
+      type: System.Int32
+    content.vb: Public Const BottomLeftAndTopRight As Integer = 10
+- uid: Prowl.Runtime.GUI.CornerRounding.RightAndTop
+  commentId: F:Prowl.Runtime.GUI.CornerRounding.RightAndTop
+  id: RightAndTop
+  parent: Prowl.Runtime.GUI.CornerRounding
+  langs:
+  - csharp
+  - vb
+  name: RightAndTop
+  nameWithType: CornerRounding.RightAndTop
+  fullName: Prowl.Runtime.GUI.CornerRounding.RightAndTop
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Graphics/UIDrawList.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: RightAndTop
+    path: ../Prowl/Prowl.Runtime/GUI/Graphics/UIDrawList.cs
+    startLine: 28
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  syntax:
+    content: public const int RightAndTop = 7
+    return:
+      type: System.Int32
+    content.vb: Public Const RightAndTop As Integer = 7
+- uid: Prowl.Runtime.GUI.CornerRounding.TopAndLeft
+  commentId: F:Prowl.Runtime.GUI.CornerRounding.TopAndLeft
+  id: TopAndLeft
+  parent: Prowl.Runtime.GUI.CornerRounding
+  langs:
+  - csharp
+  - vb
+  name: TopAndLeft
+  nameWithType: CornerRounding.TopAndLeft
+  fullName: Prowl.Runtime.GUI.CornerRounding.TopAndLeft
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Graphics/UIDrawList.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: TopAndLeft
+    path: ../Prowl/Prowl.Runtime/GUI/Graphics/UIDrawList.cs
+    startLine: 29
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  syntax:
+    content: public const int TopAndLeft = 11
+    return:
+      type: System.Int32
+    content.vb: Public Const TopAndLeft As Integer = 11
+- uid: Prowl.Runtime.GUI.CornerRounding.BottomAndLeft
+  commentId: F:Prowl.Runtime.GUI.CornerRounding.BottomAndLeft
+  id: BottomAndLeft
+  parent: Prowl.Runtime.GUI.CornerRounding
+  langs:
+  - csharp
+  - vb
+  name: BottomAndLeft
+  nameWithType: CornerRounding.BottomAndLeft
+  fullName: Prowl.Runtime.GUI.CornerRounding.BottomAndLeft
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Graphics/UIDrawList.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: BottomAndLeft
+    path: ../Prowl/Prowl.Runtime/GUI/Graphics/UIDrawList.cs
+    startLine: 30
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  syntax:
+    content: public const int BottomAndLeft = 13
+    return:
+      type: System.Int32
+    content.vb: Public Const BottomAndLeft As Integer = 13
+- uid: Prowl.Runtime.GUI.CornerRounding.BottomAndRight
+  commentId: F:Prowl.Runtime.GUI.CornerRounding.BottomAndRight
+  id: BottomAndRight
+  parent: Prowl.Runtime.GUI.CornerRounding
+  langs:
+  - csharp
+  - vb
+  name: BottomAndRight
+  nameWithType: CornerRounding.BottomAndRight
+  fullName: Prowl.Runtime.GUI.CornerRounding.BottomAndRight
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Graphics/UIDrawList.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: BottomAndRight
+    path: ../Prowl/Prowl.Runtime/GUI/Graphics/UIDrawList.cs
+    startLine: 31
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  syntax:
+    content: public const int BottomAndRight = 14
+    return:
+      type: System.Int32
+    content.vb: Public Const BottomAndRight As Integer = 14
+- uid: Prowl.Runtime.GUI.CornerRounding.All
+  commentId: F:Prowl.Runtime.GUI.CornerRounding.All
+  id: All
+  parent: Prowl.Runtime.GUI.CornerRounding
+  langs:
+  - csharp
+  - vb
+  name: All
+  nameWithType: CornerRounding.All
+  fullName: Prowl.Runtime.GUI.CornerRounding.All
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Graphics/UIDrawList.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: All
+    path: ../Prowl/Prowl.Runtime/GUI/Graphics/UIDrawList.cs
+    startLine: 33
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  syntax:
+    content: public const int All = 15
+    return:
+      type: System.Int32
+    content.vb: Public Const All As Integer = 15
+references:
+- uid: Prowl.Runtime.GUI
+  commentId: N:Prowl.Runtime.GUI
+  href: Prowl.html
+  name: Prowl.Runtime.GUI
+  nameWithType: Prowl.Runtime.GUI
+  fullName: Prowl.Runtime.GUI
+  spec.csharp:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+  - name: .
+  - uid: Prowl.Runtime.GUI
+    name: GUI
+    href: Prowl.Runtime.GUI.html
+  spec.vb:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+  - name: .
+  - uid: Prowl.Runtime.GUI
+    name: GUI
+    href: Prowl.Runtime.GUI.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer

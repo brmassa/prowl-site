@@ -1,0 +1,924 @@
+### YamlMime:ManagedReference
+items:
+- uid: Prowl.Editor.TreePath`1
+  commentId: T:Prowl.Editor.TreePath`1
+  id: TreePath`1
+  parent: Prowl.Editor
+  children:
+  - Prowl.Editor.TreePath`1.#ctor
+  - Prowl.Editor.TreePath`1.#ctor(System.String,`0)
+  - Prowl.Editor.TreePath`1.AddChild(System.String,`0)
+  - Prowl.Editor.TreePath`1.Children
+  - Prowl.Editor.TreePath`1.Data
+  - Prowl.Editor.TreePath`1.FindNode(System.String)
+  - Prowl.Editor.TreePath`1.Name
+  - Prowl.Editor.TreePath`1.Parent
+  - Prowl.Editor.TreePath`1.Search(System.String,System.Boolean)
+  langs:
+  - csharp
+  - vb
+  name: TreePath<T>
+  nameWithType: TreePath<T>
+  fullName: Prowl.Editor.TreePath<T>
+  type: Class
+  source:
+    remote:
+      path: Prowl.Editor/Utilities/TreePath.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: TreePath
+    path: ../Prowl/Prowl.Editor/Utilities/TreePath.cs
+    startLine: 5
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor
+  syntax:
+    content: public class TreePath<T>
+    typeParameters:
+    - id: T
+    content.vb: Public Class TreePath(Of T)
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  extensionMethods:
+  - System.Object.Prowl.Runtime.RuntimeUtils.GetSerializableFields
+  nameWithType.vb: TreePath(Of T)
+  fullName.vb: Prowl.Editor.TreePath(Of T)
+  name.vb: TreePath(Of T)
+- uid: Prowl.Editor.TreePath`1.Parent
+  commentId: P:Prowl.Editor.TreePath`1.Parent
+  id: Parent
+  parent: Prowl.Editor.TreePath`1
+  langs:
+  - csharp
+  - vb
+  name: Parent
+  nameWithType: TreePath<T>.Parent
+  fullName: Prowl.Editor.TreePath<T>.Parent
+  type: Property
+  source:
+    remote:
+      path: Prowl.Editor/Utilities/TreePath.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Parent
+    path: ../Prowl/Prowl.Editor/Utilities/TreePath.cs
+    startLine: 7
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor
+  syntax:
+    content: public TreePath<T> Parent { get; set; }
+    parameters: []
+    return:
+      type: Prowl.Editor.TreePath`1
+    content.vb: Public Property Parent As TreePath(Of T)
+  overload: Prowl.Editor.TreePath`1.Parent*
+  nameWithType.vb: TreePath(Of T).Parent
+  fullName.vb: Prowl.Editor.TreePath(Of T).Parent
+- uid: Prowl.Editor.TreePath`1.Name
+  commentId: P:Prowl.Editor.TreePath`1.Name
+  id: Name
+  parent: Prowl.Editor.TreePath`1
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: TreePath<T>.Name
+  fullName: Prowl.Editor.TreePath<T>.Name
+  type: Property
+  source:
+    remote:
+      path: Prowl.Editor/Utilities/TreePath.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Name
+    path: ../Prowl/Prowl.Editor/Utilities/TreePath.cs
+    startLine: 8
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor
+  syntax:
+    content: public string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Name As String
+  overload: Prowl.Editor.TreePath`1.Name*
+  nameWithType.vb: TreePath(Of T).Name
+  fullName.vb: Prowl.Editor.TreePath(Of T).Name
+- uid: Prowl.Editor.TreePath`1.Data
+  commentId: P:Prowl.Editor.TreePath`1.Data
+  id: Data
+  parent: Prowl.Editor.TreePath`1
+  langs:
+  - csharp
+  - vb
+  name: Data
+  nameWithType: TreePath<T>.Data
+  fullName: Prowl.Editor.TreePath<T>.Data
+  type: Property
+  source:
+    remote:
+      path: Prowl.Editor/Utilities/TreePath.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Data
+    path: ../Prowl/Prowl.Editor/Utilities/TreePath.cs
+    startLine: 9
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor
+  syntax:
+    content: public T Data { get; set; }
+    parameters: []
+    return:
+      type: '{T}'
+    content.vb: Public Property Data As T
+  overload: Prowl.Editor.TreePath`1.Data*
+  nameWithType.vb: TreePath(Of T).Data
+  fullName.vb: Prowl.Editor.TreePath(Of T).Data
+- uid: Prowl.Editor.TreePath`1.Children
+  commentId: P:Prowl.Editor.TreePath`1.Children
+  id: Children
+  parent: Prowl.Editor.TreePath`1
+  langs:
+  - csharp
+  - vb
+  name: Children
+  nameWithType: TreePath<T>.Children
+  fullName: Prowl.Editor.TreePath<T>.Children
+  type: Property
+  source:
+    remote:
+      path: Prowl.Editor/Utilities/TreePath.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Children
+    path: ../Prowl/Prowl.Editor/Utilities/TreePath.cs
+    startLine: 10
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor
+  syntax:
+    content: public List<TreePath<T>> Children { get; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{Prowl.Editor.TreePath`1}
+    content.vb: Public ReadOnly Property Children As List(Of TreePath(Of T))
+  overload: Prowl.Editor.TreePath`1.Children*
+  nameWithType.vb: TreePath(Of T).Children
+  fullName.vb: Prowl.Editor.TreePath(Of T).Children
+- uid: Prowl.Editor.TreePath`1.#ctor
+  commentId: M:Prowl.Editor.TreePath`1.#ctor
+  id: '#ctor'
+  parent: Prowl.Editor.TreePath`1
+  langs:
+  - csharp
+  - vb
+  name: TreePath()
+  nameWithType: TreePath<T>.TreePath()
+  fullName: Prowl.Editor.TreePath<T>.TreePath()
+  type: Constructor
+  source:
+    remote:
+      path: Prowl.Editor/Utilities/TreePath.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: .ctor
+    path: ../Prowl/Prowl.Editor/Utilities/TreePath.cs
+    startLine: 12
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor
+  syntax:
+    content: public TreePath()
+    content.vb: Public Sub New()
+  overload: Prowl.Editor.TreePath`1.#ctor*
+  nameWithType.vb: TreePath(Of T).New()
+  fullName.vb: Prowl.Editor.TreePath(Of T).New()
+  name.vb: New()
+- uid: Prowl.Editor.TreePath`1.#ctor(System.String,`0)
+  commentId: M:Prowl.Editor.TreePath`1.#ctor(System.String,`0)
+  id: '#ctor(System.String,`0)'
+  parent: Prowl.Editor.TreePath`1
+  langs:
+  - csharp
+  - vb
+  name: TreePath(string, T)
+  nameWithType: TreePath<T>.TreePath(string, T)
+  fullName: Prowl.Editor.TreePath<T>.TreePath(string, T)
+  type: Constructor
+  source:
+    remote:
+      path: Prowl.Editor/Utilities/TreePath.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: .ctor
+    path: ../Prowl/Prowl.Editor/Utilities/TreePath.cs
+    startLine: 14
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor
+  syntax:
+    content: public TreePath(string name, T data = default)
+    parameters:
+    - id: name
+      type: System.String
+    - id: data
+      type: '{T}'
+    content.vb: Public Sub New(name As String, data As T = Nothing)
+  overload: Prowl.Editor.TreePath`1.#ctor*
+  nameWithType.vb: TreePath(Of T).New(String, T)
+  fullName.vb: Prowl.Editor.TreePath(Of T).New(String, T)
+  name.vb: New(String, T)
+- uid: Prowl.Editor.TreePath`1.AddChild(System.String,`0)
+  commentId: M:Prowl.Editor.TreePath`1.AddChild(System.String,`0)
+  id: AddChild(System.String,`0)
+  parent: Prowl.Editor.TreePath`1
+  langs:
+  - csharp
+  - vb
+  name: AddChild(string, T)
+  nameWithType: TreePath<T>.AddChild(string, T)
+  fullName: Prowl.Editor.TreePath<T>.AddChild(string, T)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Editor/Utilities/TreePath.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: AddChild
+    path: ../Prowl/Prowl.Editor/Utilities/TreePath.cs
+    startLine: 20
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor
+  syntax:
+    content: public void AddChild(string path, T data = default)
+    parameters:
+    - id: path
+      type: System.String
+    - id: data
+      type: '{T}'
+    content.vb: Public Sub AddChild(path As String, data As T = Nothing)
+  overload: Prowl.Editor.TreePath`1.AddChild*
+  nameWithType.vb: TreePath(Of T).AddChild(String, T)
+  fullName.vb: Prowl.Editor.TreePath(Of T).AddChild(String, T)
+  name.vb: AddChild(String, T)
+- uid: Prowl.Editor.TreePath`1.FindNode(System.String)
+  commentId: M:Prowl.Editor.TreePath`1.FindNode(System.String)
+  id: FindNode(System.String)
+  parent: Prowl.Editor.TreePath`1
+  langs:
+  - csharp
+  - vb
+  name: FindNode(string)
+  nameWithType: TreePath<T>.FindNode(string)
+  fullName: Prowl.Editor.TreePath<T>.FindNode(string)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Editor/Utilities/TreePath.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: FindNode
+    path: ../Prowl/Prowl.Editor/Utilities/TreePath.cs
+    startLine: 43
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor
+  syntax:
+    content: public TreePath<T> FindNode(string path)
+    parameters:
+    - id: path
+      type: System.String
+    return:
+      type: Prowl.Editor.TreePath`1
+    content.vb: Public Function FindNode(path As String) As TreePath(Of T)
+  overload: Prowl.Editor.TreePath`1.FindNode*
+  nameWithType.vb: TreePath(Of T).FindNode(String)
+  fullName.vb: Prowl.Editor.TreePath(Of T).FindNode(String)
+  name.vb: FindNode(String)
+- uid: Prowl.Editor.TreePath`1.Search(System.String,System.Boolean)
+  commentId: M:Prowl.Editor.TreePath`1.Search(System.String,System.Boolean)
+  id: Search(System.String,System.Boolean)
+  parent: Prowl.Editor.TreePath`1
+  langs:
+  - csharp
+  - vb
+  name: Search(string, bool)
+  nameWithType: TreePath<T>.Search(string, bool)
+  fullName: Prowl.Editor.TreePath<T>.Search(string, bool)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Editor/Utilities/TreePath.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Search
+    path: ../Prowl/Prowl.Editor/Utilities/TreePath.cs
+    startLine: 58
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor
+  syntax:
+    content: public List<TreePath<T>> Search(string query, bool ignoreCase = true)
+    parameters:
+    - id: query
+      type: System.String
+    - id: ignoreCase
+      type: System.Boolean
+    return:
+      type: System.Collections.Generic.List{Prowl.Editor.TreePath`1}
+    content.vb: Public Function Search(query As String, ignoreCase As Boolean = True) As List(Of TreePath(Of T))
+  overload: Prowl.Editor.TreePath`1.Search*
+  nameWithType.vb: TreePath(Of T).Search(String, Boolean)
+  fullName.vb: Prowl.Editor.TreePath(Of T).Search(String, Boolean)
+  name.vb: Search(String, Boolean)
+references:
+- uid: Prowl.Editor
+  commentId: N:Prowl.Editor
+  href: Prowl.html
+  name: Prowl.Editor
+  nameWithType: Prowl.Editor
+  fullName: Prowl.Editor
+  spec.csharp:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Editor
+    name: Editor
+    href: Prowl.Editor.html
+  spec.vb:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Editor
+    name: Editor
+    href: Prowl.Editor.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Prowl.Runtime.RuntimeUtils.GetSerializableFields
+  commentId: M:Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  parent: Prowl.Runtime.RuntimeUtils
+  definition: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  name: GetSerializableFields(object)
+  nameWithType: RuntimeUtils.GetSerializableFields(object)
+  fullName: Prowl.Runtime.RuntimeUtils.GetSerializableFields(object)
+  nameWithType.vb: RuntimeUtils.GetSerializableFields(Object)
+  fullName.vb: Prowl.Runtime.RuntimeUtils.GetSerializableFields(Object)
+  name.vb: GetSerializableFields(Object)
+  spec.csharp:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  commentId: M:Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  isExternal: true
+  href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  name: GetSerializableFields(object)
+  nameWithType: RuntimeUtils.GetSerializableFields(object)
+  fullName: Prowl.Runtime.RuntimeUtils.GetSerializableFields(object)
+  nameWithType.vb: RuntimeUtils.GetSerializableFields(Object)
+  fullName.vb: Prowl.Runtime.RuntimeUtils.GetSerializableFields(Object)
+  name.vb: GetSerializableFields(Object)
+  spec.csharp:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: Prowl.Runtime.RuntimeUtils
+  commentId: T:Prowl.Runtime.RuntimeUtils
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.RuntimeUtils.html
+  name: RuntimeUtils
+  nameWithType: RuntimeUtils
+  fullName: Prowl.Runtime.RuntimeUtils
+- uid: Prowl.Runtime
+  commentId: N:Prowl.Runtime
+  href: Prowl.html
+  name: Prowl.Runtime
+  nameWithType: Prowl.Runtime
+  fullName: Prowl.Runtime
+  spec.csharp:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+  spec.vb:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+- uid: Prowl.Editor.TreePath`1.Parent*
+  commentId: Overload:Prowl.Editor.TreePath`1.Parent
+  href: Prowl.Editor.TreePath-1.html#Prowl_Editor_TreePath_1_Parent
+  name: Parent
+  nameWithType: TreePath<T>.Parent
+  fullName: Prowl.Editor.TreePath<T>.Parent
+  nameWithType.vb: TreePath(Of T).Parent
+  fullName.vb: Prowl.Editor.TreePath(Of T).Parent
+- uid: Prowl.Editor.TreePath`1
+  commentId: T:Prowl.Editor.TreePath`1
+  parent: Prowl.Editor
+  href: Prowl.Editor.TreePath-1.html
+  name: TreePath<T>
+  nameWithType: TreePath<T>
+  fullName: Prowl.Editor.TreePath<T>
+  nameWithType.vb: TreePath(Of T)
+  fullName.vb: Prowl.Editor.TreePath(Of T)
+  name.vb: TreePath(Of T)
+  spec.csharp:
+  - uid: Prowl.Editor.TreePath`1
+    name: TreePath
+    href: Prowl.Editor.TreePath-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Prowl.Editor.TreePath`1
+    name: TreePath
+    href: Prowl.Editor.TreePath-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Prowl.Editor.TreePath`1.Name*
+  commentId: Overload:Prowl.Editor.TreePath`1.Name
+  href: Prowl.Editor.TreePath-1.html#Prowl_Editor_TreePath_1_Name
+  name: Name
+  nameWithType: TreePath<T>.Name
+  fullName: Prowl.Editor.TreePath<T>.Name
+  nameWithType.vb: TreePath(Of T).Name
+  fullName.vb: Prowl.Editor.TreePath(Of T).Name
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: Prowl.Editor.TreePath`1.Data*
+  commentId: Overload:Prowl.Editor.TreePath`1.Data
+  href: Prowl.Editor.TreePath-1.html#Prowl_Editor_TreePath_1_Data
+  name: Data
+  nameWithType: TreePath<T>.Data
+  fullName: Prowl.Editor.TreePath<T>.Data
+  nameWithType.vb: TreePath(Of T).Data
+  fullName.vb: Prowl.Editor.TreePath(Of T).Data
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: Prowl.Editor.TreePath`1.Children*
+  commentId: Overload:Prowl.Editor.TreePath`1.Children
+  href: Prowl.Editor.TreePath-1.html#Prowl_Editor_TreePath_1_Children
+  name: Children
+  nameWithType: TreePath<T>.Children
+  fullName: Prowl.Editor.TreePath<T>.Children
+  nameWithType.vb: TreePath(Of T).Children
+  fullName.vb: Prowl.Editor.TreePath(Of T).Children
+- uid: System.Collections.Generic.List{Prowl.Editor.TreePath`1}
+  commentId: T:System.Collections.Generic.List{Prowl.Editor.TreePath`1}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<TreePath<T>>
+  nameWithType: List<TreePath<T>>
+  fullName: System.Collections.Generic.List<Prowl.Editor.TreePath<T>>
+  nameWithType.vb: List(Of TreePath(Of T))
+  fullName.vb: System.Collections.Generic.List(Of Prowl.Editor.TreePath(Of T))
+  name.vb: List(Of TreePath(Of T))
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - uid: Prowl.Editor.TreePath`1
+    name: TreePath
+    href: Prowl.Editor.TreePath-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Prowl.Editor.TreePath`1
+    name: TreePath
+    href: Prowl.Editor.TreePath-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: Prowl.Editor.TreePath`1.#ctor*
+  commentId: Overload:Prowl.Editor.TreePath`1.#ctor
+  href: Prowl.Editor.TreePath-1.html#Prowl_Editor_TreePath_1__ctor
+  name: TreePath
+  nameWithType: TreePath<T>.TreePath
+  fullName: Prowl.Editor.TreePath<T>.TreePath
+  nameWithType.vb: TreePath(Of T).New
+  fullName.vb: Prowl.Editor.TreePath(Of T).New
+  name.vb: New
+- uid: Prowl.Editor.TreePath`1.AddChild*
+  commentId: Overload:Prowl.Editor.TreePath`1.AddChild
+  href: Prowl.Editor.TreePath-1.html#Prowl_Editor_TreePath_1_AddChild_System_String__0_
+  name: AddChild
+  nameWithType: TreePath<T>.AddChild
+  fullName: Prowl.Editor.TreePath<T>.AddChild
+  nameWithType.vb: TreePath(Of T).AddChild
+  fullName.vb: Prowl.Editor.TreePath(Of T).AddChild
+- uid: Prowl.Editor.TreePath`1.FindNode*
+  commentId: Overload:Prowl.Editor.TreePath`1.FindNode
+  href: Prowl.Editor.TreePath-1.html#Prowl_Editor_TreePath_1_FindNode_System_String_
+  name: FindNode
+  nameWithType: TreePath<T>.FindNode
+  fullName: Prowl.Editor.TreePath<T>.FindNode
+  nameWithType.vb: TreePath(Of T).FindNode
+  fullName.vb: Prowl.Editor.TreePath(Of T).FindNode
+- uid: Prowl.Editor.TreePath`1.Search*
+  commentId: Overload:Prowl.Editor.TreePath`1.Search
+  href: Prowl.Editor.TreePath-1.html#Prowl_Editor_TreePath_1_Search_System_String_System_Boolean_
+  name: Search
+  nameWithType: TreePath<T>.Search
+  fullName: Prowl.Editor.TreePath<T>.Search
+  nameWithType.vb: TreePath(Of T).Search
+  fullName.vb: Prowl.Editor.TreePath(Of T).Search
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean

@@ -1,0 +1,2195 @@
+### YamlMime:ManagedReference
+items:
+- uid: Prowl.Runtime.Rect
+  commentId: T:Prowl.Runtime.Rect
+  id: Rect
+  parent: Prowl.Runtime
+  children:
+  - Prowl.Runtime.Rect.#ctor(Prowl.Runtime.Vector2,Prowl.Runtime.Vector2)
+  - Prowl.Runtime.Rect.#ctor(System.Double,System.Double,System.Double,System.Double)
+  - Prowl.Runtime.Rect.Add(Prowl.Runtime.Rect)
+  - Prowl.Runtime.Rect.Add(Prowl.Runtime.Vector2)
+  - Prowl.Runtime.Rect.Bottom
+  - Prowl.Runtime.Rect.BottomLeft
+  - Prowl.Runtime.Rect.BottomRight
+  - Prowl.Runtime.Rect.Center
+  - Prowl.Runtime.Rect.Clip(Prowl.Runtime.Rect)
+  - Prowl.Runtime.Rect.CombineRect(Prowl.Runtime.Rect,Prowl.Runtime.Rect)
+  - Prowl.Runtime.Rect.Contains(Prowl.Runtime.Rect)
+  - Prowl.Runtime.Rect.Contains(Prowl.Runtime.Vector2)
+  - Prowl.Runtime.Rect.CreateFromMinMax(Prowl.Runtime.Vector2,Prowl.Runtime.Vector2)
+  - Prowl.Runtime.Rect.CreateWithBoundary(System.Double,System.Double,System.Double,System.Double)
+  - Prowl.Runtime.Rect.CreateWithCenter(Prowl.Runtime.Vector2,Prowl.Runtime.Vector2)
+  - Prowl.Runtime.Rect.CreateWithCenter(System.Double,System.Double,System.Double,System.Double)
+  - Prowl.Runtime.Rect.Empty
+  - Prowl.Runtime.Rect.Equals(System.Object)
+  - Prowl.Runtime.Rect.Expand(Prowl.Runtime.Vector2)
+  - Prowl.Runtime.Rect.Expand(System.Single)
+  - Prowl.Runtime.Rect.Expand(System.Single,System.Single)
+  - Prowl.Runtime.Rect.GetClosestPoint(Prowl.Runtime.Vector2,System.Boolean)
+  - Prowl.Runtime.Rect.GetHashCode
+  - Prowl.Runtime.Rect.IntersectRect(Prowl.Runtime.Rect,Prowl.Runtime.Rect,Prowl.Runtime.Rect@)
+  - Prowl.Runtime.Rect.Left
+  - Prowl.Runtime.Rect.Max
+  - Prowl.Runtime.Rect.MiddleLeft
+  - Prowl.Runtime.Rect.MiddleRight
+  - Prowl.Runtime.Rect.Min
+  - Prowl.Runtime.Rect.Overlaps(Prowl.Runtime.Rect)
+  - Prowl.Runtime.Rect.Position
+  - Prowl.Runtime.Rect.Reduce(Prowl.Runtime.Vector2)
+  - Prowl.Runtime.Rect.Right
+  - Prowl.Runtime.Rect.Round
+  - Prowl.Runtime.Rect.Size
+  - Prowl.Runtime.Rect.ToString
+  - Prowl.Runtime.Rect.Top
+  - Prowl.Runtime.Rect.TopLeft
+  - Prowl.Runtime.Rect.TopRight
+  - Prowl.Runtime.Rect.Zero
+  - Prowl.Runtime.Rect.height
+  - Prowl.Runtime.Rect.op_Equality(Prowl.Runtime.Rect,Prowl.Runtime.Rect)
+  - Prowl.Runtime.Rect.op_Explicit(Prowl.Runtime.Rect)~Prowl.Runtime.Vector4
+  - Prowl.Runtime.Rect.op_Inequality(Prowl.Runtime.Rect,Prowl.Runtime.Rect)
+  - Prowl.Runtime.Rect.width
+  - Prowl.Runtime.Rect.x
+  - Prowl.Runtime.Rect.y
+  langs:
+  - csharp
+  - vb
+  name: Rect
+  nameWithType: Rect
+  fullName: Prowl.Runtime.Rect
+  type: Struct
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Rect.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Rect
+    path: ../Prowl/Prowl.Runtime/Math/Rect.cs
+    startLine: 35
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public struct Rect
+    content.vb: Public Structure Rect
+  inheritedMembers:
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  extensionMethods:
+  - System.Object.Prowl.Runtime.RuntimeUtils.GetSerializableFields
+- uid: Prowl.Runtime.Rect.Min
+  commentId: F:Prowl.Runtime.Rect.Min
+  id: Min
+  parent: Prowl.Runtime.Rect
+  langs:
+  - csharp
+  - vb
+  name: Min
+  nameWithType: Rect.Min
+  fullName: Prowl.Runtime.Rect.Min
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Rect.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Min
+    path: ../Prowl/Prowl.Runtime/Math/Rect.cs
+    startLine: 37
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public Vector2 Min
+    return:
+      type: Prowl.Runtime.Vector2
+    content.vb: Public Min As Vector2
+- uid: Prowl.Runtime.Rect.Max
+  commentId: F:Prowl.Runtime.Rect.Max
+  id: Max
+  parent: Prowl.Runtime.Rect
+  langs:
+  - csharp
+  - vb
+  name: Max
+  nameWithType: Rect.Max
+  fullName: Prowl.Runtime.Rect.Max
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Rect.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Max
+    path: ../Prowl/Prowl.Runtime/Math/Rect.cs
+    startLine: 38
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public Vector2 Max
+    return:
+      type: Prowl.Runtime.Vector2
+    content.vb: Public Max As Vector2
+- uid: Prowl.Runtime.Rect.Empty
+  commentId: P:Prowl.Runtime.Rect.Empty
+  id: Empty
+  parent: Prowl.Runtime.Rect
+  langs:
+  - csharp
+  - vb
+  name: Empty
+  nameWithType: Rect.Empty
+  fullName: Prowl.Runtime.Rect.Empty
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Rect.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Empty
+    path: ../Prowl/Prowl.Runtime/Math/Rect.cs
+    startLine: 40
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public static Rect Empty { get; }
+    parameters: []
+    return:
+      type: Prowl.Runtime.Rect
+    content.vb: Public Shared ReadOnly Property Empty As Rect
+  overload: Prowl.Runtime.Rect.Empty*
+- uid: Prowl.Runtime.Rect.Zero
+  commentId: P:Prowl.Runtime.Rect.Zero
+  id: Zero
+  parent: Prowl.Runtime.Rect
+  langs:
+  - csharp
+  - vb
+  name: Zero
+  nameWithType: Rect.Zero
+  fullName: Prowl.Runtime.Rect.Zero
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Rect.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Zero
+    path: ../Prowl/Prowl.Runtime/Math/Rect.cs
+    startLine: 49
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public static Rect Zero { get; }
+    parameters: []
+    return:
+      type: Prowl.Runtime.Rect
+    content.vb: Public Shared ReadOnly Property Zero As Rect
+  overload: Prowl.Runtime.Rect.Zero*
+- uid: Prowl.Runtime.Rect.x
+  commentId: P:Prowl.Runtime.Rect.x
+  id: x
+  parent: Prowl.Runtime.Rect
+  langs:
+  - csharp
+  - vb
+  name: x
+  nameWithType: Rect.x
+  fullName: Prowl.Runtime.Rect.x
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Rect.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: x
+    path: ../Prowl/Prowl.Runtime/Math/Rect.cs
+    startLine: 59
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public double x { readonly get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Property x As Double
+  overload: Prowl.Runtime.Rect.x*
+- uid: Prowl.Runtime.Rect.y
+  commentId: P:Prowl.Runtime.Rect.y
+  id: y
+  parent: Prowl.Runtime.Rect
+  langs:
+  - csharp
+  - vb
+  name: y
+  nameWithType: Rect.y
+  fullName: Prowl.Runtime.Rect.y
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Rect.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: y
+    path: ../Prowl/Prowl.Runtime/Math/Rect.cs
+    startLine: 70
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public double y { readonly get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Property y As Double
+  overload: Prowl.Runtime.Rect.y*
+- uid: Prowl.Runtime.Rect.Position
+  commentId: P:Prowl.Runtime.Rect.Position
+  id: Position
+  parent: Prowl.Runtime.Rect
+  langs:
+  - csharp
+  - vb
+  name: Position
+  nameWithType: Rect.Position
+  fullName: Prowl.Runtime.Rect.Position
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Rect.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Position
+    path: ../Prowl/Prowl.Runtime/Math/Rect.cs
+    startLine: 80
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public Vector2 Position { get; set; }
+    parameters: []
+    return:
+      type: Prowl.Runtime.Vector2
+    content.vb: Public Property Position As Vector2
+  overload: Prowl.Runtime.Rect.Position*
+- uid: Prowl.Runtime.Rect.Center
+  commentId: P:Prowl.Runtime.Rect.Center
+  id: Center
+  parent: Prowl.Runtime.Rect
+  langs:
+  - csharp
+  - vb
+  name: Center
+  nameWithType: Rect.Center
+  fullName: Prowl.Runtime.Rect.Center
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Rect.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Center
+    path: ../Prowl/Prowl.Runtime/Math/Rect.cs
+    startLine: 89
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public readonly Vector2 Center { get; }
+    parameters: []
+    return:
+      type: Prowl.Runtime.Vector2
+    content.vb: Public ReadOnly Property Center As Vector2
+  overload: Prowl.Runtime.Rect.Center*
+- uid: Prowl.Runtime.Rect.width
+  commentId: P:Prowl.Runtime.Rect.width
+  id: width
+  parent: Prowl.Runtime.Rect
+  langs:
+  - csharp
+  - vb
+  name: width
+  nameWithType: Rect.width
+  fullName: Prowl.Runtime.Rect.width
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Rect.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: width
+    path: ../Prowl/Prowl.Runtime/Math/Rect.cs
+    startLine: 91
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public double width { readonly get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Property width As Double
+  overload: Prowl.Runtime.Rect.width*
+- uid: Prowl.Runtime.Rect.height
+  commentId: P:Prowl.Runtime.Rect.height
+  id: height
+  parent: Prowl.Runtime.Rect
+  langs:
+  - csharp
+  - vb
+  name: height
+  nameWithType: Rect.height
+  fullName: Prowl.Runtime.Rect.height
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Rect.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: height
+    path: ../Prowl/Prowl.Runtime/Math/Rect.cs
+    startLine: 97
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public double height { readonly get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Property height As Double
+  overload: Prowl.Runtime.Rect.height*
+- uid: Prowl.Runtime.Rect.Size
+  commentId: P:Prowl.Runtime.Rect.Size
+  id: Size
+  parent: Prowl.Runtime.Rect
+  langs:
+  - csharp
+  - vb
+  name: Size
+  nameWithType: Rect.Size
+  fullName: Prowl.Runtime.Rect.Size
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Rect.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Size
+    path: ../Prowl/Prowl.Runtime/Math/Rect.cs
+    startLine: 102
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public readonly Vector2 Size { get; }
+    parameters: []
+    return:
+      type: Prowl.Runtime.Vector2
+    content.vb: Public ReadOnly Property Size As Vector2
+  overload: Prowl.Runtime.Rect.Size*
+- uid: Prowl.Runtime.Rect.Left
+  commentId: P:Prowl.Runtime.Rect.Left
+  id: Left
+  parent: Prowl.Runtime.Rect
+  langs:
+  - csharp
+  - vb
+  name: Left
+  nameWithType: Rect.Left
+  fullName: Prowl.Runtime.Rect.Left
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Rect.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Left
+    path: ../Prowl/Prowl.Runtime/Math/Rect.cs
+    startLine: 104
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public readonly double Left { get; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public ReadOnly Property Left As Double
+  overload: Prowl.Runtime.Rect.Left*
+- uid: Prowl.Runtime.Rect.Right
+  commentId: P:Prowl.Runtime.Rect.Right
+  id: Right
+  parent: Prowl.Runtime.Rect
+  langs:
+  - csharp
+  - vb
+  name: Right
+  nameWithType: Rect.Right
+  fullName: Prowl.Runtime.Rect.Right
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Rect.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Right
+    path: ../Prowl/Prowl.Runtime/Math/Rect.cs
+    startLine: 105
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public readonly double Right { get; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public ReadOnly Property Right As Double
+  overload: Prowl.Runtime.Rect.Right*
+- uid: Prowl.Runtime.Rect.Top
+  commentId: P:Prowl.Runtime.Rect.Top
+  id: Top
+  parent: Prowl.Runtime.Rect
+  langs:
+  - csharp
+  - vb
+  name: Top
+  nameWithType: Rect.Top
+  fullName: Prowl.Runtime.Rect.Top
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Rect.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Top
+    path: ../Prowl/Prowl.Runtime/Math/Rect.cs
+    startLine: 106
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public readonly double Top { get; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public ReadOnly Property Top As Double
+  overload: Prowl.Runtime.Rect.Top*
+- uid: Prowl.Runtime.Rect.Bottom
+  commentId: P:Prowl.Runtime.Rect.Bottom
+  id: Bottom
+  parent: Prowl.Runtime.Rect
+  langs:
+  - csharp
+  - vb
+  name: Bottom
+  nameWithType: Rect.Bottom
+  fullName: Prowl.Runtime.Rect.Bottom
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Rect.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Bottom
+    path: ../Prowl/Prowl.Runtime/Math/Rect.cs
+    startLine: 107
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public readonly double Bottom { get; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public ReadOnly Property Bottom As Double
+  overload: Prowl.Runtime.Rect.Bottom*
+- uid: Prowl.Runtime.Rect.TopLeft
+  commentId: P:Prowl.Runtime.Rect.TopLeft
+  id: TopLeft
+  parent: Prowl.Runtime.Rect
+  langs:
+  - csharp
+  - vb
+  name: TopLeft
+  nameWithType: Rect.TopLeft
+  fullName: Prowl.Runtime.Rect.TopLeft
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Rect.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: TopLeft
+    path: ../Prowl/Prowl.Runtime/Math/Rect.cs
+    startLine: 108
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public readonly Vector2 TopLeft { get; }
+    parameters: []
+    return:
+      type: Prowl.Runtime.Vector2
+    content.vb: Public ReadOnly Property TopLeft As Vector2
+  overload: Prowl.Runtime.Rect.TopLeft*
+- uid: Prowl.Runtime.Rect.MiddleLeft
+  commentId: P:Prowl.Runtime.Rect.MiddleLeft
+  id: MiddleLeft
+  parent: Prowl.Runtime.Rect
+  langs:
+  - csharp
+  - vb
+  name: MiddleLeft
+  nameWithType: Rect.MiddleLeft
+  fullName: Prowl.Runtime.Rect.MiddleLeft
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Rect.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: MiddleLeft
+    path: ../Prowl/Prowl.Runtime/Math/Rect.cs
+    startLine: 109
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public readonly Vector2 MiddleLeft { get; }
+    parameters: []
+    return:
+      type: Prowl.Runtime.Vector2
+    content.vb: Public ReadOnly Property MiddleLeft As Vector2
+  overload: Prowl.Runtime.Rect.MiddleLeft*
+- uid: Prowl.Runtime.Rect.TopRight
+  commentId: P:Prowl.Runtime.Rect.TopRight
+  id: TopRight
+  parent: Prowl.Runtime.Rect
+  langs:
+  - csharp
+  - vb
+  name: TopRight
+  nameWithType: Rect.TopRight
+  fullName: Prowl.Runtime.Rect.TopRight
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Rect.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: TopRight
+    path: ../Prowl/Prowl.Runtime/Math/Rect.cs
+    startLine: 110
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public readonly Vector2 TopRight { get; }
+    parameters: []
+    return:
+      type: Prowl.Runtime.Vector2
+    content.vb: Public ReadOnly Property TopRight As Vector2
+  overload: Prowl.Runtime.Rect.TopRight*
+- uid: Prowl.Runtime.Rect.MiddleRight
+  commentId: P:Prowl.Runtime.Rect.MiddleRight
+  id: MiddleRight
+  parent: Prowl.Runtime.Rect
+  langs:
+  - csharp
+  - vb
+  name: MiddleRight
+  nameWithType: Rect.MiddleRight
+  fullName: Prowl.Runtime.Rect.MiddleRight
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Rect.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: MiddleRight
+    path: ../Prowl/Prowl.Runtime/Math/Rect.cs
+    startLine: 111
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public readonly Vector2 MiddleRight { get; }
+    parameters: []
+    return:
+      type: Prowl.Runtime.Vector2
+    content.vb: Public ReadOnly Property MiddleRight As Vector2
+  overload: Prowl.Runtime.Rect.MiddleRight*
+- uid: Prowl.Runtime.Rect.BottomLeft
+  commentId: P:Prowl.Runtime.Rect.BottomLeft
+  id: BottomLeft
+  parent: Prowl.Runtime.Rect
+  langs:
+  - csharp
+  - vb
+  name: BottomLeft
+  nameWithType: Rect.BottomLeft
+  fullName: Prowl.Runtime.Rect.BottomLeft
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Rect.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: BottomLeft
+    path: ../Prowl/Prowl.Runtime/Math/Rect.cs
+    startLine: 112
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public readonly Vector2 BottomLeft { get; }
+    parameters: []
+    return:
+      type: Prowl.Runtime.Vector2
+    content.vb: Public ReadOnly Property BottomLeft As Vector2
+  overload: Prowl.Runtime.Rect.BottomLeft*
+- uid: Prowl.Runtime.Rect.BottomRight
+  commentId: P:Prowl.Runtime.Rect.BottomRight
+  id: BottomRight
+  parent: Prowl.Runtime.Rect
+  langs:
+  - csharp
+  - vb
+  name: BottomRight
+  nameWithType: Rect.BottomRight
+  fullName: Prowl.Runtime.Rect.BottomRight
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Rect.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: BottomRight
+    path: ../Prowl/Prowl.Runtime/Math/Rect.cs
+    startLine: 113
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public readonly Vector2 BottomRight { get; }
+    parameters: []
+    return:
+      type: Prowl.Runtime.Vector2
+    content.vb: Public ReadOnly Property BottomRight As Vector2
+  overload: Prowl.Runtime.Rect.BottomRight*
+- uid: Prowl.Runtime.Rect.#ctor(Prowl.Runtime.Vector2,Prowl.Runtime.Vector2)
+  commentId: M:Prowl.Runtime.Rect.#ctor(Prowl.Runtime.Vector2,Prowl.Runtime.Vector2)
+  id: '#ctor(Prowl.Runtime.Vector2,Prowl.Runtime.Vector2)'
+  parent: Prowl.Runtime.Rect
+  langs:
+  - csharp
+  - vb
+  name: Rect(Vector2, Vector2)
+  nameWithType: Rect.Rect(Vector2, Vector2)
+  fullName: Prowl.Runtime.Rect.Rect(Prowl.Runtime.Vector2, Prowl.Runtime.Vector2)
+  type: Constructor
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Rect.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: .ctor
+    path: ../Prowl/Prowl.Runtime/Math/Rect.cs
+    startLine: 115
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public Rect(Vector2 position, Vector2 scale)
+    parameters:
+    - id: position
+      type: Prowl.Runtime.Vector2
+    - id: scale
+      type: Prowl.Runtime.Vector2
+    content.vb: Public Sub New(position As Vector2, scale As Vector2)
+  overload: Prowl.Runtime.Rect.#ctor*
+  nameWithType.vb: Rect.New(Vector2, Vector2)
+  fullName.vb: Prowl.Runtime.Rect.New(Prowl.Runtime.Vector2, Prowl.Runtime.Vector2)
+  name.vb: New(Vector2, Vector2)
+- uid: Prowl.Runtime.Rect.#ctor(System.Double,System.Double,System.Double,System.Double)
+  commentId: M:Prowl.Runtime.Rect.#ctor(System.Double,System.Double,System.Double,System.Double)
+  id: '#ctor(System.Double,System.Double,System.Double,System.Double)'
+  parent: Prowl.Runtime.Rect
+  langs:
+  - csharp
+  - vb
+  name: Rect(double, double, double, double)
+  nameWithType: Rect.Rect(double, double, double, double)
+  fullName: Prowl.Runtime.Rect.Rect(double, double, double, double)
+  type: Constructor
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Rect.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: .ctor
+    path: ../Prowl/Prowl.Runtime/Math/Rect.cs
+    startLine: 121
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public Rect(double x, double y, double width, double height)
+    parameters:
+    - id: x
+      type: System.Double
+    - id: y
+      type: System.Double
+    - id: width
+      type: System.Double
+    - id: height
+      type: System.Double
+    content.vb: Public Sub New(x As Double, y As Double, width As Double, height As Double)
+  overload: Prowl.Runtime.Rect.#ctor*
+  nameWithType.vb: Rect.New(Double, Double, Double, Double)
+  fullName.vb: Prowl.Runtime.Rect.New(Double, Double, Double, Double)
+  name.vb: New(Double, Double, Double, Double)
+- uid: Prowl.Runtime.Rect.Contains(Prowl.Runtime.Vector2)
+  commentId: M:Prowl.Runtime.Rect.Contains(Prowl.Runtime.Vector2)
+  id: Contains(Prowl.Runtime.Vector2)
+  parent: Prowl.Runtime.Rect
+  langs:
+  - csharp
+  - vb
+  name: Contains(Vector2)
+  nameWithType: Rect.Contains(Vector2)
+  fullName: Prowl.Runtime.Rect.Contains(Prowl.Runtime.Vector2)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Rect.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Contains
+    path: ../Prowl/Prowl.Runtime/Math/Rect.cs
+    startLine: 123
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public bool Contains(Vector2 p)
+    parameters:
+    - id: p
+      type: Prowl.Runtime.Vector2
+    return:
+      type: System.Boolean
+    content.vb: Public Function Contains(p As Vector2) As Boolean
+  overload: Prowl.Runtime.Rect.Contains*
+- uid: Prowl.Runtime.Rect.Contains(Prowl.Runtime.Rect)
+  commentId: M:Prowl.Runtime.Rect.Contains(Prowl.Runtime.Rect)
+  id: Contains(Prowl.Runtime.Rect)
+  parent: Prowl.Runtime.Rect
+  langs:
+  - csharp
+  - vb
+  name: Contains(Rect)
+  nameWithType: Rect.Contains(Rect)
+  fullName: Prowl.Runtime.Rect.Contains(Prowl.Runtime.Rect)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Rect.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Contains
+    path: ../Prowl/Prowl.Runtime/Math/Rect.cs
+    startLine: 124
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public bool Contains(Rect r)
+    parameters:
+    - id: r
+      type: Prowl.Runtime.Rect
+    return:
+      type: System.Boolean
+    content.vb: Public Function Contains(r As Rect) As Boolean
+  overload: Prowl.Runtime.Rect.Contains*
+- uid: Prowl.Runtime.Rect.Overlaps(Prowl.Runtime.Rect)
+  commentId: M:Prowl.Runtime.Rect.Overlaps(Prowl.Runtime.Rect)
+  id: Overlaps(Prowl.Runtime.Rect)
+  parent: Prowl.Runtime.Rect
+  langs:
+  - csharp
+  - vb
+  name: Overlaps(Rect)
+  nameWithType: Rect.Overlaps(Rect)
+  fullName: Prowl.Runtime.Rect.Overlaps(Prowl.Runtime.Rect)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Rect.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Overlaps
+    path: ../Prowl/Prowl.Runtime/Math/Rect.cs
+    startLine: 125
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public bool Overlaps(Rect r)
+    parameters:
+    - id: r
+      type: Prowl.Runtime.Rect
+    return:
+      type: System.Boolean
+    content.vb: Public Function Overlaps(r As Rect) As Boolean
+  overload: Prowl.Runtime.Rect.Overlaps*
+- uid: Prowl.Runtime.Rect.Add(Prowl.Runtime.Vector2)
+  commentId: M:Prowl.Runtime.Rect.Add(Prowl.Runtime.Vector2)
+  id: Add(Prowl.Runtime.Vector2)
+  parent: Prowl.Runtime.Rect
+  langs:
+  - csharp
+  - vb
+  name: Add(Vector2)
+  nameWithType: Rect.Add(Vector2)
+  fullName: Prowl.Runtime.Rect.Add(Prowl.Runtime.Vector2)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Rect.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Add
+    path: ../Prowl/Prowl.Runtime/Math/Rect.cs
+    startLine: 126
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public void Add(Vector2 rhs)
+    parameters:
+    - id: rhs
+      type: Prowl.Runtime.Vector2
+    content.vb: Public Sub Add(rhs As Vector2)
+  overload: Prowl.Runtime.Rect.Add*
+- uid: Prowl.Runtime.Rect.Add(Prowl.Runtime.Rect)
+  commentId: M:Prowl.Runtime.Rect.Add(Prowl.Runtime.Rect)
+  id: Add(Prowl.Runtime.Rect)
+  parent: Prowl.Runtime.Rect
+  langs:
+  - csharp
+  - vb
+  name: Add(Rect)
+  nameWithType: Rect.Add(Rect)
+  fullName: Prowl.Runtime.Rect.Add(Prowl.Runtime.Rect)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Rect.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Add
+    path: ../Prowl/Prowl.Runtime/Math/Rect.cs
+    startLine: 127
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public void Add(Rect rhs)
+    parameters:
+    - id: rhs
+      type: Prowl.Runtime.Rect
+    content.vb: Public Sub Add(rhs As Rect)
+  overload: Prowl.Runtime.Rect.Add*
+- uid: Prowl.Runtime.Rect.Expand(System.Single)
+  commentId: M:Prowl.Runtime.Rect.Expand(System.Single)
+  id: Expand(System.Single)
+  parent: Prowl.Runtime.Rect
+  langs:
+  - csharp
+  - vb
+  name: Expand(float)
+  nameWithType: Rect.Expand(float)
+  fullName: Prowl.Runtime.Rect.Expand(float)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Rect.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Expand
+    path: ../Prowl/Prowl.Runtime/Math/Rect.cs
+    startLine: 128
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public void Expand(float amount)
+    parameters:
+    - id: amount
+      type: System.Single
+    content.vb: Public Sub Expand(amount As Single)
+  overload: Prowl.Runtime.Rect.Expand*
+  nameWithType.vb: Rect.Expand(Single)
+  fullName.vb: Prowl.Runtime.Rect.Expand(Single)
+  name.vb: Expand(Single)
+- uid: Prowl.Runtime.Rect.Expand(System.Single,System.Single)
+  commentId: M:Prowl.Runtime.Rect.Expand(System.Single,System.Single)
+  id: Expand(System.Single,System.Single)
+  parent: Prowl.Runtime.Rect
+  langs:
+  - csharp
+  - vb
+  name: Expand(float, float)
+  nameWithType: Rect.Expand(float, float)
+  fullName: Prowl.Runtime.Rect.Expand(float, float)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Rect.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Expand
+    path: ../Prowl/Prowl.Runtime/Math/Rect.cs
+    startLine: 129
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public void Expand(float horizontal, float vertical)
+    parameters:
+    - id: horizontal
+      type: System.Single
+    - id: vertical
+      type: System.Single
+    content.vb: Public Sub Expand(horizontal As Single, vertical As Single)
+  overload: Prowl.Runtime.Rect.Expand*
+  nameWithType.vb: Rect.Expand(Single, Single)
+  fullName.vb: Prowl.Runtime.Rect.Expand(Single, Single)
+  name.vb: Expand(Single, Single)
+- uid: Prowl.Runtime.Rect.Expand(Prowl.Runtime.Vector2)
+  commentId: M:Prowl.Runtime.Rect.Expand(Prowl.Runtime.Vector2)
+  id: Expand(Prowl.Runtime.Vector2)
+  parent: Prowl.Runtime.Rect
+  langs:
+  - csharp
+  - vb
+  name: Expand(Vector2)
+  nameWithType: Rect.Expand(Vector2)
+  fullName: Prowl.Runtime.Rect.Expand(Prowl.Runtime.Vector2)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Rect.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Expand
+    path: ../Prowl/Prowl.Runtime/Math/Rect.cs
+    startLine: 130
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public void Expand(Vector2 amount)
+    parameters:
+    - id: amount
+      type: Prowl.Runtime.Vector2
+    content.vb: Public Sub Expand(amount As Vector2)
+  overload: Prowl.Runtime.Rect.Expand*
+- uid: Prowl.Runtime.Rect.Reduce(Prowl.Runtime.Vector2)
+  commentId: M:Prowl.Runtime.Rect.Reduce(Prowl.Runtime.Vector2)
+  id: Reduce(Prowl.Runtime.Vector2)
+  parent: Prowl.Runtime.Rect
+  langs:
+  - csharp
+  - vb
+  name: Reduce(Vector2)
+  nameWithType: Rect.Reduce(Vector2)
+  fullName: Prowl.Runtime.Rect.Reduce(Prowl.Runtime.Vector2)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Rect.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Reduce
+    path: ../Prowl/Prowl.Runtime/Math/Rect.cs
+    startLine: 131
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public void Reduce(Vector2 amount)
+    parameters:
+    - id: amount
+      type: Prowl.Runtime.Vector2
+    content.vb: Public Sub Reduce(amount As Vector2)
+  overload: Prowl.Runtime.Rect.Reduce*
+- uid: Prowl.Runtime.Rect.Clip(Prowl.Runtime.Rect)
+  commentId: M:Prowl.Runtime.Rect.Clip(Prowl.Runtime.Rect)
+  id: Clip(Prowl.Runtime.Rect)
+  parent: Prowl.Runtime.Rect
+  langs:
+  - csharp
+  - vb
+  name: Clip(Rect)
+  nameWithType: Rect.Clip(Rect)
+  fullName: Prowl.Runtime.Rect.Clip(Prowl.Runtime.Rect)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Rect.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Clip
+    path: ../Prowl/Prowl.Runtime/Math/Rect.cs
+    startLine: 132
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public void Clip(Rect clip)
+    parameters:
+    - id: clip
+      type: Prowl.Runtime.Rect
+    content.vb: Public Sub Clip(clip As Rect)
+  overload: Prowl.Runtime.Rect.Clip*
+- uid: Prowl.Runtime.Rect.Round
+  commentId: M:Prowl.Runtime.Rect.Round
+  id: Round
+  parent: Prowl.Runtime.Rect
+  langs:
+  - csharp
+  - vb
+  name: Round()
+  nameWithType: Rect.Round()
+  fullName: Prowl.Runtime.Rect.Round()
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Rect.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Round
+    path: ../Prowl/Prowl.Runtime/Math/Rect.cs
+    startLine: 133
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public void Round()
+    content.vb: Public Sub Round()
+  overload: Prowl.Runtime.Rect.Round*
+- uid: Prowl.Runtime.Rect.IntersectRect(Prowl.Runtime.Rect,Prowl.Runtime.Rect,Prowl.Runtime.Rect@)
+  commentId: M:Prowl.Runtime.Rect.IntersectRect(Prowl.Runtime.Rect,Prowl.Runtime.Rect,Prowl.Runtime.Rect@)
+  id: IntersectRect(Prowl.Runtime.Rect,Prowl.Runtime.Rect,Prowl.Runtime.Rect@)
+  parent: Prowl.Runtime.Rect
+  langs:
+  - csharp
+  - vb
+  name: IntersectRect(Rect, Rect, ref Rect)
+  nameWithType: Rect.IntersectRect(Rect, Rect, ref Rect)
+  fullName: Prowl.Runtime.Rect.IntersectRect(Prowl.Runtime.Rect, Prowl.Runtime.Rect, ref Prowl.Runtime.Rect)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Rect.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: IntersectRect
+    path: ../Prowl/Prowl.Runtime/Math/Rect.cs
+    startLine: 135
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public static bool IntersectRect(Rect Left, Rect Right, ref Rect Result)
+    parameters:
+    - id: Left
+      type: Prowl.Runtime.Rect
+    - id: Right
+      type: Prowl.Runtime.Rect
+    - id: Result
+      type: Prowl.Runtime.Rect
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function IntersectRect(Left As Rect, Right As Rect, Result As Rect) As Boolean
+  overload: Prowl.Runtime.Rect.IntersectRect*
+  nameWithType.vb: Rect.IntersectRect(Rect, Rect, Rect)
+  fullName.vb: Prowl.Runtime.Rect.IntersectRect(Prowl.Runtime.Rect, Prowl.Runtime.Rect, Prowl.Runtime.Rect)
+  name.vb: IntersectRect(Rect, Rect, Rect)
+- uid: Prowl.Runtime.Rect.CombineRect(Prowl.Runtime.Rect,Prowl.Runtime.Rect)
+  commentId: M:Prowl.Runtime.Rect.CombineRect(Prowl.Runtime.Rect,Prowl.Runtime.Rect)
+  id: CombineRect(Prowl.Runtime.Rect,Prowl.Runtime.Rect)
+  parent: Prowl.Runtime.Rect
+  langs:
+  - csharp
+  - vb
+  name: CombineRect(Rect, Rect)
+  nameWithType: Rect.CombineRect(Rect, Rect)
+  fullName: Prowl.Runtime.Rect.CombineRect(Prowl.Runtime.Rect, Prowl.Runtime.Rect)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Rect.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: CombineRect
+    path: ../Prowl/Prowl.Runtime/Math/Rect.cs
+    startLine: 148
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public static Rect CombineRect(Rect a, Rect b)
+    parameters:
+    - id: a
+      type: Prowl.Runtime.Rect
+    - id: b
+      type: Prowl.Runtime.Rect
+    return:
+      type: Prowl.Runtime.Rect
+    content.vb: Public Shared Function CombineRect(a As Rect, b As Rect) As Rect
+  overload: Prowl.Runtime.Rect.CombineRect*
+- uid: Prowl.Runtime.Rect.GetClosestPoint(Prowl.Runtime.Vector2,System.Boolean)
+  commentId: M:Prowl.Runtime.Rect.GetClosestPoint(Prowl.Runtime.Vector2,System.Boolean)
+  id: GetClosestPoint(Prowl.Runtime.Vector2,System.Boolean)
+  parent: Prowl.Runtime.Rect
+  langs:
+  - csharp
+  - vb
+  name: GetClosestPoint(Vector2, bool)
+  nameWithType: Rect.GetClosestPoint(Vector2, bool)
+  fullName: Prowl.Runtime.Rect.GetClosestPoint(Prowl.Runtime.Vector2, bool)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Rect.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: GetClosestPoint
+    path: ../Prowl/Prowl.Runtime/Math/Rect.cs
+    startLine: 158
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public Vector2 GetClosestPoint(Vector2 p, bool on_edge)
+    parameters:
+    - id: p
+      type: Prowl.Runtime.Vector2
+    - id: on_edge
+      type: System.Boolean
+    return:
+      type: Prowl.Runtime.Vector2
+    content.vb: Public Function GetClosestPoint(p As Vector2, on_edge As Boolean) As Vector2
+  overload: Prowl.Runtime.Rect.GetClosestPoint*
+  nameWithType.vb: Rect.GetClosestPoint(Vector2, Boolean)
+  fullName.vb: Prowl.Runtime.Rect.GetClosestPoint(Prowl.Runtime.Vector2, Boolean)
+  name.vb: GetClosestPoint(Vector2, Boolean)
+- uid: Prowl.Runtime.Rect.ToString
+  commentId: M:Prowl.Runtime.Rect.ToString
+  id: ToString
+  parent: Prowl.Runtime.Rect
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: Rect.ToString()
+  fullName: Prowl.Runtime.Rect.ToString()
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Rect.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: ToString
+    path: ../Prowl/Prowl.Runtime/Math/Rect.cs
+    startLine: 169
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: Returns the fully qualified type name of this instance.
+  example: []
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+      description: The fully qualified type name.
+    content.vb: Public Overrides Function ToString() As String
+  overridden: System.ValueType.ToString
+  overload: Prowl.Runtime.Rect.ToString*
+- uid: Prowl.Runtime.Rect.CreateFromMinMax(Prowl.Runtime.Vector2,Prowl.Runtime.Vector2)
+  commentId: M:Prowl.Runtime.Rect.CreateFromMinMax(Prowl.Runtime.Vector2,Prowl.Runtime.Vector2)
+  id: CreateFromMinMax(Prowl.Runtime.Vector2,Prowl.Runtime.Vector2)
+  parent: Prowl.Runtime.Rect
+  langs:
+  - csharp
+  - vb
+  name: CreateFromMinMax(Vector2, Vector2)
+  nameWithType: Rect.CreateFromMinMax(Vector2, Vector2)
+  fullName: Prowl.Runtime.Rect.CreateFromMinMax(Prowl.Runtime.Vector2, Prowl.Runtime.Vector2)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Rect.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: CreateFromMinMax
+    path: ../Prowl/Prowl.Runtime/Math/Rect.cs
+    startLine: 174
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public static Rect CreateFromMinMax(Vector2 min, Vector2 max)
+    parameters:
+    - id: min
+      type: Prowl.Runtime.Vector2
+    - id: max
+      type: Prowl.Runtime.Vector2
+    return:
+      type: Prowl.Runtime.Rect
+    content.vb: Public Shared Function CreateFromMinMax(min As Vector2, max As Vector2) As Rect
+  overload: Prowl.Runtime.Rect.CreateFromMinMax*
+- uid: Prowl.Runtime.Rect.CreateWithCenter(Prowl.Runtime.Vector2,Prowl.Runtime.Vector2)
+  commentId: M:Prowl.Runtime.Rect.CreateWithCenter(Prowl.Runtime.Vector2,Prowl.Runtime.Vector2)
+  id: CreateWithCenter(Prowl.Runtime.Vector2,Prowl.Runtime.Vector2)
+  parent: Prowl.Runtime.Rect
+  langs:
+  - csharp
+  - vb
+  name: CreateWithCenter(Vector2, Vector2)
+  nameWithType: Rect.CreateWithCenter(Vector2, Vector2)
+  fullName: Prowl.Runtime.Rect.CreateWithCenter(Prowl.Runtime.Vector2, Prowl.Runtime.Vector2)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Rect.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: CreateWithCenter
+    path: ../Prowl/Prowl.Runtime/Math/Rect.cs
+    startLine: 176
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public static Rect CreateWithCenter(Vector2 CenterPos, Vector2 Size)
+    parameters:
+    - id: CenterPos
+      type: Prowl.Runtime.Vector2
+    - id: Size
+      type: Prowl.Runtime.Vector2
+    return:
+      type: Prowl.Runtime.Rect
+    content.vb: Public Shared Function CreateWithCenter(CenterPos As Vector2, Size As Vector2) As Rect
+  overload: Prowl.Runtime.Rect.CreateWithCenter*
+- uid: Prowl.Runtime.Rect.CreateWithCenter(System.Double,System.Double,System.Double,System.Double)
+  commentId: M:Prowl.Runtime.Rect.CreateWithCenter(System.Double,System.Double,System.Double,System.Double)
+  id: CreateWithCenter(System.Double,System.Double,System.Double,System.Double)
+  parent: Prowl.Runtime.Rect
+  langs:
+  - csharp
+  - vb
+  name: CreateWithCenter(double, double, double, double)
+  nameWithType: Rect.CreateWithCenter(double, double, double, double)
+  fullName: Prowl.Runtime.Rect.CreateWithCenter(double, double, double, double)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Rect.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: CreateWithCenter
+    path: ../Prowl/Prowl.Runtime/Math/Rect.cs
+    startLine: 181
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public static Rect CreateWithCenter(double CenterX, double CenterY, double Width, double Height)
+    parameters:
+    - id: CenterX
+      type: System.Double
+    - id: CenterY
+      type: System.Double
+    - id: Width
+      type: System.Double
+    - id: Height
+      type: System.Double
+    return:
+      type: Prowl.Runtime.Rect
+    content.vb: Public Shared Function CreateWithCenter(CenterX As Double, CenterY As Double, Width As Double, Height As Double) As Rect
+  overload: Prowl.Runtime.Rect.CreateWithCenter*
+  nameWithType.vb: Rect.CreateWithCenter(Double, Double, Double, Double)
+  fullName.vb: Prowl.Runtime.Rect.CreateWithCenter(Double, Double, Double, Double)
+  name.vb: CreateWithCenter(Double, Double, Double, Double)
+- uid: Prowl.Runtime.Rect.CreateWithBoundary(System.Double,System.Double,System.Double,System.Double)
+  commentId: M:Prowl.Runtime.Rect.CreateWithBoundary(System.Double,System.Double,System.Double,System.Double)
+  id: CreateWithBoundary(System.Double,System.Double,System.Double,System.Double)
+  parent: Prowl.Runtime.Rect
+  langs:
+  - csharp
+  - vb
+  name: CreateWithBoundary(double, double, double, double)
+  nameWithType: Rect.CreateWithBoundary(double, double, double, double)
+  fullName: Prowl.Runtime.Rect.CreateWithBoundary(double, double, double, double)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Rect.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: CreateWithBoundary
+    path: ../Prowl/Prowl.Runtime/Math/Rect.cs
+    startLine: 186
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public static Rect CreateWithBoundary(double Left, double Top, double Right, double Bottom)
+    parameters:
+    - id: Left
+      type: System.Double
+    - id: Top
+      type: System.Double
+    - id: Right
+      type: System.Double
+    - id: Bottom
+      type: System.Double
+    return:
+      type: Prowl.Runtime.Rect
+    content.vb: Public Shared Function CreateWithBoundary(Left As Double, Top As Double, Right As Double, Bottom As Double) As Rect
+  overload: Prowl.Runtime.Rect.CreateWithBoundary*
+  nameWithType.vb: Rect.CreateWithBoundary(Double, Double, Double, Double)
+  fullName.vb: Prowl.Runtime.Rect.CreateWithBoundary(Double, Double, Double, Double)
+  name.vb: CreateWithBoundary(Double, Double, Double, Double)
+- uid: Prowl.Runtime.Rect.op_Explicit(Prowl.Runtime.Rect)~Prowl.Runtime.Vector4
+  commentId: M:Prowl.Runtime.Rect.op_Explicit(Prowl.Runtime.Rect)~Prowl.Runtime.Vector4
+  id: op_Explicit(Prowl.Runtime.Rect)~Prowl.Runtime.Vector4
+  parent: Prowl.Runtime.Rect
+  langs:
+  - csharp
+  - vb
+  name: explicit operator Vector4(Rect)
+  nameWithType: Rect.explicit operator Vector4(Rect)
+  fullName: Prowl.Runtime.Rect.explicit operator Prowl.Runtime.Vector4(Prowl.Runtime.Rect)
+  type: Operator
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Rect.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: op_Explicit
+    path: ../Prowl/Prowl.Runtime/Math/Rect.cs
+    startLine: 196
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public static explicit operator Vector4(Rect v)
+    parameters:
+    - id: v
+      type: Prowl.Runtime.Rect
+    return:
+      type: Prowl.Runtime.Vector4
+    content.vb: Public Shared Narrowing Operator CType(v As Rect) As Vector4
+  overload: Prowl.Runtime.Rect.op_Explicit*
+  nameWithType.vb: Rect.CType(Rect)
+  fullName.vb: Prowl.Runtime.Rect.CType(Prowl.Runtime.Rect)
+  name.vb: CType(Rect)
+- uid: Prowl.Runtime.Rect.op_Equality(Prowl.Runtime.Rect,Prowl.Runtime.Rect)
+  commentId: M:Prowl.Runtime.Rect.op_Equality(Prowl.Runtime.Rect,Prowl.Runtime.Rect)
+  id: op_Equality(Prowl.Runtime.Rect,Prowl.Runtime.Rect)
+  parent: Prowl.Runtime.Rect
+  langs:
+  - csharp
+  - vb
+  name: operator ==(Rect, Rect)
+  nameWithType: Rect.operator ==(Rect, Rect)
+  fullName: Prowl.Runtime.Rect.operator ==(Prowl.Runtime.Rect, Prowl.Runtime.Rect)
+  type: Operator
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Rect.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: op_Equality
+    path: ../Prowl/Prowl.Runtime/Math/Rect.cs
+    startLine: 201
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public static bool operator ==(Rect a, Rect b)
+    parameters:
+    - id: a
+      type: Prowl.Runtime.Rect
+    - id: b
+      type: Prowl.Runtime.Rect
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Operator =(a As Rect, b As Rect) As Boolean
+  overload: Prowl.Runtime.Rect.op_Equality*
+  nameWithType.vb: Rect.=(Rect, Rect)
+  fullName.vb: Prowl.Runtime.Rect.=(Prowl.Runtime.Rect, Prowl.Runtime.Rect)
+  name.vb: =(Rect, Rect)
+- uid: Prowl.Runtime.Rect.op_Inequality(Prowl.Runtime.Rect,Prowl.Runtime.Rect)
+  commentId: M:Prowl.Runtime.Rect.op_Inequality(Prowl.Runtime.Rect,Prowl.Runtime.Rect)
+  id: op_Inequality(Prowl.Runtime.Rect,Prowl.Runtime.Rect)
+  parent: Prowl.Runtime.Rect
+  langs:
+  - csharp
+  - vb
+  name: operator !=(Rect, Rect)
+  nameWithType: Rect.operator !=(Rect, Rect)
+  fullName: Prowl.Runtime.Rect.operator !=(Prowl.Runtime.Rect, Prowl.Runtime.Rect)
+  type: Operator
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Rect.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: op_Inequality
+    path: ../Prowl/Prowl.Runtime/Math/Rect.cs
+    startLine: 202
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public static bool operator !=(Rect a, Rect b)
+    parameters:
+    - id: a
+      type: Prowl.Runtime.Rect
+    - id: b
+      type: Prowl.Runtime.Rect
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Operator <>(a As Rect, b As Rect) As Boolean
+  overload: Prowl.Runtime.Rect.op_Inequality*
+  nameWithType.vb: Rect.<>(Rect, Rect)
+  fullName.vb: Prowl.Runtime.Rect.<>(Prowl.Runtime.Rect, Prowl.Runtime.Rect)
+  name.vb: <>(Rect, Rect)
+- uid: Prowl.Runtime.Rect.Equals(System.Object)
+  commentId: M:Prowl.Runtime.Rect.Equals(System.Object)
+  id: Equals(System.Object)
+  parent: Prowl.Runtime.Rect
+  langs:
+  - csharp
+  - vb
+  name: Equals(object?)
+  nameWithType: Rect.Equals(object?)
+  fullName: Prowl.Runtime.Rect.Equals(object?)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Rect.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Equals
+    path: ../Prowl/Prowl.Runtime/Math/Rect.cs
+    startLine: 204
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: Indicates whether this instance and a specified object are equal.
+  example: []
+  syntax:
+    content: public override bool Equals(object? obj)
+    parameters:
+    - id: obj
+      type: System.Object
+      description: The object to compare with the current instance.
+    return:
+      type: System.Boolean
+      description: <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if <code class="paramref">obj</code> and this instance are the same type and represent the same value; otherwise, <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a>.
+    content.vb: Public Overrides Function Equals(obj As Object) As Boolean
+  overridden: System.ValueType.Equals(System.Object)
+  overload: Prowl.Runtime.Rect.Equals*
+  nameWithType.vb: Rect.Equals(Object)
+  fullName.vb: Prowl.Runtime.Rect.Equals(Object)
+  name.vb: Equals(Object)
+- uid: Prowl.Runtime.Rect.GetHashCode
+  commentId: M:Prowl.Runtime.Rect.GetHashCode
+  id: GetHashCode
+  parent: Prowl.Runtime.Rect
+  langs:
+  - csharp
+  - vb
+  name: GetHashCode()
+  nameWithType: Rect.GetHashCode()
+  fullName: Prowl.Runtime.Rect.GetHashCode()
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Rect.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: GetHashCode
+    path: ../Prowl/Prowl.Runtime/Math/Rect.cs
+    startLine: 205
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: Returns the hash code for this instance.
+  example: []
+  syntax:
+    content: public override int GetHashCode()
+    return:
+      type: System.Int32
+      description: A 32-bit signed integer that is the hash code for this instance.
+    content.vb: Public Overrides Function GetHashCode() As Integer
+  overridden: System.ValueType.GetHashCode
+  overload: Prowl.Runtime.Rect.GetHashCode*
+references:
+- uid: Prowl.Runtime
+  commentId: N:Prowl.Runtime
+  href: Prowl.html
+  name: Prowl.Runtime
+  nameWithType: Prowl.Runtime
+  fullName: Prowl.Runtime
+  spec.csharp:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+  spec.vb:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Prowl.Runtime.RuntimeUtils.GetSerializableFields
+  commentId: M:Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  parent: Prowl.Runtime.RuntimeUtils
+  definition: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  name: GetSerializableFields(object)
+  nameWithType: RuntimeUtils.GetSerializableFields(object)
+  fullName: Prowl.Runtime.RuntimeUtils.GetSerializableFields(object)
+  nameWithType.vb: RuntimeUtils.GetSerializableFields(Object)
+  fullName.vb: Prowl.Runtime.RuntimeUtils.GetSerializableFields(Object)
+  name.vb: GetSerializableFields(Object)
+  spec.csharp:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  commentId: M:Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  isExternal: true
+  href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  name: GetSerializableFields(object)
+  nameWithType: RuntimeUtils.GetSerializableFields(object)
+  fullName: Prowl.Runtime.RuntimeUtils.GetSerializableFields(object)
+  nameWithType.vb: RuntimeUtils.GetSerializableFields(Object)
+  fullName.vb: Prowl.Runtime.RuntimeUtils.GetSerializableFields(Object)
+  name.vb: GetSerializableFields(Object)
+  spec.csharp:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: Prowl.Runtime.RuntimeUtils
+  commentId: T:Prowl.Runtime.RuntimeUtils
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.RuntimeUtils.html
+  name: RuntimeUtils
+  nameWithType: RuntimeUtils
+  fullName: Prowl.Runtime.RuntimeUtils
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Prowl.Runtime.Vector2
+  commentId: T:Prowl.Runtime.Vector2
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.Vector2.html
+  name: Vector2
+  nameWithType: Vector2
+  fullName: Prowl.Runtime.Vector2
+- uid: Prowl.Runtime.Rect.Empty*
+  commentId: Overload:Prowl.Runtime.Rect.Empty
+  href: Prowl.Runtime.Rect.html#Prowl_Runtime_Rect_Empty
+  name: Empty
+  nameWithType: Rect.Empty
+  fullName: Prowl.Runtime.Rect.Empty
+- uid: Prowl.Runtime.Rect
+  commentId: T:Prowl.Runtime.Rect
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.Rect.html
+  name: Rect
+  nameWithType: Rect
+  fullName: Prowl.Runtime.Rect
+- uid: Prowl.Runtime.Rect.Zero*
+  commentId: Overload:Prowl.Runtime.Rect.Zero
+  href: Prowl.Runtime.Rect.html#Prowl_Runtime_Rect_Zero
+  name: Zero
+  nameWithType: Rect.Zero
+  fullName: Prowl.Runtime.Rect.Zero
+- uid: Prowl.Runtime.Rect.x*
+  commentId: Overload:Prowl.Runtime.Rect.x
+  href: Prowl.Runtime.Rect.html#Prowl_Runtime_Rect_x
+  name: x
+  nameWithType: Rect.x
+  fullName: Prowl.Runtime.Rect.x
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.double
+  name: double
+  nameWithType: double
+  fullName: double
+  nameWithType.vb: Double
+  fullName.vb: Double
+  name.vb: Double
+- uid: Prowl.Runtime.Rect.y*
+  commentId: Overload:Prowl.Runtime.Rect.y
+  href: Prowl.Runtime.Rect.html#Prowl_Runtime_Rect_y
+  name: y
+  nameWithType: Rect.y
+  fullName: Prowl.Runtime.Rect.y
+- uid: Prowl.Runtime.Rect.Position*
+  commentId: Overload:Prowl.Runtime.Rect.Position
+  href: Prowl.Runtime.Rect.html#Prowl_Runtime_Rect_Position
+  name: Position
+  nameWithType: Rect.Position
+  fullName: Prowl.Runtime.Rect.Position
+- uid: Prowl.Runtime.Rect.Center*
+  commentId: Overload:Prowl.Runtime.Rect.Center
+  href: Prowl.Runtime.Rect.html#Prowl_Runtime_Rect_Center
+  name: Center
+  nameWithType: Rect.Center
+  fullName: Prowl.Runtime.Rect.Center
+- uid: Prowl.Runtime.Rect.width*
+  commentId: Overload:Prowl.Runtime.Rect.width
+  href: Prowl.Runtime.Rect.html#Prowl_Runtime_Rect_width
+  name: width
+  nameWithType: Rect.width
+  fullName: Prowl.Runtime.Rect.width
+- uid: Prowl.Runtime.Rect.height*
+  commentId: Overload:Prowl.Runtime.Rect.height
+  href: Prowl.Runtime.Rect.html#Prowl_Runtime_Rect_height
+  name: height
+  nameWithType: Rect.height
+  fullName: Prowl.Runtime.Rect.height
+- uid: Prowl.Runtime.Rect.Size*
+  commentId: Overload:Prowl.Runtime.Rect.Size
+  href: Prowl.Runtime.Rect.html#Prowl_Runtime_Rect_Size
+  name: Size
+  nameWithType: Rect.Size
+  fullName: Prowl.Runtime.Rect.Size
+- uid: Prowl.Runtime.Rect.Left*
+  commentId: Overload:Prowl.Runtime.Rect.Left
+  href: Prowl.Runtime.Rect.html#Prowl_Runtime_Rect_Left
+  name: Left
+  nameWithType: Rect.Left
+  fullName: Prowl.Runtime.Rect.Left
+- uid: Prowl.Runtime.Rect.Right*
+  commentId: Overload:Prowl.Runtime.Rect.Right
+  href: Prowl.Runtime.Rect.html#Prowl_Runtime_Rect_Right
+  name: Right
+  nameWithType: Rect.Right
+  fullName: Prowl.Runtime.Rect.Right
+- uid: Prowl.Runtime.Rect.Top*
+  commentId: Overload:Prowl.Runtime.Rect.Top
+  href: Prowl.Runtime.Rect.html#Prowl_Runtime_Rect_Top
+  name: Top
+  nameWithType: Rect.Top
+  fullName: Prowl.Runtime.Rect.Top
+- uid: Prowl.Runtime.Rect.Bottom*
+  commentId: Overload:Prowl.Runtime.Rect.Bottom
+  href: Prowl.Runtime.Rect.html#Prowl_Runtime_Rect_Bottom
+  name: Bottom
+  nameWithType: Rect.Bottom
+  fullName: Prowl.Runtime.Rect.Bottom
+- uid: Prowl.Runtime.Rect.TopLeft*
+  commentId: Overload:Prowl.Runtime.Rect.TopLeft
+  href: Prowl.Runtime.Rect.html#Prowl_Runtime_Rect_TopLeft
+  name: TopLeft
+  nameWithType: Rect.TopLeft
+  fullName: Prowl.Runtime.Rect.TopLeft
+- uid: Prowl.Runtime.Rect.MiddleLeft*
+  commentId: Overload:Prowl.Runtime.Rect.MiddleLeft
+  href: Prowl.Runtime.Rect.html#Prowl_Runtime_Rect_MiddleLeft
+  name: MiddleLeft
+  nameWithType: Rect.MiddleLeft
+  fullName: Prowl.Runtime.Rect.MiddleLeft
+- uid: Prowl.Runtime.Rect.TopRight*
+  commentId: Overload:Prowl.Runtime.Rect.TopRight
+  href: Prowl.Runtime.Rect.html#Prowl_Runtime_Rect_TopRight
+  name: TopRight
+  nameWithType: Rect.TopRight
+  fullName: Prowl.Runtime.Rect.TopRight
+- uid: Prowl.Runtime.Rect.MiddleRight*
+  commentId: Overload:Prowl.Runtime.Rect.MiddleRight
+  href: Prowl.Runtime.Rect.html#Prowl_Runtime_Rect_MiddleRight
+  name: MiddleRight
+  nameWithType: Rect.MiddleRight
+  fullName: Prowl.Runtime.Rect.MiddleRight
+- uid: Prowl.Runtime.Rect.BottomLeft*
+  commentId: Overload:Prowl.Runtime.Rect.BottomLeft
+  href: Prowl.Runtime.Rect.html#Prowl_Runtime_Rect_BottomLeft
+  name: BottomLeft
+  nameWithType: Rect.BottomLeft
+  fullName: Prowl.Runtime.Rect.BottomLeft
+- uid: Prowl.Runtime.Rect.BottomRight*
+  commentId: Overload:Prowl.Runtime.Rect.BottomRight
+  href: Prowl.Runtime.Rect.html#Prowl_Runtime_Rect_BottomRight
+  name: BottomRight
+  nameWithType: Rect.BottomRight
+  fullName: Prowl.Runtime.Rect.BottomRight
+- uid: Prowl.Runtime.Rect.#ctor*
+  commentId: Overload:Prowl.Runtime.Rect.#ctor
+  href: Prowl.Runtime.Rect.html#Prowl_Runtime_Rect__ctor_Prowl_Runtime_Vector2_Prowl_Runtime_Vector2_
+  name: Rect
+  nameWithType: Rect.Rect
+  fullName: Prowl.Runtime.Rect.Rect
+  nameWithType.vb: Rect.New
+  fullName.vb: Prowl.Runtime.Rect.New
+  name.vb: New
+- uid: Prowl.Runtime.Rect.Contains*
+  commentId: Overload:Prowl.Runtime.Rect.Contains
+  href: Prowl.Runtime.Rect.html#Prowl_Runtime_Rect_Contains_Prowl_Runtime_Vector2_
+  name: Contains
+  nameWithType: Rect.Contains
+  fullName: Prowl.Runtime.Rect.Contains
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: Prowl.Runtime.Rect.Overlaps*
+  commentId: Overload:Prowl.Runtime.Rect.Overlaps
+  href: Prowl.Runtime.Rect.html#Prowl_Runtime_Rect_Overlaps_Prowl_Runtime_Rect_
+  name: Overlaps
+  nameWithType: Rect.Overlaps
+  fullName: Prowl.Runtime.Rect.Overlaps
+- uid: Prowl.Runtime.Rect.Add*
+  commentId: Overload:Prowl.Runtime.Rect.Add
+  href: Prowl.Runtime.Rect.html#Prowl_Runtime_Rect_Add_Prowl_Runtime_Vector2_
+  name: Add
+  nameWithType: Rect.Add
+  fullName: Prowl.Runtime.Rect.Add
+- uid: Prowl.Runtime.Rect.Expand*
+  commentId: Overload:Prowl.Runtime.Rect.Expand
+  href: Prowl.Runtime.Rect.html#Prowl_Runtime_Rect_Expand_System_Single_
+  name: Expand
+  nameWithType: Rect.Expand
+  fullName: Prowl.Runtime.Rect.Expand
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.single
+  name: float
+  nameWithType: float
+  fullName: float
+  nameWithType.vb: Single
+  fullName.vb: Single
+  name.vb: Single
+- uid: Prowl.Runtime.Rect.Reduce*
+  commentId: Overload:Prowl.Runtime.Rect.Reduce
+  href: Prowl.Runtime.Rect.html#Prowl_Runtime_Rect_Reduce_Prowl_Runtime_Vector2_
+  name: Reduce
+  nameWithType: Rect.Reduce
+  fullName: Prowl.Runtime.Rect.Reduce
+- uid: Prowl.Runtime.Rect.Clip*
+  commentId: Overload:Prowl.Runtime.Rect.Clip
+  href: Prowl.Runtime.Rect.html#Prowl_Runtime_Rect_Clip_Prowl_Runtime_Rect_
+  name: Clip
+  nameWithType: Rect.Clip
+  fullName: Prowl.Runtime.Rect.Clip
+- uid: Prowl.Runtime.Rect.Round*
+  commentId: Overload:Prowl.Runtime.Rect.Round
+  href: Prowl.Runtime.Rect.html#Prowl_Runtime_Rect_Round
+  name: Round
+  nameWithType: Rect.Round
+  fullName: Prowl.Runtime.Rect.Round
+- uid: Prowl.Runtime.Rect.IntersectRect*
+  commentId: Overload:Prowl.Runtime.Rect.IntersectRect
+  href: Prowl.Runtime.Rect.html#Prowl_Runtime_Rect_IntersectRect_Prowl_Runtime_Rect_Prowl_Runtime_Rect_Prowl_Runtime_Rect__
+  name: IntersectRect
+  nameWithType: Rect.IntersectRect
+  fullName: Prowl.Runtime.Rect.IntersectRect
+- uid: Prowl.Runtime.Rect.CombineRect*
+  commentId: Overload:Prowl.Runtime.Rect.CombineRect
+  href: Prowl.Runtime.Rect.html#Prowl_Runtime_Rect_CombineRect_Prowl_Runtime_Rect_Prowl_Runtime_Rect_
+  name: CombineRect
+  nameWithType: Rect.CombineRect
+  fullName: Prowl.Runtime.Rect.CombineRect
+- uid: Prowl.Runtime.Rect.GetClosestPoint*
+  commentId: Overload:Prowl.Runtime.Rect.GetClosestPoint
+  href: Prowl.Runtime.Rect.html#Prowl_Runtime_Rect_GetClosestPoint_Prowl_Runtime_Vector2_System_Boolean_
+  name: GetClosestPoint
+  nameWithType: Rect.GetClosestPoint
+  fullName: Prowl.Runtime.Rect.GetClosestPoint
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+- uid: Prowl.Runtime.Rect.ToString*
+  commentId: Overload:Prowl.Runtime.Rect.ToString
+  href: Prowl.Runtime.Rect.html#Prowl_Runtime_Rect_ToString
+  name: ToString
+  nameWithType: Rect.ToString
+  fullName: Prowl.Runtime.Rect.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: Prowl.Runtime.Rect.CreateFromMinMax*
+  commentId: Overload:Prowl.Runtime.Rect.CreateFromMinMax
+  href: Prowl.Runtime.Rect.html#Prowl_Runtime_Rect_CreateFromMinMax_Prowl_Runtime_Vector2_Prowl_Runtime_Vector2_
+  name: CreateFromMinMax
+  nameWithType: Rect.CreateFromMinMax
+  fullName: Prowl.Runtime.Rect.CreateFromMinMax
+- uid: Prowl.Runtime.Rect.CreateWithCenter*
+  commentId: Overload:Prowl.Runtime.Rect.CreateWithCenter
+  href: Prowl.Runtime.Rect.html#Prowl_Runtime_Rect_CreateWithCenter_Prowl_Runtime_Vector2_Prowl_Runtime_Vector2_
+  name: CreateWithCenter
+  nameWithType: Rect.CreateWithCenter
+  fullName: Prowl.Runtime.Rect.CreateWithCenter
+- uid: Prowl.Runtime.Rect.CreateWithBoundary*
+  commentId: Overload:Prowl.Runtime.Rect.CreateWithBoundary
+  href: Prowl.Runtime.Rect.html#Prowl_Runtime_Rect_CreateWithBoundary_System_Double_System_Double_System_Double_System_Double_
+  name: CreateWithBoundary
+  nameWithType: Rect.CreateWithBoundary
+  fullName: Prowl.Runtime.Rect.CreateWithBoundary
+- uid: Prowl.Runtime.Rect.op_Explicit*
+  commentId: Overload:Prowl.Runtime.Rect.op_Explicit
+  name: explicit operator
+  nameWithType: Rect.explicit operator
+  fullName: Prowl.Runtime.Rect.explicit operator
+  nameWithType.vb: Rect.CType
+  fullName.vb: Prowl.Runtime.Rect.CType
+  name.vb: CType
+  spec.csharp:
+  - name: explicit
+  - name: " "
+  - name: operator
+- uid: Prowl.Runtime.Vector4
+  commentId: T:Prowl.Runtime.Vector4
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.Vector4.html
+  name: Vector4
+  nameWithType: Vector4
+  fullName: Prowl.Runtime.Vector4
+- uid: Prowl.Runtime.Rect.op_Equality*
+  commentId: Overload:Prowl.Runtime.Rect.op_Equality
+  href: Prowl.Runtime.Rect.html#Prowl_Runtime_Rect_op_Equality_Prowl_Runtime_Rect_Prowl_Runtime_Rect_
+  name: operator ==
+  nameWithType: Rect.operator ==
+  fullName: Prowl.Runtime.Rect.operator ==
+  nameWithType.vb: Rect.=
+  fullName.vb: Prowl.Runtime.Rect.=
+  name.vb: =
+  spec.csharp:
+  - name: operator
+  - name: " "
+  - uid: Prowl.Runtime.Rect.op_Equality*
+    name: ==
+    href: Prowl.Runtime.Rect.html#Prowl_Runtime_Rect_op_Equality_Prowl_Runtime_Rect_Prowl_Runtime_Rect_
+- uid: Prowl.Runtime.Rect.op_Inequality*
+  commentId: Overload:Prowl.Runtime.Rect.op_Inequality
+  href: Prowl.Runtime.Rect.html#Prowl_Runtime_Rect_op_Inequality_Prowl_Runtime_Rect_Prowl_Runtime_Rect_
+  name: operator !=
+  nameWithType: Rect.operator !=
+  fullName: Prowl.Runtime.Rect.operator !=
+  nameWithType.vb: Rect.<>
+  fullName.vb: Prowl.Runtime.Rect.<>
+  name.vb: <>
+  spec.csharp:
+  - name: operator
+  - name: " "
+  - uid: Prowl.Runtime.Rect.op_Inequality*
+    name: '!='
+    href: Prowl.Runtime.Rect.html#Prowl_Runtime_Rect_op_Inequality_Prowl_Runtime_Rect_Prowl_Runtime_Rect_
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  name: Equals(object)
+  nameWithType: ValueType.Equals(object)
+  fullName: System.ValueType.Equals(object)
+  nameWithType.vb: ValueType.Equals(Object)
+  fullName.vb: System.ValueType.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: Prowl.Runtime.Rect.Equals*
+  commentId: Overload:Prowl.Runtime.Rect.Equals
+  href: Prowl.Runtime.Rect.html#Prowl_Runtime_Rect_Equals_System_Object_
+  name: Equals
+  nameWithType: Rect.Equals
+  fullName: Prowl.Runtime.Rect.Equals
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+- uid: Prowl.Runtime.Rect.GetHashCode*
+  commentId: Overload:Prowl.Runtime.Rect.GetHashCode
+  href: Prowl.Runtime.Rect.html#Prowl_Runtime_Rect_GetHashCode
+  name: GetHashCode
+  nameWithType: Rect.GetHashCode
+  fullName: Prowl.Runtime.Rect.GetHashCode
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer

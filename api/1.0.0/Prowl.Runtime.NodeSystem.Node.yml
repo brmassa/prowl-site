@@ -1,0 +1,2051 @@
+### YamlMime:ManagedReference
+items:
+- uid: Prowl.Runtime.NodeSystem.Node
+  commentId: T:Prowl.Runtime.NodeSystem.Node
+  id: Node
+  parent: Prowl.Runtime.NodeSystem
+  children:
+  - Prowl.Runtime.NodeSystem.Node.AddDynamicInput(System.Type,Prowl.Runtime.NodeSystem.Node.ConnectionType,Prowl.Runtime.NodeSystem.Node.TypeConstraint,System.String,System.Boolean)
+  - Prowl.Runtime.NodeSystem.Node.AddDynamicOutput(System.Type,Prowl.Runtime.NodeSystem.Node.ConnectionType,Prowl.Runtime.NodeSystem.Node.TypeConstraint,System.String,System.Boolean)
+  - Prowl.Runtime.NodeSystem.Node.ClearConnections
+  - Prowl.Runtime.NodeSystem.Node.ClearDynamicPorts
+  - Prowl.Runtime.NodeSystem.Node.DynamicInputs
+  - Prowl.Runtime.NodeSystem.Node.DynamicOutputs
+  - Prowl.Runtime.NodeSystem.Node.DynamicPorts
+  - Prowl.Runtime.NodeSystem.Node.Error
+  - Prowl.Runtime.NodeSystem.Node.GetInputPort(System.String)
+  - Prowl.Runtime.NodeSystem.Node.GetInputValue``1(System.String,``0)
+  - Prowl.Runtime.NodeSystem.Node.GetInputValues``1(System.String,``0[])
+  - Prowl.Runtime.NodeSystem.Node.GetOutputPort(System.String)
+  - Prowl.Runtime.NodeSystem.Node.GetPort(System.Int32)
+  - Prowl.Runtime.NodeSystem.Node.GetPort(System.String)
+  - Prowl.Runtime.NodeSystem.Node.GetValue(Prowl.Runtime.NodeSystem.NodePort)
+  - Prowl.Runtime.NodeSystem.Node.HasPort(System.String)
+  - Prowl.Runtime.NodeSystem.Node.Init
+  - Prowl.Runtime.NodeSystem.Node.Inputs
+  - Prowl.Runtime.NodeSystem.Node.InstanceID
+  - Prowl.Runtime.NodeSystem.Node.OnCreateConnection(Prowl.Runtime.NodeSystem.NodePort,Prowl.Runtime.NodeSystem.NodePort)
+  - Prowl.Runtime.NodeSystem.Node.OnEnable
+  - Prowl.Runtime.NodeSystem.Node.OnRemoveConnection(Prowl.Runtime.NodeSystem.NodePort)
+  - Prowl.Runtime.NodeSystem.Node.OnValidate
+  - Prowl.Runtime.NodeSystem.Node.Outputs
+  - Prowl.Runtime.NodeSystem.Node.Ports
+  - Prowl.Runtime.NodeSystem.Node.RemoveDynamicPort(Prowl.Runtime.NodeSystem.NodePort)
+  - Prowl.Runtime.NodeSystem.Node.RemoveDynamicPort(System.String)
+  - Prowl.Runtime.NodeSystem.Node.ShowTitle
+  - Prowl.Runtime.NodeSystem.Node.Title
+  - Prowl.Runtime.NodeSystem.Node.VerifyConnections
+  - Prowl.Runtime.NodeSystem.Node.Width
+  - Prowl.Runtime.NodeSystem.Node.graph
+  - Prowl.Runtime.NodeSystem.Node.position
+  langs:
+  - csharp
+  - vb
+  name: Node
+  nameWithType: Node
+  fullName: Prowl.Runtime.NodeSystem.Node
+  type: Class
+  source:
+    remote:
+      path: Prowl.Runtime/Utils/NodeSystem/Node.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Node
+    path: ../Prowl/Prowl.Runtime/Utils/NodeSystem/Node.cs
+    startLine: 32
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.NodeSystem
+  summary: Base class for all nodes
+  example:
+  - >-
+    Classes extending this class will be considered as valid nodes by xNode.
+
+    <pre><code class="lang-csharp">[System.Serializable]
+
+    public class Adder : Node {
+        [Input] public float a;
+        [Input] public float b;
+        [Output] public float result;
+
+        // GetValue should be overridden to return a value for any specified output port
+        public override object GetValue(NodePort port) {
+            return a + b;
+        }
+    }</code></pre>
+  syntax:
+    content: >-
+      [Serializable]
+
+      public abstract class Node
+    content.vb: >-
+      <Serializable>
+
+      Public MustInherit Class Node
+  inheritance:
+  - System.Object
+  derivedClasses:
+  - Prowl.Runtime.NodeSystem.BoolANDNode
+  - Prowl.Runtime.NodeSystem.BoolInvertNode
+  - Prowl.Runtime.NodeSystem.BoolORNode
+  - Prowl.Runtime.NodeSystem.CommentNode
+  - Prowl.Runtime.NodeSystem.DeltaTimeNode
+  - Prowl.Runtime.NodeSystem.DoubleAddNode
+  - Prowl.Runtime.NodeSystem.DoubleDivideNode
+  - Prowl.Runtime.NodeSystem.DoubleModuloNode
+  - Prowl.Runtime.NodeSystem.DoubleMultiplyNode
+  - Prowl.Runtime.NodeSystem.DoubleSubtractNode
+  - Prowl.Runtime.NodeSystem.FlowNode
+  - Prowl.Runtime.NodeSystem.IntDivideNode
+  - Prowl.Runtime.NodeSystem.IntModuloNode
+  - Prowl.Runtime.NodeSystem.IntMultiplyNode
+  - Prowl.Runtime.NodeSystem.IntSubtractNode
+  - Prowl.Runtime.NodeSystem.IntegerAddNode
+  - Prowl.Runtime.NodeSystem.OperatorNode
+  - Prowl.Runtime.NodeSystem.ParameterNode
+  - Prowl.Runtime.NodeSystem.String_Concat_Node
+  - Prowl.Runtime.NodeSystem.String_Contains_Node
+  - Prowl.Runtime.NodeSystem.String_EndsWith_Node
+  - Prowl.Runtime.NodeSystem.String_IndexOf_Node
+  - Prowl.Runtime.NodeSystem.String_IsEqual_Node
+  - Prowl.Runtime.NodeSystem.String_IsNullOrWhiteSpace_Node
+  - Prowl.Runtime.NodeSystem.String_LastIndexOf_Node
+  - Prowl.Runtime.NodeSystem.String_Length_Node
+  - Prowl.Runtime.NodeSystem.String_Replace_Node
+  - Prowl.Runtime.NodeSystem.String_StartsWith_Node
+  - Prowl.Runtime.NodeSystem.String_SubString_Node
+  - Prowl.Runtime.NodeSystem.String_ToLower_Node
+  - Prowl.Runtime.NodeSystem.String_ToUpper_Node
+  - Prowl.Runtime.NodeSystem.String_Trim_Node
+  - Prowl.Runtime.NodeSystem.TimeNode
+  - Prowl.Runtime.NodeSystem.Vector2_Add_Node
+  - Prowl.Runtime.NodeSystem.Vector2_Angle_Node
+  - Prowl.Runtime.NodeSystem.Vector2_ClampMagnitude_Node
+  - Prowl.Runtime.NodeSystem.Vector2_Direction_Node
+  - Prowl.Runtime.NodeSystem.Vector2_Distance_Node
+  - Prowl.Runtime.NodeSystem.Vector2_Divide_Node
+  - Prowl.Runtime.NodeSystem.Vector2_Dot_Node
+  - Prowl.Runtime.NodeSystem.Vector2_FromXY_Node
+  - Prowl.Runtime.NodeSystem.Vector2_Lerp_Node
+  - Prowl.Runtime.NodeSystem.Vector2_Magnitude_Node
+  - Prowl.Runtime.NodeSystem.Vector2_Max_Node
+  - Prowl.Runtime.NodeSystem.Vector2_Min_Node
+  - Prowl.Runtime.NodeSystem.Vector2_MoveTowards_Node
+  - Prowl.Runtime.NodeSystem.Vector2_Multiply_Node
+  - Prowl.Runtime.NodeSystem.Vector2_Normalize_Node
+  - Prowl.Runtime.NodeSystem.Vector2_One_Node
+  - Prowl.Runtime.NodeSystem.Vector2_Reflect_Node
+  - Prowl.Runtime.NodeSystem.Vector2_Right_Node
+  - Prowl.Runtime.NodeSystem.Vector2_Scale_Node
+  - Prowl.Runtime.NodeSystem.Vector2_SqrMagnitude_Node
+  - Prowl.Runtime.NodeSystem.Vector2_Subtract_Node
+  - Prowl.Runtime.NodeSystem.Vector2_ToXY_Node
+  - Prowl.Runtime.NodeSystem.Vector2_Up_Node
+  - Prowl.Runtime.NodeSystem.Vector2_Zero_Node
+  - Prowl.Runtime.NodeSystem.Vector3_Add_Node
+  - Prowl.Runtime.NodeSystem.Vector3_Angle_Node
+  - Prowl.Runtime.NodeSystem.Vector3_ClampMagnitude_Node
+  - Prowl.Runtime.NodeSystem.Vector3_Cross_Node
+  - Prowl.Runtime.NodeSystem.Vector3_Direction_Node
+  - Prowl.Runtime.NodeSystem.Vector3_Distance_Node
+  - Prowl.Runtime.NodeSystem.Vector3_Divide_Node
+  - Prowl.Runtime.NodeSystem.Vector3_Dot_Node
+  - Prowl.Runtime.NodeSystem.Vector3_Forward_Node
+  - Prowl.Runtime.NodeSystem.Vector3_FromXYZ_Node
+  - Prowl.Runtime.NodeSystem.Vector3_Lerp_Node
+  - Prowl.Runtime.NodeSystem.Vector3_Magnitude_Node
+  - Prowl.Runtime.NodeSystem.Vector3_Max_Node
+  - Prowl.Runtime.NodeSystem.Vector3_Min_Node
+  - Prowl.Runtime.NodeSystem.Vector3_MoveTowards_Node
+  - Prowl.Runtime.NodeSystem.Vector3_Multiply_Node
+  - Prowl.Runtime.NodeSystem.Vector3_Normalize_Node
+  - Prowl.Runtime.NodeSystem.Vector3_One_Node
+  - Prowl.Runtime.NodeSystem.Vector3_Reflect_Node
+  - Prowl.Runtime.NodeSystem.Vector3_Right_Node
+  - Prowl.Runtime.NodeSystem.Vector3_Scale_Node
+  - Prowl.Runtime.NodeSystem.Vector3_SqrMagnitude_Node
+  - Prowl.Runtime.NodeSystem.Vector3_Subtract_Node
+  - Prowl.Runtime.NodeSystem.Vector3_ToXYZ_Node
+  - Prowl.Runtime.NodeSystem.Vector3_Up_Node
+  - Prowl.Runtime.NodeSystem.Vector3_Zero_Node
+  - Prowl.Runtime.NodeSystem.Vector4_Add_Node
+  - Prowl.Runtime.NodeSystem.Vector4_Direction_Node
+  - Prowl.Runtime.NodeSystem.Vector4_Distance_Node
+  - Prowl.Runtime.NodeSystem.Vector4_Divide_Node
+  - Prowl.Runtime.NodeSystem.Vector4_Dot_Node
+  - Prowl.Runtime.NodeSystem.Vector4_Forward_Node
+  - Prowl.Runtime.NodeSystem.Vector4_FromXYZW_Node
+  - Prowl.Runtime.NodeSystem.Vector4_Lerp_Node
+  - Prowl.Runtime.NodeSystem.Vector4_Magnitude_Node
+  - Prowl.Runtime.NodeSystem.Vector4_Max_Node
+  - Prowl.Runtime.NodeSystem.Vector4_Min_Node
+  - Prowl.Runtime.NodeSystem.Vector4_MoveTowards_Node
+  - Prowl.Runtime.NodeSystem.Vector4_Multiply_Node
+  - Prowl.Runtime.NodeSystem.Vector4_Normalize_Node
+  - Prowl.Runtime.NodeSystem.Vector4_One_Node
+  - Prowl.Runtime.NodeSystem.Vector4_Right_Node
+  - Prowl.Runtime.NodeSystem.Vector4_Scale_Node
+  - Prowl.Runtime.NodeSystem.Vector4_SqrMagnitude_Node
+  - Prowl.Runtime.NodeSystem.Vector4_Subtract_Node
+  - Prowl.Runtime.NodeSystem.Vector4_ToXYZW_Node
+  - Prowl.Runtime.NodeSystem.Vector4_Up_Node
+  - Prowl.Runtime.NodeSystem.Vector4_Zero_Node
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  extensionMethods:
+  - System.Object.Prowl.Runtime.RuntimeUtils.GetSerializableFields
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+- uid: Prowl.Runtime.NodeSystem.Node.Ports
+  commentId: P:Prowl.Runtime.NodeSystem.Node.Ports
+  id: Ports
+  parent: Prowl.Runtime.NodeSystem.Node
+  langs:
+  - csharp
+  - vb
+  name: Ports
+  nameWithType: Node.Ports
+  fullName: Prowl.Runtime.NodeSystem.Node.Ports
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/Utils/NodeSystem/Node.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Ports
+    path: ../Prowl/Prowl.Runtime/Utils/NodeSystem/Node.cs
+    startLine: 66
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.NodeSystem
+  summary: Iterate over all ports on this node.
+  example: []
+  syntax:
+    content: public IEnumerable<NodePort> Ports { get; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.IEnumerable{Prowl.Runtime.NodeSystem.NodePort}
+    content.vb: Public ReadOnly Property Ports As IEnumerable(Of NodePort)
+  overload: Prowl.Runtime.NodeSystem.Node.Ports*
+- uid: Prowl.Runtime.NodeSystem.Node.Outputs
+  commentId: P:Prowl.Runtime.NodeSystem.Node.Outputs
+  id: Outputs
+  parent: Prowl.Runtime.NodeSystem.Node
+  langs:
+  - csharp
+  - vb
+  name: Outputs
+  nameWithType: Node.Outputs
+  fullName: Prowl.Runtime.NodeSystem.Node.Outputs
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/Utils/NodeSystem/Node.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Outputs
+    path: ../Prowl/Prowl.Runtime/Utils/NodeSystem/Node.cs
+    startLine: 68
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.NodeSystem
+  summary: Iterate over all outputs on this node.
+  example: []
+  syntax:
+    content: public IEnumerable<NodePort> Outputs { get; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.IEnumerable{Prowl.Runtime.NodeSystem.NodePort}
+    content.vb: Public ReadOnly Property Outputs As IEnumerable(Of NodePort)
+  overload: Prowl.Runtime.NodeSystem.Node.Outputs*
+- uid: Prowl.Runtime.NodeSystem.Node.Inputs
+  commentId: P:Prowl.Runtime.NodeSystem.Node.Inputs
+  id: Inputs
+  parent: Prowl.Runtime.NodeSystem.Node
+  langs:
+  - csharp
+  - vb
+  name: Inputs
+  nameWithType: Node.Inputs
+  fullName: Prowl.Runtime.NodeSystem.Node.Inputs
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/Utils/NodeSystem/Node.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Inputs
+    path: ../Prowl/Prowl.Runtime/Utils/NodeSystem/Node.cs
+    startLine: 70
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.NodeSystem
+  summary: Iterate over all inputs on this node.
+  example: []
+  syntax:
+    content: public IEnumerable<NodePort> Inputs { get; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.IEnumerable{Prowl.Runtime.NodeSystem.NodePort}
+    content.vb: Public ReadOnly Property Inputs As IEnumerable(Of NodePort)
+  overload: Prowl.Runtime.NodeSystem.Node.Inputs*
+- uid: Prowl.Runtime.NodeSystem.Node.DynamicPorts
+  commentId: P:Prowl.Runtime.NodeSystem.Node.DynamicPorts
+  id: DynamicPorts
+  parent: Prowl.Runtime.NodeSystem.Node
+  langs:
+  - csharp
+  - vb
+  name: DynamicPorts
+  nameWithType: Node.DynamicPorts
+  fullName: Prowl.Runtime.NodeSystem.Node.DynamicPorts
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/Utils/NodeSystem/Node.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: DynamicPorts
+    path: ../Prowl/Prowl.Runtime/Utils/NodeSystem/Node.cs
+    startLine: 72
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.NodeSystem
+  summary: Iterate over all dynamic ports on this node.
+  example: []
+  syntax:
+    content: public IEnumerable<NodePort> DynamicPorts { get; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.IEnumerable{Prowl.Runtime.NodeSystem.NodePort}
+    content.vb: Public ReadOnly Property DynamicPorts As IEnumerable(Of NodePort)
+  overload: Prowl.Runtime.NodeSystem.Node.DynamicPorts*
+- uid: Prowl.Runtime.NodeSystem.Node.DynamicOutputs
+  commentId: P:Prowl.Runtime.NodeSystem.Node.DynamicOutputs
+  id: DynamicOutputs
+  parent: Prowl.Runtime.NodeSystem.Node
+  langs:
+  - csharp
+  - vb
+  name: DynamicOutputs
+  nameWithType: Node.DynamicOutputs
+  fullName: Prowl.Runtime.NodeSystem.Node.DynamicOutputs
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/Utils/NodeSystem/Node.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: DynamicOutputs
+    path: ../Prowl/Prowl.Runtime/Utils/NodeSystem/Node.cs
+    startLine: 74
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.NodeSystem
+  summary: Iterate over all dynamic outputs on this node.
+  example: []
+  syntax:
+    content: public IEnumerable<NodePort> DynamicOutputs { get; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.IEnumerable{Prowl.Runtime.NodeSystem.NodePort}
+    content.vb: Public ReadOnly Property DynamicOutputs As IEnumerable(Of NodePort)
+  overload: Prowl.Runtime.NodeSystem.Node.DynamicOutputs*
+- uid: Prowl.Runtime.NodeSystem.Node.DynamicInputs
+  commentId: P:Prowl.Runtime.NodeSystem.Node.DynamicInputs
+  id: DynamicInputs
+  parent: Prowl.Runtime.NodeSystem.Node
+  langs:
+  - csharp
+  - vb
+  name: DynamicInputs
+  nameWithType: Node.DynamicInputs
+  fullName: Prowl.Runtime.NodeSystem.Node.DynamicInputs
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/Utils/NodeSystem/Node.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: DynamicInputs
+    path: ../Prowl/Prowl.Runtime/Utils/NodeSystem/Node.cs
+    startLine: 76
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.NodeSystem
+  summary: Iterate over all dynamic inputs on this node.
+  example: []
+  syntax:
+    content: public IEnumerable<NodePort> DynamicInputs { get; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.IEnumerable{Prowl.Runtime.NodeSystem.NodePort}
+    content.vb: Public ReadOnly Property DynamicInputs As IEnumerable(Of NodePort)
+  overload: Prowl.Runtime.NodeSystem.Node.DynamicInputs*
+- uid: Prowl.Runtime.NodeSystem.Node.graph
+  commentId: F:Prowl.Runtime.NodeSystem.Node.graph
+  id: graph
+  parent: Prowl.Runtime.NodeSystem.Node
+  langs:
+  - csharp
+  - vb
+  name: graph
+  nameWithType: Node.graph
+  fullName: Prowl.Runtime.NodeSystem.Node.graph
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/Utils/NodeSystem/Node.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: graph
+    path: ../Prowl/Prowl.Runtime/Utils/NodeSystem/Node.cs
+    startLine: 78
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.NodeSystem
+  summary: Parent <xref href="Prowl.Runtime.NodeSystem.NodeGraph" data-throw-if-not-resolved="false"></xref>
+  example: []
+  syntax:
+    content: public NodeGraph graph
+    return:
+      type: Prowl.Runtime.NodeSystem.NodeGraph
+    content.vb: Public graph As NodeGraph
+- uid: Prowl.Runtime.NodeSystem.Node.position
+  commentId: F:Prowl.Runtime.NodeSystem.Node.position
+  id: position
+  parent: Prowl.Runtime.NodeSystem.Node
+  langs:
+  - csharp
+  - vb
+  name: position
+  nameWithType: Node.position
+  fullName: Prowl.Runtime.NodeSystem.Node.position
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/Utils/NodeSystem/Node.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: position
+    path: ../Prowl/Prowl.Runtime/Utils/NodeSystem/Node.cs
+    startLine: 80
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.NodeSystem
+  summary: Position on the <xref href="Prowl.Runtime.NodeSystem.NodeGraph" data-throw-if-not-resolved="false"></xref>
+  example: []
+  syntax:
+    content: public Vector2 position
+    return:
+      type: Prowl.Runtime.Vector2
+    content.vb: Public position As Vector2
+- uid: Prowl.Runtime.NodeSystem.Node.InstanceID
+  commentId: F:Prowl.Runtime.NodeSystem.Node.InstanceID
+  id: InstanceID
+  parent: Prowl.Runtime.NodeSystem.Node
+  langs:
+  - csharp
+  - vb
+  name: InstanceID
+  nameWithType: Node.InstanceID
+  fullName: Prowl.Runtime.NodeSystem.Node.InstanceID
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/Utils/NodeSystem/Node.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: InstanceID
+    path: ../Prowl/Prowl.Runtime/Utils/NodeSystem/Node.cs
+    startLine: 83
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.NodeSystem
+  syntax:
+    content: public int InstanceID
+    return:
+      type: System.Int32
+    content.vb: Public InstanceID As Integer
+- uid: Prowl.Runtime.NodeSystem.Node.Error
+  commentId: P:Prowl.Runtime.NodeSystem.Node.Error
+  id: Error
+  parent: Prowl.Runtime.NodeSystem.Node
+  langs:
+  - csharp
+  - vb
+  name: Error
+  nameWithType: Node.Error
+  fullName: Prowl.Runtime.NodeSystem.Node.Error
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/Utils/NodeSystem/Node.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Error
+    path: ../Prowl/Prowl.Runtime/Utils/NodeSystem/Node.cs
+    startLine: 85
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.NodeSystem
+  syntax:
+    content: public string Error { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property [Error] As String
+  overload: Prowl.Runtime.NodeSystem.Node.Error*
+- uid: Prowl.Runtime.NodeSystem.Node.ShowTitle
+  commentId: P:Prowl.Runtime.NodeSystem.Node.ShowTitle
+  id: ShowTitle
+  parent: Prowl.Runtime.NodeSystem.Node
+  langs:
+  - csharp
+  - vb
+  name: ShowTitle
+  nameWithType: Node.ShowTitle
+  fullName: Prowl.Runtime.NodeSystem.Node.ShowTitle
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/Utils/NodeSystem/Node.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: ShowTitle
+    path: ../Prowl/Prowl.Runtime/Utils/NodeSystem/Node.cs
+    startLine: 87
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.NodeSystem
+  syntax:
+    content: public virtual bool ShowTitle { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable ReadOnly Property ShowTitle As Boolean
+  overload: Prowl.Runtime.NodeSystem.Node.ShowTitle*
+- uid: Prowl.Runtime.NodeSystem.Node.Title
+  commentId: P:Prowl.Runtime.NodeSystem.Node.Title
+  id: Title
+  parent: Prowl.Runtime.NodeSystem.Node
+  langs:
+  - csharp
+  - vb
+  name: Title
+  nameWithType: Node.Title
+  fullName: Prowl.Runtime.NodeSystem.Node.Title
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/Utils/NodeSystem/Node.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Title
+    path: ../Prowl/Prowl.Runtime/Utils/NodeSystem/Node.cs
+    startLine: 88
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.NodeSystem
+  syntax:
+    content: public abstract string Title { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public MustOverride ReadOnly Property Title As String
+  overload: Prowl.Runtime.NodeSystem.Node.Title*
+- uid: Prowl.Runtime.NodeSystem.Node.Width
+  commentId: P:Prowl.Runtime.NodeSystem.Node.Width
+  id: Width
+  parent: Prowl.Runtime.NodeSystem.Node
+  langs:
+  - csharp
+  - vb
+  name: Width
+  nameWithType: Node.Width
+  fullName: Prowl.Runtime.NodeSystem.Node.Width
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/Utils/NodeSystem/Node.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Width
+    path: ../Prowl/Prowl.Runtime/Utils/NodeSystem/Node.cs
+    startLine: 89
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.NodeSystem
+  syntax:
+    content: public abstract float Width { get; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public MustOverride ReadOnly Property Width As Single
+  overload: Prowl.Runtime.NodeSystem.Node.Width*
+- uid: Prowl.Runtime.NodeSystem.Node.OnEnable
+  commentId: M:Prowl.Runtime.NodeSystem.Node.OnEnable
+  id: OnEnable
+  parent: Prowl.Runtime.NodeSystem.Node
+  langs:
+  - csharp
+  - vb
+  name: OnEnable()
+  nameWithType: Node.OnEnable()
+  fullName: Prowl.Runtime.NodeSystem.Node.OnEnable()
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Utils/NodeSystem/Node.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: OnEnable
+    path: ../Prowl/Prowl.Runtime/Utils/NodeSystem/Node.cs
+    startLine: 91
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.NodeSystem
+  syntax:
+    content: public void OnEnable()
+    content.vb: Public Sub OnEnable()
+  overload: Prowl.Runtime.NodeSystem.Node.OnEnable*
+- uid: Prowl.Runtime.NodeSystem.Node.Init
+  commentId: M:Prowl.Runtime.NodeSystem.Node.Init
+  id: Init
+  parent: Prowl.Runtime.NodeSystem.Node
+  langs:
+  - csharp
+  - vb
+  name: Init()
+  nameWithType: Node.Init()
+  fullName: Prowl.Runtime.NodeSystem.Node.Init()
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Utils/NodeSystem/Node.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Init
+    path: ../Prowl/Prowl.Runtime/Utils/NodeSystem/Node.cs
+    startLine: 100
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.NodeSystem
+  summary: Initialize node. Called on enable.
+  example: []
+  syntax:
+    content: protected virtual void Init()
+    content.vb: Protected Overridable Sub Init()
+  overload: Prowl.Runtime.NodeSystem.Node.Init*
+- uid: Prowl.Runtime.NodeSystem.Node.OnValidate
+  commentId: M:Prowl.Runtime.NodeSystem.Node.OnValidate
+  id: OnValidate
+  parent: Prowl.Runtime.NodeSystem.Node
+  langs:
+  - csharp
+  - vb
+  name: OnValidate()
+  nameWithType: Node.OnValidate()
+  fullName: Prowl.Runtime.NodeSystem.Node.OnValidate()
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Utils/NodeSystem/Node.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: OnValidate
+    path: ../Prowl/Prowl.Runtime/Utils/NodeSystem/Node.cs
+    startLine: 101
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.NodeSystem
+  syntax:
+    content: public virtual void OnValidate()
+    content.vb: Public Overridable Sub OnValidate()
+  overload: Prowl.Runtime.NodeSystem.Node.OnValidate*
+- uid: Prowl.Runtime.NodeSystem.Node.VerifyConnections
+  commentId: M:Prowl.Runtime.NodeSystem.Node.VerifyConnections
+  id: VerifyConnections
+  parent: Prowl.Runtime.NodeSystem.Node
+  langs:
+  - csharp
+  - vb
+  name: VerifyConnections()
+  nameWithType: Node.VerifyConnections()
+  fullName: Prowl.Runtime.NodeSystem.Node.VerifyConnections()
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Utils/NodeSystem/Node.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: VerifyConnections
+    path: ../Prowl/Prowl.Runtime/Utils/NodeSystem/Node.cs
+    startLine: 104
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.NodeSystem
+  summary: Checks all connections for invalid references, and removes them.
+  example: []
+  syntax:
+    content: public void VerifyConnections()
+    content.vb: Public Sub VerifyConnections()
+  overload: Prowl.Runtime.NodeSystem.Node.VerifyConnections*
+- uid: Prowl.Runtime.NodeSystem.Node.AddDynamicInput(System.Type,Prowl.Runtime.NodeSystem.Node.ConnectionType,Prowl.Runtime.NodeSystem.Node.TypeConstraint,System.String,System.Boolean)
+  commentId: M:Prowl.Runtime.NodeSystem.Node.AddDynamicInput(System.Type,Prowl.Runtime.NodeSystem.Node.ConnectionType,Prowl.Runtime.NodeSystem.Node.TypeConstraint,System.String,System.Boolean)
+  id: AddDynamicInput(System.Type,Prowl.Runtime.NodeSystem.Node.ConnectionType,Prowl.Runtime.NodeSystem.Node.TypeConstraint,System.String,System.Boolean)
+  parent: Prowl.Runtime.NodeSystem.Node
+  langs:
+  - csharp
+  - vb
+  name: AddDynamicInput(Type, ConnectionType, TypeConstraint, string, bool)
+  nameWithType: Node.AddDynamicInput(Type, Node.ConnectionType, Node.TypeConstraint, string, bool)
+  fullName: Prowl.Runtime.NodeSystem.Node.AddDynamicInput(System.Type, Prowl.Runtime.NodeSystem.Node.ConnectionType, Prowl.Runtime.NodeSystem.Node.TypeConstraint, string, bool)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Utils/NodeSystem/Node.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: AddDynamicInput
+    path: ../Prowl/Prowl.Runtime/Utils/NodeSystem/Node.cs
+    startLine: 114
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.NodeSystem
+  summary: Convenience function.
+  example: []
+  syntax:
+    content: public NodePort AddDynamicInput(Type type, Node.ConnectionType connectionType = ConnectionType.Override, Node.TypeConstraint typeConstraint = TypeConstraint.None, string fieldName = null, bool onHeader = false)
+    parameters:
+    - id: type
+      type: System.Type
+    - id: connectionType
+      type: Prowl.Runtime.NodeSystem.Node.ConnectionType
+    - id: typeConstraint
+      type: Prowl.Runtime.NodeSystem.Node.TypeConstraint
+    - id: fieldName
+      type: System.String
+    - id: onHeader
+      type: System.Boolean
+    return:
+      type: Prowl.Runtime.NodeSystem.NodePort
+    content.vb: Public Function AddDynamicInput(type As Type, connectionType As Node.ConnectionType = ConnectionType.Override, typeConstraint As Node.TypeConstraint = TypeConstraint.None, fieldName As String = Nothing, onHeader As Boolean = False) As NodePort
+  overload: Prowl.Runtime.NodeSystem.Node.AddDynamicInput*
+  nameWithType.vb: Node.AddDynamicInput(Type, Node.ConnectionType, Node.TypeConstraint, String, Boolean)
+  fullName.vb: Prowl.Runtime.NodeSystem.Node.AddDynamicInput(System.Type, Prowl.Runtime.NodeSystem.Node.ConnectionType, Prowl.Runtime.NodeSystem.Node.TypeConstraint, String, Boolean)
+  name.vb: AddDynamicInput(Type, ConnectionType, TypeConstraint, String, Boolean)
+- uid: Prowl.Runtime.NodeSystem.Node.AddDynamicOutput(System.Type,Prowl.Runtime.NodeSystem.Node.ConnectionType,Prowl.Runtime.NodeSystem.Node.TypeConstraint,System.String,System.Boolean)
+  commentId: M:Prowl.Runtime.NodeSystem.Node.AddDynamicOutput(System.Type,Prowl.Runtime.NodeSystem.Node.ConnectionType,Prowl.Runtime.NodeSystem.Node.TypeConstraint,System.String,System.Boolean)
+  id: AddDynamicOutput(System.Type,Prowl.Runtime.NodeSystem.Node.ConnectionType,Prowl.Runtime.NodeSystem.Node.TypeConstraint,System.String,System.Boolean)
+  parent: Prowl.Runtime.NodeSystem.Node
+  langs:
+  - csharp
+  - vb
+  name: AddDynamicOutput(Type, ConnectionType, TypeConstraint, string, bool)
+  nameWithType: Node.AddDynamicOutput(Type, Node.ConnectionType, Node.TypeConstraint, string, bool)
+  fullName: Prowl.Runtime.NodeSystem.Node.AddDynamicOutput(System.Type, Prowl.Runtime.NodeSystem.Node.ConnectionType, Prowl.Runtime.NodeSystem.Node.TypeConstraint, string, bool)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Utils/NodeSystem/Node.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: AddDynamicOutput
+    path: ../Prowl/Prowl.Runtime/Utils/NodeSystem/Node.cs
+    startLine: 122
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.NodeSystem
+  summary: Convenience function.
+  example: []
+  syntax:
+    content: public NodePort AddDynamicOutput(Type type, Node.ConnectionType connectionType = ConnectionType.Override, Node.TypeConstraint typeConstraint = TypeConstraint.None, string fieldName = null, bool onHeader = false)
+    parameters:
+    - id: type
+      type: System.Type
+    - id: connectionType
+      type: Prowl.Runtime.NodeSystem.Node.ConnectionType
+    - id: typeConstraint
+      type: Prowl.Runtime.NodeSystem.Node.TypeConstraint
+    - id: fieldName
+      type: System.String
+    - id: onHeader
+      type: System.Boolean
+    return:
+      type: Prowl.Runtime.NodeSystem.NodePort
+    content.vb: Public Function AddDynamicOutput(type As Type, connectionType As Node.ConnectionType = ConnectionType.Override, typeConstraint As Node.TypeConstraint = TypeConstraint.None, fieldName As String = Nothing, onHeader As Boolean = False) As NodePort
+  overload: Prowl.Runtime.NodeSystem.Node.AddDynamicOutput*
+  nameWithType.vb: Node.AddDynamicOutput(Type, Node.ConnectionType, Node.TypeConstraint, String, Boolean)
+  fullName.vb: Prowl.Runtime.NodeSystem.Node.AddDynamicOutput(System.Type, Prowl.Runtime.NodeSystem.Node.ConnectionType, Prowl.Runtime.NodeSystem.Node.TypeConstraint, String, Boolean)
+  name.vb: AddDynamicOutput(Type, ConnectionType, TypeConstraint, String, Boolean)
+- uid: Prowl.Runtime.NodeSystem.Node.RemoveDynamicPort(System.String)
+  commentId: M:Prowl.Runtime.NodeSystem.Node.RemoveDynamicPort(System.String)
+  id: RemoveDynamicPort(System.String)
+  parent: Prowl.Runtime.NodeSystem.Node
+  langs:
+  - csharp
+  - vb
+  name: RemoveDynamicPort(string)
+  nameWithType: Node.RemoveDynamicPort(string)
+  fullName: Prowl.Runtime.NodeSystem.Node.RemoveDynamicPort(string)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Utils/NodeSystem/Node.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: RemoveDynamicPort
+    path: ../Prowl/Prowl.Runtime/Utils/NodeSystem/Node.cs
+    startLine: 149
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.NodeSystem
+  summary: Remove an dynamic port from the node
+  example: []
+  syntax:
+    content: public void RemoveDynamicPort(string fieldName)
+    parameters:
+    - id: fieldName
+      type: System.String
+    content.vb: Public Sub RemoveDynamicPort(fieldName As String)
+  overload: Prowl.Runtime.NodeSystem.Node.RemoveDynamicPort*
+  nameWithType.vb: Node.RemoveDynamicPort(String)
+  fullName.vb: Prowl.Runtime.NodeSystem.Node.RemoveDynamicPort(String)
+  name.vb: RemoveDynamicPort(String)
+- uid: Prowl.Runtime.NodeSystem.Node.RemoveDynamicPort(Prowl.Runtime.NodeSystem.NodePort)
+  commentId: M:Prowl.Runtime.NodeSystem.Node.RemoveDynamicPort(Prowl.Runtime.NodeSystem.NodePort)
+  id: RemoveDynamicPort(Prowl.Runtime.NodeSystem.NodePort)
+  parent: Prowl.Runtime.NodeSystem.Node
+  langs:
+  - csharp
+  - vb
+  name: RemoveDynamicPort(NodePort)
+  nameWithType: Node.RemoveDynamicPort(NodePort)
+  fullName: Prowl.Runtime.NodeSystem.Node.RemoveDynamicPort(Prowl.Runtime.NodeSystem.NodePort)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Utils/NodeSystem/Node.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: RemoveDynamicPort
+    path: ../Prowl/Prowl.Runtime/Utils/NodeSystem/Node.cs
+    startLine: 158
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.NodeSystem
+  summary: Remove an dynamic port from the node
+  example: []
+  syntax:
+    content: public void RemoveDynamicPort(NodePort port)
+    parameters:
+    - id: port
+      type: Prowl.Runtime.NodeSystem.NodePort
+    content.vb: Public Sub RemoveDynamicPort(port As NodePort)
+  overload: Prowl.Runtime.NodeSystem.Node.RemoveDynamicPort*
+  exceptions:
+  - type: System.ArgumentNullException
+    commentId: T:System.ArgumentNullException
+    description: ''
+- uid: Prowl.Runtime.NodeSystem.Node.ClearDynamicPorts
+  commentId: M:Prowl.Runtime.NodeSystem.Node.ClearDynamicPorts
+  id: ClearDynamicPorts
+  parent: Prowl.Runtime.NodeSystem.Node
+  langs:
+  - csharp
+  - vb
+  name: ClearDynamicPorts()
+  nameWithType: Node.ClearDynamicPorts()
+  fullName: Prowl.Runtime.NodeSystem.Node.ClearDynamicPorts()
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Utils/NodeSystem/Node.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: ClearDynamicPorts
+    path: ../Prowl/Prowl.Runtime/Utils/NodeSystem/Node.cs
+    startLine: 167
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.NodeSystem
+  summary: Removes all dynamic ports from the node
+  example: []
+  syntax:
+    content: public void ClearDynamicPorts()
+    content.vb: Public Sub ClearDynamicPorts()
+  overload: Prowl.Runtime.NodeSystem.Node.ClearDynamicPorts*
+- uid: Prowl.Runtime.NodeSystem.Node.GetOutputPort(System.String)
+  commentId: M:Prowl.Runtime.NodeSystem.Node.GetOutputPort(System.String)
+  id: GetOutputPort(System.String)
+  parent: Prowl.Runtime.NodeSystem.Node
+  langs:
+  - csharp
+  - vb
+  name: GetOutputPort(string)
+  nameWithType: Node.GetOutputPort(string)
+  fullName: Prowl.Runtime.NodeSystem.Node.GetOutputPort(string)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Utils/NodeSystem/Node.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: GetOutputPort
+    path: ../Prowl/Prowl.Runtime/Utils/NodeSystem/Node.cs
+    startLine: 179
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.NodeSystem
+  summary: Returns output port which matches fieldName
+  example: []
+  syntax:
+    content: public NodePort GetOutputPort(string fieldName)
+    parameters:
+    - id: fieldName
+      type: System.String
+    return:
+      type: Prowl.Runtime.NodeSystem.NodePort
+    content.vb: Public Function GetOutputPort(fieldName As String) As NodePort
+  overload: Prowl.Runtime.NodeSystem.Node.GetOutputPort*
+  nameWithType.vb: Node.GetOutputPort(String)
+  fullName.vb: Prowl.Runtime.NodeSystem.Node.GetOutputPort(String)
+  name.vb: GetOutputPort(String)
+- uid: Prowl.Runtime.NodeSystem.Node.GetInputPort(System.String)
+  commentId: M:Prowl.Runtime.NodeSystem.Node.GetInputPort(System.String)
+  id: GetInputPort(System.String)
+  parent: Prowl.Runtime.NodeSystem.Node
+  langs:
+  - csharp
+  - vb
+  name: GetInputPort(string)
+  nameWithType: Node.GetInputPort(string)
+  fullName: Prowl.Runtime.NodeSystem.Node.GetInputPort(string)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Utils/NodeSystem/Node.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: GetInputPort
+    path: ../Prowl/Prowl.Runtime/Utils/NodeSystem/Node.cs
+    startLine: 187
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.NodeSystem
+  summary: Returns input port which matches fieldName
+  example: []
+  syntax:
+    content: public NodePort GetInputPort(string fieldName)
+    parameters:
+    - id: fieldName
+      type: System.String
+    return:
+      type: Prowl.Runtime.NodeSystem.NodePort
+    content.vb: Public Function GetInputPort(fieldName As String) As NodePort
+  overload: Prowl.Runtime.NodeSystem.Node.GetInputPort*
+  nameWithType.vb: Node.GetInputPort(String)
+  fullName.vb: Prowl.Runtime.NodeSystem.Node.GetInputPort(String)
+  name.vb: GetInputPort(String)
+- uid: Prowl.Runtime.NodeSystem.Node.GetPort(System.String)
+  commentId: M:Prowl.Runtime.NodeSystem.Node.GetPort(System.String)
+  id: GetPort(System.String)
+  parent: Prowl.Runtime.NodeSystem.Node
+  langs:
+  - csharp
+  - vb
+  name: GetPort(string)
+  nameWithType: Node.GetPort(string)
+  fullName: Prowl.Runtime.NodeSystem.Node.GetPort(string)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Utils/NodeSystem/Node.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: GetPort
+    path: ../Prowl/Prowl.Runtime/Utils/NodeSystem/Node.cs
+    startLine: 195
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.NodeSystem
+  summary: Returns port which matches fieldName
+  example: []
+  syntax:
+    content: public NodePort GetPort(string fieldName)
+    parameters:
+    - id: fieldName
+      type: System.String
+    return:
+      type: Prowl.Runtime.NodeSystem.NodePort
+    content.vb: Public Function GetPort(fieldName As String) As NodePort
+  overload: Prowl.Runtime.NodeSystem.Node.GetPort*
+  nameWithType.vb: Node.GetPort(String)
+  fullName.vb: Prowl.Runtime.NodeSystem.Node.GetPort(String)
+  name.vb: GetPort(String)
+- uid: Prowl.Runtime.NodeSystem.Node.GetPort(System.Int32)
+  commentId: M:Prowl.Runtime.NodeSystem.Node.GetPort(System.Int32)
+  id: GetPort(System.Int32)
+  parent: Prowl.Runtime.NodeSystem.Node
+  langs:
+  - csharp
+  - vb
+  name: GetPort(int)
+  nameWithType: Node.GetPort(int)
+  fullName: Prowl.Runtime.NodeSystem.Node.GetPort(int)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Utils/NodeSystem/Node.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: GetPort
+    path: ../Prowl/Prowl.Runtime/Utils/NodeSystem/Node.cs
+    startLine: 202
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.NodeSystem
+  syntax:
+    content: public NodePort GetPort(int instanceID)
+    parameters:
+    - id: instanceID
+      type: System.Int32
+    return:
+      type: Prowl.Runtime.NodeSystem.NodePort
+    content.vb: Public Function GetPort(instanceID As Integer) As NodePort
+  overload: Prowl.Runtime.NodeSystem.Node.GetPort*
+  nameWithType.vb: Node.GetPort(Integer)
+  fullName.vb: Prowl.Runtime.NodeSystem.Node.GetPort(Integer)
+  name.vb: GetPort(Integer)
+- uid: Prowl.Runtime.NodeSystem.Node.HasPort(System.String)
+  commentId: M:Prowl.Runtime.NodeSystem.Node.HasPort(System.String)
+  id: HasPort(System.String)
+  parent: Prowl.Runtime.NodeSystem.Node
+  langs:
+  - csharp
+  - vb
+  name: HasPort(string)
+  nameWithType: Node.HasPort(string)
+  fullName: Prowl.Runtime.NodeSystem.Node.HasPort(string)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Utils/NodeSystem/Node.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: HasPort
+    path: ../Prowl/Prowl.Runtime/Utils/NodeSystem/Node.cs
+    startLine: 207
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.NodeSystem
+  syntax:
+    content: public bool HasPort(string fieldName)
+    parameters:
+    - id: fieldName
+      type: System.String
+    return:
+      type: System.Boolean
+    content.vb: Public Function HasPort(fieldName As String) As Boolean
+  overload: Prowl.Runtime.NodeSystem.Node.HasPort*
+  nameWithType.vb: Node.HasPort(String)
+  fullName.vb: Prowl.Runtime.NodeSystem.Node.HasPort(String)
+  name.vb: HasPort(String)
+- uid: Prowl.Runtime.NodeSystem.Node.GetInputValue``1(System.String,``0)
+  commentId: M:Prowl.Runtime.NodeSystem.Node.GetInputValue``1(System.String,``0)
+  id: GetInputValue``1(System.String,``0)
+  parent: Prowl.Runtime.NodeSystem.Node
+  langs:
+  - csharp
+  - vb
+  name: GetInputValue<T>(string, T)
+  nameWithType: Node.GetInputValue<T>(string, T)
+  fullName: Prowl.Runtime.NodeSystem.Node.GetInputValue<T>(string, T)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Utils/NodeSystem/Node.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: GetInputValue
+    path: ../Prowl/Prowl.Runtime/Utils/NodeSystem/Node.cs
+    startLine: 217
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.NodeSystem
+  summary: Return input value for a specified port. Returns fallback value if no ports are connected
+  example: []
+  syntax:
+    content: public T GetInputValue<T>(string fieldName, T fallback = default)
+    parameters:
+    - id: fieldName
+      type: System.String
+      description: Field name of requested input port
+    - id: fallback
+      type: '{T}'
+      description: If no ports are connected, this value will be returned
+    typeParameters:
+    - id: T
+    return:
+      type: '{T}'
+    content.vb: Public Function GetInputValue(Of T)(fieldName As String, fallback As T = Nothing) As T
+  overload: Prowl.Runtime.NodeSystem.Node.GetInputValue*
+  nameWithType.vb: Node.GetInputValue(Of T)(String, T)
+  fullName.vb: Prowl.Runtime.NodeSystem.Node.GetInputValue(Of T)(String, T)
+  name.vb: GetInputValue(Of T)(String, T)
+- uid: Prowl.Runtime.NodeSystem.Node.GetInputValues``1(System.String,``0[])
+  commentId: M:Prowl.Runtime.NodeSystem.Node.GetInputValues``1(System.String,``0[])
+  id: GetInputValues``1(System.String,``0[])
+  parent: Prowl.Runtime.NodeSystem.Node
+  langs:
+  - csharp
+  - vb
+  name: GetInputValues<T>(string, params T[])
+  nameWithType: Node.GetInputValues<T>(string, params T[])
+  fullName: Prowl.Runtime.NodeSystem.Node.GetInputValues<T>(string, params T[])
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Utils/NodeSystem/Node.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: GetInputValues
+    path: ../Prowl/Prowl.Runtime/Utils/NodeSystem/Node.cs
+    startLine: 227
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.NodeSystem
+  summary: Return all input values for a specified port. Returns fallback value if no ports are connected
+  example: []
+  syntax:
+    content: public T[] GetInputValues<T>(string fieldName, params T[] fallback)
+    parameters:
+    - id: fieldName
+      type: System.String
+      description: Field name of requested input port
+    - id: fallback
+      type: '{T}[]'
+      description: If no ports are connected, this value will be returned
+    typeParameters:
+    - id: T
+    return:
+      type: '{T}[]'
+    content.vb: Public Function GetInputValues(Of T)(fieldName As String, ParamArray fallback As T()) As T()
+  overload: Prowl.Runtime.NodeSystem.Node.GetInputValues*
+  nameWithType.vb: Node.GetInputValues(Of T)(String, ParamArray T())
+  fullName.vb: Prowl.Runtime.NodeSystem.Node.GetInputValues(Of T)(String, ParamArray T())
+  name.vb: GetInputValues(Of T)(String, ParamArray T())
+- uid: Prowl.Runtime.NodeSystem.Node.GetValue(Prowl.Runtime.NodeSystem.NodePort)
+  commentId: M:Prowl.Runtime.NodeSystem.Node.GetValue(Prowl.Runtime.NodeSystem.NodePort)
+  id: GetValue(Prowl.Runtime.NodeSystem.NodePort)
+  parent: Prowl.Runtime.NodeSystem.Node
+  langs:
+  - csharp
+  - vb
+  name: GetValue(NodePort)
+  nameWithType: Node.GetValue(NodePort)
+  fullName: Prowl.Runtime.NodeSystem.Node.GetValue(Prowl.Runtime.NodeSystem.NodePort)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Utils/NodeSystem/Node.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: GetValue
+    path: ../Prowl/Prowl.Runtime/Utils/NodeSystem/Node.cs
+    startLine: 236
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.NodeSystem
+  summary: Returns a value based on requested port output. Should be overridden in all derived nodes with outputs.
+  example: []
+  syntax:
+    content: public virtual object GetValue(NodePort port)
+    parameters:
+    - id: port
+      type: Prowl.Runtime.NodeSystem.NodePort
+      description: The requested port.
+    return:
+      type: System.Object
+    content.vb: Public Overridable Function GetValue(port As NodePort) As Object
+  overload: Prowl.Runtime.NodeSystem.Node.GetValue*
+- uid: Prowl.Runtime.NodeSystem.Node.OnCreateConnection(Prowl.Runtime.NodeSystem.NodePort,Prowl.Runtime.NodeSystem.NodePort)
+  commentId: M:Prowl.Runtime.NodeSystem.Node.OnCreateConnection(Prowl.Runtime.NodeSystem.NodePort,Prowl.Runtime.NodeSystem.NodePort)
+  id: OnCreateConnection(Prowl.Runtime.NodeSystem.NodePort,Prowl.Runtime.NodeSystem.NodePort)
+  parent: Prowl.Runtime.NodeSystem.Node
+  langs:
+  - csharp
+  - vb
+  name: OnCreateConnection(NodePort, NodePort)
+  nameWithType: Node.OnCreateConnection(NodePort, NodePort)
+  fullName: Prowl.Runtime.NodeSystem.Node.OnCreateConnection(Prowl.Runtime.NodeSystem.NodePort, Prowl.Runtime.NodeSystem.NodePort)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Utils/NodeSystem/Node.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: OnCreateConnection
+    path: ../Prowl/Prowl.Runtime/Utils/NodeSystem/Node.cs
+    startLine: 245
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.NodeSystem
+  summary: Called after a connection between two <xref href="Prowl.Runtime.NodeSystem.NodePort" data-throw-if-not-resolved="false"></xref>s is created
+  example: []
+  syntax:
+    content: public virtual void OnCreateConnection(NodePort from, NodePort to)
+    parameters:
+    - id: from
+      type: Prowl.Runtime.NodeSystem.NodePort
+      description: Output
+    - id: to
+      type: Prowl.Runtime.NodeSystem.NodePort
+      description: Input
+    content.vb: Public Overridable Sub OnCreateConnection(from As NodePort, [to] As NodePort)
+  overload: Prowl.Runtime.NodeSystem.Node.OnCreateConnection*
+- uid: Prowl.Runtime.NodeSystem.Node.OnRemoveConnection(Prowl.Runtime.NodeSystem.NodePort)
+  commentId: M:Prowl.Runtime.NodeSystem.Node.OnRemoveConnection(Prowl.Runtime.NodeSystem.NodePort)
+  id: OnRemoveConnection(Prowl.Runtime.NodeSystem.NodePort)
+  parent: Prowl.Runtime.NodeSystem.Node
+  langs:
+  - csharp
+  - vb
+  name: OnRemoveConnection(NodePort)
+  nameWithType: Node.OnRemoveConnection(NodePort)
+  fullName: Prowl.Runtime.NodeSystem.Node.OnRemoveConnection(Prowl.Runtime.NodeSystem.NodePort)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Utils/NodeSystem/Node.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: OnRemoveConnection
+    path: ../Prowl/Prowl.Runtime/Utils/NodeSystem/Node.cs
+    startLine: 249
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.NodeSystem
+  summary: Called after a connection is removed from this port
+  example: []
+  syntax:
+    content: public virtual void OnRemoveConnection(NodePort port)
+    parameters:
+    - id: port
+      type: Prowl.Runtime.NodeSystem.NodePort
+      description: Output or Input
+    content.vb: Public Overridable Sub OnRemoveConnection(port As NodePort)
+  overload: Prowl.Runtime.NodeSystem.Node.OnRemoveConnection*
+- uid: Prowl.Runtime.NodeSystem.Node.ClearConnections
+  commentId: M:Prowl.Runtime.NodeSystem.Node.ClearConnections
+  id: ClearConnections
+  parent: Prowl.Runtime.NodeSystem.Node
+  langs:
+  - csharp
+  - vb
+  name: ClearConnections()
+  nameWithType: Node.ClearConnections()
+  fullName: Prowl.Runtime.NodeSystem.Node.ClearConnections()
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Utils/NodeSystem/Node.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: ClearConnections
+    path: ../Prowl/Prowl.Runtime/Utils/NodeSystem/Node.cs
+    startLine: 252
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.NodeSystem
+  summary: Disconnect everything from this node
+  example: []
+  syntax:
+    content: public void ClearConnections()
+    content.vb: Public Sub ClearConnections()
+  overload: Prowl.Runtime.NodeSystem.Node.ClearConnections*
+references:
+- uid: Prowl.Runtime.NodeSystem
+  commentId: N:Prowl.Runtime.NodeSystem
+  href: Prowl.html
+  name: Prowl.Runtime.NodeSystem
+  nameWithType: Prowl.Runtime.NodeSystem
+  fullName: Prowl.Runtime.NodeSystem
+  spec.csharp:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+  - name: .
+  - uid: Prowl.Runtime.NodeSystem
+    name: NodeSystem
+    href: Prowl.Runtime.NodeSystem.html
+  spec.vb:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+  - name: .
+  - uid: Prowl.Runtime.NodeSystem
+    name: NodeSystem
+    href: Prowl.Runtime.NodeSystem.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Prowl.Runtime.RuntimeUtils.GetSerializableFields
+  commentId: M:Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  parent: Prowl.Runtime.RuntimeUtils
+  definition: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  name: GetSerializableFields(object)
+  nameWithType: RuntimeUtils.GetSerializableFields(object)
+  fullName: Prowl.Runtime.RuntimeUtils.GetSerializableFields(object)
+  nameWithType.vb: RuntimeUtils.GetSerializableFields(Object)
+  fullName.vb: Prowl.Runtime.RuntimeUtils.GetSerializableFields(Object)
+  name.vb: GetSerializableFields(Object)
+  spec.csharp:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  commentId: M:Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  isExternal: true
+  href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  name: GetSerializableFields(object)
+  nameWithType: RuntimeUtils.GetSerializableFields(object)
+  fullName: Prowl.Runtime.RuntimeUtils.GetSerializableFields(object)
+  nameWithType.vb: RuntimeUtils.GetSerializableFields(Object)
+  fullName.vb: Prowl.Runtime.RuntimeUtils.GetSerializableFields(Object)
+  name.vb: GetSerializableFields(Object)
+  spec.csharp:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: Prowl.Runtime.RuntimeUtils
+  commentId: T:Prowl.Runtime.RuntimeUtils
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.RuntimeUtils.html
+  name: RuntimeUtils
+  nameWithType: RuntimeUtils
+  fullName: Prowl.Runtime.RuntimeUtils
+- uid: Prowl.Runtime
+  commentId: N:Prowl.Runtime
+  href: Prowl.html
+  name: Prowl.Runtime
+  nameWithType: Prowl.Runtime
+  fullName: Prowl.Runtime
+  spec.csharp:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+  spec.vb:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+- uid: Prowl.Runtime.NodeSystem.Node.Ports*
+  commentId: Overload:Prowl.Runtime.NodeSystem.Node.Ports
+  href: Prowl.Runtime.NodeSystem.Node.html#Prowl_Runtime_NodeSystem_Node_Ports
+  name: Ports
+  nameWithType: Node.Ports
+  fullName: Prowl.Runtime.NodeSystem.Node.Ports
+- uid: System.Collections.Generic.IEnumerable{Prowl.Runtime.NodeSystem.NodePort}
+  commentId: T:System.Collections.Generic.IEnumerable{Prowl.Runtime.NodeSystem.NodePort}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<NodePort>
+  nameWithType: IEnumerable<NodePort>
+  fullName: System.Collections.Generic.IEnumerable<Prowl.Runtime.NodeSystem.NodePort>
+  nameWithType.vb: IEnumerable(Of NodePort)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of Prowl.Runtime.NodeSystem.NodePort)
+  name.vb: IEnumerable(Of NodePort)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - uid: Prowl.Runtime.NodeSystem.NodePort
+    name: NodePort
+    href: Prowl.Runtime.NodeSystem.NodePort.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Prowl.Runtime.NodeSystem.NodePort
+    name: NodePort
+    href: Prowl.Runtime.NodeSystem.NodePort.html
+  - name: )
+- uid: System.Collections.Generic.IEnumerable`1
+  commentId: T:System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: Prowl.Runtime.NodeSystem.Node.Outputs*
+  commentId: Overload:Prowl.Runtime.NodeSystem.Node.Outputs
+  href: Prowl.Runtime.NodeSystem.Node.html#Prowl_Runtime_NodeSystem_Node_Outputs
+  name: Outputs
+  nameWithType: Node.Outputs
+  fullName: Prowl.Runtime.NodeSystem.Node.Outputs
+- uid: Prowl.Runtime.NodeSystem.Node.Inputs*
+  commentId: Overload:Prowl.Runtime.NodeSystem.Node.Inputs
+  href: Prowl.Runtime.NodeSystem.Node.html#Prowl_Runtime_NodeSystem_Node_Inputs
+  name: Inputs
+  nameWithType: Node.Inputs
+  fullName: Prowl.Runtime.NodeSystem.Node.Inputs
+- uid: Prowl.Runtime.NodeSystem.Node.DynamicPorts*
+  commentId: Overload:Prowl.Runtime.NodeSystem.Node.DynamicPorts
+  href: Prowl.Runtime.NodeSystem.Node.html#Prowl_Runtime_NodeSystem_Node_DynamicPorts
+  name: DynamicPorts
+  nameWithType: Node.DynamicPorts
+  fullName: Prowl.Runtime.NodeSystem.Node.DynamicPorts
+- uid: Prowl.Runtime.NodeSystem.Node.DynamicOutputs*
+  commentId: Overload:Prowl.Runtime.NodeSystem.Node.DynamicOutputs
+  href: Prowl.Runtime.NodeSystem.Node.html#Prowl_Runtime_NodeSystem_Node_DynamicOutputs
+  name: DynamicOutputs
+  nameWithType: Node.DynamicOutputs
+  fullName: Prowl.Runtime.NodeSystem.Node.DynamicOutputs
+- uid: Prowl.Runtime.NodeSystem.Node.DynamicInputs*
+  commentId: Overload:Prowl.Runtime.NodeSystem.Node.DynamicInputs
+  href: Prowl.Runtime.NodeSystem.Node.html#Prowl_Runtime_NodeSystem_Node_DynamicInputs
+  name: DynamicInputs
+  nameWithType: Node.DynamicInputs
+  fullName: Prowl.Runtime.NodeSystem.Node.DynamicInputs
+- uid: Prowl.Runtime.NodeSystem.NodeGraph
+  commentId: T:Prowl.Runtime.NodeSystem.NodeGraph
+  parent: Prowl.Runtime.NodeSystem
+  href: Prowl.Runtime.NodeSystem.NodeGraph.html
+  name: NodeGraph
+  nameWithType: NodeGraph
+  fullName: Prowl.Runtime.NodeSystem.NodeGraph
+- uid: Prowl.Runtime.Vector2
+  commentId: T:Prowl.Runtime.Vector2
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.Vector2.html
+  name: Vector2
+  nameWithType: Vector2
+  fullName: Prowl.Runtime.Vector2
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: Prowl.Runtime.NodeSystem.Node.Error*
+  commentId: Overload:Prowl.Runtime.NodeSystem.Node.Error
+  href: Prowl.Runtime.NodeSystem.Node.html#Prowl_Runtime_NodeSystem_Node_Error
+  name: Error
+  nameWithType: Node.Error
+  fullName: Prowl.Runtime.NodeSystem.Node.Error
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: Prowl.Runtime.NodeSystem.Node.ShowTitle*
+  commentId: Overload:Prowl.Runtime.NodeSystem.Node.ShowTitle
+  href: Prowl.Runtime.NodeSystem.Node.html#Prowl_Runtime_NodeSystem_Node_ShowTitle
+  name: ShowTitle
+  nameWithType: Node.ShowTitle
+  fullName: Prowl.Runtime.NodeSystem.Node.ShowTitle
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: Prowl.Runtime.NodeSystem.Node.Title*
+  commentId: Overload:Prowl.Runtime.NodeSystem.Node.Title
+  href: Prowl.Runtime.NodeSystem.Node.html#Prowl_Runtime_NodeSystem_Node_Title
+  name: Title
+  nameWithType: Node.Title
+  fullName: Prowl.Runtime.NodeSystem.Node.Title
+- uid: Prowl.Runtime.NodeSystem.Node.Width*
+  commentId: Overload:Prowl.Runtime.NodeSystem.Node.Width
+  href: Prowl.Runtime.NodeSystem.Node.html#Prowl_Runtime_NodeSystem_Node_Width
+  name: Width
+  nameWithType: Node.Width
+  fullName: Prowl.Runtime.NodeSystem.Node.Width
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.single
+  name: float
+  nameWithType: float
+  fullName: float
+  nameWithType.vb: Single
+  fullName.vb: Single
+  name.vb: Single
+- uid: Prowl.Runtime.NodeSystem.Node.OnEnable*
+  commentId: Overload:Prowl.Runtime.NodeSystem.Node.OnEnable
+  href: Prowl.Runtime.NodeSystem.Node.html#Prowl_Runtime_NodeSystem_Node_OnEnable
+  name: OnEnable
+  nameWithType: Node.OnEnable
+  fullName: Prowl.Runtime.NodeSystem.Node.OnEnable
+- uid: Prowl.Runtime.NodeSystem.Node.Init*
+  commentId: Overload:Prowl.Runtime.NodeSystem.Node.Init
+  href: Prowl.Runtime.NodeSystem.Node.html#Prowl_Runtime_NodeSystem_Node_Init
+  name: Init
+  nameWithType: Node.Init
+  fullName: Prowl.Runtime.NodeSystem.Node.Init
+- uid: Prowl.Runtime.NodeSystem.Node.OnValidate*
+  commentId: Overload:Prowl.Runtime.NodeSystem.Node.OnValidate
+  href: Prowl.Runtime.NodeSystem.Node.html#Prowl_Runtime_NodeSystem_Node_OnValidate
+  name: OnValidate
+  nameWithType: Node.OnValidate
+  fullName: Prowl.Runtime.NodeSystem.Node.OnValidate
+- uid: Prowl.Runtime.NodeSystem.Node.VerifyConnections*
+  commentId: Overload:Prowl.Runtime.NodeSystem.Node.VerifyConnections
+  href: Prowl.Runtime.NodeSystem.Node.html#Prowl_Runtime_NodeSystem_Node_VerifyConnections
+  name: VerifyConnections
+  nameWithType: Node.VerifyConnections
+  fullName: Prowl.Runtime.NodeSystem.Node.VerifyConnections
+- uid: Prowl.Runtime.NodeSystem.Node.AddDynamicInput*
+  commentId: Overload:Prowl.Runtime.NodeSystem.Node.AddDynamicInput
+  href: Prowl.Runtime.NodeSystem.Node.html#Prowl_Runtime_NodeSystem_Node_AddDynamicInput_System_Type_Prowl_Runtime_NodeSystem_Node_ConnectionType_Prowl_Runtime_NodeSystem_Node_TypeConstraint_System_String_System_Boolean_
+  name: AddDynamicInput
+  nameWithType: Node.AddDynamicInput
+  fullName: Prowl.Runtime.NodeSystem.Node.AddDynamicInput
+- uid: System.Type
+  commentId: T:System.Type
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.type
+  name: Type
+  nameWithType: Type
+  fullName: System.Type
+- uid: Prowl.Runtime.NodeSystem.Node.ConnectionType
+  commentId: T:Prowl.Runtime.NodeSystem.Node.ConnectionType
+  parent: Prowl.Runtime.NodeSystem
+  href: Prowl.Runtime.NodeSystem.Node.html
+  name: Node.ConnectionType
+  nameWithType: Node.ConnectionType
+  fullName: Prowl.Runtime.NodeSystem.Node.ConnectionType
+  spec.csharp:
+  - uid: Prowl.Runtime.NodeSystem.Node
+    name: Node
+    href: Prowl.Runtime.NodeSystem.Node.html
+  - name: .
+  - uid: Prowl.Runtime.NodeSystem.Node.ConnectionType
+    name: ConnectionType
+    href: Prowl.Runtime.NodeSystem.Node.ConnectionType.html
+  spec.vb:
+  - uid: Prowl.Runtime.NodeSystem.Node
+    name: Node
+    href: Prowl.Runtime.NodeSystem.Node.html
+  - name: .
+  - uid: Prowl.Runtime.NodeSystem.Node.ConnectionType
+    name: ConnectionType
+    href: Prowl.Runtime.NodeSystem.Node.ConnectionType.html
+- uid: Prowl.Runtime.NodeSystem.Node.TypeConstraint
+  commentId: T:Prowl.Runtime.NodeSystem.Node.TypeConstraint
+  parent: Prowl.Runtime.NodeSystem
+  href: Prowl.Runtime.NodeSystem.Node.html
+  name: Node.TypeConstraint
+  nameWithType: Node.TypeConstraint
+  fullName: Prowl.Runtime.NodeSystem.Node.TypeConstraint
+  spec.csharp:
+  - uid: Prowl.Runtime.NodeSystem.Node
+    name: Node
+    href: Prowl.Runtime.NodeSystem.Node.html
+  - name: .
+  - uid: Prowl.Runtime.NodeSystem.Node.TypeConstraint
+    name: TypeConstraint
+    href: Prowl.Runtime.NodeSystem.Node.TypeConstraint.html
+  spec.vb:
+  - uid: Prowl.Runtime.NodeSystem.Node
+    name: Node
+    href: Prowl.Runtime.NodeSystem.Node.html
+  - name: .
+  - uid: Prowl.Runtime.NodeSystem.Node.TypeConstraint
+    name: TypeConstraint
+    href: Prowl.Runtime.NodeSystem.Node.TypeConstraint.html
+- uid: Prowl.Runtime.NodeSystem.NodePort
+  commentId: T:Prowl.Runtime.NodeSystem.NodePort
+  parent: Prowl.Runtime.NodeSystem
+  href: Prowl.Runtime.NodeSystem.NodePort.html
+  name: NodePort
+  nameWithType: NodePort
+  fullName: Prowl.Runtime.NodeSystem.NodePort
+- uid: Prowl.Runtime.NodeSystem.Node.AddDynamicOutput*
+  commentId: Overload:Prowl.Runtime.NodeSystem.Node.AddDynamicOutput
+  href: Prowl.Runtime.NodeSystem.Node.html#Prowl_Runtime_NodeSystem_Node_AddDynamicOutput_System_Type_Prowl_Runtime_NodeSystem_Node_ConnectionType_Prowl_Runtime_NodeSystem_Node_TypeConstraint_System_String_System_Boolean_
+  name: AddDynamicOutput
+  nameWithType: Node.AddDynamicOutput
+  fullName: Prowl.Runtime.NodeSystem.Node.AddDynamicOutput
+- uid: Prowl.Runtime.NodeSystem.Node.RemoveDynamicPort*
+  commentId: Overload:Prowl.Runtime.NodeSystem.Node.RemoveDynamicPort
+  href: Prowl.Runtime.NodeSystem.Node.html#Prowl_Runtime_NodeSystem_Node_RemoveDynamicPort_System_String_
+  name: RemoveDynamicPort
+  nameWithType: Node.RemoveDynamicPort
+  fullName: Prowl.Runtime.NodeSystem.Node.RemoveDynamicPort
+- uid: System.ArgumentNullException
+  commentId: T:System.ArgumentNullException
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.argumentnullexception
+  name: ArgumentNullException
+  nameWithType: ArgumentNullException
+  fullName: System.ArgumentNullException
+- uid: Prowl.Runtime.NodeSystem.Node.ClearDynamicPorts*
+  commentId: Overload:Prowl.Runtime.NodeSystem.Node.ClearDynamicPorts
+  href: Prowl.Runtime.NodeSystem.Node.html#Prowl_Runtime_NodeSystem_Node_ClearDynamicPorts
+  name: ClearDynamicPorts
+  nameWithType: Node.ClearDynamicPorts
+  fullName: Prowl.Runtime.NodeSystem.Node.ClearDynamicPorts
+- uid: Prowl.Runtime.NodeSystem.Node.GetOutputPort*
+  commentId: Overload:Prowl.Runtime.NodeSystem.Node.GetOutputPort
+  href: Prowl.Runtime.NodeSystem.Node.html#Prowl_Runtime_NodeSystem_Node_GetOutputPort_System_String_
+  name: GetOutputPort
+  nameWithType: Node.GetOutputPort
+  fullName: Prowl.Runtime.NodeSystem.Node.GetOutputPort
+- uid: Prowl.Runtime.NodeSystem.Node.GetInputPort*
+  commentId: Overload:Prowl.Runtime.NodeSystem.Node.GetInputPort
+  href: Prowl.Runtime.NodeSystem.Node.html#Prowl_Runtime_NodeSystem_Node_GetInputPort_System_String_
+  name: GetInputPort
+  nameWithType: Node.GetInputPort
+  fullName: Prowl.Runtime.NodeSystem.Node.GetInputPort
+- uid: Prowl.Runtime.NodeSystem.Node.GetPort*
+  commentId: Overload:Prowl.Runtime.NodeSystem.Node.GetPort
+  href: Prowl.Runtime.NodeSystem.Node.html#Prowl_Runtime_NodeSystem_Node_GetPort_System_String_
+  name: GetPort
+  nameWithType: Node.GetPort
+  fullName: Prowl.Runtime.NodeSystem.Node.GetPort
+- uid: Prowl.Runtime.NodeSystem.Node.HasPort*
+  commentId: Overload:Prowl.Runtime.NodeSystem.Node.HasPort
+  href: Prowl.Runtime.NodeSystem.Node.html#Prowl_Runtime_NodeSystem_Node_HasPort_System_String_
+  name: HasPort
+  nameWithType: Node.HasPort
+  fullName: Prowl.Runtime.NodeSystem.Node.HasPort
+- uid: Prowl.Runtime.NodeSystem.Node.GetInputValue*
+  commentId: Overload:Prowl.Runtime.NodeSystem.Node.GetInputValue
+  href: Prowl.Runtime.NodeSystem.Node.html#Prowl_Runtime_NodeSystem_Node_GetInputValue__1_System_String___0_
+  name: GetInputValue
+  nameWithType: Node.GetInputValue
+  fullName: Prowl.Runtime.NodeSystem.Node.GetInputValue
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: Prowl.Runtime.NodeSystem.Node.GetInputValues*
+  commentId: Overload:Prowl.Runtime.NodeSystem.Node.GetInputValues
+  href: Prowl.Runtime.NodeSystem.Node.html#Prowl_Runtime_NodeSystem_Node_GetInputValues__1_System_String___0___
+  name: GetInputValues
+  nameWithType: Node.GetInputValues
+  fullName: Prowl.Runtime.NodeSystem.Node.GetInputValues
+- uid: '{T}[]'
+  isExternal: true
+  name: T[]
+  nameWithType: T[]
+  fullName: T[]
+  nameWithType.vb: T()
+  fullName.vb: T()
+  name.vb: T()
+  spec.csharp:
+  - name: T
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - name: T
+  - name: (
+  - name: )
+- uid: Prowl.Runtime.NodeSystem.Node.GetValue*
+  commentId: Overload:Prowl.Runtime.NodeSystem.Node.GetValue
+  href: Prowl.Runtime.NodeSystem.Node.html#Prowl_Runtime_NodeSystem_Node_GetValue_Prowl_Runtime_NodeSystem_NodePort_
+  name: GetValue
+  nameWithType: Node.GetValue
+  fullName: Prowl.Runtime.NodeSystem.Node.GetValue
+- uid: Prowl.Runtime.NodeSystem.Node.OnCreateConnection*
+  commentId: Overload:Prowl.Runtime.NodeSystem.Node.OnCreateConnection
+  href: Prowl.Runtime.NodeSystem.Node.html#Prowl_Runtime_NodeSystem_Node_OnCreateConnection_Prowl_Runtime_NodeSystem_NodePort_Prowl_Runtime_NodeSystem_NodePort_
+  name: OnCreateConnection
+  nameWithType: Node.OnCreateConnection
+  fullName: Prowl.Runtime.NodeSystem.Node.OnCreateConnection
+- uid: Prowl.Runtime.NodeSystem.Node.OnRemoveConnection*
+  commentId: Overload:Prowl.Runtime.NodeSystem.Node.OnRemoveConnection
+  href: Prowl.Runtime.NodeSystem.Node.html#Prowl_Runtime_NodeSystem_Node_OnRemoveConnection_Prowl_Runtime_NodeSystem_NodePort_
+  name: OnRemoveConnection
+  nameWithType: Node.OnRemoveConnection
+  fullName: Prowl.Runtime.NodeSystem.Node.OnRemoveConnection
+- uid: Prowl.Runtime.NodeSystem.Node.ClearConnections*
+  commentId: Overload:Prowl.Runtime.NodeSystem.Node.ClearConnections
+  href: Prowl.Runtime.NodeSystem.Node.html#Prowl_Runtime_NodeSystem_Node_ClearConnections
+  name: ClearConnections
+  nameWithType: Node.ClearConnections
+  fullName: Prowl.Runtime.NodeSystem.Node.ClearConnections

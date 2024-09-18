@@ -1,0 +1,4001 @@
+### YamlMime:ManagedReference
+items:
+- uid: Prowl.Runtime.MathD
+  commentId: T:Prowl.Runtime.MathD
+  id: MathD
+  parent: Prowl.Runtime
+  children:
+  - Prowl.Runtime.MathD.Abs(System.Double)
+  - Prowl.Runtime.MathD.Acos(System.Double)
+  - Prowl.Runtime.MathD.Angle(Prowl.Runtime.Quaternion,Prowl.Runtime.Quaternion)
+  - Prowl.Runtime.MathD.ApproximatelyEquals(Prowl.Runtime.Vector2,Prowl.Runtime.Vector2)
+  - Prowl.Runtime.MathD.ApproximatelyEquals(Prowl.Runtime.Vector3,Prowl.Runtime.Vector3)
+  - Prowl.Runtime.MathD.ApproximatelyEquals(Prowl.Runtime.Vector4,Prowl.Runtime.Vector4)
+  - Prowl.Runtime.MathD.ApproximatelyEquals(System.Double,System.Double)
+  - Prowl.Runtime.MathD.AreLinesParallel(Prowl.Runtime.Vector2,Prowl.Runtime.Vector2,Prowl.Runtime.Vector2,Prowl.Runtime.Vector2,System.Double)
+  - Prowl.Runtime.MathD.Asin(System.Double)
+  - Prowl.Runtime.MathD.Atan(System.Double)
+  - Prowl.Runtime.MathD.Atan(System.Double,System.Double)
+  - Prowl.Runtime.MathD.Ceil(System.Double)
+  - Prowl.Runtime.MathD.CeilToInt(System.Double)
+  - Prowl.Runtime.MathD.Clamp(System.Double,System.Double,System.Double)
+  - Prowl.Runtime.MathD.Clamp(System.Int32,System.Int32,System.Int32)
+  - Prowl.Runtime.MathD.Clamp01(System.Double)
+  - Prowl.Runtime.MathD.ClampMagnitude(Prowl.Runtime.Vector2,System.Double,System.Double)
+  - Prowl.Runtime.MathD.ClampMagnitude(Prowl.Runtime.Vector3,System.Double,System.Double)
+  - Prowl.Runtime.MathD.ComputeMipLevels(System.Int32,System.Int32)
+  - Prowl.Runtime.MathD.Cos(System.Double)
+  - Prowl.Runtime.MathD.Deg2Rad
+  - Prowl.Runtime.MathD.DoesLineIntersectLine(Prowl.Runtime.Vector2,Prowl.Runtime.Vector2,Prowl.Runtime.Vector2,Prowl.Runtime.Vector2,Prowl.Runtime.Vector2@)
+  - Prowl.Runtime.MathD.E
+  - Prowl.Runtime.MathD.Exp(System.Double)
+  - Prowl.Runtime.MathD.Floor(System.Double)
+  - Prowl.Runtime.MathD.FloorToInt(System.Double)
+  - Prowl.Runtime.MathD.Frac(System.Double)
+  - Prowl.Runtime.MathD.GOLDEN_RATIO
+  - Prowl.Runtime.MathD.GetClosestPointOnLine(Prowl.Runtime.Vector2,Prowl.Runtime.Vector2,Prowl.Runtime.Vector2)
+  - Prowl.Runtime.MathD.GetQuaternion(Prowl.Runtime.Vector3)
+  - Prowl.Runtime.MathD.GetRotation(Prowl.Runtime.Quaternion)
+  - Prowl.Runtime.MathD.IN
+  - Prowl.Runtime.MathD.Infinity
+  - Prowl.Runtime.MathD.IsPointInTriangle(Prowl.Runtime.Vector2,Prowl.Runtime.Vector2,Prowl.Runtime.Vector2,Prowl.Runtime.Vector2)
+  - Prowl.Runtime.MathD.IsPointInTriangle(Prowl.Runtime.Vector3,Prowl.Runtime.Vector3,Prowl.Runtime.Vector3,Prowl.Runtime.Vector3)
+  - Prowl.Runtime.MathD.IsValid(System.Double)
+  - Prowl.Runtime.MathD.Lerp(Prowl.Runtime.Vector2,Prowl.Runtime.Vector2,Prowl.Runtime.Vector2)
+  - Prowl.Runtime.MathD.Lerp(Prowl.Runtime.Vector3,Prowl.Runtime.Vector3,Prowl.Runtime.Vector3)
+  - Prowl.Runtime.MathD.Lerp(Prowl.Runtime.Vector4,Prowl.Runtime.Vector4,Prowl.Runtime.Vector4)
+  - Prowl.Runtime.MathD.Lerp(System.Double,System.Double,System.Double)
+  - Prowl.Runtime.MathD.LerpAngle(System.Double,System.Double,System.Double)
+  - Prowl.Runtime.MathD.LerpClamped(System.Double,System.Double,System.Double)
+  - Prowl.Runtime.MathD.LerpSmooth(System.Double,System.Double,System.Double)
+  - Prowl.Runtime.MathD.Log(System.Double)
+  - Prowl.Runtime.MathD.Log(System.Double,System.Double)
+  - Prowl.Runtime.MathD.Log10(System.Double)
+  - Prowl.Runtime.MathD.Max(System.Double[])
+  - Prowl.Runtime.MathD.Max(System.Int32[])
+  - Prowl.Runtime.MathD.Min(System.Double[])
+  - Prowl.Runtime.MathD.Min(System.Int32[])
+  - Prowl.Runtime.MathD.MoveTowards(System.Double,System.Double,System.Double)
+  - Prowl.Runtime.MathD.NegativeInfinity
+  - Prowl.Runtime.MathD.NormalizeEulerAngleDegrees(Prowl.Runtime.Vector3)
+  - Prowl.Runtime.MathD.PI
+  - Prowl.Runtime.MathD.Pack4f(Prowl.Runtime.Vector4)
+  - Prowl.Runtime.MathD.Pack4u(System.UInt32,System.UInt32,System.UInt32,System.UInt32)
+  - Prowl.Runtime.MathD.PingPong(System.Double,System.Double)
+  - Prowl.Runtime.MathD.Pow(System.Double,System.Double)
+  - Prowl.Runtime.MathD.Rad2Deg
+  - Prowl.Runtime.MathD.RayIntersectsTriangle(Prowl.Runtime.Vector3,Prowl.Runtime.Vector3,Prowl.Runtime.Vector3,Prowl.Runtime.Vector3,Prowl.Runtime.Vector3,Prowl.Runtime.Vector3@)
+  - Prowl.Runtime.MathD.Repeat(System.Double,System.Double)
+  - Prowl.Runtime.MathD.Round(System.Double,System.Double,System.MidpointRounding)
+  - Prowl.Runtime.MathD.Round(System.Double,System.MidpointRounding)
+  - Prowl.Runtime.MathD.RoundToInt(System.Double,System.MidpointRounding)
+  - Prowl.Runtime.MathD.SQRT2
+  - Prowl.Runtime.MathD.Sign(System.Double)
+  - Prowl.Runtime.MathD.Sin(System.Double)
+  - Prowl.Runtime.MathD.Small
+  - Prowl.Runtime.MathD.Smooth01(System.Double)
+  - Prowl.Runtime.MathD.Smoother01(System.Double)
+  - Prowl.Runtime.MathD.Sqrt(System.Double)
+  - Prowl.Runtime.MathD.TAU
+  - Prowl.Runtime.MathD.Tan(System.Double)
+  - Prowl.Runtime.MathD.ToDeg(Prowl.Runtime.Vector3)
+  - Prowl.Runtime.MathD.ToDeg(System.Double)
+  - Prowl.Runtime.MathD.ToDeg(System.Single)
+  - Prowl.Runtime.MathD.ToDouble(System.Numerics.Matrix4x4)
+  - Prowl.Runtime.MathD.ToDouble(System.Numerics.Quaternion)
+  - Prowl.Runtime.MathD.ToDouble(System.Numerics.Vector2)
+  - Prowl.Runtime.MathD.ToDouble(System.Numerics.Vector3)
+  - Prowl.Runtime.MathD.ToDouble(System.Numerics.Vector4)
+  - Prowl.Runtime.MathD.ToRad(Prowl.Runtime.Vector3)
+  - Prowl.Runtime.MathD.ToRad(System.Double)
+  - Prowl.Runtime.MathD.ToRad(System.Single)
+  langs:
+  - csharp
+  - vb
+  name: MathD
+  nameWithType: MathD
+  fullName: Prowl.Runtime.MathD
+  type: Class
+  source:
+    remote:
+      path: Prowl.Runtime/Math/MathD.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: MathD
+    path: ../Prowl/Prowl.Runtime/Math/MathD.cs
+    startLine: 10
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public static class MathD
+    content.vb: Public Module MathD
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: Prowl.Runtime.MathD.IN
+  commentId: F:Prowl.Runtime.MathD.IN
+  id: IN
+  parent: Prowl.Runtime.MathD
+  langs:
+  - csharp
+  - vb
+  name: IN
+  nameWithType: MathD.IN
+  fullName: Prowl.Runtime.MathD.IN
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/Math/MathD.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: IN
+    path: ../Prowl/Prowl.Runtime/Math/MathD.cs
+    startLine: 12
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public const MethodImplOptions IN = AggressiveInlining
+    return:
+      type: System.Runtime.CompilerServices.MethodImplOptions
+    content.vb: Public Const IN As MethodImplOptions = AggressiveInlining
+- uid: Prowl.Runtime.MathD.TAU
+  commentId: F:Prowl.Runtime.MathD.TAU
+  id: TAU
+  parent: Prowl.Runtime.MathD
+  langs:
+  - csharp
+  - vb
+  name: TAU
+  nameWithType: MathD.TAU
+  fullName: Prowl.Runtime.MathD.TAU
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/Math/MathD.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: TAU
+    path: ../Prowl/Prowl.Runtime/Math/MathD.cs
+    startLine: 17
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: The circle constant. Defined as the circumference of a circle divided by its radius. Equivalent to 2*pi
+  example: []
+  syntax:
+    content: public const double TAU = 6.28318530717959
+    return:
+      type: System.Double
+    content.vb: Public Const TAU As Double = 6.28318530717959
+- uid: Prowl.Runtime.MathD.PI
+  commentId: F:Prowl.Runtime.MathD.PI
+  id: PI
+  parent: Prowl.Runtime.MathD
+  langs:
+  - csharp
+  - vb
+  name: PI
+  nameWithType: MathD.PI
+  fullName: Prowl.Runtime.MathD.PI
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/Math/MathD.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: PI
+    path: ../Prowl/Prowl.Runtime/Math/MathD.cs
+    startLine: 20
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: An obscure circle constant. Defined as the circumference of a circle divided by its diameter. Equivalent to 0.5*tau
+  example: []
+  syntax:
+    content: public const double PI = 3.14159265359
+    return:
+      type: System.Double
+    content.vb: Public Const PI As Double = 3.14159265359
+- uid: Prowl.Runtime.MathD.E
+  commentId: F:Prowl.Runtime.MathD.E
+  id: E
+  parent: Prowl.Runtime.MathD
+  langs:
+  - csharp
+  - vb
+  name: E
+  nameWithType: MathD.E
+  fullName: Prowl.Runtime.MathD.E
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/Math/MathD.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: E
+    path: ../Prowl/Prowl.Runtime/Math/MathD.cs
+    startLine: 23
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: Euler's number. The base of the natural logarithm. f(x)=e^x is equal to its own derivative
+  example: []
+  syntax:
+    content: public const double E = 2.71828182846
+    return:
+      type: System.Double
+    content.vb: Public Const E As Double = 2.71828182846
+- uid: Prowl.Runtime.MathD.GOLDEN_RATIO
+  commentId: F:Prowl.Runtime.MathD.GOLDEN_RATIO
+  id: GOLDEN_RATIO
+  parent: Prowl.Runtime.MathD
+  langs:
+  - csharp
+  - vb
+  name: GOLDEN_RATIO
+  nameWithType: MathD.GOLDEN_RATIO
+  fullName: Prowl.Runtime.MathD.GOLDEN_RATIO
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/Math/MathD.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: GOLDEN_RATIO
+    path: ../Prowl/Prowl.Runtime/Math/MathD.cs
+    startLine: 26
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: The golden ratio. It is the value of a/b where a/b = (a+b)/a. It's the positive root of x^2-x-1
+  example: []
+  syntax:
+    content: public const double GOLDEN_RATIO = 1.61803398875
+    return:
+      type: System.Double
+    content.vb: Public Const GOLDEN_RATIO As Double = 1.61803398875
+- uid: Prowl.Runtime.MathD.SQRT2
+  commentId: F:Prowl.Runtime.MathD.SQRT2
+  id: SQRT2
+  parent: Prowl.Runtime.MathD
+  langs:
+  - csharp
+  - vb
+  name: SQRT2
+  nameWithType: MathD.SQRT2
+  fullName: Prowl.Runtime.MathD.SQRT2
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/Math/MathD.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: SQRT2
+    path: ../Prowl/Prowl.Runtime/Math/MathD.cs
+    startLine: 29
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: The square root of two. The length of the vector (1,1)
+  example: []
+  syntax:
+    content: public const double SQRT2 = 1.41421356237
+    return:
+      type: System.Double
+    content.vb: Public Const SQRT2 As Double = 1.41421356237
+- uid: Prowl.Runtime.MathD.Deg2Rad
+  commentId: F:Prowl.Runtime.MathD.Deg2Rad
+  id: Deg2Rad
+  parent: Prowl.Runtime.MathD
+  langs:
+  - csharp
+  - vb
+  name: Deg2Rad
+  nameWithType: MathD.Deg2Rad
+  fullName: Prowl.Runtime.MathD.Deg2Rad
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/Math/MathD.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Deg2Rad
+    path: ../Prowl/Prowl.Runtime/Math/MathD.cs
+    startLine: 32
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: Multiply an angle in degrees by this, to convert it to radians
+  example: []
+  syntax:
+    content: public const double Deg2Rad = 0.017453292519943306
+    return:
+      type: System.Double
+    content.vb: Public Const Deg2Rad As Double = 0.017453292519943306
+- uid: Prowl.Runtime.MathD.Rad2Deg
+  commentId: F:Prowl.Runtime.MathD.Rad2Deg
+  id: Rad2Deg
+  parent: Prowl.Runtime.MathD
+  langs:
+  - csharp
+  - vb
+  name: Rad2Deg
+  nameWithType: MathD.Rad2Deg
+  fullName: Prowl.Runtime.MathD.Rad2Deg
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/Math/MathD.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Rad2Deg
+    path: ../Prowl/Prowl.Runtime/Math/MathD.cs
+    startLine: 35
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: Multiply an angle in radians by this, to convert it to degrees
+  example: []
+  syntax:
+    content: public const double Rad2Deg = 57.29577951308229
+    return:
+      type: System.Double
+    content.vb: Public Const Rad2Deg As Double = 57.29577951308229
+- uid: Prowl.Runtime.MathD.Small
+  commentId: F:Prowl.Runtime.MathD.Small
+  id: Small
+  parent: Prowl.Runtime.MathD
+  langs:
+  - csharp
+  - vb
+  name: Small
+  nameWithType: MathD.Small
+  fullName: Prowl.Runtime.MathD.Small
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/Math/MathD.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Small
+    path: ../Prowl/Prowl.Runtime/Math/MathD.cs
+    startLine: 38
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  example: []
+  syntax:
+    content: public static readonly double Small
+    return:
+      type: System.Double
+    content.vb: Public Shared ReadOnly Small As Double
+- uid: Prowl.Runtime.MathD.Infinity
+  commentId: F:Prowl.Runtime.MathD.Infinity
+  id: Infinity
+  parent: Prowl.Runtime.MathD
+  langs:
+  - csharp
+  - vb
+  name: Infinity
+  nameWithType: MathD.Infinity
+  fullName: Prowl.Runtime.MathD.Infinity
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/Math/MathD.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Infinity
+    path: ../Prowl/Prowl.Runtime/Math/MathD.cs
+    startLine: 41
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: Represents positive infinity. This field is constant.
+  example: []
+  syntax:
+    content: public const double Infinity = Infinity
+    return:
+      type: System.Double
+    content.vb: Public Const Infinity As Double = Infinity
+- uid: Prowl.Runtime.MathD.NegativeInfinity
+  commentId: F:Prowl.Runtime.MathD.NegativeInfinity
+  id: NegativeInfinity
+  parent: Prowl.Runtime.MathD
+  langs:
+  - csharp
+  - vb
+  name: NegativeInfinity
+  nameWithType: MathD.NegativeInfinity
+  fullName: Prowl.Runtime.MathD.NegativeInfinity
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/Math/MathD.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: NegativeInfinity
+    path: ../Prowl/Prowl.Runtime/Math/MathD.cs
+    startLine: 44
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: Represents negative infinity. This field is constant.
+  example: []
+  syntax:
+    content: public const double NegativeInfinity = -Infinity
+    return:
+      type: System.Double
+    content.vb: Public Const NegativeInfinity As Double = -Infinity
+- uid: Prowl.Runtime.MathD.IsValid(System.Double)
+  commentId: M:Prowl.Runtime.MathD.IsValid(System.Double)
+  id: IsValid(System.Double)
+  parent: Prowl.Runtime.MathD
+  langs:
+  - csharp
+  - vb
+  name: IsValid(double)
+  nameWithType: MathD.IsValid(double)
+  fullName: Prowl.Runtime.MathD.IsValid(double)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Math/MathD.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: IsValid
+    path: ../Prowl/Prowl.Runtime/Math/MathD.cs
+    startLine: 50
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public static bool IsValid(double x)
+    parameters:
+    - id: x
+      type: System.Double
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function IsValid(x As Double) As Boolean
+  overload: Prowl.Runtime.MathD.IsValid*
+  nameWithType.vb: MathD.IsValid(Double)
+  fullName.vb: Prowl.Runtime.MathD.IsValid(Double)
+  name.vb: IsValid(Double)
+- uid: Prowl.Runtime.MathD.Sin(System.Double)
+  commentId: M:Prowl.Runtime.MathD.Sin(System.Double)
+  id: Sin(System.Double)
+  parent: Prowl.Runtime.MathD
+  langs:
+  - csharp
+  - vb
+  name: Sin(double)
+  nameWithType: MathD.Sin(double)
+  fullName: Prowl.Runtime.MathD.Sin(double)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Math/MathD.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Sin
+    path: ../Prowl/Prowl.Runtime/Math/MathD.cs
+    startLine: 57
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: Returns the sine of the specified angle.
+  example: []
+  syntax:
+    content: public static double Sin(double value)
+    parameters:
+    - id: value
+      type: System.Double
+    return:
+      type: System.Double
+      description: The sine of <code class="paramref">a</code>. If <code class="paramref">a</code> is equal to <xref href="System.Double.NaN" data-throw-if-not-resolved="false"></xref>, <xref href="System.Double.NegativeInfinity" data-throw-if-not-resolved="false"></xref>, or <xref href="System.Double.PositiveInfinity" data-throw-if-not-resolved="false"></xref>, this method returns <xref href="System.Double.NaN" data-throw-if-not-resolved="false"></xref>.
+    content.vb: Public Shared Function Sin(value As Double) As Double
+  overload: Prowl.Runtime.MathD.Sin*
+  nameWithType.vb: MathD.Sin(Double)
+  fullName.vb: Prowl.Runtime.MathD.Sin(Double)
+  name.vb: Sin(Double)
+- uid: Prowl.Runtime.MathD.Cos(System.Double)
+  commentId: M:Prowl.Runtime.MathD.Cos(System.Double)
+  id: Cos(System.Double)
+  parent: Prowl.Runtime.MathD
+  langs:
+  - csharp
+  - vb
+  name: Cos(double)
+  nameWithType: MathD.Cos(double)
+  fullName: Prowl.Runtime.MathD.Cos(double)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Math/MathD.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Cos
+    path: ../Prowl/Prowl.Runtime/Math/MathD.cs
+    startLine: 60
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: Returns the cosine of the specified angle.
+  example: []
+  syntax:
+    content: public static double Cos(double value)
+    parameters:
+    - id: value
+      type: System.Double
+    return:
+      type: System.Double
+      description: The cosine of <code class="paramref">d</code>. If <code class="paramref">d</code> is equal to <xref href="System.Double.NaN" data-throw-if-not-resolved="false"></xref>, <xref href="System.Double.NegativeInfinity" data-throw-if-not-resolved="false"></xref>, or <xref href="System.Double.PositiveInfinity" data-throw-if-not-resolved="false"></xref>, this method returns <xref href="System.Double.NaN" data-throw-if-not-resolved="false"></xref>.
+    content.vb: Public Shared Function Cos(value As Double) As Double
+  overload: Prowl.Runtime.MathD.Cos*
+  nameWithType.vb: MathD.Cos(Double)
+  fullName.vb: Prowl.Runtime.MathD.Cos(Double)
+  name.vb: Cos(Double)
+- uid: Prowl.Runtime.MathD.Tan(System.Double)
+  commentId: M:Prowl.Runtime.MathD.Tan(System.Double)
+  id: Tan(System.Double)
+  parent: Prowl.Runtime.MathD
+  langs:
+  - csharp
+  - vb
+  name: Tan(double)
+  nameWithType: MathD.Tan(double)
+  fullName: Prowl.Runtime.MathD.Tan(double)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Math/MathD.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Tan
+    path: ../Prowl/Prowl.Runtime/Math/MathD.cs
+    startLine: 63
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: Returns the tangent of the specified angle.
+  example: []
+  syntax:
+    content: public static double Tan(double value)
+    parameters:
+    - id: value
+      type: System.Double
+    return:
+      type: System.Double
+      description: The tangent of <code class="paramref">a</code>. If <code class="paramref">a</code> is equal to <xref href="System.Double.NaN" data-throw-if-not-resolved="false"></xref>, <xref href="System.Double.NegativeInfinity" data-throw-if-not-resolved="false"></xref>, or <xref href="System.Double.PositiveInfinity" data-throw-if-not-resolved="false"></xref>, this method returns <xref href="System.Double.NaN" data-throw-if-not-resolved="false"></xref>.
+    content.vb: Public Shared Function Tan(value As Double) As Double
+  overload: Prowl.Runtime.MathD.Tan*
+  nameWithType.vb: MathD.Tan(Double)
+  fullName.vb: Prowl.Runtime.MathD.Tan(Double)
+  name.vb: Tan(Double)
+- uid: Prowl.Runtime.MathD.Asin(System.Double)
+  commentId: M:Prowl.Runtime.MathD.Asin(System.Double)
+  id: Asin(System.Double)
+  parent: Prowl.Runtime.MathD
+  langs:
+  - csharp
+  - vb
+  name: Asin(double)
+  nameWithType: MathD.Asin(double)
+  fullName: Prowl.Runtime.MathD.Asin(double)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Math/MathD.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Asin
+    path: ../Prowl/Prowl.Runtime/Math/MathD.cs
+    startLine: 66
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: Returns the angle whose sine is the specified number.
+  example: []
+  syntax:
+    content: public static double Asin(double value)
+    parameters:
+    - id: value
+      type: System.Double
+    return:
+      type: System.Double
+      description: >-
+        An angle, θ, measured in radians, such that -π/2 ≤ θ ≤ π/2.
+
+         -or-  
+
+         <xref href="System.Double.NaN" data-throw-if-not-resolved="false"></xref> if <code class="paramref">d</code> &lt; -1 or <code class="paramref">d</code> &gt; 1 or <code class="paramref">d</code> equals <xref href="System.Double.NaN" data-throw-if-not-resolved="false"></xref>.
+    content.vb: Public Shared Function Asin(value As Double) As Double
+  overload: Prowl.Runtime.MathD.Asin*
+  nameWithType.vb: MathD.Asin(Double)
+  fullName.vb: Prowl.Runtime.MathD.Asin(Double)
+  name.vb: Asin(Double)
+- uid: Prowl.Runtime.MathD.Acos(System.Double)
+  commentId: M:Prowl.Runtime.MathD.Acos(System.Double)
+  id: Acos(System.Double)
+  parent: Prowl.Runtime.MathD
+  langs:
+  - csharp
+  - vb
+  name: Acos(double)
+  nameWithType: MathD.Acos(double)
+  fullName: Prowl.Runtime.MathD.Acos(double)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Math/MathD.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Acos
+    path: ../Prowl/Prowl.Runtime/Math/MathD.cs
+    startLine: 69
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: Returns the angle whose cosine is the specified number.
+  example: []
+  syntax:
+    content: public static double Acos(double value)
+    parameters:
+    - id: value
+      type: System.Double
+    return:
+      type: System.Double
+      description: >-
+        An angle, θ, measured in radians, such that 0 ≤ θ ≤ π.
+
+         -or-  
+
+         <xref href="System.Double.NaN" data-throw-if-not-resolved="false"></xref> if <code class="paramref">d</code> &lt; -1 or <code class="paramref">d</code> &gt; 1 or <code class="paramref">d</code> equals <xref href="System.Double.NaN" data-throw-if-not-resolved="false"></xref>.
+    content.vb: Public Shared Function Acos(value As Double) As Double
+  overload: Prowl.Runtime.MathD.Acos*
+  nameWithType.vb: MathD.Acos(Double)
+  fullName.vb: Prowl.Runtime.MathD.Acos(Double)
+  name.vb: Acos(Double)
+- uid: Prowl.Runtime.MathD.Atan(System.Double)
+  commentId: M:Prowl.Runtime.MathD.Atan(System.Double)
+  id: Atan(System.Double)
+  parent: Prowl.Runtime.MathD
+  langs:
+  - csharp
+  - vb
+  name: Atan(double)
+  nameWithType: MathD.Atan(double)
+  fullName: Prowl.Runtime.MathD.Atan(double)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Math/MathD.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Atan
+    path: ../Prowl/Prowl.Runtime/Math/MathD.cs
+    startLine: 72
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: Returns the angle whose tangent is the specified number.
+  example: []
+  syntax:
+    content: public static double Atan(double value)
+    parameters:
+    - id: value
+      type: System.Double
+    return:
+      type: System.Double
+      description: >-
+        An angle, θ, measured in radians, such that -π/2 ≤ θ ≤ π/2.  
+
+         -or-  
+
+         <xref href="System.Double.NaN" data-throw-if-not-resolved="false"></xref> if <code class="paramref">d</code> equals <xref href="System.Double.NaN" data-throw-if-not-resolved="false"></xref>, -π/2 rounded to double precision (-1.5707963267949) if <code class="paramref">d</code> equals <xref href="System.Double.NegativeInfinity" data-throw-if-not-resolved="false"></xref>, or π/2 rounded to double precision (1.5707963267949) if <code class="paramref">d</code> equals <xref href="System.Double.PositiveInfinity" data-throw-if-not-resolved="false"></xref>.
+    content.vb: Public Shared Function Atan(value As Double) As Double
+  overload: Prowl.Runtime.MathD.Atan*
+  nameWithType.vb: MathD.Atan(Double)
+  fullName.vb: Prowl.Runtime.MathD.Atan(Double)
+  name.vb: Atan(Double)
+- uid: Prowl.Runtime.MathD.Atan(System.Double,System.Double)
+  commentId: M:Prowl.Runtime.MathD.Atan(System.Double,System.Double)
+  id: Atan(System.Double,System.Double)
+  parent: Prowl.Runtime.MathD
+  langs:
+  - csharp
+  - vb
+  name: Atan(double, double)
+  nameWithType: MathD.Atan(double, double)
+  fullName: Prowl.Runtime.MathD.Atan(double, double)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Math/MathD.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Atan
+    path: ../Prowl/Prowl.Runtime/Math/MathD.cs
+    startLine: 75
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: Returns the angle whose tangent is the quotient of two specified numbers.
+  example: []
+  syntax:
+    content: public static double Atan(double y, double x)
+    parameters:
+    - id: y
+      type: System.Double
+      description: The y coordinate of a point.
+    - id: x
+      type: System.Double
+      description: The x coordinate of a point.
+    return:
+      type: System.Double
+      description: >-
+        An angle, θ, measured in radians, such that tan(θ) = <code class="paramref">y</code> / <code class="paramref">x</code>, where (<code class="paramref">x</code>, <code class="paramref">y</code>) is a point in the Cartesian plane. Observe the following:
+
+
+        -   For (<code class="paramref">x</code>, <code class="paramref">y</code>) in quadrant 1, 0 &lt; θ &lt; π/2.  
+
+
+        -   For (<code class="paramref">x</code>, <code class="paramref">y</code>) in quadrant 2, π/2 &lt; θ ≤ π.
+
+
+        -   For (<code class="paramref">x</code>, <code class="paramref">y</code>) in quadrant 3, -π ≤ θ &lt; -π/2.  
+
+
+        -   For (<code class="paramref">x</code>, <code class="paramref">y</code>) in quadrant 4, -π/2 &lt; θ &lt; 0.  
+
+         For points on the boundaries of the quadrants, the return value is the following:  
+
+        -   If y is 0 and x is not negative, θ = 0.  
+
+
+        -   If y is 0 and x is negative, θ = π.  
+
+
+        -   If y is positive and x is 0, θ = π/2.  
+
+
+        -   If y is negative and x is 0, θ = -π/2.  
+
+
+        -   If y is 0 and x is 0, θ = 0.  
+
+         If <code class="paramref">x</code> or <code class="paramref">y</code> is <xref href="System.Double.NaN" data-throw-if-not-resolved="false"></xref>, or if <code class="paramref">x</code> and <code class="paramref">y</code> are either <xref href="System.Double.PositiveInfinity" data-throw-if-not-resolved="false"></xref> or <xref href="System.Double.NegativeInfinity" data-throw-if-not-resolved="false"></xref>, the method returns <xref href="System.Double.NaN" data-throw-if-not-resolved="false"></xref>.
+    content.vb: Public Shared Function Atan(y As Double, x As Double) As Double
+  overload: Prowl.Runtime.MathD.Atan*
+  nameWithType.vb: MathD.Atan(Double, Double)
+  fullName.vb: Prowl.Runtime.MathD.Atan(Double, Double)
+  name.vb: Atan(Double, Double)
+- uid: Prowl.Runtime.MathD.Sqrt(System.Double)
+  commentId: M:Prowl.Runtime.MathD.Sqrt(System.Double)
+  id: Sqrt(System.Double)
+  parent: Prowl.Runtime.MathD
+  langs:
+  - csharp
+  - vb
+  name: Sqrt(double)
+  nameWithType: MathD.Sqrt(double)
+  fullName: Prowl.Runtime.MathD.Sqrt(double)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Math/MathD.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Sqrt
+    path: ../Prowl/Prowl.Runtime/Math/MathD.cs
+    startLine: 78
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: Returns the square root of a specified number.
+  example: []
+  syntax:
+    content: public static double Sqrt(double value)
+    parameters:
+    - id: value
+      type: System.Double
+    return:
+      type: System.Double
+      description: >-
+        One of the values in the following table.  
+
+         <table><thead><tr><th class="term"><code class="paramref">d</code> parameter</th><th class="description"> Return value</th></tr></thead><tbody><tr><td class="term"> Zero or positive</td><td class="description"> The positive square root of <code class="paramref">d</code>.</td></tr><tr><td class="term"> Negative</td><td class="description"><xref href="System.Double.NaN" data-throw-if-not-resolved="false"></xref></td></tr><tr><td class="term"> Equals <xref href="System.Double.NaN" data-throw-if-not-resolved="false"></xref></td><td class="description"><xref href="System.Double.NaN" data-throw-if-not-resolved="false"></xref></td></tr><tr><td class="term"> Equals <xref href="System.Double.PositiveInfinity" data-throw-if-not-resolved="false"></xref></td><td class="description"><xref href="System.Double.PositiveInfinity" data-throw-if-not-resolved="false"></xref></td></tr></tbody></table>
+    content.vb: Public Shared Function Sqrt(value As Double) As Double
+  overload: Prowl.Runtime.MathD.Sqrt*
+  nameWithType.vb: MathD.Sqrt(Double)
+  fullName.vb: Prowl.Runtime.MathD.Sqrt(Double)
+  name.vb: Sqrt(Double)
+- uid: Prowl.Runtime.MathD.Abs(System.Double)
+  commentId: M:Prowl.Runtime.MathD.Abs(System.Double)
+  id: Abs(System.Double)
+  parent: Prowl.Runtime.MathD
+  langs:
+  - csharp
+  - vb
+  name: Abs(double)
+  nameWithType: MathD.Abs(double)
+  fullName: Prowl.Runtime.MathD.Abs(double)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Math/MathD.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Abs
+    path: ../Prowl/Prowl.Runtime/Math/MathD.cs
+    startLine: 81
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: Returns the absolute value of a double-precision floating-point number.
+  example: []
+  syntax:
+    content: public static double Abs(double value)
+    parameters:
+    - id: value
+      type: System.Double
+      description: A number that is greater than or equal to <xref href="System.Double.MinValue?text=Double.MinValue" data-throw-if-not-resolved="false"></xref>, but less than or equal to <xref href="System.Double.MaxValue?text=Double.MaxValue" data-throw-if-not-resolved="false"></xref>.
+    return:
+      type: System.Double
+      description: A double-precision floating-point number, x, such that 0 ≤ x ≤ <xref href="System.Double.MaxValue?text=Double.MaxValue" data-throw-if-not-resolved="false"></xref>.
+    content.vb: Public Shared Function Abs(value As Double) As Double
+  overload: Prowl.Runtime.MathD.Abs*
+  nameWithType.vb: MathD.Abs(Double)
+  fullName.vb: Prowl.Runtime.MathD.Abs(Double)
+  name.vb: Abs(Double)
+- uid: Prowl.Runtime.MathD.Pow(System.Double,System.Double)
+  commentId: M:Prowl.Runtime.MathD.Pow(System.Double,System.Double)
+  id: Pow(System.Double,System.Double)
+  parent: Prowl.Runtime.MathD
+  langs:
+  - csharp
+  - vb
+  name: Pow(double, double)
+  nameWithType: MathD.Pow(double, double)
+  fullName: Prowl.Runtime.MathD.Pow(double, double)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Math/MathD.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Pow
+    path: ../Prowl/Prowl.Runtime/Math/MathD.cs
+    startLine: 84
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: Returns a specified number raised to the specified power.
+  example: []
+  syntax:
+    content: public static double Pow(double value, double exponent)
+    parameters:
+    - id: value
+      type: System.Double
+    - id: exponent
+      type: System.Double
+    return:
+      type: System.Double
+      description: The number <code class="paramref">x</code> raised to the power <code class="paramref">y</code>.
+    content.vb: Public Shared Function Pow(value As Double, exponent As Double) As Double
+  overload: Prowl.Runtime.MathD.Pow*
+  nameWithType.vb: MathD.Pow(Double, Double)
+  fullName.vb: Prowl.Runtime.MathD.Pow(Double, Double)
+  name.vb: Pow(Double, Double)
+- uid: Prowl.Runtime.MathD.Exp(System.Double)
+  commentId: M:Prowl.Runtime.MathD.Exp(System.Double)
+  id: Exp(System.Double)
+  parent: Prowl.Runtime.MathD
+  langs:
+  - csharp
+  - vb
+  name: Exp(double)
+  nameWithType: MathD.Exp(double)
+  fullName: Prowl.Runtime.MathD.Exp(double)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Math/MathD.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Exp
+    path: ../Prowl/Prowl.Runtime/Math/MathD.cs
+    startLine: 87
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: Returns <code>e</code> raised to the specified power.
+  example: []
+  syntax:
+    content: public static double Exp(double power)
+    parameters:
+    - id: power
+      type: System.Double
+    return:
+      type: System.Double
+      description: The number <code>e</code> raised to the power <code class="paramref">d</code>. If <code class="paramref">d</code> equals <xref href="System.Double.NaN" data-throw-if-not-resolved="false"></xref> or <xref href="System.Double.PositiveInfinity" data-throw-if-not-resolved="false"></xref>, that value is returned. If <code class="paramref">d</code> equals <xref href="System.Double.NegativeInfinity" data-throw-if-not-resolved="false"></xref>, 0 is returned.
+    content.vb: Public Shared Function Exp(power As Double) As Double
+  overload: Prowl.Runtime.MathD.Exp*
+  nameWithType.vb: MathD.Exp(Double)
+  fullName.vb: Prowl.Runtime.MathD.Exp(Double)
+  name.vb: Exp(Double)
+- uid: Prowl.Runtime.MathD.Log(System.Double,System.Double)
+  commentId: M:Prowl.Runtime.MathD.Log(System.Double,System.Double)
+  id: Log(System.Double,System.Double)
+  parent: Prowl.Runtime.MathD
+  langs:
+  - csharp
+  - vb
+  name: Log(double, double)
+  nameWithType: MathD.Log(double, double)
+  fullName: Prowl.Runtime.MathD.Log(double, double)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Math/MathD.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Log
+    path: ../Prowl/Prowl.Runtime/Math/MathD.cs
+    startLine: 90
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: Returns the logarithm of a specified number in a specified base.
+  example: []
+  syntax:
+    content: public static double Log(double value, double newBase)
+    parameters:
+    - id: value
+      type: System.Double
+    - id: newBase
+      type: System.Double
+      description: The base of the logarithm.
+    return:
+      type: System.Double
+      description: >-
+        One of the values in the following table. (+Infinity denotes <xref href="System.Double.PositiveInfinity" data-throw-if-not-resolved="false"></xref>, -Infinity denotes <xref href="System.Double.NegativeInfinity" data-throw-if-not-resolved="false"></xref>, and NaN denotes <xref href="System.Double.NaN" data-throw-if-not-resolved="false"></xref>.)  
+
+         <table><thead><tr><th class="term"><code class="paramref">a</code></th><th class="description"><code class="paramref">newBase</code></th><th class="description"> Return value</th></tr></thead><tbody><tr><td class="term"><code class="paramref">a</code>&gt; 0</td><td class="description"> (0 &lt;<code class="paramref">newBase</code>&lt; 1) -or- (<code class="paramref">newBase</code>&gt; 1)</td><td class="description"> lognewBase(a)</td></tr><tr><td class="term"><code class="paramref">a</code>&lt; 0</td><td class="description"> (any value)</td><td class="description"> NaN</td></tr><tr><td class="term"> (any value)</td><td class="description"><code class="paramref">newBase</code>&lt; 0</td><td class="description"> NaN</td></tr><tr><td class="term"><code class="paramref">a</code> != 1</td><td class="description"><code class="paramref">newBase</code> = 0</td><td class="description"> NaN</td></tr><tr><td class="term"><code class="paramref">a</code> != 1</td><td class="description"><code class="paramref">newBase</code> = +Infinity</td><td class="description"> NaN</td></tr><tr><td class="term"><code class="paramref">a</code> = NaN</td><td class="description"> (any value)</td><td class="description"> NaN</td></tr><tr><td class="term"> (any value)</td><td class="description"><code class="paramref">newBase</code> = NaN</td><td class="description"> NaN</td></tr><tr><td class="term"> (any value)</td><td class="description"><code class="paramref">newBase</code> = 1</td><td class="description"> NaN</td></tr><tr><td class="term"><code class="paramref">a</code> = 0</td><td class="description"> 0 &lt;<code class="paramref">newBase</code>&lt; 1</td><td class="description"> +Infinity</td></tr><tr><td class="term"><code class="paramref">a</code> = 0</td><td class="description"><code class="paramref">newBase</code>&gt; 1</td><td class="description"> -Infinity</td></tr><tr><td class="term"><code class="paramref">a</code> =  +Infinity</td><td class="description"> 0 &lt;<code class="paramref">newBase</code>&lt; 1</td><td class="description"> -Infinity</td></tr><tr><td class="term"><code class="paramref">a</code> =  +Infinity</td><td class="description"><code class="paramref">newBase</code>&gt; 1</td><td class="description"> +Infinity</td></tr><tr><td class="term"><code class="paramref">a</code> = 1</td><td class="description"><code class="paramref">newBase</code> = 0</td><td class="description"> 0</td></tr><tr><td class="term"><code class="paramref">a</code> = 1</td><td class="description"><code class="paramref">newBase</code> = +Infinity</td><td class="description"> 0</td></tr></tbody></table>
+    content.vb: Public Shared Function Log(value As Double, newBase As Double) As Double
+  overload: Prowl.Runtime.MathD.Log*
+  nameWithType.vb: MathD.Log(Double, Double)
+  fullName.vb: Prowl.Runtime.MathD.Log(Double, Double)
+  name.vb: Log(Double, Double)
+- uid: Prowl.Runtime.MathD.Log(System.Double)
+  commentId: M:Prowl.Runtime.MathD.Log(System.Double)
+  id: Log(System.Double)
+  parent: Prowl.Runtime.MathD
+  langs:
+  - csharp
+  - vb
+  name: Log(double)
+  nameWithType: MathD.Log(double)
+  fullName: Prowl.Runtime.MathD.Log(double)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Math/MathD.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Log
+    path: ../Prowl/Prowl.Runtime/Math/MathD.cs
+    startLine: 93
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: Returns the natural (base <code>e</code>) logarithm of a specified number.
+  example: []
+  syntax:
+    content: public static double Log(double value)
+    parameters:
+    - id: value
+      type: System.Double
+    return:
+      type: System.Double
+      description: >-
+        One of the values in the following table.  
+
+         <table><thead><tr><th class="term"><code class="paramref">d</code> parameter</th><th class="description"> Return value</th></tr></thead><tbody><tr><td class="term"> Positive</td><td class="description"> The natural logarithm of <code class="paramref">d</code>; that is, ln <code class="paramref">d</code>, or log e <code class="paramref">d</code></td></tr><tr><td class="term"> Zero</td><td class="description"><xref href="System.Double.NegativeInfinity" data-throw-if-not-resolved="false"></xref></td></tr><tr><td class="term"> Negative</td><td class="description"><xref href="System.Double.NaN" data-throw-if-not-resolved="false"></xref></td></tr><tr><td class="term"> Equal to <xref href="System.Double.NaN" data-throw-if-not-resolved="false"></xref></td><td class="description"><xref href="System.Double.NaN" data-throw-if-not-resolved="false"></xref></td></tr><tr><td class="term"> Equal to <xref href="System.Double.PositiveInfinity" data-throw-if-not-resolved="false"></xref></td><td class="description"><xref href="System.Double.PositiveInfinity" data-throw-if-not-resolved="false"></xref></td></tr></tbody></table>
+    content.vb: Public Shared Function Log(value As Double) As Double
+  overload: Prowl.Runtime.MathD.Log*
+  nameWithType.vb: MathD.Log(Double)
+  fullName.vb: Prowl.Runtime.MathD.Log(Double)
+  name.vb: Log(Double)
+- uid: Prowl.Runtime.MathD.Log10(System.Double)
+  commentId: M:Prowl.Runtime.MathD.Log10(System.Double)
+  id: Log10(System.Double)
+  parent: Prowl.Runtime.MathD
+  langs:
+  - csharp
+  - vb
+  name: Log10(double)
+  nameWithType: MathD.Log10(double)
+  fullName: Prowl.Runtime.MathD.Log10(double)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Math/MathD.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Log10
+    path: ../Prowl/Prowl.Runtime/Math/MathD.cs
+    startLine: 96
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: Returns the base 10 logarithm of a specified number.
+  example: []
+  syntax:
+    content: public static double Log10(double value)
+    parameters:
+    - id: value
+      type: System.Double
+    return:
+      type: System.Double
+      description: >-
+        One of the values in the following table.  
+
+         <table><thead><tr><th class="term"><code class="paramref">d</code> parameter</th><th class="description"> Return value</th></tr></thead><tbody><tr><td class="term"> Positive</td><td class="description"> The base 10 log of <code class="paramref">d</code>; that is, log 10<code class="paramref">d</code>.</td></tr><tr><td class="term"> Zero</td><td class="description"><xref href="System.Double.NegativeInfinity" data-throw-if-not-resolved="false"></xref></td></tr><tr><td class="term"> Negative</td><td class="description"><xref href="System.Double.NaN" data-throw-if-not-resolved="false"></xref></td></tr><tr><td class="term"> Equal to <xref href="System.Double.NaN" data-throw-if-not-resolved="false"></xref></td><td class="description"><xref href="System.Double.NaN" data-throw-if-not-resolved="false"></xref></td></tr><tr><td class="term"> Equal to <xref href="System.Double.PositiveInfinity" data-throw-if-not-resolved="false"></xref></td><td class="description"><xref href="System.Double.PositiveInfinity" data-throw-if-not-resolved="false"></xref></td></tr></tbody></table>
+    content.vb: Public Shared Function Log10(value As Double) As Double
+  overload: Prowl.Runtime.MathD.Log10*
+  nameWithType.vb: MathD.Log10(Double)
+  fullName.vb: Prowl.Runtime.MathD.Log10(Double)
+  name.vb: Log10(Double)
+- uid: Prowl.Runtime.MathD.Clamp(System.Double,System.Double,System.Double)
+  commentId: M:Prowl.Runtime.MathD.Clamp(System.Double,System.Double,System.Double)
+  id: Clamp(System.Double,System.Double,System.Double)
+  parent: Prowl.Runtime.MathD
+  langs:
+  - csharp
+  - vb
+  name: Clamp(double, double, double)
+  nameWithType: MathD.Clamp(double, double, double)
+  fullName: Prowl.Runtime.MathD.Clamp(double, double, double)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Math/MathD.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Clamp
+    path: ../Prowl/Prowl.Runtime/Math/MathD.cs
+    startLine: 99
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: Returns <code class="paramref">value</code> clamped to the inclusive range of <code class="paramref">min</code> and <code class="paramref">max</code>.
+  example: []
+  syntax:
+    content: public static double Clamp(double value, double min, double max)
+    parameters:
+    - id: value
+      type: System.Double
+      description: The value to be clamped.
+    - id: min
+      type: System.Double
+      description: The lower bound of the result.
+    - id: max
+      type: System.Double
+      description: The upper bound of the result.
+    return:
+      type: System.Double
+      description: "   <code class=\"paramref\">value</code> if <code class=\"paramref\">min</code> ≤ <code class=\"paramref\">value</code> ≤ <code class=\"paramref\">max</code>.\n\n-or-  \n\n<code class=\"paramref\">min</code> if <code class=\"paramref\">value</code> &lt; <code class=\"paramref\">min</code>.\n\n-or-  \n\n<code class=\"paramref\">max</code> if <code class=\"paramref\">max</code> &lt; <code class=\"paramref\">value</code>.\n\n-or-  \n\n <xref href=\"System.Double.NaN\" data-throw-if-not-resolved=\"false\"></xref> if <code class=\"paramref\">value</code> equals <xref href=\"System.Double.NaN\" data-throw-if-not-resolved=\"false\"></xref>."
+    content.vb: Public Shared Function Clamp(value As Double, min As Double, max As Double) As Double
+  overload: Prowl.Runtime.MathD.Clamp*
+  nameWithType.vb: MathD.Clamp(Double, Double, Double)
+  fullName.vb: Prowl.Runtime.MathD.Clamp(Double, Double, Double)
+  name.vb: Clamp(Double, Double, Double)
+- uid: Prowl.Runtime.MathD.Clamp(System.Int32,System.Int32,System.Int32)
+  commentId: M:Prowl.Runtime.MathD.Clamp(System.Int32,System.Int32,System.Int32)
+  id: Clamp(System.Int32,System.Int32,System.Int32)
+  parent: Prowl.Runtime.MathD
+  langs:
+  - csharp
+  - vb
+  name: Clamp(int, int, int)
+  nameWithType: MathD.Clamp(int, int, int)
+  fullName: Prowl.Runtime.MathD.Clamp(int, int, int)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Math/MathD.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Clamp
+    path: ../Prowl/Prowl.Runtime/Math/MathD.cs
+    startLine: 102
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: Returns <code class="paramref">value</code> clamped to the inclusive range of <code class="paramref">min</code> and <code class="paramref">max</code>.
+  example: []
+  syntax:
+    content: public static int Clamp(int value, int min, int max)
+    parameters:
+    - id: value
+      type: System.Int32
+      description: The value to be clamped.
+    - id: min
+      type: System.Int32
+      description: The lower bound of the result.
+    - id: max
+      type: System.Int32
+      description: The upper bound of the result.
+    return:
+      type: System.Int32
+      description: "   <code class=\"paramref\">value</code> if <code class=\"paramref\">min</code> ≤ <code class=\"paramref\">value</code> ≤ <code class=\"paramref\">max</code>.\n\n-or-  \n\n<code class=\"paramref\">min</code> if <code class=\"paramref\">value</code> &lt; <code class=\"paramref\">min</code>.\n\n-or-  \n\n<code class=\"paramref\">max</code> if <code class=\"paramref\">max</code> &lt; <code class=\"paramref\">value</code>.\n\n-or-  \n\n <xref href=\"System.Double.NaN\" data-throw-if-not-resolved=\"false\"></xref> if <code class=\"paramref\">value</code> equals <xref href=\"System.Double.NaN\" data-throw-if-not-resolved=\"false\"></xref>."
+    content.vb: Public Shared Function Clamp(value As Integer, min As Integer, max As Integer) As Integer
+  overload: Prowl.Runtime.MathD.Clamp*
+  nameWithType.vb: MathD.Clamp(Integer, Integer, Integer)
+  fullName.vb: Prowl.Runtime.MathD.Clamp(Integer, Integer, Integer)
+  name.vb: Clamp(Integer, Integer, Integer)
+- uid: Prowl.Runtime.MathD.Clamp01(System.Double)
+  commentId: M:Prowl.Runtime.MathD.Clamp01(System.Double)
+  id: Clamp01(System.Double)
+  parent: Prowl.Runtime.MathD
+  langs:
+  - csharp
+  - vb
+  name: Clamp01(double)
+  nameWithType: MathD.Clamp01(double)
+  fullName: Prowl.Runtime.MathD.Clamp01(double)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Math/MathD.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Clamp01
+    path: ../Prowl/Prowl.Runtime/Math/MathD.cs
+    startLine: 104
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public static double Clamp01(double value)
+    parameters:
+    - id: value
+      type: System.Double
+    return:
+      type: System.Double
+    content.vb: Public Shared Function Clamp01(value As Double) As Double
+  overload: Prowl.Runtime.MathD.Clamp01*
+  nameWithType.vb: MathD.Clamp01(Double)
+  fullName.vb: Prowl.Runtime.MathD.Clamp01(Double)
+  name.vb: Clamp01(Double)
+- uid: Prowl.Runtime.MathD.Min(System.Double[])
+  commentId: M:Prowl.Runtime.MathD.Min(System.Double[])
+  id: Min(System.Double[])
+  parent: Prowl.Runtime.MathD
+  langs:
+  - csharp
+  - vb
+  name: Min(params double[])
+  nameWithType: MathD.Min(params double[])
+  fullName: Prowl.Runtime.MathD.Min(params double[])
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Math/MathD.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Min
+    path: ../Prowl/Prowl.Runtime/Math/MathD.cs
+    startLine: 106
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public static double Min(params double[] values)
+    parameters:
+    - id: values
+      type: System.Double[]
+    return:
+      type: System.Double
+    content.vb: Public Shared Function Min(ParamArray values As Double()) As Double
+  overload: Prowl.Runtime.MathD.Min*
+  nameWithType.vb: MathD.Min(ParamArray Double())
+  fullName.vb: Prowl.Runtime.MathD.Min(ParamArray Double())
+  name.vb: Min(ParamArray Double())
+- uid: Prowl.Runtime.MathD.Max(System.Double[])
+  commentId: M:Prowl.Runtime.MathD.Max(System.Double[])
+  id: Max(System.Double[])
+  parent: Prowl.Runtime.MathD
+  langs:
+  - csharp
+  - vb
+  name: Max(params double[])
+  nameWithType: MathD.Max(params double[])
+  fullName: Prowl.Runtime.MathD.Max(params double[])
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Math/MathD.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Max
+    path: ../Prowl/Prowl.Runtime/Math/MathD.cs
+    startLine: 108
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public static double Max(params double[] values)
+    parameters:
+    - id: values
+      type: System.Double[]
+    return:
+      type: System.Double
+    content.vb: Public Shared Function Max(ParamArray values As Double()) As Double
+  overload: Prowl.Runtime.MathD.Max*
+  nameWithType.vb: MathD.Max(ParamArray Double())
+  fullName.vb: Prowl.Runtime.MathD.Max(ParamArray Double())
+  name.vb: Max(ParamArray Double())
+- uid: Prowl.Runtime.MathD.Min(System.Int32[])
+  commentId: M:Prowl.Runtime.MathD.Min(System.Int32[])
+  id: Min(System.Int32[])
+  parent: Prowl.Runtime.MathD
+  langs:
+  - csharp
+  - vb
+  name: Min(params int[])
+  nameWithType: MathD.Min(params int[])
+  fullName: Prowl.Runtime.MathD.Min(params int[])
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Math/MathD.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Min
+    path: ../Prowl/Prowl.Runtime/Math/MathD.cs
+    startLine: 110
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public static int Min(params int[] values)
+    parameters:
+    - id: values
+      type: System.Int32[]
+    return:
+      type: System.Int32
+    content.vb: Public Shared Function Min(ParamArray values As Integer()) As Integer
+  overload: Prowl.Runtime.MathD.Min*
+  nameWithType.vb: MathD.Min(ParamArray Integer())
+  fullName.vb: Prowl.Runtime.MathD.Min(ParamArray Integer())
+  name.vb: Min(ParamArray Integer())
+- uid: Prowl.Runtime.MathD.Max(System.Int32[])
+  commentId: M:Prowl.Runtime.MathD.Max(System.Int32[])
+  id: Max(System.Int32[])
+  parent: Prowl.Runtime.MathD
+  langs:
+  - csharp
+  - vb
+  name: Max(params int[])
+  nameWithType: MathD.Max(params int[])
+  fullName: Prowl.Runtime.MathD.Max(params int[])
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Math/MathD.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Max
+    path: ../Prowl/Prowl.Runtime/Math/MathD.cs
+    startLine: 112
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public static int Max(params int[] values)
+    parameters:
+    - id: values
+      type: System.Int32[]
+    return:
+      type: System.Int32
+    content.vb: Public Shared Function Max(ParamArray values As Integer()) As Integer
+  overload: Prowl.Runtime.MathD.Max*
+  nameWithType.vb: MathD.Max(ParamArray Integer())
+  fullName.vb: Prowl.Runtime.MathD.Max(ParamArray Integer())
+  name.vb: Max(ParamArray Integer())
+- uid: Prowl.Runtime.MathD.Sign(System.Double)
+  commentId: M:Prowl.Runtime.MathD.Sign(System.Double)
+  id: Sign(System.Double)
+  parent: Prowl.Runtime.MathD
+  langs:
+  - csharp
+  - vb
+  name: Sign(double)
+  nameWithType: MathD.Sign(double)
+  fullName: Prowl.Runtime.MathD.Sign(double)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Math/MathD.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Sign
+    path: ../Prowl/Prowl.Runtime/Math/MathD.cs
+    startLine: 114
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public static double Sign(double value)
+    parameters:
+    - id: value
+      type: System.Double
+    return:
+      type: System.Double
+    content.vb: Public Shared Function Sign(value As Double) As Double
+  overload: Prowl.Runtime.MathD.Sign*
+  nameWithType.vb: MathD.Sign(Double)
+  fullName.vb: Prowl.Runtime.MathD.Sign(Double)
+  name.vb: Sign(Double)
+- uid: Prowl.Runtime.MathD.Floor(System.Double)
+  commentId: M:Prowl.Runtime.MathD.Floor(System.Double)
+  id: Floor(System.Double)
+  parent: Prowl.Runtime.MathD
+  langs:
+  - csharp
+  - vb
+  name: Floor(double)
+  nameWithType: MathD.Floor(double)
+  fullName: Prowl.Runtime.MathD.Floor(double)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Math/MathD.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Floor
+    path: ../Prowl/Prowl.Runtime/Math/MathD.cs
+    startLine: 116
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public static double Floor(double value)
+    parameters:
+    - id: value
+      type: System.Double
+    return:
+      type: System.Double
+    content.vb: Public Shared Function Floor(value As Double) As Double
+  overload: Prowl.Runtime.MathD.Floor*
+  nameWithType.vb: MathD.Floor(Double)
+  fullName.vb: Prowl.Runtime.MathD.Floor(Double)
+  name.vb: Floor(Double)
+- uid: Prowl.Runtime.MathD.FloorToInt(System.Double)
+  commentId: M:Prowl.Runtime.MathD.FloorToInt(System.Double)
+  id: FloorToInt(System.Double)
+  parent: Prowl.Runtime.MathD
+  langs:
+  - csharp
+  - vb
+  name: FloorToInt(double)
+  nameWithType: MathD.FloorToInt(double)
+  fullName: Prowl.Runtime.MathD.FloorToInt(double)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Math/MathD.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: FloorToInt
+    path: ../Prowl/Prowl.Runtime/Math/MathD.cs
+    startLine: 118
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public static int FloorToInt(double value)
+    parameters:
+    - id: value
+      type: System.Double
+    return:
+      type: System.Int32
+    content.vb: Public Shared Function FloorToInt(value As Double) As Integer
+  overload: Prowl.Runtime.MathD.FloorToInt*
+  nameWithType.vb: MathD.FloorToInt(Double)
+  fullName.vb: Prowl.Runtime.MathD.FloorToInt(Double)
+  name.vb: FloorToInt(Double)
+- uid: Prowl.Runtime.MathD.Ceil(System.Double)
+  commentId: M:Prowl.Runtime.MathD.Ceil(System.Double)
+  id: Ceil(System.Double)
+  parent: Prowl.Runtime.MathD
+  langs:
+  - csharp
+  - vb
+  name: Ceil(double)
+  nameWithType: MathD.Ceil(double)
+  fullName: Prowl.Runtime.MathD.Ceil(double)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Math/MathD.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Ceil
+    path: ../Prowl/Prowl.Runtime/Math/MathD.cs
+    startLine: 120
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public static double Ceil(double value)
+    parameters:
+    - id: value
+      type: System.Double
+    return:
+      type: System.Double
+    content.vb: Public Shared Function Ceil(value As Double) As Double
+  overload: Prowl.Runtime.MathD.Ceil*
+  nameWithType.vb: MathD.Ceil(Double)
+  fullName.vb: Prowl.Runtime.MathD.Ceil(Double)
+  name.vb: Ceil(Double)
+- uid: Prowl.Runtime.MathD.CeilToInt(System.Double)
+  commentId: M:Prowl.Runtime.MathD.CeilToInt(System.Double)
+  id: CeilToInt(System.Double)
+  parent: Prowl.Runtime.MathD
+  langs:
+  - csharp
+  - vb
+  name: CeilToInt(double)
+  nameWithType: MathD.CeilToInt(double)
+  fullName: Prowl.Runtime.MathD.CeilToInt(double)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Math/MathD.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: CeilToInt
+    path: ../Prowl/Prowl.Runtime/Math/MathD.cs
+    startLine: 122
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public static int CeilToInt(double value)
+    parameters:
+    - id: value
+      type: System.Double
+    return:
+      type: System.Int32
+    content.vb: Public Shared Function CeilToInt(value As Double) As Integer
+  overload: Prowl.Runtime.MathD.CeilToInt*
+  nameWithType.vb: MathD.CeilToInt(Double)
+  fullName.vb: Prowl.Runtime.MathD.CeilToInt(Double)
+  name.vb: CeilToInt(Double)
+- uid: Prowl.Runtime.MathD.Round(System.Double,System.MidpointRounding)
+  commentId: M:Prowl.Runtime.MathD.Round(System.Double,System.MidpointRounding)
+  id: Round(System.Double,System.MidpointRounding)
+  parent: Prowl.Runtime.MathD
+  langs:
+  - csharp
+  - vb
+  name: Round(double, MidpointRounding)
+  nameWithType: MathD.Round(double, MidpointRounding)
+  fullName: Prowl.Runtime.MathD.Round(double, System.MidpointRounding)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Math/MathD.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Round
+    path: ../Prowl/Prowl.Runtime/Math/MathD.cs
+    startLine: 124
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public static double Round(double value, MidpointRounding midpointRounding = MidpointRounding.ToEven)
+    parameters:
+    - id: value
+      type: System.Double
+    - id: midpointRounding
+      type: System.MidpointRounding
+    return:
+      type: System.Double
+    content.vb: Public Shared Function Round(value As Double, midpointRounding As MidpointRounding = MidpointRounding.ToEven) As Double
+  overload: Prowl.Runtime.MathD.Round*
+  nameWithType.vb: MathD.Round(Double, MidpointRounding)
+  fullName.vb: Prowl.Runtime.MathD.Round(Double, System.MidpointRounding)
+  name.vb: Round(Double, MidpointRounding)
+- uid: Prowl.Runtime.MathD.Round(System.Double,System.Double,System.MidpointRounding)
+  commentId: M:Prowl.Runtime.MathD.Round(System.Double,System.Double,System.MidpointRounding)
+  id: Round(System.Double,System.Double,System.MidpointRounding)
+  parent: Prowl.Runtime.MathD
+  langs:
+  - csharp
+  - vb
+  name: Round(double, double, MidpointRounding)
+  nameWithType: MathD.Round(double, double, MidpointRounding)
+  fullName: Prowl.Runtime.MathD.Round(double, double, System.MidpointRounding)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Math/MathD.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Round
+    path: ../Prowl/Prowl.Runtime/Math/MathD.cs
+    startLine: 126
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public static double Round(double value, double snapInterval, MidpointRounding midpointRounding = MidpointRounding.ToEven)
+    parameters:
+    - id: value
+      type: System.Double
+    - id: snapInterval
+      type: System.Double
+    - id: midpointRounding
+      type: System.MidpointRounding
+    return:
+      type: System.Double
+    content.vb: Public Shared Function Round(value As Double, snapInterval As Double, midpointRounding As MidpointRounding = MidpointRounding.ToEven) As Double
+  overload: Prowl.Runtime.MathD.Round*
+  nameWithType.vb: MathD.Round(Double, Double, MidpointRounding)
+  fullName.vb: Prowl.Runtime.MathD.Round(Double, Double, System.MidpointRounding)
+  name.vb: Round(Double, Double, MidpointRounding)
+- uid: Prowl.Runtime.MathD.RoundToInt(System.Double,System.MidpointRounding)
+  commentId: M:Prowl.Runtime.MathD.RoundToInt(System.Double,System.MidpointRounding)
+  id: RoundToInt(System.Double,System.MidpointRounding)
+  parent: Prowl.Runtime.MathD
+  langs:
+  - csharp
+  - vb
+  name: RoundToInt(double, MidpointRounding)
+  nameWithType: MathD.RoundToInt(double, MidpointRounding)
+  fullName: Prowl.Runtime.MathD.RoundToInt(double, System.MidpointRounding)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Math/MathD.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: RoundToInt
+    path: ../Prowl/Prowl.Runtime/Math/MathD.cs
+    startLine: 128
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public static int RoundToInt(double value, MidpointRounding midpointRounding = MidpointRounding.ToEven)
+    parameters:
+    - id: value
+      type: System.Double
+    - id: midpointRounding
+      type: System.MidpointRounding
+    return:
+      type: System.Int32
+    content.vb: Public Shared Function RoundToInt(value As Double, midpointRounding As MidpointRounding = MidpointRounding.ToEven) As Integer
+  overload: Prowl.Runtime.MathD.RoundToInt*
+  nameWithType.vb: MathD.RoundToInt(Double, MidpointRounding)
+  fullName.vb: Prowl.Runtime.MathD.RoundToInt(Double, System.MidpointRounding)
+  name.vb: RoundToInt(Double, MidpointRounding)
+- uid: Prowl.Runtime.MathD.Frac(System.Double)
+  commentId: M:Prowl.Runtime.MathD.Frac(System.Double)
+  id: Frac(System.Double)
+  parent: Prowl.Runtime.MathD
+  langs:
+  - csharp
+  - vb
+  name: Frac(double)
+  nameWithType: MathD.Frac(double)
+  fullName: Prowl.Runtime.MathD.Frac(double)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Math/MathD.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Frac
+    path: ../Prowl/Prowl.Runtime/Math/MathD.cs
+    startLine: 130
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public static double Frac(double x)
+    parameters:
+    - id: x
+      type: System.Double
+    return:
+      type: System.Double
+    content.vb: Public Shared Function Frac(x As Double) As Double
+  overload: Prowl.Runtime.MathD.Frac*
+  nameWithType.vb: MathD.Frac(Double)
+  fullName.vb: Prowl.Runtime.MathD.Frac(Double)
+  name.vb: Frac(Double)
+- uid: Prowl.Runtime.MathD.Repeat(System.Double,System.Double)
+  commentId: M:Prowl.Runtime.MathD.Repeat(System.Double,System.Double)
+  id: Repeat(System.Double,System.Double)
+  parent: Prowl.Runtime.MathD
+  langs:
+  - csharp
+  - vb
+  name: Repeat(double, double)
+  nameWithType: MathD.Repeat(double, double)
+  fullName: Prowl.Runtime.MathD.Repeat(double, double)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Math/MathD.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Repeat
+    path: ../Prowl/Prowl.Runtime/Math/MathD.cs
+    startLine: 133
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: Repeats the given value in the interval specified by length
+  example: []
+  syntax:
+    content: public static double Repeat(double value, double length)
+    parameters:
+    - id: value
+      type: System.Double
+    - id: length
+      type: System.Double
+    return:
+      type: System.Double
+    content.vb: Public Shared Function Repeat(value As Double, length As Double) As Double
+  overload: Prowl.Runtime.MathD.Repeat*
+  nameWithType.vb: MathD.Repeat(Double, Double)
+  fullName.vb: Prowl.Runtime.MathD.Repeat(Double, Double)
+  name.vb: Repeat(Double, Double)
+- uid: Prowl.Runtime.MathD.PingPong(System.Double,System.Double)
+  commentId: M:Prowl.Runtime.MathD.PingPong(System.Double,System.Double)
+  id: PingPong(System.Double,System.Double)
+  parent: Prowl.Runtime.MathD
+  langs:
+  - csharp
+  - vb
+  name: PingPong(double, double)
+  nameWithType: MathD.PingPong(double, double)
+  fullName: Prowl.Runtime.MathD.PingPong(double, double)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Math/MathD.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: PingPong
+    path: ../Prowl/Prowl.Runtime/Math/MathD.cs
+    startLine: 136
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: Repeats a value within a range, going back and forth
+  example: []
+  syntax:
+    content: public static double PingPong(double t, double length)
+    parameters:
+    - id: t
+      type: System.Double
+    - id: length
+      type: System.Double
+    return:
+      type: System.Double
+    content.vb: Public Shared Function PingPong(t As Double, length As Double) As Double
+  overload: Prowl.Runtime.MathD.PingPong*
+  nameWithType.vb: MathD.PingPong(Double, Double)
+  fullName.vb: Prowl.Runtime.MathD.PingPong(Double, Double)
+  name.vb: PingPong(Double, Double)
+- uid: Prowl.Runtime.MathD.Smooth01(System.Double)
+  commentId: M:Prowl.Runtime.MathD.Smooth01(System.Double)
+  id: Smooth01(System.Double)
+  parent: Prowl.Runtime.MathD
+  langs:
+  - csharp
+  - vb
+  name: Smooth01(double)
+  nameWithType: MathD.Smooth01(double)
+  fullName: Prowl.Runtime.MathD.Smooth01(double)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Math/MathD.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Smooth01
+    path: ../Prowl/Prowl.Runtime/Math/MathD.cs
+    startLine: 139
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: Cubic EaseInOut
+  example: []
+  syntax:
+    content: public static double Smooth01(double x)
+    parameters:
+    - id: x
+      type: System.Double
+    return:
+      type: System.Double
+    content.vb: Public Shared Function Smooth01(x As Double) As Double
+  overload: Prowl.Runtime.MathD.Smooth01*
+  nameWithType.vb: MathD.Smooth01(Double)
+  fullName.vb: Prowl.Runtime.MathD.Smooth01(Double)
+  name.vb: Smooth01(Double)
+- uid: Prowl.Runtime.MathD.Smoother01(System.Double)
+  commentId: M:Prowl.Runtime.MathD.Smoother01(System.Double)
+  id: Smoother01(System.Double)
+  parent: Prowl.Runtime.MathD
+  langs:
+  - csharp
+  - vb
+  name: Smoother01(double)
+  nameWithType: MathD.Smoother01(double)
+  fullName: Prowl.Runtime.MathD.Smoother01(double)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Math/MathD.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Smoother01
+    path: ../Prowl/Prowl.Runtime/Math/MathD.cs
+    startLine: 142
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: Quintic EaseInOut
+  example: []
+  syntax:
+    content: public static double Smoother01(double x)
+    parameters:
+    - id: x
+      type: System.Double
+    return:
+      type: System.Double
+    content.vb: Public Shared Function Smoother01(x As Double) As Double
+  overload: Prowl.Runtime.MathD.Smoother01*
+  nameWithType.vb: MathD.Smoother01(Double)
+  fullName.vb: Prowl.Runtime.MathD.Smoother01(Double)
+  name.vb: Smoother01(Double)
+- uid: Prowl.Runtime.MathD.Lerp(System.Double,System.Double,System.Double)
+  commentId: M:Prowl.Runtime.MathD.Lerp(System.Double,System.Double,System.Double)
+  id: Lerp(System.Double,System.Double,System.Double)
+  parent: Prowl.Runtime.MathD
+  langs:
+  - csharp
+  - vb
+  name: Lerp(double, double, double)
+  nameWithType: MathD.Lerp(double, double, double)
+  fullName: Prowl.Runtime.MathD.Lerp(double, double, double)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Math/MathD.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Lerp
+    path: ../Prowl/Prowl.Runtime/Math/MathD.cs
+    startLine: 144
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public static double Lerp(double a, double b, double t)
+    parameters:
+    - id: a
+      type: System.Double
+    - id: b
+      type: System.Double
+    - id: t
+      type: System.Double
+    return:
+      type: System.Double
+    content.vb: Public Shared Function Lerp(a As Double, b As Double, t As Double) As Double
+  overload: Prowl.Runtime.MathD.Lerp*
+  nameWithType.vb: MathD.Lerp(Double, Double, Double)
+  fullName.vb: Prowl.Runtime.MathD.Lerp(Double, Double, Double)
+  name.vb: Lerp(Double, Double, Double)
+- uid: Prowl.Runtime.MathD.Lerp(Prowl.Runtime.Vector2,Prowl.Runtime.Vector2,Prowl.Runtime.Vector2)
+  commentId: M:Prowl.Runtime.MathD.Lerp(Prowl.Runtime.Vector2,Prowl.Runtime.Vector2,Prowl.Runtime.Vector2)
+  id: Lerp(Prowl.Runtime.Vector2,Prowl.Runtime.Vector2,Prowl.Runtime.Vector2)
+  parent: Prowl.Runtime.MathD
+  langs:
+  - csharp
+  - vb
+  name: Lerp(Vector2, Vector2, Vector2)
+  nameWithType: MathD.Lerp(Vector2, Vector2, Vector2)
+  fullName: Prowl.Runtime.MathD.Lerp(Prowl.Runtime.Vector2, Prowl.Runtime.Vector2, Prowl.Runtime.Vector2)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Math/MathD.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Lerp
+    path: ../Prowl/Prowl.Runtime/Math/MathD.cs
+    startLine: 146
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public static Vector2 Lerp(Vector2 a, Vector2 b, Vector2 t)
+    parameters:
+    - id: a
+      type: Prowl.Runtime.Vector2
+    - id: b
+      type: Prowl.Runtime.Vector2
+    - id: t
+      type: Prowl.Runtime.Vector2
+    return:
+      type: Prowl.Runtime.Vector2
+    content.vb: Public Shared Function Lerp(a As Vector2, b As Vector2, t As Vector2) As Vector2
+  overload: Prowl.Runtime.MathD.Lerp*
+- uid: Prowl.Runtime.MathD.Lerp(Prowl.Runtime.Vector3,Prowl.Runtime.Vector3,Prowl.Runtime.Vector3)
+  commentId: M:Prowl.Runtime.MathD.Lerp(Prowl.Runtime.Vector3,Prowl.Runtime.Vector3,Prowl.Runtime.Vector3)
+  id: Lerp(Prowl.Runtime.Vector3,Prowl.Runtime.Vector3,Prowl.Runtime.Vector3)
+  parent: Prowl.Runtime.MathD
+  langs:
+  - csharp
+  - vb
+  name: Lerp(Vector3, Vector3, Vector3)
+  nameWithType: MathD.Lerp(Vector3, Vector3, Vector3)
+  fullName: Prowl.Runtime.MathD.Lerp(Prowl.Runtime.Vector3, Prowl.Runtime.Vector3, Prowl.Runtime.Vector3)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Math/MathD.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Lerp
+    path: ../Prowl/Prowl.Runtime/Math/MathD.cs
+    startLine: 148
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public static Vector3 Lerp(Vector3 a, Vector3 b, Vector3 t)
+    parameters:
+    - id: a
+      type: Prowl.Runtime.Vector3
+    - id: b
+      type: Prowl.Runtime.Vector3
+    - id: t
+      type: Prowl.Runtime.Vector3
+    return:
+      type: Prowl.Runtime.Vector3
+    content.vb: Public Shared Function Lerp(a As Vector3, b As Vector3, t As Vector3) As Vector3
+  overload: Prowl.Runtime.MathD.Lerp*
+- uid: Prowl.Runtime.MathD.Lerp(Prowl.Runtime.Vector4,Prowl.Runtime.Vector4,Prowl.Runtime.Vector4)
+  commentId: M:Prowl.Runtime.MathD.Lerp(Prowl.Runtime.Vector4,Prowl.Runtime.Vector4,Prowl.Runtime.Vector4)
+  id: Lerp(Prowl.Runtime.Vector4,Prowl.Runtime.Vector4,Prowl.Runtime.Vector4)
+  parent: Prowl.Runtime.MathD
+  langs:
+  - csharp
+  - vb
+  name: Lerp(Vector4, Vector4, Vector4)
+  nameWithType: MathD.Lerp(Vector4, Vector4, Vector4)
+  fullName: Prowl.Runtime.MathD.Lerp(Prowl.Runtime.Vector4, Prowl.Runtime.Vector4, Prowl.Runtime.Vector4)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Math/MathD.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Lerp
+    path: ../Prowl/Prowl.Runtime/Math/MathD.cs
+    startLine: 150
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public static Vector4 Lerp(Vector4 a, Vector4 b, Vector4 t)
+    parameters:
+    - id: a
+      type: Prowl.Runtime.Vector4
+    - id: b
+      type: Prowl.Runtime.Vector4
+    - id: t
+      type: Prowl.Runtime.Vector4
+    return:
+      type: Prowl.Runtime.Vector4
+    content.vb: Public Shared Function Lerp(a As Vector4, b As Vector4, t As Vector4) As Vector4
+  overload: Prowl.Runtime.MathD.Lerp*
+- uid: Prowl.Runtime.MathD.LerpClamped(System.Double,System.Double,System.Double)
+  commentId: M:Prowl.Runtime.MathD.LerpClamped(System.Double,System.Double,System.Double)
+  id: LerpClamped(System.Double,System.Double,System.Double)
+  parent: Prowl.Runtime.MathD
+  langs:
+  - csharp
+  - vb
+  name: LerpClamped(double, double, double)
+  nameWithType: MathD.LerpClamped(double, double, double)
+  fullName: Prowl.Runtime.MathD.LerpClamped(double, double, double)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Math/MathD.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: LerpClamped
+    path: ../Prowl/Prowl.Runtime/Math/MathD.cs
+    startLine: 152
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public static double LerpClamped(double a, double b, double t)
+    parameters:
+    - id: a
+      type: System.Double
+    - id: b
+      type: System.Double
+    - id: t
+      type: System.Double
+    return:
+      type: System.Double
+    content.vb: Public Shared Function LerpClamped(a As Double, b As Double, t As Double) As Double
+  overload: Prowl.Runtime.MathD.LerpClamped*
+  nameWithType.vb: MathD.LerpClamped(Double, Double, Double)
+  fullName.vb: Prowl.Runtime.MathD.LerpClamped(Double, Double, Double)
+  name.vb: LerpClamped(Double, Double, Double)
+- uid: Prowl.Runtime.MathD.LerpSmooth(System.Double,System.Double,System.Double)
+  commentId: M:Prowl.Runtime.MathD.LerpSmooth(System.Double,System.Double,System.Double)
+  id: LerpSmooth(System.Double,System.Double,System.Double)
+  parent: Prowl.Runtime.MathD
+  langs:
+  - csharp
+  - vb
+  name: LerpSmooth(double, double, double)
+  nameWithType: MathD.LerpSmooth(double, double, double)
+  fullName: Prowl.Runtime.MathD.LerpSmooth(double, double, double)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Math/MathD.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: LerpSmooth
+    path: ../Prowl/Prowl.Runtime/Math/MathD.cs
+    startLine: 154
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public static double LerpSmooth(double a, double b, double t)
+    parameters:
+    - id: a
+      type: System.Double
+    - id: b
+      type: System.Double
+    - id: t
+      type: System.Double
+    return:
+      type: System.Double
+    content.vb: Public Shared Function LerpSmooth(a As Double, b As Double, t As Double) As Double
+  overload: Prowl.Runtime.MathD.LerpSmooth*
+  nameWithType.vb: MathD.LerpSmooth(Double, Double, Double)
+  fullName.vb: Prowl.Runtime.MathD.LerpSmooth(Double, Double, Double)
+  name.vb: LerpSmooth(Double, Double, Double)
+- uid: Prowl.Runtime.MathD.MoveTowards(System.Double,System.Double,System.Double)
+  commentId: M:Prowl.Runtime.MathD.MoveTowards(System.Double,System.Double,System.Double)
+  id: MoveTowards(System.Double,System.Double,System.Double)
+  parent: Prowl.Runtime.MathD
+  langs:
+  - csharp
+  - vb
+  name: MoveTowards(double, double, double)
+  nameWithType: MathD.MoveTowards(double, double, double)
+  fullName: Prowl.Runtime.MathD.MoveTowards(double, double, double)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Math/MathD.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: MoveTowards
+    path: ../Prowl/Prowl.Runtime/Math/MathD.cs
+    startLine: 156
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public static double MoveTowards(double current, double target, double maxDelta)
+    parameters:
+    - id: current
+      type: System.Double
+    - id: target
+      type: System.Double
+    - id: maxDelta
+      type: System.Double
+    return:
+      type: System.Double
+    content.vb: Public Shared Function MoveTowards(current As Double, target As Double, maxDelta As Double) As Double
+  overload: Prowl.Runtime.MathD.MoveTowards*
+  nameWithType.vb: MathD.MoveTowards(Double, Double, Double)
+  fullName.vb: Prowl.Runtime.MathD.MoveTowards(Double, Double, Double)
+  name.vb: MoveTowards(Double, Double, Double)
+- uid: Prowl.Runtime.MathD.ClampMagnitude(Prowl.Runtime.Vector2,System.Double,System.Double)
+  commentId: M:Prowl.Runtime.MathD.ClampMagnitude(Prowl.Runtime.Vector2,System.Double,System.Double)
+  id: ClampMagnitude(Prowl.Runtime.Vector2,System.Double,System.Double)
+  parent: Prowl.Runtime.MathD
+  langs:
+  - csharp
+  - vb
+  name: ClampMagnitude(Vector2, double, double)
+  nameWithType: MathD.ClampMagnitude(Vector2, double, double)
+  fullName: Prowl.Runtime.MathD.ClampMagnitude(Prowl.Runtime.Vector2, double, double)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Math/MathD.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: ClampMagnitude
+    path: ../Prowl/Prowl.Runtime/Math/MathD.cs
+    startLine: 162
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public static Vector2 ClampMagnitude(Vector2 v, double min, double max)
+    parameters:
+    - id: v
+      type: Prowl.Runtime.Vector2
+    - id: min
+      type: System.Double
+    - id: max
+      type: System.Double
+    return:
+      type: Prowl.Runtime.Vector2
+    content.vb: Public Shared Function ClampMagnitude(v As Vector2, min As Double, max As Double) As Vector2
+  overload: Prowl.Runtime.MathD.ClampMagnitude*
+  nameWithType.vb: MathD.ClampMagnitude(Vector2, Double, Double)
+  fullName.vb: Prowl.Runtime.MathD.ClampMagnitude(Prowl.Runtime.Vector2, Double, Double)
+  name.vb: ClampMagnitude(Vector2, Double, Double)
+- uid: Prowl.Runtime.MathD.ClampMagnitude(Prowl.Runtime.Vector3,System.Double,System.Double)
+  commentId: M:Prowl.Runtime.MathD.ClampMagnitude(Prowl.Runtime.Vector3,System.Double,System.Double)
+  id: ClampMagnitude(Prowl.Runtime.Vector3,System.Double,System.Double)
+  parent: Prowl.Runtime.MathD
+  langs:
+  - csharp
+  - vb
+  name: ClampMagnitude(Vector3, double, double)
+  nameWithType: MathD.ClampMagnitude(Vector3, double, double)
+  fullName: Prowl.Runtime.MathD.ClampMagnitude(Prowl.Runtime.Vector3, double, double)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Math/MathD.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: ClampMagnitude
+    path: ../Prowl/Prowl.Runtime/Math/MathD.cs
+    startLine: 168
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public static Vector3 ClampMagnitude(Vector3 v, double min, double max)
+    parameters:
+    - id: v
+      type: Prowl.Runtime.Vector3
+    - id: min
+      type: System.Double
+    - id: max
+      type: System.Double
+    return:
+      type: Prowl.Runtime.Vector3
+    content.vb: Public Shared Function ClampMagnitude(v As Vector3, min As Double, max As Double) As Vector3
+  overload: Prowl.Runtime.MathD.ClampMagnitude*
+  nameWithType.vb: MathD.ClampMagnitude(Vector3, Double, Double)
+  fullName.vb: Prowl.Runtime.MathD.ClampMagnitude(Prowl.Runtime.Vector3, Double, Double)
+  name.vb: ClampMagnitude(Vector3, Double, Double)
+- uid: Prowl.Runtime.MathD.Angle(Prowl.Runtime.Quaternion,Prowl.Runtime.Quaternion)
+  commentId: M:Prowl.Runtime.MathD.Angle(Prowl.Runtime.Quaternion,Prowl.Runtime.Quaternion)
+  id: Angle(Prowl.Runtime.Quaternion,Prowl.Runtime.Quaternion)
+  parent: Prowl.Runtime.MathD
+  langs:
+  - csharp
+  - vb
+  name: Angle(Quaternion, Quaternion)
+  nameWithType: MathD.Angle(Quaternion, Quaternion)
+  fullName: Prowl.Runtime.MathD.Angle(Prowl.Runtime.Quaternion, Prowl.Runtime.Quaternion)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Math/MathD.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Angle
+    path: ../Prowl/Prowl.Runtime/Math/MathD.cs
+    startLine: 174
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public static double Angle(Quaternion a, Quaternion b)
+    parameters:
+    - id: a
+      type: Prowl.Runtime.Quaternion
+    - id: b
+      type: Prowl.Runtime.Quaternion
+    return:
+      type: System.Double
+    content.vb: Public Shared Function Angle(a As Quaternion, b As Quaternion) As Double
+  overload: Prowl.Runtime.MathD.Angle*
+- uid: Prowl.Runtime.MathD.LerpAngle(System.Double,System.Double,System.Double)
+  commentId: M:Prowl.Runtime.MathD.LerpAngle(System.Double,System.Double,System.Double)
+  id: LerpAngle(System.Double,System.Double,System.Double)
+  parent: Prowl.Runtime.MathD
+  langs:
+  - csharp
+  - vb
+  name: LerpAngle(double, double, double)
+  nameWithType: MathD.LerpAngle(double, double, double)
+  fullName: Prowl.Runtime.MathD.LerpAngle(double, double, double)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Math/MathD.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: LerpAngle
+    path: ../Prowl/Prowl.Runtime/Math/MathD.cs
+    startLine: 180
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public static double LerpAngle(double aRad, double bRad, double t)
+    parameters:
+    - id: aRad
+      type: System.Double
+    - id: bRad
+      type: System.Double
+    - id: t
+      type: System.Double
+    return:
+      type: System.Double
+    content.vb: Public Shared Function LerpAngle(aRad As Double, bRad As Double, t As Double) As Double
+  overload: Prowl.Runtime.MathD.LerpAngle*
+  nameWithType.vb: MathD.LerpAngle(Double, Double, Double)
+  fullName.vb: Prowl.Runtime.MathD.LerpAngle(Double, Double, Double)
+  name.vb: LerpAngle(Double, Double, Double)
+- uid: Prowl.Runtime.MathD.Pack4f(Prowl.Runtime.Vector4)
+  commentId: M:Prowl.Runtime.MathD.Pack4f(Prowl.Runtime.Vector4)
+  id: Pack4f(Prowl.Runtime.Vector4)
+  isExtensionMethod: true
+  parent: Prowl.Runtime.MathD
+  langs:
+  - csharp
+  - vb
+  name: Pack4f(Vector4)
+  nameWithType: MathD.Pack4f(Vector4)
+  fullName: Prowl.Runtime.MathD.Pack4f(Prowl.Runtime.Vector4)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Math/MathD.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Pack4f
+    path: ../Prowl/Prowl.Runtime/Math/MathD.cs
+    startLine: 187
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public static uint Pack4f(this Vector4 color)
+    parameters:
+    - id: color
+      type: Prowl.Runtime.Vector4
+    return:
+      type: System.UInt32
+    content.vb: Public Shared Function Pack4f(color As Vector4) As UInteger
+  overload: Prowl.Runtime.MathD.Pack4f*
+- uid: Prowl.Runtime.MathD.Pack4u(System.UInt32,System.UInt32,System.UInt32,System.UInt32)
+  commentId: M:Prowl.Runtime.MathD.Pack4u(System.UInt32,System.UInt32,System.UInt32,System.UInt32)
+  id: Pack4u(System.UInt32,System.UInt32,System.UInt32,System.UInt32)
+  parent: Prowl.Runtime.MathD
+  langs:
+  - csharp
+  - vb
+  name: Pack4u(uint, uint, uint, uint)
+  nameWithType: MathD.Pack4u(uint, uint, uint, uint)
+  fullName: Prowl.Runtime.MathD.Pack4u(uint, uint, uint, uint)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Math/MathD.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Pack4u
+    path: ../Prowl/Prowl.Runtime/Math/MathD.cs
+    startLine: 189
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public static uint Pack4u(uint a, uint r, uint g, uint b)
+    parameters:
+    - id: a
+      type: System.UInt32
+    - id: r
+      type: System.UInt32
+    - id: g
+      type: System.UInt32
+    - id: b
+      type: System.UInt32
+    return:
+      type: System.UInt32
+    content.vb: Public Shared Function Pack4u(a As UInteger, r As UInteger, g As UInteger, b As UInteger) As UInteger
+  overload: Prowl.Runtime.MathD.Pack4u*
+  nameWithType.vb: MathD.Pack4u(UInteger, UInteger, UInteger, UInteger)
+  fullName.vb: Prowl.Runtime.MathD.Pack4u(UInteger, UInteger, UInteger, UInteger)
+  name.vb: Pack4u(UInteger, UInteger, UInteger, UInteger)
+- uid: Prowl.Runtime.MathD.ComputeMipLevels(System.Int32,System.Int32)
+  commentId: M:Prowl.Runtime.MathD.ComputeMipLevels(System.Int32,System.Int32)
+  id: ComputeMipLevels(System.Int32,System.Int32)
+  parent: Prowl.Runtime.MathD
+  langs:
+  - csharp
+  - vb
+  name: ComputeMipLevels(int, int)
+  nameWithType: MathD.ComputeMipLevels(int, int)
+  fullName: Prowl.Runtime.MathD.ComputeMipLevels(int, int)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Math/MathD.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: ComputeMipLevels
+    path: ../Prowl/Prowl.Runtime/Math/MathD.cs
+    startLine: 191
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public static int ComputeMipLevels(int width, int height)
+    parameters:
+    - id: width
+      type: System.Int32
+    - id: height
+      type: System.Int32
+    return:
+      type: System.Int32
+    content.vb: Public Shared Function ComputeMipLevels(width As Integer, height As Integer) As Integer
+  overload: Prowl.Runtime.MathD.ComputeMipLevels*
+  nameWithType.vb: MathD.ComputeMipLevels(Integer, Integer)
+  fullName.vb: Prowl.Runtime.MathD.ComputeMipLevels(Integer, Integer)
+  name.vb: ComputeMipLevels(Integer, Integer)
+- uid: Prowl.Runtime.MathD.ApproximatelyEquals(System.Double,System.Double)
+  commentId: M:Prowl.Runtime.MathD.ApproximatelyEquals(System.Double,System.Double)
+  id: ApproximatelyEquals(System.Double,System.Double)
+  parent: Prowl.Runtime.MathD
+  langs:
+  - csharp
+  - vb
+  name: ApproximatelyEquals(double, double)
+  nameWithType: MathD.ApproximatelyEquals(double, double)
+  fullName: Prowl.Runtime.MathD.ApproximatelyEquals(double, double)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Math/MathD.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: ApproximatelyEquals
+    path: ../Prowl/Prowl.Runtime/Math/MathD.cs
+    startLine: 193
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public static bool ApproximatelyEquals(double a, double b)
+    parameters:
+    - id: a
+      type: System.Double
+    - id: b
+      type: System.Double
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function ApproximatelyEquals(a As Double, b As Double) As Boolean
+  overload: Prowl.Runtime.MathD.ApproximatelyEquals*
+  nameWithType.vb: MathD.ApproximatelyEquals(Double, Double)
+  fullName.vb: Prowl.Runtime.MathD.ApproximatelyEquals(Double, Double)
+  name.vb: ApproximatelyEquals(Double, Double)
+- uid: Prowl.Runtime.MathD.ApproximatelyEquals(Prowl.Runtime.Vector2,Prowl.Runtime.Vector2)
+  commentId: M:Prowl.Runtime.MathD.ApproximatelyEquals(Prowl.Runtime.Vector2,Prowl.Runtime.Vector2)
+  id: ApproximatelyEquals(Prowl.Runtime.Vector2,Prowl.Runtime.Vector2)
+  parent: Prowl.Runtime.MathD
+  langs:
+  - csharp
+  - vb
+  name: ApproximatelyEquals(Vector2, Vector2)
+  nameWithType: MathD.ApproximatelyEquals(Vector2, Vector2)
+  fullName: Prowl.Runtime.MathD.ApproximatelyEquals(Prowl.Runtime.Vector2, Prowl.Runtime.Vector2)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Math/MathD.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: ApproximatelyEquals
+    path: ../Prowl/Prowl.Runtime/Math/MathD.cs
+    startLine: 194
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public static bool ApproximatelyEquals(Vector2 a, Vector2 b)
+    parameters:
+    - id: a
+      type: Prowl.Runtime.Vector2
+    - id: b
+      type: Prowl.Runtime.Vector2
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function ApproximatelyEquals(a As Vector2, b As Vector2) As Boolean
+  overload: Prowl.Runtime.MathD.ApproximatelyEquals*
+- uid: Prowl.Runtime.MathD.ApproximatelyEquals(Prowl.Runtime.Vector3,Prowl.Runtime.Vector3)
+  commentId: M:Prowl.Runtime.MathD.ApproximatelyEquals(Prowl.Runtime.Vector3,Prowl.Runtime.Vector3)
+  id: ApproximatelyEquals(Prowl.Runtime.Vector3,Prowl.Runtime.Vector3)
+  parent: Prowl.Runtime.MathD
+  langs:
+  - csharp
+  - vb
+  name: ApproximatelyEquals(Vector3, Vector3)
+  nameWithType: MathD.ApproximatelyEquals(Vector3, Vector3)
+  fullName: Prowl.Runtime.MathD.ApproximatelyEquals(Prowl.Runtime.Vector3, Prowl.Runtime.Vector3)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Math/MathD.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: ApproximatelyEquals
+    path: ../Prowl/Prowl.Runtime/Math/MathD.cs
+    startLine: 195
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public static bool ApproximatelyEquals(Vector3 a, Vector3 b)
+    parameters:
+    - id: a
+      type: Prowl.Runtime.Vector3
+    - id: b
+      type: Prowl.Runtime.Vector3
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function ApproximatelyEquals(a As Vector3, b As Vector3) As Boolean
+  overload: Prowl.Runtime.MathD.ApproximatelyEquals*
+- uid: Prowl.Runtime.MathD.ApproximatelyEquals(Prowl.Runtime.Vector4,Prowl.Runtime.Vector4)
+  commentId: M:Prowl.Runtime.MathD.ApproximatelyEquals(Prowl.Runtime.Vector4,Prowl.Runtime.Vector4)
+  id: ApproximatelyEquals(Prowl.Runtime.Vector4,Prowl.Runtime.Vector4)
+  parent: Prowl.Runtime.MathD
+  langs:
+  - csharp
+  - vb
+  name: ApproximatelyEquals(Vector4, Vector4)
+  nameWithType: MathD.ApproximatelyEquals(Vector4, Vector4)
+  fullName: Prowl.Runtime.MathD.ApproximatelyEquals(Prowl.Runtime.Vector4, Prowl.Runtime.Vector4)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Math/MathD.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: ApproximatelyEquals
+    path: ../Prowl/Prowl.Runtime/Math/MathD.cs
+    startLine: 196
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public static bool ApproximatelyEquals(Vector4 a, Vector4 b)
+    parameters:
+    - id: a
+      type: Prowl.Runtime.Vector4
+    - id: b
+      type: Prowl.Runtime.Vector4
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function ApproximatelyEquals(a As Vector4, b As Vector4) As Boolean
+  overload: Prowl.Runtime.MathD.ApproximatelyEquals*
+- uid: Prowl.Runtime.MathD.GetClosestPointOnLine(Prowl.Runtime.Vector2,Prowl.Runtime.Vector2,Prowl.Runtime.Vector2)
+  commentId: M:Prowl.Runtime.MathD.GetClosestPointOnLine(Prowl.Runtime.Vector2,Prowl.Runtime.Vector2,Prowl.Runtime.Vector2)
+  id: GetClosestPointOnLine(Prowl.Runtime.Vector2,Prowl.Runtime.Vector2,Prowl.Runtime.Vector2)
+  parent: Prowl.Runtime.MathD
+  langs:
+  - csharp
+  - vb
+  name: GetClosestPointOnLine(Vector2, Vector2, Vector2)
+  nameWithType: MathD.GetClosestPointOnLine(Vector2, Vector2, Vector2)
+  fullName: Prowl.Runtime.MathD.GetClosestPointOnLine(Prowl.Runtime.Vector2, Prowl.Runtime.Vector2, Prowl.Runtime.Vector2)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Math/MathD.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: GetClosestPointOnLine
+    path: ../Prowl/Prowl.Runtime/Math/MathD.cs
+    startLine: 201
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: Compute the closest position on a line to point
+  example: []
+  syntax:
+    content: public static Vector2 GetClosestPointOnLine(Vector2 point, Vector2 lineStart, Vector2 lineEnd)
+    parameters:
+    - id: point
+      type: Prowl.Runtime.Vector2
+    - id: lineStart
+      type: Prowl.Runtime.Vector2
+    - id: lineEnd
+      type: Prowl.Runtime.Vector2
+    return:
+      type: Prowl.Runtime.Vector2
+    content.vb: Public Shared Function GetClosestPointOnLine(point As Vector2, lineStart As Vector2, lineEnd As Vector2) As Vector2
+  overload: Prowl.Runtime.MathD.GetClosestPointOnLine*
+- uid: Prowl.Runtime.MathD.DoesLineIntersectLine(Prowl.Runtime.Vector2,Prowl.Runtime.Vector2,Prowl.Runtime.Vector2,Prowl.Runtime.Vector2,Prowl.Runtime.Vector2@)
+  commentId: M:Prowl.Runtime.MathD.DoesLineIntersectLine(Prowl.Runtime.Vector2,Prowl.Runtime.Vector2,Prowl.Runtime.Vector2,Prowl.Runtime.Vector2,Prowl.Runtime.Vector2@)
+  id: DoesLineIntersectLine(Prowl.Runtime.Vector2,Prowl.Runtime.Vector2,Prowl.Runtime.Vector2,Prowl.Runtime.Vector2,Prowl.Runtime.Vector2@)
+  parent: Prowl.Runtime.MathD
+  langs:
+  - csharp
+  - vb
+  name: DoesLineIntersectLine(Vector2, Vector2, Vector2, Vector2, out Vector2)
+  nameWithType: MathD.DoesLineIntersectLine(Vector2, Vector2, Vector2, Vector2, out Vector2)
+  fullName: Prowl.Runtime.MathD.DoesLineIntersectLine(Prowl.Runtime.Vector2, Prowl.Runtime.Vector2, Prowl.Runtime.Vector2, Prowl.Runtime.Vector2, out Prowl.Runtime.Vector2)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Math/MathD.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: DoesLineIntersectLine
+    path: ../Prowl/Prowl.Runtime/Math/MathD.cs
+    startLine: 222
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: Checks if two Lines Intersect (Mathf.Small Tolerance)
+  example: []
+  syntax:
+    content: public static bool DoesLineIntersectLine(Vector2 startA, Vector2 endA, Vector2 startB, Vector2 endB, out Vector2 result)
+    parameters:
+    - id: startA
+      type: Prowl.Runtime.Vector2
+    - id: endA
+      type: Prowl.Runtime.Vector2
+    - id: startB
+      type: Prowl.Runtime.Vector2
+    - id: endB
+      type: Prowl.Runtime.Vector2
+    - id: result
+      type: Prowl.Runtime.Vector2
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function DoesLineIntersectLine(startA As Vector2, endA As Vector2, startB As Vector2, endB As Vector2, result As Vector2) As Boolean
+  overload: Prowl.Runtime.MathD.DoesLineIntersectLine*
+  nameWithType.vb: MathD.DoesLineIntersectLine(Vector2, Vector2, Vector2, Vector2, Vector2)
+  fullName.vb: Prowl.Runtime.MathD.DoesLineIntersectLine(Prowl.Runtime.Vector2, Prowl.Runtime.Vector2, Prowl.Runtime.Vector2, Prowl.Runtime.Vector2, Prowl.Runtime.Vector2)
+  name.vb: DoesLineIntersectLine(Vector2, Vector2, Vector2, Vector2, Vector2)
+- uid: Prowl.Runtime.MathD.AreLinesParallel(Prowl.Runtime.Vector2,Prowl.Runtime.Vector2,Prowl.Runtime.Vector2,Prowl.Runtime.Vector2,System.Double)
+  commentId: M:Prowl.Runtime.MathD.AreLinesParallel(Prowl.Runtime.Vector2,Prowl.Runtime.Vector2,Prowl.Runtime.Vector2,Prowl.Runtime.Vector2,System.Double)
+  id: AreLinesParallel(Prowl.Runtime.Vector2,Prowl.Runtime.Vector2,Prowl.Runtime.Vector2,Prowl.Runtime.Vector2,System.Double)
+  parent: Prowl.Runtime.MathD
+  langs:
+  - csharp
+  - vb
+  name: AreLinesParallel(Vector2, Vector2, Vector2, Vector2, double)
+  nameWithType: MathD.AreLinesParallel(Vector2, Vector2, Vector2, Vector2, double)
+  fullName: Prowl.Runtime.MathD.AreLinesParallel(Prowl.Runtime.Vector2, Prowl.Runtime.Vector2, Prowl.Runtime.Vector2, Prowl.Runtime.Vector2, double)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Math/MathD.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: AreLinesParallel
+    path: ../Prowl/Prowl.Runtime/Math/MathD.cs
+    startLine: 255
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: Checks if two 2D lines are Parallel within a tolerance
+  example: []
+  syntax:
+    content: public static bool AreLinesParallel(Vector2 startA, Vector2 endA, Vector2 startB, Vector2 endB, double tolerance)
+    parameters:
+    - id: startA
+      type: Prowl.Runtime.Vector2
+    - id: endA
+      type: Prowl.Runtime.Vector2
+    - id: startB
+      type: Prowl.Runtime.Vector2
+    - id: endB
+      type: Prowl.Runtime.Vector2
+    - id: tolerance
+      type: System.Double
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function AreLinesParallel(startA As Vector2, endA As Vector2, startB As Vector2, endB As Vector2, tolerance As Double) As Boolean
+  overload: Prowl.Runtime.MathD.AreLinesParallel*
+  nameWithType.vb: MathD.AreLinesParallel(Vector2, Vector2, Vector2, Vector2, Double)
+  fullName.vb: Prowl.Runtime.MathD.AreLinesParallel(Prowl.Runtime.Vector2, Prowl.Runtime.Vector2, Prowl.Runtime.Vector2, Prowl.Runtime.Vector2, Double)
+  name.vb: AreLinesParallel(Vector2, Vector2, Vector2, Vector2, Double)
+- uid: Prowl.Runtime.MathD.RayIntersectsTriangle(Prowl.Runtime.Vector3,Prowl.Runtime.Vector3,Prowl.Runtime.Vector3,Prowl.Runtime.Vector3,Prowl.Runtime.Vector3,Prowl.Runtime.Vector3@)
+  commentId: M:Prowl.Runtime.MathD.RayIntersectsTriangle(Prowl.Runtime.Vector3,Prowl.Runtime.Vector3,Prowl.Runtime.Vector3,Prowl.Runtime.Vector3,Prowl.Runtime.Vector3,Prowl.Runtime.Vector3@)
+  id: RayIntersectsTriangle(Prowl.Runtime.Vector3,Prowl.Runtime.Vector3,Prowl.Runtime.Vector3,Prowl.Runtime.Vector3,Prowl.Runtime.Vector3,Prowl.Runtime.Vector3@)
+  parent: Prowl.Runtime.MathD
+  langs:
+  - csharp
+  - vb
+  name: RayIntersectsTriangle(Vector3, Vector3, Vector3, Vector3, Vector3, out Vector3)
+  nameWithType: MathD.RayIntersectsTriangle(Vector3, Vector3, Vector3, Vector3, Vector3, out Vector3)
+  fullName: Prowl.Runtime.MathD.RayIntersectsTriangle(Prowl.Runtime.Vector3, Prowl.Runtime.Vector3, Prowl.Runtime.Vector3, Prowl.Runtime.Vector3, Prowl.Runtime.Vector3, out Prowl.Runtime.Vector3)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Math/MathD.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: RayIntersectsTriangle
+    path: ../Prowl/Prowl.Runtime/Math/MathD.cs
+    startLine: 278
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: Checks if a Ray intersects a triangle (Uses Mathf.Small for Error)
+  example: []
+  syntax:
+    content: public static bool RayIntersectsTriangle(Vector3 origin, Vector3 dir, Vector3 a, Vector3 b, Vector3 c, out Vector3 intersection)
+    parameters:
+    - id: origin
+      type: Prowl.Runtime.Vector3
+    - id: dir
+      type: Prowl.Runtime.Vector3
+    - id: a
+      type: Prowl.Runtime.Vector3
+    - id: b
+      type: Prowl.Runtime.Vector3
+    - id: c
+      type: Prowl.Runtime.Vector3
+    - id: intersection
+      type: Prowl.Runtime.Vector3
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function RayIntersectsTriangle(origin As Vector3, dir As Vector3, a As Vector3, b As Vector3, c As Vector3, intersection As Vector3) As Boolean
+  overload: Prowl.Runtime.MathD.RayIntersectsTriangle*
+  nameWithType.vb: MathD.RayIntersectsTriangle(Vector3, Vector3, Vector3, Vector3, Vector3, Vector3)
+  fullName.vb: Prowl.Runtime.MathD.RayIntersectsTriangle(Prowl.Runtime.Vector3, Prowl.Runtime.Vector3, Prowl.Runtime.Vector3, Prowl.Runtime.Vector3, Prowl.Runtime.Vector3, Prowl.Runtime.Vector3)
+  name.vb: RayIntersectsTriangle(Vector3, Vector3, Vector3, Vector3, Vector3, Vector3)
+- uid: Prowl.Runtime.MathD.IsPointInTriangle(Prowl.Runtime.Vector3,Prowl.Runtime.Vector3,Prowl.Runtime.Vector3,Prowl.Runtime.Vector3)
+  commentId: M:Prowl.Runtime.MathD.IsPointInTriangle(Prowl.Runtime.Vector3,Prowl.Runtime.Vector3,Prowl.Runtime.Vector3,Prowl.Runtime.Vector3)
+  id: IsPointInTriangle(Prowl.Runtime.Vector3,Prowl.Runtime.Vector3,Prowl.Runtime.Vector3,Prowl.Runtime.Vector3)
+  parent: Prowl.Runtime.MathD
+  langs:
+  - csharp
+  - vb
+  name: IsPointInTriangle(Vector3, Vector3, Vector3, Vector3)
+  nameWithType: MathD.IsPointInTriangle(Vector3, Vector3, Vector3, Vector3)
+  fullName: Prowl.Runtime.MathD.IsPointInTriangle(Prowl.Runtime.Vector3, Prowl.Runtime.Vector3, Prowl.Runtime.Vector3, Prowl.Runtime.Vector3)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Math/MathD.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: IsPointInTriangle
+    path: ../Prowl/Prowl.Runtime/Math/MathD.cs
+    startLine: 316
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: Checks if a 3D Point exists inside a 3D Triangle
+  example: []
+  syntax:
+    content: public static bool IsPointInTriangle(Vector3 point, Vector3 a, Vector3 b, Vector3 c)
+    parameters:
+    - id: point
+      type: Prowl.Runtime.Vector3
+    - id: a
+      type: Prowl.Runtime.Vector3
+    - id: b
+      type: Prowl.Runtime.Vector3
+    - id: c
+      type: Prowl.Runtime.Vector3
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function IsPointInTriangle(point As Vector3, a As Vector3, b As Vector3, c As Vector3) As Boolean
+  overload: Prowl.Runtime.MathD.IsPointInTriangle*
+- uid: Prowl.Runtime.MathD.IsPointInTriangle(Prowl.Runtime.Vector2,Prowl.Runtime.Vector2,Prowl.Runtime.Vector2,Prowl.Runtime.Vector2)
+  commentId: M:Prowl.Runtime.MathD.IsPointInTriangle(Prowl.Runtime.Vector2,Prowl.Runtime.Vector2,Prowl.Runtime.Vector2,Prowl.Runtime.Vector2)
+  id: IsPointInTriangle(Prowl.Runtime.Vector2,Prowl.Runtime.Vector2,Prowl.Runtime.Vector2,Prowl.Runtime.Vector2)
+  parent: Prowl.Runtime.MathD
+  langs:
+  - csharp
+  - vb
+  name: IsPointInTriangle(Vector2, Vector2, Vector2, Vector2)
+  nameWithType: MathD.IsPointInTriangle(Vector2, Vector2, Vector2, Vector2)
+  fullName: Prowl.Runtime.MathD.IsPointInTriangle(Prowl.Runtime.Vector2, Prowl.Runtime.Vector2, Prowl.Runtime.Vector2, Prowl.Runtime.Vector2)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Math/MathD.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: IsPointInTriangle
+    path: ../Prowl/Prowl.Runtime/Math/MathD.cs
+    startLine: 356
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: Checks if a 2D Point exists inside a 2D Triangle
+  example: []
+  syntax:
+    content: public static bool IsPointInTriangle(Vector2 point, Vector2 a, Vector2 b, Vector2 c)
+    parameters:
+    - id: point
+      type: Prowl.Runtime.Vector2
+    - id: a
+      type: Prowl.Runtime.Vector2
+    - id: b
+      type: Prowl.Runtime.Vector2
+    - id: c
+      type: Prowl.Runtime.Vector2
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function IsPointInTriangle(point As Vector2, a As Vector2, b As Vector2, c As Vector2) As Boolean
+  overload: Prowl.Runtime.MathD.IsPointInTriangle*
+- uid: Prowl.Runtime.MathD.ToDouble(System.Numerics.Vector2)
+  commentId: M:Prowl.Runtime.MathD.ToDouble(System.Numerics.Vector2)
+  id: ToDouble(System.Numerics.Vector2)
+  isExtensionMethod: true
+  parent: Prowl.Runtime.MathD
+  langs:
+  - csharp
+  - vb
+  name: ToDouble(Vector2)
+  nameWithType: MathD.ToDouble(Vector2)
+  fullName: Prowl.Runtime.MathD.ToDouble(System.Numerics.Vector2)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Math/MathD.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: ToDouble
+    path: ../Prowl/Prowl.Runtime/Math/MathD.cs
+    startLine: 374
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public static Vector2 ToDouble(this Vector2 v)
+    parameters:
+    - id: v
+      type: System.Numerics.Vector2
+    return:
+      type: Prowl.Runtime.Vector2
+    content.vb: Public Shared Function ToDouble(v As Vector2) As Vector2
+  overload: Prowl.Runtime.MathD.ToDouble*
+- uid: Prowl.Runtime.MathD.ToDouble(System.Numerics.Vector3)
+  commentId: M:Prowl.Runtime.MathD.ToDouble(System.Numerics.Vector3)
+  id: ToDouble(System.Numerics.Vector3)
+  isExtensionMethod: true
+  parent: Prowl.Runtime.MathD
+  langs:
+  - csharp
+  - vb
+  name: ToDouble(Vector3)
+  nameWithType: MathD.ToDouble(Vector3)
+  fullName: Prowl.Runtime.MathD.ToDouble(System.Numerics.Vector3)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Math/MathD.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: ToDouble
+    path: ../Prowl/Prowl.Runtime/Math/MathD.cs
+    startLine: 375
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public static Vector3 ToDouble(this Vector3 v)
+    parameters:
+    - id: v
+      type: System.Numerics.Vector3
+    return:
+      type: Prowl.Runtime.Vector3
+    content.vb: Public Shared Function ToDouble(v As Vector3) As Vector3
+  overload: Prowl.Runtime.MathD.ToDouble*
+- uid: Prowl.Runtime.MathD.ToDouble(System.Numerics.Vector4)
+  commentId: M:Prowl.Runtime.MathD.ToDouble(System.Numerics.Vector4)
+  id: ToDouble(System.Numerics.Vector4)
+  isExtensionMethod: true
+  parent: Prowl.Runtime.MathD
+  langs:
+  - csharp
+  - vb
+  name: ToDouble(Vector4)
+  nameWithType: MathD.ToDouble(Vector4)
+  fullName: Prowl.Runtime.MathD.ToDouble(System.Numerics.Vector4)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Math/MathD.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: ToDouble
+    path: ../Prowl/Prowl.Runtime/Math/MathD.cs
+    startLine: 376
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public static Vector4 ToDouble(this Vector4 v)
+    parameters:
+    - id: v
+      type: System.Numerics.Vector4
+    return:
+      type: Prowl.Runtime.Vector4
+    content.vb: Public Shared Function ToDouble(v As Vector4) As Vector4
+  overload: Prowl.Runtime.MathD.ToDouble*
+- uid: Prowl.Runtime.MathD.ToDouble(System.Numerics.Quaternion)
+  commentId: M:Prowl.Runtime.MathD.ToDouble(System.Numerics.Quaternion)
+  id: ToDouble(System.Numerics.Quaternion)
+  isExtensionMethod: true
+  parent: Prowl.Runtime.MathD
+  langs:
+  - csharp
+  - vb
+  name: ToDouble(Quaternion)
+  nameWithType: MathD.ToDouble(Quaternion)
+  fullName: Prowl.Runtime.MathD.ToDouble(System.Numerics.Quaternion)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Math/MathD.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: ToDouble
+    path: ../Prowl/Prowl.Runtime/Math/MathD.cs
+    startLine: 377
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public static Quaternion ToDouble(this Quaternion v)
+    parameters:
+    - id: v
+      type: System.Numerics.Quaternion
+    return:
+      type: Prowl.Runtime.Quaternion
+    content.vb: Public Shared Function ToDouble(v As Quaternion) As Quaternion
+  overload: Prowl.Runtime.MathD.ToDouble*
+- uid: Prowl.Runtime.MathD.ToDouble(System.Numerics.Matrix4x4)
+  commentId: M:Prowl.Runtime.MathD.ToDouble(System.Numerics.Matrix4x4)
+  id: ToDouble(System.Numerics.Matrix4x4)
+  isExtensionMethod: true
+  parent: Prowl.Runtime.MathD
+  langs:
+  - csharp
+  - vb
+  name: ToDouble(Matrix4x4)
+  nameWithType: MathD.ToDouble(Matrix4x4)
+  fullName: Prowl.Runtime.MathD.ToDouble(System.Numerics.Matrix4x4)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Math/MathD.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: ToDouble
+    path: ../Prowl/Prowl.Runtime/Math/MathD.cs
+    startLine: 379
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public static Matrix4x4 ToDouble(this Matrix4x4 m)
+    parameters:
+    - id: m
+      type: System.Numerics.Matrix4x4
+    return:
+      type: Prowl.Runtime.Matrix4x4
+    content.vb: Public Shared Function ToDouble(m As Matrix4x4) As Matrix4x4
+  overload: Prowl.Runtime.MathD.ToDouble*
+- uid: Prowl.Runtime.MathD.GetRotation(Prowl.Runtime.Quaternion)
+  commentId: M:Prowl.Runtime.MathD.GetRotation(Prowl.Runtime.Quaternion)
+  id: GetRotation(Prowl.Runtime.Quaternion)
+  isExtensionMethod: true
+  parent: Prowl.Runtime.MathD
+  langs:
+  - csharp
+  - vb
+  name: GetRotation(Quaternion)
+  nameWithType: MathD.GetRotation(Quaternion)
+  fullName: Prowl.Runtime.MathD.GetRotation(Prowl.Runtime.Quaternion)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Math/MathD.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: GetRotation
+    path: ../Prowl/Prowl.Runtime/Math/MathD.cs
+    startLine: 404
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public static Vector3 GetRotation(this Quaternion r)
+    parameters:
+    - id: r
+      type: Prowl.Runtime.Quaternion
+    return:
+      type: Prowl.Runtime.Vector3
+    content.vb: Public Shared Function GetRotation(r As Quaternion) As Vector3
+  overload: Prowl.Runtime.MathD.GetRotation*
+- uid: Prowl.Runtime.MathD.ToDeg(Prowl.Runtime.Vector3)
+  commentId: M:Prowl.Runtime.MathD.ToDeg(Prowl.Runtime.Vector3)
+  id: ToDeg(Prowl.Runtime.Vector3)
+  isExtensionMethod: true
+  parent: Prowl.Runtime.MathD
+  langs:
+  - csharp
+  - vb
+  name: ToDeg(Vector3)
+  nameWithType: MathD.ToDeg(Vector3)
+  fullName: Prowl.Runtime.MathD.ToDeg(Prowl.Runtime.Vector3)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Math/MathD.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: ToDeg
+    path: ../Prowl/Prowl.Runtime/Math/MathD.cs
+    startLine: 417
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public static Vector3 ToDeg(this Vector3 v)
+    parameters:
+    - id: v
+      type: Prowl.Runtime.Vector3
+    return:
+      type: Prowl.Runtime.Vector3
+    content.vb: Public Shared Function ToDeg(v As Vector3) As Vector3
+  overload: Prowl.Runtime.MathD.ToDeg*
+- uid: Prowl.Runtime.MathD.ToRad(Prowl.Runtime.Vector3)
+  commentId: M:Prowl.Runtime.MathD.ToRad(Prowl.Runtime.Vector3)
+  id: ToRad(Prowl.Runtime.Vector3)
+  isExtensionMethod: true
+  parent: Prowl.Runtime.MathD
+  langs:
+  - csharp
+  - vb
+  name: ToRad(Vector3)
+  nameWithType: MathD.ToRad(Vector3)
+  fullName: Prowl.Runtime.MathD.ToRad(Prowl.Runtime.Vector3)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Math/MathD.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: ToRad
+    path: ../Prowl/Prowl.Runtime/Math/MathD.cs
+    startLine: 419
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public static Vector3 ToRad(this Vector3 v)
+    parameters:
+    - id: v
+      type: Prowl.Runtime.Vector3
+    return:
+      type: Prowl.Runtime.Vector3
+    content.vb: Public Shared Function ToRad(v As Vector3) As Vector3
+  overload: Prowl.Runtime.MathD.ToRad*
+- uid: Prowl.Runtime.MathD.ToDeg(System.Double)
+  commentId: M:Prowl.Runtime.MathD.ToDeg(System.Double)
+  id: ToDeg(System.Double)
+  isExtensionMethod: true
+  parent: Prowl.Runtime.MathD
+  langs:
+  - csharp
+  - vb
+  name: ToDeg(double)
+  nameWithType: MathD.ToDeg(double)
+  fullName: Prowl.Runtime.MathD.ToDeg(double)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Math/MathD.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: ToDeg
+    path: ../Prowl/Prowl.Runtime/Math/MathD.cs
+    startLine: 421
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public static double ToDeg(this double v)
+    parameters:
+    - id: v
+      type: System.Double
+    return:
+      type: System.Double
+    content.vb: Public Shared Function ToDeg(v As Double) As Double
+  overload: Prowl.Runtime.MathD.ToDeg*
+  nameWithType.vb: MathD.ToDeg(Double)
+  fullName.vb: Prowl.Runtime.MathD.ToDeg(Double)
+  name.vb: ToDeg(Double)
+- uid: Prowl.Runtime.MathD.ToRad(System.Double)
+  commentId: M:Prowl.Runtime.MathD.ToRad(System.Double)
+  id: ToRad(System.Double)
+  isExtensionMethod: true
+  parent: Prowl.Runtime.MathD
+  langs:
+  - csharp
+  - vb
+  name: ToRad(double)
+  nameWithType: MathD.ToRad(double)
+  fullName: Prowl.Runtime.MathD.ToRad(double)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Math/MathD.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: ToRad
+    path: ../Prowl/Prowl.Runtime/Math/MathD.cs
+    startLine: 423
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public static double ToRad(this double v)
+    parameters:
+    - id: v
+      type: System.Double
+    return:
+      type: System.Double
+    content.vb: Public Shared Function ToRad(v As Double) As Double
+  overload: Prowl.Runtime.MathD.ToRad*
+  nameWithType.vb: MathD.ToRad(Double)
+  fullName.vb: Prowl.Runtime.MathD.ToRad(Double)
+  name.vb: ToRad(Double)
+- uid: Prowl.Runtime.MathD.ToDeg(System.Single)
+  commentId: M:Prowl.Runtime.MathD.ToDeg(System.Single)
+  id: ToDeg(System.Single)
+  isExtensionMethod: true
+  parent: Prowl.Runtime.MathD
+  langs:
+  - csharp
+  - vb
+  name: ToDeg(float)
+  nameWithType: MathD.ToDeg(float)
+  fullName: Prowl.Runtime.MathD.ToDeg(float)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Math/MathD.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: ToDeg
+    path: ../Prowl/Prowl.Runtime/Math/MathD.cs
+    startLine: 425
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public static float ToDeg(this float v)
+    parameters:
+    - id: v
+      type: System.Single
+    return:
+      type: System.Single
+    content.vb: Public Shared Function ToDeg(v As Single) As Single
+  overload: Prowl.Runtime.MathD.ToDeg*
+  nameWithType.vb: MathD.ToDeg(Single)
+  fullName.vb: Prowl.Runtime.MathD.ToDeg(Single)
+  name.vb: ToDeg(Single)
+- uid: Prowl.Runtime.MathD.ToRad(System.Single)
+  commentId: M:Prowl.Runtime.MathD.ToRad(System.Single)
+  id: ToRad(System.Single)
+  isExtensionMethod: true
+  parent: Prowl.Runtime.MathD
+  langs:
+  - csharp
+  - vb
+  name: ToRad(float)
+  nameWithType: MathD.ToRad(float)
+  fullName: Prowl.Runtime.MathD.ToRad(float)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Math/MathD.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: ToRad
+    path: ../Prowl/Prowl.Runtime/Math/MathD.cs
+    startLine: 427
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public static float ToRad(this float v)
+    parameters:
+    - id: v
+      type: System.Single
+    return:
+      type: System.Single
+    content.vb: Public Shared Function ToRad(v As Single) As Single
+  overload: Prowl.Runtime.MathD.ToRad*
+  nameWithType.vb: MathD.ToRad(Single)
+  fullName.vb: Prowl.Runtime.MathD.ToRad(Single)
+  name.vb: ToRad(Single)
+- uid: Prowl.Runtime.MathD.GetQuaternion(Prowl.Runtime.Vector3)
+  commentId: M:Prowl.Runtime.MathD.GetQuaternion(Prowl.Runtime.Vector3)
+  id: GetQuaternion(Prowl.Runtime.Vector3)
+  isExtensionMethod: true
+  parent: Prowl.Runtime.MathD
+  langs:
+  - csharp
+  - vb
+  name: GetQuaternion(Vector3)
+  nameWithType: MathD.GetQuaternion(Vector3)
+  fullName: Prowl.Runtime.MathD.GetQuaternion(Prowl.Runtime.Vector3)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Math/MathD.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: GetQuaternion
+    path: ../Prowl/Prowl.Runtime/Math/MathD.cs
+    startLine: 428
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public static Quaternion GetQuaternion(this Vector3 vector)
+    parameters:
+    - id: vector
+      type: Prowl.Runtime.Vector3
+    return:
+      type: Prowl.Runtime.Quaternion
+    content.vb: Public Shared Function GetQuaternion(vector As Vector3) As Quaternion
+  overload: Prowl.Runtime.MathD.GetQuaternion*
+- uid: Prowl.Runtime.MathD.NormalizeEulerAngleDegrees(Prowl.Runtime.Vector3)
+  commentId: M:Prowl.Runtime.MathD.NormalizeEulerAngleDegrees(Prowl.Runtime.Vector3)
+  id: NormalizeEulerAngleDegrees(Prowl.Runtime.Vector3)
+  isExtensionMethod: true
+  parent: Prowl.Runtime.MathD
+  langs:
+  - csharp
+  - vb
+  name: NormalizeEulerAngleDegrees(Vector3)
+  nameWithType: MathD.NormalizeEulerAngleDegrees(Vector3)
+  fullName: Prowl.Runtime.MathD.NormalizeEulerAngleDegrees(Prowl.Runtime.Vector3)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Math/MathD.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: NormalizeEulerAngleDegrees
+    path: ../Prowl/Prowl.Runtime/Math/MathD.cs
+    startLine: 430
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public static Vector3 NormalizeEulerAngleDegrees(this Vector3 angle)
+    parameters:
+    - id: angle
+      type: Prowl.Runtime.Vector3
+    return:
+      type: Prowl.Runtime.Vector3
+    content.vb: Public Shared Function NormalizeEulerAngleDegrees(angle As Vector3) As Vector3
+  overload: Prowl.Runtime.MathD.NormalizeEulerAngleDegrees*
+references:
+- uid: Prowl.Runtime
+  commentId: N:Prowl.Runtime
+  href: Prowl.html
+  name: Prowl.Runtime
+  nameWithType: Prowl.Runtime
+  fullName: Prowl.Runtime
+  spec.csharp:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+  spec.vb:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Runtime.CompilerServices.MethodImplOptions
+  commentId: T:System.Runtime.CompilerServices.MethodImplOptions
+  parent: System.Runtime.CompilerServices
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.runtime.compilerservices.methodimploptions
+  name: MethodImplOptions
+  nameWithType: MethodImplOptions
+  fullName: System.Runtime.CompilerServices.MethodImplOptions
+- uid: System.Runtime.CompilerServices
+  commentId: N:System.Runtime.CompilerServices
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Runtime.CompilerServices
+  nameWithType: System.Runtime.CompilerServices
+  fullName: System.Runtime.CompilerServices
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Runtime
+    name: Runtime
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.runtime
+  - name: .
+  - uid: System.Runtime.CompilerServices
+    name: CompilerServices
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.runtime.compilerservices
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Runtime
+    name: Runtime
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.runtime
+  - name: .
+  - uid: System.Runtime.CompilerServices
+    name: CompilerServices
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.runtime.compilerservices
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.double
+  name: double
+  nameWithType: double
+  fullName: double
+  nameWithType.vb: Double
+  fullName.vb: Double
+  name.vb: Double
+- uid: Prowl.Runtime.MathD.IsValid*
+  commentId: Overload:Prowl.Runtime.MathD.IsValid
+  href: Prowl.Runtime.MathD.html#Prowl_Runtime_MathD_IsValid_System_Double_
+  name: IsValid
+  nameWithType: MathD.IsValid
+  fullName: Prowl.Runtime.MathD.IsValid
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: System.Double.NaN
+  commentId: F:System.Double.NaN
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.double.nan
+  name: NaN
+  nameWithType: double.NaN
+  fullName: double.NaN
+  nameWithType.vb: Double.NaN
+  fullName.vb: Double.NaN
+- uid: System.Double.NegativeInfinity
+  commentId: F:System.Double.NegativeInfinity
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.double.negativeinfinity
+  name: NegativeInfinity
+  nameWithType: double.NegativeInfinity
+  fullName: double.NegativeInfinity
+  nameWithType.vb: Double.NegativeInfinity
+  fullName.vb: Double.NegativeInfinity
+- uid: System.Double.PositiveInfinity
+  commentId: F:System.Double.PositiveInfinity
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.double.positiveinfinity
+  name: PositiveInfinity
+  nameWithType: double.PositiveInfinity
+  fullName: double.PositiveInfinity
+  nameWithType.vb: Double.PositiveInfinity
+  fullName.vb: Double.PositiveInfinity
+- uid: Prowl.Runtime.MathD.Sin*
+  commentId: Overload:Prowl.Runtime.MathD.Sin
+  href: Prowl.Runtime.MathD.html#Prowl_Runtime_MathD_Sin_System_Double_
+  name: Sin
+  nameWithType: MathD.Sin
+  fullName: Prowl.Runtime.MathD.Sin
+- uid: Prowl.Runtime.MathD.Cos*
+  commentId: Overload:Prowl.Runtime.MathD.Cos
+  href: Prowl.Runtime.MathD.html#Prowl_Runtime_MathD_Cos_System_Double_
+  name: Cos
+  nameWithType: MathD.Cos
+  fullName: Prowl.Runtime.MathD.Cos
+- uid: Prowl.Runtime.MathD.Tan*
+  commentId: Overload:Prowl.Runtime.MathD.Tan
+  href: Prowl.Runtime.MathD.html#Prowl_Runtime_MathD_Tan_System_Double_
+  name: Tan
+  nameWithType: MathD.Tan
+  fullName: Prowl.Runtime.MathD.Tan
+- uid: Prowl.Runtime.MathD.Asin*
+  commentId: Overload:Prowl.Runtime.MathD.Asin
+  href: Prowl.Runtime.MathD.html#Prowl_Runtime_MathD_Asin_System_Double_
+  name: Asin
+  nameWithType: MathD.Asin
+  fullName: Prowl.Runtime.MathD.Asin
+- uid: Prowl.Runtime.MathD.Acos*
+  commentId: Overload:Prowl.Runtime.MathD.Acos
+  href: Prowl.Runtime.MathD.html#Prowl_Runtime_MathD_Acos_System_Double_
+  name: Acos
+  nameWithType: MathD.Acos
+  fullName: Prowl.Runtime.MathD.Acos
+- uid: Prowl.Runtime.MathD.Atan*
+  commentId: Overload:Prowl.Runtime.MathD.Atan
+  href: Prowl.Runtime.MathD.html#Prowl_Runtime_MathD_Atan_System_Double_
+  name: Atan
+  nameWithType: MathD.Atan
+  fullName: Prowl.Runtime.MathD.Atan
+- uid: Prowl.Runtime.MathD.Sqrt*
+  commentId: Overload:Prowl.Runtime.MathD.Sqrt
+  href: Prowl.Runtime.MathD.html#Prowl_Runtime_MathD_Sqrt_System_Double_
+  name: Sqrt
+  nameWithType: MathD.Sqrt
+  fullName: Prowl.Runtime.MathD.Sqrt
+- uid: System.Double.MinValue
+  commentId: F:System.Double.MinValue
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.double.minvalue
+  name: MinValue
+  nameWithType: double.MinValue
+  fullName: double.MinValue
+  nameWithType.vb: Double.MinValue
+  fullName.vb: Double.MinValue
+- uid: System.Double.MaxValue
+  commentId: F:System.Double.MaxValue
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.double.maxvalue
+  name: MaxValue
+  nameWithType: double.MaxValue
+  fullName: double.MaxValue
+  nameWithType.vb: Double.MaxValue
+  fullName.vb: Double.MaxValue
+- uid: Prowl.Runtime.MathD.Abs*
+  commentId: Overload:Prowl.Runtime.MathD.Abs
+  href: Prowl.Runtime.MathD.html#Prowl_Runtime_MathD_Abs_System_Double_
+  name: Abs
+  nameWithType: MathD.Abs
+  fullName: Prowl.Runtime.MathD.Abs
+- uid: Prowl.Runtime.MathD.Pow*
+  commentId: Overload:Prowl.Runtime.MathD.Pow
+  href: Prowl.Runtime.MathD.html#Prowl_Runtime_MathD_Pow_System_Double_System_Double_
+  name: Pow
+  nameWithType: MathD.Pow
+  fullName: Prowl.Runtime.MathD.Pow
+- uid: Prowl.Runtime.MathD.Exp*
+  commentId: Overload:Prowl.Runtime.MathD.Exp
+  href: Prowl.Runtime.MathD.html#Prowl_Runtime_MathD_Exp_System_Double_
+  name: Exp
+  nameWithType: MathD.Exp
+  fullName: Prowl.Runtime.MathD.Exp
+- uid: Prowl.Runtime.MathD.Log*
+  commentId: Overload:Prowl.Runtime.MathD.Log
+  href: Prowl.Runtime.MathD.html#Prowl_Runtime_MathD_Log_System_Double_System_Double_
+  name: Log
+  nameWithType: MathD.Log
+  fullName: Prowl.Runtime.MathD.Log
+- uid: Prowl.Runtime.MathD.Log10*
+  commentId: Overload:Prowl.Runtime.MathD.Log10
+  href: Prowl.Runtime.MathD.html#Prowl_Runtime_MathD_Log10_System_Double_
+  name: Log10
+  nameWithType: MathD.Log10
+  fullName: Prowl.Runtime.MathD.Log10
+- uid: Prowl.Runtime.MathD.Clamp*
+  commentId: Overload:Prowl.Runtime.MathD.Clamp
+  href: Prowl.Runtime.MathD.html#Prowl_Runtime_MathD_Clamp_System_Double_System_Double_System_Double_
+  name: Clamp
+  nameWithType: MathD.Clamp
+  fullName: Prowl.Runtime.MathD.Clamp
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: Prowl.Runtime.MathD.Clamp01*
+  commentId: Overload:Prowl.Runtime.MathD.Clamp01
+  href: Prowl.Runtime.MathD.html#Prowl_Runtime_MathD_Clamp01_System_Double_
+  name: Clamp01
+  nameWithType: MathD.Clamp01
+  fullName: Prowl.Runtime.MathD.Clamp01
+- uid: Prowl.Runtime.MathD.Min*
+  commentId: Overload:Prowl.Runtime.MathD.Min
+  href: Prowl.Runtime.MathD.html#Prowl_Runtime_MathD_Min_System_Double___
+  name: Min
+  nameWithType: MathD.Min
+  fullName: Prowl.Runtime.MathD.Min
+- uid: System.Double[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.double
+  name: double[]
+  nameWithType: double[]
+  fullName: double[]
+  nameWithType.vb: Double()
+  fullName.vb: Double()
+  name.vb: Double()
+  spec.csharp:
+  - uid: System.Double
+    name: double
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.double
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.Double
+    name: Double
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.double
+  - name: (
+  - name: )
+- uid: Prowl.Runtime.MathD.Max*
+  commentId: Overload:Prowl.Runtime.MathD.Max
+  href: Prowl.Runtime.MathD.html#Prowl_Runtime_MathD_Max_System_Double___
+  name: Max
+  nameWithType: MathD.Max
+  fullName: Prowl.Runtime.MathD.Max
+- uid: System.Int32[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int[]
+  nameWithType: int[]
+  fullName: int[]
+  nameWithType.vb: Integer()
+  fullName.vb: Integer()
+  name.vb: Integer()
+  spec.csharp:
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: (
+  - name: )
+- uid: Prowl.Runtime.MathD.Sign*
+  commentId: Overload:Prowl.Runtime.MathD.Sign
+  href: Prowl.Runtime.MathD.html#Prowl_Runtime_MathD_Sign_System_Double_
+  name: Sign
+  nameWithType: MathD.Sign
+  fullName: Prowl.Runtime.MathD.Sign
+- uid: Prowl.Runtime.MathD.Floor*
+  commentId: Overload:Prowl.Runtime.MathD.Floor
+  href: Prowl.Runtime.MathD.html#Prowl_Runtime_MathD_Floor_System_Double_
+  name: Floor
+  nameWithType: MathD.Floor
+  fullName: Prowl.Runtime.MathD.Floor
+- uid: Prowl.Runtime.MathD.FloorToInt*
+  commentId: Overload:Prowl.Runtime.MathD.FloorToInt
+  href: Prowl.Runtime.MathD.html#Prowl_Runtime_MathD_FloorToInt_System_Double_
+  name: FloorToInt
+  nameWithType: MathD.FloorToInt
+  fullName: Prowl.Runtime.MathD.FloorToInt
+- uid: Prowl.Runtime.MathD.Ceil*
+  commentId: Overload:Prowl.Runtime.MathD.Ceil
+  href: Prowl.Runtime.MathD.html#Prowl_Runtime_MathD_Ceil_System_Double_
+  name: Ceil
+  nameWithType: MathD.Ceil
+  fullName: Prowl.Runtime.MathD.Ceil
+- uid: Prowl.Runtime.MathD.CeilToInt*
+  commentId: Overload:Prowl.Runtime.MathD.CeilToInt
+  href: Prowl.Runtime.MathD.html#Prowl_Runtime_MathD_CeilToInt_System_Double_
+  name: CeilToInt
+  nameWithType: MathD.CeilToInt
+  fullName: Prowl.Runtime.MathD.CeilToInt
+- uid: Prowl.Runtime.MathD.Round*
+  commentId: Overload:Prowl.Runtime.MathD.Round
+  href: Prowl.Runtime.MathD.html#Prowl_Runtime_MathD_Round_System_Double_System_MidpointRounding_
+  name: Round
+  nameWithType: MathD.Round
+  fullName: Prowl.Runtime.MathD.Round
+- uid: System.MidpointRounding
+  commentId: T:System.MidpointRounding
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.midpointrounding
+  name: MidpointRounding
+  nameWithType: MidpointRounding
+  fullName: System.MidpointRounding
+- uid: Prowl.Runtime.MathD.RoundToInt*
+  commentId: Overload:Prowl.Runtime.MathD.RoundToInt
+  href: Prowl.Runtime.MathD.html#Prowl_Runtime_MathD_RoundToInt_System_Double_System_MidpointRounding_
+  name: RoundToInt
+  nameWithType: MathD.RoundToInt
+  fullName: Prowl.Runtime.MathD.RoundToInt
+- uid: Prowl.Runtime.MathD.Frac*
+  commentId: Overload:Prowl.Runtime.MathD.Frac
+  href: Prowl.Runtime.MathD.html#Prowl_Runtime_MathD_Frac_System_Double_
+  name: Frac
+  nameWithType: MathD.Frac
+  fullName: Prowl.Runtime.MathD.Frac
+- uid: Prowl.Runtime.MathD.Repeat*
+  commentId: Overload:Prowl.Runtime.MathD.Repeat
+  href: Prowl.Runtime.MathD.html#Prowl_Runtime_MathD_Repeat_System_Double_System_Double_
+  name: Repeat
+  nameWithType: MathD.Repeat
+  fullName: Prowl.Runtime.MathD.Repeat
+- uid: Prowl.Runtime.MathD.PingPong*
+  commentId: Overload:Prowl.Runtime.MathD.PingPong
+  href: Prowl.Runtime.MathD.html#Prowl_Runtime_MathD_PingPong_System_Double_System_Double_
+  name: PingPong
+  nameWithType: MathD.PingPong
+  fullName: Prowl.Runtime.MathD.PingPong
+- uid: Prowl.Runtime.MathD.Smooth01*
+  commentId: Overload:Prowl.Runtime.MathD.Smooth01
+  href: Prowl.Runtime.MathD.html#Prowl_Runtime_MathD_Smooth01_System_Double_
+  name: Smooth01
+  nameWithType: MathD.Smooth01
+  fullName: Prowl.Runtime.MathD.Smooth01
+- uid: Prowl.Runtime.MathD.Smoother01*
+  commentId: Overload:Prowl.Runtime.MathD.Smoother01
+  href: Prowl.Runtime.MathD.html#Prowl_Runtime_MathD_Smoother01_System_Double_
+  name: Smoother01
+  nameWithType: MathD.Smoother01
+  fullName: Prowl.Runtime.MathD.Smoother01
+- uid: Prowl.Runtime.MathD.Lerp*
+  commentId: Overload:Prowl.Runtime.MathD.Lerp
+  href: Prowl.Runtime.MathD.html#Prowl_Runtime_MathD_Lerp_System_Double_System_Double_System_Double_
+  name: Lerp
+  nameWithType: MathD.Lerp
+  fullName: Prowl.Runtime.MathD.Lerp
+- uid: Prowl.Runtime.Vector2
+  commentId: T:Prowl.Runtime.Vector2
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.Vector2.html
+  name: Vector2
+  nameWithType: Vector2
+  fullName: Prowl.Runtime.Vector2
+- uid: Prowl.Runtime.Vector3
+  commentId: T:Prowl.Runtime.Vector3
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.Vector3.html
+  name: Vector3
+  nameWithType: Vector3
+  fullName: Prowl.Runtime.Vector3
+- uid: Prowl.Runtime.Vector4
+  commentId: T:Prowl.Runtime.Vector4
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.Vector4.html
+  name: Vector4
+  nameWithType: Vector4
+  fullName: Prowl.Runtime.Vector4
+- uid: Prowl.Runtime.MathD.LerpClamped*
+  commentId: Overload:Prowl.Runtime.MathD.LerpClamped
+  href: Prowl.Runtime.MathD.html#Prowl_Runtime_MathD_LerpClamped_System_Double_System_Double_System_Double_
+  name: LerpClamped
+  nameWithType: MathD.LerpClamped
+  fullName: Prowl.Runtime.MathD.LerpClamped
+- uid: Prowl.Runtime.MathD.LerpSmooth*
+  commentId: Overload:Prowl.Runtime.MathD.LerpSmooth
+  href: Prowl.Runtime.MathD.html#Prowl_Runtime_MathD_LerpSmooth_System_Double_System_Double_System_Double_
+  name: LerpSmooth
+  nameWithType: MathD.LerpSmooth
+  fullName: Prowl.Runtime.MathD.LerpSmooth
+- uid: Prowl.Runtime.MathD.MoveTowards*
+  commentId: Overload:Prowl.Runtime.MathD.MoveTowards
+  href: Prowl.Runtime.MathD.html#Prowl_Runtime_MathD_MoveTowards_System_Double_System_Double_System_Double_
+  name: MoveTowards
+  nameWithType: MathD.MoveTowards
+  fullName: Prowl.Runtime.MathD.MoveTowards
+- uid: Prowl.Runtime.MathD.ClampMagnitude*
+  commentId: Overload:Prowl.Runtime.MathD.ClampMagnitude
+  href: Prowl.Runtime.MathD.html#Prowl_Runtime_MathD_ClampMagnitude_Prowl_Runtime_Vector2_System_Double_System_Double_
+  name: ClampMagnitude
+  nameWithType: MathD.ClampMagnitude
+  fullName: Prowl.Runtime.MathD.ClampMagnitude
+- uid: Prowl.Runtime.MathD.Angle*
+  commentId: Overload:Prowl.Runtime.MathD.Angle
+  href: Prowl.Runtime.MathD.html#Prowl_Runtime_MathD_Angle_Prowl_Runtime_Quaternion_Prowl_Runtime_Quaternion_
+  name: Angle
+  nameWithType: MathD.Angle
+  fullName: Prowl.Runtime.MathD.Angle
+- uid: Prowl.Runtime.Quaternion
+  commentId: T:Prowl.Runtime.Quaternion
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.Quaternion.html
+  name: Quaternion
+  nameWithType: Quaternion
+  fullName: Prowl.Runtime.Quaternion
+- uid: Prowl.Runtime.MathD.LerpAngle*
+  commentId: Overload:Prowl.Runtime.MathD.LerpAngle
+  href: Prowl.Runtime.MathD.html#Prowl_Runtime_MathD_LerpAngle_System_Double_System_Double_System_Double_
+  name: LerpAngle
+  nameWithType: MathD.LerpAngle
+  fullName: Prowl.Runtime.MathD.LerpAngle
+- uid: Prowl.Runtime.MathD.Pack4f*
+  commentId: Overload:Prowl.Runtime.MathD.Pack4f
+  href: Prowl.Runtime.MathD.html#Prowl_Runtime_MathD_Pack4f_Prowl_Runtime_Vector4_
+  name: Pack4f
+  nameWithType: MathD.Pack4f
+  fullName: Prowl.Runtime.MathD.Pack4f
+- uid: System.UInt32
+  commentId: T:System.UInt32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.uint32
+  name: uint
+  nameWithType: uint
+  fullName: uint
+  nameWithType.vb: UInteger
+  fullName.vb: UInteger
+  name.vb: UInteger
+- uid: Prowl.Runtime.MathD.Pack4u*
+  commentId: Overload:Prowl.Runtime.MathD.Pack4u
+  href: Prowl.Runtime.MathD.html#Prowl_Runtime_MathD_Pack4u_System_UInt32_System_UInt32_System_UInt32_System_UInt32_
+  name: Pack4u
+  nameWithType: MathD.Pack4u
+  fullName: Prowl.Runtime.MathD.Pack4u
+- uid: Prowl.Runtime.MathD.ComputeMipLevels*
+  commentId: Overload:Prowl.Runtime.MathD.ComputeMipLevels
+  href: Prowl.Runtime.MathD.html#Prowl_Runtime_MathD_ComputeMipLevels_System_Int32_System_Int32_
+  name: ComputeMipLevels
+  nameWithType: MathD.ComputeMipLevels
+  fullName: Prowl.Runtime.MathD.ComputeMipLevels
+- uid: Prowl.Runtime.MathD.ApproximatelyEquals*
+  commentId: Overload:Prowl.Runtime.MathD.ApproximatelyEquals
+  href: Prowl.Runtime.MathD.html#Prowl_Runtime_MathD_ApproximatelyEquals_System_Double_System_Double_
+  name: ApproximatelyEquals
+  nameWithType: MathD.ApproximatelyEquals
+  fullName: Prowl.Runtime.MathD.ApproximatelyEquals
+- uid: Prowl.Runtime.MathD.GetClosestPointOnLine*
+  commentId: Overload:Prowl.Runtime.MathD.GetClosestPointOnLine
+  href: Prowl.Runtime.MathD.html#Prowl_Runtime_MathD_GetClosestPointOnLine_Prowl_Runtime_Vector2_Prowl_Runtime_Vector2_Prowl_Runtime_Vector2_
+  name: GetClosestPointOnLine
+  nameWithType: MathD.GetClosestPointOnLine
+  fullName: Prowl.Runtime.MathD.GetClosestPointOnLine
+- uid: Prowl.Runtime.MathD.DoesLineIntersectLine*
+  commentId: Overload:Prowl.Runtime.MathD.DoesLineIntersectLine
+  href: Prowl.Runtime.MathD.html#Prowl_Runtime_MathD_DoesLineIntersectLine_Prowl_Runtime_Vector2_Prowl_Runtime_Vector2_Prowl_Runtime_Vector2_Prowl_Runtime_Vector2_Prowl_Runtime_Vector2__
+  name: DoesLineIntersectLine
+  nameWithType: MathD.DoesLineIntersectLine
+  fullName: Prowl.Runtime.MathD.DoesLineIntersectLine
+- uid: Prowl.Runtime.MathD.AreLinesParallel*
+  commentId: Overload:Prowl.Runtime.MathD.AreLinesParallel
+  href: Prowl.Runtime.MathD.html#Prowl_Runtime_MathD_AreLinesParallel_Prowl_Runtime_Vector2_Prowl_Runtime_Vector2_Prowl_Runtime_Vector2_Prowl_Runtime_Vector2_System_Double_
+  name: AreLinesParallel
+  nameWithType: MathD.AreLinesParallel
+  fullName: Prowl.Runtime.MathD.AreLinesParallel
+- uid: Prowl.Runtime.MathD.RayIntersectsTriangle*
+  commentId: Overload:Prowl.Runtime.MathD.RayIntersectsTriangle
+  href: Prowl.Runtime.MathD.html#Prowl_Runtime_MathD_RayIntersectsTriangle_Prowl_Runtime_Vector3_Prowl_Runtime_Vector3_Prowl_Runtime_Vector3_Prowl_Runtime_Vector3_Prowl_Runtime_Vector3_Prowl_Runtime_Vector3__
+  name: RayIntersectsTriangle
+  nameWithType: MathD.RayIntersectsTriangle
+  fullName: Prowl.Runtime.MathD.RayIntersectsTriangle
+- uid: Prowl.Runtime.MathD.IsPointInTriangle*
+  commentId: Overload:Prowl.Runtime.MathD.IsPointInTriangle
+  href: Prowl.Runtime.MathD.html#Prowl_Runtime_MathD_IsPointInTriangle_Prowl_Runtime_Vector3_Prowl_Runtime_Vector3_Prowl_Runtime_Vector3_Prowl_Runtime_Vector3_
+  name: IsPointInTriangle
+  nameWithType: MathD.IsPointInTriangle
+  fullName: Prowl.Runtime.MathD.IsPointInTriangle
+- uid: Prowl.Runtime.MathD.ToDouble*
+  commentId: Overload:Prowl.Runtime.MathD.ToDouble
+  href: Prowl.Runtime.MathD.html#Prowl_Runtime_MathD_ToDouble_System_Numerics_Vector2_
+  name: ToDouble
+  nameWithType: MathD.ToDouble
+  fullName: Prowl.Runtime.MathD.ToDouble
+- uid: System.Numerics.Vector2
+  commentId: T:System.Numerics.Vector2
+  parent: System.Numerics
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.numerics.vector2
+  name: Vector2
+  nameWithType: Vector2
+  fullName: System.Numerics.Vector2
+- uid: System.Numerics
+  commentId: N:System.Numerics
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Numerics
+  nameWithType: System.Numerics
+  fullName: System.Numerics
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Numerics
+    name: Numerics
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.numerics
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Numerics
+    name: Numerics
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.numerics
+- uid: System.Numerics.Vector3
+  commentId: T:System.Numerics.Vector3
+  parent: System.Numerics
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.numerics.vector3
+  name: Vector3
+  nameWithType: Vector3
+  fullName: System.Numerics.Vector3
+- uid: System.Numerics.Vector4
+  commentId: T:System.Numerics.Vector4
+  parent: System.Numerics
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.numerics.vector4
+  name: Vector4
+  nameWithType: Vector4
+  fullName: System.Numerics.Vector4
+- uid: System.Numerics.Quaternion
+  commentId: T:System.Numerics.Quaternion
+  parent: System.Numerics
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.numerics.quaternion
+  name: Quaternion
+  nameWithType: Quaternion
+  fullName: System.Numerics.Quaternion
+- uid: System.Numerics.Matrix4x4
+  commentId: T:System.Numerics.Matrix4x4
+  parent: System.Numerics
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.numerics.matrix4x4
+  name: Matrix4x4
+  nameWithType: Matrix4x4
+  fullName: System.Numerics.Matrix4x4
+- uid: Prowl.Runtime.Matrix4x4
+  commentId: T:Prowl.Runtime.Matrix4x4
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.Matrix4x4.html
+  name: Matrix4x4
+  nameWithType: Matrix4x4
+  fullName: Prowl.Runtime.Matrix4x4
+- uid: Prowl.Runtime.MathD.GetRotation*
+  commentId: Overload:Prowl.Runtime.MathD.GetRotation
+  href: Prowl.Runtime.MathD.html#Prowl_Runtime_MathD_GetRotation_Prowl_Runtime_Quaternion_
+  name: GetRotation
+  nameWithType: MathD.GetRotation
+  fullName: Prowl.Runtime.MathD.GetRotation
+- uid: Prowl.Runtime.MathD.ToDeg*
+  commentId: Overload:Prowl.Runtime.MathD.ToDeg
+  href: Prowl.Runtime.MathD.html#Prowl_Runtime_MathD_ToDeg_Prowl_Runtime_Vector3_
+  name: ToDeg
+  nameWithType: MathD.ToDeg
+  fullName: Prowl.Runtime.MathD.ToDeg
+- uid: Prowl.Runtime.MathD.ToRad*
+  commentId: Overload:Prowl.Runtime.MathD.ToRad
+  href: Prowl.Runtime.MathD.html#Prowl_Runtime_MathD_ToRad_Prowl_Runtime_Vector3_
+  name: ToRad
+  nameWithType: MathD.ToRad
+  fullName: Prowl.Runtime.MathD.ToRad
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.single
+  name: float
+  nameWithType: float
+  fullName: float
+  nameWithType.vb: Single
+  fullName.vb: Single
+  name.vb: Single
+- uid: Prowl.Runtime.MathD.GetQuaternion*
+  commentId: Overload:Prowl.Runtime.MathD.GetQuaternion
+  href: Prowl.Runtime.MathD.html#Prowl_Runtime_MathD_GetQuaternion_Prowl_Runtime_Vector3_
+  name: GetQuaternion
+  nameWithType: MathD.GetQuaternion
+  fullName: Prowl.Runtime.MathD.GetQuaternion
+- uid: Prowl.Runtime.MathD.NormalizeEulerAngleDegrees*
+  commentId: Overload:Prowl.Runtime.MathD.NormalizeEulerAngleDegrees
+  href: Prowl.Runtime.MathD.html#Prowl_Runtime_MathD_NormalizeEulerAngleDegrees_Prowl_Runtime_Vector3_
+  name: NormalizeEulerAngleDegrees
+  nameWithType: MathD.NormalizeEulerAngleDegrees
+  fullName: Prowl.Runtime.MathD.NormalizeEulerAngleDegrees

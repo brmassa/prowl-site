@@ -1,0 +1,77 @@
+### YamlMime:ManagedReference
+items:
+- uid: Prowl.Runtime.RenderPipelines
+  commentId: N:Prowl.Runtime.RenderPipelines
+  id: Prowl.Runtime.RenderPipelines
+  children:
+  - Prowl.Runtime.RenderPipelines.DefaultRenderPipeline
+  - Prowl.Runtime.RenderPipelines.RenderBatch
+  - Prowl.Runtime.RenderPipelines.RenderPipeline
+  - Prowl.Runtime.RenderPipelines.RenderingData
+  langs:
+  - csharp
+  - vb
+  name: Prowl.Runtime.RenderPipelines
+  nameWithType: Prowl.Runtime.RenderPipelines
+  fullName: Prowl.Runtime.RenderPipelines
+  type: Namespace
+  assemblies:
+  - Prowl.Runtime
+references:
+- uid: Prowl.Runtime.RenderPipelines.DefaultRenderPipeline
+  commentId: T:Prowl.Runtime.RenderPipelines.DefaultRenderPipeline
+  parent: Prowl.Runtime.RenderPipelines
+  href: Prowl.Runtime.RenderPipelines.DefaultRenderPipeline.html
+  name: DefaultRenderPipeline
+  nameWithType: DefaultRenderPipeline
+  fullName: Prowl.Runtime.RenderPipelines.DefaultRenderPipeline
+- uid: Prowl.Runtime.RenderPipelines.RenderingData
+  commentId: T:Prowl.Runtime.RenderPipelines.RenderingData
+  parent: Prowl.Runtime.RenderPipelines
+  href: Prowl.Runtime.RenderPipelines.RenderingData.html
+  name: RenderingData
+  nameWithType: RenderingData
+  fullName: Prowl.Runtime.RenderPipelines.RenderingData
+- uid: Prowl.Runtime.RenderPipelines.RenderBatch
+  commentId: T:Prowl.Runtime.RenderPipelines.RenderBatch
+  href: Prowl.Runtime.RenderPipelines.RenderBatch.html
+  name: RenderBatch
+  nameWithType: RenderBatch
+  fullName: Prowl.Runtime.RenderPipelines.RenderBatch
+- uid: Prowl.Runtime.RenderPipelines.RenderPipeline
+  commentId: T:Prowl.Runtime.RenderPipelines.RenderPipeline
+  parent: Prowl.Runtime.RenderPipelines
+  href: Prowl.Runtime.RenderPipelines.RenderPipeline.html
+  name: RenderPipeline
+  nameWithType: RenderPipeline
+  fullName: Prowl.Runtime.RenderPipelines.RenderPipeline
+- uid: Prowl.Runtime.RenderPipelines
+  commentId: N:Prowl.Runtime.RenderPipelines
+  href: Prowl.html
+  name: Prowl.Runtime.RenderPipelines
+  nameWithType: Prowl.Runtime.RenderPipelines
+  fullName: Prowl.Runtime.RenderPipelines
+  spec.csharp:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+  - name: .
+  - uid: Prowl.Runtime.RenderPipelines
+    name: RenderPipelines
+    href: Prowl.Runtime.RenderPipelines.html
+  spec.vb:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+  - name: .
+  - uid: Prowl.Runtime.RenderPipelines
+    name: RenderPipelines
+    href: Prowl.Runtime.RenderPipelines.html

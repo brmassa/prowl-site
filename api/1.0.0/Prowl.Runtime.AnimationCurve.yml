@@ -1,0 +1,973 @@
+### YamlMime:ManagedReference
+items:
+- uid: Prowl.Runtime.AnimationCurve
+  commentId: T:Prowl.Runtime.AnimationCurve
+  id: AnimationCurve
+  parent: Prowl.Runtime
+  children:
+  - Prowl.Runtime.AnimationCurve.#ctor
+  - Prowl.Runtime.AnimationCurve.Deserialize(Prowl.Runtime.SerializedProperty,Prowl.Runtime.Serializer.SerializationContext)
+  - Prowl.Runtime.AnimationCurve.Evaluate(System.Double)
+  - Prowl.Runtime.AnimationCurve.Keys
+  - Prowl.Runtime.AnimationCurve.PostLoop
+  - Prowl.Runtime.AnimationCurve.PreLoop
+  - Prowl.Runtime.AnimationCurve.Serialize(Prowl.Runtime.Serializer.SerializationContext)
+  - Prowl.Runtime.AnimationCurve.SmoothTangent(System.Int32,Prowl.Runtime.CurveTangent)
+  - Prowl.Runtime.AnimationCurve.SmoothTangent(System.Int32,Prowl.Runtime.CurveTangent,Prowl.Runtime.CurveTangent)
+  - Prowl.Runtime.AnimationCurve.SmoothTangents(Prowl.Runtime.CurveTangent)
+  - Prowl.Runtime.AnimationCurve.SmoothTangents(Prowl.Runtime.CurveTangent,Prowl.Runtime.CurveTangent)
+  langs:
+  - csharp
+  - vb
+  name: AnimationCurve
+  nameWithType: AnimationCurve
+  fullName: Prowl.Runtime.AnimationCurve
+  type: Class
+  source:
+    remote:
+      path: Prowl.Runtime/AnimationCurve.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: AnimationCurve
+    path: ../Prowl/Prowl.Runtime/AnimationCurve.cs
+    startLine: 32
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: 'public class AnimationCurve : ISerializable'
+    content.vb: Public Class AnimationCurve Implements ISerializable
+  inheritance:
+  - System.Object
+  implements:
+  - Prowl.Runtime.ISerializable
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  extensionMethods:
+  - System.Object.Prowl.Runtime.RuntimeUtils.GetSerializableFields
+- uid: Prowl.Runtime.AnimationCurve.PreLoop
+  commentId: P:Prowl.Runtime.AnimationCurve.PreLoop
+  id: PreLoop
+  parent: Prowl.Runtime.AnimationCurve
+  langs:
+  - csharp
+  - vb
+  name: PreLoop
+  nameWithType: AnimationCurve.PreLoop
+  fullName: Prowl.Runtime.AnimationCurve.PreLoop
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/AnimationCurve.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: PreLoop
+    path: ../Prowl/Prowl.Runtime/AnimationCurve.cs
+    startLine: 39
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: Defines how to handle weighting values that are less than the first control point in the curve.
+  example: []
+  syntax:
+    content: public CurveLoopType PreLoop { get; set; }
+    parameters: []
+    return:
+      type: Prowl.Runtime.CurveLoopType
+    content.vb: Public Property PreLoop As CurveLoopType
+  overload: Prowl.Runtime.AnimationCurve.PreLoop*
+- uid: Prowl.Runtime.AnimationCurve.PostLoop
+  commentId: P:Prowl.Runtime.AnimationCurve.PostLoop
+  id: PostLoop
+  parent: Prowl.Runtime.AnimationCurve
+  langs:
+  - csharp
+  - vb
+  name: PostLoop
+  nameWithType: AnimationCurve.PostLoop
+  fullName: Prowl.Runtime.AnimationCurve.PostLoop
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/AnimationCurve.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: PostLoop
+    path: ../Prowl/Prowl.Runtime/AnimationCurve.cs
+    startLine: 44
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: Defines how to handle weighting values that are greater than the last control point in the curve.
+  example: []
+  syntax:
+    content: public CurveLoopType PostLoop { get; set; }
+    parameters: []
+    return:
+      type: Prowl.Runtime.CurveLoopType
+    content.vb: Public Property PostLoop As CurveLoopType
+  overload: Prowl.Runtime.AnimationCurve.PostLoop*
+- uid: Prowl.Runtime.AnimationCurve.Keys
+  commentId: P:Prowl.Runtime.AnimationCurve.Keys
+  id: Keys
+  parent: Prowl.Runtime.AnimationCurve
+  langs:
+  - csharp
+  - vb
+  name: Keys
+  nameWithType: AnimationCurve.Keys
+  fullName: Prowl.Runtime.AnimationCurve.Keys
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/AnimationCurve.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Keys
+    path: ../Prowl/Prowl.Runtime/AnimationCurve.cs
+    startLine: 49
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: The collection of curve keys.
+  example: []
+  syntax:
+    content: public CurveKeyCollection Keys { get; }
+    parameters: []
+    return:
+      type: Prowl.Runtime.CurveKeyCollection
+    content.vb: Public Property Keys As CurveKeyCollection
+  overload: Prowl.Runtime.AnimationCurve.Keys*
+- uid: Prowl.Runtime.AnimationCurve.#ctor
+  commentId: M:Prowl.Runtime.AnimationCurve.#ctor
+  id: '#ctor'
+  parent: Prowl.Runtime.AnimationCurve
+  langs:
+  - csharp
+  - vb
+  name: AnimationCurve()
+  nameWithType: AnimationCurve.AnimationCurve()
+  fullName: Prowl.Runtime.AnimationCurve.AnimationCurve()
+  type: Constructor
+  source:
+    remote:
+      path: Prowl.Runtime/AnimationCurve.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: .ctor
+    path: ../Prowl/Prowl.Runtime/AnimationCurve.cs
+    startLine: 58
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: Constructs a curve.
+  example: []
+  syntax:
+    content: public AnimationCurve()
+    content.vb: Public Sub New()
+  overload: Prowl.Runtime.AnimationCurve.#ctor*
+  nameWithType.vb: AnimationCurve.New()
+  fullName.vb: Prowl.Runtime.AnimationCurve.New()
+  name.vb: New()
+- uid: Prowl.Runtime.AnimationCurve.Evaluate(System.Double)
+  commentId: M:Prowl.Runtime.AnimationCurve.Evaluate(System.Double)
+  id: Evaluate(System.Double)
+  parent: Prowl.Runtime.AnimationCurve
+  langs:
+  - csharp
+  - vb
+  name: Evaluate(double)
+  nameWithType: AnimationCurve.Evaluate(double)
+  fullName: Prowl.Runtime.AnimationCurve.Evaluate(double)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/AnimationCurve.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Evaluate
+    path: ../Prowl/Prowl.Runtime/AnimationCurve.cs
+    startLine: 78
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: Evaluate the value at a position of this <xref href="Prowl.Runtime.AnimationCurve" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public double Evaluate(double position)
+    parameters:
+    - id: position
+      type: System.Double
+      description: The position on this <xref href="Prowl.Runtime.AnimationCurve" data-throw-if-not-resolved="false"></xref>.
+    return:
+      type: System.Double
+      description: Value at the position on this <xref href="Prowl.Runtime.AnimationCurve" data-throw-if-not-resolved="false"></xref>.
+    content.vb: Public Function Evaluate(position As Double) As Double
+  overload: Prowl.Runtime.AnimationCurve.Evaluate*
+  nameWithType.vb: AnimationCurve.Evaluate(Double)
+  fullName.vb: Prowl.Runtime.AnimationCurve.Evaluate(Double)
+  name.vb: Evaluate(Double)
+- uid: Prowl.Runtime.AnimationCurve.SmoothTangents(Prowl.Runtime.CurveTangent)
+  commentId: M:Prowl.Runtime.AnimationCurve.SmoothTangents(Prowl.Runtime.CurveTangent)
+  id: SmoothTangents(Prowl.Runtime.CurveTangent)
+  parent: Prowl.Runtime.AnimationCurve
+  langs:
+  - csharp
+  - vb
+  name: SmoothTangents(CurveTangent)
+  nameWithType: AnimationCurve.SmoothTangents(CurveTangent)
+  fullName: Prowl.Runtime.AnimationCurve.SmoothTangents(Prowl.Runtime.CurveTangent)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/AnimationCurve.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: SmoothTangents
+    path: ../Prowl/Prowl.Runtime/AnimationCurve.cs
+    startLine: 174
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: Computes tangents for all keys in the collection.
+  example: []
+  syntax:
+    content: public void SmoothTangents(CurveTangent tangentType)
+    parameters:
+    - id: tangentType
+      type: Prowl.Runtime.CurveTangent
+      description: The tangent type for both in and out.
+    content.vb: Public Sub SmoothTangents(tangentType As CurveTangent)
+  overload: Prowl.Runtime.AnimationCurve.SmoothTangents*
+- uid: Prowl.Runtime.AnimationCurve.SmoothTangents(Prowl.Runtime.CurveTangent,Prowl.Runtime.CurveTangent)
+  commentId: M:Prowl.Runtime.AnimationCurve.SmoothTangents(Prowl.Runtime.CurveTangent,Prowl.Runtime.CurveTangent)
+  id: SmoothTangents(Prowl.Runtime.CurveTangent,Prowl.Runtime.CurveTangent)
+  parent: Prowl.Runtime.AnimationCurve
+  langs:
+  - csharp
+  - vb
+  name: SmoothTangents(CurveTangent, CurveTangent)
+  nameWithType: AnimationCurve.SmoothTangents(CurveTangent, CurveTangent)
+  fullName: Prowl.Runtime.AnimationCurve.SmoothTangents(Prowl.Runtime.CurveTangent, Prowl.Runtime.CurveTangent)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/AnimationCurve.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: SmoothTangents
+    path: ../Prowl/Prowl.Runtime/AnimationCurve.cs
+    startLine: 184
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: Computes tangents for all keys in the collection.
+  example: []
+  syntax:
+    content: public void SmoothTangents(CurveTangent tangentInType, CurveTangent tangentOutType)
+    parameters:
+    - id: tangentInType
+      type: Prowl.Runtime.CurveTangent
+      description: The tangent in-type. <xref href="Prowl.Runtime.KeyFrame.TangentIn" data-throw-if-not-resolved="false"></xref> for more details.
+    - id: tangentOutType
+      type: Prowl.Runtime.CurveTangent
+      description: The tangent out-type. <xref href="Prowl.Runtime.KeyFrame.TangentOut" data-throw-if-not-resolved="false"></xref> for more details.
+    content.vb: Public Sub SmoothTangents(tangentInType As CurveTangent, tangentOutType As CurveTangent)
+  overload: Prowl.Runtime.AnimationCurve.SmoothTangents*
+- uid: Prowl.Runtime.AnimationCurve.SmoothTangent(System.Int32,Prowl.Runtime.CurveTangent)
+  commentId: M:Prowl.Runtime.AnimationCurve.SmoothTangent(System.Int32,Prowl.Runtime.CurveTangent)
+  id: SmoothTangent(System.Int32,Prowl.Runtime.CurveTangent)
+  parent: Prowl.Runtime.AnimationCurve
+  langs:
+  - csharp
+  - vb
+  name: SmoothTangent(int, CurveTangent)
+  nameWithType: AnimationCurve.SmoothTangent(int, CurveTangent)
+  fullName: Prowl.Runtime.AnimationCurve.SmoothTangent(int, Prowl.Runtime.CurveTangent)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/AnimationCurve.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: SmoothTangent
+    path: ../Prowl/Prowl.Runtime/AnimationCurve.cs
+    startLine: 197
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: Computes tangent for the specific key in the collection.
+  example: []
+  syntax:
+    content: public void SmoothTangent(int keyIndex, CurveTangent tangentType)
+    parameters:
+    - id: keyIndex
+      type: System.Int32
+      description: The index of a key in the collection.
+    - id: tangentType
+      type: Prowl.Runtime.CurveTangent
+      description: The tangent type for both in and out.
+    content.vb: Public Sub SmoothTangent(keyIndex As Integer, tangentType As CurveTangent)
+  overload: Prowl.Runtime.AnimationCurve.SmoothTangent*
+  nameWithType.vb: AnimationCurve.SmoothTangent(Integer, CurveTangent)
+  fullName.vb: Prowl.Runtime.AnimationCurve.SmoothTangent(Integer, Prowl.Runtime.CurveTangent)
+  name.vb: SmoothTangent(Integer, CurveTangent)
+- uid: Prowl.Runtime.AnimationCurve.SmoothTangent(System.Int32,Prowl.Runtime.CurveTangent,Prowl.Runtime.CurveTangent)
+  commentId: M:Prowl.Runtime.AnimationCurve.SmoothTangent(System.Int32,Prowl.Runtime.CurveTangent,Prowl.Runtime.CurveTangent)
+  id: SmoothTangent(System.Int32,Prowl.Runtime.CurveTangent,Prowl.Runtime.CurveTangent)
+  parent: Prowl.Runtime.AnimationCurve
+  langs:
+  - csharp
+  - vb
+  name: SmoothTangent(int, CurveTangent, CurveTangent)
+  nameWithType: AnimationCurve.SmoothTangent(int, CurveTangent, CurveTangent)
+  fullName: Prowl.Runtime.AnimationCurve.SmoothTangent(int, Prowl.Runtime.CurveTangent, Prowl.Runtime.CurveTangent)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/AnimationCurve.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: SmoothTangent
+    path: ../Prowl/Prowl.Runtime/AnimationCurve.cs
+    startLine: 205
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: Computes tangent for the specific key in the collection.
+  example: []
+  syntax:
+    content: public void SmoothTangent(int keyIndex, CurveTangent tangentInType, CurveTangent tangentOutType)
+    parameters:
+    - id: keyIndex
+      type: System.Int32
+      description: The index of key in the collection.
+    - id: tangentInType
+      type: Prowl.Runtime.CurveTangent
+      description: The tangent in-type. <xref href="Prowl.Runtime.KeyFrame.TangentIn" data-throw-if-not-resolved="false"></xref> for more details.
+    - id: tangentOutType
+      type: Prowl.Runtime.CurveTangent
+      description: The tangent out-type. <xref href="Prowl.Runtime.KeyFrame.TangentOut" data-throw-if-not-resolved="false"></xref> for more details.
+    content.vb: Public Sub SmoothTangent(keyIndex As Integer, tangentInType As CurveTangent, tangentOutType As CurveTangent)
+  overload: Prowl.Runtime.AnimationCurve.SmoothTangent*
+  nameWithType.vb: AnimationCurve.SmoothTangent(Integer, CurveTangent, CurveTangent)
+  fullName.vb: Prowl.Runtime.AnimationCurve.SmoothTangent(Integer, Prowl.Runtime.CurveTangent, Prowl.Runtime.CurveTangent)
+  name.vb: SmoothTangent(Integer, CurveTangent, CurveTangent)
+- uid: Prowl.Runtime.AnimationCurve.Serialize(Prowl.Runtime.Serializer.SerializationContext)
+  commentId: M:Prowl.Runtime.AnimationCurve.Serialize(Prowl.Runtime.Serializer.SerializationContext)
+  id: Serialize(Prowl.Runtime.Serializer.SerializationContext)
+  parent: Prowl.Runtime.AnimationCurve
+  langs:
+  - csharp
+  - vb
+  name: Serialize(SerializationContext)
+  nameWithType: AnimationCurve.Serialize(Serializer.SerializationContext)
+  fullName: Prowl.Runtime.AnimationCurve.Serialize(Prowl.Runtime.Serializer.SerializationContext)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/AnimationCurve.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Serialize
+    path: ../Prowl/Prowl.Runtime/AnimationCurve.cs
+    startLine: 309
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  example: []
+  syntax:
+    content: public SerializedProperty Serialize(Serializer.SerializationContext ctx)
+    parameters:
+    - id: ctx
+      type: Prowl.Runtime.Serializer.SerializationContext
+    return:
+      type: Prowl.Runtime.SerializedProperty
+    content.vb: Public Function Serialize(ctx As Serializer.SerializationContext) As SerializedProperty
+  overload: Prowl.Runtime.AnimationCurve.Serialize*
+  implements:
+  - Prowl.Runtime.ISerializable.Serialize(Prowl.Runtime.Serializer.SerializationContext)
+- uid: Prowl.Runtime.AnimationCurve.Deserialize(Prowl.Runtime.SerializedProperty,Prowl.Runtime.Serializer.SerializationContext)
+  commentId: M:Prowl.Runtime.AnimationCurve.Deserialize(Prowl.Runtime.SerializedProperty,Prowl.Runtime.Serializer.SerializationContext)
+  id: Deserialize(Prowl.Runtime.SerializedProperty,Prowl.Runtime.Serializer.SerializationContext)
+  parent: Prowl.Runtime.AnimationCurve
+  langs:
+  - csharp
+  - vb
+  name: Deserialize(SerializedProperty, SerializationContext)
+  nameWithType: AnimationCurve.Deserialize(SerializedProperty, Serializer.SerializationContext)
+  fullName: Prowl.Runtime.AnimationCurve.Deserialize(Prowl.Runtime.SerializedProperty, Prowl.Runtime.Serializer.SerializationContext)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/AnimationCurve.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Deserialize
+    path: ../Prowl/Prowl.Runtime/AnimationCurve.cs
+    startLine: 331
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  example: []
+  syntax:
+    content: public void Deserialize(SerializedProperty value, Serializer.SerializationContext ctx)
+    parameters:
+    - id: value
+      type: Prowl.Runtime.SerializedProperty
+    - id: ctx
+      type: Prowl.Runtime.Serializer.SerializationContext
+    content.vb: Public Sub Deserialize(value As SerializedProperty, ctx As Serializer.SerializationContext)
+  overload: Prowl.Runtime.AnimationCurve.Deserialize*
+  implements:
+  - Prowl.Runtime.ISerializable.Deserialize(Prowl.Runtime.SerializedProperty,Prowl.Runtime.Serializer.SerializationContext)
+references:
+- uid: Prowl.Runtime
+  commentId: N:Prowl.Runtime
+  href: Prowl.html
+  name: Prowl.Runtime
+  nameWithType: Prowl.Runtime
+  fullName: Prowl.Runtime
+  spec.csharp:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+  spec.vb:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Prowl.Runtime.ISerializable
+  commentId: T:Prowl.Runtime.ISerializable
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.ISerializable.html
+  name: ISerializable
+  nameWithType: ISerializable
+  fullName: Prowl.Runtime.ISerializable
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Prowl.Runtime.RuntimeUtils.GetSerializableFields
+  commentId: M:Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  parent: Prowl.Runtime.RuntimeUtils
+  definition: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  name: GetSerializableFields(object)
+  nameWithType: RuntimeUtils.GetSerializableFields(object)
+  fullName: Prowl.Runtime.RuntimeUtils.GetSerializableFields(object)
+  nameWithType.vb: RuntimeUtils.GetSerializableFields(Object)
+  fullName.vb: Prowl.Runtime.RuntimeUtils.GetSerializableFields(Object)
+  name.vb: GetSerializableFields(Object)
+  spec.csharp:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  commentId: M:Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  isExternal: true
+  href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  name: GetSerializableFields(object)
+  nameWithType: RuntimeUtils.GetSerializableFields(object)
+  fullName: Prowl.Runtime.RuntimeUtils.GetSerializableFields(object)
+  nameWithType.vb: RuntimeUtils.GetSerializableFields(Object)
+  fullName.vb: Prowl.Runtime.RuntimeUtils.GetSerializableFields(Object)
+  name.vb: GetSerializableFields(Object)
+  spec.csharp:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: Prowl.Runtime.RuntimeUtils
+  commentId: T:Prowl.Runtime.RuntimeUtils
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.RuntimeUtils.html
+  name: RuntimeUtils
+  nameWithType: RuntimeUtils
+  fullName: Prowl.Runtime.RuntimeUtils
+- uid: Prowl.Runtime.AnimationCurve.PreLoop*
+  commentId: Overload:Prowl.Runtime.AnimationCurve.PreLoop
+  href: Prowl.Runtime.AnimationCurve.html#Prowl_Runtime_AnimationCurve_PreLoop
+  name: PreLoop
+  nameWithType: AnimationCurve.PreLoop
+  fullName: Prowl.Runtime.AnimationCurve.PreLoop
+- uid: Prowl.Runtime.CurveLoopType
+  commentId: T:Prowl.Runtime.CurveLoopType
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.CurveLoopType.html
+  name: CurveLoopType
+  nameWithType: CurveLoopType
+  fullName: Prowl.Runtime.CurveLoopType
+- uid: Prowl.Runtime.AnimationCurve.PostLoop*
+  commentId: Overload:Prowl.Runtime.AnimationCurve.PostLoop
+  href: Prowl.Runtime.AnimationCurve.html#Prowl_Runtime_AnimationCurve_PostLoop
+  name: PostLoop
+  nameWithType: AnimationCurve.PostLoop
+  fullName: Prowl.Runtime.AnimationCurve.PostLoop
+- uid: Prowl.Runtime.AnimationCurve.Keys*
+  commentId: Overload:Prowl.Runtime.AnimationCurve.Keys
+  href: Prowl.Runtime.AnimationCurve.html#Prowl_Runtime_AnimationCurve_Keys
+  name: Keys
+  nameWithType: AnimationCurve.Keys
+  fullName: Prowl.Runtime.AnimationCurve.Keys
+- uid: Prowl.Runtime.CurveKeyCollection
+  commentId: T:Prowl.Runtime.CurveKeyCollection
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.CurveKeyCollection.html
+  name: CurveKeyCollection
+  nameWithType: CurveKeyCollection
+  fullName: Prowl.Runtime.CurveKeyCollection
+- uid: Prowl.Runtime.AnimationCurve.#ctor*
+  commentId: Overload:Prowl.Runtime.AnimationCurve.#ctor
+  href: Prowl.Runtime.AnimationCurve.html#Prowl_Runtime_AnimationCurve__ctor
+  name: AnimationCurve
+  nameWithType: AnimationCurve.AnimationCurve
+  fullName: Prowl.Runtime.AnimationCurve.AnimationCurve
+  nameWithType.vb: AnimationCurve.New
+  fullName.vb: Prowl.Runtime.AnimationCurve.New
+  name.vb: New
+- uid: Prowl.Runtime.AnimationCurve
+  commentId: T:Prowl.Runtime.AnimationCurve
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.AnimationCurve.html
+  name: AnimationCurve
+  nameWithType: AnimationCurve
+  fullName: Prowl.Runtime.AnimationCurve
+- uid: Prowl.Runtime.AnimationCurve.Evaluate*
+  commentId: Overload:Prowl.Runtime.AnimationCurve.Evaluate
+  href: Prowl.Runtime.AnimationCurve.html#Prowl_Runtime_AnimationCurve_Evaluate_System_Double_
+  name: Evaluate
+  nameWithType: AnimationCurve.Evaluate
+  fullName: Prowl.Runtime.AnimationCurve.Evaluate
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.double
+  name: double
+  nameWithType: double
+  fullName: double
+  nameWithType.vb: Double
+  fullName.vb: Double
+  name.vb: Double
+- uid: Prowl.Runtime.AnimationCurve.SmoothTangents*
+  commentId: Overload:Prowl.Runtime.AnimationCurve.SmoothTangents
+  href: Prowl.Runtime.AnimationCurve.html#Prowl_Runtime_AnimationCurve_SmoothTangents_Prowl_Runtime_CurveTangent_
+  name: SmoothTangents
+  nameWithType: AnimationCurve.SmoothTangents
+  fullName: Prowl.Runtime.AnimationCurve.SmoothTangents
+- uid: Prowl.Runtime.CurveTangent
+  commentId: T:Prowl.Runtime.CurveTangent
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.CurveTangent.html
+  name: CurveTangent
+  nameWithType: CurveTangent
+  fullName: Prowl.Runtime.CurveTangent
+- uid: Prowl.Runtime.KeyFrame.TangentIn
+  commentId: P:Prowl.Runtime.KeyFrame.TangentIn
+  href: Prowl.Runtime.KeyFrame.html#Prowl_Runtime_KeyFrame_TangentIn
+  name: TangentIn
+  nameWithType: KeyFrame.TangentIn
+  fullName: Prowl.Runtime.KeyFrame.TangentIn
+- uid: Prowl.Runtime.KeyFrame.TangentOut
+  commentId: P:Prowl.Runtime.KeyFrame.TangentOut
+  href: Prowl.Runtime.KeyFrame.html#Prowl_Runtime_KeyFrame_TangentOut
+  name: TangentOut
+  nameWithType: KeyFrame.TangentOut
+  fullName: Prowl.Runtime.KeyFrame.TangentOut
+- uid: Prowl.Runtime.AnimationCurve.SmoothTangent*
+  commentId: Overload:Prowl.Runtime.AnimationCurve.SmoothTangent
+  href: Prowl.Runtime.AnimationCurve.html#Prowl_Runtime_AnimationCurve_SmoothTangent_System_Int32_Prowl_Runtime_CurveTangent_
+  name: SmoothTangent
+  nameWithType: AnimationCurve.SmoothTangent
+  fullName: Prowl.Runtime.AnimationCurve.SmoothTangent
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: Prowl.Runtime.AnimationCurve.Serialize*
+  commentId: Overload:Prowl.Runtime.AnimationCurve.Serialize
+  href: Prowl.Runtime.AnimationCurve.html#Prowl_Runtime_AnimationCurve_Serialize_Prowl_Runtime_Serializer_SerializationContext_
+  name: Serialize
+  nameWithType: AnimationCurve.Serialize
+  fullName: Prowl.Runtime.AnimationCurve.Serialize
+- uid: Prowl.Runtime.ISerializable.Serialize(Prowl.Runtime.Serializer.SerializationContext)
+  commentId: M:Prowl.Runtime.ISerializable.Serialize(Prowl.Runtime.Serializer.SerializationContext)
+  parent: Prowl.Runtime.ISerializable
+  href: Prowl.Runtime.ISerializable.html#Prowl_Runtime_ISerializable_Serialize_Prowl_Runtime_Serializer_SerializationContext_
+  name: Serialize(SerializationContext)
+  nameWithType: ISerializable.Serialize(Serializer.SerializationContext)
+  fullName: Prowl.Runtime.ISerializable.Serialize(Prowl.Runtime.Serializer.SerializationContext)
+  spec.csharp:
+  - uid: Prowl.Runtime.ISerializable.Serialize(Prowl.Runtime.Serializer.SerializationContext)
+    name: Serialize
+    href: Prowl.Runtime.ISerializable.html#Prowl_Runtime_ISerializable_Serialize_Prowl_Runtime_Serializer_SerializationContext_
+  - name: (
+  - uid: Prowl.Runtime.Serializer.SerializationContext
+    name: SerializationContext
+    href: Prowl.Runtime.Serializer.SerializationContext.html
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.ISerializable.Serialize(Prowl.Runtime.Serializer.SerializationContext)
+    name: Serialize
+    href: Prowl.Runtime.ISerializable.html#Prowl_Runtime_ISerializable_Serialize_Prowl_Runtime_Serializer_SerializationContext_
+  - name: (
+  - uid: Prowl.Runtime.Serializer.SerializationContext
+    name: SerializationContext
+    href: Prowl.Runtime.Serializer.SerializationContext.html
+  - name: )
+- uid: Prowl.Runtime.Serializer.SerializationContext
+  commentId: T:Prowl.Runtime.Serializer.SerializationContext
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.Serializer.html
+  name: Serializer.SerializationContext
+  nameWithType: Serializer.SerializationContext
+  fullName: Prowl.Runtime.Serializer.SerializationContext
+  spec.csharp:
+  - uid: Prowl.Runtime.Serializer
+    name: Serializer
+    href: Prowl.Runtime.Serializer.html
+  - name: .
+  - uid: Prowl.Runtime.Serializer.SerializationContext
+    name: SerializationContext
+    href: Prowl.Runtime.Serializer.SerializationContext.html
+  spec.vb:
+  - uid: Prowl.Runtime.Serializer
+    name: Serializer
+    href: Prowl.Runtime.Serializer.html
+  - name: .
+  - uid: Prowl.Runtime.Serializer.SerializationContext
+    name: SerializationContext
+    href: Prowl.Runtime.Serializer.SerializationContext.html
+- uid: Prowl.Runtime.SerializedProperty
+  commentId: T:Prowl.Runtime.SerializedProperty
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.SerializedProperty.html
+  name: SerializedProperty
+  nameWithType: SerializedProperty
+  fullName: Prowl.Runtime.SerializedProperty
+- uid: Prowl.Runtime.AnimationCurve.Deserialize*
+  commentId: Overload:Prowl.Runtime.AnimationCurve.Deserialize
+  href: Prowl.Runtime.AnimationCurve.html#Prowl_Runtime_AnimationCurve_Deserialize_Prowl_Runtime_SerializedProperty_Prowl_Runtime_Serializer_SerializationContext_
+  name: Deserialize
+  nameWithType: AnimationCurve.Deserialize
+  fullName: Prowl.Runtime.AnimationCurve.Deserialize
+- uid: Prowl.Runtime.ISerializable.Deserialize(Prowl.Runtime.SerializedProperty,Prowl.Runtime.Serializer.SerializationContext)
+  commentId: M:Prowl.Runtime.ISerializable.Deserialize(Prowl.Runtime.SerializedProperty,Prowl.Runtime.Serializer.SerializationContext)
+  parent: Prowl.Runtime.ISerializable
+  href: Prowl.Runtime.ISerializable.html#Prowl_Runtime_ISerializable_Deserialize_Prowl_Runtime_SerializedProperty_Prowl_Runtime_Serializer_SerializationContext_
+  name: Deserialize(SerializedProperty, SerializationContext)
+  nameWithType: ISerializable.Deserialize(SerializedProperty, Serializer.SerializationContext)
+  fullName: Prowl.Runtime.ISerializable.Deserialize(Prowl.Runtime.SerializedProperty, Prowl.Runtime.Serializer.SerializationContext)
+  spec.csharp:
+  - uid: Prowl.Runtime.ISerializable.Deserialize(Prowl.Runtime.SerializedProperty,Prowl.Runtime.Serializer.SerializationContext)
+    name: Deserialize
+    href: Prowl.Runtime.ISerializable.html#Prowl_Runtime_ISerializable_Deserialize_Prowl_Runtime_SerializedProperty_Prowl_Runtime_Serializer_SerializationContext_
+  - name: (
+  - uid: Prowl.Runtime.SerializedProperty
+    name: SerializedProperty
+    href: Prowl.Runtime.SerializedProperty.html
+  - name: ','
+  - name: " "
+  - uid: Prowl.Runtime.Serializer.SerializationContext
+    name: SerializationContext
+    href: Prowl.Runtime.Serializer.SerializationContext.html
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.ISerializable.Deserialize(Prowl.Runtime.SerializedProperty,Prowl.Runtime.Serializer.SerializationContext)
+    name: Deserialize
+    href: Prowl.Runtime.ISerializable.html#Prowl_Runtime_ISerializable_Deserialize_Prowl_Runtime_SerializedProperty_Prowl_Runtime_Serializer_SerializationContext_
+  - name: (
+  - uid: Prowl.Runtime.SerializedProperty
+    name: SerializedProperty
+    href: Prowl.Runtime.SerializedProperty.html
+  - name: ','
+  - name: " "
+  - uid: Prowl.Runtime.Serializer.SerializationContext
+    name: SerializationContext
+    href: Prowl.Runtime.Serializer.SerializationContext.html
+  - name: )

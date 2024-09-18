@@ -1,0 +1,1994 @@
+### YamlMime:ManagedReference
+items:
+- uid: Prowl.Runtime.Color
+  commentId: T:Prowl.Runtime.Color
+  id: Color
+  parent: Prowl.Runtime
+  children:
+  - Prowl.Runtime.Color.#ctor(System.Byte,System.Byte,System.Byte)
+  - Prowl.Runtime.Color.#ctor(System.Byte,System.Byte,System.Byte,System.Byte)
+  - Prowl.Runtime.Color.#ctor(System.Single,System.Single,System.Single)
+  - Prowl.Runtime.Color.#ctor(System.Single,System.Single,System.Single,System.Single)
+  - Prowl.Runtime.Color.Equals(System.Object)
+  - Prowl.Runtime.Color.FromHSV(System.Single,System.Single,System.Single,System.Single)
+  - Prowl.Runtime.Color.GetHashCode
+  - Prowl.Runtime.Color.GetUInt
+  - Prowl.Runtime.Color.Item(System.Int32)
+  - Prowl.Runtime.Color.Lerp(Prowl.Runtime.Color,Prowl.Runtime.Color,System.Single)
+  - Prowl.Runtime.Color.ToString
+  - Prowl.Runtime.Color.a
+  - Prowl.Runtime.Color.b
+  - Prowl.Runtime.Color.black
+  - Prowl.Runtime.Color.blue
+  - Prowl.Runtime.Color.clear
+  - Prowl.Runtime.Color.cyan
+  - Prowl.Runtime.Color.g
+  - Prowl.Runtime.Color.gray
+  - Prowl.Runtime.Color.grayscale
+  - Prowl.Runtime.Color.green
+  - Prowl.Runtime.Color.grey
+  - Prowl.Runtime.Color.magenta
+  - Prowl.Runtime.Color.op_Addition(Prowl.Runtime.Color,Prowl.Runtime.Color)
+  - Prowl.Runtime.Color.op_Division(Prowl.Runtime.Color,System.Single)
+  - Prowl.Runtime.Color.op_Equality(Prowl.Runtime.Color,Prowl.Runtime.Color)
+  - Prowl.Runtime.Color.op_Implicit(Prowl.Runtime.Color)~Prowl.Runtime.Vector4
+  - Prowl.Runtime.Color.op_Implicit(Prowl.Runtime.Color)~System.Numerics.Vector4
+  - Prowl.Runtime.Color.op_Implicit(Prowl.Runtime.Vector4)~Prowl.Runtime.Color
+  - Prowl.Runtime.Color.op_Implicit(System.Numerics.Vector4)~Prowl.Runtime.Color
+  - Prowl.Runtime.Color.op_Inequality(Prowl.Runtime.Color,Prowl.Runtime.Color)
+  - Prowl.Runtime.Color.op_Multiply(Prowl.Runtime.Color,Prowl.Runtime.Color)
+  - Prowl.Runtime.Color.op_Multiply(Prowl.Runtime.Color,System.Single)
+  - Prowl.Runtime.Color.op_Multiply(System.Single,Prowl.Runtime.Color)
+  - Prowl.Runtime.Color.op_Subtraction(Prowl.Runtime.Color,Prowl.Runtime.Color)
+  - Prowl.Runtime.Color.r
+  - Prowl.Runtime.Color.red
+  - Prowl.Runtime.Color.white
+  - Prowl.Runtime.Color.yellow
+  langs:
+  - csharp
+  - vb
+  name: Color
+  nameWithType: Color
+  fullName: Prowl.Runtime.Color
+  type: Struct
+  source:
+    remote:
+      path: Prowl.Runtime/Color.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Color
+    path: ../Prowl/Prowl.Runtime/Color.cs
+    startLine: 8
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public struct Color
+    content.vb: Public Structure Color
+  inheritedMembers:
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  extensionMethods:
+  - System.Object.Prowl.Runtime.RuntimeUtils.GetSerializableFields
+- uid: Prowl.Runtime.Color.r
+  commentId: F:Prowl.Runtime.Color.r
+  id: r
+  parent: Prowl.Runtime.Color
+  langs:
+  - csharp
+  - vb
+  name: r
+  nameWithType: Color.r
+  fullName: Prowl.Runtime.Color.r
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/Color.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: r
+    path: ../Prowl/Prowl.Runtime/Color.cs
+    startLine: 11
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public float r
+    return:
+      type: System.Single
+    content.vb: Public r As Single
+- uid: Prowl.Runtime.Color.g
+  commentId: F:Prowl.Runtime.Color.g
+  id: g
+  parent: Prowl.Runtime.Color
+  langs:
+  - csharp
+  - vb
+  name: g
+  nameWithType: Color.g
+  fullName: Prowl.Runtime.Color.g
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/Color.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: g
+    path: ../Prowl/Prowl.Runtime/Color.cs
+    startLine: 11
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public float g
+    return:
+      type: System.Single
+    content.vb: Public g As Single
+- uid: Prowl.Runtime.Color.b
+  commentId: F:Prowl.Runtime.Color.b
+  id: b
+  parent: Prowl.Runtime.Color
+  langs:
+  - csharp
+  - vb
+  name: b
+  nameWithType: Color.b
+  fullName: Prowl.Runtime.Color.b
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/Color.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: b
+    path: ../Prowl/Prowl.Runtime/Color.cs
+    startLine: 11
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public float b
+    return:
+      type: System.Single
+    content.vb: Public b As Single
+- uid: Prowl.Runtime.Color.a
+  commentId: F:Prowl.Runtime.Color.a
+  id: a
+  parent: Prowl.Runtime.Color
+  langs:
+  - csharp
+  - vb
+  name: a
+  nameWithType: Color.a
+  fullName: Prowl.Runtime.Color.a
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/Color.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: a
+    path: ../Prowl/Prowl.Runtime/Color.cs
+    startLine: 11
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public float a
+    return:
+      type: System.Single
+    content.vb: Public a As Single
+- uid: Prowl.Runtime.Color.grayscale
+  commentId: P:Prowl.Runtime.Color.grayscale
+  id: grayscale
+  parent: Prowl.Runtime.Color
+  langs:
+  - csharp
+  - vb
+  name: grayscale
+  nameWithType: Color.grayscale
+  fullName: Prowl.Runtime.Color.grayscale
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/Color.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: grayscale
+    path: ../Prowl/Prowl.Runtime/Color.cs
+    startLine: 13
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public float grayscale { get; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public ReadOnly Property grayscale As Single
+  overload: Prowl.Runtime.Color.grayscale*
+- uid: Prowl.Runtime.Color.black
+  commentId: P:Prowl.Runtime.Color.black
+  id: black
+  parent: Prowl.Runtime.Color
+  langs:
+  - csharp
+  - vb
+  name: black
+  nameWithType: Color.black
+  fullName: Prowl.Runtime.Color.black
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/Color.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: black
+    path: ../Prowl/Prowl.Runtime/Color.cs
+    startLine: 15
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public static Color black { get; }
+    parameters: []
+    return:
+      type: Prowl.Runtime.Color
+    content.vb: Public Shared ReadOnly Property black As Color
+  overload: Prowl.Runtime.Color.black*
+- uid: Prowl.Runtime.Color.blue
+  commentId: P:Prowl.Runtime.Color.blue
+  id: blue
+  parent: Prowl.Runtime.Color
+  langs:
+  - csharp
+  - vb
+  name: blue
+  nameWithType: Color.blue
+  fullName: Prowl.Runtime.Color.blue
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/Color.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: blue
+    path: ../Prowl/Prowl.Runtime/Color.cs
+    startLine: 17
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public static Color blue { get; }
+    parameters: []
+    return:
+      type: Prowl.Runtime.Color
+    content.vb: Public Shared ReadOnly Property blue As Color
+  overload: Prowl.Runtime.Color.blue*
+- uid: Prowl.Runtime.Color.clear
+  commentId: P:Prowl.Runtime.Color.clear
+  id: clear
+  parent: Prowl.Runtime.Color
+  langs:
+  - csharp
+  - vb
+  name: clear
+  nameWithType: Color.clear
+  fullName: Prowl.Runtime.Color.clear
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/Color.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: clear
+    path: ../Prowl/Prowl.Runtime/Color.cs
+    startLine: 19
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public static Color clear { get; }
+    parameters: []
+    return:
+      type: Prowl.Runtime.Color
+    content.vb: Public Shared ReadOnly Property clear As Color
+  overload: Prowl.Runtime.Color.clear*
+- uid: Prowl.Runtime.Color.cyan
+  commentId: P:Prowl.Runtime.Color.cyan
+  id: cyan
+  parent: Prowl.Runtime.Color
+  langs:
+  - csharp
+  - vb
+  name: cyan
+  nameWithType: Color.cyan
+  fullName: Prowl.Runtime.Color.cyan
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/Color.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: cyan
+    path: ../Prowl/Prowl.Runtime/Color.cs
+    startLine: 21
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public static Color cyan { get; }
+    parameters: []
+    return:
+      type: Prowl.Runtime.Color
+    content.vb: Public Shared ReadOnly Property cyan As Color
+  overload: Prowl.Runtime.Color.cyan*
+- uid: Prowl.Runtime.Color.gray
+  commentId: P:Prowl.Runtime.Color.gray
+  id: gray
+  parent: Prowl.Runtime.Color
+  langs:
+  - csharp
+  - vb
+  name: gray
+  nameWithType: Color.gray
+  fullName: Prowl.Runtime.Color.gray
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/Color.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: gray
+    path: ../Prowl/Prowl.Runtime/Color.cs
+    startLine: 23
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public static Color gray { get; }
+    parameters: []
+    return:
+      type: Prowl.Runtime.Color
+    content.vb: Public Shared ReadOnly Property gray As Color
+  overload: Prowl.Runtime.Color.gray*
+- uid: Prowl.Runtime.Color.green
+  commentId: P:Prowl.Runtime.Color.green
+  id: green
+  parent: Prowl.Runtime.Color
+  langs:
+  - csharp
+  - vb
+  name: green
+  nameWithType: Color.green
+  fullName: Prowl.Runtime.Color.green
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/Color.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: green
+    path: ../Prowl/Prowl.Runtime/Color.cs
+    startLine: 25
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public static Color green { get; }
+    parameters: []
+    return:
+      type: Prowl.Runtime.Color
+    content.vb: Public Shared ReadOnly Property green As Color
+  overload: Prowl.Runtime.Color.green*
+- uid: Prowl.Runtime.Color.grey
+  commentId: P:Prowl.Runtime.Color.grey
+  id: grey
+  parent: Prowl.Runtime.Color
+  langs:
+  - csharp
+  - vb
+  name: grey
+  nameWithType: Color.grey
+  fullName: Prowl.Runtime.Color.grey
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/Color.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: grey
+    path: ../Prowl/Prowl.Runtime/Color.cs
+    startLine: 27
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public static Color grey { get; }
+    parameters: []
+    return:
+      type: Prowl.Runtime.Color
+    content.vb: Public Shared ReadOnly Property grey As Color
+  overload: Prowl.Runtime.Color.grey*
+- uid: Prowl.Runtime.Color.magenta
+  commentId: P:Prowl.Runtime.Color.magenta
+  id: magenta
+  parent: Prowl.Runtime.Color
+  langs:
+  - csharp
+  - vb
+  name: magenta
+  nameWithType: Color.magenta
+  fullName: Prowl.Runtime.Color.magenta
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/Color.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: magenta
+    path: ../Prowl/Prowl.Runtime/Color.cs
+    startLine: 29
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public static Color magenta { get; }
+    parameters: []
+    return:
+      type: Prowl.Runtime.Color
+    content.vb: Public Shared ReadOnly Property magenta As Color
+  overload: Prowl.Runtime.Color.magenta*
+- uid: Prowl.Runtime.Color.red
+  commentId: P:Prowl.Runtime.Color.red
+  id: red
+  parent: Prowl.Runtime.Color
+  langs:
+  - csharp
+  - vb
+  name: red
+  nameWithType: Color.red
+  fullName: Prowl.Runtime.Color.red
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/Color.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: red
+    path: ../Prowl/Prowl.Runtime/Color.cs
+    startLine: 31
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public static Color red { get; }
+    parameters: []
+    return:
+      type: Prowl.Runtime.Color
+    content.vb: Public Shared ReadOnly Property red As Color
+  overload: Prowl.Runtime.Color.red*
+- uid: Prowl.Runtime.Color.white
+  commentId: P:Prowl.Runtime.Color.white
+  id: white
+  parent: Prowl.Runtime.Color
+  langs:
+  - csharp
+  - vb
+  name: white
+  nameWithType: Color.white
+  fullName: Prowl.Runtime.Color.white
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/Color.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: white
+    path: ../Prowl/Prowl.Runtime/Color.cs
+    startLine: 33
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public static Color white { get; }
+    parameters: []
+    return:
+      type: Prowl.Runtime.Color
+    content.vb: Public Shared ReadOnly Property white As Color
+  overload: Prowl.Runtime.Color.white*
+- uid: Prowl.Runtime.Color.yellow
+  commentId: P:Prowl.Runtime.Color.yellow
+  id: yellow
+  parent: Prowl.Runtime.Color
+  langs:
+  - csharp
+  - vb
+  name: yellow
+  nameWithType: Color.yellow
+  fullName: Prowl.Runtime.Color.yellow
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/Color.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: yellow
+    path: ../Prowl/Prowl.Runtime/Color.cs
+    startLine: 35
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public static Color yellow { get; }
+    parameters: []
+    return:
+      type: Prowl.Runtime.Color
+    content.vb: Public Shared ReadOnly Property yellow As Color
+  overload: Prowl.Runtime.Color.yellow*
+- uid: Prowl.Runtime.Color.Item(System.Int32)
+  commentId: P:Prowl.Runtime.Color.Item(System.Int32)
+  id: Item(System.Int32)
+  parent: Prowl.Runtime.Color
+  langs:
+  - csharp
+  - vb
+  name: this[int]
+  nameWithType: Color.this[int]
+  fullName: Prowl.Runtime.Color.this[int]
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/Color.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: this[]
+    path: ../Prowl/Prowl.Runtime/Color.cs
+    startLine: 37
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public float this[int index] { get; set; }
+    parameters:
+    - id: index
+      type: System.Int32
+    return:
+      type: System.Single
+    content.vb: Public Default Property this[](index As Integer) As Single
+  overload: Prowl.Runtime.Color.Item*
+  nameWithType.vb: Color.this[](Integer)
+  fullName.vb: Prowl.Runtime.Color.this[](Integer)
+  name.vb: this[](Integer)
+- uid: Prowl.Runtime.Color.#ctor(System.Single,System.Single,System.Single,System.Single)
+  commentId: M:Prowl.Runtime.Color.#ctor(System.Single,System.Single,System.Single,System.Single)
+  id: '#ctor(System.Single,System.Single,System.Single,System.Single)'
+  parent: Prowl.Runtime.Color
+  langs:
+  - csharp
+  - vb
+  name: Color(float, float, float, float)
+  nameWithType: Color.Color(float, float, float, float)
+  fullName: Prowl.Runtime.Color.Color(float, float, float, float)
+  type: Constructor
+  source:
+    remote:
+      path: Prowl.Runtime/Color.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: .ctor
+    path: ../Prowl/Prowl.Runtime/Color.cs
+    startLine: 64
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public Color(float r, float g, float b, float a)
+    parameters:
+    - id: r
+      type: System.Single
+    - id: g
+      type: System.Single
+    - id: b
+      type: System.Single
+    - id: a
+      type: System.Single
+    content.vb: Public Sub New(r As Single, g As Single, b As Single, a As Single)
+  overload: Prowl.Runtime.Color.#ctor*
+  nameWithType.vb: Color.New(Single, Single, Single, Single)
+  fullName.vb: Prowl.Runtime.Color.New(Single, Single, Single, Single)
+  name.vb: New(Single, Single, Single, Single)
+- uid: Prowl.Runtime.Color.#ctor(System.Single,System.Single,System.Single)
+  commentId: M:Prowl.Runtime.Color.#ctor(System.Single,System.Single,System.Single)
+  id: '#ctor(System.Single,System.Single,System.Single)'
+  parent: Prowl.Runtime.Color
+  langs:
+  - csharp
+  - vb
+  name: Color(float, float, float)
+  nameWithType: Color.Color(float, float, float)
+  fullName: Prowl.Runtime.Color.Color(float, float, float)
+  type: Constructor
+  source:
+    remote:
+      path: Prowl.Runtime/Color.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: .ctor
+    path: ../Prowl/Prowl.Runtime/Color.cs
+    startLine: 72
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public Color(float r, float g, float b)
+    parameters:
+    - id: r
+      type: System.Single
+    - id: g
+      type: System.Single
+    - id: b
+      type: System.Single
+    content.vb: Public Sub New(r As Single, g As Single, b As Single)
+  overload: Prowl.Runtime.Color.#ctor*
+  nameWithType.vb: Color.New(Single, Single, Single)
+  fullName.vb: Prowl.Runtime.Color.New(Single, Single, Single)
+  name.vb: New(Single, Single, Single)
+- uid: Prowl.Runtime.Color.#ctor(System.Byte,System.Byte,System.Byte,System.Byte)
+  commentId: M:Prowl.Runtime.Color.#ctor(System.Byte,System.Byte,System.Byte,System.Byte)
+  id: '#ctor(System.Byte,System.Byte,System.Byte,System.Byte)'
+  parent: Prowl.Runtime.Color
+  langs:
+  - csharp
+  - vb
+  name: Color(byte, byte, byte, byte)
+  nameWithType: Color.Color(byte, byte, byte, byte)
+  fullName: Prowl.Runtime.Color.Color(byte, byte, byte, byte)
+  type: Constructor
+  source:
+    remote:
+      path: Prowl.Runtime/Color.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: .ctor
+    path: ../Prowl/Prowl.Runtime/Color.cs
+    startLine: 80
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public Color(byte r, byte g, byte b, byte a)
+    parameters:
+    - id: r
+      type: System.Byte
+    - id: g
+      type: System.Byte
+    - id: b
+      type: System.Byte
+    - id: a
+      type: System.Byte
+    content.vb: Public Sub New(r As Byte, g As Byte, b As Byte, a As Byte)
+  overload: Prowl.Runtime.Color.#ctor*
+  nameWithType.vb: Color.New(Byte, Byte, Byte, Byte)
+  fullName.vb: Prowl.Runtime.Color.New(Byte, Byte, Byte, Byte)
+  name.vb: New(Byte, Byte, Byte, Byte)
+- uid: Prowl.Runtime.Color.#ctor(System.Byte,System.Byte,System.Byte)
+  commentId: M:Prowl.Runtime.Color.#ctor(System.Byte,System.Byte,System.Byte)
+  id: '#ctor(System.Byte,System.Byte,System.Byte)'
+  parent: Prowl.Runtime.Color
+  langs:
+  - csharp
+  - vb
+  name: Color(byte, byte, byte)
+  nameWithType: Color.Color(byte, byte, byte)
+  fullName: Prowl.Runtime.Color.Color(byte, byte, byte)
+  type: Constructor
+  source:
+    remote:
+      path: Prowl.Runtime/Color.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: .ctor
+    path: ../Prowl/Prowl.Runtime/Color.cs
+    startLine: 88
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public Color(byte r, byte g, byte b)
+    parameters:
+    - id: r
+      type: System.Byte
+    - id: g
+      type: System.Byte
+    - id: b
+      type: System.Byte
+    content.vb: Public Sub New(r As Byte, g As Byte, b As Byte)
+  overload: Prowl.Runtime.Color.#ctor*
+  nameWithType.vb: Color.New(Byte, Byte, Byte)
+  fullName.vb: Prowl.Runtime.Color.New(Byte, Byte, Byte)
+  name.vb: New(Byte, Byte, Byte)
+- uid: Prowl.Runtime.Color.GetUInt
+  commentId: M:Prowl.Runtime.Color.GetUInt
+  id: GetUInt
+  parent: Prowl.Runtime.Color
+  langs:
+  - csharp
+  - vb
+  name: GetUInt()
+  nameWithType: Color.GetUInt()
+  fullName: Prowl.Runtime.Color.GetUInt()
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Color.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: GetUInt
+    path: ../Prowl/Prowl.Runtime/Color.cs
+    startLine: 96
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public uint GetUInt()
+    return:
+      type: System.UInt32
+    content.vb: Public Function GetUInt() As UInteger
+  overload: Prowl.Runtime.Color.GetUInt*
+- uid: Prowl.Runtime.Color.Lerp(Prowl.Runtime.Color,Prowl.Runtime.Color,System.Single)
+  commentId: M:Prowl.Runtime.Color.Lerp(Prowl.Runtime.Color,Prowl.Runtime.Color,System.Single)
+  id: Lerp(Prowl.Runtime.Color,Prowl.Runtime.Color,System.Single)
+  parent: Prowl.Runtime.Color
+  langs:
+  - csharp
+  - vb
+  name: Lerp(Color, Color, float)
+  nameWithType: Color.Lerp(Color, Color, float)
+  fullName: Prowl.Runtime.Color.Lerp(Prowl.Runtime.Color, Prowl.Runtime.Color, float)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Color.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Lerp
+    path: ../Prowl/Prowl.Runtime/Color.cs
+    startLine: 98
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public static Color Lerp(Color a, Color b, float t)
+    parameters:
+    - id: a
+      type: Prowl.Runtime.Color
+    - id: b
+      type: Prowl.Runtime.Color
+    - id: t
+      type: System.Single
+    return:
+      type: Prowl.Runtime.Color
+    content.vb: Public Shared Function Lerp(a As Color, b As Color, t As Single) As Color
+  overload: Prowl.Runtime.Color.Lerp*
+  nameWithType.vb: Color.Lerp(Color, Color, Single)
+  fullName.vb: Prowl.Runtime.Color.Lerp(Prowl.Runtime.Color, Prowl.Runtime.Color, Single)
+  name.vb: Lerp(Color, Color, Single)
+- uid: Prowl.Runtime.Color.FromHSV(System.Single,System.Single,System.Single,System.Single)
+  commentId: M:Prowl.Runtime.Color.FromHSV(System.Single,System.Single,System.Single,System.Single)
+  id: FromHSV(System.Single,System.Single,System.Single,System.Single)
+  parent: Prowl.Runtime.Color
+  langs:
+  - csharp
+  - vb
+  name: FromHSV(float, float, float, float)
+  nameWithType: Color.FromHSV(float, float, float, float)
+  fullName: Prowl.Runtime.Color.FromHSV(float, float, float, float)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Color.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: FromHSV
+    path: ../Prowl/Prowl.Runtime/Color.cs
+    startLine: 105
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public static Color FromHSV(float h, float s, float v, float a = 1)
+    parameters:
+    - id: h
+      type: System.Single
+    - id: s
+      type: System.Single
+    - id: v
+      type: System.Single
+    - id: a
+      type: System.Single
+    return:
+      type: Prowl.Runtime.Color
+    content.vb: Public Shared Function FromHSV(h As Single, s As Single, v As Single, a As Single = 1) As Color
+  overload: Prowl.Runtime.Color.FromHSV*
+  nameWithType.vb: Color.FromHSV(Single, Single, Single, Single)
+  fullName.vb: Prowl.Runtime.Color.FromHSV(Single, Single, Single, Single)
+  name.vb: FromHSV(Single, Single, Single, Single)
+- uid: Prowl.Runtime.Color.op_Addition(Prowl.Runtime.Color,Prowl.Runtime.Color)
+  commentId: M:Prowl.Runtime.Color.op_Addition(Prowl.Runtime.Color,Prowl.Runtime.Color)
+  id: op_Addition(Prowl.Runtime.Color,Prowl.Runtime.Color)
+  parent: Prowl.Runtime.Color
+  langs:
+  - csharp
+  - vb
+  name: operator +(Color, Color)
+  nameWithType: Color.operator +(Color, Color)
+  fullName: Prowl.Runtime.Color.operator +(Prowl.Runtime.Color, Prowl.Runtime.Color)
+  type: Operator
+  source:
+    remote:
+      path: Prowl.Runtime/Color.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: op_Addition
+    path: ../Prowl/Prowl.Runtime/Color.cs
+    startLine: 167
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public static Color operator +(Color a, Color b)
+    parameters:
+    - id: a
+      type: Prowl.Runtime.Color
+    - id: b
+      type: Prowl.Runtime.Color
+    return:
+      type: Prowl.Runtime.Color
+    content.vb: Public Shared Operator +(a As Color, b As Color) As Color
+  overload: Prowl.Runtime.Color.op_Addition*
+  nameWithType.vb: Color.+(Color, Color)
+  fullName.vb: Prowl.Runtime.Color.+(Prowl.Runtime.Color, Prowl.Runtime.Color)
+  name.vb: +(Color, Color)
+- uid: Prowl.Runtime.Color.op_Division(Prowl.Runtime.Color,System.Single)
+  commentId: M:Prowl.Runtime.Color.op_Division(Prowl.Runtime.Color,System.Single)
+  id: op_Division(Prowl.Runtime.Color,System.Single)
+  parent: Prowl.Runtime.Color
+  langs:
+  - csharp
+  - vb
+  name: operator /(Color, float)
+  nameWithType: Color.operator /(Color, float)
+  fullName: Prowl.Runtime.Color.operator /(Prowl.Runtime.Color, float)
+  type: Operator
+  source:
+    remote:
+      path: Prowl.Runtime/Color.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: op_Division
+    path: ../Prowl/Prowl.Runtime/Color.cs
+    startLine: 169
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public static Color operator /(Color a, float b)
+    parameters:
+    - id: a
+      type: Prowl.Runtime.Color
+    - id: b
+      type: System.Single
+    return:
+      type: Prowl.Runtime.Color
+    content.vb: Public Shared Operator /(a As Color, b As Single) As Color
+  overload: Prowl.Runtime.Color.op_Division*
+  nameWithType.vb: Color./(Color, Single)
+  fullName.vb: Prowl.Runtime.Color./(Prowl.Runtime.Color, Single)
+  name.vb: /(Color, Single)
+- uid: Prowl.Runtime.Color.op_Equality(Prowl.Runtime.Color,Prowl.Runtime.Color)
+  commentId: M:Prowl.Runtime.Color.op_Equality(Prowl.Runtime.Color,Prowl.Runtime.Color)
+  id: op_Equality(Prowl.Runtime.Color,Prowl.Runtime.Color)
+  parent: Prowl.Runtime.Color
+  langs:
+  - csharp
+  - vb
+  name: operator ==(Color, Color)
+  nameWithType: Color.operator ==(Color, Color)
+  fullName: Prowl.Runtime.Color.operator ==(Prowl.Runtime.Color, Prowl.Runtime.Color)
+  type: Operator
+  source:
+    remote:
+      path: Prowl.Runtime/Color.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: op_Equality
+    path: ../Prowl/Prowl.Runtime/Color.cs
+    startLine: 171
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public static bool operator ==(Color lhs, Color rhs)
+    parameters:
+    - id: lhs
+      type: Prowl.Runtime.Color
+    - id: rhs
+      type: Prowl.Runtime.Color
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Operator =(lhs As Color, rhs As Color) As Boolean
+  overload: Prowl.Runtime.Color.op_Equality*
+  nameWithType.vb: Color.=(Color, Color)
+  fullName.vb: Prowl.Runtime.Color.=(Prowl.Runtime.Color, Prowl.Runtime.Color)
+  name.vb: =(Color, Color)
+- uid: Prowl.Runtime.Color.op_Implicit(Prowl.Runtime.Color)~Prowl.Runtime.Vector4
+  commentId: M:Prowl.Runtime.Color.op_Implicit(Prowl.Runtime.Color)~Prowl.Runtime.Vector4
+  id: op_Implicit(Prowl.Runtime.Color)~Prowl.Runtime.Vector4
+  parent: Prowl.Runtime.Color
+  langs:
+  - csharp
+  - vb
+  name: implicit operator Vector4(Color)
+  nameWithType: Color.implicit operator Vector4(Color)
+  fullName: Prowl.Runtime.Color.implicit operator Prowl.Runtime.Vector4(Prowl.Runtime.Color)
+  type: Operator
+  source:
+    remote:
+      path: Prowl.Runtime/Color.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: op_Implicit
+    path: ../Prowl/Prowl.Runtime/Color.cs
+    startLine: 173
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public static implicit operator Vector4(Color c)
+    parameters:
+    - id: c
+      type: Prowl.Runtime.Color
+    return:
+      type: Prowl.Runtime.Vector4
+    content.vb: Public Shared Widening Operator CType(c As Color) As Vector4
+  overload: Prowl.Runtime.Color.op_Implicit*
+  nameWithType.vb: Color.CType(Color)
+  fullName.vb: Prowl.Runtime.Color.CType(Prowl.Runtime.Color)
+  name.vb: CType(Color)
+- uid: Prowl.Runtime.Color.op_Implicit(Prowl.Runtime.Color)~System.Numerics.Vector4
+  commentId: M:Prowl.Runtime.Color.op_Implicit(Prowl.Runtime.Color)~System.Numerics.Vector4
+  id: op_Implicit(Prowl.Runtime.Color)~System.Numerics.Vector4
+  parent: Prowl.Runtime.Color
+  langs:
+  - csharp
+  - vb
+  name: implicit operator Vector4(Color)
+  nameWithType: Color.implicit operator Vector4(Color)
+  fullName: Prowl.Runtime.Color.implicit operator System.Numerics.Vector4(Prowl.Runtime.Color)
+  type: Operator
+  source:
+    remote:
+      path: Prowl.Runtime/Color.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: op_Implicit
+    path: ../Prowl/Prowl.Runtime/Color.cs
+    startLine: 174
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public static implicit operator Vector4(Color c)
+    parameters:
+    - id: c
+      type: Prowl.Runtime.Color
+    return:
+      type: System.Numerics.Vector4
+    content.vb: Public Shared Widening Operator CType(c As Color) As Vector4
+  overload: Prowl.Runtime.Color.op_Implicit*
+  nameWithType.vb: Color.CType(Color)
+  fullName.vb: Prowl.Runtime.Color.CType(Prowl.Runtime.Color)
+  name.vb: CType(Color)
+- uid: Prowl.Runtime.Color.op_Implicit(Prowl.Runtime.Vector4)~Prowl.Runtime.Color
+  commentId: M:Prowl.Runtime.Color.op_Implicit(Prowl.Runtime.Vector4)~Prowl.Runtime.Color
+  id: op_Implicit(Prowl.Runtime.Vector4)~Prowl.Runtime.Color
+  parent: Prowl.Runtime.Color
+  langs:
+  - csharp
+  - vb
+  name: implicit operator Color(Vector4)
+  nameWithType: Color.implicit operator Color(Vector4)
+  fullName: Prowl.Runtime.Color.implicit operator Prowl.Runtime.Color(Prowl.Runtime.Vector4)
+  type: Operator
+  source:
+    remote:
+      path: Prowl.Runtime/Color.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: op_Implicit
+    path: ../Prowl/Prowl.Runtime/Color.cs
+    startLine: 176
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public static implicit operator Color(Vector4 v)
+    parameters:
+    - id: v
+      type: Prowl.Runtime.Vector4
+    return:
+      type: Prowl.Runtime.Color
+    content.vb: Public Shared Widening Operator CType(v As Vector4) As Color
+  overload: Prowl.Runtime.Color.op_Implicit*
+  nameWithType.vb: Color.CType(Vector4)
+  fullName.vb: Prowl.Runtime.Color.CType(Prowl.Runtime.Vector4)
+  name.vb: CType(Vector4)
+- uid: Prowl.Runtime.Color.op_Implicit(System.Numerics.Vector4)~Prowl.Runtime.Color
+  commentId: M:Prowl.Runtime.Color.op_Implicit(System.Numerics.Vector4)~Prowl.Runtime.Color
+  id: op_Implicit(System.Numerics.Vector4)~Prowl.Runtime.Color
+  parent: Prowl.Runtime.Color
+  langs:
+  - csharp
+  - vb
+  name: implicit operator Color(Vector4)
+  nameWithType: Color.implicit operator Color(Vector4)
+  fullName: Prowl.Runtime.Color.implicit operator Prowl.Runtime.Color(System.Numerics.Vector4)
+  type: Operator
+  source:
+    remote:
+      path: Prowl.Runtime/Color.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: op_Implicit
+    path: ../Prowl/Prowl.Runtime/Color.cs
+    startLine: 177
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public static implicit operator Color(Vector4 v)
+    parameters:
+    - id: v
+      type: System.Numerics.Vector4
+    return:
+      type: Prowl.Runtime.Color
+    content.vb: Public Shared Widening Operator CType(v As Vector4) As Color
+  overload: Prowl.Runtime.Color.op_Implicit*
+  nameWithType.vb: Color.CType(Vector4)
+  fullName.vb: Prowl.Runtime.Color.CType(System.Numerics.Vector4)
+  name.vb: CType(Vector4)
+- uid: Prowl.Runtime.Color.op_Inequality(Prowl.Runtime.Color,Prowl.Runtime.Color)
+  commentId: M:Prowl.Runtime.Color.op_Inequality(Prowl.Runtime.Color,Prowl.Runtime.Color)
+  id: op_Inequality(Prowl.Runtime.Color,Prowl.Runtime.Color)
+  parent: Prowl.Runtime.Color
+  langs:
+  - csharp
+  - vb
+  name: operator !=(Color, Color)
+  nameWithType: Color.operator !=(Color, Color)
+  fullName: Prowl.Runtime.Color.operator !=(Prowl.Runtime.Color, Prowl.Runtime.Color)
+  type: Operator
+  source:
+    remote:
+      path: Prowl.Runtime/Color.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: op_Inequality
+    path: ../Prowl/Prowl.Runtime/Color.cs
+    startLine: 179
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public static bool operator !=(Color lhs, Color rhs)
+    parameters:
+    - id: lhs
+      type: Prowl.Runtime.Color
+    - id: rhs
+      type: Prowl.Runtime.Color
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Operator <>(lhs As Color, rhs As Color) As Boolean
+  overload: Prowl.Runtime.Color.op_Inequality*
+  nameWithType.vb: Color.<>(Color, Color)
+  fullName.vb: Prowl.Runtime.Color.<>(Prowl.Runtime.Color, Prowl.Runtime.Color)
+  name.vb: <>(Color, Color)
+- uid: Prowl.Runtime.Color.op_Multiply(Prowl.Runtime.Color,Prowl.Runtime.Color)
+  commentId: M:Prowl.Runtime.Color.op_Multiply(Prowl.Runtime.Color,Prowl.Runtime.Color)
+  id: op_Multiply(Prowl.Runtime.Color,Prowl.Runtime.Color)
+  parent: Prowl.Runtime.Color
+  langs:
+  - csharp
+  - vb
+  name: operator *(Color, Color)
+  nameWithType: Color.operator *(Color, Color)
+  fullName: Prowl.Runtime.Color.operator *(Prowl.Runtime.Color, Prowl.Runtime.Color)
+  type: Operator
+  source:
+    remote:
+      path: Prowl.Runtime/Color.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: op_Multiply
+    path: ../Prowl/Prowl.Runtime/Color.cs
+    startLine: 181
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public static Color operator *(Color a, Color b)
+    parameters:
+    - id: a
+      type: Prowl.Runtime.Color
+    - id: b
+      type: Prowl.Runtime.Color
+    return:
+      type: Prowl.Runtime.Color
+    content.vb: Public Shared Operator *(a As Color, b As Color) As Color
+  overload: Prowl.Runtime.Color.op_Multiply*
+  nameWithType.vb: Color.*(Color, Color)
+  fullName.vb: Prowl.Runtime.Color.*(Prowl.Runtime.Color, Prowl.Runtime.Color)
+  name.vb: '*(Color, Color)'
+- uid: Prowl.Runtime.Color.op_Multiply(Prowl.Runtime.Color,System.Single)
+  commentId: M:Prowl.Runtime.Color.op_Multiply(Prowl.Runtime.Color,System.Single)
+  id: op_Multiply(Prowl.Runtime.Color,System.Single)
+  parent: Prowl.Runtime.Color
+  langs:
+  - csharp
+  - vb
+  name: operator *(Color, float)
+  nameWithType: Color.operator *(Color, float)
+  fullName: Prowl.Runtime.Color.operator *(Prowl.Runtime.Color, float)
+  type: Operator
+  source:
+    remote:
+      path: Prowl.Runtime/Color.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: op_Multiply
+    path: ../Prowl/Prowl.Runtime/Color.cs
+    startLine: 183
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public static Color operator *(Color a, float b)
+    parameters:
+    - id: a
+      type: Prowl.Runtime.Color
+    - id: b
+      type: System.Single
+    return:
+      type: Prowl.Runtime.Color
+    content.vb: Public Shared Operator *(a As Color, b As Single) As Color
+  overload: Prowl.Runtime.Color.op_Multiply*
+  nameWithType.vb: Color.*(Color, Single)
+  fullName.vb: Prowl.Runtime.Color.*(Prowl.Runtime.Color, Single)
+  name.vb: '*(Color, Single)'
+- uid: Prowl.Runtime.Color.op_Multiply(System.Single,Prowl.Runtime.Color)
+  commentId: M:Prowl.Runtime.Color.op_Multiply(System.Single,Prowl.Runtime.Color)
+  id: op_Multiply(System.Single,Prowl.Runtime.Color)
+  parent: Prowl.Runtime.Color
+  langs:
+  - csharp
+  - vb
+  name: operator *(float, Color)
+  nameWithType: Color.operator *(float, Color)
+  fullName: Prowl.Runtime.Color.operator *(float, Prowl.Runtime.Color)
+  type: Operator
+  source:
+    remote:
+      path: Prowl.Runtime/Color.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: op_Multiply
+    path: ../Prowl/Prowl.Runtime/Color.cs
+    startLine: 185
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public static Color operator *(float b, Color a)
+    parameters:
+    - id: b
+      type: System.Single
+    - id: a
+      type: Prowl.Runtime.Color
+    return:
+      type: Prowl.Runtime.Color
+    content.vb: Public Shared Operator *(b As Single, a As Color) As Color
+  overload: Prowl.Runtime.Color.op_Multiply*
+  nameWithType.vb: Color.*(Single, Color)
+  fullName.vb: Prowl.Runtime.Color.*(Single, Prowl.Runtime.Color)
+  name.vb: '*(Single, Color)'
+- uid: Prowl.Runtime.Color.op_Subtraction(Prowl.Runtime.Color,Prowl.Runtime.Color)
+  commentId: M:Prowl.Runtime.Color.op_Subtraction(Prowl.Runtime.Color,Prowl.Runtime.Color)
+  id: op_Subtraction(Prowl.Runtime.Color,Prowl.Runtime.Color)
+  parent: Prowl.Runtime.Color
+  langs:
+  - csharp
+  - vb
+  name: operator -(Color, Color)
+  nameWithType: Color.operator -(Color, Color)
+  fullName: Prowl.Runtime.Color.operator -(Prowl.Runtime.Color, Prowl.Runtime.Color)
+  type: Operator
+  source:
+    remote:
+      path: Prowl.Runtime/Color.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: op_Subtraction
+    path: ../Prowl/Prowl.Runtime/Color.cs
+    startLine: 187
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public static Color operator -(Color a, Color b)
+    parameters:
+    - id: a
+      type: Prowl.Runtime.Color
+    - id: b
+      type: Prowl.Runtime.Color
+    return:
+      type: Prowl.Runtime.Color
+    content.vb: Public Shared Operator -(a As Color, b As Color) As Color
+  overload: Prowl.Runtime.Color.op_Subtraction*
+  nameWithType.vb: Color.-(Color, Color)
+  fullName.vb: Prowl.Runtime.Color.-(Prowl.Runtime.Color, Prowl.Runtime.Color)
+  name.vb: -(Color, Color)
+- uid: Prowl.Runtime.Color.Equals(System.Object)
+  commentId: M:Prowl.Runtime.Color.Equals(System.Object)
+  id: Equals(System.Object)
+  parent: Prowl.Runtime.Color
+  langs:
+  - csharp
+  - vb
+  name: Equals(object?)
+  nameWithType: Color.Equals(object?)
+  fullName: Prowl.Runtime.Color.Equals(object?)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Color.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Equals
+    path: ../Prowl/Prowl.Runtime/Color.cs
+    startLine: 189
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: Indicates whether this instance and a specified object are equal.
+  example: []
+  syntax:
+    content: public override bool Equals(object? other)
+    parameters:
+    - id: other
+      type: System.Object
+    return:
+      type: System.Boolean
+      description: <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if <code class="paramref">obj</code> and this instance are the same type and represent the same value; otherwise, <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a>.
+    content.vb: Public Overrides Function Equals(other As Object) As Boolean
+  overridden: System.ValueType.Equals(System.Object)
+  overload: Prowl.Runtime.Color.Equals*
+  nameWithType.vb: Color.Equals(Object)
+  fullName.vb: Prowl.Runtime.Color.Equals(Object)
+  name.vb: Equals(Object)
+- uid: Prowl.Runtime.Color.ToString
+  commentId: M:Prowl.Runtime.Color.ToString
+  id: ToString
+  parent: Prowl.Runtime.Color
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: Color.ToString()
+  fullName: Prowl.Runtime.Color.ToString()
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Color.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: ToString
+    path: ../Prowl/Prowl.Runtime/Color.cs
+    startLine: 195
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: Returns the fully qualified type name of this instance.
+  example: []
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+      description: The fully qualified type name.
+    content.vb: Public Overrides Function ToString() As String
+  overridden: System.ValueType.ToString
+  overload: Prowl.Runtime.Color.ToString*
+- uid: Prowl.Runtime.Color.GetHashCode
+  commentId: M:Prowl.Runtime.Color.GetHashCode
+  id: GetHashCode
+  parent: Prowl.Runtime.Color
+  langs:
+  - csharp
+  - vb
+  name: GetHashCode()
+  nameWithType: Color.GetHashCode()
+  fullName: Prowl.Runtime.Color.GetHashCode()
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Color.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: GetHashCode
+    path: ../Prowl/Prowl.Runtime/Color.cs
+    startLine: 197
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: Returns the hash code for this instance.
+  example: []
+  syntax:
+    content: public override int GetHashCode()
+    return:
+      type: System.Int32
+      description: A 32-bit signed integer that is the hash code for this instance.
+    content.vb: Public Overrides Function GetHashCode() As Integer
+  overridden: System.ValueType.GetHashCode
+  overload: Prowl.Runtime.Color.GetHashCode*
+references:
+- uid: Prowl.Runtime
+  commentId: N:Prowl.Runtime
+  href: Prowl.html
+  name: Prowl.Runtime
+  nameWithType: Prowl.Runtime
+  fullName: Prowl.Runtime
+  spec.csharp:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+  spec.vb:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Prowl.Runtime.RuntimeUtils.GetSerializableFields
+  commentId: M:Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  parent: Prowl.Runtime.RuntimeUtils
+  definition: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  name: GetSerializableFields(object)
+  nameWithType: RuntimeUtils.GetSerializableFields(object)
+  fullName: Prowl.Runtime.RuntimeUtils.GetSerializableFields(object)
+  nameWithType.vb: RuntimeUtils.GetSerializableFields(Object)
+  fullName.vb: Prowl.Runtime.RuntimeUtils.GetSerializableFields(Object)
+  name.vb: GetSerializableFields(Object)
+  spec.csharp:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  commentId: M:Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  isExternal: true
+  href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  name: GetSerializableFields(object)
+  nameWithType: RuntimeUtils.GetSerializableFields(object)
+  fullName: Prowl.Runtime.RuntimeUtils.GetSerializableFields(object)
+  nameWithType.vb: RuntimeUtils.GetSerializableFields(Object)
+  fullName.vb: Prowl.Runtime.RuntimeUtils.GetSerializableFields(Object)
+  name.vb: GetSerializableFields(Object)
+  spec.csharp:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: Prowl.Runtime.RuntimeUtils
+  commentId: T:Prowl.Runtime.RuntimeUtils
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.RuntimeUtils.html
+  name: RuntimeUtils
+  nameWithType: RuntimeUtils
+  fullName: Prowl.Runtime.RuntimeUtils
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.single
+  name: float
+  nameWithType: float
+  fullName: float
+  nameWithType.vb: Single
+  fullName.vb: Single
+  name.vb: Single
+- uid: Prowl.Runtime.Color.grayscale*
+  commentId: Overload:Prowl.Runtime.Color.grayscale
+  href: Prowl.Runtime.Color.html#Prowl_Runtime_Color_grayscale
+  name: grayscale
+  nameWithType: Color.grayscale
+  fullName: Prowl.Runtime.Color.grayscale
+- uid: Prowl.Runtime.Color.black*
+  commentId: Overload:Prowl.Runtime.Color.black
+  href: Prowl.Runtime.Color.html#Prowl_Runtime_Color_black
+  name: black
+  nameWithType: Color.black
+  fullName: Prowl.Runtime.Color.black
+- uid: Prowl.Runtime.Color
+  commentId: T:Prowl.Runtime.Color
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.Color.html
+  name: Color
+  nameWithType: Color
+  fullName: Prowl.Runtime.Color
+- uid: Prowl.Runtime.Color.blue*
+  commentId: Overload:Prowl.Runtime.Color.blue
+  href: Prowl.Runtime.Color.html#Prowl_Runtime_Color_blue
+  name: blue
+  nameWithType: Color.blue
+  fullName: Prowl.Runtime.Color.blue
+- uid: Prowl.Runtime.Color.clear*
+  commentId: Overload:Prowl.Runtime.Color.clear
+  href: Prowl.Runtime.Color.html#Prowl_Runtime_Color_clear
+  name: clear
+  nameWithType: Color.clear
+  fullName: Prowl.Runtime.Color.clear
+- uid: Prowl.Runtime.Color.cyan*
+  commentId: Overload:Prowl.Runtime.Color.cyan
+  href: Prowl.Runtime.Color.html#Prowl_Runtime_Color_cyan
+  name: cyan
+  nameWithType: Color.cyan
+  fullName: Prowl.Runtime.Color.cyan
+- uid: Prowl.Runtime.Color.gray*
+  commentId: Overload:Prowl.Runtime.Color.gray
+  href: Prowl.Runtime.Color.html#Prowl_Runtime_Color_gray
+  name: gray
+  nameWithType: Color.gray
+  fullName: Prowl.Runtime.Color.gray
+- uid: Prowl.Runtime.Color.green*
+  commentId: Overload:Prowl.Runtime.Color.green
+  href: Prowl.Runtime.Color.html#Prowl_Runtime_Color_green
+  name: green
+  nameWithType: Color.green
+  fullName: Prowl.Runtime.Color.green
+- uid: Prowl.Runtime.Color.grey*
+  commentId: Overload:Prowl.Runtime.Color.grey
+  href: Prowl.Runtime.Color.html#Prowl_Runtime_Color_grey
+  name: grey
+  nameWithType: Color.grey
+  fullName: Prowl.Runtime.Color.grey
+- uid: Prowl.Runtime.Color.magenta*
+  commentId: Overload:Prowl.Runtime.Color.magenta
+  href: Prowl.Runtime.Color.html#Prowl_Runtime_Color_magenta
+  name: magenta
+  nameWithType: Color.magenta
+  fullName: Prowl.Runtime.Color.magenta
+- uid: Prowl.Runtime.Color.red*
+  commentId: Overload:Prowl.Runtime.Color.red
+  href: Prowl.Runtime.Color.html#Prowl_Runtime_Color_red
+  name: red
+  nameWithType: Color.red
+  fullName: Prowl.Runtime.Color.red
+- uid: Prowl.Runtime.Color.white*
+  commentId: Overload:Prowl.Runtime.Color.white
+  href: Prowl.Runtime.Color.html#Prowl_Runtime_Color_white
+  name: white
+  nameWithType: Color.white
+  fullName: Prowl.Runtime.Color.white
+- uid: Prowl.Runtime.Color.yellow*
+  commentId: Overload:Prowl.Runtime.Color.yellow
+  href: Prowl.Runtime.Color.html#Prowl_Runtime_Color_yellow
+  name: yellow
+  nameWithType: Color.yellow
+  fullName: Prowl.Runtime.Color.yellow
+- uid: Prowl.Runtime.Color.Item*
+  commentId: Overload:Prowl.Runtime.Color.Item
+  href: Prowl.Runtime.Color.html#Prowl_Runtime_Color_Item_System_Int32_
+  name: this
+  nameWithType: Color.this
+  fullName: Prowl.Runtime.Color.this
+  nameWithType.vb: Color.this[]
+  fullName.vb: Prowl.Runtime.Color.this[]
+  name.vb: this[]
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: Prowl.Runtime.Color.#ctor*
+  commentId: Overload:Prowl.Runtime.Color.#ctor
+  href: Prowl.Runtime.Color.html#Prowl_Runtime_Color__ctor_System_Single_System_Single_System_Single_System_Single_
+  name: Color
+  nameWithType: Color.Color
+  fullName: Prowl.Runtime.Color.Color
+  nameWithType.vb: Color.New
+  fullName.vb: Prowl.Runtime.Color.New
+  name.vb: New
+- uid: System.Byte
+  commentId: T:System.Byte
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.byte
+  name: byte
+  nameWithType: byte
+  fullName: byte
+  nameWithType.vb: Byte
+  fullName.vb: Byte
+  name.vb: Byte
+- uid: Prowl.Runtime.Color.GetUInt*
+  commentId: Overload:Prowl.Runtime.Color.GetUInt
+  href: Prowl.Runtime.Color.html#Prowl_Runtime_Color_GetUInt
+  name: GetUInt
+  nameWithType: Color.GetUInt
+  fullName: Prowl.Runtime.Color.GetUInt
+- uid: System.UInt32
+  commentId: T:System.UInt32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.uint32
+  name: uint
+  nameWithType: uint
+  fullName: uint
+  nameWithType.vb: UInteger
+  fullName.vb: UInteger
+  name.vb: UInteger
+- uid: Prowl.Runtime.Color.Lerp*
+  commentId: Overload:Prowl.Runtime.Color.Lerp
+  href: Prowl.Runtime.Color.html#Prowl_Runtime_Color_Lerp_Prowl_Runtime_Color_Prowl_Runtime_Color_System_Single_
+  name: Lerp
+  nameWithType: Color.Lerp
+  fullName: Prowl.Runtime.Color.Lerp
+- uid: Prowl.Runtime.Color.FromHSV*
+  commentId: Overload:Prowl.Runtime.Color.FromHSV
+  href: Prowl.Runtime.Color.html#Prowl_Runtime_Color_FromHSV_System_Single_System_Single_System_Single_System_Single_
+  name: FromHSV
+  nameWithType: Color.FromHSV
+  fullName: Prowl.Runtime.Color.FromHSV
+- uid: Prowl.Runtime.Color.op_Addition*
+  commentId: Overload:Prowl.Runtime.Color.op_Addition
+  href: Prowl.Runtime.Color.html#Prowl_Runtime_Color_op_Addition_Prowl_Runtime_Color_Prowl_Runtime_Color_
+  name: operator +
+  nameWithType: Color.operator +
+  fullName: Prowl.Runtime.Color.operator +
+  nameWithType.vb: Color.+
+  fullName.vb: Prowl.Runtime.Color.+
+  name.vb: +
+  spec.csharp:
+  - name: operator
+  - name: " "
+  - uid: Prowl.Runtime.Color.op_Addition*
+    name: +
+    href: Prowl.Runtime.Color.html#Prowl_Runtime_Color_op_Addition_Prowl_Runtime_Color_Prowl_Runtime_Color_
+- uid: Prowl.Runtime.Color.op_Division*
+  commentId: Overload:Prowl.Runtime.Color.op_Division
+  href: Prowl.Runtime.Color.html#Prowl_Runtime_Color_op_Division_Prowl_Runtime_Color_System_Single_
+  name: operator /
+  nameWithType: Color.operator /
+  fullName: Prowl.Runtime.Color.operator /
+  nameWithType.vb: Color./
+  fullName.vb: Prowl.Runtime.Color./
+  name.vb: /
+  spec.csharp:
+  - name: operator
+  - name: " "
+  - uid: Prowl.Runtime.Color.op_Division*
+    name: /
+    href: Prowl.Runtime.Color.html#Prowl_Runtime_Color_op_Division_Prowl_Runtime_Color_System_Single_
+- uid: Prowl.Runtime.Color.op_Equality*
+  commentId: Overload:Prowl.Runtime.Color.op_Equality
+  href: Prowl.Runtime.Color.html#Prowl_Runtime_Color_op_Equality_Prowl_Runtime_Color_Prowl_Runtime_Color_
+  name: operator ==
+  nameWithType: Color.operator ==
+  fullName: Prowl.Runtime.Color.operator ==
+  nameWithType.vb: Color.=
+  fullName.vb: Prowl.Runtime.Color.=
+  name.vb: =
+  spec.csharp:
+  - name: operator
+  - name: " "
+  - uid: Prowl.Runtime.Color.op_Equality*
+    name: ==
+    href: Prowl.Runtime.Color.html#Prowl_Runtime_Color_op_Equality_Prowl_Runtime_Color_Prowl_Runtime_Color_
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: Prowl.Runtime.Color.op_Implicit*
+  commentId: Overload:Prowl.Runtime.Color.op_Implicit
+  name: implicit operator
+  nameWithType: Color.implicit operator
+  fullName: Prowl.Runtime.Color.implicit operator
+  nameWithType.vb: Color.CType
+  fullName.vb: Prowl.Runtime.Color.CType
+  name.vb: CType
+  spec.csharp:
+  - name: implicit
+  - name: " "
+  - name: operator
+- uid: Prowl.Runtime.Vector4
+  commentId: T:Prowl.Runtime.Vector4
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.Vector4.html
+  name: Vector4
+  nameWithType: Vector4
+  fullName: Prowl.Runtime.Vector4
+- uid: System.Numerics.Vector4
+  commentId: T:System.Numerics.Vector4
+  parent: System.Numerics
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.numerics.vector4
+  name: Vector4
+  nameWithType: Vector4
+  fullName: System.Numerics.Vector4
+- uid: System.Numerics
+  commentId: N:System.Numerics
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Numerics
+  nameWithType: System.Numerics
+  fullName: System.Numerics
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Numerics
+    name: Numerics
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.numerics
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Numerics
+    name: Numerics
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.numerics
+- uid: Prowl.Runtime.Color.op_Inequality*
+  commentId: Overload:Prowl.Runtime.Color.op_Inequality
+  href: Prowl.Runtime.Color.html#Prowl_Runtime_Color_op_Inequality_Prowl_Runtime_Color_Prowl_Runtime_Color_
+  name: operator !=
+  nameWithType: Color.operator !=
+  fullName: Prowl.Runtime.Color.operator !=
+  nameWithType.vb: Color.<>
+  fullName.vb: Prowl.Runtime.Color.<>
+  name.vb: <>
+  spec.csharp:
+  - name: operator
+  - name: " "
+  - uid: Prowl.Runtime.Color.op_Inequality*
+    name: '!='
+    href: Prowl.Runtime.Color.html#Prowl_Runtime_Color_op_Inequality_Prowl_Runtime_Color_Prowl_Runtime_Color_
+- uid: Prowl.Runtime.Color.op_Multiply*
+  commentId: Overload:Prowl.Runtime.Color.op_Multiply
+  href: Prowl.Runtime.Color.html#Prowl_Runtime_Color_op_Multiply_Prowl_Runtime_Color_Prowl_Runtime_Color_
+  name: operator *
+  nameWithType: Color.operator *
+  fullName: Prowl.Runtime.Color.operator *
+  nameWithType.vb: Color.*
+  fullName.vb: Prowl.Runtime.Color.*
+  name.vb: '*'
+  spec.csharp:
+  - name: operator
+  - name: " "
+  - uid: Prowl.Runtime.Color.op_Multiply*
+    name: '*'
+    href: Prowl.Runtime.Color.html#Prowl_Runtime_Color_op_Multiply_Prowl_Runtime_Color_Prowl_Runtime_Color_
+- uid: Prowl.Runtime.Color.op_Subtraction*
+  commentId: Overload:Prowl.Runtime.Color.op_Subtraction
+  href: Prowl.Runtime.Color.html#Prowl_Runtime_Color_op_Subtraction_Prowl_Runtime_Color_Prowl_Runtime_Color_
+  name: operator -
+  nameWithType: Color.operator -
+  fullName: Prowl.Runtime.Color.operator -
+  nameWithType.vb: Color.-
+  fullName.vb: Prowl.Runtime.Color.-
+  name.vb: '-'
+  spec.csharp:
+  - name: operator
+  - name: " "
+  - uid: Prowl.Runtime.Color.op_Subtraction*
+    name: '-'
+    href: Prowl.Runtime.Color.html#Prowl_Runtime_Color_op_Subtraction_Prowl_Runtime_Color_Prowl_Runtime_Color_
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  name: Equals(object)
+  nameWithType: ValueType.Equals(object)
+  fullName: System.ValueType.Equals(object)
+  nameWithType.vb: ValueType.Equals(Object)
+  fullName.vb: System.ValueType.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: Prowl.Runtime.Color.Equals*
+  commentId: Overload:Prowl.Runtime.Color.Equals
+  href: Prowl.Runtime.Color.html#Prowl_Runtime_Color_Equals_System_Object_
+  name: Equals
+  nameWithType: Color.Equals
+  fullName: Prowl.Runtime.Color.Equals
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+- uid: Prowl.Runtime.Color.ToString*
+  commentId: Overload:Prowl.Runtime.Color.ToString
+  href: Prowl.Runtime.Color.html#Prowl_Runtime_Color_ToString
+  name: ToString
+  nameWithType: Color.ToString
+  fullName: Prowl.Runtime.Color.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+- uid: Prowl.Runtime.Color.GetHashCode*
+  commentId: Overload:Prowl.Runtime.Color.GetHashCode
+  href: Prowl.Runtime.Color.html#Prowl_Runtime_Color_GetHashCode
+  name: GetHashCode
+  nameWithType: Color.GetHashCode
+  fullName: Prowl.Runtime.Color.GetHashCode

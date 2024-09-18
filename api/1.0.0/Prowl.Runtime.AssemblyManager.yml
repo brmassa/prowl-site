@@ -1,0 +1,826 @@
+### YamlMime:ManagedReference
+items:
+- uid: Prowl.Runtime.AssemblyManager
+  commentId: T:Prowl.Runtime.AssemblyManager
+  id: AssemblyManager
+  parent: Prowl.Runtime
+  children:
+  - Prowl.Runtime.AssemblyManager.AddUnloadTask(System.Func{System.Boolean})
+  - Prowl.Runtime.AssemblyManager.AddUnloadTaskWithLifetime``1(``0,System.Func{``0,System.Boolean})
+  - Prowl.Runtime.AssemblyManager.Dispose
+  - Prowl.Runtime.AssemblyManager.ExternalAssemblies
+  - Prowl.Runtime.AssemblyManager.Initialize
+  - Prowl.Runtime.AssemblyManager.LoadExternalAssembly(System.String,System.Boolean)
+  - Prowl.Runtime.AssemblyManager.Unload
+  langs:
+  - csharp
+  - vb
+  name: AssemblyManager
+  nameWithType: AssemblyManager
+  fullName: Prowl.Runtime.AssemblyManager
+  type: Class
+  source:
+    remote:
+      path: Prowl.Runtime/AssemblyManager.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: AssemblyManager
+    path: ../Prowl/Prowl.Runtime/AssemblyManager.cs
+    startLine: 15
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public static class AssemblyManager
+    content.vb: Public Module AssemblyManager
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: Prowl.Runtime.AssemblyManager.ExternalAssemblies
+  commentId: P:Prowl.Runtime.AssemblyManager.ExternalAssemblies
+  id: ExternalAssemblies
+  parent: Prowl.Runtime.AssemblyManager
+  langs:
+  - csharp
+  - vb
+  name: ExternalAssemblies
+  nameWithType: AssemblyManager.ExternalAssemblies
+  fullName: Prowl.Runtime.AssemblyManager.ExternalAssemblies
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/AssemblyManager.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: ExternalAssemblies
+    path: ../Prowl/Prowl.Runtime/AssemblyManager.cs
+    startLine: 22
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public static IEnumerable<Assembly> ExternalAssemblies { get; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.IEnumerable{System.Reflection.Assembly}
+    content.vb: Public Shared ReadOnly Property ExternalAssemblies As IEnumerable(Of Assembly)
+  overload: Prowl.Runtime.AssemblyManager.ExternalAssemblies*
+- uid: Prowl.Runtime.AssemblyManager.Initialize
+  commentId: M:Prowl.Runtime.AssemblyManager.Initialize
+  id: Initialize
+  parent: Prowl.Runtime.AssemblyManager
+  langs:
+  - csharp
+  - vb
+  name: Initialize()
+  nameWithType: AssemblyManager.Initialize()
+  fullName: Prowl.Runtime.AssemblyManager.Initialize()
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/AssemblyManager.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Initialize
+    path: ../Prowl/Prowl.Runtime/AssemblyManager.cs
+    startLine: 35
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public static void Initialize()
+    content.vb: Public Shared Sub Initialize()
+  overload: Prowl.Runtime.AssemblyManager.Initialize*
+- uid: Prowl.Runtime.AssemblyManager.LoadExternalAssembly(System.String,System.Boolean)
+  commentId: M:Prowl.Runtime.AssemblyManager.LoadExternalAssembly(System.String,System.Boolean)
+  id: LoadExternalAssembly(System.String,System.Boolean)
+  parent: Prowl.Runtime.AssemblyManager
+  langs:
+  - csharp
+  - vb
+  name: LoadExternalAssembly(string, bool)
+  nameWithType: AssemblyManager.LoadExternalAssembly(string, bool)
+  fullName: Prowl.Runtime.AssemblyManager.LoadExternalAssembly(string, bool)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/AssemblyManager.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: LoadExternalAssembly
+    path: ../Prowl/Prowl.Runtime/AssemblyManager.cs
+    startLine: 41
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public static void LoadExternalAssembly(string assemblyPath, bool isDependency)
+    parameters:
+    - id: assemblyPath
+      type: System.String
+    - id: isDependency
+      type: System.Boolean
+    content.vb: Public Shared Sub LoadExternalAssembly(assemblyPath As String, isDependency As Boolean)
+  overload: Prowl.Runtime.AssemblyManager.LoadExternalAssembly*
+  nameWithType.vb: AssemblyManager.LoadExternalAssembly(String, Boolean)
+  fullName.vb: Prowl.Runtime.AssemblyManager.LoadExternalAssembly(String, Boolean)
+  name.vb: LoadExternalAssembly(String, Boolean)
+- uid: Prowl.Runtime.AssemblyManager.Unload
+  commentId: M:Prowl.Runtime.AssemblyManager.Unload
+  id: Unload
+  parent: Prowl.Runtime.AssemblyManager
+  langs:
+  - csharp
+  - vb
+  name: Unload()
+  nameWithType: AssemblyManager.Unload()
+  fullName: Prowl.Runtime.AssemblyManager.Unload()
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/AssemblyManager.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Unload
+    path: ../Prowl/Prowl.Runtime/AssemblyManager.cs
+    startLine: 57
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public static void Unload()
+    content.vb: Public Shared Sub Unload()
+  overload: Prowl.Runtime.AssemblyManager.Unload*
+- uid: Prowl.Runtime.AssemblyManager.AddUnloadTask(System.Func{System.Boolean})
+  commentId: M:Prowl.Runtime.AssemblyManager.AddUnloadTask(System.Func{System.Boolean})
+  id: AddUnloadTask(System.Func{System.Boolean})
+  parent: Prowl.Runtime.AssemblyManager
+  langs:
+  - csharp
+  - vb
+  name: AddUnloadTask(Func<bool>)
+  nameWithType: AssemblyManager.AddUnloadTask(Func<bool>)
+  fullName: Prowl.Runtime.AssemblyManager.AddUnloadTask(System.Func<bool>)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/AssemblyManager.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: AddUnloadTask
+    path: ../Prowl/Prowl.Runtime/AssemblyManager.cs
+    startLine: 103
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public static void AddUnloadTask(Func<bool> @delegate)
+    parameters:
+    - id: delegate
+      type: System.Func{System.Boolean}
+    content.vb: Public Shared Sub AddUnloadTask([delegate] As Func(Of Boolean))
+  overload: Prowl.Runtime.AssemblyManager.AddUnloadTask*
+  nameWithType.vb: AssemblyManager.AddUnloadTask(Func(Of Boolean))
+  fullName.vb: Prowl.Runtime.AssemblyManager.AddUnloadTask(System.Func(Of Boolean))
+  name.vb: AddUnloadTask(Func(Of Boolean))
+- uid: Prowl.Runtime.AssemblyManager.AddUnloadTaskWithLifetime``1(``0,System.Func{``0,System.Boolean})
+  commentId: M:Prowl.Runtime.AssemblyManager.AddUnloadTaskWithLifetime``1(``0,System.Func{``0,System.Boolean})
+  id: AddUnloadTaskWithLifetime``1(``0,System.Func{``0,System.Boolean})
+  parent: Prowl.Runtime.AssemblyManager
+  langs:
+  - csharp
+  - vb
+  name: AddUnloadTaskWithLifetime<T>(T, Func<T, bool>)
+  nameWithType: AssemblyManager.AddUnloadTaskWithLifetime<T>(T, Func<T, bool>)
+  fullName: Prowl.Runtime.AssemblyManager.AddUnloadTaskWithLifetime<T>(T, System.Func<T, bool>)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/AssemblyManager.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: AddUnloadTaskWithLifetime
+    path: ../Prowl/Prowl.Runtime/AssemblyManager.cs
+    startLine: 108
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public static void AddUnloadTaskWithLifetime<T>(T lifetimeDependency, Func<T, bool> @delegate)
+    parameters:
+    - id: lifetimeDependency
+      type: '{T}'
+    - id: delegate
+      type: System.Func{{T},System.Boolean}
+    typeParameters:
+    - id: T
+    content.vb: Public Shared Sub AddUnloadTaskWithLifetime(Of T)(lifetimeDependency As T, [delegate] As Func(Of T, Boolean))
+  overload: Prowl.Runtime.AssemblyManager.AddUnloadTaskWithLifetime*
+  nameWithType.vb: AssemblyManager.AddUnloadTaskWithLifetime(Of T)(T, Func(Of T, Boolean))
+  fullName.vb: Prowl.Runtime.AssemblyManager.AddUnloadTaskWithLifetime(Of T)(T, System.Func(Of T, Boolean))
+  name.vb: AddUnloadTaskWithLifetime(Of T)(T, Func(Of T, Boolean))
+- uid: Prowl.Runtime.AssemblyManager.Dispose
+  commentId: M:Prowl.Runtime.AssemblyManager.Dispose
+  id: Dispose
+  parent: Prowl.Runtime.AssemblyManager
+  langs:
+  - csharp
+  - vb
+  name: Dispose()
+  nameWithType: AssemblyManager.Dispose()
+  fullName: Prowl.Runtime.AssemblyManager.Dispose()
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/AssemblyManager.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Dispose
+    path: ../Prowl/Prowl.Runtime/AssemblyManager.cs
+    startLine: 159
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public static void Dispose()
+    content.vb: Public Shared Sub Dispose()
+  overload: Prowl.Runtime.AssemblyManager.Dispose*
+references:
+- uid: Prowl.Runtime
+  commentId: N:Prowl.Runtime
+  href: Prowl.html
+  name: Prowl.Runtime
+  nameWithType: Prowl.Runtime
+  fullName: Prowl.Runtime
+  spec.csharp:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+  spec.vb:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Prowl.Runtime.AssemblyManager.ExternalAssemblies*
+  commentId: Overload:Prowl.Runtime.AssemblyManager.ExternalAssemblies
+  href: Prowl.Runtime.AssemblyManager.html#Prowl_Runtime_AssemblyManager_ExternalAssemblies
+  name: ExternalAssemblies
+  nameWithType: AssemblyManager.ExternalAssemblies
+  fullName: Prowl.Runtime.AssemblyManager.ExternalAssemblies
+- uid: System.Collections.Generic.IEnumerable{System.Reflection.Assembly}
+  commentId: T:System.Collections.Generic.IEnumerable{System.Reflection.Assembly}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<Assembly>
+  nameWithType: IEnumerable<Assembly>
+  fullName: System.Collections.Generic.IEnumerable<System.Reflection.Assembly>
+  nameWithType.vb: IEnumerable(Of Assembly)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of System.Reflection.Assembly)
+  name.vb: IEnumerable(Of Assembly)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - uid: System.Reflection.Assembly
+    name: Assembly
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.reflection.assembly
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Reflection.Assembly
+    name: Assembly
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.reflection.assembly
+  - name: )
+- uid: System.Collections.Generic.IEnumerable`1
+  commentId: T:System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: Prowl.Runtime.AssemblyManager.Initialize*
+  commentId: Overload:Prowl.Runtime.AssemblyManager.Initialize
+  href: Prowl.Runtime.AssemblyManager.html#Prowl_Runtime_AssemblyManager_Initialize
+  name: Initialize
+  nameWithType: AssemblyManager.Initialize
+  fullName: Prowl.Runtime.AssemblyManager.Initialize
+- uid: Prowl.Runtime.AssemblyManager.LoadExternalAssembly*
+  commentId: Overload:Prowl.Runtime.AssemblyManager.LoadExternalAssembly
+  href: Prowl.Runtime.AssemblyManager.html#Prowl_Runtime_AssemblyManager_LoadExternalAssembly_System_String_System_Boolean_
+  name: LoadExternalAssembly
+  nameWithType: AssemblyManager.LoadExternalAssembly
+  fullName: Prowl.Runtime.AssemblyManager.LoadExternalAssembly
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: Prowl.Runtime.AssemblyManager.Unload*
+  commentId: Overload:Prowl.Runtime.AssemblyManager.Unload
+  href: Prowl.Runtime.AssemblyManager.html#Prowl_Runtime_AssemblyManager_Unload
+  name: Unload
+  nameWithType: AssemblyManager.Unload
+  fullName: Prowl.Runtime.AssemblyManager.Unload
+- uid: Prowl.Runtime.AssemblyManager.AddUnloadTask*
+  commentId: Overload:Prowl.Runtime.AssemblyManager.AddUnloadTask
+  href: Prowl.Runtime.AssemblyManager.html#Prowl_Runtime_AssemblyManager_AddUnloadTask_System_Func_System_Boolean__
+  name: AddUnloadTask
+  nameWithType: AssemblyManager.AddUnloadTask
+  fullName: Prowl.Runtime.AssemblyManager.AddUnloadTask
+- uid: System.Func{System.Boolean}
+  commentId: T:System.Func{System.Boolean}
+  parent: System
+  definition: System.Func`1
+  href: https://learn.microsoft.com/dotnet/api/system.func-1
+  name: Func<bool>
+  nameWithType: Func<bool>
+  fullName: System.Func<bool>
+  nameWithType.vb: Func(Of Boolean)
+  fullName.vb: System.Func(Of Boolean)
+  name.vb: Func(Of Boolean)
+  spec.csharp:
+  - uid: System.Func`1
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-1
+  - name: <
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: '>'
+  spec.vb:
+  - uid: System.Func`1
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+- uid: System.Func`1
+  commentId: T:System.Func`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.func-1
+  name: Func<TResult>
+  nameWithType: Func<TResult>
+  fullName: System.Func<TResult>
+  nameWithType.vb: Func(Of TResult)
+  fullName.vb: System.Func(Of TResult)
+  name.vb: Func(Of TResult)
+  spec.csharp:
+  - uid: System.Func`1
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-1
+  - name: <
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Func`1
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: Prowl.Runtime.AssemblyManager.AddUnloadTaskWithLifetime*
+  commentId: Overload:Prowl.Runtime.AssemblyManager.AddUnloadTaskWithLifetime
+  href: Prowl.Runtime.AssemblyManager.html#Prowl_Runtime_AssemblyManager_AddUnloadTaskWithLifetime__1___0_System_Func___0_System_Boolean__
+  name: AddUnloadTaskWithLifetime
+  nameWithType: AssemblyManager.AddUnloadTaskWithLifetime
+  fullName: Prowl.Runtime.AssemblyManager.AddUnloadTaskWithLifetime
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: System.Func{{T},System.Boolean}
+  commentId: T:System.Func{`0,System.Boolean}
+  parent: System
+  definition: System.Func`2
+  href: https://learn.microsoft.com/dotnet/api/system.func-2
+  name: Func<T, bool>
+  nameWithType: Func<T, bool>
+  fullName: System.Func<T, bool>
+  nameWithType.vb: Func(Of T, Boolean)
+  fullName.vb: System.Func(Of T, Boolean)
+  name.vb: Func(Of T, Boolean)
+  spec.csharp:
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: <
+  - name: T
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: '>'
+  spec.vb:
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: System.Func`2
+  commentId: T:System.Func`2
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.func-2
+  name: Func<T, TResult>
+  nameWithType: Func<T, TResult>
+  fullName: System.Func<T, TResult>
+  nameWithType.vb: Func(Of T, TResult)
+  fullName.vb: System.Func(Of T, TResult)
+  name.vb: Func(Of T, TResult)
+  spec.csharp:
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: <
+  - name: T
+  - name: ','
+  - name: " "
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: ','
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: Prowl.Runtime.AssemblyManager.Dispose*
+  commentId: Overload:Prowl.Runtime.AssemblyManager.Dispose
+  href: Prowl.Runtime.AssemblyManager.html#Prowl_Runtime_AssemblyManager_Dispose
+  name: Dispose
+  nameWithType: AssemblyManager.Dispose
+  fullName: Prowl.Runtime.AssemblyManager.Dispose

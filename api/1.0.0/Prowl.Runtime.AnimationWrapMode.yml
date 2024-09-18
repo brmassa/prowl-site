@@ -1,0 +1,236 @@
+### YamlMime:ManagedReference
+items:
+- uid: Prowl.Runtime.AnimationWrapMode
+  commentId: T:Prowl.Runtime.AnimationWrapMode
+  id: AnimationWrapMode
+  parent: Prowl.Runtime
+  children:
+  - Prowl.Runtime.AnimationWrapMode.ClampForever
+  - Prowl.Runtime.AnimationWrapMode.Loop
+  - Prowl.Runtime.AnimationWrapMode.Once
+  - Prowl.Runtime.AnimationWrapMode.PingPong
+  langs:
+  - csharp
+  - vb
+  name: AnimationWrapMode
+  nameWithType: AnimationWrapMode
+  fullName: Prowl.Runtime.AnimationWrapMode
+  type: Enum
+  source:
+    remote:
+      path: Prowl.Runtime/Resources/AnimationClip.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: AnimationWrapMode
+    path: ../Prowl/Prowl.Runtime/Resources/AnimationClip.cs
+    startLine: 8
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public enum AnimationWrapMode
+    content.vb: Public Enum AnimationWrapMode
+  extensionMethods:
+  - System.Object.Prowl.Runtime.RuntimeUtils.GetSerializableFields
+- uid: Prowl.Runtime.AnimationWrapMode.Once
+  commentId: F:Prowl.Runtime.AnimationWrapMode.Once
+  id: Once
+  parent: Prowl.Runtime.AnimationWrapMode
+  langs:
+  - csharp
+  - vb
+  name: Once
+  nameWithType: AnimationWrapMode.Once
+  fullName: Prowl.Runtime.AnimationWrapMode.Once
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/Resources/AnimationClip.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Once
+    path: ../Prowl/Prowl.Runtime/Resources/AnimationClip.cs
+    startLine: 10
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: Once = 0
+    return:
+      type: Prowl.Runtime.AnimationWrapMode
+- uid: Prowl.Runtime.AnimationWrapMode.Loop
+  commentId: F:Prowl.Runtime.AnimationWrapMode.Loop
+  id: Loop
+  parent: Prowl.Runtime.AnimationWrapMode
+  langs:
+  - csharp
+  - vb
+  name: Loop
+  nameWithType: AnimationWrapMode.Loop
+  fullName: Prowl.Runtime.AnimationWrapMode.Loop
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/Resources/AnimationClip.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Loop
+    path: ../Prowl/Prowl.Runtime/Resources/AnimationClip.cs
+    startLine: 11
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: Loop = 1
+    return:
+      type: Prowl.Runtime.AnimationWrapMode
+- uid: Prowl.Runtime.AnimationWrapMode.PingPong
+  commentId: F:Prowl.Runtime.AnimationWrapMode.PingPong
+  id: PingPong
+  parent: Prowl.Runtime.AnimationWrapMode
+  langs:
+  - csharp
+  - vb
+  name: PingPong
+  nameWithType: AnimationWrapMode.PingPong
+  fullName: Prowl.Runtime.AnimationWrapMode.PingPong
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/Resources/AnimationClip.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: PingPong
+    path: ../Prowl/Prowl.Runtime/Resources/AnimationClip.cs
+    startLine: 12
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: PingPong = 2
+    return:
+      type: Prowl.Runtime.AnimationWrapMode
+- uid: Prowl.Runtime.AnimationWrapMode.ClampForever
+  commentId: F:Prowl.Runtime.AnimationWrapMode.ClampForever
+  id: ClampForever
+  parent: Prowl.Runtime.AnimationWrapMode
+  langs:
+  - csharp
+  - vb
+  name: ClampForever
+  nameWithType: AnimationWrapMode.ClampForever
+  fullName: Prowl.Runtime.AnimationWrapMode.ClampForever
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/Resources/AnimationClip.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: ClampForever
+    path: ../Prowl/Prowl.Runtime/Resources/AnimationClip.cs
+    startLine: 13
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: ClampForever = 3
+    return:
+      type: Prowl.Runtime.AnimationWrapMode
+references:
+- uid: Prowl.Runtime
+  commentId: N:Prowl.Runtime
+  href: Prowl.html
+  name: Prowl.Runtime
+  nameWithType: Prowl.Runtime
+  fullName: Prowl.Runtime
+  spec.csharp:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+  spec.vb:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+- uid: System.Object.Prowl.Runtime.RuntimeUtils.GetSerializableFields
+  commentId: M:Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  parent: Prowl.Runtime.RuntimeUtils
+  definition: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  name: GetSerializableFields(object)
+  nameWithType: RuntimeUtils.GetSerializableFields(object)
+  fullName: Prowl.Runtime.RuntimeUtils.GetSerializableFields(object)
+  nameWithType.vb: RuntimeUtils.GetSerializableFields(Object)
+  fullName.vb: Prowl.Runtime.RuntimeUtils.GetSerializableFields(Object)
+  name.vb: GetSerializableFields(Object)
+  spec.csharp:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  commentId: M:Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  isExternal: true
+  href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  name: GetSerializableFields(object)
+  nameWithType: RuntimeUtils.GetSerializableFields(object)
+  fullName: Prowl.Runtime.RuntimeUtils.GetSerializableFields(object)
+  nameWithType.vb: RuntimeUtils.GetSerializableFields(Object)
+  fullName.vb: Prowl.Runtime.RuntimeUtils.GetSerializableFields(Object)
+  name.vb: GetSerializableFields(Object)
+  spec.csharp:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: Prowl.Runtime.RuntimeUtils
+  commentId: T:Prowl.Runtime.RuntimeUtils
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.RuntimeUtils.html
+  name: RuntimeUtils
+  nameWithType: RuntimeUtils
+  fullName: Prowl.Runtime.RuntimeUtils
+- uid: Prowl.Runtime.AnimationWrapMode
+  commentId: T:Prowl.Runtime.AnimationWrapMode
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.AnimationWrapMode.html
+  name: AnimationWrapMode
+  nameWithType: AnimationWrapMode
+  fullName: Prowl.Runtime.AnimationWrapMode

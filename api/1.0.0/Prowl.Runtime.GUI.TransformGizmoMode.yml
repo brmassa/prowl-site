@@ -1,0 +1,700 @@
+### YamlMime:ManagedReference
+items:
+- uid: Prowl.Runtime.GUI.TransformGizmoMode
+  commentId: T:Prowl.Runtime.GUI.TransformGizmoMode
+  id: TransformGizmoMode
+  parent: Prowl.Runtime.GUI
+  children:
+  - Prowl.Runtime.GUI.TransformGizmoMode.Arcball
+  - Prowl.Runtime.GUI.TransformGizmoMode.RotateView
+  - Prowl.Runtime.GUI.TransformGizmoMode.RotateX
+  - Prowl.Runtime.GUI.TransformGizmoMode.RotateY
+  - Prowl.Runtime.GUI.TransformGizmoMode.RotateZ
+  - Prowl.Runtime.GUI.TransformGizmoMode.ScaleUniform
+  - Prowl.Runtime.GUI.TransformGizmoMode.ScaleX
+  - Prowl.Runtime.GUI.TransformGizmoMode.ScaleXY
+  - Prowl.Runtime.GUI.TransformGizmoMode.ScaleXZ
+  - Prowl.Runtime.GUI.TransformGizmoMode.ScaleY
+  - Prowl.Runtime.GUI.TransformGizmoMode.ScaleYZ
+  - Prowl.Runtime.GUI.TransformGizmoMode.ScaleZ
+  - Prowl.Runtime.GUI.TransformGizmoMode.TranslateView
+  - Prowl.Runtime.GUI.TransformGizmoMode.TranslateX
+  - Prowl.Runtime.GUI.TransformGizmoMode.TranslateXY
+  - Prowl.Runtime.GUI.TransformGizmoMode.TranslateXZ
+  - Prowl.Runtime.GUI.TransformGizmoMode.TranslateY
+  - Prowl.Runtime.GUI.TransformGizmoMode.TranslateYZ
+  - Prowl.Runtime.GUI.TransformGizmoMode.TranslateZ
+  langs:
+  - csharp
+  - vb
+  name: TransformGizmoMode
+  nameWithType: TransformGizmoMode
+  fullName: Prowl.Runtime.GUI.TransformGizmoMode
+  type: Enum
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Widgets/Gizmo/TransformGizmo.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: TransformGizmoMode
+    path: ../Prowl/Prowl.Runtime/GUI/Widgets/Gizmo/TransformGizmo.cs
+    startLine: 37
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  syntax:
+    content: >-
+      [Flags]
+
+      public enum TransformGizmoMode
+    content.vb: >-
+      <Flags>
+
+      Public Enum TransformGizmoMode
+  extensionMethods:
+  - System.Object.Prowl.Runtime.RuntimeUtils.GetSerializableFields
+  attributes:
+  - type: System.FlagsAttribute
+    ctor: System.FlagsAttribute.#ctor
+    arguments: []
+- uid: Prowl.Runtime.GUI.TransformGizmoMode.RotateX
+  commentId: F:Prowl.Runtime.GUI.TransformGizmoMode.RotateX
+  id: RotateX
+  parent: Prowl.Runtime.GUI.TransformGizmoMode
+  langs:
+  - csharp
+  - vb
+  name: RotateX
+  nameWithType: TransformGizmoMode.RotateX
+  fullName: Prowl.Runtime.GUI.TransformGizmoMode.RotateX
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Widgets/Gizmo/TransformGizmo.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: RotateX
+    path: ../Prowl/Prowl.Runtime/GUI/Widgets/Gizmo/TransformGizmo.cs
+    startLine: 41
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  example: []
+  syntax:
+    content: RotateX = 1
+    return:
+      type: Prowl.Runtime.GUI.TransformGizmoMode
+- uid: Prowl.Runtime.GUI.TransformGizmoMode.RotateY
+  commentId: F:Prowl.Runtime.GUI.TransformGizmoMode.RotateY
+  id: RotateY
+  parent: Prowl.Runtime.GUI.TransformGizmoMode
+  langs:
+  - csharp
+  - vb
+  name: RotateY
+  nameWithType: TransformGizmoMode.RotateY
+  fullName: Prowl.Runtime.GUI.TransformGizmoMode.RotateY
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Widgets/Gizmo/TransformGizmo.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: RotateY
+    path: ../Prowl/Prowl.Runtime/GUI/Widgets/Gizmo/TransformGizmo.cs
+    startLine: 43
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  example: []
+  syntax:
+    content: RotateY = 2
+    return:
+      type: Prowl.Runtime.GUI.TransformGizmoMode
+- uid: Prowl.Runtime.GUI.TransformGizmoMode.RotateZ
+  commentId: F:Prowl.Runtime.GUI.TransformGizmoMode.RotateZ
+  id: RotateZ
+  parent: Prowl.Runtime.GUI.TransformGizmoMode
+  langs:
+  - csharp
+  - vb
+  name: RotateZ
+  nameWithType: TransformGizmoMode.RotateZ
+  fullName: Prowl.Runtime.GUI.TransformGizmoMode.RotateZ
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Widgets/Gizmo/TransformGizmo.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: RotateZ
+    path: ../Prowl/Prowl.Runtime/GUI/Widgets/Gizmo/TransformGizmo.cs
+    startLine: 45
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  example: []
+  syntax:
+    content: RotateZ = 4
+    return:
+      type: Prowl.Runtime.GUI.TransformGizmoMode
+- uid: Prowl.Runtime.GUI.TransformGizmoMode.RotateView
+  commentId: F:Prowl.Runtime.GUI.TransformGizmoMode.RotateView
+  id: RotateView
+  parent: Prowl.Runtime.GUI.TransformGizmoMode
+  langs:
+  - csharp
+  - vb
+  name: RotateView
+  nameWithType: TransformGizmoMode.RotateView
+  fullName: Prowl.Runtime.GUI.TransformGizmoMode.RotateView
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Widgets/Gizmo/TransformGizmo.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: RotateView
+    path: ../Prowl/Prowl.Runtime/GUI/Widgets/Gizmo/TransformGizmo.cs
+    startLine: 47
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  example: []
+  syntax:
+    content: RotateView = 8
+    return:
+      type: Prowl.Runtime.GUI.TransformGizmoMode
+- uid: Prowl.Runtime.GUI.TransformGizmoMode.TranslateX
+  commentId: F:Prowl.Runtime.GUI.TransformGizmoMode.TranslateX
+  id: TranslateX
+  parent: Prowl.Runtime.GUI.TransformGizmoMode
+  langs:
+  - csharp
+  - vb
+  name: TranslateX
+  nameWithType: TransformGizmoMode.TranslateX
+  fullName: Prowl.Runtime.GUI.TransformGizmoMode.TranslateX
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Widgets/Gizmo/TransformGizmo.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: TranslateX
+    path: ../Prowl/Prowl.Runtime/GUI/Widgets/Gizmo/TransformGizmo.cs
+    startLine: 49
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  example: []
+  syntax:
+    content: TranslateX = 16
+    return:
+      type: Prowl.Runtime.GUI.TransformGizmoMode
+- uid: Prowl.Runtime.GUI.TransformGizmoMode.TranslateY
+  commentId: F:Prowl.Runtime.GUI.TransformGizmoMode.TranslateY
+  id: TranslateY
+  parent: Prowl.Runtime.GUI.TransformGizmoMode
+  langs:
+  - csharp
+  - vb
+  name: TranslateY
+  nameWithType: TransformGizmoMode.TranslateY
+  fullName: Prowl.Runtime.GUI.TransformGizmoMode.TranslateY
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Widgets/Gizmo/TransformGizmo.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: TranslateY
+    path: ../Prowl/Prowl.Runtime/GUI/Widgets/Gizmo/TransformGizmo.cs
+    startLine: 51
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  example: []
+  syntax:
+    content: TranslateY = 32
+    return:
+      type: Prowl.Runtime.GUI.TransformGizmoMode
+- uid: Prowl.Runtime.GUI.TransformGizmoMode.TranslateZ
+  commentId: F:Prowl.Runtime.GUI.TransformGizmoMode.TranslateZ
+  id: TranslateZ
+  parent: Prowl.Runtime.GUI.TransformGizmoMode
+  langs:
+  - csharp
+  - vb
+  name: TranslateZ
+  nameWithType: TransformGizmoMode.TranslateZ
+  fullName: Prowl.Runtime.GUI.TransformGizmoMode.TranslateZ
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Widgets/Gizmo/TransformGizmo.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: TranslateZ
+    path: ../Prowl/Prowl.Runtime/GUI/Widgets/Gizmo/TransformGizmo.cs
+    startLine: 53
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  example: []
+  syntax:
+    content: TranslateZ = 64
+    return:
+      type: Prowl.Runtime.GUI.TransformGizmoMode
+- uid: Prowl.Runtime.GUI.TransformGizmoMode.TranslateXY
+  commentId: F:Prowl.Runtime.GUI.TransformGizmoMode.TranslateXY
+  id: TranslateXY
+  parent: Prowl.Runtime.GUI.TransformGizmoMode
+  langs:
+  - csharp
+  - vb
+  name: TranslateXY
+  nameWithType: TransformGizmoMode.TranslateXY
+  fullName: Prowl.Runtime.GUI.TransformGizmoMode.TranslateXY
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Widgets/Gizmo/TransformGizmo.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: TranslateXY
+    path: ../Prowl/Prowl.Runtime/GUI/Widgets/Gizmo/TransformGizmo.cs
+    startLine: 55
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  example: []
+  syntax:
+    content: TranslateXY = 128
+    return:
+      type: Prowl.Runtime.GUI.TransformGizmoMode
+- uid: Prowl.Runtime.GUI.TransformGizmoMode.TranslateXZ
+  commentId: F:Prowl.Runtime.GUI.TransformGizmoMode.TranslateXZ
+  id: TranslateXZ
+  parent: Prowl.Runtime.GUI.TransformGizmoMode
+  langs:
+  - csharp
+  - vb
+  name: TranslateXZ
+  nameWithType: TransformGizmoMode.TranslateXZ
+  fullName: Prowl.Runtime.GUI.TransformGizmoMode.TranslateXZ
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Widgets/Gizmo/TransformGizmo.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: TranslateXZ
+    path: ../Prowl/Prowl.Runtime/GUI/Widgets/Gizmo/TransformGizmo.cs
+    startLine: 57
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  example: []
+  syntax:
+    content: TranslateXZ = 256
+    return:
+      type: Prowl.Runtime.GUI.TransformGizmoMode
+- uid: Prowl.Runtime.GUI.TransformGizmoMode.TranslateYZ
+  commentId: F:Prowl.Runtime.GUI.TransformGizmoMode.TranslateYZ
+  id: TranslateYZ
+  parent: Prowl.Runtime.GUI.TransformGizmoMode
+  langs:
+  - csharp
+  - vb
+  name: TranslateYZ
+  nameWithType: TransformGizmoMode.TranslateYZ
+  fullName: Prowl.Runtime.GUI.TransformGizmoMode.TranslateYZ
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Widgets/Gizmo/TransformGizmo.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: TranslateYZ
+    path: ../Prowl/Prowl.Runtime/GUI/Widgets/Gizmo/TransformGizmo.cs
+    startLine: 59
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  example: []
+  syntax:
+    content: TranslateYZ = 512
+    return:
+      type: Prowl.Runtime.GUI.TransformGizmoMode
+- uid: Prowl.Runtime.GUI.TransformGizmoMode.TranslateView
+  commentId: F:Prowl.Runtime.GUI.TransformGizmoMode.TranslateView
+  id: TranslateView
+  parent: Prowl.Runtime.GUI.TransformGizmoMode
+  langs:
+  - csharp
+  - vb
+  name: TranslateView
+  nameWithType: TransformGizmoMode.TranslateView
+  fullName: Prowl.Runtime.GUI.TransformGizmoMode.TranslateView
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Widgets/Gizmo/TransformGizmo.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: TranslateView
+    path: ../Prowl/Prowl.Runtime/GUI/Widgets/Gizmo/TransformGizmo.cs
+    startLine: 61
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  example: []
+  syntax:
+    content: TranslateView = 1024
+    return:
+      type: Prowl.Runtime.GUI.TransformGizmoMode
+- uid: Prowl.Runtime.GUI.TransformGizmoMode.ScaleX
+  commentId: F:Prowl.Runtime.GUI.TransformGizmoMode.ScaleX
+  id: ScaleX
+  parent: Prowl.Runtime.GUI.TransformGizmoMode
+  langs:
+  - csharp
+  - vb
+  name: ScaleX
+  nameWithType: TransformGizmoMode.ScaleX
+  fullName: Prowl.Runtime.GUI.TransformGizmoMode.ScaleX
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Widgets/Gizmo/TransformGizmo.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: ScaleX
+    path: ../Prowl/Prowl.Runtime/GUI/Widgets/Gizmo/TransformGizmo.cs
+    startLine: 63
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  example: []
+  syntax:
+    content: ScaleX = 2048
+    return:
+      type: Prowl.Runtime.GUI.TransformGizmoMode
+- uid: Prowl.Runtime.GUI.TransformGizmoMode.ScaleY
+  commentId: F:Prowl.Runtime.GUI.TransformGizmoMode.ScaleY
+  id: ScaleY
+  parent: Prowl.Runtime.GUI.TransformGizmoMode
+  langs:
+  - csharp
+  - vb
+  name: ScaleY
+  nameWithType: TransformGizmoMode.ScaleY
+  fullName: Prowl.Runtime.GUI.TransformGizmoMode.ScaleY
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Widgets/Gizmo/TransformGizmo.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: ScaleY
+    path: ../Prowl/Prowl.Runtime/GUI/Widgets/Gizmo/TransformGizmo.cs
+    startLine: 65
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  example: []
+  syntax:
+    content: ScaleY = 4096
+    return:
+      type: Prowl.Runtime.GUI.TransformGizmoMode
+- uid: Prowl.Runtime.GUI.TransformGizmoMode.ScaleZ
+  commentId: F:Prowl.Runtime.GUI.TransformGizmoMode.ScaleZ
+  id: ScaleZ
+  parent: Prowl.Runtime.GUI.TransformGizmoMode
+  langs:
+  - csharp
+  - vb
+  name: ScaleZ
+  nameWithType: TransformGizmoMode.ScaleZ
+  fullName: Prowl.Runtime.GUI.TransformGizmoMode.ScaleZ
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Widgets/Gizmo/TransformGizmo.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: ScaleZ
+    path: ../Prowl/Prowl.Runtime/GUI/Widgets/Gizmo/TransformGizmo.cs
+    startLine: 67
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  example: []
+  syntax:
+    content: ScaleZ = 8192
+    return:
+      type: Prowl.Runtime.GUI.TransformGizmoMode
+- uid: Prowl.Runtime.GUI.TransformGizmoMode.ScaleXY
+  commentId: F:Prowl.Runtime.GUI.TransformGizmoMode.ScaleXY
+  id: ScaleXY
+  parent: Prowl.Runtime.GUI.TransformGizmoMode
+  langs:
+  - csharp
+  - vb
+  name: ScaleXY
+  nameWithType: TransformGizmoMode.ScaleXY
+  fullName: Prowl.Runtime.GUI.TransformGizmoMode.ScaleXY
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Widgets/Gizmo/TransformGizmo.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: ScaleXY
+    path: ../Prowl/Prowl.Runtime/GUI/Widgets/Gizmo/TransformGizmo.cs
+    startLine: 69
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  example: []
+  syntax:
+    content: ScaleXY = 16384
+    return:
+      type: Prowl.Runtime.GUI.TransformGizmoMode
+- uid: Prowl.Runtime.GUI.TransformGizmoMode.ScaleXZ
+  commentId: F:Prowl.Runtime.GUI.TransformGizmoMode.ScaleXZ
+  id: ScaleXZ
+  parent: Prowl.Runtime.GUI.TransformGizmoMode
+  langs:
+  - csharp
+  - vb
+  name: ScaleXZ
+  nameWithType: TransformGizmoMode.ScaleXZ
+  fullName: Prowl.Runtime.GUI.TransformGizmoMode.ScaleXZ
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Widgets/Gizmo/TransformGizmo.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: ScaleXZ
+    path: ../Prowl/Prowl.Runtime/GUI/Widgets/Gizmo/TransformGizmo.cs
+    startLine: 71
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  example: []
+  syntax:
+    content: ScaleXZ = 32768
+    return:
+      type: Prowl.Runtime.GUI.TransformGizmoMode
+- uid: Prowl.Runtime.GUI.TransformGizmoMode.ScaleYZ
+  commentId: F:Prowl.Runtime.GUI.TransformGizmoMode.ScaleYZ
+  id: ScaleYZ
+  parent: Prowl.Runtime.GUI.TransformGizmoMode
+  langs:
+  - csharp
+  - vb
+  name: ScaleYZ
+  nameWithType: TransformGizmoMode.ScaleYZ
+  fullName: Prowl.Runtime.GUI.TransformGizmoMode.ScaleYZ
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Widgets/Gizmo/TransformGizmo.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: ScaleYZ
+    path: ../Prowl/Prowl.Runtime/GUI/Widgets/Gizmo/TransformGizmo.cs
+    startLine: 73
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  example: []
+  syntax:
+    content: ScaleYZ = 65536
+    return:
+      type: Prowl.Runtime.GUI.TransformGizmoMode
+- uid: Prowl.Runtime.GUI.TransformGizmoMode.ScaleUniform
+  commentId: F:Prowl.Runtime.GUI.TransformGizmoMode.ScaleUniform
+  id: ScaleUniform
+  parent: Prowl.Runtime.GUI.TransformGizmoMode
+  langs:
+  - csharp
+  - vb
+  name: ScaleUniform
+  nameWithType: TransformGizmoMode.ScaleUniform
+  fullName: Prowl.Runtime.GUI.TransformGizmoMode.ScaleUniform
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Widgets/Gizmo/TransformGizmo.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: ScaleUniform
+    path: ../Prowl/Prowl.Runtime/GUI/Widgets/Gizmo/TransformGizmo.cs
+    startLine: 75
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  example: []
+  syntax:
+    content: ScaleUniform = 131072
+    return:
+      type: Prowl.Runtime.GUI.TransformGizmoMode
+- uid: Prowl.Runtime.GUI.TransformGizmoMode.Arcball
+  commentId: F:Prowl.Runtime.GUI.TransformGizmoMode.Arcball
+  id: Arcball
+  parent: Prowl.Runtime.GUI.TransformGizmoMode
+  langs:
+  - csharp
+  - vb
+  name: Arcball
+  nameWithType: TransformGizmoMode.Arcball
+  fullName: Prowl.Runtime.GUI.TransformGizmoMode.Arcball
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Widgets/Gizmo/TransformGizmo.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Arcball
+    path: ../Prowl/Prowl.Runtime/GUI/Widgets/Gizmo/TransformGizmo.cs
+    startLine: 77
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  example: []
+  syntax:
+    content: Arcball = 262144
+    return:
+      type: Prowl.Runtime.GUI.TransformGizmoMode
+references:
+- uid: Prowl.Runtime.GUI
+  commentId: N:Prowl.Runtime.GUI
+  href: Prowl.html
+  name: Prowl.Runtime.GUI
+  nameWithType: Prowl.Runtime.GUI
+  fullName: Prowl.Runtime.GUI
+  spec.csharp:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+  - name: .
+  - uid: Prowl.Runtime.GUI
+    name: GUI
+    href: Prowl.Runtime.GUI.html
+  spec.vb:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+  - name: .
+  - uid: Prowl.Runtime.GUI
+    name: GUI
+    href: Prowl.Runtime.GUI.html
+- uid: System.Object.Prowl.Runtime.RuntimeUtils.GetSerializableFields
+  commentId: M:Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  parent: Prowl.Runtime.RuntimeUtils
+  definition: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  name: GetSerializableFields(object)
+  nameWithType: RuntimeUtils.GetSerializableFields(object)
+  fullName: Prowl.Runtime.RuntimeUtils.GetSerializableFields(object)
+  nameWithType.vb: RuntimeUtils.GetSerializableFields(Object)
+  fullName.vb: Prowl.Runtime.RuntimeUtils.GetSerializableFields(Object)
+  name.vb: GetSerializableFields(Object)
+  spec.csharp:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  commentId: M:Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  isExternal: true
+  href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  name: GetSerializableFields(object)
+  nameWithType: RuntimeUtils.GetSerializableFields(object)
+  fullName: Prowl.Runtime.RuntimeUtils.GetSerializableFields(object)
+  nameWithType.vb: RuntimeUtils.GetSerializableFields(Object)
+  fullName.vb: Prowl.Runtime.RuntimeUtils.GetSerializableFields(Object)
+  name.vb: GetSerializableFields(Object)
+  spec.csharp:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: Prowl.Runtime.RuntimeUtils
+  commentId: T:Prowl.Runtime.RuntimeUtils
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.RuntimeUtils.html
+  name: RuntimeUtils
+  nameWithType: RuntimeUtils
+  fullName: Prowl.Runtime.RuntimeUtils
+- uid: Prowl.Runtime
+  commentId: N:Prowl.Runtime
+  href: Prowl.html
+  name: Prowl.Runtime
+  nameWithType: Prowl.Runtime
+  fullName: Prowl.Runtime
+  spec.csharp:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+  spec.vb:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+- uid: Prowl.Runtime.GUI.TransformGizmoMode
+  commentId: T:Prowl.Runtime.GUI.TransformGizmoMode
+  parent: Prowl.Runtime.GUI
+  href: Prowl.Runtime.GUI.TransformGizmoMode.html
+  name: TransformGizmoMode
+  nameWithType: TransformGizmoMode
+  fullName: Prowl.Runtime.GUI.TransformGizmoMode

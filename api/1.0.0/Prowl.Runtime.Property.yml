@@ -1,0 +1,672 @@
+### YamlMime:ManagedReference
+items:
+- uid: Prowl.Runtime.Property
+  commentId: T:Prowl.Runtime.Property
+  id: Property
+  parent: Prowl.Runtime
+  children:
+  - Prowl.Runtime.Property.CopyTo(Prowl.Runtime.Property@)
+  - Prowl.Runtime.Property.arraySize
+  - Prowl.Runtime.Property.data
+  - Prowl.Runtime.Property.height
+  - Prowl.Runtime.Property.texture
+  - Prowl.Runtime.Property.type
+  - Prowl.Runtime.Property.width
+  langs:
+  - csharp
+  - vb
+  name: Property
+  nameWithType: Property
+  fullName: Prowl.Runtime.Property
+  type: Struct
+  source:
+    remote:
+      path: Prowl.Runtime/Rendering/PropertyState.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Property
+    path: ../Prowl/Prowl.Runtime/Rendering/PropertyState.cs
+    startLine: 14
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public struct Property
+    content.vb: Public Structure [Property]
+  inheritedMembers:
+  - System.ValueType.Equals(System.Object)
+  - System.ValueType.GetHashCode
+  - System.ValueType.ToString
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  extensionMethods:
+  - System.Object.Prowl.Runtime.RuntimeUtils.GetSerializableFields
+- uid: Prowl.Runtime.Property.texture
+  commentId: F:Prowl.Runtime.Property.texture
+  id: texture
+  parent: Prowl.Runtime.Property
+  langs:
+  - csharp
+  - vb
+  name: texture
+  nameWithType: Property.texture
+  fullName: Prowl.Runtime.Property.texture
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/Rendering/PropertyState.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: texture
+    path: ../Prowl/Prowl.Runtime/Rendering/PropertyState.cs
+    startLine: 16
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public AssetRef<Texture>? texture
+    return:
+      type: System.Nullable{Prowl.Runtime.AssetRef{Prowl.Runtime.Texture}}
+    content.vb: Public texture As AssetRef(Of Texture)?
+- uid: Prowl.Runtime.Property.type
+  commentId: F:Prowl.Runtime.Property.type
+  id: type
+  parent: Prowl.Runtime.Property
+  langs:
+  - csharp
+  - vb
+  name: type
+  nameWithType: Property.type
+  fullName: Prowl.Runtime.Property.type
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/Rendering/PropertyState.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: type
+    path: ../Prowl/Prowl.Runtime/Rendering/PropertyState.cs
+    startLine: 18
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public ValueType type
+    return:
+      type: Prowl.Runtime.ValueType
+    content.vb: Public type As ValueType
+- uid: Prowl.Runtime.Property.width
+  commentId: F:Prowl.Runtime.Property.width
+  id: width
+  parent: Prowl.Runtime.Property
+  langs:
+  - csharp
+  - vb
+  name: width
+  nameWithType: Property.width
+  fullName: Prowl.Runtime.Property.width
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/Rendering/PropertyState.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: width
+    path: ../Prowl/Prowl.Runtime/Rendering/PropertyState.cs
+    startLine: 19
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public byte width
+    return:
+      type: System.Byte
+    content.vb: Public width As Byte
+- uid: Prowl.Runtime.Property.height
+  commentId: F:Prowl.Runtime.Property.height
+  id: height
+  parent: Prowl.Runtime.Property
+  langs:
+  - csharp
+  - vb
+  name: height
+  nameWithType: Property.height
+  fullName: Prowl.Runtime.Property.height
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/Rendering/PropertyState.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: height
+    path: ../Prowl/Prowl.Runtime/Rendering/PropertyState.cs
+    startLine: 20
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public byte height
+    return:
+      type: System.Byte
+    content.vb: Public height As Byte
+- uid: Prowl.Runtime.Property.arraySize
+  commentId: F:Prowl.Runtime.Property.arraySize
+  id: arraySize
+  parent: Prowl.Runtime.Property
+  langs:
+  - csharp
+  - vb
+  name: arraySize
+  nameWithType: Property.arraySize
+  fullName: Prowl.Runtime.Property.arraySize
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/Rendering/PropertyState.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: arraySize
+    path: ../Prowl/Prowl.Runtime/Rendering/PropertyState.cs
+    startLine: 21
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public int arraySize
+    return:
+      type: System.Int32
+    content.vb: Public arraySize As Integer
+- uid: Prowl.Runtime.Property.data
+  commentId: F:Prowl.Runtime.Property.data
+  id: data
+  parent: Prowl.Runtime.Property
+  langs:
+  - csharp
+  - vb
+  name: data
+  nameWithType: Property.data
+  fullName: Prowl.Runtime.Property.data
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/Rendering/PropertyState.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: data
+    path: ../Prowl/Prowl.Runtime/Rendering/PropertyState.cs
+    startLine: 23
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public byte[] data
+    return:
+      type: System.Byte[]
+    content.vb: Public data As Byte()
+- uid: Prowl.Runtime.Property.CopyTo(Prowl.Runtime.Property@)
+  commentId: M:Prowl.Runtime.Property.CopyTo(Prowl.Runtime.Property@)
+  id: CopyTo(Prowl.Runtime.Property@)
+  parent: Prowl.Runtime.Property
+  langs:
+  - csharp
+  - vb
+  name: CopyTo(ref Property)
+  nameWithType: Property.CopyTo(ref Property)
+  fullName: Prowl.Runtime.Property.CopyTo(ref Prowl.Runtime.Property)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Rendering/PropertyState.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: CopyTo
+    path: ../Prowl/Prowl.Runtime/Rendering/PropertyState.cs
+    startLine: 26
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public void CopyTo(ref Property property)
+    parameters:
+    - id: property
+      type: Prowl.Runtime.Property
+    content.vb: Public Sub CopyTo([property] As [Property])
+  overload: Prowl.Runtime.Property.CopyTo*
+  nameWithType.vb: Property.CopyTo(Property)
+  fullName.vb: Prowl.Runtime.Property.CopyTo(Prowl.Runtime.Property)
+  name.vb: CopyTo(Property)
+references:
+- uid: Prowl.Runtime
+  commentId: N:Prowl.Runtime
+  href: Prowl.html
+  name: Prowl.Runtime
+  nameWithType: Prowl.Runtime
+  fullName: Prowl.Runtime
+  spec.csharp:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+  spec.vb:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  name: Equals(object)
+  nameWithType: ValueType.Equals(object)
+  fullName: System.ValueType.Equals(object)
+  nameWithType.vb: ValueType.Equals(Object)
+  fullName.vb: System.ValueType.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Prowl.Runtime.RuntimeUtils.GetSerializableFields
+  commentId: M:Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  parent: Prowl.Runtime.RuntimeUtils
+  definition: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  name: GetSerializableFields(object)
+  nameWithType: RuntimeUtils.GetSerializableFields(object)
+  fullName: Prowl.Runtime.RuntimeUtils.GetSerializableFields(object)
+  nameWithType.vb: RuntimeUtils.GetSerializableFields(Object)
+  fullName.vb: Prowl.Runtime.RuntimeUtils.GetSerializableFields(Object)
+  name.vb: GetSerializableFields(Object)
+  spec.csharp:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  commentId: M:Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  isExternal: true
+  href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  name: GetSerializableFields(object)
+  nameWithType: RuntimeUtils.GetSerializableFields(object)
+  fullName: Prowl.Runtime.RuntimeUtils.GetSerializableFields(object)
+  nameWithType.vb: RuntimeUtils.GetSerializableFields(Object)
+  fullName.vb: Prowl.Runtime.RuntimeUtils.GetSerializableFields(Object)
+  name.vb: GetSerializableFields(Object)
+  spec.csharp:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: Prowl.Runtime.RuntimeUtils
+  commentId: T:Prowl.Runtime.RuntimeUtils
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.RuntimeUtils.html
+  name: RuntimeUtils
+  nameWithType: RuntimeUtils
+  fullName: Prowl.Runtime.RuntimeUtils
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Nullable{Prowl.Runtime.AssetRef{Prowl.Runtime.Texture}}
+  commentId: T:System.Nullable{Prowl.Runtime.AssetRef{Prowl.Runtime.Texture}}
+  parent: System
+  definition: System.Nullable`1
+  href: Prowl.Runtime.AssetRef-1.html
+  name: AssetRef<Texture>?
+  nameWithType: AssetRef<Texture>?
+  fullName: Prowl.Runtime.AssetRef<Prowl.Runtime.Texture>?
+  nameWithType.vb: AssetRef(Of Texture)?
+  fullName.vb: Prowl.Runtime.AssetRef(Of Prowl.Runtime.Texture)?
+  name.vb: AssetRef(Of Texture)?
+  spec.csharp:
+  - uid: Prowl.Runtime.AssetRef`1
+    name: AssetRef
+    href: Prowl.Runtime.AssetRef-1.html
+  - name: <
+  - uid: Prowl.Runtime.Texture
+    name: Texture
+    href: Prowl.Runtime.Texture.html
+  - name: '>'
+  - name: '?'
+  spec.vb:
+  - uid: Prowl.Runtime.AssetRef`1
+    name: AssetRef
+    href: Prowl.Runtime.AssetRef-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Prowl.Runtime.Texture
+    name: Texture
+    href: Prowl.Runtime.Texture.html
+  - name: )
+  - name: '?'
+- uid: System.Nullable`1
+  commentId: T:System.Nullable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  name: Nullable<T>
+  nameWithType: Nullable<T>
+  fullName: System.Nullable<T>
+  nameWithType.vb: Nullable(Of T)
+  fullName.vb: System.Nullable(Of T)
+  name.vb: Nullable(Of T)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Prowl.Runtime.ValueType
+  commentId: T:Prowl.Runtime.ValueType
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.ValueType.html
+  name: ValueType
+  nameWithType: ValueType
+  fullName: Prowl.Runtime.ValueType
+- uid: System.Byte
+  commentId: T:System.Byte
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.byte
+  name: byte
+  nameWithType: byte
+  fullName: byte
+  nameWithType.vb: Byte
+  fullName.vb: Byte
+  name.vb: Byte
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: System.Byte[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.byte
+  name: byte[]
+  nameWithType: byte[]
+  fullName: byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: byte
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.byte
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.byte
+  - name: (
+  - name: )
+- uid: Prowl.Runtime.Property.CopyTo*
+  commentId: Overload:Prowl.Runtime.Property.CopyTo
+  href: Prowl.Runtime.Property.html#Prowl_Runtime_Property_CopyTo_Prowl_Runtime_Property__
+  name: CopyTo
+  nameWithType: Property.CopyTo
+  fullName: Prowl.Runtime.Property.CopyTo
+- uid: Prowl.Runtime.Property
+  commentId: T:Prowl.Runtime.Property
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.Property.html
+  name: Property
+  nameWithType: Property
+  fullName: Prowl.Runtime.Property

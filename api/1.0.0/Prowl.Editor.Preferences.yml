@@ -1,0 +1,190 @@
+### YamlMime:ManagedReference
+items:
+- uid: Prowl.Editor.Preferences
+  commentId: N:Prowl.Editor.Preferences
+  id: Prowl.Editor.Preferences
+  children:
+  - Prowl.Editor.Preferences.AssetPipelinePreferences
+  - Prowl.Editor.Preferences.EditorPreferences
+  - Prowl.Editor.Preferences.EditorStylePrefs
+  - Prowl.Editor.Preferences.EditorStylePrefs.NoodlePath
+  - Prowl.Editor.Preferences.EditorStylePrefs.NoodleStroke
+  - Prowl.Editor.Preferences.GeneralPreferences
+  - Prowl.Editor.Preferences.Hotkeys
+  - Prowl.Editor.Preferences.Hotkeys.Hotkey
+  - Prowl.Editor.Preferences.PackageManagerPreferences
+  - Prowl.Editor.Preferences.PackageManagerPreferences.PackageSource
+  - Prowl.Editor.Preferences.SceneViewPreferences
+  langs:
+  - csharp
+  - vb
+  name: Prowl.Editor.Preferences
+  nameWithType: Prowl.Editor.Preferences
+  fullName: Prowl.Editor.Preferences
+  type: Namespace
+  assemblies:
+  - Prowl.Editor
+references:
+- uid: Prowl.Editor.Preferences.AssetPipelinePreferences
+  commentId: T:Prowl.Editor.Preferences.AssetPipelinePreferences
+  href: Prowl.Editor.Preferences.AssetPipelinePreferences.html
+  name: AssetPipelinePreferences
+  nameWithType: AssetPipelinePreferences
+  fullName: Prowl.Editor.Preferences.AssetPipelinePreferences
+- uid: Prowl.Editor.Preferences.GeneralPreferences
+  commentId: T:Prowl.Editor.Preferences.GeneralPreferences
+  href: Prowl.Editor.Preferences.GeneralPreferences.html
+  name: GeneralPreferences
+  nameWithType: GeneralPreferences
+  fullName: Prowl.Editor.Preferences.GeneralPreferences
+- uid: Prowl.Editor.Preferences.EditorPreferences
+  commentId: T:Prowl.Editor.Preferences.EditorPreferences
+  href: Prowl.Editor.Preferences.EditorPreferences.html
+  name: EditorPreferences
+  nameWithType: EditorPreferences
+  fullName: Prowl.Editor.Preferences.EditorPreferences
+- uid: Prowl.Editor.Preferences.EditorStylePrefs
+  commentId: T:Prowl.Editor.Preferences.EditorStylePrefs
+  href: Prowl.Editor.Preferences.EditorStylePrefs.html
+  name: EditorStylePrefs
+  nameWithType: EditorStylePrefs
+  fullName: Prowl.Editor.Preferences.EditorStylePrefs
+- uid: Prowl.Editor.Preferences.EditorStylePrefs.NoodlePath
+  commentId: T:Prowl.Editor.Preferences.EditorStylePrefs.NoodlePath
+  parent: Prowl.Editor.Preferences
+  href: Prowl.Editor.Preferences.EditorStylePrefs.html
+  name: EditorStylePrefs.NoodlePath
+  nameWithType: EditorStylePrefs.NoodlePath
+  fullName: Prowl.Editor.Preferences.EditorStylePrefs.NoodlePath
+  spec.csharp:
+  - uid: Prowl.Editor.Preferences.EditorStylePrefs
+    name: EditorStylePrefs
+    href: Prowl.Editor.Preferences.EditorStylePrefs.html
+  - name: .
+  - uid: Prowl.Editor.Preferences.EditorStylePrefs.NoodlePath
+    name: NoodlePath
+    href: Prowl.Editor.Preferences.EditorStylePrefs.NoodlePath.html
+  spec.vb:
+  - uid: Prowl.Editor.Preferences.EditorStylePrefs
+    name: EditorStylePrefs
+    href: Prowl.Editor.Preferences.EditorStylePrefs.html
+  - name: .
+  - uid: Prowl.Editor.Preferences.EditorStylePrefs.NoodlePath
+    name: NoodlePath
+    href: Prowl.Editor.Preferences.EditorStylePrefs.NoodlePath.html
+- uid: Prowl.Editor.Preferences.EditorStylePrefs.NoodleStroke
+  commentId: T:Prowl.Editor.Preferences.EditorStylePrefs.NoodleStroke
+  parent: Prowl.Editor.Preferences
+  href: Prowl.Editor.Preferences.EditorStylePrefs.html
+  name: EditorStylePrefs.NoodleStroke
+  nameWithType: EditorStylePrefs.NoodleStroke
+  fullName: Prowl.Editor.Preferences.EditorStylePrefs.NoodleStroke
+  spec.csharp:
+  - uid: Prowl.Editor.Preferences.EditorStylePrefs
+    name: EditorStylePrefs
+    href: Prowl.Editor.Preferences.EditorStylePrefs.html
+  - name: .
+  - uid: Prowl.Editor.Preferences.EditorStylePrefs.NoodleStroke
+    name: NoodleStroke
+    href: Prowl.Editor.Preferences.EditorStylePrefs.NoodleStroke.html
+  spec.vb:
+  - uid: Prowl.Editor.Preferences.EditorStylePrefs
+    name: EditorStylePrefs
+    href: Prowl.Editor.Preferences.EditorStylePrefs.html
+  - name: .
+  - uid: Prowl.Editor.Preferences.EditorStylePrefs.NoodleStroke
+    name: NoodleStroke
+    href: Prowl.Editor.Preferences.EditorStylePrefs.NoodleStroke.html
+- uid: Prowl.Editor.Preferences.Hotkeys
+  commentId: T:Prowl.Editor.Preferences.Hotkeys
+  href: Prowl.Editor.Preferences.Hotkeys.html
+  name: Hotkeys
+  nameWithType: Hotkeys
+  fullName: Prowl.Editor.Preferences.Hotkeys
+- uid: Prowl.Editor.Preferences.Hotkeys.Hotkey
+  commentId: T:Prowl.Editor.Preferences.Hotkeys.Hotkey
+  parent: Prowl.Editor.Preferences
+  href: Prowl.Editor.Preferences.Hotkeys.html
+  name: Hotkeys.Hotkey
+  nameWithType: Hotkeys.Hotkey
+  fullName: Prowl.Editor.Preferences.Hotkeys.Hotkey
+  spec.csharp:
+  - uid: Prowl.Editor.Preferences.Hotkeys
+    name: Hotkeys
+    href: Prowl.Editor.Preferences.Hotkeys.html
+  - name: .
+  - uid: Prowl.Editor.Preferences.Hotkeys.Hotkey
+    name: Hotkey
+    href: Prowl.Editor.Preferences.Hotkeys.Hotkey.html
+  spec.vb:
+  - uid: Prowl.Editor.Preferences.Hotkeys
+    name: Hotkeys
+    href: Prowl.Editor.Preferences.Hotkeys.html
+  - name: .
+  - uid: Prowl.Editor.Preferences.Hotkeys.Hotkey
+    name: Hotkey
+    href: Prowl.Editor.Preferences.Hotkeys.Hotkey.html
+- uid: Prowl.Editor.Preferences.PackageManagerPreferences
+  commentId: T:Prowl.Editor.Preferences.PackageManagerPreferences
+  href: Prowl.Editor.Preferences.PackageManagerPreferences.html
+  name: PackageManagerPreferences
+  nameWithType: PackageManagerPreferences
+  fullName: Prowl.Editor.Preferences.PackageManagerPreferences
+- uid: Prowl.Editor.Preferences.PackageManagerPreferences.PackageSource
+  commentId: T:Prowl.Editor.Preferences.PackageManagerPreferences.PackageSource
+  href: Prowl.Editor.Preferences.PackageManagerPreferences.html
+  name: PackageManagerPreferences.PackageSource
+  nameWithType: PackageManagerPreferences.PackageSource
+  fullName: Prowl.Editor.Preferences.PackageManagerPreferences.PackageSource
+  spec.csharp:
+  - uid: Prowl.Editor.Preferences.PackageManagerPreferences
+    name: PackageManagerPreferences
+    href: Prowl.Editor.Preferences.PackageManagerPreferences.html
+  - name: .
+  - uid: Prowl.Editor.Preferences.PackageManagerPreferences.PackageSource
+    name: PackageSource
+    href: Prowl.Editor.Preferences.PackageManagerPreferences.PackageSource.html
+  spec.vb:
+  - uid: Prowl.Editor.Preferences.PackageManagerPreferences
+    name: PackageManagerPreferences
+    href: Prowl.Editor.Preferences.PackageManagerPreferences.html
+  - name: .
+  - uid: Prowl.Editor.Preferences.PackageManagerPreferences.PackageSource
+    name: PackageSource
+    href: Prowl.Editor.Preferences.PackageManagerPreferences.PackageSource.html
+- uid: Prowl.Editor.Preferences.SceneViewPreferences
+  commentId: T:Prowl.Editor.Preferences.SceneViewPreferences
+  href: Prowl.Editor.Preferences.SceneViewPreferences.html
+  name: SceneViewPreferences
+  nameWithType: SceneViewPreferences
+  fullName: Prowl.Editor.Preferences.SceneViewPreferences
+- uid: Prowl.Editor.Preferences
+  commentId: N:Prowl.Editor.Preferences
+  href: Prowl.html
+  name: Prowl.Editor.Preferences
+  nameWithType: Prowl.Editor.Preferences
+  fullName: Prowl.Editor.Preferences
+  spec.csharp:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Editor
+    name: Editor
+    href: Prowl.Editor.html
+  - name: .
+  - uid: Prowl.Editor.Preferences
+    name: Preferences
+    href: Prowl.Editor.Preferences.html
+  spec.vb:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Editor
+    name: Editor
+    href: Prowl.Editor.html
+  - name: .
+  - uid: Prowl.Editor.Preferences
+    name: Preferences
+    href: Prowl.Editor.Preferences.html

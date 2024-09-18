@@ -1,0 +1,611 @@
+### YamlMime:ManagedReference
+items:
+- uid: Prowl.Runtime.Utils.NodeSystem.NodeDataCache
+  commentId: T:Prowl.Runtime.Utils.NodeSystem.NodeDataCache
+  id: NodeDataCache
+  parent: Prowl.Runtime.Utils.NodeSystem
+  children:
+  - Prowl.Runtime.Utils.NodeSystem.NodeDataCache.GetNodeFields(System.Type)
+  - Prowl.Runtime.Utils.NodeSystem.NodeDataCache.GetTypeQualifiedName(System.Type)
+  - Prowl.Runtime.Utils.NodeSystem.NodeDataCache.UpdatePorts(Prowl.Runtime.NodeSystem.Node,Prowl.Runtime.NodeSystem.Node.NodePortDictionary)
+  langs:
+  - csharp
+  - vb
+  name: NodeDataCache
+  nameWithType: NodeDataCache
+  fullName: Prowl.Runtime.Utils.NodeSystem.NodeDataCache
+  type: Class
+  source:
+    remote:
+      path: Prowl.Runtime/Utils/NodeSystem/NodeDataCache.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: NodeDataCache
+    path: ../Prowl/Prowl.Runtime/Utils/NodeSystem/NodeDataCache.cs
+    startLine: 12
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.Utils.NodeSystem
+  summary: Precaches reflection data in editor so we won't have to do it runtime
+  example: []
+  syntax:
+    content: public static class NodeDataCache
+    content.vb: Public Module NodeDataCache
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: Prowl.Runtime.Utils.NodeSystem.NodeDataCache.GetTypeQualifiedName(System.Type)
+  commentId: M:Prowl.Runtime.Utils.NodeSystem.NodeDataCache.GetTypeQualifiedName(System.Type)
+  id: GetTypeQualifiedName(System.Type)
+  parent: Prowl.Runtime.Utils.NodeSystem.NodeDataCache
+  langs:
+  - csharp
+  - vb
+  name: GetTypeQualifiedName(Type)
+  nameWithType: NodeDataCache.GetTypeQualifiedName(Type)
+  fullName: Prowl.Runtime.Utils.NodeSystem.NodeDataCache.GetTypeQualifiedName(System.Type)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Utils/NodeSystem/NodeDataCache.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: GetTypeQualifiedName
+    path: ../Prowl/Prowl.Runtime/Utils/NodeSystem/NodeDataCache.cs
+    startLine: 19
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.Utils.NodeSystem
+  syntax:
+    content: public static string GetTypeQualifiedName(Type type)
+    parameters:
+    - id: type
+      type: System.Type
+    return:
+      type: System.String
+    content.vb: Public Shared Function GetTypeQualifiedName(type As Type) As String
+  overload: Prowl.Runtime.Utils.NodeSystem.NodeDataCache.GetTypeQualifiedName*
+- uid: Prowl.Runtime.Utils.NodeSystem.NodeDataCache.UpdatePorts(Prowl.Runtime.NodeSystem.Node,Prowl.Runtime.NodeSystem.Node.NodePortDictionary)
+  commentId: M:Prowl.Runtime.Utils.NodeSystem.NodeDataCache.UpdatePorts(Prowl.Runtime.NodeSystem.Node,Prowl.Runtime.NodeSystem.Node.NodePortDictionary)
+  id: UpdatePorts(Prowl.Runtime.NodeSystem.Node,Prowl.Runtime.NodeSystem.Node.NodePortDictionary)
+  parent: Prowl.Runtime.Utils.NodeSystem.NodeDataCache
+  langs:
+  - csharp
+  - vb
+  name: UpdatePorts(Node, NodePortDictionary)
+  nameWithType: NodeDataCache.UpdatePorts(Node, Node.NodePortDictionary)
+  fullName: Prowl.Runtime.Utils.NodeSystem.NodeDataCache.UpdatePorts(Prowl.Runtime.NodeSystem.Node, Prowl.Runtime.NodeSystem.Node.NodePortDictionary)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Utils/NodeSystem/NodeDataCache.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: UpdatePorts
+    path: ../Prowl/Prowl.Runtime/Utils/NodeSystem/NodeDataCache.cs
+    startLine: 33
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.Utils.NodeSystem
+  summary: Update static ports and dynamic ports managed by DynamicPortLists to reflect class fields.
+  example: []
+  syntax:
+    content: public static void UpdatePorts(Node node, Node.NodePortDictionary ports)
+    parameters:
+    - id: node
+      type: Prowl.Runtime.NodeSystem.Node
+    - id: ports
+      type: Prowl.Runtime.NodeSystem.Node.NodePortDictionary
+    content.vb: Public Shared Sub UpdatePorts(node As Node, ports As Node.NodePortDictionary)
+  overload: Prowl.Runtime.Utils.NodeSystem.NodeDataCache.UpdatePorts*
+- uid: Prowl.Runtime.Utils.NodeSystem.NodeDataCache.GetNodeFields(System.Type)
+  commentId: M:Prowl.Runtime.Utils.NodeSystem.NodeDataCache.GetNodeFields(System.Type)
+  id: GetNodeFields(System.Type)
+  parent: Prowl.Runtime.Utils.NodeSystem.NodeDataCache
+  langs:
+  - csharp
+  - vb
+  name: GetNodeFields(Type)
+  nameWithType: NodeDataCache.GetNodeFields(Type)
+  fullName: Prowl.Runtime.Utils.NodeSystem.NodeDataCache.GetNodeFields(System.Type)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Utils/NodeSystem/NodeDataCache.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: GetNodeFields
+    path: ../Prowl/Prowl.Runtime/Utils/NodeSystem/NodeDataCache.cs
+    startLine: 204
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.Utils.NodeSystem
+  syntax:
+    content: public static List<FieldInfo> GetNodeFields(Type nodeType)
+    parameters:
+    - id: nodeType
+      type: System.Type
+    return:
+      type: System.Collections.Generic.List{System.Reflection.FieldInfo}
+    content.vb: Public Shared Function GetNodeFields(nodeType As Type) As List(Of FieldInfo)
+  overload: Prowl.Runtime.Utils.NodeSystem.NodeDataCache.GetNodeFields*
+references:
+- uid: Prowl.Runtime.Utils.NodeSystem
+  commentId: N:Prowl.Runtime.Utils.NodeSystem
+  href: Prowl.html
+  name: Prowl.Runtime.Utils.NodeSystem
+  nameWithType: Prowl.Runtime.Utils.NodeSystem
+  fullName: Prowl.Runtime.Utils.NodeSystem
+  spec.csharp:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+  - name: .
+  - uid: Prowl.Runtime.Utils
+    name: Utils
+    href: Prowl.Runtime.Utils.html
+  - name: .
+  - uid: Prowl.Runtime.Utils.NodeSystem
+    name: NodeSystem
+    href: Prowl.Runtime.Utils.NodeSystem.html
+  spec.vb:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+  - name: .
+  - uid: Prowl.Runtime.Utils
+    name: Utils
+    href: Prowl.Runtime.Utils.html
+  - name: .
+  - uid: Prowl.Runtime.Utils.NodeSystem
+    name: NodeSystem
+    href: Prowl.Runtime.Utils.NodeSystem.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Prowl.Runtime.Utils.NodeSystem.NodeDataCache.GetTypeQualifiedName*
+  commentId: Overload:Prowl.Runtime.Utils.NodeSystem.NodeDataCache.GetTypeQualifiedName
+  href: Prowl.Runtime.Utils.NodeSystem.NodeDataCache.html#Prowl_Runtime_Utils_NodeSystem_NodeDataCache_GetTypeQualifiedName_System_Type_
+  name: GetTypeQualifiedName
+  nameWithType: NodeDataCache.GetTypeQualifiedName
+  fullName: Prowl.Runtime.Utils.NodeSystem.NodeDataCache.GetTypeQualifiedName
+- uid: System.Type
+  commentId: T:System.Type
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.type
+  name: Type
+  nameWithType: Type
+  fullName: System.Type
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: Prowl.Runtime.Utils.NodeSystem.NodeDataCache.UpdatePorts*
+  commentId: Overload:Prowl.Runtime.Utils.NodeSystem.NodeDataCache.UpdatePorts
+  href: Prowl.Runtime.Utils.NodeSystem.NodeDataCache.html#Prowl_Runtime_Utils_NodeSystem_NodeDataCache_UpdatePorts_Prowl_Runtime_NodeSystem_Node_Prowl_Runtime_NodeSystem_Node_NodePortDictionary_
+  name: UpdatePorts
+  nameWithType: NodeDataCache.UpdatePorts
+  fullName: Prowl.Runtime.Utils.NodeSystem.NodeDataCache.UpdatePorts
+- uid: Prowl.Runtime.NodeSystem.Node
+  commentId: T:Prowl.Runtime.NodeSystem.Node
+  parent: Prowl.Runtime.NodeSystem
+  href: Prowl.Runtime.NodeSystem.Node.html
+  name: Node
+  nameWithType: Node
+  fullName: Prowl.Runtime.NodeSystem.Node
+- uid: Prowl.Runtime.NodeSystem.Node.NodePortDictionary
+  commentId: T:Prowl.Runtime.NodeSystem.Node.NodePortDictionary
+  parent: Prowl.Runtime.NodeSystem
+  href: Prowl.Runtime.NodeSystem.Node.html
+  name: Node.NodePortDictionary
+  nameWithType: Node.NodePortDictionary
+  fullName: Prowl.Runtime.NodeSystem.Node.NodePortDictionary
+  spec.csharp:
+  - uid: Prowl.Runtime.NodeSystem.Node
+    name: Node
+    href: Prowl.Runtime.NodeSystem.Node.html
+  - name: .
+  - uid: Prowl.Runtime.NodeSystem.Node.NodePortDictionary
+    name: NodePortDictionary
+    href: Prowl.Runtime.NodeSystem.Node.NodePortDictionary.html
+  spec.vb:
+  - uid: Prowl.Runtime.NodeSystem.Node
+    name: Node
+    href: Prowl.Runtime.NodeSystem.Node.html
+  - name: .
+  - uid: Prowl.Runtime.NodeSystem.Node.NodePortDictionary
+    name: NodePortDictionary
+    href: Prowl.Runtime.NodeSystem.Node.NodePortDictionary.html
+- uid: Prowl.Runtime.NodeSystem
+  commentId: N:Prowl.Runtime.NodeSystem
+  href: Prowl.html
+  name: Prowl.Runtime.NodeSystem
+  nameWithType: Prowl.Runtime.NodeSystem
+  fullName: Prowl.Runtime.NodeSystem
+  spec.csharp:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+  - name: .
+  - uid: Prowl.Runtime.NodeSystem
+    name: NodeSystem
+    href: Prowl.Runtime.NodeSystem.html
+  spec.vb:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+  - name: .
+  - uid: Prowl.Runtime.NodeSystem
+    name: NodeSystem
+    href: Prowl.Runtime.NodeSystem.html
+- uid: Prowl.Runtime.Utils.NodeSystem.NodeDataCache.GetNodeFields*
+  commentId: Overload:Prowl.Runtime.Utils.NodeSystem.NodeDataCache.GetNodeFields
+  href: Prowl.Runtime.Utils.NodeSystem.NodeDataCache.html#Prowl_Runtime_Utils_NodeSystem_NodeDataCache_GetNodeFields_System_Type_
+  name: GetNodeFields
+  nameWithType: NodeDataCache.GetNodeFields
+  fullName: Prowl.Runtime.Utils.NodeSystem.NodeDataCache.GetNodeFields
+- uid: System.Collections.Generic.List{System.Reflection.FieldInfo}
+  commentId: T:System.Collections.Generic.List{System.Reflection.FieldInfo}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<FieldInfo>
+  nameWithType: List<FieldInfo>
+  fullName: System.Collections.Generic.List<System.Reflection.FieldInfo>
+  nameWithType.vb: List(Of FieldInfo)
+  fullName.vb: System.Collections.Generic.List(Of System.Reflection.FieldInfo)
+  name.vb: List(Of FieldInfo)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - uid: System.Reflection.FieldInfo
+    name: FieldInfo
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.reflection.fieldinfo
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Reflection.FieldInfo
+    name: FieldInfo
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.reflection.fieldinfo
+  - name: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic

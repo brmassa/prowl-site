@@ -1,0 +1,133 @@
+### YamlMime:ManagedReference
+items:
+- uid: Prowl.Runtime.Components.Testings
+  commentId: N:Prowl.Runtime.Components.Testings
+  id: Prowl.Runtime.Components.Testings
+  children:
+  - Prowl.Runtime.Components.Testings.TestDrawers
+  - Prowl.Runtime.Components.Testings.TestDrawers.Nested
+  - Prowl.Runtime.Components.Testings.TestDrawers.TestEnum
+  - Prowl.Runtime.Components.Testings.TestDrawers.TestStruct
+  langs:
+  - csharp
+  - vb
+  name: Prowl.Runtime.Components.Testings
+  nameWithType: Prowl.Runtime.Components.Testings
+  fullName: Prowl.Runtime.Components.Testings
+  type: Namespace
+  assemblies:
+  - Prowl.Runtime
+references:
+- uid: Prowl.Runtime.Components.Testings.TestDrawers
+  commentId: T:Prowl.Runtime.Components.Testings.TestDrawers
+  href: Prowl.Runtime.Components.Testings.TestDrawers.html
+  name: TestDrawers
+  nameWithType: TestDrawers
+  fullName: Prowl.Runtime.Components.Testings.TestDrawers
+- uid: Prowl.Runtime.Components.Testings.TestDrawers.TestStruct
+  commentId: T:Prowl.Runtime.Components.Testings.TestDrawers.TestStruct
+  parent: Prowl.Runtime.Components.Testings
+  href: Prowl.Runtime.Components.Testings.TestDrawers.html
+  name: TestDrawers.TestStruct
+  nameWithType: TestDrawers.TestStruct
+  fullName: Prowl.Runtime.Components.Testings.TestDrawers.TestStruct
+  spec.csharp:
+  - uid: Prowl.Runtime.Components.Testings.TestDrawers
+    name: TestDrawers
+    href: Prowl.Runtime.Components.Testings.TestDrawers.html
+  - name: .
+  - uid: Prowl.Runtime.Components.Testings.TestDrawers.TestStruct
+    name: TestStruct
+    href: Prowl.Runtime.Components.Testings.TestDrawers.TestStruct.html
+  spec.vb:
+  - uid: Prowl.Runtime.Components.Testings.TestDrawers
+    name: TestDrawers
+    href: Prowl.Runtime.Components.Testings.TestDrawers.html
+  - name: .
+  - uid: Prowl.Runtime.Components.Testings.TestDrawers.TestStruct
+    name: TestStruct
+    href: Prowl.Runtime.Components.Testings.TestDrawers.TestStruct.html
+- uid: Prowl.Runtime.Components.Testings.TestDrawers.TestEnum
+  commentId: T:Prowl.Runtime.Components.Testings.TestDrawers.TestEnum
+  parent: Prowl.Runtime.Components.Testings
+  href: Prowl.Runtime.Components.Testings.TestDrawers.html
+  name: TestDrawers.TestEnum
+  nameWithType: TestDrawers.TestEnum
+  fullName: Prowl.Runtime.Components.Testings.TestDrawers.TestEnum
+  spec.csharp:
+  - uid: Prowl.Runtime.Components.Testings.TestDrawers
+    name: TestDrawers
+    href: Prowl.Runtime.Components.Testings.TestDrawers.html
+  - name: .
+  - uid: Prowl.Runtime.Components.Testings.TestDrawers.TestEnum
+    name: TestEnum
+    href: Prowl.Runtime.Components.Testings.TestDrawers.TestEnum.html
+  spec.vb:
+  - uid: Prowl.Runtime.Components.Testings.TestDrawers
+    name: TestDrawers
+    href: Prowl.Runtime.Components.Testings.TestDrawers.html
+  - name: .
+  - uid: Prowl.Runtime.Components.Testings.TestDrawers.TestEnum
+    name: TestEnum
+    href: Prowl.Runtime.Components.Testings.TestDrawers.TestEnum.html
+- uid: Prowl.Runtime.Components.Testings.TestDrawers.Nested
+  commentId: T:Prowl.Runtime.Components.Testings.TestDrawers.Nested
+  parent: Prowl.Runtime.Components.Testings
+  href: Prowl.Runtime.Components.Testings.TestDrawers.html
+  name: TestDrawers.Nested
+  nameWithType: TestDrawers.Nested
+  fullName: Prowl.Runtime.Components.Testings.TestDrawers.Nested
+  spec.csharp:
+  - uid: Prowl.Runtime.Components.Testings.TestDrawers
+    name: TestDrawers
+    href: Prowl.Runtime.Components.Testings.TestDrawers.html
+  - name: .
+  - uid: Prowl.Runtime.Components.Testings.TestDrawers.Nested
+    name: Nested
+    href: Prowl.Runtime.Components.Testings.TestDrawers.Nested.html
+  spec.vb:
+  - uid: Prowl.Runtime.Components.Testings.TestDrawers
+    name: TestDrawers
+    href: Prowl.Runtime.Components.Testings.TestDrawers.html
+  - name: .
+  - uid: Prowl.Runtime.Components.Testings.TestDrawers.Nested
+    name: Nested
+    href: Prowl.Runtime.Components.Testings.TestDrawers.Nested.html
+- uid: Prowl.Runtime.Components.Testings
+  commentId: N:Prowl.Runtime.Components.Testings
+  href: Prowl.html
+  name: Prowl.Runtime.Components.Testings
+  nameWithType: Prowl.Runtime.Components.Testings
+  fullName: Prowl.Runtime.Components.Testings
+  spec.csharp:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+  - name: .
+  - uid: Prowl.Runtime.Components
+    name: Components
+    href: Prowl.Runtime.Components.html
+  - name: .
+  - uid: Prowl.Runtime.Components.Testings
+    name: Testings
+    href: Prowl.Runtime.Components.Testings.html
+  spec.vb:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+  - name: .
+  - uid: Prowl.Runtime.Components
+    name: Components
+    href: Prowl.Runtime.Components.html
+  - name: .
+  - uid: Prowl.Runtime.Components.Testings
+    name: Testings
+    href: Prowl.Runtime.Components.Testings.html

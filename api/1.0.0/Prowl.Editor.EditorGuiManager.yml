@@ -1,0 +1,2031 @@
+### YamlMime:ManagedReference
+items:
+- uid: Prowl.Editor.EditorGuiManager
+  commentId: T:Prowl.Editor.EditorGuiManager
+  id: EditorGuiManager
+  parent: Prowl.Editor
+  children:
+  - Prowl.Editor.EditorGuiManager.Container
+  - Prowl.Editor.EditorGuiManager.CreateDir
+  - Prowl.Editor.EditorGuiManager.CreateMaterial
+  - Prowl.Editor.EditorGuiManager.CreateScript
+  - Prowl.Editor.EditorGuiManager.Create_3D_Capsule
+  - Prowl.Editor.EditorGuiManager.Create_3D_Cube
+  - Prowl.Editor.EditorGuiManager.Create_3D_Cylinder
+  - Prowl.Editor.EditorGuiManager.Create_3D_Plane
+  - Prowl.Editor.EditorGuiManager.Create_3D_Quad
+  - Prowl.Editor.EditorGuiManager.Create_3D_Sphere
+  - Prowl.Editor.EditorGuiManager.Create_Light_DirectionalLight
+  - Prowl.Editor.EditorGuiManager.Create_Light_PointLight
+  - Prowl.Editor.EditorGuiManager.Create_Light_SpotLight
+  - Prowl.Editor.EditorGuiManager.Directory
+  - Prowl.Editor.EditorGuiManager.DockWindowTo(Prowl.Editor.EditorWindow,Prowl.Editor.Docking.DockNode,Prowl.Editor.Docking.DockZone,System.Double)
+  - Prowl.Editor.EditorGuiManager.DragSplitter
+  - Prowl.Editor.EditorGuiManager.DraggingWindow
+  - Prowl.Editor.EditorGuiManager.Edit_PackageManager
+  - Prowl.Editor.EditorGuiManager.Edit_Preferences
+  - Prowl.Editor.EditorGuiManager.Edit_ProjectSettings
+  - Prowl.Editor.EditorGuiManager.File_BuildProject
+  - Prowl.Editor.EditorGuiManager.FocusWindow(Prowl.Editor.EditorWindow)
+  - Prowl.Editor.EditorGuiManager.FocusedWindow
+  - Prowl.Editor.EditorGuiManager.Gui
+  - Prowl.Editor.EditorGuiManager.Initialize
+  - Prowl.Editor.EditorGuiManager.NewScene
+  - Prowl.Editor.EditorGuiManager.Recompile
+  - Prowl.Editor.EditorGuiManager.RefreshCache
+  - Prowl.Editor.EditorGuiManager.ReimportAll
+  - Prowl.Editor.EditorGuiManager.SaveScene
+  - Prowl.Editor.EditorGuiManager.SaveSceneAs
+  - Prowl.Editor.EditorGuiManager.SelectedColor
+  - Prowl.Editor.EditorGuiManager.Update
+  - Prowl.Editor.EditorGuiManager.Window_AssetsBrowser
+  - Prowl.Editor.EditorGuiManager.Window_AssetsTree
+  - Prowl.Editor.EditorGuiManager.Window_Console
+  - Prowl.Editor.EditorGuiManager.Window_GameView
+  - Prowl.Editor.EditorGuiManager.Window_Hierarchy
+  - Prowl.Editor.EditorGuiManager.Window_Inspector
+  - Prowl.Editor.EditorGuiManager.Window_Preferences
+  - Prowl.Editor.EditorGuiManager.Window_ProjectSettings
+  - Prowl.Editor.EditorGuiManager.Window_SceneView
+  - Prowl.Editor.EditorGuiManager.Windows
+  - Prowl.Editor.EditorGuiManager.fromAssetBrowser
+  langs:
+  - csharp
+  - vb
+  name: EditorGuiManager
+  nameWithType: EditorGuiManager
+  fullName: Prowl.Editor.EditorGuiManager
+  type: Class
+  source:
+    remote:
+      path: Prowl.Editor/EditorGuiManager.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: EditorGuiManager
+    path: ../Prowl/Prowl.Editor/EditorGuiManager.cs
+    startLine: 16
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor
+  syntax:
+    content: public static class EditorGuiManager
+    content.vb: Public Module EditorGuiManager
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: Prowl.Editor.EditorGuiManager.SelectedColor
+  commentId: P:Prowl.Editor.EditorGuiManager.SelectedColor
+  id: SelectedColor
+  parent: Prowl.Editor.EditorGuiManager
+  langs:
+  - csharp
+  - vb
+  name: SelectedColor
+  nameWithType: EditorGuiManager.SelectedColor
+  fullName: Prowl.Editor.EditorGuiManager.SelectedColor
+  type: Property
+  source:
+    remote:
+      path: Prowl.Editor/EditorGuiManager.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: SelectedColor
+    path: ../Prowl/Prowl.Editor/EditorGuiManager.cs
+    startLine: 18
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor
+  syntax:
+    content: public static Vector4 SelectedColor { get; }
+    parameters: []
+    return:
+      type: System.Numerics.Vector4
+    content.vb: Public Shared ReadOnly Property SelectedColor As Vector4
+  overload: Prowl.Editor.EditorGuiManager.SelectedColor*
+- uid: Prowl.Editor.EditorGuiManager.Gui
+  commentId: F:Prowl.Editor.EditorGuiManager.Gui
+  id: Gui
+  parent: Prowl.Editor.EditorGuiManager
+  langs:
+  - csharp
+  - vb
+  name: Gui
+  nameWithType: EditorGuiManager.Gui
+  fullName: Prowl.Editor.EditorGuiManager.Gui
+  type: Field
+  source:
+    remote:
+      path: Prowl.Editor/EditorGuiManager.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Gui
+    path: ../Prowl/Prowl.Editor/EditorGuiManager.cs
+    startLine: 20
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor
+  syntax:
+    content: public static Gui Gui
+    return:
+      type: Prowl.Runtime.GUI.Gui
+    content.vb: Public Shared Gui As Gui
+- uid: Prowl.Editor.EditorGuiManager.Container
+  commentId: F:Prowl.Editor.EditorGuiManager.Container
+  id: Container
+  parent: Prowl.Editor.EditorGuiManager
+  langs:
+  - csharp
+  - vb
+  name: Container
+  nameWithType: EditorGuiManager.Container
+  fullName: Prowl.Editor.EditorGuiManager.Container
+  type: Field
+  source:
+    remote:
+      path: Prowl.Editor/EditorGuiManager.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Container
+    path: ../Prowl/Prowl.Editor/EditorGuiManager.cs
+    startLine: 21
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor
+  syntax:
+    content: public static DockContainer? Container
+    return:
+      type: Prowl.Editor.Docking.DockContainer
+    content.vb: Public Shared Container As DockContainer
+- uid: Prowl.Editor.EditorGuiManager.DraggingWindow
+  commentId: F:Prowl.Editor.EditorGuiManager.DraggingWindow
+  id: DraggingWindow
+  parent: Prowl.Editor.EditorGuiManager
+  langs:
+  - csharp
+  - vb
+  name: DraggingWindow
+  nameWithType: EditorGuiManager.DraggingWindow
+  fullName: Prowl.Editor.EditorGuiManager.DraggingWindow
+  type: Field
+  source:
+    remote:
+      path: Prowl.Editor/EditorGuiManager.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: DraggingWindow
+    path: ../Prowl/Prowl.Editor/EditorGuiManager.cs
+    startLine: 22
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor
+  syntax:
+    content: public static EditorWindow DraggingWindow
+    return:
+      type: Prowl.Editor.EditorWindow
+    content.vb: Public Shared DraggingWindow As EditorWindow
+- uid: Prowl.Editor.EditorGuiManager.DragSplitter
+  commentId: F:Prowl.Editor.EditorGuiManager.DragSplitter
+  id: DragSplitter
+  parent: Prowl.Editor.EditorGuiManager
+  langs:
+  - csharp
+  - vb
+  name: DragSplitter
+  nameWithType: EditorGuiManager.DragSplitter
+  fullName: Prowl.Editor.EditorGuiManager.DragSplitter
+  type: Field
+  source:
+    remote:
+      path: Prowl.Editor/EditorGuiManager.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: DragSplitter
+    path: ../Prowl/Prowl.Editor/EditorGuiManager.cs
+    startLine: 23
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor
+  syntax:
+    content: public static DockNode DragSplitter
+    return:
+      type: Prowl.Editor.Docking.DockNode
+    content.vb: Public Shared DragSplitter As DockNode
+- uid: Prowl.Editor.EditorGuiManager.FocusedWindow
+  commentId: F:Prowl.Editor.EditorGuiManager.FocusedWindow
+  id: FocusedWindow
+  parent: Prowl.Editor.EditorGuiManager
+  langs:
+  - csharp
+  - vb
+  name: FocusedWindow
+  nameWithType: EditorGuiManager.FocusedWindow
+  fullName: Prowl.Editor.EditorGuiManager.FocusedWindow
+  type: Field
+  source:
+    remote:
+      path: Prowl.Editor/EditorGuiManager.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: FocusedWindow
+    path: ../Prowl/Prowl.Editor/EditorGuiManager.cs
+    startLine: 27
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor
+  syntax:
+    content: public static WeakReference? FocusedWindow
+    return:
+      type: System.WeakReference
+    content.vb: Public Shared FocusedWindow As WeakReference
+- uid: Prowl.Editor.EditorGuiManager.Windows
+  commentId: F:Prowl.Editor.EditorGuiManager.Windows
+  id: Windows
+  parent: Prowl.Editor.EditorGuiManager
+  langs:
+  - csharp
+  - vb
+  name: Windows
+  nameWithType: EditorGuiManager.Windows
+  fullName: Prowl.Editor.EditorGuiManager.Windows
+  type: Field
+  source:
+    remote:
+      path: Prowl.Editor/EditorGuiManager.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Windows
+    path: ../Prowl/Prowl.Editor/EditorGuiManager.cs
+    startLine: 29
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor
+  syntax:
+    content: public static List<EditorWindow> Windows
+    return:
+      type: System.Collections.Generic.List{Prowl.Editor.EditorWindow}
+    content.vb: Public Shared Windows As List(Of EditorWindow)
+- uid: Prowl.Editor.EditorGuiManager.Initialize
+  commentId: M:Prowl.Editor.EditorGuiManager.Initialize
+  id: Initialize
+  parent: Prowl.Editor.EditorGuiManager
+  langs:
+  - csharp
+  - vb
+  name: Initialize()
+  nameWithType: EditorGuiManager.Initialize()
+  fullName: Prowl.Editor.EditorGuiManager.Initialize()
+  type: Method
+  source:
+    remote:
+      path: Prowl.Editor/EditorGuiManager.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Initialize
+    path: ../Prowl/Prowl.Editor/EditorGuiManager.cs
+    startLine: 33
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor
+  syntax:
+    content: public static void Initialize()
+    content.vb: Public Shared Sub Initialize()
+  overload: Prowl.Editor.EditorGuiManager.Initialize*
+- uid: Prowl.Editor.EditorGuiManager.FocusWindow(Prowl.Editor.EditorWindow)
+  commentId: M:Prowl.Editor.EditorGuiManager.FocusWindow(Prowl.Editor.EditorWindow)
+  id: FocusWindow(Prowl.Editor.EditorWindow)
+  parent: Prowl.Editor.EditorGuiManager
+  langs:
+  - csharp
+  - vb
+  name: FocusWindow(EditorWindow)
+  nameWithType: EditorGuiManager.FocusWindow(EditorWindow)
+  fullName: Prowl.Editor.EditorGuiManager.FocusWindow(Prowl.Editor.EditorWindow)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Editor/EditorGuiManager.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: FocusWindow
+    path: ../Prowl/Prowl.Editor/EditorGuiManager.cs
+    startLine: 42
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor
+  syntax:
+    content: public static void FocusWindow(EditorWindow editorWindow)
+    parameters:
+    - id: editorWindow
+      type: Prowl.Editor.EditorWindow
+    content.vb: Public Shared Sub FocusWindow(editorWindow As EditorWindow)
+  overload: Prowl.Editor.EditorGuiManager.FocusWindow*
+- uid: Prowl.Editor.EditorGuiManager.DockWindowTo(Prowl.Editor.EditorWindow,Prowl.Editor.Docking.DockNode,Prowl.Editor.Docking.DockZone,System.Double)
+  commentId: M:Prowl.Editor.EditorGuiManager.DockWindowTo(Prowl.Editor.EditorWindow,Prowl.Editor.Docking.DockNode,Prowl.Editor.Docking.DockZone,System.Double)
+  id: DockWindowTo(Prowl.Editor.EditorWindow,Prowl.Editor.Docking.DockNode,Prowl.Editor.Docking.DockZone,System.Double)
+  parent: Prowl.Editor.EditorGuiManager
+  langs:
+  - csharp
+  - vb
+  name: DockWindowTo(EditorWindow, DockNode?, DockZone, double)
+  nameWithType: EditorGuiManager.DockWindowTo(EditorWindow, DockNode?, DockZone, double)
+  fullName: Prowl.Editor.EditorGuiManager.DockWindowTo(Prowl.Editor.EditorWindow, Prowl.Editor.Docking.DockNode?, Prowl.Editor.Docking.DockZone, double)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Editor/EditorGuiManager.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: DockWindowTo
+    path: ../Prowl/Prowl.Editor/EditorGuiManager.cs
+    startLine: 61
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor
+  syntax:
+    content: public static DockNode? DockWindowTo(EditorWindow window, DockNode? node, DockZone zone, double split = 0.5)
+    parameters:
+    - id: window
+      type: Prowl.Editor.EditorWindow
+    - id: node
+      type: Prowl.Editor.Docking.DockNode
+    - id: zone
+      type: Prowl.Editor.Docking.DockZone
+    - id: split
+      type: System.Double
+    return:
+      type: Prowl.Editor.Docking.DockNode
+    content.vb: Public Shared Function DockWindowTo(window As EditorWindow, node As DockNode, zone As DockZone, split As Double = 0.5) As DockNode
+  overload: Prowl.Editor.EditorGuiManager.DockWindowTo*
+  nameWithType.vb: EditorGuiManager.DockWindowTo(EditorWindow, DockNode, DockZone, Double)
+  fullName.vb: Prowl.Editor.EditorGuiManager.DockWindowTo(Prowl.Editor.EditorWindow, Prowl.Editor.Docking.DockNode, Prowl.Editor.Docking.DockZone, Double)
+  name.vb: DockWindowTo(EditorWindow, DockNode, DockZone, Double)
+- uid: Prowl.Editor.EditorGuiManager.Update
+  commentId: M:Prowl.Editor.EditorGuiManager.Update
+  id: Update
+  parent: Prowl.Editor.EditorGuiManager
+  langs:
+  - csharp
+  - vb
+  name: Update()
+  nameWithType: EditorGuiManager.Update()
+  fullName: Prowl.Editor.EditorGuiManager.Update()
+  type: Method
+  source:
+    remote:
+      path: Prowl.Editor/EditorGuiManager.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Update
+    path: ../Prowl/Prowl.Editor/EditorGuiManager.cs
+    startLine: 69
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor
+  syntax:
+    content: public static void Update()
+    content.vb: Public Shared Sub Update()
+  overload: Prowl.Editor.EditorGuiManager.Update*
+- uid: Prowl.Editor.EditorGuiManager.NewScene
+  commentId: M:Prowl.Editor.EditorGuiManager.NewScene
+  id: NewScene
+  parent: Prowl.Editor.EditorGuiManager
+  langs:
+  - csharp
+  - vb
+  name: NewScene()
+  nameWithType: EditorGuiManager.NewScene()
+  fullName: Prowl.Editor.EditorGuiManager.NewScene()
+  type: Method
+  source:
+    remote:
+      path: Prowl.Editor/EditorGuiManager.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: NewScene
+    path: ../Prowl/Prowl.Editor/EditorGuiManager.cs
+    startLine: 293
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor
+  syntax:
+    content: public static void NewScene()
+    content.vb: Public Shared Sub NewScene()
+  overload: Prowl.Editor.EditorGuiManager.NewScene*
+- uid: Prowl.Editor.EditorGuiManager.SaveScene
+  commentId: M:Prowl.Editor.EditorGuiManager.SaveScene
+  id: SaveScene
+  parent: Prowl.Editor.EditorGuiManager
+  langs:
+  - csharp
+  - vb
+  name: SaveScene()
+  nameWithType: EditorGuiManager.SaveScene()
+  fullName: Prowl.Editor.EditorGuiManager.SaveScene()
+  type: Method
+  source:
+    remote:
+      path: Prowl.Editor/EditorGuiManager.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: SaveScene
+    path: ../Prowl/Prowl.Editor/EditorGuiManager.cs
+    startLine: 300
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor
+  syntax:
+    content: public static void SaveScene()
+    content.vb: Public Shared Sub SaveScene()
+  overload: Prowl.Editor.EditorGuiManager.SaveScene*
+- uid: Prowl.Editor.EditorGuiManager.SaveSceneAs
+  commentId: M:Prowl.Editor.EditorGuiManager.SaveSceneAs
+  id: SaveSceneAs
+  parent: Prowl.Editor.EditorGuiManager
+  langs:
+  - csharp
+  - vb
+  name: SaveSceneAs()
+  nameWithType: EditorGuiManager.SaveSceneAs()
+  fullName: Prowl.Editor.EditorGuiManager.SaveSceneAs()
+  type: Method
+  source:
+    remote:
+      path: Prowl.Editor/EditorGuiManager.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: SaveSceneAs
+    path: ../Prowl/Prowl.Editor/EditorGuiManager.cs
+    startLine: 322
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor
+  syntax:
+    content: public static void SaveSceneAs()
+    content.vb: Public Shared Sub SaveSceneAs()
+  overload: Prowl.Editor.EditorGuiManager.SaveSceneAs*
+- uid: Prowl.Editor.EditorGuiManager.File_BuildProject
+  commentId: M:Prowl.Editor.EditorGuiManager.File_BuildProject
+  id: File_BuildProject
+  parent: Prowl.Editor.EditorGuiManager
+  langs:
+  - csharp
+  - vb
+  name: File_BuildProject()
+  nameWithType: EditorGuiManager.File_BuildProject()
+  fullName: Prowl.Editor.EditorGuiManager.File_BuildProject()
+  type: Method
+  source:
+    remote:
+      path: Prowl.Editor/EditorGuiManager.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: File_BuildProject
+    path: ../Prowl/Prowl.Editor/EditorGuiManager.cs
+    startLine: 356
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor
+  syntax:
+    content: public static void File_BuildProject()
+    content.vb: Public Shared Sub File_BuildProject()
+  overload: Prowl.Editor.EditorGuiManager.File_BuildProject*
+- uid: Prowl.Editor.EditorGuiManager.Create_3D_Cube
+  commentId: M:Prowl.Editor.EditorGuiManager.Create_3D_Cube
+  id: Create_3D_Cube
+  parent: Prowl.Editor.EditorGuiManager
+  langs:
+  - csharp
+  - vb
+  name: Create_3D_Cube()
+  nameWithType: EditorGuiManager.Create_3D_Cube()
+  fullName: Prowl.Editor.EditorGuiManager.Create_3D_Cube()
+  type: Method
+  source:
+    remote:
+      path: Prowl.Editor/EditorGuiManager.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Create_3D_Cube
+    path: ../Prowl/Prowl.Editor/EditorGuiManager.cs
+    startLine: 370
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor
+  syntax:
+    content: public static void Create_3D_Cube()
+    content.vb: Public Shared Sub Create_3D_Cube()
+  overload: Prowl.Editor.EditorGuiManager.Create_3D_Cube*
+- uid: Prowl.Editor.EditorGuiManager.Create_3D_Sphere
+  commentId: M:Prowl.Editor.EditorGuiManager.Create_3D_Sphere
+  id: Create_3D_Sphere
+  parent: Prowl.Editor.EditorGuiManager
+  langs:
+  - csharp
+  - vb
+  name: Create_3D_Sphere()
+  nameWithType: EditorGuiManager.Create_3D_Sphere()
+  fullName: Prowl.Editor.EditorGuiManager.Create_3D_Sphere()
+  type: Method
+  source:
+    remote:
+      path: Prowl.Editor/EditorGuiManager.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Create_3D_Sphere
+    path: ../Prowl/Prowl.Editor/EditorGuiManager.cs
+    startLine: 371
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor
+  syntax:
+    content: public static void Create_3D_Sphere()
+    content.vb: Public Shared Sub Create_3D_Sphere()
+  overload: Prowl.Editor.EditorGuiManager.Create_3D_Sphere*
+- uid: Prowl.Editor.EditorGuiManager.Create_3D_Cylinder
+  commentId: M:Prowl.Editor.EditorGuiManager.Create_3D_Cylinder
+  id: Create_3D_Cylinder
+  parent: Prowl.Editor.EditorGuiManager
+  langs:
+  - csharp
+  - vb
+  name: Create_3D_Cylinder()
+  nameWithType: EditorGuiManager.Create_3D_Cylinder()
+  fullName: Prowl.Editor.EditorGuiManager.Create_3D_Cylinder()
+  type: Method
+  source:
+    remote:
+      path: Prowl.Editor/EditorGuiManager.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Create_3D_Cylinder
+    path: ../Prowl/Prowl.Editor/EditorGuiManager.cs
+    startLine: 372
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor
+  syntax:
+    content: public static void Create_3D_Cylinder()
+    content.vb: Public Shared Sub Create_3D_Cylinder()
+  overload: Prowl.Editor.EditorGuiManager.Create_3D_Cylinder*
+- uid: Prowl.Editor.EditorGuiManager.Create_3D_Capsule
+  commentId: M:Prowl.Editor.EditorGuiManager.Create_3D_Capsule
+  id: Create_3D_Capsule
+  parent: Prowl.Editor.EditorGuiManager
+  langs:
+  - csharp
+  - vb
+  name: Create_3D_Capsule()
+  nameWithType: EditorGuiManager.Create_3D_Capsule()
+  fullName: Prowl.Editor.EditorGuiManager.Create_3D_Capsule()
+  type: Method
+  source:
+    remote:
+      path: Prowl.Editor/EditorGuiManager.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Create_3D_Capsule
+    path: ../Prowl/Prowl.Editor/EditorGuiManager.cs
+    startLine: 373
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor
+  syntax:
+    content: public static void Create_3D_Capsule()
+    content.vb: Public Shared Sub Create_3D_Capsule()
+  overload: Prowl.Editor.EditorGuiManager.Create_3D_Capsule*
+- uid: Prowl.Editor.EditorGuiManager.Create_3D_Plane
+  commentId: M:Prowl.Editor.EditorGuiManager.Create_3D_Plane
+  id: Create_3D_Plane
+  parent: Prowl.Editor.EditorGuiManager
+  langs:
+  - csharp
+  - vb
+  name: Create_3D_Plane()
+  nameWithType: EditorGuiManager.Create_3D_Plane()
+  fullName: Prowl.Editor.EditorGuiManager.Create_3D_Plane()
+  type: Method
+  source:
+    remote:
+      path: Prowl.Editor/EditorGuiManager.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Create_3D_Plane
+    path: ../Prowl/Prowl.Editor/EditorGuiManager.cs
+    startLine: 374
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor
+  syntax:
+    content: public static void Create_3D_Plane()
+    content.vb: Public Shared Sub Create_3D_Plane()
+  overload: Prowl.Editor.EditorGuiManager.Create_3D_Plane*
+- uid: Prowl.Editor.EditorGuiManager.Create_3D_Quad
+  commentId: M:Prowl.Editor.EditorGuiManager.Create_3D_Quad
+  id: Create_3D_Quad
+  parent: Prowl.Editor.EditorGuiManager
+  langs:
+  - csharp
+  - vb
+  name: Create_3D_Quad()
+  nameWithType: EditorGuiManager.Create_3D_Quad()
+  fullName: Prowl.Editor.EditorGuiManager.Create_3D_Quad()
+  type: Method
+  source:
+    remote:
+      path: Prowl.Editor/EditorGuiManager.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Create_3D_Quad
+    path: ../Prowl/Prowl.Editor/EditorGuiManager.cs
+    startLine: 375
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor
+  syntax:
+    content: public static void Create_3D_Quad()
+    content.vb: Public Shared Sub Create_3D_Quad()
+  overload: Prowl.Editor.EditorGuiManager.Create_3D_Quad*
+- uid: Prowl.Editor.EditorGuiManager.Create_Light_DirectionalLight
+  commentId: M:Prowl.Editor.EditorGuiManager.Create_Light_DirectionalLight
+  id: Create_Light_DirectionalLight
+  parent: Prowl.Editor.EditorGuiManager
+  langs:
+  - csharp
+  - vb
+  name: Create_Light_DirectionalLight()
+  nameWithType: EditorGuiManager.Create_Light_DirectionalLight()
+  fullName: Prowl.Editor.EditorGuiManager.Create_Light_DirectionalLight()
+  type: Method
+  source:
+    remote:
+      path: Prowl.Editor/EditorGuiManager.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Create_Light_DirectionalLight
+    path: ../Prowl/Prowl.Editor/EditorGuiManager.cs
+    startLine: 390
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor
+  syntax:
+    content: public static void Create_Light_DirectionalLight()
+    content.vb: Public Shared Sub Create_Light_DirectionalLight()
+  overload: Prowl.Editor.EditorGuiManager.Create_Light_DirectionalLight*
+- uid: Prowl.Editor.EditorGuiManager.Create_Light_PointLight
+  commentId: M:Prowl.Editor.EditorGuiManager.Create_Light_PointLight
+  id: Create_Light_PointLight
+  parent: Prowl.Editor.EditorGuiManager
+  langs:
+  - csharp
+  - vb
+  name: Create_Light_PointLight()
+  nameWithType: EditorGuiManager.Create_Light_PointLight()
+  fullName: Prowl.Editor.EditorGuiManager.Create_Light_PointLight()
+  type: Method
+  source:
+    remote:
+      path: Prowl.Editor/EditorGuiManager.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Create_Light_PointLight
+    path: ../Prowl/Prowl.Editor/EditorGuiManager.cs
+    startLine: 400
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor
+  syntax:
+    content: public static void Create_Light_PointLight()
+    content.vb: Public Shared Sub Create_Light_PointLight()
+  overload: Prowl.Editor.EditorGuiManager.Create_Light_PointLight*
+- uid: Prowl.Editor.EditorGuiManager.Create_Light_SpotLight
+  commentId: M:Prowl.Editor.EditorGuiManager.Create_Light_SpotLight
+  id: Create_Light_SpotLight
+  parent: Prowl.Editor.EditorGuiManager
+  langs:
+  - csharp
+  - vb
+  name: Create_Light_SpotLight()
+  nameWithType: EditorGuiManager.Create_Light_SpotLight()
+  fullName: Prowl.Editor.EditorGuiManager.Create_Light_SpotLight()
+  type: Method
+  source:
+    remote:
+      path: Prowl.Editor/EditorGuiManager.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Create_Light_SpotLight
+    path: ../Prowl/Prowl.Editor/EditorGuiManager.cs
+    startLine: 409
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor
+  syntax:
+    content: public static void Create_Light_SpotLight()
+    content.vb: Public Shared Sub Create_Light_SpotLight()
+  overload: Prowl.Editor.EditorGuiManager.Create_Light_SpotLight*
+- uid: Prowl.Editor.EditorGuiManager.Directory
+  commentId: P:Prowl.Editor.EditorGuiManager.Directory
+  id: Directory
+  parent: Prowl.Editor.EditorGuiManager
+  langs:
+  - csharp
+  - vb
+  name: Directory
+  nameWithType: EditorGuiManager.Directory
+  fullName: Prowl.Editor.EditorGuiManager.Directory
+  type: Property
+  source:
+    remote:
+      path: Prowl.Editor/EditorGuiManager.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Directory
+    path: ../Prowl/Prowl.Editor/EditorGuiManager.cs
+    startLine: 422
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor
+  syntax:
+    content: public static DirectoryInfo? Directory { get; set; }
+    parameters: []
+    return:
+      type: System.IO.DirectoryInfo
+    content.vb: Public Shared Property Directory As DirectoryInfo
+  overload: Prowl.Editor.EditorGuiManager.Directory*
+- uid: Prowl.Editor.EditorGuiManager.fromAssetBrowser
+  commentId: F:Prowl.Editor.EditorGuiManager.fromAssetBrowser
+  id: fromAssetBrowser
+  parent: Prowl.Editor.EditorGuiManager
+  langs:
+  - csharp
+  - vb
+  name: fromAssetBrowser
+  nameWithType: EditorGuiManager.fromAssetBrowser
+  fullName: Prowl.Editor.EditorGuiManager.fromAssetBrowser
+  type: Field
+  source:
+    remote:
+      path: Prowl.Editor/EditorGuiManager.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: fromAssetBrowser
+    path: ../Prowl/Prowl.Editor/EditorGuiManager.cs
+    startLine: 423
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor
+  syntax:
+    content: public static bool fromAssetBrowser
+    return:
+      type: System.Boolean
+    content.vb: Public Shared fromAssetBrowser As Boolean
+- uid: Prowl.Editor.EditorGuiManager.CreateDir
+  commentId: M:Prowl.Editor.EditorGuiManager.CreateDir
+  id: CreateDir
+  parent: Prowl.Editor.EditorGuiManager
+  langs:
+  - csharp
+  - vb
+  name: CreateDir()
+  nameWithType: EditorGuiManager.CreateDir()
+  fullName: Prowl.Editor.EditorGuiManager.CreateDir()
+  type: Method
+  source:
+    remote:
+      path: Prowl.Editor/EditorGuiManager.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: CreateDir
+    path: ../Prowl/Prowl.Editor/EditorGuiManager.cs
+    startLine: 425
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor
+  syntax:
+    content: public static void CreateDir()
+    content.vb: Public Shared Sub CreateDir()
+  overload: Prowl.Editor.EditorGuiManager.CreateDir*
+- uid: Prowl.Editor.EditorGuiManager.CreateMaterial
+  commentId: M:Prowl.Editor.EditorGuiManager.CreateMaterial
+  id: CreateMaterial
+  parent: Prowl.Editor.EditorGuiManager
+  langs:
+  - csharp
+  - vb
+  name: CreateMaterial()
+  nameWithType: EditorGuiManager.CreateMaterial()
+  fullName: Prowl.Editor.EditorGuiManager.CreateMaterial()
+  type: Method
+  source:
+    remote:
+      path: Prowl.Editor/EditorGuiManager.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: CreateMaterial
+    path: ../Prowl/Prowl.Editor/EditorGuiManager.cs
+    startLine: 439
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor
+  syntax:
+    content: public static void CreateMaterial()
+    content.vb: Public Shared Sub CreateMaterial()
+  overload: Prowl.Editor.EditorGuiManager.CreateMaterial*
+- uid: Prowl.Editor.EditorGuiManager.CreateScript
+  commentId: M:Prowl.Editor.EditorGuiManager.CreateScript
+  id: CreateScript
+  parent: Prowl.Editor.EditorGuiManager
+  langs:
+  - csharp
+  - vb
+  name: CreateScript()
+  nameWithType: EditorGuiManager.CreateScript()
+  fullName: Prowl.Editor.EditorGuiManager.CreateScript()
+  type: Method
+  source:
+    remote:
+      path: Prowl.Editor/EditorGuiManager.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: CreateScript
+    path: ../Prowl/Prowl.Editor/EditorGuiManager.cs
+    startLine: 458
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor
+  syntax:
+    content: public static void CreateScript()
+    content.vb: Public Shared Sub CreateScript()
+  overload: Prowl.Editor.EditorGuiManager.CreateScript*
+- uid: Prowl.Editor.EditorGuiManager.RefreshCache
+  commentId: M:Prowl.Editor.EditorGuiManager.RefreshCache
+  id: RefreshCache
+  parent: Prowl.Editor.EditorGuiManager
+  langs:
+  - csharp
+  - vb
+  name: RefreshCache()
+  nameWithType: EditorGuiManager.RefreshCache()
+  fullName: Prowl.Editor.EditorGuiManager.RefreshCache()
+  type: Method
+  source:
+    remote:
+      path: Prowl.Editor/EditorGuiManager.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: RefreshCache
+    path: ../Prowl/Prowl.Editor/EditorGuiManager.cs
+    startLine: 480
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor
+  syntax:
+    content: public static void RefreshCache()
+    content.vb: Public Shared Sub RefreshCache()
+  overload: Prowl.Editor.EditorGuiManager.RefreshCache*
+- uid: Prowl.Editor.EditorGuiManager.ReimportAll
+  commentId: M:Prowl.Editor.EditorGuiManager.ReimportAll
+  id: ReimportAll
+  parent: Prowl.Editor.EditorGuiManager
+  langs:
+  - csharp
+  - vb
+  name: ReimportAll()
+  nameWithType: EditorGuiManager.ReimportAll()
+  fullName: Prowl.Editor.EditorGuiManager.ReimportAll()
+  type: Method
+  source:
+    remote:
+      path: Prowl.Editor/EditorGuiManager.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: ReimportAll
+    path: ../Prowl/Prowl.Editor/EditorGuiManager.cs
+    startLine: 482
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor
+  syntax:
+    content: public static void ReimportAll()
+    content.vb: Public Shared Sub ReimportAll()
+  overload: Prowl.Editor.EditorGuiManager.ReimportAll*
+- uid: Prowl.Editor.EditorGuiManager.Recompile
+  commentId: M:Prowl.Editor.EditorGuiManager.Recompile
+  id: Recompile
+  parent: Prowl.Editor.EditorGuiManager
+  langs:
+  - csharp
+  - vb
+  name: Recompile()
+  nameWithType: EditorGuiManager.Recompile()
+  fullName: Prowl.Editor.EditorGuiManager.Recompile()
+  type: Method
+  source:
+    remote:
+      path: Prowl.Editor/EditorGuiManager.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Recompile
+    path: ../Prowl/Prowl.Editor/EditorGuiManager.cs
+    startLine: 484
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor
+  syntax:
+    content: public static void Recompile()
+    content.vb: Public Shared Sub Recompile()
+  overload: Prowl.Editor.EditorGuiManager.Recompile*
+- uid: Prowl.Editor.EditorGuiManager.Edit_ProjectSettings
+  commentId: M:Prowl.Editor.EditorGuiManager.Edit_ProjectSettings
+  id: Edit_ProjectSettings
+  parent: Prowl.Editor.EditorGuiManager
+  langs:
+  - csharp
+  - vb
+  name: Edit_ProjectSettings()
+  nameWithType: EditorGuiManager.Edit_ProjectSettings()
+  fullName: Prowl.Editor.EditorGuiManager.Edit_ProjectSettings()
+  type: Method
+  source:
+    remote:
+      path: Prowl.Editor/EditorGuiManager.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Edit_ProjectSettings
+    path: ../Prowl/Prowl.Editor/EditorGuiManager.cs
+    startLine: 490
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor
+  syntax:
+    content: public static void Edit_ProjectSettings()
+    content.vb: Public Shared Sub Edit_ProjectSettings()
+  overload: Prowl.Editor.EditorGuiManager.Edit_ProjectSettings*
+- uid: Prowl.Editor.EditorGuiManager.Edit_Preferences
+  commentId: M:Prowl.Editor.EditorGuiManager.Edit_Preferences
+  id: Edit_Preferences
+  parent: Prowl.Editor.EditorGuiManager
+  langs:
+  - csharp
+  - vb
+  name: Edit_Preferences()
+  nameWithType: EditorGuiManager.Edit_Preferences()
+  fullName: Prowl.Editor.EditorGuiManager.Edit_Preferences()
+  type: Method
+  source:
+    remote:
+      path: Prowl.Editor/EditorGuiManager.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Edit_Preferences
+    path: ../Prowl/Prowl.Editor/EditorGuiManager.cs
+    startLine: 491
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor
+  syntax:
+    content: public static void Edit_Preferences()
+    content.vb: Public Shared Sub Edit_Preferences()
+  overload: Prowl.Editor.EditorGuiManager.Edit_Preferences*
+- uid: Prowl.Editor.EditorGuiManager.Edit_PackageManager
+  commentId: M:Prowl.Editor.EditorGuiManager.Edit_PackageManager
+  id: Edit_PackageManager
+  parent: Prowl.Editor.EditorGuiManager
+  langs:
+  - csharp
+  - vb
+  name: Edit_PackageManager()
+  nameWithType: EditorGuiManager.Edit_PackageManager()
+  fullName: Prowl.Editor.EditorGuiManager.Edit_PackageManager()
+  type: Method
+  source:
+    remote:
+      path: Prowl.Editor/EditorGuiManager.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Edit_PackageManager
+    path: ../Prowl/Prowl.Editor/EditorGuiManager.cs
+    startLine: 493
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor
+  syntax:
+    content: public static void Edit_PackageManager()
+    content.vb: Public Shared Sub Edit_PackageManager()
+  overload: Prowl.Editor.EditorGuiManager.Edit_PackageManager*
+- uid: Prowl.Editor.EditorGuiManager.Window_SceneView
+  commentId: M:Prowl.Editor.EditorGuiManager.Window_SceneView
+  id: Window_SceneView
+  parent: Prowl.Editor.EditorGuiManager
+  langs:
+  - csharp
+  - vb
+  name: Window_SceneView()
+  nameWithType: EditorGuiManager.Window_SceneView()
+  fullName: Prowl.Editor.EditorGuiManager.Window_SceneView()
+  type: Method
+  source:
+    remote:
+      path: Prowl.Editor/EditorGuiManager.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Window_SceneView
+    path: ../Prowl/Prowl.Editor/EditorGuiManager.cs
+    startLine: 494
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor
+  syntax:
+    content: public static void Window_SceneView()
+    content.vb: Public Shared Sub Window_SceneView()
+  overload: Prowl.Editor.EditorGuiManager.Window_SceneView*
+- uid: Prowl.Editor.EditorGuiManager.Window_GameView
+  commentId: M:Prowl.Editor.EditorGuiManager.Window_GameView
+  id: Window_GameView
+  parent: Prowl.Editor.EditorGuiManager
+  langs:
+  - csharp
+  - vb
+  name: Window_GameView()
+  nameWithType: EditorGuiManager.Window_GameView()
+  fullName: Prowl.Editor.EditorGuiManager.Window_GameView()
+  type: Method
+  source:
+    remote:
+      path: Prowl.Editor/EditorGuiManager.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Window_GameView
+    path: ../Prowl/Prowl.Editor/EditorGuiManager.cs
+    startLine: 495
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor
+  syntax:
+    content: public static void Window_GameView()
+    content.vb: Public Shared Sub Window_GameView()
+  overload: Prowl.Editor.EditorGuiManager.Window_GameView*
+- uid: Prowl.Editor.EditorGuiManager.Window_Hierarchy
+  commentId: M:Prowl.Editor.EditorGuiManager.Window_Hierarchy
+  id: Window_Hierarchy
+  parent: Prowl.Editor.EditorGuiManager
+  langs:
+  - csharp
+  - vb
+  name: Window_Hierarchy()
+  nameWithType: EditorGuiManager.Window_Hierarchy()
+  fullName: Prowl.Editor.EditorGuiManager.Window_Hierarchy()
+  type: Method
+  source:
+    remote:
+      path: Prowl.Editor/EditorGuiManager.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Window_Hierarchy
+    path: ../Prowl/Prowl.Editor/EditorGuiManager.cs
+    startLine: 496
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor
+  syntax:
+    content: public static void Window_Hierarchy()
+    content.vb: Public Shared Sub Window_Hierarchy()
+  overload: Prowl.Editor.EditorGuiManager.Window_Hierarchy*
+- uid: Prowl.Editor.EditorGuiManager.Window_Inspector
+  commentId: M:Prowl.Editor.EditorGuiManager.Window_Inspector
+  id: Window_Inspector
+  parent: Prowl.Editor.EditorGuiManager
+  langs:
+  - csharp
+  - vb
+  name: Window_Inspector()
+  nameWithType: EditorGuiManager.Window_Inspector()
+  fullName: Prowl.Editor.EditorGuiManager.Window_Inspector()
+  type: Method
+  source:
+    remote:
+      path: Prowl.Editor/EditorGuiManager.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Window_Inspector
+    path: ../Prowl/Prowl.Editor/EditorGuiManager.cs
+    startLine: 497
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor
+  syntax:
+    content: public static void Window_Inspector()
+    content.vb: Public Shared Sub Window_Inspector()
+  overload: Prowl.Editor.EditorGuiManager.Window_Inspector*
+- uid: Prowl.Editor.EditorGuiManager.Window_AssetsBrowser
+  commentId: M:Prowl.Editor.EditorGuiManager.Window_AssetsBrowser
+  id: Window_AssetsBrowser
+  parent: Prowl.Editor.EditorGuiManager
+  langs:
+  - csharp
+  - vb
+  name: Window_AssetsBrowser()
+  nameWithType: EditorGuiManager.Window_AssetsBrowser()
+  fullName: Prowl.Editor.EditorGuiManager.Window_AssetsBrowser()
+  type: Method
+  source:
+    remote:
+      path: Prowl.Editor/EditorGuiManager.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Window_AssetsBrowser
+    path: ../Prowl/Prowl.Editor/EditorGuiManager.cs
+    startLine: 498
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor
+  syntax:
+    content: public static void Window_AssetsBrowser()
+    content.vb: Public Shared Sub Window_AssetsBrowser()
+  overload: Prowl.Editor.EditorGuiManager.Window_AssetsBrowser*
+- uid: Prowl.Editor.EditorGuiManager.Window_AssetsTree
+  commentId: M:Prowl.Editor.EditorGuiManager.Window_AssetsTree
+  id: Window_AssetsTree
+  parent: Prowl.Editor.EditorGuiManager
+  langs:
+  - csharp
+  - vb
+  name: Window_AssetsTree()
+  nameWithType: EditorGuiManager.Window_AssetsTree()
+  fullName: Prowl.Editor.EditorGuiManager.Window_AssetsTree()
+  type: Method
+  source:
+    remote:
+      path: Prowl.Editor/EditorGuiManager.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Window_AssetsTree
+    path: ../Prowl/Prowl.Editor/EditorGuiManager.cs
+    startLine: 499
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor
+  syntax:
+    content: public static void Window_AssetsTree()
+    content.vb: Public Shared Sub Window_AssetsTree()
+  overload: Prowl.Editor.EditorGuiManager.Window_AssetsTree*
+- uid: Prowl.Editor.EditorGuiManager.Window_Console
+  commentId: M:Prowl.Editor.EditorGuiManager.Window_Console
+  id: Window_Console
+  parent: Prowl.Editor.EditorGuiManager
+  langs:
+  - csharp
+  - vb
+  name: Window_Console()
+  nameWithType: EditorGuiManager.Window_Console()
+  fullName: Prowl.Editor.EditorGuiManager.Window_Console()
+  type: Method
+  source:
+    remote:
+      path: Prowl.Editor/EditorGuiManager.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Window_Console
+    path: ../Prowl/Prowl.Editor/EditorGuiManager.cs
+    startLine: 500
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor
+  syntax:
+    content: public static void Window_Console()
+    content.vb: Public Shared Sub Window_Console()
+  overload: Prowl.Editor.EditorGuiManager.Window_Console*
+- uid: Prowl.Editor.EditorGuiManager.Window_ProjectSettings
+  commentId: M:Prowl.Editor.EditorGuiManager.Window_ProjectSettings
+  id: Window_ProjectSettings
+  parent: Prowl.Editor.EditorGuiManager
+  langs:
+  - csharp
+  - vb
+  name: Window_ProjectSettings()
+  nameWithType: EditorGuiManager.Window_ProjectSettings()
+  fullName: Prowl.Editor.EditorGuiManager.Window_ProjectSettings()
+  type: Method
+  source:
+    remote:
+      path: Prowl.Editor/EditorGuiManager.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Window_ProjectSettings
+    path: ../Prowl/Prowl.Editor/EditorGuiManager.cs
+    startLine: 501
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor
+  syntax:
+    content: public static void Window_ProjectSettings()
+    content.vb: Public Shared Sub Window_ProjectSettings()
+  overload: Prowl.Editor.EditorGuiManager.Window_ProjectSettings*
+- uid: Prowl.Editor.EditorGuiManager.Window_Preferences
+  commentId: M:Prowl.Editor.EditorGuiManager.Window_Preferences
+  id: Window_Preferences
+  parent: Prowl.Editor.EditorGuiManager
+  langs:
+  - csharp
+  - vb
+  name: Window_Preferences()
+  nameWithType: EditorGuiManager.Window_Preferences()
+  fullName: Prowl.Editor.EditorGuiManager.Window_Preferences()
+  type: Method
+  source:
+    remote:
+      path: Prowl.Editor/EditorGuiManager.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Window_Preferences
+    path: ../Prowl/Prowl.Editor/EditorGuiManager.cs
+    startLine: 502
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor
+  syntax:
+    content: public static void Window_Preferences()
+    content.vb: Public Shared Sub Window_Preferences()
+  overload: Prowl.Editor.EditorGuiManager.Window_Preferences*
+references:
+- uid: Prowl.Editor
+  commentId: N:Prowl.Editor
+  href: Prowl.html
+  name: Prowl.Editor
+  nameWithType: Prowl.Editor
+  fullName: Prowl.Editor
+  spec.csharp:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Editor
+    name: Editor
+    href: Prowl.Editor.html
+  spec.vb:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Editor
+    name: Editor
+    href: Prowl.Editor.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Prowl.Editor.EditorGuiManager.SelectedColor*
+  commentId: Overload:Prowl.Editor.EditorGuiManager.SelectedColor
+  href: Prowl.Editor.EditorGuiManager.html#Prowl_Editor_EditorGuiManager_SelectedColor
+  name: SelectedColor
+  nameWithType: EditorGuiManager.SelectedColor
+  fullName: Prowl.Editor.EditorGuiManager.SelectedColor
+- uid: System.Numerics.Vector4
+  commentId: T:System.Numerics.Vector4
+  parent: System.Numerics
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.numerics.vector4
+  name: Vector4
+  nameWithType: Vector4
+  fullName: System.Numerics.Vector4
+- uid: System.Numerics
+  commentId: N:System.Numerics
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Numerics
+  nameWithType: System.Numerics
+  fullName: System.Numerics
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Numerics
+    name: Numerics
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.numerics
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Numerics
+    name: Numerics
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.numerics
+- uid: Prowl.Runtime.GUI.Gui
+  commentId: T:Prowl.Runtime.GUI.Gui
+  parent: Prowl.Runtime.GUI
+  href: Prowl.Runtime.GUI.Gui.html
+  name: Gui
+  nameWithType: Gui
+  fullName: Prowl.Runtime.GUI.Gui
+- uid: Prowl.Runtime.GUI
+  commentId: N:Prowl.Runtime.GUI
+  href: Prowl.html
+  name: Prowl.Runtime.GUI
+  nameWithType: Prowl.Runtime.GUI
+  fullName: Prowl.Runtime.GUI
+  spec.csharp:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+  - name: .
+  - uid: Prowl.Runtime.GUI
+    name: GUI
+    href: Prowl.Runtime.GUI.html
+  spec.vb:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+  - name: .
+  - uid: Prowl.Runtime.GUI
+    name: GUI
+    href: Prowl.Runtime.GUI.html
+- uid: Prowl.Editor.Docking.DockContainer
+  commentId: T:Prowl.Editor.Docking.DockContainer
+  parent: Prowl.Editor.Docking
+  href: Prowl.Editor.Docking.DockContainer.html
+  name: DockContainer
+  nameWithType: DockContainer
+  fullName: Prowl.Editor.Docking.DockContainer
+- uid: Prowl.Editor.Docking
+  commentId: N:Prowl.Editor.Docking
+  href: Prowl.html
+  name: Prowl.Editor.Docking
+  nameWithType: Prowl.Editor.Docking
+  fullName: Prowl.Editor.Docking
+  spec.csharp:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Editor
+    name: Editor
+    href: Prowl.Editor.html
+  - name: .
+  - uid: Prowl.Editor.Docking
+    name: Docking
+    href: Prowl.Editor.Docking.html
+  spec.vb:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Editor
+    name: Editor
+    href: Prowl.Editor.html
+  - name: .
+  - uid: Prowl.Editor.Docking
+    name: Docking
+    href: Prowl.Editor.Docking.html
+- uid: Prowl.Editor.EditorWindow
+  commentId: T:Prowl.Editor.EditorWindow
+  parent: Prowl.Editor
+  href: Prowl.Editor.EditorWindow.html
+  name: EditorWindow
+  nameWithType: EditorWindow
+  fullName: Prowl.Editor.EditorWindow
+- uid: Prowl.Editor.Docking.DockNode
+  commentId: T:Prowl.Editor.Docking.DockNode
+  parent: Prowl.Editor.Docking
+  href: Prowl.Editor.Docking.DockNode.html
+  name: DockNode
+  nameWithType: DockNode
+  fullName: Prowl.Editor.Docking.DockNode
+- uid: System.WeakReference
+  commentId: T:System.WeakReference
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.weakreference
+  name: WeakReference
+  nameWithType: WeakReference
+  fullName: System.WeakReference
+- uid: System.Collections.Generic.List{Prowl.Editor.EditorWindow}
+  commentId: T:System.Collections.Generic.List{Prowl.Editor.EditorWindow}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<EditorWindow>
+  nameWithType: List<EditorWindow>
+  fullName: System.Collections.Generic.List<Prowl.Editor.EditorWindow>
+  nameWithType.vb: List(Of EditorWindow)
+  fullName.vb: System.Collections.Generic.List(Of Prowl.Editor.EditorWindow)
+  name.vb: List(Of EditorWindow)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - uid: Prowl.Editor.EditorWindow
+    name: EditorWindow
+    href: Prowl.Editor.EditorWindow.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Prowl.Editor.EditorWindow
+    name: EditorWindow
+    href: Prowl.Editor.EditorWindow.html
+  - name: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: Prowl.Editor.EditorGuiManager.Initialize*
+  commentId: Overload:Prowl.Editor.EditorGuiManager.Initialize
+  href: Prowl.Editor.EditorGuiManager.html#Prowl_Editor_EditorGuiManager_Initialize
+  name: Initialize
+  nameWithType: EditorGuiManager.Initialize
+  fullName: Prowl.Editor.EditorGuiManager.Initialize
+- uid: Prowl.Editor.EditorGuiManager.FocusWindow*
+  commentId: Overload:Prowl.Editor.EditorGuiManager.FocusWindow
+  href: Prowl.Editor.EditorGuiManager.html#Prowl_Editor_EditorGuiManager_FocusWindow_Prowl_Editor_EditorWindow_
+  name: FocusWindow
+  nameWithType: EditorGuiManager.FocusWindow
+  fullName: Prowl.Editor.EditorGuiManager.FocusWindow
+- uid: Prowl.Editor.EditorGuiManager.DockWindowTo*
+  commentId: Overload:Prowl.Editor.EditorGuiManager.DockWindowTo
+  href: Prowl.Editor.EditorGuiManager.html#Prowl_Editor_EditorGuiManager_DockWindowTo_Prowl_Editor_EditorWindow_Prowl_Editor_Docking_DockNode_Prowl_Editor_Docking_DockZone_System_Double_
+  name: DockWindowTo
+  nameWithType: EditorGuiManager.DockWindowTo
+  fullName: Prowl.Editor.EditorGuiManager.DockWindowTo
+- uid: Prowl.Editor.Docking.DockZone
+  commentId: T:Prowl.Editor.Docking.DockZone
+  parent: Prowl.Editor.Docking
+  href: Prowl.Editor.Docking.DockZone.html
+  name: DockZone
+  nameWithType: DockZone
+  fullName: Prowl.Editor.Docking.DockZone
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.double
+  name: double
+  nameWithType: double
+  fullName: double
+  nameWithType.vb: Double
+  fullName.vb: Double
+  name.vb: Double
+- uid: Prowl.Editor.EditorGuiManager.Update*
+  commentId: Overload:Prowl.Editor.EditorGuiManager.Update
+  href: Prowl.Editor.EditorGuiManager.html#Prowl_Editor_EditorGuiManager_Update
+  name: Update
+  nameWithType: EditorGuiManager.Update
+  fullName: Prowl.Editor.EditorGuiManager.Update
+- uid: Prowl.Editor.EditorGuiManager.NewScene*
+  commentId: Overload:Prowl.Editor.EditorGuiManager.NewScene
+  href: Prowl.Editor.EditorGuiManager.html#Prowl_Editor_EditorGuiManager_NewScene
+  name: NewScene
+  nameWithType: EditorGuiManager.NewScene
+  fullName: Prowl.Editor.EditorGuiManager.NewScene
+- uid: Prowl.Editor.EditorGuiManager.SaveScene*
+  commentId: Overload:Prowl.Editor.EditorGuiManager.SaveScene
+  href: Prowl.Editor.EditorGuiManager.html#Prowl_Editor_EditorGuiManager_SaveScene
+  name: SaveScene
+  nameWithType: EditorGuiManager.SaveScene
+  fullName: Prowl.Editor.EditorGuiManager.SaveScene
+- uid: Prowl.Editor.EditorGuiManager.SaveSceneAs*
+  commentId: Overload:Prowl.Editor.EditorGuiManager.SaveSceneAs
+  href: Prowl.Editor.EditorGuiManager.html#Prowl_Editor_EditorGuiManager_SaveSceneAs
+  name: SaveSceneAs
+  nameWithType: EditorGuiManager.SaveSceneAs
+  fullName: Prowl.Editor.EditorGuiManager.SaveSceneAs
+- uid: Prowl.Editor.EditorGuiManager.File_BuildProject*
+  commentId: Overload:Prowl.Editor.EditorGuiManager.File_BuildProject
+  href: Prowl.Editor.EditorGuiManager.html#Prowl_Editor_EditorGuiManager_File_BuildProject
+  name: File_BuildProject
+  nameWithType: EditorGuiManager.File_BuildProject
+  fullName: Prowl.Editor.EditorGuiManager.File_BuildProject
+- uid: Prowl.Editor.EditorGuiManager.Create_3D_Cube*
+  commentId: Overload:Prowl.Editor.EditorGuiManager.Create_3D_Cube
+  href: Prowl.Editor.EditorGuiManager.html#Prowl_Editor_EditorGuiManager_Create_3D_Cube
+  name: Create_3D_Cube
+  nameWithType: EditorGuiManager.Create_3D_Cube
+  fullName: Prowl.Editor.EditorGuiManager.Create_3D_Cube
+- uid: Prowl.Editor.EditorGuiManager.Create_3D_Sphere*
+  commentId: Overload:Prowl.Editor.EditorGuiManager.Create_3D_Sphere
+  href: Prowl.Editor.EditorGuiManager.html#Prowl_Editor_EditorGuiManager_Create_3D_Sphere
+  name: Create_3D_Sphere
+  nameWithType: EditorGuiManager.Create_3D_Sphere
+  fullName: Prowl.Editor.EditorGuiManager.Create_3D_Sphere
+- uid: Prowl.Editor.EditorGuiManager.Create_3D_Cylinder*
+  commentId: Overload:Prowl.Editor.EditorGuiManager.Create_3D_Cylinder
+  href: Prowl.Editor.EditorGuiManager.html#Prowl_Editor_EditorGuiManager_Create_3D_Cylinder
+  name: Create_3D_Cylinder
+  nameWithType: EditorGuiManager.Create_3D_Cylinder
+  fullName: Prowl.Editor.EditorGuiManager.Create_3D_Cylinder
+- uid: Prowl.Editor.EditorGuiManager.Create_3D_Capsule*
+  commentId: Overload:Prowl.Editor.EditorGuiManager.Create_3D_Capsule
+  href: Prowl.Editor.EditorGuiManager.html#Prowl_Editor_EditorGuiManager_Create_3D_Capsule
+  name: Create_3D_Capsule
+  nameWithType: EditorGuiManager.Create_3D_Capsule
+  fullName: Prowl.Editor.EditorGuiManager.Create_3D_Capsule
+- uid: Prowl.Editor.EditorGuiManager.Create_3D_Plane*
+  commentId: Overload:Prowl.Editor.EditorGuiManager.Create_3D_Plane
+  href: Prowl.Editor.EditorGuiManager.html#Prowl_Editor_EditorGuiManager_Create_3D_Plane
+  name: Create_3D_Plane
+  nameWithType: EditorGuiManager.Create_3D_Plane
+  fullName: Prowl.Editor.EditorGuiManager.Create_3D_Plane
+- uid: Prowl.Editor.EditorGuiManager.Create_3D_Quad*
+  commentId: Overload:Prowl.Editor.EditorGuiManager.Create_3D_Quad
+  href: Prowl.Editor.EditorGuiManager.html#Prowl_Editor_EditorGuiManager_Create_3D_Quad
+  name: Create_3D_Quad
+  nameWithType: EditorGuiManager.Create_3D_Quad
+  fullName: Prowl.Editor.EditorGuiManager.Create_3D_Quad
+- uid: Prowl.Editor.EditorGuiManager.Create_Light_DirectionalLight*
+  commentId: Overload:Prowl.Editor.EditorGuiManager.Create_Light_DirectionalLight
+  href: Prowl.Editor.EditorGuiManager.html#Prowl_Editor_EditorGuiManager_Create_Light_DirectionalLight
+  name: Create_Light_DirectionalLight
+  nameWithType: EditorGuiManager.Create_Light_DirectionalLight
+  fullName: Prowl.Editor.EditorGuiManager.Create_Light_DirectionalLight
+- uid: Prowl.Editor.EditorGuiManager.Create_Light_PointLight*
+  commentId: Overload:Prowl.Editor.EditorGuiManager.Create_Light_PointLight
+  href: Prowl.Editor.EditorGuiManager.html#Prowl_Editor_EditorGuiManager_Create_Light_PointLight
+  name: Create_Light_PointLight
+  nameWithType: EditorGuiManager.Create_Light_PointLight
+  fullName: Prowl.Editor.EditorGuiManager.Create_Light_PointLight
+- uid: Prowl.Editor.EditorGuiManager.Create_Light_SpotLight*
+  commentId: Overload:Prowl.Editor.EditorGuiManager.Create_Light_SpotLight
+  href: Prowl.Editor.EditorGuiManager.html#Prowl_Editor_EditorGuiManager_Create_Light_SpotLight
+  name: Create_Light_SpotLight
+  nameWithType: EditorGuiManager.Create_Light_SpotLight
+  fullName: Prowl.Editor.EditorGuiManager.Create_Light_SpotLight
+- uid: Prowl.Editor.EditorGuiManager.Directory*
+  commentId: Overload:Prowl.Editor.EditorGuiManager.Directory
+  href: Prowl.Editor.EditorGuiManager.html#Prowl_Editor_EditorGuiManager_Directory
+  name: Directory
+  nameWithType: EditorGuiManager.Directory
+  fullName: Prowl.Editor.EditorGuiManager.Directory
+- uid: System.IO.DirectoryInfo
+  commentId: T:System.IO.DirectoryInfo
+  parent: System.IO
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.io.directoryinfo
+  name: DirectoryInfo
+  nameWithType: DirectoryInfo
+  fullName: System.IO.DirectoryInfo
+- uid: System.IO
+  commentId: N:System.IO
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.IO
+  nameWithType: System.IO
+  fullName: System.IO
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.IO
+    name: IO
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.io
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.IO
+    name: IO
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.io
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: Prowl.Editor.EditorGuiManager.CreateDir*
+  commentId: Overload:Prowl.Editor.EditorGuiManager.CreateDir
+  href: Prowl.Editor.EditorGuiManager.html#Prowl_Editor_EditorGuiManager_CreateDir
+  name: CreateDir
+  nameWithType: EditorGuiManager.CreateDir
+  fullName: Prowl.Editor.EditorGuiManager.CreateDir
+- uid: Prowl.Editor.EditorGuiManager.CreateMaterial*
+  commentId: Overload:Prowl.Editor.EditorGuiManager.CreateMaterial
+  href: Prowl.Editor.EditorGuiManager.html#Prowl_Editor_EditorGuiManager_CreateMaterial
+  name: CreateMaterial
+  nameWithType: EditorGuiManager.CreateMaterial
+  fullName: Prowl.Editor.EditorGuiManager.CreateMaterial
+- uid: Prowl.Editor.EditorGuiManager.CreateScript*
+  commentId: Overload:Prowl.Editor.EditorGuiManager.CreateScript
+  href: Prowl.Editor.EditorGuiManager.html#Prowl_Editor_EditorGuiManager_CreateScript
+  name: CreateScript
+  nameWithType: EditorGuiManager.CreateScript
+  fullName: Prowl.Editor.EditorGuiManager.CreateScript
+- uid: Prowl.Editor.EditorGuiManager.RefreshCache*
+  commentId: Overload:Prowl.Editor.EditorGuiManager.RefreshCache
+  href: Prowl.Editor.EditorGuiManager.html#Prowl_Editor_EditorGuiManager_RefreshCache
+  name: RefreshCache
+  nameWithType: EditorGuiManager.RefreshCache
+  fullName: Prowl.Editor.EditorGuiManager.RefreshCache
+- uid: Prowl.Editor.EditorGuiManager.ReimportAll*
+  commentId: Overload:Prowl.Editor.EditorGuiManager.ReimportAll
+  href: Prowl.Editor.EditorGuiManager.html#Prowl_Editor_EditorGuiManager_ReimportAll
+  name: ReimportAll
+  nameWithType: EditorGuiManager.ReimportAll
+  fullName: Prowl.Editor.EditorGuiManager.ReimportAll
+- uid: Prowl.Editor.EditorGuiManager.Recompile*
+  commentId: Overload:Prowl.Editor.EditorGuiManager.Recompile
+  href: Prowl.Editor.EditorGuiManager.html#Prowl_Editor_EditorGuiManager_Recompile
+  name: Recompile
+  nameWithType: EditorGuiManager.Recompile
+  fullName: Prowl.Editor.EditorGuiManager.Recompile
+- uid: Prowl.Editor.EditorGuiManager.Edit_ProjectSettings*
+  commentId: Overload:Prowl.Editor.EditorGuiManager.Edit_ProjectSettings
+  href: Prowl.Editor.EditorGuiManager.html#Prowl_Editor_EditorGuiManager_Edit_ProjectSettings
+  name: Edit_ProjectSettings
+  nameWithType: EditorGuiManager.Edit_ProjectSettings
+  fullName: Prowl.Editor.EditorGuiManager.Edit_ProjectSettings
+- uid: Prowl.Editor.EditorGuiManager.Edit_Preferences*
+  commentId: Overload:Prowl.Editor.EditorGuiManager.Edit_Preferences
+  href: Prowl.Editor.EditorGuiManager.html#Prowl_Editor_EditorGuiManager_Edit_Preferences
+  name: Edit_Preferences
+  nameWithType: EditorGuiManager.Edit_Preferences
+  fullName: Prowl.Editor.EditorGuiManager.Edit_Preferences
+- uid: Prowl.Editor.EditorGuiManager.Edit_PackageManager*
+  commentId: Overload:Prowl.Editor.EditorGuiManager.Edit_PackageManager
+  href: Prowl.Editor.EditorGuiManager.html#Prowl_Editor_EditorGuiManager_Edit_PackageManager
+  name: Edit_PackageManager
+  nameWithType: EditorGuiManager.Edit_PackageManager
+  fullName: Prowl.Editor.EditorGuiManager.Edit_PackageManager
+- uid: Prowl.Editor.EditorGuiManager.Window_SceneView*
+  commentId: Overload:Prowl.Editor.EditorGuiManager.Window_SceneView
+  href: Prowl.Editor.EditorGuiManager.html#Prowl_Editor_EditorGuiManager_Window_SceneView
+  name: Window_SceneView
+  nameWithType: EditorGuiManager.Window_SceneView
+  fullName: Prowl.Editor.EditorGuiManager.Window_SceneView
+- uid: Prowl.Editor.EditorGuiManager.Window_GameView*
+  commentId: Overload:Prowl.Editor.EditorGuiManager.Window_GameView
+  href: Prowl.Editor.EditorGuiManager.html#Prowl_Editor_EditorGuiManager_Window_GameView
+  name: Window_GameView
+  nameWithType: EditorGuiManager.Window_GameView
+  fullName: Prowl.Editor.EditorGuiManager.Window_GameView
+- uid: Prowl.Editor.EditorGuiManager.Window_Hierarchy*
+  commentId: Overload:Prowl.Editor.EditorGuiManager.Window_Hierarchy
+  href: Prowl.Editor.EditorGuiManager.html#Prowl_Editor_EditorGuiManager_Window_Hierarchy
+  name: Window_Hierarchy
+  nameWithType: EditorGuiManager.Window_Hierarchy
+  fullName: Prowl.Editor.EditorGuiManager.Window_Hierarchy
+- uid: Prowl.Editor.EditorGuiManager.Window_Inspector*
+  commentId: Overload:Prowl.Editor.EditorGuiManager.Window_Inspector
+  href: Prowl.Editor.EditorGuiManager.html#Prowl_Editor_EditorGuiManager_Window_Inspector
+  name: Window_Inspector
+  nameWithType: EditorGuiManager.Window_Inspector
+  fullName: Prowl.Editor.EditorGuiManager.Window_Inspector
+- uid: Prowl.Editor.EditorGuiManager.Window_AssetsBrowser*
+  commentId: Overload:Prowl.Editor.EditorGuiManager.Window_AssetsBrowser
+  href: Prowl.Editor.EditorGuiManager.html#Prowl_Editor_EditorGuiManager_Window_AssetsBrowser
+  name: Window_AssetsBrowser
+  nameWithType: EditorGuiManager.Window_AssetsBrowser
+  fullName: Prowl.Editor.EditorGuiManager.Window_AssetsBrowser
+- uid: Prowl.Editor.EditorGuiManager.Window_AssetsTree*
+  commentId: Overload:Prowl.Editor.EditorGuiManager.Window_AssetsTree
+  href: Prowl.Editor.EditorGuiManager.html#Prowl_Editor_EditorGuiManager_Window_AssetsTree
+  name: Window_AssetsTree
+  nameWithType: EditorGuiManager.Window_AssetsTree
+  fullName: Prowl.Editor.EditorGuiManager.Window_AssetsTree
+- uid: Prowl.Editor.EditorGuiManager.Window_Console*
+  commentId: Overload:Prowl.Editor.EditorGuiManager.Window_Console
+  href: Prowl.Editor.EditorGuiManager.html#Prowl_Editor_EditorGuiManager_Window_Console
+  name: Window_Console
+  nameWithType: EditorGuiManager.Window_Console
+  fullName: Prowl.Editor.EditorGuiManager.Window_Console
+- uid: Prowl.Editor.EditorGuiManager.Window_ProjectSettings*
+  commentId: Overload:Prowl.Editor.EditorGuiManager.Window_ProjectSettings
+  href: Prowl.Editor.EditorGuiManager.html#Prowl_Editor_EditorGuiManager_Window_ProjectSettings
+  name: Window_ProjectSettings
+  nameWithType: EditorGuiManager.Window_ProjectSettings
+  fullName: Prowl.Editor.EditorGuiManager.Window_ProjectSettings
+- uid: Prowl.Editor.EditorGuiManager.Window_Preferences*
+  commentId: Overload:Prowl.Editor.EditorGuiManager.Window_Preferences
+  href: Prowl.Editor.EditorGuiManager.html#Prowl_Editor_EditorGuiManager_Window_Preferences
+  name: Window_Preferences
+  nameWithType: EditorGuiManager.Window_Preferences
+  fullName: Prowl.Editor.EditorGuiManager.Window_Preferences

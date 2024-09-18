@@ -1,0 +1,198 @@
+### YamlMime:ManagedReference
+items:
+- uid: Prowl.Runtime.AnimationState.BlendMode
+  commentId: T:Prowl.Runtime.AnimationState.BlendMode
+  id: AnimationState.BlendMode
+  parent: Prowl.Runtime
+  children:
+  - Prowl.Runtime.AnimationState.BlendMode.Additive
+  - Prowl.Runtime.AnimationState.BlendMode.Blend
+  langs:
+  - csharp
+  - vb
+  name: AnimationState.BlendMode
+  nameWithType: AnimationState.BlendMode
+  fullName: Prowl.Runtime.AnimationState.BlendMode
+  type: Enum
+  source:
+    remote:
+      path: Prowl.Runtime/Components/Animation.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: BlendMode
+    path: ../Prowl/Prowl.Runtime/Components/Animation.cs
+    startLine: 225
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public enum AnimationState.BlendMode
+    content.vb: Public Enum AnimationState.BlendMode
+  extensionMethods:
+  - System.Object.Prowl.Runtime.RuntimeUtils.GetSerializableFields
+- uid: Prowl.Runtime.AnimationState.BlendMode.Blend
+  commentId: F:Prowl.Runtime.AnimationState.BlendMode.Blend
+  id: Blend
+  parent: Prowl.Runtime.AnimationState.BlendMode
+  langs:
+  - csharp
+  - vb
+  name: Blend
+  nameWithType: AnimationState.BlendMode.Blend
+  fullName: Prowl.Runtime.AnimationState.BlendMode.Blend
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/Components/Animation.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Blend
+    path: ../Prowl/Prowl.Runtime/Components/Animation.cs
+    startLine: 227
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: Blend = 0
+    return:
+      type: Prowl.Runtime.AnimationState.BlendMode
+- uid: Prowl.Runtime.AnimationState.BlendMode.Additive
+  commentId: F:Prowl.Runtime.AnimationState.BlendMode.Additive
+  id: Additive
+  parent: Prowl.Runtime.AnimationState.BlendMode
+  langs:
+  - csharp
+  - vb
+  name: Additive
+  nameWithType: AnimationState.BlendMode.Additive
+  fullName: Prowl.Runtime.AnimationState.BlendMode.Additive
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/Components/Animation.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Additive
+    path: ../Prowl/Prowl.Runtime/Components/Animation.cs
+    startLine: 228
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: Additive = 1
+    return:
+      type: Prowl.Runtime.AnimationState.BlendMode
+references:
+- uid: Prowl.Runtime
+  commentId: N:Prowl.Runtime
+  href: Prowl.html
+  name: Prowl.Runtime
+  nameWithType: Prowl.Runtime
+  fullName: Prowl.Runtime
+  spec.csharp:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+  spec.vb:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+- uid: System.Object.Prowl.Runtime.RuntimeUtils.GetSerializableFields
+  commentId: M:Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  parent: Prowl.Runtime.RuntimeUtils
+  definition: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  name: GetSerializableFields(object)
+  nameWithType: RuntimeUtils.GetSerializableFields(object)
+  fullName: Prowl.Runtime.RuntimeUtils.GetSerializableFields(object)
+  nameWithType.vb: RuntimeUtils.GetSerializableFields(Object)
+  fullName.vb: Prowl.Runtime.RuntimeUtils.GetSerializableFields(Object)
+  name.vb: GetSerializableFields(Object)
+  spec.csharp:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  commentId: M:Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  isExternal: true
+  href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  name: GetSerializableFields(object)
+  nameWithType: RuntimeUtils.GetSerializableFields(object)
+  fullName: Prowl.Runtime.RuntimeUtils.GetSerializableFields(object)
+  nameWithType.vb: RuntimeUtils.GetSerializableFields(Object)
+  fullName.vb: Prowl.Runtime.RuntimeUtils.GetSerializableFields(Object)
+  name.vb: GetSerializableFields(Object)
+  spec.csharp:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: Prowl.Runtime.RuntimeUtils
+  commentId: T:Prowl.Runtime.RuntimeUtils
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.RuntimeUtils.html
+  name: RuntimeUtils
+  nameWithType: RuntimeUtils
+  fullName: Prowl.Runtime.RuntimeUtils
+- uid: Prowl.Runtime.AnimationState.BlendMode
+  commentId: T:Prowl.Runtime.AnimationState.BlendMode
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.AnimationState.html
+  name: AnimationState.BlendMode
+  nameWithType: AnimationState.BlendMode
+  fullName: Prowl.Runtime.AnimationState.BlendMode
+  spec.csharp:
+  - uid: Prowl.Runtime.AnimationState
+    name: AnimationState
+    href: Prowl.Runtime.AnimationState.html
+  - name: .
+  - uid: Prowl.Runtime.AnimationState.BlendMode
+    name: BlendMode
+    href: Prowl.Runtime.AnimationState.BlendMode.html
+  spec.vb:
+  - uid: Prowl.Runtime.AnimationState
+    name: AnimationState
+    href: Prowl.Runtime.AnimationState.html
+  - name: .
+  - uid: Prowl.Runtime.AnimationState.BlendMode
+    name: BlendMode
+    href: Prowl.Runtime.AnimationState.BlendMode.html

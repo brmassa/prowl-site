@@ -1,0 +1,735 @@
+### YamlMime:ManagedReference
+items:
+- uid: Prowl.Runtime.VertexInput
+  commentId: T:Prowl.Runtime.VertexInput
+  id: VertexInput
+  parent: Prowl.Runtime
+  children:
+  - Prowl.Runtime.VertexInput.#ctor(System.String,Veldrid.VertexElementFormat)
+  - Prowl.Runtime.VertexInput.Equals(Prowl.Runtime.VertexInput)
+  - Prowl.Runtime.VertexInput.Equals(System.Object)
+  - Prowl.Runtime.VertexInput.GetHashCode
+  - Prowl.Runtime.VertexInput.format
+  - Prowl.Runtime.VertexInput.semantic
+  langs:
+  - csharp
+  - vb
+  name: VertexInput
+  nameWithType: VertexInput
+  fullName: Prowl.Runtime.VertexInput
+  type: Struct
+  source:
+    remote:
+      path: Prowl.Runtime/Rendering/Shader/VertexInput.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: VertexInput
+    path: ../Prowl/Prowl.Runtime/Rendering/Shader/VertexInput.cs
+    startLine: 9
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: 'public readonly struct VertexInput : IEquatable<VertexInput>'
+    content.vb: Public Structure VertexInput Implements IEquatable(Of VertexInput)
+  implements:
+  - System.IEquatable{Prowl.Runtime.VertexInput}
+  inheritedMembers:
+  - System.ValueType.ToString
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  extensionMethods:
+  - System.Object.Prowl.Runtime.RuntimeUtils.GetSerializableFields
+- uid: Prowl.Runtime.VertexInput.semantic
+  commentId: F:Prowl.Runtime.VertexInput.semantic
+  id: semantic
+  parent: Prowl.Runtime.VertexInput
+  langs:
+  - csharp
+  - vb
+  name: semantic
+  nameWithType: VertexInput.semantic
+  fullName: Prowl.Runtime.VertexInput.semantic
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/Rendering/Shader/VertexInput.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: semantic
+    path: ../Prowl/Prowl.Runtime/Rendering/Shader/VertexInput.cs
+    startLine: 11
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public readonly string semantic
+    return:
+      type: System.String
+    content.vb: Public ReadOnly semantic As String
+- uid: Prowl.Runtime.VertexInput.format
+  commentId: F:Prowl.Runtime.VertexInput.format
+  id: format
+  parent: Prowl.Runtime.VertexInput
+  langs:
+  - csharp
+  - vb
+  name: format
+  nameWithType: VertexInput.format
+  fullName: Prowl.Runtime.VertexInput.format
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/Rendering/Shader/VertexInput.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: format
+    path: ../Prowl/Prowl.Runtime/Rendering/Shader/VertexInput.cs
+    startLine: 12
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public readonly VertexElementFormat format
+    return:
+      type: Veldrid.VertexElementFormat
+    content.vb: Public ReadOnly format As VertexElementFormat
+- uid: Prowl.Runtime.VertexInput.#ctor(System.String,Veldrid.VertexElementFormat)
+  commentId: M:Prowl.Runtime.VertexInput.#ctor(System.String,Veldrid.VertexElementFormat)
+  id: '#ctor(System.String,Veldrid.VertexElementFormat)'
+  parent: Prowl.Runtime.VertexInput
+  langs:
+  - csharp
+  - vb
+  name: VertexInput(string, VertexElementFormat)
+  nameWithType: VertexInput.VertexInput(string, VertexElementFormat)
+  fullName: Prowl.Runtime.VertexInput.VertexInput(string, Veldrid.VertexElementFormat)
+  type: Constructor
+  source:
+    remote:
+      path: Prowl.Runtime/Rendering/Shader/VertexInput.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: .ctor
+    path: ../Prowl/Prowl.Runtime/Rendering/Shader/VertexInput.cs
+    startLine: 14
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public VertexInput(string semantic, VertexElementFormat format)
+    parameters:
+    - id: semantic
+      type: System.String
+    - id: format
+      type: Veldrid.VertexElementFormat
+    content.vb: Public Sub New(semantic As String, format As VertexElementFormat)
+  overload: Prowl.Runtime.VertexInput.#ctor*
+  nameWithType.vb: VertexInput.New(String, VertexElementFormat)
+  fullName.vb: Prowl.Runtime.VertexInput.New(String, Veldrid.VertexElementFormat)
+  name.vb: New(String, VertexElementFormat)
+- uid: Prowl.Runtime.VertexInput.Equals(System.Object)
+  commentId: M:Prowl.Runtime.VertexInput.Equals(System.Object)
+  id: Equals(System.Object)
+  parent: Prowl.Runtime.VertexInput
+  langs:
+  - csharp
+  - vb
+  name: Equals(object?)
+  nameWithType: VertexInput.Equals(object?)
+  fullName: Prowl.Runtime.VertexInput.Equals(object?)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Rendering/Shader/VertexInput.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Equals
+    path: ../Prowl/Prowl.Runtime/Rendering/Shader/VertexInput.cs
+    startLine: 20
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: Indicates whether this instance and a specified object are equal.
+  example: []
+  syntax:
+    content: public override bool Equals(object? obj)
+    parameters:
+    - id: obj
+      type: System.Object
+      description: The object to compare with the current instance.
+    return:
+      type: System.Boolean
+      description: <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if <code class="paramref">obj</code> and this instance are the same type and represent the same value; otherwise, <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a>.
+    content.vb: Public Overrides Function Equals(obj As Object) As Boolean
+  overridden: System.ValueType.Equals(System.Object)
+  overload: Prowl.Runtime.VertexInput.Equals*
+  nameWithType.vb: VertexInput.Equals(Object)
+  fullName.vb: Prowl.Runtime.VertexInput.Equals(Object)
+  name.vb: Equals(Object)
+- uid: Prowl.Runtime.VertexInput.Equals(Prowl.Runtime.VertexInput)
+  commentId: M:Prowl.Runtime.VertexInput.Equals(Prowl.Runtime.VertexInput)
+  id: Equals(Prowl.Runtime.VertexInput)
+  parent: Prowl.Runtime.VertexInput
+  langs:
+  - csharp
+  - vb
+  name: Equals(VertexInput)
+  nameWithType: VertexInput.Equals(VertexInput)
+  fullName: Prowl.Runtime.VertexInput.Equals(Prowl.Runtime.VertexInput)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Rendering/Shader/VertexInput.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Equals
+    path: ../Prowl/Prowl.Runtime/Rendering/Shader/VertexInput.cs
+    startLine: 28
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: Indicates whether the current object is equal to another object of the same type.
+  example: []
+  syntax:
+    content: public bool Equals(VertexInput other)
+    parameters:
+    - id: other
+      type: Prowl.Runtime.VertexInput
+      description: An object to compare with this object.
+    return:
+      type: System.Boolean
+      description: <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if the current object is equal to the <code class="paramref">other</code> parameter; otherwise, <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a>.
+    content.vb: Public Function Equals(other As VertexInput) As Boolean
+  overload: Prowl.Runtime.VertexInput.Equals*
+  implements:
+  - System.IEquatable{Prowl.Runtime.VertexInput}.Equals(Prowl.Runtime.VertexInput)
+- uid: Prowl.Runtime.VertexInput.GetHashCode
+  commentId: M:Prowl.Runtime.VertexInput.GetHashCode
+  id: GetHashCode
+  parent: Prowl.Runtime.VertexInput
+  langs:
+  - csharp
+  - vb
+  name: GetHashCode()
+  nameWithType: VertexInput.GetHashCode()
+  fullName: Prowl.Runtime.VertexInput.GetHashCode()
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Rendering/Shader/VertexInput.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: GetHashCode
+    path: ../Prowl/Prowl.Runtime/Rendering/Shader/VertexInput.cs
+    startLine: 31
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: Returns the hash code for this instance.
+  example: []
+  syntax:
+    content: public override int GetHashCode()
+    return:
+      type: System.Int32
+      description: A 32-bit signed integer that is the hash code for this instance.
+    content.vb: Public Overrides Function GetHashCode() As Integer
+  overridden: System.ValueType.GetHashCode
+  overload: Prowl.Runtime.VertexInput.GetHashCode*
+references:
+- uid: Prowl.Runtime
+  commentId: N:Prowl.Runtime
+  href: Prowl.html
+  name: Prowl.Runtime
+  nameWithType: Prowl.Runtime
+  fullName: Prowl.Runtime
+  spec.csharp:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+  spec.vb:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+- uid: System.IEquatable{Prowl.Runtime.VertexInput}
+  commentId: T:System.IEquatable{Prowl.Runtime.VertexInput}
+  parent: System
+  definition: System.IEquatable`1
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<VertexInput>
+  nameWithType: IEquatable<VertexInput>
+  fullName: System.IEquatable<Prowl.Runtime.VertexInput>
+  nameWithType.vb: IEquatable(Of VertexInput)
+  fullName.vb: System.IEquatable(Of Prowl.Runtime.VertexInput)
+  name.vb: IEquatable(Of VertexInput)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - uid: Prowl.Runtime.VertexInput
+    name: VertexInput
+    href: Prowl.Runtime.VertexInput.html
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Prowl.Runtime.VertexInput
+    name: VertexInput
+    href: Prowl.Runtime.VertexInput.html
+  - name: )
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Prowl.Runtime.RuntimeUtils.GetSerializableFields
+  commentId: M:Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  parent: Prowl.Runtime.RuntimeUtils
+  definition: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  name: GetSerializableFields(object)
+  nameWithType: RuntimeUtils.GetSerializableFields(object)
+  fullName: Prowl.Runtime.RuntimeUtils.GetSerializableFields(object)
+  nameWithType.vb: RuntimeUtils.GetSerializableFields(Object)
+  fullName.vb: Prowl.Runtime.RuntimeUtils.GetSerializableFields(Object)
+  name.vb: GetSerializableFields(Object)
+  spec.csharp:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.IEquatable`1
+  commentId: T:System.IEquatable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<T>
+  nameWithType: IEquatable<T>
+  fullName: System.IEquatable<T>
+  nameWithType.vb: IEquatable(Of T)
+  fullName.vb: System.IEquatable(Of T)
+  name.vb: IEquatable(Of T)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  commentId: M:Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  isExternal: true
+  href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  name: GetSerializableFields(object)
+  nameWithType: RuntimeUtils.GetSerializableFields(object)
+  fullName: Prowl.Runtime.RuntimeUtils.GetSerializableFields(object)
+  nameWithType.vb: RuntimeUtils.GetSerializableFields(Object)
+  fullName.vb: Prowl.Runtime.RuntimeUtils.GetSerializableFields(Object)
+  name.vb: GetSerializableFields(Object)
+  spec.csharp:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: Prowl.Runtime.RuntimeUtils
+  commentId: T:Prowl.Runtime.RuntimeUtils
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.RuntimeUtils.html
+  name: RuntimeUtils
+  nameWithType: RuntimeUtils
+  fullName: Prowl.Runtime.RuntimeUtils
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: Veldrid.VertexElementFormat
+  commentId: T:Veldrid.VertexElementFormat
+  parent: Veldrid
+  name: VertexElementFormat
+  nameWithType: VertexElementFormat
+  fullName: Veldrid.VertexElementFormat
+- uid: Veldrid
+  commentId: N:Veldrid
+  name: Veldrid
+  nameWithType: Veldrid
+  fullName: Veldrid
+- uid: Prowl.Runtime.VertexInput.#ctor*
+  commentId: Overload:Prowl.Runtime.VertexInput.#ctor
+  href: Prowl.Runtime.VertexInput.html#Prowl_Runtime_VertexInput__ctor_System_String_Veldrid_VertexElementFormat_
+  name: VertexInput
+  nameWithType: VertexInput.VertexInput
+  fullName: Prowl.Runtime.VertexInput.VertexInput
+  nameWithType.vb: VertexInput.New
+  fullName.vb: Prowl.Runtime.VertexInput.New
+  name.vb: New
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  name: Equals(object)
+  nameWithType: ValueType.Equals(object)
+  fullName: System.ValueType.Equals(object)
+  nameWithType.vb: ValueType.Equals(Object)
+  fullName.vb: System.ValueType.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: Prowl.Runtime.VertexInput.Equals*
+  commentId: Overload:Prowl.Runtime.VertexInput.Equals
+  href: Prowl.Runtime.VertexInput.html#Prowl_Runtime_VertexInput_Equals_System_Object_
+  name: Equals
+  nameWithType: VertexInput.Equals
+  fullName: Prowl.Runtime.VertexInput.Equals
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: System.IEquatable{Prowl.Runtime.VertexInput}.Equals(Prowl.Runtime.VertexInput)
+  commentId: M:System.IEquatable{Prowl.Runtime.VertexInput}.Equals(Prowl.Runtime.VertexInput)
+  parent: System.IEquatable{Prowl.Runtime.VertexInput}
+  definition: System.IEquatable`1.Equals(`0)
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  name: Equals(VertexInput)
+  nameWithType: IEquatable<VertexInput>.Equals(VertexInput)
+  fullName: System.IEquatable<Prowl.Runtime.VertexInput>.Equals(Prowl.Runtime.VertexInput)
+  nameWithType.vb: IEquatable(Of VertexInput).Equals(VertexInput)
+  fullName.vb: System.IEquatable(Of Prowl.Runtime.VertexInput).Equals(Prowl.Runtime.VertexInput)
+  spec.csharp:
+  - uid: System.IEquatable{Prowl.Runtime.VertexInput}.Equals(Prowl.Runtime.VertexInput)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - uid: Prowl.Runtime.VertexInput
+    name: VertexInput
+    href: Prowl.Runtime.VertexInput.html
+  - name: )
+  spec.vb:
+  - uid: System.IEquatable{Prowl.Runtime.VertexInput}.Equals(Prowl.Runtime.VertexInput)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - uid: Prowl.Runtime.VertexInput
+    name: VertexInput
+    href: Prowl.Runtime.VertexInput.html
+  - name: )
+- uid: Prowl.Runtime.VertexInput
+  commentId: T:Prowl.Runtime.VertexInput
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.VertexInput.html
+  name: VertexInput
+  nameWithType: VertexInput
+  fullName: Prowl.Runtime.VertexInput
+- uid: System.IEquatable`1.Equals(`0)
+  commentId: M:System.IEquatable`1.Equals(`0)
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  name: Equals(T)
+  nameWithType: IEquatable<T>.Equals(T)
+  fullName: System.IEquatable<T>.Equals(T)
+  nameWithType.vb: IEquatable(Of T).Equals(T)
+  fullName.vb: System.IEquatable(Of T).Equals(T)
+  spec.csharp:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - name: T
+  - name: )
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+- uid: Prowl.Runtime.VertexInput.GetHashCode*
+  commentId: Overload:Prowl.Runtime.VertexInput.GetHashCode
+  href: Prowl.Runtime.VertexInput.html#Prowl_Runtime_VertexInput_GetHashCode
+  name: GetHashCode
+  nameWithType: VertexInput.GetHashCode
+  fullName: Prowl.Runtime.VertexInput.GetHashCode
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer

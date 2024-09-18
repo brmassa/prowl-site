@@ -1,0 +1,3495 @@
+### YamlMime:ManagedReference
+items:
+- uid: Prowl.Runtime.GameObject
+  commentId: T:Prowl.Runtime.GameObject
+  id: GameObject
+  parent: Prowl.Runtime
+  children:
+  - Prowl.Runtime.GameObject.#ctor
+  - Prowl.Runtime.GameObject.#ctor(System.String)
+  - Prowl.Runtime.GameObject.AddComponent(Prowl.Runtime.MonoBehaviour)
+  - Prowl.Runtime.GameObject.AddComponent(System.Type)
+  - Prowl.Runtime.GameObject.AddComponent``1
+  - Prowl.Runtime.GameObject.BroadcastMessage(System.String,System.Object[])
+  - Prowl.Runtime.GameObject.CompareTag(System.String)
+  - Prowl.Runtime.GameObject.CreateSilently
+  - Prowl.Runtime.GameObject.Deserialize(Prowl.Runtime.SerializedProperty,Prowl.Runtime.Serializer.SerializationContext)
+  - Prowl.Runtime.GameObject.DontDestroyOnLoad
+  - Prowl.Runtime.GameObject.Find(System.String)
+  - Prowl.Runtime.GameObject.FindGameObjectWithTag(System.String)
+  - Prowl.Runtime.GameObject.FindGameObjectsWithTag(System.String)
+  - Prowl.Runtime.GameObject.GetComponent(System.Type)
+  - Prowl.Runtime.GameObject.GetComponentInChildren(System.Type,System.Boolean,System.Boolean)
+  - Prowl.Runtime.GameObject.GetComponentInChildren``1(System.Boolean,System.Boolean)
+  - Prowl.Runtime.GameObject.GetComponentInParent(System.Type,System.Boolean,System.Boolean)
+  - Prowl.Runtime.GameObject.GetComponentInParent``1(System.Boolean,System.Boolean)
+  - Prowl.Runtime.GameObject.GetComponent``1
+  - Prowl.Runtime.GameObject.GetComponents
+  - Prowl.Runtime.GameObject.GetComponents(System.Type)
+  - Prowl.Runtime.GameObject.GetComponentsInChildren(System.Type,System.Boolean,System.Boolean)
+  - Prowl.Runtime.GameObject.GetComponentsInChildren``1(System.Boolean,System.Boolean)
+  - Prowl.Runtime.GameObject.GetComponentsInParent(System.Type,System.Boolean,System.Boolean)
+  - Prowl.Runtime.GameObject.GetComponentsInParent``1(System.Boolean,System.Boolean)
+  - Prowl.Runtime.GameObject.GetComponents``1
+  - Prowl.Runtime.GameObject.Instantiate(Prowl.Runtime.GameObject)
+  - Prowl.Runtime.GameObject.Instantiate(Prowl.Runtime.GameObject,Prowl.Runtime.GameObject)
+  - Prowl.Runtime.GameObject.Instantiate(Prowl.Runtime.GameObject,Prowl.Runtime.GameObject,Prowl.Runtime.Vector3,Prowl.Runtime.Quaternion)
+  - Prowl.Runtime.GameObject.Instantiate(Prowl.Runtime.GameObject,Prowl.Runtime.Vector3,Prowl.Runtime.Quaternion,Prowl.Runtime.GameObject)
+  - Prowl.Runtime.GameObject.IsChildOf(Prowl.Runtime.GameObject)
+  - Prowl.Runtime.GameObject.IsChildOrSameTransform(Prowl.Runtime.GameObject,Prowl.Runtime.GameObject)
+  - Prowl.Runtime.GameObject.IsParentOf(Prowl.Runtime.GameObject)
+  - Prowl.Runtime.GameObject.IsPartOfPrefab
+  - Prowl.Runtime.GameObject.IsPrefab
+  - Prowl.Runtime.GameObject.OnDispose
+  - Prowl.Runtime.GameObject.PrefabMods
+  - Prowl.Runtime.GameObject.RemoveAll``1
+  - Prowl.Runtime.GameObject.RemoveComponent(Prowl.Runtime.MonoBehaviour)
+  - Prowl.Runtime.GameObject.RemoveComponent``1(``0)
+  - Prowl.Runtime.GameObject.SendMessage(System.String,System.Object[])
+  - Prowl.Runtime.GameObject.Serialize(Prowl.Runtime.Serializer.SerializationContext)
+  - Prowl.Runtime.GameObject.SetParent(Prowl.Runtime.GameObject,System.Boolean)
+  - Prowl.Runtime.GameObject.Transform
+  - Prowl.Runtime.GameObject.TryGetComponent``1(``0@)
+  - Prowl.Runtime.GameObject.childCount
+  - Prowl.Runtime.GameObject.children
+  - Prowl.Runtime.GameObject.enabled
+  - Prowl.Runtime.GameObject.enabledInHierarchy
+  - Prowl.Runtime.GameObject.hideFlags
+  - Prowl.Runtime.GameObject.layer
+  - Prowl.Runtime.GameObject.layerIndex
+  - Prowl.Runtime.GameObject.parent
+  - Prowl.Runtime.GameObject.tag
+  - Prowl.Runtime.GameObject.tagIndex
+  langs:
+  - csharp
+  - vb
+  name: GameObject
+  nameWithType: GameObject
+  fullName: Prowl.Runtime.GameObject
+  type: Class
+  source:
+    remote:
+      path: Prowl.Runtime/GameObject/GameObject.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: GameObject
+    path: ../Prowl/Prowl.Runtime/GameObject/GameObject.cs
+    startLine: 16
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: >-
+    The Base Class for all Object/Entities in a Scene.
+
+    Holds a collection of Components that contain the logic for this Object/Entity
+  example: []
+  syntax:
+    content: 'public class GameObject : EngineObject, IDisposable, ISerializable'
+    content.vb: Public Class GameObject Inherits EngineObject Implements IDisposable, ISerializable
+  inheritance:
+  - System.Object
+  - Prowl.Runtime.EngineObject
+  implements:
+  - System.IDisposable
+  - Prowl.Runtime.ISerializable
+  inheritedMembers:
+  - Prowl.Runtime.EngineObject._instanceID
+  - Prowl.Runtime.EngineObject.InstanceID
+  - Prowl.Runtime.EngineObject.AssetID
+  - Prowl.Runtime.EngineObject.FileID
+  - Prowl.Runtime.EngineObject.Name
+  - Prowl.Runtime.EngineObject.IsDestroyed
+  - Prowl.Runtime.EngineObject.CreatedInstance
+  - Prowl.Runtime.EngineObject.OnValidate
+  - Prowl.Runtime.EngineObject.FindObjectOfType``1
+  - Prowl.Runtime.EngineObject.FindObjectsOfType``1
+  - Prowl.Runtime.EngineObject.FindObjectByID``1(System.Int32)
+  - Prowl.Runtime.EngineObject.Foreach``1(System.Action{{T}})
+  - Prowl.Runtime.EngineObject.Destroy
+  - Prowl.Runtime.EngineObject.DestroyImmediate
+  - Prowl.Runtime.EngineObject.Destroy(Prowl.Runtime.EngineObject)
+  - Prowl.Runtime.EngineObject.DestroyImmediate(Prowl.Runtime.EngineObject)
+  - Prowl.Runtime.EngineObject.HandleDestroyed
+  - Prowl.Runtime.EngineObject.Instantiate(Prowl.Runtime.EngineObject,System.Boolean)
+  - Prowl.Runtime.EngineObject.Dispose
+  - Prowl.Runtime.EngineObject.ToString
+  - Prowl.Runtime.EngineObject.SerializeHeader(Prowl.Runtime.SerializedProperty)
+  - Prowl.Runtime.EngineObject.DeserializeHeader(Prowl.Runtime.SerializedProperty)
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  extensionMethods:
+  - Prowl.Runtime.EngineObject.Prowl.Runtime.EngineObjectExtensions.Null
+  - System.Object.Prowl.Runtime.RuntimeUtils.GetSerializableFields
+- uid: Prowl.Runtime.GameObject.tagIndex
+  commentId: F:Prowl.Runtime.GameObject.tagIndex
+  id: tagIndex
+  parent: Prowl.Runtime.GameObject
+  langs:
+  - csharp
+  - vb
+  name: tagIndex
+  nameWithType: GameObject.tagIndex
+  fullName: Prowl.Runtime.GameObject.tagIndex
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/GameObject/GameObject.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: tagIndex
+    path: ../Prowl/Prowl.Runtime/GameObject/GameObject.cs
+    startLine: 46
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: The Tag Index of this GameObject
+  example: []
+  syntax:
+    content: public byte tagIndex
+    return:
+      type: System.Byte
+    content.vb: Public tagIndex As Byte
+- uid: Prowl.Runtime.GameObject.layerIndex
+  commentId: F:Prowl.Runtime.GameObject.layerIndex
+  id: layerIndex
+  parent: Prowl.Runtime.GameObject
+  langs:
+  - csharp
+  - vb
+  name: layerIndex
+  nameWithType: GameObject.layerIndex
+  fullName: Prowl.Runtime.GameObject.layerIndex
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/GameObject/GameObject.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: layerIndex
+    path: ../Prowl/Prowl.Runtime/GameObject/GameObject.cs
+    startLine: 49
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: The Layer Index of this GameObject
+  example: []
+  syntax:
+    content: public byte layerIndex
+    return:
+      type: System.Byte
+    content.vb: Public layerIndex As Byte
+- uid: Prowl.Runtime.GameObject.hideFlags
+  commentId: F:Prowl.Runtime.GameObject.hideFlags
+  id: hideFlags
+  parent: Prowl.Runtime.GameObject
+  langs:
+  - csharp
+  - vb
+  name: hideFlags
+  nameWithType: GameObject.hideFlags
+  fullName: Prowl.Runtime.GameObject.hideFlags
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/GameObject/GameObject.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: hideFlags
+    path: ../Prowl/Prowl.Runtime/GameObject/GameObject.cs
+    startLine: 52
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: The Hide Flags of this GameObject, Used to hide the GameObject from a variety of places like Serializing, Inspector or Hierarchy
+  example: []
+  syntax:
+    content: public HideFlags hideFlags
+    return:
+      type: Prowl.Runtime.HideFlags
+    content.vb: Public hideFlags As HideFlags
+- uid: Prowl.Runtime.GameObject.enabled
+  commentId: P:Prowl.Runtime.GameObject.enabled
+  id: enabled
+  parent: Prowl.Runtime.GameObject
+  langs:
+  - csharp
+  - vb
+  name: enabled
+  nameWithType: GameObject.enabled
+  fullName: Prowl.Runtime.GameObject.enabled
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/GameObject/GameObject.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: enabled
+    path: ../Prowl/Prowl.Runtime/GameObject/GameObject.cs
+    startLine: 55
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: Gets whether or not this gameobject is enabled explicitly
+  example: []
+  syntax:
+    content: public bool enabled { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property enabled As Boolean
+  overload: Prowl.Runtime.GameObject.enabled*
+- uid: Prowl.Runtime.GameObject.enabledInHierarchy
+  commentId: P:Prowl.Runtime.GameObject.enabledInHierarchy
+  id: enabledInHierarchy
+  parent: Prowl.Runtime.GameObject
+  langs:
+  - csharp
+  - vb
+  name: enabledInHierarchy
+  nameWithType: GameObject.enabledInHierarchy
+  fullName: Prowl.Runtime.GameObject.enabledInHierarchy
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/GameObject/GameObject.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: enabledInHierarchy
+    path: ../Prowl/Prowl.Runtime/GameObject/GameObject.cs
+    startLine: 62
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: Gets whether this gameobejct is enabled in the hierarchy, so if its parent is disabled this will return false
+  example: []
+  syntax:
+    content: public bool enabledInHierarchy { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property enabledInHierarchy As Boolean
+  overload: Prowl.Runtime.GameObject.enabledInHierarchy*
+- uid: Prowl.Runtime.GameObject.tag
+  commentId: P:Prowl.Runtime.GameObject.tag
+  id: tag
+  parent: Prowl.Runtime.GameObject
+  langs:
+  - csharp
+  - vb
+  name: tag
+  nameWithType: GameObject.tag
+  fullName: Prowl.Runtime.GameObject.tag
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/GameObject/GameObject.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: tag
+    path: ../Prowl/Prowl.Runtime/GameObject/GameObject.cs
+    startLine: 65
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: The Tag of this GameObject
+  example: []
+  syntax:
+    content: public string tag { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property tag As String
+  overload: Prowl.Runtime.GameObject.tag*
+- uid: Prowl.Runtime.GameObject.layer
+  commentId: P:Prowl.Runtime.GameObject.layer
+  id: layer
+  parent: Prowl.Runtime.GameObject
+  langs:
+  - csharp
+  - vb
+  name: layer
+  nameWithType: GameObject.layer
+  fullName: Prowl.Runtime.GameObject.layer
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/GameObject/GameObject.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: layer
+    path: ../Prowl/Prowl.Runtime/GameObject/GameObject.cs
+    startLine: 72
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: The Layer of this GameObject
+  example: []
+  syntax:
+    content: public string layer { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property layer As String
+  overload: Prowl.Runtime.GameObject.layer*
+- uid: Prowl.Runtime.GameObject.parent
+  commentId: P:Prowl.Runtime.GameObject.parent
+  id: parent
+  parent: Prowl.Runtime.GameObject
+  langs:
+  - csharp
+  - vb
+  name: parent
+  nameWithType: GameObject.parent
+  fullName: Prowl.Runtime.GameObject.parent
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/GameObject/GameObject.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: parent
+    path: ../Prowl/Prowl.Runtime/GameObject/GameObject.cs
+    startLine: 79
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: The Parent of this GameObject, Can be null
+  example: []
+  syntax:
+    content: public GameObject? parent { get; }
+    parameters: []
+    return:
+      type: Prowl.Runtime.GameObject
+    content.vb: Public ReadOnly Property parent As GameObject
+  overload: Prowl.Runtime.GameObject.parent*
+- uid: Prowl.Runtime.GameObject.children
+  commentId: F:Prowl.Runtime.GameObject.children
+  id: children
+  parent: Prowl.Runtime.GameObject
+  langs:
+  - csharp
+  - vb
+  name: children
+  nameWithType: GameObject.children
+  fullName: Prowl.Runtime.GameObject.children
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/GameObject/GameObject.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: children
+    path: ../Prowl/Prowl.Runtime/GameObject/GameObject.cs
+    startLine: 82
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: A List of all children of this GameObject
+  example: []
+  syntax:
+    content: public List<GameObject> children
+    return:
+      type: System.Collections.Generic.List{Prowl.Runtime.GameObject}
+    content.vb: Public children As List(Of GameObject)
+- uid: Prowl.Runtime.GameObject.childCount
+  commentId: P:Prowl.Runtime.GameObject.childCount
+  id: childCount
+  parent: Prowl.Runtime.GameObject
+  langs:
+  - csharp
+  - vb
+  name: childCount
+  nameWithType: GameObject.childCount
+  fullName: Prowl.Runtime.GameObject.childCount
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/GameObject/GameObject.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: childCount
+    path: ../Prowl/Prowl.Runtime/GameObject/GameObject.cs
+    startLine: 84
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public int childCount { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property childCount As Integer
+  overload: Prowl.Runtime.GameObject.childCount*
+- uid: Prowl.Runtime.GameObject.IsPrefab
+  commentId: P:Prowl.Runtime.GameObject.IsPrefab
+  id: IsPrefab
+  parent: Prowl.Runtime.GameObject
+  langs:
+  - csharp
+  - vb
+  name: IsPrefab
+  nameWithType: GameObject.IsPrefab
+  fullName: Prowl.Runtime.GameObject.IsPrefab
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/GameObject/GameObject.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: IsPrefab
+    path: ../Prowl/Prowl.Runtime/GameObject/GameObject.cs
+    startLine: 86
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public bool IsPrefab { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property IsPrefab As Boolean
+  overload: Prowl.Runtime.GameObject.IsPrefab*
+- uid: Prowl.Runtime.GameObject.IsPartOfPrefab
+  commentId: P:Prowl.Runtime.GameObject.IsPartOfPrefab
+  id: IsPartOfPrefab
+  parent: Prowl.Runtime.GameObject
+  langs:
+  - csharp
+  - vb
+  name: IsPartOfPrefab
+  nameWithType: GameObject.IsPartOfPrefab
+  fullName: Prowl.Runtime.GameObject.IsPartOfPrefab
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/GameObject/GameObject.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: IsPartOfPrefab
+    path: ../Prowl/Prowl.Runtime/GameObject/GameObject.cs
+    startLine: 88
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public bool IsPartOfPrefab { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property IsPartOfPrefab As Boolean
+  overload: Prowl.Runtime.GameObject.IsPartOfPrefab*
+- uid: Prowl.Runtime.GameObject.PrefabMods
+  commentId: P:Prowl.Runtime.GameObject.PrefabMods
+  id: PrefabMods
+  parent: Prowl.Runtime.GameObject
+  langs:
+  - csharp
+  - vb
+  name: PrefabMods
+  nameWithType: GameObject.PrefabMods
+  fullName: Prowl.Runtime.GameObject.PrefabMods
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/GameObject/GameObject.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: PrefabMods
+    path: ../Prowl/Prowl.Runtime/GameObject/GameObject.cs
+    startLine: 102
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public SerializedProperty? PrefabMods { get; set; }
+    parameters: []
+    return:
+      type: Prowl.Runtime.SerializedProperty
+    content.vb: Public Property PrefabMods As SerializedProperty
+  overload: Prowl.Runtime.GameObject.PrefabMods*
+- uid: Prowl.Runtime.GameObject.Transform
+  commentId: P:Prowl.Runtime.GameObject.Transform
+  id: Transform
+  parent: Prowl.Runtime.GameObject
+  langs:
+  - csharp
+  - vb
+  name: Transform
+  nameWithType: GameObject.Transform
+  fullName: Prowl.Runtime.GameObject.Transform
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/GameObject/GameObject.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Transform
+    path: ../Prowl/Prowl.Runtime/GameObject/GameObject.cs
+    startLine: 106
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public Transform Transform { get; }
+    parameters: []
+    return:
+      type: Prowl.Runtime.Transform
+    content.vb: Public ReadOnly Property Transform As Transform
+  overload: Prowl.Runtime.GameObject.Transform*
+- uid: Prowl.Runtime.GameObject.IsChildOrSameTransform(Prowl.Runtime.GameObject,Prowl.Runtime.GameObject)
+  commentId: M:Prowl.Runtime.GameObject.IsChildOrSameTransform(Prowl.Runtime.GameObject,Prowl.Runtime.GameObject)
+  id: IsChildOrSameTransform(Prowl.Runtime.GameObject,Prowl.Runtime.GameObject)
+  parent: Prowl.Runtime.GameObject
+  langs:
+  - csharp
+  - vb
+  name: IsChildOrSameTransform(GameObject, GameObject)
+  nameWithType: GameObject.IsChildOrSameTransform(GameObject, GameObject)
+  fullName: Prowl.Runtime.GameObject.IsChildOrSameTransform(Prowl.Runtime.GameObject, Prowl.Runtime.GameObject)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GameObject/GameObject.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: IsChildOrSameTransform
+    path: ../Prowl/Prowl.Runtime/GameObject/GameObject.cs
+    startLine: 115
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public bool IsChildOrSameTransform(GameObject transform, GameObject inParent)
+    parameters:
+    - id: transform
+      type: Prowl.Runtime.GameObject
+    - id: inParent
+      type: Prowl.Runtime.GameObject
+    return:
+      type: System.Boolean
+    content.vb: Public Function IsChildOrSameTransform(transform As GameObject, inParent As GameObject) As Boolean
+  overload: Prowl.Runtime.GameObject.IsChildOrSameTransform*
+- uid: Prowl.Runtime.GameObject.IsChildOf(Prowl.Runtime.GameObject)
+  commentId: M:Prowl.Runtime.GameObject.IsChildOf(Prowl.Runtime.GameObject)
+  id: IsChildOf(Prowl.Runtime.GameObject)
+  parent: Prowl.Runtime.GameObject
+  langs:
+  - csharp
+  - vb
+  name: IsChildOf(GameObject)
+  nameWithType: GameObject.IsChildOf(GameObject)
+  fullName: Prowl.Runtime.GameObject.IsChildOf(Prowl.Runtime.GameObject)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GameObject/GameObject.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: IsChildOf
+    path: ../Prowl/Prowl.Runtime/GameObject/GameObject.cs
+    startLine: 127
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public bool IsChildOf(GameObject parent)
+    parameters:
+    - id: parent
+      type: Prowl.Runtime.GameObject
+    return:
+      type: System.Boolean
+    content.vb: Public Function IsChildOf(parent As GameObject) As Boolean
+  overload: Prowl.Runtime.GameObject.IsChildOf*
+- uid: Prowl.Runtime.GameObject.SetParent(Prowl.Runtime.GameObject,System.Boolean)
+  commentId: M:Prowl.Runtime.GameObject.SetParent(Prowl.Runtime.GameObject,System.Boolean)
+  id: SetParent(Prowl.Runtime.GameObject,System.Boolean)
+  parent: Prowl.Runtime.GameObject
+  langs:
+  - csharp
+  - vb
+  name: SetParent(GameObject, bool)
+  nameWithType: GameObject.SetParent(GameObject, bool)
+  fullName: Prowl.Runtime.GameObject.SetParent(Prowl.Runtime.GameObject, bool)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GameObject/GameObject.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: SetParent
+    path: ../Prowl/Prowl.Runtime/GameObject/GameObject.cs
+    startLine: 141
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public bool SetParent(GameObject NewParent, bool worldPositionStays = true)
+    parameters:
+    - id: NewParent
+      type: Prowl.Runtime.GameObject
+    - id: worldPositionStays
+      type: System.Boolean
+    return:
+      type: System.Boolean
+    content.vb: Public Function SetParent(NewParent As GameObject, worldPositionStays As Boolean = True) As Boolean
+  overload: Prowl.Runtime.GameObject.SetParent*
+  nameWithType.vb: GameObject.SetParent(GameObject, Boolean)
+  fullName.vb: Prowl.Runtime.GameObject.SetParent(Prowl.Runtime.GameObject, Boolean)
+  name.vb: SetParent(GameObject, Boolean)
+- uid: Prowl.Runtime.GameObject.CreateSilently
+  commentId: M:Prowl.Runtime.GameObject.CreateSilently
+  id: CreateSilently
+  parent: Prowl.Runtime.GameObject
+  langs:
+  - csharp
+  - vb
+  name: CreateSilently()
+  nameWithType: GameObject.CreateSilently()
+  fullName: Prowl.Runtime.GameObject.CreateSilently()
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GameObject/GameObject.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: CreateSilently
+    path: ../Prowl/Prowl.Runtime/GameObject/GameObject.cs
+    startLine: 204
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: >-
+    A special method to create a new GameObject without triggering the global Constructed event.
+
+    This prevents the gameobject from, for example being loaded into the scene.
+  example: []
+  syntax:
+    content: public static GameObject CreateSilently()
+    return:
+      type: Prowl.Runtime.GameObject
+    content.vb: Public Shared Function CreateSilently() As GameObject
+  overload: Prowl.Runtime.GameObject.CreateSilently*
+- uid: Prowl.Runtime.GameObject.#ctor
+  commentId: M:Prowl.Runtime.GameObject.#ctor
+  id: '#ctor'
+  parent: Prowl.Runtime.GameObject
+  langs:
+  - csharp
+  - vb
+  name: GameObject()
+  nameWithType: GameObject.GameObject()
+  fullName: Prowl.Runtime.GameObject.GameObject()
+  type: Constructor
+  source:
+    remote:
+      path: Prowl.Runtime/GameObject/GameObject.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: .ctor
+    path: ../Prowl/Prowl.Runtime/GameObject/GameObject.cs
+    startLine: 217
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: Creates a new gameobject with tbe name 'New GameObject'.
+  example: []
+  syntax:
+    content: public GameObject()
+    content.vb: Public Sub New()
+  overload: Prowl.Runtime.GameObject.#ctor*
+  nameWithType.vb: GameObject.New()
+  fullName.vb: Prowl.Runtime.GameObject.New()
+  name.vb: New()
+- uid: Prowl.Runtime.GameObject.#ctor(System.String)
+  commentId: M:Prowl.Runtime.GameObject.#ctor(System.String)
+  id: '#ctor(System.String)'
+  parent: Prowl.Runtime.GameObject
+  langs:
+  - csharp
+  - vb
+  name: GameObject(string)
+  nameWithType: GameObject.GameObject(string)
+  fullName: Prowl.Runtime.GameObject.GameObject(string)
+  type: Constructor
+  source:
+    remote:
+      path: Prowl.Runtime/GameObject/GameObject.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: .ctor
+    path: ../Prowl/Prowl.Runtime/GameObject/GameObject.cs
+    startLine: 224
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: Creates a new gameobject.
+  example: []
+  syntax:
+    content: public GameObject(string name = "New GameObject")
+    parameters:
+    - id: name
+      type: System.String
+      description: The name of the gameobject.
+    content.vb: Public Sub New(name As String = "New GameObject")
+  overload: Prowl.Runtime.GameObject.#ctor*
+  nameWithType.vb: GameObject.New(String)
+  fullName.vb: Prowl.Runtime.GameObject.New(String)
+  name.vb: New(String)
+- uid: Prowl.Runtime.GameObject.IsParentOf(Prowl.Runtime.GameObject)
+  commentId: M:Prowl.Runtime.GameObject.IsParentOf(Prowl.Runtime.GameObject)
+  id: IsParentOf(Prowl.Runtime.GameObject)
+  parent: Prowl.Runtime.GameObject
+  langs:
+  - csharp
+  - vb
+  name: IsParentOf(GameObject)
+  nameWithType: GameObject.IsParentOf(GameObject)
+  fullName: Prowl.Runtime.GameObject.IsParentOf(Prowl.Runtime.GameObject)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GameObject/GameObject.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: IsParentOf
+    path: ../Prowl/Prowl.Runtime/GameObject/GameObject.cs
+    startLine: 233
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: Recursive function to check if this GameObject is a parent of another GameObject
+  example: []
+  syntax:
+    content: public bool IsParentOf(GameObject go)
+    parameters:
+    - id: go
+      type: Prowl.Runtime.GameObject
+    return:
+      type: System.Boolean
+    content.vb: Public Function IsParentOf(go As GameObject) As Boolean
+  overload: Prowl.Runtime.GameObject.IsParentOf*
+- uid: Prowl.Runtime.GameObject.CompareTag(System.String)
+  commentId: M:Prowl.Runtime.GameObject.CompareTag(System.String)
+  id: CompareTag(System.String)
+  parent: Prowl.Runtime.GameObject
+  langs:
+  - csharp
+  - vb
+  name: CompareTag(string)
+  nameWithType: GameObject.CompareTag(string)
+  fullName: Prowl.Runtime.GameObject.CompareTag(string)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GameObject/GameObject.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: CompareTag
+    path: ../Prowl/Prowl.Runtime/GameObject/GameObject.cs
+    startLine: 245
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public bool CompareTag(string otherTag)
+    parameters:
+    - id: otherTag
+      type: System.String
+    return:
+      type: System.Boolean
+    content.vb: Public Function CompareTag(otherTag As String) As Boolean
+  overload: Prowl.Runtime.GameObject.CompareTag*
+  nameWithType.vb: GameObject.CompareTag(String)
+  fullName.vb: Prowl.Runtime.GameObject.CompareTag(String)
+  name.vb: CompareTag(String)
+- uid: Prowl.Runtime.GameObject.Find(System.String)
+  commentId: M:Prowl.Runtime.GameObject.Find(System.String)
+  id: Find(System.String)
+  parent: Prowl.Runtime.GameObject
+  langs:
+  - csharp
+  - vb
+  name: Find(string)
+  nameWithType: GameObject.Find(string)
+  fullName: Prowl.Runtime.GameObject.Find(string)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GameObject/GameObject.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Find
+    path: ../Prowl/Prowl.Runtime/GameObject/GameObject.cs
+    startLine: 247
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public static GameObject Find(string otherName)
+    parameters:
+    - id: otherName
+      type: System.String
+    return:
+      type: Prowl.Runtime.GameObject
+    content.vb: Public Shared Function Find(otherName As String) As GameObject
+  overload: Prowl.Runtime.GameObject.Find*
+  nameWithType.vb: GameObject.Find(String)
+  fullName.vb: Prowl.Runtime.GameObject.Find(String)
+  name.vb: Find(String)
+- uid: Prowl.Runtime.GameObject.FindGameObjectWithTag(System.String)
+  commentId: M:Prowl.Runtime.GameObject.FindGameObjectWithTag(System.String)
+  id: FindGameObjectWithTag(System.String)
+  parent: Prowl.Runtime.GameObject
+  langs:
+  - csharp
+  - vb
+  name: FindGameObjectWithTag(string)
+  nameWithType: GameObject.FindGameObjectWithTag(string)
+  fullName: Prowl.Runtime.GameObject.FindGameObjectWithTag(string)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GameObject/GameObject.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: FindGameObjectWithTag
+    path: ../Prowl/Prowl.Runtime/GameObject/GameObject.cs
+    startLine: 249
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public static GameObject FindGameObjectWithTag(string otherTag)
+    parameters:
+    - id: otherTag
+      type: System.String
+    return:
+      type: Prowl.Runtime.GameObject
+    content.vb: Public Shared Function FindGameObjectWithTag(otherTag As String) As GameObject
+  overload: Prowl.Runtime.GameObject.FindGameObjectWithTag*
+  nameWithType.vb: GameObject.FindGameObjectWithTag(String)
+  fullName.vb: Prowl.Runtime.GameObject.FindGameObjectWithTag(String)
+  name.vb: FindGameObjectWithTag(String)
+- uid: Prowl.Runtime.GameObject.FindGameObjectsWithTag(System.String)
+  commentId: M:Prowl.Runtime.GameObject.FindGameObjectsWithTag(System.String)
+  id: FindGameObjectsWithTag(System.String)
+  parent: Prowl.Runtime.GameObject
+  langs:
+  - csharp
+  - vb
+  name: FindGameObjectsWithTag(string)
+  nameWithType: GameObject.FindGameObjectsWithTag(string)
+  fullName: Prowl.Runtime.GameObject.FindGameObjectsWithTag(string)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GameObject/GameObject.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: FindGameObjectsWithTag
+    path: ../Prowl/Prowl.Runtime/GameObject/GameObject.cs
+    startLine: 251
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public static GameObject[] FindGameObjectsWithTag(string otherTag)
+    parameters:
+    - id: otherTag
+      type: System.String
+    return:
+      type: Prowl.Runtime.GameObject[]
+    content.vb: Public Shared Function FindGameObjectsWithTag(otherTag As String) As GameObject()
+  overload: Prowl.Runtime.GameObject.FindGameObjectsWithTag*
+  nameWithType.vb: GameObject.FindGameObjectsWithTag(String)
+  fullName.vb: Prowl.Runtime.GameObject.FindGameObjectsWithTag(String)
+  name.vb: FindGameObjectsWithTag(String)
+- uid: Prowl.Runtime.GameObject.AddComponent``1
+  commentId: M:Prowl.Runtime.GameObject.AddComponent``1
+  id: AddComponent``1
+  parent: Prowl.Runtime.GameObject
+  langs:
+  - csharp
+  - vb
+  name: AddComponent<T>()
+  nameWithType: GameObject.AddComponent<T>()
+  fullName: Prowl.Runtime.GameObject.AddComponent<T>()
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GameObject/GameObject.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: AddComponent
+    path: ../Prowl/Prowl.Runtime/GameObject/GameObject.cs
+    startLine: 268
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: 'public T AddComponent<T>() where T : MonoBehaviour, new()'
+    typeParameters:
+    - id: T
+    return:
+      type: '{T}'
+    content.vb: Public Function AddComponent(Of T As {MonoBehaviour, New})() As T
+  overload: Prowl.Runtime.GameObject.AddComponent*
+  nameWithType.vb: GameObject.AddComponent(Of T)()
+  fullName.vb: Prowl.Runtime.GameObject.AddComponent(Of T)()
+  name.vb: AddComponent(Of T)()
+- uid: Prowl.Runtime.GameObject.AddComponent(System.Type)
+  commentId: M:Prowl.Runtime.GameObject.AddComponent(System.Type)
+  id: AddComponent(System.Type)
+  parent: Prowl.Runtime.GameObject
+  langs:
+  - csharp
+  - vb
+  name: AddComponent(Type)
+  nameWithType: GameObject.AddComponent(Type)
+  fullName: Prowl.Runtime.GameObject.AddComponent(System.Type)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GameObject/GameObject.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: AddComponent
+    path: ../Prowl/Prowl.Runtime/GameObject/GameObject.cs
+    startLine: 270
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public MonoBehaviour AddComponent(Type type)
+    parameters:
+    - id: type
+      type: System.Type
+    return:
+      type: Prowl.Runtime.MonoBehaviour
+    content.vb: Public Function AddComponent(type As Type) As MonoBehaviour
+  overload: Prowl.Runtime.GameObject.AddComponent*
+- uid: Prowl.Runtime.GameObject.AddComponent(Prowl.Runtime.MonoBehaviour)
+  commentId: M:Prowl.Runtime.GameObject.AddComponent(Prowl.Runtime.MonoBehaviour)
+  id: AddComponent(Prowl.Runtime.MonoBehaviour)
+  parent: Prowl.Runtime.GameObject
+  langs:
+  - csharp
+  - vb
+  name: AddComponent(MonoBehaviour)
+  nameWithType: GameObject.AddComponent(MonoBehaviour)
+  fullName: Prowl.Runtime.GameObject.AddComponent(Prowl.Runtime.MonoBehaviour)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GameObject/GameObject.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: AddComponent
+    path: ../Prowl/Prowl.Runtime/GameObject/GameObject.cs
+    startLine: 312
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public void AddComponent(MonoBehaviour comp)
+    parameters:
+    - id: comp
+      type: Prowl.Runtime.MonoBehaviour
+    content.vb: Public Sub AddComponent(comp As MonoBehaviour)
+  overload: Prowl.Runtime.GameObject.AddComponent*
+- uid: Prowl.Runtime.GameObject.RemoveAll``1
+  commentId: M:Prowl.Runtime.GameObject.RemoveAll``1
+  id: RemoveAll``1
+  parent: Prowl.Runtime.GameObject
+  langs:
+  - csharp
+  - vb
+  name: RemoveAll<T>()
+  nameWithType: GameObject.RemoveAll<T>()
+  fullName: Prowl.Runtime.GameObject.RemoveAll<T>()
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GameObject/GameObject.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: RemoveAll
+    path: ../Prowl/Prowl.Runtime/GameObject/GameObject.cs
+    startLine: 347
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: 'public void RemoveAll<T>() where T : MonoBehaviour'
+    typeParameters:
+    - id: T
+    content.vb: Public Sub RemoveAll(Of T As MonoBehaviour)()
+  overload: Prowl.Runtime.GameObject.RemoveAll*
+  nameWithType.vb: GameObject.RemoveAll(Of T)()
+  fullName.vb: Prowl.Runtime.GameObject.RemoveAll(Of T)()
+  name.vb: RemoveAll(Of T)()
+- uid: Prowl.Runtime.GameObject.RemoveComponent``1(``0)
+  commentId: M:Prowl.Runtime.GameObject.RemoveComponent``1(``0)
+  id: RemoveComponent``1(``0)
+  parent: Prowl.Runtime.GameObject
+  langs:
+  - csharp
+  - vb
+  name: RemoveComponent<T>(T)
+  nameWithType: GameObject.RemoveComponent<T>(T)
+  fullName: Prowl.Runtime.GameObject.RemoveComponent<T>(T)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GameObject/GameObject.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: RemoveComponent
+    path: ../Prowl/Prowl.Runtime/GameObject/GameObject.cs
+    startLine: 366
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: 'public void RemoveComponent<T>(T component) where T : MonoBehaviour'
+    parameters:
+    - id: component
+      type: '{T}'
+    typeParameters:
+    - id: T
+    content.vb: Public Sub RemoveComponent(Of T As MonoBehaviour)(component As T)
+  overload: Prowl.Runtime.GameObject.RemoveComponent*
+  nameWithType.vb: GameObject.RemoveComponent(Of T)(T)
+  fullName.vb: Prowl.Runtime.GameObject.RemoveComponent(Of T)(T)
+  name.vb: RemoveComponent(Of T)(T)
+- uid: Prowl.Runtime.GameObject.RemoveComponent(Prowl.Runtime.MonoBehaviour)
+  commentId: M:Prowl.Runtime.GameObject.RemoveComponent(Prowl.Runtime.MonoBehaviour)
+  id: RemoveComponent(Prowl.Runtime.MonoBehaviour)
+  parent: Prowl.Runtime.GameObject
+  langs:
+  - csharp
+  - vb
+  name: RemoveComponent(MonoBehaviour)
+  nameWithType: GameObject.RemoveComponent(MonoBehaviour)
+  fullName: Prowl.Runtime.GameObject.RemoveComponent(Prowl.Runtime.MonoBehaviour)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GameObject/GameObject.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: RemoveComponent
+    path: ../Prowl/Prowl.Runtime/GameObject/GameObject.cs
+    startLine: 377
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public void RemoveComponent(MonoBehaviour component)
+    parameters:
+    - id: component
+      type: Prowl.Runtime.MonoBehaviour
+    content.vb: Public Sub RemoveComponent(component As MonoBehaviour)
+  overload: Prowl.Runtime.GameObject.RemoveComponent*
+- uid: Prowl.Runtime.GameObject.GetComponent``1
+  commentId: M:Prowl.Runtime.GameObject.GetComponent``1
+  id: GetComponent``1
+  parent: Prowl.Runtime.GameObject
+  langs:
+  - csharp
+  - vb
+  name: GetComponent<T>()
+  nameWithType: GameObject.GetComponent<T>()
+  fullName: Prowl.Runtime.GameObject.GetComponent<T>()
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GameObject/GameObject.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: GetComponent
+    path: ../Prowl/Prowl.Runtime/GameObject/GameObject.cs
+    startLine: 388
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: 'public T? GetComponent<T>() where T : MonoBehaviour'
+    typeParameters:
+    - id: T
+    return:
+      type: '{T}'
+    content.vb: Public Function GetComponent(Of T As MonoBehaviour)() As T
+  overload: Prowl.Runtime.GameObject.GetComponent*
+  nameWithType.vb: GameObject.GetComponent(Of T)()
+  fullName.vb: Prowl.Runtime.GameObject.GetComponent(Of T)()
+  name.vb: GetComponent(Of T)()
+- uid: Prowl.Runtime.GameObject.GetComponent(System.Type)
+  commentId: M:Prowl.Runtime.GameObject.GetComponent(System.Type)
+  id: GetComponent(System.Type)
+  parent: Prowl.Runtime.GameObject
+  langs:
+  - csharp
+  - vb
+  name: GetComponent(Type)
+  nameWithType: GameObject.GetComponent(Type)
+  fullName: Prowl.Runtime.GameObject.GetComponent(System.Type)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GameObject/GameObject.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: GetComponent
+    path: ../Prowl/Prowl.Runtime/GameObject/GameObject.cs
+    startLine: 390
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public MonoBehaviour? GetComponent(Type type)
+    parameters:
+    - id: type
+      type: System.Type
+    return:
+      type: Prowl.Runtime.MonoBehaviour
+    content.vb: Public Function GetComponent(type As Type) As MonoBehaviour
+  overload: Prowl.Runtime.GameObject.GetComponent*
+- uid: Prowl.Runtime.GameObject.GetComponents
+  commentId: M:Prowl.Runtime.GameObject.GetComponents
+  id: GetComponents
+  parent: Prowl.Runtime.GameObject
+  langs:
+  - csharp
+  - vb
+  name: GetComponents()
+  nameWithType: GameObject.GetComponents()
+  fullName: Prowl.Runtime.GameObject.GetComponents()
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GameObject/GameObject.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: GetComponents
+    path: ../Prowl/Prowl.Runtime/GameObject/GameObject.cs
+    startLine: 402
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public IEnumerable<MonoBehaviour> GetComponents()
+    return:
+      type: System.Collections.Generic.IEnumerable{Prowl.Runtime.MonoBehaviour}
+    content.vb: Public Function GetComponents() As IEnumerable(Of MonoBehaviour)
+  overload: Prowl.Runtime.GameObject.GetComponents*
+- uid: Prowl.Runtime.GameObject.TryGetComponent``1(``0@)
+  commentId: M:Prowl.Runtime.GameObject.TryGetComponent``1(``0@)
+  id: TryGetComponent``1(``0@)
+  parent: Prowl.Runtime.GameObject
+  langs:
+  - csharp
+  - vb
+  name: TryGetComponent<T>(out T?)
+  nameWithType: GameObject.TryGetComponent<T>(out T?)
+  fullName: Prowl.Runtime.GameObject.TryGetComponent<T>(out T?)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GameObject/GameObject.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: TryGetComponent
+    path: ../Prowl/Prowl.Runtime/GameObject/GameObject.cs
+    startLine: 404
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: 'public bool TryGetComponent<T>(out T? component) where T : MonoBehaviour'
+    parameters:
+    - id: component
+      type: '{T}'
+    typeParameters:
+    - id: T
+    return:
+      type: System.Boolean
+    content.vb: Public Function TryGetComponent(Of T As MonoBehaviour)(component As T) As Boolean
+  overload: Prowl.Runtime.GameObject.TryGetComponent*
+  nameWithType.vb: GameObject.TryGetComponent(Of T)(T)
+  fullName.vb: Prowl.Runtime.GameObject.TryGetComponent(Of T)(T)
+  name.vb: TryGetComponent(Of T)(T)
+- uid: Prowl.Runtime.GameObject.GetComponents``1
+  commentId: M:Prowl.Runtime.GameObject.GetComponents``1
+  id: GetComponents``1
+  parent: Prowl.Runtime.GameObject
+  langs:
+  - csharp
+  - vb
+  name: GetComponents<T>()
+  nameWithType: GameObject.GetComponents<T>()
+  fullName: Prowl.Runtime.GameObject.GetComponents<T>()
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GameObject/GameObject.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: GetComponents
+    path: ../Prowl/Prowl.Runtime/GameObject/GameObject.cs
+    startLine: 406
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: 'public IEnumerable<T> GetComponents<T>() where T : MonoBehaviour'
+    typeParameters:
+    - id: T
+    return:
+      type: System.Collections.Generic.IEnumerable{{T}}
+    content.vb: Public Function GetComponents(Of T As MonoBehaviour)() As IEnumerable(Of T)
+  overload: Prowl.Runtime.GameObject.GetComponents*
+  nameWithType.vb: GameObject.GetComponents(Of T)()
+  fullName.vb: Prowl.Runtime.GameObject.GetComponents(Of T)()
+  name.vb: GetComponents(Of T)()
+- uid: Prowl.Runtime.GameObject.GetComponents(System.Type)
+  commentId: M:Prowl.Runtime.GameObject.GetComponents(System.Type)
+  id: GetComponents(System.Type)
+  parent: Prowl.Runtime.GameObject
+  langs:
+  - csharp
+  - vb
+  name: GetComponents(Type)
+  nameWithType: GameObject.GetComponents(Type)
+  fullName: Prowl.Runtime.GameObject.GetComponents(System.Type)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GameObject/GameObject.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: GetComponents
+    path: ../Prowl/Prowl.Runtime/GameObject/GameObject.cs
+    startLine: 407
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public IEnumerable<MonoBehaviour> GetComponents(Type type)
+    parameters:
+    - id: type
+      type: System.Type
+    return:
+      type: System.Collections.Generic.IEnumerable{Prowl.Runtime.MonoBehaviour}
+    content.vb: Public Function GetComponents(type As Type) As IEnumerable(Of MonoBehaviour)
+  overload: Prowl.Runtime.GameObject.GetComponents*
+- uid: Prowl.Runtime.GameObject.GetComponentInParent``1(System.Boolean,System.Boolean)
+  commentId: M:Prowl.Runtime.GameObject.GetComponentInParent``1(System.Boolean,System.Boolean)
+  id: GetComponentInParent``1(System.Boolean,System.Boolean)
+  parent: Prowl.Runtime.GameObject
+  langs:
+  - csharp
+  - vb
+  name: GetComponentInParent<T>(bool, bool)
+  nameWithType: GameObject.GetComponentInParent<T>(bool, bool)
+  fullName: Prowl.Runtime.GameObject.GetComponentInParent<T>(bool, bool)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GameObject/GameObject.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: GetComponentInParent
+    path: ../Prowl/Prowl.Runtime/GameObject/GameObject.cs
+    startLine: 433
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: 'public T? GetComponentInParent<T>(bool includeSelf = true, bool includeInactive = false) where T : MonoBehaviour'
+    parameters:
+    - id: includeSelf
+      type: System.Boolean
+    - id: includeInactive
+      type: System.Boolean
+    typeParameters:
+    - id: T
+    return:
+      type: '{T}'
+    content.vb: Public Function GetComponentInParent(Of T As MonoBehaviour)(includeSelf As Boolean = True, includeInactive As Boolean = False) As T
+  overload: Prowl.Runtime.GameObject.GetComponentInParent*
+  nameWithType.vb: GameObject.GetComponentInParent(Of T)(Boolean, Boolean)
+  fullName.vb: Prowl.Runtime.GameObject.GetComponentInParent(Of T)(Boolean, Boolean)
+  name.vb: GetComponentInParent(Of T)(Boolean, Boolean)
+- uid: Prowl.Runtime.GameObject.GetComponentInParent(System.Type,System.Boolean,System.Boolean)
+  commentId: M:Prowl.Runtime.GameObject.GetComponentInParent(System.Type,System.Boolean,System.Boolean)
+  id: GetComponentInParent(System.Type,System.Boolean,System.Boolean)
+  parent: Prowl.Runtime.GameObject
+  langs:
+  - csharp
+  - vb
+  name: GetComponentInParent(Type, bool, bool)
+  nameWithType: GameObject.GetComponentInParent(Type, bool, bool)
+  fullName: Prowl.Runtime.GameObject.GetComponentInParent(System.Type, bool, bool)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GameObject/GameObject.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: GetComponentInParent
+    path: ../Prowl/Prowl.Runtime/GameObject/GameObject.cs
+    startLine: 435
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public MonoBehaviour? GetComponentInParent(Type componentType, bool includeSelf = true, bool includeInactive = false)
+    parameters:
+    - id: componentType
+      type: System.Type
+    - id: includeSelf
+      type: System.Boolean
+    - id: includeInactive
+      type: System.Boolean
+    return:
+      type: Prowl.Runtime.MonoBehaviour
+    content.vb: Public Function GetComponentInParent(componentType As Type, includeSelf As Boolean = True, includeInactive As Boolean = False) As MonoBehaviour
+  overload: Prowl.Runtime.GameObject.GetComponentInParent*
+  nameWithType.vb: GameObject.GetComponentInParent(Type, Boolean, Boolean)
+  fullName.vb: Prowl.Runtime.GameObject.GetComponentInParent(System.Type, Boolean, Boolean)
+  name.vb: GetComponentInParent(Type, Boolean, Boolean)
+- uid: Prowl.Runtime.GameObject.GetComponentsInParent``1(System.Boolean,System.Boolean)
+  commentId: M:Prowl.Runtime.GameObject.GetComponentsInParent``1(System.Boolean,System.Boolean)
+  id: GetComponentsInParent``1(System.Boolean,System.Boolean)
+  parent: Prowl.Runtime.GameObject
+  langs:
+  - csharp
+  - vb
+  name: GetComponentsInParent<T>(bool, bool)
+  nameWithType: GameObject.GetComponentsInParent<T>(bool, bool)
+  fullName: Prowl.Runtime.GameObject.GetComponentsInParent<T>(bool, bool)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GameObject/GameObject.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: GetComponentsInParent
+    path: ../Prowl/Prowl.Runtime/GameObject/GameObject.cs
+    startLine: 460
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: 'public IEnumerable<T> GetComponentsInParent<T>(bool includeSelf = true, bool includeInactive = false) where T : MonoBehaviour'
+    parameters:
+    - id: includeSelf
+      type: System.Boolean
+    - id: includeInactive
+      type: System.Boolean
+    typeParameters:
+    - id: T
+    return:
+      type: System.Collections.Generic.IEnumerable{{T}}
+    content.vb: Public Function GetComponentsInParent(Of T As MonoBehaviour)(includeSelf As Boolean = True, includeInactive As Boolean = False) As IEnumerable(Of T)
+  overload: Prowl.Runtime.GameObject.GetComponentsInParent*
+  nameWithType.vb: GameObject.GetComponentsInParent(Of T)(Boolean, Boolean)
+  fullName.vb: Prowl.Runtime.GameObject.GetComponentsInParent(Of T)(Boolean, Boolean)
+  name.vb: GetComponentsInParent(Of T)(Boolean, Boolean)
+- uid: Prowl.Runtime.GameObject.GetComponentsInParent(System.Type,System.Boolean,System.Boolean)
+  commentId: M:Prowl.Runtime.GameObject.GetComponentsInParent(System.Type,System.Boolean,System.Boolean)
+  id: GetComponentsInParent(System.Type,System.Boolean,System.Boolean)
+  parent: Prowl.Runtime.GameObject
+  langs:
+  - csharp
+  - vb
+  name: GetComponentsInParent(Type, bool, bool)
+  nameWithType: GameObject.GetComponentsInParent(Type, bool, bool)
+  fullName: Prowl.Runtime.GameObject.GetComponentsInParent(System.Type, bool, bool)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GameObject/GameObject.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: GetComponentsInParent
+    path: ../Prowl/Prowl.Runtime/GameObject/GameObject.cs
+    startLine: 461
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public IEnumerable<MonoBehaviour> GetComponentsInParent(Type type, bool includeSelf = true, bool includeInactive = false)
+    parameters:
+    - id: type
+      type: System.Type
+    - id: includeSelf
+      type: System.Boolean
+    - id: includeInactive
+      type: System.Boolean
+    return:
+      type: System.Collections.Generic.IEnumerable{Prowl.Runtime.MonoBehaviour}
+    content.vb: Public Function GetComponentsInParent(type As Type, includeSelf As Boolean = True, includeInactive As Boolean = False) As IEnumerable(Of MonoBehaviour)
+  overload: Prowl.Runtime.GameObject.GetComponentsInParent*
+  nameWithType.vb: GameObject.GetComponentsInParent(Type, Boolean, Boolean)
+  fullName.vb: Prowl.Runtime.GameObject.GetComponentsInParent(System.Type, Boolean, Boolean)
+  name.vb: GetComponentsInParent(Type, Boolean, Boolean)
+- uid: Prowl.Runtime.GameObject.GetComponentInChildren``1(System.Boolean,System.Boolean)
+  commentId: M:Prowl.Runtime.GameObject.GetComponentInChildren``1(System.Boolean,System.Boolean)
+  id: GetComponentInChildren``1(System.Boolean,System.Boolean)
+  parent: Prowl.Runtime.GameObject
+  langs:
+  - csharp
+  - vb
+  name: GetComponentInChildren<T>(bool, bool)
+  nameWithType: GameObject.GetComponentInChildren<T>(bool, bool)
+  fullName: Prowl.Runtime.GameObject.GetComponentInChildren<T>(bool, bool)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GameObject/GameObject.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: GetComponentInChildren
+    path: ../Prowl/Prowl.Runtime/GameObject/GameObject.cs
+    startLine: 477
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: 'public T? GetComponentInChildren<T>(bool includeSelf = true, bool includeInactive = false) where T : MonoBehaviour'
+    parameters:
+    - id: includeSelf
+      type: System.Boolean
+    - id: includeInactive
+      type: System.Boolean
+    typeParameters:
+    - id: T
+    return:
+      type: '{T}'
+    content.vb: Public Function GetComponentInChildren(Of T As MonoBehaviour)(includeSelf As Boolean = True, includeInactive As Boolean = False) As T
+  overload: Prowl.Runtime.GameObject.GetComponentInChildren*
+  nameWithType.vb: GameObject.GetComponentInChildren(Of T)(Boolean, Boolean)
+  fullName.vb: Prowl.Runtime.GameObject.GetComponentInChildren(Of T)(Boolean, Boolean)
+  name.vb: GetComponentInChildren(Of T)(Boolean, Boolean)
+- uid: Prowl.Runtime.GameObject.GetComponentInChildren(System.Type,System.Boolean,System.Boolean)
+  commentId: M:Prowl.Runtime.GameObject.GetComponentInChildren(System.Type,System.Boolean,System.Boolean)
+  id: GetComponentInChildren(System.Type,System.Boolean,System.Boolean)
+  parent: Prowl.Runtime.GameObject
+  langs:
+  - csharp
+  - vb
+  name: GetComponentInChildren(Type, bool, bool)
+  nameWithType: GameObject.GetComponentInChildren(Type, bool, bool)
+  fullName: Prowl.Runtime.GameObject.GetComponentInChildren(System.Type, bool, bool)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GameObject/GameObject.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: GetComponentInChildren
+    path: ../Prowl/Prowl.Runtime/GameObject/GameObject.cs
+    startLine: 479
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public MonoBehaviour GetComponentInChildren(Type componentType, bool includeSelf = true, bool includeInactive = false)
+    parameters:
+    - id: componentType
+      type: System.Type
+    - id: includeSelf
+      type: System.Boolean
+    - id: includeInactive
+      type: System.Boolean
+    return:
+      type: Prowl.Runtime.MonoBehaviour
+    content.vb: Public Function GetComponentInChildren(componentType As Type, includeSelf As Boolean = True, includeInactive As Boolean = False) As MonoBehaviour
+  overload: Prowl.Runtime.GameObject.GetComponentInChildren*
+  nameWithType.vb: GameObject.GetComponentInChildren(Type, Boolean, Boolean)
+  fullName.vb: Prowl.Runtime.GameObject.GetComponentInChildren(System.Type, Boolean, Boolean)
+  name.vb: GetComponentInChildren(Type, Boolean, Boolean)
+- uid: Prowl.Runtime.GameObject.GetComponentsInChildren``1(System.Boolean,System.Boolean)
+  commentId: M:Prowl.Runtime.GameObject.GetComponentsInChildren``1(System.Boolean,System.Boolean)
+  id: GetComponentsInChildren``1(System.Boolean,System.Boolean)
+  parent: Prowl.Runtime.GameObject
+  langs:
+  - csharp
+  - vb
+  name: GetComponentsInChildren<T>(bool, bool)
+  nameWithType: GameObject.GetComponentsInChildren<T>(bool, bool)
+  fullName: Prowl.Runtime.GameObject.GetComponentsInChildren<T>(bool, bool)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GameObject/GameObject.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: GetComponentsInChildren
+    path: ../Prowl/Prowl.Runtime/GameObject/GameObject.cs
+    startLine: 504
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: 'public IEnumerable<T> GetComponentsInChildren<T>(bool includeSelf = true, bool includeInactive = false) where T : MonoBehaviour'
+    parameters:
+    - id: includeSelf
+      type: System.Boolean
+    - id: includeInactive
+      type: System.Boolean
+    typeParameters:
+    - id: T
+    return:
+      type: System.Collections.Generic.IEnumerable{{T}}
+    content.vb: Public Function GetComponentsInChildren(Of T As MonoBehaviour)(includeSelf As Boolean = True, includeInactive As Boolean = False) As IEnumerable(Of T)
+  overload: Prowl.Runtime.GameObject.GetComponentsInChildren*
+  nameWithType.vb: GameObject.GetComponentsInChildren(Of T)(Boolean, Boolean)
+  fullName.vb: Prowl.Runtime.GameObject.GetComponentsInChildren(Of T)(Boolean, Boolean)
+  name.vb: GetComponentsInChildren(Of T)(Boolean, Boolean)
+- uid: Prowl.Runtime.GameObject.GetComponentsInChildren(System.Type,System.Boolean,System.Boolean)
+  commentId: M:Prowl.Runtime.GameObject.GetComponentsInChildren(System.Type,System.Boolean,System.Boolean)
+  id: GetComponentsInChildren(System.Type,System.Boolean,System.Boolean)
+  parent: Prowl.Runtime.GameObject
+  langs:
+  - csharp
+  - vb
+  name: GetComponentsInChildren(Type, bool, bool)
+  nameWithType: GameObject.GetComponentsInChildren(Type, bool, bool)
+  fullName: Prowl.Runtime.GameObject.GetComponentsInChildren(System.Type, bool, bool)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GameObject/GameObject.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: GetComponentsInChildren
+    path: ../Prowl/Prowl.Runtime/GameObject/GameObject.cs
+    startLine: 505
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public IEnumerable<MonoBehaviour> GetComponentsInChildren(Type type, bool includeSelf = true, bool includeInactive = false)
+    parameters:
+    - id: type
+      type: System.Type
+    - id: includeSelf
+      type: System.Boolean
+    - id: includeInactive
+      type: System.Boolean
+    return:
+      type: System.Collections.Generic.IEnumerable{Prowl.Runtime.MonoBehaviour}
+    content.vb: Public Function GetComponentsInChildren(type As Type, includeSelf As Boolean = True, includeInactive As Boolean = False) As IEnumerable(Of MonoBehaviour)
+  overload: Prowl.Runtime.GameObject.GetComponentsInChildren*
+  nameWithType.vb: GameObject.GetComponentsInChildren(Type, Boolean, Boolean)
+  fullName.vb: Prowl.Runtime.GameObject.GetComponentsInChildren(System.Type, Boolean, Boolean)
+  name.vb: GetComponentsInChildren(Type, Boolean, Boolean)
+- uid: Prowl.Runtime.GameObject.Instantiate(Prowl.Runtime.GameObject)
+  commentId: M:Prowl.Runtime.GameObject.Instantiate(Prowl.Runtime.GameObject)
+  id: Instantiate(Prowl.Runtime.GameObject)
+  parent: Prowl.Runtime.GameObject
+  langs:
+  - csharp
+  - vb
+  name: Instantiate(GameObject)
+  nameWithType: GameObject.Instantiate(GameObject)
+  fullName: Prowl.Runtime.GameObject.Instantiate(Prowl.Runtime.GameObject)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GameObject/GameObject.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Instantiate
+    path: ../Prowl/Prowl.Runtime/GameObject/GameObject.cs
+    startLine: 540
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public static GameObject Instantiate(GameObject original)
+    parameters:
+    - id: original
+      type: Prowl.Runtime.GameObject
+    return:
+      type: Prowl.Runtime.GameObject
+    content.vb: Public Shared Function Instantiate(original As GameObject) As GameObject
+  overload: Prowl.Runtime.GameObject.Instantiate*
+- uid: Prowl.Runtime.GameObject.Instantiate(Prowl.Runtime.GameObject,Prowl.Runtime.GameObject)
+  commentId: M:Prowl.Runtime.GameObject.Instantiate(Prowl.Runtime.GameObject,Prowl.Runtime.GameObject)
+  id: Instantiate(Prowl.Runtime.GameObject,Prowl.Runtime.GameObject)
+  parent: Prowl.Runtime.GameObject
+  langs:
+  - csharp
+  - vb
+  name: Instantiate(GameObject, GameObject?)
+  nameWithType: GameObject.Instantiate(GameObject, GameObject?)
+  fullName: Prowl.Runtime.GameObject.Instantiate(Prowl.Runtime.GameObject, Prowl.Runtime.GameObject?)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GameObject/GameObject.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Instantiate
+    path: ../Prowl/Prowl.Runtime/GameObject/GameObject.cs
+    startLine: 541
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public static GameObject Instantiate(GameObject original, GameObject? parent)
+    parameters:
+    - id: original
+      type: Prowl.Runtime.GameObject
+    - id: parent
+      type: Prowl.Runtime.GameObject
+    return:
+      type: Prowl.Runtime.GameObject
+    content.vb: Public Shared Function Instantiate(original As GameObject, parent As GameObject) As GameObject
+  overload: Prowl.Runtime.GameObject.Instantiate*
+  nameWithType.vb: GameObject.Instantiate(GameObject, GameObject)
+  fullName.vb: Prowl.Runtime.GameObject.Instantiate(Prowl.Runtime.GameObject, Prowl.Runtime.GameObject)
+  name.vb: Instantiate(GameObject, GameObject)
+- uid: Prowl.Runtime.GameObject.Instantiate(Prowl.Runtime.GameObject,Prowl.Runtime.GameObject,Prowl.Runtime.Vector3,Prowl.Runtime.Quaternion)
+  commentId: M:Prowl.Runtime.GameObject.Instantiate(Prowl.Runtime.GameObject,Prowl.Runtime.GameObject,Prowl.Runtime.Vector3,Prowl.Runtime.Quaternion)
+  id: Instantiate(Prowl.Runtime.GameObject,Prowl.Runtime.GameObject,Prowl.Runtime.Vector3,Prowl.Runtime.Quaternion)
+  parent: Prowl.Runtime.GameObject
+  langs:
+  - csharp
+  - vb
+  name: Instantiate(GameObject, GameObject?, Vector3, Quaternion)
+  nameWithType: GameObject.Instantiate(GameObject, GameObject?, Vector3, Quaternion)
+  fullName: Prowl.Runtime.GameObject.Instantiate(Prowl.Runtime.GameObject, Prowl.Runtime.GameObject?, Prowl.Runtime.Vector3, Prowl.Runtime.Quaternion)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GameObject/GameObject.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Instantiate
+    path: ../Prowl/Prowl.Runtime/GameObject/GameObject.cs
+    startLine: 547
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public static GameObject Instantiate(GameObject original, GameObject? parent, Vector3 position, Quaternion rotation)
+    parameters:
+    - id: original
+      type: Prowl.Runtime.GameObject
+    - id: parent
+      type: Prowl.Runtime.GameObject
+    - id: position
+      type: Prowl.Runtime.Vector3
+    - id: rotation
+      type: Prowl.Runtime.Quaternion
+    return:
+      type: Prowl.Runtime.GameObject
+    content.vb: Public Shared Function Instantiate(original As GameObject, parent As GameObject, position As Vector3, rotation As Quaternion) As GameObject
+  overload: Prowl.Runtime.GameObject.Instantiate*
+  nameWithType.vb: GameObject.Instantiate(GameObject, GameObject, Vector3, Quaternion)
+  fullName.vb: Prowl.Runtime.GameObject.Instantiate(Prowl.Runtime.GameObject, Prowl.Runtime.GameObject, Prowl.Runtime.Vector3, Prowl.Runtime.Quaternion)
+  name.vb: Instantiate(GameObject, GameObject, Vector3, Quaternion)
+- uid: Prowl.Runtime.GameObject.Instantiate(Prowl.Runtime.GameObject,Prowl.Runtime.Vector3,Prowl.Runtime.Quaternion,Prowl.Runtime.GameObject)
+  commentId: M:Prowl.Runtime.GameObject.Instantiate(Prowl.Runtime.GameObject,Prowl.Runtime.Vector3,Prowl.Runtime.Quaternion,Prowl.Runtime.GameObject)
+  id: Instantiate(Prowl.Runtime.GameObject,Prowl.Runtime.Vector3,Prowl.Runtime.Quaternion,Prowl.Runtime.GameObject)
+  parent: Prowl.Runtime.GameObject
+  langs:
+  - csharp
+  - vb
+  name: Instantiate(GameObject, Vector3, Quaternion, GameObject?)
+  nameWithType: GameObject.Instantiate(GameObject, Vector3, Quaternion, GameObject?)
+  fullName: Prowl.Runtime.GameObject.Instantiate(Prowl.Runtime.GameObject, Prowl.Runtime.Vector3, Prowl.Runtime.Quaternion, Prowl.Runtime.GameObject?)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GameObject/GameObject.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Instantiate
+    path: ../Prowl/Prowl.Runtime/GameObject/GameObject.cs
+    startLine: 548
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public static GameObject Instantiate(GameObject original, Vector3 position, Quaternion rotation, GameObject? parent)
+    parameters:
+    - id: original
+      type: Prowl.Runtime.GameObject
+    - id: position
+      type: Prowl.Runtime.Vector3
+    - id: rotation
+      type: Prowl.Runtime.Quaternion
+    - id: parent
+      type: Prowl.Runtime.GameObject
+    return:
+      type: Prowl.Runtime.GameObject
+    content.vb: Public Shared Function Instantiate(original As GameObject, position As Vector3, rotation As Quaternion, parent As GameObject) As GameObject
+  overload: Prowl.Runtime.GameObject.Instantiate*
+  nameWithType.vb: GameObject.Instantiate(GameObject, Vector3, Quaternion, GameObject)
+  fullName.vb: Prowl.Runtime.GameObject.Instantiate(Prowl.Runtime.GameObject, Prowl.Runtime.Vector3, Prowl.Runtime.Quaternion, Prowl.Runtime.GameObject)
+  name.vb: Instantiate(GameObject, Vector3, Quaternion, GameObject)
+- uid: Prowl.Runtime.GameObject.OnDispose
+  commentId: M:Prowl.Runtime.GameObject.OnDispose
+  id: OnDispose
+  parent: Prowl.Runtime.GameObject
+  langs:
+  - csharp
+  - vb
+  name: OnDispose()
+  nameWithType: GameObject.OnDispose()
+  fullName: Prowl.Runtime.GameObject.OnDispose()
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GameObject/GameObject.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: OnDispose
+    path: ../Prowl/Prowl.Runtime/GameObject/GameObject.cs
+    startLine: 557
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  example: []
+  syntax:
+    content: public override void OnDispose()
+    content.vb: Public Overrides Sub OnDispose()
+  overridden: Prowl.Runtime.EngineObject.OnDispose
+  overload: Prowl.Runtime.GameObject.OnDispose*
+- uid: Prowl.Runtime.GameObject.DontDestroyOnLoad
+  commentId: M:Prowl.Runtime.GameObject.DontDestroyOnLoad
+  id: DontDestroyOnLoad
+  parent: Prowl.Runtime.GameObject
+  langs:
+  - csharp
+  - vb
+  name: DontDestroyOnLoad()
+  nameWithType: GameObject.DontDestroyOnLoad()
+  fullName: Prowl.Runtime.GameObject.DontDestroyOnLoad()
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GameObject/GameObject.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: DontDestroyOnLoad
+    path: ../Prowl/Prowl.Runtime/GameObject/GameObject.cs
+    startLine: 598
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public void DontDestroyOnLoad()
+    content.vb: Public Sub DontDestroyOnLoad()
+  overload: Prowl.Runtime.GameObject.DontDestroyOnLoad*
+- uid: Prowl.Runtime.GameObject.BroadcastMessage(System.String,System.Object[])
+  commentId: M:Prowl.Runtime.GameObject.BroadcastMessage(System.String,System.Object[])
+  id: BroadcastMessage(System.String,System.Object[])
+  parent: Prowl.Runtime.GameObject
+  langs:
+  - csharp
+  - vb
+  name: BroadcastMessage(string, params object[])
+  nameWithType: GameObject.BroadcastMessage(string, params object[])
+  fullName: Prowl.Runtime.GameObject.BroadcastMessage(string, params object[])
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GameObject/GameObject.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: BroadcastMessage
+    path: ../Prowl/Prowl.Runtime/GameObject/GameObject.cs
+    startLine: 601
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: Calls the method named methodName on every MonoBehaviour in this game object or any of its children.
+  example: []
+  syntax:
+    content: public void BroadcastMessage(string methodName, params object[] objs)
+    parameters:
+    - id: methodName
+      type: System.String
+    - id: objs
+      type: System.Object[]
+    content.vb: Public Sub BroadcastMessage(methodName As String, ParamArray objs As Object())
+  overload: Prowl.Runtime.GameObject.BroadcastMessage*
+  nameWithType.vb: GameObject.BroadcastMessage(String, ParamArray Object())
+  fullName.vb: Prowl.Runtime.GameObject.BroadcastMessage(String, ParamArray Object())
+  name.vb: BroadcastMessage(String, ParamArray Object())
+- uid: Prowl.Runtime.GameObject.SendMessage(System.String,System.Object[])
+  commentId: M:Prowl.Runtime.GameObject.SendMessage(System.String,System.Object[])
+  id: SendMessage(System.String,System.Object[])
+  parent: Prowl.Runtime.GameObject
+  langs:
+  - csharp
+  - vb
+  name: SendMessage(string, params object[])
+  nameWithType: GameObject.SendMessage(string, params object[])
+  fullName: Prowl.Runtime.GameObject.SendMessage(string, params object[])
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GameObject/GameObject.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: SendMessage
+    path: ../Prowl/Prowl.Runtime/GameObject/GameObject.cs
+    startLine: 611
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: Calls the method named methodName on every MonoBehaviour in this game object.
+  example: []
+  syntax:
+    content: public void SendMessage(string methodName, params object[] objs)
+    parameters:
+    - id: methodName
+      type: System.String
+    - id: objs
+      type: System.Object[]
+    content.vb: Public Sub SendMessage(methodName As String, ParamArray objs As Object())
+  overload: Prowl.Runtime.GameObject.SendMessage*
+  nameWithType.vb: GameObject.SendMessage(String, ParamArray Object())
+  fullName.vb: Prowl.Runtime.GameObject.SendMessage(String, ParamArray Object())
+  name.vb: SendMessage(String, ParamArray Object())
+- uid: Prowl.Runtime.GameObject.Serialize(Prowl.Runtime.Serializer.SerializationContext)
+  commentId: M:Prowl.Runtime.GameObject.Serialize(Prowl.Runtime.Serializer.SerializationContext)
+  id: Serialize(Prowl.Runtime.Serializer.SerializationContext)
+  parent: Prowl.Runtime.GameObject
+  langs:
+  - csharp
+  - vb
+  name: Serialize(SerializationContext)
+  nameWithType: GameObject.Serialize(Serializer.SerializationContext)
+  fullName: Prowl.Runtime.GameObject.Serialize(Prowl.Runtime.Serializer.SerializationContext)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GameObject/GameObject.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Serialize
+    path: ../Prowl/Prowl.Runtime/GameObject/GameObject.cs
+    startLine: 620
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  example: []
+  syntax:
+    content: public SerializedProperty Serialize(Serializer.SerializationContext ctx)
+    parameters:
+    - id: ctx
+      type: Prowl.Runtime.Serializer.SerializationContext
+    return:
+      type: Prowl.Runtime.SerializedProperty
+    content.vb: Public Function Serialize(ctx As Serializer.SerializationContext) As SerializedProperty
+  overload: Prowl.Runtime.GameObject.Serialize*
+  implements:
+  - Prowl.Runtime.ISerializable.Serialize(Prowl.Runtime.Serializer.SerializationContext)
+- uid: Prowl.Runtime.GameObject.Deserialize(Prowl.Runtime.SerializedProperty,Prowl.Runtime.Serializer.SerializationContext)
+  commentId: M:Prowl.Runtime.GameObject.Deserialize(Prowl.Runtime.SerializedProperty,Prowl.Runtime.Serializer.SerializationContext)
+  id: Deserialize(Prowl.Runtime.SerializedProperty,Prowl.Runtime.Serializer.SerializationContext)
+  parent: Prowl.Runtime.GameObject
+  langs:
+  - csharp
+  - vb
+  name: Deserialize(SerializedProperty, SerializationContext)
+  nameWithType: GameObject.Deserialize(SerializedProperty, Serializer.SerializationContext)
+  fullName: Prowl.Runtime.GameObject.Deserialize(Prowl.Runtime.SerializedProperty, Prowl.Runtime.Serializer.SerializationContext)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GameObject/GameObject.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Deserialize
+    path: ../Prowl/Prowl.Runtime/GameObject/GameObject.cs
+    startLine: 655
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  example: []
+  syntax:
+    content: public void Deserialize(SerializedProperty value, Serializer.SerializationContext ctx)
+    parameters:
+    - id: value
+      type: Prowl.Runtime.SerializedProperty
+    - id: ctx
+      type: Prowl.Runtime.Serializer.SerializationContext
+    content.vb: Public Sub Deserialize(value As SerializedProperty, ctx As Serializer.SerializationContext)
+  overload: Prowl.Runtime.GameObject.Deserialize*
+  implements:
+  - Prowl.Runtime.ISerializable.Deserialize(Prowl.Runtime.SerializedProperty,Prowl.Runtime.Serializer.SerializationContext)
+references:
+- uid: Prowl.Runtime
+  commentId: N:Prowl.Runtime
+  href: Prowl.html
+  name: Prowl.Runtime
+  nameWithType: Prowl.Runtime
+  fullName: Prowl.Runtime
+  spec.csharp:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+  spec.vb:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Prowl.Runtime.EngineObject
+  commentId: T:Prowl.Runtime.EngineObject
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.EngineObject.html
+  name: EngineObject
+  nameWithType: EngineObject
+  fullName: Prowl.Runtime.EngineObject
+- uid: System.IDisposable
+  commentId: T:System.IDisposable
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.idisposable
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
+- uid: Prowl.Runtime.ISerializable
+  commentId: T:Prowl.Runtime.ISerializable
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.ISerializable.html
+  name: ISerializable
+  nameWithType: ISerializable
+  fullName: Prowl.Runtime.ISerializable
+- uid: Prowl.Runtime.EngineObject._instanceID
+  commentId: F:Prowl.Runtime.EngineObject._instanceID
+  parent: Prowl.Runtime.EngineObject
+  href: Prowl.Runtime.EngineObject.html#Prowl_Runtime_EngineObject__instanceID
+  name: _instanceID
+  nameWithType: EngineObject._instanceID
+  fullName: Prowl.Runtime.EngineObject._instanceID
+- uid: Prowl.Runtime.EngineObject.InstanceID
+  commentId: P:Prowl.Runtime.EngineObject.InstanceID
+  parent: Prowl.Runtime.EngineObject
+  href: Prowl.Runtime.EngineObject.html#Prowl_Runtime_EngineObject_InstanceID
+  name: InstanceID
+  nameWithType: EngineObject.InstanceID
+  fullName: Prowl.Runtime.EngineObject.InstanceID
+- uid: Prowl.Runtime.EngineObject.AssetID
+  commentId: F:Prowl.Runtime.EngineObject.AssetID
+  parent: Prowl.Runtime.EngineObject
+  href: Prowl.Runtime.EngineObject.html#Prowl_Runtime_EngineObject_AssetID
+  name: AssetID
+  nameWithType: EngineObject.AssetID
+  fullName: Prowl.Runtime.EngineObject.AssetID
+- uid: Prowl.Runtime.EngineObject.FileID
+  commentId: F:Prowl.Runtime.EngineObject.FileID
+  parent: Prowl.Runtime.EngineObject
+  href: Prowl.Runtime.EngineObject.html#Prowl_Runtime_EngineObject_FileID
+  name: FileID
+  nameWithType: EngineObject.FileID
+  fullName: Prowl.Runtime.EngineObject.FileID
+- uid: Prowl.Runtime.EngineObject.Name
+  commentId: F:Prowl.Runtime.EngineObject.Name
+  parent: Prowl.Runtime.EngineObject
+  href: Prowl.Runtime.EngineObject.html#Prowl_Runtime_EngineObject_Name
+  name: Name
+  nameWithType: EngineObject.Name
+  fullName: Prowl.Runtime.EngineObject.Name
+- uid: Prowl.Runtime.EngineObject.IsDestroyed
+  commentId: F:Prowl.Runtime.EngineObject.IsDestroyed
+  parent: Prowl.Runtime.EngineObject
+  href: Prowl.Runtime.EngineObject.html#Prowl_Runtime_EngineObject_IsDestroyed
+  name: IsDestroyed
+  nameWithType: EngineObject.IsDestroyed
+  fullName: Prowl.Runtime.EngineObject.IsDestroyed
+- uid: Prowl.Runtime.EngineObject.CreatedInstance
+  commentId: M:Prowl.Runtime.EngineObject.CreatedInstance
+  parent: Prowl.Runtime.EngineObject
+  href: Prowl.Runtime.EngineObject.html#Prowl_Runtime_EngineObject_CreatedInstance
+  name: CreatedInstance()
+  nameWithType: EngineObject.CreatedInstance()
+  fullName: Prowl.Runtime.EngineObject.CreatedInstance()
+  spec.csharp:
+  - uid: Prowl.Runtime.EngineObject.CreatedInstance
+    name: CreatedInstance
+    href: Prowl.Runtime.EngineObject.html#Prowl_Runtime_EngineObject_CreatedInstance
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.EngineObject.CreatedInstance
+    name: CreatedInstance
+    href: Prowl.Runtime.EngineObject.html#Prowl_Runtime_EngineObject_CreatedInstance
+  - name: (
+  - name: )
+- uid: Prowl.Runtime.EngineObject.OnValidate
+  commentId: M:Prowl.Runtime.EngineObject.OnValidate
+  parent: Prowl.Runtime.EngineObject
+  href: Prowl.Runtime.EngineObject.html#Prowl_Runtime_EngineObject_OnValidate
+  name: OnValidate()
+  nameWithType: EngineObject.OnValidate()
+  fullName: Prowl.Runtime.EngineObject.OnValidate()
+  spec.csharp:
+  - uid: Prowl.Runtime.EngineObject.OnValidate
+    name: OnValidate
+    href: Prowl.Runtime.EngineObject.html#Prowl_Runtime_EngineObject_OnValidate
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.EngineObject.OnValidate
+    name: OnValidate
+    href: Prowl.Runtime.EngineObject.html#Prowl_Runtime_EngineObject_OnValidate
+  - name: (
+  - name: )
+- uid: Prowl.Runtime.EngineObject.FindObjectOfType``1
+  commentId: M:Prowl.Runtime.EngineObject.FindObjectOfType``1
+  parent: Prowl.Runtime.EngineObject
+  href: Prowl.Runtime.EngineObject.html#Prowl_Runtime_EngineObject_FindObjectOfType__1
+  name: FindObjectOfType<T>()
+  nameWithType: EngineObject.FindObjectOfType<T>()
+  fullName: Prowl.Runtime.EngineObject.FindObjectOfType<T>()
+  nameWithType.vb: EngineObject.FindObjectOfType(Of T)()
+  fullName.vb: Prowl.Runtime.EngineObject.FindObjectOfType(Of T)()
+  name.vb: FindObjectOfType(Of T)()
+  spec.csharp:
+  - uid: Prowl.Runtime.EngineObject.FindObjectOfType``1
+    name: FindObjectOfType
+    href: Prowl.Runtime.EngineObject.html#Prowl_Runtime_EngineObject_FindObjectOfType__1
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.EngineObject.FindObjectOfType``1
+    name: FindObjectOfType
+    href: Prowl.Runtime.EngineObject.html#Prowl_Runtime_EngineObject_FindObjectOfType__1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: )
+- uid: Prowl.Runtime.EngineObject.FindObjectsOfType``1
+  commentId: M:Prowl.Runtime.EngineObject.FindObjectsOfType``1
+  parent: Prowl.Runtime.EngineObject
+  href: Prowl.Runtime.EngineObject.html#Prowl_Runtime_EngineObject_FindObjectsOfType__1
+  name: FindObjectsOfType<T>()
+  nameWithType: EngineObject.FindObjectsOfType<T>()
+  fullName: Prowl.Runtime.EngineObject.FindObjectsOfType<T>()
+  nameWithType.vb: EngineObject.FindObjectsOfType(Of T)()
+  fullName.vb: Prowl.Runtime.EngineObject.FindObjectsOfType(Of T)()
+  name.vb: FindObjectsOfType(Of T)()
+  spec.csharp:
+  - uid: Prowl.Runtime.EngineObject.FindObjectsOfType``1
+    name: FindObjectsOfType
+    href: Prowl.Runtime.EngineObject.html#Prowl_Runtime_EngineObject_FindObjectsOfType__1
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.EngineObject.FindObjectsOfType``1
+    name: FindObjectsOfType
+    href: Prowl.Runtime.EngineObject.html#Prowl_Runtime_EngineObject_FindObjectsOfType__1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: )
+- uid: Prowl.Runtime.EngineObject.FindObjectByID``1(System.Int32)
+  commentId: M:Prowl.Runtime.EngineObject.FindObjectByID``1(System.Int32)
+  parent: Prowl.Runtime.EngineObject
+  isExternal: true
+  href: Prowl.Runtime.EngineObject.html#Prowl_Runtime_EngineObject_FindObjectByID__1_System_Int32_
+  name: FindObjectByID<T>(int)
+  nameWithType: EngineObject.FindObjectByID<T>(int)
+  fullName: Prowl.Runtime.EngineObject.FindObjectByID<T>(int)
+  nameWithType.vb: EngineObject.FindObjectByID(Of T)(Integer)
+  fullName.vb: Prowl.Runtime.EngineObject.FindObjectByID(Of T)(Integer)
+  name.vb: FindObjectByID(Of T)(Integer)
+  spec.csharp:
+  - uid: Prowl.Runtime.EngineObject.FindObjectByID``1(System.Int32)
+    name: FindObjectByID
+    href: Prowl.Runtime.EngineObject.html#Prowl_Runtime_EngineObject_FindObjectByID__1_System_Int32_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.EngineObject.FindObjectByID``1(System.Int32)
+    name: FindObjectByID
+    href: Prowl.Runtime.EngineObject.html#Prowl_Runtime_EngineObject_FindObjectByID__1_System_Int32_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: Prowl.Runtime.EngineObject.Foreach``1(System.Action{{T}})
+  commentId: M:Prowl.Runtime.EngineObject.Foreach``1(System.Action{``0})
+  parent: Prowl.Runtime.EngineObject
+  definition: Prowl.Runtime.EngineObject.Foreach``1(System.Action{``0})
+  href: Prowl.Runtime.EngineObject.html#Prowl_Runtime_EngineObject_Foreach__1_System_Action___0__
+  name: Foreach<T>(Action<T>)
+  nameWithType: EngineObject.Foreach<T>(Action<T>)
+  fullName: Prowl.Runtime.EngineObject.Foreach<T>(System.Action<T>)
+  nameWithType.vb: EngineObject.Foreach(Of T)(Action(Of T))
+  fullName.vb: Prowl.Runtime.EngineObject.Foreach(Of T)(System.Action(Of T))
+  name.vb: Foreach(Of T)(Action(Of T))
+  spec.csharp:
+  - uid: Prowl.Runtime.EngineObject.Foreach``1(System.Action{``0})
+    name: Foreach
+    href: Prowl.Runtime.EngineObject.html#Prowl_Runtime_EngineObject_Foreach__1_System_Action___0__
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: <
+  - name: T
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.EngineObject.Foreach``1(System.Action{``0})
+    name: Foreach
+    href: Prowl.Runtime.EngineObject.html#Prowl_Runtime_EngineObject_Foreach__1_System_Action___0__
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: )
+- uid: Prowl.Runtime.EngineObject.Destroy
+  commentId: M:Prowl.Runtime.EngineObject.Destroy
+  parent: Prowl.Runtime.EngineObject
+  href: Prowl.Runtime.EngineObject.html#Prowl_Runtime_EngineObject_Destroy
+  name: Destroy()
+  nameWithType: EngineObject.Destroy()
+  fullName: Prowl.Runtime.EngineObject.Destroy()
+  spec.csharp:
+  - uid: Prowl.Runtime.EngineObject.Destroy
+    name: Destroy
+    href: Prowl.Runtime.EngineObject.html#Prowl_Runtime_EngineObject_Destroy
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.EngineObject.Destroy
+    name: Destroy
+    href: Prowl.Runtime.EngineObject.html#Prowl_Runtime_EngineObject_Destroy
+  - name: (
+  - name: )
+- uid: Prowl.Runtime.EngineObject.DestroyImmediate
+  commentId: M:Prowl.Runtime.EngineObject.DestroyImmediate
+  parent: Prowl.Runtime.EngineObject
+  href: Prowl.Runtime.EngineObject.html#Prowl_Runtime_EngineObject_DestroyImmediate
+  name: DestroyImmediate()
+  nameWithType: EngineObject.DestroyImmediate()
+  fullName: Prowl.Runtime.EngineObject.DestroyImmediate()
+  spec.csharp:
+  - uid: Prowl.Runtime.EngineObject.DestroyImmediate
+    name: DestroyImmediate
+    href: Prowl.Runtime.EngineObject.html#Prowl_Runtime_EngineObject_DestroyImmediate
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.EngineObject.DestroyImmediate
+    name: DestroyImmediate
+    href: Prowl.Runtime.EngineObject.html#Prowl_Runtime_EngineObject_DestroyImmediate
+  - name: (
+  - name: )
+- uid: Prowl.Runtime.EngineObject.Destroy(Prowl.Runtime.EngineObject)
+  commentId: M:Prowl.Runtime.EngineObject.Destroy(Prowl.Runtime.EngineObject)
+  parent: Prowl.Runtime.EngineObject
+  href: Prowl.Runtime.EngineObject.html#Prowl_Runtime_EngineObject_Destroy_Prowl_Runtime_EngineObject_
+  name: Destroy(EngineObject)
+  nameWithType: EngineObject.Destroy(EngineObject)
+  fullName: Prowl.Runtime.EngineObject.Destroy(Prowl.Runtime.EngineObject)
+  spec.csharp:
+  - uid: Prowl.Runtime.EngineObject.Destroy(Prowl.Runtime.EngineObject)
+    name: Destroy
+    href: Prowl.Runtime.EngineObject.html#Prowl_Runtime_EngineObject_Destroy_Prowl_Runtime_EngineObject_
+  - name: (
+  - uid: Prowl.Runtime.EngineObject
+    name: EngineObject
+    href: Prowl.Runtime.EngineObject.html
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.EngineObject.Destroy(Prowl.Runtime.EngineObject)
+    name: Destroy
+    href: Prowl.Runtime.EngineObject.html#Prowl_Runtime_EngineObject_Destroy_Prowl_Runtime_EngineObject_
+  - name: (
+  - uid: Prowl.Runtime.EngineObject
+    name: EngineObject
+    href: Prowl.Runtime.EngineObject.html
+  - name: )
+- uid: Prowl.Runtime.EngineObject.DestroyImmediate(Prowl.Runtime.EngineObject)
+  commentId: M:Prowl.Runtime.EngineObject.DestroyImmediate(Prowl.Runtime.EngineObject)
+  parent: Prowl.Runtime.EngineObject
+  href: Prowl.Runtime.EngineObject.html#Prowl_Runtime_EngineObject_DestroyImmediate_Prowl_Runtime_EngineObject_
+  name: DestroyImmediate(EngineObject)
+  nameWithType: EngineObject.DestroyImmediate(EngineObject)
+  fullName: Prowl.Runtime.EngineObject.DestroyImmediate(Prowl.Runtime.EngineObject)
+  spec.csharp:
+  - uid: Prowl.Runtime.EngineObject.DestroyImmediate(Prowl.Runtime.EngineObject)
+    name: DestroyImmediate
+    href: Prowl.Runtime.EngineObject.html#Prowl_Runtime_EngineObject_DestroyImmediate_Prowl_Runtime_EngineObject_
+  - name: (
+  - uid: Prowl.Runtime.EngineObject
+    name: EngineObject
+    href: Prowl.Runtime.EngineObject.html
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.EngineObject.DestroyImmediate(Prowl.Runtime.EngineObject)
+    name: DestroyImmediate
+    href: Prowl.Runtime.EngineObject.html#Prowl_Runtime_EngineObject_DestroyImmediate_Prowl_Runtime_EngineObject_
+  - name: (
+  - uid: Prowl.Runtime.EngineObject
+    name: EngineObject
+    href: Prowl.Runtime.EngineObject.html
+  - name: )
+- uid: Prowl.Runtime.EngineObject.HandleDestroyed
+  commentId: M:Prowl.Runtime.EngineObject.HandleDestroyed
+  parent: Prowl.Runtime.EngineObject
+  href: Prowl.Runtime.EngineObject.html#Prowl_Runtime_EngineObject_HandleDestroyed
+  name: HandleDestroyed()
+  nameWithType: EngineObject.HandleDestroyed()
+  fullName: Prowl.Runtime.EngineObject.HandleDestroyed()
+  spec.csharp:
+  - uid: Prowl.Runtime.EngineObject.HandleDestroyed
+    name: HandleDestroyed
+    href: Prowl.Runtime.EngineObject.html#Prowl_Runtime_EngineObject_HandleDestroyed
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.EngineObject.HandleDestroyed
+    name: HandleDestroyed
+    href: Prowl.Runtime.EngineObject.html#Prowl_Runtime_EngineObject_HandleDestroyed
+  - name: (
+  - name: )
+- uid: Prowl.Runtime.EngineObject.Instantiate(Prowl.Runtime.EngineObject,System.Boolean)
+  commentId: M:Prowl.Runtime.EngineObject.Instantiate(Prowl.Runtime.EngineObject,System.Boolean)
+  parent: Prowl.Runtime.EngineObject
+  isExternal: true
+  href: Prowl.Runtime.EngineObject.html#Prowl_Runtime_EngineObject_Instantiate_Prowl_Runtime_EngineObject_System_Boolean_
+  name: Instantiate(EngineObject, bool)
+  nameWithType: EngineObject.Instantiate(EngineObject, bool)
+  fullName: Prowl.Runtime.EngineObject.Instantiate(Prowl.Runtime.EngineObject, bool)
+  nameWithType.vb: EngineObject.Instantiate(EngineObject, Boolean)
+  fullName.vb: Prowl.Runtime.EngineObject.Instantiate(Prowl.Runtime.EngineObject, Boolean)
+  name.vb: Instantiate(EngineObject, Boolean)
+  spec.csharp:
+  - uid: Prowl.Runtime.EngineObject.Instantiate(Prowl.Runtime.EngineObject,System.Boolean)
+    name: Instantiate
+    href: Prowl.Runtime.EngineObject.html#Prowl_Runtime_EngineObject_Instantiate_Prowl_Runtime_EngineObject_System_Boolean_
+  - name: (
+  - uid: Prowl.Runtime.EngineObject
+    name: EngineObject
+    href: Prowl.Runtime.EngineObject.html
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.EngineObject.Instantiate(Prowl.Runtime.EngineObject,System.Boolean)
+    name: Instantiate
+    href: Prowl.Runtime.EngineObject.html#Prowl_Runtime_EngineObject_Instantiate_Prowl_Runtime_EngineObject_System_Boolean_
+  - name: (
+  - uid: Prowl.Runtime.EngineObject
+    name: EngineObject
+    href: Prowl.Runtime.EngineObject.html
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+- uid: Prowl.Runtime.EngineObject.Dispose
+  commentId: M:Prowl.Runtime.EngineObject.Dispose
+  parent: Prowl.Runtime.EngineObject
+  href: Prowl.Runtime.EngineObject.html#Prowl_Runtime_EngineObject_Dispose
+  name: Dispose()
+  nameWithType: EngineObject.Dispose()
+  fullName: Prowl.Runtime.EngineObject.Dispose()
+  spec.csharp:
+  - uid: Prowl.Runtime.EngineObject.Dispose
+    name: Dispose
+    href: Prowl.Runtime.EngineObject.html#Prowl_Runtime_EngineObject_Dispose
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.EngineObject.Dispose
+    name: Dispose
+    href: Prowl.Runtime.EngineObject.html#Prowl_Runtime_EngineObject_Dispose
+  - name: (
+  - name: )
+- uid: Prowl.Runtime.EngineObject.ToString
+  commentId: M:Prowl.Runtime.EngineObject.ToString
+  parent: Prowl.Runtime.EngineObject
+  href: Prowl.Runtime.EngineObject.html#Prowl_Runtime_EngineObject_ToString
+  name: ToString()
+  nameWithType: EngineObject.ToString()
+  fullName: Prowl.Runtime.EngineObject.ToString()
+  spec.csharp:
+  - uid: Prowl.Runtime.EngineObject.ToString
+    name: ToString
+    href: Prowl.Runtime.EngineObject.html#Prowl_Runtime_EngineObject_ToString
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.EngineObject.ToString
+    name: ToString
+    href: Prowl.Runtime.EngineObject.html#Prowl_Runtime_EngineObject_ToString
+  - name: (
+  - name: )
+- uid: Prowl.Runtime.EngineObject.SerializeHeader(Prowl.Runtime.SerializedProperty)
+  commentId: M:Prowl.Runtime.EngineObject.SerializeHeader(Prowl.Runtime.SerializedProperty)
+  parent: Prowl.Runtime.EngineObject
+  href: Prowl.Runtime.EngineObject.html#Prowl_Runtime_EngineObject_SerializeHeader_Prowl_Runtime_SerializedProperty_
+  name: SerializeHeader(SerializedProperty)
+  nameWithType: EngineObject.SerializeHeader(SerializedProperty)
+  fullName: Prowl.Runtime.EngineObject.SerializeHeader(Prowl.Runtime.SerializedProperty)
+  spec.csharp:
+  - uid: Prowl.Runtime.EngineObject.SerializeHeader(Prowl.Runtime.SerializedProperty)
+    name: SerializeHeader
+    href: Prowl.Runtime.EngineObject.html#Prowl_Runtime_EngineObject_SerializeHeader_Prowl_Runtime_SerializedProperty_
+  - name: (
+  - uid: Prowl.Runtime.SerializedProperty
+    name: SerializedProperty
+    href: Prowl.Runtime.SerializedProperty.html
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.EngineObject.SerializeHeader(Prowl.Runtime.SerializedProperty)
+    name: SerializeHeader
+    href: Prowl.Runtime.EngineObject.html#Prowl_Runtime_EngineObject_SerializeHeader_Prowl_Runtime_SerializedProperty_
+  - name: (
+  - uid: Prowl.Runtime.SerializedProperty
+    name: SerializedProperty
+    href: Prowl.Runtime.SerializedProperty.html
+  - name: )
+- uid: Prowl.Runtime.EngineObject.DeserializeHeader(Prowl.Runtime.SerializedProperty)
+  commentId: M:Prowl.Runtime.EngineObject.DeserializeHeader(Prowl.Runtime.SerializedProperty)
+  parent: Prowl.Runtime.EngineObject
+  href: Prowl.Runtime.EngineObject.html#Prowl_Runtime_EngineObject_DeserializeHeader_Prowl_Runtime_SerializedProperty_
+  name: DeserializeHeader(SerializedProperty)
+  nameWithType: EngineObject.DeserializeHeader(SerializedProperty)
+  fullName: Prowl.Runtime.EngineObject.DeserializeHeader(Prowl.Runtime.SerializedProperty)
+  spec.csharp:
+  - uid: Prowl.Runtime.EngineObject.DeserializeHeader(Prowl.Runtime.SerializedProperty)
+    name: DeserializeHeader
+    href: Prowl.Runtime.EngineObject.html#Prowl_Runtime_EngineObject_DeserializeHeader_Prowl_Runtime_SerializedProperty_
+  - name: (
+  - uid: Prowl.Runtime.SerializedProperty
+    name: SerializedProperty
+    href: Prowl.Runtime.SerializedProperty.html
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.EngineObject.DeserializeHeader(Prowl.Runtime.SerializedProperty)
+    name: DeserializeHeader
+    href: Prowl.Runtime.EngineObject.html#Prowl_Runtime_EngineObject_DeserializeHeader_Prowl_Runtime_SerializedProperty_
+  - name: (
+  - uid: Prowl.Runtime.SerializedProperty
+    name: SerializedProperty
+    href: Prowl.Runtime.SerializedProperty.html
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: Prowl.Runtime.EngineObject.Prowl.Runtime.EngineObjectExtensions.Null
+  commentId: M:Prowl.Runtime.EngineObjectExtensions.Null(Prowl.Runtime.EngineObject)
+  parent: Prowl.Runtime.EngineObjectExtensions
+  definition: Prowl.Runtime.EngineObjectExtensions.Null(Prowl.Runtime.EngineObject)
+  href: Prowl.Runtime.EngineObjectExtensions.html#Prowl_Runtime_EngineObjectExtensions_Null_Prowl_Runtime_EngineObject_
+  name: Null(EngineObject)
+  nameWithType: EngineObjectExtensions.Null(EngineObject)
+  fullName: Prowl.Runtime.EngineObjectExtensions.Null(Prowl.Runtime.EngineObject)
+  spec.csharp:
+  - uid: Prowl.Runtime.EngineObjectExtensions.Null(Prowl.Runtime.EngineObject)
+    name: "Null"
+    href: Prowl.Runtime.EngineObjectExtensions.html#Prowl_Runtime_EngineObjectExtensions_Null_Prowl_Runtime_EngineObject_
+  - name: (
+  - uid: Prowl.Runtime.EngineObject
+    name: EngineObject
+    href: Prowl.Runtime.EngineObject.html
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.EngineObjectExtensions.Null(Prowl.Runtime.EngineObject)
+    name: "Null"
+    href: Prowl.Runtime.EngineObjectExtensions.html#Prowl_Runtime_EngineObjectExtensions_Null_Prowl_Runtime_EngineObject_
+  - name: (
+  - uid: Prowl.Runtime.EngineObject
+    name: EngineObject
+    href: Prowl.Runtime.EngineObject.html
+  - name: )
+- uid: System.Object.Prowl.Runtime.RuntimeUtils.GetSerializableFields
+  commentId: M:Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  parent: Prowl.Runtime.RuntimeUtils
+  definition: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  name: GetSerializableFields(object)
+  nameWithType: RuntimeUtils.GetSerializableFields(object)
+  fullName: Prowl.Runtime.RuntimeUtils.GetSerializableFields(object)
+  nameWithType.vb: RuntimeUtils.GetSerializableFields(Object)
+  fullName.vb: Prowl.Runtime.RuntimeUtils.GetSerializableFields(Object)
+  name.vb: GetSerializableFields(Object)
+  spec.csharp:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Prowl.Runtime.EngineObject.Foreach``1(System.Action{``0})
+  commentId: M:Prowl.Runtime.EngineObject.Foreach``1(System.Action{``0})
+  isExternal: true
+  href: Prowl.Runtime.EngineObject.html#Prowl_Runtime_EngineObject_Foreach__1_System_Action___0__
+  name: Foreach<T>(Action<T>)
+  nameWithType: EngineObject.Foreach<T>(Action<T>)
+  fullName: Prowl.Runtime.EngineObject.Foreach<T>(System.Action<T>)
+  nameWithType.vb: EngineObject.Foreach(Of T)(Action(Of T))
+  fullName.vb: Prowl.Runtime.EngineObject.Foreach(Of T)(System.Action(Of T))
+  name.vb: Foreach(Of T)(Action(Of T))
+  spec.csharp:
+  - uid: Prowl.Runtime.EngineObject.Foreach``1(System.Action{``0})
+    name: Foreach
+    href: Prowl.Runtime.EngineObject.html#Prowl_Runtime_EngineObject_Foreach__1_System_Action___0__
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: <
+  - name: T
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.EngineObject.Foreach``1(System.Action{``0})
+    name: Foreach
+    href: Prowl.Runtime.EngineObject.html#Prowl_Runtime_EngineObject_Foreach__1_System_Action___0__
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: )
+- uid: Prowl.Runtime.EngineObjectExtensions.Null(Prowl.Runtime.EngineObject)
+  commentId: M:Prowl.Runtime.EngineObjectExtensions.Null(Prowl.Runtime.EngineObject)
+  href: Prowl.Runtime.EngineObjectExtensions.html#Prowl_Runtime_EngineObjectExtensions_Null_Prowl_Runtime_EngineObject_
+  name: Null(EngineObject)
+  nameWithType: EngineObjectExtensions.Null(EngineObject)
+  fullName: Prowl.Runtime.EngineObjectExtensions.Null(Prowl.Runtime.EngineObject)
+  spec.csharp:
+  - uid: Prowl.Runtime.EngineObjectExtensions.Null(Prowl.Runtime.EngineObject)
+    name: "Null"
+    href: Prowl.Runtime.EngineObjectExtensions.html#Prowl_Runtime_EngineObjectExtensions_Null_Prowl_Runtime_EngineObject_
+  - name: (
+  - uid: Prowl.Runtime.EngineObject
+    name: EngineObject
+    href: Prowl.Runtime.EngineObject.html
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.EngineObjectExtensions.Null(Prowl.Runtime.EngineObject)
+    name: "Null"
+    href: Prowl.Runtime.EngineObjectExtensions.html#Prowl_Runtime_EngineObjectExtensions_Null_Prowl_Runtime_EngineObject_
+  - name: (
+  - uid: Prowl.Runtime.EngineObject
+    name: EngineObject
+    href: Prowl.Runtime.EngineObject.html
+  - name: )
+- uid: Prowl.Runtime.EngineObjectExtensions
+  commentId: T:Prowl.Runtime.EngineObjectExtensions
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.EngineObjectExtensions.html
+  name: EngineObjectExtensions
+  nameWithType: EngineObjectExtensions
+  fullName: Prowl.Runtime.EngineObjectExtensions
+- uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  commentId: M:Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  isExternal: true
+  href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  name: GetSerializableFields(object)
+  nameWithType: RuntimeUtils.GetSerializableFields(object)
+  fullName: Prowl.Runtime.RuntimeUtils.GetSerializableFields(object)
+  nameWithType.vb: RuntimeUtils.GetSerializableFields(Object)
+  fullName.vb: Prowl.Runtime.RuntimeUtils.GetSerializableFields(Object)
+  name.vb: GetSerializableFields(Object)
+  spec.csharp:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: Prowl.Runtime.RuntimeUtils
+  commentId: T:Prowl.Runtime.RuntimeUtils
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.RuntimeUtils.html
+  name: RuntimeUtils
+  nameWithType: RuntimeUtils
+  fullName: Prowl.Runtime.RuntimeUtils
+- uid: System.Byte
+  commentId: T:System.Byte
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.byte
+  name: byte
+  nameWithType: byte
+  fullName: byte
+  nameWithType.vb: Byte
+  fullName.vb: Byte
+  name.vb: Byte
+- uid: Prowl.Runtime.HideFlags
+  commentId: T:Prowl.Runtime.HideFlags
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.HideFlags.html
+  name: HideFlags
+  nameWithType: HideFlags
+  fullName: Prowl.Runtime.HideFlags
+- uid: Prowl.Runtime.GameObject.enabled*
+  commentId: Overload:Prowl.Runtime.GameObject.enabled
+  href: Prowl.Runtime.GameObject.html#Prowl_Runtime_GameObject_enabled
+  name: enabled
+  nameWithType: GameObject.enabled
+  fullName: Prowl.Runtime.GameObject.enabled
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: Prowl.Runtime.GameObject.enabledInHierarchy*
+  commentId: Overload:Prowl.Runtime.GameObject.enabledInHierarchy
+  href: Prowl.Runtime.GameObject.html#Prowl_Runtime_GameObject_enabledInHierarchy
+  name: enabledInHierarchy
+  nameWithType: GameObject.enabledInHierarchy
+  fullName: Prowl.Runtime.GameObject.enabledInHierarchy
+- uid: Prowl.Runtime.GameObject.tag*
+  commentId: Overload:Prowl.Runtime.GameObject.tag
+  href: Prowl.Runtime.GameObject.html#Prowl_Runtime_GameObject_tag
+  name: tag
+  nameWithType: GameObject.tag
+  fullName: Prowl.Runtime.GameObject.tag
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: Prowl.Runtime.GameObject.layer*
+  commentId: Overload:Prowl.Runtime.GameObject.layer
+  href: Prowl.Runtime.GameObject.html#Prowl_Runtime_GameObject_layer
+  name: layer
+  nameWithType: GameObject.layer
+  fullName: Prowl.Runtime.GameObject.layer
+- uid: Prowl.Runtime.GameObject.parent*
+  commentId: Overload:Prowl.Runtime.GameObject.parent
+  href: Prowl.Runtime.GameObject.html#Prowl_Runtime_GameObject_parent
+  name: parent
+  nameWithType: GameObject.parent
+  fullName: Prowl.Runtime.GameObject.parent
+- uid: Prowl.Runtime.GameObject
+  commentId: T:Prowl.Runtime.GameObject
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.GameObject.html
+  name: GameObject
+  nameWithType: GameObject
+  fullName: Prowl.Runtime.GameObject
+- uid: System.Collections.Generic.List{Prowl.Runtime.GameObject}
+  commentId: T:System.Collections.Generic.List{Prowl.Runtime.GameObject}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<GameObject>
+  nameWithType: List<GameObject>
+  fullName: System.Collections.Generic.List<Prowl.Runtime.GameObject>
+  nameWithType.vb: List(Of GameObject)
+  fullName.vb: System.Collections.Generic.List(Of Prowl.Runtime.GameObject)
+  name.vb: List(Of GameObject)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - uid: Prowl.Runtime.GameObject
+    name: GameObject
+    href: Prowl.Runtime.GameObject.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Prowl.Runtime.GameObject
+    name: GameObject
+    href: Prowl.Runtime.GameObject.html
+  - name: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: Prowl.Runtime.GameObject.childCount*
+  commentId: Overload:Prowl.Runtime.GameObject.childCount
+  href: Prowl.Runtime.GameObject.html#Prowl_Runtime_GameObject_childCount
+  name: childCount
+  nameWithType: GameObject.childCount
+  fullName: Prowl.Runtime.GameObject.childCount
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: Prowl.Runtime.GameObject.IsPrefab*
+  commentId: Overload:Prowl.Runtime.GameObject.IsPrefab
+  href: Prowl.Runtime.GameObject.html#Prowl_Runtime_GameObject_IsPrefab
+  name: IsPrefab
+  nameWithType: GameObject.IsPrefab
+  fullName: Prowl.Runtime.GameObject.IsPrefab
+- uid: Prowl.Runtime.GameObject.IsPartOfPrefab*
+  commentId: Overload:Prowl.Runtime.GameObject.IsPartOfPrefab
+  href: Prowl.Runtime.GameObject.html#Prowl_Runtime_GameObject_IsPartOfPrefab
+  name: IsPartOfPrefab
+  nameWithType: GameObject.IsPartOfPrefab
+  fullName: Prowl.Runtime.GameObject.IsPartOfPrefab
+- uid: Prowl.Runtime.GameObject.PrefabMods*
+  commentId: Overload:Prowl.Runtime.GameObject.PrefabMods
+  href: Prowl.Runtime.GameObject.html#Prowl_Runtime_GameObject_PrefabMods
+  name: PrefabMods
+  nameWithType: GameObject.PrefabMods
+  fullName: Prowl.Runtime.GameObject.PrefabMods
+- uid: Prowl.Runtime.SerializedProperty
+  commentId: T:Prowl.Runtime.SerializedProperty
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.SerializedProperty.html
+  name: SerializedProperty
+  nameWithType: SerializedProperty
+  fullName: Prowl.Runtime.SerializedProperty
+- uid: Prowl.Runtime.GameObject.Transform*
+  commentId: Overload:Prowl.Runtime.GameObject.Transform
+  href: Prowl.Runtime.GameObject.html#Prowl_Runtime_GameObject_Transform
+  name: Transform
+  nameWithType: GameObject.Transform
+  fullName: Prowl.Runtime.GameObject.Transform
+- uid: Prowl.Runtime.Transform
+  commentId: T:Prowl.Runtime.Transform
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.Transform.html
+  name: Transform
+  nameWithType: Transform
+  fullName: Prowl.Runtime.Transform
+- uid: Prowl.Runtime.GameObject.IsChildOrSameTransform*
+  commentId: Overload:Prowl.Runtime.GameObject.IsChildOrSameTransform
+  href: Prowl.Runtime.GameObject.html#Prowl_Runtime_GameObject_IsChildOrSameTransform_Prowl_Runtime_GameObject_Prowl_Runtime_GameObject_
+  name: IsChildOrSameTransform
+  nameWithType: GameObject.IsChildOrSameTransform
+  fullName: Prowl.Runtime.GameObject.IsChildOrSameTransform
+- uid: Prowl.Runtime.GameObject.IsChildOf*
+  commentId: Overload:Prowl.Runtime.GameObject.IsChildOf
+  href: Prowl.Runtime.GameObject.html#Prowl_Runtime_GameObject_IsChildOf_Prowl_Runtime_GameObject_
+  name: IsChildOf
+  nameWithType: GameObject.IsChildOf
+  fullName: Prowl.Runtime.GameObject.IsChildOf
+- uid: Prowl.Runtime.GameObject.SetParent*
+  commentId: Overload:Prowl.Runtime.GameObject.SetParent
+  href: Prowl.Runtime.GameObject.html#Prowl_Runtime_GameObject_SetParent_Prowl_Runtime_GameObject_System_Boolean_
+  name: SetParent
+  nameWithType: GameObject.SetParent
+  fullName: Prowl.Runtime.GameObject.SetParent
+- uid: Prowl.Runtime.GameObject.CreateSilently*
+  commentId: Overload:Prowl.Runtime.GameObject.CreateSilently
+  href: Prowl.Runtime.GameObject.html#Prowl_Runtime_GameObject_CreateSilently
+  name: CreateSilently
+  nameWithType: GameObject.CreateSilently
+  fullName: Prowl.Runtime.GameObject.CreateSilently
+- uid: Prowl.Runtime.GameObject.#ctor*
+  commentId: Overload:Prowl.Runtime.GameObject.#ctor
+  href: Prowl.Runtime.GameObject.html#Prowl_Runtime_GameObject__ctor
+  name: GameObject
+  nameWithType: GameObject.GameObject
+  fullName: Prowl.Runtime.GameObject.GameObject
+  nameWithType.vb: GameObject.New
+  fullName.vb: Prowl.Runtime.GameObject.New
+  name.vb: New
+- uid: Prowl.Runtime.GameObject.IsParentOf*
+  commentId: Overload:Prowl.Runtime.GameObject.IsParentOf
+  href: Prowl.Runtime.GameObject.html#Prowl_Runtime_GameObject_IsParentOf_Prowl_Runtime_GameObject_
+  name: IsParentOf
+  nameWithType: GameObject.IsParentOf
+  fullName: Prowl.Runtime.GameObject.IsParentOf
+- uid: Prowl.Runtime.GameObject.CompareTag*
+  commentId: Overload:Prowl.Runtime.GameObject.CompareTag
+  href: Prowl.Runtime.GameObject.html#Prowl_Runtime_GameObject_CompareTag_System_String_
+  name: CompareTag
+  nameWithType: GameObject.CompareTag
+  fullName: Prowl.Runtime.GameObject.CompareTag
+- uid: Prowl.Runtime.GameObject.Find*
+  commentId: Overload:Prowl.Runtime.GameObject.Find
+  href: Prowl.Runtime.GameObject.html#Prowl_Runtime_GameObject_Find_System_String_
+  name: Find
+  nameWithType: GameObject.Find
+  fullName: Prowl.Runtime.GameObject.Find
+- uid: Prowl.Runtime.GameObject.FindGameObjectWithTag*
+  commentId: Overload:Prowl.Runtime.GameObject.FindGameObjectWithTag
+  href: Prowl.Runtime.GameObject.html#Prowl_Runtime_GameObject_FindGameObjectWithTag_System_String_
+  name: FindGameObjectWithTag
+  nameWithType: GameObject.FindGameObjectWithTag
+  fullName: Prowl.Runtime.GameObject.FindGameObjectWithTag
+- uid: Prowl.Runtime.GameObject.FindGameObjectsWithTag*
+  commentId: Overload:Prowl.Runtime.GameObject.FindGameObjectsWithTag
+  href: Prowl.Runtime.GameObject.html#Prowl_Runtime_GameObject_FindGameObjectsWithTag_System_String_
+  name: FindGameObjectsWithTag
+  nameWithType: GameObject.FindGameObjectsWithTag
+  fullName: Prowl.Runtime.GameObject.FindGameObjectsWithTag
+- uid: Prowl.Runtime.GameObject[]
+  isExternal: true
+  href: Prowl.Runtime.GameObject.html
+  name: GameObject[]
+  nameWithType: GameObject[]
+  fullName: Prowl.Runtime.GameObject[]
+  nameWithType.vb: GameObject()
+  fullName.vb: Prowl.Runtime.GameObject()
+  name.vb: GameObject()
+  spec.csharp:
+  - uid: Prowl.Runtime.GameObject
+    name: GameObject
+    href: Prowl.Runtime.GameObject.html
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: Prowl.Runtime.GameObject
+    name: GameObject
+    href: Prowl.Runtime.GameObject.html
+  - name: (
+  - name: )
+- uid: Prowl.Runtime.GameObject.AddComponent*
+  commentId: Overload:Prowl.Runtime.GameObject.AddComponent
+  href: Prowl.Runtime.GameObject.html#Prowl_Runtime_GameObject_AddComponent__1
+  name: AddComponent
+  nameWithType: GameObject.AddComponent
+  fullName: Prowl.Runtime.GameObject.AddComponent
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: System.Type
+  commentId: T:System.Type
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.type
+  name: Type
+  nameWithType: Type
+  fullName: System.Type
+- uid: Prowl.Runtime.MonoBehaviour
+  commentId: T:Prowl.Runtime.MonoBehaviour
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.MonoBehaviour.html
+  name: MonoBehaviour
+  nameWithType: MonoBehaviour
+  fullName: Prowl.Runtime.MonoBehaviour
+- uid: Prowl.Runtime.GameObject.RemoveAll*
+  commentId: Overload:Prowl.Runtime.GameObject.RemoveAll
+  href: Prowl.Runtime.GameObject.html#Prowl_Runtime_GameObject_RemoveAll__1
+  name: RemoveAll
+  nameWithType: GameObject.RemoveAll
+  fullName: Prowl.Runtime.GameObject.RemoveAll
+- uid: Prowl.Runtime.GameObject.RemoveComponent*
+  commentId: Overload:Prowl.Runtime.GameObject.RemoveComponent
+  href: Prowl.Runtime.GameObject.html#Prowl_Runtime_GameObject_RemoveComponent__1___0_
+  name: RemoveComponent
+  nameWithType: GameObject.RemoveComponent
+  fullName: Prowl.Runtime.GameObject.RemoveComponent
+- uid: Prowl.Runtime.GameObject.GetComponent*
+  commentId: Overload:Prowl.Runtime.GameObject.GetComponent
+  href: Prowl.Runtime.GameObject.html#Prowl_Runtime_GameObject_GetComponent__1
+  name: GetComponent
+  nameWithType: GameObject.GetComponent
+  fullName: Prowl.Runtime.GameObject.GetComponent
+- uid: Prowl.Runtime.GameObject.GetComponents*
+  commentId: Overload:Prowl.Runtime.GameObject.GetComponents
+  href: Prowl.Runtime.GameObject.html#Prowl_Runtime_GameObject_GetComponents
+  name: GetComponents
+  nameWithType: GameObject.GetComponents
+  fullName: Prowl.Runtime.GameObject.GetComponents
+- uid: System.Collections.Generic.IEnumerable{Prowl.Runtime.MonoBehaviour}
+  commentId: T:System.Collections.Generic.IEnumerable{Prowl.Runtime.MonoBehaviour}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<MonoBehaviour>
+  nameWithType: IEnumerable<MonoBehaviour>
+  fullName: System.Collections.Generic.IEnumerable<Prowl.Runtime.MonoBehaviour>
+  nameWithType.vb: IEnumerable(Of MonoBehaviour)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of Prowl.Runtime.MonoBehaviour)
+  name.vb: IEnumerable(Of MonoBehaviour)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - uid: Prowl.Runtime.MonoBehaviour
+    name: MonoBehaviour
+    href: Prowl.Runtime.MonoBehaviour.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Prowl.Runtime.MonoBehaviour
+    name: MonoBehaviour
+    href: Prowl.Runtime.MonoBehaviour.html
+  - name: )
+- uid: System.Collections.Generic.IEnumerable`1
+  commentId: T:System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Prowl.Runtime.GameObject.TryGetComponent*
+  commentId: Overload:Prowl.Runtime.GameObject.TryGetComponent
+  href: Prowl.Runtime.GameObject.html#Prowl_Runtime_GameObject_TryGetComponent__1___0__
+  name: TryGetComponent
+  nameWithType: GameObject.TryGetComponent
+  fullName: Prowl.Runtime.GameObject.TryGetComponent
+- uid: System.Collections.Generic.IEnumerable{{T}}
+  commentId: T:System.Collections.Generic.IEnumerable{``0}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Prowl.Runtime.GameObject.GetComponentInParent*
+  commentId: Overload:Prowl.Runtime.GameObject.GetComponentInParent
+  href: Prowl.Runtime.GameObject.html#Prowl_Runtime_GameObject_GetComponentInParent__1_System_Boolean_System_Boolean_
+  name: GetComponentInParent
+  nameWithType: GameObject.GetComponentInParent
+  fullName: Prowl.Runtime.GameObject.GetComponentInParent
+- uid: Prowl.Runtime.GameObject.GetComponentsInParent*
+  commentId: Overload:Prowl.Runtime.GameObject.GetComponentsInParent
+  href: Prowl.Runtime.GameObject.html#Prowl_Runtime_GameObject_GetComponentsInParent__1_System_Boolean_System_Boolean_
+  name: GetComponentsInParent
+  nameWithType: GameObject.GetComponentsInParent
+  fullName: Prowl.Runtime.GameObject.GetComponentsInParent
+- uid: Prowl.Runtime.GameObject.GetComponentInChildren*
+  commentId: Overload:Prowl.Runtime.GameObject.GetComponentInChildren
+  href: Prowl.Runtime.GameObject.html#Prowl_Runtime_GameObject_GetComponentInChildren__1_System_Boolean_System_Boolean_
+  name: GetComponentInChildren
+  nameWithType: GameObject.GetComponentInChildren
+  fullName: Prowl.Runtime.GameObject.GetComponentInChildren
+- uid: Prowl.Runtime.GameObject.GetComponentsInChildren*
+  commentId: Overload:Prowl.Runtime.GameObject.GetComponentsInChildren
+  href: Prowl.Runtime.GameObject.html#Prowl_Runtime_GameObject_GetComponentsInChildren__1_System_Boolean_System_Boolean_
+  name: GetComponentsInChildren
+  nameWithType: GameObject.GetComponentsInChildren
+  fullName: Prowl.Runtime.GameObject.GetComponentsInChildren
+- uid: Prowl.Runtime.GameObject.Instantiate*
+  commentId: Overload:Prowl.Runtime.GameObject.Instantiate
+  href: Prowl.Runtime.GameObject.html#Prowl_Runtime_GameObject_Instantiate_Prowl_Runtime_GameObject_
+  name: Instantiate
+  nameWithType: GameObject.Instantiate
+  fullName: Prowl.Runtime.GameObject.Instantiate
+- uid: Prowl.Runtime.Vector3
+  commentId: T:Prowl.Runtime.Vector3
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.Vector3.html
+  name: Vector3
+  nameWithType: Vector3
+  fullName: Prowl.Runtime.Vector3
+- uid: Prowl.Runtime.Quaternion
+  commentId: T:Prowl.Runtime.Quaternion
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.Quaternion.html
+  name: Quaternion
+  nameWithType: Quaternion
+  fullName: Prowl.Runtime.Quaternion
+- uid: Prowl.Runtime.EngineObject.OnDispose
+  commentId: M:Prowl.Runtime.EngineObject.OnDispose
+  parent: Prowl.Runtime.EngineObject
+  href: Prowl.Runtime.EngineObject.html#Prowl_Runtime_EngineObject_OnDispose
+  name: OnDispose()
+  nameWithType: EngineObject.OnDispose()
+  fullName: Prowl.Runtime.EngineObject.OnDispose()
+  spec.csharp:
+  - uid: Prowl.Runtime.EngineObject.OnDispose
+    name: OnDispose
+    href: Prowl.Runtime.EngineObject.html#Prowl_Runtime_EngineObject_OnDispose
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.EngineObject.OnDispose
+    name: OnDispose
+    href: Prowl.Runtime.EngineObject.html#Prowl_Runtime_EngineObject_OnDispose
+  - name: (
+  - name: )
+- uid: Prowl.Runtime.GameObject.OnDispose*
+  commentId: Overload:Prowl.Runtime.GameObject.OnDispose
+  href: Prowl.Runtime.GameObject.html#Prowl_Runtime_GameObject_OnDispose
+  name: OnDispose
+  nameWithType: GameObject.OnDispose
+  fullName: Prowl.Runtime.GameObject.OnDispose
+- uid: Prowl.Runtime.GameObject.DontDestroyOnLoad*
+  commentId: Overload:Prowl.Runtime.GameObject.DontDestroyOnLoad
+  href: Prowl.Runtime.GameObject.html#Prowl_Runtime_GameObject_DontDestroyOnLoad
+  name: DontDestroyOnLoad
+  nameWithType: GameObject.DontDestroyOnLoad
+  fullName: Prowl.Runtime.GameObject.DontDestroyOnLoad
+- uid: Prowl.Runtime.GameObject.BroadcastMessage*
+  commentId: Overload:Prowl.Runtime.GameObject.BroadcastMessage
+  href: Prowl.Runtime.GameObject.html#Prowl_Runtime_GameObject_BroadcastMessage_System_String_System_Object___
+  name: BroadcastMessage
+  nameWithType: GameObject.BroadcastMessage
+  fullName: Prowl.Runtime.GameObject.BroadcastMessage
+- uid: System.Object[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object[]
+  nameWithType: object[]
+  fullName: object[]
+  nameWithType.vb: Object()
+  fullName.vb: Object()
+  name.vb: Object()
+  spec.csharp:
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: (
+  - name: )
+- uid: Prowl.Runtime.GameObject.SendMessage*
+  commentId: Overload:Prowl.Runtime.GameObject.SendMessage
+  href: Prowl.Runtime.GameObject.html#Prowl_Runtime_GameObject_SendMessage_System_String_System_Object___
+  name: SendMessage
+  nameWithType: GameObject.SendMessage
+  fullName: Prowl.Runtime.GameObject.SendMessage
+- uid: Prowl.Runtime.GameObject.Serialize*
+  commentId: Overload:Prowl.Runtime.GameObject.Serialize
+  href: Prowl.Runtime.GameObject.html#Prowl_Runtime_GameObject_Serialize_Prowl_Runtime_Serializer_SerializationContext_
+  name: Serialize
+  nameWithType: GameObject.Serialize
+  fullName: Prowl.Runtime.GameObject.Serialize
+- uid: Prowl.Runtime.ISerializable.Serialize(Prowl.Runtime.Serializer.SerializationContext)
+  commentId: M:Prowl.Runtime.ISerializable.Serialize(Prowl.Runtime.Serializer.SerializationContext)
+  parent: Prowl.Runtime.ISerializable
+  href: Prowl.Runtime.ISerializable.html#Prowl_Runtime_ISerializable_Serialize_Prowl_Runtime_Serializer_SerializationContext_
+  name: Serialize(SerializationContext)
+  nameWithType: ISerializable.Serialize(Serializer.SerializationContext)
+  fullName: Prowl.Runtime.ISerializable.Serialize(Prowl.Runtime.Serializer.SerializationContext)
+  spec.csharp:
+  - uid: Prowl.Runtime.ISerializable.Serialize(Prowl.Runtime.Serializer.SerializationContext)
+    name: Serialize
+    href: Prowl.Runtime.ISerializable.html#Prowl_Runtime_ISerializable_Serialize_Prowl_Runtime_Serializer_SerializationContext_
+  - name: (
+  - uid: Prowl.Runtime.Serializer.SerializationContext
+    name: SerializationContext
+    href: Prowl.Runtime.Serializer.SerializationContext.html
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.ISerializable.Serialize(Prowl.Runtime.Serializer.SerializationContext)
+    name: Serialize
+    href: Prowl.Runtime.ISerializable.html#Prowl_Runtime_ISerializable_Serialize_Prowl_Runtime_Serializer_SerializationContext_
+  - name: (
+  - uid: Prowl.Runtime.Serializer.SerializationContext
+    name: SerializationContext
+    href: Prowl.Runtime.Serializer.SerializationContext.html
+  - name: )
+- uid: Prowl.Runtime.Serializer.SerializationContext
+  commentId: T:Prowl.Runtime.Serializer.SerializationContext
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.Serializer.html
+  name: Serializer.SerializationContext
+  nameWithType: Serializer.SerializationContext
+  fullName: Prowl.Runtime.Serializer.SerializationContext
+  spec.csharp:
+  - uid: Prowl.Runtime.Serializer
+    name: Serializer
+    href: Prowl.Runtime.Serializer.html
+  - name: .
+  - uid: Prowl.Runtime.Serializer.SerializationContext
+    name: SerializationContext
+    href: Prowl.Runtime.Serializer.SerializationContext.html
+  spec.vb:
+  - uid: Prowl.Runtime.Serializer
+    name: Serializer
+    href: Prowl.Runtime.Serializer.html
+  - name: .
+  - uid: Prowl.Runtime.Serializer.SerializationContext
+    name: SerializationContext
+    href: Prowl.Runtime.Serializer.SerializationContext.html
+- uid: Prowl.Runtime.GameObject.Deserialize*
+  commentId: Overload:Prowl.Runtime.GameObject.Deserialize
+  href: Prowl.Runtime.GameObject.html#Prowl_Runtime_GameObject_Deserialize_Prowl_Runtime_SerializedProperty_Prowl_Runtime_Serializer_SerializationContext_
+  name: Deserialize
+  nameWithType: GameObject.Deserialize
+  fullName: Prowl.Runtime.GameObject.Deserialize
+- uid: Prowl.Runtime.ISerializable.Deserialize(Prowl.Runtime.SerializedProperty,Prowl.Runtime.Serializer.SerializationContext)
+  commentId: M:Prowl.Runtime.ISerializable.Deserialize(Prowl.Runtime.SerializedProperty,Prowl.Runtime.Serializer.SerializationContext)
+  parent: Prowl.Runtime.ISerializable
+  href: Prowl.Runtime.ISerializable.html#Prowl_Runtime_ISerializable_Deserialize_Prowl_Runtime_SerializedProperty_Prowl_Runtime_Serializer_SerializationContext_
+  name: Deserialize(SerializedProperty, SerializationContext)
+  nameWithType: ISerializable.Deserialize(SerializedProperty, Serializer.SerializationContext)
+  fullName: Prowl.Runtime.ISerializable.Deserialize(Prowl.Runtime.SerializedProperty, Prowl.Runtime.Serializer.SerializationContext)
+  spec.csharp:
+  - uid: Prowl.Runtime.ISerializable.Deserialize(Prowl.Runtime.SerializedProperty,Prowl.Runtime.Serializer.SerializationContext)
+    name: Deserialize
+    href: Prowl.Runtime.ISerializable.html#Prowl_Runtime_ISerializable_Deserialize_Prowl_Runtime_SerializedProperty_Prowl_Runtime_Serializer_SerializationContext_
+  - name: (
+  - uid: Prowl.Runtime.SerializedProperty
+    name: SerializedProperty
+    href: Prowl.Runtime.SerializedProperty.html
+  - name: ','
+  - name: " "
+  - uid: Prowl.Runtime.Serializer.SerializationContext
+    name: SerializationContext
+    href: Prowl.Runtime.Serializer.SerializationContext.html
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.ISerializable.Deserialize(Prowl.Runtime.SerializedProperty,Prowl.Runtime.Serializer.SerializationContext)
+    name: Deserialize
+    href: Prowl.Runtime.ISerializable.html#Prowl_Runtime_ISerializable_Deserialize_Prowl_Runtime_SerializedProperty_Prowl_Runtime_Serializer_SerializationContext_
+  - name: (
+  - uid: Prowl.Runtime.SerializedProperty
+    name: SerializedProperty
+    href: Prowl.Runtime.SerializedProperty.html
+  - name: ','
+  - name: " "
+  - uid: Prowl.Runtime.Serializer.SerializationContext
+    name: SerializationContext
+    href: Prowl.Runtime.Serializer.SerializationContext.html
+  - name: )

@@ -1,0 +1,1585 @@
+### YamlMime:ManagedReference
+items:
+- uid: Prowl.Runtime.CurveKeyCollection
+  commentId: T:Prowl.Runtime.CurveKeyCollection
+  id: CurveKeyCollection
+  parent: Prowl.Runtime
+  children:
+  - Prowl.Runtime.CurveKeyCollection.#ctor
+  - Prowl.Runtime.CurveKeyCollection.Add(Prowl.Runtime.KeyFrame)
+  - Prowl.Runtime.CurveKeyCollection.Clear
+  - Prowl.Runtime.CurveKeyCollection.Contains(Prowl.Runtime.KeyFrame)
+  - Prowl.Runtime.CurveKeyCollection.CopyTo(Prowl.Runtime.KeyFrame[],System.Int32)
+  - Prowl.Runtime.CurveKeyCollection.Count
+  - Prowl.Runtime.CurveKeyCollection.GetEnumerator
+  - Prowl.Runtime.CurveKeyCollection.IndexOf(Prowl.Runtime.KeyFrame)
+  - Prowl.Runtime.CurveKeyCollection.IsReadOnly
+  - Prowl.Runtime.CurveKeyCollection.Item(System.Int32)
+  - Prowl.Runtime.CurveKeyCollection.Remove(Prowl.Runtime.KeyFrame)
+  - Prowl.Runtime.CurveKeyCollection.RemoveAt(System.Int32)
+  langs:
+  - csharp
+  - vb
+  name: CurveKeyCollection
+  nameWithType: CurveKeyCollection
+  fullName: Prowl.Runtime.CurveKeyCollection
+  type: Class
+  source:
+    remote:
+      path: Prowl.Runtime/AnimationCurve.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: CurveKeyCollection
+    path: ../Prowl/Prowl.Runtime/AnimationCurve.cs
+    startLine: 435
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: The collection of the CurveKey elements and a part of the <xref href="Prowl.Runtime.AnimationCurve" data-throw-if-not-resolved="false"></xref> class.
+  example: []
+  syntax:
+    content: 'public class CurveKeyCollection : ICollection<KeyFrame>, IEnumerable<KeyFrame>, IEnumerable'
+    content.vb: Public Class CurveKeyCollection Implements ICollection(Of KeyFrame), IEnumerable(Of KeyFrame), IEnumerable
+  inheritance:
+  - System.Object
+  implements:
+  - System.Collections.Generic.ICollection{Prowl.Runtime.KeyFrame}
+  - System.Collections.Generic.IEnumerable{Prowl.Runtime.KeyFrame}
+  - System.Collections.IEnumerable
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  extensionMethods:
+  - System.Object.Prowl.Runtime.RuntimeUtils.GetSerializableFields
+- uid: Prowl.Runtime.CurveKeyCollection.Item(System.Int32)
+  commentId: P:Prowl.Runtime.CurveKeyCollection.Item(System.Int32)
+  id: Item(System.Int32)
+  parent: Prowl.Runtime.CurveKeyCollection
+  langs:
+  - csharp
+  - vb
+  name: this[int]
+  nameWithType: CurveKeyCollection.this[int]
+  fullName: Prowl.Runtime.CurveKeyCollection.this[int]
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/AnimationCurve.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: this[]
+    path: ../Prowl/Prowl.Runtime/AnimationCurve.cs
+    startLine: 445
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public KeyFrame this[int index] { get; set; }
+    parameters:
+    - id: index
+      type: System.Int32
+    return:
+      type: Prowl.Runtime.KeyFrame
+    content.vb: Public Default Property this[](index As Integer) As KeyFrame
+  overload: Prowl.Runtime.CurveKeyCollection.Item*
+  nameWithType.vb: CurveKeyCollection.this[](Integer)
+  fullName.vb: Prowl.Runtime.CurveKeyCollection.this[](Integer)
+  name.vb: this[](Integer)
+- uid: Prowl.Runtime.CurveKeyCollection.Count
+  commentId: P:Prowl.Runtime.CurveKeyCollection.Count
+  id: Count
+  parent: Prowl.Runtime.CurveKeyCollection
+  langs:
+  - csharp
+  - vb
+  name: Count
+  nameWithType: CurveKeyCollection.Count
+  fullName: Prowl.Runtime.CurveKeyCollection.Count
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/AnimationCurve.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Count
+    path: ../Prowl/Prowl.Runtime/AnimationCurve.cs
+    startLine: 466
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: Returns the count of keys in this collection.
+  example: []
+  syntax:
+    content: public int Count { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property Count As Integer
+  overload: Prowl.Runtime.CurveKeyCollection.Count*
+  implements:
+  - System.Collections.Generic.ICollection{Prowl.Runtime.KeyFrame}.Count
+- uid: Prowl.Runtime.CurveKeyCollection.IsReadOnly
+  commentId: P:Prowl.Runtime.CurveKeyCollection.IsReadOnly
+  id: IsReadOnly
+  parent: Prowl.Runtime.CurveKeyCollection
+  langs:
+  - csharp
+  - vb
+  name: IsReadOnly
+  nameWithType: CurveKeyCollection.IsReadOnly
+  fullName: Prowl.Runtime.CurveKeyCollection.IsReadOnly
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/AnimationCurve.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: IsReadOnly
+    path: ../Prowl/Prowl.Runtime/AnimationCurve.cs
+    startLine: 469
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: Returns false because it is not a read-only collection.
+  example: []
+  syntax:
+    content: public bool IsReadOnly { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property IsReadOnly As Boolean
+  overload: Prowl.Runtime.CurveKeyCollection.IsReadOnly*
+  implements:
+  - System.Collections.Generic.ICollection{Prowl.Runtime.KeyFrame}.IsReadOnly
+- uid: Prowl.Runtime.CurveKeyCollection.#ctor
+  commentId: M:Prowl.Runtime.CurveKeyCollection.#ctor
+  id: '#ctor'
+  parent: Prowl.Runtime.CurveKeyCollection
+  langs:
+  - csharp
+  - vb
+  name: CurveKeyCollection()
+  nameWithType: CurveKeyCollection.CurveKeyCollection()
+  fullName: Prowl.Runtime.CurveKeyCollection.CurveKeyCollection()
+  type: Constructor
+  source:
+    remote:
+      path: Prowl.Runtime/AnimationCurve.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: .ctor
+    path: ../Prowl/Prowl.Runtime/AnimationCurve.cs
+    startLine: 476
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: Creates a new instance of <xref href="Prowl.Runtime.CurveKeyCollection" data-throw-if-not-resolved="false"></xref> class.
+  example: []
+  syntax:
+    content: public CurveKeyCollection()
+    content.vb: Public Sub New()
+  overload: Prowl.Runtime.CurveKeyCollection.#ctor*
+  nameWithType.vb: CurveKeyCollection.New()
+  fullName.vb: Prowl.Runtime.CurveKeyCollection.New()
+  name.vb: New()
+- uid: Prowl.Runtime.CurveKeyCollection.Add(Prowl.Runtime.KeyFrame)
+  commentId: M:Prowl.Runtime.CurveKeyCollection.Add(Prowl.Runtime.KeyFrame)
+  id: Add(Prowl.Runtime.KeyFrame)
+  parent: Prowl.Runtime.CurveKeyCollection
+  langs:
+  - csharp
+  - vb
+  name: Add(KeyFrame)
+  nameWithType: CurveKeyCollection.Add(KeyFrame)
+  fullName: Prowl.Runtime.CurveKeyCollection.Add(Prowl.Runtime.KeyFrame)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/AnimationCurve.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Add
+    path: ../Prowl/Prowl.Runtime/AnimationCurve.cs
+    startLine: 486
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: Adds a key to this collection.
+  remarks: The new key would be added respectively to a position of that key and the position of other keys.
+  example: []
+  syntax:
+    content: public void Add(KeyFrame item)
+    parameters:
+    - id: item
+      type: Prowl.Runtime.KeyFrame
+    content.vb: Public Sub Add(item As KeyFrame)
+  overload: Prowl.Runtime.CurveKeyCollection.Add*
+  exceptions:
+  - type: System.ArgumentNullException
+    commentId: T:System.ArgumentNullException
+    description: Throws if <code class="paramref">item</code> is null.
+  implements:
+  - System.Collections.Generic.ICollection{Prowl.Runtime.KeyFrame}.Add(Prowl.Runtime.KeyFrame)
+- uid: Prowl.Runtime.CurveKeyCollection.Clear
+  commentId: M:Prowl.Runtime.CurveKeyCollection.Clear
+  id: Clear
+  parent: Prowl.Runtime.CurveKeyCollection
+  langs:
+  - csharp
+  - vb
+  name: Clear()
+  nameWithType: CurveKeyCollection.Clear()
+  fullName: Prowl.Runtime.CurveKeyCollection.Clear()
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/AnimationCurve.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Clear
+    path: ../Prowl/Prowl.Runtime/AnimationCurve.cs
+    startLine: 509
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: Removes all keys from this collection.
+  example: []
+  syntax:
+    content: public void Clear()
+    content.vb: Public Sub Clear()
+  overload: Prowl.Runtime.CurveKeyCollection.Clear*
+  implements:
+  - System.Collections.Generic.ICollection{Prowl.Runtime.KeyFrame}.Clear
+- uid: Prowl.Runtime.CurveKeyCollection.Contains(Prowl.Runtime.KeyFrame)
+  commentId: M:Prowl.Runtime.CurveKeyCollection.Contains(Prowl.Runtime.KeyFrame)
+  id: Contains(Prowl.Runtime.KeyFrame)
+  parent: Prowl.Runtime.CurveKeyCollection
+  langs:
+  - csharp
+  - vb
+  name: Contains(KeyFrame)
+  nameWithType: CurveKeyCollection.Contains(KeyFrame)
+  fullName: Prowl.Runtime.CurveKeyCollection.Contains(Prowl.Runtime.KeyFrame)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/AnimationCurve.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Contains
+    path: ../Prowl/Prowl.Runtime/AnimationCurve.cs
+    startLine: 512
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: Determines whether this collection contains a specific key.
+  example: []
+  syntax:
+    content: public bool Contains(KeyFrame item)
+    parameters:
+    - id: item
+      type: Prowl.Runtime.KeyFrame
+    return:
+      type: System.Boolean
+    content.vb: Public Function Contains(item As KeyFrame) As Boolean
+  overload: Prowl.Runtime.CurveKeyCollection.Contains*
+  implements:
+  - System.Collections.Generic.ICollection{Prowl.Runtime.KeyFrame}.Contains(Prowl.Runtime.KeyFrame)
+- uid: Prowl.Runtime.CurveKeyCollection.CopyTo(Prowl.Runtime.KeyFrame[],System.Int32)
+  commentId: M:Prowl.Runtime.CurveKeyCollection.CopyTo(Prowl.Runtime.KeyFrame[],System.Int32)
+  id: CopyTo(Prowl.Runtime.KeyFrame[],System.Int32)
+  parent: Prowl.Runtime.CurveKeyCollection
+  langs:
+  - csharp
+  - vb
+  name: CopyTo(KeyFrame[], int)
+  nameWithType: CurveKeyCollection.CopyTo(KeyFrame[], int)
+  fullName: Prowl.Runtime.CurveKeyCollection.CopyTo(Prowl.Runtime.KeyFrame[], int)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/AnimationCurve.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: CopyTo
+    path: ../Prowl/Prowl.Runtime/AnimationCurve.cs
+    startLine: 515
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: Copies the keys of this collection to an array, starting at the array index provided.
+  example: []
+  syntax:
+    content: public void CopyTo(KeyFrame[] array, int arrayIndex)
+    parameters:
+    - id: array
+      type: Prowl.Runtime.KeyFrame[]
+    - id: arrayIndex
+      type: System.Int32
+    content.vb: Public Sub CopyTo(array As KeyFrame(), arrayIndex As Integer)
+  overload: Prowl.Runtime.CurveKeyCollection.CopyTo*
+  implements:
+  - System.Collections.Generic.ICollection{Prowl.Runtime.KeyFrame}.CopyTo(Prowl.Runtime.KeyFrame[],System.Int32)
+  nameWithType.vb: CurveKeyCollection.CopyTo(KeyFrame(), Integer)
+  fullName.vb: Prowl.Runtime.CurveKeyCollection.CopyTo(Prowl.Runtime.KeyFrame(), Integer)
+  name.vb: CopyTo(KeyFrame(), Integer)
+- uid: Prowl.Runtime.CurveKeyCollection.GetEnumerator
+  commentId: M:Prowl.Runtime.CurveKeyCollection.GetEnumerator
+  id: GetEnumerator
+  parent: Prowl.Runtime.CurveKeyCollection
+  langs:
+  - csharp
+  - vb
+  name: GetEnumerator()
+  nameWithType: CurveKeyCollection.GetEnumerator()
+  fullName: Prowl.Runtime.CurveKeyCollection.GetEnumerator()
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/AnimationCurve.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: GetEnumerator
+    path: ../Prowl/Prowl.Runtime/AnimationCurve.cs
+    startLine: 521
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: Returns an enumerator that iterates through the collection.
+  example: []
+  syntax:
+    content: public IEnumerator<KeyFrame> GetEnumerator()
+    return:
+      type: System.Collections.Generic.IEnumerator{Prowl.Runtime.KeyFrame}
+      description: An enumerator for the <xref href="Prowl.Runtime.CurveKeyCollection" data-throw-if-not-resolved="false"></xref>.
+    content.vb: Public Function GetEnumerator() As IEnumerator(Of KeyFrame)
+  overload: Prowl.Runtime.CurveKeyCollection.GetEnumerator*
+  implements:
+  - System.Collections.Generic.IEnumerable{Prowl.Runtime.KeyFrame}.GetEnumerator
+- uid: Prowl.Runtime.CurveKeyCollection.IndexOf(Prowl.Runtime.KeyFrame)
+  commentId: M:Prowl.Runtime.CurveKeyCollection.IndexOf(Prowl.Runtime.KeyFrame)
+  id: IndexOf(Prowl.Runtime.KeyFrame)
+  parent: Prowl.Runtime.CurveKeyCollection
+  langs:
+  - csharp
+  - vb
+  name: IndexOf(KeyFrame)
+  nameWithType: CurveKeyCollection.IndexOf(KeyFrame)
+  fullName: Prowl.Runtime.CurveKeyCollection.IndexOf(Prowl.Runtime.KeyFrame)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/AnimationCurve.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: IndexOf
+    path: ../Prowl/Prowl.Runtime/AnimationCurve.cs
+    startLine: 525
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: Finds element in the collection and returns its index.
+  example: []
+  syntax:
+    content: public int IndexOf(KeyFrame item)
+    parameters:
+    - id: item
+      type: Prowl.Runtime.KeyFrame
+    return:
+      type: System.Int32
+      description: Index of the element; or -1 if item is not found.
+    content.vb: Public Function IndexOf(item As KeyFrame) As Integer
+  overload: Prowl.Runtime.CurveKeyCollection.IndexOf*
+- uid: Prowl.Runtime.CurveKeyCollection.RemoveAt(System.Int32)
+  commentId: M:Prowl.Runtime.CurveKeyCollection.RemoveAt(System.Int32)
+  id: RemoveAt(System.Int32)
+  parent: Prowl.Runtime.CurveKeyCollection
+  langs:
+  - csharp
+  - vb
+  name: RemoveAt(int)
+  nameWithType: CurveKeyCollection.RemoveAt(int)
+  fullName: Prowl.Runtime.CurveKeyCollection.RemoveAt(int)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/AnimationCurve.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: RemoveAt
+    path: ../Prowl/Prowl.Runtime/AnimationCurve.cs
+    startLine: 528
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: Removes element at the specified index.
+  example: []
+  syntax:
+    content: public void RemoveAt(int index)
+    parameters:
+    - id: index
+      type: System.Int32
+    content.vb: Public Sub RemoveAt(index As Integer)
+  overload: Prowl.Runtime.CurveKeyCollection.RemoveAt*
+  nameWithType.vb: CurveKeyCollection.RemoveAt(Integer)
+  fullName.vb: Prowl.Runtime.CurveKeyCollection.RemoveAt(Integer)
+  name.vb: RemoveAt(Integer)
+- uid: Prowl.Runtime.CurveKeyCollection.Remove(Prowl.Runtime.KeyFrame)
+  commentId: M:Prowl.Runtime.CurveKeyCollection.Remove(Prowl.Runtime.KeyFrame)
+  id: Remove(Prowl.Runtime.KeyFrame)
+  parent: Prowl.Runtime.CurveKeyCollection
+  langs:
+  - csharp
+  - vb
+  name: Remove(KeyFrame)
+  nameWithType: CurveKeyCollection.Remove(KeyFrame)
+  fullName: Prowl.Runtime.CurveKeyCollection.Remove(Prowl.Runtime.KeyFrame)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/AnimationCurve.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Remove
+    path: ../Prowl/Prowl.Runtime/AnimationCurve.cs
+    startLine: 532
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: Removes specific element.
+  example: []
+  syntax:
+    content: public bool Remove(KeyFrame item)
+    parameters:
+    - id: item
+      type: Prowl.Runtime.KeyFrame
+    return:
+      type: System.Boolean
+      description: <code>true</code> if item is successfully removed; <code>false</code> otherwise. This method also returns <code>false</code> if item was not found.
+    content.vb: Public Function Remove(item As KeyFrame) As Boolean
+  overload: Prowl.Runtime.CurveKeyCollection.Remove*
+  implements:
+  - System.Collections.Generic.ICollection{Prowl.Runtime.KeyFrame}.Remove(Prowl.Runtime.KeyFrame)
+references:
+- uid: Prowl.Runtime.AnimationCurve
+  commentId: T:Prowl.Runtime.AnimationCurve
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.AnimationCurve.html
+  name: AnimationCurve
+  nameWithType: AnimationCurve
+  fullName: Prowl.Runtime.AnimationCurve
+- uid: Prowl.Runtime
+  commentId: N:Prowl.Runtime
+  href: Prowl.html
+  name: Prowl.Runtime
+  nameWithType: Prowl.Runtime
+  fullName: Prowl.Runtime
+  spec.csharp:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+  spec.vb:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Collections.Generic.ICollection{Prowl.Runtime.KeyFrame}
+  commentId: T:System.Collections.Generic.ICollection{Prowl.Runtime.KeyFrame}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.ICollection`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  name: ICollection<KeyFrame>
+  nameWithType: ICollection<KeyFrame>
+  fullName: System.Collections.Generic.ICollection<Prowl.Runtime.KeyFrame>
+  nameWithType.vb: ICollection(Of KeyFrame)
+  fullName.vb: System.Collections.Generic.ICollection(Of Prowl.Runtime.KeyFrame)
+  name.vb: ICollection(Of KeyFrame)
+  spec.csharp:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  - name: <
+  - uid: Prowl.Runtime.KeyFrame
+    name: KeyFrame
+    href: Prowl.Runtime.KeyFrame.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Prowl.Runtime.KeyFrame
+    name: KeyFrame
+    href: Prowl.Runtime.KeyFrame.html
+  - name: )
+- uid: System.Collections.Generic.IEnumerable{Prowl.Runtime.KeyFrame}
+  commentId: T:System.Collections.Generic.IEnumerable{Prowl.Runtime.KeyFrame}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<KeyFrame>
+  nameWithType: IEnumerable<KeyFrame>
+  fullName: System.Collections.Generic.IEnumerable<Prowl.Runtime.KeyFrame>
+  nameWithType.vb: IEnumerable(Of KeyFrame)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of Prowl.Runtime.KeyFrame)
+  name.vb: IEnumerable(Of KeyFrame)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - uid: Prowl.Runtime.KeyFrame
+    name: KeyFrame
+    href: Prowl.Runtime.KeyFrame.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Prowl.Runtime.KeyFrame
+    name: KeyFrame
+    href: Prowl.Runtime.KeyFrame.html
+  - name: )
+- uid: System.Collections.IEnumerable
+  commentId: T:System.Collections.IEnumerable
+  parent: System.Collections
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.ienumerable
+  name: IEnumerable
+  nameWithType: IEnumerable
+  fullName: System.Collections.IEnumerable
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Prowl.Runtime.RuntimeUtils.GetSerializableFields
+  commentId: M:Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  parent: Prowl.Runtime.RuntimeUtils
+  definition: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  name: GetSerializableFields(object)
+  nameWithType: RuntimeUtils.GetSerializableFields(object)
+  fullName: Prowl.Runtime.RuntimeUtils.GetSerializableFields(object)
+  nameWithType.vb: RuntimeUtils.GetSerializableFields(Object)
+  fullName.vb: Prowl.Runtime.RuntimeUtils.GetSerializableFields(Object)
+  name.vb: GetSerializableFields(Object)
+  spec.csharp:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Collections.Generic.ICollection`1
+  commentId: T:System.Collections.Generic.ICollection`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  name: ICollection<T>
+  nameWithType: ICollection<T>
+  fullName: System.Collections.Generic.ICollection<T>
+  nameWithType.vb: ICollection(Of T)
+  fullName.vb: System.Collections.Generic.ICollection(Of T)
+  name.vb: ICollection(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: System.Collections.Generic.IEnumerable`1
+  commentId: T:System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections
+  commentId: N:System.Collections
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections
+  nameWithType: System.Collections
+  fullName: System.Collections
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+- uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  commentId: M:Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  isExternal: true
+  href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  name: GetSerializableFields(object)
+  nameWithType: RuntimeUtils.GetSerializableFields(object)
+  fullName: Prowl.Runtime.RuntimeUtils.GetSerializableFields(object)
+  nameWithType.vb: RuntimeUtils.GetSerializableFields(Object)
+  fullName.vb: Prowl.Runtime.RuntimeUtils.GetSerializableFields(Object)
+  name.vb: GetSerializableFields(Object)
+  spec.csharp:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: Prowl.Runtime.RuntimeUtils
+  commentId: T:Prowl.Runtime.RuntimeUtils
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.RuntimeUtils.html
+  name: RuntimeUtils
+  nameWithType: RuntimeUtils
+  fullName: Prowl.Runtime.RuntimeUtils
+- uid: Prowl.Runtime.CurveKeyCollection.Item*
+  commentId: Overload:Prowl.Runtime.CurveKeyCollection.Item
+  href: Prowl.Runtime.CurveKeyCollection.html#Prowl_Runtime_CurveKeyCollection_Item_System_Int32_
+  name: this
+  nameWithType: CurveKeyCollection.this
+  fullName: Prowl.Runtime.CurveKeyCollection.this
+  nameWithType.vb: CurveKeyCollection.this[]
+  fullName.vb: Prowl.Runtime.CurveKeyCollection.this[]
+  name.vb: this[]
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: Prowl.Runtime.KeyFrame
+  commentId: T:Prowl.Runtime.KeyFrame
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.KeyFrame.html
+  name: KeyFrame
+  nameWithType: KeyFrame
+  fullName: Prowl.Runtime.KeyFrame
+- uid: Prowl.Runtime.CurveKeyCollection.Count*
+  commentId: Overload:Prowl.Runtime.CurveKeyCollection.Count
+  href: Prowl.Runtime.CurveKeyCollection.html#Prowl_Runtime_CurveKeyCollection_Count
+  name: Count
+  nameWithType: CurveKeyCollection.Count
+  fullName: Prowl.Runtime.CurveKeyCollection.Count
+- uid: System.Collections.Generic.ICollection{Prowl.Runtime.KeyFrame}.Count
+  commentId: P:System.Collections.Generic.ICollection{Prowl.Runtime.KeyFrame}.Count
+  parent: System.Collections.Generic.ICollection{Prowl.Runtime.KeyFrame}
+  definition: System.Collections.Generic.ICollection`1.Count
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1.count
+  name: Count
+  nameWithType: ICollection<KeyFrame>.Count
+  fullName: System.Collections.Generic.ICollection<Prowl.Runtime.KeyFrame>.Count
+  nameWithType.vb: ICollection(Of KeyFrame).Count
+  fullName.vb: System.Collections.Generic.ICollection(Of Prowl.Runtime.KeyFrame).Count
+- uid: System.Collections.Generic.ICollection`1.Count
+  commentId: P:System.Collections.Generic.ICollection`1.Count
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1.count
+  name: Count
+  nameWithType: ICollection<T>.Count
+  fullName: System.Collections.Generic.ICollection<T>.Count
+  nameWithType.vb: ICollection(Of T).Count
+  fullName.vb: System.Collections.Generic.ICollection(Of T).Count
+- uid: Prowl.Runtime.CurveKeyCollection.IsReadOnly*
+  commentId: Overload:Prowl.Runtime.CurveKeyCollection.IsReadOnly
+  href: Prowl.Runtime.CurveKeyCollection.html#Prowl_Runtime_CurveKeyCollection_IsReadOnly
+  name: IsReadOnly
+  nameWithType: CurveKeyCollection.IsReadOnly
+  fullName: Prowl.Runtime.CurveKeyCollection.IsReadOnly
+- uid: System.Collections.Generic.ICollection{Prowl.Runtime.KeyFrame}.IsReadOnly
+  commentId: P:System.Collections.Generic.ICollection{Prowl.Runtime.KeyFrame}.IsReadOnly
+  parent: System.Collections.Generic.ICollection{Prowl.Runtime.KeyFrame}
+  definition: System.Collections.Generic.ICollection`1.IsReadOnly
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1.isreadonly
+  name: IsReadOnly
+  nameWithType: ICollection<KeyFrame>.IsReadOnly
+  fullName: System.Collections.Generic.ICollection<Prowl.Runtime.KeyFrame>.IsReadOnly
+  nameWithType.vb: ICollection(Of KeyFrame).IsReadOnly
+  fullName.vb: System.Collections.Generic.ICollection(Of Prowl.Runtime.KeyFrame).IsReadOnly
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: System.Collections.Generic.ICollection`1.IsReadOnly
+  commentId: P:System.Collections.Generic.ICollection`1.IsReadOnly
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1.isreadonly
+  name: IsReadOnly
+  nameWithType: ICollection<T>.IsReadOnly
+  fullName: System.Collections.Generic.ICollection<T>.IsReadOnly
+  nameWithType.vb: ICollection(Of T).IsReadOnly
+  fullName.vb: System.Collections.Generic.ICollection(Of T).IsReadOnly
+- uid: Prowl.Runtime.CurveKeyCollection
+  commentId: T:Prowl.Runtime.CurveKeyCollection
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.CurveKeyCollection.html
+  name: CurveKeyCollection
+  nameWithType: CurveKeyCollection
+  fullName: Prowl.Runtime.CurveKeyCollection
+- uid: Prowl.Runtime.CurveKeyCollection.#ctor*
+  commentId: Overload:Prowl.Runtime.CurveKeyCollection.#ctor
+  href: Prowl.Runtime.CurveKeyCollection.html#Prowl_Runtime_CurveKeyCollection__ctor
+  name: CurveKeyCollection
+  nameWithType: CurveKeyCollection.CurveKeyCollection
+  fullName: Prowl.Runtime.CurveKeyCollection.CurveKeyCollection
+  nameWithType.vb: CurveKeyCollection.New
+  fullName.vb: Prowl.Runtime.CurveKeyCollection.New
+  name.vb: New
+- uid: System.ArgumentNullException
+  commentId: T:System.ArgumentNullException
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.argumentnullexception
+  name: ArgumentNullException
+  nameWithType: ArgumentNullException
+  fullName: System.ArgumentNullException
+- uid: Prowl.Runtime.CurveKeyCollection.Add*
+  commentId: Overload:Prowl.Runtime.CurveKeyCollection.Add
+  href: Prowl.Runtime.CurveKeyCollection.html#Prowl_Runtime_CurveKeyCollection_Add_Prowl_Runtime_KeyFrame_
+  name: Add
+  nameWithType: CurveKeyCollection.Add
+  fullName: Prowl.Runtime.CurveKeyCollection.Add
+- uid: System.Collections.Generic.ICollection{Prowl.Runtime.KeyFrame}.Add(Prowl.Runtime.KeyFrame)
+  commentId: M:System.Collections.Generic.ICollection{Prowl.Runtime.KeyFrame}.Add(Prowl.Runtime.KeyFrame)
+  parent: System.Collections.Generic.ICollection{Prowl.Runtime.KeyFrame}
+  definition: System.Collections.Generic.ICollection`1.Add(`0)
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1.add
+  name: Add(KeyFrame)
+  nameWithType: ICollection<KeyFrame>.Add(KeyFrame)
+  fullName: System.Collections.Generic.ICollection<Prowl.Runtime.KeyFrame>.Add(Prowl.Runtime.KeyFrame)
+  nameWithType.vb: ICollection(Of KeyFrame).Add(KeyFrame)
+  fullName.vb: System.Collections.Generic.ICollection(Of Prowl.Runtime.KeyFrame).Add(Prowl.Runtime.KeyFrame)
+  spec.csharp:
+  - uid: System.Collections.Generic.ICollection{Prowl.Runtime.KeyFrame}.Add(Prowl.Runtime.KeyFrame)
+    name: Add
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1.add
+  - name: (
+  - uid: Prowl.Runtime.KeyFrame
+    name: KeyFrame
+    href: Prowl.Runtime.KeyFrame.html
+  - name: )
+  spec.vb:
+  - uid: System.Collections.Generic.ICollection{Prowl.Runtime.KeyFrame}.Add(Prowl.Runtime.KeyFrame)
+    name: Add
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1.add
+  - name: (
+  - uid: Prowl.Runtime.KeyFrame
+    name: KeyFrame
+    href: Prowl.Runtime.KeyFrame.html
+  - name: )
+- uid: System.Collections.Generic.ICollection`1.Add(`0)
+  commentId: M:System.Collections.Generic.ICollection`1.Add(`0)
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1.add
+  name: Add(T)
+  nameWithType: ICollection<T>.Add(T)
+  fullName: System.Collections.Generic.ICollection<T>.Add(T)
+  nameWithType.vb: ICollection(Of T).Add(T)
+  fullName.vb: System.Collections.Generic.ICollection(Of T).Add(T)
+  spec.csharp:
+  - uid: System.Collections.Generic.ICollection`1.Add(`0)
+    name: Add
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1.add
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: System.Collections.Generic.ICollection`1.Add(`0)
+    name: Add
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1.add
+  - name: (
+  - name: T
+  - name: )
+- uid: Prowl.Runtime.CurveKeyCollection.Clear*
+  commentId: Overload:Prowl.Runtime.CurveKeyCollection.Clear
+  href: Prowl.Runtime.CurveKeyCollection.html#Prowl_Runtime_CurveKeyCollection_Clear
+  name: Clear
+  nameWithType: CurveKeyCollection.Clear
+  fullName: Prowl.Runtime.CurveKeyCollection.Clear
+- uid: System.Collections.Generic.ICollection{Prowl.Runtime.KeyFrame}.Clear
+  commentId: M:System.Collections.Generic.ICollection{Prowl.Runtime.KeyFrame}.Clear
+  parent: System.Collections.Generic.ICollection{Prowl.Runtime.KeyFrame}
+  definition: System.Collections.Generic.ICollection`1.Clear
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1.clear
+  name: Clear()
+  nameWithType: ICollection<KeyFrame>.Clear()
+  fullName: System.Collections.Generic.ICollection<Prowl.Runtime.KeyFrame>.Clear()
+  nameWithType.vb: ICollection(Of KeyFrame).Clear()
+  fullName.vb: System.Collections.Generic.ICollection(Of Prowl.Runtime.KeyFrame).Clear()
+  spec.csharp:
+  - uid: System.Collections.Generic.ICollection{Prowl.Runtime.KeyFrame}.Clear
+    name: Clear
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1.clear
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Collections.Generic.ICollection{Prowl.Runtime.KeyFrame}.Clear
+    name: Clear
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1.clear
+  - name: (
+  - name: )
+- uid: System.Collections.Generic.ICollection`1.Clear
+  commentId: M:System.Collections.Generic.ICollection`1.Clear
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1.clear
+  name: Clear()
+  nameWithType: ICollection<T>.Clear()
+  fullName: System.Collections.Generic.ICollection<T>.Clear()
+  nameWithType.vb: ICollection(Of T).Clear()
+  fullName.vb: System.Collections.Generic.ICollection(Of T).Clear()
+  spec.csharp:
+  - uid: System.Collections.Generic.ICollection`1.Clear
+    name: Clear
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1.clear
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Collections.Generic.ICollection`1.Clear
+    name: Clear
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1.clear
+  - name: (
+  - name: )
+- uid: Prowl.Runtime.CurveKeyCollection.Contains*
+  commentId: Overload:Prowl.Runtime.CurveKeyCollection.Contains
+  href: Prowl.Runtime.CurveKeyCollection.html#Prowl_Runtime_CurveKeyCollection_Contains_Prowl_Runtime_KeyFrame_
+  name: Contains
+  nameWithType: CurveKeyCollection.Contains
+  fullName: Prowl.Runtime.CurveKeyCollection.Contains
+- uid: System.Collections.Generic.ICollection{Prowl.Runtime.KeyFrame}.Contains(Prowl.Runtime.KeyFrame)
+  commentId: M:System.Collections.Generic.ICollection{Prowl.Runtime.KeyFrame}.Contains(Prowl.Runtime.KeyFrame)
+  parent: System.Collections.Generic.ICollection{Prowl.Runtime.KeyFrame}
+  definition: System.Collections.Generic.ICollection`1.Contains(`0)
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1.contains
+  name: Contains(KeyFrame)
+  nameWithType: ICollection<KeyFrame>.Contains(KeyFrame)
+  fullName: System.Collections.Generic.ICollection<Prowl.Runtime.KeyFrame>.Contains(Prowl.Runtime.KeyFrame)
+  nameWithType.vb: ICollection(Of KeyFrame).Contains(KeyFrame)
+  fullName.vb: System.Collections.Generic.ICollection(Of Prowl.Runtime.KeyFrame).Contains(Prowl.Runtime.KeyFrame)
+  spec.csharp:
+  - uid: System.Collections.Generic.ICollection{Prowl.Runtime.KeyFrame}.Contains(Prowl.Runtime.KeyFrame)
+    name: Contains
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1.contains
+  - name: (
+  - uid: Prowl.Runtime.KeyFrame
+    name: KeyFrame
+    href: Prowl.Runtime.KeyFrame.html
+  - name: )
+  spec.vb:
+  - uid: System.Collections.Generic.ICollection{Prowl.Runtime.KeyFrame}.Contains(Prowl.Runtime.KeyFrame)
+    name: Contains
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1.contains
+  - name: (
+  - uid: Prowl.Runtime.KeyFrame
+    name: KeyFrame
+    href: Prowl.Runtime.KeyFrame.html
+  - name: )
+- uid: System.Collections.Generic.ICollection`1.Contains(`0)
+  commentId: M:System.Collections.Generic.ICollection`1.Contains(`0)
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1.contains
+  name: Contains(T)
+  nameWithType: ICollection<T>.Contains(T)
+  fullName: System.Collections.Generic.ICollection<T>.Contains(T)
+  nameWithType.vb: ICollection(Of T).Contains(T)
+  fullName.vb: System.Collections.Generic.ICollection(Of T).Contains(T)
+  spec.csharp:
+  - uid: System.Collections.Generic.ICollection`1.Contains(`0)
+    name: Contains
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1.contains
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: System.Collections.Generic.ICollection`1.Contains(`0)
+    name: Contains
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1.contains
+  - name: (
+  - name: T
+  - name: )
+- uid: Prowl.Runtime.CurveKeyCollection.CopyTo*
+  commentId: Overload:Prowl.Runtime.CurveKeyCollection.CopyTo
+  href: Prowl.Runtime.CurveKeyCollection.html#Prowl_Runtime_CurveKeyCollection_CopyTo_Prowl_Runtime_KeyFrame___System_Int32_
+  name: CopyTo
+  nameWithType: CurveKeyCollection.CopyTo
+  fullName: Prowl.Runtime.CurveKeyCollection.CopyTo
+- uid: System.Collections.Generic.ICollection{Prowl.Runtime.KeyFrame}.CopyTo(Prowl.Runtime.KeyFrame[],System.Int32)
+  commentId: M:System.Collections.Generic.ICollection{Prowl.Runtime.KeyFrame}.CopyTo(Prowl.Runtime.KeyFrame[],System.Int32)
+  parent: System.Collections.Generic.ICollection{Prowl.Runtime.KeyFrame}
+  definition: System.Collections.Generic.ICollection`1.CopyTo(`0[],System.Int32)
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1.copyto
+  name: CopyTo(KeyFrame[], int)
+  nameWithType: ICollection<KeyFrame>.CopyTo(KeyFrame[], int)
+  fullName: System.Collections.Generic.ICollection<Prowl.Runtime.KeyFrame>.CopyTo(Prowl.Runtime.KeyFrame[], int)
+  nameWithType.vb: ICollection(Of KeyFrame).CopyTo(KeyFrame(), Integer)
+  fullName.vb: System.Collections.Generic.ICollection(Of Prowl.Runtime.KeyFrame).CopyTo(Prowl.Runtime.KeyFrame(), Integer)
+  name.vb: CopyTo(KeyFrame(), Integer)
+  spec.csharp:
+  - uid: System.Collections.Generic.ICollection{Prowl.Runtime.KeyFrame}.CopyTo(Prowl.Runtime.KeyFrame[],System.Int32)
+    name: CopyTo
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1.copyto
+  - name: (
+  - uid: Prowl.Runtime.KeyFrame
+    name: KeyFrame
+    href: Prowl.Runtime.KeyFrame.html
+  - name: '['
+  - name: ']'
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  spec.vb:
+  - uid: System.Collections.Generic.ICollection{Prowl.Runtime.KeyFrame}.CopyTo(Prowl.Runtime.KeyFrame[],System.Int32)
+    name: CopyTo
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1.copyto
+  - name: (
+  - uid: Prowl.Runtime.KeyFrame
+    name: KeyFrame
+    href: Prowl.Runtime.KeyFrame.html
+  - name: (
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: Prowl.Runtime.KeyFrame[]
+  isExternal: true
+  href: Prowl.Runtime.KeyFrame.html
+  name: KeyFrame[]
+  nameWithType: KeyFrame[]
+  fullName: Prowl.Runtime.KeyFrame[]
+  nameWithType.vb: KeyFrame()
+  fullName.vb: Prowl.Runtime.KeyFrame()
+  name.vb: KeyFrame()
+  spec.csharp:
+  - uid: Prowl.Runtime.KeyFrame
+    name: KeyFrame
+    href: Prowl.Runtime.KeyFrame.html
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: Prowl.Runtime.KeyFrame
+    name: KeyFrame
+    href: Prowl.Runtime.KeyFrame.html
+  - name: (
+  - name: )
+- uid: System.Collections.Generic.ICollection`1.CopyTo(`0[],System.Int32)
+  commentId: M:System.Collections.Generic.ICollection`1.CopyTo(`0[],System.Int32)
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1.copyto
+  name: CopyTo(T[], int)
+  nameWithType: ICollection<T>.CopyTo(T[], int)
+  fullName: System.Collections.Generic.ICollection<T>.CopyTo(T[], int)
+  nameWithType.vb: ICollection(Of T).CopyTo(T(), Integer)
+  fullName.vb: System.Collections.Generic.ICollection(Of T).CopyTo(T(), Integer)
+  name.vb: CopyTo(T(), Integer)
+  spec.csharp:
+  - uid: System.Collections.Generic.ICollection`1.CopyTo(`0[],System.Int32)
+    name: CopyTo
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1.copyto
+  - name: (
+  - name: T
+  - name: '['
+  - name: ']'
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  spec.vb:
+  - uid: System.Collections.Generic.ICollection`1.CopyTo(`0[],System.Int32)
+    name: CopyTo
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1.copyto
+  - name: (
+  - name: T
+  - name: (
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: Prowl.Runtime.CurveKeyCollection.GetEnumerator*
+  commentId: Overload:Prowl.Runtime.CurveKeyCollection.GetEnumerator
+  href: Prowl.Runtime.CurveKeyCollection.html#Prowl_Runtime_CurveKeyCollection_GetEnumerator
+  name: GetEnumerator
+  nameWithType: CurveKeyCollection.GetEnumerator
+  fullName: Prowl.Runtime.CurveKeyCollection.GetEnumerator
+- uid: System.Collections.Generic.IEnumerable{Prowl.Runtime.KeyFrame}.GetEnumerator
+  commentId: M:System.Collections.Generic.IEnumerable{Prowl.Runtime.KeyFrame}.GetEnumerator
+  parent: System.Collections.Generic.IEnumerable{Prowl.Runtime.KeyFrame}
+  definition: System.Collections.Generic.IEnumerable`1.GetEnumerator
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1.getenumerator
+  name: GetEnumerator()
+  nameWithType: IEnumerable<KeyFrame>.GetEnumerator()
+  fullName: System.Collections.Generic.IEnumerable<Prowl.Runtime.KeyFrame>.GetEnumerator()
+  nameWithType.vb: IEnumerable(Of KeyFrame).GetEnumerator()
+  fullName.vb: System.Collections.Generic.IEnumerable(Of Prowl.Runtime.KeyFrame).GetEnumerator()
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable{Prowl.Runtime.KeyFrame}.GetEnumerator
+    name: GetEnumerator
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1.getenumerator
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable{Prowl.Runtime.KeyFrame}.GetEnumerator
+    name: GetEnumerator
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1.getenumerator
+  - name: (
+  - name: )
+- uid: System.Collections.Generic.IEnumerator{Prowl.Runtime.KeyFrame}
+  commentId: T:System.Collections.Generic.IEnumerator{Prowl.Runtime.KeyFrame}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerator`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerator-1
+  name: IEnumerator<KeyFrame>
+  nameWithType: IEnumerator<KeyFrame>
+  fullName: System.Collections.Generic.IEnumerator<Prowl.Runtime.KeyFrame>
+  nameWithType.vb: IEnumerator(Of KeyFrame)
+  fullName.vb: System.Collections.Generic.IEnumerator(Of Prowl.Runtime.KeyFrame)
+  name.vb: IEnumerator(Of KeyFrame)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerator`1
+    name: IEnumerator
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerator-1
+  - name: <
+  - uid: Prowl.Runtime.KeyFrame
+    name: KeyFrame
+    href: Prowl.Runtime.KeyFrame.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerator`1
+    name: IEnumerator
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerator-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Prowl.Runtime.KeyFrame
+    name: KeyFrame
+    href: Prowl.Runtime.KeyFrame.html
+  - name: )
+- uid: System.Collections.Generic.IEnumerable`1.GetEnumerator
+  commentId: M:System.Collections.Generic.IEnumerable`1.GetEnumerator
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1.getenumerator
+  name: GetEnumerator()
+  nameWithType: IEnumerable<T>.GetEnumerator()
+  fullName: System.Collections.Generic.IEnumerable<T>.GetEnumerator()
+  nameWithType.vb: IEnumerable(Of T).GetEnumerator()
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T).GetEnumerator()
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1.GetEnumerator
+    name: GetEnumerator
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1.getenumerator
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1.GetEnumerator
+    name: GetEnumerator
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1.getenumerator
+  - name: (
+  - name: )
+- uid: System.Collections.Generic.IEnumerator`1
+  commentId: T:System.Collections.Generic.IEnumerator`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerator-1
+  name: IEnumerator<T>
+  nameWithType: IEnumerator<T>
+  fullName: System.Collections.Generic.IEnumerator<T>
+  nameWithType.vb: IEnumerator(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerator(Of T)
+  name.vb: IEnumerator(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerator`1
+    name: IEnumerator
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerator-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerator`1
+    name: IEnumerator
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerator-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Prowl.Runtime.CurveKeyCollection.IndexOf*
+  commentId: Overload:Prowl.Runtime.CurveKeyCollection.IndexOf
+  href: Prowl.Runtime.CurveKeyCollection.html#Prowl_Runtime_CurveKeyCollection_IndexOf_Prowl_Runtime_KeyFrame_
+  name: IndexOf
+  nameWithType: CurveKeyCollection.IndexOf
+  fullName: Prowl.Runtime.CurveKeyCollection.IndexOf
+- uid: Prowl.Runtime.CurveKeyCollection.RemoveAt*
+  commentId: Overload:Prowl.Runtime.CurveKeyCollection.RemoveAt
+  href: Prowl.Runtime.CurveKeyCollection.html#Prowl_Runtime_CurveKeyCollection_RemoveAt_System_Int32_
+  name: RemoveAt
+  nameWithType: CurveKeyCollection.RemoveAt
+  fullName: Prowl.Runtime.CurveKeyCollection.RemoveAt
+- uid: Prowl.Runtime.CurveKeyCollection.Remove*
+  commentId: Overload:Prowl.Runtime.CurveKeyCollection.Remove
+  href: Prowl.Runtime.CurveKeyCollection.html#Prowl_Runtime_CurveKeyCollection_Remove_Prowl_Runtime_KeyFrame_
+  name: Remove
+  nameWithType: CurveKeyCollection.Remove
+  fullName: Prowl.Runtime.CurveKeyCollection.Remove
+- uid: System.Collections.Generic.ICollection{Prowl.Runtime.KeyFrame}.Remove(Prowl.Runtime.KeyFrame)
+  commentId: M:System.Collections.Generic.ICollection{Prowl.Runtime.KeyFrame}.Remove(Prowl.Runtime.KeyFrame)
+  parent: System.Collections.Generic.ICollection{Prowl.Runtime.KeyFrame}
+  definition: System.Collections.Generic.ICollection`1.Remove(`0)
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1.remove
+  name: Remove(KeyFrame)
+  nameWithType: ICollection<KeyFrame>.Remove(KeyFrame)
+  fullName: System.Collections.Generic.ICollection<Prowl.Runtime.KeyFrame>.Remove(Prowl.Runtime.KeyFrame)
+  nameWithType.vb: ICollection(Of KeyFrame).Remove(KeyFrame)
+  fullName.vb: System.Collections.Generic.ICollection(Of Prowl.Runtime.KeyFrame).Remove(Prowl.Runtime.KeyFrame)
+  spec.csharp:
+  - uid: System.Collections.Generic.ICollection{Prowl.Runtime.KeyFrame}.Remove(Prowl.Runtime.KeyFrame)
+    name: Remove
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1.remove
+  - name: (
+  - uid: Prowl.Runtime.KeyFrame
+    name: KeyFrame
+    href: Prowl.Runtime.KeyFrame.html
+  - name: )
+  spec.vb:
+  - uid: System.Collections.Generic.ICollection{Prowl.Runtime.KeyFrame}.Remove(Prowl.Runtime.KeyFrame)
+    name: Remove
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1.remove
+  - name: (
+  - uid: Prowl.Runtime.KeyFrame
+    name: KeyFrame
+    href: Prowl.Runtime.KeyFrame.html
+  - name: )
+- uid: System.Collections.Generic.ICollection`1.Remove(`0)
+  commentId: M:System.Collections.Generic.ICollection`1.Remove(`0)
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1.remove
+  name: Remove(T)
+  nameWithType: ICollection<T>.Remove(T)
+  fullName: System.Collections.Generic.ICollection<T>.Remove(T)
+  nameWithType.vb: ICollection(Of T).Remove(T)
+  fullName.vb: System.Collections.Generic.ICollection(Of T).Remove(T)
+  spec.csharp:
+  - uid: System.Collections.Generic.ICollection`1.Remove(`0)
+    name: Remove
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1.remove
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: System.Collections.Generic.ICollection`1.Remove(`0)
+    name: Remove
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1.remove
+  - name: (
+  - name: T
+  - name: )

@@ -1,0 +1,255 @@
+### YamlMime:ManagedReference
+items:
+- uid: Prowl.Editor.Docking.DockNode.NodeType
+  commentId: T:Prowl.Editor.Docking.DockNode.NodeType
+  id: DockNode.NodeType
+  parent: Prowl.Editor.Docking
+  children:
+  - Prowl.Editor.Docking.DockNode.NodeType.Leaf
+  - Prowl.Editor.Docking.DockNode.NodeType.SplitHorizontal
+  - Prowl.Editor.Docking.DockNode.NodeType.SplitVertical
+  langs:
+  - csharp
+  - vb
+  name: DockNode.NodeType
+  nameWithType: DockNode.NodeType
+  fullName: Prowl.Editor.Docking.DockNode.NodeType
+  type: Enum
+  source:
+    remote:
+      path: Prowl.Editor/Editor/Docking/DockNode.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: NodeType
+    path: ../Prowl/Prowl.Editor/Editor/Docking/DockNode.cs
+    startLine: 30
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor.Docking
+  syntax:
+    content: public enum DockNode.NodeType
+    content.vb: Public Enum DockNode.NodeType
+  extensionMethods:
+  - System.Object.Prowl.Runtime.RuntimeUtils.GetSerializableFields
+- uid: Prowl.Editor.Docking.DockNode.NodeType.SplitVertical
+  commentId: F:Prowl.Editor.Docking.DockNode.NodeType.SplitVertical
+  id: SplitVertical
+  parent: Prowl.Editor.Docking.DockNode.NodeType
+  langs:
+  - csharp
+  - vb
+  name: SplitVertical
+  nameWithType: DockNode.NodeType.SplitVertical
+  fullName: Prowl.Editor.Docking.DockNode.NodeType.SplitVertical
+  type: Field
+  source:
+    remote:
+      path: Prowl.Editor/Editor/Docking/DockNode.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: SplitVertical
+    path: ../Prowl/Prowl.Editor/Editor/Docking/DockNode.cs
+    startLine: 32
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor.Docking
+  syntax:
+    content: SplitVertical = 0
+    return:
+      type: Prowl.Editor.Docking.DockNode.NodeType
+- uid: Prowl.Editor.Docking.DockNode.NodeType.SplitHorizontal
+  commentId: F:Prowl.Editor.Docking.DockNode.NodeType.SplitHorizontal
+  id: SplitHorizontal
+  parent: Prowl.Editor.Docking.DockNode.NodeType
+  langs:
+  - csharp
+  - vb
+  name: SplitHorizontal
+  nameWithType: DockNode.NodeType.SplitHorizontal
+  fullName: Prowl.Editor.Docking.DockNode.NodeType.SplitHorizontal
+  type: Field
+  source:
+    remote:
+      path: Prowl.Editor/Editor/Docking/DockNode.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: SplitHorizontal
+    path: ../Prowl/Prowl.Editor/Editor/Docking/DockNode.cs
+    startLine: 33
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor.Docking
+  syntax:
+    content: SplitHorizontal = 1
+    return:
+      type: Prowl.Editor.Docking.DockNode.NodeType
+- uid: Prowl.Editor.Docking.DockNode.NodeType.Leaf
+  commentId: F:Prowl.Editor.Docking.DockNode.NodeType.Leaf
+  id: Leaf
+  parent: Prowl.Editor.Docking.DockNode.NodeType
+  langs:
+  - csharp
+  - vb
+  name: Leaf
+  nameWithType: DockNode.NodeType.Leaf
+  fullName: Prowl.Editor.Docking.DockNode.NodeType.Leaf
+  type: Field
+  source:
+    remote:
+      path: Prowl.Editor/Editor/Docking/DockNode.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Leaf
+    path: ../Prowl/Prowl.Editor/Editor/Docking/DockNode.cs
+    startLine: 34
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor.Docking
+  syntax:
+    content: Leaf = 2
+    return:
+      type: Prowl.Editor.Docking.DockNode.NodeType
+references:
+- uid: Prowl.Editor.Docking
+  commentId: N:Prowl.Editor.Docking
+  href: Prowl.html
+  name: Prowl.Editor.Docking
+  nameWithType: Prowl.Editor.Docking
+  fullName: Prowl.Editor.Docking
+  spec.csharp:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Editor
+    name: Editor
+    href: Prowl.Editor.html
+  - name: .
+  - uid: Prowl.Editor.Docking
+    name: Docking
+    href: Prowl.Editor.Docking.html
+  spec.vb:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Editor
+    name: Editor
+    href: Prowl.Editor.html
+  - name: .
+  - uid: Prowl.Editor.Docking
+    name: Docking
+    href: Prowl.Editor.Docking.html
+- uid: System.Object.Prowl.Runtime.RuntimeUtils.GetSerializableFields
+  commentId: M:Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  parent: Prowl.Runtime.RuntimeUtils
+  definition: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  name: GetSerializableFields(object)
+  nameWithType: RuntimeUtils.GetSerializableFields(object)
+  fullName: Prowl.Runtime.RuntimeUtils.GetSerializableFields(object)
+  nameWithType.vb: RuntimeUtils.GetSerializableFields(Object)
+  fullName.vb: Prowl.Runtime.RuntimeUtils.GetSerializableFields(Object)
+  name.vb: GetSerializableFields(Object)
+  spec.csharp:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  commentId: M:Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  isExternal: true
+  href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  name: GetSerializableFields(object)
+  nameWithType: RuntimeUtils.GetSerializableFields(object)
+  fullName: Prowl.Runtime.RuntimeUtils.GetSerializableFields(object)
+  nameWithType.vb: RuntimeUtils.GetSerializableFields(Object)
+  fullName.vb: Prowl.Runtime.RuntimeUtils.GetSerializableFields(Object)
+  name.vb: GetSerializableFields(Object)
+  spec.csharp:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: Prowl.Runtime.RuntimeUtils
+  commentId: T:Prowl.Runtime.RuntimeUtils
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.RuntimeUtils.html
+  name: RuntimeUtils
+  nameWithType: RuntimeUtils
+  fullName: Prowl.Runtime.RuntimeUtils
+- uid: Prowl.Runtime
+  commentId: N:Prowl.Runtime
+  href: Prowl.html
+  name: Prowl.Runtime
+  nameWithType: Prowl.Runtime
+  fullName: Prowl.Runtime
+  spec.csharp:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+  spec.vb:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+- uid: Prowl.Editor.Docking.DockNode.NodeType
+  commentId: T:Prowl.Editor.Docking.DockNode.NodeType
+  parent: Prowl.Editor.Docking
+  href: Prowl.Editor.Docking.DockNode.html
+  name: DockNode.NodeType
+  nameWithType: DockNode.NodeType
+  fullName: Prowl.Editor.Docking.DockNode.NodeType
+  spec.csharp:
+  - uid: Prowl.Editor.Docking.DockNode
+    name: DockNode
+    href: Prowl.Editor.Docking.DockNode.html
+  - name: .
+  - uid: Prowl.Editor.Docking.DockNode.NodeType
+    name: NodeType
+    href: Prowl.Editor.Docking.DockNode.NodeType.html
+  spec.vb:
+  - uid: Prowl.Editor.Docking.DockNode
+    name: DockNode
+    href: Prowl.Editor.Docking.DockNode.html
+  - name: .
+  - uid: Prowl.Editor.Docking.DockNode.NodeType
+    name: NodeType
+    href: Prowl.Editor.Docking.DockNode.NodeType.html

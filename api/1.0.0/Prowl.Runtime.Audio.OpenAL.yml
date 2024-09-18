@@ -1,0 +1,37 @@
+### YamlMime:ManagedReference
+items:
+- uid: Prowl.Runtime.Audio.OpenAL
+  commentId: N:Prowl.Runtime.Audio.OpenAL
+  id: Prowl.Runtime.Audio.OpenAL
+  children:
+  - Prowl.Runtime.Audio.OpenAL.OpenALActiveAudio
+  - Prowl.Runtime.Audio.OpenAL.OpenALAudioBuffer
+  - Prowl.Runtime.Audio.OpenAL.OpenALEngine
+  langs:
+  - csharp
+  - vb
+  name: Prowl.Runtime.Audio.OpenAL
+  nameWithType: Prowl.Runtime.Audio.OpenAL
+  fullName: Prowl.Runtime.Audio.OpenAL
+  type: Namespace
+  assemblies:
+  - Prowl.Runtime
+references:
+- uid: Prowl.Runtime.Audio.OpenAL.OpenALActiveAudio
+  commentId: T:Prowl.Runtime.Audio.OpenAL.OpenALActiveAudio
+  href: Prowl.Runtime.Audio.OpenAL.OpenALActiveAudio.html
+  name: OpenALActiveAudio
+  nameWithType: OpenALActiveAudio
+  fullName: Prowl.Runtime.Audio.OpenAL.OpenALActiveAudio
+- uid: Prowl.Runtime.Audio.OpenAL.OpenALAudioBuffer
+  commentId: T:Prowl.Runtime.Audio.OpenAL.OpenALAudioBuffer
+  href: Prowl.Runtime.Audio.OpenAL.OpenALAudioBuffer.html
+  name: OpenALAudioBuffer
+  nameWithType: OpenALAudioBuffer
+  fullName: Prowl.Runtime.Audio.OpenAL.OpenALAudioBuffer
+- uid: Prowl.Runtime.Audio.OpenAL.OpenALEngine
+  commentId: T:Prowl.Runtime.Audio.OpenAL.OpenALEngine
+  href: Prowl.Runtime.Audio.OpenAL.OpenALEngine.html
+  name: OpenALEngine
+  nameWithType: OpenALEngine
+  fullName: Prowl.Runtime.Audio.OpenAL.OpenALEngine

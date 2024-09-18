@@ -1,0 +1,705 @@
+### YamlMime:ManagedReference
+items:
+- uid: Prowl.Runtime.GUI.TextEdit.StbTextEdit.ControlKeys
+  commentId: T:Prowl.Runtime.GUI.TextEdit.StbTextEdit.ControlKeys
+  id: StbTextEdit.ControlKeys
+  parent: Prowl.Runtime.GUI.TextEdit
+  children:
+  - Prowl.Runtime.GUI.TextEdit.StbTextEdit.ControlKeys.BackSpace
+  - Prowl.Runtime.GUI.TextEdit.StbTextEdit.ControlKeys.Delete
+  - Prowl.Runtime.GUI.TextEdit.StbTextEdit.ControlKeys.Down
+  - Prowl.Runtime.GUI.TextEdit.StbTextEdit.ControlKeys.InsertMode
+  - Prowl.Runtime.GUI.TextEdit.StbTextEdit.ControlKeys.Left
+  - Prowl.Runtime.GUI.TextEdit.StbTextEdit.ControlKeys.LineEnd
+  - Prowl.Runtime.GUI.TextEdit.StbTextEdit.ControlKeys.LineStart
+  - Prowl.Runtime.GUI.TextEdit.StbTextEdit.ControlKeys.None
+  - Prowl.Runtime.GUI.TextEdit.StbTextEdit.ControlKeys.PageDown
+  - Prowl.Runtime.GUI.TextEdit.StbTextEdit.ControlKeys.PageUp
+  - Prowl.Runtime.GUI.TextEdit.StbTextEdit.ControlKeys.Redo
+  - Prowl.Runtime.GUI.TextEdit.StbTextEdit.ControlKeys.Right
+  - Prowl.Runtime.GUI.TextEdit.StbTextEdit.ControlKeys.Shift
+  - Prowl.Runtime.GUI.TextEdit.StbTextEdit.ControlKeys.TextEnd
+  - Prowl.Runtime.GUI.TextEdit.StbTextEdit.ControlKeys.TextStart
+  - Prowl.Runtime.GUI.TextEdit.StbTextEdit.ControlKeys.Undo
+  - Prowl.Runtime.GUI.TextEdit.StbTextEdit.ControlKeys.Up
+  - Prowl.Runtime.GUI.TextEdit.StbTextEdit.ControlKeys.WordLeft
+  - Prowl.Runtime.GUI.TextEdit.StbTextEdit.ControlKeys.WordRight
+  langs:
+  - csharp
+  - vb
+  name: StbTextEdit.ControlKeys
+  nameWithType: StbTextEdit.ControlKeys
+  fullName: Prowl.Runtime.GUI.TextEdit.StbTextEdit.ControlKeys
+  type: Enum
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/TextEdit/StbTextEdit.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: ControlKeys
+    path: ../Prowl/Prowl.Runtime/GUI/TextEdit/StbTextEdit.cs
+    startLine: 793
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI.TextEdit
+  syntax:
+    content: >-
+      [Flags]
+
+      public enum StbTextEdit.ControlKeys
+    content.vb: >-
+      <Flags>
+
+      Public Enum StbTextEdit.ControlKeys
+  extensionMethods:
+  - System.Object.Prowl.Runtime.RuntimeUtils.GetSerializableFields
+  attributes:
+  - type: System.FlagsAttribute
+    ctor: System.FlagsAttribute.#ctor
+    arguments: []
+- uid: Prowl.Runtime.GUI.TextEdit.StbTextEdit.ControlKeys.None
+  commentId: F:Prowl.Runtime.GUI.TextEdit.StbTextEdit.ControlKeys.None
+  id: None
+  parent: Prowl.Runtime.GUI.TextEdit.StbTextEdit.ControlKeys
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: StbTextEdit.ControlKeys.None
+  fullName: Prowl.Runtime.GUI.TextEdit.StbTextEdit.ControlKeys.None
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/TextEdit/StbTextEdit.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: None
+    path: ../Prowl/Prowl.Runtime/GUI/TextEdit/StbTextEdit.cs
+    startLine: 796
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI.TextEdit
+  syntax:
+    content: None = 0
+    return:
+      type: Prowl.Runtime.GUI.TextEdit.StbTextEdit.ControlKeys
+- uid: Prowl.Runtime.GUI.TextEdit.StbTextEdit.ControlKeys.Shift
+  commentId: F:Prowl.Runtime.GUI.TextEdit.StbTextEdit.ControlKeys.Shift
+  id: Shift
+  parent: Prowl.Runtime.GUI.TextEdit.StbTextEdit.ControlKeys
+  langs:
+  - csharp
+  - vb
+  name: Shift
+  nameWithType: StbTextEdit.ControlKeys.Shift
+  fullName: Prowl.Runtime.GUI.TextEdit.StbTextEdit.ControlKeys.Shift
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/TextEdit/StbTextEdit.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Shift
+    path: ../Prowl/Prowl.Runtime/GUI/TextEdit/StbTextEdit.cs
+    startLine: 797
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI.TextEdit
+  syntax:
+    content: Shift = 131072
+    return:
+      type: Prowl.Runtime.GUI.TextEdit.StbTextEdit.ControlKeys
+- uid: Prowl.Runtime.GUI.TextEdit.StbTextEdit.ControlKeys.Left
+  commentId: F:Prowl.Runtime.GUI.TextEdit.StbTextEdit.ControlKeys.Left
+  id: Left
+  parent: Prowl.Runtime.GUI.TextEdit.StbTextEdit.ControlKeys
+  langs:
+  - csharp
+  - vb
+  name: Left
+  nameWithType: StbTextEdit.ControlKeys.Left
+  fullName: Prowl.Runtime.GUI.TextEdit.StbTextEdit.ControlKeys.Left
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/TextEdit/StbTextEdit.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Left
+    path: ../Prowl/Prowl.Runtime/GUI/TextEdit/StbTextEdit.cs
+    startLine: 798
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI.TextEdit
+  syntax:
+    content: Left = 65536
+    return:
+      type: Prowl.Runtime.GUI.TextEdit.StbTextEdit.ControlKeys
+- uid: Prowl.Runtime.GUI.TextEdit.StbTextEdit.ControlKeys.Right
+  commentId: F:Prowl.Runtime.GUI.TextEdit.StbTextEdit.ControlKeys.Right
+  id: Right
+  parent: Prowl.Runtime.GUI.TextEdit.StbTextEdit.ControlKeys
+  langs:
+  - csharp
+  - vb
+  name: Right
+  nameWithType: StbTextEdit.ControlKeys.Right
+  fullName: Prowl.Runtime.GUI.TextEdit.StbTextEdit.ControlKeys.Right
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/TextEdit/StbTextEdit.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Right
+    path: ../Prowl/Prowl.Runtime/GUI/TextEdit/StbTextEdit.cs
+    startLine: 799
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI.TextEdit
+  syntax:
+    content: Right = 65537
+    return:
+      type: Prowl.Runtime.GUI.TextEdit.StbTextEdit.ControlKeys
+- uid: Prowl.Runtime.GUI.TextEdit.StbTextEdit.ControlKeys.Up
+  commentId: F:Prowl.Runtime.GUI.TextEdit.StbTextEdit.ControlKeys.Up
+  id: Up
+  parent: Prowl.Runtime.GUI.TextEdit.StbTextEdit.ControlKeys
+  langs:
+  - csharp
+  - vb
+  name: Up
+  nameWithType: StbTextEdit.ControlKeys.Up
+  fullName: Prowl.Runtime.GUI.TextEdit.StbTextEdit.ControlKeys.Up
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/TextEdit/StbTextEdit.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Up
+    path: ../Prowl/Prowl.Runtime/GUI/TextEdit/StbTextEdit.cs
+    startLine: 800
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI.TextEdit
+  syntax:
+    content: Up = 65538
+    return:
+      type: Prowl.Runtime.GUI.TextEdit.StbTextEdit.ControlKeys
+- uid: Prowl.Runtime.GUI.TextEdit.StbTextEdit.ControlKeys.Down
+  commentId: F:Prowl.Runtime.GUI.TextEdit.StbTextEdit.ControlKeys.Down
+  id: Down
+  parent: Prowl.Runtime.GUI.TextEdit.StbTextEdit.ControlKeys
+  langs:
+  - csharp
+  - vb
+  name: Down
+  nameWithType: StbTextEdit.ControlKeys.Down
+  fullName: Prowl.Runtime.GUI.TextEdit.StbTextEdit.ControlKeys.Down
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/TextEdit/StbTextEdit.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Down
+    path: ../Prowl/Prowl.Runtime/GUI/TextEdit/StbTextEdit.cs
+    startLine: 801
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI.TextEdit
+  syntax:
+    content: Down = 65539
+    return:
+      type: Prowl.Runtime.GUI.TextEdit.StbTextEdit.ControlKeys
+- uid: Prowl.Runtime.GUI.TextEdit.StbTextEdit.ControlKeys.LineStart
+  commentId: F:Prowl.Runtime.GUI.TextEdit.StbTextEdit.ControlKeys.LineStart
+  id: LineStart
+  parent: Prowl.Runtime.GUI.TextEdit.StbTextEdit.ControlKeys
+  langs:
+  - csharp
+  - vb
+  name: LineStart
+  nameWithType: StbTextEdit.ControlKeys.LineStart
+  fullName: Prowl.Runtime.GUI.TextEdit.StbTextEdit.ControlKeys.LineStart
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/TextEdit/StbTextEdit.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: LineStart
+    path: ../Prowl/Prowl.Runtime/GUI/TextEdit/StbTextEdit.cs
+    startLine: 802
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI.TextEdit
+  syntax:
+    content: LineStart = 65540
+    return:
+      type: Prowl.Runtime.GUI.TextEdit.StbTextEdit.ControlKeys
+- uid: Prowl.Runtime.GUI.TextEdit.StbTextEdit.ControlKeys.LineEnd
+  commentId: F:Prowl.Runtime.GUI.TextEdit.StbTextEdit.ControlKeys.LineEnd
+  id: LineEnd
+  parent: Prowl.Runtime.GUI.TextEdit.StbTextEdit.ControlKeys
+  langs:
+  - csharp
+  - vb
+  name: LineEnd
+  nameWithType: StbTextEdit.ControlKeys.LineEnd
+  fullName: Prowl.Runtime.GUI.TextEdit.StbTextEdit.ControlKeys.LineEnd
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/TextEdit/StbTextEdit.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: LineEnd
+    path: ../Prowl/Prowl.Runtime/GUI/TextEdit/StbTextEdit.cs
+    startLine: 803
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI.TextEdit
+  syntax:
+    content: LineEnd = 65541
+    return:
+      type: Prowl.Runtime.GUI.TextEdit.StbTextEdit.ControlKeys
+- uid: Prowl.Runtime.GUI.TextEdit.StbTextEdit.ControlKeys.TextStart
+  commentId: F:Prowl.Runtime.GUI.TextEdit.StbTextEdit.ControlKeys.TextStart
+  id: TextStart
+  parent: Prowl.Runtime.GUI.TextEdit.StbTextEdit.ControlKeys
+  langs:
+  - csharp
+  - vb
+  name: TextStart
+  nameWithType: StbTextEdit.ControlKeys.TextStart
+  fullName: Prowl.Runtime.GUI.TextEdit.StbTextEdit.ControlKeys.TextStart
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/TextEdit/StbTextEdit.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: TextStart
+    path: ../Prowl/Prowl.Runtime/GUI/TextEdit/StbTextEdit.cs
+    startLine: 804
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI.TextEdit
+  syntax:
+    content: TextStart = 65542
+    return:
+      type: Prowl.Runtime.GUI.TextEdit.StbTextEdit.ControlKeys
+- uid: Prowl.Runtime.GUI.TextEdit.StbTextEdit.ControlKeys.TextEnd
+  commentId: F:Prowl.Runtime.GUI.TextEdit.StbTextEdit.ControlKeys.TextEnd
+  id: TextEnd
+  parent: Prowl.Runtime.GUI.TextEdit.StbTextEdit.ControlKeys
+  langs:
+  - csharp
+  - vb
+  name: TextEnd
+  nameWithType: StbTextEdit.ControlKeys.TextEnd
+  fullName: Prowl.Runtime.GUI.TextEdit.StbTextEdit.ControlKeys.TextEnd
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/TextEdit/StbTextEdit.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: TextEnd
+    path: ../Prowl/Prowl.Runtime/GUI/TextEdit/StbTextEdit.cs
+    startLine: 805
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI.TextEdit
+  syntax:
+    content: TextEnd = 65543
+    return:
+      type: Prowl.Runtime.GUI.TextEdit.StbTextEdit.ControlKeys
+- uid: Prowl.Runtime.GUI.TextEdit.StbTextEdit.ControlKeys.Delete
+  commentId: F:Prowl.Runtime.GUI.TextEdit.StbTextEdit.ControlKeys.Delete
+  id: Delete
+  parent: Prowl.Runtime.GUI.TextEdit.StbTextEdit.ControlKeys
+  langs:
+  - csharp
+  - vb
+  name: Delete
+  nameWithType: StbTextEdit.ControlKeys.Delete
+  fullName: Prowl.Runtime.GUI.TextEdit.StbTextEdit.ControlKeys.Delete
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/TextEdit/StbTextEdit.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Delete
+    path: ../Prowl/Prowl.Runtime/GUI/TextEdit/StbTextEdit.cs
+    startLine: 806
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI.TextEdit
+  syntax:
+    content: Delete = 65544
+    return:
+      type: Prowl.Runtime.GUI.TextEdit.StbTextEdit.ControlKeys
+- uid: Prowl.Runtime.GUI.TextEdit.StbTextEdit.ControlKeys.BackSpace
+  commentId: F:Prowl.Runtime.GUI.TextEdit.StbTextEdit.ControlKeys.BackSpace
+  id: BackSpace
+  parent: Prowl.Runtime.GUI.TextEdit.StbTextEdit.ControlKeys
+  langs:
+  - csharp
+  - vb
+  name: BackSpace
+  nameWithType: StbTextEdit.ControlKeys.BackSpace
+  fullName: Prowl.Runtime.GUI.TextEdit.StbTextEdit.ControlKeys.BackSpace
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/TextEdit/StbTextEdit.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: BackSpace
+    path: ../Prowl/Prowl.Runtime/GUI/TextEdit/StbTextEdit.cs
+    startLine: 807
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI.TextEdit
+  syntax:
+    content: BackSpace = 65545
+    return:
+      type: Prowl.Runtime.GUI.TextEdit.StbTextEdit.ControlKeys
+- uid: Prowl.Runtime.GUI.TextEdit.StbTextEdit.ControlKeys.Undo
+  commentId: F:Prowl.Runtime.GUI.TextEdit.StbTextEdit.ControlKeys.Undo
+  id: Undo
+  parent: Prowl.Runtime.GUI.TextEdit.StbTextEdit.ControlKeys
+  langs:
+  - csharp
+  - vb
+  name: Undo
+  nameWithType: StbTextEdit.ControlKeys.Undo
+  fullName: Prowl.Runtime.GUI.TextEdit.StbTextEdit.ControlKeys.Undo
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/TextEdit/StbTextEdit.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Undo
+    path: ../Prowl/Prowl.Runtime/GUI/TextEdit/StbTextEdit.cs
+    startLine: 808
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI.TextEdit
+  syntax:
+    content: Undo = 65546
+    return:
+      type: Prowl.Runtime.GUI.TextEdit.StbTextEdit.ControlKeys
+- uid: Prowl.Runtime.GUI.TextEdit.StbTextEdit.ControlKeys.Redo
+  commentId: F:Prowl.Runtime.GUI.TextEdit.StbTextEdit.ControlKeys.Redo
+  id: Redo
+  parent: Prowl.Runtime.GUI.TextEdit.StbTextEdit.ControlKeys
+  langs:
+  - csharp
+  - vb
+  name: Redo
+  nameWithType: StbTextEdit.ControlKeys.Redo
+  fullName: Prowl.Runtime.GUI.TextEdit.StbTextEdit.ControlKeys.Redo
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/TextEdit/StbTextEdit.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Redo
+    path: ../Prowl/Prowl.Runtime/GUI/TextEdit/StbTextEdit.cs
+    startLine: 809
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI.TextEdit
+  syntax:
+    content: Redo = 65547
+    return:
+      type: Prowl.Runtime.GUI.TextEdit.StbTextEdit.ControlKeys
+- uid: Prowl.Runtime.GUI.TextEdit.StbTextEdit.ControlKeys.InsertMode
+  commentId: F:Prowl.Runtime.GUI.TextEdit.StbTextEdit.ControlKeys.InsertMode
+  id: InsertMode
+  parent: Prowl.Runtime.GUI.TextEdit.StbTextEdit.ControlKeys
+  langs:
+  - csharp
+  - vb
+  name: InsertMode
+  nameWithType: StbTextEdit.ControlKeys.InsertMode
+  fullName: Prowl.Runtime.GUI.TextEdit.StbTextEdit.ControlKeys.InsertMode
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/TextEdit/StbTextEdit.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: InsertMode
+    path: ../Prowl/Prowl.Runtime/GUI/TextEdit/StbTextEdit.cs
+    startLine: 810
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI.TextEdit
+  syntax:
+    content: InsertMode = 65548
+    return:
+      type: Prowl.Runtime.GUI.TextEdit.StbTextEdit.ControlKeys
+- uid: Prowl.Runtime.GUI.TextEdit.StbTextEdit.ControlKeys.WordLeft
+  commentId: F:Prowl.Runtime.GUI.TextEdit.StbTextEdit.ControlKeys.WordLeft
+  id: WordLeft
+  parent: Prowl.Runtime.GUI.TextEdit.StbTextEdit.ControlKeys
+  langs:
+  - csharp
+  - vb
+  name: WordLeft
+  nameWithType: StbTextEdit.ControlKeys.WordLeft
+  fullName: Prowl.Runtime.GUI.TextEdit.StbTextEdit.ControlKeys.WordLeft
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/TextEdit/StbTextEdit.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: WordLeft
+    path: ../Prowl/Prowl.Runtime/GUI/TextEdit/StbTextEdit.cs
+    startLine: 811
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI.TextEdit
+  syntax:
+    content: WordLeft = 65549
+    return:
+      type: Prowl.Runtime.GUI.TextEdit.StbTextEdit.ControlKeys
+- uid: Prowl.Runtime.GUI.TextEdit.StbTextEdit.ControlKeys.WordRight
+  commentId: F:Prowl.Runtime.GUI.TextEdit.StbTextEdit.ControlKeys.WordRight
+  id: WordRight
+  parent: Prowl.Runtime.GUI.TextEdit.StbTextEdit.ControlKeys
+  langs:
+  - csharp
+  - vb
+  name: WordRight
+  nameWithType: StbTextEdit.ControlKeys.WordRight
+  fullName: Prowl.Runtime.GUI.TextEdit.StbTextEdit.ControlKeys.WordRight
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/TextEdit/StbTextEdit.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: WordRight
+    path: ../Prowl/Prowl.Runtime/GUI/TextEdit/StbTextEdit.cs
+    startLine: 812
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI.TextEdit
+  syntax:
+    content: WordRight = 65550
+    return:
+      type: Prowl.Runtime.GUI.TextEdit.StbTextEdit.ControlKeys
+- uid: Prowl.Runtime.GUI.TextEdit.StbTextEdit.ControlKeys.PageUp
+  commentId: F:Prowl.Runtime.GUI.TextEdit.StbTextEdit.ControlKeys.PageUp
+  id: PageUp
+  parent: Prowl.Runtime.GUI.TextEdit.StbTextEdit.ControlKeys
+  langs:
+  - csharp
+  - vb
+  name: PageUp
+  nameWithType: StbTextEdit.ControlKeys.PageUp
+  fullName: Prowl.Runtime.GUI.TextEdit.StbTextEdit.ControlKeys.PageUp
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/TextEdit/StbTextEdit.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: PageUp
+    path: ../Prowl/Prowl.Runtime/GUI/TextEdit/StbTextEdit.cs
+    startLine: 813
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI.TextEdit
+  syntax:
+    content: PageUp = 65551
+    return:
+      type: Prowl.Runtime.GUI.TextEdit.StbTextEdit.ControlKeys
+- uid: Prowl.Runtime.GUI.TextEdit.StbTextEdit.ControlKeys.PageDown
+  commentId: F:Prowl.Runtime.GUI.TextEdit.StbTextEdit.ControlKeys.PageDown
+  id: PageDown
+  parent: Prowl.Runtime.GUI.TextEdit.StbTextEdit.ControlKeys
+  langs:
+  - csharp
+  - vb
+  name: PageDown
+  nameWithType: StbTextEdit.ControlKeys.PageDown
+  fullName: Prowl.Runtime.GUI.TextEdit.StbTextEdit.ControlKeys.PageDown
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/TextEdit/StbTextEdit.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: PageDown
+    path: ../Prowl/Prowl.Runtime/GUI/TextEdit/StbTextEdit.cs
+    startLine: 814
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI.TextEdit
+  syntax:
+    content: PageDown = 65552
+    return:
+      type: Prowl.Runtime.GUI.TextEdit.StbTextEdit.ControlKeys
+references:
+- uid: Prowl.Runtime.GUI.TextEdit
+  commentId: N:Prowl.Runtime.GUI.TextEdit
+  href: Prowl.html
+  name: Prowl.Runtime.GUI.TextEdit
+  nameWithType: Prowl.Runtime.GUI.TextEdit
+  fullName: Prowl.Runtime.GUI.TextEdit
+  spec.csharp:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+  - name: .
+  - uid: Prowl.Runtime.GUI
+    name: GUI
+    href: Prowl.Runtime.GUI.html
+  - name: .
+  - uid: Prowl.Runtime.GUI.TextEdit
+    name: TextEdit
+    href: Prowl.Runtime.GUI.TextEdit.html
+  spec.vb:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+  - name: .
+  - uid: Prowl.Runtime.GUI
+    name: GUI
+    href: Prowl.Runtime.GUI.html
+  - name: .
+  - uid: Prowl.Runtime.GUI.TextEdit
+    name: TextEdit
+    href: Prowl.Runtime.GUI.TextEdit.html
+- uid: System.Object.Prowl.Runtime.RuntimeUtils.GetSerializableFields
+  commentId: M:Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  parent: Prowl.Runtime.RuntimeUtils
+  definition: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  name: GetSerializableFields(object)
+  nameWithType: RuntimeUtils.GetSerializableFields(object)
+  fullName: Prowl.Runtime.RuntimeUtils.GetSerializableFields(object)
+  nameWithType.vb: RuntimeUtils.GetSerializableFields(Object)
+  fullName.vb: Prowl.Runtime.RuntimeUtils.GetSerializableFields(Object)
+  name.vb: GetSerializableFields(Object)
+  spec.csharp:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  commentId: M:Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  isExternal: true
+  href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  name: GetSerializableFields(object)
+  nameWithType: RuntimeUtils.GetSerializableFields(object)
+  fullName: Prowl.Runtime.RuntimeUtils.GetSerializableFields(object)
+  nameWithType.vb: RuntimeUtils.GetSerializableFields(Object)
+  fullName.vb: Prowl.Runtime.RuntimeUtils.GetSerializableFields(Object)
+  name.vb: GetSerializableFields(Object)
+  spec.csharp:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: Prowl.Runtime.RuntimeUtils
+  commentId: T:Prowl.Runtime.RuntimeUtils
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.RuntimeUtils.html
+  name: RuntimeUtils
+  nameWithType: RuntimeUtils
+  fullName: Prowl.Runtime.RuntimeUtils
+- uid: Prowl.Runtime
+  commentId: N:Prowl.Runtime
+  href: Prowl.html
+  name: Prowl.Runtime
+  nameWithType: Prowl.Runtime
+  fullName: Prowl.Runtime
+  spec.csharp:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+  spec.vb:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+- uid: Prowl.Runtime.GUI.TextEdit.StbTextEdit.ControlKeys
+  commentId: T:Prowl.Runtime.GUI.TextEdit.StbTextEdit.ControlKeys
+  parent: Prowl.Runtime.GUI.TextEdit
+  href: Prowl.Runtime.GUI.TextEdit.StbTextEdit.html
+  name: StbTextEdit.ControlKeys
+  nameWithType: StbTextEdit.ControlKeys
+  fullName: Prowl.Runtime.GUI.TextEdit.StbTextEdit.ControlKeys
+  spec.csharp:
+  - uid: Prowl.Runtime.GUI.TextEdit.StbTextEdit
+    name: StbTextEdit
+    href: Prowl.Runtime.GUI.TextEdit.StbTextEdit.html
+  - name: .
+  - uid: Prowl.Runtime.GUI.TextEdit.StbTextEdit.ControlKeys
+    name: ControlKeys
+    href: Prowl.Runtime.GUI.TextEdit.StbTextEdit.ControlKeys.html
+  spec.vb:
+  - uid: Prowl.Runtime.GUI.TextEdit.StbTextEdit
+    name: StbTextEdit
+    href: Prowl.Runtime.GUI.TextEdit.StbTextEdit.html
+  - name: .
+  - uid: Prowl.Runtime.GUI.TextEdit.StbTextEdit.ControlKeys
+    name: ControlKeys
+    href: Prowl.Runtime.GUI.TextEdit.StbTextEdit.ControlKeys.html

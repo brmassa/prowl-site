@@ -1,0 +1,228 @@
+### YamlMime:ManagedReference
+items:
+- uid: Prowl.Runtime.NodeSystem.NodePort.IO
+  commentId: T:Prowl.Runtime.NodeSystem.NodePort.IO
+  id: NodePort.IO
+  parent: Prowl.Runtime.NodeSystem
+  children:
+  - Prowl.Runtime.NodeSystem.NodePort.IO.Input
+  - Prowl.Runtime.NodeSystem.NodePort.IO.Output
+  langs:
+  - csharp
+  - vb
+  name: NodePort.IO
+  nameWithType: NodePort.IO
+  fullName: Prowl.Runtime.NodeSystem.NodePort.IO
+  type: Enum
+  source:
+    remote:
+      path: Prowl.Runtime/Utils/NodeSystem/NodePort.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: IO
+    path: ../Prowl/Prowl.Runtime/Utils/NodeSystem/NodePort.cs
+    startLine: 12
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.NodeSystem
+  syntax:
+    content: public enum NodePort.IO
+    content.vb: Public Enum NodePort.IO
+  extensionMethods:
+  - System.Object.Prowl.Runtime.RuntimeUtils.GetSerializableFields
+- uid: Prowl.Runtime.NodeSystem.NodePort.IO.Input
+  commentId: F:Prowl.Runtime.NodeSystem.NodePort.IO.Input
+  id: Input
+  parent: Prowl.Runtime.NodeSystem.NodePort.IO
+  langs:
+  - csharp
+  - vb
+  name: Input
+  nameWithType: NodePort.IO.Input
+  fullName: Prowl.Runtime.NodeSystem.NodePort.IO.Input
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/Utils/NodeSystem/NodePort.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Input
+    path: ../Prowl/Prowl.Runtime/Utils/NodeSystem/NodePort.cs
+    startLine: 12
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.NodeSystem
+  syntax:
+    content: Input = 0
+    return:
+      type: Prowl.Runtime.NodeSystem.NodePort.IO
+- uid: Prowl.Runtime.NodeSystem.NodePort.IO.Output
+  commentId: F:Prowl.Runtime.NodeSystem.NodePort.IO.Output
+  id: Output
+  parent: Prowl.Runtime.NodeSystem.NodePort.IO
+  langs:
+  - csharp
+  - vb
+  name: Output
+  nameWithType: NodePort.IO.Output
+  fullName: Prowl.Runtime.NodeSystem.NodePort.IO.Output
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/Utils/NodeSystem/NodePort.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Output
+    path: ../Prowl/Prowl.Runtime/Utils/NodeSystem/NodePort.cs
+    startLine: 12
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.NodeSystem
+  syntax:
+    content: Output = 1
+    return:
+      type: Prowl.Runtime.NodeSystem.NodePort.IO
+references:
+- uid: Prowl.Runtime.NodeSystem
+  commentId: N:Prowl.Runtime.NodeSystem
+  href: Prowl.html
+  name: Prowl.Runtime.NodeSystem
+  nameWithType: Prowl.Runtime.NodeSystem
+  fullName: Prowl.Runtime.NodeSystem
+  spec.csharp:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+  - name: .
+  - uid: Prowl.Runtime.NodeSystem
+    name: NodeSystem
+    href: Prowl.Runtime.NodeSystem.html
+  spec.vb:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+  - name: .
+  - uid: Prowl.Runtime.NodeSystem
+    name: NodeSystem
+    href: Prowl.Runtime.NodeSystem.html
+- uid: System.Object.Prowl.Runtime.RuntimeUtils.GetSerializableFields
+  commentId: M:Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  parent: Prowl.Runtime.RuntimeUtils
+  definition: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  name: GetSerializableFields(object)
+  nameWithType: RuntimeUtils.GetSerializableFields(object)
+  fullName: Prowl.Runtime.RuntimeUtils.GetSerializableFields(object)
+  nameWithType.vb: RuntimeUtils.GetSerializableFields(Object)
+  fullName.vb: Prowl.Runtime.RuntimeUtils.GetSerializableFields(Object)
+  name.vb: GetSerializableFields(Object)
+  spec.csharp:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  commentId: M:Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  isExternal: true
+  href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  name: GetSerializableFields(object)
+  nameWithType: RuntimeUtils.GetSerializableFields(object)
+  fullName: Prowl.Runtime.RuntimeUtils.GetSerializableFields(object)
+  nameWithType.vb: RuntimeUtils.GetSerializableFields(Object)
+  fullName.vb: Prowl.Runtime.RuntimeUtils.GetSerializableFields(Object)
+  name.vb: GetSerializableFields(Object)
+  spec.csharp:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: Prowl.Runtime.RuntimeUtils
+  commentId: T:Prowl.Runtime.RuntimeUtils
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.RuntimeUtils.html
+  name: RuntimeUtils
+  nameWithType: RuntimeUtils
+  fullName: Prowl.Runtime.RuntimeUtils
+- uid: Prowl.Runtime
+  commentId: N:Prowl.Runtime
+  href: Prowl.html
+  name: Prowl.Runtime
+  nameWithType: Prowl.Runtime
+  fullName: Prowl.Runtime
+  spec.csharp:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+  spec.vb:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+- uid: Prowl.Runtime.NodeSystem.NodePort.IO
+  commentId: T:Prowl.Runtime.NodeSystem.NodePort.IO
+  parent: Prowl.Runtime.NodeSystem
+  href: Prowl.Runtime.NodeSystem.NodePort.html
+  name: NodePort.IO
+  nameWithType: NodePort.IO
+  fullName: Prowl.Runtime.NodeSystem.NodePort.IO
+  spec.csharp:
+  - uid: Prowl.Runtime.NodeSystem.NodePort
+    name: NodePort
+    href: Prowl.Runtime.NodeSystem.NodePort.html
+  - name: .
+  - uid: Prowl.Runtime.NodeSystem.NodePort.IO
+    name: IO
+    href: Prowl.Runtime.NodeSystem.NodePort.IO.html
+  spec.vb:
+  - uid: Prowl.Runtime.NodeSystem.NodePort
+    name: NodePort
+    href: Prowl.Runtime.NodeSystem.NodePort.html
+  - name: .
+  - uid: Prowl.Runtime.NodeSystem.NodePort.IO
+    name: IO
+    href: Prowl.Runtime.NodeSystem.NodePort.IO.html

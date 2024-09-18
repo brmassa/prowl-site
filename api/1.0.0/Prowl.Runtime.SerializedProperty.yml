@@ -1,0 +1,3244 @@
+### YamlMime:ManagedReference
+items:
+- uid: Prowl.Runtime.SerializedProperty
+  commentId: T:Prowl.Runtime.SerializedProperty
+  id: SerializedProperty
+  parent: Prowl.Runtime
+  children:
+  - Prowl.Runtime.SerializedProperty.#ctor
+  - Prowl.Runtime.SerializedProperty.#ctor(Prowl.Runtime.PropertyType,System.Object)
+  - Prowl.Runtime.SerializedProperty.#ctor(System.Boolean)
+  - Prowl.Runtime.SerializedProperty.#ctor(System.Byte)
+  - Prowl.Runtime.SerializedProperty.#ctor(System.Byte[])
+  - Prowl.Runtime.SerializedProperty.#ctor(System.Collections.Generic.List{Prowl.Runtime.SerializedProperty})
+  - Prowl.Runtime.SerializedProperty.#ctor(System.Decimal)
+  - Prowl.Runtime.SerializedProperty.#ctor(System.Double)
+  - Prowl.Runtime.SerializedProperty.#ctor(System.Int16)
+  - Prowl.Runtime.SerializedProperty.#ctor(System.Int32)
+  - Prowl.Runtime.SerializedProperty.#ctor(System.Int64)
+  - Prowl.Runtime.SerializedProperty.#ctor(System.SByte)
+  - Prowl.Runtime.SerializedProperty.#ctor(System.Single)
+  - Prowl.Runtime.SerializedProperty.#ctor(System.String)
+  - Prowl.Runtime.SerializedProperty.#ctor(System.UInt16)
+  - Prowl.Runtime.SerializedProperty.#ctor(System.UInt32)
+  - Prowl.Runtime.SerializedProperty.#ctor(System.UInt64)
+  - Prowl.Runtime.SerializedProperty.Add(System.String,Prowl.Runtime.SerializedProperty)
+  - Prowl.Runtime.SerializedProperty.Apply(Prowl.Runtime.SerializedProperty)
+  - Prowl.Runtime.SerializedProperty.BoolValue
+  - Prowl.Runtime.SerializedProperty.ByteArrayValue
+  - Prowl.Runtime.SerializedProperty.ByteValue
+  - Prowl.Runtime.SerializedProperty.Clone
+  - Prowl.Runtime.SerializedProperty.Contains(System.String)
+  - Prowl.Runtime.SerializedProperty.Count
+  - Prowl.Runtime.SerializedProperty.DecimalValue
+  - Prowl.Runtime.SerializedProperty.DifferenceFrom(Prowl.Runtime.SerializedProperty)
+  - Prowl.Runtime.SerializedProperty.DoubleValue
+  - Prowl.Runtime.SerializedProperty.Find(System.String)
+  - Prowl.Runtime.SerializedProperty.FloatValue
+  - Prowl.Runtime.SerializedProperty.Get(System.Int32)
+  - Prowl.Runtime.SerializedProperty.Get(System.String)
+  - Prowl.Runtime.SerializedProperty.GetAllAssetRefs(System.Collections.Generic.HashSet{System.Guid}@)
+  - Prowl.Runtime.SerializedProperty.GetAllTags
+  - Prowl.Runtime.SerializedProperty.GetNames
+  - Prowl.Runtime.SerializedProperty.IntValue
+  - Prowl.Runtime.SerializedProperty.IsPrimitive
+  - Prowl.Runtime.SerializedProperty.Item(System.Int32)
+  - Prowl.Runtime.SerializedProperty.Item(System.String)
+  - Prowl.Runtime.SerializedProperty.List
+  - Prowl.Runtime.SerializedProperty.ListAdd(Prowl.Runtime.SerializedProperty)
+  - Prowl.Runtime.SerializedProperty.ListRemove(Prowl.Runtime.SerializedProperty)
+  - Prowl.Runtime.SerializedProperty.LongValue
+  - Prowl.Runtime.SerializedProperty.Merge(System.Collections.Generic.List{Prowl.Runtime.SerializedProperty})
+  - Prowl.Runtime.SerializedProperty.NewCompound
+  - Prowl.Runtime.SerializedProperty.NewList
+  - Prowl.Runtime.SerializedProperty.Parent
+  - Prowl.Runtime.SerializedProperty.PropertyChanged
+  - Prowl.Runtime.SerializedProperty.Remove(System.String)
+  - Prowl.Runtime.SerializedProperty.Set(System.Object)
+  - Prowl.Runtime.SerializedProperty.ShortValue
+  - Prowl.Runtime.SerializedProperty.StringValue
+  - Prowl.Runtime.SerializedProperty.TagType
+  - Prowl.Runtime.SerializedProperty.Tags
+  - Prowl.Runtime.SerializedProperty.TryFind(System.String,Prowl.Runtime.SerializedProperty@)
+  - Prowl.Runtime.SerializedProperty.TryGet(System.String,Prowl.Runtime.SerializedProperty@)
+  - Prowl.Runtime.SerializedProperty.UIntValue
+  - Prowl.Runtime.SerializedProperty.ULongValue
+  - Prowl.Runtime.SerializedProperty.UShortValue
+  - Prowl.Runtime.SerializedProperty.Value
+  - Prowl.Runtime.SerializedProperty.sByteValue
+  langs:
+  - csharp
+  - vb
+  name: SerializedProperty
+  nameWithType: SerializedProperty
+  fullName: Prowl.Runtime.SerializedProperty
+  type: Class
+  source:
+    remote:
+      path: Prowl.Runtime/Serializer/SerializedProperty.List.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: SerializedProperty
+    path: ../Prowl/Prowl.Runtime/Serializer/SerializedProperty.List.cs
+    startLine: 7
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public sealed class SerializedProperty
+    content.vb: Public NotInheritable Class SerializedProperty
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  extensionMethods:
+  - System.Object.Prowl.Runtime.RuntimeUtils.GetSerializableFields
+- uid: Prowl.Runtime.SerializedProperty.Tags
+  commentId: P:Prowl.Runtime.SerializedProperty.Tags
+  id: Tags
+  parent: Prowl.Runtime.SerializedProperty
+  langs:
+  - csharp
+  - vb
+  name: Tags
+  nameWithType: SerializedProperty.Tags
+  fullName: Prowl.Runtime.SerializedProperty.Tags
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/Serializer/SerializedProperty.Compound.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Tags
+    path: ../Prowl/Prowl.Runtime/Serializer/SerializedProperty.Compound.cs
+    startLine: 11
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public Dictionary<string, SerializedProperty> Tags { get; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.Dictionary{System.String,Prowl.Runtime.SerializedProperty}
+    content.vb: Public ReadOnly Property Tags As Dictionary(Of String, SerializedProperty)
+  overload: Prowl.Runtime.SerializedProperty.Tags*
+- uid: Prowl.Runtime.SerializedProperty.Item(System.String)
+  commentId: P:Prowl.Runtime.SerializedProperty.Item(System.String)
+  id: Item(System.String)
+  parent: Prowl.Runtime.SerializedProperty
+  langs:
+  - csharp
+  - vb
+  name: this[string]
+  nameWithType: SerializedProperty.this[string]
+  fullName: Prowl.Runtime.SerializedProperty.this[string]
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/Serializer/SerializedProperty.Compound.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: this[]
+    path: ../Prowl/Prowl.Runtime/Serializer/SerializedProperty.Compound.cs
+    startLine: 13
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public SerializedProperty this[string tagName] { get; set; }
+    parameters:
+    - id: tagName
+      type: System.String
+    return:
+      type: Prowl.Runtime.SerializedProperty
+    content.vb: Public Default Property this[](tagName As String) As SerializedProperty
+  overload: Prowl.Runtime.SerializedProperty.Item*
+  nameWithType.vb: SerializedProperty.this[](String)
+  fullName.vb: Prowl.Runtime.SerializedProperty.this[](String)
+  name.vb: this[](String)
+- uid: Prowl.Runtime.SerializedProperty.GetNames
+  commentId: M:Prowl.Runtime.SerializedProperty.GetNames
+  id: GetNames
+  parent: Prowl.Runtime.SerializedProperty
+  langs:
+  - csharp
+  - vb
+  name: GetNames()
+  nameWithType: SerializedProperty.GetNames()
+  fullName: Prowl.Runtime.SerializedProperty.GetNames()
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Serializer/SerializedProperty.Compound.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: GetNames
+    path: ../Prowl/Prowl.Runtime/Serializer/SerializedProperty.Compound.cs
+    startLine: 30
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: Gets a collection containing all tag names in this CompoundTag.
+  example: []
+  syntax:
+    content: public IEnumerable<string> GetNames()
+    return:
+      type: System.Collections.Generic.IEnumerable{System.String}
+    content.vb: Public Function GetNames() As IEnumerable(Of String)
+  overload: Prowl.Runtime.SerializedProperty.GetNames*
+- uid: Prowl.Runtime.SerializedProperty.GetAllTags
+  commentId: M:Prowl.Runtime.SerializedProperty.GetAllTags
+  id: GetAllTags
+  parent: Prowl.Runtime.SerializedProperty
+  langs:
+  - csharp
+  - vb
+  name: GetAllTags()
+  nameWithType: SerializedProperty.GetAllTags()
+  fullName: Prowl.Runtime.SerializedProperty.GetAllTags()
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Serializer/SerializedProperty.Compound.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: GetAllTags
+    path: ../Prowl/Prowl.Runtime/Serializer/SerializedProperty.Compound.cs
+    startLine: 33
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: Gets a collection containing all tags in this CompoundTag.
+  example: []
+  syntax:
+    content: public IEnumerable<SerializedProperty> GetAllTags()
+    return:
+      type: System.Collections.Generic.IEnumerable{Prowl.Runtime.SerializedProperty}
+    content.vb: Public Function GetAllTags() As IEnumerable(Of SerializedProperty)
+  overload: Prowl.Runtime.SerializedProperty.GetAllTags*
+- uid: Prowl.Runtime.SerializedProperty.Get(System.String)
+  commentId: M:Prowl.Runtime.SerializedProperty.Get(System.String)
+  id: Get(System.String)
+  parent: Prowl.Runtime.SerializedProperty
+  langs:
+  - csharp
+  - vb
+  name: Get(string)
+  nameWithType: SerializedProperty.Get(string)
+  fullName: Prowl.Runtime.SerializedProperty.Get(string)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Serializer/SerializedProperty.Compound.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Get
+    path: ../Prowl/Prowl.Runtime/Serializer/SerializedProperty.Compound.cs
+    startLine: 35
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public SerializedProperty? Get(string tagName)
+    parameters:
+    - id: tagName
+      type: System.String
+    return:
+      type: Prowl.Runtime.SerializedProperty
+    content.vb: Public Function [Get](tagName As String) As SerializedProperty
+  overload: Prowl.Runtime.SerializedProperty.Get*
+  nameWithType.vb: SerializedProperty.Get(String)
+  fullName.vb: Prowl.Runtime.SerializedProperty.Get(String)
+  name.vb: Get(String)
+- uid: Prowl.Runtime.SerializedProperty.TryGet(System.String,Prowl.Runtime.SerializedProperty@)
+  commentId: M:Prowl.Runtime.SerializedProperty.TryGet(System.String,Prowl.Runtime.SerializedProperty@)
+  id: TryGet(System.String,Prowl.Runtime.SerializedProperty@)
+  parent: Prowl.Runtime.SerializedProperty
+  langs:
+  - csharp
+  - vb
+  name: TryGet(string, out SerializedProperty?)
+  nameWithType: SerializedProperty.TryGet(string, out SerializedProperty?)
+  fullName: Prowl.Runtime.SerializedProperty.TryGet(string, out Prowl.Runtime.SerializedProperty?)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Serializer/SerializedProperty.Compound.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: TryGet
+    path: ../Prowl/Prowl.Runtime/Serializer/SerializedProperty.Compound.cs
+    startLine: 44
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public bool TryGet(string tagName, out SerializedProperty? result)
+    parameters:
+    - id: tagName
+      type: System.String
+    - id: result
+      type: Prowl.Runtime.SerializedProperty
+    return:
+      type: System.Boolean
+    content.vb: Public Function TryGet(tagName As String, result As SerializedProperty) As Boolean
+  overload: Prowl.Runtime.SerializedProperty.TryGet*
+  nameWithType.vb: SerializedProperty.TryGet(String, SerializedProperty)
+  fullName.vb: Prowl.Runtime.SerializedProperty.TryGet(String, Prowl.Runtime.SerializedProperty)
+  name.vb: TryGet(String, SerializedProperty)
+- uid: Prowl.Runtime.SerializedProperty.Contains(System.String)
+  commentId: M:Prowl.Runtime.SerializedProperty.Contains(System.String)
+  id: Contains(System.String)
+  parent: Prowl.Runtime.SerializedProperty
+  langs:
+  - csharp
+  - vb
+  name: Contains(string)
+  nameWithType: SerializedProperty.Contains(string)
+  fullName: Prowl.Runtime.SerializedProperty.Contains(string)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Serializer/SerializedProperty.Compound.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Contains
+    path: ../Prowl/Prowl.Runtime/Serializer/SerializedProperty.Compound.cs
+    startLine: 51
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public bool Contains(string tagName)
+    parameters:
+    - id: tagName
+      type: System.String
+    return:
+      type: System.Boolean
+    content.vb: Public Function Contains(tagName As String) As Boolean
+  overload: Prowl.Runtime.SerializedProperty.Contains*
+  nameWithType.vb: SerializedProperty.Contains(String)
+  fullName.vb: Prowl.Runtime.SerializedProperty.Contains(String)
+  name.vb: Contains(String)
+- uid: Prowl.Runtime.SerializedProperty.Add(System.String,Prowl.Runtime.SerializedProperty)
+  commentId: M:Prowl.Runtime.SerializedProperty.Add(System.String,Prowl.Runtime.SerializedProperty)
+  id: Add(System.String,Prowl.Runtime.SerializedProperty)
+  parent: Prowl.Runtime.SerializedProperty
+  langs:
+  - csharp
+  - vb
+  name: Add(string, SerializedProperty)
+  nameWithType: SerializedProperty.Add(string, SerializedProperty)
+  fullName: Prowl.Runtime.SerializedProperty.Add(string, Prowl.Runtime.SerializedProperty)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Serializer/SerializedProperty.Compound.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Add
+    path: ../Prowl/Prowl.Runtime/Serializer/SerializedProperty.Compound.cs
+    startLine: 58
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public void Add(string name, SerializedProperty newTag)
+    parameters:
+    - id: name
+      type: System.String
+    - id: newTag
+      type: Prowl.Runtime.SerializedProperty
+    content.vb: Public Sub Add(name As String, newTag As SerializedProperty)
+  overload: Prowl.Runtime.SerializedProperty.Add*
+  nameWithType.vb: SerializedProperty.Add(String, SerializedProperty)
+  fullName.vb: Prowl.Runtime.SerializedProperty.Add(String, Prowl.Runtime.SerializedProperty)
+  name.vb: Add(String, SerializedProperty)
+- uid: Prowl.Runtime.SerializedProperty.Remove(System.String)
+  commentId: M:Prowl.Runtime.SerializedProperty.Remove(System.String)
+  id: Remove(System.String)
+  parent: Prowl.Runtime.SerializedProperty
+  langs:
+  - csharp
+  - vb
+  name: Remove(string)
+  nameWithType: SerializedProperty.Remove(string)
+  fullName: Prowl.Runtime.SerializedProperty.Remove(string)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Serializer/SerializedProperty.Compound.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Remove
+    path: ../Prowl/Prowl.Runtime/Serializer/SerializedProperty.Compound.cs
+    startLine: 70
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public bool Remove(string name)
+    parameters:
+    - id: name
+      type: System.String
+    return:
+      type: System.Boolean
+    content.vb: Public Function Remove(name As String) As Boolean
+  overload: Prowl.Runtime.SerializedProperty.Remove*
+  nameWithType.vb: SerializedProperty.Remove(String)
+  fullName.vb: Prowl.Runtime.SerializedProperty.Remove(String)
+  name.vb: Remove(String)
+- uid: Prowl.Runtime.SerializedProperty.TryFind(System.String,Prowl.Runtime.SerializedProperty@)
+  commentId: M:Prowl.Runtime.SerializedProperty.TryFind(System.String,Prowl.Runtime.SerializedProperty@)
+  id: TryFind(System.String,Prowl.Runtime.SerializedProperty@)
+  parent: Prowl.Runtime.SerializedProperty
+  langs:
+  - csharp
+  - vb
+  name: TryFind(string, out SerializedProperty?)
+  nameWithType: SerializedProperty.TryFind(string, out SerializedProperty?)
+  fullName: Prowl.Runtime.SerializedProperty.TryFind(string, out Prowl.Runtime.SerializedProperty?)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Serializer/SerializedProperty.Compound.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: TryFind
+    path: ../Prowl/Prowl.Runtime/Serializer/SerializedProperty.Compound.cs
+    startLine: 79
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public bool TryFind(string path, out SerializedProperty? tag)
+    parameters:
+    - id: path
+      type: System.String
+    - id: tag
+      type: Prowl.Runtime.SerializedProperty
+    return:
+      type: System.Boolean
+    content.vb: Public Function TryFind(path As String, tag As SerializedProperty) As Boolean
+  overload: Prowl.Runtime.SerializedProperty.TryFind*
+  nameWithType.vb: SerializedProperty.TryFind(String, SerializedProperty)
+  fullName.vb: Prowl.Runtime.SerializedProperty.TryFind(String, Prowl.Runtime.SerializedProperty)
+  name.vb: TryFind(String, SerializedProperty)
+- uid: Prowl.Runtime.SerializedProperty.Find(System.String)
+  commentId: M:Prowl.Runtime.SerializedProperty.Find(System.String)
+  id: Find(System.String)
+  parent: Prowl.Runtime.SerializedProperty
+  langs:
+  - csharp
+  - vb
+  name: Find(string)
+  nameWithType: SerializedProperty.Find(string)
+  fullName: Prowl.Runtime.SerializedProperty.Find(string)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Serializer/SerializedProperty.Compound.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Find
+    path: ../Prowl/Prowl.Runtime/Serializer/SerializedProperty.Compound.cs
+    startLine: 85
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public SerializedProperty? Find(string path)
+    parameters:
+    - id: path
+      type: System.String
+    return:
+      type: Prowl.Runtime.SerializedProperty
+    content.vb: Public Function Find(path As String) As SerializedProperty
+  overload: Prowl.Runtime.SerializedProperty.Find*
+  nameWithType.vb: SerializedProperty.Find(String)
+  fullName.vb: Prowl.Runtime.SerializedProperty.Find(String)
+  name.vb: Find(String)
+- uid: Prowl.Runtime.SerializedProperty.Merge(System.Collections.Generic.List{Prowl.Runtime.SerializedProperty})
+  commentId: M:Prowl.Runtime.SerializedProperty.Merge(System.Collections.Generic.List{Prowl.Runtime.SerializedProperty})
+  id: Merge(System.Collections.Generic.List{Prowl.Runtime.SerializedProperty})
+  parent: Prowl.Runtime.SerializedProperty
+  langs:
+  - csharp
+  - vb
+  name: Merge(List<SerializedProperty>)
+  nameWithType: SerializedProperty.Merge(List<SerializedProperty>)
+  fullName: Prowl.Runtime.SerializedProperty.Merge(System.Collections.Generic.List<Prowl.Runtime.SerializedProperty>)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Serializer/SerializedProperty.Compound.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Merge
+    path: ../Prowl/Prowl.Runtime/Serializer/SerializedProperty.Compound.cs
+    startLine: 113
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: >-
+    Returns a new compound with all the tags/paths combined
+
+    If a tag is found with identical Path/Name, and values are the same its kept, otherwise its discarded
+
+    NOTE: Completely Untested
+  example: []
+  syntax:
+    content: public static SerializedProperty Merge(List<SerializedProperty> allTags)
+    parameters:
+    - id: allTags
+      type: System.Collections.Generic.List{Prowl.Runtime.SerializedProperty}
+    return:
+      type: Prowl.Runtime.SerializedProperty
+    content.vb: Public Shared Function Merge(allTags As List(Of SerializedProperty)) As SerializedProperty
+  overload: Prowl.Runtime.SerializedProperty.Merge*
+  nameWithType.vb: SerializedProperty.Merge(List(Of SerializedProperty))
+  fullName.vb: Prowl.Runtime.SerializedProperty.Merge(System.Collections.Generic.List(Of Prowl.Runtime.SerializedProperty))
+  name.vb: Merge(List(Of SerializedProperty))
+- uid: Prowl.Runtime.SerializedProperty.Apply(Prowl.Runtime.SerializedProperty)
+  commentId: M:Prowl.Runtime.SerializedProperty.Apply(Prowl.Runtime.SerializedProperty)
+  id: Apply(Prowl.Runtime.SerializedProperty)
+  parent: Prowl.Runtime.SerializedProperty
+  langs:
+  - csharp
+  - vb
+  name: Apply(SerializedProperty)
+  nameWithType: SerializedProperty.Apply(SerializedProperty)
+  fullName: Prowl.Runtime.SerializedProperty.Apply(Prowl.Runtime.SerializedProperty)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Serializer/SerializedProperty.Compound.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Apply
+    path: ../Prowl/Prowl.Runtime/Serializer/SerializedProperty.Compound.cs
+    startLine: 168
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: >-
+    Apply the given CompoundTag to this CompoundTag
+
+    All tags inside the given CompoundTag will be added to this CompoundTag or replaced if they already exist
+
+    All instances of this CompoundTag will remain the same just their values will be updated
+
+    NOTE: Completely Untested
+  example: []
+  syntax:
+    content: public void Apply(SerializedProperty toApply)
+    parameters:
+    - id: toApply
+      type: Prowl.Runtime.SerializedProperty
+    content.vb: Public Sub Apply(toApply As SerializedProperty)
+  overload: Prowl.Runtime.SerializedProperty.Apply*
+- uid: Prowl.Runtime.SerializedProperty.DifferenceFrom(Prowl.Runtime.SerializedProperty)
+  commentId: M:Prowl.Runtime.SerializedProperty.DifferenceFrom(Prowl.Runtime.SerializedProperty)
+  id: DifferenceFrom(Prowl.Runtime.SerializedProperty)
+  parent: Prowl.Runtime.SerializedProperty
+  langs:
+  - csharp
+  - vb
+  name: DifferenceFrom(SerializedProperty)
+  nameWithType: SerializedProperty.DifferenceFrom(SerializedProperty)
+  fullName: Prowl.Runtime.SerializedProperty.DifferenceFrom(Prowl.Runtime.SerializedProperty)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Serializer/SerializedProperty.Compound.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: DifferenceFrom
+    path: ../Prowl/Prowl.Runtime/Serializer/SerializedProperty.Compound.cs
+    startLine: 209
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: >-
+    Returns a new CompoundTag that contains all the tags from us who vary from the given CompoundTag
+
+    For example if we have an additional tag that the given CompoundTag does not have, it will be included in the result
+
+    Or if we have a tag with a different value, it will be included in the result
+
+    This will occur recursively for CompoundTags
+
+    NOTE: Completely Untested
+  example: []
+  syntax:
+    content: public SerializedProperty DifferenceFrom(SerializedProperty from)
+    parameters:
+    - id: from
+      type: Prowl.Runtime.SerializedProperty
+      description: The Given CompoundTag To Compare Against
+    return:
+      type: Prowl.Runtime.SerializedProperty
+    content.vb: Public Function DifferenceFrom(from As SerializedProperty) As SerializedProperty
+  overload: Prowl.Runtime.SerializedProperty.DifferenceFrom*
+- uid: Prowl.Runtime.SerializedProperty.PropertyChanged
+  commentId: E:Prowl.Runtime.SerializedProperty.PropertyChanged
+  id: PropertyChanged
+  parent: Prowl.Runtime.SerializedProperty
+  langs:
+  - csharp
+  - vb
+  name: PropertyChanged
+  nameWithType: SerializedProperty.PropertyChanged
+  fullName: Prowl.Runtime.SerializedProperty.PropertyChanged
+  type: Event
+  source:
+    remote:
+      path: Prowl.Runtime/Serializer/SerializedProperty.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: PropertyChanged
+    path: ../Prowl/Prowl.Runtime/Serializer/SerializedProperty.cs
+    startLine: 39
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public event EventHandler<PropertyChangeEventArgs>? PropertyChanged
+    return:
+      type: System.EventHandler{Prowl.Runtime.PropertyChangeEventArgs}
+    content.vb: Public Event PropertyChanged As EventHandler(Of PropertyChangeEventArgs)
+- uid: Prowl.Runtime.SerializedProperty.Value
+  commentId: P:Prowl.Runtime.SerializedProperty.Value
+  id: Value
+  parent: Prowl.Runtime.SerializedProperty
+  langs:
+  - csharp
+  - vb
+  name: Value
+  nameWithType: SerializedProperty.Value
+  fullName: Prowl.Runtime.SerializedProperty.Value
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/Serializer/SerializedProperty.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Value
+    path: ../Prowl/Prowl.Runtime/Serializer/SerializedProperty.cs
+    startLine: 42
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public object? Value { get; }
+    parameters: []
+    return:
+      type: System.Object
+    content.vb: Public Property Value As Object
+  overload: Prowl.Runtime.SerializedProperty.Value*
+- uid: Prowl.Runtime.SerializedProperty.TagType
+  commentId: P:Prowl.Runtime.SerializedProperty.TagType
+  id: TagType
+  parent: Prowl.Runtime.SerializedProperty
+  langs:
+  - csharp
+  - vb
+  name: TagType
+  nameWithType: SerializedProperty.TagType
+  fullName: Prowl.Runtime.SerializedProperty.TagType
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/Serializer/SerializedProperty.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: TagType
+    path: ../Prowl/Prowl.Runtime/Serializer/SerializedProperty.cs
+    startLine: 44
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public PropertyType TagType { get; }
+    parameters: []
+    return:
+      type: Prowl.Runtime.PropertyType
+    content.vb: Public Property TagType As PropertyType
+  overload: Prowl.Runtime.SerializedProperty.TagType*
+- uid: Prowl.Runtime.SerializedProperty.Parent
+  commentId: P:Prowl.Runtime.SerializedProperty.Parent
+  id: Parent
+  parent: Prowl.Runtime.SerializedProperty
+  langs:
+  - csharp
+  - vb
+  name: Parent
+  nameWithType: SerializedProperty.Parent
+  fullName: Prowl.Runtime.SerializedProperty.Parent
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/Serializer/SerializedProperty.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Parent
+    path: ../Prowl/Prowl.Runtime/Serializer/SerializedProperty.cs
+    startLine: 46
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public SerializedProperty? Parent { get; }
+    parameters: []
+    return:
+      type: Prowl.Runtime.SerializedProperty
+    content.vb: Public Property Parent As SerializedProperty
+  overload: Prowl.Runtime.SerializedProperty.Parent*
+- uid: Prowl.Runtime.SerializedProperty.#ctor
+  commentId: M:Prowl.Runtime.SerializedProperty.#ctor
+  id: '#ctor'
+  parent: Prowl.Runtime.SerializedProperty
+  langs:
+  - csharp
+  - vb
+  name: SerializedProperty()
+  nameWithType: SerializedProperty.SerializedProperty()
+  fullName: Prowl.Runtime.SerializedProperty.SerializedProperty()
+  type: Constructor
+  source:
+    remote:
+      path: Prowl.Runtime/Serializer/SerializedProperty.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: .ctor
+    path: ../Prowl/Prowl.Runtime/Serializer/SerializedProperty.cs
+    startLine: 48
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public SerializedProperty()
+    content.vb: Public Sub New()
+  overload: Prowl.Runtime.SerializedProperty.#ctor*
+  nameWithType.vb: SerializedProperty.New()
+  fullName.vb: Prowl.Runtime.SerializedProperty.New()
+  name.vb: New()
+- uid: Prowl.Runtime.SerializedProperty.#ctor(System.Byte)
+  commentId: M:Prowl.Runtime.SerializedProperty.#ctor(System.Byte)
+  id: '#ctor(System.Byte)'
+  parent: Prowl.Runtime.SerializedProperty
+  langs:
+  - csharp
+  - vb
+  name: SerializedProperty(byte)
+  nameWithType: SerializedProperty.SerializedProperty(byte)
+  fullName: Prowl.Runtime.SerializedProperty.SerializedProperty(byte)
+  type: Constructor
+  source:
+    remote:
+      path: Prowl.Runtime/Serializer/SerializedProperty.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: .ctor
+    path: ../Prowl/Prowl.Runtime/Serializer/SerializedProperty.cs
+    startLine: 49
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public SerializedProperty(byte i)
+    parameters:
+    - id: i
+      type: System.Byte
+    content.vb: Public Sub New(i As Byte)
+  overload: Prowl.Runtime.SerializedProperty.#ctor*
+  nameWithType.vb: SerializedProperty.New(Byte)
+  fullName.vb: Prowl.Runtime.SerializedProperty.New(Byte)
+  name.vb: New(Byte)
+- uid: Prowl.Runtime.SerializedProperty.#ctor(System.SByte)
+  commentId: M:Prowl.Runtime.SerializedProperty.#ctor(System.SByte)
+  id: '#ctor(System.SByte)'
+  parent: Prowl.Runtime.SerializedProperty
+  langs:
+  - csharp
+  - vb
+  name: SerializedProperty(sbyte)
+  nameWithType: SerializedProperty.SerializedProperty(sbyte)
+  fullName: Prowl.Runtime.SerializedProperty.SerializedProperty(sbyte)
+  type: Constructor
+  source:
+    remote:
+      path: Prowl.Runtime/Serializer/SerializedProperty.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: .ctor
+    path: ../Prowl/Prowl.Runtime/Serializer/SerializedProperty.cs
+    startLine: 50
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public SerializedProperty(sbyte i)
+    parameters:
+    - id: i
+      type: System.SByte
+    content.vb: Public Sub New(i As SByte)
+  overload: Prowl.Runtime.SerializedProperty.#ctor*
+  nameWithType.vb: SerializedProperty.New(SByte)
+  fullName.vb: Prowl.Runtime.SerializedProperty.New(SByte)
+  name.vb: New(SByte)
+- uid: Prowl.Runtime.SerializedProperty.#ctor(System.Int16)
+  commentId: M:Prowl.Runtime.SerializedProperty.#ctor(System.Int16)
+  id: '#ctor(System.Int16)'
+  parent: Prowl.Runtime.SerializedProperty
+  langs:
+  - csharp
+  - vb
+  name: SerializedProperty(short)
+  nameWithType: SerializedProperty.SerializedProperty(short)
+  fullName: Prowl.Runtime.SerializedProperty.SerializedProperty(short)
+  type: Constructor
+  source:
+    remote:
+      path: Prowl.Runtime/Serializer/SerializedProperty.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: .ctor
+    path: ../Prowl/Prowl.Runtime/Serializer/SerializedProperty.cs
+    startLine: 51
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public SerializedProperty(short i)
+    parameters:
+    - id: i
+      type: System.Int16
+    content.vb: Public Sub New(i As Short)
+  overload: Prowl.Runtime.SerializedProperty.#ctor*
+  nameWithType.vb: SerializedProperty.New(Short)
+  fullName.vb: Prowl.Runtime.SerializedProperty.New(Short)
+  name.vb: New(Short)
+- uid: Prowl.Runtime.SerializedProperty.#ctor(System.Int32)
+  commentId: M:Prowl.Runtime.SerializedProperty.#ctor(System.Int32)
+  id: '#ctor(System.Int32)'
+  parent: Prowl.Runtime.SerializedProperty
+  langs:
+  - csharp
+  - vb
+  name: SerializedProperty(int)
+  nameWithType: SerializedProperty.SerializedProperty(int)
+  fullName: Prowl.Runtime.SerializedProperty.SerializedProperty(int)
+  type: Constructor
+  source:
+    remote:
+      path: Prowl.Runtime/Serializer/SerializedProperty.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: .ctor
+    path: ../Prowl/Prowl.Runtime/Serializer/SerializedProperty.cs
+    startLine: 52
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public SerializedProperty(int i)
+    parameters:
+    - id: i
+      type: System.Int32
+    content.vb: Public Sub New(i As Integer)
+  overload: Prowl.Runtime.SerializedProperty.#ctor*
+  nameWithType.vb: SerializedProperty.New(Integer)
+  fullName.vb: Prowl.Runtime.SerializedProperty.New(Integer)
+  name.vb: New(Integer)
+- uid: Prowl.Runtime.SerializedProperty.#ctor(System.Int64)
+  commentId: M:Prowl.Runtime.SerializedProperty.#ctor(System.Int64)
+  id: '#ctor(System.Int64)'
+  parent: Prowl.Runtime.SerializedProperty
+  langs:
+  - csharp
+  - vb
+  name: SerializedProperty(long)
+  nameWithType: SerializedProperty.SerializedProperty(long)
+  fullName: Prowl.Runtime.SerializedProperty.SerializedProperty(long)
+  type: Constructor
+  source:
+    remote:
+      path: Prowl.Runtime/Serializer/SerializedProperty.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: .ctor
+    path: ../Prowl/Prowl.Runtime/Serializer/SerializedProperty.cs
+    startLine: 53
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public SerializedProperty(long i)
+    parameters:
+    - id: i
+      type: System.Int64
+    content.vb: Public Sub New(i As Long)
+  overload: Prowl.Runtime.SerializedProperty.#ctor*
+  nameWithType.vb: SerializedProperty.New(Long)
+  fullName.vb: Prowl.Runtime.SerializedProperty.New(Long)
+  name.vb: New(Long)
+- uid: Prowl.Runtime.SerializedProperty.#ctor(System.UInt16)
+  commentId: M:Prowl.Runtime.SerializedProperty.#ctor(System.UInt16)
+  id: '#ctor(System.UInt16)'
+  parent: Prowl.Runtime.SerializedProperty
+  langs:
+  - csharp
+  - vb
+  name: SerializedProperty(ushort)
+  nameWithType: SerializedProperty.SerializedProperty(ushort)
+  fullName: Prowl.Runtime.SerializedProperty.SerializedProperty(ushort)
+  type: Constructor
+  source:
+    remote:
+      path: Prowl.Runtime/Serializer/SerializedProperty.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: .ctor
+    path: ../Prowl/Prowl.Runtime/Serializer/SerializedProperty.cs
+    startLine: 54
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public SerializedProperty(ushort i)
+    parameters:
+    - id: i
+      type: System.UInt16
+    content.vb: Public Sub New(i As UShort)
+  overload: Prowl.Runtime.SerializedProperty.#ctor*
+  nameWithType.vb: SerializedProperty.New(UShort)
+  fullName.vb: Prowl.Runtime.SerializedProperty.New(UShort)
+  name.vb: New(UShort)
+- uid: Prowl.Runtime.SerializedProperty.#ctor(System.UInt32)
+  commentId: M:Prowl.Runtime.SerializedProperty.#ctor(System.UInt32)
+  id: '#ctor(System.UInt32)'
+  parent: Prowl.Runtime.SerializedProperty
+  langs:
+  - csharp
+  - vb
+  name: SerializedProperty(uint)
+  nameWithType: SerializedProperty.SerializedProperty(uint)
+  fullName: Prowl.Runtime.SerializedProperty.SerializedProperty(uint)
+  type: Constructor
+  source:
+    remote:
+      path: Prowl.Runtime/Serializer/SerializedProperty.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: .ctor
+    path: ../Prowl/Prowl.Runtime/Serializer/SerializedProperty.cs
+    startLine: 55
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public SerializedProperty(uint i)
+    parameters:
+    - id: i
+      type: System.UInt32
+    content.vb: Public Sub New(i As UInteger)
+  overload: Prowl.Runtime.SerializedProperty.#ctor*
+  nameWithType.vb: SerializedProperty.New(UInteger)
+  fullName.vb: Prowl.Runtime.SerializedProperty.New(UInteger)
+  name.vb: New(UInteger)
+- uid: Prowl.Runtime.SerializedProperty.#ctor(System.UInt64)
+  commentId: M:Prowl.Runtime.SerializedProperty.#ctor(System.UInt64)
+  id: '#ctor(System.UInt64)'
+  parent: Prowl.Runtime.SerializedProperty
+  langs:
+  - csharp
+  - vb
+  name: SerializedProperty(ulong)
+  nameWithType: SerializedProperty.SerializedProperty(ulong)
+  fullName: Prowl.Runtime.SerializedProperty.SerializedProperty(ulong)
+  type: Constructor
+  source:
+    remote:
+      path: Prowl.Runtime/Serializer/SerializedProperty.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: .ctor
+    path: ../Prowl/Prowl.Runtime/Serializer/SerializedProperty.cs
+    startLine: 56
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public SerializedProperty(ulong i)
+    parameters:
+    - id: i
+      type: System.UInt64
+    content.vb: Public Sub New(i As ULong)
+  overload: Prowl.Runtime.SerializedProperty.#ctor*
+  nameWithType.vb: SerializedProperty.New(ULong)
+  fullName.vb: Prowl.Runtime.SerializedProperty.New(ULong)
+  name.vb: New(ULong)
+- uid: Prowl.Runtime.SerializedProperty.#ctor(System.Single)
+  commentId: M:Prowl.Runtime.SerializedProperty.#ctor(System.Single)
+  id: '#ctor(System.Single)'
+  parent: Prowl.Runtime.SerializedProperty
+  langs:
+  - csharp
+  - vb
+  name: SerializedProperty(float)
+  nameWithType: SerializedProperty.SerializedProperty(float)
+  fullName: Prowl.Runtime.SerializedProperty.SerializedProperty(float)
+  type: Constructor
+  source:
+    remote:
+      path: Prowl.Runtime/Serializer/SerializedProperty.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: .ctor
+    path: ../Prowl/Prowl.Runtime/Serializer/SerializedProperty.cs
+    startLine: 57
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public SerializedProperty(float i)
+    parameters:
+    - id: i
+      type: System.Single
+    content.vb: Public Sub New(i As Single)
+  overload: Prowl.Runtime.SerializedProperty.#ctor*
+  nameWithType.vb: SerializedProperty.New(Single)
+  fullName.vb: Prowl.Runtime.SerializedProperty.New(Single)
+  name.vb: New(Single)
+- uid: Prowl.Runtime.SerializedProperty.#ctor(System.Double)
+  commentId: M:Prowl.Runtime.SerializedProperty.#ctor(System.Double)
+  id: '#ctor(System.Double)'
+  parent: Prowl.Runtime.SerializedProperty
+  langs:
+  - csharp
+  - vb
+  name: SerializedProperty(double)
+  nameWithType: SerializedProperty.SerializedProperty(double)
+  fullName: Prowl.Runtime.SerializedProperty.SerializedProperty(double)
+  type: Constructor
+  source:
+    remote:
+      path: Prowl.Runtime/Serializer/SerializedProperty.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: .ctor
+    path: ../Prowl/Prowl.Runtime/Serializer/SerializedProperty.cs
+    startLine: 58
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public SerializedProperty(double i)
+    parameters:
+    - id: i
+      type: System.Double
+    content.vb: Public Sub New(i As Double)
+  overload: Prowl.Runtime.SerializedProperty.#ctor*
+  nameWithType.vb: SerializedProperty.New(Double)
+  fullName.vb: Prowl.Runtime.SerializedProperty.New(Double)
+  name.vb: New(Double)
+- uid: Prowl.Runtime.SerializedProperty.#ctor(System.Decimal)
+  commentId: M:Prowl.Runtime.SerializedProperty.#ctor(System.Decimal)
+  id: '#ctor(System.Decimal)'
+  parent: Prowl.Runtime.SerializedProperty
+  langs:
+  - csharp
+  - vb
+  name: SerializedProperty(decimal)
+  nameWithType: SerializedProperty.SerializedProperty(decimal)
+  fullName: Prowl.Runtime.SerializedProperty.SerializedProperty(decimal)
+  type: Constructor
+  source:
+    remote:
+      path: Prowl.Runtime/Serializer/SerializedProperty.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: .ctor
+    path: ../Prowl/Prowl.Runtime/Serializer/SerializedProperty.cs
+    startLine: 59
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public SerializedProperty(decimal i)
+    parameters:
+    - id: i
+      type: System.Decimal
+    content.vb: Public Sub New(i As Decimal)
+  overload: Prowl.Runtime.SerializedProperty.#ctor*
+  nameWithType.vb: SerializedProperty.New(Decimal)
+  fullName.vb: Prowl.Runtime.SerializedProperty.New(Decimal)
+  name.vb: New(Decimal)
+- uid: Prowl.Runtime.SerializedProperty.#ctor(System.String)
+  commentId: M:Prowl.Runtime.SerializedProperty.#ctor(System.String)
+  id: '#ctor(System.String)'
+  parent: Prowl.Runtime.SerializedProperty
+  langs:
+  - csharp
+  - vb
+  name: SerializedProperty(string)
+  nameWithType: SerializedProperty.SerializedProperty(string)
+  fullName: Prowl.Runtime.SerializedProperty.SerializedProperty(string)
+  type: Constructor
+  source:
+    remote:
+      path: Prowl.Runtime/Serializer/SerializedProperty.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: .ctor
+    path: ../Prowl/Prowl.Runtime/Serializer/SerializedProperty.cs
+    startLine: 60
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public SerializedProperty(string i)
+    parameters:
+    - id: i
+      type: System.String
+    content.vb: Public Sub New(i As String)
+  overload: Prowl.Runtime.SerializedProperty.#ctor*
+  nameWithType.vb: SerializedProperty.New(String)
+  fullName.vb: Prowl.Runtime.SerializedProperty.New(String)
+  name.vb: New(String)
+- uid: Prowl.Runtime.SerializedProperty.#ctor(System.Byte[])
+  commentId: M:Prowl.Runtime.SerializedProperty.#ctor(System.Byte[])
+  id: '#ctor(System.Byte[])'
+  parent: Prowl.Runtime.SerializedProperty
+  langs:
+  - csharp
+  - vb
+  name: SerializedProperty(byte[])
+  nameWithType: SerializedProperty.SerializedProperty(byte[])
+  fullName: Prowl.Runtime.SerializedProperty.SerializedProperty(byte[])
+  type: Constructor
+  source:
+    remote:
+      path: Prowl.Runtime/Serializer/SerializedProperty.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: .ctor
+    path: ../Prowl/Prowl.Runtime/Serializer/SerializedProperty.cs
+    startLine: 61
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public SerializedProperty(byte[] i)
+    parameters:
+    - id: i
+      type: System.Byte[]
+    content.vb: Public Sub New(i As Byte())
+  overload: Prowl.Runtime.SerializedProperty.#ctor*
+  nameWithType.vb: SerializedProperty.New(Byte())
+  fullName.vb: Prowl.Runtime.SerializedProperty.New(Byte())
+  name.vb: New(Byte())
+- uid: Prowl.Runtime.SerializedProperty.#ctor(System.Boolean)
+  commentId: M:Prowl.Runtime.SerializedProperty.#ctor(System.Boolean)
+  id: '#ctor(System.Boolean)'
+  parent: Prowl.Runtime.SerializedProperty
+  langs:
+  - csharp
+  - vb
+  name: SerializedProperty(bool)
+  nameWithType: SerializedProperty.SerializedProperty(bool)
+  fullName: Prowl.Runtime.SerializedProperty.SerializedProperty(bool)
+  type: Constructor
+  source:
+    remote:
+      path: Prowl.Runtime/Serializer/SerializedProperty.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: .ctor
+    path: ../Prowl/Prowl.Runtime/Serializer/SerializedProperty.cs
+    startLine: 62
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public SerializedProperty(bool i)
+    parameters:
+    - id: i
+      type: System.Boolean
+    content.vb: Public Sub New(i As Boolean)
+  overload: Prowl.Runtime.SerializedProperty.#ctor*
+  nameWithType.vb: SerializedProperty.New(Boolean)
+  fullName.vb: Prowl.Runtime.SerializedProperty.New(Boolean)
+  name.vb: New(Boolean)
+- uid: Prowl.Runtime.SerializedProperty.#ctor(Prowl.Runtime.PropertyType,System.Object)
+  commentId: M:Prowl.Runtime.SerializedProperty.#ctor(Prowl.Runtime.PropertyType,System.Object)
+  id: '#ctor(Prowl.Runtime.PropertyType,System.Object)'
+  parent: Prowl.Runtime.SerializedProperty
+  langs:
+  - csharp
+  - vb
+  name: SerializedProperty(PropertyType, object?)
+  nameWithType: SerializedProperty.SerializedProperty(PropertyType, object?)
+  fullName: Prowl.Runtime.SerializedProperty.SerializedProperty(Prowl.Runtime.PropertyType, object?)
+  type: Constructor
+  source:
+    remote:
+      path: Prowl.Runtime/Serializer/SerializedProperty.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: .ctor
+    path: ../Prowl/Prowl.Runtime/Serializer/SerializedProperty.cs
+    startLine: 63
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public SerializedProperty(PropertyType type, object? value)
+    parameters:
+    - id: type
+      type: Prowl.Runtime.PropertyType
+    - id: value
+      type: System.Object
+    content.vb: Public Sub New(type As PropertyType, value As Object)
+  overload: Prowl.Runtime.SerializedProperty.#ctor*
+  nameWithType.vb: SerializedProperty.New(PropertyType, Object)
+  fullName.vb: Prowl.Runtime.SerializedProperty.New(Prowl.Runtime.PropertyType, Object)
+  name.vb: New(PropertyType, Object)
+- uid: Prowl.Runtime.SerializedProperty.#ctor(System.Collections.Generic.List{Prowl.Runtime.SerializedProperty})
+  commentId: M:Prowl.Runtime.SerializedProperty.#ctor(System.Collections.Generic.List{Prowl.Runtime.SerializedProperty})
+  id: '#ctor(System.Collections.Generic.List{Prowl.Runtime.SerializedProperty})'
+  parent: Prowl.Runtime.SerializedProperty
+  langs:
+  - csharp
+  - vb
+  name: SerializedProperty(List<SerializedProperty>)
+  nameWithType: SerializedProperty.SerializedProperty(List<SerializedProperty>)
+  fullName: Prowl.Runtime.SerializedProperty.SerializedProperty(System.Collections.Generic.List<Prowl.Runtime.SerializedProperty>)
+  type: Constructor
+  source:
+    remote:
+      path: Prowl.Runtime/Serializer/SerializedProperty.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: .ctor
+    path: ../Prowl/Prowl.Runtime/Serializer/SerializedProperty.cs
+    startLine: 73
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public SerializedProperty(List<SerializedProperty> tags)
+    parameters:
+    - id: tags
+      type: System.Collections.Generic.List{Prowl.Runtime.SerializedProperty}
+    content.vb: Public Sub New(tags As List(Of SerializedProperty))
+  overload: Prowl.Runtime.SerializedProperty.#ctor*
+  nameWithType.vb: SerializedProperty.New(List(Of SerializedProperty))
+  fullName.vb: Prowl.Runtime.SerializedProperty.New(System.Collections.Generic.List(Of Prowl.Runtime.SerializedProperty))
+  name.vb: New(List(Of SerializedProperty))
+- uid: Prowl.Runtime.SerializedProperty.NewCompound
+  commentId: M:Prowl.Runtime.SerializedProperty.NewCompound
+  id: NewCompound
+  parent: Prowl.Runtime.SerializedProperty
+  langs:
+  - csharp
+  - vb
+  name: NewCompound()
+  nameWithType: SerializedProperty.NewCompound()
+  fullName: Prowl.Runtime.SerializedProperty.NewCompound()
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Serializer/SerializedProperty.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: NewCompound
+    path: ../Prowl/Prowl.Runtime/Serializer/SerializedProperty.cs
+    startLine: 79
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public static SerializedProperty NewCompound()
+    return:
+      type: Prowl.Runtime.SerializedProperty
+    content.vb: Public Shared Function NewCompound() As SerializedProperty
+  overload: Prowl.Runtime.SerializedProperty.NewCompound*
+- uid: Prowl.Runtime.SerializedProperty.NewList
+  commentId: M:Prowl.Runtime.SerializedProperty.NewList
+  id: NewList
+  parent: Prowl.Runtime.SerializedProperty
+  langs:
+  - csharp
+  - vb
+  name: NewList()
+  nameWithType: SerializedProperty.NewList()
+  fullName: Prowl.Runtime.SerializedProperty.NewList()
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Serializer/SerializedProperty.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: NewList
+    path: ../Prowl/Prowl.Runtime/Serializer/SerializedProperty.cs
+    startLine: 80
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public static SerializedProperty NewList()
+    return:
+      type: Prowl.Runtime.SerializedProperty
+    content.vb: Public Shared Function NewList() As SerializedProperty
+  overload: Prowl.Runtime.SerializedProperty.NewList*
+- uid: Prowl.Runtime.SerializedProperty.GetAllAssetRefs(System.Collections.Generic.HashSet{System.Guid}@)
+  commentId: M:Prowl.Runtime.SerializedProperty.GetAllAssetRefs(System.Collections.Generic.HashSet{System.Guid}@)
+  id: GetAllAssetRefs(System.Collections.Generic.HashSet{System.Guid}@)
+  parent: Prowl.Runtime.SerializedProperty
+  langs:
+  - csharp
+  - vb
+  name: GetAllAssetRefs(ref HashSet<Guid>)
+  nameWithType: SerializedProperty.GetAllAssetRefs(ref HashSet<Guid>)
+  fullName: Prowl.Runtime.SerializedProperty.GetAllAssetRefs(ref System.Collections.Generic.HashSet<System.Guid>)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Serializer/SerializedProperty.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: GetAllAssetRefs
+    path: ../Prowl/Prowl.Runtime/Serializer/SerializedProperty.cs
+    startLine: 82
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public void GetAllAssetRefs(ref HashSet<Guid> refs)
+    parameters:
+    - id: refs
+      type: System.Collections.Generic.HashSet{System.Guid}
+    content.vb: Public Sub GetAllAssetRefs(refs As HashSet(Of Guid))
+  overload: Prowl.Runtime.SerializedProperty.GetAllAssetRefs*
+  nameWithType.vb: SerializedProperty.GetAllAssetRefs(HashSet(Of Guid))
+  fullName.vb: Prowl.Runtime.SerializedProperty.GetAllAssetRefs(System.Collections.Generic.HashSet(Of System.Guid))
+  name.vb: GetAllAssetRefs(HashSet(Of Guid))
+- uid: Prowl.Runtime.SerializedProperty.Clone
+  commentId: M:Prowl.Runtime.SerializedProperty.Clone
+  id: Clone
+  parent: Prowl.Runtime.SerializedProperty
+  langs:
+  - csharp
+  - vb
+  name: Clone()
+  nameWithType: SerializedProperty.Clone()
+  fullName: Prowl.Runtime.SerializedProperty.Clone()
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Serializer/SerializedProperty.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Clone
+    path: ../Prowl/Prowl.Runtime/Serializer/SerializedProperty.cs
+    startLine: 108
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public SerializedProperty Clone()
+    return:
+      type: Prowl.Runtime.SerializedProperty
+    content.vb: Public Function Clone() As SerializedProperty
+  overload: Prowl.Runtime.SerializedProperty.Clone*
+- uid: Prowl.Runtime.SerializedProperty.Count
+  commentId: P:Prowl.Runtime.SerializedProperty.Count
+  id: Count
+  parent: Prowl.Runtime.SerializedProperty
+  langs:
+  - csharp
+  - vb
+  name: Count
+  nameWithType: SerializedProperty.Count
+  fullName: Prowl.Runtime.SerializedProperty.Count
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/Serializer/SerializedProperty.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Count
+    path: ../Prowl/Prowl.Runtime/Serializer/SerializedProperty.cs
+    startLine: 142
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: >-
+    Gets the number of tags in this tag.
+
+    Returns 0 for all tags except Compound and List.
+  example: []
+  syntax:
+    content: public int Count { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property Count As Integer
+  overload: Prowl.Runtime.SerializedProperty.Count*
+- uid: Prowl.Runtime.SerializedProperty.IsPrimitive
+  commentId: P:Prowl.Runtime.SerializedProperty.IsPrimitive
+  id: IsPrimitive
+  parent: Prowl.Runtime.SerializedProperty
+  langs:
+  - csharp
+  - vb
+  name: IsPrimitive
+  nameWithType: SerializedProperty.IsPrimitive
+  fullName: Prowl.Runtime.SerializedProperty.IsPrimitive
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/Serializer/SerializedProperty.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: IsPrimitive
+    path: ../Prowl/Prowl.Runtime/Serializer/SerializedProperty.cs
+    startLine: 156
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: >-
+    Returns true if tags of this type have a primitive value attached.
+
+    All tags except Compound and List have values.
+  example: []
+  syntax:
+    content: public bool IsPrimitive { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property IsPrimitive As Boolean
+  overload: Prowl.Runtime.SerializedProperty.IsPrimitive*
+- uid: Prowl.Runtime.SerializedProperty.Set(System.Object)
+  commentId: M:Prowl.Runtime.SerializedProperty.Set(System.Object)
+  id: Set(System.Object)
+  parent: Prowl.Runtime.SerializedProperty
+  langs:
+  - csharp
+  - vb
+  name: Set(object)
+  nameWithType: SerializedProperty.Set(object)
+  fullName: Prowl.Runtime.SerializedProperty.Set(object)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Serializer/SerializedProperty.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Set
+    path: ../Prowl/Prowl.Runtime/Serializer/SerializedProperty.cs
+    startLine: 173
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: Utility to set the value of this tag with safety checks.
+  example: []
+  syntax:
+    content: public void Set(object value)
+    parameters:
+    - id: value
+      type: System.Object
+    content.vb: Public Sub [Set](value As Object)
+  overload: Prowl.Runtime.SerializedProperty.Set*
+  nameWithType.vb: SerializedProperty.Set(Object)
+  fullName.vb: Prowl.Runtime.SerializedProperty.Set(Object)
+  name.vb: Set(Object)
+- uid: Prowl.Runtime.SerializedProperty.BoolValue
+  commentId: P:Prowl.Runtime.SerializedProperty.BoolValue
+  id: BoolValue
+  parent: Prowl.Runtime.SerializedProperty
+  langs:
+  - csharp
+  - vb
+  name: BoolValue
+  nameWithType: SerializedProperty.BoolValue
+  fullName: Prowl.Runtime.SerializedProperty.BoolValue
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/Serializer/SerializedProperty.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: BoolValue
+    path: ../Prowl/Prowl.Runtime/Serializer/SerializedProperty.cs
+    startLine: 201
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: Returns the value of this tag, cast as a bool.
+  example: []
+  syntax:
+    content: public bool BoolValue { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property BoolValue As Boolean
+  overload: Prowl.Runtime.SerializedProperty.BoolValue*
+  exceptions:
+  - type: System.InvalidCastException
+    commentId: T:System.InvalidCastException
+    description: When used on a tag other than BoolTag.
+- uid: Prowl.Runtime.SerializedProperty.ByteValue
+  commentId: P:Prowl.Runtime.SerializedProperty.ByteValue
+  id: ByteValue
+  parent: Prowl.Runtime.SerializedProperty
+  langs:
+  - csharp
+  - vb
+  name: ByteValue
+  nameWithType: SerializedProperty.ByteValue
+  fullName: Prowl.Runtime.SerializedProperty.ByteValue
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/Serializer/SerializedProperty.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: ByteValue
+    path: ../Prowl/Prowl.Runtime/Serializer/SerializedProperty.cs
+    startLine: 205
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: Returns the value of this tag, cast as a byte.
+  example: []
+  syntax:
+    content: public byte ByteValue { get; set; }
+    parameters: []
+    return:
+      type: System.Byte
+    content.vb: Public Property ByteValue As Byte
+  overload: Prowl.Runtime.SerializedProperty.ByteValue*
+  exceptions:
+  - type: System.InvalidCastException
+    commentId: T:System.InvalidCastException
+    description: When used on a tag other than ByteTag.
+- uid: Prowl.Runtime.SerializedProperty.sByteValue
+  commentId: P:Prowl.Runtime.SerializedProperty.sByteValue
+  id: sByteValue
+  parent: Prowl.Runtime.SerializedProperty
+  langs:
+  - csharp
+  - vb
+  name: sByteValue
+  nameWithType: SerializedProperty.sByteValue
+  fullName: Prowl.Runtime.SerializedProperty.sByteValue
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/Serializer/SerializedProperty.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: sByteValue
+    path: ../Prowl/Prowl.Runtime/Serializer/SerializedProperty.cs
+    startLine: 209
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: Returns the value of this tag, cast as a sbyte.
+  example: []
+  syntax:
+    content: public sbyte sByteValue { get; set; }
+    parameters: []
+    return:
+      type: System.SByte
+    content.vb: Public Property sByteValue As SByte
+  overload: Prowl.Runtime.SerializedProperty.sByteValue*
+  exceptions:
+  - type: System.InvalidCastException
+    commentId: T:System.InvalidCastException
+    description: When used on a tag other than sByteTag.
+- uid: Prowl.Runtime.SerializedProperty.ShortValue
+  commentId: P:Prowl.Runtime.SerializedProperty.ShortValue
+  id: ShortValue
+  parent: Prowl.Runtime.SerializedProperty
+  langs:
+  - csharp
+  - vb
+  name: ShortValue
+  nameWithType: SerializedProperty.ShortValue
+  fullName: Prowl.Runtime.SerializedProperty.ShortValue
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/Serializer/SerializedProperty.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: ShortValue
+    path: ../Prowl/Prowl.Runtime/Serializer/SerializedProperty.cs
+    startLine: 213
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: Returns the value of this tag, cast as a short.
+  example: []
+  syntax:
+    content: public short ShortValue { get; set; }
+    parameters: []
+    return:
+      type: System.Int16
+    content.vb: Public Property ShortValue As Short
+  overload: Prowl.Runtime.SerializedProperty.ShortValue*
+  exceptions:
+  - type: System.InvalidCastException
+    commentId: T:System.InvalidCastException
+    description: When used on a tag other than ShortTag.
+- uid: Prowl.Runtime.SerializedProperty.IntValue
+  commentId: P:Prowl.Runtime.SerializedProperty.IntValue
+  id: IntValue
+  parent: Prowl.Runtime.SerializedProperty
+  langs:
+  - csharp
+  - vb
+  name: IntValue
+  nameWithType: SerializedProperty.IntValue
+  fullName: Prowl.Runtime.SerializedProperty.IntValue
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/Serializer/SerializedProperty.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: IntValue
+    path: ../Prowl/Prowl.Runtime/Serializer/SerializedProperty.cs
+    startLine: 217
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: Returns the value of this tag, cast as a int.
+  example: []
+  syntax:
+    content: public int IntValue { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property IntValue As Integer
+  overload: Prowl.Runtime.SerializedProperty.IntValue*
+  exceptions:
+  - type: System.InvalidCastException
+    commentId: T:System.InvalidCastException
+    description: When used on a tag other than IntTag.
+- uid: Prowl.Runtime.SerializedProperty.LongValue
+  commentId: P:Prowl.Runtime.SerializedProperty.LongValue
+  id: LongValue
+  parent: Prowl.Runtime.SerializedProperty
+  langs:
+  - csharp
+  - vb
+  name: LongValue
+  nameWithType: SerializedProperty.LongValue
+  fullName: Prowl.Runtime.SerializedProperty.LongValue
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/Serializer/SerializedProperty.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: LongValue
+    path: ../Prowl/Prowl.Runtime/Serializer/SerializedProperty.cs
+    startLine: 221
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: Returns the value of this tag, cast as a long.
+  example: []
+  syntax:
+    content: public long LongValue { get; set; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public Property LongValue As Long
+  overload: Prowl.Runtime.SerializedProperty.LongValue*
+  exceptions:
+  - type: System.InvalidCastException
+    commentId: T:System.InvalidCastException
+    description: When used on a tag other than LongTag.
+- uid: Prowl.Runtime.SerializedProperty.UShortValue
+  commentId: P:Prowl.Runtime.SerializedProperty.UShortValue
+  id: UShortValue
+  parent: Prowl.Runtime.SerializedProperty
+  langs:
+  - csharp
+  - vb
+  name: UShortValue
+  nameWithType: SerializedProperty.UShortValue
+  fullName: Prowl.Runtime.SerializedProperty.UShortValue
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/Serializer/SerializedProperty.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: UShortValue
+    path: ../Prowl/Prowl.Runtime/Serializer/SerializedProperty.cs
+    startLine: 225
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: Returns the value of this tag, cast as a ushort.
+  example: []
+  syntax:
+    content: public ushort UShortValue { get; set; }
+    parameters: []
+    return:
+      type: System.UInt16
+    content.vb: Public Property UShortValue As UShort
+  overload: Prowl.Runtime.SerializedProperty.UShortValue*
+  exceptions:
+  - type: System.InvalidCastException
+    commentId: T:System.InvalidCastException
+    description: When used on a tag other than UShortTag.
+- uid: Prowl.Runtime.SerializedProperty.UIntValue
+  commentId: P:Prowl.Runtime.SerializedProperty.UIntValue
+  id: UIntValue
+  parent: Prowl.Runtime.SerializedProperty
+  langs:
+  - csharp
+  - vb
+  name: UIntValue
+  nameWithType: SerializedProperty.UIntValue
+  fullName: Prowl.Runtime.SerializedProperty.UIntValue
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/Serializer/SerializedProperty.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: UIntValue
+    path: ../Prowl/Prowl.Runtime/Serializer/SerializedProperty.cs
+    startLine: 229
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: Returns the value of this tag, cast as an uint.
+  example: []
+  syntax:
+    content: public uint UIntValue { get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property UIntValue As UInteger
+  overload: Prowl.Runtime.SerializedProperty.UIntValue*
+  exceptions:
+  - type: System.InvalidCastException
+    commentId: T:System.InvalidCastException
+    description: When used on a tag other than UIntTag.
+- uid: Prowl.Runtime.SerializedProperty.ULongValue
+  commentId: P:Prowl.Runtime.SerializedProperty.ULongValue
+  id: ULongValue
+  parent: Prowl.Runtime.SerializedProperty
+  langs:
+  - csharp
+  - vb
+  name: ULongValue
+  nameWithType: SerializedProperty.ULongValue
+  fullName: Prowl.Runtime.SerializedProperty.ULongValue
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/Serializer/SerializedProperty.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: ULongValue
+    path: ../Prowl/Prowl.Runtime/Serializer/SerializedProperty.cs
+    startLine: 233
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: Returns the value of this tag, cast as a ulong.
+  example: []
+  syntax:
+    content: public ulong ULongValue { get; set; }
+    parameters: []
+    return:
+      type: System.UInt64
+    content.vb: Public Property ULongValue As ULong
+  overload: Prowl.Runtime.SerializedProperty.ULongValue*
+  exceptions:
+  - type: System.InvalidCastException
+    commentId: T:System.InvalidCastException
+    description: When used on a tag other than ULongTag.
+- uid: Prowl.Runtime.SerializedProperty.FloatValue
+  commentId: P:Prowl.Runtime.SerializedProperty.FloatValue
+  id: FloatValue
+  parent: Prowl.Runtime.SerializedProperty
+  langs:
+  - csharp
+  - vb
+  name: FloatValue
+  nameWithType: SerializedProperty.FloatValue
+  fullName: Prowl.Runtime.SerializedProperty.FloatValue
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/Serializer/SerializedProperty.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: FloatValue
+    path: ../Prowl/Prowl.Runtime/Serializer/SerializedProperty.cs
+    startLine: 237
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: Returns the value of this tag, cast as a float.
+  example: []
+  syntax:
+    content: public float FloatValue { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property FloatValue As Single
+  overload: Prowl.Runtime.SerializedProperty.FloatValue*
+  exceptions:
+  - type: System.InvalidCastException
+    commentId: T:System.InvalidCastException
+    description: When used on a tag other than FloatTag.
+- uid: Prowl.Runtime.SerializedProperty.DoubleValue
+  commentId: P:Prowl.Runtime.SerializedProperty.DoubleValue
+  id: DoubleValue
+  parent: Prowl.Runtime.SerializedProperty
+  langs:
+  - csharp
+  - vb
+  name: DoubleValue
+  nameWithType: SerializedProperty.DoubleValue
+  fullName: Prowl.Runtime.SerializedProperty.DoubleValue
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/Serializer/SerializedProperty.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: DoubleValue
+    path: ../Prowl/Prowl.Runtime/Serializer/SerializedProperty.cs
+    startLine: 241
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: Returns the value of this tag, cast as a double.
+  example: []
+  syntax:
+    content: public double DoubleValue { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Property DoubleValue As Double
+  overload: Prowl.Runtime.SerializedProperty.DoubleValue*
+  exceptions:
+  - type: System.InvalidCastException
+    commentId: T:System.InvalidCastException
+    description: When used on a tag other than DoubleTag.
+- uid: Prowl.Runtime.SerializedProperty.DecimalValue
+  commentId: P:Prowl.Runtime.SerializedProperty.DecimalValue
+  id: DecimalValue
+  parent: Prowl.Runtime.SerializedProperty
+  langs:
+  - csharp
+  - vb
+  name: DecimalValue
+  nameWithType: SerializedProperty.DecimalValue
+  fullName: Prowl.Runtime.SerializedProperty.DecimalValue
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/Serializer/SerializedProperty.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: DecimalValue
+    path: ../Prowl/Prowl.Runtime/Serializer/SerializedProperty.cs
+    startLine: 246
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public decimal DecimalValue { get; set; }
+    parameters: []
+    return:
+      type: System.Decimal
+    content.vb: Public Property DecimalValue As Decimal
+  overload: Prowl.Runtime.SerializedProperty.DecimalValue*
+- uid: Prowl.Runtime.SerializedProperty.StringValue
+  commentId: P:Prowl.Runtime.SerializedProperty.StringValue
+  id: StringValue
+  parent: Prowl.Runtime.SerializedProperty
+  langs:
+  - csharp
+  - vb
+  name: StringValue
+  nameWithType: SerializedProperty.StringValue
+  fullName: Prowl.Runtime.SerializedProperty.StringValue
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/Serializer/SerializedProperty.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: StringValue
+    path: ../Prowl/Prowl.Runtime/Serializer/SerializedProperty.cs
+    startLine: 252
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: >-
+    Returns the value of this tag, cast as a string.
+       Returns exact value for StringTag, and stringified (using InvariantCulture) value for ByteTag, DoubleTag, FloatTag, IntTag, LongTag, and ShortTag.
+       Not supported by CompoundTag, ListTag, ByteArrayTag, FloatArrayTag, or IntArrayTag.
+  example: []
+  syntax:
+    content: public string StringValue { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property StringValue As String
+  overload: Prowl.Runtime.SerializedProperty.StringValue*
+  exceptions:
+  - type: System.InvalidCastException
+    commentId: T:System.InvalidCastException
+    description: When used on an unsupported tag.
+- uid: Prowl.Runtime.SerializedProperty.ByteArrayValue
+  commentId: P:Prowl.Runtime.SerializedProperty.ByteArrayValue
+  id: ByteArrayValue
+  parent: Prowl.Runtime.SerializedProperty
+  langs:
+  - csharp
+  - vb
+  name: ByteArrayValue
+  nameWithType: SerializedProperty.ByteArrayValue
+  fullName: Prowl.Runtime.SerializedProperty.ByteArrayValue
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/Serializer/SerializedProperty.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: ByteArrayValue
+    path: ../Prowl/Prowl.Runtime/Serializer/SerializedProperty.cs
+    startLine: 273
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public byte[] ByteArrayValue { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property ByteArrayValue As Byte()
+  overload: Prowl.Runtime.SerializedProperty.ByteArrayValue*
+- uid: Prowl.Runtime.SerializedProperty.List
+  commentId: P:Prowl.Runtime.SerializedProperty.List
+  id: List
+  parent: Prowl.Runtime.SerializedProperty
+  langs:
+  - csharp
+  - vb
+  name: List
+  nameWithType: SerializedProperty.List
+  fullName: Prowl.Runtime.SerializedProperty.List
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/Serializer/SerializedProperty.List.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: List
+    path: ../Prowl/Prowl.Runtime/Serializer/SerializedProperty.List.cs
+    startLine: 9
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public List<SerializedProperty> List { get; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{Prowl.Runtime.SerializedProperty}
+    content.vb: Public ReadOnly Property List As List(Of SerializedProperty)
+  overload: Prowl.Runtime.SerializedProperty.List*
+- uid: Prowl.Runtime.SerializedProperty.Item(System.Int32)
+  commentId: P:Prowl.Runtime.SerializedProperty.Item(System.Int32)
+  id: Item(System.Int32)
+  parent: Prowl.Runtime.SerializedProperty
+  langs:
+  - csharp
+  - vb
+  name: this[int]
+  nameWithType: SerializedProperty.this[int]
+  fullName: Prowl.Runtime.SerializedProperty.this[int]
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/Serializer/SerializedProperty.List.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: this[]
+    path: ../Prowl/Prowl.Runtime/Serializer/SerializedProperty.List.cs
+    startLine: 11
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public SerializedProperty this[int tagIdx] { get; set; }
+    parameters:
+    - id: tagIdx
+      type: System.Int32
+    return:
+      type: Prowl.Runtime.SerializedProperty
+    content.vb: Public Default Property this[](tagIdx As Integer) As SerializedProperty
+  overload: Prowl.Runtime.SerializedProperty.Item*
+  nameWithType.vb: SerializedProperty.this[](Integer)
+  fullName.vb: Prowl.Runtime.SerializedProperty.this[](Integer)
+  name.vb: this[](Integer)
+- uid: Prowl.Runtime.SerializedProperty.Get(System.Int32)
+  commentId: M:Prowl.Runtime.SerializedProperty.Get(System.Int32)
+  id: Get(System.Int32)
+  parent: Prowl.Runtime.SerializedProperty
+  langs:
+  - csharp
+  - vb
+  name: Get(int)
+  nameWithType: SerializedProperty.Get(int)
+  fullName: Prowl.Runtime.SerializedProperty.Get(int)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Serializer/SerializedProperty.List.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Get
+    path: ../Prowl/Prowl.Runtime/Serializer/SerializedProperty.List.cs
+    startLine: 17
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public SerializedProperty Get(int tagIdx)
+    parameters:
+    - id: tagIdx
+      type: System.Int32
+    return:
+      type: Prowl.Runtime.SerializedProperty
+    content.vb: Public Function [Get](tagIdx As Integer) As SerializedProperty
+  overload: Prowl.Runtime.SerializedProperty.Get*
+  nameWithType.vb: SerializedProperty.Get(Integer)
+  fullName.vb: Prowl.Runtime.SerializedProperty.Get(Integer)
+  name.vb: Get(Integer)
+- uid: Prowl.Runtime.SerializedProperty.ListAdd(Prowl.Runtime.SerializedProperty)
+  commentId: M:Prowl.Runtime.SerializedProperty.ListAdd(Prowl.Runtime.SerializedProperty)
+  id: ListAdd(Prowl.Runtime.SerializedProperty)
+  parent: Prowl.Runtime.SerializedProperty
+  langs:
+  - csharp
+  - vb
+  name: ListAdd(SerializedProperty)
+  nameWithType: SerializedProperty.ListAdd(SerializedProperty)
+  fullName: Prowl.Runtime.SerializedProperty.ListAdd(Prowl.Runtime.SerializedProperty)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Serializer/SerializedProperty.List.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: ListAdd
+    path: ../Prowl/Prowl.Runtime/Serializer/SerializedProperty.List.cs
+    startLine: 24
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public void ListAdd(SerializedProperty tag)
+    parameters:
+    - id: tag
+      type: Prowl.Runtime.SerializedProperty
+    content.vb: Public Sub ListAdd(tag As SerializedProperty)
+  overload: Prowl.Runtime.SerializedProperty.ListAdd*
+- uid: Prowl.Runtime.SerializedProperty.ListRemove(Prowl.Runtime.SerializedProperty)
+  commentId: M:Prowl.Runtime.SerializedProperty.ListRemove(Prowl.Runtime.SerializedProperty)
+  id: ListRemove(Prowl.Runtime.SerializedProperty)
+  parent: Prowl.Runtime.SerializedProperty
+  langs:
+  - csharp
+  - vb
+  name: ListRemove(SerializedProperty)
+  nameWithType: SerializedProperty.ListRemove(SerializedProperty)
+  fullName: Prowl.Runtime.SerializedProperty.ListRemove(Prowl.Runtime.SerializedProperty)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Serializer/SerializedProperty.List.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: ListRemove
+    path: ../Prowl/Prowl.Runtime/Serializer/SerializedProperty.List.cs
+    startLine: 32
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public void ListRemove(SerializedProperty tag)
+    parameters:
+    - id: tag
+      type: Prowl.Runtime.SerializedProperty
+    content.vb: Public Sub ListRemove(tag As SerializedProperty)
+  overload: Prowl.Runtime.SerializedProperty.ListRemove*
+references:
+- uid: Prowl.Runtime
+  commentId: N:Prowl.Runtime
+  href: Prowl.html
+  name: Prowl.Runtime
+  nameWithType: Prowl.Runtime
+  fullName: Prowl.Runtime
+  spec.csharp:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+  spec.vb:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Prowl.Runtime.RuntimeUtils.GetSerializableFields
+  commentId: M:Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  parent: Prowl.Runtime.RuntimeUtils
+  definition: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  name: GetSerializableFields(object)
+  nameWithType: RuntimeUtils.GetSerializableFields(object)
+  fullName: Prowl.Runtime.RuntimeUtils.GetSerializableFields(object)
+  nameWithType.vb: RuntimeUtils.GetSerializableFields(Object)
+  fullName.vb: Prowl.Runtime.RuntimeUtils.GetSerializableFields(Object)
+  name.vb: GetSerializableFields(Object)
+  spec.csharp:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  commentId: M:Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  isExternal: true
+  href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  name: GetSerializableFields(object)
+  nameWithType: RuntimeUtils.GetSerializableFields(object)
+  fullName: Prowl.Runtime.RuntimeUtils.GetSerializableFields(object)
+  nameWithType.vb: RuntimeUtils.GetSerializableFields(Object)
+  fullName.vb: Prowl.Runtime.RuntimeUtils.GetSerializableFields(Object)
+  name.vb: GetSerializableFields(Object)
+  spec.csharp:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: Prowl.Runtime.RuntimeUtils
+  commentId: T:Prowl.Runtime.RuntimeUtils
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.RuntimeUtils.html
+  name: RuntimeUtils
+  nameWithType: RuntimeUtils
+  fullName: Prowl.Runtime.RuntimeUtils
+- uid: Prowl.Runtime.SerializedProperty.Tags*
+  commentId: Overload:Prowl.Runtime.SerializedProperty.Tags
+  href: Prowl.Runtime.SerializedProperty.html#Prowl_Runtime_SerializedProperty_Tags
+  name: Tags
+  nameWithType: SerializedProperty.Tags
+  fullName: Prowl.Runtime.SerializedProperty.Tags
+- uid: System.Collections.Generic.Dictionary{System.String,Prowl.Runtime.SerializedProperty}
+  commentId: T:System.Collections.Generic.Dictionary{System.String,Prowl.Runtime.SerializedProperty}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.Dictionary`2
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  name: Dictionary<string, SerializedProperty>
+  nameWithType: Dictionary<string, SerializedProperty>
+  fullName: System.Collections.Generic.Dictionary<string, Prowl.Runtime.SerializedProperty>
+  nameWithType.vb: Dictionary(Of String, SerializedProperty)
+  fullName.vb: System.Collections.Generic.Dictionary(Of String, Prowl.Runtime.SerializedProperty)
+  name.vb: Dictionary(Of String, SerializedProperty)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: Prowl.Runtime.SerializedProperty
+    name: SerializedProperty
+    href: Prowl.Runtime.SerializedProperty.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: Prowl.Runtime.SerializedProperty
+    name: SerializedProperty
+    href: Prowl.Runtime.SerializedProperty.html
+  - name: )
+- uid: System.Collections.Generic.Dictionary`2
+  commentId: T:System.Collections.Generic.Dictionary`2
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  name: Dictionary<TKey, TValue>
+  nameWithType: Dictionary<TKey, TValue>
+  fullName: System.Collections.Generic.Dictionary<TKey, TValue>
+  nameWithType.vb: Dictionary(Of TKey, TValue)
+  fullName.vb: System.Collections.Generic.Dictionary(Of TKey, TValue)
+  name.vb: Dictionary(Of TKey, TValue)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  - name: <
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: Prowl.Runtime.SerializedProperty.Item*
+  commentId: Overload:Prowl.Runtime.SerializedProperty.Item
+  href: Prowl.Runtime.SerializedProperty.html#Prowl_Runtime_SerializedProperty_Item_System_String_
+  name: this
+  nameWithType: SerializedProperty.this
+  fullName: Prowl.Runtime.SerializedProperty.this
+  nameWithType.vb: SerializedProperty.this[]
+  fullName.vb: Prowl.Runtime.SerializedProperty.this[]
+  name.vb: this[]
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: Prowl.Runtime.SerializedProperty
+  commentId: T:Prowl.Runtime.SerializedProperty
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.SerializedProperty.html
+  name: SerializedProperty
+  nameWithType: SerializedProperty
+  fullName: Prowl.Runtime.SerializedProperty
+- uid: Prowl.Runtime.SerializedProperty.GetNames*
+  commentId: Overload:Prowl.Runtime.SerializedProperty.GetNames
+  href: Prowl.Runtime.SerializedProperty.html#Prowl_Runtime_SerializedProperty_GetNames
+  name: GetNames
+  nameWithType: SerializedProperty.GetNames
+  fullName: Prowl.Runtime.SerializedProperty.GetNames
+- uid: System.Collections.Generic.IEnumerable{System.String}
+  commentId: T:System.Collections.Generic.IEnumerable{System.String}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<string>
+  nameWithType: IEnumerable<string>
+  fullName: System.Collections.Generic.IEnumerable<string>
+  nameWithType.vb: IEnumerable(Of String)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of String)
+  name.vb: IEnumerable(Of String)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: System.Collections.Generic.IEnumerable`1
+  commentId: T:System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Prowl.Runtime.SerializedProperty.GetAllTags*
+  commentId: Overload:Prowl.Runtime.SerializedProperty.GetAllTags
+  href: Prowl.Runtime.SerializedProperty.html#Prowl_Runtime_SerializedProperty_GetAllTags
+  name: GetAllTags
+  nameWithType: SerializedProperty.GetAllTags
+  fullName: Prowl.Runtime.SerializedProperty.GetAllTags
+- uid: System.Collections.Generic.IEnumerable{Prowl.Runtime.SerializedProperty}
+  commentId: T:System.Collections.Generic.IEnumerable{Prowl.Runtime.SerializedProperty}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<SerializedProperty>
+  nameWithType: IEnumerable<SerializedProperty>
+  fullName: System.Collections.Generic.IEnumerable<Prowl.Runtime.SerializedProperty>
+  nameWithType.vb: IEnumerable(Of SerializedProperty)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of Prowl.Runtime.SerializedProperty)
+  name.vb: IEnumerable(Of SerializedProperty)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - uid: Prowl.Runtime.SerializedProperty
+    name: SerializedProperty
+    href: Prowl.Runtime.SerializedProperty.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Prowl.Runtime.SerializedProperty
+    name: SerializedProperty
+    href: Prowl.Runtime.SerializedProperty.html
+  - name: )
+- uid: Prowl.Runtime.SerializedProperty.Get*
+  commentId: Overload:Prowl.Runtime.SerializedProperty.Get
+  href: Prowl.Runtime.SerializedProperty.html#Prowl_Runtime_SerializedProperty_Get_System_String_
+  name: Get
+  nameWithType: SerializedProperty.Get
+  fullName: Prowl.Runtime.SerializedProperty.Get
+- uid: Prowl.Runtime.SerializedProperty.TryGet*
+  commentId: Overload:Prowl.Runtime.SerializedProperty.TryGet
+  href: Prowl.Runtime.SerializedProperty.html#Prowl_Runtime_SerializedProperty_TryGet_System_String_Prowl_Runtime_SerializedProperty__
+  name: TryGet
+  nameWithType: SerializedProperty.TryGet
+  fullName: Prowl.Runtime.SerializedProperty.TryGet
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: Prowl.Runtime.SerializedProperty.Contains*
+  commentId: Overload:Prowl.Runtime.SerializedProperty.Contains
+  href: Prowl.Runtime.SerializedProperty.html#Prowl_Runtime_SerializedProperty_Contains_System_String_
+  name: Contains
+  nameWithType: SerializedProperty.Contains
+  fullName: Prowl.Runtime.SerializedProperty.Contains
+- uid: Prowl.Runtime.SerializedProperty.Add*
+  commentId: Overload:Prowl.Runtime.SerializedProperty.Add
+  href: Prowl.Runtime.SerializedProperty.html#Prowl_Runtime_SerializedProperty_Add_System_String_Prowl_Runtime_SerializedProperty_
+  name: Add
+  nameWithType: SerializedProperty.Add
+  fullName: Prowl.Runtime.SerializedProperty.Add
+- uid: Prowl.Runtime.SerializedProperty.Remove*
+  commentId: Overload:Prowl.Runtime.SerializedProperty.Remove
+  href: Prowl.Runtime.SerializedProperty.html#Prowl_Runtime_SerializedProperty_Remove_System_String_
+  name: Remove
+  nameWithType: SerializedProperty.Remove
+  fullName: Prowl.Runtime.SerializedProperty.Remove
+- uid: Prowl.Runtime.SerializedProperty.TryFind*
+  commentId: Overload:Prowl.Runtime.SerializedProperty.TryFind
+  href: Prowl.Runtime.SerializedProperty.html#Prowl_Runtime_SerializedProperty_TryFind_System_String_Prowl_Runtime_SerializedProperty__
+  name: TryFind
+  nameWithType: SerializedProperty.TryFind
+  fullName: Prowl.Runtime.SerializedProperty.TryFind
+- uid: Prowl.Runtime.SerializedProperty.Find*
+  commentId: Overload:Prowl.Runtime.SerializedProperty.Find
+  href: Prowl.Runtime.SerializedProperty.html#Prowl_Runtime_SerializedProperty_Find_System_String_
+  name: Find
+  nameWithType: SerializedProperty.Find
+  fullName: Prowl.Runtime.SerializedProperty.Find
+- uid: Prowl.Runtime.SerializedProperty.Merge*
+  commentId: Overload:Prowl.Runtime.SerializedProperty.Merge
+  href: Prowl.Runtime.SerializedProperty.html#Prowl_Runtime_SerializedProperty_Merge_System_Collections_Generic_List_Prowl_Runtime_SerializedProperty__
+  name: Merge
+  nameWithType: SerializedProperty.Merge
+  fullName: Prowl.Runtime.SerializedProperty.Merge
+- uid: System.Collections.Generic.List{Prowl.Runtime.SerializedProperty}
+  commentId: T:System.Collections.Generic.List{Prowl.Runtime.SerializedProperty}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<SerializedProperty>
+  nameWithType: List<SerializedProperty>
+  fullName: System.Collections.Generic.List<Prowl.Runtime.SerializedProperty>
+  nameWithType.vb: List(Of SerializedProperty)
+  fullName.vb: System.Collections.Generic.List(Of Prowl.Runtime.SerializedProperty)
+  name.vb: List(Of SerializedProperty)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - uid: Prowl.Runtime.SerializedProperty
+    name: SerializedProperty
+    href: Prowl.Runtime.SerializedProperty.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Prowl.Runtime.SerializedProperty
+    name: SerializedProperty
+    href: Prowl.Runtime.SerializedProperty.html
+  - name: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Prowl.Runtime.SerializedProperty.Apply*
+  commentId: Overload:Prowl.Runtime.SerializedProperty.Apply
+  href: Prowl.Runtime.SerializedProperty.html#Prowl_Runtime_SerializedProperty_Apply_Prowl_Runtime_SerializedProperty_
+  name: Apply
+  nameWithType: SerializedProperty.Apply
+  fullName: Prowl.Runtime.SerializedProperty.Apply
+- uid: Prowl.Runtime.SerializedProperty.DifferenceFrom*
+  commentId: Overload:Prowl.Runtime.SerializedProperty.DifferenceFrom
+  href: Prowl.Runtime.SerializedProperty.html#Prowl_Runtime_SerializedProperty_DifferenceFrom_Prowl_Runtime_SerializedProperty_
+  name: DifferenceFrom
+  nameWithType: SerializedProperty.DifferenceFrom
+  fullName: Prowl.Runtime.SerializedProperty.DifferenceFrom
+- uid: System.EventHandler{Prowl.Runtime.PropertyChangeEventArgs}
+  commentId: T:System.EventHandler{Prowl.Runtime.PropertyChangeEventArgs}
+  parent: System
+  definition: System.EventHandler`1
+  href: https://learn.microsoft.com/dotnet/api/system.eventhandler-1
+  name: EventHandler<PropertyChangeEventArgs>
+  nameWithType: EventHandler<PropertyChangeEventArgs>
+  fullName: System.EventHandler<Prowl.Runtime.PropertyChangeEventArgs>
+  nameWithType.vb: EventHandler(Of PropertyChangeEventArgs)
+  fullName.vb: System.EventHandler(Of Prowl.Runtime.PropertyChangeEventArgs)
+  name.vb: EventHandler(Of PropertyChangeEventArgs)
+  spec.csharp:
+  - uid: System.EventHandler`1
+    name: EventHandler
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.eventhandler-1
+  - name: <
+  - uid: Prowl.Runtime.PropertyChangeEventArgs
+    name: PropertyChangeEventArgs
+    href: Prowl.Runtime.PropertyChangeEventArgs.html
+  - name: '>'
+  spec.vb:
+  - uid: System.EventHandler`1
+    name: EventHandler
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.eventhandler-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Prowl.Runtime.PropertyChangeEventArgs
+    name: PropertyChangeEventArgs
+    href: Prowl.Runtime.PropertyChangeEventArgs.html
+  - name: )
+- uid: System.EventHandler`1
+  commentId: T:System.EventHandler`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.eventhandler-1
+  name: EventHandler<TEventArgs>
+  nameWithType: EventHandler<TEventArgs>
+  fullName: System.EventHandler<TEventArgs>
+  nameWithType.vb: EventHandler(Of TEventArgs)
+  fullName.vb: System.EventHandler(Of TEventArgs)
+  name.vb: EventHandler(Of TEventArgs)
+  spec.csharp:
+  - uid: System.EventHandler`1
+    name: EventHandler
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.eventhandler-1
+  - name: <
+  - name: TEventArgs
+  - name: '>'
+  spec.vb:
+  - uid: System.EventHandler`1
+    name: EventHandler
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.eventhandler-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TEventArgs
+  - name: )
+- uid: Prowl.Runtime.SerializedProperty.Value*
+  commentId: Overload:Prowl.Runtime.SerializedProperty.Value
+  href: Prowl.Runtime.SerializedProperty.html#Prowl_Runtime_SerializedProperty_Value
+  name: Value
+  nameWithType: SerializedProperty.Value
+  fullName: Prowl.Runtime.SerializedProperty.Value
+- uid: Prowl.Runtime.SerializedProperty.TagType*
+  commentId: Overload:Prowl.Runtime.SerializedProperty.TagType
+  href: Prowl.Runtime.SerializedProperty.html#Prowl_Runtime_SerializedProperty_TagType
+  name: TagType
+  nameWithType: SerializedProperty.TagType
+  fullName: Prowl.Runtime.SerializedProperty.TagType
+- uid: Prowl.Runtime.PropertyType
+  commentId: T:Prowl.Runtime.PropertyType
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.PropertyType.html
+  name: PropertyType
+  nameWithType: PropertyType
+  fullName: Prowl.Runtime.PropertyType
+- uid: Prowl.Runtime.SerializedProperty.Parent*
+  commentId: Overload:Prowl.Runtime.SerializedProperty.Parent
+  href: Prowl.Runtime.SerializedProperty.html#Prowl_Runtime_SerializedProperty_Parent
+  name: Parent
+  nameWithType: SerializedProperty.Parent
+  fullName: Prowl.Runtime.SerializedProperty.Parent
+- uid: Prowl.Runtime.SerializedProperty.#ctor*
+  commentId: Overload:Prowl.Runtime.SerializedProperty.#ctor
+  href: Prowl.Runtime.SerializedProperty.html#Prowl_Runtime_SerializedProperty__ctor
+  name: SerializedProperty
+  nameWithType: SerializedProperty.SerializedProperty
+  fullName: Prowl.Runtime.SerializedProperty.SerializedProperty
+  nameWithType.vb: SerializedProperty.New
+  fullName.vb: Prowl.Runtime.SerializedProperty.New
+  name.vb: New
+- uid: System.Byte
+  commentId: T:System.Byte
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.byte
+  name: byte
+  nameWithType: byte
+  fullName: byte
+  nameWithType.vb: Byte
+  fullName.vb: Byte
+  name.vb: Byte
+- uid: System.SByte
+  commentId: T:System.SByte
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.sbyte
+  name: sbyte
+  nameWithType: sbyte
+  fullName: sbyte
+  nameWithType.vb: SByte
+  fullName.vb: SByte
+  name.vb: SByte
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int16
+  name: short
+  nameWithType: short
+  fullName: short
+  nameWithType.vb: Short
+  fullName.vb: Short
+  name.vb: Short
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: System.Int64
+  commentId: T:System.Int64
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int64
+  name: long
+  nameWithType: long
+  fullName: long
+  nameWithType.vb: Long
+  fullName.vb: Long
+  name.vb: Long
+- uid: System.UInt16
+  commentId: T:System.UInt16
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.uint16
+  name: ushort
+  nameWithType: ushort
+  fullName: ushort
+  nameWithType.vb: UShort
+  fullName.vb: UShort
+  name.vb: UShort
+- uid: System.UInt32
+  commentId: T:System.UInt32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.uint32
+  name: uint
+  nameWithType: uint
+  fullName: uint
+  nameWithType.vb: UInteger
+  fullName.vb: UInteger
+  name.vb: UInteger
+- uid: System.UInt64
+  commentId: T:System.UInt64
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.uint64
+  name: ulong
+  nameWithType: ulong
+  fullName: ulong
+  nameWithType.vb: ULong
+  fullName.vb: ULong
+  name.vb: ULong
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.single
+  name: float
+  nameWithType: float
+  fullName: float
+  nameWithType.vb: Single
+  fullName.vb: Single
+  name.vb: Single
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.double
+  name: double
+  nameWithType: double
+  fullName: double
+  nameWithType.vb: Double
+  fullName.vb: Double
+  name.vb: Double
+- uid: System.Decimal
+  commentId: T:System.Decimal
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.decimal
+  name: decimal
+  nameWithType: decimal
+  fullName: decimal
+  nameWithType.vb: Decimal
+  fullName.vb: Decimal
+  name.vb: Decimal
+- uid: System.Byte[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.byte
+  name: byte[]
+  nameWithType: byte[]
+  fullName: byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: byte
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.byte
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.byte
+  - name: (
+  - name: )
+- uid: Prowl.Runtime.SerializedProperty.NewCompound*
+  commentId: Overload:Prowl.Runtime.SerializedProperty.NewCompound
+  href: Prowl.Runtime.SerializedProperty.html#Prowl_Runtime_SerializedProperty_NewCompound
+  name: NewCompound
+  nameWithType: SerializedProperty.NewCompound
+  fullName: Prowl.Runtime.SerializedProperty.NewCompound
+- uid: Prowl.Runtime.SerializedProperty.NewList*
+  commentId: Overload:Prowl.Runtime.SerializedProperty.NewList
+  href: Prowl.Runtime.SerializedProperty.html#Prowl_Runtime_SerializedProperty_NewList
+  name: NewList
+  nameWithType: SerializedProperty.NewList
+  fullName: Prowl.Runtime.SerializedProperty.NewList
+- uid: Prowl.Runtime.SerializedProperty.GetAllAssetRefs*
+  commentId: Overload:Prowl.Runtime.SerializedProperty.GetAllAssetRefs
+  href: Prowl.Runtime.SerializedProperty.html#Prowl_Runtime_SerializedProperty_GetAllAssetRefs_System_Collections_Generic_HashSet_System_Guid___
+  name: GetAllAssetRefs
+  nameWithType: SerializedProperty.GetAllAssetRefs
+  fullName: Prowl.Runtime.SerializedProperty.GetAllAssetRefs
+- uid: System.Collections.Generic.HashSet{System.Guid}
+  commentId: T:System.Collections.Generic.HashSet{System.Guid}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.HashSet`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1
+  name: HashSet<Guid>
+  nameWithType: HashSet<Guid>
+  fullName: System.Collections.Generic.HashSet<System.Guid>
+  nameWithType.vb: HashSet(Of Guid)
+  fullName.vb: System.Collections.Generic.HashSet(Of System.Guid)
+  name.vb: HashSet(Of Guid)
+  spec.csharp:
+  - uid: System.Collections.Generic.HashSet`1
+    name: HashSet
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1
+  - name: <
+  - uid: System.Guid
+    name: Guid
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.guid
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.HashSet`1
+    name: HashSet
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Guid
+    name: Guid
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.guid
+  - name: )
+- uid: System.Collections.Generic.HashSet`1
+  commentId: T:System.Collections.Generic.HashSet`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1
+  name: HashSet<T>
+  nameWithType: HashSet<T>
+  fullName: System.Collections.Generic.HashSet<T>
+  nameWithType.vb: HashSet(Of T)
+  fullName.vb: System.Collections.Generic.HashSet(Of T)
+  name.vb: HashSet(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.HashSet`1
+    name: HashSet
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.HashSet`1
+    name: HashSet
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Prowl.Runtime.SerializedProperty.Clone*
+  commentId: Overload:Prowl.Runtime.SerializedProperty.Clone
+  href: Prowl.Runtime.SerializedProperty.html#Prowl_Runtime_SerializedProperty_Clone
+  name: Clone
+  nameWithType: SerializedProperty.Clone
+  fullName: Prowl.Runtime.SerializedProperty.Clone
+- uid: Prowl.Runtime.SerializedProperty.Count*
+  commentId: Overload:Prowl.Runtime.SerializedProperty.Count
+  href: Prowl.Runtime.SerializedProperty.html#Prowl_Runtime_SerializedProperty_Count
+  name: Count
+  nameWithType: SerializedProperty.Count
+  fullName: Prowl.Runtime.SerializedProperty.Count
+- uid: Prowl.Runtime.SerializedProperty.IsPrimitive*
+  commentId: Overload:Prowl.Runtime.SerializedProperty.IsPrimitive
+  href: Prowl.Runtime.SerializedProperty.html#Prowl_Runtime_SerializedProperty_IsPrimitive
+  name: IsPrimitive
+  nameWithType: SerializedProperty.IsPrimitive
+  fullName: Prowl.Runtime.SerializedProperty.IsPrimitive
+- uid: Prowl.Runtime.SerializedProperty.Set*
+  commentId: Overload:Prowl.Runtime.SerializedProperty.Set
+  href: Prowl.Runtime.SerializedProperty.html#Prowl_Runtime_SerializedProperty_Set_System_Object_
+  name: Set
+  nameWithType: SerializedProperty.Set
+  fullName: Prowl.Runtime.SerializedProperty.Set
+- uid: System.InvalidCastException
+  commentId: T:System.InvalidCastException
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.invalidcastexception
+  name: InvalidCastException
+  nameWithType: InvalidCastException
+  fullName: System.InvalidCastException
+- uid: Prowl.Runtime.SerializedProperty.BoolValue*
+  commentId: Overload:Prowl.Runtime.SerializedProperty.BoolValue
+  href: Prowl.Runtime.SerializedProperty.html#Prowl_Runtime_SerializedProperty_BoolValue
+  name: BoolValue
+  nameWithType: SerializedProperty.BoolValue
+  fullName: Prowl.Runtime.SerializedProperty.BoolValue
+- uid: Prowl.Runtime.SerializedProperty.ByteValue*
+  commentId: Overload:Prowl.Runtime.SerializedProperty.ByteValue
+  href: Prowl.Runtime.SerializedProperty.html#Prowl_Runtime_SerializedProperty_ByteValue
+  name: ByteValue
+  nameWithType: SerializedProperty.ByteValue
+  fullName: Prowl.Runtime.SerializedProperty.ByteValue
+- uid: Prowl.Runtime.SerializedProperty.sByteValue*
+  commentId: Overload:Prowl.Runtime.SerializedProperty.sByteValue
+  href: Prowl.Runtime.SerializedProperty.html#Prowl_Runtime_SerializedProperty_sByteValue
+  name: sByteValue
+  nameWithType: SerializedProperty.sByteValue
+  fullName: Prowl.Runtime.SerializedProperty.sByteValue
+- uid: Prowl.Runtime.SerializedProperty.ShortValue*
+  commentId: Overload:Prowl.Runtime.SerializedProperty.ShortValue
+  href: Prowl.Runtime.SerializedProperty.html#Prowl_Runtime_SerializedProperty_ShortValue
+  name: ShortValue
+  nameWithType: SerializedProperty.ShortValue
+  fullName: Prowl.Runtime.SerializedProperty.ShortValue
+- uid: Prowl.Runtime.SerializedProperty.IntValue*
+  commentId: Overload:Prowl.Runtime.SerializedProperty.IntValue
+  href: Prowl.Runtime.SerializedProperty.html#Prowl_Runtime_SerializedProperty_IntValue
+  name: IntValue
+  nameWithType: SerializedProperty.IntValue
+  fullName: Prowl.Runtime.SerializedProperty.IntValue
+- uid: Prowl.Runtime.SerializedProperty.LongValue*
+  commentId: Overload:Prowl.Runtime.SerializedProperty.LongValue
+  href: Prowl.Runtime.SerializedProperty.html#Prowl_Runtime_SerializedProperty_LongValue
+  name: LongValue
+  nameWithType: SerializedProperty.LongValue
+  fullName: Prowl.Runtime.SerializedProperty.LongValue
+- uid: Prowl.Runtime.SerializedProperty.UShortValue*
+  commentId: Overload:Prowl.Runtime.SerializedProperty.UShortValue
+  href: Prowl.Runtime.SerializedProperty.html#Prowl_Runtime_SerializedProperty_UShortValue
+  name: UShortValue
+  nameWithType: SerializedProperty.UShortValue
+  fullName: Prowl.Runtime.SerializedProperty.UShortValue
+- uid: Prowl.Runtime.SerializedProperty.UIntValue*
+  commentId: Overload:Prowl.Runtime.SerializedProperty.UIntValue
+  href: Prowl.Runtime.SerializedProperty.html#Prowl_Runtime_SerializedProperty_UIntValue
+  name: UIntValue
+  nameWithType: SerializedProperty.UIntValue
+  fullName: Prowl.Runtime.SerializedProperty.UIntValue
+- uid: Prowl.Runtime.SerializedProperty.ULongValue*
+  commentId: Overload:Prowl.Runtime.SerializedProperty.ULongValue
+  href: Prowl.Runtime.SerializedProperty.html#Prowl_Runtime_SerializedProperty_ULongValue
+  name: ULongValue
+  nameWithType: SerializedProperty.ULongValue
+  fullName: Prowl.Runtime.SerializedProperty.ULongValue
+- uid: Prowl.Runtime.SerializedProperty.FloatValue*
+  commentId: Overload:Prowl.Runtime.SerializedProperty.FloatValue
+  href: Prowl.Runtime.SerializedProperty.html#Prowl_Runtime_SerializedProperty_FloatValue
+  name: FloatValue
+  nameWithType: SerializedProperty.FloatValue
+  fullName: Prowl.Runtime.SerializedProperty.FloatValue
+- uid: Prowl.Runtime.SerializedProperty.DoubleValue*
+  commentId: Overload:Prowl.Runtime.SerializedProperty.DoubleValue
+  href: Prowl.Runtime.SerializedProperty.html#Prowl_Runtime_SerializedProperty_DoubleValue
+  name: DoubleValue
+  nameWithType: SerializedProperty.DoubleValue
+  fullName: Prowl.Runtime.SerializedProperty.DoubleValue
+- uid: Prowl.Runtime.SerializedProperty.DecimalValue*
+  commentId: Overload:Prowl.Runtime.SerializedProperty.DecimalValue
+  href: Prowl.Runtime.SerializedProperty.html#Prowl_Runtime_SerializedProperty_DecimalValue
+  name: DecimalValue
+  nameWithType: SerializedProperty.DecimalValue
+  fullName: Prowl.Runtime.SerializedProperty.DecimalValue
+- uid: Prowl.Runtime.SerializedProperty.StringValue*
+  commentId: Overload:Prowl.Runtime.SerializedProperty.StringValue
+  href: Prowl.Runtime.SerializedProperty.html#Prowl_Runtime_SerializedProperty_StringValue
+  name: StringValue
+  nameWithType: SerializedProperty.StringValue
+  fullName: Prowl.Runtime.SerializedProperty.StringValue
+- uid: Prowl.Runtime.SerializedProperty.ByteArrayValue*
+  commentId: Overload:Prowl.Runtime.SerializedProperty.ByteArrayValue
+  href: Prowl.Runtime.SerializedProperty.html#Prowl_Runtime_SerializedProperty_ByteArrayValue
+  name: ByteArrayValue
+  nameWithType: SerializedProperty.ByteArrayValue
+  fullName: Prowl.Runtime.SerializedProperty.ByteArrayValue
+- uid: Prowl.Runtime.SerializedProperty.List*
+  commentId: Overload:Prowl.Runtime.SerializedProperty.List
+  href: Prowl.Runtime.SerializedProperty.html#Prowl_Runtime_SerializedProperty_List
+  name: List
+  nameWithType: SerializedProperty.List
+  fullName: Prowl.Runtime.SerializedProperty.List
+- uid: Prowl.Runtime.SerializedProperty.ListAdd*
+  commentId: Overload:Prowl.Runtime.SerializedProperty.ListAdd
+  href: Prowl.Runtime.SerializedProperty.html#Prowl_Runtime_SerializedProperty_ListAdd_Prowl_Runtime_SerializedProperty_
+  name: ListAdd
+  nameWithType: SerializedProperty.ListAdd
+  fullName: Prowl.Runtime.SerializedProperty.ListAdd
+- uid: Prowl.Runtime.SerializedProperty.ListRemove*
+  commentId: Overload:Prowl.Runtime.SerializedProperty.ListRemove
+  href: Prowl.Runtime.SerializedProperty.html#Prowl_Runtime_SerializedProperty_ListRemove_Prowl_Runtime_SerializedProperty_
+  name: ListRemove
+  nameWithType: SerializedProperty.ListRemove
+  fullName: Prowl.Runtime.SerializedProperty.ListRemove

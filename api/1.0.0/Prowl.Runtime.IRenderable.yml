@@ -1,0 +1,293 @@
+### YamlMime:ManagedReference
+items:
+- uid: Prowl.Runtime.IRenderable
+  commentId: T:Prowl.Runtime.IRenderable
+  id: IRenderable
+  parent: Prowl.Runtime
+  children:
+  - Prowl.Runtime.IRenderable.GetCullingData(System.Boolean@,Prowl.Runtime.Bounds@)
+  - Prowl.Runtime.IRenderable.GetMaterial
+  - Prowl.Runtime.IRenderable.GetRenderingData(Prowl.Runtime.PropertyBlock@,Prowl.Runtime.IGeometryDrawData@,Prowl.Runtime.Matrix4x4@)
+  langs:
+  - csharp
+  - vb
+  name: IRenderable
+  nameWithType: IRenderable
+  fullName: Prowl.Runtime.IRenderable
+  type: Interface
+  source:
+    remote:
+      path: Prowl.Runtime/Rendering/RenderPipeline/IRenderable.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: IRenderable
+    path: ../Prowl/Prowl.Runtime/Rendering/RenderPipeline/IRenderable.cs
+    startLine: 5
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public interface IRenderable
+    content.vb: Public Interface IRenderable
+  extensionMethods:
+  - System.Object.Prowl.Runtime.RuntimeUtils.GetSerializableFields
+- uid: Prowl.Runtime.IRenderable.GetMaterial
+  commentId: M:Prowl.Runtime.IRenderable.GetMaterial
+  id: GetMaterial
+  parent: Prowl.Runtime.IRenderable
+  langs:
+  - csharp
+  - vb
+  name: GetMaterial()
+  nameWithType: IRenderable.GetMaterial()
+  fullName: Prowl.Runtime.IRenderable.GetMaterial()
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Rendering/RenderPipeline/IRenderable.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: GetMaterial
+    path: ../Prowl/Prowl.Runtime/Rendering/RenderPipeline/IRenderable.cs
+    startLine: 7
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: Material GetMaterial()
+    return:
+      type: Prowl.Runtime.Material
+    content.vb: Function GetMaterial() As Material
+  overload: Prowl.Runtime.IRenderable.GetMaterial*
+- uid: Prowl.Runtime.IRenderable.GetRenderingData(Prowl.Runtime.PropertyBlock@,Prowl.Runtime.IGeometryDrawData@,Prowl.Runtime.Matrix4x4@)
+  commentId: M:Prowl.Runtime.IRenderable.GetRenderingData(Prowl.Runtime.PropertyBlock@,Prowl.Runtime.IGeometryDrawData@,Prowl.Runtime.Matrix4x4@)
+  id: GetRenderingData(Prowl.Runtime.PropertyBlock@,Prowl.Runtime.IGeometryDrawData@,Prowl.Runtime.Matrix4x4@)
+  parent: Prowl.Runtime.IRenderable
+  langs:
+  - csharp
+  - vb
+  name: GetRenderingData(out PropertyBlock, out IGeometryDrawData, out Matrix4x4)
+  nameWithType: IRenderable.GetRenderingData(out PropertyBlock, out IGeometryDrawData, out Matrix4x4)
+  fullName: Prowl.Runtime.IRenderable.GetRenderingData(out Prowl.Runtime.PropertyBlock, out Prowl.Runtime.IGeometryDrawData, out Prowl.Runtime.Matrix4x4)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Rendering/RenderPipeline/IRenderable.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: GetRenderingData
+    path: ../Prowl/Prowl.Runtime/Rendering/RenderPipeline/IRenderable.cs
+    startLine: 9
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: void GetRenderingData(out PropertyBlock properties, out IGeometryDrawData drawData, out Matrix4x4 model)
+    parameters:
+    - id: properties
+      type: Prowl.Runtime.PropertyBlock
+    - id: drawData
+      type: Prowl.Runtime.IGeometryDrawData
+    - id: model
+      type: Prowl.Runtime.Matrix4x4
+    content.vb: Sub GetRenderingData(properties As PropertyBlock, drawData As IGeometryDrawData, model As Matrix4x4)
+  overload: Prowl.Runtime.IRenderable.GetRenderingData*
+  nameWithType.vb: IRenderable.GetRenderingData(PropertyBlock, IGeometryDrawData, Matrix4x4)
+  fullName.vb: Prowl.Runtime.IRenderable.GetRenderingData(Prowl.Runtime.PropertyBlock, Prowl.Runtime.IGeometryDrawData, Prowl.Runtime.Matrix4x4)
+  name.vb: GetRenderingData(PropertyBlock, IGeometryDrawData, Matrix4x4)
+- uid: Prowl.Runtime.IRenderable.GetCullingData(System.Boolean@,Prowl.Runtime.Bounds@)
+  commentId: M:Prowl.Runtime.IRenderable.GetCullingData(System.Boolean@,Prowl.Runtime.Bounds@)
+  id: GetCullingData(System.Boolean@,Prowl.Runtime.Bounds@)
+  parent: Prowl.Runtime.IRenderable
+  langs:
+  - csharp
+  - vb
+  name: GetCullingData(out bool, out Bounds)
+  nameWithType: IRenderable.GetCullingData(out bool, out Bounds)
+  fullName: Prowl.Runtime.IRenderable.GetCullingData(out bool, out Prowl.Runtime.Bounds)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Rendering/RenderPipeline/IRenderable.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: GetCullingData
+    path: ../Prowl/Prowl.Runtime/Rendering/RenderPipeline/IRenderable.cs
+    startLine: 11
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: void GetCullingData(out bool isRenderable, out Bounds bounds)
+    parameters:
+    - id: isRenderable
+      type: System.Boolean
+    - id: bounds
+      type: Prowl.Runtime.Bounds
+    content.vb: Sub GetCullingData(isRenderable As Boolean, bounds As Bounds)
+  overload: Prowl.Runtime.IRenderable.GetCullingData*
+  nameWithType.vb: IRenderable.GetCullingData(Boolean, Bounds)
+  fullName.vb: Prowl.Runtime.IRenderable.GetCullingData(Boolean, Prowl.Runtime.Bounds)
+  name.vb: GetCullingData(Boolean, Bounds)
+references:
+- uid: Prowl.Runtime
+  commentId: N:Prowl.Runtime
+  href: Prowl.html
+  name: Prowl.Runtime
+  nameWithType: Prowl.Runtime
+  fullName: Prowl.Runtime
+  spec.csharp:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+  spec.vb:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+- uid: System.Object.Prowl.Runtime.RuntimeUtils.GetSerializableFields
+  commentId: M:Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  parent: Prowl.Runtime.RuntimeUtils
+  definition: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  name: GetSerializableFields(object)
+  nameWithType: RuntimeUtils.GetSerializableFields(object)
+  fullName: Prowl.Runtime.RuntimeUtils.GetSerializableFields(object)
+  nameWithType.vb: RuntimeUtils.GetSerializableFields(Object)
+  fullName.vb: Prowl.Runtime.RuntimeUtils.GetSerializableFields(Object)
+  name.vb: GetSerializableFields(Object)
+  spec.csharp:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  commentId: M:Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  isExternal: true
+  href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  name: GetSerializableFields(object)
+  nameWithType: RuntimeUtils.GetSerializableFields(object)
+  fullName: Prowl.Runtime.RuntimeUtils.GetSerializableFields(object)
+  nameWithType.vb: RuntimeUtils.GetSerializableFields(Object)
+  fullName.vb: Prowl.Runtime.RuntimeUtils.GetSerializableFields(Object)
+  name.vb: GetSerializableFields(Object)
+  spec.csharp:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: Prowl.Runtime.RuntimeUtils
+  commentId: T:Prowl.Runtime.RuntimeUtils
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.RuntimeUtils.html
+  name: RuntimeUtils
+  nameWithType: RuntimeUtils
+  fullName: Prowl.Runtime.RuntimeUtils
+- uid: Prowl.Runtime.IRenderable.GetMaterial*
+  commentId: Overload:Prowl.Runtime.IRenderable.GetMaterial
+  href: Prowl.Runtime.IRenderable.html#Prowl_Runtime_IRenderable_GetMaterial
+  name: GetMaterial
+  nameWithType: IRenderable.GetMaterial
+  fullName: Prowl.Runtime.IRenderable.GetMaterial
+- uid: Prowl.Runtime.Material
+  commentId: T:Prowl.Runtime.Material
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.Material.html
+  name: Material
+  nameWithType: Material
+  fullName: Prowl.Runtime.Material
+- uid: Prowl.Runtime.IRenderable.GetRenderingData*
+  commentId: Overload:Prowl.Runtime.IRenderable.GetRenderingData
+  href: Prowl.Runtime.IRenderable.html#Prowl_Runtime_IRenderable_GetRenderingData_Prowl_Runtime_PropertyBlock__Prowl_Runtime_IGeometryDrawData__Prowl_Runtime_Matrix4x4__
+  name: GetRenderingData
+  nameWithType: IRenderable.GetRenderingData
+  fullName: Prowl.Runtime.IRenderable.GetRenderingData
+- uid: Prowl.Runtime.PropertyBlock
+  commentId: T:Prowl.Runtime.PropertyBlock
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.PropertyBlock.html
+  name: PropertyBlock
+  nameWithType: PropertyBlock
+  fullName: Prowl.Runtime.PropertyBlock
+- uid: Prowl.Runtime.IGeometryDrawData
+  commentId: T:Prowl.Runtime.IGeometryDrawData
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.IGeometryDrawData.html
+  name: IGeometryDrawData
+  nameWithType: IGeometryDrawData
+  fullName: Prowl.Runtime.IGeometryDrawData
+- uid: Prowl.Runtime.Matrix4x4
+  commentId: T:Prowl.Runtime.Matrix4x4
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.Matrix4x4.html
+  name: Matrix4x4
+  nameWithType: Matrix4x4
+  fullName: Prowl.Runtime.Matrix4x4
+- uid: Prowl.Runtime.IRenderable.GetCullingData*
+  commentId: Overload:Prowl.Runtime.IRenderable.GetCullingData
+  href: Prowl.Runtime.IRenderable.html#Prowl_Runtime_IRenderable_GetCullingData_System_Boolean__Prowl_Runtime_Bounds__
+  name: GetCullingData
+  nameWithType: IRenderable.GetCullingData
+  fullName: Prowl.Runtime.IRenderable.GetCullingData
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: Prowl.Runtime.Bounds
+  commentId: T:Prowl.Runtime.Bounds
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.Bounds.html
+  name: Bounds
+  nameWithType: Bounds
+  fullName: Prowl.Runtime.Bounds
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System

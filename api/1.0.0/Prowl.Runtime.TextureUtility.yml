@@ -1,0 +1,578 @@
+### YamlMime:ManagedReference
+items:
+- uid: Prowl.Runtime.TextureUtility
+  commentId: T:Prowl.Runtime.TextureUtility
+  id: TextureUtility
+  parent: Prowl.Runtime
+  children:
+  - Prowl.Runtime.TextureUtility.GetBestSupportedDepthFormat(System.Boolean,Veldrid.TextureUsage)
+  - Prowl.Runtime.TextureUtility.GetMipDimension(System.UInt32,System.UInt32)
+  - Prowl.Runtime.TextureUtility.IsSupportedDescription(Veldrid.TextureDescription,Veldrid.PixelFormatProperties@,System.Exception@)
+  - Prowl.Runtime.TextureUtility.IsSupportedFormat(Veldrid.PixelFormat,Veldrid.TextureType,Veldrid.TextureUsage)
+  - Prowl.Runtime.TextureUtility.PixelFormatBytes(Veldrid.PixelFormat)
+  langs:
+  - csharp
+  - vb
+  name: TextureUtility
+  nameWithType: TextureUtility
+  fullName: Prowl.Runtime.TextureUtility
+  type: Class
+  source:
+    remote:
+      path: Prowl.Runtime/Rendering/Texture/TextureUtility.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: TextureUtility
+    path: ../Prowl/Prowl.Runtime/Rendering/Texture/TextureUtility.cs
+    startLine: 12
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: General texture format and validation utilities
+  example: []
+  syntax:
+    content: public static class TextureUtility
+    content.vb: Public Module TextureUtility
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: Prowl.Runtime.TextureUtility.PixelFormatBytes(Veldrid.PixelFormat)
+  commentId: M:Prowl.Runtime.TextureUtility.PixelFormatBytes(Veldrid.PixelFormat)
+  id: PixelFormatBytes(Veldrid.PixelFormat)
+  parent: Prowl.Runtime.TextureUtility
+  langs:
+  - csharp
+  - vb
+  name: PixelFormatBytes(PixelFormat)
+  nameWithType: TextureUtility.PixelFormatBytes(PixelFormat)
+  fullName: Prowl.Runtime.TextureUtility.PixelFormatBytes(Veldrid.PixelFormat)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Rendering/Texture/TextureUtility.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: PixelFormatBytes
+    path: ../Prowl/Prowl.Runtime/Rendering/Texture/TextureUtility.cs
+    startLine: 17
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: Gets the size in bytes of a <xref href="Veldrid.PixelFormat" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public static uint PixelFormatBytes(PixelFormat format)
+    parameters:
+    - id: format
+      type: Veldrid.PixelFormat
+    return:
+      type: System.UInt32
+    content.vb: Public Shared Function PixelFormatBytes(format As PixelFormat) As UInteger
+  overload: Prowl.Runtime.TextureUtility.PixelFormatBytes*
+- uid: Prowl.Runtime.TextureUtility.GetMipDimension(System.UInt32,System.UInt32)
+  commentId: M:Prowl.Runtime.TextureUtility.GetMipDimension(System.UInt32,System.UInt32)
+  id: GetMipDimension(System.UInt32,System.UInt32)
+  parent: Prowl.Runtime.TextureUtility
+  langs:
+  - csharp
+  - vb
+  name: GetMipDimension(uint, uint)
+  nameWithType: TextureUtility.GetMipDimension(uint, uint)
+  fullName: Prowl.Runtime.TextureUtility.GetMipDimension(uint, uint)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Rendering/Texture/TextureUtility.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: GetMipDimension
+    path: ../Prowl/Prowl.Runtime/Rendering/Texture/TextureUtility.cs
+    startLine: 97
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public static uint GetMipDimension(uint largestLevelDimension, uint mipLevel)
+    parameters:
+    - id: largestLevelDimension
+      type: System.UInt32
+    - id: mipLevel
+      type: System.UInt32
+    return:
+      type: System.UInt32
+    content.vb: Public Shared Function GetMipDimension(largestLevelDimension As UInteger, mipLevel As UInteger) As UInteger
+  overload: Prowl.Runtime.TextureUtility.GetMipDimension*
+  nameWithType.vb: TextureUtility.GetMipDimension(UInteger, UInteger)
+  fullName.vb: Prowl.Runtime.TextureUtility.GetMipDimension(UInteger, UInteger)
+  name.vb: GetMipDimension(UInteger, UInteger)
+- uid: Prowl.Runtime.TextureUtility.IsSupportedDescription(Veldrid.TextureDescription,Veldrid.PixelFormatProperties@,System.Exception@)
+  commentId: M:Prowl.Runtime.TextureUtility.IsSupportedDescription(Veldrid.TextureDescription,Veldrid.PixelFormatProperties@,System.Exception@)
+  id: IsSupportedDescription(Veldrid.TextureDescription,Veldrid.PixelFormatProperties@,System.Exception@)
+  parent: Prowl.Runtime.TextureUtility
+  langs:
+  - csharp
+  - vb
+  name: IsSupportedDescription(TextureDescription, out PixelFormatProperties, out Exception)
+  nameWithType: TextureUtility.IsSupportedDescription(TextureDescription, out PixelFormatProperties, out Exception)
+  fullName: Prowl.Runtime.TextureUtility.IsSupportedDescription(Veldrid.TextureDescription, out Veldrid.PixelFormatProperties, out System.Exception)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Rendering/Texture/TextureUtility.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: IsSupportedDescription
+    path: ../Prowl/Prowl.Runtime/Rendering/Texture/TextureUtility.cs
+    startLine: 108
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public static bool IsSupportedDescription(TextureDescription description, out PixelFormatProperties properties, out Exception exception)
+    parameters:
+    - id: description
+      type: Veldrid.TextureDescription
+    - id: properties
+      type: Veldrid.PixelFormatProperties
+    - id: exception
+      type: System.Exception
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function IsSupportedDescription(description As TextureDescription, properties As PixelFormatProperties, exception As Exception) As Boolean
+  overload: Prowl.Runtime.TextureUtility.IsSupportedDescription*
+  nameWithType.vb: TextureUtility.IsSupportedDescription(TextureDescription, PixelFormatProperties, Exception)
+  fullName.vb: Prowl.Runtime.TextureUtility.IsSupportedDescription(Veldrid.TextureDescription, Veldrid.PixelFormatProperties, System.Exception)
+  name.vb: IsSupportedDescription(TextureDescription, PixelFormatProperties, Exception)
+- uid: Prowl.Runtime.TextureUtility.IsSupportedFormat(Veldrid.PixelFormat,Veldrid.TextureType,Veldrid.TextureUsage)
+  commentId: M:Prowl.Runtime.TextureUtility.IsSupportedFormat(Veldrid.PixelFormat,Veldrid.TextureType,Veldrid.TextureUsage)
+  id: IsSupportedFormat(Veldrid.PixelFormat,Veldrid.TextureType,Veldrid.TextureUsage)
+  parent: Prowl.Runtime.TextureUtility
+  langs:
+  - csharp
+  - vb
+  name: IsSupportedFormat(PixelFormat, TextureType, TextureUsage)
+  nameWithType: TextureUtility.IsSupportedFormat(PixelFormat, TextureType, TextureUsage)
+  fullName: Prowl.Runtime.TextureUtility.IsSupportedFormat(Veldrid.PixelFormat, Veldrid.TextureType, Veldrid.TextureUsage)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Rendering/Texture/TextureUtility.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: IsSupportedFormat
+    path: ../Prowl/Prowl.Runtime/Rendering/Texture/TextureUtility.cs
+    startLine: 171
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public static bool IsSupportedFormat(PixelFormat format, TextureType type, TextureUsage usage)
+    parameters:
+    - id: format
+      type: Veldrid.PixelFormat
+    - id: type
+      type: Veldrid.TextureType
+    - id: usage
+      type: Veldrid.TextureUsage
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function IsSupportedFormat(format As PixelFormat, type As TextureType, usage As TextureUsage) As Boolean
+  overload: Prowl.Runtime.TextureUtility.IsSupportedFormat*
+- uid: Prowl.Runtime.TextureUtility.GetBestSupportedDepthFormat(System.Boolean,Veldrid.TextureUsage)
+  commentId: M:Prowl.Runtime.TextureUtility.GetBestSupportedDepthFormat(System.Boolean,Veldrid.TextureUsage)
+  id: GetBestSupportedDepthFormat(System.Boolean,Veldrid.TextureUsage)
+  parent: Prowl.Runtime.TextureUtility
+  langs:
+  - csharp
+  - vb
+  name: GetBestSupportedDepthFormat(bool, TextureUsage)
+  nameWithType: TextureUtility.GetBestSupportedDepthFormat(bool, TextureUsage)
+  fullName: Prowl.Runtime.TextureUtility.GetBestSupportedDepthFormat(bool, Veldrid.TextureUsage)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Rendering/Texture/TextureUtility.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: GetBestSupportedDepthFormat
+    path: ../Prowl/Prowl.Runtime/Rendering/Texture/TextureUtility.cs
+    startLine: 176
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public static PixelFormat GetBestSupportedDepthFormat(bool needsStencil = false, TextureUsage usage = TextureUsage.DepthStencil)
+    parameters:
+    - id: needsStencil
+      type: System.Boolean
+    - id: usage
+      type: Veldrid.TextureUsage
+    return:
+      type: Veldrid.PixelFormat
+    content.vb: Public Shared Function GetBestSupportedDepthFormat(needsStencil As Boolean = False, usage As TextureUsage = TextureUsage.DepthStencil) As PixelFormat
+  overload: Prowl.Runtime.TextureUtility.GetBestSupportedDepthFormat*
+  nameWithType.vb: TextureUtility.GetBestSupportedDepthFormat(Boolean, TextureUsage)
+  fullName.vb: Prowl.Runtime.TextureUtility.GetBestSupportedDepthFormat(Boolean, Veldrid.TextureUsage)
+  name.vb: GetBestSupportedDepthFormat(Boolean, TextureUsage)
+references:
+- uid: Prowl.Runtime
+  commentId: N:Prowl.Runtime
+  href: Prowl.html
+  name: Prowl.Runtime
+  nameWithType: Prowl.Runtime
+  fullName: Prowl.Runtime
+  spec.csharp:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+  spec.vb:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Veldrid.PixelFormat
+  commentId: T:Veldrid.PixelFormat
+  parent: Veldrid
+  name: PixelFormat
+  nameWithType: PixelFormat
+  fullName: Veldrid.PixelFormat
+- uid: Prowl.Runtime.TextureUtility.PixelFormatBytes*
+  commentId: Overload:Prowl.Runtime.TextureUtility.PixelFormatBytes
+  href: Prowl.Runtime.TextureUtility.html#Prowl_Runtime_TextureUtility_PixelFormatBytes_Veldrid_PixelFormat_
+  name: PixelFormatBytes
+  nameWithType: TextureUtility.PixelFormatBytes
+  fullName: Prowl.Runtime.TextureUtility.PixelFormatBytes
+- uid: System.UInt32
+  commentId: T:System.UInt32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.uint32
+  name: uint
+  nameWithType: uint
+  fullName: uint
+  nameWithType.vb: UInteger
+  fullName.vb: UInteger
+  name.vb: UInteger
+- uid: Veldrid
+  commentId: N:Veldrid
+  name: Veldrid
+  nameWithType: Veldrid
+  fullName: Veldrid
+- uid: Prowl.Runtime.TextureUtility.GetMipDimension*
+  commentId: Overload:Prowl.Runtime.TextureUtility.GetMipDimension
+  href: Prowl.Runtime.TextureUtility.html#Prowl_Runtime_TextureUtility_GetMipDimension_System_UInt32_System_UInt32_
+  name: GetMipDimension
+  nameWithType: TextureUtility.GetMipDimension
+  fullName: Prowl.Runtime.TextureUtility.GetMipDimension
+- uid: Prowl.Runtime.TextureUtility.IsSupportedDescription*
+  commentId: Overload:Prowl.Runtime.TextureUtility.IsSupportedDescription
+  href: Prowl.Runtime.TextureUtility.html#Prowl_Runtime_TextureUtility_IsSupportedDescription_Veldrid_TextureDescription_Veldrid_PixelFormatProperties__System_Exception__
+  name: IsSupportedDescription
+  nameWithType: TextureUtility.IsSupportedDescription
+  fullName: Prowl.Runtime.TextureUtility.IsSupportedDescription
+- uid: Veldrid.TextureDescription
+  commentId: T:Veldrid.TextureDescription
+  parent: Veldrid
+  name: TextureDescription
+  nameWithType: TextureDescription
+  fullName: Veldrid.TextureDescription
+- uid: Veldrid.PixelFormatProperties
+  commentId: T:Veldrid.PixelFormatProperties
+  parent: Veldrid
+  name: PixelFormatProperties
+  nameWithType: PixelFormatProperties
+  fullName: Veldrid.PixelFormatProperties
+- uid: System.Exception
+  commentId: T:System.Exception
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.exception
+  name: Exception
+  nameWithType: Exception
+  fullName: System.Exception
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: Prowl.Runtime.TextureUtility.IsSupportedFormat*
+  commentId: Overload:Prowl.Runtime.TextureUtility.IsSupportedFormat
+  href: Prowl.Runtime.TextureUtility.html#Prowl_Runtime_TextureUtility_IsSupportedFormat_Veldrid_PixelFormat_Veldrid_TextureType_Veldrid_TextureUsage_
+  name: IsSupportedFormat
+  nameWithType: TextureUtility.IsSupportedFormat
+  fullName: Prowl.Runtime.TextureUtility.IsSupportedFormat
+- uid: Veldrid.TextureType
+  commentId: T:Veldrid.TextureType
+  parent: Veldrid
+  name: TextureType
+  nameWithType: TextureType
+  fullName: Veldrid.TextureType
+- uid: Veldrid.TextureUsage
+  commentId: T:Veldrid.TextureUsage
+  parent: Veldrid
+  name: TextureUsage
+  nameWithType: TextureUsage
+  fullName: Veldrid.TextureUsage
+- uid: Prowl.Runtime.TextureUtility.GetBestSupportedDepthFormat*
+  commentId: Overload:Prowl.Runtime.TextureUtility.GetBestSupportedDepthFormat
+  href: Prowl.Runtime.TextureUtility.html#Prowl_Runtime_TextureUtility_GetBestSupportedDepthFormat_System_Boolean_Veldrid_TextureUsage_
+  name: GetBestSupportedDepthFormat
+  nameWithType: TextureUtility.GetBestSupportedDepthFormat
+  fullName: Prowl.Runtime.TextureUtility.GetBestSupportedDepthFormat

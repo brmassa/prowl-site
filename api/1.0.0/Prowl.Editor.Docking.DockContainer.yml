@@ -1,0 +1,1011 @@
+### YamlMime:ManagedReference
+items:
+- uid: Prowl.Editor.Docking.DockContainer
+  commentId: T:Prowl.Editor.Docking.DockContainer
+  id: DockContainer
+  parent: Prowl.Editor.Docking
+  children:
+  - Prowl.Editor.Docking.DockContainer.AttachWindow(Prowl.Editor.EditorWindow,Prowl.Editor.Docking.DockNode,Prowl.Editor.Docking.DockZone,System.Double)
+  - Prowl.Editor.Docking.DockContainer.AttachWindowAt(Prowl.Editor.EditorWindow,System.Double,System.Double)
+  - Prowl.Editor.Docking.DockContainer.DetachWindow(Prowl.Editor.Docking.DockNode,System.Int32)
+  - Prowl.Editor.Docking.DockContainer.DetachWindow(Prowl.Editor.EditorWindow)
+  - Prowl.Editor.Docking.DockContainer.FindParent(Prowl.Editor.Docking.DockNode)
+  - Prowl.Editor.Docking.DockContainer.GetPlacement(System.Double,System.Double,System.Collections.Generic.List{Prowl.Runtime.Rect}@,Prowl.Runtime.Rect@)
+  - Prowl.Editor.Docking.DockContainer.GetWindows
+  - Prowl.Editor.Docking.DockContainer.Root
+  - Prowl.Editor.Docking.DockContainer.TraceLeaf(System.Double,System.Double)
+  - Prowl.Editor.Docking.DockContainer.Update(Prowl.Runtime.Rect)
+  langs:
+  - csharp
+  - vb
+  name: DockContainer
+  nameWithType: DockContainer
+  fullName: Prowl.Editor.Docking.DockContainer
+  type: Class
+  source:
+    remote:
+      path: Prowl.Editor/Editor/Docking/DockContainer.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: DockContainer
+    path: ../Prowl/Prowl.Editor/Editor/Docking/DockContainer.cs
+    startLine: 9
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor.Docking
+  syntax:
+    content: public class DockContainer
+    content.vb: Public Class DockContainer
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  extensionMethods:
+  - System.Object.Prowl.Runtime.RuntimeUtils.GetSerializableFields
+- uid: Prowl.Editor.Docking.DockContainer.Root
+  commentId: F:Prowl.Editor.Docking.DockContainer.Root
+  id: Root
+  parent: Prowl.Editor.Docking.DockContainer
+  langs:
+  - csharp
+  - vb
+  name: Root
+  nameWithType: DockContainer.Root
+  fullName: Prowl.Editor.Docking.DockContainer.Root
+  type: Field
+  source:
+    remote:
+      path: Prowl.Editor/Editor/Docking/DockContainer.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Root
+    path: ../Prowl/Prowl.Editor/Editor/Docking/DockContainer.cs
+    startLine: 11
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor.Docking
+  syntax:
+    content: public DockNode Root
+    return:
+      type: Prowl.Editor.Docking.DockNode
+    content.vb: Public Root As DockNode
+- uid: Prowl.Editor.Docking.DockContainer.Update(Prowl.Runtime.Rect)
+  commentId: M:Prowl.Editor.Docking.DockContainer.Update(Prowl.Runtime.Rect)
+  id: Update(Prowl.Runtime.Rect)
+  parent: Prowl.Editor.Docking.DockContainer
+  langs:
+  - csharp
+  - vb
+  name: Update(Rect)
+  nameWithType: DockContainer.Update(Rect)
+  fullName: Prowl.Editor.Docking.DockContainer.Update(Prowl.Runtime.Rect)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Editor/Editor/Docking/DockContainer.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Update
+    path: ../Prowl/Prowl.Editor/Editor/Docking/DockContainer.cs
+    startLine: 14
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor.Docking
+  syntax:
+    content: public void Update(Rect root)
+    parameters:
+    - id: root
+      type: Prowl.Runtime.Rect
+    content.vb: Public Sub Update(root As Rect)
+  overload: Prowl.Editor.Docking.DockContainer.Update*
+- uid: Prowl.Editor.Docking.DockContainer.TraceLeaf(System.Double,System.Double)
+  commentId: M:Prowl.Editor.Docking.DockContainer.TraceLeaf(System.Double,System.Double)
+  id: TraceLeaf(System.Double,System.Double)
+  parent: Prowl.Editor.Docking.DockContainer
+  langs:
+  - csharp
+  - vb
+  name: TraceLeaf(double, double)
+  nameWithType: DockContainer.TraceLeaf(double, double)
+  fullName: Prowl.Editor.Docking.DockContainer.TraceLeaf(double, double)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Editor/Editor/Docking/DockContainer.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: TraceLeaf
+    path: ../Prowl/Prowl.Editor/Editor/Docking/DockContainer.cs
+    startLine: 19
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor.Docking
+  syntax:
+    content: public DockNode TraceLeaf(double x, double y)
+    parameters:
+    - id: x
+      type: System.Double
+    - id: y
+      type: System.Double
+    return:
+      type: Prowl.Editor.Docking.DockNode
+    content.vb: Public Function TraceLeaf(x As Double, y As Double) As DockNode
+  overload: Prowl.Editor.Docking.DockContainer.TraceLeaf*
+  nameWithType.vb: DockContainer.TraceLeaf(Double, Double)
+  fullName.vb: Prowl.Editor.Docking.DockContainer.TraceLeaf(Double, Double)
+  name.vb: TraceLeaf(Double, Double)
+- uid: Prowl.Editor.Docking.DockContainer.GetPlacement(System.Double,System.Double,System.Collections.Generic.List{Prowl.Runtime.Rect}@,Prowl.Runtime.Rect@)
+  commentId: M:Prowl.Editor.Docking.DockContainer.GetPlacement(System.Double,System.Double,System.Collections.Generic.List{Prowl.Runtime.Rect}@,Prowl.Runtime.Rect@)
+  id: GetPlacement(System.Double,System.Double,System.Collections.Generic.List{Prowl.Runtime.Rect}@,Prowl.Runtime.Rect@)
+  parent: Prowl.Editor.Docking.DockContainer
+  langs:
+  - csharp
+  - vb
+  name: GetPlacement(double, double, out List<Rect>, out Rect)
+  nameWithType: DockContainer.GetPlacement(double, double, out List<Rect>, out Rect)
+  fullName: Prowl.Editor.Docking.DockContainer.GetPlacement(double, double, out System.Collections.Generic.List<Prowl.Runtime.Rect>, out Prowl.Runtime.Rect)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Editor/Editor/Docking/DockContainer.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: GetPlacement
+    path: ../Prowl/Prowl.Editor/Editor/Docking/DockContainer.cs
+    startLine: 27
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor.Docking
+  syntax:
+    content: public DockPlacement GetPlacement(double x, double y, out List<Rect> possibleAreas, out Rect hovered)
+    parameters:
+    - id: x
+      type: System.Double
+    - id: y
+      type: System.Double
+    - id: possibleAreas
+      type: System.Collections.Generic.List{Prowl.Runtime.Rect}
+    - id: hovered
+      type: Prowl.Runtime.Rect
+    return:
+      type: Prowl.Editor.Docking.DockPlacement
+    content.vb: Public Function GetPlacement(x As Double, y As Double, possibleAreas As List(Of Rect), hovered As Rect) As DockPlacement
+  overload: Prowl.Editor.Docking.DockContainer.GetPlacement*
+  nameWithType.vb: DockContainer.GetPlacement(Double, Double, List(Of Rect), Rect)
+  fullName.vb: Prowl.Editor.Docking.DockContainer.GetPlacement(Double, Double, System.Collections.Generic.List(Of Prowl.Runtime.Rect), Prowl.Runtime.Rect)
+  name.vb: GetPlacement(Double, Double, List(Of Rect), Rect)
+- uid: Prowl.Editor.Docking.DockContainer.AttachWindow(Prowl.Editor.EditorWindow,Prowl.Editor.Docking.DockNode,Prowl.Editor.Docking.DockZone,System.Double)
+  commentId: M:Prowl.Editor.Docking.DockContainer.AttachWindow(Prowl.Editor.EditorWindow,Prowl.Editor.Docking.DockNode,Prowl.Editor.Docking.DockZone,System.Double)
+  id: AttachWindow(Prowl.Editor.EditorWindow,Prowl.Editor.Docking.DockNode,Prowl.Editor.Docking.DockZone,System.Double)
+  parent: Prowl.Editor.Docking.DockContainer
+  langs:
+  - csharp
+  - vb
+  name: AttachWindow(EditorWindow, DockNode, DockZone, double)
+  nameWithType: DockContainer.AttachWindow(EditorWindow, DockNode, DockZone, double)
+  fullName: Prowl.Editor.Docking.DockContainer.AttachWindow(Prowl.Editor.EditorWindow, Prowl.Editor.Docking.DockNode, Prowl.Editor.Docking.DockZone, double)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Editor/Editor/Docking/DockContainer.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: AttachWindow
+    path: ../Prowl/Prowl.Editor/Editor/Docking/DockContainer.cs
+    startLine: 233
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor.Docking
+  syntax:
+    content: public DockNode? AttachWindow(EditorWindow window, DockNode leaf, DockZone zone, double splitDistance = 0.5)
+    parameters:
+    - id: window
+      type: Prowl.Editor.EditorWindow
+    - id: leaf
+      type: Prowl.Editor.Docking.DockNode
+    - id: zone
+      type: Prowl.Editor.Docking.DockZone
+    - id: splitDistance
+      type: System.Double
+    return:
+      type: Prowl.Editor.Docking.DockNode
+    content.vb: Public Function AttachWindow(window As EditorWindow, leaf As DockNode, zone As DockZone, splitDistance As Double = 0.5) As DockNode
+  overload: Prowl.Editor.Docking.DockContainer.AttachWindow*
+  nameWithType.vb: DockContainer.AttachWindow(EditorWindow, DockNode, DockZone, Double)
+  fullName.vb: Prowl.Editor.Docking.DockContainer.AttachWindow(Prowl.Editor.EditorWindow, Prowl.Editor.Docking.DockNode, Prowl.Editor.Docking.DockZone, Double)
+  name.vb: AttachWindow(EditorWindow, DockNode, DockZone, Double)
+- uid: Prowl.Editor.Docking.DockContainer.DetachWindow(Prowl.Editor.EditorWindow)
+  commentId: M:Prowl.Editor.Docking.DockContainer.DetachWindow(Prowl.Editor.EditorWindow)
+  id: DetachWindow(Prowl.Editor.EditorWindow)
+  parent: Prowl.Editor.Docking.DockContainer
+  langs:
+  - csharp
+  - vb
+  name: DetachWindow(EditorWindow)
+  nameWithType: DockContainer.DetachWindow(EditorWindow)
+  fullName: Prowl.Editor.Docking.DockContainer.DetachWindow(Prowl.Editor.EditorWindow)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Editor/Editor/Docking/DockContainer.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: DetachWindow
+    path: ../Prowl/Prowl.Editor/Editor/Docking/DockContainer.cs
+    startLine: 291
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor.Docking
+  syntax:
+    content: public bool DetachWindow(EditorWindow window)
+    parameters:
+    - id: window
+      type: Prowl.Editor.EditorWindow
+    return:
+      type: System.Boolean
+    content.vb: Public Function DetachWindow(window As EditorWindow) As Boolean
+  overload: Prowl.Editor.Docking.DockContainer.DetachWindow*
+- uid: Prowl.Editor.Docking.DockContainer.DetachWindow(Prowl.Editor.Docking.DockNode,System.Int32)
+  commentId: M:Prowl.Editor.Docking.DockContainer.DetachWindow(Prowl.Editor.Docking.DockNode,System.Int32)
+  id: DetachWindow(Prowl.Editor.Docking.DockNode,System.Int32)
+  parent: Prowl.Editor.Docking.DockContainer
+  langs:
+  - csharp
+  - vb
+  name: DetachWindow(DockNode, int)
+  nameWithType: DockContainer.DetachWindow(DockNode, int)
+  fullName: Prowl.Editor.Docking.DockContainer.DetachWindow(Prowl.Editor.Docking.DockNode, int)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Editor/Editor/Docking/DockContainer.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: DetachWindow
+    path: ../Prowl/Prowl.Editor/Editor/Docking/DockContainer.cs
+    startLine: 304
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor.Docking
+  syntax:
+    content: public EditorWindow? DetachWindow(DockNode leaf, int index)
+    parameters:
+    - id: leaf
+      type: Prowl.Editor.Docking.DockNode
+    - id: index
+      type: System.Int32
+    return:
+      type: Prowl.Editor.EditorWindow
+    content.vb: Public Function DetachWindow(leaf As DockNode, index As Integer) As EditorWindow
+  overload: Prowl.Editor.Docking.DockContainer.DetachWindow*
+  nameWithType.vb: DockContainer.DetachWindow(DockNode, Integer)
+  fullName.vb: Prowl.Editor.Docking.DockContainer.DetachWindow(Prowl.Editor.Docking.DockNode, Integer)
+  name.vb: DetachWindow(DockNode, Integer)
+- uid: Prowl.Editor.Docking.DockContainer.GetWindows
+  commentId: M:Prowl.Editor.Docking.DockContainer.GetWindows
+  id: GetWindows
+  parent: Prowl.Editor.Docking.DockContainer
+  langs:
+  - csharp
+  - vb
+  name: GetWindows()
+  nameWithType: DockContainer.GetWindows()
+  fullName: Prowl.Editor.Docking.DockContainer.GetWindows()
+  type: Method
+  source:
+    remote:
+      path: Prowl.Editor/Editor/Docking/DockContainer.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: GetWindows
+    path: ../Prowl/Prowl.Editor/Editor/Docking/DockContainer.cs
+    startLine: 344
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor.Docking
+  syntax:
+    content: public List<EditorWindow> GetWindows()
+    return:
+      type: System.Collections.Generic.List{Prowl.Editor.EditorWindow}
+    content.vb: Public Function GetWindows() As List(Of EditorWindow)
+  overload: Prowl.Editor.Docking.DockContainer.GetWindows*
+- uid: Prowl.Editor.Docking.DockContainer.FindParent(Prowl.Editor.Docking.DockNode)
+  commentId: M:Prowl.Editor.Docking.DockContainer.FindParent(Prowl.Editor.Docking.DockNode)
+  id: FindParent(Prowl.Editor.Docking.DockNode)
+  parent: Prowl.Editor.Docking.DockContainer
+  langs:
+  - csharp
+  - vb
+  name: FindParent(DockNode)
+  nameWithType: DockContainer.FindParent(DockNode)
+  fullName: Prowl.Editor.Docking.DockContainer.FindParent(Prowl.Editor.Docking.DockNode)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Editor/Editor/Docking/DockContainer.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: FindParent
+    path: ../Prowl/Prowl.Editor/Editor/Docking/DockContainer.cs
+    startLine: 351
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor.Docking
+  syntax:
+    content: public DockNode? FindParent(DockNode node)
+    parameters:
+    - id: node
+      type: Prowl.Editor.Docking.DockNode
+    return:
+      type: Prowl.Editor.Docking.DockNode
+    content.vb: Public Function FindParent(node As DockNode) As DockNode
+  overload: Prowl.Editor.Docking.DockContainer.FindParent*
+- uid: Prowl.Editor.Docking.DockContainer.AttachWindowAt(Prowl.Editor.EditorWindow,System.Double,System.Double)
+  commentId: M:Prowl.Editor.Docking.DockContainer.AttachWindowAt(Prowl.Editor.EditorWindow,System.Double,System.Double)
+  id: AttachWindowAt(Prowl.Editor.EditorWindow,System.Double,System.Double)
+  parent: Prowl.Editor.Docking.DockContainer
+  langs:
+  - csharp
+  - vb
+  name: AttachWindowAt(EditorWindow, double, double)
+  nameWithType: DockContainer.AttachWindowAt(EditorWindow, double, double)
+  fullName: Prowl.Editor.Docking.DockContainer.AttachWindowAt(Prowl.Editor.EditorWindow, double, double)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Editor/Editor/Docking/DockContainer.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: AttachWindowAt
+    path: ../Prowl/Prowl.Editor/Editor/Docking/DockContainer.cs
+    startLine: 359
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor.Docking
+  syntax:
+    content: public bool AttachWindowAt(EditorWindow window, double x, double y)
+    parameters:
+    - id: window
+      type: Prowl.Editor.EditorWindow
+    - id: x
+      type: System.Double
+    - id: y
+      type: System.Double
+    return:
+      type: System.Boolean
+    content.vb: Public Function AttachWindowAt(window As EditorWindow, x As Double, y As Double) As Boolean
+  overload: Prowl.Editor.Docking.DockContainer.AttachWindowAt*
+  nameWithType.vb: DockContainer.AttachWindowAt(EditorWindow, Double, Double)
+  fullName.vb: Prowl.Editor.Docking.DockContainer.AttachWindowAt(Prowl.Editor.EditorWindow, Double, Double)
+  name.vb: AttachWindowAt(EditorWindow, Double, Double)
+references:
+- uid: Prowl.Editor.Docking
+  commentId: N:Prowl.Editor.Docking
+  href: Prowl.html
+  name: Prowl.Editor.Docking
+  nameWithType: Prowl.Editor.Docking
+  fullName: Prowl.Editor.Docking
+  spec.csharp:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Editor
+    name: Editor
+    href: Prowl.Editor.html
+  - name: .
+  - uid: Prowl.Editor.Docking
+    name: Docking
+    href: Prowl.Editor.Docking.html
+  spec.vb:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Editor
+    name: Editor
+    href: Prowl.Editor.html
+  - name: .
+  - uid: Prowl.Editor.Docking
+    name: Docking
+    href: Prowl.Editor.Docking.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Prowl.Runtime.RuntimeUtils.GetSerializableFields
+  commentId: M:Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  parent: Prowl.Runtime.RuntimeUtils
+  definition: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  name: GetSerializableFields(object)
+  nameWithType: RuntimeUtils.GetSerializableFields(object)
+  fullName: Prowl.Runtime.RuntimeUtils.GetSerializableFields(object)
+  nameWithType.vb: RuntimeUtils.GetSerializableFields(Object)
+  fullName.vb: Prowl.Runtime.RuntimeUtils.GetSerializableFields(Object)
+  name.vb: GetSerializableFields(Object)
+  spec.csharp:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  commentId: M:Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  isExternal: true
+  href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  name: GetSerializableFields(object)
+  nameWithType: RuntimeUtils.GetSerializableFields(object)
+  fullName: Prowl.Runtime.RuntimeUtils.GetSerializableFields(object)
+  nameWithType.vb: RuntimeUtils.GetSerializableFields(Object)
+  fullName.vb: Prowl.Runtime.RuntimeUtils.GetSerializableFields(Object)
+  name.vb: GetSerializableFields(Object)
+  spec.csharp:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: Prowl.Runtime.RuntimeUtils
+  commentId: T:Prowl.Runtime.RuntimeUtils
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.RuntimeUtils.html
+  name: RuntimeUtils
+  nameWithType: RuntimeUtils
+  fullName: Prowl.Runtime.RuntimeUtils
+- uid: Prowl.Runtime
+  commentId: N:Prowl.Runtime
+  href: Prowl.html
+  name: Prowl.Runtime
+  nameWithType: Prowl.Runtime
+  fullName: Prowl.Runtime
+  spec.csharp:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+  spec.vb:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+- uid: Prowl.Editor.Docking.DockNode
+  commentId: T:Prowl.Editor.Docking.DockNode
+  parent: Prowl.Editor.Docking
+  href: Prowl.Editor.Docking.DockNode.html
+  name: DockNode
+  nameWithType: DockNode
+  fullName: Prowl.Editor.Docking.DockNode
+- uid: Prowl.Editor.Docking.DockContainer.Update*
+  commentId: Overload:Prowl.Editor.Docking.DockContainer.Update
+  href: Prowl.Editor.Docking.DockContainer.html#Prowl_Editor_Docking_DockContainer_Update_Prowl_Runtime_Rect_
+  name: Update
+  nameWithType: DockContainer.Update
+  fullName: Prowl.Editor.Docking.DockContainer.Update
+- uid: Prowl.Runtime.Rect
+  commentId: T:Prowl.Runtime.Rect
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.Rect.html
+  name: Rect
+  nameWithType: Rect
+  fullName: Prowl.Runtime.Rect
+- uid: Prowl.Editor.Docking.DockContainer.TraceLeaf*
+  commentId: Overload:Prowl.Editor.Docking.DockContainer.TraceLeaf
+  href: Prowl.Editor.Docking.DockContainer.html#Prowl_Editor_Docking_DockContainer_TraceLeaf_System_Double_System_Double_
+  name: TraceLeaf
+  nameWithType: DockContainer.TraceLeaf
+  fullName: Prowl.Editor.Docking.DockContainer.TraceLeaf
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.double
+  name: double
+  nameWithType: double
+  fullName: double
+  nameWithType.vb: Double
+  fullName.vb: Double
+  name.vb: Double
+- uid: Prowl.Editor.Docking.DockContainer.GetPlacement*
+  commentId: Overload:Prowl.Editor.Docking.DockContainer.GetPlacement
+  href: Prowl.Editor.Docking.DockContainer.html#Prowl_Editor_Docking_DockContainer_GetPlacement_System_Double_System_Double_System_Collections_Generic_List_Prowl_Runtime_Rect___Prowl_Runtime_Rect__
+  name: GetPlacement
+  nameWithType: DockContainer.GetPlacement
+  fullName: Prowl.Editor.Docking.DockContainer.GetPlacement
+- uid: System.Collections.Generic.List{Prowl.Runtime.Rect}
+  commentId: T:System.Collections.Generic.List{Prowl.Runtime.Rect}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<Rect>
+  nameWithType: List<Rect>
+  fullName: System.Collections.Generic.List<Prowl.Runtime.Rect>
+  nameWithType.vb: List(Of Rect)
+  fullName.vb: System.Collections.Generic.List(Of Prowl.Runtime.Rect)
+  name.vb: List(Of Rect)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - uid: Prowl.Runtime.Rect
+    name: Rect
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Prowl.Runtime.Rect
+    name: Rect
+  - name: )
+- uid: Prowl.Editor.Docking.DockPlacement
+  commentId: T:Prowl.Editor.Docking.DockPlacement
+  parent: Prowl.Editor.Docking
+  href: Prowl.Editor.Docking.DockPlacement.html
+  name: DockPlacement
+  nameWithType: DockPlacement
+  fullName: Prowl.Editor.Docking.DockPlacement
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: Prowl.Editor.Docking.DockContainer.AttachWindow*
+  commentId: Overload:Prowl.Editor.Docking.DockContainer.AttachWindow
+  href: Prowl.Editor.Docking.DockContainer.html#Prowl_Editor_Docking_DockContainer_AttachWindow_Prowl_Editor_EditorWindow_Prowl_Editor_Docking_DockNode_Prowl_Editor_Docking_DockZone_System_Double_
+  name: AttachWindow
+  nameWithType: DockContainer.AttachWindow
+  fullName: Prowl.Editor.Docking.DockContainer.AttachWindow
+- uid: Prowl.Editor.EditorWindow
+  commentId: T:Prowl.Editor.EditorWindow
+  parent: Prowl.Editor
+  href: Prowl.Editor.EditorWindow.html
+  name: EditorWindow
+  nameWithType: EditorWindow
+  fullName: Prowl.Editor.EditorWindow
+- uid: Prowl.Editor.Docking.DockZone
+  commentId: T:Prowl.Editor.Docking.DockZone
+  parent: Prowl.Editor.Docking
+  href: Prowl.Editor.Docking.DockZone.html
+  name: DockZone
+  nameWithType: DockZone
+  fullName: Prowl.Editor.Docking.DockZone
+- uid: Prowl.Editor
+  commentId: N:Prowl.Editor
+  href: Prowl.html
+  name: Prowl.Editor
+  nameWithType: Prowl.Editor
+  fullName: Prowl.Editor
+  spec.csharp:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Editor
+    name: Editor
+    href: Prowl.Editor.html
+  spec.vb:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Editor
+    name: Editor
+    href: Prowl.Editor.html
+- uid: Prowl.Editor.Docking.DockContainer.DetachWindow*
+  commentId: Overload:Prowl.Editor.Docking.DockContainer.DetachWindow
+  href: Prowl.Editor.Docking.DockContainer.html#Prowl_Editor_Docking_DockContainer_DetachWindow_Prowl_Editor_EditorWindow_
+  name: DetachWindow
+  nameWithType: DockContainer.DetachWindow
+  fullName: Prowl.Editor.Docking.DockContainer.DetachWindow
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: Prowl.Editor.Docking.DockContainer.GetWindows*
+  commentId: Overload:Prowl.Editor.Docking.DockContainer.GetWindows
+  href: Prowl.Editor.Docking.DockContainer.html#Prowl_Editor_Docking_DockContainer_GetWindows
+  name: GetWindows
+  nameWithType: DockContainer.GetWindows
+  fullName: Prowl.Editor.Docking.DockContainer.GetWindows
+- uid: System.Collections.Generic.List{Prowl.Editor.EditorWindow}
+  commentId: T:System.Collections.Generic.List{Prowl.Editor.EditorWindow}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<EditorWindow>
+  nameWithType: List<EditorWindow>
+  fullName: System.Collections.Generic.List<Prowl.Editor.EditorWindow>
+  nameWithType.vb: List(Of EditorWindow)
+  fullName.vb: System.Collections.Generic.List(Of Prowl.Editor.EditorWindow)
+  name.vb: List(Of EditorWindow)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - uid: Prowl.Editor.EditorWindow
+    name: EditorWindow
+    href: Prowl.Editor.EditorWindow.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Prowl.Editor.EditorWindow
+    name: EditorWindow
+    href: Prowl.Editor.EditorWindow.html
+  - name: )
+- uid: Prowl.Editor.Docking.DockContainer.FindParent*
+  commentId: Overload:Prowl.Editor.Docking.DockContainer.FindParent
+  href: Prowl.Editor.Docking.DockContainer.html#Prowl_Editor_Docking_DockContainer_FindParent_Prowl_Editor_Docking_DockNode_
+  name: FindParent
+  nameWithType: DockContainer.FindParent
+  fullName: Prowl.Editor.Docking.DockContainer.FindParent
+- uid: Prowl.Editor.Docking.DockContainer.AttachWindowAt*
+  commentId: Overload:Prowl.Editor.Docking.DockContainer.AttachWindowAt
+  href: Prowl.Editor.Docking.DockContainer.html#Prowl_Editor_Docking_DockContainer_AttachWindowAt_Prowl_Editor_EditorWindow_System_Double_System_Double_
+  name: AttachWindowAt
+  nameWithType: DockContainer.AttachWindowAt
+  fullName: Prowl.Editor.Docking.DockContainer.AttachWindowAt

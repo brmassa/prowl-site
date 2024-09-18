@@ -1,0 +1,658 @@
+### YamlMime:ManagedReference
+items:
+- uid: Prowl.Runtime.Serializer
+  commentId: T:Prowl.Runtime.Serializer
+  id: Serializer
+  parent: Prowl.Runtime
+  children:
+  - Prowl.Runtime.Serializer.Deserialize(Prowl.Runtime.SerializedProperty,System.Type)
+  - Prowl.Runtime.Serializer.Deserialize(Prowl.Runtime.SerializedProperty,System.Type,Prowl.Runtime.Serializer.SerializationContext)
+  - Prowl.Runtime.Serializer.DeserializeInto(Prowl.Runtime.SerializedProperty,System.Object)
+  - Prowl.Runtime.Serializer.DeserializeInto(Prowl.Runtime.SerializedProperty,System.Object,Prowl.Runtime.Serializer.SerializationContext)
+  - Prowl.Runtime.Serializer.Deserialize``1(Prowl.Runtime.SerializedProperty)
+  - Prowl.Runtime.Serializer.Deserialize``1(Prowl.Runtime.SerializedProperty,Prowl.Runtime.Serializer.SerializationContext)
+  - Prowl.Runtime.Serializer.Serialize(System.Object)
+  - Prowl.Runtime.Serializer.Serialize(System.Object,Prowl.Runtime.Serializer.SerializationContext)
+  langs:
+  - csharp
+  - vb
+  name: Serializer
+  nameWithType: Serializer
+  fullName: Prowl.Runtime.Serializer
+  type: Class
+  source:
+    remote:
+      path: Prowl.Runtime/Serializer/Serializer.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Serializer
+    path: ../Prowl/Prowl.Runtime/Serializer/Serializer.cs
+    startLine: 40
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public static class Serializer
+    content.vb: Public Module Serializer
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: Prowl.Runtime.Serializer.Serialize(System.Object)
+  commentId: M:Prowl.Runtime.Serializer.Serialize(System.Object)
+  id: Serialize(System.Object)
+  parent: Prowl.Runtime.Serializer
+  langs:
+  - csharp
+  - vb
+  name: Serialize(object?)
+  nameWithType: Serializer.Serialize(object?)
+  fullName: Prowl.Runtime.Serializer.Serialize(object?)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Serializer/Serializer.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Serialize
+    path: ../Prowl/Prowl.Runtime/Serializer/Serializer.cs
+    startLine: 89
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public static SerializedProperty Serialize(object? value)
+    parameters:
+    - id: value
+      type: System.Object
+    return:
+      type: Prowl.Runtime.SerializedProperty
+    content.vb: Public Shared Function Serialize(value As Object) As SerializedProperty
+  overload: Prowl.Runtime.Serializer.Serialize*
+  nameWithType.vb: Serializer.Serialize(Object)
+  fullName.vb: Prowl.Runtime.Serializer.Serialize(Object)
+  name.vb: Serialize(Object)
+- uid: Prowl.Runtime.Serializer.Serialize(System.Object,Prowl.Runtime.Serializer.SerializationContext)
+  commentId: M:Prowl.Runtime.Serializer.Serialize(System.Object,Prowl.Runtime.Serializer.SerializationContext)
+  id: Serialize(System.Object,Prowl.Runtime.Serializer.SerializationContext)
+  parent: Prowl.Runtime.Serializer
+  langs:
+  - csharp
+  - vb
+  name: Serialize(object?, SerializationContext)
+  nameWithType: Serializer.Serialize(object?, Serializer.SerializationContext)
+  fullName: Prowl.Runtime.Serializer.Serialize(object?, Prowl.Runtime.Serializer.SerializationContext)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Serializer/Serializer.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Serialize
+    path: ../Prowl/Prowl.Runtime/Serializer/Serializer.cs
+    startLine: 90
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public static SerializedProperty Serialize(object? value, Serializer.SerializationContext ctx)
+    parameters:
+    - id: value
+      type: System.Object
+    - id: ctx
+      type: Prowl.Runtime.Serializer.SerializationContext
+    return:
+      type: Prowl.Runtime.SerializedProperty
+    content.vb: Public Shared Function Serialize(value As Object, ctx As Serializer.SerializationContext) As SerializedProperty
+  overload: Prowl.Runtime.Serializer.Serialize*
+  nameWithType.vb: Serializer.Serialize(Object, Serializer.SerializationContext)
+  fullName.vb: Prowl.Runtime.Serializer.Serialize(Object, Prowl.Runtime.Serializer.SerializationContext)
+  name.vb: Serialize(Object, SerializationContext)
+- uid: Prowl.Runtime.Serializer.Deserialize``1(Prowl.Runtime.SerializedProperty)
+  commentId: M:Prowl.Runtime.Serializer.Deserialize``1(Prowl.Runtime.SerializedProperty)
+  id: Deserialize``1(Prowl.Runtime.SerializedProperty)
+  parent: Prowl.Runtime.Serializer
+  langs:
+  - csharp
+  - vb
+  name: Deserialize<T>(SerializedProperty)
+  nameWithType: Serializer.Deserialize<T>(SerializedProperty)
+  fullName: Prowl.Runtime.Serializer.Deserialize<T>(Prowl.Runtime.SerializedProperty)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Serializer/Serializer.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Deserialize
+    path: ../Prowl/Prowl.Runtime/Serializer/Serializer.cs
+    startLine: 236
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public static T? Deserialize<T>(SerializedProperty value)
+    parameters:
+    - id: value
+      type: Prowl.Runtime.SerializedProperty
+    typeParameters:
+    - id: T
+    return:
+      type: '{T}'
+    content.vb: Public Shared Function Deserialize(Of T)(value As SerializedProperty) As T
+  overload: Prowl.Runtime.Serializer.Deserialize*
+  nameWithType.vb: Serializer.Deserialize(Of T)(SerializedProperty)
+  fullName.vb: Prowl.Runtime.Serializer.Deserialize(Of T)(Prowl.Runtime.SerializedProperty)
+  name.vb: Deserialize(Of T)(SerializedProperty)
+- uid: Prowl.Runtime.Serializer.Deserialize(Prowl.Runtime.SerializedProperty,System.Type)
+  commentId: M:Prowl.Runtime.Serializer.Deserialize(Prowl.Runtime.SerializedProperty,System.Type)
+  id: Deserialize(Prowl.Runtime.SerializedProperty,System.Type)
+  parent: Prowl.Runtime.Serializer
+  langs:
+  - csharp
+  - vb
+  name: Deserialize(SerializedProperty, Type)
+  nameWithType: Serializer.Deserialize(SerializedProperty, Type)
+  fullName: Prowl.Runtime.Serializer.Deserialize(Prowl.Runtime.SerializedProperty, System.Type)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Serializer/Serializer.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Deserialize
+    path: ../Prowl/Prowl.Runtime/Serializer/Serializer.cs
+    startLine: 238
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public static object? Deserialize(SerializedProperty value, Type type)
+    parameters:
+    - id: value
+      type: Prowl.Runtime.SerializedProperty
+    - id: type
+      type: System.Type
+    return:
+      type: System.Object
+    content.vb: Public Shared Function Deserialize(value As SerializedProperty, type As Type) As Object
+  overload: Prowl.Runtime.Serializer.Deserialize*
+- uid: Prowl.Runtime.Serializer.Deserialize``1(Prowl.Runtime.SerializedProperty,Prowl.Runtime.Serializer.SerializationContext)
+  commentId: M:Prowl.Runtime.Serializer.Deserialize``1(Prowl.Runtime.SerializedProperty,Prowl.Runtime.Serializer.SerializationContext)
+  id: Deserialize``1(Prowl.Runtime.SerializedProperty,Prowl.Runtime.Serializer.SerializationContext)
+  parent: Prowl.Runtime.Serializer
+  langs:
+  - csharp
+  - vb
+  name: Deserialize<T>(SerializedProperty, SerializationContext)
+  nameWithType: Serializer.Deserialize<T>(SerializedProperty, Serializer.SerializationContext)
+  fullName: Prowl.Runtime.Serializer.Deserialize<T>(Prowl.Runtime.SerializedProperty, Prowl.Runtime.Serializer.SerializationContext)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Serializer/Serializer.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Deserialize
+    path: ../Prowl/Prowl.Runtime/Serializer/Serializer.cs
+    startLine: 240
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public static T? Deserialize<T>(SerializedProperty value, Serializer.SerializationContext ctx)
+    parameters:
+    - id: value
+      type: Prowl.Runtime.SerializedProperty
+    - id: ctx
+      type: Prowl.Runtime.Serializer.SerializationContext
+    typeParameters:
+    - id: T
+    return:
+      type: '{T}'
+    content.vb: Public Shared Function Deserialize(Of T)(value As SerializedProperty, ctx As Serializer.SerializationContext) As T
+  overload: Prowl.Runtime.Serializer.Deserialize*
+  nameWithType.vb: Serializer.Deserialize(Of T)(SerializedProperty, Serializer.SerializationContext)
+  fullName.vb: Prowl.Runtime.Serializer.Deserialize(Of T)(Prowl.Runtime.SerializedProperty, Prowl.Runtime.Serializer.SerializationContext)
+  name.vb: Deserialize(Of T)(SerializedProperty, SerializationContext)
+- uid: Prowl.Runtime.Serializer.Deserialize(Prowl.Runtime.SerializedProperty,System.Type,Prowl.Runtime.Serializer.SerializationContext)
+  commentId: M:Prowl.Runtime.Serializer.Deserialize(Prowl.Runtime.SerializedProperty,System.Type,Prowl.Runtime.Serializer.SerializationContext)
+  id: Deserialize(Prowl.Runtime.SerializedProperty,System.Type,Prowl.Runtime.Serializer.SerializationContext)
+  parent: Prowl.Runtime.Serializer
+  langs:
+  - csharp
+  - vb
+  name: Deserialize(SerializedProperty, Type, SerializationContext)
+  nameWithType: Serializer.Deserialize(SerializedProperty, Type, Serializer.SerializationContext)
+  fullName: Prowl.Runtime.Serializer.Deserialize(Prowl.Runtime.SerializedProperty, System.Type, Prowl.Runtime.Serializer.SerializationContext)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Serializer/Serializer.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Deserialize
+    path: ../Prowl/Prowl.Runtime/Serializer/Serializer.cs
+    startLine: 241
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public static object? Deserialize(SerializedProperty value, Type targetType, Serializer.SerializationContext ctx)
+    parameters:
+    - id: value
+      type: Prowl.Runtime.SerializedProperty
+    - id: targetType
+      type: System.Type
+    - id: ctx
+      type: Prowl.Runtime.Serializer.SerializationContext
+    return:
+      type: System.Object
+    content.vb: Public Shared Function Deserialize(value As SerializedProperty, targetType As Type, ctx As Serializer.SerializationContext) As Object
+  overload: Prowl.Runtime.Serializer.Deserialize*
+- uid: Prowl.Runtime.Serializer.DeserializeInto(Prowl.Runtime.SerializedProperty,System.Object)
+  commentId: M:Prowl.Runtime.Serializer.DeserializeInto(Prowl.Runtime.SerializedProperty,System.Object)
+  id: DeserializeInto(Prowl.Runtime.SerializedProperty,System.Object)
+  parent: Prowl.Runtime.Serializer
+  langs:
+  - csharp
+  - vb
+  name: DeserializeInto(SerializedProperty, object)
+  nameWithType: Serializer.DeserializeInto(SerializedProperty, object)
+  fullName: Prowl.Runtime.Serializer.DeserializeInto(Prowl.Runtime.SerializedProperty, object)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Serializer/Serializer.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: DeserializeInto
+    path: ../Prowl/Prowl.Runtime/Serializer/Serializer.cs
+    startLine: 371
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public static object DeserializeInto(SerializedProperty tag, object into)
+    parameters:
+    - id: tag
+      type: Prowl.Runtime.SerializedProperty
+    - id: into
+      type: System.Object
+    return:
+      type: System.Object
+    content.vb: Public Shared Function DeserializeInto(tag As SerializedProperty, into As Object) As Object
+  overload: Prowl.Runtime.Serializer.DeserializeInto*
+  nameWithType.vb: Serializer.DeserializeInto(SerializedProperty, Object)
+  fullName.vb: Prowl.Runtime.Serializer.DeserializeInto(Prowl.Runtime.SerializedProperty, Object)
+  name.vb: DeserializeInto(SerializedProperty, Object)
+- uid: Prowl.Runtime.Serializer.DeserializeInto(Prowl.Runtime.SerializedProperty,System.Object,Prowl.Runtime.Serializer.SerializationContext)
+  commentId: M:Prowl.Runtime.Serializer.DeserializeInto(Prowl.Runtime.SerializedProperty,System.Object,Prowl.Runtime.Serializer.SerializationContext)
+  id: DeserializeInto(Prowl.Runtime.SerializedProperty,System.Object,Prowl.Runtime.Serializer.SerializationContext)
+  parent: Prowl.Runtime.Serializer
+  langs:
+  - csharp
+  - vb
+  name: DeserializeInto(SerializedProperty, object, SerializationContext)
+  nameWithType: Serializer.DeserializeInto(SerializedProperty, object, Serializer.SerializationContext)
+  fullName: Prowl.Runtime.Serializer.DeserializeInto(Prowl.Runtime.SerializedProperty, object, Prowl.Runtime.Serializer.SerializationContext)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Serializer/Serializer.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: DeserializeInto
+    path: ../Prowl/Prowl.Runtime/Serializer/Serializer.cs
+    startLine: 372
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public static object DeserializeInto(SerializedProperty tag, object into, Serializer.SerializationContext ctx)
+    parameters:
+    - id: tag
+      type: Prowl.Runtime.SerializedProperty
+    - id: into
+      type: System.Object
+    - id: ctx
+      type: Prowl.Runtime.Serializer.SerializationContext
+    return:
+      type: System.Object
+    content.vb: Public Shared Function DeserializeInto(tag As SerializedProperty, into As Object, ctx As Serializer.SerializationContext) As Object
+  overload: Prowl.Runtime.Serializer.DeserializeInto*
+  nameWithType.vb: Serializer.DeserializeInto(SerializedProperty, Object, Serializer.SerializationContext)
+  fullName.vb: Prowl.Runtime.Serializer.DeserializeInto(Prowl.Runtime.SerializedProperty, Object, Prowl.Runtime.Serializer.SerializationContext)
+  name.vb: DeserializeInto(SerializedProperty, Object, SerializationContext)
+references:
+- uid: Prowl.Runtime
+  commentId: N:Prowl.Runtime
+  href: Prowl.html
+  name: Prowl.Runtime
+  nameWithType: Prowl.Runtime
+  fullName: Prowl.Runtime
+  spec.csharp:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+  spec.vb:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Prowl.Runtime.Serializer.Serialize*
+  commentId: Overload:Prowl.Runtime.Serializer.Serialize
+  href: Prowl.Runtime.Serializer.html#Prowl_Runtime_Serializer_Serialize_System_Object_
+  name: Serialize
+  nameWithType: Serializer.Serialize
+  fullName: Prowl.Runtime.Serializer.Serialize
+- uid: Prowl.Runtime.SerializedProperty
+  commentId: T:Prowl.Runtime.SerializedProperty
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.SerializedProperty.html
+  name: SerializedProperty
+  nameWithType: SerializedProperty
+  fullName: Prowl.Runtime.SerializedProperty
+- uid: Prowl.Runtime.Serializer.SerializationContext
+  commentId: T:Prowl.Runtime.Serializer.SerializationContext
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.Serializer.html
+  name: Serializer.SerializationContext
+  nameWithType: Serializer.SerializationContext
+  fullName: Prowl.Runtime.Serializer.SerializationContext
+  spec.csharp:
+  - uid: Prowl.Runtime.Serializer
+    name: Serializer
+    href: Prowl.Runtime.Serializer.html
+  - name: .
+  - uid: Prowl.Runtime.Serializer.SerializationContext
+    name: SerializationContext
+    href: Prowl.Runtime.Serializer.SerializationContext.html
+  spec.vb:
+  - uid: Prowl.Runtime.Serializer
+    name: Serializer
+    href: Prowl.Runtime.Serializer.html
+  - name: .
+  - uid: Prowl.Runtime.Serializer.SerializationContext
+    name: SerializationContext
+    href: Prowl.Runtime.Serializer.SerializationContext.html
+- uid: Prowl.Runtime.Serializer.Deserialize*
+  commentId: Overload:Prowl.Runtime.Serializer.Deserialize
+  href: Prowl.Runtime.Serializer.html#Prowl_Runtime_Serializer_Deserialize__1_Prowl_Runtime_SerializedProperty_
+  name: Deserialize
+  nameWithType: Serializer.Deserialize
+  fullName: Prowl.Runtime.Serializer.Deserialize
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: System.Type
+  commentId: T:System.Type
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.type
+  name: Type
+  nameWithType: Type
+  fullName: System.Type
+- uid: Prowl.Runtime.Serializer.DeserializeInto*
+  commentId: Overload:Prowl.Runtime.Serializer.DeserializeInto
+  href: Prowl.Runtime.Serializer.html#Prowl_Runtime_Serializer_DeserializeInto_Prowl_Runtime_SerializedProperty_System_Object_
+  name: DeserializeInto
+  nameWithType: Serializer.DeserializeInto
+  fullName: Prowl.Runtime.Serializer.DeserializeInto

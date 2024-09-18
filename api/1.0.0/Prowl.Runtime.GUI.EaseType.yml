@@ -1,0 +1,995 @@
+### YamlMime:ManagedReference
+items:
+- uid: Prowl.Runtime.GUI.EaseType
+  commentId: T:Prowl.Runtime.GUI.EaseType
+  id: EaseType
+  parent: Prowl.Runtime.GUI
+  children:
+  - Prowl.Runtime.GUI.EaseType.BackIn
+  - Prowl.Runtime.GUI.EaseType.BackInOut
+  - Prowl.Runtime.GUI.EaseType.BackOut
+  - Prowl.Runtime.GUI.EaseType.BounceIn
+  - Prowl.Runtime.GUI.EaseType.BounceInOut
+  - Prowl.Runtime.GUI.EaseType.BounceOut
+  - Prowl.Runtime.GUI.EaseType.CircIn
+  - Prowl.Runtime.GUI.EaseType.CircInOut
+  - Prowl.Runtime.GUI.EaseType.CircOut
+  - Prowl.Runtime.GUI.EaseType.CubicIn
+  - Prowl.Runtime.GUI.EaseType.CubicInOut
+  - Prowl.Runtime.GUI.EaseType.CubicOut
+  - Prowl.Runtime.GUI.EaseType.ElasticIn
+  - Prowl.Runtime.GUI.EaseType.ElasticInOut
+  - Prowl.Runtime.GUI.EaseType.ElasticOut
+  - Prowl.Runtime.GUI.EaseType.ExpoIn
+  - Prowl.Runtime.GUI.EaseType.ExpoInOut
+  - Prowl.Runtime.GUI.EaseType.ExpoOut
+  - Prowl.Runtime.GUI.EaseType.Linear
+  - Prowl.Runtime.GUI.EaseType.QuadIn
+  - Prowl.Runtime.GUI.EaseType.QuadInOut
+  - Prowl.Runtime.GUI.EaseType.QuadOut
+  - Prowl.Runtime.GUI.EaseType.QuartIn
+  - Prowl.Runtime.GUI.EaseType.QuartInOut
+  - Prowl.Runtime.GUI.EaseType.QuartOut
+  - Prowl.Runtime.GUI.EaseType.QuintIn
+  - Prowl.Runtime.GUI.EaseType.QuintInOut
+  - Prowl.Runtime.GUI.EaseType.QuintOut
+  - Prowl.Runtime.GUI.EaseType.SineIn
+  - Prowl.Runtime.GUI.EaseType.SineInOut
+  - Prowl.Runtime.GUI.EaseType.SineOut
+  langs:
+  - csharp
+  - vb
+  name: EaseType
+  nameWithType: EaseType
+  fullName: Prowl.Runtime.GUI.EaseType
+  type: Enum
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Gui.Animation.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: EaseType
+    path: ../Prowl/Prowl.Runtime/GUI/Gui.Animation.cs
+    startLine: 10
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  syntax:
+    content: public enum EaseType
+    content.vb: Public Enum EaseType
+  extensionMethods:
+  - System.Object.Prowl.Runtime.RuntimeUtils.GetSerializableFields
+- uid: Prowl.Runtime.GUI.EaseType.Linear
+  commentId: F:Prowl.Runtime.GUI.EaseType.Linear
+  id: Linear
+  parent: Prowl.Runtime.GUI.EaseType
+  langs:
+  - csharp
+  - vb
+  name: Linear
+  nameWithType: EaseType.Linear
+  fullName: Prowl.Runtime.GUI.EaseType.Linear
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Gui.Animation.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Linear
+    path: ../Prowl/Prowl.Runtime/GUI/Gui.Animation.cs
+    startLine: 12
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  syntax:
+    content: Linear = 0
+    return:
+      type: Prowl.Runtime.GUI.EaseType
+- uid: Prowl.Runtime.GUI.EaseType.SineIn
+  commentId: F:Prowl.Runtime.GUI.EaseType.SineIn
+  id: SineIn
+  parent: Prowl.Runtime.GUI.EaseType
+  langs:
+  - csharp
+  - vb
+  name: SineIn
+  nameWithType: EaseType.SineIn
+  fullName: Prowl.Runtime.GUI.EaseType.SineIn
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Gui.Animation.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: SineIn
+    path: ../Prowl/Prowl.Runtime/GUI/Gui.Animation.cs
+    startLine: 13
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  syntax:
+    content: SineIn = 10
+    return:
+      type: Prowl.Runtime.GUI.EaseType
+- uid: Prowl.Runtime.GUI.EaseType.SineOut
+  commentId: F:Prowl.Runtime.GUI.EaseType.SineOut
+  id: SineOut
+  parent: Prowl.Runtime.GUI.EaseType
+  langs:
+  - csharp
+  - vb
+  name: SineOut
+  nameWithType: EaseType.SineOut
+  fullName: Prowl.Runtime.GUI.EaseType.SineOut
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Gui.Animation.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: SineOut
+    path: ../Prowl/Prowl.Runtime/GUI/Gui.Animation.cs
+    startLine: 14
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  syntax:
+    content: SineOut = 11
+    return:
+      type: Prowl.Runtime.GUI.EaseType
+- uid: Prowl.Runtime.GUI.EaseType.SineInOut
+  commentId: F:Prowl.Runtime.GUI.EaseType.SineInOut
+  id: SineInOut
+  parent: Prowl.Runtime.GUI.EaseType
+  langs:
+  - csharp
+  - vb
+  name: SineInOut
+  nameWithType: EaseType.SineInOut
+  fullName: Prowl.Runtime.GUI.EaseType.SineInOut
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Gui.Animation.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: SineInOut
+    path: ../Prowl/Prowl.Runtime/GUI/Gui.Animation.cs
+    startLine: 15
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  syntax:
+    content: SineInOut = 12
+    return:
+      type: Prowl.Runtime.GUI.EaseType
+- uid: Prowl.Runtime.GUI.EaseType.QuadIn
+  commentId: F:Prowl.Runtime.GUI.EaseType.QuadIn
+  id: QuadIn
+  parent: Prowl.Runtime.GUI.EaseType
+  langs:
+  - csharp
+  - vb
+  name: QuadIn
+  nameWithType: EaseType.QuadIn
+  fullName: Prowl.Runtime.GUI.EaseType.QuadIn
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Gui.Animation.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: QuadIn
+    path: ../Prowl/Prowl.Runtime/GUI/Gui.Animation.cs
+    startLine: 16
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  syntax:
+    content: QuadIn = 20
+    return:
+      type: Prowl.Runtime.GUI.EaseType
+- uid: Prowl.Runtime.GUI.EaseType.QuadOut
+  commentId: F:Prowl.Runtime.GUI.EaseType.QuadOut
+  id: QuadOut
+  parent: Prowl.Runtime.GUI.EaseType
+  langs:
+  - csharp
+  - vb
+  name: QuadOut
+  nameWithType: EaseType.QuadOut
+  fullName: Prowl.Runtime.GUI.EaseType.QuadOut
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Gui.Animation.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: QuadOut
+    path: ../Prowl/Prowl.Runtime/GUI/Gui.Animation.cs
+    startLine: 17
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  syntax:
+    content: QuadOut = 21
+    return:
+      type: Prowl.Runtime.GUI.EaseType
+- uid: Prowl.Runtime.GUI.EaseType.QuadInOut
+  commentId: F:Prowl.Runtime.GUI.EaseType.QuadInOut
+  id: QuadInOut
+  parent: Prowl.Runtime.GUI.EaseType
+  langs:
+  - csharp
+  - vb
+  name: QuadInOut
+  nameWithType: EaseType.QuadInOut
+  fullName: Prowl.Runtime.GUI.EaseType.QuadInOut
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Gui.Animation.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: QuadInOut
+    path: ../Prowl/Prowl.Runtime/GUI/Gui.Animation.cs
+    startLine: 18
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  syntax:
+    content: QuadInOut = 22
+    return:
+      type: Prowl.Runtime.GUI.EaseType
+- uid: Prowl.Runtime.GUI.EaseType.CubicIn
+  commentId: F:Prowl.Runtime.GUI.EaseType.CubicIn
+  id: CubicIn
+  parent: Prowl.Runtime.GUI.EaseType
+  langs:
+  - csharp
+  - vb
+  name: CubicIn
+  nameWithType: EaseType.CubicIn
+  fullName: Prowl.Runtime.GUI.EaseType.CubicIn
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Gui.Animation.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: CubicIn
+    path: ../Prowl/Prowl.Runtime/GUI/Gui.Animation.cs
+    startLine: 19
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  syntax:
+    content: CubicIn = 30
+    return:
+      type: Prowl.Runtime.GUI.EaseType
+- uid: Prowl.Runtime.GUI.EaseType.CubicOut
+  commentId: F:Prowl.Runtime.GUI.EaseType.CubicOut
+  id: CubicOut
+  parent: Prowl.Runtime.GUI.EaseType
+  langs:
+  - csharp
+  - vb
+  name: CubicOut
+  nameWithType: EaseType.CubicOut
+  fullName: Prowl.Runtime.GUI.EaseType.CubicOut
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Gui.Animation.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: CubicOut
+    path: ../Prowl/Prowl.Runtime/GUI/Gui.Animation.cs
+    startLine: 20
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  syntax:
+    content: CubicOut = 31
+    return:
+      type: Prowl.Runtime.GUI.EaseType
+- uid: Prowl.Runtime.GUI.EaseType.CubicInOut
+  commentId: F:Prowl.Runtime.GUI.EaseType.CubicInOut
+  id: CubicInOut
+  parent: Prowl.Runtime.GUI.EaseType
+  langs:
+  - csharp
+  - vb
+  name: CubicInOut
+  nameWithType: EaseType.CubicInOut
+  fullName: Prowl.Runtime.GUI.EaseType.CubicInOut
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Gui.Animation.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: CubicInOut
+    path: ../Prowl/Prowl.Runtime/GUI/Gui.Animation.cs
+    startLine: 21
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  syntax:
+    content: CubicInOut = 32
+    return:
+      type: Prowl.Runtime.GUI.EaseType
+- uid: Prowl.Runtime.GUI.EaseType.QuartIn
+  commentId: F:Prowl.Runtime.GUI.EaseType.QuartIn
+  id: QuartIn
+  parent: Prowl.Runtime.GUI.EaseType
+  langs:
+  - csharp
+  - vb
+  name: QuartIn
+  nameWithType: EaseType.QuartIn
+  fullName: Prowl.Runtime.GUI.EaseType.QuartIn
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Gui.Animation.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: QuartIn
+    path: ../Prowl/Prowl.Runtime/GUI/Gui.Animation.cs
+    startLine: 22
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  syntax:
+    content: QuartIn = 40
+    return:
+      type: Prowl.Runtime.GUI.EaseType
+- uid: Prowl.Runtime.GUI.EaseType.QuartOut
+  commentId: F:Prowl.Runtime.GUI.EaseType.QuartOut
+  id: QuartOut
+  parent: Prowl.Runtime.GUI.EaseType
+  langs:
+  - csharp
+  - vb
+  name: QuartOut
+  nameWithType: EaseType.QuartOut
+  fullName: Prowl.Runtime.GUI.EaseType.QuartOut
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Gui.Animation.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: QuartOut
+    path: ../Prowl/Prowl.Runtime/GUI/Gui.Animation.cs
+    startLine: 23
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  syntax:
+    content: QuartOut = 41
+    return:
+      type: Prowl.Runtime.GUI.EaseType
+- uid: Prowl.Runtime.GUI.EaseType.QuartInOut
+  commentId: F:Prowl.Runtime.GUI.EaseType.QuartInOut
+  id: QuartInOut
+  parent: Prowl.Runtime.GUI.EaseType
+  langs:
+  - csharp
+  - vb
+  name: QuartInOut
+  nameWithType: EaseType.QuartInOut
+  fullName: Prowl.Runtime.GUI.EaseType.QuartInOut
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Gui.Animation.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: QuartInOut
+    path: ../Prowl/Prowl.Runtime/GUI/Gui.Animation.cs
+    startLine: 24
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  syntax:
+    content: QuartInOut = 42
+    return:
+      type: Prowl.Runtime.GUI.EaseType
+- uid: Prowl.Runtime.GUI.EaseType.QuintIn
+  commentId: F:Prowl.Runtime.GUI.EaseType.QuintIn
+  id: QuintIn
+  parent: Prowl.Runtime.GUI.EaseType
+  langs:
+  - csharp
+  - vb
+  name: QuintIn
+  nameWithType: EaseType.QuintIn
+  fullName: Prowl.Runtime.GUI.EaseType.QuintIn
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Gui.Animation.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: QuintIn
+    path: ../Prowl/Prowl.Runtime/GUI/Gui.Animation.cs
+    startLine: 25
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  syntax:
+    content: QuintIn = 50
+    return:
+      type: Prowl.Runtime.GUI.EaseType
+- uid: Prowl.Runtime.GUI.EaseType.QuintOut
+  commentId: F:Prowl.Runtime.GUI.EaseType.QuintOut
+  id: QuintOut
+  parent: Prowl.Runtime.GUI.EaseType
+  langs:
+  - csharp
+  - vb
+  name: QuintOut
+  nameWithType: EaseType.QuintOut
+  fullName: Prowl.Runtime.GUI.EaseType.QuintOut
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Gui.Animation.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: QuintOut
+    path: ../Prowl/Prowl.Runtime/GUI/Gui.Animation.cs
+    startLine: 26
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  syntax:
+    content: QuintOut = 51
+    return:
+      type: Prowl.Runtime.GUI.EaseType
+- uid: Prowl.Runtime.GUI.EaseType.QuintInOut
+  commentId: F:Prowl.Runtime.GUI.EaseType.QuintInOut
+  id: QuintInOut
+  parent: Prowl.Runtime.GUI.EaseType
+  langs:
+  - csharp
+  - vb
+  name: QuintInOut
+  nameWithType: EaseType.QuintInOut
+  fullName: Prowl.Runtime.GUI.EaseType.QuintInOut
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Gui.Animation.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: QuintInOut
+    path: ../Prowl/Prowl.Runtime/GUI/Gui.Animation.cs
+    startLine: 27
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  syntax:
+    content: QuintInOut = 52
+    return:
+      type: Prowl.Runtime.GUI.EaseType
+- uid: Prowl.Runtime.GUI.EaseType.ExpoIn
+  commentId: F:Prowl.Runtime.GUI.EaseType.ExpoIn
+  id: ExpoIn
+  parent: Prowl.Runtime.GUI.EaseType
+  langs:
+  - csharp
+  - vb
+  name: ExpoIn
+  nameWithType: EaseType.ExpoIn
+  fullName: Prowl.Runtime.GUI.EaseType.ExpoIn
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Gui.Animation.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: ExpoIn
+    path: ../Prowl/Prowl.Runtime/GUI/Gui.Animation.cs
+    startLine: 28
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  syntax:
+    content: ExpoIn = 60
+    return:
+      type: Prowl.Runtime.GUI.EaseType
+- uid: Prowl.Runtime.GUI.EaseType.ExpoOut
+  commentId: F:Prowl.Runtime.GUI.EaseType.ExpoOut
+  id: ExpoOut
+  parent: Prowl.Runtime.GUI.EaseType
+  langs:
+  - csharp
+  - vb
+  name: ExpoOut
+  nameWithType: EaseType.ExpoOut
+  fullName: Prowl.Runtime.GUI.EaseType.ExpoOut
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Gui.Animation.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: ExpoOut
+    path: ../Prowl/Prowl.Runtime/GUI/Gui.Animation.cs
+    startLine: 29
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  syntax:
+    content: ExpoOut = 61
+    return:
+      type: Prowl.Runtime.GUI.EaseType
+- uid: Prowl.Runtime.GUI.EaseType.ExpoInOut
+  commentId: F:Prowl.Runtime.GUI.EaseType.ExpoInOut
+  id: ExpoInOut
+  parent: Prowl.Runtime.GUI.EaseType
+  langs:
+  - csharp
+  - vb
+  name: ExpoInOut
+  nameWithType: EaseType.ExpoInOut
+  fullName: Prowl.Runtime.GUI.EaseType.ExpoInOut
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Gui.Animation.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: ExpoInOut
+    path: ../Prowl/Prowl.Runtime/GUI/Gui.Animation.cs
+    startLine: 30
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  syntax:
+    content: ExpoInOut = 62
+    return:
+      type: Prowl.Runtime.GUI.EaseType
+- uid: Prowl.Runtime.GUI.EaseType.CircIn
+  commentId: F:Prowl.Runtime.GUI.EaseType.CircIn
+  id: CircIn
+  parent: Prowl.Runtime.GUI.EaseType
+  langs:
+  - csharp
+  - vb
+  name: CircIn
+  nameWithType: EaseType.CircIn
+  fullName: Prowl.Runtime.GUI.EaseType.CircIn
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Gui.Animation.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: CircIn
+    path: ../Prowl/Prowl.Runtime/GUI/Gui.Animation.cs
+    startLine: 31
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  syntax:
+    content: CircIn = 70
+    return:
+      type: Prowl.Runtime.GUI.EaseType
+- uid: Prowl.Runtime.GUI.EaseType.CircOut
+  commentId: F:Prowl.Runtime.GUI.EaseType.CircOut
+  id: CircOut
+  parent: Prowl.Runtime.GUI.EaseType
+  langs:
+  - csharp
+  - vb
+  name: CircOut
+  nameWithType: EaseType.CircOut
+  fullName: Prowl.Runtime.GUI.EaseType.CircOut
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Gui.Animation.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: CircOut
+    path: ../Prowl/Prowl.Runtime/GUI/Gui.Animation.cs
+    startLine: 32
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  syntax:
+    content: CircOut = 71
+    return:
+      type: Prowl.Runtime.GUI.EaseType
+- uid: Prowl.Runtime.GUI.EaseType.CircInOut
+  commentId: F:Prowl.Runtime.GUI.EaseType.CircInOut
+  id: CircInOut
+  parent: Prowl.Runtime.GUI.EaseType
+  langs:
+  - csharp
+  - vb
+  name: CircInOut
+  nameWithType: EaseType.CircInOut
+  fullName: Prowl.Runtime.GUI.EaseType.CircInOut
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Gui.Animation.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: CircInOut
+    path: ../Prowl/Prowl.Runtime/GUI/Gui.Animation.cs
+    startLine: 33
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  syntax:
+    content: CircInOut = 72
+    return:
+      type: Prowl.Runtime.GUI.EaseType
+- uid: Prowl.Runtime.GUI.EaseType.BackIn
+  commentId: F:Prowl.Runtime.GUI.EaseType.BackIn
+  id: BackIn
+  parent: Prowl.Runtime.GUI.EaseType
+  langs:
+  - csharp
+  - vb
+  name: BackIn
+  nameWithType: EaseType.BackIn
+  fullName: Prowl.Runtime.GUI.EaseType.BackIn
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Gui.Animation.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: BackIn
+    path: ../Prowl/Prowl.Runtime/GUI/Gui.Animation.cs
+    startLine: 34
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  syntax:
+    content: BackIn = 80
+    return:
+      type: Prowl.Runtime.GUI.EaseType
+- uid: Prowl.Runtime.GUI.EaseType.BackOut
+  commentId: F:Prowl.Runtime.GUI.EaseType.BackOut
+  id: BackOut
+  parent: Prowl.Runtime.GUI.EaseType
+  langs:
+  - csharp
+  - vb
+  name: BackOut
+  nameWithType: EaseType.BackOut
+  fullName: Prowl.Runtime.GUI.EaseType.BackOut
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Gui.Animation.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: BackOut
+    path: ../Prowl/Prowl.Runtime/GUI/Gui.Animation.cs
+    startLine: 35
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  syntax:
+    content: BackOut = 81
+    return:
+      type: Prowl.Runtime.GUI.EaseType
+- uid: Prowl.Runtime.GUI.EaseType.BackInOut
+  commentId: F:Prowl.Runtime.GUI.EaseType.BackInOut
+  id: BackInOut
+  parent: Prowl.Runtime.GUI.EaseType
+  langs:
+  - csharp
+  - vb
+  name: BackInOut
+  nameWithType: EaseType.BackInOut
+  fullName: Prowl.Runtime.GUI.EaseType.BackInOut
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Gui.Animation.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: BackInOut
+    path: ../Prowl/Prowl.Runtime/GUI/Gui.Animation.cs
+    startLine: 36
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  syntax:
+    content: BackInOut = 82
+    return:
+      type: Prowl.Runtime.GUI.EaseType
+- uid: Prowl.Runtime.GUI.EaseType.ElasticIn
+  commentId: F:Prowl.Runtime.GUI.EaseType.ElasticIn
+  id: ElasticIn
+  parent: Prowl.Runtime.GUI.EaseType
+  langs:
+  - csharp
+  - vb
+  name: ElasticIn
+  nameWithType: EaseType.ElasticIn
+  fullName: Prowl.Runtime.GUI.EaseType.ElasticIn
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Gui.Animation.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: ElasticIn
+    path: ../Prowl/Prowl.Runtime/GUI/Gui.Animation.cs
+    startLine: 37
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  syntax:
+    content: ElasticIn = 90
+    return:
+      type: Prowl.Runtime.GUI.EaseType
+- uid: Prowl.Runtime.GUI.EaseType.ElasticOut
+  commentId: F:Prowl.Runtime.GUI.EaseType.ElasticOut
+  id: ElasticOut
+  parent: Prowl.Runtime.GUI.EaseType
+  langs:
+  - csharp
+  - vb
+  name: ElasticOut
+  nameWithType: EaseType.ElasticOut
+  fullName: Prowl.Runtime.GUI.EaseType.ElasticOut
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Gui.Animation.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: ElasticOut
+    path: ../Prowl/Prowl.Runtime/GUI/Gui.Animation.cs
+    startLine: 38
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  syntax:
+    content: ElasticOut = 91
+    return:
+      type: Prowl.Runtime.GUI.EaseType
+- uid: Prowl.Runtime.GUI.EaseType.ElasticInOut
+  commentId: F:Prowl.Runtime.GUI.EaseType.ElasticInOut
+  id: ElasticInOut
+  parent: Prowl.Runtime.GUI.EaseType
+  langs:
+  - csharp
+  - vb
+  name: ElasticInOut
+  nameWithType: EaseType.ElasticInOut
+  fullName: Prowl.Runtime.GUI.EaseType.ElasticInOut
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Gui.Animation.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: ElasticInOut
+    path: ../Prowl/Prowl.Runtime/GUI/Gui.Animation.cs
+    startLine: 39
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  syntax:
+    content: ElasticInOut = 92
+    return:
+      type: Prowl.Runtime.GUI.EaseType
+- uid: Prowl.Runtime.GUI.EaseType.BounceIn
+  commentId: F:Prowl.Runtime.GUI.EaseType.BounceIn
+  id: BounceIn
+  parent: Prowl.Runtime.GUI.EaseType
+  langs:
+  - csharp
+  - vb
+  name: BounceIn
+  nameWithType: EaseType.BounceIn
+  fullName: Prowl.Runtime.GUI.EaseType.BounceIn
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Gui.Animation.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: BounceIn
+    path: ../Prowl/Prowl.Runtime/GUI/Gui.Animation.cs
+    startLine: 40
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  syntax:
+    content: BounceIn = 100
+    return:
+      type: Prowl.Runtime.GUI.EaseType
+- uid: Prowl.Runtime.GUI.EaseType.BounceOut
+  commentId: F:Prowl.Runtime.GUI.EaseType.BounceOut
+  id: BounceOut
+  parent: Prowl.Runtime.GUI.EaseType
+  langs:
+  - csharp
+  - vb
+  name: BounceOut
+  nameWithType: EaseType.BounceOut
+  fullName: Prowl.Runtime.GUI.EaseType.BounceOut
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Gui.Animation.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: BounceOut
+    path: ../Prowl/Prowl.Runtime/GUI/Gui.Animation.cs
+    startLine: 41
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  syntax:
+    content: BounceOut = 101
+    return:
+      type: Prowl.Runtime.GUI.EaseType
+- uid: Prowl.Runtime.GUI.EaseType.BounceInOut
+  commentId: F:Prowl.Runtime.GUI.EaseType.BounceInOut
+  id: BounceInOut
+  parent: Prowl.Runtime.GUI.EaseType
+  langs:
+  - csharp
+  - vb
+  name: BounceInOut
+  nameWithType: EaseType.BounceInOut
+  fullName: Prowl.Runtime.GUI.EaseType.BounceInOut
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Gui.Animation.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: BounceInOut
+    path: ../Prowl/Prowl.Runtime/GUI/Gui.Animation.cs
+    startLine: 42
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  syntax:
+    content: BounceInOut = 102
+    return:
+      type: Prowl.Runtime.GUI.EaseType
+references:
+- uid: Prowl.Runtime.GUI
+  commentId: N:Prowl.Runtime.GUI
+  href: Prowl.html
+  name: Prowl.Runtime.GUI
+  nameWithType: Prowl.Runtime.GUI
+  fullName: Prowl.Runtime.GUI
+  spec.csharp:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+  - name: .
+  - uid: Prowl.Runtime.GUI
+    name: GUI
+    href: Prowl.Runtime.GUI.html
+  spec.vb:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+  - name: .
+  - uid: Prowl.Runtime.GUI
+    name: GUI
+    href: Prowl.Runtime.GUI.html
+- uid: System.Object.Prowl.Runtime.RuntimeUtils.GetSerializableFields
+  commentId: M:Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  parent: Prowl.Runtime.RuntimeUtils
+  definition: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  name: GetSerializableFields(object)
+  nameWithType: RuntimeUtils.GetSerializableFields(object)
+  fullName: Prowl.Runtime.RuntimeUtils.GetSerializableFields(object)
+  nameWithType.vb: RuntimeUtils.GetSerializableFields(Object)
+  fullName.vb: Prowl.Runtime.RuntimeUtils.GetSerializableFields(Object)
+  name.vb: GetSerializableFields(Object)
+  spec.csharp:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  commentId: M:Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  isExternal: true
+  href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  name: GetSerializableFields(object)
+  nameWithType: RuntimeUtils.GetSerializableFields(object)
+  fullName: Prowl.Runtime.RuntimeUtils.GetSerializableFields(object)
+  nameWithType.vb: RuntimeUtils.GetSerializableFields(Object)
+  fullName.vb: Prowl.Runtime.RuntimeUtils.GetSerializableFields(Object)
+  name.vb: GetSerializableFields(Object)
+  spec.csharp:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: Prowl.Runtime.RuntimeUtils
+  commentId: T:Prowl.Runtime.RuntimeUtils
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.RuntimeUtils.html
+  name: RuntimeUtils
+  nameWithType: RuntimeUtils
+  fullName: Prowl.Runtime.RuntimeUtils
+- uid: Prowl.Runtime
+  commentId: N:Prowl.Runtime
+  href: Prowl.html
+  name: Prowl.Runtime
+  nameWithType: Prowl.Runtime
+  fullName: Prowl.Runtime
+  spec.csharp:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+  spec.vb:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+- uid: Prowl.Runtime.GUI.EaseType
+  commentId: T:Prowl.Runtime.GUI.EaseType
+  parent: Prowl.Runtime.GUI
+  href: Prowl.Runtime.GUI.EaseType.html
+  name: EaseType
+  nameWithType: EaseType
+  fullName: Prowl.Runtime.GUI.EaseType

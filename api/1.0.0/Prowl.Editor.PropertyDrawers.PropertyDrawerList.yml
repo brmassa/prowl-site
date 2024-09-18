@@ -1,0 +1,1538 @@
+### YamlMime:ManagedReference
+items:
+- uid: Prowl.Editor.PropertyDrawers.PropertyDrawerList
+  commentId: T:Prowl.Editor.PropertyDrawers.PropertyDrawerList
+  id: PropertyDrawerList
+  parent: Prowl.Editor.PropertyDrawers
+  children:
+  - Prowl.Editor.PropertyDrawers.PropertyDrawerList.AddElement(System.Collections.IList@)
+  - Prowl.Editor.PropertyDrawers.PropertyDrawerList.ElementType(System.Collections.IList)
+  - Prowl.Editor.PropertyDrawers.PropertyDrawerList.GetCount(System.Collections.IList)
+  - Prowl.Editor.PropertyDrawers.PropertyDrawerList.GetElement(System.Collections.IList,System.Int32)
+  - Prowl.Editor.PropertyDrawers.PropertyDrawerList.RemoveElement(System.Collections.IList@,System.Int32)
+  - Prowl.Editor.PropertyDrawers.PropertyDrawerList.SetElement(System.Collections.IList,System.Int32,System.Object)
+  langs:
+  - csharp
+  - vb
+  name: PropertyDrawerList
+  nameWithType: PropertyDrawerList
+  fullName: Prowl.Editor.PropertyDrawers.PropertyDrawerList
+  type: Class
+  source:
+    remote:
+      path: Prowl.Editor/Editor/PropertyDrawer/Drawers/PropertyDrawerEnumerable.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: PropertyDrawerList
+    path: ../Prowl/Prowl.Editor/Editor/PropertyDrawer/Drawers/PropertyDrawerEnumerable.cs
+    startLine: 245
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor.PropertyDrawers
+  syntax:
+    content: >-
+      [Drawer(typeof(IList))]
+
+      public class PropertyDrawerList : PropertyDrawerEnumerable<IList>
+    content.vb: >-
+      <Drawer(GetType(IList))>
+
+      Public Class PropertyDrawerList Inherits PropertyDrawerEnumerable(Of IList)
+  inheritance:
+  - System.Object
+  - Prowl.Editor.PropertyDrawers.PropertyDrawer
+  - Prowl.Editor.PropertyDrawers.PropertyDrawerEnumerable{System.Collections.IList}
+  inheritedMembers:
+  - Prowl.Editor.PropertyDrawers.PropertyDrawerEnumerable{System.Collections.IList}.selectedDrawer
+  - Prowl.Editor.PropertyDrawers.PropertyDrawerEnumerable{System.Collections.IList}.selectedElement
+  - Prowl.Editor.PropertyDrawers.PropertyDrawerEnumerable{System.Collections.IList}.PropertyLayout(Prowl.Runtime.GUI.Gui,System.String,System.Int32,System.Type,System.Object@,Prowl.Editor.EditorGUI.PropertyGridConfig)
+  - Prowl.Editor.PropertyDrawers.PropertyDrawer.MinWidth
+  - Prowl.Editor.PropertyDrawers.PropertyDrawer.OnLabelGUI(Prowl.Runtime.GUI.Gui,System.String)
+  - Prowl.Editor.PropertyDrawers.PropertyDrawer.OnValueGUI(Prowl.Runtime.GUI.Gui,System.String,System.Type,System.Object@)
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  extensionMethods:
+  - System.Object.Prowl.Runtime.RuntimeUtils.GetSerializableFields
+  attributes:
+  - type: Prowl.Editor.PropertyDrawers.DrawerAttribute
+    ctor: Prowl.Editor.PropertyDrawers.DrawerAttribute.#ctor(System.Type)
+    arguments:
+    - type: System.Type
+      value: System.Collections.IList
+- uid: Prowl.Editor.PropertyDrawers.PropertyDrawerList.ElementType(System.Collections.IList)
+  commentId: M:Prowl.Editor.PropertyDrawers.PropertyDrawerList.ElementType(System.Collections.IList)
+  id: ElementType(System.Collections.IList)
+  parent: Prowl.Editor.PropertyDrawers.PropertyDrawerList
+  langs:
+  - csharp
+  - vb
+  name: ElementType(IList)
+  nameWithType: PropertyDrawerList.ElementType(IList)
+  fullName: Prowl.Editor.PropertyDrawers.PropertyDrawerList.ElementType(System.Collections.IList)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Editor/Editor/PropertyDrawer/Drawers/PropertyDrawerEnumerable.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: ElementType
+    path: ../Prowl/Prowl.Editor/Editor/PropertyDrawer/Drawers/PropertyDrawerEnumerable.cs
+    startLine: 248
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor.PropertyDrawers
+  example: []
+  syntax:
+    content: protected override Type ElementType(IList value)
+    parameters:
+    - id: value
+      type: System.Collections.IList
+    return:
+      type: System.Type
+    content.vb: Protected Overrides Function ElementType(value As IList) As Type
+  overridden: Prowl.Editor.PropertyDrawers.PropertyDrawerEnumerable{System.Collections.IList}.ElementType(System.Collections.IList)
+  overload: Prowl.Editor.PropertyDrawers.PropertyDrawerList.ElementType*
+- uid: Prowl.Editor.PropertyDrawers.PropertyDrawerList.GetCount(System.Collections.IList)
+  commentId: M:Prowl.Editor.PropertyDrawers.PropertyDrawerList.GetCount(System.Collections.IList)
+  id: GetCount(System.Collections.IList)
+  parent: Prowl.Editor.PropertyDrawers.PropertyDrawerList
+  langs:
+  - csharp
+  - vb
+  name: GetCount(IList)
+  nameWithType: PropertyDrawerList.GetCount(IList)
+  fullName: Prowl.Editor.PropertyDrawers.PropertyDrawerList.GetCount(System.Collections.IList)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Editor/Editor/PropertyDrawer/Drawers/PropertyDrawerEnumerable.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: GetCount
+    path: ../Prowl/Prowl.Editor/Editor/PropertyDrawer/Drawers/PropertyDrawerEnumerable.cs
+    startLine: 249
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor.PropertyDrawers
+  example: []
+  syntax:
+    content: protected override int GetCount(IList value)
+    parameters:
+    - id: value
+      type: System.Collections.IList
+    return:
+      type: System.Int32
+    content.vb: Protected Overrides Function GetCount(value As IList) As Integer
+  overridden: Prowl.Editor.PropertyDrawers.PropertyDrawerEnumerable{System.Collections.IList}.GetCount(System.Collections.IList)
+  overload: Prowl.Editor.PropertyDrawers.PropertyDrawerList.GetCount*
+- uid: Prowl.Editor.PropertyDrawers.PropertyDrawerList.GetElement(System.Collections.IList,System.Int32)
+  commentId: M:Prowl.Editor.PropertyDrawers.PropertyDrawerList.GetElement(System.Collections.IList,System.Int32)
+  id: GetElement(System.Collections.IList,System.Int32)
+  parent: Prowl.Editor.PropertyDrawers.PropertyDrawerList
+  langs:
+  - csharp
+  - vb
+  name: GetElement(IList, int)
+  nameWithType: PropertyDrawerList.GetElement(IList, int)
+  fullName: Prowl.Editor.PropertyDrawers.PropertyDrawerList.GetElement(System.Collections.IList, int)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Editor/Editor/PropertyDrawer/Drawers/PropertyDrawerEnumerable.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: GetElement
+    path: ../Prowl/Prowl.Editor/Editor/PropertyDrawer/Drawers/PropertyDrawerEnumerable.cs
+    startLine: 250
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor.PropertyDrawers
+  example: []
+  syntax:
+    content: protected override object GetElement(IList value, int index)
+    parameters:
+    - id: value
+      type: System.Collections.IList
+    - id: index
+      type: System.Int32
+    return:
+      type: System.Object
+    content.vb: Protected Overrides Function GetElement(value As IList, index As Integer) As Object
+  overridden: Prowl.Editor.PropertyDrawers.PropertyDrawerEnumerable{System.Collections.IList}.GetElement(System.Collections.IList,System.Int32)
+  overload: Prowl.Editor.PropertyDrawers.PropertyDrawerList.GetElement*
+  nameWithType.vb: PropertyDrawerList.GetElement(IList, Integer)
+  fullName.vb: Prowl.Editor.PropertyDrawers.PropertyDrawerList.GetElement(System.Collections.IList, Integer)
+  name.vb: GetElement(IList, Integer)
+- uid: Prowl.Editor.PropertyDrawers.PropertyDrawerList.SetElement(System.Collections.IList,System.Int32,System.Object)
+  commentId: M:Prowl.Editor.PropertyDrawers.PropertyDrawerList.SetElement(System.Collections.IList,System.Int32,System.Object)
+  id: SetElement(System.Collections.IList,System.Int32,System.Object)
+  parent: Prowl.Editor.PropertyDrawers.PropertyDrawerList
+  langs:
+  - csharp
+  - vb
+  name: SetElement(IList, int, object)
+  nameWithType: PropertyDrawerList.SetElement(IList, int, object)
+  fullName: Prowl.Editor.PropertyDrawers.PropertyDrawerList.SetElement(System.Collections.IList, int, object)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Editor/Editor/PropertyDrawer/Drawers/PropertyDrawerEnumerable.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: SetElement
+    path: ../Prowl/Prowl.Editor/Editor/PropertyDrawer/Drawers/PropertyDrawerEnumerable.cs
+    startLine: 251
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor.PropertyDrawers
+  example: []
+  syntax:
+    content: protected override void SetElement(IList value, int index, object element)
+    parameters:
+    - id: value
+      type: System.Collections.IList
+    - id: index
+      type: System.Int32
+    - id: element
+      type: System.Object
+    content.vb: Protected Overrides Sub SetElement(value As IList, index As Integer, element As Object)
+  overridden: Prowl.Editor.PropertyDrawers.PropertyDrawerEnumerable{System.Collections.IList}.SetElement(System.Collections.IList,System.Int32,System.Object)
+  overload: Prowl.Editor.PropertyDrawers.PropertyDrawerList.SetElement*
+  nameWithType.vb: PropertyDrawerList.SetElement(IList, Integer, Object)
+  fullName.vb: Prowl.Editor.PropertyDrawers.PropertyDrawerList.SetElement(System.Collections.IList, Integer, Object)
+  name.vb: SetElement(IList, Integer, Object)
+- uid: Prowl.Editor.PropertyDrawers.PropertyDrawerList.RemoveElement(System.Collections.IList@,System.Int32)
+  commentId: M:Prowl.Editor.PropertyDrawers.PropertyDrawerList.RemoveElement(System.Collections.IList@,System.Int32)
+  id: RemoveElement(System.Collections.IList@,System.Int32)
+  parent: Prowl.Editor.PropertyDrawers.PropertyDrawerList
+  langs:
+  - csharp
+  - vb
+  name: RemoveElement(ref IList, int)
+  nameWithType: PropertyDrawerList.RemoveElement(ref IList, int)
+  fullName: Prowl.Editor.PropertyDrawers.PropertyDrawerList.RemoveElement(ref System.Collections.IList, int)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Editor/Editor/PropertyDrawer/Drawers/PropertyDrawerEnumerable.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: RemoveElement
+    path: ../Prowl/Prowl.Editor/Editor/PropertyDrawer/Drawers/PropertyDrawerEnumerable.cs
+    startLine: 252
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor.PropertyDrawers
+  example: []
+  syntax:
+    content: protected override void RemoveElement(ref IList value, int index)
+    parameters:
+    - id: value
+      type: System.Collections.IList
+    - id: index
+      type: System.Int32
+    content.vb: Protected Overrides Sub RemoveElement(value As IList, index As Integer)
+  overridden: Prowl.Editor.PropertyDrawers.PropertyDrawerEnumerable{System.Collections.IList}.RemoveElement(System.Collections.IList@,System.Int32)
+  overload: Prowl.Editor.PropertyDrawers.PropertyDrawerList.RemoveElement*
+  nameWithType.vb: PropertyDrawerList.RemoveElement(IList, Integer)
+  fullName.vb: Prowl.Editor.PropertyDrawers.PropertyDrawerList.RemoveElement(System.Collections.IList, Integer)
+  name.vb: RemoveElement(IList, Integer)
+- uid: Prowl.Editor.PropertyDrawers.PropertyDrawerList.AddElement(System.Collections.IList@)
+  commentId: M:Prowl.Editor.PropertyDrawers.PropertyDrawerList.AddElement(System.Collections.IList@)
+  id: AddElement(System.Collections.IList@)
+  parent: Prowl.Editor.PropertyDrawers.PropertyDrawerList
+  langs:
+  - csharp
+  - vb
+  name: AddElement(ref IList)
+  nameWithType: PropertyDrawerList.AddElement(ref IList)
+  fullName: Prowl.Editor.PropertyDrawers.PropertyDrawerList.AddElement(ref System.Collections.IList)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Editor/Editor/PropertyDrawer/Drawers/PropertyDrawerEnumerable.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: AddElement
+    path: ../Prowl/Prowl.Editor/Editor/PropertyDrawer/Drawers/PropertyDrawerEnumerable.cs
+    startLine: 253
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor.PropertyDrawers
+  example: []
+  syntax:
+    content: protected override void AddElement(ref IList value)
+    parameters:
+    - id: value
+      type: System.Collections.IList
+    content.vb: Protected Overrides Sub AddElement(value As IList)
+  overridden: Prowl.Editor.PropertyDrawers.PropertyDrawerEnumerable{System.Collections.IList}.AddElement(System.Collections.IList@)
+  overload: Prowl.Editor.PropertyDrawers.PropertyDrawerList.AddElement*
+  nameWithType.vb: PropertyDrawerList.AddElement(IList)
+  fullName.vb: Prowl.Editor.PropertyDrawers.PropertyDrawerList.AddElement(System.Collections.IList)
+  name.vb: AddElement(IList)
+references:
+- uid: Prowl.Editor.PropertyDrawers
+  commentId: N:Prowl.Editor.PropertyDrawers
+  href: Prowl.html
+  name: Prowl.Editor.PropertyDrawers
+  nameWithType: Prowl.Editor.PropertyDrawers
+  fullName: Prowl.Editor.PropertyDrawers
+  spec.csharp:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Editor
+    name: Editor
+    href: Prowl.Editor.html
+  - name: .
+  - uid: Prowl.Editor.PropertyDrawers
+    name: PropertyDrawers
+    href: Prowl.Editor.PropertyDrawers.html
+  spec.vb:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Editor
+    name: Editor
+    href: Prowl.Editor.html
+  - name: .
+  - uid: Prowl.Editor.PropertyDrawers
+    name: PropertyDrawers
+    href: Prowl.Editor.PropertyDrawers.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Prowl.Editor.PropertyDrawers.PropertyDrawer
+  commentId: T:Prowl.Editor.PropertyDrawers.PropertyDrawer
+  parent: Prowl.Editor.PropertyDrawers
+  href: Prowl.Editor.PropertyDrawers.PropertyDrawer.html
+  name: PropertyDrawer
+  nameWithType: PropertyDrawer
+  fullName: Prowl.Editor.PropertyDrawers.PropertyDrawer
+- uid: Prowl.Editor.PropertyDrawers.PropertyDrawerEnumerable{System.Collections.IList}
+  commentId: T:Prowl.Editor.PropertyDrawers.PropertyDrawerEnumerable{System.Collections.IList}
+  parent: Prowl.Editor.PropertyDrawers
+  definition: Prowl.Editor.PropertyDrawers.PropertyDrawerEnumerable`1
+  href: Prowl.Editor.PropertyDrawers.PropertyDrawerEnumerable-1.html
+  name: PropertyDrawerEnumerable<IList>
+  nameWithType: PropertyDrawerEnumerable<IList>
+  fullName: Prowl.Editor.PropertyDrawers.PropertyDrawerEnumerable<System.Collections.IList>
+  nameWithType.vb: PropertyDrawerEnumerable(Of IList)
+  fullName.vb: Prowl.Editor.PropertyDrawers.PropertyDrawerEnumerable(Of System.Collections.IList)
+  name.vb: PropertyDrawerEnumerable(Of IList)
+  spec.csharp:
+  - uid: Prowl.Editor.PropertyDrawers.PropertyDrawerEnumerable`1
+    name: PropertyDrawerEnumerable
+    href: Prowl.Editor.PropertyDrawers.PropertyDrawerEnumerable-1.html
+  - name: <
+  - uid: System.Collections.IList
+    name: IList
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.ilist
+  - name: '>'
+  spec.vb:
+  - uid: Prowl.Editor.PropertyDrawers.PropertyDrawerEnumerable`1
+    name: PropertyDrawerEnumerable
+    href: Prowl.Editor.PropertyDrawers.PropertyDrawerEnumerable-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Collections.IList
+    name: IList
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.ilist
+  - name: )
+- uid: Prowl.Editor.PropertyDrawers.PropertyDrawerEnumerable{System.Collections.IList}.selectedDrawer
+  commentId: F:Prowl.Editor.PropertyDrawers.PropertyDrawerEnumerable{System.Collections.IList}.selectedDrawer
+  parent: Prowl.Editor.PropertyDrawers.PropertyDrawerEnumerable{System.Collections.IList}
+  definition: Prowl.Editor.PropertyDrawers.PropertyDrawerEnumerable`1.selectedDrawer
+  href: Prowl.Editor.PropertyDrawers.PropertyDrawerEnumerable-1.html#Prowl_Editor_PropertyDrawers_PropertyDrawerEnumerable_1_selectedDrawer
+  name: selectedDrawer
+  nameWithType: PropertyDrawerEnumerable<IList>.selectedDrawer
+  fullName: Prowl.Editor.PropertyDrawers.PropertyDrawerEnumerable<System.Collections.IList>.selectedDrawer
+  nameWithType.vb: PropertyDrawerEnumerable(Of IList).selectedDrawer
+  fullName.vb: Prowl.Editor.PropertyDrawers.PropertyDrawerEnumerable(Of System.Collections.IList).selectedDrawer
+- uid: Prowl.Editor.PropertyDrawers.PropertyDrawerEnumerable{System.Collections.IList}.selectedElement
+  commentId: F:Prowl.Editor.PropertyDrawers.PropertyDrawerEnumerable{System.Collections.IList}.selectedElement
+  parent: Prowl.Editor.PropertyDrawers.PropertyDrawerEnumerable{System.Collections.IList}
+  definition: Prowl.Editor.PropertyDrawers.PropertyDrawerEnumerable`1.selectedElement
+  href: Prowl.Editor.PropertyDrawers.PropertyDrawerEnumerable-1.html#Prowl_Editor_PropertyDrawers_PropertyDrawerEnumerable_1_selectedElement
+  name: selectedElement
+  nameWithType: PropertyDrawerEnumerable<IList>.selectedElement
+  fullName: Prowl.Editor.PropertyDrawers.PropertyDrawerEnumerable<System.Collections.IList>.selectedElement
+  nameWithType.vb: PropertyDrawerEnumerable(Of IList).selectedElement
+  fullName.vb: Prowl.Editor.PropertyDrawers.PropertyDrawerEnumerable(Of System.Collections.IList).selectedElement
+- uid: Prowl.Editor.PropertyDrawers.PropertyDrawerEnumerable{System.Collections.IList}.PropertyLayout(Prowl.Runtime.GUI.Gui,System.String,System.Int32,System.Type,System.Object@,Prowl.Editor.EditorGUI.PropertyGridConfig)
+  commentId: M:Prowl.Editor.PropertyDrawers.PropertyDrawerEnumerable{System.Collections.IList}.PropertyLayout(Prowl.Runtime.GUI.Gui,System.String,System.Int32,System.Type,System.Object@,Prowl.Editor.EditorGUI.PropertyGridConfig)
+  parent: Prowl.Editor.PropertyDrawers.PropertyDrawerEnumerable{System.Collections.IList}
+  definition: Prowl.Editor.PropertyDrawers.PropertyDrawerEnumerable`1.PropertyLayout(Prowl.Runtime.GUI.Gui,System.String,System.Int32,System.Type,System.Object@,Prowl.Editor.EditorGUI.PropertyGridConfig)
+  href: Prowl.Editor.PropertyDrawers.PropertyDrawerEnumerable-1.html#Prowl_Editor_PropertyDrawers_PropertyDrawerEnumerable_1_PropertyLayout_Prowl_Runtime_GUI_Gui_System_String_System_Int32_System_Type_System_Object__Prowl_Editor_EditorGUI_PropertyGridConfig_
+  name: PropertyLayout(Gui, string, int, Type, ref object, PropertyGridConfig)
+  nameWithType: PropertyDrawerEnumerable<IList>.PropertyLayout(Gui, string, int, Type, ref object, EditorGUI.PropertyGridConfig)
+  fullName: Prowl.Editor.PropertyDrawers.PropertyDrawerEnumerable<System.Collections.IList>.PropertyLayout(Prowl.Runtime.GUI.Gui, string, int, System.Type, ref object, Prowl.Editor.EditorGUI.PropertyGridConfig)
+  nameWithType.vb: PropertyDrawerEnumerable(Of IList).PropertyLayout(Gui, String, Integer, Type, Object, EditorGUI.PropertyGridConfig)
+  fullName.vb: Prowl.Editor.PropertyDrawers.PropertyDrawerEnumerable(Of System.Collections.IList).PropertyLayout(Prowl.Runtime.GUI.Gui, String, Integer, System.Type, Object, Prowl.Editor.EditorGUI.PropertyGridConfig)
+  name.vb: PropertyLayout(Gui, String, Integer, Type, Object, PropertyGridConfig)
+  spec.csharp:
+  - uid: Prowl.Editor.PropertyDrawers.PropertyDrawerEnumerable{System.Collections.IList}.PropertyLayout(Prowl.Runtime.GUI.Gui,System.String,System.Int32,System.Type,System.Object@,Prowl.Editor.EditorGUI.PropertyGridConfig)
+    name: PropertyLayout
+    href: Prowl.Editor.PropertyDrawers.PropertyDrawerEnumerable-1.html#Prowl_Editor_PropertyDrawers_PropertyDrawerEnumerable_1_PropertyLayout_Prowl_Runtime_GUI_Gui_System_String_System_Int32_System_Type_System_Object__Prowl_Editor_EditorGUI_PropertyGridConfig_
+  - name: (
+  - uid: Prowl.Runtime.GUI.Gui
+    name: Gui
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Type
+    name: Type
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.type
+  - name: ','
+  - name: " "
+  - name: ref
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: Prowl.Editor.EditorGUI.PropertyGridConfig
+    name: PropertyGridConfig
+    href: Prowl.Editor.EditorGUI.PropertyGridConfig.html
+  - name: )
+  spec.vb:
+  - uid: Prowl.Editor.PropertyDrawers.PropertyDrawerEnumerable{System.Collections.IList}.PropertyLayout(Prowl.Runtime.GUI.Gui,System.String,System.Int32,System.Type,System.Object@,Prowl.Editor.EditorGUI.PropertyGridConfig)
+    name: PropertyLayout
+    href: Prowl.Editor.PropertyDrawers.PropertyDrawerEnumerable-1.html#Prowl_Editor_PropertyDrawers_PropertyDrawerEnumerable_1_PropertyLayout_Prowl_Runtime_GUI_Gui_System_String_System_Int32_System_Type_System_Object__Prowl_Editor_EditorGUI_PropertyGridConfig_
+  - name: (
+  - uid: Prowl.Runtime.GUI.Gui
+    name: Gui
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Type
+    name: Type
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.type
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: Prowl.Editor.EditorGUI.PropertyGridConfig
+    name: PropertyGridConfig
+    href: Prowl.Editor.EditorGUI.PropertyGridConfig.html
+  - name: )
+- uid: Prowl.Editor.PropertyDrawers.PropertyDrawer.MinWidth
+  commentId: P:Prowl.Editor.PropertyDrawers.PropertyDrawer.MinWidth
+  parent: Prowl.Editor.PropertyDrawers.PropertyDrawer
+  href: Prowl.Editor.PropertyDrawers.PropertyDrawer.html#Prowl_Editor_PropertyDrawers_PropertyDrawer_MinWidth
+  name: MinWidth
+  nameWithType: PropertyDrawer.MinWidth
+  fullName: Prowl.Editor.PropertyDrawers.PropertyDrawer.MinWidth
+- uid: Prowl.Editor.PropertyDrawers.PropertyDrawer.OnLabelGUI(Prowl.Runtime.GUI.Gui,System.String)
+  commentId: M:Prowl.Editor.PropertyDrawers.PropertyDrawer.OnLabelGUI(Prowl.Runtime.GUI.Gui,System.String)
+  parent: Prowl.Editor.PropertyDrawers.PropertyDrawer
+  isExternal: true
+  href: Prowl.Editor.PropertyDrawers.PropertyDrawer.html#Prowl_Editor_PropertyDrawers_PropertyDrawer_OnLabelGUI_Prowl_Runtime_GUI_Gui_System_String_
+  name: OnLabelGUI(Gui, string)
+  nameWithType: PropertyDrawer.OnLabelGUI(Gui, string)
+  fullName: Prowl.Editor.PropertyDrawers.PropertyDrawer.OnLabelGUI(Prowl.Runtime.GUI.Gui, string)
+  nameWithType.vb: PropertyDrawer.OnLabelGUI(Gui, String)
+  fullName.vb: Prowl.Editor.PropertyDrawers.PropertyDrawer.OnLabelGUI(Prowl.Runtime.GUI.Gui, String)
+  name.vb: OnLabelGUI(Gui, String)
+  spec.csharp:
+  - uid: Prowl.Editor.PropertyDrawers.PropertyDrawer.OnLabelGUI(Prowl.Runtime.GUI.Gui,System.String)
+    name: OnLabelGUI
+    href: Prowl.Editor.PropertyDrawers.PropertyDrawer.html#Prowl_Editor_PropertyDrawers_PropertyDrawer_OnLabelGUI_Prowl_Runtime_GUI_Gui_System_String_
+  - name: (
+  - uid: Prowl.Runtime.GUI.Gui
+    name: Gui
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: Prowl.Editor.PropertyDrawers.PropertyDrawer.OnLabelGUI(Prowl.Runtime.GUI.Gui,System.String)
+    name: OnLabelGUI
+    href: Prowl.Editor.PropertyDrawers.PropertyDrawer.html#Prowl_Editor_PropertyDrawers_PropertyDrawer_OnLabelGUI_Prowl_Runtime_GUI_Gui_System_String_
+  - name: (
+  - uid: Prowl.Runtime.GUI.Gui
+    name: Gui
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: Prowl.Editor.PropertyDrawers.PropertyDrawer.OnValueGUI(Prowl.Runtime.GUI.Gui,System.String,System.Type,System.Object@)
+  commentId: M:Prowl.Editor.PropertyDrawers.PropertyDrawer.OnValueGUI(Prowl.Runtime.GUI.Gui,System.String,System.Type,System.Object@)
+  parent: Prowl.Editor.PropertyDrawers.PropertyDrawer
+  isExternal: true
+  href: Prowl.Editor.PropertyDrawers.PropertyDrawer.html#Prowl_Editor_PropertyDrawers_PropertyDrawer_OnValueGUI_Prowl_Runtime_GUI_Gui_System_String_System_Type_System_Object__
+  name: OnValueGUI(Gui, string, Type, ref object)
+  nameWithType: PropertyDrawer.OnValueGUI(Gui, string, Type, ref object)
+  fullName: Prowl.Editor.PropertyDrawers.PropertyDrawer.OnValueGUI(Prowl.Runtime.GUI.Gui, string, System.Type, ref object)
+  nameWithType.vb: PropertyDrawer.OnValueGUI(Gui, String, Type, Object)
+  fullName.vb: Prowl.Editor.PropertyDrawers.PropertyDrawer.OnValueGUI(Prowl.Runtime.GUI.Gui, String, System.Type, Object)
+  name.vb: OnValueGUI(Gui, String, Type, Object)
+  spec.csharp:
+  - uid: Prowl.Editor.PropertyDrawers.PropertyDrawer.OnValueGUI(Prowl.Runtime.GUI.Gui,System.String,System.Type,System.Object@)
+    name: OnValueGUI
+    href: Prowl.Editor.PropertyDrawers.PropertyDrawer.html#Prowl_Editor_PropertyDrawers_PropertyDrawer_OnValueGUI_Prowl_Runtime_GUI_Gui_System_String_System_Type_System_Object__
+  - name: (
+  - uid: Prowl.Runtime.GUI.Gui
+    name: Gui
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Type
+    name: Type
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.type
+  - name: ','
+  - name: " "
+  - name: ref
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: Prowl.Editor.PropertyDrawers.PropertyDrawer.OnValueGUI(Prowl.Runtime.GUI.Gui,System.String,System.Type,System.Object@)
+    name: OnValueGUI
+    href: Prowl.Editor.PropertyDrawers.PropertyDrawer.html#Prowl_Editor_PropertyDrawers_PropertyDrawer_OnValueGUI_Prowl_Runtime_GUI_Gui_System_String_System_Type_System_Object__
+  - name: (
+  - uid: Prowl.Runtime.GUI.Gui
+    name: Gui
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Type
+    name: Type
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.type
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Prowl.Runtime.RuntimeUtils.GetSerializableFields
+  commentId: M:Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  parent: Prowl.Runtime.RuntimeUtils
+  definition: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  name: GetSerializableFields(object)
+  nameWithType: RuntimeUtils.GetSerializableFields(object)
+  fullName: Prowl.Runtime.RuntimeUtils.GetSerializableFields(object)
+  nameWithType.vb: RuntimeUtils.GetSerializableFields(Object)
+  fullName.vb: Prowl.Runtime.RuntimeUtils.GetSerializableFields(Object)
+  name.vb: GetSerializableFields(Object)
+  spec.csharp:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Prowl.Editor.PropertyDrawers.PropertyDrawerEnumerable`1
+  commentId: T:Prowl.Editor.PropertyDrawers.PropertyDrawerEnumerable`1
+  href: Prowl.Editor.PropertyDrawers.PropertyDrawerEnumerable-1.html
+  name: PropertyDrawerEnumerable<T>
+  nameWithType: PropertyDrawerEnumerable<T>
+  fullName: Prowl.Editor.PropertyDrawers.PropertyDrawerEnumerable<T>
+  nameWithType.vb: PropertyDrawerEnumerable(Of T)
+  fullName.vb: Prowl.Editor.PropertyDrawers.PropertyDrawerEnumerable(Of T)
+  name.vb: PropertyDrawerEnumerable(Of T)
+  spec.csharp:
+  - uid: Prowl.Editor.PropertyDrawers.PropertyDrawerEnumerable`1
+    name: PropertyDrawerEnumerable
+    href: Prowl.Editor.PropertyDrawers.PropertyDrawerEnumerable-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Prowl.Editor.PropertyDrawers.PropertyDrawerEnumerable`1
+    name: PropertyDrawerEnumerable
+    href: Prowl.Editor.PropertyDrawers.PropertyDrawerEnumerable-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Prowl.Editor.PropertyDrawers.PropertyDrawerEnumerable`1.selectedDrawer
+  commentId: F:Prowl.Editor.PropertyDrawers.PropertyDrawerEnumerable`1.selectedDrawer
+  href: Prowl.Editor.PropertyDrawers.PropertyDrawerEnumerable-1.html#Prowl_Editor_PropertyDrawers_PropertyDrawerEnumerable_1_selectedDrawer
+  name: selectedDrawer
+  nameWithType: PropertyDrawerEnumerable<T>.selectedDrawer
+  fullName: Prowl.Editor.PropertyDrawers.PropertyDrawerEnumerable<T>.selectedDrawer
+  nameWithType.vb: PropertyDrawerEnumerable(Of T).selectedDrawer
+  fullName.vb: Prowl.Editor.PropertyDrawers.PropertyDrawerEnumerable(Of T).selectedDrawer
+- uid: Prowl.Editor.PropertyDrawers.PropertyDrawerEnumerable`1.selectedElement
+  commentId: F:Prowl.Editor.PropertyDrawers.PropertyDrawerEnumerable`1.selectedElement
+  href: Prowl.Editor.PropertyDrawers.PropertyDrawerEnumerable-1.html#Prowl_Editor_PropertyDrawers_PropertyDrawerEnumerable_1_selectedElement
+  name: selectedElement
+  nameWithType: PropertyDrawerEnumerable<T>.selectedElement
+  fullName: Prowl.Editor.PropertyDrawers.PropertyDrawerEnumerable<T>.selectedElement
+  nameWithType.vb: PropertyDrawerEnumerable(Of T).selectedElement
+  fullName.vb: Prowl.Editor.PropertyDrawers.PropertyDrawerEnumerable(Of T).selectedElement
+- uid: Prowl.Editor.PropertyDrawers.PropertyDrawerEnumerable`1.PropertyLayout(Prowl.Runtime.GUI.Gui,System.String,System.Int32,System.Type,System.Object@,Prowl.Editor.EditorGUI.PropertyGridConfig)
+  commentId: M:Prowl.Editor.PropertyDrawers.PropertyDrawerEnumerable`1.PropertyLayout(Prowl.Runtime.GUI.Gui,System.String,System.Int32,System.Type,System.Object@,Prowl.Editor.EditorGUI.PropertyGridConfig)
+  isExternal: true
+  href: Prowl.Editor.PropertyDrawers.PropertyDrawerEnumerable-1.html#Prowl_Editor_PropertyDrawers_PropertyDrawerEnumerable_1_PropertyLayout_Prowl_Runtime_GUI_Gui_System_String_System_Int32_System_Type_System_Object__Prowl_Editor_EditorGUI_PropertyGridConfig_
+  name: PropertyLayout(Gui, string, int, Type, ref object, PropertyGridConfig)
+  nameWithType: PropertyDrawerEnumerable<T>.PropertyLayout(Gui, string, int, Type, ref object, EditorGUI.PropertyGridConfig)
+  fullName: Prowl.Editor.PropertyDrawers.PropertyDrawerEnumerable<T>.PropertyLayout(Prowl.Runtime.GUI.Gui, string, int, System.Type, ref object, Prowl.Editor.EditorGUI.PropertyGridConfig)
+  nameWithType.vb: PropertyDrawerEnumerable(Of T).PropertyLayout(Gui, String, Integer, Type, Object, EditorGUI.PropertyGridConfig)
+  fullName.vb: Prowl.Editor.PropertyDrawers.PropertyDrawerEnumerable(Of T).PropertyLayout(Prowl.Runtime.GUI.Gui, String, Integer, System.Type, Object, Prowl.Editor.EditorGUI.PropertyGridConfig)
+  name.vb: PropertyLayout(Gui, String, Integer, Type, Object, PropertyGridConfig)
+  spec.csharp:
+  - uid: Prowl.Editor.PropertyDrawers.PropertyDrawerEnumerable`1.PropertyLayout(Prowl.Runtime.GUI.Gui,System.String,System.Int32,System.Type,System.Object@,Prowl.Editor.EditorGUI.PropertyGridConfig)
+    name: PropertyLayout
+    href: Prowl.Editor.PropertyDrawers.PropertyDrawerEnumerable-1.html#Prowl_Editor_PropertyDrawers_PropertyDrawerEnumerable_1_PropertyLayout_Prowl_Runtime_GUI_Gui_System_String_System_Int32_System_Type_System_Object__Prowl_Editor_EditorGUI_PropertyGridConfig_
+  - name: (
+  - uid: Prowl.Runtime.GUI.Gui
+    name: Gui
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Type
+    name: Type
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.type
+  - name: ','
+  - name: " "
+  - name: ref
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: Prowl.Editor.EditorGUI.PropertyGridConfig
+    name: PropertyGridConfig
+    href: Prowl.Editor.EditorGUI.PropertyGridConfig.html
+  - name: )
+  spec.vb:
+  - uid: Prowl.Editor.PropertyDrawers.PropertyDrawerEnumerable`1.PropertyLayout(Prowl.Runtime.GUI.Gui,System.String,System.Int32,System.Type,System.Object@,Prowl.Editor.EditorGUI.PropertyGridConfig)
+    name: PropertyLayout
+    href: Prowl.Editor.PropertyDrawers.PropertyDrawerEnumerable-1.html#Prowl_Editor_PropertyDrawers_PropertyDrawerEnumerable_1_PropertyLayout_Prowl_Runtime_GUI_Gui_System_String_System_Int32_System_Type_System_Object__Prowl_Editor_EditorGUI_PropertyGridConfig_
+  - name: (
+  - uid: Prowl.Runtime.GUI.Gui
+    name: Gui
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Type
+    name: Type
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.type
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: Prowl.Editor.EditorGUI.PropertyGridConfig
+    name: PropertyGridConfig
+    href: Prowl.Editor.EditorGUI.PropertyGridConfig.html
+  - name: )
+- uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  commentId: M:Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  isExternal: true
+  href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  name: GetSerializableFields(object)
+  nameWithType: RuntimeUtils.GetSerializableFields(object)
+  fullName: Prowl.Runtime.RuntimeUtils.GetSerializableFields(object)
+  nameWithType.vb: RuntimeUtils.GetSerializableFields(Object)
+  fullName.vb: Prowl.Runtime.RuntimeUtils.GetSerializableFields(Object)
+  name.vb: GetSerializableFields(Object)
+  spec.csharp:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: Prowl.Runtime.RuntimeUtils
+  commentId: T:Prowl.Runtime.RuntimeUtils
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.RuntimeUtils.html
+  name: RuntimeUtils
+  nameWithType: RuntimeUtils
+  fullName: Prowl.Runtime.RuntimeUtils
+- uid: Prowl.Runtime
+  commentId: N:Prowl.Runtime
+  href: Prowl.html
+  name: Prowl.Runtime
+  nameWithType: Prowl.Runtime
+  fullName: Prowl.Runtime
+  spec.csharp:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+  spec.vb:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+- uid: Prowl.Editor.PropertyDrawers.PropertyDrawerEnumerable{System.Collections.IList}.ElementType(System.Collections.IList)
+  commentId: M:Prowl.Editor.PropertyDrawers.PropertyDrawerEnumerable{System.Collections.IList}.ElementType(System.Collections.IList)
+  parent: Prowl.Editor.PropertyDrawers.PropertyDrawerEnumerable{System.Collections.IList}
+  definition: Prowl.Editor.PropertyDrawers.PropertyDrawerEnumerable`1.ElementType(`0)
+  href: Prowl.Editor.PropertyDrawers.PropertyDrawerEnumerable-1.html#Prowl_Editor_PropertyDrawers_PropertyDrawerEnumerable_1_ElementType__0_
+  name: ElementType(IList)
+  nameWithType: PropertyDrawerEnumerable<IList>.ElementType(IList)
+  fullName: Prowl.Editor.PropertyDrawers.PropertyDrawerEnumerable<System.Collections.IList>.ElementType(System.Collections.IList)
+  nameWithType.vb: PropertyDrawerEnumerable(Of IList).ElementType(IList)
+  fullName.vb: Prowl.Editor.PropertyDrawers.PropertyDrawerEnumerable(Of System.Collections.IList).ElementType(System.Collections.IList)
+  spec.csharp:
+  - uid: Prowl.Editor.PropertyDrawers.PropertyDrawerEnumerable{System.Collections.IList}.ElementType(System.Collections.IList)
+    name: ElementType
+    href: Prowl.Editor.PropertyDrawers.PropertyDrawerEnumerable-1.html#Prowl_Editor_PropertyDrawers_PropertyDrawerEnumerable_1_ElementType__0_
+  - name: (
+  - uid: System.Collections.IList
+    name: IList
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.ilist
+  - name: )
+  spec.vb:
+  - uid: Prowl.Editor.PropertyDrawers.PropertyDrawerEnumerable{System.Collections.IList}.ElementType(System.Collections.IList)
+    name: ElementType
+    href: Prowl.Editor.PropertyDrawers.PropertyDrawerEnumerable-1.html#Prowl_Editor_PropertyDrawers_PropertyDrawerEnumerable_1_ElementType__0_
+  - name: (
+  - uid: System.Collections.IList
+    name: IList
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.ilist
+  - name: )
+- uid: Prowl.Editor.PropertyDrawers.PropertyDrawerList.ElementType*
+  commentId: Overload:Prowl.Editor.PropertyDrawers.PropertyDrawerList.ElementType
+  href: Prowl.Editor.PropertyDrawers.PropertyDrawerList.html#Prowl_Editor_PropertyDrawers_PropertyDrawerList_ElementType_System_Collections_IList_
+  name: ElementType
+  nameWithType: PropertyDrawerList.ElementType
+  fullName: Prowl.Editor.PropertyDrawers.PropertyDrawerList.ElementType
+- uid: System.Collections.IList
+  commentId: T:System.Collections.IList
+  parent: System.Collections
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.ilist
+  name: IList
+  nameWithType: IList
+  fullName: System.Collections.IList
+- uid: System.Type
+  commentId: T:System.Type
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.type
+  name: Type
+  nameWithType: Type
+  fullName: System.Type
+- uid: Prowl.Editor.PropertyDrawers.PropertyDrawerEnumerable`1.ElementType(`0)
+  commentId: M:Prowl.Editor.PropertyDrawers.PropertyDrawerEnumerable`1.ElementType(`0)
+  href: Prowl.Editor.PropertyDrawers.PropertyDrawerEnumerable-1.html#Prowl_Editor_PropertyDrawers_PropertyDrawerEnumerable_1_ElementType__0_
+  name: ElementType(T)
+  nameWithType: PropertyDrawerEnumerable<T>.ElementType(T)
+  fullName: Prowl.Editor.PropertyDrawers.PropertyDrawerEnumerable<T>.ElementType(T)
+  nameWithType.vb: PropertyDrawerEnumerable(Of T).ElementType(T)
+  fullName.vb: Prowl.Editor.PropertyDrawers.PropertyDrawerEnumerable(Of T).ElementType(T)
+  spec.csharp:
+  - uid: Prowl.Editor.PropertyDrawers.PropertyDrawerEnumerable`1.ElementType(`0)
+    name: ElementType
+    href: Prowl.Editor.PropertyDrawers.PropertyDrawerEnumerable-1.html#Prowl_Editor_PropertyDrawers_PropertyDrawerEnumerable_1_ElementType__0_
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: Prowl.Editor.PropertyDrawers.PropertyDrawerEnumerable`1.ElementType(`0)
+    name: ElementType
+    href: Prowl.Editor.PropertyDrawers.PropertyDrawerEnumerable-1.html#Prowl_Editor_PropertyDrawers_PropertyDrawerEnumerable_1_ElementType__0_
+  - name: (
+  - name: T
+  - name: )
+- uid: System.Collections
+  commentId: N:System.Collections
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections
+  nameWithType: System.Collections
+  fullName: System.Collections
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+- uid: Prowl.Editor.PropertyDrawers.PropertyDrawerEnumerable{System.Collections.IList}.GetCount(System.Collections.IList)
+  commentId: M:Prowl.Editor.PropertyDrawers.PropertyDrawerEnumerable{System.Collections.IList}.GetCount(System.Collections.IList)
+  parent: Prowl.Editor.PropertyDrawers.PropertyDrawerEnumerable{System.Collections.IList}
+  definition: Prowl.Editor.PropertyDrawers.PropertyDrawerEnumerable`1.GetCount(`0)
+  href: Prowl.Editor.PropertyDrawers.PropertyDrawerEnumerable-1.html#Prowl_Editor_PropertyDrawers_PropertyDrawerEnumerable_1_GetCount__0_
+  name: GetCount(IList)
+  nameWithType: PropertyDrawerEnumerable<IList>.GetCount(IList)
+  fullName: Prowl.Editor.PropertyDrawers.PropertyDrawerEnumerable<System.Collections.IList>.GetCount(System.Collections.IList)
+  nameWithType.vb: PropertyDrawerEnumerable(Of IList).GetCount(IList)
+  fullName.vb: Prowl.Editor.PropertyDrawers.PropertyDrawerEnumerable(Of System.Collections.IList).GetCount(System.Collections.IList)
+  spec.csharp:
+  - uid: Prowl.Editor.PropertyDrawers.PropertyDrawerEnumerable{System.Collections.IList}.GetCount(System.Collections.IList)
+    name: GetCount
+    href: Prowl.Editor.PropertyDrawers.PropertyDrawerEnumerable-1.html#Prowl_Editor_PropertyDrawers_PropertyDrawerEnumerable_1_GetCount__0_
+  - name: (
+  - uid: System.Collections.IList
+    name: IList
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.ilist
+  - name: )
+  spec.vb:
+  - uid: Prowl.Editor.PropertyDrawers.PropertyDrawerEnumerable{System.Collections.IList}.GetCount(System.Collections.IList)
+    name: GetCount
+    href: Prowl.Editor.PropertyDrawers.PropertyDrawerEnumerable-1.html#Prowl_Editor_PropertyDrawers_PropertyDrawerEnumerable_1_GetCount__0_
+  - name: (
+  - uid: System.Collections.IList
+    name: IList
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.ilist
+  - name: )
+- uid: Prowl.Editor.PropertyDrawers.PropertyDrawerList.GetCount*
+  commentId: Overload:Prowl.Editor.PropertyDrawers.PropertyDrawerList.GetCount
+  href: Prowl.Editor.PropertyDrawers.PropertyDrawerList.html#Prowl_Editor_PropertyDrawers_PropertyDrawerList_GetCount_System_Collections_IList_
+  name: GetCount
+  nameWithType: PropertyDrawerList.GetCount
+  fullName: Prowl.Editor.PropertyDrawers.PropertyDrawerList.GetCount
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: Prowl.Editor.PropertyDrawers.PropertyDrawerEnumerable`1.GetCount(`0)
+  commentId: M:Prowl.Editor.PropertyDrawers.PropertyDrawerEnumerable`1.GetCount(`0)
+  href: Prowl.Editor.PropertyDrawers.PropertyDrawerEnumerable-1.html#Prowl_Editor_PropertyDrawers_PropertyDrawerEnumerable_1_GetCount__0_
+  name: GetCount(T)
+  nameWithType: PropertyDrawerEnumerable<T>.GetCount(T)
+  fullName: Prowl.Editor.PropertyDrawers.PropertyDrawerEnumerable<T>.GetCount(T)
+  nameWithType.vb: PropertyDrawerEnumerable(Of T).GetCount(T)
+  fullName.vb: Prowl.Editor.PropertyDrawers.PropertyDrawerEnumerable(Of T).GetCount(T)
+  spec.csharp:
+  - uid: Prowl.Editor.PropertyDrawers.PropertyDrawerEnumerable`1.GetCount(`0)
+    name: GetCount
+    href: Prowl.Editor.PropertyDrawers.PropertyDrawerEnumerable-1.html#Prowl_Editor_PropertyDrawers_PropertyDrawerEnumerable_1_GetCount__0_
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: Prowl.Editor.PropertyDrawers.PropertyDrawerEnumerable`1.GetCount(`0)
+    name: GetCount
+    href: Prowl.Editor.PropertyDrawers.PropertyDrawerEnumerable-1.html#Prowl_Editor_PropertyDrawers_PropertyDrawerEnumerable_1_GetCount__0_
+  - name: (
+  - name: T
+  - name: )
+- uid: Prowl.Editor.PropertyDrawers.PropertyDrawerEnumerable{System.Collections.IList}.GetElement(System.Collections.IList,System.Int32)
+  commentId: M:Prowl.Editor.PropertyDrawers.PropertyDrawerEnumerable{System.Collections.IList}.GetElement(System.Collections.IList,System.Int32)
+  parent: Prowl.Editor.PropertyDrawers.PropertyDrawerEnumerable{System.Collections.IList}
+  definition: Prowl.Editor.PropertyDrawers.PropertyDrawerEnumerable`1.GetElement(`0,System.Int32)
+  href: Prowl.Editor.PropertyDrawers.PropertyDrawerEnumerable-1.html#Prowl_Editor_PropertyDrawers_PropertyDrawerEnumerable_1_GetElement__0_System_Int32_
+  name: GetElement(IList, int)
+  nameWithType: PropertyDrawerEnumerable<IList>.GetElement(IList, int)
+  fullName: Prowl.Editor.PropertyDrawers.PropertyDrawerEnumerable<System.Collections.IList>.GetElement(System.Collections.IList, int)
+  nameWithType.vb: PropertyDrawerEnumerable(Of IList).GetElement(IList, Integer)
+  fullName.vb: Prowl.Editor.PropertyDrawers.PropertyDrawerEnumerable(Of System.Collections.IList).GetElement(System.Collections.IList, Integer)
+  name.vb: GetElement(IList, Integer)
+  spec.csharp:
+  - uid: Prowl.Editor.PropertyDrawers.PropertyDrawerEnumerable{System.Collections.IList}.GetElement(System.Collections.IList,System.Int32)
+    name: GetElement
+    href: Prowl.Editor.PropertyDrawers.PropertyDrawerEnumerable-1.html#Prowl_Editor_PropertyDrawers_PropertyDrawerEnumerable_1_GetElement__0_System_Int32_
+  - name: (
+  - uid: System.Collections.IList
+    name: IList
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.ilist
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  spec.vb:
+  - uid: Prowl.Editor.PropertyDrawers.PropertyDrawerEnumerable{System.Collections.IList}.GetElement(System.Collections.IList,System.Int32)
+    name: GetElement
+    href: Prowl.Editor.PropertyDrawers.PropertyDrawerEnumerable-1.html#Prowl_Editor_PropertyDrawers_PropertyDrawerEnumerable_1_GetElement__0_System_Int32_
+  - name: (
+  - uid: System.Collections.IList
+    name: IList
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.ilist
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: Prowl.Editor.PropertyDrawers.PropertyDrawerList.GetElement*
+  commentId: Overload:Prowl.Editor.PropertyDrawers.PropertyDrawerList.GetElement
+  href: Prowl.Editor.PropertyDrawers.PropertyDrawerList.html#Prowl_Editor_PropertyDrawers_PropertyDrawerList_GetElement_System_Collections_IList_System_Int32_
+  name: GetElement
+  nameWithType: PropertyDrawerList.GetElement
+  fullName: Prowl.Editor.PropertyDrawers.PropertyDrawerList.GetElement
+- uid: Prowl.Editor.PropertyDrawers.PropertyDrawerEnumerable`1.GetElement(`0,System.Int32)
+  commentId: M:Prowl.Editor.PropertyDrawers.PropertyDrawerEnumerable`1.GetElement(`0,System.Int32)
+  isExternal: true
+  href: Prowl.Editor.PropertyDrawers.PropertyDrawerEnumerable-1.html#Prowl_Editor_PropertyDrawers_PropertyDrawerEnumerable_1_GetElement__0_System_Int32_
+  name: GetElement(T, int)
+  nameWithType: PropertyDrawerEnumerable<T>.GetElement(T, int)
+  fullName: Prowl.Editor.PropertyDrawers.PropertyDrawerEnumerable<T>.GetElement(T, int)
+  nameWithType.vb: PropertyDrawerEnumerable(Of T).GetElement(T, Integer)
+  fullName.vb: Prowl.Editor.PropertyDrawers.PropertyDrawerEnumerable(Of T).GetElement(T, Integer)
+  name.vb: GetElement(T, Integer)
+  spec.csharp:
+  - uid: Prowl.Editor.PropertyDrawers.PropertyDrawerEnumerable`1.GetElement(`0,System.Int32)
+    name: GetElement
+    href: Prowl.Editor.PropertyDrawers.PropertyDrawerEnumerable-1.html#Prowl_Editor_PropertyDrawers_PropertyDrawerEnumerable_1_GetElement__0_System_Int32_
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  spec.vb:
+  - uid: Prowl.Editor.PropertyDrawers.PropertyDrawerEnumerable`1.GetElement(`0,System.Int32)
+    name: GetElement
+    href: Prowl.Editor.PropertyDrawers.PropertyDrawerEnumerable-1.html#Prowl_Editor_PropertyDrawers_PropertyDrawerEnumerable_1_GetElement__0_System_Int32_
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: Prowl.Editor.PropertyDrawers.PropertyDrawerEnumerable{System.Collections.IList}.SetElement(System.Collections.IList,System.Int32,System.Object)
+  commentId: M:Prowl.Editor.PropertyDrawers.PropertyDrawerEnumerable{System.Collections.IList}.SetElement(System.Collections.IList,System.Int32,System.Object)
+  parent: Prowl.Editor.PropertyDrawers.PropertyDrawerEnumerable{System.Collections.IList}
+  definition: Prowl.Editor.PropertyDrawers.PropertyDrawerEnumerable`1.SetElement(`0,System.Int32,System.Object)
+  href: Prowl.Editor.PropertyDrawers.PropertyDrawerEnumerable-1.html#Prowl_Editor_PropertyDrawers_PropertyDrawerEnumerable_1_SetElement__0_System_Int32_System_Object_
+  name: SetElement(IList, int, object)
+  nameWithType: PropertyDrawerEnumerable<IList>.SetElement(IList, int, object)
+  fullName: Prowl.Editor.PropertyDrawers.PropertyDrawerEnumerable<System.Collections.IList>.SetElement(System.Collections.IList, int, object)
+  nameWithType.vb: PropertyDrawerEnumerable(Of IList).SetElement(IList, Integer, Object)
+  fullName.vb: Prowl.Editor.PropertyDrawers.PropertyDrawerEnumerable(Of System.Collections.IList).SetElement(System.Collections.IList, Integer, Object)
+  name.vb: SetElement(IList, Integer, Object)
+  spec.csharp:
+  - uid: Prowl.Editor.PropertyDrawers.PropertyDrawerEnumerable{System.Collections.IList}.SetElement(System.Collections.IList,System.Int32,System.Object)
+    name: SetElement
+    href: Prowl.Editor.PropertyDrawers.PropertyDrawerEnumerable-1.html#Prowl_Editor_PropertyDrawers_PropertyDrawerEnumerable_1_SetElement__0_System_Int32_System_Object_
+  - name: (
+  - uid: System.Collections.IList
+    name: IList
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.ilist
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: Prowl.Editor.PropertyDrawers.PropertyDrawerEnumerable{System.Collections.IList}.SetElement(System.Collections.IList,System.Int32,System.Object)
+    name: SetElement
+    href: Prowl.Editor.PropertyDrawers.PropertyDrawerEnumerable-1.html#Prowl_Editor_PropertyDrawers_PropertyDrawerEnumerable_1_SetElement__0_System_Int32_System_Object_
+  - name: (
+  - uid: System.Collections.IList
+    name: IList
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.ilist
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: Prowl.Editor.PropertyDrawers.PropertyDrawerList.SetElement*
+  commentId: Overload:Prowl.Editor.PropertyDrawers.PropertyDrawerList.SetElement
+  href: Prowl.Editor.PropertyDrawers.PropertyDrawerList.html#Prowl_Editor_PropertyDrawers_PropertyDrawerList_SetElement_System_Collections_IList_System_Int32_System_Object_
+  name: SetElement
+  nameWithType: PropertyDrawerList.SetElement
+  fullName: Prowl.Editor.PropertyDrawers.PropertyDrawerList.SetElement
+- uid: Prowl.Editor.PropertyDrawers.PropertyDrawerEnumerable`1.SetElement(`0,System.Int32,System.Object)
+  commentId: M:Prowl.Editor.PropertyDrawers.PropertyDrawerEnumerable`1.SetElement(`0,System.Int32,System.Object)
+  isExternal: true
+  href: Prowl.Editor.PropertyDrawers.PropertyDrawerEnumerable-1.html#Prowl_Editor_PropertyDrawers_PropertyDrawerEnumerable_1_SetElement__0_System_Int32_System_Object_
+  name: SetElement(T, int, object)
+  nameWithType: PropertyDrawerEnumerable<T>.SetElement(T, int, object)
+  fullName: Prowl.Editor.PropertyDrawers.PropertyDrawerEnumerable<T>.SetElement(T, int, object)
+  nameWithType.vb: PropertyDrawerEnumerable(Of T).SetElement(T, Integer, Object)
+  fullName.vb: Prowl.Editor.PropertyDrawers.PropertyDrawerEnumerable(Of T).SetElement(T, Integer, Object)
+  name.vb: SetElement(T, Integer, Object)
+  spec.csharp:
+  - uid: Prowl.Editor.PropertyDrawers.PropertyDrawerEnumerable`1.SetElement(`0,System.Int32,System.Object)
+    name: SetElement
+    href: Prowl.Editor.PropertyDrawers.PropertyDrawerEnumerable-1.html#Prowl_Editor_PropertyDrawers_PropertyDrawerEnumerable_1_SetElement__0_System_Int32_System_Object_
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: Prowl.Editor.PropertyDrawers.PropertyDrawerEnumerable`1.SetElement(`0,System.Int32,System.Object)
+    name: SetElement
+    href: Prowl.Editor.PropertyDrawers.PropertyDrawerEnumerable-1.html#Prowl_Editor_PropertyDrawers_PropertyDrawerEnumerable_1_SetElement__0_System_Int32_System_Object_
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: Prowl.Editor.PropertyDrawers.PropertyDrawerEnumerable{System.Collections.IList}.RemoveElement(System.Collections.IList@,System.Int32)
+  commentId: M:Prowl.Editor.PropertyDrawers.PropertyDrawerEnumerable{System.Collections.IList}.RemoveElement(System.Collections.IList@,System.Int32)
+  parent: Prowl.Editor.PropertyDrawers.PropertyDrawerEnumerable{System.Collections.IList}
+  definition: Prowl.Editor.PropertyDrawers.PropertyDrawerEnumerable`1.RemoveElement(`0@,System.Int32)
+  href: Prowl.Editor.PropertyDrawers.PropertyDrawerEnumerable-1.html#Prowl_Editor_PropertyDrawers_PropertyDrawerEnumerable_1_RemoveElement__0__System_Int32_
+  name: RemoveElement(ref IList, int)
+  nameWithType: PropertyDrawerEnumerable<IList>.RemoveElement(ref IList, int)
+  fullName: Prowl.Editor.PropertyDrawers.PropertyDrawerEnumerable<System.Collections.IList>.RemoveElement(ref System.Collections.IList, int)
+  nameWithType.vb: PropertyDrawerEnumerable(Of IList).RemoveElement(IList, Integer)
+  fullName.vb: Prowl.Editor.PropertyDrawers.PropertyDrawerEnumerable(Of System.Collections.IList).RemoveElement(System.Collections.IList, Integer)
+  name.vb: RemoveElement(IList, Integer)
+  spec.csharp:
+  - uid: Prowl.Editor.PropertyDrawers.PropertyDrawerEnumerable{System.Collections.IList}.RemoveElement(System.Collections.IList@,System.Int32)
+    name: RemoveElement
+    href: Prowl.Editor.PropertyDrawers.PropertyDrawerEnumerable-1.html#Prowl_Editor_PropertyDrawers_PropertyDrawerEnumerable_1_RemoveElement__0__System_Int32_
+  - name: (
+  - name: ref
+  - name: " "
+  - uid: System.Collections.IList
+    name: IList
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.ilist
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  spec.vb:
+  - uid: Prowl.Editor.PropertyDrawers.PropertyDrawerEnumerable{System.Collections.IList}.RemoveElement(System.Collections.IList@,System.Int32)
+    name: RemoveElement
+    href: Prowl.Editor.PropertyDrawers.PropertyDrawerEnumerable-1.html#Prowl_Editor_PropertyDrawers_PropertyDrawerEnumerable_1_RemoveElement__0__System_Int32_
+  - name: (
+  - uid: System.Collections.IList
+    name: IList
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.ilist
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: Prowl.Editor.PropertyDrawers.PropertyDrawerList.RemoveElement*
+  commentId: Overload:Prowl.Editor.PropertyDrawers.PropertyDrawerList.RemoveElement
+  href: Prowl.Editor.PropertyDrawers.PropertyDrawerList.html#Prowl_Editor_PropertyDrawers_PropertyDrawerList_RemoveElement_System_Collections_IList__System_Int32_
+  name: RemoveElement
+  nameWithType: PropertyDrawerList.RemoveElement
+  fullName: Prowl.Editor.PropertyDrawers.PropertyDrawerList.RemoveElement
+- uid: Prowl.Editor.PropertyDrawers.PropertyDrawerEnumerable`1.RemoveElement(`0@,System.Int32)
+  commentId: M:Prowl.Editor.PropertyDrawers.PropertyDrawerEnumerable`1.RemoveElement(`0@,System.Int32)
+  isExternal: true
+  href: Prowl.Editor.PropertyDrawers.PropertyDrawerEnumerable-1.html#Prowl_Editor_PropertyDrawers_PropertyDrawerEnumerable_1_RemoveElement__0__System_Int32_
+  name: RemoveElement(ref T, int)
+  nameWithType: PropertyDrawerEnumerable<T>.RemoveElement(ref T, int)
+  fullName: Prowl.Editor.PropertyDrawers.PropertyDrawerEnumerable<T>.RemoveElement(ref T, int)
+  nameWithType.vb: PropertyDrawerEnumerable(Of T).RemoveElement(T, Integer)
+  fullName.vb: Prowl.Editor.PropertyDrawers.PropertyDrawerEnumerable(Of T).RemoveElement(T, Integer)
+  name.vb: RemoveElement(T, Integer)
+  spec.csharp:
+  - uid: Prowl.Editor.PropertyDrawers.PropertyDrawerEnumerable`1.RemoveElement(`0@,System.Int32)
+    name: RemoveElement
+    href: Prowl.Editor.PropertyDrawers.PropertyDrawerEnumerable-1.html#Prowl_Editor_PropertyDrawers_PropertyDrawerEnumerable_1_RemoveElement__0__System_Int32_
+  - name: (
+  - name: ref
+  - name: " "
+  - name: T
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  spec.vb:
+  - uid: Prowl.Editor.PropertyDrawers.PropertyDrawerEnumerable`1.RemoveElement(`0@,System.Int32)
+    name: RemoveElement
+    href: Prowl.Editor.PropertyDrawers.PropertyDrawerEnumerable-1.html#Prowl_Editor_PropertyDrawers_PropertyDrawerEnumerable_1_RemoveElement__0__System_Int32_
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: Prowl.Editor.PropertyDrawers.PropertyDrawerEnumerable{System.Collections.IList}.AddElement(System.Collections.IList@)
+  commentId: M:Prowl.Editor.PropertyDrawers.PropertyDrawerEnumerable{System.Collections.IList}.AddElement(System.Collections.IList@)
+  parent: Prowl.Editor.PropertyDrawers.PropertyDrawerEnumerable{System.Collections.IList}
+  definition: Prowl.Editor.PropertyDrawers.PropertyDrawerEnumerable`1.AddElement(`0@)
+  href: Prowl.Editor.PropertyDrawers.PropertyDrawerEnumerable-1.html#Prowl_Editor_PropertyDrawers_PropertyDrawerEnumerable_1_AddElement__0__
+  name: AddElement(ref IList)
+  nameWithType: PropertyDrawerEnumerable<IList>.AddElement(ref IList)
+  fullName: Prowl.Editor.PropertyDrawers.PropertyDrawerEnumerable<System.Collections.IList>.AddElement(ref System.Collections.IList)
+  nameWithType.vb: PropertyDrawerEnumerable(Of IList).AddElement(IList)
+  fullName.vb: Prowl.Editor.PropertyDrawers.PropertyDrawerEnumerable(Of System.Collections.IList).AddElement(System.Collections.IList)
+  name.vb: AddElement(IList)
+  spec.csharp:
+  - uid: Prowl.Editor.PropertyDrawers.PropertyDrawerEnumerable{System.Collections.IList}.AddElement(System.Collections.IList@)
+    name: AddElement
+    href: Prowl.Editor.PropertyDrawers.PropertyDrawerEnumerable-1.html#Prowl_Editor_PropertyDrawers_PropertyDrawerEnumerable_1_AddElement__0__
+  - name: (
+  - name: ref
+  - name: " "
+  - uid: System.Collections.IList
+    name: IList
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.ilist
+  - name: )
+  spec.vb:
+  - uid: Prowl.Editor.PropertyDrawers.PropertyDrawerEnumerable{System.Collections.IList}.AddElement(System.Collections.IList@)
+    name: AddElement
+    href: Prowl.Editor.PropertyDrawers.PropertyDrawerEnumerable-1.html#Prowl_Editor_PropertyDrawers_PropertyDrawerEnumerable_1_AddElement__0__
+  - name: (
+  - uid: System.Collections.IList
+    name: IList
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.ilist
+  - name: )
+- uid: Prowl.Editor.PropertyDrawers.PropertyDrawerList.AddElement*
+  commentId: Overload:Prowl.Editor.PropertyDrawers.PropertyDrawerList.AddElement
+  href: Prowl.Editor.PropertyDrawers.PropertyDrawerList.html#Prowl_Editor_PropertyDrawers_PropertyDrawerList_AddElement_System_Collections_IList__
+  name: AddElement
+  nameWithType: PropertyDrawerList.AddElement
+  fullName: Prowl.Editor.PropertyDrawers.PropertyDrawerList.AddElement
+- uid: Prowl.Editor.PropertyDrawers.PropertyDrawerEnumerable`1.AddElement(`0@)
+  commentId: M:Prowl.Editor.PropertyDrawers.PropertyDrawerEnumerable`1.AddElement(`0@)
+  href: Prowl.Editor.PropertyDrawers.PropertyDrawerEnumerable-1.html#Prowl_Editor_PropertyDrawers_PropertyDrawerEnumerable_1_AddElement__0__
+  name: AddElement(ref T)
+  nameWithType: PropertyDrawerEnumerable<T>.AddElement(ref T)
+  fullName: Prowl.Editor.PropertyDrawers.PropertyDrawerEnumerable<T>.AddElement(ref T)
+  nameWithType.vb: PropertyDrawerEnumerable(Of T).AddElement(T)
+  fullName.vb: Prowl.Editor.PropertyDrawers.PropertyDrawerEnumerable(Of T).AddElement(T)
+  name.vb: AddElement(T)
+  spec.csharp:
+  - uid: Prowl.Editor.PropertyDrawers.PropertyDrawerEnumerable`1.AddElement(`0@)
+    name: AddElement
+    href: Prowl.Editor.PropertyDrawers.PropertyDrawerEnumerable-1.html#Prowl_Editor_PropertyDrawers_PropertyDrawerEnumerable_1_AddElement__0__
+  - name: (
+  - name: ref
+  - name: " "
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: Prowl.Editor.PropertyDrawers.PropertyDrawerEnumerable`1.AddElement(`0@)
+    name: AddElement
+    href: Prowl.Editor.PropertyDrawers.PropertyDrawerEnumerable-1.html#Prowl_Editor_PropertyDrawers_PropertyDrawerEnumerable_1_AddElement__0__
+  - name: (
+  - name: T
+  - name: )

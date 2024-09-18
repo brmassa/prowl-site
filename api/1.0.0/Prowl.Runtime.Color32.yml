@@ -1,0 +1,705 @@
+### YamlMime:ManagedReference
+items:
+- uid: Prowl.Runtime.Color32
+  commentId: T:Prowl.Runtime.Color32
+  id: Color32
+  parent: Prowl.Runtime
+  children:
+  - Prowl.Runtime.Color32.#ctor(System.Byte,System.Byte,System.Byte,System.Byte)
+  - Prowl.Runtime.Color32.#ctor(System.UInt32)
+  - Prowl.Runtime.Color32.ToString
+  - Prowl.Runtime.Color32.a
+  - Prowl.Runtime.Color32.b
+  - Prowl.Runtime.Color32.g
+  - Prowl.Runtime.Color32.op_Implicit(Prowl.Runtime.Color)~Prowl.Runtime.Color32
+  - Prowl.Runtime.Color32.op_Implicit(Prowl.Runtime.Color32)~Prowl.Runtime.Color
+  - Prowl.Runtime.Color32.r
+  langs:
+  - csharp
+  - vb
+  name: Color32
+  nameWithType: Color32
+  fullName: Prowl.Runtime.Color32
+  type: Struct
+  source:
+    remote:
+      path: Prowl.Runtime/Color32.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Color32
+    path: ../Prowl/Prowl.Runtime/Color32.cs
+    startLine: 8
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public struct Color32
+    content.vb: Public Structure Color32
+  inheritedMembers:
+  - System.ValueType.Equals(System.Object)
+  - System.ValueType.GetHashCode
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  extensionMethods:
+  - System.Object.Prowl.Runtime.RuntimeUtils.GetSerializableFields
+- uid: Prowl.Runtime.Color32.r
+  commentId: F:Prowl.Runtime.Color32.r
+  id: r
+  parent: Prowl.Runtime.Color32
+  langs:
+  - csharp
+  - vb
+  name: r
+  nameWithType: Color32.r
+  fullName: Prowl.Runtime.Color32.r
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/Color32.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: r
+    path: ../Prowl/Prowl.Runtime/Color32.cs
+    startLine: 11
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public byte r
+    return:
+      type: System.Byte
+    content.vb: Public r As Byte
+- uid: Prowl.Runtime.Color32.g
+  commentId: F:Prowl.Runtime.Color32.g
+  id: g
+  parent: Prowl.Runtime.Color32
+  langs:
+  - csharp
+  - vb
+  name: g
+  nameWithType: Color32.g
+  fullName: Prowl.Runtime.Color32.g
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/Color32.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: g
+    path: ../Prowl/Prowl.Runtime/Color32.cs
+    startLine: 11
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public byte g
+    return:
+      type: System.Byte
+    content.vb: Public g As Byte
+- uid: Prowl.Runtime.Color32.b
+  commentId: F:Prowl.Runtime.Color32.b
+  id: b
+  parent: Prowl.Runtime.Color32
+  langs:
+  - csharp
+  - vb
+  name: b
+  nameWithType: Color32.b
+  fullName: Prowl.Runtime.Color32.b
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/Color32.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: b
+    path: ../Prowl/Prowl.Runtime/Color32.cs
+    startLine: 11
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public byte b
+    return:
+      type: System.Byte
+    content.vb: Public b As Byte
+- uid: Prowl.Runtime.Color32.a
+  commentId: F:Prowl.Runtime.Color32.a
+  id: a
+  parent: Prowl.Runtime.Color32
+  langs:
+  - csharp
+  - vb
+  name: a
+  nameWithType: Color32.a
+  fullName: Prowl.Runtime.Color32.a
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/Color32.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: a
+    path: ../Prowl/Prowl.Runtime/Color32.cs
+    startLine: 11
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public byte a
+    return:
+      type: System.Byte
+    content.vb: Public a As Byte
+- uid: Prowl.Runtime.Color32.#ctor(System.Byte,System.Byte,System.Byte,System.Byte)
+  commentId: M:Prowl.Runtime.Color32.#ctor(System.Byte,System.Byte,System.Byte,System.Byte)
+  id: '#ctor(System.Byte,System.Byte,System.Byte,System.Byte)'
+  parent: Prowl.Runtime.Color32
+  langs:
+  - csharp
+  - vb
+  name: Color32(byte, byte, byte, byte)
+  nameWithType: Color32.Color32(byte, byte, byte, byte)
+  fullName: Prowl.Runtime.Color32.Color32(byte, byte, byte, byte)
+  type: Constructor
+  source:
+    remote:
+      path: Prowl.Runtime/Color32.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: .ctor
+    path: ../Prowl/Prowl.Runtime/Color32.cs
+    startLine: 13
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public Color32(byte r, byte g, byte b, byte a)
+    parameters:
+    - id: r
+      type: System.Byte
+    - id: g
+      type: System.Byte
+    - id: b
+      type: System.Byte
+    - id: a
+      type: System.Byte
+    content.vb: Public Sub New(r As Byte, g As Byte, b As Byte, a As Byte)
+  overload: Prowl.Runtime.Color32.#ctor*
+  nameWithType.vb: Color32.New(Byte, Byte, Byte, Byte)
+  fullName.vb: Prowl.Runtime.Color32.New(Byte, Byte, Byte, Byte)
+  name.vb: New(Byte, Byte, Byte, Byte)
+- uid: Prowl.Runtime.Color32.#ctor(System.UInt32)
+  commentId: M:Prowl.Runtime.Color32.#ctor(System.UInt32)
+  id: '#ctor(System.UInt32)'
+  parent: Prowl.Runtime.Color32
+  langs:
+  - csharp
+  - vb
+  name: Color32(uint)
+  nameWithType: Color32.Color32(uint)
+  fullName: Prowl.Runtime.Color32.Color32(uint)
+  type: Constructor
+  source:
+    remote:
+      path: Prowl.Runtime/Color32.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: .ctor
+    path: ../Prowl/Prowl.Runtime/Color32.cs
+    startLine: 21
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public Color32(uint rgba)
+    parameters:
+    - id: rgba
+      type: System.UInt32
+    content.vb: Public Sub New(rgba As UInteger)
+  overload: Prowl.Runtime.Color32.#ctor*
+  nameWithType.vb: Color32.New(UInteger)
+  fullName.vb: Prowl.Runtime.Color32.New(UInteger)
+  name.vb: New(UInteger)
+- uid: Prowl.Runtime.Color32.op_Implicit(Prowl.Runtime.Color)~Prowl.Runtime.Color32
+  commentId: M:Prowl.Runtime.Color32.op_Implicit(Prowl.Runtime.Color)~Prowl.Runtime.Color32
+  id: op_Implicit(Prowl.Runtime.Color)~Prowl.Runtime.Color32
+  parent: Prowl.Runtime.Color32
+  langs:
+  - csharp
+  - vb
+  name: implicit operator Color32(Color)
+  nameWithType: Color32.implicit operator Color32(Color)
+  fullName: Prowl.Runtime.Color32.implicit operator Prowl.Runtime.Color32(Prowl.Runtime.Color)
+  type: Operator
+  source:
+    remote:
+      path: Prowl.Runtime/Color32.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: op_Implicit
+    path: ../Prowl/Prowl.Runtime/Color32.cs
+    startLine: 39
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public static implicit operator Color32(Color c)
+    parameters:
+    - id: c
+      type: Prowl.Runtime.Color
+    return:
+      type: Prowl.Runtime.Color32
+    content.vb: Public Shared Widening Operator CType(c As Color) As Color32
+  overload: Prowl.Runtime.Color32.op_Implicit*
+  nameWithType.vb: Color32.CType(Color)
+  fullName.vb: Prowl.Runtime.Color32.CType(Prowl.Runtime.Color)
+  name.vb: CType(Color)
+- uid: Prowl.Runtime.Color32.op_Implicit(Prowl.Runtime.Color32)~Prowl.Runtime.Color
+  commentId: M:Prowl.Runtime.Color32.op_Implicit(Prowl.Runtime.Color32)~Prowl.Runtime.Color
+  id: op_Implicit(Prowl.Runtime.Color32)~Prowl.Runtime.Color
+  parent: Prowl.Runtime.Color32
+  langs:
+  - csharp
+  - vb
+  name: implicit operator Color(Color32)
+  nameWithType: Color32.implicit operator Color(Color32)
+  fullName: Prowl.Runtime.Color32.implicit operator Prowl.Runtime.Color(Prowl.Runtime.Color32)
+  type: Operator
+  source:
+    remote:
+      path: Prowl.Runtime/Color32.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: op_Implicit
+    path: ../Prowl/Prowl.Runtime/Color32.cs
+    startLine: 44
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public static implicit operator Color(Color32 v)
+    parameters:
+    - id: v
+      type: Prowl.Runtime.Color32
+    return:
+      type: Prowl.Runtime.Color
+    content.vb: Public Shared Widening Operator CType(v As Color32) As Color
+  overload: Prowl.Runtime.Color32.op_Implicit*
+  nameWithType.vb: Color32.CType(Color32)
+  fullName.vb: Prowl.Runtime.Color32.CType(Prowl.Runtime.Color32)
+  name.vb: CType(Color32)
+- uid: Prowl.Runtime.Color32.ToString
+  commentId: M:Prowl.Runtime.Color32.ToString
+  id: ToString
+  parent: Prowl.Runtime.Color32
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: Color32.ToString()
+  fullName: Prowl.Runtime.Color32.ToString()
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Color32.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: ToString
+    path: ../Prowl/Prowl.Runtime/Color32.cs
+    startLine: 49
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: Returns the fully qualified type name of this instance.
+  example: []
+  syntax:
+    content: public override readonly string ToString()
+    return:
+      type: System.String
+      description: The fully qualified type name.
+    content.vb: Public Overrides Function ToString() As String
+  overridden: System.ValueType.ToString
+  overload: Prowl.Runtime.Color32.ToString*
+references:
+- uid: Prowl.Runtime
+  commentId: N:Prowl.Runtime
+  href: Prowl.html
+  name: Prowl.Runtime
+  nameWithType: Prowl.Runtime
+  fullName: Prowl.Runtime
+  spec.csharp:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+  spec.vb:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  name: Equals(object)
+  nameWithType: ValueType.Equals(object)
+  fullName: System.ValueType.Equals(object)
+  nameWithType.vb: ValueType.Equals(Object)
+  fullName.vb: System.ValueType.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Prowl.Runtime.RuntimeUtils.GetSerializableFields
+  commentId: M:Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  parent: Prowl.Runtime.RuntimeUtils
+  definition: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  name: GetSerializableFields(object)
+  nameWithType: RuntimeUtils.GetSerializableFields(object)
+  fullName: Prowl.Runtime.RuntimeUtils.GetSerializableFields(object)
+  nameWithType.vb: RuntimeUtils.GetSerializableFields(Object)
+  fullName.vb: Prowl.Runtime.RuntimeUtils.GetSerializableFields(Object)
+  name.vb: GetSerializableFields(Object)
+  spec.csharp:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  commentId: M:Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  isExternal: true
+  href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  name: GetSerializableFields(object)
+  nameWithType: RuntimeUtils.GetSerializableFields(object)
+  fullName: Prowl.Runtime.RuntimeUtils.GetSerializableFields(object)
+  nameWithType.vb: RuntimeUtils.GetSerializableFields(Object)
+  fullName.vb: Prowl.Runtime.RuntimeUtils.GetSerializableFields(Object)
+  name.vb: GetSerializableFields(Object)
+  spec.csharp:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: Prowl.Runtime.RuntimeUtils
+  commentId: T:Prowl.Runtime.RuntimeUtils
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.RuntimeUtils.html
+  name: RuntimeUtils
+  nameWithType: RuntimeUtils
+  fullName: Prowl.Runtime.RuntimeUtils
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Byte
+  commentId: T:System.Byte
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.byte
+  name: byte
+  nameWithType: byte
+  fullName: byte
+  nameWithType.vb: Byte
+  fullName.vb: Byte
+  name.vb: Byte
+- uid: Prowl.Runtime.Color32.#ctor*
+  commentId: Overload:Prowl.Runtime.Color32.#ctor
+  href: Prowl.Runtime.Color32.html#Prowl_Runtime_Color32__ctor_System_Byte_System_Byte_System_Byte_System_Byte_
+  name: Color32
+  nameWithType: Color32.Color32
+  fullName: Prowl.Runtime.Color32.Color32
+  nameWithType.vb: Color32.New
+  fullName.vb: Prowl.Runtime.Color32.New
+  name.vb: New
+- uid: System.UInt32
+  commentId: T:System.UInt32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.uint32
+  name: uint
+  nameWithType: uint
+  fullName: uint
+  nameWithType.vb: UInteger
+  fullName.vb: UInteger
+  name.vb: UInteger
+- uid: Prowl.Runtime.Color32.op_Implicit*
+  commentId: Overload:Prowl.Runtime.Color32.op_Implicit
+  name: implicit operator
+  nameWithType: Color32.implicit operator
+  fullName: Prowl.Runtime.Color32.implicit operator
+  nameWithType.vb: Color32.CType
+  fullName.vb: Prowl.Runtime.Color32.CType
+  name.vb: CType
+  spec.csharp:
+  - name: implicit
+  - name: " "
+  - name: operator
+- uid: Prowl.Runtime.Color
+  commentId: T:Prowl.Runtime.Color
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.Color.html
+  name: Color
+  nameWithType: Color
+  fullName: Prowl.Runtime.Color
+- uid: Prowl.Runtime.Color32
+  commentId: T:Prowl.Runtime.Color32
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.Color32.html
+  name: Color32
+  nameWithType: Color32
+  fullName: Prowl.Runtime.Color32
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+- uid: Prowl.Runtime.Color32.ToString*
+  commentId: Overload:Prowl.Runtime.Color32.ToString
+  href: Prowl.Runtime.Color32.html#Prowl_Runtime_Color32_ToString
+  name: ToString
+  nameWithType: Color32.ToString
+  fullName: Prowl.Runtime.Color32.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String

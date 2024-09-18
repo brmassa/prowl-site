@@ -1,0 +1,228 @@
+### YamlMime:ManagedReference
+items:
+- uid: Prowl.Runtime.GUI.TransformGizmo.GizmoOrientation
+  commentId: T:Prowl.Runtime.GUI.TransformGizmo.GizmoOrientation
+  id: TransformGizmo.GizmoOrientation
+  parent: Prowl.Runtime.GUI
+  children:
+  - Prowl.Runtime.GUI.TransformGizmo.GizmoOrientation.Global
+  - Prowl.Runtime.GUI.TransformGizmo.GizmoOrientation.Local
+  langs:
+  - csharp
+  - vb
+  name: TransformGizmo.GizmoOrientation
+  nameWithType: TransformGizmo.GizmoOrientation
+  fullName: Prowl.Runtime.GUI.TransformGizmo.GizmoOrientation
+  type: Enum
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Widgets/Gizmo/TransformGizmo.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: GizmoOrientation
+    path: ../Prowl/Prowl.Runtime/GUI/Widgets/Gizmo/TransformGizmo.cs
+    startLine: 93
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  syntax:
+    content: public enum TransformGizmo.GizmoOrientation
+    content.vb: Public Enum TransformGizmo.GizmoOrientation
+  extensionMethods:
+  - System.Object.Prowl.Runtime.RuntimeUtils.GetSerializableFields
+- uid: Prowl.Runtime.GUI.TransformGizmo.GizmoOrientation.Global
+  commentId: F:Prowl.Runtime.GUI.TransformGizmo.GizmoOrientation.Global
+  id: Global
+  parent: Prowl.Runtime.GUI.TransformGizmo.GizmoOrientation
+  langs:
+  - csharp
+  - vb
+  name: Global
+  nameWithType: TransformGizmo.GizmoOrientation.Global
+  fullName: Prowl.Runtime.GUI.TransformGizmo.GizmoOrientation.Global
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Widgets/Gizmo/TransformGizmo.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Global
+    path: ../Prowl/Prowl.Runtime/GUI/Widgets/Gizmo/TransformGizmo.cs
+    startLine: 93
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  syntax:
+    content: Global = 0
+    return:
+      type: Prowl.Runtime.GUI.TransformGizmo.GizmoOrientation
+- uid: Prowl.Runtime.GUI.TransformGizmo.GizmoOrientation.Local
+  commentId: F:Prowl.Runtime.GUI.TransformGizmo.GizmoOrientation.Local
+  id: Local
+  parent: Prowl.Runtime.GUI.TransformGizmo.GizmoOrientation
+  langs:
+  - csharp
+  - vb
+  name: Local
+  nameWithType: TransformGizmo.GizmoOrientation.Local
+  fullName: Prowl.Runtime.GUI.TransformGizmo.GizmoOrientation.Local
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Widgets/Gizmo/TransformGizmo.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Local
+    path: ../Prowl/Prowl.Runtime/GUI/Widgets/Gizmo/TransformGizmo.cs
+    startLine: 93
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  syntax:
+    content: Local = 1
+    return:
+      type: Prowl.Runtime.GUI.TransformGizmo.GizmoOrientation
+references:
+- uid: Prowl.Runtime.GUI
+  commentId: N:Prowl.Runtime.GUI
+  href: Prowl.html
+  name: Prowl.Runtime.GUI
+  nameWithType: Prowl.Runtime.GUI
+  fullName: Prowl.Runtime.GUI
+  spec.csharp:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+  - name: .
+  - uid: Prowl.Runtime.GUI
+    name: GUI
+    href: Prowl.Runtime.GUI.html
+  spec.vb:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+  - name: .
+  - uid: Prowl.Runtime.GUI
+    name: GUI
+    href: Prowl.Runtime.GUI.html
+- uid: System.Object.Prowl.Runtime.RuntimeUtils.GetSerializableFields
+  commentId: M:Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  parent: Prowl.Runtime.RuntimeUtils
+  definition: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  name: GetSerializableFields(object)
+  nameWithType: RuntimeUtils.GetSerializableFields(object)
+  fullName: Prowl.Runtime.RuntimeUtils.GetSerializableFields(object)
+  nameWithType.vb: RuntimeUtils.GetSerializableFields(Object)
+  fullName.vb: Prowl.Runtime.RuntimeUtils.GetSerializableFields(Object)
+  name.vb: GetSerializableFields(Object)
+  spec.csharp:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  commentId: M:Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  isExternal: true
+  href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  name: GetSerializableFields(object)
+  nameWithType: RuntimeUtils.GetSerializableFields(object)
+  fullName: Prowl.Runtime.RuntimeUtils.GetSerializableFields(object)
+  nameWithType.vb: RuntimeUtils.GetSerializableFields(Object)
+  fullName.vb: Prowl.Runtime.RuntimeUtils.GetSerializableFields(Object)
+  name.vb: GetSerializableFields(Object)
+  spec.csharp:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: Prowl.Runtime.RuntimeUtils
+  commentId: T:Prowl.Runtime.RuntimeUtils
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.RuntimeUtils.html
+  name: RuntimeUtils
+  nameWithType: RuntimeUtils
+  fullName: Prowl.Runtime.RuntimeUtils
+- uid: Prowl.Runtime
+  commentId: N:Prowl.Runtime
+  href: Prowl.html
+  name: Prowl.Runtime
+  nameWithType: Prowl.Runtime
+  fullName: Prowl.Runtime
+  spec.csharp:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+  spec.vb:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+- uid: Prowl.Runtime.GUI.TransformGizmo.GizmoOrientation
+  commentId: T:Prowl.Runtime.GUI.TransformGizmo.GizmoOrientation
+  parent: Prowl.Runtime.GUI
+  href: Prowl.Runtime.GUI.TransformGizmo.html
+  name: TransformGizmo.GizmoOrientation
+  nameWithType: TransformGizmo.GizmoOrientation
+  fullName: Prowl.Runtime.GUI.TransformGizmo.GizmoOrientation
+  spec.csharp:
+  - uid: Prowl.Runtime.GUI.TransformGizmo
+    name: TransformGizmo
+    href: Prowl.Runtime.GUI.TransformGizmo.html
+  - name: .
+  - uid: Prowl.Runtime.GUI.TransformGizmo.GizmoOrientation
+    name: GizmoOrientation
+    href: Prowl.Runtime.GUI.TransformGizmo.GizmoOrientation.html
+  spec.vb:
+  - uid: Prowl.Runtime.GUI.TransformGizmo
+    name: TransformGizmo
+    href: Prowl.Runtime.GUI.TransformGizmo.html
+  - name: .
+  - uid: Prowl.Runtime.GUI.TransformGizmo.GizmoOrientation
+    name: GizmoOrientation
+    href: Prowl.Runtime.GUI.TransformGizmo.GizmoOrientation.html

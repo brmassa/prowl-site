@@ -1,0 +1,275 @@
+### YamlMime:ManagedReference
+items:
+- uid: Prowl.Editor.PropertyDrawers
+  commentId: N:Prowl.Editor.PropertyDrawers
+  id: Prowl.Editor.PropertyDrawers
+  children:
+  - Prowl.Editor.PropertyDrawers.Bool_PropertyDrawer
+  - Prowl.Editor.PropertyDrawers.Byte_PropertyDrawer
+  - Prowl.Editor.PropertyDrawers.Color_PropertyDrawer
+  - Prowl.Editor.PropertyDrawers.Double_PropertyDrawer
+  - Prowl.Editor.PropertyDrawers.DrawerAttribute
+  - Prowl.Editor.PropertyDrawers.EngineObject_PropertyDrawer
+  - Prowl.Editor.PropertyDrawers.Enum_PropertyDrawer
+  - Prowl.Editor.PropertyDrawers.Float_PropertyDrawer
+  - Prowl.Editor.PropertyDrawers.IAssetRef_PropertyDrawer
+  - Prowl.Editor.PropertyDrawers.Int_PropertyDrawer
+  - Prowl.Editor.PropertyDrawers.Integar_PropertyDrawer`1
+  - Prowl.Editor.PropertyDrawers.LayerMask_PropertyDrawer
+  - Prowl.Editor.PropertyDrawers.Long_PropertyDrawer
+  - Prowl.Editor.PropertyDrawers.PropertyDrawer
+  - Prowl.Editor.PropertyDrawers.PropertyDrawerArray
+  - Prowl.Editor.PropertyDrawers.PropertyDrawerEnumerable`1
+  - Prowl.Editor.PropertyDrawers.PropertyDrawerList
+  - Prowl.Editor.PropertyDrawers.SByte_PropertyDrawer
+  - Prowl.Editor.PropertyDrawers.Short_PropertyDrawer
+  - Prowl.Editor.PropertyDrawers.String_PropertyDrawer
+  - Prowl.Editor.PropertyDrawers.Transform_PropertyDrawer
+  - Prowl.Editor.PropertyDrawers.UInt_PropertyDrawer
+  - Prowl.Editor.PropertyDrawers.ULong_PropertyDrawer
+  - Prowl.Editor.PropertyDrawers.UShort_PropertyDrawer
+  - Prowl.Editor.PropertyDrawers.Vector2_PropertyDrawer
+  - Prowl.Editor.PropertyDrawers.Vector3_PropertyDrawer
+  - Prowl.Editor.PropertyDrawers.Vector4_PropertyDrawer
+  langs:
+  - csharp
+  - vb
+  name: Prowl.Editor.PropertyDrawers
+  nameWithType: Prowl.Editor.PropertyDrawers
+  fullName: Prowl.Editor.PropertyDrawers
+  type: Namespace
+  assemblies:
+  - Prowl.Editor
+references:
+- uid: Prowl.Editor.PropertyDrawers.Bool_PropertyDrawer
+  commentId: T:Prowl.Editor.PropertyDrawers.Bool_PropertyDrawer
+  href: Prowl.Editor.PropertyDrawers.Bool_PropertyDrawer.html
+  name: Bool_PropertyDrawer
+  nameWithType: Bool_PropertyDrawer
+  fullName: Prowl.Editor.PropertyDrawers.Bool_PropertyDrawer
+- uid: Prowl.Editor.PropertyDrawers.Color_PropertyDrawer
+  commentId: T:Prowl.Editor.PropertyDrawers.Color_PropertyDrawer
+  href: Prowl.Editor.PropertyDrawers.Color_PropertyDrawer.html
+  name: Color_PropertyDrawer
+  nameWithType: Color_PropertyDrawer
+  fullName: Prowl.Editor.PropertyDrawers.Color_PropertyDrawer
+- uid: Prowl.Editor.PropertyDrawers.Double_PropertyDrawer
+  commentId: T:Prowl.Editor.PropertyDrawers.Double_PropertyDrawer
+  href: Prowl.Editor.PropertyDrawers.Double_PropertyDrawer.html
+  name: Double_PropertyDrawer
+  nameWithType: Double_PropertyDrawer
+  fullName: Prowl.Editor.PropertyDrawers.Double_PropertyDrawer
+- uid: Prowl.Editor.PropertyDrawers.EngineObject_PropertyDrawer
+  commentId: T:Prowl.Editor.PropertyDrawers.EngineObject_PropertyDrawer
+  href: Prowl.Editor.PropertyDrawers.EngineObject_PropertyDrawer.html
+  name: EngineObject_PropertyDrawer
+  nameWithType: EngineObject_PropertyDrawer
+  fullName: Prowl.Editor.PropertyDrawers.EngineObject_PropertyDrawer
+- uid: Prowl.Editor.PropertyDrawers.Enum_PropertyDrawer
+  commentId: T:Prowl.Editor.PropertyDrawers.Enum_PropertyDrawer
+  href: Prowl.Editor.PropertyDrawers.Enum_PropertyDrawer.html
+  name: Enum_PropertyDrawer
+  nameWithType: Enum_PropertyDrawer
+  fullName: Prowl.Editor.PropertyDrawers.Enum_PropertyDrawer
+- uid: Prowl.Editor.PropertyDrawers.Float_PropertyDrawer
+  commentId: T:Prowl.Editor.PropertyDrawers.Float_PropertyDrawer
+  href: Prowl.Editor.PropertyDrawers.Float_PropertyDrawer.html
+  name: Float_PropertyDrawer
+  nameWithType: Float_PropertyDrawer
+  fullName: Prowl.Editor.PropertyDrawers.Float_PropertyDrawer
+- uid: Prowl.Editor.PropertyDrawers.IAssetRef_PropertyDrawer
+  commentId: T:Prowl.Editor.PropertyDrawers.IAssetRef_PropertyDrawer
+  href: Prowl.Editor.PropertyDrawers.IAssetRef_PropertyDrawer.html
+  name: IAssetRef_PropertyDrawer
+  nameWithType: IAssetRef_PropertyDrawer
+  fullName: Prowl.Editor.PropertyDrawers.IAssetRef_PropertyDrawer
+- uid: Prowl.Editor.PropertyDrawers.Integar_PropertyDrawer`1
+  commentId: T:Prowl.Editor.PropertyDrawers.Integar_PropertyDrawer`1
+  href: Prowl.Editor.PropertyDrawers.Integar_PropertyDrawer-1.html
+  name: Integar_PropertyDrawer<T>
+  nameWithType: Integar_PropertyDrawer<T>
+  fullName: Prowl.Editor.PropertyDrawers.Integar_PropertyDrawer<T>
+  nameWithType.vb: Integar_PropertyDrawer(Of T)
+  fullName.vb: Prowl.Editor.PropertyDrawers.Integar_PropertyDrawer(Of T)
+  name.vb: Integar_PropertyDrawer(Of T)
+  spec.csharp:
+  - uid: Prowl.Editor.PropertyDrawers.Integar_PropertyDrawer`1
+    name: Integar_PropertyDrawer
+    href: Prowl.Editor.PropertyDrawers.Integar_PropertyDrawer-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Prowl.Editor.PropertyDrawers.Integar_PropertyDrawer`1
+    name: Integar_PropertyDrawer
+    href: Prowl.Editor.PropertyDrawers.Integar_PropertyDrawer-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Prowl.Editor.PropertyDrawers.Byte_PropertyDrawer
+  commentId: T:Prowl.Editor.PropertyDrawers.Byte_PropertyDrawer
+  href: Prowl.Editor.PropertyDrawers.Byte_PropertyDrawer.html
+  name: Byte_PropertyDrawer
+  nameWithType: Byte_PropertyDrawer
+  fullName: Prowl.Editor.PropertyDrawers.Byte_PropertyDrawer
+- uid: Prowl.Editor.PropertyDrawers.SByte_PropertyDrawer
+  commentId: T:Prowl.Editor.PropertyDrawers.SByte_PropertyDrawer
+  href: Prowl.Editor.PropertyDrawers.SByte_PropertyDrawer.html
+  name: SByte_PropertyDrawer
+  nameWithType: SByte_PropertyDrawer
+  fullName: Prowl.Editor.PropertyDrawers.SByte_PropertyDrawer
+- uid: Prowl.Editor.PropertyDrawers.Short_PropertyDrawer
+  commentId: T:Prowl.Editor.PropertyDrawers.Short_PropertyDrawer
+  href: Prowl.Editor.PropertyDrawers.Short_PropertyDrawer.html
+  name: Short_PropertyDrawer
+  nameWithType: Short_PropertyDrawer
+  fullName: Prowl.Editor.PropertyDrawers.Short_PropertyDrawer
+- uid: Prowl.Editor.PropertyDrawers.UShort_PropertyDrawer
+  commentId: T:Prowl.Editor.PropertyDrawers.UShort_PropertyDrawer
+  href: Prowl.Editor.PropertyDrawers.UShort_PropertyDrawer.html
+  name: UShort_PropertyDrawer
+  nameWithType: UShort_PropertyDrawer
+  fullName: Prowl.Editor.PropertyDrawers.UShort_PropertyDrawer
+- uid: Prowl.Editor.PropertyDrawers.Int_PropertyDrawer
+  commentId: T:Prowl.Editor.PropertyDrawers.Int_PropertyDrawer
+  href: Prowl.Editor.PropertyDrawers.Int_PropertyDrawer.html
+  name: Int_PropertyDrawer
+  nameWithType: Int_PropertyDrawer
+  fullName: Prowl.Editor.PropertyDrawers.Int_PropertyDrawer
+- uid: Prowl.Editor.PropertyDrawers.UInt_PropertyDrawer
+  commentId: T:Prowl.Editor.PropertyDrawers.UInt_PropertyDrawer
+  href: Prowl.Editor.PropertyDrawers.UInt_PropertyDrawer.html
+  name: UInt_PropertyDrawer
+  nameWithType: UInt_PropertyDrawer
+  fullName: Prowl.Editor.PropertyDrawers.UInt_PropertyDrawer
+- uid: Prowl.Editor.PropertyDrawers.Long_PropertyDrawer
+  commentId: T:Prowl.Editor.PropertyDrawers.Long_PropertyDrawer
+  href: Prowl.Editor.PropertyDrawers.Long_PropertyDrawer.html
+  name: Long_PropertyDrawer
+  nameWithType: Long_PropertyDrawer
+  fullName: Prowl.Editor.PropertyDrawers.Long_PropertyDrawer
+- uid: Prowl.Editor.PropertyDrawers.ULong_PropertyDrawer
+  commentId: T:Prowl.Editor.PropertyDrawers.ULong_PropertyDrawer
+  href: Prowl.Editor.PropertyDrawers.ULong_PropertyDrawer.html
+  name: ULong_PropertyDrawer
+  nameWithType: ULong_PropertyDrawer
+  fullName: Prowl.Editor.PropertyDrawers.ULong_PropertyDrawer
+- uid: Prowl.Editor.PropertyDrawers.LayerMask_PropertyDrawer
+  commentId: T:Prowl.Editor.PropertyDrawers.LayerMask_PropertyDrawer
+  href: Prowl.Editor.PropertyDrawers.LayerMask_PropertyDrawer.html
+  name: LayerMask_PropertyDrawer
+  nameWithType: LayerMask_PropertyDrawer
+  fullName: Prowl.Editor.PropertyDrawers.LayerMask_PropertyDrawer
+- uid: Prowl.Editor.PropertyDrawers.PropertyDrawerEnumerable`1
+  commentId: T:Prowl.Editor.PropertyDrawers.PropertyDrawerEnumerable`1
+  href: Prowl.Editor.PropertyDrawers.PropertyDrawerEnumerable-1.html
+  name: PropertyDrawerEnumerable<T>
+  nameWithType: PropertyDrawerEnumerable<T>
+  fullName: Prowl.Editor.PropertyDrawers.PropertyDrawerEnumerable<T>
+  nameWithType.vb: PropertyDrawerEnumerable(Of T)
+  fullName.vb: Prowl.Editor.PropertyDrawers.PropertyDrawerEnumerable(Of T)
+  name.vb: PropertyDrawerEnumerable(Of T)
+  spec.csharp:
+  - uid: Prowl.Editor.PropertyDrawers.PropertyDrawerEnumerable`1
+    name: PropertyDrawerEnumerable
+    href: Prowl.Editor.PropertyDrawers.PropertyDrawerEnumerable-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Prowl.Editor.PropertyDrawers.PropertyDrawerEnumerable`1
+    name: PropertyDrawerEnumerable
+    href: Prowl.Editor.PropertyDrawers.PropertyDrawerEnumerable-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Prowl.Editor.PropertyDrawers.PropertyDrawerArray
+  commentId: T:Prowl.Editor.PropertyDrawers.PropertyDrawerArray
+  href: Prowl.Editor.PropertyDrawers.PropertyDrawerArray.html
+  name: PropertyDrawerArray
+  nameWithType: PropertyDrawerArray
+  fullName: Prowl.Editor.PropertyDrawers.PropertyDrawerArray
+- uid: Prowl.Editor.PropertyDrawers.PropertyDrawerList
+  commentId: T:Prowl.Editor.PropertyDrawers.PropertyDrawerList
+  href: Prowl.Editor.PropertyDrawers.PropertyDrawerList.html
+  name: PropertyDrawerList
+  nameWithType: PropertyDrawerList
+  fullName: Prowl.Editor.PropertyDrawers.PropertyDrawerList
+- uid: Prowl.Editor.PropertyDrawers.String_PropertyDrawer
+  commentId: T:Prowl.Editor.PropertyDrawers.String_PropertyDrawer
+  href: Prowl.Editor.PropertyDrawers.String_PropertyDrawer.html
+  name: String_PropertyDrawer
+  nameWithType: String_PropertyDrawer
+  fullName: Prowl.Editor.PropertyDrawers.String_PropertyDrawer
+- uid: Prowl.Editor.PropertyDrawers.Transform_PropertyDrawer
+  commentId: T:Prowl.Editor.PropertyDrawers.Transform_PropertyDrawer
+  href: Prowl.Editor.PropertyDrawers.Transform_PropertyDrawer.html
+  name: Transform_PropertyDrawer
+  nameWithType: Transform_PropertyDrawer
+  fullName: Prowl.Editor.PropertyDrawers.Transform_PropertyDrawer
+- uid: Prowl.Editor.PropertyDrawers.Vector2_PropertyDrawer
+  commentId: T:Prowl.Editor.PropertyDrawers.Vector2_PropertyDrawer
+  href: Prowl.Editor.PropertyDrawers.Vector2_PropertyDrawer.html
+  name: Vector2_PropertyDrawer
+  nameWithType: Vector2_PropertyDrawer
+  fullName: Prowl.Editor.PropertyDrawers.Vector2_PropertyDrawer
+- uid: Prowl.Editor.PropertyDrawers.Vector3_PropertyDrawer
+  commentId: T:Prowl.Editor.PropertyDrawers.Vector3_PropertyDrawer
+  href: Prowl.Editor.PropertyDrawers.Vector3_PropertyDrawer.html
+  name: Vector3_PropertyDrawer
+  nameWithType: Vector3_PropertyDrawer
+  fullName: Prowl.Editor.PropertyDrawers.Vector3_PropertyDrawer
+- uid: Prowl.Editor.PropertyDrawers.Vector4_PropertyDrawer
+  commentId: T:Prowl.Editor.PropertyDrawers.Vector4_PropertyDrawer
+  href: Prowl.Editor.PropertyDrawers.Vector4_PropertyDrawer.html
+  name: Vector4_PropertyDrawer
+  nameWithType: Vector4_PropertyDrawer
+  fullName: Prowl.Editor.PropertyDrawers.Vector4_PropertyDrawer
+- uid: Prowl.Editor.PropertyDrawers.DrawerAttribute
+  commentId: T:Prowl.Editor.PropertyDrawers.DrawerAttribute
+  parent: Prowl.Editor.PropertyDrawers
+  href: Prowl.Editor.PropertyDrawers.DrawerAttribute.html
+  name: DrawerAttribute
+  nameWithType: DrawerAttribute
+  fullName: Prowl.Editor.PropertyDrawers.DrawerAttribute
+- uid: Prowl.Editor.PropertyDrawers.PropertyDrawer
+  commentId: T:Prowl.Editor.PropertyDrawers.PropertyDrawer
+  parent: Prowl.Editor.PropertyDrawers
+  href: Prowl.Editor.PropertyDrawers.PropertyDrawer.html
+  name: PropertyDrawer
+  nameWithType: PropertyDrawer
+  fullName: Prowl.Editor.PropertyDrawers.PropertyDrawer
+- uid: Prowl.Editor.PropertyDrawers
+  commentId: N:Prowl.Editor.PropertyDrawers
+  href: Prowl.html
+  name: Prowl.Editor.PropertyDrawers
+  nameWithType: Prowl.Editor.PropertyDrawers
+  fullName: Prowl.Editor.PropertyDrawers
+  spec.csharp:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Editor
+    name: Editor
+    href: Prowl.Editor.html
+  - name: .
+  - uid: Prowl.Editor.PropertyDrawers
+    name: PropertyDrawers
+    href: Prowl.Editor.PropertyDrawers.html
+  spec.vb:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Editor
+    name: Editor
+    href: Prowl.Editor.html
+  - name: .
+  - uid: Prowl.Editor.PropertyDrawers
+    name: PropertyDrawers
+    href: Prowl.Editor.PropertyDrawers.html

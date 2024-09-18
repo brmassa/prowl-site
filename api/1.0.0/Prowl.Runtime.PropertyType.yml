@@ -1,0 +1,587 @@
+### YamlMime:ManagedReference
+items:
+- uid: Prowl.Runtime.PropertyType
+  commentId: T:Prowl.Runtime.PropertyType
+  id: PropertyType
+  parent: Prowl.Runtime
+  children:
+  - Prowl.Runtime.PropertyType.Bool
+  - Prowl.Runtime.PropertyType.Byte
+  - Prowl.Runtime.PropertyType.ByteArray
+  - Prowl.Runtime.PropertyType.Compound
+  - Prowl.Runtime.PropertyType.Decimal
+  - Prowl.Runtime.PropertyType.Double
+  - Prowl.Runtime.PropertyType.Float
+  - Prowl.Runtime.PropertyType.Int
+  - Prowl.Runtime.PropertyType.List
+  - Prowl.Runtime.PropertyType.Long
+  - Prowl.Runtime.PropertyType.Null
+  - Prowl.Runtime.PropertyType.Short
+  - Prowl.Runtime.PropertyType.String
+  - Prowl.Runtime.PropertyType.UInt
+  - Prowl.Runtime.PropertyType.ULong
+  - Prowl.Runtime.PropertyType.UShort
+  - Prowl.Runtime.PropertyType.sByte
+  langs:
+  - csharp
+  - vb
+  name: PropertyType
+  nameWithType: PropertyType
+  fullName: Prowl.Runtime.PropertyType
+  type: Enum
+  source:
+    remote:
+      path: Prowl.Runtime/Serializer/SerializedProperty.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: PropertyType
+    path: ../Prowl/Prowl.Runtime/Serializer/SerializedProperty.cs
+    startLine: 9
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public enum PropertyType
+    content.vb: Public Enum PropertyType
+  extensionMethods:
+  - System.Object.Prowl.Runtime.RuntimeUtils.GetSerializableFields
+- uid: Prowl.Runtime.PropertyType.Null
+  commentId: F:Prowl.Runtime.PropertyType.Null
+  id: "Null"
+  parent: Prowl.Runtime.PropertyType
+  langs:
+  - csharp
+  - vb
+  name: "Null"
+  nameWithType: PropertyType.Null
+  fullName: Prowl.Runtime.PropertyType.Null
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/Serializer/SerializedProperty.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: "Null"
+    path: ../Prowl/Prowl.Runtime/Serializer/SerializedProperty.cs
+    startLine: 11
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: Null = 0
+    return:
+      type: Prowl.Runtime.PropertyType
+- uid: Prowl.Runtime.PropertyType.Byte
+  commentId: F:Prowl.Runtime.PropertyType.Byte
+  id: Byte
+  parent: Prowl.Runtime.PropertyType
+  langs:
+  - csharp
+  - vb
+  name: Byte
+  nameWithType: PropertyType.Byte
+  fullName: Prowl.Runtime.PropertyType.Byte
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/Serializer/SerializedProperty.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Byte
+    path: ../Prowl/Prowl.Runtime/Serializer/SerializedProperty.cs
+    startLine: 12
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: Byte = 1
+    return:
+      type: Prowl.Runtime.PropertyType
+- uid: Prowl.Runtime.PropertyType.sByte
+  commentId: F:Prowl.Runtime.PropertyType.sByte
+  id: sByte
+  parent: Prowl.Runtime.PropertyType
+  langs:
+  - csharp
+  - vb
+  name: sByte
+  nameWithType: PropertyType.sByte
+  fullName: Prowl.Runtime.PropertyType.sByte
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/Serializer/SerializedProperty.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: sByte
+    path: ../Prowl/Prowl.Runtime/Serializer/SerializedProperty.cs
+    startLine: 13
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: sByte = 2
+    return:
+      type: Prowl.Runtime.PropertyType
+- uid: Prowl.Runtime.PropertyType.Short
+  commentId: F:Prowl.Runtime.PropertyType.Short
+  id: Short
+  parent: Prowl.Runtime.PropertyType
+  langs:
+  - csharp
+  - vb
+  name: Short
+  nameWithType: PropertyType.Short
+  fullName: Prowl.Runtime.PropertyType.Short
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/Serializer/SerializedProperty.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Short
+    path: ../Prowl/Prowl.Runtime/Serializer/SerializedProperty.cs
+    startLine: 14
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: Short = 3
+    return:
+      type: Prowl.Runtime.PropertyType
+- uid: Prowl.Runtime.PropertyType.Int
+  commentId: F:Prowl.Runtime.PropertyType.Int
+  id: Int
+  parent: Prowl.Runtime.PropertyType
+  langs:
+  - csharp
+  - vb
+  name: Int
+  nameWithType: PropertyType.Int
+  fullName: Prowl.Runtime.PropertyType.Int
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/Serializer/SerializedProperty.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Int
+    path: ../Prowl/Prowl.Runtime/Serializer/SerializedProperty.cs
+    startLine: 15
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: Int = 4
+    return:
+      type: Prowl.Runtime.PropertyType
+- uid: Prowl.Runtime.PropertyType.Long
+  commentId: F:Prowl.Runtime.PropertyType.Long
+  id: Long
+  parent: Prowl.Runtime.PropertyType
+  langs:
+  - csharp
+  - vb
+  name: Long
+  nameWithType: PropertyType.Long
+  fullName: Prowl.Runtime.PropertyType.Long
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/Serializer/SerializedProperty.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Long
+    path: ../Prowl/Prowl.Runtime/Serializer/SerializedProperty.cs
+    startLine: 16
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: Long = 5
+    return:
+      type: Prowl.Runtime.PropertyType
+- uid: Prowl.Runtime.PropertyType.UShort
+  commentId: F:Prowl.Runtime.PropertyType.UShort
+  id: UShort
+  parent: Prowl.Runtime.PropertyType
+  langs:
+  - csharp
+  - vb
+  name: UShort
+  nameWithType: PropertyType.UShort
+  fullName: Prowl.Runtime.PropertyType.UShort
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/Serializer/SerializedProperty.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: UShort
+    path: ../Prowl/Prowl.Runtime/Serializer/SerializedProperty.cs
+    startLine: 17
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: UShort = 6
+    return:
+      type: Prowl.Runtime.PropertyType
+- uid: Prowl.Runtime.PropertyType.UInt
+  commentId: F:Prowl.Runtime.PropertyType.UInt
+  id: UInt
+  parent: Prowl.Runtime.PropertyType
+  langs:
+  - csharp
+  - vb
+  name: UInt
+  nameWithType: PropertyType.UInt
+  fullName: Prowl.Runtime.PropertyType.UInt
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/Serializer/SerializedProperty.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: UInt
+    path: ../Prowl/Prowl.Runtime/Serializer/SerializedProperty.cs
+    startLine: 18
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: UInt = 7
+    return:
+      type: Prowl.Runtime.PropertyType
+- uid: Prowl.Runtime.PropertyType.ULong
+  commentId: F:Prowl.Runtime.PropertyType.ULong
+  id: ULong
+  parent: Prowl.Runtime.PropertyType
+  langs:
+  - csharp
+  - vb
+  name: ULong
+  nameWithType: PropertyType.ULong
+  fullName: Prowl.Runtime.PropertyType.ULong
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/Serializer/SerializedProperty.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: ULong
+    path: ../Prowl/Prowl.Runtime/Serializer/SerializedProperty.cs
+    startLine: 19
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: ULong = 8
+    return:
+      type: Prowl.Runtime.PropertyType
+- uid: Prowl.Runtime.PropertyType.Float
+  commentId: F:Prowl.Runtime.PropertyType.Float
+  id: Float
+  parent: Prowl.Runtime.PropertyType
+  langs:
+  - csharp
+  - vb
+  name: Float
+  nameWithType: PropertyType.Float
+  fullName: Prowl.Runtime.PropertyType.Float
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/Serializer/SerializedProperty.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Float
+    path: ../Prowl/Prowl.Runtime/Serializer/SerializedProperty.cs
+    startLine: 20
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: Float = 9
+    return:
+      type: Prowl.Runtime.PropertyType
+- uid: Prowl.Runtime.PropertyType.Double
+  commentId: F:Prowl.Runtime.PropertyType.Double
+  id: Double
+  parent: Prowl.Runtime.PropertyType
+  langs:
+  - csharp
+  - vb
+  name: Double
+  nameWithType: PropertyType.Double
+  fullName: Prowl.Runtime.PropertyType.Double
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/Serializer/SerializedProperty.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Double
+    path: ../Prowl/Prowl.Runtime/Serializer/SerializedProperty.cs
+    startLine: 21
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: Double = 10
+    return:
+      type: Prowl.Runtime.PropertyType
+- uid: Prowl.Runtime.PropertyType.Decimal
+  commentId: F:Prowl.Runtime.PropertyType.Decimal
+  id: Decimal
+  parent: Prowl.Runtime.PropertyType
+  langs:
+  - csharp
+  - vb
+  name: Decimal
+  nameWithType: PropertyType.Decimal
+  fullName: Prowl.Runtime.PropertyType.Decimal
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/Serializer/SerializedProperty.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Decimal
+    path: ../Prowl/Prowl.Runtime/Serializer/SerializedProperty.cs
+    startLine: 22
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: Decimal = 11
+    return:
+      type: Prowl.Runtime.PropertyType
+- uid: Prowl.Runtime.PropertyType.String
+  commentId: F:Prowl.Runtime.PropertyType.String
+  id: String
+  parent: Prowl.Runtime.PropertyType
+  langs:
+  - csharp
+  - vb
+  name: String
+  nameWithType: PropertyType.String
+  fullName: Prowl.Runtime.PropertyType.String
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/Serializer/SerializedProperty.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: String
+    path: ../Prowl/Prowl.Runtime/Serializer/SerializedProperty.cs
+    startLine: 23
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: String = 12
+    return:
+      type: Prowl.Runtime.PropertyType
+- uid: Prowl.Runtime.PropertyType.ByteArray
+  commentId: F:Prowl.Runtime.PropertyType.ByteArray
+  id: ByteArray
+  parent: Prowl.Runtime.PropertyType
+  langs:
+  - csharp
+  - vb
+  name: ByteArray
+  nameWithType: PropertyType.ByteArray
+  fullName: Prowl.Runtime.PropertyType.ByteArray
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/Serializer/SerializedProperty.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: ByteArray
+    path: ../Prowl/Prowl.Runtime/Serializer/SerializedProperty.cs
+    startLine: 24
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: ByteArray = 13
+    return:
+      type: Prowl.Runtime.PropertyType
+- uid: Prowl.Runtime.PropertyType.Bool
+  commentId: F:Prowl.Runtime.PropertyType.Bool
+  id: Bool
+  parent: Prowl.Runtime.PropertyType
+  langs:
+  - csharp
+  - vb
+  name: Bool
+  nameWithType: PropertyType.Bool
+  fullName: Prowl.Runtime.PropertyType.Bool
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/Serializer/SerializedProperty.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Bool
+    path: ../Prowl/Prowl.Runtime/Serializer/SerializedProperty.cs
+    startLine: 25
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: Bool = 14
+    return:
+      type: Prowl.Runtime.PropertyType
+- uid: Prowl.Runtime.PropertyType.List
+  commentId: F:Prowl.Runtime.PropertyType.List
+  id: List
+  parent: Prowl.Runtime.PropertyType
+  langs:
+  - csharp
+  - vb
+  name: List
+  nameWithType: PropertyType.List
+  fullName: Prowl.Runtime.PropertyType.List
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/Serializer/SerializedProperty.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: List
+    path: ../Prowl/Prowl.Runtime/Serializer/SerializedProperty.cs
+    startLine: 26
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: List = 15
+    return:
+      type: Prowl.Runtime.PropertyType
+- uid: Prowl.Runtime.PropertyType.Compound
+  commentId: F:Prowl.Runtime.PropertyType.Compound
+  id: Compound
+  parent: Prowl.Runtime.PropertyType
+  langs:
+  - csharp
+  - vb
+  name: Compound
+  nameWithType: PropertyType.Compound
+  fullName: Prowl.Runtime.PropertyType.Compound
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/Serializer/SerializedProperty.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Compound
+    path: ../Prowl/Prowl.Runtime/Serializer/SerializedProperty.cs
+    startLine: 27
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: Compound = 16
+    return:
+      type: Prowl.Runtime.PropertyType
+references:
+- uid: Prowl.Runtime
+  commentId: N:Prowl.Runtime
+  href: Prowl.html
+  name: Prowl.Runtime
+  nameWithType: Prowl.Runtime
+  fullName: Prowl.Runtime
+  spec.csharp:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+  spec.vb:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+- uid: System.Object.Prowl.Runtime.RuntimeUtils.GetSerializableFields
+  commentId: M:Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  parent: Prowl.Runtime.RuntimeUtils
+  definition: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  name: GetSerializableFields(object)
+  nameWithType: RuntimeUtils.GetSerializableFields(object)
+  fullName: Prowl.Runtime.RuntimeUtils.GetSerializableFields(object)
+  nameWithType.vb: RuntimeUtils.GetSerializableFields(Object)
+  fullName.vb: Prowl.Runtime.RuntimeUtils.GetSerializableFields(Object)
+  name.vb: GetSerializableFields(Object)
+  spec.csharp:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  commentId: M:Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  isExternal: true
+  href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  name: GetSerializableFields(object)
+  nameWithType: RuntimeUtils.GetSerializableFields(object)
+  fullName: Prowl.Runtime.RuntimeUtils.GetSerializableFields(object)
+  nameWithType.vb: RuntimeUtils.GetSerializableFields(Object)
+  fullName.vb: Prowl.Runtime.RuntimeUtils.GetSerializableFields(Object)
+  name.vb: GetSerializableFields(Object)
+  spec.csharp:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: Prowl.Runtime.RuntimeUtils
+  commentId: T:Prowl.Runtime.RuntimeUtils
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.RuntimeUtils.html
+  name: RuntimeUtils
+  nameWithType: RuntimeUtils
+  fullName: Prowl.Runtime.RuntimeUtils
+- uid: Prowl.Runtime.PropertyType
+  commentId: T:Prowl.Runtime.PropertyType
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.PropertyType.html
+  name: PropertyType
+  nameWithType: PropertyType
+  fullName: Prowl.Runtime.PropertyType

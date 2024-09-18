@@ -1,0 +1,1858 @@
+### YamlMime:ManagedReference
+items:
+- uid: Prowl.Runtime.GUI.GizmoUtils
+  commentId: T:Prowl.Runtime.GUI.GizmoUtils
+  id: GizmoUtils
+  parent: Prowl.Runtime.GUI
+  children:
+  - Prowl.Runtime.GUI.GizmoUtils.ArrowModesOverlapping(Prowl.Runtime.GUI.TransformGizmoMode,Prowl.Runtime.GUI.TransformGizmoMode)
+  - Prowl.Runtime.GUI.GizmoUtils.ArrowParams(Prowl.Runtime.GUI.TransformGizmo,Prowl.Runtime.Vector3,Prowl.Runtime.GUI.TransformGizmoMode)
+  - Prowl.Runtime.GUI.GizmoUtils.DrawArrow(Prowl.Runtime.GUI.TransformGizmo,System.Boolean,Prowl.Runtime.Matrix4x4,Prowl.Runtime.GUI.GizmoDirection,Prowl.Runtime.GUI.TransformGizmoMode,System.Double)
+  - Prowl.Runtime.GUI.GizmoUtils.DrawCircle(Prowl.Runtime.GUI.TransformGizmo,System.Boolean,Prowl.Runtime.Matrix4x4)
+  - Prowl.Runtime.GUI.GizmoUtils.DrawPlane(Prowl.Runtime.GUI.TransformGizmo,System.Boolean,Prowl.Runtime.Matrix4x4,Prowl.Runtime.GUI.GizmoDirection)
+  - Prowl.Runtime.GUI.GizmoUtils.DrawQuad(Prowl.Runtime.GUI.TransformGizmo,System.Boolean,Prowl.Runtime.Matrix4x4)
+  - Prowl.Runtime.GUI.GizmoUtils.GizmoColor(Prowl.Runtime.GUI.TransformGizmo,System.Boolean,Prowl.Runtime.GUI.GizmoDirection)
+  - Prowl.Runtime.GUI.GizmoUtils.GizmoLocalNormal(Prowl.Runtime.GUI.TransformGizmo,Prowl.Runtime.GUI.GizmoDirection)
+  - Prowl.Runtime.GUI.GizmoUtils.GizmoNormal(Prowl.Runtime.GUI.TransformGizmo,Prowl.Runtime.GUI.GizmoDirection)
+  - Prowl.Runtime.GUI.GizmoUtils.InnerCircleRadius(Prowl.Runtime.GUI.TransformGizmo)
+  - Prowl.Runtime.GUI.GizmoUtils.IntersectPlane(Prowl.Runtime.Vector3,Prowl.Runtime.Vector3,Prowl.Runtime.Vector3,Prowl.Runtime.Vector3,System.Double@)
+  - Prowl.Runtime.GUI.GizmoUtils.OuterCircleRadius(Prowl.Runtime.GUI.TransformGizmo)
+  - Prowl.Runtime.GUI.GizmoUtils.PickArrow(Prowl.Runtime.GUI.TransformGizmo,Prowl.Runtime.Ray,Prowl.Runtime.GUI.GizmoDirection,Prowl.Runtime.GUI.TransformGizmoMode)
+  - Prowl.Runtime.GUI.GizmoUtils.PickCircle(Prowl.Runtime.GUI.TransformGizmo,Prowl.Runtime.Ray,System.Double,System.Boolean)
+  - Prowl.Runtime.GUI.GizmoUtils.PickPlane(Prowl.Runtime.GUI.TransformGizmo,Prowl.Runtime.Ray,Prowl.Runtime.GUI.GizmoDirection)
+  - Prowl.Runtime.GUI.GizmoUtils.PlaneBitangent(Prowl.Runtime.GUI.GizmoDirection)
+  - Prowl.Runtime.GUI.GizmoUtils.PlaneGlobalOrigin(Prowl.Runtime.GUI.TransformGizmo,Prowl.Runtime.GUI.GizmoDirection)
+  - Prowl.Runtime.GUI.GizmoUtils.PlaneLocalOrigin(Prowl.Runtime.GUI.TransformGizmo,Prowl.Runtime.GUI.GizmoDirection)
+  - Prowl.Runtime.GUI.GizmoUtils.PlaneSize(Prowl.Runtime.GUI.TransformGizmo)
+  - Prowl.Runtime.GUI.GizmoUtils.PlaneTangent(Prowl.Runtime.GUI.GizmoDirection)
+  - Prowl.Runtime.GUI.GizmoUtils.PointOnAxis(Prowl.Runtime.GUI.TransformGizmo,Prowl.Runtime.Ray,Prowl.Runtime.GUI.GizmoDirection)
+  - Prowl.Runtime.GUI.GizmoUtils.PointOnPlane(Prowl.Runtime.Vector3,Prowl.Runtime.Vector3,Prowl.Runtime.Ray)
+  - Prowl.Runtime.GUI.GizmoUtils.RayToPlaneOrigin(Prowl.Runtime.Vector3,Prowl.Runtime.Vector3,Prowl.Runtime.Vector3,Prowl.Runtime.Vector3)
+  - Prowl.Runtime.GUI.GizmoUtils.RayToRay(Prowl.Runtime.Vector3,Prowl.Runtime.Vector3,Prowl.Runtime.Vector3,Prowl.Runtime.Vector3)
+  - Prowl.Runtime.GUI.GizmoUtils.RotationAlign(Prowl.Runtime.Vector3,Prowl.Runtime.Vector3)
+  - Prowl.Runtime.GUI.GizmoUtils.RoundToInterval(System.Double,System.Double)
+  - Prowl.Runtime.GUI.GizmoUtils.SegmentToSegment(Prowl.Runtime.Vector3,Prowl.Runtime.Vector3,Prowl.Runtime.Vector3,Prowl.Runtime.Vector3)
+  - Prowl.Runtime.GUI.GizmoUtils.SnapTranslationPlane(Prowl.Runtime.Vector3,Prowl.Runtime.GUI.GizmoDirection,Prowl.Runtime.GUI.TransformGizmo)
+  - Prowl.Runtime.GUI.GizmoUtils.SnapTranslationVector(Prowl.Runtime.Vector3,Prowl.Runtime.GUI.TransformGizmo)
+  - Prowl.Runtime.GUI.GizmoUtils.WorldToScreen(Prowl.Runtime.Rect,Prowl.Runtime.Matrix4x4,Prowl.Runtime.Vector3)
+  langs:
+  - csharp
+  - vb
+  name: GizmoUtils
+  nameWithType: GizmoUtils
+  fullName: Prowl.Runtime.GUI.GizmoUtils
+  type: Class
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Widgets/Gizmo/GizmoUtils.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: GizmoUtils
+    path: ../Prowl/Prowl.Runtime/GUI/Widgets/Gizmo/GizmoUtils.cs
+    startLine: 8
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  syntax:
+    content: public static class GizmoUtils
+    content.vb: Public Module GizmoUtils
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: Prowl.Runtime.GUI.GizmoUtils.IntersectPlane(Prowl.Runtime.Vector3,Prowl.Runtime.Vector3,Prowl.Runtime.Vector3,Prowl.Runtime.Vector3,System.Double@)
+  commentId: M:Prowl.Runtime.GUI.GizmoUtils.IntersectPlane(Prowl.Runtime.Vector3,Prowl.Runtime.Vector3,Prowl.Runtime.Vector3,Prowl.Runtime.Vector3,System.Double@)
+  id: IntersectPlane(Prowl.Runtime.Vector3,Prowl.Runtime.Vector3,Prowl.Runtime.Vector3,Prowl.Runtime.Vector3,System.Double@)
+  parent: Prowl.Runtime.GUI.GizmoUtils
+  langs:
+  - csharp
+  - vb
+  name: IntersectPlane(Vector3, Vector3, Vector3, Vector3, out double)
+  nameWithType: GizmoUtils.IntersectPlane(Vector3, Vector3, Vector3, Vector3, out double)
+  fullName: Prowl.Runtime.GUI.GizmoUtils.IntersectPlane(Prowl.Runtime.Vector3, Prowl.Runtime.Vector3, Prowl.Runtime.Vector3, Prowl.Runtime.Vector3, out double)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Widgets/Gizmo/GizmoUtils.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: IntersectPlane
+    path: ../Prowl/Prowl.Runtime/GUI/Widgets/Gizmo/GizmoUtils.cs
+    startLine: 10
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  syntax:
+    content: public static bool IntersectPlane(Vector3 planeNormal, Vector3 planeOrigin, Vector3 rayOrigin, Vector3 rayDirection, out double t)
+    parameters:
+    - id: planeNormal
+      type: Prowl.Runtime.Vector3
+    - id: planeOrigin
+      type: Prowl.Runtime.Vector3
+    - id: rayOrigin
+      type: Prowl.Runtime.Vector3
+    - id: rayDirection
+      type: Prowl.Runtime.Vector3
+    - id: t
+      type: System.Double
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function IntersectPlane(planeNormal As Vector3, planeOrigin As Vector3, rayOrigin As Vector3, rayDirection As Vector3, t As Double) As Boolean
+  overload: Prowl.Runtime.GUI.GizmoUtils.IntersectPlane*
+  nameWithType.vb: GizmoUtils.IntersectPlane(Vector3, Vector3, Vector3, Vector3, Double)
+  fullName.vb: Prowl.Runtime.GUI.GizmoUtils.IntersectPlane(Prowl.Runtime.Vector3, Prowl.Runtime.Vector3, Prowl.Runtime.Vector3, Prowl.Runtime.Vector3, Double)
+  name.vb: IntersectPlane(Vector3, Vector3, Vector3, Vector3, Double)
+- uid: Prowl.Runtime.GUI.GizmoUtils.RayToPlaneOrigin(Prowl.Runtime.Vector3,Prowl.Runtime.Vector3,Prowl.Runtime.Vector3,Prowl.Runtime.Vector3)
+  commentId: M:Prowl.Runtime.GUI.GizmoUtils.RayToPlaneOrigin(Prowl.Runtime.Vector3,Prowl.Runtime.Vector3,Prowl.Runtime.Vector3,Prowl.Runtime.Vector3)
+  id: RayToPlaneOrigin(Prowl.Runtime.Vector3,Prowl.Runtime.Vector3,Prowl.Runtime.Vector3,Prowl.Runtime.Vector3)
+  parent: Prowl.Runtime.GUI.GizmoUtils
+  langs:
+  - csharp
+  - vb
+  name: RayToPlaneOrigin(Vector3, Vector3, Vector3, Vector3)
+  nameWithType: GizmoUtils.RayToPlaneOrigin(Vector3, Vector3, Vector3, Vector3)
+  fullName: Prowl.Runtime.GUI.GizmoUtils.RayToPlaneOrigin(Prowl.Runtime.Vector3, Prowl.Runtime.Vector3, Prowl.Runtime.Vector3, Prowl.Runtime.Vector3)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Widgets/Gizmo/GizmoUtils.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: RayToPlaneOrigin
+    path: ../Prowl/Prowl.Runtime/GUI/Widgets/Gizmo/GizmoUtils.cs
+    startLine: 25
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  syntax:
+    content: public static (double, double) RayToPlaneOrigin(Vector3 planeNormal, Vector3 planeOrigin, Vector3 rayOrigin, Vector3 rayDirection)
+    parameters:
+    - id: planeNormal
+      type: Prowl.Runtime.Vector3
+    - id: planeOrigin
+      type: Prowl.Runtime.Vector3
+    - id: rayOrigin
+      type: Prowl.Runtime.Vector3
+    - id: rayDirection
+      type: Prowl.Runtime.Vector3
+    return:
+      type: System.ValueTuple{System.Double,System.Double}
+    content.vb: Public Shared Function RayToPlaneOrigin(planeNormal As Vector3, planeOrigin As Vector3, rayOrigin As Vector3, rayDirection As Vector3) As (Double, Double)
+  overload: Prowl.Runtime.GUI.GizmoUtils.RayToPlaneOrigin*
+- uid: Prowl.Runtime.GUI.GizmoUtils.RoundToInterval(System.Double,System.Double)
+  commentId: M:Prowl.Runtime.GUI.GizmoUtils.RoundToInterval(System.Double,System.Double)
+  id: RoundToInterval(System.Double,System.Double)
+  parent: Prowl.Runtime.GUI.GizmoUtils
+  langs:
+  - csharp
+  - vb
+  name: RoundToInterval(double, double)
+  nameWithType: GizmoUtils.RoundToInterval(double, double)
+  fullName: Prowl.Runtime.GUI.GizmoUtils.RoundToInterval(double, double)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Widgets/Gizmo/GizmoUtils.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: RoundToInterval
+    path: ../Prowl/Prowl.Runtime/GUI/Widgets/Gizmo/GizmoUtils.cs
+    startLine: 40
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  syntax:
+    content: public static double RoundToInterval(double value, double interval)
+    parameters:
+    - id: value
+      type: System.Double
+    - id: interval
+      type: System.Double
+    return:
+      type: System.Double
+    content.vb: Public Shared Function RoundToInterval(value As Double, interval As Double) As Double
+  overload: Prowl.Runtime.GUI.GizmoUtils.RoundToInterval*
+  nameWithType.vb: GizmoUtils.RoundToInterval(Double, Double)
+  fullName.vb: Prowl.Runtime.GUI.GizmoUtils.RoundToInterval(Double, Double)
+  name.vb: RoundToInterval(Double, Double)
+- uid: Prowl.Runtime.GUI.GizmoUtils.PointOnPlane(Prowl.Runtime.Vector3,Prowl.Runtime.Vector3,Prowl.Runtime.Ray)
+  commentId: M:Prowl.Runtime.GUI.GizmoUtils.PointOnPlane(Prowl.Runtime.Vector3,Prowl.Runtime.Vector3,Prowl.Runtime.Ray)
+  id: PointOnPlane(Prowl.Runtime.Vector3,Prowl.Runtime.Vector3,Prowl.Runtime.Ray)
+  parent: Prowl.Runtime.GUI.GizmoUtils
+  langs:
+  - csharp
+  - vb
+  name: PointOnPlane(Vector3, Vector3, Ray)
+  nameWithType: GizmoUtils.PointOnPlane(Vector3, Vector3, Ray)
+  fullName: Prowl.Runtime.GUI.GizmoUtils.PointOnPlane(Prowl.Runtime.Vector3, Prowl.Runtime.Vector3, Prowl.Runtime.Ray)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Widgets/Gizmo/GizmoUtils.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: PointOnPlane
+    path: ../Prowl/Prowl.Runtime/GUI/Widgets/Gizmo/GizmoUtils.cs
+    startLine: 45
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  syntax:
+    content: public static Vector3 PointOnPlane(Vector3 planeNormal, Vector3 planeOrigin, Ray ray)
+    parameters:
+    - id: planeNormal
+      type: Prowl.Runtime.Vector3
+    - id: planeOrigin
+      type: Prowl.Runtime.Vector3
+    - id: ray
+      type: Prowl.Runtime.Ray
+    return:
+      type: Prowl.Runtime.Vector3
+    content.vb: Public Shared Function PointOnPlane(planeNormal As Vector3, planeOrigin As Vector3, ray As Ray) As Vector3
+  overload: Prowl.Runtime.GUI.GizmoUtils.PointOnPlane*
+- uid: Prowl.Runtime.GUI.GizmoUtils.SnapTranslationVector(Prowl.Runtime.Vector3,Prowl.Runtime.GUI.TransformGizmo)
+  commentId: M:Prowl.Runtime.GUI.GizmoUtils.SnapTranslationVector(Prowl.Runtime.Vector3,Prowl.Runtime.GUI.TransformGizmo)
+  id: SnapTranslationVector(Prowl.Runtime.Vector3,Prowl.Runtime.GUI.TransformGizmo)
+  parent: Prowl.Runtime.GUI.GizmoUtils
+  langs:
+  - csharp
+  - vb
+  name: SnapTranslationVector(Vector3, TransformGizmo)
+  nameWithType: GizmoUtils.SnapTranslationVector(Vector3, TransformGizmo)
+  fullName: Prowl.Runtime.GUI.GizmoUtils.SnapTranslationVector(Prowl.Runtime.Vector3, Prowl.Runtime.GUI.TransformGizmo)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Widgets/Gizmo/GizmoUtils.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: SnapTranslationVector
+    path: ../Prowl/Prowl.Runtime/GUI/Widgets/Gizmo/GizmoUtils.cs
+    startLine: 57
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  syntax:
+    content: public static Vector3 SnapTranslationVector(Vector3 delta, TransformGizmo gizmo)
+    parameters:
+    - id: delta
+      type: Prowl.Runtime.Vector3
+    - id: gizmo
+      type: Prowl.Runtime.GUI.TransformGizmo
+    return:
+      type: Prowl.Runtime.Vector3
+    content.vb: Public Shared Function SnapTranslationVector(delta As Vector3, gizmo As TransformGizmo) As Vector3
+  overload: Prowl.Runtime.GUI.GizmoUtils.SnapTranslationVector*
+- uid: Prowl.Runtime.GUI.GizmoUtils.SnapTranslationPlane(Prowl.Runtime.Vector3,Prowl.Runtime.GUI.GizmoDirection,Prowl.Runtime.GUI.TransformGizmo)
+  commentId: M:Prowl.Runtime.GUI.GizmoUtils.SnapTranslationPlane(Prowl.Runtime.Vector3,Prowl.Runtime.GUI.GizmoDirection,Prowl.Runtime.GUI.TransformGizmo)
+  id: SnapTranslationPlane(Prowl.Runtime.Vector3,Prowl.Runtime.GUI.GizmoDirection,Prowl.Runtime.GUI.TransformGizmo)
+  parent: Prowl.Runtime.GUI.GizmoUtils
+  langs:
+  - csharp
+  - vb
+  name: SnapTranslationPlane(Vector3, GizmoDirection, TransformGizmo)
+  nameWithType: GizmoUtils.SnapTranslationPlane(Vector3, GizmoDirection, TransformGizmo)
+  fullName: Prowl.Runtime.GUI.GizmoUtils.SnapTranslationPlane(Prowl.Runtime.Vector3, Prowl.Runtime.GUI.GizmoDirection, Prowl.Runtime.GUI.TransformGizmo)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Widgets/Gizmo/GizmoUtils.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: SnapTranslationPlane
+    path: ../Prowl/Prowl.Runtime/GUI/Widgets/Gizmo/GizmoUtils.cs
+    startLine: 70
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  syntax:
+    content: public static Vector3 SnapTranslationPlane(Vector3 delta, GizmoDirection direction, TransformGizmo gizmo)
+    parameters:
+    - id: delta
+      type: Prowl.Runtime.Vector3
+    - id: direction
+      type: Prowl.Runtime.GUI.GizmoDirection
+    - id: gizmo
+      type: Prowl.Runtime.GUI.TransformGizmo
+    return:
+      type: Prowl.Runtime.Vector3
+    content.vb: Public Shared Function SnapTranslationPlane(delta As Vector3, direction As GizmoDirection, gizmo As TransformGizmo) As Vector3
+  overload: Prowl.Runtime.GUI.GizmoUtils.SnapTranslationPlane*
+- uid: Prowl.Runtime.GUI.GizmoUtils.PlaneSize(Prowl.Runtime.GUI.TransformGizmo)
+  commentId: M:Prowl.Runtime.GUI.GizmoUtils.PlaneSize(Prowl.Runtime.GUI.TransformGizmo)
+  id: PlaneSize(Prowl.Runtime.GUI.TransformGizmo)
+  parent: Prowl.Runtime.GUI.GizmoUtils
+  langs:
+  - csharp
+  - vb
+  name: PlaneSize(TransformGizmo)
+  nameWithType: GizmoUtils.PlaneSize(TransformGizmo)
+  fullName: Prowl.Runtime.GUI.GizmoUtils.PlaneSize(Prowl.Runtime.GUI.TransformGizmo)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Widgets/Gizmo/GizmoUtils.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: PlaneSize
+    path: ../Prowl/Prowl.Runtime/GUI/Widgets/Gizmo/GizmoUtils.cs
+    startLine: 93
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  syntax:
+    content: public static double PlaneSize(TransformGizmo gizmo)
+    parameters:
+    - id: gizmo
+      type: Prowl.Runtime.GUI.TransformGizmo
+    return:
+      type: System.Double
+    content.vb: Public Shared Function PlaneSize(gizmo As TransformGizmo) As Double
+  overload: Prowl.Runtime.GUI.GizmoUtils.PlaneSize*
+- uid: Prowl.Runtime.GUI.GizmoUtils.PlaneBitangent(Prowl.Runtime.GUI.GizmoDirection)
+  commentId: M:Prowl.Runtime.GUI.GizmoUtils.PlaneBitangent(Prowl.Runtime.GUI.GizmoDirection)
+  id: PlaneBitangent(Prowl.Runtime.GUI.GizmoDirection)
+  parent: Prowl.Runtime.GUI.GizmoUtils
+  langs:
+  - csharp
+  - vb
+  name: PlaneBitangent(GizmoDirection)
+  nameWithType: GizmoUtils.PlaneBitangent(GizmoDirection)
+  fullName: Prowl.Runtime.GUI.GizmoUtils.PlaneBitangent(Prowl.Runtime.GUI.GizmoDirection)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Widgets/Gizmo/GizmoUtils.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: PlaneBitangent
+    path: ../Prowl/Prowl.Runtime/GUI/Widgets/Gizmo/GizmoUtils.cs
+    startLine: 98
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  syntax:
+    content: public static Vector3 PlaneBitangent(GizmoDirection direction)
+    parameters:
+    - id: direction
+      type: Prowl.Runtime.GUI.GizmoDirection
+    return:
+      type: Prowl.Runtime.Vector3
+    content.vb: Public Shared Function PlaneBitangent(direction As GizmoDirection) As Vector3
+  overload: Prowl.Runtime.GUI.GizmoUtils.PlaneBitangent*
+- uid: Prowl.Runtime.GUI.GizmoUtils.PlaneTangent(Prowl.Runtime.GUI.GizmoDirection)
+  commentId: M:Prowl.Runtime.GUI.GizmoUtils.PlaneTangent(Prowl.Runtime.GUI.GizmoDirection)
+  id: PlaneTangent(Prowl.Runtime.GUI.GizmoDirection)
+  parent: Prowl.Runtime.GUI.GizmoUtils
+  langs:
+  - csharp
+  - vb
+  name: PlaneTangent(GizmoDirection)
+  nameWithType: GizmoUtils.PlaneTangent(GizmoDirection)
+  fullName: Prowl.Runtime.GUI.GizmoUtils.PlaneTangent(Prowl.Runtime.GUI.GizmoDirection)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Widgets/Gizmo/GizmoUtils.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: PlaneTangent
+    path: ../Prowl/Prowl.Runtime/GUI/Widgets/Gizmo/GizmoUtils.cs
+    startLine: 113
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  syntax:
+    content: public static Vector3 PlaneTangent(GizmoDirection direction)
+    parameters:
+    - id: direction
+      type: Prowl.Runtime.GUI.GizmoDirection
+    return:
+      type: Prowl.Runtime.Vector3
+    content.vb: Public Shared Function PlaneTangent(direction As GizmoDirection) As Vector3
+  overload: Prowl.Runtime.GUI.GizmoUtils.PlaneTangent*
+- uid: Prowl.Runtime.GUI.GizmoUtils.GizmoColor(Prowl.Runtime.GUI.TransformGizmo,System.Boolean,Prowl.Runtime.GUI.GizmoDirection)
+  commentId: M:Prowl.Runtime.GUI.GizmoUtils.GizmoColor(Prowl.Runtime.GUI.TransformGizmo,System.Boolean,Prowl.Runtime.GUI.GizmoDirection)
+  id: GizmoColor(Prowl.Runtime.GUI.TransformGizmo,System.Boolean,Prowl.Runtime.GUI.GizmoDirection)
+  parent: Prowl.Runtime.GUI.GizmoUtils
+  langs:
+  - csharp
+  - vb
+  name: GizmoColor(TransformGizmo, bool, GizmoDirection)
+  nameWithType: GizmoUtils.GizmoColor(TransformGizmo, bool, GizmoDirection)
+  fullName: Prowl.Runtime.GUI.GizmoUtils.GizmoColor(Prowl.Runtime.GUI.TransformGizmo, bool, Prowl.Runtime.GUI.GizmoDirection)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Widgets/Gizmo/GizmoUtils.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: GizmoColor
+    path: ../Prowl/Prowl.Runtime/GUI/Widgets/Gizmo/GizmoUtils.cs
+    startLine: 128
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  syntax:
+    content: public static Color32 GizmoColor(TransformGizmo gizmo, bool focused, GizmoDirection direction)
+    parameters:
+    - id: gizmo
+      type: Prowl.Runtime.GUI.TransformGizmo
+    - id: focused
+      type: System.Boolean
+    - id: direction
+      type: Prowl.Runtime.GUI.GizmoDirection
+    return:
+      type: Prowl.Runtime.Color32
+    content.vb: Public Shared Function GizmoColor(gizmo As TransformGizmo, focused As Boolean, direction As GizmoDirection) As Color32
+  overload: Prowl.Runtime.GUI.GizmoUtils.GizmoColor*
+  nameWithType.vb: GizmoUtils.GizmoColor(TransformGizmo, Boolean, GizmoDirection)
+  fullName.vb: Prowl.Runtime.GUI.GizmoUtils.GizmoColor(Prowl.Runtime.GUI.TransformGizmo, Boolean, Prowl.Runtime.GUI.GizmoDirection)
+  name.vb: GizmoColor(TransformGizmo, Boolean, GizmoDirection)
+- uid: Prowl.Runtime.GUI.GizmoUtils.GizmoLocalNormal(Prowl.Runtime.GUI.TransformGizmo,Prowl.Runtime.GUI.GizmoDirection)
+  commentId: M:Prowl.Runtime.GUI.GizmoUtils.GizmoLocalNormal(Prowl.Runtime.GUI.TransformGizmo,Prowl.Runtime.GUI.GizmoDirection)
+  id: GizmoLocalNormal(Prowl.Runtime.GUI.TransformGizmo,Prowl.Runtime.GUI.GizmoDirection)
+  parent: Prowl.Runtime.GUI.GizmoUtils
+  langs:
+  - csharp
+  - vb
+  name: GizmoLocalNormal(TransformGizmo, GizmoDirection)
+  nameWithType: GizmoUtils.GizmoLocalNormal(TransformGizmo, GizmoDirection)
+  fullName: Prowl.Runtime.GUI.GizmoUtils.GizmoLocalNormal(Prowl.Runtime.GUI.TransformGizmo, Prowl.Runtime.GUI.GizmoDirection)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Widgets/Gizmo/GizmoUtils.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: GizmoLocalNormal
+    path: ../Prowl/Prowl.Runtime/GUI/Widgets/Gizmo/GizmoUtils.cs
+    startLine: 146
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  syntax:
+    content: public static Vector3 GizmoLocalNormal(TransformGizmo gizmo, GizmoDirection direction)
+    parameters:
+    - id: gizmo
+      type: Prowl.Runtime.GUI.TransformGizmo
+    - id: direction
+      type: Prowl.Runtime.GUI.GizmoDirection
+    return:
+      type: Prowl.Runtime.Vector3
+    content.vb: Public Shared Function GizmoLocalNormal(gizmo As TransformGizmo, direction As GizmoDirection) As Vector3
+  overload: Prowl.Runtime.GUI.GizmoUtils.GizmoLocalNormal*
+- uid: Prowl.Runtime.GUI.GizmoUtils.GizmoNormal(Prowl.Runtime.GUI.TransformGizmo,Prowl.Runtime.GUI.GizmoDirection)
+  commentId: M:Prowl.Runtime.GUI.GizmoUtils.GizmoNormal(Prowl.Runtime.GUI.TransformGizmo,Prowl.Runtime.GUI.GizmoDirection)
+  id: GizmoNormal(Prowl.Runtime.GUI.TransformGizmo,Prowl.Runtime.GUI.GizmoDirection)
+  parent: Prowl.Runtime.GUI.GizmoUtils
+  langs:
+  - csharp
+  - vb
+  name: GizmoNormal(TransformGizmo, GizmoDirection)
+  nameWithType: GizmoUtils.GizmoNormal(TransformGizmo, GizmoDirection)
+  fullName: Prowl.Runtime.GUI.GizmoUtils.GizmoNormal(Prowl.Runtime.GUI.TransformGizmo, Prowl.Runtime.GUI.GizmoDirection)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Widgets/Gizmo/GizmoUtils.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: GizmoNormal
+    path: ../Prowl/Prowl.Runtime/GUI/Widgets/Gizmo/GizmoUtils.cs
+    startLine: 158
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  syntax:
+    content: public static Vector3 GizmoNormal(TransformGizmo gizmo, GizmoDirection direction)
+    parameters:
+    - id: gizmo
+      type: Prowl.Runtime.GUI.TransformGizmo
+    - id: direction
+      type: Prowl.Runtime.GUI.GizmoDirection
+    return:
+      type: Prowl.Runtime.Vector3
+    content.vb: Public Shared Function GizmoNormal(gizmo As TransformGizmo, direction As GizmoDirection) As Vector3
+  overload: Prowl.Runtime.GUI.GizmoUtils.GizmoNormal*
+- uid: Prowl.Runtime.GUI.GizmoUtils.PlaneGlobalOrigin(Prowl.Runtime.GUI.TransformGizmo,Prowl.Runtime.GUI.GizmoDirection)
+  commentId: M:Prowl.Runtime.GUI.GizmoUtils.PlaneGlobalOrigin(Prowl.Runtime.GUI.TransformGizmo,Prowl.Runtime.GUI.GizmoDirection)
+  id: PlaneGlobalOrigin(Prowl.Runtime.GUI.TransformGizmo,Prowl.Runtime.GUI.GizmoDirection)
+  parent: Prowl.Runtime.GUI.GizmoUtils
+  langs:
+  - csharp
+  - vb
+  name: PlaneGlobalOrigin(TransformGizmo, GizmoDirection)
+  nameWithType: GizmoUtils.PlaneGlobalOrigin(TransformGizmo, GizmoDirection)
+  fullName: Prowl.Runtime.GUI.GizmoUtils.PlaneGlobalOrigin(Prowl.Runtime.GUI.TransformGizmo, Prowl.Runtime.GUI.GizmoDirection)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Widgets/Gizmo/GizmoUtils.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: PlaneGlobalOrigin
+    path: ../Prowl/Prowl.Runtime/GUI/Widgets/Gizmo/GizmoUtils.cs
+    startLine: 170
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  syntax:
+    content: public static Vector3 PlaneGlobalOrigin(TransformGizmo gizmo, GizmoDirection direction)
+    parameters:
+    - id: gizmo
+      type: Prowl.Runtime.GUI.TransformGizmo
+    - id: direction
+      type: Prowl.Runtime.GUI.GizmoDirection
+    return:
+      type: Prowl.Runtime.Vector3
+    content.vb: Public Shared Function PlaneGlobalOrigin(gizmo As TransformGizmo, direction As GizmoDirection) As Vector3
+  overload: Prowl.Runtime.GUI.GizmoUtils.PlaneGlobalOrigin*
+- uid: Prowl.Runtime.GUI.GizmoUtils.PlaneLocalOrigin(Prowl.Runtime.GUI.TransformGizmo,Prowl.Runtime.GUI.GizmoDirection)
+  commentId: M:Prowl.Runtime.GUI.GizmoUtils.PlaneLocalOrigin(Prowl.Runtime.GUI.TransformGizmo,Prowl.Runtime.GUI.GizmoDirection)
+  id: PlaneLocalOrigin(Prowl.Runtime.GUI.TransformGizmo,Prowl.Runtime.GUI.GizmoDirection)
+  parent: Prowl.Runtime.GUI.GizmoUtils
+  langs:
+  - csharp
+  - vb
+  name: PlaneLocalOrigin(TransformGizmo, GizmoDirection)
+  nameWithType: GizmoUtils.PlaneLocalOrigin(TransformGizmo, GizmoDirection)
+  fullName: Prowl.Runtime.GUI.GizmoUtils.PlaneLocalOrigin(Prowl.Runtime.GUI.TransformGizmo, Prowl.Runtime.GUI.GizmoDirection)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Widgets/Gizmo/GizmoUtils.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: PlaneLocalOrigin
+    path: ../Prowl/Prowl.Runtime/GUI/Widgets/Gizmo/GizmoUtils.cs
+    startLine: 180
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  syntax:
+    content: public static Vector3 PlaneLocalOrigin(TransformGizmo gizmo, GizmoDirection direction)
+    parameters:
+    - id: gizmo
+      type: Prowl.Runtime.GUI.TransformGizmo
+    - id: direction
+      type: Prowl.Runtime.GUI.GizmoDirection
+    return:
+      type: Prowl.Runtime.Vector3
+    content.vb: Public Shared Function PlaneLocalOrigin(gizmo As TransformGizmo, direction As GizmoDirection) As Vector3
+  overload: Prowl.Runtime.GUI.GizmoUtils.PlaneLocalOrigin*
+- uid: Prowl.Runtime.GUI.GizmoUtils.InnerCircleRadius(Prowl.Runtime.GUI.TransformGizmo)
+  commentId: M:Prowl.Runtime.GUI.GizmoUtils.InnerCircleRadius(Prowl.Runtime.GUI.TransformGizmo)
+  id: InnerCircleRadius(Prowl.Runtime.GUI.TransformGizmo)
+  parent: Prowl.Runtime.GUI.GizmoUtils
+  langs:
+  - csharp
+  - vb
+  name: InnerCircleRadius(TransformGizmo)
+  nameWithType: GizmoUtils.InnerCircleRadius(TransformGizmo)
+  fullName: Prowl.Runtime.GUI.GizmoUtils.InnerCircleRadius(Prowl.Runtime.GUI.TransformGizmo)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Widgets/Gizmo/GizmoUtils.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: InnerCircleRadius
+    path: ../Prowl/Prowl.Runtime/GUI/Widgets/Gizmo/GizmoUtils.cs
+    startLine: 188
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  syntax:
+    content: public static double InnerCircleRadius(TransformGizmo gizmo)
+    parameters:
+    - id: gizmo
+      type: Prowl.Runtime.GUI.TransformGizmo
+    return:
+      type: System.Double
+    content.vb: Public Shared Function InnerCircleRadius(gizmo As TransformGizmo) As Double
+  overload: Prowl.Runtime.GUI.GizmoUtils.InnerCircleRadius*
+- uid: Prowl.Runtime.GUI.GizmoUtils.OuterCircleRadius(Prowl.Runtime.GUI.TransformGizmo)
+  commentId: M:Prowl.Runtime.GUI.GizmoUtils.OuterCircleRadius(Prowl.Runtime.GUI.TransformGizmo)
+  id: OuterCircleRadius(Prowl.Runtime.GUI.TransformGizmo)
+  parent: Prowl.Runtime.GUI.GizmoUtils
+  langs:
+  - csharp
+  - vb
+  name: OuterCircleRadius(TransformGizmo)
+  nameWithType: GizmoUtils.OuterCircleRadius(TransformGizmo)
+  fullName: Prowl.Runtime.GUI.GizmoUtils.OuterCircleRadius(Prowl.Runtime.GUI.TransformGizmo)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Widgets/Gizmo/GizmoUtils.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: OuterCircleRadius
+    path: ../Prowl/Prowl.Runtime/GUI/Widgets/Gizmo/GizmoUtils.cs
+    startLine: 193
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  syntax:
+    content: public static double OuterCircleRadius(TransformGizmo gizmo)
+    parameters:
+    - id: gizmo
+      type: Prowl.Runtime.GUI.TransformGizmo
+    return:
+      type: System.Double
+    content.vb: Public Shared Function OuterCircleRadius(gizmo As TransformGizmo) As Double
+  overload: Prowl.Runtime.GUI.GizmoUtils.OuterCircleRadius*
+- uid: Prowl.Runtime.GUI.GizmoUtils.PickArrow(Prowl.Runtime.GUI.TransformGizmo,Prowl.Runtime.Ray,Prowl.Runtime.GUI.GizmoDirection,Prowl.Runtime.GUI.TransformGizmoMode)
+  commentId: M:Prowl.Runtime.GUI.GizmoUtils.PickArrow(Prowl.Runtime.GUI.TransformGizmo,Prowl.Runtime.Ray,Prowl.Runtime.GUI.GizmoDirection,Prowl.Runtime.GUI.TransformGizmoMode)
+  id: PickArrow(Prowl.Runtime.GUI.TransformGizmo,Prowl.Runtime.Ray,Prowl.Runtime.GUI.GizmoDirection,Prowl.Runtime.GUI.TransformGizmoMode)
+  parent: Prowl.Runtime.GUI.GizmoUtils
+  langs:
+  - csharp
+  - vb
+  name: PickArrow(TransformGizmo, Ray, GizmoDirection, TransformGizmoMode)
+  nameWithType: GizmoUtils.PickArrow(TransformGizmo, Ray, GizmoDirection, TransformGizmoMode)
+  fullName: Prowl.Runtime.GUI.GizmoUtils.PickArrow(Prowl.Runtime.GUI.TransformGizmo, Prowl.Runtime.Ray, Prowl.Runtime.GUI.GizmoDirection, Prowl.Runtime.GUI.TransformGizmoMode)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Widgets/Gizmo/GizmoUtils.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: PickArrow
+    path: ../Prowl/Prowl.Runtime/GUI/Widgets/Gizmo/GizmoUtils.cs
+    startLine: 198
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  syntax:
+    content: public static PickResult PickArrow(TransformGizmo gizmo, Ray ray, GizmoDirection direction, TransformGizmoMode mode)
+    parameters:
+    - id: gizmo
+      type: Prowl.Runtime.GUI.TransformGizmo
+    - id: ray
+      type: Prowl.Runtime.Ray
+    - id: direction
+      type: Prowl.Runtime.GUI.GizmoDirection
+    - id: mode
+      type: Prowl.Runtime.GUI.TransformGizmoMode
+    return:
+      type: Prowl.Runtime.GUI.PickResult
+    content.vb: Public Shared Function PickArrow(gizmo As TransformGizmo, ray As Ray, direction As GizmoDirection, mode As TransformGizmoMode) As PickResult
+  overload: Prowl.Runtime.GUI.GizmoUtils.PickArrow*
+- uid: Prowl.Runtime.GUI.GizmoUtils.PickPlane(Prowl.Runtime.GUI.TransformGizmo,Prowl.Runtime.Ray,Prowl.Runtime.GUI.GizmoDirection)
+  commentId: M:Prowl.Runtime.GUI.GizmoUtils.PickPlane(Prowl.Runtime.GUI.TransformGizmo,Prowl.Runtime.Ray,Prowl.Runtime.GUI.GizmoDirection)
+  id: PickPlane(Prowl.Runtime.GUI.TransformGizmo,Prowl.Runtime.Ray,Prowl.Runtime.GUI.GizmoDirection)
+  parent: Prowl.Runtime.GUI.GizmoUtils
+  langs:
+  - csharp
+  - vb
+  name: PickPlane(TransformGizmo, Ray, GizmoDirection)
+  nameWithType: GizmoUtils.PickPlane(TransformGizmo, Ray, GizmoDirection)
+  fullName: Prowl.Runtime.GUI.GizmoUtils.PickPlane(Prowl.Runtime.GUI.TransformGizmo, Prowl.Runtime.Ray, Prowl.Runtime.GUI.GizmoDirection)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Widgets/Gizmo/GizmoUtils.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: PickPlane
+    path: ../Prowl/Prowl.Runtime/GUI/Widgets/Gizmo/GizmoUtils.cs
+    startLine: 223
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  syntax:
+    content: public static PickResult PickPlane(TransformGizmo gizmo, Ray ray, GizmoDirection direction)
+    parameters:
+    - id: gizmo
+      type: Prowl.Runtime.GUI.TransformGizmo
+    - id: ray
+      type: Prowl.Runtime.Ray
+    - id: direction
+      type: Prowl.Runtime.GUI.GizmoDirection
+    return:
+      type: Prowl.Runtime.GUI.PickResult
+    content.vb: Public Shared Function PickPlane(gizmo As TransformGizmo, ray As Ray, direction As GizmoDirection) As PickResult
+  overload: Prowl.Runtime.GUI.GizmoUtils.PickPlane*
+- uid: Prowl.Runtime.GUI.GizmoUtils.PickCircle(Prowl.Runtime.GUI.TransformGizmo,Prowl.Runtime.Ray,System.Double,System.Boolean)
+  commentId: M:Prowl.Runtime.GUI.GizmoUtils.PickCircle(Prowl.Runtime.GUI.TransformGizmo,Prowl.Runtime.Ray,System.Double,System.Boolean)
+  id: PickCircle(Prowl.Runtime.GUI.TransformGizmo,Prowl.Runtime.Ray,System.Double,System.Boolean)
+  parent: Prowl.Runtime.GUI.GizmoUtils
+  langs:
+  - csharp
+  - vb
+  name: PickCircle(TransformGizmo, Ray, double, bool)
+  nameWithType: GizmoUtils.PickCircle(TransformGizmo, Ray, double, bool)
+  fullName: Prowl.Runtime.GUI.GizmoUtils.PickCircle(Prowl.Runtime.GUI.TransformGizmo, Prowl.Runtime.Ray, double, bool)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Widgets/Gizmo/GizmoUtils.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: PickCircle
+    path: ../Prowl/Prowl.Runtime/GUI/Widgets/Gizmo/GizmoUtils.cs
+    startLine: 239
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  syntax:
+    content: public static PickResult PickCircle(TransformGizmo gizmo, Ray ray, double radius, bool filled)
+    parameters:
+    - id: gizmo
+      type: Prowl.Runtime.GUI.TransformGizmo
+    - id: ray
+      type: Prowl.Runtime.Ray
+    - id: radius
+      type: System.Double
+    - id: filled
+      type: System.Boolean
+    return:
+      type: Prowl.Runtime.GUI.PickResult
+    content.vb: Public Shared Function PickCircle(gizmo As TransformGizmo, ray As Ray, radius As Double, filled As Boolean) As PickResult
+  overload: Prowl.Runtime.GUI.GizmoUtils.PickCircle*
+  nameWithType.vb: GizmoUtils.PickCircle(TransformGizmo, Ray, Double, Boolean)
+  fullName.vb: Prowl.Runtime.GUI.GizmoUtils.PickCircle(Prowl.Runtime.GUI.TransformGizmo, Prowl.Runtime.Ray, Double, Boolean)
+  name.vb: PickCircle(TransformGizmo, Ray, Double, Boolean)
+- uid: Prowl.Runtime.GUI.GizmoUtils.DrawPlane(Prowl.Runtime.GUI.TransformGizmo,System.Boolean,Prowl.Runtime.Matrix4x4,Prowl.Runtime.GUI.GizmoDirection)
+  commentId: M:Prowl.Runtime.GUI.GizmoUtils.DrawPlane(Prowl.Runtime.GUI.TransformGizmo,System.Boolean,Prowl.Runtime.Matrix4x4,Prowl.Runtime.GUI.GizmoDirection)
+  id: DrawPlane(Prowl.Runtime.GUI.TransformGizmo,System.Boolean,Prowl.Runtime.Matrix4x4,Prowl.Runtime.GUI.GizmoDirection)
+  parent: Prowl.Runtime.GUI.GizmoUtils
+  langs:
+  - csharp
+  - vb
+  name: DrawPlane(TransformGizmo, bool, Matrix4x4, GizmoDirection)
+  nameWithType: GizmoUtils.DrawPlane(TransformGizmo, bool, Matrix4x4, GizmoDirection)
+  fullName: Prowl.Runtime.GUI.GizmoUtils.DrawPlane(Prowl.Runtime.GUI.TransformGizmo, bool, Prowl.Runtime.Matrix4x4, Prowl.Runtime.GUI.GizmoDirection)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Widgets/Gizmo/GizmoUtils.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: DrawPlane
+    path: ../Prowl/Prowl.Runtime/GUI/Widgets/Gizmo/GizmoUtils.cs
+    startLine: 254
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  syntax:
+    content: public static Matrix4x4 DrawPlane(TransformGizmo _gizmo, bool focused, Matrix4x4 transform, GizmoDirection direction)
+    parameters:
+    - id: _gizmo
+      type: Prowl.Runtime.GUI.TransformGizmo
+    - id: focused
+      type: System.Boolean
+    - id: transform
+      type: Prowl.Runtime.Matrix4x4
+    - id: direction
+      type: Prowl.Runtime.GUI.GizmoDirection
+    return:
+      type: Prowl.Runtime.Matrix4x4
+    content.vb: Public Shared Function DrawPlane(_gizmo As TransformGizmo, focused As Boolean, transform As Matrix4x4, direction As GizmoDirection) As Matrix4x4
+  overload: Prowl.Runtime.GUI.GizmoUtils.DrawPlane*
+  nameWithType.vb: GizmoUtils.DrawPlane(TransformGizmo, Boolean, Matrix4x4, GizmoDirection)
+  fullName.vb: Prowl.Runtime.GUI.GizmoUtils.DrawPlane(Prowl.Runtime.GUI.TransformGizmo, Boolean, Prowl.Runtime.Matrix4x4, Prowl.Runtime.GUI.GizmoDirection)
+  name.vb: DrawPlane(TransformGizmo, Boolean, Matrix4x4, GizmoDirection)
+- uid: Prowl.Runtime.GUI.GizmoUtils.DrawCircle(Prowl.Runtime.GUI.TransformGizmo,System.Boolean,Prowl.Runtime.Matrix4x4)
+  commentId: M:Prowl.Runtime.GUI.GizmoUtils.DrawCircle(Prowl.Runtime.GUI.TransformGizmo,System.Boolean,Prowl.Runtime.Matrix4x4)
+  id: DrawCircle(Prowl.Runtime.GUI.TransformGizmo,System.Boolean,Prowl.Runtime.Matrix4x4)
+  parent: Prowl.Runtime.GUI.GizmoUtils
+  langs:
+  - csharp
+  - vb
+  name: DrawCircle(TransformGizmo, bool, Matrix4x4)
+  nameWithType: GizmoUtils.DrawCircle(TransformGizmo, bool, Matrix4x4)
+  fullName: Prowl.Runtime.GUI.GizmoUtils.DrawCircle(Prowl.Runtime.GUI.TransformGizmo, bool, Prowl.Runtime.Matrix4x4)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Widgets/Gizmo/GizmoUtils.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: DrawCircle
+    path: ../Prowl/Prowl.Runtime/GUI/Widgets/Gizmo/GizmoUtils.cs
+    startLine: 280
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  syntax:
+    content: public static Matrix4x4 DrawCircle(TransformGizmo _gizmo, bool focused, Matrix4x4 transform)
+    parameters:
+    - id: _gizmo
+      type: Prowl.Runtime.GUI.TransformGizmo
+    - id: focused
+      type: System.Boolean
+    - id: transform
+      type: Prowl.Runtime.Matrix4x4
+    return:
+      type: Prowl.Runtime.Matrix4x4
+    content.vb: Public Shared Function DrawCircle(_gizmo As TransformGizmo, focused As Boolean, transform As Matrix4x4) As Matrix4x4
+  overload: Prowl.Runtime.GUI.GizmoUtils.DrawCircle*
+  nameWithType.vb: GizmoUtils.DrawCircle(TransformGizmo, Boolean, Matrix4x4)
+  fullName.vb: Prowl.Runtime.GUI.GizmoUtils.DrawCircle(Prowl.Runtime.GUI.TransformGizmo, Boolean, Prowl.Runtime.Matrix4x4)
+  name.vb: DrawCircle(TransformGizmo, Boolean, Matrix4x4)
+- uid: Prowl.Runtime.GUI.GizmoUtils.DrawQuad(Prowl.Runtime.GUI.TransformGizmo,System.Boolean,Prowl.Runtime.Matrix4x4)
+  commentId: M:Prowl.Runtime.GUI.GizmoUtils.DrawQuad(Prowl.Runtime.GUI.TransformGizmo,System.Boolean,Prowl.Runtime.Matrix4x4)
+  id: DrawQuad(Prowl.Runtime.GUI.TransformGizmo,System.Boolean,Prowl.Runtime.Matrix4x4)
+  parent: Prowl.Runtime.GUI.GizmoUtils
+  langs:
+  - csharp
+  - vb
+  name: DrawQuad(TransformGizmo, bool, Matrix4x4)
+  nameWithType: GizmoUtils.DrawQuad(TransformGizmo, bool, Matrix4x4)
+  fullName: Prowl.Runtime.GUI.GizmoUtils.DrawQuad(Prowl.Runtime.GUI.TransformGizmo, bool, Prowl.Runtime.Matrix4x4)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Widgets/Gizmo/GizmoUtils.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: DrawQuad
+    path: ../Prowl/Prowl.Runtime/GUI/Widgets/Gizmo/GizmoUtils.cs
+    startLine: 305
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  syntax:
+    content: public static Matrix4x4 DrawQuad(TransformGizmo _gizmo, bool focused, Matrix4x4 transform)
+    parameters:
+    - id: _gizmo
+      type: Prowl.Runtime.GUI.TransformGizmo
+    - id: focused
+      type: System.Boolean
+    - id: transform
+      type: Prowl.Runtime.Matrix4x4
+    return:
+      type: Prowl.Runtime.Matrix4x4
+    content.vb: Public Shared Function DrawQuad(_gizmo As TransformGizmo, focused As Boolean, transform As Matrix4x4) As Matrix4x4
+  overload: Prowl.Runtime.GUI.GizmoUtils.DrawQuad*
+  nameWithType.vb: GizmoUtils.DrawQuad(TransformGizmo, Boolean, Matrix4x4)
+  fullName.vb: Prowl.Runtime.GUI.GizmoUtils.DrawQuad(Prowl.Runtime.GUI.TransformGizmo, Boolean, Prowl.Runtime.Matrix4x4)
+  name.vb: DrawQuad(TransformGizmo, Boolean, Matrix4x4)
+- uid: Prowl.Runtime.GUI.GizmoUtils.DrawArrow(Prowl.Runtime.GUI.TransformGizmo,System.Boolean,Prowl.Runtime.Matrix4x4,Prowl.Runtime.GUI.GizmoDirection,Prowl.Runtime.GUI.TransformGizmoMode,System.Double)
+  commentId: M:Prowl.Runtime.GUI.GizmoUtils.DrawArrow(Prowl.Runtime.GUI.TransformGizmo,System.Boolean,Prowl.Runtime.Matrix4x4,Prowl.Runtime.GUI.GizmoDirection,Prowl.Runtime.GUI.TransformGizmoMode,System.Double)
+  id: DrawArrow(Prowl.Runtime.GUI.TransformGizmo,System.Boolean,Prowl.Runtime.Matrix4x4,Prowl.Runtime.GUI.GizmoDirection,Prowl.Runtime.GUI.TransformGizmoMode,System.Double)
+  parent: Prowl.Runtime.GUI.GizmoUtils
+  langs:
+  - csharp
+  - vb
+  name: DrawArrow(TransformGizmo, bool, Matrix4x4, GizmoDirection, TransformGizmoMode, double)
+  nameWithType: GizmoUtils.DrawArrow(TransformGizmo, bool, Matrix4x4, GizmoDirection, TransformGizmoMode, double)
+  fullName: Prowl.Runtime.GUI.GizmoUtils.DrawArrow(Prowl.Runtime.GUI.TransformGizmo, bool, Prowl.Runtime.Matrix4x4, Prowl.Runtime.GUI.GizmoDirection, Prowl.Runtime.GUI.TransformGizmoMode, double)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Widgets/Gizmo/GizmoUtils.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: DrawArrow
+    path: ../Prowl/Prowl.Runtime/GUI/Widgets/Gizmo/GizmoUtils.cs
+    startLine: 330
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  syntax:
+    content: public static void DrawArrow(TransformGizmo _gizmo, bool focused, Matrix4x4 transform, GizmoDirection direction, TransformGizmoMode mode, double scale = 1)
+    parameters:
+    - id: _gizmo
+      type: Prowl.Runtime.GUI.TransformGizmo
+    - id: focused
+      type: System.Boolean
+    - id: transform
+      type: Prowl.Runtime.Matrix4x4
+    - id: direction
+      type: Prowl.Runtime.GUI.GizmoDirection
+    - id: mode
+      type: Prowl.Runtime.GUI.TransformGizmoMode
+    - id: scale
+      type: System.Double
+    content.vb: Public Shared Sub DrawArrow(_gizmo As TransformGizmo, focused As Boolean, transform As Matrix4x4, direction As GizmoDirection, mode As TransformGizmoMode, scale As Double = 1)
+  overload: Prowl.Runtime.GUI.GizmoUtils.DrawArrow*
+  nameWithType.vb: GizmoUtils.DrawArrow(TransformGizmo, Boolean, Matrix4x4, GizmoDirection, TransformGizmoMode, Double)
+  fullName.vb: Prowl.Runtime.GUI.GizmoUtils.DrawArrow(Prowl.Runtime.GUI.TransformGizmo, Boolean, Prowl.Runtime.Matrix4x4, Prowl.Runtime.GUI.GizmoDirection, Prowl.Runtime.GUI.TransformGizmoMode, Double)
+  name.vb: DrawArrow(TransformGizmo, Boolean, Matrix4x4, GizmoDirection, TransformGizmoMode, Double)
+- uid: Prowl.Runtime.GUI.GizmoUtils.ArrowModesOverlapping(Prowl.Runtime.GUI.TransformGizmoMode,Prowl.Runtime.GUI.TransformGizmoMode)
+  commentId: M:Prowl.Runtime.GUI.GizmoUtils.ArrowModesOverlapping(Prowl.Runtime.GUI.TransformGizmoMode,Prowl.Runtime.GUI.TransformGizmoMode)
+  id: ArrowModesOverlapping(Prowl.Runtime.GUI.TransformGizmoMode,Prowl.Runtime.GUI.TransformGizmoMode)
+  parent: Prowl.Runtime.GUI.GizmoUtils
+  langs:
+  - csharp
+  - vb
+  name: ArrowModesOverlapping(TransformGizmoMode, TransformGizmoMode)
+  nameWithType: GizmoUtils.ArrowModesOverlapping(TransformGizmoMode, TransformGizmoMode)
+  fullName: Prowl.Runtime.GUI.GizmoUtils.ArrowModesOverlapping(Prowl.Runtime.GUI.TransformGizmoMode, Prowl.Runtime.GUI.TransformGizmoMode)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Widgets/Gizmo/GizmoUtils.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: ArrowModesOverlapping
+    path: ../Prowl/Prowl.Runtime/GUI/Widgets/Gizmo/GizmoUtils.cs
+    startLine: 357
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  syntax:
+    content: public static bool ArrowModesOverlapping(TransformGizmoMode mode, TransformGizmoMode gizmoModes)
+    parameters:
+    - id: mode
+      type: Prowl.Runtime.GUI.TransformGizmoMode
+    - id: gizmoModes
+      type: Prowl.Runtime.GUI.TransformGizmoMode
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function ArrowModesOverlapping(mode As TransformGizmoMode, gizmoModes As TransformGizmoMode) As Boolean
+  overload: Prowl.Runtime.GUI.GizmoUtils.ArrowModesOverlapping*
+- uid: Prowl.Runtime.GUI.GizmoUtils.ArrowParams(Prowl.Runtime.GUI.TransformGizmo,Prowl.Runtime.Vector3,Prowl.Runtime.GUI.TransformGizmoMode)
+  commentId: M:Prowl.Runtime.GUI.GizmoUtils.ArrowParams(Prowl.Runtime.GUI.TransformGizmo,Prowl.Runtime.Vector3,Prowl.Runtime.GUI.TransformGizmoMode)
+  id: ArrowParams(Prowl.Runtime.GUI.TransformGizmo,Prowl.Runtime.Vector3,Prowl.Runtime.GUI.TransformGizmoMode)
+  parent: Prowl.Runtime.GUI.GizmoUtils
+  langs:
+  - csharp
+  - vb
+  name: ArrowParams(TransformGizmo, Vector3, TransformGizmoMode)
+  nameWithType: GizmoUtils.ArrowParams(TransformGizmo, Vector3, TransformGizmoMode)
+  fullName: Prowl.Runtime.GUI.GizmoUtils.ArrowParams(Prowl.Runtime.GUI.TransformGizmo, Prowl.Runtime.Vector3, Prowl.Runtime.GUI.TransformGizmoMode)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Widgets/Gizmo/GizmoUtils.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: ArrowParams
+    path: ../Prowl/Prowl.Runtime/GUI/Widgets/Gizmo/GizmoUtils.cs
+    startLine: 367
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  syntax:
+    content: public static (Vector3, Vector3, double) ArrowParams(TransformGizmo _gizmo, Vector3 direction, TransformGizmoMode mode)
+    parameters:
+    - id: _gizmo
+      type: Prowl.Runtime.GUI.TransformGizmo
+    - id: direction
+      type: Prowl.Runtime.Vector3
+    - id: mode
+      type: Prowl.Runtime.GUI.TransformGizmoMode
+    return:
+      type: System.ValueTuple{Prowl.Runtime.Vector3,Prowl.Runtime.Vector3,System.Double}
+    content.vb: Public Shared Function ArrowParams(_gizmo As TransformGizmo, direction As Vector3, mode As TransformGizmoMode) As (Vector3, Vector3, Double)
+  overload: Prowl.Runtime.GUI.GizmoUtils.ArrowParams*
+- uid: Prowl.Runtime.GUI.GizmoUtils.SegmentToSegment(Prowl.Runtime.Vector3,Prowl.Runtime.Vector3,Prowl.Runtime.Vector3,Prowl.Runtime.Vector3)
+  commentId: M:Prowl.Runtime.GUI.GizmoUtils.SegmentToSegment(Prowl.Runtime.Vector3,Prowl.Runtime.Vector3,Prowl.Runtime.Vector3,Prowl.Runtime.Vector3)
+  id: SegmentToSegment(Prowl.Runtime.Vector3,Prowl.Runtime.Vector3,Prowl.Runtime.Vector3,Prowl.Runtime.Vector3)
+  parent: Prowl.Runtime.GUI.GizmoUtils
+  langs:
+  - csharp
+  - vb
+  name: SegmentToSegment(Vector3, Vector3, Vector3, Vector3)
+  nameWithType: GizmoUtils.SegmentToSegment(Vector3, Vector3, Vector3, Vector3)
+  fullName: Prowl.Runtime.GUI.GizmoUtils.SegmentToSegment(Prowl.Runtime.Vector3, Prowl.Runtime.Vector3, Prowl.Runtime.Vector3, Prowl.Runtime.Vector3)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Widgets/Gizmo/GizmoUtils.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: SegmentToSegment
+    path: ../Prowl/Prowl.Runtime/GUI/Widgets/Gizmo/GizmoUtils.cs
+    startLine: 398
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  syntax:
+    content: public static (double, double) SegmentToSegment(Vector3 a1, Vector3 a2, Vector3 b1, Vector3 b2)
+    parameters:
+    - id: a1
+      type: Prowl.Runtime.Vector3
+    - id: a2
+      type: Prowl.Runtime.Vector3
+    - id: b1
+      type: Prowl.Runtime.Vector3
+    - id: b2
+      type: Prowl.Runtime.Vector3
+    return:
+      type: System.ValueTuple{System.Double,System.Double}
+    content.vb: Public Shared Function SegmentToSegment(a1 As Vector3, a2 As Vector3, b1 As Vector3, b2 As Vector3) As (Double, Double)
+  overload: Prowl.Runtime.GUI.GizmoUtils.SegmentToSegment*
+- uid: Prowl.Runtime.GUI.GizmoUtils.PointOnAxis(Prowl.Runtime.GUI.TransformGizmo,Prowl.Runtime.Ray,Prowl.Runtime.GUI.GizmoDirection)
+  commentId: M:Prowl.Runtime.GUI.GizmoUtils.PointOnAxis(Prowl.Runtime.GUI.TransformGizmo,Prowl.Runtime.Ray,Prowl.Runtime.GUI.GizmoDirection)
+  id: PointOnAxis(Prowl.Runtime.GUI.TransformGizmo,Prowl.Runtime.Ray,Prowl.Runtime.GUI.GizmoDirection)
+  parent: Prowl.Runtime.GUI.GizmoUtils
+  langs:
+  - csharp
+  - vb
+  name: PointOnAxis(TransformGizmo, Ray, GizmoDirection)
+  nameWithType: GizmoUtils.PointOnAxis(TransformGizmo, Ray, GizmoDirection)
+  fullName: Prowl.Runtime.GUI.GizmoUtils.PointOnAxis(Prowl.Runtime.GUI.TransformGizmo, Prowl.Runtime.Ray, Prowl.Runtime.GUI.GizmoDirection)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Widgets/Gizmo/GizmoUtils.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: PointOnAxis
+    path: ../Prowl/Prowl.Runtime/GUI/Widgets/Gizmo/GizmoUtils.cs
+    startLine: 481
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  syntax:
+    content: public static Vector3 PointOnAxis(TransformGizmo gizmo, Ray ray, GizmoDirection direction)
+    parameters:
+    - id: gizmo
+      type: Prowl.Runtime.GUI.TransformGizmo
+    - id: ray
+      type: Prowl.Runtime.Ray
+    - id: direction
+      type: Prowl.Runtime.GUI.GizmoDirection
+    return:
+      type: Prowl.Runtime.Vector3
+    content.vb: Public Shared Function PointOnAxis(gizmo As TransformGizmo, ray As Ray, direction As GizmoDirection) As Vector3
+  overload: Prowl.Runtime.GUI.GizmoUtils.PointOnAxis*
+- uid: Prowl.Runtime.GUI.GizmoUtils.RayToRay(Prowl.Runtime.Vector3,Prowl.Runtime.Vector3,Prowl.Runtime.Vector3,Prowl.Runtime.Vector3)
+  commentId: M:Prowl.Runtime.GUI.GizmoUtils.RayToRay(Prowl.Runtime.Vector3,Prowl.Runtime.Vector3,Prowl.Runtime.Vector3,Prowl.Runtime.Vector3)
+  id: RayToRay(Prowl.Runtime.Vector3,Prowl.Runtime.Vector3,Prowl.Runtime.Vector3,Prowl.Runtime.Vector3)
+  parent: Prowl.Runtime.GUI.GizmoUtils
+  langs:
+  - csharp
+  - vb
+  name: RayToRay(Vector3, Vector3, Vector3, Vector3)
+  nameWithType: GizmoUtils.RayToRay(Vector3, Vector3, Vector3, Vector3)
+  fullName: Prowl.Runtime.GUI.GizmoUtils.RayToRay(Prowl.Runtime.Vector3, Prowl.Runtime.Vector3, Prowl.Runtime.Vector3, Prowl.Runtime.Vector3)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Widgets/Gizmo/GizmoUtils.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: RayToRay
+    path: ../Prowl/Prowl.Runtime/GUI/Widgets/Gizmo/GizmoUtils.cs
+    startLine: 489
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  syntax:
+    content: public static (double, double) RayToRay(Vector3 a1, Vector3 aDir, Vector3 b1, Vector3 bDir)
+    parameters:
+    - id: a1
+      type: Prowl.Runtime.Vector3
+    - id: aDir
+      type: Prowl.Runtime.Vector3
+    - id: b1
+      type: Prowl.Runtime.Vector3
+    - id: bDir
+      type: Prowl.Runtime.Vector3
+    return:
+      type: System.ValueTuple{System.Double,System.Double}
+    content.vb: Public Shared Function RayToRay(a1 As Vector3, aDir As Vector3, b1 As Vector3, bDir As Vector3) As (Double, Double)
+  overload: Prowl.Runtime.GUI.GizmoUtils.RayToRay*
+- uid: Prowl.Runtime.GUI.GizmoUtils.RotationAlign(Prowl.Runtime.Vector3,Prowl.Runtime.Vector3)
+  commentId: M:Prowl.Runtime.GUI.GizmoUtils.RotationAlign(Prowl.Runtime.Vector3,Prowl.Runtime.Vector3)
+  id: RotationAlign(Prowl.Runtime.Vector3,Prowl.Runtime.Vector3)
+  parent: Prowl.Runtime.GUI.GizmoUtils
+  langs:
+  - csharp
+  - vb
+  name: RotationAlign(Vector3, Vector3)
+  nameWithType: GizmoUtils.RotationAlign(Vector3, Vector3)
+  fullName: Prowl.Runtime.GUI.GizmoUtils.RotationAlign(Prowl.Runtime.Vector3, Prowl.Runtime.Vector3)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Widgets/Gizmo/GizmoUtils.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: RotationAlign
+    path: ../Prowl/Prowl.Runtime/GUI/Widgets/Gizmo/GizmoUtils.cs
+    startLine: 518
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  summary: Creates a matrix that represents rotation between two 3D vectors.
+  example: []
+  syntax:
+    content: public static Matrix4x4 RotationAlign(Vector3 from, Vector3 to)
+    parameters:
+    - id: from
+      type: Prowl.Runtime.Vector3
+      description: The source vector.
+    - id: to
+      type: Prowl.Runtime.Vector3
+      description: The target vector.
+    return:
+      type: Prowl.Runtime.Matrix4x4
+      description: A rotation matrix that aligns the source vector to the target vector.
+    content.vb: Public Shared Function RotationAlign(from As Vector3, [to] As Vector3) As Matrix4x4
+  overload: Prowl.Runtime.GUI.GizmoUtils.RotationAlign*
+- uid: Prowl.Runtime.GUI.GizmoUtils.WorldToScreen(Prowl.Runtime.Rect,Prowl.Runtime.Matrix4x4,Prowl.Runtime.Vector3)
+  commentId: M:Prowl.Runtime.GUI.GizmoUtils.WorldToScreen(Prowl.Runtime.Rect,Prowl.Runtime.Matrix4x4,Prowl.Runtime.Vector3)
+  id: WorldToScreen(Prowl.Runtime.Rect,Prowl.Runtime.Matrix4x4,Prowl.Runtime.Vector3)
+  parent: Prowl.Runtime.GUI.GizmoUtils
+  langs:
+  - csharp
+  - vb
+  name: WorldToScreen(Rect, Matrix4x4, Vector3)
+  nameWithType: GizmoUtils.WorldToScreen(Rect, Matrix4x4, Vector3)
+  fullName: Prowl.Runtime.GUI.GizmoUtils.WorldToScreen(Prowl.Runtime.Rect, Prowl.Runtime.Matrix4x4, Prowl.Runtime.Vector3)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Widgets/Gizmo/GizmoUtils.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: WorldToScreen
+    path: ../Prowl/Prowl.Runtime/GUI/Widgets/Gizmo/GizmoUtils.cs
+    startLine: 544
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  syntax:
+    content: public static Vector2? WorldToScreen(Rect viewport, Matrix4x4 mvp, Vector3 pos)
+    parameters:
+    - id: viewport
+      type: Prowl.Runtime.Rect
+    - id: mvp
+      type: Prowl.Runtime.Matrix4x4
+    - id: pos
+      type: Prowl.Runtime.Vector3
+    return:
+      type: System.Nullable{Prowl.Runtime.Vector2}
+    content.vb: Public Shared Function WorldToScreen(viewport As Rect, mvp As Matrix4x4, pos As Vector3) As Vector2?
+  overload: Prowl.Runtime.GUI.GizmoUtils.WorldToScreen*
+references:
+- uid: Prowl.Runtime.GUI
+  commentId: N:Prowl.Runtime.GUI
+  href: Prowl.html
+  name: Prowl.Runtime.GUI
+  nameWithType: Prowl.Runtime.GUI
+  fullName: Prowl.Runtime.GUI
+  spec.csharp:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+  - name: .
+  - uid: Prowl.Runtime.GUI
+    name: GUI
+    href: Prowl.Runtime.GUI.html
+  spec.vb:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+  - name: .
+  - uid: Prowl.Runtime.GUI
+    name: GUI
+    href: Prowl.Runtime.GUI.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Prowl.Runtime.GUI.GizmoUtils.IntersectPlane*
+  commentId: Overload:Prowl.Runtime.GUI.GizmoUtils.IntersectPlane
+  href: Prowl.Runtime.GUI.GizmoUtils.html#Prowl_Runtime_GUI_GizmoUtils_IntersectPlane_Prowl_Runtime_Vector3_Prowl_Runtime_Vector3_Prowl_Runtime_Vector3_Prowl_Runtime_Vector3_System_Double__
+  name: IntersectPlane
+  nameWithType: GizmoUtils.IntersectPlane
+  fullName: Prowl.Runtime.GUI.GizmoUtils.IntersectPlane
+- uid: Prowl.Runtime.Vector3
+  commentId: T:Prowl.Runtime.Vector3
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.Vector3.html
+  name: Vector3
+  nameWithType: Vector3
+  fullName: Prowl.Runtime.Vector3
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.double
+  name: double
+  nameWithType: double
+  fullName: double
+  nameWithType.vb: Double
+  fullName.vb: Double
+  name.vb: Double
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: Prowl.Runtime
+  commentId: N:Prowl.Runtime
+  href: Prowl.html
+  name: Prowl.Runtime
+  nameWithType: Prowl.Runtime
+  fullName: Prowl.Runtime
+  spec.csharp:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+  spec.vb:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+- uid: Prowl.Runtime.GUI.GizmoUtils.RayToPlaneOrigin*
+  commentId: Overload:Prowl.Runtime.GUI.GizmoUtils.RayToPlaneOrigin
+  href: Prowl.Runtime.GUI.GizmoUtils.html#Prowl_Runtime_GUI_GizmoUtils_RayToPlaneOrigin_Prowl_Runtime_Vector3_Prowl_Runtime_Vector3_Prowl_Runtime_Vector3_Prowl_Runtime_Vector3_
+  name: RayToPlaneOrigin
+  nameWithType: GizmoUtils.RayToPlaneOrigin
+  fullName: Prowl.Runtime.GUI.GizmoUtils.RayToPlaneOrigin
+- uid: System.ValueTuple{System.Double,System.Double}
+  commentId: T:System.ValueTuple{System.Double,System.Double}
+  parent: System
+  definition: System.ValueTuple`2
+  href: https://learn.microsoft.com/dotnet/api/system.double
+  name: (double, double)
+  nameWithType: (double, double)
+  fullName: (double, double)
+  nameWithType.vb: (Double, Double)
+  fullName.vb: (Double, Double)
+  name.vb: (Double, Double)
+  spec.csharp:
+  - name: (
+  - uid: System.Double
+    name: double
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.double
+  - name: ','
+  - name: " "
+  - uid: System.Double
+    name: double
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.double
+  - name: )
+  spec.vb:
+  - name: (
+  - uid: System.Double
+    name: Double
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.double
+  - name: ','
+  - name: " "
+  - uid: System.Double
+    name: Double
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.double
+  - name: )
+- uid: System.ValueTuple`2
+  commentId: T:System.ValueTuple`2
+  name: (T1, T2)
+  nameWithType: (T1, T2)
+  fullName: (T1, T2)
+  spec.csharp:
+  - name: (
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: )
+  spec.vb:
+  - name: (
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: )
+- uid: Prowl.Runtime.GUI.GizmoUtils.RoundToInterval*
+  commentId: Overload:Prowl.Runtime.GUI.GizmoUtils.RoundToInterval
+  href: Prowl.Runtime.GUI.GizmoUtils.html#Prowl_Runtime_GUI_GizmoUtils_RoundToInterval_System_Double_System_Double_
+  name: RoundToInterval
+  nameWithType: GizmoUtils.RoundToInterval
+  fullName: Prowl.Runtime.GUI.GizmoUtils.RoundToInterval
+- uid: Prowl.Runtime.GUI.GizmoUtils.PointOnPlane*
+  commentId: Overload:Prowl.Runtime.GUI.GizmoUtils.PointOnPlane
+  href: Prowl.Runtime.GUI.GizmoUtils.html#Prowl_Runtime_GUI_GizmoUtils_PointOnPlane_Prowl_Runtime_Vector3_Prowl_Runtime_Vector3_Prowl_Runtime_Ray_
+  name: PointOnPlane
+  nameWithType: GizmoUtils.PointOnPlane
+  fullName: Prowl.Runtime.GUI.GizmoUtils.PointOnPlane
+- uid: Prowl.Runtime.Ray
+  commentId: T:Prowl.Runtime.Ray
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.Ray.html
+  name: Ray
+  nameWithType: Ray
+  fullName: Prowl.Runtime.Ray
+- uid: Prowl.Runtime.GUI.GizmoUtils.SnapTranslationVector*
+  commentId: Overload:Prowl.Runtime.GUI.GizmoUtils.SnapTranslationVector
+  href: Prowl.Runtime.GUI.GizmoUtils.html#Prowl_Runtime_GUI_GizmoUtils_SnapTranslationVector_Prowl_Runtime_Vector3_Prowl_Runtime_GUI_TransformGizmo_
+  name: SnapTranslationVector
+  nameWithType: GizmoUtils.SnapTranslationVector
+  fullName: Prowl.Runtime.GUI.GizmoUtils.SnapTranslationVector
+- uid: Prowl.Runtime.GUI.TransformGizmo
+  commentId: T:Prowl.Runtime.GUI.TransformGizmo
+  parent: Prowl.Runtime.GUI
+  href: Prowl.Runtime.GUI.TransformGizmo.html
+  name: TransformGizmo
+  nameWithType: TransformGizmo
+  fullName: Prowl.Runtime.GUI.TransformGizmo
+- uid: Prowl.Runtime.GUI.GizmoUtils.SnapTranslationPlane*
+  commentId: Overload:Prowl.Runtime.GUI.GizmoUtils.SnapTranslationPlane
+  href: Prowl.Runtime.GUI.GizmoUtils.html#Prowl_Runtime_GUI_GizmoUtils_SnapTranslationPlane_Prowl_Runtime_Vector3_Prowl_Runtime_GUI_GizmoDirection_Prowl_Runtime_GUI_TransformGizmo_
+  name: SnapTranslationPlane
+  nameWithType: GizmoUtils.SnapTranslationPlane
+  fullName: Prowl.Runtime.GUI.GizmoUtils.SnapTranslationPlane
+- uid: Prowl.Runtime.GUI.GizmoDirection
+  commentId: T:Prowl.Runtime.GUI.GizmoDirection
+  parent: Prowl.Runtime.GUI
+  href: Prowl.Runtime.GUI.GizmoDirection.html
+  name: GizmoDirection
+  nameWithType: GizmoDirection
+  fullName: Prowl.Runtime.GUI.GizmoDirection
+- uid: Prowl.Runtime.GUI.GizmoUtils.PlaneSize*
+  commentId: Overload:Prowl.Runtime.GUI.GizmoUtils.PlaneSize
+  href: Prowl.Runtime.GUI.GizmoUtils.html#Prowl_Runtime_GUI_GizmoUtils_PlaneSize_Prowl_Runtime_GUI_TransformGizmo_
+  name: PlaneSize
+  nameWithType: GizmoUtils.PlaneSize
+  fullName: Prowl.Runtime.GUI.GizmoUtils.PlaneSize
+- uid: Prowl.Runtime.GUI.GizmoUtils.PlaneBitangent*
+  commentId: Overload:Prowl.Runtime.GUI.GizmoUtils.PlaneBitangent
+  href: Prowl.Runtime.GUI.GizmoUtils.html#Prowl_Runtime_GUI_GizmoUtils_PlaneBitangent_Prowl_Runtime_GUI_GizmoDirection_
+  name: PlaneBitangent
+  nameWithType: GizmoUtils.PlaneBitangent
+  fullName: Prowl.Runtime.GUI.GizmoUtils.PlaneBitangent
+- uid: Prowl.Runtime.GUI.GizmoUtils.PlaneTangent*
+  commentId: Overload:Prowl.Runtime.GUI.GizmoUtils.PlaneTangent
+  href: Prowl.Runtime.GUI.GizmoUtils.html#Prowl_Runtime_GUI_GizmoUtils_PlaneTangent_Prowl_Runtime_GUI_GizmoDirection_
+  name: PlaneTangent
+  nameWithType: GizmoUtils.PlaneTangent
+  fullName: Prowl.Runtime.GUI.GizmoUtils.PlaneTangent
+- uid: Prowl.Runtime.GUI.GizmoUtils.GizmoColor*
+  commentId: Overload:Prowl.Runtime.GUI.GizmoUtils.GizmoColor
+  href: Prowl.Runtime.GUI.GizmoUtils.html#Prowl_Runtime_GUI_GizmoUtils_GizmoColor_Prowl_Runtime_GUI_TransformGizmo_System_Boolean_Prowl_Runtime_GUI_GizmoDirection_
+  name: GizmoColor
+  nameWithType: GizmoUtils.GizmoColor
+  fullName: Prowl.Runtime.GUI.GizmoUtils.GizmoColor
+- uid: Prowl.Runtime.Color32
+  commentId: T:Prowl.Runtime.Color32
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.Color32.html
+  name: Color32
+  nameWithType: Color32
+  fullName: Prowl.Runtime.Color32
+- uid: Prowl.Runtime.GUI.GizmoUtils.GizmoLocalNormal*
+  commentId: Overload:Prowl.Runtime.GUI.GizmoUtils.GizmoLocalNormal
+  href: Prowl.Runtime.GUI.GizmoUtils.html#Prowl_Runtime_GUI_GizmoUtils_GizmoLocalNormal_Prowl_Runtime_GUI_TransformGizmo_Prowl_Runtime_GUI_GizmoDirection_
+  name: GizmoLocalNormal
+  nameWithType: GizmoUtils.GizmoLocalNormal
+  fullName: Prowl.Runtime.GUI.GizmoUtils.GizmoLocalNormal
+- uid: Prowl.Runtime.GUI.GizmoUtils.GizmoNormal*
+  commentId: Overload:Prowl.Runtime.GUI.GizmoUtils.GizmoNormal
+  href: Prowl.Runtime.GUI.GizmoUtils.html#Prowl_Runtime_GUI_GizmoUtils_GizmoNormal_Prowl_Runtime_GUI_TransformGizmo_Prowl_Runtime_GUI_GizmoDirection_
+  name: GizmoNormal
+  nameWithType: GizmoUtils.GizmoNormal
+  fullName: Prowl.Runtime.GUI.GizmoUtils.GizmoNormal
+- uid: Prowl.Runtime.GUI.GizmoUtils.PlaneGlobalOrigin*
+  commentId: Overload:Prowl.Runtime.GUI.GizmoUtils.PlaneGlobalOrigin
+  href: Prowl.Runtime.GUI.GizmoUtils.html#Prowl_Runtime_GUI_GizmoUtils_PlaneGlobalOrigin_Prowl_Runtime_GUI_TransformGizmo_Prowl_Runtime_GUI_GizmoDirection_
+  name: PlaneGlobalOrigin
+  nameWithType: GizmoUtils.PlaneGlobalOrigin
+  fullName: Prowl.Runtime.GUI.GizmoUtils.PlaneGlobalOrigin
+- uid: Prowl.Runtime.GUI.GizmoUtils.PlaneLocalOrigin*
+  commentId: Overload:Prowl.Runtime.GUI.GizmoUtils.PlaneLocalOrigin
+  href: Prowl.Runtime.GUI.GizmoUtils.html#Prowl_Runtime_GUI_GizmoUtils_PlaneLocalOrigin_Prowl_Runtime_GUI_TransformGizmo_Prowl_Runtime_GUI_GizmoDirection_
+  name: PlaneLocalOrigin
+  nameWithType: GizmoUtils.PlaneLocalOrigin
+  fullName: Prowl.Runtime.GUI.GizmoUtils.PlaneLocalOrigin
+- uid: Prowl.Runtime.GUI.GizmoUtils.InnerCircleRadius*
+  commentId: Overload:Prowl.Runtime.GUI.GizmoUtils.InnerCircleRadius
+  href: Prowl.Runtime.GUI.GizmoUtils.html#Prowl_Runtime_GUI_GizmoUtils_InnerCircleRadius_Prowl_Runtime_GUI_TransformGizmo_
+  name: InnerCircleRadius
+  nameWithType: GizmoUtils.InnerCircleRadius
+  fullName: Prowl.Runtime.GUI.GizmoUtils.InnerCircleRadius
+- uid: Prowl.Runtime.GUI.GizmoUtils.OuterCircleRadius*
+  commentId: Overload:Prowl.Runtime.GUI.GizmoUtils.OuterCircleRadius
+  href: Prowl.Runtime.GUI.GizmoUtils.html#Prowl_Runtime_GUI_GizmoUtils_OuterCircleRadius_Prowl_Runtime_GUI_TransformGizmo_
+  name: OuterCircleRadius
+  nameWithType: GizmoUtils.OuterCircleRadius
+  fullName: Prowl.Runtime.GUI.GizmoUtils.OuterCircleRadius
+- uid: Prowl.Runtime.GUI.GizmoUtils.PickArrow*
+  commentId: Overload:Prowl.Runtime.GUI.GizmoUtils.PickArrow
+  href: Prowl.Runtime.GUI.GizmoUtils.html#Prowl_Runtime_GUI_GizmoUtils_PickArrow_Prowl_Runtime_GUI_TransformGizmo_Prowl_Runtime_Ray_Prowl_Runtime_GUI_GizmoDirection_Prowl_Runtime_GUI_TransformGizmoMode_
+  name: PickArrow
+  nameWithType: GizmoUtils.PickArrow
+  fullName: Prowl.Runtime.GUI.GizmoUtils.PickArrow
+- uid: Prowl.Runtime.GUI.TransformGizmoMode
+  commentId: T:Prowl.Runtime.GUI.TransformGizmoMode
+  parent: Prowl.Runtime.GUI
+  href: Prowl.Runtime.GUI.TransformGizmoMode.html
+  name: TransformGizmoMode
+  nameWithType: TransformGizmoMode
+  fullName: Prowl.Runtime.GUI.TransformGizmoMode
+- uid: Prowl.Runtime.GUI.PickResult
+  commentId: T:Prowl.Runtime.GUI.PickResult
+  parent: Prowl.Runtime.GUI
+  href: Prowl.Runtime.GUI.PickResult.html
+  name: PickResult
+  nameWithType: PickResult
+  fullName: Prowl.Runtime.GUI.PickResult
+- uid: Prowl.Runtime.GUI.GizmoUtils.PickPlane*
+  commentId: Overload:Prowl.Runtime.GUI.GizmoUtils.PickPlane
+  href: Prowl.Runtime.GUI.GizmoUtils.html#Prowl_Runtime_GUI_GizmoUtils_PickPlane_Prowl_Runtime_GUI_TransformGizmo_Prowl_Runtime_Ray_Prowl_Runtime_GUI_GizmoDirection_
+  name: PickPlane
+  nameWithType: GizmoUtils.PickPlane
+  fullName: Prowl.Runtime.GUI.GizmoUtils.PickPlane
+- uid: Prowl.Runtime.GUI.GizmoUtils.PickCircle*
+  commentId: Overload:Prowl.Runtime.GUI.GizmoUtils.PickCircle
+  href: Prowl.Runtime.GUI.GizmoUtils.html#Prowl_Runtime_GUI_GizmoUtils_PickCircle_Prowl_Runtime_GUI_TransformGizmo_Prowl_Runtime_Ray_System_Double_System_Boolean_
+  name: PickCircle
+  nameWithType: GizmoUtils.PickCircle
+  fullName: Prowl.Runtime.GUI.GizmoUtils.PickCircle
+- uid: Prowl.Runtime.GUI.GizmoUtils.DrawPlane*
+  commentId: Overload:Prowl.Runtime.GUI.GizmoUtils.DrawPlane
+  href: Prowl.Runtime.GUI.GizmoUtils.html#Prowl_Runtime_GUI_GizmoUtils_DrawPlane_Prowl_Runtime_GUI_TransformGizmo_System_Boolean_Prowl_Runtime_Matrix4x4_Prowl_Runtime_GUI_GizmoDirection_
+  name: DrawPlane
+  nameWithType: GizmoUtils.DrawPlane
+  fullName: Prowl.Runtime.GUI.GizmoUtils.DrawPlane
+- uid: Prowl.Runtime.Matrix4x4
+  commentId: T:Prowl.Runtime.Matrix4x4
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.Matrix4x4.html
+  name: Matrix4x4
+  nameWithType: Matrix4x4
+  fullName: Prowl.Runtime.Matrix4x4
+- uid: Prowl.Runtime.GUI.GizmoUtils.DrawCircle*
+  commentId: Overload:Prowl.Runtime.GUI.GizmoUtils.DrawCircle
+  href: Prowl.Runtime.GUI.GizmoUtils.html#Prowl_Runtime_GUI_GizmoUtils_DrawCircle_Prowl_Runtime_GUI_TransformGizmo_System_Boolean_Prowl_Runtime_Matrix4x4_
+  name: DrawCircle
+  nameWithType: GizmoUtils.DrawCircle
+  fullName: Prowl.Runtime.GUI.GizmoUtils.DrawCircle
+- uid: Prowl.Runtime.GUI.GizmoUtils.DrawQuad*
+  commentId: Overload:Prowl.Runtime.GUI.GizmoUtils.DrawQuad
+  href: Prowl.Runtime.GUI.GizmoUtils.html#Prowl_Runtime_GUI_GizmoUtils_DrawQuad_Prowl_Runtime_GUI_TransformGizmo_System_Boolean_Prowl_Runtime_Matrix4x4_
+  name: DrawQuad
+  nameWithType: GizmoUtils.DrawQuad
+  fullName: Prowl.Runtime.GUI.GizmoUtils.DrawQuad
+- uid: Prowl.Runtime.GUI.GizmoUtils.DrawArrow*
+  commentId: Overload:Prowl.Runtime.GUI.GizmoUtils.DrawArrow
+  href: Prowl.Runtime.GUI.GizmoUtils.html#Prowl_Runtime_GUI_GizmoUtils_DrawArrow_Prowl_Runtime_GUI_TransformGizmo_System_Boolean_Prowl_Runtime_Matrix4x4_Prowl_Runtime_GUI_GizmoDirection_Prowl_Runtime_GUI_TransformGizmoMode_System_Double_
+  name: DrawArrow
+  nameWithType: GizmoUtils.DrawArrow
+  fullName: Prowl.Runtime.GUI.GizmoUtils.DrawArrow
+- uid: Prowl.Runtime.GUI.GizmoUtils.ArrowModesOverlapping*
+  commentId: Overload:Prowl.Runtime.GUI.GizmoUtils.ArrowModesOverlapping
+  href: Prowl.Runtime.GUI.GizmoUtils.html#Prowl_Runtime_GUI_GizmoUtils_ArrowModesOverlapping_Prowl_Runtime_GUI_TransformGizmoMode_Prowl_Runtime_GUI_TransformGizmoMode_
+  name: ArrowModesOverlapping
+  nameWithType: GizmoUtils.ArrowModesOverlapping
+  fullName: Prowl.Runtime.GUI.GizmoUtils.ArrowModesOverlapping
+- uid: Prowl.Runtime.GUI.GizmoUtils.ArrowParams*
+  commentId: Overload:Prowl.Runtime.GUI.GizmoUtils.ArrowParams
+  href: Prowl.Runtime.GUI.GizmoUtils.html#Prowl_Runtime_GUI_GizmoUtils_ArrowParams_Prowl_Runtime_GUI_TransformGizmo_Prowl_Runtime_Vector3_Prowl_Runtime_GUI_TransformGizmoMode_
+  name: ArrowParams
+  nameWithType: GizmoUtils.ArrowParams
+  fullName: Prowl.Runtime.GUI.GizmoUtils.ArrowParams
+- uid: System.ValueTuple{Prowl.Runtime.Vector3,Prowl.Runtime.Vector3,System.Double}
+  commentId: T:System.ValueTuple{Prowl.Runtime.Vector3,Prowl.Runtime.Vector3,System.Double}
+  parent: System
+  definition: System.ValueTuple`3
+  href: Prowl.Runtime.Vector3.html
+  name: (Vector3, Vector3, double)
+  nameWithType: (Vector3, Vector3, double)
+  fullName: (Prowl.Runtime.Vector3, Prowl.Runtime.Vector3, double)
+  nameWithType.vb: (Vector3, Vector3, Double)
+  fullName.vb: (Prowl.Runtime.Vector3, Prowl.Runtime.Vector3, Double)
+  name.vb: (Vector3, Vector3, Double)
+  spec.csharp:
+  - name: (
+  - uid: Prowl.Runtime.Vector3
+    name: Vector3
+    href: Prowl.Runtime.Vector3.html
+  - name: ','
+  - name: " "
+  - uid: Prowl.Runtime.Vector3
+    name: Vector3
+    href: Prowl.Runtime.Vector3.html
+  - name: ','
+  - name: " "
+  - uid: System.Double
+    name: double
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.double
+  - name: )
+  spec.vb:
+  - name: (
+  - uid: Prowl.Runtime.Vector3
+    name: Vector3
+    href: Prowl.Runtime.Vector3.html
+  - name: ','
+  - name: " "
+  - uid: Prowl.Runtime.Vector3
+    name: Vector3
+    href: Prowl.Runtime.Vector3.html
+  - name: ','
+  - name: " "
+  - uid: System.Double
+    name: Double
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.double
+  - name: )
+- uid: System.ValueTuple`3
+  commentId: T:System.ValueTuple`3
+  name: (T1, T2, T3)
+  nameWithType: (T1, T2, T3)
+  fullName: (T1, T2, T3)
+  spec.csharp:
+  - name: (
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: ','
+  - name: " "
+  - name: T3
+  - name: )
+  spec.vb:
+  - name: (
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: ','
+  - name: " "
+  - name: T3
+  - name: )
+- uid: Prowl.Runtime.GUI.GizmoUtils.SegmentToSegment*
+  commentId: Overload:Prowl.Runtime.GUI.GizmoUtils.SegmentToSegment
+  href: Prowl.Runtime.GUI.GizmoUtils.html#Prowl_Runtime_GUI_GizmoUtils_SegmentToSegment_Prowl_Runtime_Vector3_Prowl_Runtime_Vector3_Prowl_Runtime_Vector3_Prowl_Runtime_Vector3_
+  name: SegmentToSegment
+  nameWithType: GizmoUtils.SegmentToSegment
+  fullName: Prowl.Runtime.GUI.GizmoUtils.SegmentToSegment
+- uid: Prowl.Runtime.GUI.GizmoUtils.PointOnAxis*
+  commentId: Overload:Prowl.Runtime.GUI.GizmoUtils.PointOnAxis
+  href: Prowl.Runtime.GUI.GizmoUtils.html#Prowl_Runtime_GUI_GizmoUtils_PointOnAxis_Prowl_Runtime_GUI_TransformGizmo_Prowl_Runtime_Ray_Prowl_Runtime_GUI_GizmoDirection_
+  name: PointOnAxis
+  nameWithType: GizmoUtils.PointOnAxis
+  fullName: Prowl.Runtime.GUI.GizmoUtils.PointOnAxis
+- uid: Prowl.Runtime.GUI.GizmoUtils.RayToRay*
+  commentId: Overload:Prowl.Runtime.GUI.GizmoUtils.RayToRay
+  href: Prowl.Runtime.GUI.GizmoUtils.html#Prowl_Runtime_GUI_GizmoUtils_RayToRay_Prowl_Runtime_Vector3_Prowl_Runtime_Vector3_Prowl_Runtime_Vector3_Prowl_Runtime_Vector3_
+  name: RayToRay
+  nameWithType: GizmoUtils.RayToRay
+  fullName: Prowl.Runtime.GUI.GizmoUtils.RayToRay
+- uid: Prowl.Runtime.GUI.GizmoUtils.RotationAlign*
+  commentId: Overload:Prowl.Runtime.GUI.GizmoUtils.RotationAlign
+  href: Prowl.Runtime.GUI.GizmoUtils.html#Prowl_Runtime_GUI_GizmoUtils_RotationAlign_Prowl_Runtime_Vector3_Prowl_Runtime_Vector3_
+  name: RotationAlign
+  nameWithType: GizmoUtils.RotationAlign
+  fullName: Prowl.Runtime.GUI.GizmoUtils.RotationAlign
+- uid: Prowl.Runtime.GUI.GizmoUtils.WorldToScreen*
+  commentId: Overload:Prowl.Runtime.GUI.GizmoUtils.WorldToScreen
+  href: Prowl.Runtime.GUI.GizmoUtils.html#Prowl_Runtime_GUI_GizmoUtils_WorldToScreen_Prowl_Runtime_Rect_Prowl_Runtime_Matrix4x4_Prowl_Runtime_Vector3_
+  name: WorldToScreen
+  nameWithType: GizmoUtils.WorldToScreen
+  fullName: Prowl.Runtime.GUI.GizmoUtils.WorldToScreen
+- uid: Prowl.Runtime.Rect
+  commentId: T:Prowl.Runtime.Rect
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.Rect.html
+  name: Rect
+  nameWithType: Rect
+  fullName: Prowl.Runtime.Rect
+- uid: System.Nullable{Prowl.Runtime.Vector2}
+  commentId: T:System.Nullable{Prowl.Runtime.Vector2}
+  parent: System
+  definition: System.Nullable`1
+  href: Prowl.Runtime.Vector2.html
+  name: Vector2?
+  nameWithType: Vector2?
+  fullName: Prowl.Runtime.Vector2?
+  spec.csharp:
+  - uid: Prowl.Runtime.Vector2
+    name: Vector2
+    href: Prowl.Runtime.Vector2.html
+  - name: '?'
+  spec.vb:
+  - uid: Prowl.Runtime.Vector2
+    name: Vector2
+    href: Prowl.Runtime.Vector2.html
+  - name: '?'
+- uid: System.Nullable`1
+  commentId: T:System.Nullable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  name: Nullable<T>
+  nameWithType: Nullable<T>
+  fullName: System.Nullable<T>
+  nameWithType.vb: Nullable(Of T)
+  fullName.vb: System.Nullable(Of T)
+  name.vb: Nullable(Of T)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )

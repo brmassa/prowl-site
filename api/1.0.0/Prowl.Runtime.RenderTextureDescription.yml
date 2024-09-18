@@ -1,0 +1,934 @@
+### YamlMime:ManagedReference
+items:
+- uid: Prowl.Runtime.RenderTextureDescription
+  commentId: T:Prowl.Runtime.RenderTextureDescription
+  id: RenderTextureDescription
+  parent: Prowl.Runtime
+  children:
+  - Prowl.Runtime.RenderTextureDescription.#ctor(Prowl.Runtime.RenderTexture)
+  - Prowl.Runtime.RenderTextureDescription.#ctor(System.UInt32,System.UInt32,System.Nullable{Veldrid.PixelFormat},Veldrid.PixelFormat[],System.Boolean,System.Boolean,Veldrid.TextureSampleCount)
+  - Prowl.Runtime.RenderTextureDescription.Equals(System.Object)
+  - Prowl.Runtime.RenderTextureDescription.GetHashCode
+  - Prowl.Runtime.RenderTextureDescription.colorBufferFormats
+  - Prowl.Runtime.RenderTextureDescription.depthBufferFormat
+  - Prowl.Runtime.RenderTextureDescription.enableRandomWrite
+  - Prowl.Runtime.RenderTextureDescription.height
+  - Prowl.Runtime.RenderTextureDescription.op_Equality(Prowl.Runtime.RenderTextureDescription,Prowl.Runtime.RenderTextureDescription)
+  - Prowl.Runtime.RenderTextureDescription.op_Inequality(Prowl.Runtime.RenderTextureDescription,Prowl.Runtime.RenderTextureDescription)
+  - Prowl.Runtime.RenderTextureDescription.sampleCount
+  - Prowl.Runtime.RenderTextureDescription.sampled
+  - Prowl.Runtime.RenderTextureDescription.width
+  langs:
+  - csharp
+  - vb
+  name: RenderTextureDescription
+  nameWithType: RenderTextureDescription
+  fullName: Prowl.Runtime.RenderTextureDescription
+  type: Struct
+  source:
+    remote:
+      path: Prowl.Runtime/Rendering/Texture/RenderTexture.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: RenderTextureDescription
+    path: ../Prowl/Prowl.Runtime/Rendering/Texture/RenderTexture.cs
+    startLine: 12
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public struct RenderTextureDescription
+    content.vb: Public Structure RenderTextureDescription
+  inheritedMembers:
+  - System.ValueType.ToString
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  extensionMethods:
+  - System.Object.Prowl.Runtime.RuntimeUtils.GetSerializableFields
+- uid: Prowl.Runtime.RenderTextureDescription.width
+  commentId: F:Prowl.Runtime.RenderTextureDescription.width
+  id: width
+  parent: Prowl.Runtime.RenderTextureDescription
+  langs:
+  - csharp
+  - vb
+  name: width
+  nameWithType: RenderTextureDescription.width
+  fullName: Prowl.Runtime.RenderTextureDescription.width
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/Rendering/Texture/RenderTexture.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: width
+    path: ../Prowl/Prowl.Runtime/Rendering/Texture/RenderTexture.cs
+    startLine: 14
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public uint width
+    return:
+      type: System.UInt32
+    content.vb: Public width As UInteger
+- uid: Prowl.Runtime.RenderTextureDescription.height
+  commentId: F:Prowl.Runtime.RenderTextureDescription.height
+  id: height
+  parent: Prowl.Runtime.RenderTextureDescription
+  langs:
+  - csharp
+  - vb
+  name: height
+  nameWithType: RenderTextureDescription.height
+  fullName: Prowl.Runtime.RenderTextureDescription.height
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/Rendering/Texture/RenderTexture.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: height
+    path: ../Prowl/Prowl.Runtime/Rendering/Texture/RenderTexture.cs
+    startLine: 15
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public uint height
+    return:
+      type: System.UInt32
+    content.vb: Public height As UInteger
+- uid: Prowl.Runtime.RenderTextureDescription.colorBufferFormats
+  commentId: F:Prowl.Runtime.RenderTextureDescription.colorBufferFormats
+  id: colorBufferFormats
+  parent: Prowl.Runtime.RenderTextureDescription
+  langs:
+  - csharp
+  - vb
+  name: colorBufferFormats
+  nameWithType: RenderTextureDescription.colorBufferFormats
+  fullName: Prowl.Runtime.RenderTextureDescription.colorBufferFormats
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/Rendering/Texture/RenderTexture.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: colorBufferFormats
+    path: ../Prowl/Prowl.Runtime/Rendering/Texture/RenderTexture.cs
+    startLine: 17
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public PixelFormat[] colorBufferFormats
+    return:
+      type: Veldrid.PixelFormat[]
+    content.vb: Public colorBufferFormats As PixelFormat()
+- uid: Prowl.Runtime.RenderTextureDescription.depthBufferFormat
+  commentId: F:Prowl.Runtime.RenderTextureDescription.depthBufferFormat
+  id: depthBufferFormat
+  parent: Prowl.Runtime.RenderTextureDescription
+  langs:
+  - csharp
+  - vb
+  name: depthBufferFormat
+  nameWithType: RenderTextureDescription.depthBufferFormat
+  fullName: Prowl.Runtime.RenderTextureDescription.depthBufferFormat
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/Rendering/Texture/RenderTexture.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: depthBufferFormat
+    path: ../Prowl/Prowl.Runtime/Rendering/Texture/RenderTexture.cs
+    startLine: 18
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public PixelFormat? depthBufferFormat
+    return:
+      type: System.Nullable{Veldrid.PixelFormat}
+    content.vb: Public depthBufferFormat As PixelFormat?
+- uid: Prowl.Runtime.RenderTextureDescription.sampled
+  commentId: F:Prowl.Runtime.RenderTextureDescription.sampled
+  id: sampled
+  parent: Prowl.Runtime.RenderTextureDescription
+  langs:
+  - csharp
+  - vb
+  name: sampled
+  nameWithType: RenderTextureDescription.sampled
+  fullName: Prowl.Runtime.RenderTextureDescription.sampled
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/Rendering/Texture/RenderTexture.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: sampled
+    path: ../Prowl/Prowl.Runtime/Rendering/Texture/RenderTexture.cs
+    startLine: 20
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public bool sampled
+    return:
+      type: System.Boolean
+    content.vb: Public sampled As Boolean
+- uid: Prowl.Runtime.RenderTextureDescription.enableRandomWrite
+  commentId: F:Prowl.Runtime.RenderTextureDescription.enableRandomWrite
+  id: enableRandomWrite
+  parent: Prowl.Runtime.RenderTextureDescription
+  langs:
+  - csharp
+  - vb
+  name: enableRandomWrite
+  nameWithType: RenderTextureDescription.enableRandomWrite
+  fullName: Prowl.Runtime.RenderTextureDescription.enableRandomWrite
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/Rendering/Texture/RenderTexture.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: enableRandomWrite
+    path: ../Prowl/Prowl.Runtime/Rendering/Texture/RenderTexture.cs
+    startLine: 21
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public bool enableRandomWrite
+    return:
+      type: System.Boolean
+    content.vb: Public enableRandomWrite As Boolean
+- uid: Prowl.Runtime.RenderTextureDescription.sampleCount
+  commentId: F:Prowl.Runtime.RenderTextureDescription.sampleCount
+  id: sampleCount
+  parent: Prowl.Runtime.RenderTextureDescription
+  langs:
+  - csharp
+  - vb
+  name: sampleCount
+  nameWithType: RenderTextureDescription.sampleCount
+  fullName: Prowl.Runtime.RenderTextureDescription.sampleCount
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/Rendering/Texture/RenderTexture.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: sampleCount
+    path: ../Prowl/Prowl.Runtime/Rendering/Texture/RenderTexture.cs
+    startLine: 23
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public TextureSampleCount sampleCount
+    return:
+      type: Veldrid.TextureSampleCount
+    content.vb: Public sampleCount As TextureSampleCount
+- uid: Prowl.Runtime.RenderTextureDescription.#ctor(System.UInt32,System.UInt32,System.Nullable{Veldrid.PixelFormat},Veldrid.PixelFormat[],System.Boolean,System.Boolean,Veldrid.TextureSampleCount)
+  commentId: M:Prowl.Runtime.RenderTextureDescription.#ctor(System.UInt32,System.UInt32,System.Nullable{Veldrid.PixelFormat},Veldrid.PixelFormat[],System.Boolean,System.Boolean,Veldrid.TextureSampleCount)
+  id: '#ctor(System.UInt32,System.UInt32,System.Nullable{Veldrid.PixelFormat},Veldrid.PixelFormat[],System.Boolean,System.Boolean,Veldrid.TextureSampleCount)'
+  parent: Prowl.Runtime.RenderTextureDescription
+  langs:
+  - csharp
+  - vb
+  name: RenderTextureDescription(uint, uint, PixelFormat?, PixelFormat[], bool, bool, TextureSampleCount)
+  nameWithType: RenderTextureDescription.RenderTextureDescription(uint, uint, PixelFormat?, PixelFormat[], bool, bool, TextureSampleCount)
+  fullName: Prowl.Runtime.RenderTextureDescription.RenderTextureDescription(uint, uint, Veldrid.PixelFormat?, Veldrid.PixelFormat[], bool, bool, Veldrid.TextureSampleCount)
+  type: Constructor
+  source:
+    remote:
+      path: Prowl.Runtime/Rendering/Texture/RenderTexture.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: .ctor
+    path: ../Prowl/Prowl.Runtime/Rendering/Texture/RenderTexture.cs
+    startLine: 25
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public RenderTextureDescription(uint width, uint height, PixelFormat? depthFormat, PixelFormat[] colorFormats, bool sampled = true, bool randomWrite = false, TextureSampleCount sampleCount = TextureSampleCount.Count1)
+    parameters:
+    - id: width
+      type: System.UInt32
+    - id: height
+      type: System.UInt32
+    - id: depthFormat
+      type: System.Nullable{Veldrid.PixelFormat}
+    - id: colorFormats
+      type: Veldrid.PixelFormat[]
+    - id: sampled
+      type: System.Boolean
+    - id: randomWrite
+      type: System.Boolean
+    - id: sampleCount
+      type: Veldrid.TextureSampleCount
+    content.vb: Public Sub New(width As UInteger, height As UInteger, depthFormat As PixelFormat?, colorFormats As PixelFormat(), sampled As Boolean = True, randomWrite As Boolean = False, sampleCount As TextureSampleCount = TextureSampleCount.Count1)
+  overload: Prowl.Runtime.RenderTextureDescription.#ctor*
+  nameWithType.vb: RenderTextureDescription.New(UInteger, UInteger, PixelFormat?, PixelFormat(), Boolean, Boolean, TextureSampleCount)
+  fullName.vb: Prowl.Runtime.RenderTextureDescription.New(UInteger, UInteger, Veldrid.PixelFormat?, Veldrid.PixelFormat(), Boolean, Boolean, Veldrid.TextureSampleCount)
+  name.vb: New(UInteger, UInteger, PixelFormat?, PixelFormat(), Boolean, Boolean, TextureSampleCount)
+- uid: Prowl.Runtime.RenderTextureDescription.#ctor(Prowl.Runtime.RenderTexture)
+  commentId: M:Prowl.Runtime.RenderTextureDescription.#ctor(Prowl.Runtime.RenderTexture)
+  id: '#ctor(Prowl.Runtime.RenderTexture)'
+  parent: Prowl.Runtime.RenderTextureDescription
+  langs:
+  - csharp
+  - vb
+  name: RenderTextureDescription(RenderTexture)
+  nameWithType: RenderTextureDescription.RenderTextureDescription(RenderTexture)
+  fullName: Prowl.Runtime.RenderTextureDescription.RenderTextureDescription(Prowl.Runtime.RenderTexture)
+  type: Constructor
+  source:
+    remote:
+      path: Prowl.Runtime/Rendering/Texture/RenderTexture.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: .ctor
+    path: ../Prowl/Prowl.Runtime/Rendering/Texture/RenderTexture.cs
+    startLine: 41
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public RenderTextureDescription(RenderTexture texture)
+    parameters:
+    - id: texture
+      type: Prowl.Runtime.RenderTexture
+    content.vb: Public Sub New(texture As RenderTexture)
+  overload: Prowl.Runtime.RenderTextureDescription.#ctor*
+  nameWithType.vb: RenderTextureDescription.New(RenderTexture)
+  fullName.vb: Prowl.Runtime.RenderTextureDescription.New(Prowl.Runtime.RenderTexture)
+  name.vb: New(RenderTexture)
+- uid: Prowl.Runtime.RenderTextureDescription.Equals(System.Object)
+  commentId: M:Prowl.Runtime.RenderTextureDescription.Equals(System.Object)
+  id: Equals(System.Object)
+  parent: Prowl.Runtime.RenderTextureDescription
+  langs:
+  - csharp
+  - vb
+  name: Equals(object?)
+  nameWithType: RenderTextureDescription.Equals(object?)
+  fullName: Prowl.Runtime.RenderTextureDescription.Equals(object?)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Rendering/Texture/RenderTexture.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Equals
+    path: ../Prowl/Prowl.Runtime/Rendering/Texture/RenderTexture.cs
+    startLine: 52
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: Indicates whether this instance and a specified object are equal.
+  example: []
+  syntax:
+    content: public override bool Equals(object? obj)
+    parameters:
+    - id: obj
+      type: System.Object
+      description: The object to compare with the current instance.
+    return:
+      type: System.Boolean
+      description: <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if <code class="paramref">obj</code> and this instance are the same type and represent the same value; otherwise, <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a>.
+    content.vb: Public Overrides Function Equals(obj As Object) As Boolean
+  overridden: System.ValueType.Equals(System.Object)
+  overload: Prowl.Runtime.RenderTextureDescription.Equals*
+  nameWithType.vb: RenderTextureDescription.Equals(Object)
+  fullName.vb: Prowl.Runtime.RenderTextureDescription.Equals(Object)
+  name.vb: Equals(Object)
+- uid: Prowl.Runtime.RenderTextureDescription.GetHashCode
+  commentId: M:Prowl.Runtime.RenderTextureDescription.GetHashCode
+  id: GetHashCode
+  parent: Prowl.Runtime.RenderTextureDescription
+  langs:
+  - csharp
+  - vb
+  name: GetHashCode()
+  nameWithType: RenderTextureDescription.GetHashCode()
+  fullName: Prowl.Runtime.RenderTextureDescription.GetHashCode()
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Rendering/Texture/RenderTexture.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: GetHashCode
+    path: ../Prowl/Prowl.Runtime/Rendering/Texture/RenderTexture.cs
+    startLine: 81
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: Returns the hash code for this instance.
+  example: []
+  syntax:
+    content: public override int GetHashCode()
+    return:
+      type: System.Int32
+      description: A 32-bit signed integer that is the hash code for this instance.
+    content.vb: Public Overrides Function GetHashCode() As Integer
+  overridden: System.ValueType.GetHashCode
+  overload: Prowl.Runtime.RenderTextureDescription.GetHashCode*
+- uid: Prowl.Runtime.RenderTextureDescription.op_Equality(Prowl.Runtime.RenderTextureDescription,Prowl.Runtime.RenderTextureDescription)
+  commentId: M:Prowl.Runtime.RenderTextureDescription.op_Equality(Prowl.Runtime.RenderTextureDescription,Prowl.Runtime.RenderTextureDescription)
+  id: op_Equality(Prowl.Runtime.RenderTextureDescription,Prowl.Runtime.RenderTextureDescription)
+  parent: Prowl.Runtime.RenderTextureDescription
+  langs:
+  - csharp
+  - vb
+  name: operator ==(RenderTextureDescription, RenderTextureDescription)
+  nameWithType: RenderTextureDescription.operator ==(RenderTextureDescription, RenderTextureDescription)
+  fullName: Prowl.Runtime.RenderTextureDescription.operator ==(Prowl.Runtime.RenderTextureDescription, Prowl.Runtime.RenderTextureDescription)
+  type: Operator
+  source:
+    remote:
+      path: Prowl.Runtime/Rendering/Texture/RenderTexture.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: op_Equality
+    path: ../Prowl/Prowl.Runtime/Rendering/Texture/RenderTexture.cs
+    startLine: 96
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public static bool operator ==(RenderTextureDescription left, RenderTextureDescription right)
+    parameters:
+    - id: left
+      type: Prowl.Runtime.RenderTextureDescription
+    - id: right
+      type: Prowl.Runtime.RenderTextureDescription
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Operator =(left As RenderTextureDescription, right As RenderTextureDescription) As Boolean
+  overload: Prowl.Runtime.RenderTextureDescription.op_Equality*
+  nameWithType.vb: RenderTextureDescription.=(RenderTextureDescription, RenderTextureDescription)
+  fullName.vb: Prowl.Runtime.RenderTextureDescription.=(Prowl.Runtime.RenderTextureDescription, Prowl.Runtime.RenderTextureDescription)
+  name.vb: =(RenderTextureDescription, RenderTextureDescription)
+- uid: Prowl.Runtime.RenderTextureDescription.op_Inequality(Prowl.Runtime.RenderTextureDescription,Prowl.Runtime.RenderTextureDescription)
+  commentId: M:Prowl.Runtime.RenderTextureDescription.op_Inequality(Prowl.Runtime.RenderTextureDescription,Prowl.Runtime.RenderTextureDescription)
+  id: op_Inequality(Prowl.Runtime.RenderTextureDescription,Prowl.Runtime.RenderTextureDescription)
+  parent: Prowl.Runtime.RenderTextureDescription
+  langs:
+  - csharp
+  - vb
+  name: operator !=(RenderTextureDescription, RenderTextureDescription)
+  nameWithType: RenderTextureDescription.operator !=(RenderTextureDescription, RenderTextureDescription)
+  fullName: Prowl.Runtime.RenderTextureDescription.operator !=(Prowl.Runtime.RenderTextureDescription, Prowl.Runtime.RenderTextureDescription)
+  type: Operator
+  source:
+    remote:
+      path: Prowl.Runtime/Rendering/Texture/RenderTexture.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: op_Inequality
+    path: ../Prowl/Prowl.Runtime/Rendering/Texture/RenderTexture.cs
+    startLine: 98
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public static bool operator !=(RenderTextureDescription left, RenderTextureDescription right)
+    parameters:
+    - id: left
+      type: Prowl.Runtime.RenderTextureDescription
+    - id: right
+      type: Prowl.Runtime.RenderTextureDescription
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Operator <>(left As RenderTextureDescription, right As RenderTextureDescription) As Boolean
+  overload: Prowl.Runtime.RenderTextureDescription.op_Inequality*
+  nameWithType.vb: RenderTextureDescription.<>(RenderTextureDescription, RenderTextureDescription)
+  fullName.vb: Prowl.Runtime.RenderTextureDescription.<>(Prowl.Runtime.RenderTextureDescription, Prowl.Runtime.RenderTextureDescription)
+  name.vb: <>(RenderTextureDescription, RenderTextureDescription)
+references:
+- uid: Prowl.Runtime
+  commentId: N:Prowl.Runtime
+  href: Prowl.html
+  name: Prowl.Runtime
+  nameWithType: Prowl.Runtime
+  fullName: Prowl.Runtime
+  spec.csharp:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+  spec.vb:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Prowl.Runtime.RuntimeUtils.GetSerializableFields
+  commentId: M:Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  parent: Prowl.Runtime.RuntimeUtils
+  definition: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  name: GetSerializableFields(object)
+  nameWithType: RuntimeUtils.GetSerializableFields(object)
+  fullName: Prowl.Runtime.RuntimeUtils.GetSerializableFields(object)
+  nameWithType.vb: RuntimeUtils.GetSerializableFields(Object)
+  fullName.vb: Prowl.Runtime.RuntimeUtils.GetSerializableFields(Object)
+  name.vb: GetSerializableFields(Object)
+  spec.csharp:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  commentId: M:Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  isExternal: true
+  href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  name: GetSerializableFields(object)
+  nameWithType: RuntimeUtils.GetSerializableFields(object)
+  fullName: Prowl.Runtime.RuntimeUtils.GetSerializableFields(object)
+  nameWithType.vb: RuntimeUtils.GetSerializableFields(Object)
+  fullName.vb: Prowl.Runtime.RuntimeUtils.GetSerializableFields(Object)
+  name.vb: GetSerializableFields(Object)
+  spec.csharp:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: Prowl.Runtime.RuntimeUtils
+  commentId: T:Prowl.Runtime.RuntimeUtils
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.RuntimeUtils.html
+  name: RuntimeUtils
+  nameWithType: RuntimeUtils
+  fullName: Prowl.Runtime.RuntimeUtils
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.UInt32
+  commentId: T:System.UInt32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.uint32
+  name: uint
+  nameWithType: uint
+  fullName: uint
+  nameWithType.vb: UInteger
+  fullName.vb: UInteger
+  name.vb: UInteger
+- uid: Veldrid.PixelFormat[]
+  isExternal: true
+  name: PixelFormat[]
+  nameWithType: PixelFormat[]
+  fullName: Veldrid.PixelFormat[]
+  nameWithType.vb: PixelFormat()
+  fullName.vb: Veldrid.PixelFormat()
+  name.vb: PixelFormat()
+  spec.csharp:
+  - uid: Veldrid.PixelFormat
+    name: PixelFormat
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: Veldrid.PixelFormat
+    name: PixelFormat
+  - name: (
+  - name: )
+- uid: System.Nullable{Veldrid.PixelFormat}
+  commentId: T:System.Nullable{Veldrid.PixelFormat}
+  parent: System
+  definition: System.Nullable`1
+  name: PixelFormat?
+  nameWithType: PixelFormat?
+  fullName: Veldrid.PixelFormat?
+  spec.csharp:
+  - uid: Veldrid.PixelFormat
+    name: PixelFormat
+  - name: '?'
+  spec.vb:
+  - uid: Veldrid.PixelFormat
+    name: PixelFormat
+  - name: '?'
+- uid: System.Nullable`1
+  commentId: T:System.Nullable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  name: Nullable<T>
+  nameWithType: Nullable<T>
+  fullName: System.Nullable<T>
+  nameWithType.vb: Nullable(Of T)
+  fullName.vb: System.Nullable(Of T)
+  name.vb: Nullable(Of T)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: Veldrid.TextureSampleCount
+  commentId: T:Veldrid.TextureSampleCount
+  parent: Veldrid
+  name: TextureSampleCount
+  nameWithType: TextureSampleCount
+  fullName: Veldrid.TextureSampleCount
+- uid: Veldrid
+  commentId: N:Veldrid
+  name: Veldrid
+  nameWithType: Veldrid
+  fullName: Veldrid
+- uid: Prowl.Runtime.RenderTextureDescription.#ctor*
+  commentId: Overload:Prowl.Runtime.RenderTextureDescription.#ctor
+  href: Prowl.Runtime.RenderTextureDescription.html#Prowl_Runtime_RenderTextureDescription__ctor_System_UInt32_System_UInt32_System_Nullable_Veldrid_PixelFormat__Veldrid_PixelFormat___System_Boolean_System_Boolean_Veldrid_TextureSampleCount_
+  name: RenderTextureDescription
+  nameWithType: RenderTextureDescription.RenderTextureDescription
+  fullName: Prowl.Runtime.RenderTextureDescription.RenderTextureDescription
+  nameWithType.vb: RenderTextureDescription.New
+  fullName.vb: Prowl.Runtime.RenderTextureDescription.New
+  name.vb: New
+- uid: Prowl.Runtime.RenderTexture
+  commentId: T:Prowl.Runtime.RenderTexture
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.RenderTexture.html
+  name: RenderTexture
+  nameWithType: RenderTexture
+  fullName: Prowl.Runtime.RenderTexture
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  name: Equals(object)
+  nameWithType: ValueType.Equals(object)
+  fullName: System.ValueType.Equals(object)
+  nameWithType.vb: ValueType.Equals(Object)
+  fullName.vb: System.ValueType.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: Prowl.Runtime.RenderTextureDescription.Equals*
+  commentId: Overload:Prowl.Runtime.RenderTextureDescription.Equals
+  href: Prowl.Runtime.RenderTextureDescription.html#Prowl_Runtime_RenderTextureDescription_Equals_System_Object_
+  name: Equals
+  nameWithType: RenderTextureDescription.Equals
+  fullName: Prowl.Runtime.RenderTextureDescription.Equals
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+- uid: Prowl.Runtime.RenderTextureDescription.GetHashCode*
+  commentId: Overload:Prowl.Runtime.RenderTextureDescription.GetHashCode
+  href: Prowl.Runtime.RenderTextureDescription.html#Prowl_Runtime_RenderTextureDescription_GetHashCode
+  name: GetHashCode
+  nameWithType: RenderTextureDescription.GetHashCode
+  fullName: Prowl.Runtime.RenderTextureDescription.GetHashCode
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: Prowl.Runtime.RenderTextureDescription.op_Equality*
+  commentId: Overload:Prowl.Runtime.RenderTextureDescription.op_Equality
+  href: Prowl.Runtime.RenderTextureDescription.html#Prowl_Runtime_RenderTextureDescription_op_Equality_Prowl_Runtime_RenderTextureDescription_Prowl_Runtime_RenderTextureDescription_
+  name: operator ==
+  nameWithType: RenderTextureDescription.operator ==
+  fullName: Prowl.Runtime.RenderTextureDescription.operator ==
+  nameWithType.vb: RenderTextureDescription.=
+  fullName.vb: Prowl.Runtime.RenderTextureDescription.=
+  name.vb: =
+  spec.csharp:
+  - name: operator
+  - name: " "
+  - uid: Prowl.Runtime.RenderTextureDescription.op_Equality*
+    name: ==
+    href: Prowl.Runtime.RenderTextureDescription.html#Prowl_Runtime_RenderTextureDescription_op_Equality_Prowl_Runtime_RenderTextureDescription_Prowl_Runtime_RenderTextureDescription_
+- uid: Prowl.Runtime.RenderTextureDescription
+  commentId: T:Prowl.Runtime.RenderTextureDescription
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.RenderTextureDescription.html
+  name: RenderTextureDescription
+  nameWithType: RenderTextureDescription
+  fullName: Prowl.Runtime.RenderTextureDescription
+- uid: Prowl.Runtime.RenderTextureDescription.op_Inequality*
+  commentId: Overload:Prowl.Runtime.RenderTextureDescription.op_Inequality
+  href: Prowl.Runtime.RenderTextureDescription.html#Prowl_Runtime_RenderTextureDescription_op_Inequality_Prowl_Runtime_RenderTextureDescription_Prowl_Runtime_RenderTextureDescription_
+  name: operator !=
+  nameWithType: RenderTextureDescription.operator !=
+  fullName: Prowl.Runtime.RenderTextureDescription.operator !=
+  nameWithType.vb: RenderTextureDescription.<>
+  fullName.vb: Prowl.Runtime.RenderTextureDescription.<>
+  name.vb: <>
+  spec.csharp:
+  - name: operator
+  - name: " "
+  - uid: Prowl.Runtime.RenderTextureDescription.op_Inequality*
+    name: '!='
+    href: Prowl.Runtime.RenderTextureDescription.html#Prowl_Runtime_RenderTextureDescription_op_Inequality_Prowl_Runtime_RenderTextureDescription_Prowl_Runtime_RenderTextureDescription_

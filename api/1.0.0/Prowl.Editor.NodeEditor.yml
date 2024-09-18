@@ -1,0 +1,1312 @@
+### YamlMime:ManagedReference
+items:
+- uid: Prowl.Editor.NodeEditor
+  commentId: T:Prowl.Editor.NodeEditor
+  id: NodeEditor
+  parent: Prowl.Editor
+  children:
+  - Prowl.Editor.NodeEditor.#ctor(Prowl.Runtime.NodeSystem.NodeGraph)
+  - Prowl.Editor.NodeEditor.AlignSelectedHorizontally
+  - Prowl.Editor.NodeEditor.AlignSelectedVertically
+  - Prowl.Editor.NodeEditor.DrawBlackBoard(Prowl.Runtime.GUI.Gui)
+  - Prowl.Editor.NodeEditor.DrawContextMenu(Prowl.Runtime.GUI.Gui)
+  - Prowl.Editor.NodeEditor.DrawNoodle(Prowl.Runtime.Color,Prowl.Editor.Preferences.EditorStylePrefs.NoodlePath,Prowl.Editor.Preferences.EditorStylePrefs.NoodleStroke,System.Double,System.Collections.Generic.List{Prowl.Runtime.Vector2})
+  - Prowl.Editor.NodeEditor.Finalize
+  - Prowl.Editor.NodeEditor.GridToWindow(Prowl.Runtime.Vector2)
+  - Prowl.Editor.NodeEditor.IsDragging
+  - Prowl.Editor.NodeEditor.IsDraggingPort
+  - Prowl.Editor.NodeEditor.OnAssemblyUnload
+  - Prowl.Editor.NodeEditor.RefreshRenderTexture(Prowl.Runtime.Vector2)
+  - Prowl.Editor.NodeEditor.Release
+  - Prowl.Editor.NodeEditor.SetFocus(System.Boolean)
+  - Prowl.Editor.NodeEditor.Update(Prowl.Runtime.GUI.Gui,System.Boolean,Prowl.Runtime.Vector2,System.UInt32,System.UInt32,System.Boolean@)
+  - Prowl.Editor.NodeEditor.WindowToGrid(Prowl.Runtime.Vector2)
+  langs:
+  - csharp
+  - vb
+  name: NodeEditor
+  nameWithType: NodeEditor
+  fullName: Prowl.Editor.NodeEditor
+  type: Class
+  source:
+    remote:
+      path: Prowl.Editor/Editor/NodeEditor/NodeEditor.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: NodeEditor
+    path: ../Prowl/Prowl.Editor/Editor/NodeEditor/NodeEditor.cs
+    startLine: 557
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor
+  syntax:
+    content: public class NodeEditor
+    content.vb: Public Class NodeEditor
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  extensionMethods:
+  - System.Object.Prowl.Runtime.RuntimeUtils.GetSerializableFields
+- uid: Prowl.Editor.NodeEditor.IsDragging
+  commentId: P:Prowl.Editor.NodeEditor.IsDragging
+  id: IsDragging
+  parent: Prowl.Editor.NodeEditor
+  langs:
+  - csharp
+  - vb
+  name: IsDragging
+  nameWithType: NodeEditor.IsDragging
+  fullName: Prowl.Editor.NodeEditor.IsDragging
+  type: Property
+  source:
+    remote:
+      path: Prowl.Editor/Editor/NodeEditor/NodeEditor.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: IsDragging
+    path: ../Prowl/Prowl.Editor/Editor/NodeEditor/NodeEditor.cs
+    startLine: 559
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor
+  syntax:
+    content: public bool IsDragging { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property IsDragging As Boolean
+  overload: Prowl.Editor.NodeEditor.IsDragging*
+- uid: Prowl.Editor.NodeEditor.IsDraggingPort
+  commentId: P:Prowl.Editor.NodeEditor.IsDraggingPort
+  id: IsDraggingPort
+  parent: Prowl.Editor.NodeEditor
+  langs:
+  - csharp
+  - vb
+  name: IsDraggingPort
+  nameWithType: NodeEditor.IsDraggingPort
+  fullName: Prowl.Editor.NodeEditor.IsDraggingPort
+  type: Property
+  source:
+    remote:
+      path: Prowl.Editor/Editor/NodeEditor/NodeEditor.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: IsDraggingPort
+    path: ../Prowl/Prowl.Editor/Editor/NodeEditor/NodeEditor.cs
+    startLine: 560
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor
+  syntax:
+    content: public bool IsDraggingPort { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property IsDraggingPort As Boolean
+  overload: Prowl.Editor.NodeEditor.IsDraggingPort*
+- uid: Prowl.Editor.NodeEditor.#ctor(Prowl.Runtime.NodeSystem.NodeGraph)
+  commentId: M:Prowl.Editor.NodeEditor.#ctor(Prowl.Runtime.NodeSystem.NodeGraph)
+  id: '#ctor(Prowl.Runtime.NodeSystem.NodeGraph)'
+  parent: Prowl.Editor.NodeEditor
+  langs:
+  - csharp
+  - vb
+  name: NodeEditor(NodeGraph)
+  nameWithType: NodeEditor.NodeEditor(NodeGraph)
+  fullName: Prowl.Editor.NodeEditor.NodeEditor(Prowl.Runtime.NodeSystem.NodeGraph)
+  type: Constructor
+  source:
+    remote:
+      path: Prowl.Editor/Editor/NodeEditor/NodeEditor.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: .ctor
+    path: ../Prowl/Prowl.Editor/Editor/NodeEditor/NodeEditor.cs
+    startLine: 586
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor
+  syntax:
+    content: public NodeEditor(NodeGraph graph)
+    parameters:
+    - id: graph
+      type: Prowl.Runtime.NodeSystem.NodeGraph
+    content.vb: Public Sub New(graph As NodeGraph)
+  overload: Prowl.Editor.NodeEditor.#ctor*
+  nameWithType.vb: NodeEditor.New(NodeGraph)
+  fullName.vb: Prowl.Editor.NodeEditor.New(Prowl.Runtime.NodeSystem.NodeGraph)
+  name.vb: New(NodeGraph)
+- uid: Prowl.Editor.NodeEditor.Finalize
+  commentId: M:Prowl.Editor.NodeEditor.Finalize
+  id: Finalize
+  parent: Prowl.Editor.NodeEditor
+  langs:
+  - csharp
+  - vb
+  name: ~NodeEditor()
+  nameWithType: NodeEditor.~NodeEditor()
+  fullName: Prowl.Editor.NodeEditor.~NodeEditor()
+  type: Method
+  source:
+    remote:
+      path: Prowl.Editor/Editor/NodeEditor/NodeEditor.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Finalize
+    path: ../Prowl/Prowl.Editor/Editor/NodeEditor/NodeEditor.cs
+    startLine: 601
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor
+  syntax:
+    content: protected ~NodeEditor()
+    content.vb: 'Protected '
+  overload: Prowl.Editor.NodeEditor.Finalize*
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: Prowl.Editor.NodeEditor.OnAssemblyUnload
+  commentId: M:Prowl.Editor.NodeEditor.OnAssemblyUnload
+  id: OnAssemblyUnload
+  parent: Prowl.Editor.NodeEditor
+  langs:
+  - csharp
+  - vb
+  name: OnAssemblyUnload()
+  nameWithType: NodeEditor.OnAssemblyUnload()
+  fullName: Prowl.Editor.NodeEditor.OnAssemblyUnload()
+  type: Method
+  source:
+    remote:
+      path: Prowl.Editor/Editor/NodeEditor/NodeEditor.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: OnAssemblyUnload
+    path: ../Prowl/Prowl.Editor/Editor/NodeEditor/NodeEditor.cs
+    startLine: 606
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor
+  syntax:
+    content: >-
+      [OnAssemblyUnload]
+
+      public static void OnAssemblyUnload()
+    content.vb: >-
+      <OnAssemblyUnload>
+
+      Public Shared Sub OnAssemblyUnload()
+  overload: Prowl.Editor.NodeEditor.OnAssemblyUnload*
+  attributes:
+  - type: Prowl.Runtime.Utils.OnAssemblyUnloadAttribute
+    ctor: Prowl.Runtime.Utils.OnAssemblyUnloadAttribute.#ctor
+    arguments: []
+- uid: Prowl.Editor.NodeEditor.RefreshRenderTexture(Prowl.Runtime.Vector2)
+  commentId: M:Prowl.Editor.NodeEditor.RefreshRenderTexture(Prowl.Runtime.Vector2)
+  id: RefreshRenderTexture(Prowl.Runtime.Vector2)
+  parent: Prowl.Editor.NodeEditor
+  langs:
+  - csharp
+  - vb
+  name: RefreshRenderTexture(Vector2)
+  nameWithType: NodeEditor.RefreshRenderTexture(Vector2)
+  fullName: Prowl.Editor.NodeEditor.RefreshRenderTexture(Prowl.Runtime.Vector2)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Editor/Editor/NodeEditor/NodeEditor.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: RefreshRenderTexture
+    path: ../Prowl/Prowl.Editor/Editor/NodeEditor/NodeEditor.cs
+    startLine: 609
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor
+  syntax:
+    content: public void RefreshRenderTexture(Vector2 renderSize)
+    parameters:
+    - id: renderSize
+      type: Prowl.Runtime.Vector2
+    content.vb: Public Sub RefreshRenderTexture(renderSize As Vector2)
+  overload: Prowl.Editor.NodeEditor.RefreshRenderTexture*
+- uid: Prowl.Editor.NodeEditor.SetFocus(System.Boolean)
+  commentId: M:Prowl.Editor.NodeEditor.SetFocus(System.Boolean)
+  id: SetFocus(System.Boolean)
+  parent: Prowl.Editor.NodeEditor
+  langs:
+  - csharp
+  - vb
+  name: SetFocus(bool)
+  nameWithType: NodeEditor.SetFocus(bool)
+  fullName: Prowl.Editor.NodeEditor.SetFocus(bool)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Editor/Editor/NodeEditor/NodeEditor.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: SetFocus
+    path: ../Prowl/Prowl.Editor/Editor/NodeEditor/NodeEditor.cs
+    startLine: 619
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor
+  syntax:
+    content: public void SetFocus(bool focused)
+    parameters:
+    - id: focused
+      type: System.Boolean
+    content.vb: Public Sub SetFocus(focused As Boolean)
+  overload: Prowl.Editor.NodeEditor.SetFocus*
+  nameWithType.vb: NodeEditor.SetFocus(Boolean)
+  fullName.vb: Prowl.Editor.NodeEditor.SetFocus(Boolean)
+  name.vb: SetFocus(Boolean)
+- uid: Prowl.Editor.NodeEditor.Update(Prowl.Runtime.GUI.Gui,System.Boolean,Prowl.Runtime.Vector2,System.UInt32,System.UInt32,System.Boolean@)
+  commentId: M:Prowl.Editor.NodeEditor.Update(Prowl.Runtime.GUI.Gui,System.Boolean,Prowl.Runtime.Vector2,System.UInt32,System.UInt32,System.Boolean@)
+  id: Update(Prowl.Runtime.GUI.Gui,System.Boolean,Prowl.Runtime.Vector2,System.UInt32,System.UInt32,System.Boolean@)
+  parent: Prowl.Editor.NodeEditor
+  langs:
+  - csharp
+  - vb
+  name: Update(Gui, bool, Vector2, uint, uint, out bool)
+  nameWithType: NodeEditor.Update(Gui, bool, Vector2, uint, uint, out bool)
+  fullName: Prowl.Editor.NodeEditor.Update(Prowl.Runtime.GUI.Gui, bool, Prowl.Runtime.Vector2, uint, uint, out bool)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Editor/Editor/NodeEditor/NodeEditor.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Update
+    path: ../Prowl/Prowl.Editor/Editor/NodeEditor/NodeEditor.cs
+    startLine: 622
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor
+  syntax:
+    content: public Texture2D Update(Gui windowGui, bool focused, Vector2 screenPos, uint width, uint height, out bool changed)
+    parameters:
+    - id: windowGui
+      type: Prowl.Runtime.GUI.Gui
+    - id: focused
+      type: System.Boolean
+    - id: screenPos
+      type: Prowl.Runtime.Vector2
+    - id: width
+      type: System.UInt32
+    - id: height
+      type: System.UInt32
+    - id: changed
+      type: System.Boolean
+    return:
+      type: Prowl.Runtime.Texture2D
+    content.vb: Public Function Update(windowGui As Gui, focused As Boolean, screenPos As Vector2, width As UInteger, height As UInteger, changed As Boolean) As Texture2D
+  overload: Prowl.Editor.NodeEditor.Update*
+  nameWithType.vb: NodeEditor.Update(Gui, Boolean, Vector2, UInteger, UInteger, Boolean)
+  fullName.vb: Prowl.Editor.NodeEditor.Update(Prowl.Runtime.GUI.Gui, Boolean, Prowl.Runtime.Vector2, UInteger, UInteger, Boolean)
+  name.vb: Update(Gui, Boolean, Vector2, UInteger, UInteger, Boolean)
+- uid: Prowl.Editor.NodeEditor.GridToWindow(Prowl.Runtime.Vector2)
+  commentId: M:Prowl.Editor.NodeEditor.GridToWindow(Prowl.Runtime.Vector2)
+  id: GridToWindow(Prowl.Runtime.Vector2)
+  parent: Prowl.Editor.NodeEditor
+  langs:
+  - csharp
+  - vb
+  name: GridToWindow(Vector2)
+  nameWithType: NodeEditor.GridToWindow(Vector2)
+  fullName: Prowl.Editor.NodeEditor.GridToWindow(Prowl.Runtime.Vector2)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Editor/Editor/NodeEditor/NodeEditor.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: GridToWindow
+    path: ../Prowl/Prowl.Editor/Editor/NodeEditor/NodeEditor.cs
+    startLine: 786
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor
+  syntax:
+    content: public Vector2 GridToWindow(Vector2 gridPos)
+    parameters:
+    - id: gridPos
+      type: Prowl.Runtime.Vector2
+    return:
+      type: Prowl.Runtime.Vector2
+    content.vb: Public Function GridToWindow(gridPos As Vector2) As Vector2
+  overload: Prowl.Editor.NodeEditor.GridToWindow*
+- uid: Prowl.Editor.NodeEditor.WindowToGrid(Prowl.Runtime.Vector2)
+  commentId: M:Prowl.Editor.NodeEditor.WindowToGrid(Prowl.Runtime.Vector2)
+  id: WindowToGrid(Prowl.Runtime.Vector2)
+  parent: Prowl.Editor.NodeEditor
+  langs:
+  - csharp
+  - vb
+  name: WindowToGrid(Vector2)
+  nameWithType: NodeEditor.WindowToGrid(Vector2)
+  fullName: Prowl.Editor.NodeEditor.WindowToGrid(Prowl.Runtime.Vector2)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Editor/Editor/NodeEditor/NodeEditor.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: WindowToGrid
+    path: ../Prowl/Prowl.Editor/Editor/NodeEditor/NodeEditor.cs
+    startLine: 789
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor
+  syntax:
+    content: public Vector2 WindowToGrid(Vector2 windowPos)
+    parameters:
+    - id: windowPos
+      type: Prowl.Runtime.Vector2
+    return:
+      type: Prowl.Runtime.Vector2
+    content.vb: Public Function WindowToGrid(windowPos As Vector2) As Vector2
+  overload: Prowl.Editor.NodeEditor.WindowToGrid*
+- uid: Prowl.Editor.NodeEditor.DrawNoodle(Prowl.Runtime.Color,Prowl.Editor.Preferences.EditorStylePrefs.NoodlePath,Prowl.Editor.Preferences.EditorStylePrefs.NoodleStroke,System.Double,System.Collections.Generic.List{Prowl.Runtime.Vector2})
+  commentId: M:Prowl.Editor.NodeEditor.DrawNoodle(Prowl.Runtime.Color,Prowl.Editor.Preferences.EditorStylePrefs.NoodlePath,Prowl.Editor.Preferences.EditorStylePrefs.NoodleStroke,System.Double,System.Collections.Generic.List{Prowl.Runtime.Vector2})
+  id: DrawNoodle(Prowl.Runtime.Color,Prowl.Editor.Preferences.EditorStylePrefs.NoodlePath,Prowl.Editor.Preferences.EditorStylePrefs.NoodleStroke,System.Double,System.Collections.Generic.List{Prowl.Runtime.Vector2})
+  parent: Prowl.Editor.NodeEditor
+  langs:
+  - csharp
+  - vb
+  name: DrawNoodle(Color, NoodlePath, NoodleStroke, double, List<Vector2>)
+  nameWithType: NodeEditor.DrawNoodle(Color, EditorStylePrefs.NoodlePath, EditorStylePrefs.NoodleStroke, double, List<Vector2>)
+  fullName: Prowl.Editor.NodeEditor.DrawNoodle(Prowl.Runtime.Color, Prowl.Editor.Preferences.EditorStylePrefs.NoodlePath, Prowl.Editor.Preferences.EditorStylePrefs.NoodleStroke, double, System.Collections.Generic.List<Prowl.Runtime.Vector2>)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Editor/Editor/NodeEditor/NodeEditor.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: DrawNoodle
+    path: ../Prowl/Prowl.Editor/Editor/NodeEditor/NodeEditor.cs
+    startLine: 852
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor
+  syntax:
+    content: public void DrawNoodle(Color color, EditorStylePrefs.NoodlePath path, EditorStylePrefs.NoodleStroke stroke, double noodleThickness, List<Vector2> gridPoints)
+    parameters:
+    - id: color
+      type: Prowl.Runtime.Color
+    - id: path
+      type: Prowl.Editor.Preferences.EditorStylePrefs.NoodlePath
+    - id: stroke
+      type: Prowl.Editor.Preferences.EditorStylePrefs.NoodleStroke
+    - id: noodleThickness
+      type: System.Double
+    - id: gridPoints
+      type: System.Collections.Generic.List{Prowl.Runtime.Vector2}
+    content.vb: Public Sub DrawNoodle(color As Color, path As EditorStylePrefs.NoodlePath, stroke As EditorStylePrefs.NoodleStroke, noodleThickness As Double, gridPoints As List(Of Vector2))
+  overload: Prowl.Editor.NodeEditor.DrawNoodle*
+  nameWithType.vb: NodeEditor.DrawNoodle(Color, EditorStylePrefs.NoodlePath, EditorStylePrefs.NoodleStroke, Double, List(Of Vector2))
+  fullName.vb: Prowl.Editor.NodeEditor.DrawNoodle(Prowl.Runtime.Color, Prowl.Editor.Preferences.EditorStylePrefs.NoodlePath, Prowl.Editor.Preferences.EditorStylePrefs.NoodleStroke, Double, System.Collections.Generic.List(Of Prowl.Runtime.Vector2))
+  name.vb: DrawNoodle(Color, NoodlePath, NoodleStroke, Double, List(Of Vector2))
+- uid: Prowl.Editor.NodeEditor.DrawBlackBoard(Prowl.Runtime.GUI.Gui)
+  commentId: M:Prowl.Editor.NodeEditor.DrawBlackBoard(Prowl.Runtime.GUI.Gui)
+  id: DrawBlackBoard(Prowl.Runtime.GUI.Gui)
+  parent: Prowl.Editor.NodeEditor
+  langs:
+  - csharp
+  - vb
+  name: DrawBlackBoard(Gui)
+  nameWithType: NodeEditor.DrawBlackBoard(Gui)
+  fullName: Prowl.Editor.NodeEditor.DrawBlackBoard(Prowl.Runtime.GUI.Gui)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Editor/Editor/NodeEditor/NodeEditor.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: DrawBlackBoard
+    path: ../Prowl/Prowl.Editor/Editor/NodeEditor/NodeEditor.cs
+    startLine: 1030
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor
+  syntax:
+    content: public bool DrawBlackBoard(Gui gui)
+    parameters:
+    - id: gui
+      type: Prowl.Runtime.GUI.Gui
+    return:
+      type: System.Boolean
+    content.vb: Public Function DrawBlackBoard(gui As Gui) As Boolean
+  overload: Prowl.Editor.NodeEditor.DrawBlackBoard*
+- uid: Prowl.Editor.NodeEditor.DrawContextMenu(Prowl.Runtime.GUI.Gui)
+  commentId: M:Prowl.Editor.NodeEditor.DrawContextMenu(Prowl.Runtime.GUI.Gui)
+  id: DrawContextMenu(Prowl.Runtime.GUI.Gui)
+  parent: Prowl.Editor.NodeEditor
+  langs:
+  - csharp
+  - vb
+  name: DrawContextMenu(Gui)
+  nameWithType: NodeEditor.DrawContextMenu(Gui)
+  fullName: Prowl.Editor.NodeEditor.DrawContextMenu(Prowl.Runtime.GUI.Gui)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Editor/Editor/NodeEditor/NodeEditor.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: DrawContextMenu
+    path: ../Prowl/Prowl.Editor/Editor/NodeEditor/NodeEditor.cs
+    startLine: 1041
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor
+  syntax:
+    content: public void DrawContextMenu(Gui g)
+    parameters:
+    - id: g
+      type: Prowl.Runtime.GUI.Gui
+    content.vb: Public Sub DrawContextMenu(g As Gui)
+  overload: Prowl.Editor.NodeEditor.DrawContextMenu*
+- uid: Prowl.Editor.NodeEditor.AlignSelectedHorizontally
+  commentId: M:Prowl.Editor.NodeEditor.AlignSelectedHorizontally
+  id: AlignSelectedHorizontally
+  parent: Prowl.Editor.NodeEditor
+  langs:
+  - csharp
+  - vb
+  name: AlignSelectedHorizontally()
+  nameWithType: NodeEditor.AlignSelectedHorizontally()
+  fullName: Prowl.Editor.NodeEditor.AlignSelectedHorizontally()
+  type: Method
+  source:
+    remote:
+      path: Prowl.Editor/Editor/NodeEditor/NodeEditor.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: AlignSelectedHorizontally
+    path: ../Prowl/Prowl.Editor/Editor/NodeEditor/NodeEditor.cs
+    startLine: 1064
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor
+  syntax:
+    content: public void AlignSelectedHorizontally()
+    content.vb: Public Sub AlignSelectedHorizontally()
+  overload: Prowl.Editor.NodeEditor.AlignSelectedHorizontally*
+- uid: Prowl.Editor.NodeEditor.AlignSelectedVertically
+  commentId: M:Prowl.Editor.NodeEditor.AlignSelectedVertically
+  id: AlignSelectedVertically
+  parent: Prowl.Editor.NodeEditor
+  langs:
+  - csharp
+  - vb
+  name: AlignSelectedVertically()
+  nameWithType: NodeEditor.AlignSelectedVertically()
+  fullName: Prowl.Editor.NodeEditor.AlignSelectedVertically()
+  type: Method
+  source:
+    remote:
+      path: Prowl.Editor/Editor/NodeEditor/NodeEditor.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: AlignSelectedVertically
+    path: ../Prowl/Prowl.Editor/Editor/NodeEditor/NodeEditor.cs
+    startLine: 1072
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor
+  syntax:
+    content: public void AlignSelectedVertically()
+    content.vb: Public Sub AlignSelectedVertically()
+  overload: Prowl.Editor.NodeEditor.AlignSelectedVertically*
+- uid: Prowl.Editor.NodeEditor.Release
+  commentId: M:Prowl.Editor.NodeEditor.Release
+  id: Release
+  parent: Prowl.Editor.NodeEditor
+  langs:
+  - csharp
+  - vb
+  name: Release()
+  nameWithType: NodeEditor.Release()
+  fullName: Prowl.Editor.NodeEditor.Release()
+  type: Method
+  source:
+    remote:
+      path: Prowl.Editor/Editor/NodeEditor/NodeEditor.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Release
+    path: ../Prowl/Prowl.Editor/Editor/NodeEditor/NodeEditor.cs
+    startLine: 1080
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor
+  syntax:
+    content: public void Release()
+    content.vb: Public Sub Release()
+  overload: Prowl.Editor.NodeEditor.Release*
+references:
+- uid: Prowl.Editor
+  commentId: N:Prowl.Editor
+  href: Prowl.html
+  name: Prowl.Editor
+  nameWithType: Prowl.Editor
+  fullName: Prowl.Editor
+  spec.csharp:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Editor
+    name: Editor
+    href: Prowl.Editor.html
+  spec.vb:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Editor
+    name: Editor
+    href: Prowl.Editor.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Prowl.Runtime.RuntimeUtils.GetSerializableFields
+  commentId: M:Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  parent: Prowl.Runtime.RuntimeUtils
+  definition: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  name: GetSerializableFields(object)
+  nameWithType: RuntimeUtils.GetSerializableFields(object)
+  fullName: Prowl.Runtime.RuntimeUtils.GetSerializableFields(object)
+  nameWithType.vb: RuntimeUtils.GetSerializableFields(Object)
+  fullName.vb: Prowl.Runtime.RuntimeUtils.GetSerializableFields(Object)
+  name.vb: GetSerializableFields(Object)
+  spec.csharp:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  commentId: M:Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  isExternal: true
+  href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  name: GetSerializableFields(object)
+  nameWithType: RuntimeUtils.GetSerializableFields(object)
+  fullName: Prowl.Runtime.RuntimeUtils.GetSerializableFields(object)
+  nameWithType.vb: RuntimeUtils.GetSerializableFields(Object)
+  fullName.vb: Prowl.Runtime.RuntimeUtils.GetSerializableFields(Object)
+  name.vb: GetSerializableFields(Object)
+  spec.csharp:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: Prowl.Runtime.RuntimeUtils
+  commentId: T:Prowl.Runtime.RuntimeUtils
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.RuntimeUtils.html
+  name: RuntimeUtils
+  nameWithType: RuntimeUtils
+  fullName: Prowl.Runtime.RuntimeUtils
+- uid: Prowl.Runtime
+  commentId: N:Prowl.Runtime
+  href: Prowl.html
+  name: Prowl.Runtime
+  nameWithType: Prowl.Runtime
+  fullName: Prowl.Runtime
+  spec.csharp:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+  spec.vb:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+- uid: Prowl.Editor.NodeEditor.IsDragging*
+  commentId: Overload:Prowl.Editor.NodeEditor.IsDragging
+  href: Prowl.Editor.NodeEditor.html#Prowl_Editor_NodeEditor_IsDragging
+  name: IsDragging
+  nameWithType: NodeEditor.IsDragging
+  fullName: Prowl.Editor.NodeEditor.IsDragging
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: Prowl.Editor.NodeEditor.IsDraggingPort*
+  commentId: Overload:Prowl.Editor.NodeEditor.IsDraggingPort
+  href: Prowl.Editor.NodeEditor.html#Prowl_Editor_NodeEditor_IsDraggingPort
+  name: IsDraggingPort
+  nameWithType: NodeEditor.IsDraggingPort
+  fullName: Prowl.Editor.NodeEditor.IsDraggingPort
+- uid: Prowl.Editor.NodeEditor.#ctor*
+  commentId: Overload:Prowl.Editor.NodeEditor.#ctor
+  href: Prowl.Editor.NodeEditor.html#Prowl_Editor_NodeEditor__ctor_Prowl_Runtime_NodeSystem_NodeGraph_
+  name: NodeEditor
+  nameWithType: NodeEditor.NodeEditor
+  fullName: Prowl.Editor.NodeEditor.NodeEditor
+  nameWithType.vb: NodeEditor.New
+  fullName.vb: Prowl.Editor.NodeEditor.New
+  name.vb: New
+- uid: Prowl.Runtime.NodeSystem.NodeGraph
+  commentId: T:Prowl.Runtime.NodeSystem.NodeGraph
+  parent: Prowl.Runtime.NodeSystem
+  href: Prowl.Runtime.NodeSystem.NodeGraph.html
+  name: NodeGraph
+  nameWithType: NodeGraph
+  fullName: Prowl.Runtime.NodeSystem.NodeGraph
+- uid: Prowl.Runtime.NodeSystem
+  commentId: N:Prowl.Runtime.NodeSystem
+  href: Prowl.html
+  name: Prowl.Runtime.NodeSystem
+  nameWithType: Prowl.Runtime.NodeSystem
+  fullName: Prowl.Runtime.NodeSystem
+  spec.csharp:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+  - name: .
+  - uid: Prowl.Runtime.NodeSystem
+    name: NodeSystem
+    href: Prowl.Runtime.NodeSystem.html
+  spec.vb:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+  - name: .
+  - uid: Prowl.Runtime.NodeSystem
+    name: NodeSystem
+    href: Prowl.Runtime.NodeSystem.html
+- uid: Prowl.Editor.NodeEditor.Finalize*
+  commentId: Overload:Prowl.Editor.NodeEditor.Finalize
+  href: Prowl.Editor.NodeEditor.html#Prowl_Editor_NodeEditor_Finalize
+  name: ~NodeEditor
+  nameWithType: NodeEditor.~NodeEditor
+  fullName: Prowl.Editor.NodeEditor.~NodeEditor
+  spec.csharp:
+  - name: "~"
+  - uid: Prowl.Editor.NodeEditor.Finalize*
+    name: NodeEditor
+    href: Prowl.Editor.NodeEditor.html#Prowl_Editor_NodeEditor_Finalize
+- uid: Prowl.Editor.NodeEditor.OnAssemblyUnload*
+  commentId: Overload:Prowl.Editor.NodeEditor.OnAssemblyUnload
+  href: Prowl.Editor.NodeEditor.html#Prowl_Editor_NodeEditor_OnAssemblyUnload
+  name: OnAssemblyUnload
+  nameWithType: NodeEditor.OnAssemblyUnload
+  fullName: Prowl.Editor.NodeEditor.OnAssemblyUnload
+- uid: Prowl.Editor.NodeEditor.RefreshRenderTexture*
+  commentId: Overload:Prowl.Editor.NodeEditor.RefreshRenderTexture
+  href: Prowl.Editor.NodeEditor.html#Prowl_Editor_NodeEditor_RefreshRenderTexture_Prowl_Runtime_Vector2_
+  name: RefreshRenderTexture
+  nameWithType: NodeEditor.RefreshRenderTexture
+  fullName: Prowl.Editor.NodeEditor.RefreshRenderTexture
+- uid: Prowl.Runtime.Vector2
+  commentId: T:Prowl.Runtime.Vector2
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.Vector2.html
+  name: Vector2
+  nameWithType: Vector2
+  fullName: Prowl.Runtime.Vector2
+- uid: Prowl.Editor.NodeEditor.SetFocus*
+  commentId: Overload:Prowl.Editor.NodeEditor.SetFocus
+  href: Prowl.Editor.NodeEditor.html#Prowl_Editor_NodeEditor_SetFocus_System_Boolean_
+  name: SetFocus
+  nameWithType: NodeEditor.SetFocus
+  fullName: Prowl.Editor.NodeEditor.SetFocus
+- uid: Prowl.Editor.NodeEditor.Update*
+  commentId: Overload:Prowl.Editor.NodeEditor.Update
+  href: Prowl.Editor.NodeEditor.html#Prowl_Editor_NodeEditor_Update_Prowl_Runtime_GUI_Gui_System_Boolean_Prowl_Runtime_Vector2_System_UInt32_System_UInt32_System_Boolean__
+  name: Update
+  nameWithType: NodeEditor.Update
+  fullName: Prowl.Editor.NodeEditor.Update
+- uid: Prowl.Runtime.GUI.Gui
+  commentId: T:Prowl.Runtime.GUI.Gui
+  parent: Prowl.Runtime.GUI
+  href: Prowl.Runtime.GUI.Gui.html
+  name: Gui
+  nameWithType: Gui
+  fullName: Prowl.Runtime.GUI.Gui
+- uid: System.UInt32
+  commentId: T:System.UInt32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.uint32
+  name: uint
+  nameWithType: uint
+  fullName: uint
+  nameWithType.vb: UInteger
+  fullName.vb: UInteger
+  name.vb: UInteger
+- uid: Prowl.Runtime.Texture2D
+  commentId: T:Prowl.Runtime.Texture2D
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.Texture2D.html
+  name: Texture2D
+  nameWithType: Texture2D
+  fullName: Prowl.Runtime.Texture2D
+- uid: Prowl.Runtime.GUI
+  commentId: N:Prowl.Runtime.GUI
+  href: Prowl.html
+  name: Prowl.Runtime.GUI
+  nameWithType: Prowl.Runtime.GUI
+  fullName: Prowl.Runtime.GUI
+  spec.csharp:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+  - name: .
+  - uid: Prowl.Runtime.GUI
+    name: GUI
+    href: Prowl.Runtime.GUI.html
+  spec.vb:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+  - name: .
+  - uid: Prowl.Runtime.GUI
+    name: GUI
+    href: Prowl.Runtime.GUI.html
+- uid: Prowl.Editor.NodeEditor.GridToWindow*
+  commentId: Overload:Prowl.Editor.NodeEditor.GridToWindow
+  href: Prowl.Editor.NodeEditor.html#Prowl_Editor_NodeEditor_GridToWindow_Prowl_Runtime_Vector2_
+  name: GridToWindow
+  nameWithType: NodeEditor.GridToWindow
+  fullName: Prowl.Editor.NodeEditor.GridToWindow
+- uid: Prowl.Editor.NodeEditor.WindowToGrid*
+  commentId: Overload:Prowl.Editor.NodeEditor.WindowToGrid
+  href: Prowl.Editor.NodeEditor.html#Prowl_Editor_NodeEditor_WindowToGrid_Prowl_Runtime_Vector2_
+  name: WindowToGrid
+  nameWithType: NodeEditor.WindowToGrid
+  fullName: Prowl.Editor.NodeEditor.WindowToGrid
+- uid: Prowl.Editor.NodeEditor.DrawNoodle*
+  commentId: Overload:Prowl.Editor.NodeEditor.DrawNoodle
+  href: Prowl.Editor.NodeEditor.html#Prowl_Editor_NodeEditor_DrawNoodle_Prowl_Runtime_Color_Prowl_Editor_Preferences_EditorStylePrefs_NoodlePath_Prowl_Editor_Preferences_EditorStylePrefs_NoodleStroke_System_Double_System_Collections_Generic_List_Prowl_Runtime_Vector2__
+  name: DrawNoodle
+  nameWithType: NodeEditor.DrawNoodle
+  fullName: Prowl.Editor.NodeEditor.DrawNoodle
+- uid: Prowl.Runtime.Color
+  commentId: T:Prowl.Runtime.Color
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.Color.html
+  name: Color
+  nameWithType: Color
+  fullName: Prowl.Runtime.Color
+- uid: Prowl.Editor.Preferences.EditorStylePrefs.NoodlePath
+  commentId: T:Prowl.Editor.Preferences.EditorStylePrefs.NoodlePath
+  parent: Prowl.Editor.Preferences
+  href: Prowl.Editor.Preferences.EditorStylePrefs.html
+  name: EditorStylePrefs.NoodlePath
+  nameWithType: EditorStylePrefs.NoodlePath
+  fullName: Prowl.Editor.Preferences.EditorStylePrefs.NoodlePath
+  spec.csharp:
+  - uid: Prowl.Editor.Preferences.EditorStylePrefs
+    name: EditorStylePrefs
+    href: Prowl.Editor.Preferences.EditorStylePrefs.html
+  - name: .
+  - uid: Prowl.Editor.Preferences.EditorStylePrefs.NoodlePath
+    name: NoodlePath
+    href: Prowl.Editor.Preferences.EditorStylePrefs.NoodlePath.html
+  spec.vb:
+  - uid: Prowl.Editor.Preferences.EditorStylePrefs
+    name: EditorStylePrefs
+    href: Prowl.Editor.Preferences.EditorStylePrefs.html
+  - name: .
+  - uid: Prowl.Editor.Preferences.EditorStylePrefs.NoodlePath
+    name: NoodlePath
+    href: Prowl.Editor.Preferences.EditorStylePrefs.NoodlePath.html
+- uid: Prowl.Editor.Preferences.EditorStylePrefs.NoodleStroke
+  commentId: T:Prowl.Editor.Preferences.EditorStylePrefs.NoodleStroke
+  parent: Prowl.Editor.Preferences
+  href: Prowl.Editor.Preferences.EditorStylePrefs.html
+  name: EditorStylePrefs.NoodleStroke
+  nameWithType: EditorStylePrefs.NoodleStroke
+  fullName: Prowl.Editor.Preferences.EditorStylePrefs.NoodleStroke
+  spec.csharp:
+  - uid: Prowl.Editor.Preferences.EditorStylePrefs
+    name: EditorStylePrefs
+    href: Prowl.Editor.Preferences.EditorStylePrefs.html
+  - name: .
+  - uid: Prowl.Editor.Preferences.EditorStylePrefs.NoodleStroke
+    name: NoodleStroke
+    href: Prowl.Editor.Preferences.EditorStylePrefs.NoodleStroke.html
+  spec.vb:
+  - uid: Prowl.Editor.Preferences.EditorStylePrefs
+    name: EditorStylePrefs
+    href: Prowl.Editor.Preferences.EditorStylePrefs.html
+  - name: .
+  - uid: Prowl.Editor.Preferences.EditorStylePrefs.NoodleStroke
+    name: NoodleStroke
+    href: Prowl.Editor.Preferences.EditorStylePrefs.NoodleStroke.html
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.double
+  name: double
+  nameWithType: double
+  fullName: double
+  nameWithType.vb: Double
+  fullName.vb: Double
+  name.vb: Double
+- uid: System.Collections.Generic.List{Prowl.Runtime.Vector2}
+  commentId: T:System.Collections.Generic.List{Prowl.Runtime.Vector2}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<Vector2>
+  nameWithType: List<Vector2>
+  fullName: System.Collections.Generic.List<Prowl.Runtime.Vector2>
+  nameWithType.vb: List(Of Vector2)
+  fullName.vb: System.Collections.Generic.List(Of Prowl.Runtime.Vector2)
+  name.vb: List(Of Vector2)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - uid: Prowl.Runtime.Vector2
+    name: Vector2
+    href: Prowl.Runtime.Vector2.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Prowl.Runtime.Vector2
+    name: Vector2
+    href: Prowl.Runtime.Vector2.html
+  - name: )
+- uid: Prowl.Editor.Preferences
+  commentId: N:Prowl.Editor.Preferences
+  href: Prowl.html
+  name: Prowl.Editor.Preferences
+  nameWithType: Prowl.Editor.Preferences
+  fullName: Prowl.Editor.Preferences
+  spec.csharp:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Editor
+    name: Editor
+    href: Prowl.Editor.html
+  - name: .
+  - uid: Prowl.Editor.Preferences
+    name: Preferences
+    href: Prowl.Editor.Preferences.html
+  spec.vb:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Editor
+    name: Editor
+    href: Prowl.Editor.html
+  - name: .
+  - uid: Prowl.Editor.Preferences
+    name: Preferences
+    href: Prowl.Editor.Preferences.html
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: Prowl.Editor.NodeEditor.DrawBlackBoard*
+  commentId: Overload:Prowl.Editor.NodeEditor.DrawBlackBoard
+  href: Prowl.Editor.NodeEditor.html#Prowl_Editor_NodeEditor_DrawBlackBoard_Prowl_Runtime_GUI_Gui_
+  name: DrawBlackBoard
+  nameWithType: NodeEditor.DrawBlackBoard
+  fullName: Prowl.Editor.NodeEditor.DrawBlackBoard
+- uid: Prowl.Editor.NodeEditor.DrawContextMenu*
+  commentId: Overload:Prowl.Editor.NodeEditor.DrawContextMenu
+  href: Prowl.Editor.NodeEditor.html#Prowl_Editor_NodeEditor_DrawContextMenu_Prowl_Runtime_GUI_Gui_
+  name: DrawContextMenu
+  nameWithType: NodeEditor.DrawContextMenu
+  fullName: Prowl.Editor.NodeEditor.DrawContextMenu
+- uid: Prowl.Editor.NodeEditor.AlignSelectedHorizontally*
+  commentId: Overload:Prowl.Editor.NodeEditor.AlignSelectedHorizontally
+  href: Prowl.Editor.NodeEditor.html#Prowl_Editor_NodeEditor_AlignSelectedHorizontally
+  name: AlignSelectedHorizontally
+  nameWithType: NodeEditor.AlignSelectedHorizontally
+  fullName: Prowl.Editor.NodeEditor.AlignSelectedHorizontally
+- uid: Prowl.Editor.NodeEditor.AlignSelectedVertically*
+  commentId: Overload:Prowl.Editor.NodeEditor.AlignSelectedVertically
+  href: Prowl.Editor.NodeEditor.html#Prowl_Editor_NodeEditor_AlignSelectedVertically
+  name: AlignSelectedVertically
+  nameWithType: NodeEditor.AlignSelectedVertically
+  fullName: Prowl.Editor.NodeEditor.AlignSelectedVertically
+- uid: Prowl.Editor.NodeEditor.Release*
+  commentId: Overload:Prowl.Editor.NodeEditor.Release
+  href: Prowl.Editor.NodeEditor.html#Prowl_Editor_NodeEditor_Release
+  name: Release
+  nameWithType: NodeEditor.Release
+  fullName: Prowl.Editor.NodeEditor.Release

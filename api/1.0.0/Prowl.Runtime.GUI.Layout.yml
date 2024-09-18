@@ -1,0 +1,86 @@
+### YamlMime:ManagedReference
+items:
+- uid: Prowl.Runtime.GUI.Layout
+  commentId: N:Prowl.Runtime.GUI.Layout
+  id: Prowl.Runtime.GUI.Layout
+  children:
+  - Prowl.Runtime.GUI.Layout.LayoutNode
+  - Prowl.Runtime.GUI.Layout.LayoutNode.PostLayoutData
+  langs:
+  - csharp
+  - vb
+  name: Prowl.Runtime.GUI.Layout
+  nameWithType: Prowl.Runtime.GUI.Layout
+  fullName: Prowl.Runtime.GUI.Layout
+  type: Namespace
+  assemblies:
+  - Prowl.Runtime
+references:
+- uid: Prowl.Runtime.GUI.Layout.LayoutNode
+  commentId: T:Prowl.Runtime.GUI.Layout.LayoutNode
+  parent: Prowl.Runtime.GUI.Layout
+  href: Prowl.Runtime.GUI.Layout.LayoutNode.html
+  name: LayoutNode
+  nameWithType: LayoutNode
+  fullName: Prowl.Runtime.GUI.Layout.LayoutNode
+- uid: Prowl.Runtime.GUI.Layout.LayoutNode.PostLayoutData
+  commentId: T:Prowl.Runtime.GUI.Layout.LayoutNode.PostLayoutData
+  parent: Prowl.Runtime.GUI.Layout
+  href: Prowl.Runtime.GUI.Layout.LayoutNode.html
+  name: LayoutNode.PostLayoutData
+  nameWithType: LayoutNode.PostLayoutData
+  fullName: Prowl.Runtime.GUI.Layout.LayoutNode.PostLayoutData
+  spec.csharp:
+  - uid: Prowl.Runtime.GUI.Layout.LayoutNode
+    name: LayoutNode
+    href: Prowl.Runtime.GUI.Layout.LayoutNode.html
+  - name: .
+  - uid: Prowl.Runtime.GUI.Layout.LayoutNode.PostLayoutData
+    name: PostLayoutData
+    href: Prowl.Runtime.GUI.Layout.LayoutNode.PostLayoutData.html
+  spec.vb:
+  - uid: Prowl.Runtime.GUI.Layout.LayoutNode
+    name: LayoutNode
+    href: Prowl.Runtime.GUI.Layout.LayoutNode.html
+  - name: .
+  - uid: Prowl.Runtime.GUI.Layout.LayoutNode.PostLayoutData
+    name: PostLayoutData
+    href: Prowl.Runtime.GUI.Layout.LayoutNode.PostLayoutData.html
+- uid: Prowl.Runtime.GUI.Layout
+  commentId: N:Prowl.Runtime.GUI.Layout
+  href: Prowl.html
+  name: Prowl.Runtime.GUI.Layout
+  nameWithType: Prowl.Runtime.GUI.Layout
+  fullName: Prowl.Runtime.GUI.Layout
+  spec.csharp:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+  - name: .
+  - uid: Prowl.Runtime.GUI
+    name: GUI
+    href: Prowl.Runtime.GUI.html
+  - name: .
+  - uid: Prowl.Runtime.GUI.Layout
+    name: Layout
+    href: Prowl.Runtime.GUI.Layout.html
+  spec.vb:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+  - name: .
+  - uid: Prowl.Runtime.GUI
+    name: GUI
+    href: Prowl.Runtime.GUI.html
+  - name: .
+  - uid: Prowl.Runtime.GUI.Layout
+    name: Layout
+    href: Prowl.Runtime.GUI.Layout.html

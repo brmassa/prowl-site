@@ -1,0 +1,69 @@
+### YamlMime:ManagedReference
+items:
+- uid: Prowl.Editor.Assets.Importers
+  commentId: N:Prowl.Editor.Assets.Importers
+  id: Prowl.Editor.Assets.Importers
+  children:
+  - Prowl.Editor.Assets.Importers.AudioClipEditor
+  - Prowl.Editor.Assets.Importers.AudioClipImporter
+  langs:
+  - csharp
+  - vb
+  name: Prowl.Editor.Assets.Importers
+  nameWithType: Prowl.Editor.Assets.Importers
+  fullName: Prowl.Editor.Assets.Importers
+  type: Namespace
+  assemblies:
+  - Prowl.Editor
+references:
+- uid: Prowl.Editor.Assets.Importers.AudioClipImporter
+  commentId: T:Prowl.Editor.Assets.Importers.AudioClipImporter
+  parent: Prowl.Editor.Assets.Importers
+  href: Prowl.Editor.Assets.Importers.AudioClipImporter.html
+  name: AudioClipImporter
+  nameWithType: AudioClipImporter
+  fullName: Prowl.Editor.Assets.Importers.AudioClipImporter
+- uid: Prowl.Editor.Assets.Importers.AudioClipEditor
+  commentId: T:Prowl.Editor.Assets.Importers.AudioClipEditor
+  href: Prowl.Editor.Assets.Importers.AudioClipEditor.html
+  name: AudioClipEditor
+  nameWithType: AudioClipEditor
+  fullName: Prowl.Editor.Assets.Importers.AudioClipEditor
+- uid: Prowl.Editor.Assets.Importers
+  commentId: N:Prowl.Editor.Assets.Importers
+  href: Prowl.html
+  name: Prowl.Editor.Assets.Importers
+  nameWithType: Prowl.Editor.Assets.Importers
+  fullName: Prowl.Editor.Assets.Importers
+  spec.csharp:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Editor
+    name: Editor
+    href: Prowl.Editor.html
+  - name: .
+  - uid: Prowl.Editor.Assets
+    name: Assets
+    href: Prowl.Editor.Assets.html
+  - name: .
+  - uid: Prowl.Editor.Assets.Importers
+    name: Importers
+    href: Prowl.Editor.Assets.Importers.html
+  spec.vb:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Editor
+    name: Editor
+    href: Prowl.Editor.html
+  - name: .
+  - uid: Prowl.Editor.Assets
+    name: Assets
+    href: Prowl.Editor.Assets.html
+  - name: .
+  - uid: Prowl.Editor.Assets.Importers
+    name: Importers
+    href: Prowl.Editor.Assets.Importers.html

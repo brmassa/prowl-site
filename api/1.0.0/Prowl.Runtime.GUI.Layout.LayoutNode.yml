@@ -1,0 +1,2687 @@
+### YamlMime:ManagedReference
+items:
+- uid: Prowl.Runtime.GUI.Layout.LayoutNode
+  commentId: T:Prowl.Runtime.GUI.Layout.LayoutNode
+  id: LayoutNode
+  parent: Prowl.Runtime.GUI.Layout
+  children:
+  - Prowl.Runtime.GUI.Layout.LayoutNode.#ctor(Prowl.Runtime.GUI.Layout.LayoutNode,Prowl.Runtime.GUI.Gui,System.UInt64)
+  - Prowl.Runtime.GUI.Layout.LayoutNode.AppendNode(System.String)
+  - Prowl.Runtime.GUI.Layout.LayoutNode.ApplyFitContent
+  - Prowl.Runtime.GUI.Layout.LayoutNode.CenterContent
+  - Prowl.Runtime.GUI.Layout.LayoutNode.Clip(System.Boolean)
+  - Prowl.Runtime.GUI.Layout.LayoutNode.Enter
+  - Prowl.Runtime.GUI.Layout.LayoutNode.Expand(System.Double,System.Double)
+  - Prowl.Runtime.GUI.Layout.LayoutNode.ExpandHeight(System.Double)
+  - Prowl.Runtime.GUI.Layout.LayoutNode.ExpandWidth(System.Double)
+  - Prowl.Runtime.GUI.Layout.LayoutNode.FitContent
+  - Prowl.Runtime.GUI.Layout.LayoutNode.FitContentHeight(System.Double)
+  - Prowl.Runtime.GUI.Layout.LayoutNode.FitContentWidth(System.Double)
+  - Prowl.Runtime.GUI.Layout.LayoutNode.GetHashCode64
+  - Prowl.Runtime.GUI.Layout.LayoutNode.GetNextAnimation
+  - Prowl.Runtime.GUI.Layout.LayoutNode.Gui
+  - Prowl.Runtime.GUI.Layout.LayoutNode.HScroll
+  - Prowl.Runtime.GUI.Layout.LayoutNode.HasLayoutData
+  - Prowl.Runtime.GUI.Layout.LayoutNode.Height(Prowl.Runtime.GUI.Size)
+  - Prowl.Runtime.GUI.Layout.LayoutNode.ID
+  - Prowl.Runtime.GUI.Layout.LayoutNode.IgnoreLayout
+  - Prowl.Runtime.GUI.Layout.LayoutNode.Layout(Prowl.Runtime.GUI.LayoutType,System.Boolean,System.Boolean)
+  - Prowl.Runtime.GUI.Layout.LayoutNode.LayoutData
+  - Prowl.Runtime.GUI.Layout.LayoutNode.Left(Prowl.Runtime.GUI.Offset)
+  - Prowl.Runtime.GUI.Layout.LayoutNode.Margin(Prowl.Runtime.GUI.Offset)
+  - Prowl.Runtime.GUI.Layout.LayoutNode.Margin(Prowl.Runtime.GUI.Offset,Prowl.Runtime.GUI.Offset)
+  - Prowl.Runtime.GUI.Layout.LayoutNode.Margin(Prowl.Runtime.GUI.Offset,Prowl.Runtime.GUI.Offset,Prowl.Runtime.GUI.Offset,Prowl.Runtime.GUI.Offset)
+  - Prowl.Runtime.GUI.Layout.LayoutNode.MarginBottom(Prowl.Runtime.GUI.Offset)
+  - Prowl.Runtime.GUI.Layout.LayoutNode.MarginLeft(Prowl.Runtime.GUI.Offset)
+  - Prowl.Runtime.GUI.Layout.LayoutNode.MarginRight(Prowl.Runtime.GUI.Offset)
+  - Prowl.Runtime.GUI.Layout.LayoutNode.MarginTop(Prowl.Runtime.GUI.Offset)
+  - Prowl.Runtime.GUI.Layout.LayoutNode.MaxHeight(Prowl.Runtime.GUI.Size)
+  - Prowl.Runtime.GUI.Layout.LayoutNode.MaxWidth(Prowl.Runtime.GUI.Size)
+  - Prowl.Runtime.GUI.Layout.LayoutNode.Padding(Prowl.Runtime.GUI.Offset)
+  - Prowl.Runtime.GUI.Layout.LayoutNode.Padding(Prowl.Runtime.GUI.Offset,Prowl.Runtime.GUI.Offset)
+  - Prowl.Runtime.GUI.Layout.LayoutNode.Padding(Prowl.Runtime.GUI.Offset,Prowl.Runtime.GUI.Offset,Prowl.Runtime.GUI.Offset,Prowl.Runtime.GUI.Offset)
+  - Prowl.Runtime.GUI.Layout.LayoutNode.PaddingBottom(Prowl.Runtime.GUI.Offset)
+  - Prowl.Runtime.GUI.Layout.LayoutNode.PaddingLeft(Prowl.Runtime.GUI.Offset)
+  - Prowl.Runtime.GUI.Layout.LayoutNode.PaddingRight(Prowl.Runtime.GUI.Offset)
+  - Prowl.Runtime.GUI.Layout.LayoutNode.PaddingTop(Prowl.Runtime.GUI.Offset)
+  - Prowl.Runtime.GUI.Layout.LayoutNode.Parent
+  - Prowl.Runtime.GUI.Layout.LayoutNode.PositionRelativeTo(Prowl.Runtime.GUI.Layout.LayoutNode)
+  - Prowl.Runtime.GUI.Layout.LayoutNode.ProcessLayout
+  - Prowl.Runtime.GUI.Layout.LayoutNode.Scale(Prowl.Runtime.GUI.Size)
+  - Prowl.Runtime.GUI.Layout.LayoutNode.Scale(Prowl.Runtime.GUI.Size,Prowl.Runtime.GUI.Size)
+  - Prowl.Runtime.GUI.Layout.LayoutNode.ScaleChildren
+  - Prowl.Runtime.GUI.Layout.LayoutNode.Scroll(System.Boolean,System.Boolean)
+  - Prowl.Runtime.GUI.Layout.LayoutNode.SetNewParent(Prowl.Runtime.GUI.Layout.LayoutNode)
+  - Prowl.Runtime.GUI.Layout.LayoutNode.SizeRelativeTo(Prowl.Runtime.GUI.Layout.LayoutNode)
+  - Prowl.Runtime.GUI.Layout.LayoutNode.Spacing(Prowl.Runtime.GUI.Size)
+  - Prowl.Runtime.GUI.Layout.LayoutNode.Top(Prowl.Runtime.GUI.Offset)
+  - Prowl.Runtime.GUI.Layout.LayoutNode.TopLeft(Prowl.Runtime.GUI.Offset)
+  - Prowl.Runtime.GUI.Layout.LayoutNode.TopLeft(Prowl.Runtime.GUI.Offset,Prowl.Runtime.GUI.Offset)
+  - Prowl.Runtime.GUI.Layout.LayoutNode.UpdateCache
+  - Prowl.Runtime.GUI.Layout.LayoutNode.UpdatePositionCache
+  - Prowl.Runtime.GUI.Layout.LayoutNode.UpdateScaleCache
+  - Prowl.Runtime.GUI.Layout.LayoutNode.VScroll
+  - Prowl.Runtime.GUI.Layout.LayoutNode.Width(Prowl.Runtime.GUI.Size)
+  langs:
+  - csharp
+  - vb
+  name: LayoutNode
+  nameWithType: LayoutNode
+  fullName: Prowl.Runtime.GUI.Layout.LayoutNode
+  type: Class
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Layout/LayoutNode.Core.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: LayoutNode
+    path: ../Prowl/Prowl.Runtime/GUI/Layout/LayoutNode.Core.cs
+    startLine: 9
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI.Layout
+  syntax:
+    content: public class LayoutNode
+    content.vb: Public Class LayoutNode
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  extensionMethods:
+  - System.Object.Prowl.Runtime.RuntimeUtils.GetSerializableFields
+- uid: Prowl.Runtime.GUI.Layout.LayoutNode.Layout(Prowl.Runtime.GUI.LayoutType,System.Boolean,System.Boolean)
+  commentId: M:Prowl.Runtime.GUI.Layout.LayoutNode.Layout(Prowl.Runtime.GUI.LayoutType,System.Boolean,System.Boolean)
+  id: Layout(Prowl.Runtime.GUI.LayoutType,System.Boolean,System.Boolean)
+  parent: Prowl.Runtime.GUI.Layout.LayoutNode
+  langs:
+  - csharp
+  - vb
+  name: Layout(LayoutType, bool, bool)
+  nameWithType: LayoutNode.Layout(LayoutType, bool, bool)
+  fullName: Prowl.Runtime.GUI.Layout.LayoutNode.Layout(Prowl.Runtime.GUI.LayoutType, bool, bool)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Layout/LayoutNode.API.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Layout
+    path: ../Prowl/Prowl.Runtime/GUI/Layout/LayoutNode.API.cs
+    startLine: 7
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI.Layout
+  syntax:
+    content: public LayoutNode Layout(LayoutType layout, bool controlX = true, bool controlY = true)
+    parameters:
+    - id: layout
+      type: Prowl.Runtime.GUI.LayoutType
+    - id: controlX
+      type: System.Boolean
+    - id: controlY
+      type: System.Boolean
+    return:
+      type: Prowl.Runtime.GUI.Layout.LayoutNode
+    content.vb: Public Function Layout(layout As LayoutType, controlX As Boolean = True, controlY As Boolean = True) As LayoutNode
+  overload: Prowl.Runtime.GUI.Layout.LayoutNode.Layout*
+  nameWithType.vb: LayoutNode.Layout(LayoutType, Boolean, Boolean)
+  fullName.vb: Prowl.Runtime.GUI.Layout.LayoutNode.Layout(Prowl.Runtime.GUI.LayoutType, Boolean, Boolean)
+  name.vb: Layout(LayoutType, Boolean, Boolean)
+- uid: Prowl.Runtime.GUI.Layout.LayoutNode.Spacing(Prowl.Runtime.GUI.Size)
+  commentId: M:Prowl.Runtime.GUI.Layout.LayoutNode.Spacing(Prowl.Runtime.GUI.Size)
+  id: Spacing(Prowl.Runtime.GUI.Size)
+  parent: Prowl.Runtime.GUI.Layout.LayoutNode
+  langs:
+  - csharp
+  - vb
+  name: Spacing(Size)
+  nameWithType: LayoutNode.Spacing(Size)
+  fullName: Prowl.Runtime.GUI.Layout.LayoutNode.Spacing(Prowl.Runtime.GUI.Size)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Layout/LayoutNode.API.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Spacing
+    path: ../Prowl/Prowl.Runtime/GUI/Layout/LayoutNode.API.cs
+    startLine: 15
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI.Layout
+  syntax:
+    content: public LayoutNode Spacing(Size spacing)
+    parameters:
+    - id: spacing
+      type: Prowl.Runtime.GUI.Size
+    return:
+      type: Prowl.Runtime.GUI.Layout.LayoutNode
+    content.vb: Public Function Spacing(spacing As Size) As LayoutNode
+  overload: Prowl.Runtime.GUI.Layout.LayoutNode.Spacing*
+- uid: Prowl.Runtime.GUI.Layout.LayoutNode.FitContent
+  commentId: M:Prowl.Runtime.GUI.Layout.LayoutNode.FitContent
+  id: FitContent
+  parent: Prowl.Runtime.GUI.Layout.LayoutNode
+  langs:
+  - csharp
+  - vb
+  name: FitContent()
+  nameWithType: LayoutNode.FitContent()
+  fullName: Prowl.Runtime.GUI.Layout.LayoutNode.FitContent()
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Layout/LayoutNode.API.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: FitContent
+    path: ../Prowl/Prowl.Runtime/GUI/Layout/LayoutNode.API.cs
+    startLine: 22
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI.Layout
+  syntax:
+    content: public LayoutNode FitContent()
+    return:
+      type: Prowl.Runtime.GUI.Layout.LayoutNode
+    content.vb: Public Function FitContent() As LayoutNode
+  overload: Prowl.Runtime.GUI.Layout.LayoutNode.FitContent*
+- uid: Prowl.Runtime.GUI.Layout.LayoutNode.FitContentWidth(System.Double)
+  commentId: M:Prowl.Runtime.GUI.Layout.LayoutNode.FitContentWidth(System.Double)
+  id: FitContentWidth(System.Double)
+  parent: Prowl.Runtime.GUI.Layout.LayoutNode
+  langs:
+  - csharp
+  - vb
+  name: FitContentWidth(double)
+  nameWithType: LayoutNode.FitContentWidth(double)
+  fullName: Prowl.Runtime.GUI.Layout.LayoutNode.FitContentWidth(double)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Layout/LayoutNode.API.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: FitContentWidth
+    path: ../Prowl/Prowl.Runtime/GUI/Layout/LayoutNode.API.cs
+    startLine: 24
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI.Layout
+  syntax:
+    content: public LayoutNode FitContentWidth(double percentage = 1)
+    parameters:
+    - id: percentage
+      type: System.Double
+    return:
+      type: Prowl.Runtime.GUI.Layout.LayoutNode
+    content.vb: Public Function FitContentWidth(percentage As Double = 1) As LayoutNode
+  overload: Prowl.Runtime.GUI.Layout.LayoutNode.FitContentWidth*
+  nameWithType.vb: LayoutNode.FitContentWidth(Double)
+  fullName.vb: Prowl.Runtime.GUI.Layout.LayoutNode.FitContentWidth(Double)
+  name.vb: FitContentWidth(Double)
+- uid: Prowl.Runtime.GUI.Layout.LayoutNode.FitContentHeight(System.Double)
+  commentId: M:Prowl.Runtime.GUI.Layout.LayoutNode.FitContentHeight(System.Double)
+  id: FitContentHeight(System.Double)
+  parent: Prowl.Runtime.GUI.Layout.LayoutNode
+  langs:
+  - csharp
+  - vb
+  name: FitContentHeight(double)
+  nameWithType: LayoutNode.FitContentHeight(double)
+  fullName: Prowl.Runtime.GUI.Layout.LayoutNode.FitContentHeight(double)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Layout/LayoutNode.API.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: FitContentHeight
+    path: ../Prowl/Prowl.Runtime/GUI/Layout/LayoutNode.API.cs
+    startLine: 31
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI.Layout
+  syntax:
+    content: public LayoutNode FitContentHeight(double percentage = 1)
+    parameters:
+    - id: percentage
+      type: System.Double
+    return:
+      type: Prowl.Runtime.GUI.Layout.LayoutNode
+    content.vb: Public Function FitContentHeight(percentage As Double = 1) As LayoutNode
+  overload: Prowl.Runtime.GUI.Layout.LayoutNode.FitContentHeight*
+  nameWithType.vb: LayoutNode.FitContentHeight(Double)
+  fullName.vb: Prowl.Runtime.GUI.Layout.LayoutNode.FitContentHeight(Double)
+  name.vb: FitContentHeight(Double)
+- uid: Prowl.Runtime.GUI.Layout.LayoutNode.CenterContent
+  commentId: M:Prowl.Runtime.GUI.Layout.LayoutNode.CenterContent
+  id: CenterContent
+  parent: Prowl.Runtime.GUI.Layout.LayoutNode
+  langs:
+  - csharp
+  - vb
+  name: CenterContent()
+  nameWithType: LayoutNode.CenterContent()
+  fullName: Prowl.Runtime.GUI.Layout.LayoutNode.CenterContent()
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Layout/LayoutNode.API.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: CenterContent
+    path: ../Prowl/Prowl.Runtime/GUI/Layout/LayoutNode.API.cs
+    startLine: 38
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI.Layout
+  syntax:
+    content: public LayoutNode CenterContent()
+    return:
+      type: Prowl.Runtime.GUI.Layout.LayoutNode
+    content.vb: Public Function CenterContent() As LayoutNode
+  overload: Prowl.Runtime.GUI.Layout.LayoutNode.CenterContent*
+- uid: Prowl.Runtime.GUI.Layout.LayoutNode.ScaleChildren
+  commentId: M:Prowl.Runtime.GUI.Layout.LayoutNode.ScaleChildren
+  id: ScaleChildren
+  parent: Prowl.Runtime.GUI.Layout.LayoutNode
+  langs:
+  - csharp
+  - vb
+  name: ScaleChildren()
+  nameWithType: LayoutNode.ScaleChildren()
+  fullName: Prowl.Runtime.GUI.Layout.LayoutNode.ScaleChildren()
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Layout/LayoutNode.API.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: ScaleChildren
+    path: ../Prowl/Prowl.Runtime/GUI/Layout/LayoutNode.API.cs
+    startLine: 44
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI.Layout
+  syntax:
+    content: public LayoutNode ScaleChildren()
+    return:
+      type: Prowl.Runtime.GUI.Layout.LayoutNode
+    content.vb: Public Function ScaleChildren() As LayoutNode
+  overload: Prowl.Runtime.GUI.Layout.LayoutNode.ScaleChildren*
+- uid: Prowl.Runtime.GUI.Layout.LayoutNode.Expand(System.Double,System.Double)
+  commentId: M:Prowl.Runtime.GUI.Layout.LayoutNode.Expand(System.Double,System.Double)
+  id: Expand(System.Double,System.Double)
+  parent: Prowl.Runtime.GUI.Layout.LayoutNode
+  langs:
+  - csharp
+  - vb
+  name: Expand(double, double)
+  nameWithType: LayoutNode.Expand(double, double)
+  fullName: Prowl.Runtime.GUI.Layout.LayoutNode.Expand(double, double)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Layout/LayoutNode.API.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Expand
+    path: ../Prowl/Prowl.Runtime/GUI/Layout/LayoutNode.API.cs
+    startLine: 50
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI.Layout
+  syntax:
+    content: public LayoutNode Expand(double xOffset = 0, double yOffset = 0)
+    parameters:
+    - id: xOffset
+      type: System.Double
+    - id: yOffset
+      type: System.Double
+    return:
+      type: Prowl.Runtime.GUI.Layout.LayoutNode
+    content.vb: Public Function Expand(xOffset As Double = 0, yOffset As Double = 0) As LayoutNode
+  overload: Prowl.Runtime.GUI.Layout.LayoutNode.Expand*
+  nameWithType.vb: LayoutNode.Expand(Double, Double)
+  fullName.vb: Prowl.Runtime.GUI.Layout.LayoutNode.Expand(Double, Double)
+  name.vb: Expand(Double, Double)
+- uid: Prowl.Runtime.GUI.Layout.LayoutNode.ExpandWidth(System.Double)
+  commentId: M:Prowl.Runtime.GUI.Layout.LayoutNode.ExpandWidth(System.Double)
+  id: ExpandWidth(System.Double)
+  parent: Prowl.Runtime.GUI.Layout.LayoutNode
+  langs:
+  - csharp
+  - vb
+  name: ExpandWidth(double)
+  nameWithType: LayoutNode.ExpandWidth(double)
+  fullName: Prowl.Runtime.GUI.Layout.LayoutNode.ExpandWidth(double)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Layout/LayoutNode.API.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: ExpandWidth
+    path: ../Prowl/Prowl.Runtime/GUI/Layout/LayoutNode.API.cs
+    startLine: 51
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI.Layout
+  syntax:
+    content: public LayoutNode ExpandWidth(double pixelOffset = 0)
+    parameters:
+    - id: pixelOffset
+      type: System.Double
+    return:
+      type: Prowl.Runtime.GUI.Layout.LayoutNode
+    content.vb: Public Function ExpandWidth(pixelOffset As Double = 0) As LayoutNode
+  overload: Prowl.Runtime.GUI.Layout.LayoutNode.ExpandWidth*
+  nameWithType.vb: LayoutNode.ExpandWidth(Double)
+  fullName.vb: Prowl.Runtime.GUI.Layout.LayoutNode.ExpandWidth(Double)
+  name.vb: ExpandWidth(Double)
+- uid: Prowl.Runtime.GUI.Layout.LayoutNode.ExpandHeight(System.Double)
+  commentId: M:Prowl.Runtime.GUI.Layout.LayoutNode.ExpandHeight(System.Double)
+  id: ExpandHeight(System.Double)
+  parent: Prowl.Runtime.GUI.Layout.LayoutNode
+  langs:
+  - csharp
+  - vb
+  name: ExpandHeight(double)
+  nameWithType: LayoutNode.ExpandHeight(double)
+  fullName: Prowl.Runtime.GUI.Layout.LayoutNode.ExpandHeight(double)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Layout/LayoutNode.API.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: ExpandHeight
+    path: ../Prowl/Prowl.Runtime/GUI/Layout/LayoutNode.API.cs
+    startLine: 52
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI.Layout
+  syntax:
+    content: public LayoutNode ExpandHeight(double pixelOffset = 0)
+    parameters:
+    - id: pixelOffset
+      type: System.Double
+    return:
+      type: Prowl.Runtime.GUI.Layout.LayoutNode
+    content.vb: Public Function ExpandHeight(pixelOffset As Double = 0) As LayoutNode
+  overload: Prowl.Runtime.GUI.Layout.LayoutNode.ExpandHeight*
+  nameWithType.vb: LayoutNode.ExpandHeight(Double)
+  fullName.vb: Prowl.Runtime.GUI.Layout.LayoutNode.ExpandHeight(Double)
+  name.vb: ExpandHeight(Double)
+- uid: Prowl.Runtime.GUI.Layout.LayoutNode.Scale(Prowl.Runtime.GUI.Size)
+  commentId: M:Prowl.Runtime.GUI.Layout.LayoutNode.Scale(Prowl.Runtime.GUI.Size)
+  id: Scale(Prowl.Runtime.GUI.Size)
+  parent: Prowl.Runtime.GUI.Layout.LayoutNode
+  langs:
+  - csharp
+  - vb
+  name: Scale(Size)
+  nameWithType: LayoutNode.Scale(Size)
+  fullName: Prowl.Runtime.GUI.Layout.LayoutNode.Scale(Prowl.Runtime.GUI.Size)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Layout/LayoutNode.API.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Scale
+    path: ../Prowl/Prowl.Runtime/GUI/Layout/LayoutNode.API.cs
+    startLine: 54
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI.Layout
+  syntax:
+    content: public LayoutNode Scale(Size size)
+    parameters:
+    - id: size
+      type: Prowl.Runtime.GUI.Size
+    return:
+      type: Prowl.Runtime.GUI.Layout.LayoutNode
+    content.vb: Public Function Scale(size As Size) As LayoutNode
+  overload: Prowl.Runtime.GUI.Layout.LayoutNode.Scale*
+- uid: Prowl.Runtime.GUI.Layout.LayoutNode.Scale(Prowl.Runtime.GUI.Size,Prowl.Runtime.GUI.Size)
+  commentId: M:Prowl.Runtime.GUI.Layout.LayoutNode.Scale(Prowl.Runtime.GUI.Size,Prowl.Runtime.GUI.Size)
+  id: Scale(Prowl.Runtime.GUI.Size,Prowl.Runtime.GUI.Size)
+  parent: Prowl.Runtime.GUI.Layout.LayoutNode
+  langs:
+  - csharp
+  - vb
+  name: Scale(Size, Size)
+  nameWithType: LayoutNode.Scale(Size, Size)
+  fullName: Prowl.Runtime.GUI.Layout.LayoutNode.Scale(Prowl.Runtime.GUI.Size, Prowl.Runtime.GUI.Size)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Layout/LayoutNode.API.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Scale
+    path: ../Prowl/Prowl.Runtime/GUI/Layout/LayoutNode.API.cs
+    startLine: 55
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI.Layout
+  syntax:
+    content: public LayoutNode Scale(Size width, Size height)
+    parameters:
+    - id: width
+      type: Prowl.Runtime.GUI.Size
+    - id: height
+      type: Prowl.Runtime.GUI.Size
+    return:
+      type: Prowl.Runtime.GUI.Layout.LayoutNode
+    content.vb: Public Function Scale(width As Size, height As Size) As LayoutNode
+  overload: Prowl.Runtime.GUI.Layout.LayoutNode.Scale*
+- uid: Prowl.Runtime.GUI.Layout.LayoutNode.Width(Prowl.Runtime.GUI.Size)
+  commentId: M:Prowl.Runtime.GUI.Layout.LayoutNode.Width(Prowl.Runtime.GUI.Size)
+  id: Width(Prowl.Runtime.GUI.Size)
+  parent: Prowl.Runtime.GUI.Layout.LayoutNode
+  langs:
+  - csharp
+  - vb
+  name: Width(Size)
+  nameWithType: LayoutNode.Width(Size)
+  fullName: Prowl.Runtime.GUI.Layout.LayoutNode.Width(Prowl.Runtime.GUI.Size)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Layout/LayoutNode.API.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Width
+    path: ../Prowl/Prowl.Runtime/GUI/Layout/LayoutNode.API.cs
+    startLine: 57
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI.Layout
+  syntax:
+    content: public LayoutNode Width(Size width)
+    parameters:
+    - id: width
+      type: Prowl.Runtime.GUI.Size
+    return:
+      type: Prowl.Runtime.GUI.Layout.LayoutNode
+    content.vb: Public Function Width(width As Size) As LayoutNode
+  overload: Prowl.Runtime.GUI.Layout.LayoutNode.Width*
+- uid: Prowl.Runtime.GUI.Layout.LayoutNode.Height(Prowl.Runtime.GUI.Size)
+  commentId: M:Prowl.Runtime.GUI.Layout.LayoutNode.Height(Prowl.Runtime.GUI.Size)
+  id: Height(Prowl.Runtime.GUI.Size)
+  parent: Prowl.Runtime.GUI.Layout.LayoutNode
+  langs:
+  - csharp
+  - vb
+  name: Height(Size)
+  nameWithType: LayoutNode.Height(Size)
+  fullName: Prowl.Runtime.GUI.Layout.LayoutNode.Height(Prowl.Runtime.GUI.Size)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Layout/LayoutNode.API.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Height
+    path: ../Prowl/Prowl.Runtime/GUI/Layout/LayoutNode.API.cs
+    startLine: 63
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI.Layout
+  syntax:
+    content: public LayoutNode Height(Size height)
+    parameters:
+    - id: height
+      type: Prowl.Runtime.GUI.Size
+    return:
+      type: Prowl.Runtime.GUI.Layout.LayoutNode
+    content.vb: Public Function Height(height As Size) As LayoutNode
+  overload: Prowl.Runtime.GUI.Layout.LayoutNode.Height*
+- uid: Prowl.Runtime.GUI.Layout.LayoutNode.MaxWidth(Prowl.Runtime.GUI.Size)
+  commentId: M:Prowl.Runtime.GUI.Layout.LayoutNode.MaxWidth(Prowl.Runtime.GUI.Size)
+  id: MaxWidth(Prowl.Runtime.GUI.Size)
+  parent: Prowl.Runtime.GUI.Layout.LayoutNode
+  langs:
+  - csharp
+  - vb
+  name: MaxWidth(Size)
+  nameWithType: LayoutNode.MaxWidth(Size)
+  fullName: Prowl.Runtime.GUI.Layout.LayoutNode.MaxWidth(Prowl.Runtime.GUI.Size)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Layout/LayoutNode.API.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: MaxWidth
+    path: ../Prowl/Prowl.Runtime/GUI/Layout/LayoutNode.API.cs
+    startLine: 69
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI.Layout
+  syntax:
+    content: public LayoutNode MaxWidth(Size maxwidth)
+    parameters:
+    - id: maxwidth
+      type: Prowl.Runtime.GUI.Size
+    return:
+      type: Prowl.Runtime.GUI.Layout.LayoutNode
+    content.vb: Public Function MaxWidth(maxwidth As Size) As LayoutNode
+  overload: Prowl.Runtime.GUI.Layout.LayoutNode.MaxWidth*
+- uid: Prowl.Runtime.GUI.Layout.LayoutNode.MaxHeight(Prowl.Runtime.GUI.Size)
+  commentId: M:Prowl.Runtime.GUI.Layout.LayoutNode.MaxHeight(Prowl.Runtime.GUI.Size)
+  id: MaxHeight(Prowl.Runtime.GUI.Size)
+  parent: Prowl.Runtime.GUI.Layout.LayoutNode
+  langs:
+  - csharp
+  - vb
+  name: MaxHeight(Size)
+  nameWithType: LayoutNode.MaxHeight(Size)
+  fullName: Prowl.Runtime.GUI.Layout.LayoutNode.MaxHeight(Prowl.Runtime.GUI.Size)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Layout/LayoutNode.API.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: MaxHeight
+    path: ../Prowl/Prowl.Runtime/GUI/Layout/LayoutNode.API.cs
+    startLine: 75
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI.Layout
+  syntax:
+    content: public LayoutNode MaxHeight(Size maxheight)
+    parameters:
+    - id: maxheight
+      type: Prowl.Runtime.GUI.Size
+    return:
+      type: Prowl.Runtime.GUI.Layout.LayoutNode
+    content.vb: Public Function MaxHeight(maxheight As Size) As LayoutNode
+  overload: Prowl.Runtime.GUI.Layout.LayoutNode.MaxHeight*
+- uid: Prowl.Runtime.GUI.Layout.LayoutNode.TopLeft(Prowl.Runtime.GUI.Offset)
+  commentId: M:Prowl.Runtime.GUI.Layout.LayoutNode.TopLeft(Prowl.Runtime.GUI.Offset)
+  id: TopLeft(Prowl.Runtime.GUI.Offset)
+  parent: Prowl.Runtime.GUI.Layout.LayoutNode
+  langs:
+  - csharp
+  - vb
+  name: TopLeft(Offset)
+  nameWithType: LayoutNode.TopLeft(Offset)
+  fullName: Prowl.Runtime.GUI.Layout.LayoutNode.TopLeft(Prowl.Runtime.GUI.Offset)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Layout/LayoutNode.API.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: TopLeft
+    path: ../Prowl/Prowl.Runtime/GUI/Layout/LayoutNode.API.cs
+    startLine: 81
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI.Layout
+  syntax:
+    content: public LayoutNode TopLeft(Offset topleft)
+    parameters:
+    - id: topleft
+      type: Prowl.Runtime.GUI.Offset
+    return:
+      type: Prowl.Runtime.GUI.Layout.LayoutNode
+    content.vb: Public Function TopLeft(topleft As Offset) As LayoutNode
+  overload: Prowl.Runtime.GUI.Layout.LayoutNode.TopLeft*
+- uid: Prowl.Runtime.GUI.Layout.LayoutNode.TopLeft(Prowl.Runtime.GUI.Offset,Prowl.Runtime.GUI.Offset)
+  commentId: M:Prowl.Runtime.GUI.Layout.LayoutNode.TopLeft(Prowl.Runtime.GUI.Offset,Prowl.Runtime.GUI.Offset)
+  id: TopLeft(Prowl.Runtime.GUI.Offset,Prowl.Runtime.GUI.Offset)
+  parent: Prowl.Runtime.GUI.Layout.LayoutNode
+  langs:
+  - csharp
+  - vb
+  name: TopLeft(Offset, Offset)
+  nameWithType: LayoutNode.TopLeft(Offset, Offset)
+  fullName: Prowl.Runtime.GUI.Layout.LayoutNode.TopLeft(Prowl.Runtime.GUI.Offset, Prowl.Runtime.GUI.Offset)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Layout/LayoutNode.API.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: TopLeft
+    path: ../Prowl/Prowl.Runtime/GUI/Layout/LayoutNode.API.cs
+    startLine: 82
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI.Layout
+  syntax:
+    content: public LayoutNode TopLeft(Offset left, Offset top)
+    parameters:
+    - id: left
+      type: Prowl.Runtime.GUI.Offset
+    - id: top
+      type: Prowl.Runtime.GUI.Offset
+    return:
+      type: Prowl.Runtime.GUI.Layout.LayoutNode
+    content.vb: Public Function TopLeft(left As Offset, top As Offset) As LayoutNode
+  overload: Prowl.Runtime.GUI.Layout.LayoutNode.TopLeft*
+- uid: Prowl.Runtime.GUI.Layout.LayoutNode.Left(Prowl.Runtime.GUI.Offset)
+  commentId: M:Prowl.Runtime.GUI.Layout.LayoutNode.Left(Prowl.Runtime.GUI.Offset)
+  id: Left(Prowl.Runtime.GUI.Offset)
+  parent: Prowl.Runtime.GUI.Layout.LayoutNode
+  langs:
+  - csharp
+  - vb
+  name: Left(Offset)
+  nameWithType: LayoutNode.Left(Offset)
+  fullName: Prowl.Runtime.GUI.Layout.LayoutNode.Left(Prowl.Runtime.GUI.Offset)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Layout/LayoutNode.API.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Left
+    path: ../Prowl/Prowl.Runtime/GUI/Layout/LayoutNode.API.cs
+    startLine: 84
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI.Layout
+  syntax:
+    content: public LayoutNode Left(Offset left)
+    parameters:
+    - id: left
+      type: Prowl.Runtime.GUI.Offset
+    return:
+      type: Prowl.Runtime.GUI.Layout.LayoutNode
+    content.vb: Public Function Left(left As Offset) As LayoutNode
+  overload: Prowl.Runtime.GUI.Layout.LayoutNode.Left*
+- uid: Prowl.Runtime.GUI.Layout.LayoutNode.Top(Prowl.Runtime.GUI.Offset)
+  commentId: M:Prowl.Runtime.GUI.Layout.LayoutNode.Top(Prowl.Runtime.GUI.Offset)
+  id: Top(Prowl.Runtime.GUI.Offset)
+  parent: Prowl.Runtime.GUI.Layout.LayoutNode
+  langs:
+  - csharp
+  - vb
+  name: Top(Offset)
+  nameWithType: LayoutNode.Top(Offset)
+  fullName: Prowl.Runtime.GUI.Layout.LayoutNode.Top(Prowl.Runtime.GUI.Offset)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Layout/LayoutNode.API.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Top
+    path: ../Prowl/Prowl.Runtime/GUI/Layout/LayoutNode.API.cs
+    startLine: 90
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI.Layout
+  syntax:
+    content: public LayoutNode Top(Offset top)
+    parameters:
+    - id: top
+      type: Prowl.Runtime.GUI.Offset
+    return:
+      type: Prowl.Runtime.GUI.Layout.LayoutNode
+    content.vb: Public Function Top(top As Offset) As LayoutNode
+  overload: Prowl.Runtime.GUI.Layout.LayoutNode.Top*
+- uid: Prowl.Runtime.GUI.Layout.LayoutNode.IgnoreLayout
+  commentId: M:Prowl.Runtime.GUI.Layout.LayoutNode.IgnoreLayout
+  id: IgnoreLayout
+  parent: Prowl.Runtime.GUI.Layout.LayoutNode
+  langs:
+  - csharp
+  - vb
+  name: IgnoreLayout()
+  nameWithType: LayoutNode.IgnoreLayout()
+  fullName: Prowl.Runtime.GUI.Layout.LayoutNode.IgnoreLayout()
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Layout/LayoutNode.API.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: IgnoreLayout
+    path: ../Prowl/Prowl.Runtime/GUI/Layout/LayoutNode.API.cs
+    startLine: 96
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI.Layout
+  syntax:
+    content: public LayoutNode IgnoreLayout()
+    return:
+      type: Prowl.Runtime.GUI.Layout.LayoutNode
+    content.vb: Public Function IgnoreLayout() As LayoutNode
+  overload: Prowl.Runtime.GUI.Layout.LayoutNode.IgnoreLayout*
+- uid: Prowl.Runtime.GUI.Layout.LayoutNode.Clip(System.Boolean)
+  commentId: M:Prowl.Runtime.GUI.Layout.LayoutNode.Clip(System.Boolean)
+  id: Clip(System.Boolean)
+  parent: Prowl.Runtime.GUI.Layout.LayoutNode
+  langs:
+  - csharp
+  - vb
+  name: Clip(bool)
+  nameWithType: LayoutNode.Clip(bool)
+  fullName: Prowl.Runtime.GUI.Layout.LayoutNode.Clip(bool)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Layout/LayoutNode.API.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Clip
+    path: ../Prowl/Prowl.Runtime/GUI/Layout/LayoutNode.API.cs
+    startLine: 102
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI.Layout
+  syntax:
+    content: public LayoutNode Clip(bool outerRect = false)
+    parameters:
+    - id: outerRect
+      type: System.Boolean
+    return:
+      type: Prowl.Runtime.GUI.Layout.LayoutNode
+    content.vb: Public Function Clip(outerRect As Boolean = False) As LayoutNode
+  overload: Prowl.Runtime.GUI.Layout.LayoutNode.Clip*
+  nameWithType.vb: LayoutNode.Clip(Boolean)
+  fullName.vb: Prowl.Runtime.GUI.Layout.LayoutNode.Clip(Boolean)
+  name.vb: Clip(Boolean)
+- uid: Prowl.Runtime.GUI.Layout.LayoutNode.Scroll(System.Boolean,System.Boolean)
+  commentId: M:Prowl.Runtime.GUI.Layout.LayoutNode.Scroll(System.Boolean,System.Boolean)
+  id: Scroll(System.Boolean,System.Boolean)
+  parent: Prowl.Runtime.GUI.Layout.LayoutNode
+  langs:
+  - csharp
+  - vb
+  name: Scroll(bool, bool)
+  nameWithType: LayoutNode.Scroll(bool, bool)
+  fullName: Prowl.Runtime.GUI.Layout.LayoutNode.Scroll(bool, bool)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Layout/LayoutNode.API.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Scroll
+    path: ../Prowl/Prowl.Runtime/GUI/Layout/LayoutNode.API.cs
+    startLine: 108
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI.Layout
+  syntax:
+    content: public LayoutNode Scroll(bool vertical = true, bool horizontal = true)
+    parameters:
+    - id: vertical
+      type: System.Boolean
+    - id: horizontal
+      type: System.Boolean
+    return:
+      type: Prowl.Runtime.GUI.Layout.LayoutNode
+    content.vb: Public Function Scroll(vertical As Boolean = True, horizontal As Boolean = True) As LayoutNode
+  overload: Prowl.Runtime.GUI.Layout.LayoutNode.Scroll*
+  nameWithType.vb: LayoutNode.Scroll(Boolean, Boolean)
+  fullName.vb: Prowl.Runtime.GUI.Layout.LayoutNode.Scroll(Boolean, Boolean)
+  name.vb: Scroll(Boolean, Boolean)
+- uid: Prowl.Runtime.GUI.Layout.LayoutNode.Margin(Prowl.Runtime.GUI.Offset)
+  commentId: M:Prowl.Runtime.GUI.Layout.LayoutNode.Margin(Prowl.Runtime.GUI.Offset)
+  id: Margin(Prowl.Runtime.GUI.Offset)
+  parent: Prowl.Runtime.GUI.Layout.LayoutNode
+  langs:
+  - csharp
+  - vb
+  name: Margin(Offset)
+  nameWithType: LayoutNode.Margin(Offset)
+  fullName: Prowl.Runtime.GUI.Layout.LayoutNode.Margin(Prowl.Runtime.GUI.Offset)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Layout/LayoutNode.API.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Margin
+    path: ../Prowl/Prowl.Runtime/GUI/Layout/LayoutNode.API.cs
+    startLine: 116
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI.Layout
+  syntax:
+    content: public LayoutNode Margin(Offset margins)
+    parameters:
+    - id: margins
+      type: Prowl.Runtime.GUI.Offset
+    return:
+      type: Prowl.Runtime.GUI.Layout.LayoutNode
+    content.vb: Public Function Margin(margins As Offset) As LayoutNode
+  overload: Prowl.Runtime.GUI.Layout.LayoutNode.Margin*
+- uid: Prowl.Runtime.GUI.Layout.LayoutNode.MarginTop(Prowl.Runtime.GUI.Offset)
+  commentId: M:Prowl.Runtime.GUI.Layout.LayoutNode.MarginTop(Prowl.Runtime.GUI.Offset)
+  id: MarginTop(Prowl.Runtime.GUI.Offset)
+  parent: Prowl.Runtime.GUI.Layout.LayoutNode
+  langs:
+  - csharp
+  - vb
+  name: MarginTop(Offset)
+  nameWithType: LayoutNode.MarginTop(Offset)
+  fullName: Prowl.Runtime.GUI.Layout.LayoutNode.MarginTop(Prowl.Runtime.GUI.Offset)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Layout/LayoutNode.API.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: MarginTop
+    path: ../Prowl/Prowl.Runtime/GUI/Layout/LayoutNode.API.cs
+    startLine: 117
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI.Layout
+  syntax:
+    content: public LayoutNode MarginTop(Offset margin)
+    parameters:
+    - id: margin
+      type: Prowl.Runtime.GUI.Offset
+    return:
+      type: Prowl.Runtime.GUI.Layout.LayoutNode
+    content.vb: Public Function MarginTop(margin As Offset) As LayoutNode
+  overload: Prowl.Runtime.GUI.Layout.LayoutNode.MarginTop*
+- uid: Prowl.Runtime.GUI.Layout.LayoutNode.MarginRight(Prowl.Runtime.GUI.Offset)
+  commentId: M:Prowl.Runtime.GUI.Layout.LayoutNode.MarginRight(Prowl.Runtime.GUI.Offset)
+  id: MarginRight(Prowl.Runtime.GUI.Offset)
+  parent: Prowl.Runtime.GUI.Layout.LayoutNode
+  langs:
+  - csharp
+  - vb
+  name: MarginRight(Offset)
+  nameWithType: LayoutNode.MarginRight(Offset)
+  fullName: Prowl.Runtime.GUI.Layout.LayoutNode.MarginRight(Prowl.Runtime.GUI.Offset)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Layout/LayoutNode.API.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: MarginRight
+    path: ../Prowl/Prowl.Runtime/GUI/Layout/LayoutNode.API.cs
+    startLine: 118
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI.Layout
+  syntax:
+    content: public LayoutNode MarginRight(Offset margin)
+    parameters:
+    - id: margin
+      type: Prowl.Runtime.GUI.Offset
+    return:
+      type: Prowl.Runtime.GUI.Layout.LayoutNode
+    content.vb: Public Function MarginRight(margin As Offset) As LayoutNode
+  overload: Prowl.Runtime.GUI.Layout.LayoutNode.MarginRight*
+- uid: Prowl.Runtime.GUI.Layout.LayoutNode.MarginBottom(Prowl.Runtime.GUI.Offset)
+  commentId: M:Prowl.Runtime.GUI.Layout.LayoutNode.MarginBottom(Prowl.Runtime.GUI.Offset)
+  id: MarginBottom(Prowl.Runtime.GUI.Offset)
+  parent: Prowl.Runtime.GUI.Layout.LayoutNode
+  langs:
+  - csharp
+  - vb
+  name: MarginBottom(Offset)
+  nameWithType: LayoutNode.MarginBottom(Offset)
+  fullName: Prowl.Runtime.GUI.Layout.LayoutNode.MarginBottom(Prowl.Runtime.GUI.Offset)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Layout/LayoutNode.API.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: MarginBottom
+    path: ../Prowl/Prowl.Runtime/GUI/Layout/LayoutNode.API.cs
+    startLine: 119
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI.Layout
+  syntax:
+    content: public LayoutNode MarginBottom(Offset margin)
+    parameters:
+    - id: margin
+      type: Prowl.Runtime.GUI.Offset
+    return:
+      type: Prowl.Runtime.GUI.Layout.LayoutNode
+    content.vb: Public Function MarginBottom(margin As Offset) As LayoutNode
+  overload: Prowl.Runtime.GUI.Layout.LayoutNode.MarginBottom*
+- uid: Prowl.Runtime.GUI.Layout.LayoutNode.MarginLeft(Prowl.Runtime.GUI.Offset)
+  commentId: M:Prowl.Runtime.GUI.Layout.LayoutNode.MarginLeft(Prowl.Runtime.GUI.Offset)
+  id: MarginLeft(Prowl.Runtime.GUI.Offset)
+  parent: Prowl.Runtime.GUI.Layout.LayoutNode
+  langs:
+  - csharp
+  - vb
+  name: MarginLeft(Offset)
+  nameWithType: LayoutNode.MarginLeft(Offset)
+  fullName: Prowl.Runtime.GUI.Layout.LayoutNode.MarginLeft(Prowl.Runtime.GUI.Offset)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Layout/LayoutNode.API.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: MarginLeft
+    path: ../Prowl/Prowl.Runtime/GUI/Layout/LayoutNode.API.cs
+    startLine: 120
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI.Layout
+  syntax:
+    content: public LayoutNode MarginLeft(Offset margin)
+    parameters:
+    - id: margin
+      type: Prowl.Runtime.GUI.Offset
+    return:
+      type: Prowl.Runtime.GUI.Layout.LayoutNode
+    content.vb: Public Function MarginLeft(margin As Offset) As LayoutNode
+  overload: Prowl.Runtime.GUI.Layout.LayoutNode.MarginLeft*
+- uid: Prowl.Runtime.GUI.Layout.LayoutNode.Margin(Prowl.Runtime.GUI.Offset,Prowl.Runtime.GUI.Offset)
+  commentId: M:Prowl.Runtime.GUI.Layout.LayoutNode.Margin(Prowl.Runtime.GUI.Offset,Prowl.Runtime.GUI.Offset)
+  id: Margin(Prowl.Runtime.GUI.Offset,Prowl.Runtime.GUI.Offset)
+  parent: Prowl.Runtime.GUI.Layout.LayoutNode
+  langs:
+  - csharp
+  - vb
+  name: Margin(Offset, Offset)
+  nameWithType: LayoutNode.Margin(Offset, Offset)
+  fullName: Prowl.Runtime.GUI.Layout.LayoutNode.Margin(Prowl.Runtime.GUI.Offset, Prowl.Runtime.GUI.Offset)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Layout/LayoutNode.API.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Margin
+    path: ../Prowl/Prowl.Runtime/GUI/Layout/LayoutNode.API.cs
+    startLine: 121
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI.Layout
+  syntax:
+    content: public LayoutNode Margin(Offset vertical, Offset horizontal)
+    parameters:
+    - id: vertical
+      type: Prowl.Runtime.GUI.Offset
+    - id: horizontal
+      type: Prowl.Runtime.GUI.Offset
+    return:
+      type: Prowl.Runtime.GUI.Layout.LayoutNode
+    content.vb: Public Function Margin(vertical As Offset, horizontal As Offset) As LayoutNode
+  overload: Prowl.Runtime.GUI.Layout.LayoutNode.Margin*
+- uid: Prowl.Runtime.GUI.Layout.LayoutNode.Margin(Prowl.Runtime.GUI.Offset,Prowl.Runtime.GUI.Offset,Prowl.Runtime.GUI.Offset,Prowl.Runtime.GUI.Offset)
+  commentId: M:Prowl.Runtime.GUI.Layout.LayoutNode.Margin(Prowl.Runtime.GUI.Offset,Prowl.Runtime.GUI.Offset,Prowl.Runtime.GUI.Offset,Prowl.Runtime.GUI.Offset)
+  id: Margin(Prowl.Runtime.GUI.Offset,Prowl.Runtime.GUI.Offset,Prowl.Runtime.GUI.Offset,Prowl.Runtime.GUI.Offset)
+  parent: Prowl.Runtime.GUI.Layout.LayoutNode
+  langs:
+  - csharp
+  - vb
+  name: Margin(Offset, Offset, Offset, Offset)
+  nameWithType: LayoutNode.Margin(Offset, Offset, Offset, Offset)
+  fullName: Prowl.Runtime.GUI.Layout.LayoutNode.Margin(Prowl.Runtime.GUI.Offset, Prowl.Runtime.GUI.Offset, Prowl.Runtime.GUI.Offset, Prowl.Runtime.GUI.Offset)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Layout/LayoutNode.API.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Margin
+    path: ../Prowl/Prowl.Runtime/GUI/Layout/LayoutNode.API.cs
+    startLine: 123
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI.Layout
+  syntax:
+    content: public LayoutNode Margin(Offset top, Offset right, Offset bottom, Offset left)
+    parameters:
+    - id: top
+      type: Prowl.Runtime.GUI.Offset
+    - id: right
+      type: Prowl.Runtime.GUI.Offset
+    - id: bottom
+      type: Prowl.Runtime.GUI.Offset
+    - id: left
+      type: Prowl.Runtime.GUI.Offset
+    return:
+      type: Prowl.Runtime.GUI.Layout.LayoutNode
+    content.vb: Public Function Margin(top As Offset, right As Offset, bottom As Offset, left As Offset) As LayoutNode
+  overload: Prowl.Runtime.GUI.Layout.LayoutNode.Margin*
+- uid: Prowl.Runtime.GUI.Layout.LayoutNode.Padding(Prowl.Runtime.GUI.Offset)
+  commentId: M:Prowl.Runtime.GUI.Layout.LayoutNode.Padding(Prowl.Runtime.GUI.Offset)
+  id: Padding(Prowl.Runtime.GUI.Offset)
+  parent: Prowl.Runtime.GUI.Layout.LayoutNode
+  langs:
+  - csharp
+  - vb
+  name: Padding(Offset)
+  nameWithType: LayoutNode.Padding(Offset)
+  fullName: Prowl.Runtime.GUI.Layout.LayoutNode.Padding(Prowl.Runtime.GUI.Offset)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Layout/LayoutNode.API.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Padding
+    path: ../Prowl/Prowl.Runtime/GUI/Layout/LayoutNode.API.cs
+    startLine: 132
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI.Layout
+  syntax:
+    content: public LayoutNode Padding(Offset paddings)
+    parameters:
+    - id: paddings
+      type: Prowl.Runtime.GUI.Offset
+    return:
+      type: Prowl.Runtime.GUI.Layout.LayoutNode
+    content.vb: Public Function Padding(paddings As Offset) As LayoutNode
+  overload: Prowl.Runtime.GUI.Layout.LayoutNode.Padding*
+- uid: Prowl.Runtime.GUI.Layout.LayoutNode.PaddingTop(Prowl.Runtime.GUI.Offset)
+  commentId: M:Prowl.Runtime.GUI.Layout.LayoutNode.PaddingTop(Prowl.Runtime.GUI.Offset)
+  id: PaddingTop(Prowl.Runtime.GUI.Offset)
+  parent: Prowl.Runtime.GUI.Layout.LayoutNode
+  langs:
+  - csharp
+  - vb
+  name: PaddingTop(Offset)
+  nameWithType: LayoutNode.PaddingTop(Offset)
+  fullName: Prowl.Runtime.GUI.Layout.LayoutNode.PaddingTop(Prowl.Runtime.GUI.Offset)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Layout/LayoutNode.API.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: PaddingTop
+    path: ../Prowl/Prowl.Runtime/GUI/Layout/LayoutNode.API.cs
+    startLine: 133
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI.Layout
+  syntax:
+    content: public LayoutNode PaddingTop(Offset padding)
+    parameters:
+    - id: padding
+      type: Prowl.Runtime.GUI.Offset
+    return:
+      type: Prowl.Runtime.GUI.Layout.LayoutNode
+    content.vb: Public Function PaddingTop(padding As Offset) As LayoutNode
+  overload: Prowl.Runtime.GUI.Layout.LayoutNode.PaddingTop*
+- uid: Prowl.Runtime.GUI.Layout.LayoutNode.PaddingRight(Prowl.Runtime.GUI.Offset)
+  commentId: M:Prowl.Runtime.GUI.Layout.LayoutNode.PaddingRight(Prowl.Runtime.GUI.Offset)
+  id: PaddingRight(Prowl.Runtime.GUI.Offset)
+  parent: Prowl.Runtime.GUI.Layout.LayoutNode
+  langs:
+  - csharp
+  - vb
+  name: PaddingRight(Offset)
+  nameWithType: LayoutNode.PaddingRight(Offset)
+  fullName: Prowl.Runtime.GUI.Layout.LayoutNode.PaddingRight(Prowl.Runtime.GUI.Offset)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Layout/LayoutNode.API.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: PaddingRight
+    path: ../Prowl/Prowl.Runtime/GUI/Layout/LayoutNode.API.cs
+    startLine: 134
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI.Layout
+  syntax:
+    content: public LayoutNode PaddingRight(Offset padding)
+    parameters:
+    - id: padding
+      type: Prowl.Runtime.GUI.Offset
+    return:
+      type: Prowl.Runtime.GUI.Layout.LayoutNode
+    content.vb: Public Function PaddingRight(padding As Offset) As LayoutNode
+  overload: Prowl.Runtime.GUI.Layout.LayoutNode.PaddingRight*
+- uid: Prowl.Runtime.GUI.Layout.LayoutNode.PaddingBottom(Prowl.Runtime.GUI.Offset)
+  commentId: M:Prowl.Runtime.GUI.Layout.LayoutNode.PaddingBottom(Prowl.Runtime.GUI.Offset)
+  id: PaddingBottom(Prowl.Runtime.GUI.Offset)
+  parent: Prowl.Runtime.GUI.Layout.LayoutNode
+  langs:
+  - csharp
+  - vb
+  name: PaddingBottom(Offset)
+  nameWithType: LayoutNode.PaddingBottom(Offset)
+  fullName: Prowl.Runtime.GUI.Layout.LayoutNode.PaddingBottom(Prowl.Runtime.GUI.Offset)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Layout/LayoutNode.API.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: PaddingBottom
+    path: ../Prowl/Prowl.Runtime/GUI/Layout/LayoutNode.API.cs
+    startLine: 135
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI.Layout
+  syntax:
+    content: public LayoutNode PaddingBottom(Offset padding)
+    parameters:
+    - id: padding
+      type: Prowl.Runtime.GUI.Offset
+    return:
+      type: Prowl.Runtime.GUI.Layout.LayoutNode
+    content.vb: Public Function PaddingBottom(padding As Offset) As LayoutNode
+  overload: Prowl.Runtime.GUI.Layout.LayoutNode.PaddingBottom*
+- uid: Prowl.Runtime.GUI.Layout.LayoutNode.PaddingLeft(Prowl.Runtime.GUI.Offset)
+  commentId: M:Prowl.Runtime.GUI.Layout.LayoutNode.PaddingLeft(Prowl.Runtime.GUI.Offset)
+  id: PaddingLeft(Prowl.Runtime.GUI.Offset)
+  parent: Prowl.Runtime.GUI.Layout.LayoutNode
+  langs:
+  - csharp
+  - vb
+  name: PaddingLeft(Offset)
+  nameWithType: LayoutNode.PaddingLeft(Offset)
+  fullName: Prowl.Runtime.GUI.Layout.LayoutNode.PaddingLeft(Prowl.Runtime.GUI.Offset)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Layout/LayoutNode.API.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: PaddingLeft
+    path: ../Prowl/Prowl.Runtime/GUI/Layout/LayoutNode.API.cs
+    startLine: 136
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI.Layout
+  syntax:
+    content: public LayoutNode PaddingLeft(Offset padding)
+    parameters:
+    - id: padding
+      type: Prowl.Runtime.GUI.Offset
+    return:
+      type: Prowl.Runtime.GUI.Layout.LayoutNode
+    content.vb: Public Function PaddingLeft(padding As Offset) As LayoutNode
+  overload: Prowl.Runtime.GUI.Layout.LayoutNode.PaddingLeft*
+- uid: Prowl.Runtime.GUI.Layout.LayoutNode.Padding(Prowl.Runtime.GUI.Offset,Prowl.Runtime.GUI.Offset)
+  commentId: M:Prowl.Runtime.GUI.Layout.LayoutNode.Padding(Prowl.Runtime.GUI.Offset,Prowl.Runtime.GUI.Offset)
+  id: Padding(Prowl.Runtime.GUI.Offset,Prowl.Runtime.GUI.Offset)
+  parent: Prowl.Runtime.GUI.Layout.LayoutNode
+  langs:
+  - csharp
+  - vb
+  name: Padding(Offset, Offset)
+  nameWithType: LayoutNode.Padding(Offset, Offset)
+  fullName: Prowl.Runtime.GUI.Layout.LayoutNode.Padding(Prowl.Runtime.GUI.Offset, Prowl.Runtime.GUI.Offset)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Layout/LayoutNode.API.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Padding
+    path: ../Prowl/Prowl.Runtime/GUI/Layout/LayoutNode.API.cs
+    startLine: 137
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI.Layout
+  syntax:
+    content: public LayoutNode Padding(Offset vertical, Offset horizontal)
+    parameters:
+    - id: vertical
+      type: Prowl.Runtime.GUI.Offset
+    - id: horizontal
+      type: Prowl.Runtime.GUI.Offset
+    return:
+      type: Prowl.Runtime.GUI.Layout.LayoutNode
+    content.vb: Public Function Padding(vertical As Offset, horizontal As Offset) As LayoutNode
+  overload: Prowl.Runtime.GUI.Layout.LayoutNode.Padding*
+- uid: Prowl.Runtime.GUI.Layout.LayoutNode.Padding(Prowl.Runtime.GUI.Offset,Prowl.Runtime.GUI.Offset,Prowl.Runtime.GUI.Offset,Prowl.Runtime.GUI.Offset)
+  commentId: M:Prowl.Runtime.GUI.Layout.LayoutNode.Padding(Prowl.Runtime.GUI.Offset,Prowl.Runtime.GUI.Offset,Prowl.Runtime.GUI.Offset,Prowl.Runtime.GUI.Offset)
+  id: Padding(Prowl.Runtime.GUI.Offset,Prowl.Runtime.GUI.Offset,Prowl.Runtime.GUI.Offset,Prowl.Runtime.GUI.Offset)
+  parent: Prowl.Runtime.GUI.Layout.LayoutNode
+  langs:
+  - csharp
+  - vb
+  name: Padding(Offset, Offset, Offset, Offset)
+  nameWithType: LayoutNode.Padding(Offset, Offset, Offset, Offset)
+  fullName: Prowl.Runtime.GUI.Layout.LayoutNode.Padding(Prowl.Runtime.GUI.Offset, Prowl.Runtime.GUI.Offset, Prowl.Runtime.GUI.Offset, Prowl.Runtime.GUI.Offset)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Layout/LayoutNode.API.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Padding
+    path: ../Prowl/Prowl.Runtime/GUI/Layout/LayoutNode.API.cs
+    startLine: 138
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI.Layout
+  syntax:
+    content: public LayoutNode Padding(Offset top, Offset right, Offset bottom, Offset left)
+    parameters:
+    - id: top
+      type: Prowl.Runtime.GUI.Offset
+    - id: right
+      type: Prowl.Runtime.GUI.Offset
+    - id: bottom
+      type: Prowl.Runtime.GUI.Offset
+    - id: left
+      type: Prowl.Runtime.GUI.Offset
+    return:
+      type: Prowl.Runtime.GUI.Layout.LayoutNode
+    content.vb: Public Function Padding(top As Offset, right As Offset, bottom As Offset, left As Offset) As LayoutNode
+  overload: Prowl.Runtime.GUI.Layout.LayoutNode.Padding*
+- uid: Prowl.Runtime.GUI.Layout.LayoutNode.PositionRelativeTo(Prowl.Runtime.GUI.Layout.LayoutNode)
+  commentId: M:Prowl.Runtime.GUI.Layout.LayoutNode.PositionRelativeTo(Prowl.Runtime.GUI.Layout.LayoutNode)
+  id: PositionRelativeTo(Prowl.Runtime.GUI.Layout.LayoutNode)
+  parent: Prowl.Runtime.GUI.Layout.LayoutNode
+  langs:
+  - csharp
+  - vb
+  name: PositionRelativeTo(LayoutNode)
+  nameWithType: LayoutNode.PositionRelativeTo(LayoutNode)
+  fullName: Prowl.Runtime.GUI.Layout.LayoutNode.PositionRelativeTo(Prowl.Runtime.GUI.Layout.LayoutNode)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Layout/LayoutNode.API.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: PositionRelativeTo
+    path: ../Prowl/Prowl.Runtime/GUI/Layout/LayoutNode.API.cs
+    startLine: 147
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI.Layout
+  syntax:
+    content: public LayoutNode PositionRelativeTo(LayoutNode node)
+    parameters:
+    - id: node
+      type: Prowl.Runtime.GUI.Layout.LayoutNode
+    return:
+      type: Prowl.Runtime.GUI.Layout.LayoutNode
+    content.vb: Public Function PositionRelativeTo(node As LayoutNode) As LayoutNode
+  overload: Prowl.Runtime.GUI.Layout.LayoutNode.PositionRelativeTo*
+- uid: Prowl.Runtime.GUI.Layout.LayoutNode.SizeRelativeTo(Prowl.Runtime.GUI.Layout.LayoutNode)
+  commentId: M:Prowl.Runtime.GUI.Layout.LayoutNode.SizeRelativeTo(Prowl.Runtime.GUI.Layout.LayoutNode)
+  id: SizeRelativeTo(Prowl.Runtime.GUI.Layout.LayoutNode)
+  parent: Prowl.Runtime.GUI.Layout.LayoutNode
+  langs:
+  - csharp
+  - vb
+  name: SizeRelativeTo(LayoutNode)
+  nameWithType: LayoutNode.SizeRelativeTo(LayoutNode)
+  fullName: Prowl.Runtime.GUI.Layout.LayoutNode.SizeRelativeTo(Prowl.Runtime.GUI.Layout.LayoutNode)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Layout/LayoutNode.API.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: SizeRelativeTo
+    path: ../Prowl/Prowl.Runtime/GUI/Layout/LayoutNode.API.cs
+    startLine: 153
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI.Layout
+  syntax:
+    content: public LayoutNode SizeRelativeTo(LayoutNode node)
+    parameters:
+    - id: node
+      type: Prowl.Runtime.GUI.Layout.LayoutNode
+    return:
+      type: Prowl.Runtime.GUI.Layout.LayoutNode
+    content.vb: Public Function SizeRelativeTo(node As LayoutNode) As LayoutNode
+  overload: Prowl.Runtime.GUI.Layout.LayoutNode.SizeRelativeTo*
+- uid: Prowl.Runtime.GUI.Layout.LayoutNode.Enter
+  commentId: M:Prowl.Runtime.GUI.Layout.LayoutNode.Enter
+  id: Enter
+  parent: Prowl.Runtime.GUI.Layout.LayoutNode
+  langs:
+  - csharp
+  - vb
+  name: Enter()
+  nameWithType: LayoutNode.Enter()
+  fullName: Prowl.Runtime.GUI.Layout.LayoutNode.Enter()
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Layout/LayoutNode.API.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Enter
+    path: ../Prowl/Prowl.Runtime/GUI/Layout/LayoutNode.API.cs
+    startLine: 160
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI.Layout
+  syntax:
+    content: public LayoutNodeScope Enter()
+    return:
+      type: Prowl.Runtime.GUI.LayoutNodeScope
+    content.vb: Public Function Enter() As LayoutNodeScope
+  overload: Prowl.Runtime.GUI.Layout.LayoutNode.Enter*
+- uid: Prowl.Runtime.GUI.Layout.LayoutNode.SetNewParent(Prowl.Runtime.GUI.Layout.LayoutNode)
+  commentId: M:Prowl.Runtime.GUI.Layout.LayoutNode.SetNewParent(Prowl.Runtime.GUI.Layout.LayoutNode)
+  id: SetNewParent(Prowl.Runtime.GUI.Layout.LayoutNode)
+  parent: Prowl.Runtime.GUI.Layout.LayoutNode
+  langs:
+  - csharp
+  - vb
+  name: SetNewParent(LayoutNode)
+  nameWithType: LayoutNode.SetNewParent(LayoutNode)
+  fullName: Prowl.Runtime.GUI.Layout.LayoutNode.SetNewParent(Prowl.Runtime.GUI.Layout.LayoutNode)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Layout/LayoutNode.API.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: SetNewParent
+    path: ../Prowl/Prowl.Runtime/GUI/Layout/LayoutNode.API.cs
+    startLine: 167
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI.Layout
+  syntax:
+    content: public void SetNewParent(LayoutNode newParent)
+    parameters:
+    - id: newParent
+      type: Prowl.Runtime.GUI.Layout.LayoutNode
+    content.vb: Public Sub SetNewParent(newParent As LayoutNode)
+  overload: Prowl.Runtime.GUI.Layout.LayoutNode.SetNewParent*
+- uid: Prowl.Runtime.GUI.Layout.LayoutNode.AppendNode(System.String)
+  commentId: M:Prowl.Runtime.GUI.Layout.LayoutNode.AppendNode(System.String)
+  id: AppendNode(System.String)
+  parent: Prowl.Runtime.GUI.Layout.LayoutNode
+  langs:
+  - csharp
+  - vb
+  name: AppendNode(string)
+  nameWithType: LayoutNode.AppendNode(string)
+  fullName: Prowl.Runtime.GUI.Layout.LayoutNode.AppendNode(string)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Layout/LayoutNode.API.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: AppendNode
+    path: ../Prowl/Prowl.Runtime/GUI/Layout/LayoutNode.API.cs
+    startLine: 178
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI.Layout
+  syntax:
+    content: public LayoutNode AppendNode(string ID)
+    parameters:
+    - id: ID
+      type: System.String
+    return:
+      type: Prowl.Runtime.GUI.Layout.LayoutNode
+    content.vb: Public Function AppendNode(ID As String) As LayoutNode
+  overload: Prowl.Runtime.GUI.Layout.LayoutNode.AppendNode*
+  nameWithType.vb: LayoutNode.AppendNode(String)
+  fullName.vb: Prowl.Runtime.GUI.Layout.LayoutNode.AppendNode(String)
+  name.vb: AppendNode(String)
+- uid: Prowl.Runtime.GUI.Layout.LayoutNode.HasLayoutData
+  commentId: P:Prowl.Runtime.GUI.Layout.LayoutNode.HasLayoutData
+  id: HasLayoutData
+  parent: Prowl.Runtime.GUI.Layout.LayoutNode
+  langs:
+  - csharp
+  - vb
+  name: HasLayoutData
+  nameWithType: LayoutNode.HasLayoutData
+  fullName: Prowl.Runtime.GUI.Layout.LayoutNode.HasLayoutData
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Layout/LayoutNode.Core.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: HasLayoutData
+    path: ../Prowl/Prowl.Runtime/GUI/Layout/LayoutNode.Core.cs
+    startLine: 62
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI.Layout
+  syntax:
+    content: public bool HasLayoutData { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property HasLayoutData As Boolean
+  overload: Prowl.Runtime.GUI.Layout.LayoutNode.HasLayoutData*
+- uid: Prowl.Runtime.GUI.Layout.LayoutNode.LayoutData
+  commentId: P:Prowl.Runtime.GUI.Layout.LayoutNode.LayoutData
+  id: LayoutData
+  parent: Prowl.Runtime.GUI.Layout.LayoutNode
+  langs:
+  - csharp
+  - vb
+  name: LayoutData
+  nameWithType: LayoutNode.LayoutData
+  fullName: Prowl.Runtime.GUI.Layout.LayoutNode.LayoutData
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Layout/LayoutNode.Core.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: LayoutData
+    path: ../Prowl/Prowl.Runtime/GUI/Layout/LayoutNode.Core.cs
+    startLine: 63
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI.Layout
+  syntax:
+    content: public LayoutNode.PostLayoutData LayoutData { get; }
+    parameters: []
+    return:
+      type: Prowl.Runtime.GUI.Layout.LayoutNode.PostLayoutData
+    content.vb: Public Property LayoutData As LayoutNode.PostLayoutData
+  overload: Prowl.Runtime.GUI.Layout.LayoutNode.LayoutData*
+- uid: Prowl.Runtime.GUI.Layout.LayoutNode.Gui
+  commentId: P:Prowl.Runtime.GUI.Layout.LayoutNode.Gui
+  id: Gui
+  parent: Prowl.Runtime.GUI.Layout.LayoutNode
+  langs:
+  - csharp
+  - vb
+  name: Gui
+  nameWithType: LayoutNode.Gui
+  fullName: Prowl.Runtime.GUI.Layout.LayoutNode.Gui
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Layout/LayoutNode.Core.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Gui
+    path: ../Prowl/Prowl.Runtime/GUI/Layout/LayoutNode.Core.cs
+    startLine: 75
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI.Layout
+  syntax:
+    content: public Gui Gui { get; }
+    parameters: []
+    return:
+      type: Prowl.Runtime.GUI.Gui
+    content.vb: Public Property Gui As Gui
+  overload: Prowl.Runtime.GUI.Layout.LayoutNode.Gui*
+- uid: Prowl.Runtime.GUI.Layout.LayoutNode.Parent
+  commentId: P:Prowl.Runtime.GUI.Layout.LayoutNode.Parent
+  id: Parent
+  parent: Prowl.Runtime.GUI.Layout.LayoutNode
+  langs:
+  - csharp
+  - vb
+  name: Parent
+  nameWithType: LayoutNode.Parent
+  fullName: Prowl.Runtime.GUI.Layout.LayoutNode.Parent
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Layout/LayoutNode.Core.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Parent
+    path: ../Prowl/Prowl.Runtime/GUI/Layout/LayoutNode.Core.cs
+    startLine: 76
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI.Layout
+  syntax:
+    content: public LayoutNode Parent { get; }
+    parameters: []
+    return:
+      type: Prowl.Runtime.GUI.Layout.LayoutNode
+    content.vb: Public Property Parent As LayoutNode
+  overload: Prowl.Runtime.GUI.Layout.LayoutNode.Parent*
+- uid: Prowl.Runtime.GUI.Layout.LayoutNode.VScroll
+  commentId: P:Prowl.Runtime.GUI.Layout.LayoutNode.VScroll
+  id: VScroll
+  parent: Prowl.Runtime.GUI.Layout.LayoutNode
+  langs:
+  - csharp
+  - vb
+  name: VScroll
+  nameWithType: LayoutNode.VScroll
+  fullName: Prowl.Runtime.GUI.Layout.LayoutNode.VScroll
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Layout/LayoutNode.Core.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: VScroll
+    path: ../Prowl/Prowl.Runtime/GUI/Layout/LayoutNode.Core.cs
+    startLine: 77
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI.Layout
+  syntax:
+    content: public double VScroll { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Property VScroll As Double
+  overload: Prowl.Runtime.GUI.Layout.LayoutNode.VScroll*
+- uid: Prowl.Runtime.GUI.Layout.LayoutNode.HScroll
+  commentId: P:Prowl.Runtime.GUI.Layout.LayoutNode.HScroll
+  id: HScroll
+  parent: Prowl.Runtime.GUI.Layout.LayoutNode
+  langs:
+  - csharp
+  - vb
+  name: HScroll
+  nameWithType: LayoutNode.HScroll
+  fullName: Prowl.Runtime.GUI.Layout.LayoutNode.HScroll
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Layout/LayoutNode.Core.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: HScroll
+    path: ../Prowl/Prowl.Runtime/GUI/Layout/LayoutNode.Core.cs
+    startLine: 82
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI.Layout
+  syntax:
+    content: public double HScroll { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Property HScroll As Double
+  overload: Prowl.Runtime.GUI.Layout.LayoutNode.HScroll*
+- uid: Prowl.Runtime.GUI.Layout.LayoutNode.ID
+  commentId: P:Prowl.Runtime.GUI.Layout.LayoutNode.ID
+  id: ID
+  parent: Prowl.Runtime.GUI.Layout.LayoutNode
+  langs:
+  - csharp
+  - vb
+  name: ID
+  nameWithType: LayoutNode.ID
+  fullName: Prowl.Runtime.GUI.Layout.LayoutNode.ID
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Layout/LayoutNode.Core.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: ID
+    path: ../Prowl/Prowl.Runtime/GUI/Layout/LayoutNode.Core.cs
+    startLine: 87
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI.Layout
+  syntax:
+    content: public ulong ID { get; }
+    parameters: []
+    return:
+      type: System.UInt64
+    content.vb: Public Property ID As ULong
+  overload: Prowl.Runtime.GUI.Layout.LayoutNode.ID*
+- uid: Prowl.Runtime.GUI.Layout.LayoutNode.#ctor(Prowl.Runtime.GUI.Layout.LayoutNode,Prowl.Runtime.GUI.Gui,System.UInt64)
+  commentId: M:Prowl.Runtime.GUI.Layout.LayoutNode.#ctor(Prowl.Runtime.GUI.Layout.LayoutNode,Prowl.Runtime.GUI.Gui,System.UInt64)
+  id: '#ctor(Prowl.Runtime.GUI.Layout.LayoutNode,Prowl.Runtime.GUI.Gui,System.UInt64)'
+  parent: Prowl.Runtime.GUI.Layout.LayoutNode
+  langs:
+  - csharp
+  - vb
+  name: LayoutNode(LayoutNode?, Gui, ulong)
+  nameWithType: LayoutNode.LayoutNode(LayoutNode?, Gui, ulong)
+  fullName: Prowl.Runtime.GUI.Layout.LayoutNode.LayoutNode(Prowl.Runtime.GUI.Layout.LayoutNode?, Prowl.Runtime.GUI.Gui, ulong)
+  type: Constructor
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Layout/LayoutNode.Core.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: .ctor
+    path: ../Prowl/Prowl.Runtime/GUI/Layout/LayoutNode.Core.cs
+    startLine: 130
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI.Layout
+  syntax:
+    content: public LayoutNode(LayoutNode? parent, Gui gui, ulong storageHash)
+    parameters:
+    - id: parent
+      type: Prowl.Runtime.GUI.Layout.LayoutNode
+    - id: gui
+      type: Prowl.Runtime.GUI.Gui
+    - id: storageHash
+      type: System.UInt64
+    content.vb: Public Sub New(parent As LayoutNode, gui As Gui, storageHash As ULong)
+  overload: Prowl.Runtime.GUI.Layout.LayoutNode.#ctor*
+  nameWithType.vb: LayoutNode.New(LayoutNode, Gui, ULong)
+  fullName.vb: Prowl.Runtime.GUI.Layout.LayoutNode.New(Prowl.Runtime.GUI.Layout.LayoutNode, Prowl.Runtime.GUI.Gui, ULong)
+  name.vb: New(LayoutNode, Gui, ULong)
+- uid: Prowl.Runtime.GUI.Layout.LayoutNode.GetNextAnimation
+  commentId: M:Prowl.Runtime.GUI.Layout.LayoutNode.GetNextAnimation
+  id: GetNextAnimation
+  parent: Prowl.Runtime.GUI.Layout.LayoutNode
+  langs:
+  - csharp
+  - vb
+  name: GetNextAnimation()
+  nameWithType: LayoutNode.GetNextAnimation()
+  fullName: Prowl.Runtime.GUI.Layout.LayoutNode.GetNextAnimation()
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Layout/LayoutNode.Core.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: GetNextAnimation
+    path: ../Prowl/Prowl.Runtime/GUI/Layout/LayoutNode.Core.cs
+    startLine: 141
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI.Layout
+  syntax:
+    content: public int GetNextAnimation()
+    return:
+      type: System.Int32
+    content.vb: Public Function GetNextAnimation() As Integer
+  overload: Prowl.Runtime.GUI.Layout.LayoutNode.GetNextAnimation*
+- uid: Prowl.Runtime.GUI.Layout.LayoutNode.UpdateCache
+  commentId: M:Prowl.Runtime.GUI.Layout.LayoutNode.UpdateCache
+  id: UpdateCache
+  parent: Prowl.Runtime.GUI.Layout.LayoutNode
+  langs:
+  - csharp
+  - vb
+  name: UpdateCache()
+  nameWithType: LayoutNode.UpdateCache()
+  fullName: Prowl.Runtime.GUI.Layout.LayoutNode.UpdateCache()
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Layout/LayoutNode.Core.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: UpdateCache
+    path: ../Prowl/Prowl.Runtime/GUI/Layout/LayoutNode.Core.cs
+    startLine: 153
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI.Layout
+  syntax:
+    content: public void UpdateCache()
+    content.vb: Public Sub UpdateCache()
+  overload: Prowl.Runtime.GUI.Layout.LayoutNode.UpdateCache*
+- uid: Prowl.Runtime.GUI.Layout.LayoutNode.UpdateScaleCache
+  commentId: M:Prowl.Runtime.GUI.Layout.LayoutNode.UpdateScaleCache
+  id: UpdateScaleCache
+  parent: Prowl.Runtime.GUI.Layout.LayoutNode
+  langs:
+  - csharp
+  - vb
+  name: UpdateScaleCache()
+  nameWithType: LayoutNode.UpdateScaleCache()
+  fullName: Prowl.Runtime.GUI.Layout.LayoutNode.UpdateScaleCache()
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Layout/LayoutNode.Core.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: UpdateScaleCache
+    path: ../Prowl/Prowl.Runtime/GUI/Layout/LayoutNode.Core.cs
+    startLine: 167
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI.Layout
+  syntax:
+    content: public void UpdateScaleCache()
+    content.vb: Public Sub UpdateScaleCache()
+  overload: Prowl.Runtime.GUI.Layout.LayoutNode.UpdateScaleCache*
+- uid: Prowl.Runtime.GUI.Layout.LayoutNode.UpdatePositionCache
+  commentId: M:Prowl.Runtime.GUI.Layout.LayoutNode.UpdatePositionCache
+  id: UpdatePositionCache
+  parent: Prowl.Runtime.GUI.Layout.LayoutNode
+  langs:
+  - csharp
+  - vb
+  name: UpdatePositionCache()
+  nameWithType: LayoutNode.UpdatePositionCache()
+  fullName: Prowl.Runtime.GUI.Layout.LayoutNode.UpdatePositionCache()
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Layout/LayoutNode.Core.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: UpdatePositionCache
+    path: ../Prowl/Prowl.Runtime/GUI/Layout/LayoutNode.Core.cs
+    startLine: 221
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI.Layout
+  syntax:
+    content: public void UpdatePositionCache()
+    content.vb: Public Sub UpdatePositionCache()
+  overload: Prowl.Runtime.GUI.Layout.LayoutNode.UpdatePositionCache*
+- uid: Prowl.Runtime.GUI.Layout.LayoutNode.ProcessLayout
+  commentId: M:Prowl.Runtime.GUI.Layout.LayoutNode.ProcessLayout
+  id: ProcessLayout
+  parent: Prowl.Runtime.GUI.Layout.LayoutNode
+  langs:
+  - csharp
+  - vb
+  name: ProcessLayout()
+  nameWithType: LayoutNode.ProcessLayout()
+  fullName: Prowl.Runtime.GUI.Layout.LayoutNode.ProcessLayout()
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Layout/LayoutNode.Core.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: ProcessLayout
+    path: ../Prowl/Prowl.Runtime/GUI/Layout/LayoutNode.Core.cs
+    startLine: 239
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI.Layout
+  syntax:
+    content: public void ProcessLayout()
+    content.vb: Public Sub ProcessLayout()
+  overload: Prowl.Runtime.GUI.Layout.LayoutNode.ProcessLayout*
+- uid: Prowl.Runtime.GUI.Layout.LayoutNode.ApplyFitContent
+  commentId: M:Prowl.Runtime.GUI.Layout.LayoutNode.ApplyFitContent
+  id: ApplyFitContent
+  parent: Prowl.Runtime.GUI.Layout.LayoutNode
+  langs:
+  - csharp
+  - vb
+  name: ApplyFitContent()
+  nameWithType: LayoutNode.ApplyFitContent()
+  fullName: Prowl.Runtime.GUI.Layout.LayoutNode.ApplyFitContent()
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Layout/LayoutNode.Core.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: ApplyFitContent
+    path: ../Prowl/Prowl.Runtime/GUI/Layout/LayoutNode.Core.cs
+    startLine: 533
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI.Layout
+  syntax:
+    content: public void ApplyFitContent()
+    content.vb: Public Sub ApplyFitContent()
+  overload: Prowl.Runtime.GUI.Layout.LayoutNode.ApplyFitContent*
+- uid: Prowl.Runtime.GUI.Layout.LayoutNode.GetHashCode64
+  commentId: M:Prowl.Runtime.GUI.Layout.LayoutNode.GetHashCode64
+  id: GetHashCode64
+  parent: Prowl.Runtime.GUI.Layout.LayoutNode
+  langs:
+  - csharp
+  - vb
+  name: GetHashCode64()
+  nameWithType: LayoutNode.GetHashCode64()
+  fullName: Prowl.Runtime.GUI.Layout.LayoutNode.GetHashCode64()
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Layout/LayoutNode.Core.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: GetHashCode64
+    path: ../Prowl/Prowl.Runtime/GUI/Layout/LayoutNode.Core.cs
+    startLine: 545
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI.Layout
+  syntax:
+    content: public ulong GetHashCode64()
+    return:
+      type: System.UInt64
+    content.vb: Public Function GetHashCode64() As ULong
+  overload: Prowl.Runtime.GUI.Layout.LayoutNode.GetHashCode64*
+references:
+- uid: Prowl.Runtime.GUI.Layout
+  commentId: N:Prowl.Runtime.GUI.Layout
+  href: Prowl.html
+  name: Prowl.Runtime.GUI.Layout
+  nameWithType: Prowl.Runtime.GUI.Layout
+  fullName: Prowl.Runtime.GUI.Layout
+  spec.csharp:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+  - name: .
+  - uid: Prowl.Runtime.GUI
+    name: GUI
+    href: Prowl.Runtime.GUI.html
+  - name: .
+  - uid: Prowl.Runtime.GUI.Layout
+    name: Layout
+    href: Prowl.Runtime.GUI.Layout.html
+  spec.vb:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+  - name: .
+  - uid: Prowl.Runtime.GUI
+    name: GUI
+    href: Prowl.Runtime.GUI.html
+  - name: .
+  - uid: Prowl.Runtime.GUI.Layout
+    name: Layout
+    href: Prowl.Runtime.GUI.Layout.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Prowl.Runtime.RuntimeUtils.GetSerializableFields
+  commentId: M:Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  parent: Prowl.Runtime.RuntimeUtils
+  definition: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  name: GetSerializableFields(object)
+  nameWithType: RuntimeUtils.GetSerializableFields(object)
+  fullName: Prowl.Runtime.RuntimeUtils.GetSerializableFields(object)
+  nameWithType.vb: RuntimeUtils.GetSerializableFields(Object)
+  fullName.vb: Prowl.Runtime.RuntimeUtils.GetSerializableFields(Object)
+  name.vb: GetSerializableFields(Object)
+  spec.csharp:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  commentId: M:Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  isExternal: true
+  href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  name: GetSerializableFields(object)
+  nameWithType: RuntimeUtils.GetSerializableFields(object)
+  fullName: Prowl.Runtime.RuntimeUtils.GetSerializableFields(object)
+  nameWithType.vb: RuntimeUtils.GetSerializableFields(Object)
+  fullName.vb: Prowl.Runtime.RuntimeUtils.GetSerializableFields(Object)
+  name.vb: GetSerializableFields(Object)
+  spec.csharp:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: Prowl.Runtime.RuntimeUtils
+  commentId: T:Prowl.Runtime.RuntimeUtils
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.RuntimeUtils.html
+  name: RuntimeUtils
+  nameWithType: RuntimeUtils
+  fullName: Prowl.Runtime.RuntimeUtils
+- uid: Prowl.Runtime
+  commentId: N:Prowl.Runtime
+  href: Prowl.html
+  name: Prowl.Runtime
+  nameWithType: Prowl.Runtime
+  fullName: Prowl.Runtime
+  spec.csharp:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+  spec.vb:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+- uid: Prowl.Runtime.GUI.Layout.LayoutNode.Layout*
+  commentId: Overload:Prowl.Runtime.GUI.Layout.LayoutNode.Layout
+  href: Prowl.Runtime.GUI.Layout.LayoutNode.html#Prowl_Runtime_GUI_Layout_LayoutNode_Layout_Prowl_Runtime_GUI_LayoutType_System_Boolean_System_Boolean_
+  name: Layout
+  nameWithType: LayoutNode.Layout
+  fullName: Prowl.Runtime.GUI.Layout.LayoutNode.Layout
+- uid: Prowl.Runtime.GUI.LayoutType
+  commentId: T:Prowl.Runtime.GUI.LayoutType
+  parent: Prowl.Runtime.GUI
+  href: Prowl.Runtime.GUI.LayoutType.html
+  name: LayoutType
+  nameWithType: LayoutType
+  fullName: Prowl.Runtime.GUI.LayoutType
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: Prowl.Runtime.GUI.Layout.LayoutNode
+  commentId: T:Prowl.Runtime.GUI.Layout.LayoutNode
+  parent: Prowl.Runtime.GUI.Layout
+  href: Prowl.Runtime.GUI.Layout.LayoutNode.html
+  name: LayoutNode
+  nameWithType: LayoutNode
+  fullName: Prowl.Runtime.GUI.Layout.LayoutNode
+- uid: Prowl.Runtime.GUI
+  commentId: N:Prowl.Runtime.GUI
+  href: Prowl.html
+  name: Prowl.Runtime.GUI
+  nameWithType: Prowl.Runtime.GUI
+  fullName: Prowl.Runtime.GUI
+  spec.csharp:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+  - name: .
+  - uid: Prowl.Runtime.GUI
+    name: GUI
+    href: Prowl.Runtime.GUI.html
+  spec.vb:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+  - name: .
+  - uid: Prowl.Runtime.GUI
+    name: GUI
+    href: Prowl.Runtime.GUI.html
+- uid: Prowl.Runtime.GUI.Layout.LayoutNode.Spacing*
+  commentId: Overload:Prowl.Runtime.GUI.Layout.LayoutNode.Spacing
+  href: Prowl.Runtime.GUI.Layout.LayoutNode.html#Prowl_Runtime_GUI_Layout_LayoutNode_Spacing_Prowl_Runtime_GUI_Size_
+  name: Spacing
+  nameWithType: LayoutNode.Spacing
+  fullName: Prowl.Runtime.GUI.Layout.LayoutNode.Spacing
+- uid: Prowl.Runtime.GUI.Size
+  commentId: T:Prowl.Runtime.GUI.Size
+  parent: Prowl.Runtime.GUI
+  href: Prowl.Runtime.GUI.Size.html
+  name: Size
+  nameWithType: Size
+  fullName: Prowl.Runtime.GUI.Size
+- uid: Prowl.Runtime.GUI.Layout.LayoutNode.FitContent*
+  commentId: Overload:Prowl.Runtime.GUI.Layout.LayoutNode.FitContent
+  href: Prowl.Runtime.GUI.Layout.LayoutNode.html#Prowl_Runtime_GUI_Layout_LayoutNode_FitContent
+  name: FitContent
+  nameWithType: LayoutNode.FitContent
+  fullName: Prowl.Runtime.GUI.Layout.LayoutNode.FitContent
+- uid: Prowl.Runtime.GUI.Layout.LayoutNode.FitContentWidth*
+  commentId: Overload:Prowl.Runtime.GUI.Layout.LayoutNode.FitContentWidth
+  href: Prowl.Runtime.GUI.Layout.LayoutNode.html#Prowl_Runtime_GUI_Layout_LayoutNode_FitContentWidth_System_Double_
+  name: FitContentWidth
+  nameWithType: LayoutNode.FitContentWidth
+  fullName: Prowl.Runtime.GUI.Layout.LayoutNode.FitContentWidth
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.double
+  name: double
+  nameWithType: double
+  fullName: double
+  nameWithType.vb: Double
+  fullName.vb: Double
+  name.vb: Double
+- uid: Prowl.Runtime.GUI.Layout.LayoutNode.FitContentHeight*
+  commentId: Overload:Prowl.Runtime.GUI.Layout.LayoutNode.FitContentHeight
+  href: Prowl.Runtime.GUI.Layout.LayoutNode.html#Prowl_Runtime_GUI_Layout_LayoutNode_FitContentHeight_System_Double_
+  name: FitContentHeight
+  nameWithType: LayoutNode.FitContentHeight
+  fullName: Prowl.Runtime.GUI.Layout.LayoutNode.FitContentHeight
+- uid: Prowl.Runtime.GUI.Layout.LayoutNode.CenterContent*
+  commentId: Overload:Prowl.Runtime.GUI.Layout.LayoutNode.CenterContent
+  href: Prowl.Runtime.GUI.Layout.LayoutNode.html#Prowl_Runtime_GUI_Layout_LayoutNode_CenterContent
+  name: CenterContent
+  nameWithType: LayoutNode.CenterContent
+  fullName: Prowl.Runtime.GUI.Layout.LayoutNode.CenterContent
+- uid: Prowl.Runtime.GUI.Layout.LayoutNode.ScaleChildren*
+  commentId: Overload:Prowl.Runtime.GUI.Layout.LayoutNode.ScaleChildren
+  href: Prowl.Runtime.GUI.Layout.LayoutNode.html#Prowl_Runtime_GUI_Layout_LayoutNode_ScaleChildren
+  name: ScaleChildren
+  nameWithType: LayoutNode.ScaleChildren
+  fullName: Prowl.Runtime.GUI.Layout.LayoutNode.ScaleChildren
+- uid: Prowl.Runtime.GUI.Layout.LayoutNode.Expand*
+  commentId: Overload:Prowl.Runtime.GUI.Layout.LayoutNode.Expand
+  href: Prowl.Runtime.GUI.Layout.LayoutNode.html#Prowl_Runtime_GUI_Layout_LayoutNode_Expand_System_Double_System_Double_
+  name: Expand
+  nameWithType: LayoutNode.Expand
+  fullName: Prowl.Runtime.GUI.Layout.LayoutNode.Expand
+- uid: Prowl.Runtime.GUI.Layout.LayoutNode.ExpandWidth*
+  commentId: Overload:Prowl.Runtime.GUI.Layout.LayoutNode.ExpandWidth
+  href: Prowl.Runtime.GUI.Layout.LayoutNode.html#Prowl_Runtime_GUI_Layout_LayoutNode_ExpandWidth_System_Double_
+  name: ExpandWidth
+  nameWithType: LayoutNode.ExpandWidth
+  fullName: Prowl.Runtime.GUI.Layout.LayoutNode.ExpandWidth
+- uid: Prowl.Runtime.GUI.Layout.LayoutNode.ExpandHeight*
+  commentId: Overload:Prowl.Runtime.GUI.Layout.LayoutNode.ExpandHeight
+  href: Prowl.Runtime.GUI.Layout.LayoutNode.html#Prowl_Runtime_GUI_Layout_LayoutNode_ExpandHeight_System_Double_
+  name: ExpandHeight
+  nameWithType: LayoutNode.ExpandHeight
+  fullName: Prowl.Runtime.GUI.Layout.LayoutNode.ExpandHeight
+- uid: Prowl.Runtime.GUI.Layout.LayoutNode.Scale*
+  commentId: Overload:Prowl.Runtime.GUI.Layout.LayoutNode.Scale
+  href: Prowl.Runtime.GUI.Layout.LayoutNode.html#Prowl_Runtime_GUI_Layout_LayoutNode_Scale_Prowl_Runtime_GUI_Size_
+  name: Scale
+  nameWithType: LayoutNode.Scale
+  fullName: Prowl.Runtime.GUI.Layout.LayoutNode.Scale
+- uid: Prowl.Runtime.GUI.Layout.LayoutNode.Width*
+  commentId: Overload:Prowl.Runtime.GUI.Layout.LayoutNode.Width
+  href: Prowl.Runtime.GUI.Layout.LayoutNode.html#Prowl_Runtime_GUI_Layout_LayoutNode_Width_Prowl_Runtime_GUI_Size_
+  name: Width
+  nameWithType: LayoutNode.Width
+  fullName: Prowl.Runtime.GUI.Layout.LayoutNode.Width
+- uid: Prowl.Runtime.GUI.Layout.LayoutNode.Height*
+  commentId: Overload:Prowl.Runtime.GUI.Layout.LayoutNode.Height
+  href: Prowl.Runtime.GUI.Layout.LayoutNode.html#Prowl_Runtime_GUI_Layout_LayoutNode_Height_Prowl_Runtime_GUI_Size_
+  name: Height
+  nameWithType: LayoutNode.Height
+  fullName: Prowl.Runtime.GUI.Layout.LayoutNode.Height
+- uid: Prowl.Runtime.GUI.Layout.LayoutNode.MaxWidth*
+  commentId: Overload:Prowl.Runtime.GUI.Layout.LayoutNode.MaxWidth
+  href: Prowl.Runtime.GUI.Layout.LayoutNode.html#Prowl_Runtime_GUI_Layout_LayoutNode_MaxWidth_Prowl_Runtime_GUI_Size_
+  name: MaxWidth
+  nameWithType: LayoutNode.MaxWidth
+  fullName: Prowl.Runtime.GUI.Layout.LayoutNode.MaxWidth
+- uid: Prowl.Runtime.GUI.Layout.LayoutNode.MaxHeight*
+  commentId: Overload:Prowl.Runtime.GUI.Layout.LayoutNode.MaxHeight
+  href: Prowl.Runtime.GUI.Layout.LayoutNode.html#Prowl_Runtime_GUI_Layout_LayoutNode_MaxHeight_Prowl_Runtime_GUI_Size_
+  name: MaxHeight
+  nameWithType: LayoutNode.MaxHeight
+  fullName: Prowl.Runtime.GUI.Layout.LayoutNode.MaxHeight
+- uid: Prowl.Runtime.GUI.Layout.LayoutNode.TopLeft*
+  commentId: Overload:Prowl.Runtime.GUI.Layout.LayoutNode.TopLeft
+  href: Prowl.Runtime.GUI.Layout.LayoutNode.html#Prowl_Runtime_GUI_Layout_LayoutNode_TopLeft_Prowl_Runtime_GUI_Offset_
+  name: TopLeft
+  nameWithType: LayoutNode.TopLeft
+  fullName: Prowl.Runtime.GUI.Layout.LayoutNode.TopLeft
+- uid: Prowl.Runtime.GUI.Offset
+  commentId: T:Prowl.Runtime.GUI.Offset
+  parent: Prowl.Runtime.GUI
+  href: Prowl.Runtime.GUI.Offset.html
+  name: Offset
+  nameWithType: Offset
+  fullName: Prowl.Runtime.GUI.Offset
+- uid: Prowl.Runtime.GUI.Layout.LayoutNode.Left*
+  commentId: Overload:Prowl.Runtime.GUI.Layout.LayoutNode.Left
+  href: Prowl.Runtime.GUI.Layout.LayoutNode.html#Prowl_Runtime_GUI_Layout_LayoutNode_Left_Prowl_Runtime_GUI_Offset_
+  name: Left
+  nameWithType: LayoutNode.Left
+  fullName: Prowl.Runtime.GUI.Layout.LayoutNode.Left
+- uid: Prowl.Runtime.GUI.Layout.LayoutNode.Top*
+  commentId: Overload:Prowl.Runtime.GUI.Layout.LayoutNode.Top
+  href: Prowl.Runtime.GUI.Layout.LayoutNode.html#Prowl_Runtime_GUI_Layout_LayoutNode_Top_Prowl_Runtime_GUI_Offset_
+  name: Top
+  nameWithType: LayoutNode.Top
+  fullName: Prowl.Runtime.GUI.Layout.LayoutNode.Top
+- uid: Prowl.Runtime.GUI.Layout.LayoutNode.IgnoreLayout*
+  commentId: Overload:Prowl.Runtime.GUI.Layout.LayoutNode.IgnoreLayout
+  href: Prowl.Runtime.GUI.Layout.LayoutNode.html#Prowl_Runtime_GUI_Layout_LayoutNode_IgnoreLayout
+  name: IgnoreLayout
+  nameWithType: LayoutNode.IgnoreLayout
+  fullName: Prowl.Runtime.GUI.Layout.LayoutNode.IgnoreLayout
+- uid: Prowl.Runtime.GUI.Layout.LayoutNode.Clip*
+  commentId: Overload:Prowl.Runtime.GUI.Layout.LayoutNode.Clip
+  href: Prowl.Runtime.GUI.Layout.LayoutNode.html#Prowl_Runtime_GUI_Layout_LayoutNode_Clip_System_Boolean_
+  name: Clip
+  nameWithType: LayoutNode.Clip
+  fullName: Prowl.Runtime.GUI.Layout.LayoutNode.Clip
+- uid: Prowl.Runtime.GUI.Layout.LayoutNode.Scroll*
+  commentId: Overload:Prowl.Runtime.GUI.Layout.LayoutNode.Scroll
+  href: Prowl.Runtime.GUI.Layout.LayoutNode.html#Prowl_Runtime_GUI_Layout_LayoutNode_Scroll_System_Boolean_System_Boolean_
+  name: Scroll
+  nameWithType: LayoutNode.Scroll
+  fullName: Prowl.Runtime.GUI.Layout.LayoutNode.Scroll
+- uid: Prowl.Runtime.GUI.Layout.LayoutNode.Margin*
+  commentId: Overload:Prowl.Runtime.GUI.Layout.LayoutNode.Margin
+  href: Prowl.Runtime.GUI.Layout.LayoutNode.html#Prowl_Runtime_GUI_Layout_LayoutNode_Margin_Prowl_Runtime_GUI_Offset_
+  name: Margin
+  nameWithType: LayoutNode.Margin
+  fullName: Prowl.Runtime.GUI.Layout.LayoutNode.Margin
+- uid: Prowl.Runtime.GUI.Layout.LayoutNode.MarginTop*
+  commentId: Overload:Prowl.Runtime.GUI.Layout.LayoutNode.MarginTop
+  href: Prowl.Runtime.GUI.Layout.LayoutNode.html#Prowl_Runtime_GUI_Layout_LayoutNode_MarginTop_Prowl_Runtime_GUI_Offset_
+  name: MarginTop
+  nameWithType: LayoutNode.MarginTop
+  fullName: Prowl.Runtime.GUI.Layout.LayoutNode.MarginTop
+- uid: Prowl.Runtime.GUI.Layout.LayoutNode.MarginRight*
+  commentId: Overload:Prowl.Runtime.GUI.Layout.LayoutNode.MarginRight
+  href: Prowl.Runtime.GUI.Layout.LayoutNode.html#Prowl_Runtime_GUI_Layout_LayoutNode_MarginRight_Prowl_Runtime_GUI_Offset_
+  name: MarginRight
+  nameWithType: LayoutNode.MarginRight
+  fullName: Prowl.Runtime.GUI.Layout.LayoutNode.MarginRight
+- uid: Prowl.Runtime.GUI.Layout.LayoutNode.MarginBottom*
+  commentId: Overload:Prowl.Runtime.GUI.Layout.LayoutNode.MarginBottom
+  href: Prowl.Runtime.GUI.Layout.LayoutNode.html#Prowl_Runtime_GUI_Layout_LayoutNode_MarginBottom_Prowl_Runtime_GUI_Offset_
+  name: MarginBottom
+  nameWithType: LayoutNode.MarginBottom
+  fullName: Prowl.Runtime.GUI.Layout.LayoutNode.MarginBottom
+- uid: Prowl.Runtime.GUI.Layout.LayoutNode.MarginLeft*
+  commentId: Overload:Prowl.Runtime.GUI.Layout.LayoutNode.MarginLeft
+  href: Prowl.Runtime.GUI.Layout.LayoutNode.html#Prowl_Runtime_GUI_Layout_LayoutNode_MarginLeft_Prowl_Runtime_GUI_Offset_
+  name: MarginLeft
+  nameWithType: LayoutNode.MarginLeft
+  fullName: Prowl.Runtime.GUI.Layout.LayoutNode.MarginLeft
+- uid: Prowl.Runtime.GUI.Layout.LayoutNode.Padding*
+  commentId: Overload:Prowl.Runtime.GUI.Layout.LayoutNode.Padding
+  href: Prowl.Runtime.GUI.Layout.LayoutNode.html#Prowl_Runtime_GUI_Layout_LayoutNode_Padding_Prowl_Runtime_GUI_Offset_
+  name: Padding
+  nameWithType: LayoutNode.Padding
+  fullName: Prowl.Runtime.GUI.Layout.LayoutNode.Padding
+- uid: Prowl.Runtime.GUI.Layout.LayoutNode.PaddingTop*
+  commentId: Overload:Prowl.Runtime.GUI.Layout.LayoutNode.PaddingTop
+  href: Prowl.Runtime.GUI.Layout.LayoutNode.html#Prowl_Runtime_GUI_Layout_LayoutNode_PaddingTop_Prowl_Runtime_GUI_Offset_
+  name: PaddingTop
+  nameWithType: LayoutNode.PaddingTop
+  fullName: Prowl.Runtime.GUI.Layout.LayoutNode.PaddingTop
+- uid: Prowl.Runtime.GUI.Layout.LayoutNode.PaddingRight*
+  commentId: Overload:Prowl.Runtime.GUI.Layout.LayoutNode.PaddingRight
+  href: Prowl.Runtime.GUI.Layout.LayoutNode.html#Prowl_Runtime_GUI_Layout_LayoutNode_PaddingRight_Prowl_Runtime_GUI_Offset_
+  name: PaddingRight
+  nameWithType: LayoutNode.PaddingRight
+  fullName: Prowl.Runtime.GUI.Layout.LayoutNode.PaddingRight
+- uid: Prowl.Runtime.GUI.Layout.LayoutNode.PaddingBottom*
+  commentId: Overload:Prowl.Runtime.GUI.Layout.LayoutNode.PaddingBottom
+  href: Prowl.Runtime.GUI.Layout.LayoutNode.html#Prowl_Runtime_GUI_Layout_LayoutNode_PaddingBottom_Prowl_Runtime_GUI_Offset_
+  name: PaddingBottom
+  nameWithType: LayoutNode.PaddingBottom
+  fullName: Prowl.Runtime.GUI.Layout.LayoutNode.PaddingBottom
+- uid: Prowl.Runtime.GUI.Layout.LayoutNode.PaddingLeft*
+  commentId: Overload:Prowl.Runtime.GUI.Layout.LayoutNode.PaddingLeft
+  href: Prowl.Runtime.GUI.Layout.LayoutNode.html#Prowl_Runtime_GUI_Layout_LayoutNode_PaddingLeft_Prowl_Runtime_GUI_Offset_
+  name: PaddingLeft
+  nameWithType: LayoutNode.PaddingLeft
+  fullName: Prowl.Runtime.GUI.Layout.LayoutNode.PaddingLeft
+- uid: Prowl.Runtime.GUI.Layout.LayoutNode.PositionRelativeTo*
+  commentId: Overload:Prowl.Runtime.GUI.Layout.LayoutNode.PositionRelativeTo
+  href: Prowl.Runtime.GUI.Layout.LayoutNode.html#Prowl_Runtime_GUI_Layout_LayoutNode_PositionRelativeTo_Prowl_Runtime_GUI_Layout_LayoutNode_
+  name: PositionRelativeTo
+  nameWithType: LayoutNode.PositionRelativeTo
+  fullName: Prowl.Runtime.GUI.Layout.LayoutNode.PositionRelativeTo
+- uid: Prowl.Runtime.GUI.Layout.LayoutNode.SizeRelativeTo*
+  commentId: Overload:Prowl.Runtime.GUI.Layout.LayoutNode.SizeRelativeTo
+  href: Prowl.Runtime.GUI.Layout.LayoutNode.html#Prowl_Runtime_GUI_Layout_LayoutNode_SizeRelativeTo_Prowl_Runtime_GUI_Layout_LayoutNode_
+  name: SizeRelativeTo
+  nameWithType: LayoutNode.SizeRelativeTo
+  fullName: Prowl.Runtime.GUI.Layout.LayoutNode.SizeRelativeTo
+- uid: Prowl.Runtime.GUI.Layout.LayoutNode.Enter*
+  commentId: Overload:Prowl.Runtime.GUI.Layout.LayoutNode.Enter
+  href: Prowl.Runtime.GUI.Layout.LayoutNode.html#Prowl_Runtime_GUI_Layout_LayoutNode_Enter
+  name: Enter
+  nameWithType: LayoutNode.Enter
+  fullName: Prowl.Runtime.GUI.Layout.LayoutNode.Enter
+- uid: Prowl.Runtime.GUI.LayoutNodeScope
+  commentId: T:Prowl.Runtime.GUI.LayoutNodeScope
+  parent: Prowl.Runtime.GUI
+  href: Prowl.Runtime.GUI.LayoutNodeScope.html
+  name: LayoutNodeScope
+  nameWithType: LayoutNodeScope
+  fullName: Prowl.Runtime.GUI.LayoutNodeScope
+- uid: Prowl.Runtime.GUI.Layout.LayoutNode.SetNewParent*
+  commentId: Overload:Prowl.Runtime.GUI.Layout.LayoutNode.SetNewParent
+  href: Prowl.Runtime.GUI.Layout.LayoutNode.html#Prowl_Runtime_GUI_Layout_LayoutNode_SetNewParent_Prowl_Runtime_GUI_Layout_LayoutNode_
+  name: SetNewParent
+  nameWithType: LayoutNode.SetNewParent
+  fullName: Prowl.Runtime.GUI.Layout.LayoutNode.SetNewParent
+- uid: Prowl.Runtime.GUI.Layout.LayoutNode.AppendNode*
+  commentId: Overload:Prowl.Runtime.GUI.Layout.LayoutNode.AppendNode
+  href: Prowl.Runtime.GUI.Layout.LayoutNode.html#Prowl_Runtime_GUI_Layout_LayoutNode_AppendNode_System_String_
+  name: AppendNode
+  nameWithType: LayoutNode.AppendNode
+  fullName: Prowl.Runtime.GUI.Layout.LayoutNode.AppendNode
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: Prowl.Runtime.GUI.Layout.LayoutNode.HasLayoutData*
+  commentId: Overload:Prowl.Runtime.GUI.Layout.LayoutNode.HasLayoutData
+  href: Prowl.Runtime.GUI.Layout.LayoutNode.html#Prowl_Runtime_GUI_Layout_LayoutNode_HasLayoutData
+  name: HasLayoutData
+  nameWithType: LayoutNode.HasLayoutData
+  fullName: Prowl.Runtime.GUI.Layout.LayoutNode.HasLayoutData
+- uid: Prowl.Runtime.GUI.Layout.LayoutNode.LayoutData*
+  commentId: Overload:Prowl.Runtime.GUI.Layout.LayoutNode.LayoutData
+  href: Prowl.Runtime.GUI.Layout.LayoutNode.html#Prowl_Runtime_GUI_Layout_LayoutNode_LayoutData
+  name: LayoutData
+  nameWithType: LayoutNode.LayoutData
+  fullName: Prowl.Runtime.GUI.Layout.LayoutNode.LayoutData
+- uid: Prowl.Runtime.GUI.Layout.LayoutNode.PostLayoutData
+  commentId: T:Prowl.Runtime.GUI.Layout.LayoutNode.PostLayoutData
+  parent: Prowl.Runtime.GUI.Layout
+  href: Prowl.Runtime.GUI.Layout.LayoutNode.html
+  name: LayoutNode.PostLayoutData
+  nameWithType: LayoutNode.PostLayoutData
+  fullName: Prowl.Runtime.GUI.Layout.LayoutNode.PostLayoutData
+  spec.csharp:
+  - uid: Prowl.Runtime.GUI.Layout.LayoutNode
+    name: LayoutNode
+    href: Prowl.Runtime.GUI.Layout.LayoutNode.html
+  - name: .
+  - uid: Prowl.Runtime.GUI.Layout.LayoutNode.PostLayoutData
+    name: PostLayoutData
+    href: Prowl.Runtime.GUI.Layout.LayoutNode.PostLayoutData.html
+  spec.vb:
+  - uid: Prowl.Runtime.GUI.Layout.LayoutNode
+    name: LayoutNode
+    href: Prowl.Runtime.GUI.Layout.LayoutNode.html
+  - name: .
+  - uid: Prowl.Runtime.GUI.Layout.LayoutNode.PostLayoutData
+    name: PostLayoutData
+    href: Prowl.Runtime.GUI.Layout.LayoutNode.PostLayoutData.html
+- uid: Prowl.Runtime.GUI.Layout.LayoutNode.Gui*
+  commentId: Overload:Prowl.Runtime.GUI.Layout.LayoutNode.Gui
+  href: Prowl.Runtime.GUI.Layout.LayoutNode.html#Prowl_Runtime_GUI_Layout_LayoutNode_Gui
+  name: Gui
+  nameWithType: LayoutNode.Gui
+  fullName: Prowl.Runtime.GUI.Layout.LayoutNode.Gui
+- uid: Prowl.Runtime.GUI.Gui
+  commentId: T:Prowl.Runtime.GUI.Gui
+  parent: Prowl.Runtime.GUI
+  href: Prowl.Runtime.GUI.Gui.html
+  name: Gui
+  nameWithType: Gui
+  fullName: Prowl.Runtime.GUI.Gui
+- uid: Prowl.Runtime.GUI.Layout.LayoutNode.Parent*
+  commentId: Overload:Prowl.Runtime.GUI.Layout.LayoutNode.Parent
+  href: Prowl.Runtime.GUI.Layout.LayoutNode.html#Prowl_Runtime_GUI_Layout_LayoutNode_Parent
+  name: Parent
+  nameWithType: LayoutNode.Parent
+  fullName: Prowl.Runtime.GUI.Layout.LayoutNode.Parent
+- uid: Prowl.Runtime.GUI.Layout.LayoutNode.VScroll*
+  commentId: Overload:Prowl.Runtime.GUI.Layout.LayoutNode.VScroll
+  href: Prowl.Runtime.GUI.Layout.LayoutNode.html#Prowl_Runtime_GUI_Layout_LayoutNode_VScroll
+  name: VScroll
+  nameWithType: LayoutNode.VScroll
+  fullName: Prowl.Runtime.GUI.Layout.LayoutNode.VScroll
+- uid: Prowl.Runtime.GUI.Layout.LayoutNode.HScroll*
+  commentId: Overload:Prowl.Runtime.GUI.Layout.LayoutNode.HScroll
+  href: Prowl.Runtime.GUI.Layout.LayoutNode.html#Prowl_Runtime_GUI_Layout_LayoutNode_HScroll
+  name: HScroll
+  nameWithType: LayoutNode.HScroll
+  fullName: Prowl.Runtime.GUI.Layout.LayoutNode.HScroll
+- uid: Prowl.Runtime.GUI.Layout.LayoutNode.ID*
+  commentId: Overload:Prowl.Runtime.GUI.Layout.LayoutNode.ID
+  href: Prowl.Runtime.GUI.Layout.LayoutNode.html#Prowl_Runtime_GUI_Layout_LayoutNode_ID
+  name: ID
+  nameWithType: LayoutNode.ID
+  fullName: Prowl.Runtime.GUI.Layout.LayoutNode.ID
+- uid: System.UInt64
+  commentId: T:System.UInt64
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.uint64
+  name: ulong
+  nameWithType: ulong
+  fullName: ulong
+  nameWithType.vb: ULong
+  fullName.vb: ULong
+  name.vb: ULong
+- uid: Prowl.Runtime.GUI.Layout.LayoutNode.#ctor*
+  commentId: Overload:Prowl.Runtime.GUI.Layout.LayoutNode.#ctor
+  href: Prowl.Runtime.GUI.Layout.LayoutNode.html#Prowl_Runtime_GUI_Layout_LayoutNode__ctor_Prowl_Runtime_GUI_Layout_LayoutNode_Prowl_Runtime_GUI_Gui_System_UInt64_
+  name: LayoutNode
+  nameWithType: LayoutNode.LayoutNode
+  fullName: Prowl.Runtime.GUI.Layout.LayoutNode.LayoutNode
+  nameWithType.vb: LayoutNode.New
+  fullName.vb: Prowl.Runtime.GUI.Layout.LayoutNode.New
+  name.vb: New
+- uid: Prowl.Runtime.GUI.Layout.LayoutNode.GetNextAnimation*
+  commentId: Overload:Prowl.Runtime.GUI.Layout.LayoutNode.GetNextAnimation
+  href: Prowl.Runtime.GUI.Layout.LayoutNode.html#Prowl_Runtime_GUI_Layout_LayoutNode_GetNextAnimation
+  name: GetNextAnimation
+  nameWithType: LayoutNode.GetNextAnimation
+  fullName: Prowl.Runtime.GUI.Layout.LayoutNode.GetNextAnimation
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: Prowl.Runtime.GUI.Layout.LayoutNode.UpdateCache*
+  commentId: Overload:Prowl.Runtime.GUI.Layout.LayoutNode.UpdateCache
+  href: Prowl.Runtime.GUI.Layout.LayoutNode.html#Prowl_Runtime_GUI_Layout_LayoutNode_UpdateCache
+  name: UpdateCache
+  nameWithType: LayoutNode.UpdateCache
+  fullName: Prowl.Runtime.GUI.Layout.LayoutNode.UpdateCache
+- uid: Prowl.Runtime.GUI.Layout.LayoutNode.UpdateScaleCache*
+  commentId: Overload:Prowl.Runtime.GUI.Layout.LayoutNode.UpdateScaleCache
+  href: Prowl.Runtime.GUI.Layout.LayoutNode.html#Prowl_Runtime_GUI_Layout_LayoutNode_UpdateScaleCache
+  name: UpdateScaleCache
+  nameWithType: LayoutNode.UpdateScaleCache
+  fullName: Prowl.Runtime.GUI.Layout.LayoutNode.UpdateScaleCache
+- uid: Prowl.Runtime.GUI.Layout.LayoutNode.UpdatePositionCache*
+  commentId: Overload:Prowl.Runtime.GUI.Layout.LayoutNode.UpdatePositionCache
+  href: Prowl.Runtime.GUI.Layout.LayoutNode.html#Prowl_Runtime_GUI_Layout_LayoutNode_UpdatePositionCache
+  name: UpdatePositionCache
+  nameWithType: LayoutNode.UpdatePositionCache
+  fullName: Prowl.Runtime.GUI.Layout.LayoutNode.UpdatePositionCache
+- uid: Prowl.Runtime.GUI.Layout.LayoutNode.ProcessLayout*
+  commentId: Overload:Prowl.Runtime.GUI.Layout.LayoutNode.ProcessLayout
+  href: Prowl.Runtime.GUI.Layout.LayoutNode.html#Prowl_Runtime_GUI_Layout_LayoutNode_ProcessLayout
+  name: ProcessLayout
+  nameWithType: LayoutNode.ProcessLayout
+  fullName: Prowl.Runtime.GUI.Layout.LayoutNode.ProcessLayout
+- uid: Prowl.Runtime.GUI.Layout.LayoutNode.ApplyFitContent*
+  commentId: Overload:Prowl.Runtime.GUI.Layout.LayoutNode.ApplyFitContent
+  href: Prowl.Runtime.GUI.Layout.LayoutNode.html#Prowl_Runtime_GUI_Layout_LayoutNode_ApplyFitContent
+  name: ApplyFitContent
+  nameWithType: LayoutNode.ApplyFitContent
+  fullName: Prowl.Runtime.GUI.Layout.LayoutNode.ApplyFitContent
+- uid: Prowl.Runtime.GUI.Layout.LayoutNode.GetHashCode64*
+  commentId: Overload:Prowl.Runtime.GUI.Layout.LayoutNode.GetHashCode64
+  href: Prowl.Runtime.GUI.Layout.LayoutNode.html#Prowl_Runtime_GUI_Layout_LayoutNode_GetHashCode64
+  name: GetHashCode64
+  nameWithType: LayoutNode.GetHashCode64
+  fullName: Prowl.Runtime.GUI.Layout.LayoutNode.GetHashCode64

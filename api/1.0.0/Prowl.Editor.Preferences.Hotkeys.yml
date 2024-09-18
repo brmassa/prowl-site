@@ -1,0 +1,921 @@
+### YamlMime:ManagedReference
+items:
+- uid: Prowl.Editor.Preferences.Hotkeys
+  commentId: T:Prowl.Editor.Preferences.Hotkeys
+  id: Hotkeys
+  parent: Prowl.Editor.Preferences
+  children:
+  - Prowl.Editor.Preferences.Hotkeys.IsHotkeyDown(System.String,Prowl.Editor.Preferences.Hotkeys.Hotkey)
+  - Prowl.Editor.Preferences.Hotkeys.hotkeys
+  langs:
+  - csharp
+  - vb
+  name: Hotkeys
+  nameWithType: Hotkeys
+  fullName: Prowl.Editor.Preferences.Hotkeys
+  type: Class
+  source:
+    remote:
+      path: Prowl.Editor/Editor/Preferences/HotkeysPreferences.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Hotkeys
+    path: ../Prowl/Prowl.Editor/Editor/Preferences/HotkeysPreferences.cs
+    startLine: 8
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor.Preferences
+  syntax:
+    content: >-
+      [FilePath("Hotkeys.pref", FilePathAttribute.Location.EditorPreference)]
+
+      public class Hotkeys : ScriptableSingleton<Hotkeys>
+    content.vb: >-
+      <FilePath("Hotkeys.pref", FilePathAttribute.Location.EditorPreference)>
+
+      Public Class Hotkeys Inherits ScriptableSingleton(Of Hotkeys)
+  inheritance:
+  - System.Object
+  - Prowl.Runtime.Utils.ScriptableSingleton{Prowl.Editor.Preferences.Hotkeys}
+  inheritedMembers:
+  - Prowl.Runtime.Utils.ScriptableSingleton{Prowl.Editor.Preferences.Hotkeys}._instance
+  - Prowl.Runtime.Utils.ScriptableSingleton{Prowl.Editor.Preferences.Hotkeys}.Instance
+  - Prowl.Runtime.Utils.ScriptableSingleton{Prowl.Editor.Preferences.Hotkeys}.OnValidate
+  - Prowl.Runtime.Utils.ScriptableSingleton{Prowl.Editor.Preferences.Hotkeys}.Save
+  - Prowl.Runtime.Utils.ScriptableSingleton{Prowl.Editor.Preferences.Hotkeys}.GetFilePath(System.String)
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  extensionMethods:
+  - System.Object.Prowl.Runtime.RuntimeUtils.GetSerializableFields
+  attributes:
+  - type: Prowl.Runtime.Utils.FilePathAttribute
+    ctor: Prowl.Runtime.Utils.FilePathAttribute.#ctor(System.String,Prowl.Runtime.Utils.FilePathAttribute.Location)
+    arguments:
+    - type: System.String
+      value: Hotkeys.pref
+    - type: Prowl.Runtime.Utils.FilePathAttribute.Location
+      value: 3
+- uid: Prowl.Editor.Preferences.Hotkeys.hotkeys
+  commentId: P:Prowl.Editor.Preferences.Hotkeys.hotkeys
+  id: hotkeys
+  parent: Prowl.Editor.Preferences.Hotkeys
+  langs:
+  - csharp
+  - vb
+  name: hotkeys
+  nameWithType: Hotkeys.hotkeys
+  fullName: Prowl.Editor.Preferences.Hotkeys.hotkeys
+  type: Property
+  source:
+    remote:
+      path: Prowl.Editor/Editor/Preferences/HotkeysPreferences.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: hotkeys
+    path: ../Prowl/Prowl.Editor/Editor/Preferences/HotkeysPreferences.cs
+    startLine: 20
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor.Preferences
+  syntax:
+    content: public Dictionary<string, Hotkeys.Hotkey> hotkeys { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.Dictionary{System.String,Prowl.Editor.Preferences.Hotkeys.Hotkey}
+    content.vb: Public Property hotkeys As Dictionary(Of String, Hotkeys.Hotkey)
+  overload: Prowl.Editor.Preferences.Hotkeys.hotkeys*
+- uid: Prowl.Editor.Preferences.Hotkeys.IsHotkeyDown(System.String,Prowl.Editor.Preferences.Hotkeys.Hotkey)
+  commentId: M:Prowl.Editor.Preferences.Hotkeys.IsHotkeyDown(System.String,Prowl.Editor.Preferences.Hotkeys.Hotkey)
+  id: IsHotkeyDown(System.String,Prowl.Editor.Preferences.Hotkeys.Hotkey)
+  parent: Prowl.Editor.Preferences.Hotkeys
+  langs:
+  - csharp
+  - vb
+  name: IsHotkeyDown(string, Hotkey)
+  nameWithType: Hotkeys.IsHotkeyDown(string, Hotkeys.Hotkey)
+  fullName: Prowl.Editor.Preferences.Hotkeys.IsHotkeyDown(string, Prowl.Editor.Preferences.Hotkeys.Hotkey)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Editor/Editor/Preferences/HotkeysPreferences.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: IsHotkeyDown
+    path: ../Prowl/Prowl.Editor/Editor/Preferences/HotkeysPreferences.cs
+    startLine: 22
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor.Preferences
+  syntax:
+    content: public static bool IsHotkeyDown(string name, Hotkeys.Hotkey defaultKey)
+    parameters:
+    - id: name
+      type: System.String
+    - id: defaultKey
+      type: Prowl.Editor.Preferences.Hotkeys.Hotkey
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function IsHotkeyDown(name As String, defaultKey As Hotkeys.Hotkey) As Boolean
+  overload: Prowl.Editor.Preferences.Hotkeys.IsHotkeyDown*
+  nameWithType.vb: Hotkeys.IsHotkeyDown(String, Hotkeys.Hotkey)
+  fullName.vb: Prowl.Editor.Preferences.Hotkeys.IsHotkeyDown(String, Prowl.Editor.Preferences.Hotkeys.Hotkey)
+  name.vb: IsHotkeyDown(String, Hotkey)
+references:
+- uid: Prowl.Editor.Preferences
+  commentId: N:Prowl.Editor.Preferences
+  href: Prowl.html
+  name: Prowl.Editor.Preferences
+  nameWithType: Prowl.Editor.Preferences
+  fullName: Prowl.Editor.Preferences
+  spec.csharp:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Editor
+    name: Editor
+    href: Prowl.Editor.html
+  - name: .
+  - uid: Prowl.Editor.Preferences
+    name: Preferences
+    href: Prowl.Editor.Preferences.html
+  spec.vb:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Editor
+    name: Editor
+    href: Prowl.Editor.html
+  - name: .
+  - uid: Prowl.Editor.Preferences
+    name: Preferences
+    href: Prowl.Editor.Preferences.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Prowl.Runtime.Utils.ScriptableSingleton{Prowl.Editor.Preferences.Hotkeys}
+  commentId: T:Prowl.Runtime.Utils.ScriptableSingleton{Prowl.Editor.Preferences.Hotkeys}
+  parent: Prowl.Runtime.Utils
+  definition: Prowl.Runtime.Utils.ScriptableSingleton`1
+  href: Prowl.Editor.Preferences.Hotkeys.html
+  name: ScriptableSingleton<Hotkeys>
+  nameWithType: ScriptableSingleton<Hotkeys>
+  fullName: Prowl.Runtime.Utils.ScriptableSingleton<Prowl.Editor.Preferences.Hotkeys>
+  nameWithType.vb: ScriptableSingleton(Of Hotkeys)
+  fullName.vb: Prowl.Runtime.Utils.ScriptableSingleton(Of Prowl.Editor.Preferences.Hotkeys)
+  name.vb: ScriptableSingleton(Of Hotkeys)
+  spec.csharp:
+  - uid: Prowl.Runtime.Utils.ScriptableSingleton`1
+    name: ScriptableSingleton
+  - name: <
+  - uid: Prowl.Editor.Preferences.Hotkeys
+    name: Hotkeys
+    href: Prowl.Editor.Preferences.Hotkeys.html
+  - name: '>'
+  spec.vb:
+  - uid: Prowl.Runtime.Utils.ScriptableSingleton`1
+    name: ScriptableSingleton
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Prowl.Editor.Preferences.Hotkeys
+    name: Hotkeys
+    href: Prowl.Editor.Preferences.Hotkeys.html
+  - name: )
+- uid: Prowl.Runtime.Utils.ScriptableSingleton{Prowl.Editor.Preferences.Hotkeys}._instance
+  commentId: F:Prowl.Runtime.Utils.ScriptableSingleton{Prowl.Editor.Preferences.Hotkeys}._instance
+  parent: Prowl.Runtime.Utils.ScriptableSingleton{Prowl.Editor.Preferences.Hotkeys}
+  definition: Prowl.Runtime.Utils.ScriptableSingleton`1._instance
+  name: _instance
+  nameWithType: ScriptableSingleton<Hotkeys>._instance
+  fullName: Prowl.Runtime.Utils.ScriptableSingleton<Prowl.Editor.Preferences.Hotkeys>._instance
+  nameWithType.vb: ScriptableSingleton(Of Hotkeys)._instance
+  fullName.vb: Prowl.Runtime.Utils.ScriptableSingleton(Of Prowl.Editor.Preferences.Hotkeys)._instance
+- uid: Prowl.Runtime.Utils.ScriptableSingleton{Prowl.Editor.Preferences.Hotkeys}.Instance
+  commentId: P:Prowl.Runtime.Utils.ScriptableSingleton{Prowl.Editor.Preferences.Hotkeys}.Instance
+  parent: Prowl.Runtime.Utils.ScriptableSingleton{Prowl.Editor.Preferences.Hotkeys}
+  definition: Prowl.Runtime.Utils.ScriptableSingleton`1.Instance
+  name: Instance
+  nameWithType: ScriptableSingleton<Hotkeys>.Instance
+  fullName: Prowl.Runtime.Utils.ScriptableSingleton<Prowl.Editor.Preferences.Hotkeys>.Instance
+  nameWithType.vb: ScriptableSingleton(Of Hotkeys).Instance
+  fullName.vb: Prowl.Runtime.Utils.ScriptableSingleton(Of Prowl.Editor.Preferences.Hotkeys).Instance
+- uid: Prowl.Runtime.Utils.ScriptableSingleton{Prowl.Editor.Preferences.Hotkeys}.OnValidate
+  commentId: M:Prowl.Runtime.Utils.ScriptableSingleton{Prowl.Editor.Preferences.Hotkeys}.OnValidate
+  parent: Prowl.Runtime.Utils.ScriptableSingleton{Prowl.Editor.Preferences.Hotkeys}
+  definition: Prowl.Runtime.Utils.ScriptableSingleton`1.OnValidate
+  name: OnValidate()
+  nameWithType: ScriptableSingleton<Hotkeys>.OnValidate()
+  fullName: Prowl.Runtime.Utils.ScriptableSingleton<Prowl.Editor.Preferences.Hotkeys>.OnValidate()
+  nameWithType.vb: ScriptableSingleton(Of Hotkeys).OnValidate()
+  fullName.vb: Prowl.Runtime.Utils.ScriptableSingleton(Of Prowl.Editor.Preferences.Hotkeys).OnValidate()
+  spec.csharp:
+  - uid: Prowl.Runtime.Utils.ScriptableSingleton{Prowl.Editor.Preferences.Hotkeys}.OnValidate
+    name: OnValidate
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.Utils.ScriptableSingleton{Prowl.Editor.Preferences.Hotkeys}.OnValidate
+    name: OnValidate
+  - name: (
+  - name: )
+- uid: Prowl.Runtime.Utils.ScriptableSingleton{Prowl.Editor.Preferences.Hotkeys}.Save
+  commentId: M:Prowl.Runtime.Utils.ScriptableSingleton{Prowl.Editor.Preferences.Hotkeys}.Save
+  parent: Prowl.Runtime.Utils.ScriptableSingleton{Prowl.Editor.Preferences.Hotkeys}
+  definition: Prowl.Runtime.Utils.ScriptableSingleton`1.Save
+  name: Save()
+  nameWithType: ScriptableSingleton<Hotkeys>.Save()
+  fullName: Prowl.Runtime.Utils.ScriptableSingleton<Prowl.Editor.Preferences.Hotkeys>.Save()
+  nameWithType.vb: ScriptableSingleton(Of Hotkeys).Save()
+  fullName.vb: Prowl.Runtime.Utils.ScriptableSingleton(Of Prowl.Editor.Preferences.Hotkeys).Save()
+  spec.csharp:
+  - uid: Prowl.Runtime.Utils.ScriptableSingleton{Prowl.Editor.Preferences.Hotkeys}.Save
+    name: Save
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.Utils.ScriptableSingleton{Prowl.Editor.Preferences.Hotkeys}.Save
+    name: Save
+  - name: (
+  - name: )
+- uid: Prowl.Runtime.Utils.ScriptableSingleton{Prowl.Editor.Preferences.Hotkeys}.GetFilePath(System.String)
+  commentId: M:Prowl.Runtime.Utils.ScriptableSingleton{Prowl.Editor.Preferences.Hotkeys}.GetFilePath(System.String)
+  parent: Prowl.Runtime.Utils.ScriptableSingleton{Prowl.Editor.Preferences.Hotkeys}
+  definition: Prowl.Runtime.Utils.ScriptableSingleton`1.GetFilePath(System.String)
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: GetFilePath(string)
+  nameWithType: ScriptableSingleton<Hotkeys>.GetFilePath(string)
+  fullName: Prowl.Runtime.Utils.ScriptableSingleton<Prowl.Editor.Preferences.Hotkeys>.GetFilePath(string)
+  nameWithType.vb: ScriptableSingleton(Of Hotkeys).GetFilePath(String)
+  fullName.vb: Prowl.Runtime.Utils.ScriptableSingleton(Of Prowl.Editor.Preferences.Hotkeys).GetFilePath(String)
+  name.vb: GetFilePath(String)
+  spec.csharp:
+  - uid: Prowl.Runtime.Utils.ScriptableSingleton{Prowl.Editor.Preferences.Hotkeys}.GetFilePath(System.String)
+    name: GetFilePath
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.Utils.ScriptableSingleton{Prowl.Editor.Preferences.Hotkeys}.GetFilePath(System.String)
+    name: GetFilePath
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Prowl.Runtime.RuntimeUtils.GetSerializableFields
+  commentId: M:Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  parent: Prowl.Runtime.RuntimeUtils
+  definition: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  name: GetSerializableFields(object)
+  nameWithType: RuntimeUtils.GetSerializableFields(object)
+  fullName: Prowl.Runtime.RuntimeUtils.GetSerializableFields(object)
+  nameWithType.vb: RuntimeUtils.GetSerializableFields(Object)
+  fullName.vb: Prowl.Runtime.RuntimeUtils.GetSerializableFields(Object)
+  name.vb: GetSerializableFields(Object)
+  spec.csharp:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Prowl.Runtime.Utils.ScriptableSingleton`1
+  commentId: T:Prowl.Runtime.Utils.ScriptableSingleton`1
+  href: Prowl.Runtime.Utils.ScriptableSingleton-1.html
+  name: ScriptableSingleton<T>
+  nameWithType: ScriptableSingleton<T>
+  fullName: Prowl.Runtime.Utils.ScriptableSingleton<T>
+  nameWithType.vb: ScriptableSingleton(Of T)
+  fullName.vb: Prowl.Runtime.Utils.ScriptableSingleton(Of T)
+  name.vb: ScriptableSingleton(Of T)
+  spec.csharp:
+  - uid: Prowl.Runtime.Utils.ScriptableSingleton`1
+    name: ScriptableSingleton
+    href: Prowl.Runtime.Utils.ScriptableSingleton-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Prowl.Runtime.Utils.ScriptableSingleton`1
+    name: ScriptableSingleton
+    href: Prowl.Runtime.Utils.ScriptableSingleton-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Prowl.Runtime.Utils
+  commentId: N:Prowl.Runtime.Utils
+  href: Prowl.html
+  name: Prowl.Runtime.Utils
+  nameWithType: Prowl.Runtime.Utils
+  fullName: Prowl.Runtime.Utils
+  spec.csharp:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+  - name: .
+  - uid: Prowl.Runtime.Utils
+    name: Utils
+    href: Prowl.Runtime.Utils.html
+  spec.vb:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+  - name: .
+  - uid: Prowl.Runtime.Utils
+    name: Utils
+    href: Prowl.Runtime.Utils.html
+- uid: Prowl.Runtime.Utils.ScriptableSingleton`1._instance
+  commentId: F:Prowl.Runtime.Utils.ScriptableSingleton`1._instance
+  href: Prowl.Runtime.Utils.ScriptableSingleton-1.html#Prowl_Runtime_Utils_ScriptableSingleton_1__instance
+  name: _instance
+  nameWithType: ScriptableSingleton<T>._instance
+  fullName: Prowl.Runtime.Utils.ScriptableSingleton<T>._instance
+  nameWithType.vb: ScriptableSingleton(Of T)._instance
+  fullName.vb: Prowl.Runtime.Utils.ScriptableSingleton(Of T)._instance
+- uid: Prowl.Runtime.Utils.ScriptableSingleton`1.Instance
+  commentId: P:Prowl.Runtime.Utils.ScriptableSingleton`1.Instance
+  href: Prowl.Runtime.Utils.ScriptableSingleton-1.html#Prowl_Runtime_Utils_ScriptableSingleton_1_Instance
+  name: Instance
+  nameWithType: ScriptableSingleton<T>.Instance
+  fullName: Prowl.Runtime.Utils.ScriptableSingleton<T>.Instance
+  nameWithType.vb: ScriptableSingleton(Of T).Instance
+  fullName.vb: Prowl.Runtime.Utils.ScriptableSingleton(Of T).Instance
+- uid: Prowl.Runtime.Utils.ScriptableSingleton`1.OnValidate
+  commentId: M:Prowl.Runtime.Utils.ScriptableSingleton`1.OnValidate
+  href: Prowl.Runtime.Utils.ScriptableSingleton-1.html#Prowl_Runtime_Utils_ScriptableSingleton_1_OnValidate
+  name: OnValidate()
+  nameWithType: ScriptableSingleton<T>.OnValidate()
+  fullName: Prowl.Runtime.Utils.ScriptableSingleton<T>.OnValidate()
+  nameWithType.vb: ScriptableSingleton(Of T).OnValidate()
+  fullName.vb: Prowl.Runtime.Utils.ScriptableSingleton(Of T).OnValidate()
+  spec.csharp:
+  - uid: Prowl.Runtime.Utils.ScriptableSingleton`1.OnValidate
+    name: OnValidate
+    href: Prowl.Runtime.Utils.ScriptableSingleton-1.html#Prowl_Runtime_Utils_ScriptableSingleton_1_OnValidate
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.Utils.ScriptableSingleton`1.OnValidate
+    name: OnValidate
+    href: Prowl.Runtime.Utils.ScriptableSingleton-1.html#Prowl_Runtime_Utils_ScriptableSingleton_1_OnValidate
+  - name: (
+  - name: )
+- uid: Prowl.Runtime.Utils.ScriptableSingleton`1.Save
+  commentId: M:Prowl.Runtime.Utils.ScriptableSingleton`1.Save
+  href: Prowl.Runtime.Utils.ScriptableSingleton-1.html#Prowl_Runtime_Utils_ScriptableSingleton_1_Save
+  name: Save()
+  nameWithType: ScriptableSingleton<T>.Save()
+  fullName: Prowl.Runtime.Utils.ScriptableSingleton<T>.Save()
+  nameWithType.vb: ScriptableSingleton(Of T).Save()
+  fullName.vb: Prowl.Runtime.Utils.ScriptableSingleton(Of T).Save()
+  spec.csharp:
+  - uid: Prowl.Runtime.Utils.ScriptableSingleton`1.Save
+    name: Save
+    href: Prowl.Runtime.Utils.ScriptableSingleton-1.html#Prowl_Runtime_Utils_ScriptableSingleton_1_Save
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.Utils.ScriptableSingleton`1.Save
+    name: Save
+    href: Prowl.Runtime.Utils.ScriptableSingleton-1.html#Prowl_Runtime_Utils_ScriptableSingleton_1_Save
+  - name: (
+  - name: )
+- uid: Prowl.Runtime.Utils.ScriptableSingleton`1.GetFilePath(System.String)
+  commentId: M:Prowl.Runtime.Utils.ScriptableSingleton`1.GetFilePath(System.String)
+  isExternal: true
+  href: Prowl.Runtime.Utils.ScriptableSingleton-1.html#Prowl_Runtime_Utils_ScriptableSingleton_1_GetFilePath_System_String_
+  name: GetFilePath(string)
+  nameWithType: ScriptableSingleton<T>.GetFilePath(string)
+  fullName: Prowl.Runtime.Utils.ScriptableSingleton<T>.GetFilePath(string)
+  nameWithType.vb: ScriptableSingleton(Of T).GetFilePath(String)
+  fullName.vb: Prowl.Runtime.Utils.ScriptableSingleton(Of T).GetFilePath(String)
+  name.vb: GetFilePath(String)
+  spec.csharp:
+  - uid: Prowl.Runtime.Utils.ScriptableSingleton`1.GetFilePath(System.String)
+    name: GetFilePath
+    href: Prowl.Runtime.Utils.ScriptableSingleton-1.html#Prowl_Runtime_Utils_ScriptableSingleton_1_GetFilePath_System_String_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.Utils.ScriptableSingleton`1.GetFilePath(System.String)
+    name: GetFilePath
+    href: Prowl.Runtime.Utils.ScriptableSingleton-1.html#Prowl_Runtime_Utils_ScriptableSingleton_1_GetFilePath_System_String_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  commentId: M:Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  isExternal: true
+  href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  name: GetSerializableFields(object)
+  nameWithType: RuntimeUtils.GetSerializableFields(object)
+  fullName: Prowl.Runtime.RuntimeUtils.GetSerializableFields(object)
+  nameWithType.vb: RuntimeUtils.GetSerializableFields(Object)
+  fullName.vb: Prowl.Runtime.RuntimeUtils.GetSerializableFields(Object)
+  name.vb: GetSerializableFields(Object)
+  spec.csharp:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: Prowl.Runtime.RuntimeUtils
+  commentId: T:Prowl.Runtime.RuntimeUtils
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.RuntimeUtils.html
+  name: RuntimeUtils
+  nameWithType: RuntimeUtils
+  fullName: Prowl.Runtime.RuntimeUtils
+- uid: Prowl.Runtime
+  commentId: N:Prowl.Runtime
+  href: Prowl.html
+  name: Prowl.Runtime
+  nameWithType: Prowl.Runtime
+  fullName: Prowl.Runtime
+  spec.csharp:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+  spec.vb:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+- uid: Prowl.Editor.Preferences.Hotkeys.hotkeys*
+  commentId: Overload:Prowl.Editor.Preferences.Hotkeys.hotkeys
+  href: Prowl.Editor.Preferences.Hotkeys.html#Prowl_Editor_Preferences_Hotkeys_hotkeys
+  name: hotkeys
+  nameWithType: Hotkeys.hotkeys
+  fullName: Prowl.Editor.Preferences.Hotkeys.hotkeys
+- uid: System.Collections.Generic.Dictionary{System.String,Prowl.Editor.Preferences.Hotkeys.Hotkey}
+  commentId: T:System.Collections.Generic.Dictionary{System.String,Prowl.Editor.Preferences.Hotkeys.Hotkey}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.Dictionary`2
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  name: Dictionary<string, Hotkeys.Hotkey>
+  nameWithType: Dictionary<string, Hotkeys.Hotkey>
+  fullName: System.Collections.Generic.Dictionary<string, Prowl.Editor.Preferences.Hotkeys.Hotkey>
+  nameWithType.vb: Dictionary(Of String, Hotkeys.Hotkey)
+  fullName.vb: System.Collections.Generic.Dictionary(Of String, Prowl.Editor.Preferences.Hotkeys.Hotkey)
+  name.vb: Dictionary(Of String, Hotkeys.Hotkey)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: Prowl.Editor.Preferences.Hotkeys
+    name: Hotkeys
+    href: Prowl.Editor.Preferences.Hotkeys.html
+  - name: .
+  - uid: Prowl.Editor.Preferences.Hotkeys.Hotkey
+    name: Hotkey
+    href: Prowl.Editor.Preferences.Hotkeys.Hotkey.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: Prowl.Editor.Preferences.Hotkeys
+    name: Hotkeys
+    href: Prowl.Editor.Preferences.Hotkeys.html
+  - name: .
+  - uid: Prowl.Editor.Preferences.Hotkeys.Hotkey
+    name: Hotkey
+    href: Prowl.Editor.Preferences.Hotkeys.Hotkey.html
+  - name: )
+- uid: System.Collections.Generic.Dictionary`2
+  commentId: T:System.Collections.Generic.Dictionary`2
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  name: Dictionary<TKey, TValue>
+  nameWithType: Dictionary<TKey, TValue>
+  fullName: System.Collections.Generic.Dictionary<TKey, TValue>
+  nameWithType.vb: Dictionary(Of TKey, TValue)
+  fullName.vb: System.Collections.Generic.Dictionary(Of TKey, TValue)
+  name.vb: Dictionary(Of TKey, TValue)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  - name: <
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: Prowl.Editor.Preferences.Hotkeys.IsHotkeyDown*
+  commentId: Overload:Prowl.Editor.Preferences.Hotkeys.IsHotkeyDown
+  href: Prowl.Editor.Preferences.Hotkeys.html#Prowl_Editor_Preferences_Hotkeys_IsHotkeyDown_System_String_Prowl_Editor_Preferences_Hotkeys_Hotkey_
+  name: IsHotkeyDown
+  nameWithType: Hotkeys.IsHotkeyDown
+  fullName: Prowl.Editor.Preferences.Hotkeys.IsHotkeyDown
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: Prowl.Editor.Preferences.Hotkeys.Hotkey
+  commentId: T:Prowl.Editor.Preferences.Hotkeys.Hotkey
+  parent: Prowl.Editor.Preferences
+  href: Prowl.Editor.Preferences.Hotkeys.html
+  name: Hotkeys.Hotkey
+  nameWithType: Hotkeys.Hotkey
+  fullName: Prowl.Editor.Preferences.Hotkeys.Hotkey
+  spec.csharp:
+  - uid: Prowl.Editor.Preferences.Hotkeys
+    name: Hotkeys
+    href: Prowl.Editor.Preferences.Hotkeys.html
+  - name: .
+  - uid: Prowl.Editor.Preferences.Hotkeys.Hotkey
+    name: Hotkey
+    href: Prowl.Editor.Preferences.Hotkeys.Hotkey.html
+  spec.vb:
+  - uid: Prowl.Editor.Preferences.Hotkeys
+    name: Hotkeys
+    href: Prowl.Editor.Preferences.Hotkeys.html
+  - name: .
+  - uid: Prowl.Editor.Preferences.Hotkeys.Hotkey
+    name: Hotkey
+    href: Prowl.Editor.Preferences.Hotkeys.Hotkey.html
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean

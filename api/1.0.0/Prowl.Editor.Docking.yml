@@ -1,0 +1,102 @@
+### YamlMime:ManagedReference
+items:
+- uid: Prowl.Editor.Docking
+  commentId: N:Prowl.Editor.Docking
+  id: Prowl.Editor.Docking
+  children:
+  - Prowl.Editor.Docking.DockContainer
+  - Prowl.Editor.Docking.DockNode
+  - Prowl.Editor.Docking.DockNode.NodeType
+  - Prowl.Editor.Docking.DockPlacement
+  - Prowl.Editor.Docking.DockZone
+  langs:
+  - csharp
+  - vb
+  name: Prowl.Editor.Docking
+  nameWithType: Prowl.Editor.Docking
+  fullName: Prowl.Editor.Docking
+  type: Namespace
+  assemblies:
+  - Prowl.Editor
+references:
+- uid: Prowl.Editor.Docking.DockContainer
+  commentId: T:Prowl.Editor.Docking.DockContainer
+  parent: Prowl.Editor.Docking
+  href: Prowl.Editor.Docking.DockContainer.html
+  name: DockContainer
+  nameWithType: DockContainer
+  fullName: Prowl.Editor.Docking.DockContainer
+- uid: Prowl.Editor.Docking.DockZone
+  commentId: T:Prowl.Editor.Docking.DockZone
+  parent: Prowl.Editor.Docking
+  href: Prowl.Editor.Docking.DockZone.html
+  name: DockZone
+  nameWithType: DockZone
+  fullName: Prowl.Editor.Docking.DockZone
+- uid: Prowl.Editor.Docking.DockPlacement
+  commentId: T:Prowl.Editor.Docking.DockPlacement
+  parent: Prowl.Editor.Docking
+  href: Prowl.Editor.Docking.DockPlacement.html
+  name: DockPlacement
+  nameWithType: DockPlacement
+  fullName: Prowl.Editor.Docking.DockPlacement
+- uid: Prowl.Editor.Docking.DockNode
+  commentId: T:Prowl.Editor.Docking.DockNode
+  parent: Prowl.Editor.Docking
+  href: Prowl.Editor.Docking.DockNode.html
+  name: DockNode
+  nameWithType: DockNode
+  fullName: Prowl.Editor.Docking.DockNode
+- uid: Prowl.Editor.Docking.DockNode.NodeType
+  commentId: T:Prowl.Editor.Docking.DockNode.NodeType
+  parent: Prowl.Editor.Docking
+  href: Prowl.Editor.Docking.DockNode.html
+  name: DockNode.NodeType
+  nameWithType: DockNode.NodeType
+  fullName: Prowl.Editor.Docking.DockNode.NodeType
+  spec.csharp:
+  - uid: Prowl.Editor.Docking.DockNode
+    name: DockNode
+    href: Prowl.Editor.Docking.DockNode.html
+  - name: .
+  - uid: Prowl.Editor.Docking.DockNode.NodeType
+    name: NodeType
+    href: Prowl.Editor.Docking.DockNode.NodeType.html
+  spec.vb:
+  - uid: Prowl.Editor.Docking.DockNode
+    name: DockNode
+    href: Prowl.Editor.Docking.DockNode.html
+  - name: .
+  - uid: Prowl.Editor.Docking.DockNode.NodeType
+    name: NodeType
+    href: Prowl.Editor.Docking.DockNode.NodeType.html
+- uid: Prowl.Editor.Docking
+  commentId: N:Prowl.Editor.Docking
+  href: Prowl.html
+  name: Prowl.Editor.Docking
+  nameWithType: Prowl.Editor.Docking
+  fullName: Prowl.Editor.Docking
+  spec.csharp:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Editor
+    name: Editor
+    href: Prowl.Editor.html
+  - name: .
+  - uid: Prowl.Editor.Docking
+    name: Docking
+    href: Prowl.Editor.Docking.html
+  spec.vb:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Editor
+    name: Editor
+    href: Prowl.Editor.html
+  - name: .
+  - uid: Prowl.Editor.Docking
+    name: Docking
+    href: Prowl.Editor.Docking.html

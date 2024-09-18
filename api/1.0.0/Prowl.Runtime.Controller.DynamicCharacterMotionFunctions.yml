@@ -1,0 +1,1612 @@
+### YamlMime:ManagedReference
+items:
+- uid: Prowl.Runtime.Controller.DynamicCharacterMotionFunctions
+  commentId: T:Prowl.Runtime.Controller.DynamicCharacterMotionFunctions
+  id: DynamicCharacterMotionFunctions
+  parent: Prowl.Runtime.Controller
+  children:
+  - Prowl.Runtime.Controller.DynamicCharacterMotionFunctions.IncrementallyUpdateForSubstep(System.Numerics.Vector{System.Single}@,BepuPhysics.BodyVelocityWide@,BepuPhysics.BodyVelocityWide@,Prowl.Runtime.Controller.DynamicCharacterMotionPrestep@)
+  - Prowl.Runtime.Controller.DynamicCharacterMotionFunctions.RequiresIncrementalSubstepUpdates
+  - Prowl.Runtime.Controller.DynamicCharacterMotionFunctions.Solve(BepuUtilities.Vector3Wide@,BepuUtilities.QuaternionWide@,BepuPhysics.BodyInertiaWide@,BepuUtilities.Vector3Wide@,BepuUtilities.QuaternionWide@,BepuPhysics.BodyInertiaWide@,System.Single,System.Single,Prowl.Runtime.Controller.DynamicCharacterMotionPrestep@,Prowl.Runtime.Controller.CharacterMotionAccumulatedImpulse@,BepuPhysics.BodyVelocityWide@,BepuPhysics.BodyVelocityWide@)
+  - Prowl.Runtime.Controller.DynamicCharacterMotionFunctions.WarmStart(BepuUtilities.Vector3Wide@,BepuUtilities.QuaternionWide@,BepuPhysics.BodyInertiaWide@,BepuUtilities.Vector3Wide@,BepuUtilities.QuaternionWide@,BepuPhysics.BodyInertiaWide@,Prowl.Runtime.Controller.DynamicCharacterMotionPrestep@,Prowl.Runtime.Controller.CharacterMotionAccumulatedImpulse@,BepuPhysics.BodyVelocityWide@,BepuPhysics.BodyVelocityWide@)
+  langs:
+  - csharp
+  - vb
+  name: DynamicCharacterMotionFunctions
+  nameWithType: DynamicCharacterMotionFunctions
+  fullName: Prowl.Runtime.Controller.DynamicCharacterMotionFunctions
+  type: Struct
+  source:
+    remote:
+      path: Prowl.Runtime/Components/Physics/Types/Controller/CharacterMotionConstraint.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: DynamicCharacterMotionFunctions
+    path: ../Prowl/Prowl.Runtime/Components/Physics/Types/Controller/CharacterMotionConstraint.cs
+    startLine: 406
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.Controller
+  syntax:
+    content: 'public struct DynamicCharacterMotionFunctions : ITwoBodyConstraintFunctions<DynamicCharacterMotionPrestep, CharacterMotionAccumulatedImpulse>'
+    content.vb: Public Structure DynamicCharacterMotionFunctions Implements ITwoBodyConstraintFunctions(Of DynamicCharacterMotionPrestep, CharacterMotionAccumulatedImpulse)
+  implements:
+  - BepuPhysics.Constraints.ITwoBodyConstraintFunctions{Prowl.Runtime.Controller.DynamicCharacterMotionPrestep,Prowl.Runtime.Controller.CharacterMotionAccumulatedImpulse}
+  inheritedMembers:
+  - System.ValueType.Equals(System.Object)
+  - System.ValueType.GetHashCode
+  - System.ValueType.ToString
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  extensionMethods:
+  - System.Object.Prowl.Runtime.RuntimeUtils.GetSerializableFields
+- uid: Prowl.Runtime.Controller.DynamicCharacterMotionFunctions.WarmStart(BepuUtilities.Vector3Wide@,BepuUtilities.QuaternionWide@,BepuPhysics.BodyInertiaWide@,BepuUtilities.Vector3Wide@,BepuUtilities.QuaternionWide@,BepuPhysics.BodyInertiaWide@,Prowl.Runtime.Controller.DynamicCharacterMotionPrestep@,Prowl.Runtime.Controller.CharacterMotionAccumulatedImpulse@,BepuPhysics.BodyVelocityWide@,BepuPhysics.BodyVelocityWide@)
+  commentId: M:Prowl.Runtime.Controller.DynamicCharacterMotionFunctions.WarmStart(BepuUtilities.Vector3Wide@,BepuUtilities.QuaternionWide@,BepuPhysics.BodyInertiaWide@,BepuUtilities.Vector3Wide@,BepuUtilities.QuaternionWide@,BepuPhysics.BodyInertiaWide@,Prowl.Runtime.Controller.DynamicCharacterMotionPrestep@,Prowl.Runtime.Controller.CharacterMotionAccumulatedImpulse@,BepuPhysics.BodyVelocityWide@,BepuPhysics.BodyVelocityWide@)
+  id: WarmStart(BepuUtilities.Vector3Wide@,BepuUtilities.QuaternionWide@,BepuPhysics.BodyInertiaWide@,BepuUtilities.Vector3Wide@,BepuUtilities.QuaternionWide@,BepuPhysics.BodyInertiaWide@,Prowl.Runtime.Controller.DynamicCharacterMotionPrestep@,Prowl.Runtime.Controller.CharacterMotionAccumulatedImpulse@,BepuPhysics.BodyVelocityWide@,BepuPhysics.BodyVelocityWide@)
+  parent: Prowl.Runtime.Controller.DynamicCharacterMotionFunctions
+  langs:
+  - csharp
+  - vb
+  name: WarmStart(in Vector3Wide, in QuaternionWide, in BodyInertiaWide, in Vector3Wide, in QuaternionWide, in BodyInertiaWide, ref DynamicCharacterMotionPrestep, ref CharacterMotionAccumulatedImpulse, ref BodyVelocityWide, ref BodyVelocityWide)
+  nameWithType: DynamicCharacterMotionFunctions.WarmStart(in Vector3Wide, in QuaternionWide, in BodyInertiaWide, in Vector3Wide, in QuaternionWide, in BodyInertiaWide, ref DynamicCharacterMotionPrestep, ref CharacterMotionAccumulatedImpulse, ref BodyVelocityWide, ref BodyVelocityWide)
+  fullName: Prowl.Runtime.Controller.DynamicCharacterMotionFunctions.WarmStart(in BepuUtilities.Vector3Wide, in BepuUtilities.QuaternionWide, in BepuPhysics.BodyInertiaWide, in BepuUtilities.Vector3Wide, in BepuUtilities.QuaternionWide, in BepuPhysics.BodyInertiaWide, ref Prowl.Runtime.Controller.DynamicCharacterMotionPrestep, ref Prowl.Runtime.Controller.CharacterMotionAccumulatedImpulse, ref BepuPhysics.BodyVelocityWide, ref BepuPhysics.BodyVelocityWide)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Components/Physics/Types/Controller/CharacterMotionConstraint.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: WarmStart
+    path: ../Prowl/Prowl.Runtime/Components/Physics/Types/Controller/CharacterMotionConstraint.cs
+    startLine: 484
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.Controller
+  example: []
+  syntax:
+    content: public static void WarmStart(in Vector3Wide positionA, in QuaternionWide orientationA, in BodyInertiaWide inertiaA, in Vector3Wide positionB, in QuaternionWide orientationB, in BodyInertiaWide inertiaB, ref DynamicCharacterMotionPrestep prestep, ref CharacterMotionAccumulatedImpulse accumulatedImpulses, ref BodyVelocityWide velocityA, ref BodyVelocityWide velocityB)
+    parameters:
+    - id: positionA
+      type: BepuUtilities.Vector3Wide
+    - id: orientationA
+      type: BepuUtilities.QuaternionWide
+    - id: inertiaA
+      type: BepuPhysics.BodyInertiaWide
+    - id: positionB
+      type: BepuUtilities.Vector3Wide
+    - id: orientationB
+      type: BepuUtilities.QuaternionWide
+    - id: inertiaB
+      type: BepuPhysics.BodyInertiaWide
+    - id: prestep
+      type: Prowl.Runtime.Controller.DynamicCharacterMotionPrestep
+    - id: accumulatedImpulses
+      type: Prowl.Runtime.Controller.CharacterMotionAccumulatedImpulse
+    - id: velocityA
+      type: BepuPhysics.BodyVelocityWide
+    - id: velocityB
+      type: BepuPhysics.BodyVelocityWide
+    content.vb: Public Shared Sub WarmStart(positionA As Vector3Wide, orientationA As QuaternionWide, inertiaA As BodyInertiaWide, positionB As Vector3Wide, orientationB As QuaternionWide, inertiaB As BodyInertiaWide, prestep As DynamicCharacterMotionPrestep, accumulatedImpulses As CharacterMotionAccumulatedImpulse, velocityA As BodyVelocityWide, velocityB As BodyVelocityWide)
+  overload: Prowl.Runtime.Controller.DynamicCharacterMotionFunctions.WarmStart*
+  implements:
+  - BepuPhysics.Constraints.ITwoBodyConstraintFunctions{Prowl.Runtime.Controller.DynamicCharacterMotionPrestep,Prowl.Runtime.Controller.CharacterMotionAccumulatedImpulse}.WarmStart(BepuUtilities.Vector3Wide@,BepuUtilities.QuaternionWide@,BepuPhysics.BodyInertiaWide@,BepuUtilities.Vector3Wide@,BepuUtilities.QuaternionWide@,BepuPhysics.BodyInertiaWide@,Prowl.Runtime.Controller.DynamicCharacterMotionPrestep@,Prowl.Runtime.Controller.CharacterMotionAccumulatedImpulse@,BepuPhysics.BodyVelocityWide@,BepuPhysics.BodyVelocityWide@)
+  nameWithType.vb: DynamicCharacterMotionFunctions.WarmStart(Vector3Wide, QuaternionWide, BodyInertiaWide, Vector3Wide, QuaternionWide, BodyInertiaWide, DynamicCharacterMotionPrestep, CharacterMotionAccumulatedImpulse, BodyVelocityWide, BodyVelocityWide)
+  fullName.vb: Prowl.Runtime.Controller.DynamicCharacterMotionFunctions.WarmStart(BepuUtilities.Vector3Wide, BepuUtilities.QuaternionWide, BepuPhysics.BodyInertiaWide, BepuUtilities.Vector3Wide, BepuUtilities.QuaternionWide, BepuPhysics.BodyInertiaWide, Prowl.Runtime.Controller.DynamicCharacterMotionPrestep, Prowl.Runtime.Controller.CharacterMotionAccumulatedImpulse, BepuPhysics.BodyVelocityWide, BepuPhysics.BodyVelocityWide)
+  name.vb: WarmStart(Vector3Wide, QuaternionWide, BodyInertiaWide, Vector3Wide, QuaternionWide, BodyInertiaWide, DynamicCharacterMotionPrestep, CharacterMotionAccumulatedImpulse, BodyVelocityWide, BodyVelocityWide)
+- uid: Prowl.Runtime.Controller.DynamicCharacterMotionFunctions.Solve(BepuUtilities.Vector3Wide@,BepuUtilities.QuaternionWide@,BepuPhysics.BodyInertiaWide@,BepuUtilities.Vector3Wide@,BepuUtilities.QuaternionWide@,BepuPhysics.BodyInertiaWide@,System.Single,System.Single,Prowl.Runtime.Controller.DynamicCharacterMotionPrestep@,Prowl.Runtime.Controller.CharacterMotionAccumulatedImpulse@,BepuPhysics.BodyVelocityWide@,BepuPhysics.BodyVelocityWide@)
+  commentId: M:Prowl.Runtime.Controller.DynamicCharacterMotionFunctions.Solve(BepuUtilities.Vector3Wide@,BepuUtilities.QuaternionWide@,BepuPhysics.BodyInertiaWide@,BepuUtilities.Vector3Wide@,BepuUtilities.QuaternionWide@,BepuPhysics.BodyInertiaWide@,System.Single,System.Single,Prowl.Runtime.Controller.DynamicCharacterMotionPrestep@,Prowl.Runtime.Controller.CharacterMotionAccumulatedImpulse@,BepuPhysics.BodyVelocityWide@,BepuPhysics.BodyVelocityWide@)
+  id: Solve(BepuUtilities.Vector3Wide@,BepuUtilities.QuaternionWide@,BepuPhysics.BodyInertiaWide@,BepuUtilities.Vector3Wide@,BepuUtilities.QuaternionWide@,BepuPhysics.BodyInertiaWide@,System.Single,System.Single,Prowl.Runtime.Controller.DynamicCharacterMotionPrestep@,Prowl.Runtime.Controller.CharacterMotionAccumulatedImpulse@,BepuPhysics.BodyVelocityWide@,BepuPhysics.BodyVelocityWide@)
+  parent: Prowl.Runtime.Controller.DynamicCharacterMotionFunctions
+  langs:
+  - csharp
+  - vb
+  name: Solve(in Vector3Wide, in QuaternionWide, in BodyInertiaWide, in Vector3Wide, in QuaternionWide, in BodyInertiaWide, float, float, ref DynamicCharacterMotionPrestep, ref CharacterMotionAccumulatedImpulse, ref BodyVelocityWide, ref BodyVelocityWide)
+  nameWithType: DynamicCharacterMotionFunctions.Solve(in Vector3Wide, in QuaternionWide, in BodyInertiaWide, in Vector3Wide, in QuaternionWide, in BodyInertiaWide, float, float, ref DynamicCharacterMotionPrestep, ref CharacterMotionAccumulatedImpulse, ref BodyVelocityWide, ref BodyVelocityWide)
+  fullName: Prowl.Runtime.Controller.DynamicCharacterMotionFunctions.Solve(in BepuUtilities.Vector3Wide, in BepuUtilities.QuaternionWide, in BepuPhysics.BodyInertiaWide, in BepuUtilities.Vector3Wide, in BepuUtilities.QuaternionWide, in BepuPhysics.BodyInertiaWide, float, float, ref Prowl.Runtime.Controller.DynamicCharacterMotionPrestep, ref Prowl.Runtime.Controller.CharacterMotionAccumulatedImpulse, ref BepuPhysics.BodyVelocityWide, ref BepuPhysics.BodyVelocityWide)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Components/Physics/Types/Controller/CharacterMotionConstraint.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Solve
+    path: ../Prowl/Prowl.Runtime/Components/Physics/Types/Controller/CharacterMotionConstraint.cs
+    startLine: 492
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.Controller
+  example: []
+  syntax:
+    content: public static void Solve(in Vector3Wide positionA, in QuaternionWide orientationA, in BodyInertiaWide inertiaA, in Vector3Wide positionB, in QuaternionWide orientationB, in BodyInertiaWide inertiaB, float dt, float inverseDt, ref DynamicCharacterMotionPrestep prestep, ref CharacterMotionAccumulatedImpulse accumulatedImpulses, ref BodyVelocityWide velocityA, ref BodyVelocityWide velocityB)
+    parameters:
+    - id: positionA
+      type: BepuUtilities.Vector3Wide
+    - id: orientationA
+      type: BepuUtilities.QuaternionWide
+    - id: inertiaA
+      type: BepuPhysics.BodyInertiaWide
+    - id: positionB
+      type: BepuUtilities.Vector3Wide
+    - id: orientationB
+      type: BepuUtilities.QuaternionWide
+    - id: inertiaB
+      type: BepuPhysics.BodyInertiaWide
+    - id: dt
+      type: System.Single
+    - id: inverseDt
+      type: System.Single
+    - id: prestep
+      type: Prowl.Runtime.Controller.DynamicCharacterMotionPrestep
+    - id: accumulatedImpulses
+      type: Prowl.Runtime.Controller.CharacterMotionAccumulatedImpulse
+    - id: velocityA
+      type: BepuPhysics.BodyVelocityWide
+    - id: velocityB
+      type: BepuPhysics.BodyVelocityWide
+    content.vb: Public Shared Sub Solve(positionA As Vector3Wide, orientationA As QuaternionWide, inertiaA As BodyInertiaWide, positionB As Vector3Wide, orientationB As QuaternionWide, inertiaB As BodyInertiaWide, dt As Single, inverseDt As Single, prestep As DynamicCharacterMotionPrestep, accumulatedImpulses As CharacterMotionAccumulatedImpulse, velocityA As BodyVelocityWide, velocityB As BodyVelocityWide)
+  overload: Prowl.Runtime.Controller.DynamicCharacterMotionFunctions.Solve*
+  implements:
+  - BepuPhysics.Constraints.ITwoBodyConstraintFunctions{Prowl.Runtime.Controller.DynamicCharacterMotionPrestep,Prowl.Runtime.Controller.CharacterMotionAccumulatedImpulse}.Solve(BepuUtilities.Vector3Wide@,BepuUtilities.QuaternionWide@,BepuPhysics.BodyInertiaWide@,BepuUtilities.Vector3Wide@,BepuUtilities.QuaternionWide@,BepuPhysics.BodyInertiaWide@,System.Single,System.Single,Prowl.Runtime.Controller.DynamicCharacterMotionPrestep@,Prowl.Runtime.Controller.CharacterMotionAccumulatedImpulse@,BepuPhysics.BodyVelocityWide@,BepuPhysics.BodyVelocityWide@)
+  nameWithType.vb: DynamicCharacterMotionFunctions.Solve(Vector3Wide, QuaternionWide, BodyInertiaWide, Vector3Wide, QuaternionWide, BodyInertiaWide, Single, Single, DynamicCharacterMotionPrestep, CharacterMotionAccumulatedImpulse, BodyVelocityWide, BodyVelocityWide)
+  fullName.vb: Prowl.Runtime.Controller.DynamicCharacterMotionFunctions.Solve(BepuUtilities.Vector3Wide, BepuUtilities.QuaternionWide, BepuPhysics.BodyInertiaWide, BepuUtilities.Vector3Wide, BepuUtilities.QuaternionWide, BepuPhysics.BodyInertiaWide, Single, Single, Prowl.Runtime.Controller.DynamicCharacterMotionPrestep, Prowl.Runtime.Controller.CharacterMotionAccumulatedImpulse, BepuPhysics.BodyVelocityWide, BepuPhysics.BodyVelocityWide)
+  name.vb: Solve(Vector3Wide, QuaternionWide, BodyInertiaWide, Vector3Wide, QuaternionWide, BodyInertiaWide, Single, Single, DynamicCharacterMotionPrestep, CharacterMotionAccumulatedImpulse, BodyVelocityWide, BodyVelocityWide)
+- uid: Prowl.Runtime.Controller.DynamicCharacterMotionFunctions.RequiresIncrementalSubstepUpdates
+  commentId: P:Prowl.Runtime.Controller.DynamicCharacterMotionFunctions.RequiresIncrementalSubstepUpdates
+  id: RequiresIncrementalSubstepUpdates
+  parent: Prowl.Runtime.Controller.DynamicCharacterMotionFunctions
+  langs:
+  - csharp
+  - vb
+  name: RequiresIncrementalSubstepUpdates
+  nameWithType: DynamicCharacterMotionFunctions.RequiresIncrementalSubstepUpdates
+  fullName: Prowl.Runtime.Controller.DynamicCharacterMotionFunctions.RequiresIncrementalSubstepUpdates
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/Components/Physics/Types/Controller/CharacterMotionConstraint.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: RequiresIncrementalSubstepUpdates
+    path: ../Prowl/Prowl.Runtime/Components/Physics/Types/Controller/CharacterMotionConstraint.cs
+    startLine: 572
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.Controller
+  summary: Gets whether this constraint type requires incremental updates for each substep taken beyond the first.
+  example: []
+  syntax:
+    content: public static bool RequiresIncrementalSubstepUpdates { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Shared ReadOnly Property RequiresIncrementalSubstepUpdates As Boolean
+  overload: Prowl.Runtime.Controller.DynamicCharacterMotionFunctions.RequiresIncrementalSubstepUpdates*
+  implements:
+  - BepuPhysics.Constraints.ITwoBodyConstraintFunctions{Prowl.Runtime.Controller.DynamicCharacterMotionPrestep,Prowl.Runtime.Controller.CharacterMotionAccumulatedImpulse}.RequiresIncrementalSubstepUpdates
+- uid: Prowl.Runtime.Controller.DynamicCharacterMotionFunctions.IncrementallyUpdateForSubstep(System.Numerics.Vector{System.Single}@,BepuPhysics.BodyVelocityWide@,BepuPhysics.BodyVelocityWide@,Prowl.Runtime.Controller.DynamicCharacterMotionPrestep@)
+  commentId: M:Prowl.Runtime.Controller.DynamicCharacterMotionFunctions.IncrementallyUpdateForSubstep(System.Numerics.Vector{System.Single}@,BepuPhysics.BodyVelocityWide@,BepuPhysics.BodyVelocityWide@,Prowl.Runtime.Controller.DynamicCharacterMotionPrestep@)
+  id: IncrementallyUpdateForSubstep(System.Numerics.Vector{System.Single}@,BepuPhysics.BodyVelocityWide@,BepuPhysics.BodyVelocityWide@,Prowl.Runtime.Controller.DynamicCharacterMotionPrestep@)
+  parent: Prowl.Runtime.Controller.DynamicCharacterMotionFunctions
+  langs:
+  - csharp
+  - vb
+  name: IncrementallyUpdateForSubstep(in Vector<float>, in BodyVelocityWide, in BodyVelocityWide, ref DynamicCharacterMotionPrestep)
+  nameWithType: DynamicCharacterMotionFunctions.IncrementallyUpdateForSubstep(in Vector<float>, in BodyVelocityWide, in BodyVelocityWide, ref DynamicCharacterMotionPrestep)
+  fullName: Prowl.Runtime.Controller.DynamicCharacterMotionFunctions.IncrementallyUpdateForSubstep(in System.Numerics.Vector<float>, in BepuPhysics.BodyVelocityWide, in BepuPhysics.BodyVelocityWide, ref Prowl.Runtime.Controller.DynamicCharacterMotionPrestep)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Components/Physics/Types/Controller/CharacterMotionConstraint.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: IncrementallyUpdateForSubstep
+    path: ../Prowl/Prowl.Runtime/Components/Physics/Types/Controller/CharacterMotionConstraint.cs
+    startLine: 573
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.Controller
+  example: []
+  syntax:
+    content: public static void IncrementallyUpdateForSubstep(in Vector<float> dt, in BodyVelocityWide velocityA, in BodyVelocityWide velocityB, ref DynamicCharacterMotionPrestep prestep)
+    parameters:
+    - id: dt
+      type: System.Numerics.Vector{System.Single}
+    - id: velocityA
+      type: BepuPhysics.BodyVelocityWide
+    - id: velocityB
+      type: BepuPhysics.BodyVelocityWide
+    - id: prestep
+      type: Prowl.Runtime.Controller.DynamicCharacterMotionPrestep
+    content.vb: Public Shared Sub IncrementallyUpdateForSubstep(dt As Vector(Of Single), velocityA As BodyVelocityWide, velocityB As BodyVelocityWide, prestep As DynamicCharacterMotionPrestep)
+  overload: Prowl.Runtime.Controller.DynamicCharacterMotionFunctions.IncrementallyUpdateForSubstep*
+  implements:
+  - BepuPhysics.Constraints.ITwoBodyConstraintFunctions{Prowl.Runtime.Controller.DynamicCharacterMotionPrestep,Prowl.Runtime.Controller.CharacterMotionAccumulatedImpulse}.IncrementallyUpdateForSubstep(System.Numerics.Vector{System.Single}@,BepuPhysics.BodyVelocityWide@,BepuPhysics.BodyVelocityWide@,Prowl.Runtime.Controller.DynamicCharacterMotionPrestep@)
+  nameWithType.vb: DynamicCharacterMotionFunctions.IncrementallyUpdateForSubstep(Vector(Of Single), BodyVelocityWide, BodyVelocityWide, DynamicCharacterMotionPrestep)
+  fullName.vb: Prowl.Runtime.Controller.DynamicCharacterMotionFunctions.IncrementallyUpdateForSubstep(System.Numerics.Vector(Of Single), BepuPhysics.BodyVelocityWide, BepuPhysics.BodyVelocityWide, Prowl.Runtime.Controller.DynamicCharacterMotionPrestep)
+  name.vb: IncrementallyUpdateForSubstep(Vector(Of Single), BodyVelocityWide, BodyVelocityWide, DynamicCharacterMotionPrestep)
+references:
+- uid: Prowl.Runtime.Controller
+  commentId: N:Prowl.Runtime.Controller
+  href: Prowl.html
+  name: Prowl.Runtime.Controller
+  nameWithType: Prowl.Runtime.Controller
+  fullName: Prowl.Runtime.Controller
+  spec.csharp:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+  - name: .
+  - uid: Prowl.Runtime.Controller
+    name: Controller
+    href: Prowl.Runtime.Controller.html
+  spec.vb:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+  - name: .
+  - uid: Prowl.Runtime.Controller
+    name: Controller
+    href: Prowl.Runtime.Controller.html
+- uid: BepuPhysics.Constraints.ITwoBodyConstraintFunctions{Prowl.Runtime.Controller.DynamicCharacterMotionPrestep,Prowl.Runtime.Controller.CharacterMotionAccumulatedImpulse}
+  commentId: T:BepuPhysics.Constraints.ITwoBodyConstraintFunctions{Prowl.Runtime.Controller.DynamicCharacterMotionPrestep,Prowl.Runtime.Controller.CharacterMotionAccumulatedImpulse}
+  parent: BepuPhysics.Constraints
+  definition: BepuPhysics.Constraints.ITwoBodyConstraintFunctions`2
+  href: Prowl.Runtime.Controller.DynamicCharacterMotionPrestep.html
+  name: ITwoBodyConstraintFunctions<DynamicCharacterMotionPrestep, CharacterMotionAccumulatedImpulse>
+  nameWithType: ITwoBodyConstraintFunctions<DynamicCharacterMotionPrestep, CharacterMotionAccumulatedImpulse>
+  fullName: BepuPhysics.Constraints.ITwoBodyConstraintFunctions<Prowl.Runtime.Controller.DynamicCharacterMotionPrestep, Prowl.Runtime.Controller.CharacterMotionAccumulatedImpulse>
+  nameWithType.vb: ITwoBodyConstraintFunctions(Of DynamicCharacterMotionPrestep, CharacterMotionAccumulatedImpulse)
+  fullName.vb: BepuPhysics.Constraints.ITwoBodyConstraintFunctions(Of Prowl.Runtime.Controller.DynamicCharacterMotionPrestep, Prowl.Runtime.Controller.CharacterMotionAccumulatedImpulse)
+  name.vb: ITwoBodyConstraintFunctions(Of DynamicCharacterMotionPrestep, CharacterMotionAccumulatedImpulse)
+  spec.csharp:
+  - uid: BepuPhysics.Constraints.ITwoBodyConstraintFunctions`2
+    name: ITwoBodyConstraintFunctions
+    isExternal: true
+  - name: <
+  - uid: Prowl.Runtime.Controller.DynamicCharacterMotionPrestep
+    name: DynamicCharacterMotionPrestep
+    href: Prowl.Runtime.Controller.DynamicCharacterMotionPrestep.html
+  - name: ','
+  - name: " "
+  - uid: Prowl.Runtime.Controller.CharacterMotionAccumulatedImpulse
+    name: CharacterMotionAccumulatedImpulse
+    href: Prowl.Runtime.Controller.CharacterMotionAccumulatedImpulse.html
+  - name: '>'
+  spec.vb:
+  - uid: BepuPhysics.Constraints.ITwoBodyConstraintFunctions`2
+    name: ITwoBodyConstraintFunctions
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Prowl.Runtime.Controller.DynamicCharacterMotionPrestep
+    name: DynamicCharacterMotionPrestep
+    href: Prowl.Runtime.Controller.DynamicCharacterMotionPrestep.html
+  - name: ','
+  - name: " "
+  - uid: Prowl.Runtime.Controller.CharacterMotionAccumulatedImpulse
+    name: CharacterMotionAccumulatedImpulse
+    href: Prowl.Runtime.Controller.CharacterMotionAccumulatedImpulse.html
+  - name: )
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  name: Equals(object)
+  nameWithType: ValueType.Equals(object)
+  fullName: System.ValueType.Equals(object)
+  nameWithType.vb: ValueType.Equals(Object)
+  fullName.vb: System.ValueType.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Prowl.Runtime.RuntimeUtils.GetSerializableFields
+  commentId: M:Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  parent: Prowl.Runtime.RuntimeUtils
+  definition: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  name: GetSerializableFields(object)
+  nameWithType: RuntimeUtils.GetSerializableFields(object)
+  fullName: Prowl.Runtime.RuntimeUtils.GetSerializableFields(object)
+  nameWithType.vb: RuntimeUtils.GetSerializableFields(Object)
+  fullName.vb: Prowl.Runtime.RuntimeUtils.GetSerializableFields(Object)
+  name.vb: GetSerializableFields(Object)
+  spec.csharp:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: BepuPhysics.Constraints.ITwoBodyConstraintFunctions`2
+  commentId: T:BepuPhysics.Constraints.ITwoBodyConstraintFunctions`2
+  isExternal: true
+  name: ITwoBodyConstraintFunctions<TPrestepData, TAccumulatedImpulse>
+  nameWithType: ITwoBodyConstraintFunctions<TPrestepData, TAccumulatedImpulse>
+  fullName: BepuPhysics.Constraints.ITwoBodyConstraintFunctions<TPrestepData, TAccumulatedImpulse>
+  nameWithType.vb: ITwoBodyConstraintFunctions(Of TPrestepData, TAccumulatedImpulse)
+  fullName.vb: BepuPhysics.Constraints.ITwoBodyConstraintFunctions(Of TPrestepData, TAccumulatedImpulse)
+  name.vb: ITwoBodyConstraintFunctions(Of TPrestepData, TAccumulatedImpulse)
+  spec.csharp:
+  - uid: BepuPhysics.Constraints.ITwoBodyConstraintFunctions`2
+    name: ITwoBodyConstraintFunctions
+    isExternal: true
+  - name: <
+  - name: TPrestepData
+  - name: ','
+  - name: " "
+  - name: TAccumulatedImpulse
+  - name: '>'
+  spec.vb:
+  - uid: BepuPhysics.Constraints.ITwoBodyConstraintFunctions`2
+    name: ITwoBodyConstraintFunctions
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TPrestepData
+  - name: ','
+  - name: " "
+  - name: TAccumulatedImpulse
+  - name: )
+- uid: BepuPhysics.Constraints
+  commentId: N:BepuPhysics.Constraints
+  isExternal: true
+  name: BepuPhysics.Constraints
+  nameWithType: BepuPhysics.Constraints
+  fullName: BepuPhysics.Constraints
+  spec.csharp:
+  - uid: BepuPhysics
+    name: BepuPhysics
+    isExternal: true
+  - name: .
+  - uid: BepuPhysics.Constraints
+    name: Constraints
+    isExternal: true
+  spec.vb:
+  - uid: BepuPhysics
+    name: BepuPhysics
+    isExternal: true
+  - name: .
+  - uid: BepuPhysics.Constraints
+    name: Constraints
+    isExternal: true
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  commentId: M:Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  isExternal: true
+  href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  name: GetSerializableFields(object)
+  nameWithType: RuntimeUtils.GetSerializableFields(object)
+  fullName: Prowl.Runtime.RuntimeUtils.GetSerializableFields(object)
+  nameWithType.vb: RuntimeUtils.GetSerializableFields(Object)
+  fullName.vb: Prowl.Runtime.RuntimeUtils.GetSerializableFields(Object)
+  name.vb: GetSerializableFields(Object)
+  spec.csharp:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: Prowl.Runtime.RuntimeUtils
+  commentId: T:Prowl.Runtime.RuntimeUtils
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.RuntimeUtils.html
+  name: RuntimeUtils
+  nameWithType: RuntimeUtils
+  fullName: Prowl.Runtime.RuntimeUtils
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Prowl.Runtime
+  commentId: N:Prowl.Runtime
+  href: Prowl.html
+  name: Prowl.Runtime
+  nameWithType: Prowl.Runtime
+  fullName: Prowl.Runtime
+  spec.csharp:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+  spec.vb:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+- uid: Prowl.Runtime.Controller.DynamicCharacterMotionFunctions.WarmStart*
+  commentId: Overload:Prowl.Runtime.Controller.DynamicCharacterMotionFunctions.WarmStart
+  href: Prowl.Runtime.Controller.DynamicCharacterMotionFunctions.html#Prowl_Runtime_Controller_DynamicCharacterMotionFunctions_WarmStart_BepuUtilities_Vector3Wide__BepuUtilities_QuaternionWide__BepuPhysics_BodyInertiaWide__BepuUtilities_Vector3Wide__BepuUtilities_QuaternionWide__BepuPhysics_BodyInertiaWide__Prowl_Runtime_Controller_DynamicCharacterMotionPrestep__Prowl_Runtime_Controller_CharacterMotionAccumulatedImpulse__BepuPhysics_BodyVelocityWide__BepuPhysics_BodyVelocityWide__
+  name: WarmStart
+  nameWithType: DynamicCharacterMotionFunctions.WarmStart
+  fullName: Prowl.Runtime.Controller.DynamicCharacterMotionFunctions.WarmStart
+- uid: BepuPhysics.Constraints.ITwoBodyConstraintFunctions{Prowl.Runtime.Controller.DynamicCharacterMotionPrestep,Prowl.Runtime.Controller.CharacterMotionAccumulatedImpulse}.WarmStart(BepuUtilities.Vector3Wide@,BepuUtilities.QuaternionWide@,BepuPhysics.BodyInertiaWide@,BepuUtilities.Vector3Wide@,BepuUtilities.QuaternionWide@,BepuPhysics.BodyInertiaWide@,Prowl.Runtime.Controller.DynamicCharacterMotionPrestep@,Prowl.Runtime.Controller.CharacterMotionAccumulatedImpulse@,BepuPhysics.BodyVelocityWide@,BepuPhysics.BodyVelocityWide@)
+  commentId: M:BepuPhysics.Constraints.ITwoBodyConstraintFunctions{Prowl.Runtime.Controller.DynamicCharacterMotionPrestep,Prowl.Runtime.Controller.CharacterMotionAccumulatedImpulse}.WarmStart(BepuUtilities.Vector3Wide@,BepuUtilities.QuaternionWide@,BepuPhysics.BodyInertiaWide@,BepuUtilities.Vector3Wide@,BepuUtilities.QuaternionWide@,BepuPhysics.BodyInertiaWide@,Prowl.Runtime.Controller.DynamicCharacterMotionPrestep@,Prowl.Runtime.Controller.CharacterMotionAccumulatedImpulse@,BepuPhysics.BodyVelocityWide@,BepuPhysics.BodyVelocityWide@)
+  parent: BepuPhysics.Constraints.ITwoBodyConstraintFunctions{Prowl.Runtime.Controller.DynamicCharacterMotionPrestep,Prowl.Runtime.Controller.CharacterMotionAccumulatedImpulse}
+  definition: BepuPhysics.Constraints.ITwoBodyConstraintFunctions`2.WarmStart(BepuUtilities.Vector3Wide@,BepuUtilities.QuaternionWide@,BepuPhysics.BodyInertiaWide@,BepuUtilities.Vector3Wide@,BepuUtilities.QuaternionWide@,BepuPhysics.BodyInertiaWide@,`0@,`1@,BepuPhysics.BodyVelocityWide@,BepuPhysics.BodyVelocityWide@)
+  href: Prowl.Runtime.Controller.DynamicCharacterMotionPrestep.html
+  name: WarmStart(in Vector3Wide, in QuaternionWide, in BodyInertiaWide, in Vector3Wide, in QuaternionWide, in BodyInertiaWide, ref DynamicCharacterMotionPrestep, ref CharacterMotionAccumulatedImpulse, ref BodyVelocityWide, ref BodyVelocityWide)
+  nameWithType: ITwoBodyConstraintFunctions<DynamicCharacterMotionPrestep, CharacterMotionAccumulatedImpulse>.WarmStart(in Vector3Wide, in QuaternionWide, in BodyInertiaWide, in Vector3Wide, in QuaternionWide, in BodyInertiaWide, ref DynamicCharacterMotionPrestep, ref CharacterMotionAccumulatedImpulse, ref BodyVelocityWide, ref BodyVelocityWide)
+  fullName: BepuPhysics.Constraints.ITwoBodyConstraintFunctions<Prowl.Runtime.Controller.DynamicCharacterMotionPrestep, Prowl.Runtime.Controller.CharacterMotionAccumulatedImpulse>.WarmStart(in BepuUtilities.Vector3Wide, in BepuUtilities.QuaternionWide, in BepuPhysics.BodyInertiaWide, in BepuUtilities.Vector3Wide, in BepuUtilities.QuaternionWide, in BepuPhysics.BodyInertiaWide, ref Prowl.Runtime.Controller.DynamicCharacterMotionPrestep, ref Prowl.Runtime.Controller.CharacterMotionAccumulatedImpulse, ref BepuPhysics.BodyVelocityWide, ref BepuPhysics.BodyVelocityWide)
+  nameWithType.vb: ITwoBodyConstraintFunctions(Of DynamicCharacterMotionPrestep, CharacterMotionAccumulatedImpulse).WarmStart(Vector3Wide, QuaternionWide, BodyInertiaWide, Vector3Wide, QuaternionWide, BodyInertiaWide, DynamicCharacterMotionPrestep, CharacterMotionAccumulatedImpulse, BodyVelocityWide, BodyVelocityWide)
+  fullName.vb: BepuPhysics.Constraints.ITwoBodyConstraintFunctions(Of Prowl.Runtime.Controller.DynamicCharacterMotionPrestep, Prowl.Runtime.Controller.CharacterMotionAccumulatedImpulse).WarmStart(BepuUtilities.Vector3Wide, BepuUtilities.QuaternionWide, BepuPhysics.BodyInertiaWide, BepuUtilities.Vector3Wide, BepuUtilities.QuaternionWide, BepuPhysics.BodyInertiaWide, Prowl.Runtime.Controller.DynamicCharacterMotionPrestep, Prowl.Runtime.Controller.CharacterMotionAccumulatedImpulse, BepuPhysics.BodyVelocityWide, BepuPhysics.BodyVelocityWide)
+  name.vb: WarmStart(Vector3Wide, QuaternionWide, BodyInertiaWide, Vector3Wide, QuaternionWide, BodyInertiaWide, DynamicCharacterMotionPrestep, CharacterMotionAccumulatedImpulse, BodyVelocityWide, BodyVelocityWide)
+  spec.csharp:
+  - uid: BepuPhysics.Constraints.ITwoBodyConstraintFunctions{Prowl.Runtime.Controller.DynamicCharacterMotionPrestep,Prowl.Runtime.Controller.CharacterMotionAccumulatedImpulse}.WarmStart(BepuUtilities.Vector3Wide@,BepuUtilities.QuaternionWide@,BepuPhysics.BodyInertiaWide@,BepuUtilities.Vector3Wide@,BepuUtilities.QuaternionWide@,BepuPhysics.BodyInertiaWide@,Prowl.Runtime.Controller.DynamicCharacterMotionPrestep@,Prowl.Runtime.Controller.CharacterMotionAccumulatedImpulse@,BepuPhysics.BodyVelocityWide@,BepuPhysics.BodyVelocityWide@)
+    name: WarmStart
+    isExternal: true
+  - name: (
+  - name: in
+  - name: " "
+  - uid: BepuUtilities.Vector3Wide
+    name: Vector3Wide
+    isExternal: true
+  - name: ','
+  - name: " "
+  - name: in
+  - name: " "
+  - uid: BepuUtilities.QuaternionWide
+    name: QuaternionWide
+    isExternal: true
+  - name: ','
+  - name: " "
+  - name: in
+  - name: " "
+  - uid: BepuPhysics.BodyInertiaWide
+    name: BodyInertiaWide
+    isExternal: true
+  - name: ','
+  - name: " "
+  - name: in
+  - name: " "
+  - uid: BepuUtilities.Vector3Wide
+    name: Vector3Wide
+    isExternal: true
+  - name: ','
+  - name: " "
+  - name: in
+  - name: " "
+  - uid: BepuUtilities.QuaternionWide
+    name: QuaternionWide
+    isExternal: true
+  - name: ','
+  - name: " "
+  - name: in
+  - name: " "
+  - uid: BepuPhysics.BodyInertiaWide
+    name: BodyInertiaWide
+    isExternal: true
+  - name: ','
+  - name: " "
+  - name: ref
+  - name: " "
+  - uid: Prowl.Runtime.Controller.DynamicCharacterMotionPrestep
+    name: DynamicCharacterMotionPrestep
+    href: Prowl.Runtime.Controller.DynamicCharacterMotionPrestep.html
+  - name: ','
+  - name: " "
+  - name: ref
+  - name: " "
+  - uid: Prowl.Runtime.Controller.CharacterMotionAccumulatedImpulse
+    name: CharacterMotionAccumulatedImpulse
+    href: Prowl.Runtime.Controller.CharacterMotionAccumulatedImpulse.html
+  - name: ','
+  - name: " "
+  - name: ref
+  - name: " "
+  - uid: BepuPhysics.BodyVelocityWide
+    name: BodyVelocityWide
+    isExternal: true
+  - name: ','
+  - name: " "
+  - name: ref
+  - name: " "
+  - uid: BepuPhysics.BodyVelocityWide
+    name: BodyVelocityWide
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: BepuPhysics.Constraints.ITwoBodyConstraintFunctions{Prowl.Runtime.Controller.DynamicCharacterMotionPrestep,Prowl.Runtime.Controller.CharacterMotionAccumulatedImpulse}.WarmStart(BepuUtilities.Vector3Wide@,BepuUtilities.QuaternionWide@,BepuPhysics.BodyInertiaWide@,BepuUtilities.Vector3Wide@,BepuUtilities.QuaternionWide@,BepuPhysics.BodyInertiaWide@,Prowl.Runtime.Controller.DynamicCharacterMotionPrestep@,Prowl.Runtime.Controller.CharacterMotionAccumulatedImpulse@,BepuPhysics.BodyVelocityWide@,BepuPhysics.BodyVelocityWide@)
+    name: WarmStart
+    isExternal: true
+  - name: (
+  - uid: BepuUtilities.Vector3Wide
+    name: Vector3Wide
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: BepuUtilities.QuaternionWide
+    name: QuaternionWide
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: BepuPhysics.BodyInertiaWide
+    name: BodyInertiaWide
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: BepuUtilities.Vector3Wide
+    name: Vector3Wide
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: BepuUtilities.QuaternionWide
+    name: QuaternionWide
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: BepuPhysics.BodyInertiaWide
+    name: BodyInertiaWide
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: Prowl.Runtime.Controller.DynamicCharacterMotionPrestep
+    name: DynamicCharacterMotionPrestep
+    href: Prowl.Runtime.Controller.DynamicCharacterMotionPrestep.html
+  - name: ','
+  - name: " "
+  - uid: Prowl.Runtime.Controller.CharacterMotionAccumulatedImpulse
+    name: CharacterMotionAccumulatedImpulse
+    href: Prowl.Runtime.Controller.CharacterMotionAccumulatedImpulse.html
+  - name: ','
+  - name: " "
+  - uid: BepuPhysics.BodyVelocityWide
+    name: BodyVelocityWide
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: BepuPhysics.BodyVelocityWide
+    name: BodyVelocityWide
+    isExternal: true
+  - name: )
+- uid: BepuUtilities.Vector3Wide
+  commentId: T:BepuUtilities.Vector3Wide
+  parent: BepuUtilities
+  isExternal: true
+  name: Vector3Wide
+  nameWithType: Vector3Wide
+  fullName: BepuUtilities.Vector3Wide
+- uid: BepuUtilities.QuaternionWide
+  commentId: T:BepuUtilities.QuaternionWide
+  parent: BepuUtilities
+  isExternal: true
+  name: QuaternionWide
+  nameWithType: QuaternionWide
+  fullName: BepuUtilities.QuaternionWide
+- uid: BepuPhysics.BodyInertiaWide
+  commentId: T:BepuPhysics.BodyInertiaWide
+  parent: BepuPhysics
+  isExternal: true
+  name: BodyInertiaWide
+  nameWithType: BodyInertiaWide
+  fullName: BepuPhysics.BodyInertiaWide
+- uid: Prowl.Runtime.Controller.DynamicCharacterMotionPrestep
+  commentId: T:Prowl.Runtime.Controller.DynamicCharacterMotionPrestep
+  parent: Prowl.Runtime.Controller
+  href: Prowl.Runtime.Controller.DynamicCharacterMotionPrestep.html
+  name: DynamicCharacterMotionPrestep
+  nameWithType: DynamicCharacterMotionPrestep
+  fullName: Prowl.Runtime.Controller.DynamicCharacterMotionPrestep
+- uid: Prowl.Runtime.Controller.CharacterMotionAccumulatedImpulse
+  commentId: T:Prowl.Runtime.Controller.CharacterMotionAccumulatedImpulse
+  parent: Prowl.Runtime.Controller
+  href: Prowl.Runtime.Controller.CharacterMotionAccumulatedImpulse.html
+  name: CharacterMotionAccumulatedImpulse
+  nameWithType: CharacterMotionAccumulatedImpulse
+  fullName: Prowl.Runtime.Controller.CharacterMotionAccumulatedImpulse
+- uid: BepuPhysics.BodyVelocityWide
+  commentId: T:BepuPhysics.BodyVelocityWide
+  parent: BepuPhysics
+  isExternal: true
+  name: BodyVelocityWide
+  nameWithType: BodyVelocityWide
+  fullName: BepuPhysics.BodyVelocityWide
+- uid: BepuPhysics.Constraints.ITwoBodyConstraintFunctions`2.WarmStart(BepuUtilities.Vector3Wide@,BepuUtilities.QuaternionWide@,BepuPhysics.BodyInertiaWide@,BepuUtilities.Vector3Wide@,BepuUtilities.QuaternionWide@,BepuPhysics.BodyInertiaWide@,`0@,`1@,BepuPhysics.BodyVelocityWide@,BepuPhysics.BodyVelocityWide@)
+  commentId: M:BepuPhysics.Constraints.ITwoBodyConstraintFunctions`2.WarmStart(BepuUtilities.Vector3Wide@,BepuUtilities.QuaternionWide@,BepuPhysics.BodyInertiaWide@,BepuUtilities.Vector3Wide@,BepuUtilities.QuaternionWide@,BepuPhysics.BodyInertiaWide@,`0@,`1@,BepuPhysics.BodyVelocityWide@,BepuPhysics.BodyVelocityWide@)
+  isExternal: true
+  name: WarmStart(in Vector3Wide, in QuaternionWide, in BodyInertiaWide, in Vector3Wide, in QuaternionWide, in BodyInertiaWide, ref TPrestepData, ref TAccumulatedImpulse, ref BodyVelocityWide, ref BodyVelocityWide)
+  nameWithType: ITwoBodyConstraintFunctions<TPrestepData, TAccumulatedImpulse>.WarmStart(in Vector3Wide, in QuaternionWide, in BodyInertiaWide, in Vector3Wide, in QuaternionWide, in BodyInertiaWide, ref TPrestepData, ref TAccumulatedImpulse, ref BodyVelocityWide, ref BodyVelocityWide)
+  fullName: BepuPhysics.Constraints.ITwoBodyConstraintFunctions<TPrestepData, TAccumulatedImpulse>.WarmStart(in BepuUtilities.Vector3Wide, in BepuUtilities.QuaternionWide, in BepuPhysics.BodyInertiaWide, in BepuUtilities.Vector3Wide, in BepuUtilities.QuaternionWide, in BepuPhysics.BodyInertiaWide, ref TPrestepData, ref TAccumulatedImpulse, ref BepuPhysics.BodyVelocityWide, ref BepuPhysics.BodyVelocityWide)
+  nameWithType.vb: ITwoBodyConstraintFunctions(Of TPrestepData, TAccumulatedImpulse).WarmStart(Vector3Wide, QuaternionWide, BodyInertiaWide, Vector3Wide, QuaternionWide, BodyInertiaWide, TPrestepData, TAccumulatedImpulse, BodyVelocityWide, BodyVelocityWide)
+  fullName.vb: BepuPhysics.Constraints.ITwoBodyConstraintFunctions(Of TPrestepData, TAccumulatedImpulse).WarmStart(BepuUtilities.Vector3Wide, BepuUtilities.QuaternionWide, BepuPhysics.BodyInertiaWide, BepuUtilities.Vector3Wide, BepuUtilities.QuaternionWide, BepuPhysics.BodyInertiaWide, TPrestepData, TAccumulatedImpulse, BepuPhysics.BodyVelocityWide, BepuPhysics.BodyVelocityWide)
+  name.vb: WarmStart(Vector3Wide, QuaternionWide, BodyInertiaWide, Vector3Wide, QuaternionWide, BodyInertiaWide, TPrestepData, TAccumulatedImpulse, BodyVelocityWide, BodyVelocityWide)
+  spec.csharp:
+  - uid: BepuPhysics.Constraints.ITwoBodyConstraintFunctions`2.WarmStart(BepuUtilities.Vector3Wide@,BepuUtilities.QuaternionWide@,BepuPhysics.BodyInertiaWide@,BepuUtilities.Vector3Wide@,BepuUtilities.QuaternionWide@,BepuPhysics.BodyInertiaWide@,`0@,`1@,BepuPhysics.BodyVelocityWide@,BepuPhysics.BodyVelocityWide@)
+    name: WarmStart
+    isExternal: true
+  - name: (
+  - name: in
+  - name: " "
+  - uid: BepuUtilities.Vector3Wide
+    name: Vector3Wide
+    isExternal: true
+  - name: ','
+  - name: " "
+  - name: in
+  - name: " "
+  - uid: BepuUtilities.QuaternionWide
+    name: QuaternionWide
+    isExternal: true
+  - name: ','
+  - name: " "
+  - name: in
+  - name: " "
+  - uid: BepuPhysics.BodyInertiaWide
+    name: BodyInertiaWide
+    isExternal: true
+  - name: ','
+  - name: " "
+  - name: in
+  - name: " "
+  - uid: BepuUtilities.Vector3Wide
+    name: Vector3Wide
+    isExternal: true
+  - name: ','
+  - name: " "
+  - name: in
+  - name: " "
+  - uid: BepuUtilities.QuaternionWide
+    name: QuaternionWide
+    isExternal: true
+  - name: ','
+  - name: " "
+  - name: in
+  - name: " "
+  - uid: BepuPhysics.BodyInertiaWide
+    name: BodyInertiaWide
+    isExternal: true
+  - name: ','
+  - name: " "
+  - name: ref
+  - name: " "
+  - name: TPrestepData
+  - name: ','
+  - name: " "
+  - name: ref
+  - name: " "
+  - name: TAccumulatedImpulse
+  - name: ','
+  - name: " "
+  - name: ref
+  - name: " "
+  - uid: BepuPhysics.BodyVelocityWide
+    name: BodyVelocityWide
+    isExternal: true
+  - name: ','
+  - name: " "
+  - name: ref
+  - name: " "
+  - uid: BepuPhysics.BodyVelocityWide
+    name: BodyVelocityWide
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: BepuPhysics.Constraints.ITwoBodyConstraintFunctions`2.WarmStart(BepuUtilities.Vector3Wide@,BepuUtilities.QuaternionWide@,BepuPhysics.BodyInertiaWide@,BepuUtilities.Vector3Wide@,BepuUtilities.QuaternionWide@,BepuPhysics.BodyInertiaWide@,`0@,`1@,BepuPhysics.BodyVelocityWide@,BepuPhysics.BodyVelocityWide@)
+    name: WarmStart
+    isExternal: true
+  - name: (
+  - uid: BepuUtilities.Vector3Wide
+    name: Vector3Wide
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: BepuUtilities.QuaternionWide
+    name: QuaternionWide
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: BepuPhysics.BodyInertiaWide
+    name: BodyInertiaWide
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: BepuUtilities.Vector3Wide
+    name: Vector3Wide
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: BepuUtilities.QuaternionWide
+    name: QuaternionWide
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: BepuPhysics.BodyInertiaWide
+    name: BodyInertiaWide
+    isExternal: true
+  - name: ','
+  - name: " "
+  - name: TPrestepData
+  - name: ','
+  - name: " "
+  - name: TAccumulatedImpulse
+  - name: ','
+  - name: " "
+  - uid: BepuPhysics.BodyVelocityWide
+    name: BodyVelocityWide
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: BepuPhysics.BodyVelocityWide
+    name: BodyVelocityWide
+    isExternal: true
+  - name: )
+- uid: BepuUtilities
+  commentId: N:BepuUtilities
+  isExternal: true
+  name: BepuUtilities
+  nameWithType: BepuUtilities
+  fullName: BepuUtilities
+- uid: BepuPhysics
+  commentId: N:BepuPhysics
+  isExternal: true
+  name: BepuPhysics
+  nameWithType: BepuPhysics
+  fullName: BepuPhysics
+- uid: Prowl.Runtime.Controller.DynamicCharacterMotionFunctions.Solve*
+  commentId: Overload:Prowl.Runtime.Controller.DynamicCharacterMotionFunctions.Solve
+  href: Prowl.Runtime.Controller.DynamicCharacterMotionFunctions.html#Prowl_Runtime_Controller_DynamicCharacterMotionFunctions_Solve_BepuUtilities_Vector3Wide__BepuUtilities_QuaternionWide__BepuPhysics_BodyInertiaWide__BepuUtilities_Vector3Wide__BepuUtilities_QuaternionWide__BepuPhysics_BodyInertiaWide__System_Single_System_Single_Prowl_Runtime_Controller_DynamicCharacterMotionPrestep__Prowl_Runtime_Controller_CharacterMotionAccumulatedImpulse__BepuPhysics_BodyVelocityWide__BepuPhysics_BodyVelocityWide__
+  name: Solve
+  nameWithType: DynamicCharacterMotionFunctions.Solve
+  fullName: Prowl.Runtime.Controller.DynamicCharacterMotionFunctions.Solve
+- uid: BepuPhysics.Constraints.ITwoBodyConstraintFunctions{Prowl.Runtime.Controller.DynamicCharacterMotionPrestep,Prowl.Runtime.Controller.CharacterMotionAccumulatedImpulse}.Solve(BepuUtilities.Vector3Wide@,BepuUtilities.QuaternionWide@,BepuPhysics.BodyInertiaWide@,BepuUtilities.Vector3Wide@,BepuUtilities.QuaternionWide@,BepuPhysics.BodyInertiaWide@,System.Single,System.Single,Prowl.Runtime.Controller.DynamicCharacterMotionPrestep@,Prowl.Runtime.Controller.CharacterMotionAccumulatedImpulse@,BepuPhysics.BodyVelocityWide@,BepuPhysics.BodyVelocityWide@)
+  commentId: M:BepuPhysics.Constraints.ITwoBodyConstraintFunctions{Prowl.Runtime.Controller.DynamicCharacterMotionPrestep,Prowl.Runtime.Controller.CharacterMotionAccumulatedImpulse}.Solve(BepuUtilities.Vector3Wide@,BepuUtilities.QuaternionWide@,BepuPhysics.BodyInertiaWide@,BepuUtilities.Vector3Wide@,BepuUtilities.QuaternionWide@,BepuPhysics.BodyInertiaWide@,System.Single,System.Single,Prowl.Runtime.Controller.DynamicCharacterMotionPrestep@,Prowl.Runtime.Controller.CharacterMotionAccumulatedImpulse@,BepuPhysics.BodyVelocityWide@,BepuPhysics.BodyVelocityWide@)
+  parent: BepuPhysics.Constraints.ITwoBodyConstraintFunctions{Prowl.Runtime.Controller.DynamicCharacterMotionPrestep,Prowl.Runtime.Controller.CharacterMotionAccumulatedImpulse}
+  definition: BepuPhysics.Constraints.ITwoBodyConstraintFunctions`2.Solve(BepuUtilities.Vector3Wide@,BepuUtilities.QuaternionWide@,BepuPhysics.BodyInertiaWide@,BepuUtilities.Vector3Wide@,BepuUtilities.QuaternionWide@,BepuPhysics.BodyInertiaWide@,System.Single,System.Single,`0@,`1@,BepuPhysics.BodyVelocityWide@,BepuPhysics.BodyVelocityWide@)
+  href: https://learn.microsoft.com/dotnet/api/system.single
+  name: Solve(in Vector3Wide, in QuaternionWide, in BodyInertiaWide, in Vector3Wide, in QuaternionWide, in BodyInertiaWide, float, float, ref DynamicCharacterMotionPrestep, ref CharacterMotionAccumulatedImpulse, ref BodyVelocityWide, ref BodyVelocityWide)
+  nameWithType: ITwoBodyConstraintFunctions<DynamicCharacterMotionPrestep, CharacterMotionAccumulatedImpulse>.Solve(in Vector3Wide, in QuaternionWide, in BodyInertiaWide, in Vector3Wide, in QuaternionWide, in BodyInertiaWide, float, float, ref DynamicCharacterMotionPrestep, ref CharacterMotionAccumulatedImpulse, ref BodyVelocityWide, ref BodyVelocityWide)
+  fullName: BepuPhysics.Constraints.ITwoBodyConstraintFunctions<Prowl.Runtime.Controller.DynamicCharacterMotionPrestep, Prowl.Runtime.Controller.CharacterMotionAccumulatedImpulse>.Solve(in BepuUtilities.Vector3Wide, in BepuUtilities.QuaternionWide, in BepuPhysics.BodyInertiaWide, in BepuUtilities.Vector3Wide, in BepuUtilities.QuaternionWide, in BepuPhysics.BodyInertiaWide, float, float, ref Prowl.Runtime.Controller.DynamicCharacterMotionPrestep, ref Prowl.Runtime.Controller.CharacterMotionAccumulatedImpulse, ref BepuPhysics.BodyVelocityWide, ref BepuPhysics.BodyVelocityWide)
+  nameWithType.vb: ITwoBodyConstraintFunctions(Of DynamicCharacterMotionPrestep, CharacterMotionAccumulatedImpulse).Solve(Vector3Wide, QuaternionWide, BodyInertiaWide, Vector3Wide, QuaternionWide, BodyInertiaWide, Single, Single, DynamicCharacterMotionPrestep, CharacterMotionAccumulatedImpulse, BodyVelocityWide, BodyVelocityWide)
+  fullName.vb: BepuPhysics.Constraints.ITwoBodyConstraintFunctions(Of Prowl.Runtime.Controller.DynamicCharacterMotionPrestep, Prowl.Runtime.Controller.CharacterMotionAccumulatedImpulse).Solve(BepuUtilities.Vector3Wide, BepuUtilities.QuaternionWide, BepuPhysics.BodyInertiaWide, BepuUtilities.Vector3Wide, BepuUtilities.QuaternionWide, BepuPhysics.BodyInertiaWide, Single, Single, Prowl.Runtime.Controller.DynamicCharacterMotionPrestep, Prowl.Runtime.Controller.CharacterMotionAccumulatedImpulse, BepuPhysics.BodyVelocityWide, BepuPhysics.BodyVelocityWide)
+  name.vb: Solve(Vector3Wide, QuaternionWide, BodyInertiaWide, Vector3Wide, QuaternionWide, BodyInertiaWide, Single, Single, DynamicCharacterMotionPrestep, CharacterMotionAccumulatedImpulse, BodyVelocityWide, BodyVelocityWide)
+  spec.csharp:
+  - uid: BepuPhysics.Constraints.ITwoBodyConstraintFunctions{Prowl.Runtime.Controller.DynamicCharacterMotionPrestep,Prowl.Runtime.Controller.CharacterMotionAccumulatedImpulse}.Solve(BepuUtilities.Vector3Wide@,BepuUtilities.QuaternionWide@,BepuPhysics.BodyInertiaWide@,BepuUtilities.Vector3Wide@,BepuUtilities.QuaternionWide@,BepuPhysics.BodyInertiaWide@,System.Single,System.Single,Prowl.Runtime.Controller.DynamicCharacterMotionPrestep@,Prowl.Runtime.Controller.CharacterMotionAccumulatedImpulse@,BepuPhysics.BodyVelocityWide@,BepuPhysics.BodyVelocityWide@)
+    name: Solve
+    isExternal: true
+  - name: (
+  - name: in
+  - name: " "
+  - uid: BepuUtilities.Vector3Wide
+    name: Vector3Wide
+    isExternal: true
+  - name: ','
+  - name: " "
+  - name: in
+  - name: " "
+  - uid: BepuUtilities.QuaternionWide
+    name: QuaternionWide
+    isExternal: true
+  - name: ','
+  - name: " "
+  - name: in
+  - name: " "
+  - uid: BepuPhysics.BodyInertiaWide
+    name: BodyInertiaWide
+    isExternal: true
+  - name: ','
+  - name: " "
+  - name: in
+  - name: " "
+  - uid: BepuUtilities.Vector3Wide
+    name: Vector3Wide
+    isExternal: true
+  - name: ','
+  - name: " "
+  - name: in
+  - name: " "
+  - uid: BepuUtilities.QuaternionWide
+    name: QuaternionWide
+    isExternal: true
+  - name: ','
+  - name: " "
+  - name: in
+  - name: " "
+  - uid: BepuPhysics.BodyInertiaWide
+    name: BodyInertiaWide
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Single
+    name: float
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.single
+  - name: ','
+  - name: " "
+  - uid: System.Single
+    name: float
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.single
+  - name: ','
+  - name: " "
+  - name: ref
+  - name: " "
+  - uid: Prowl.Runtime.Controller.DynamicCharacterMotionPrestep
+    name: DynamicCharacterMotionPrestep
+    href: Prowl.Runtime.Controller.DynamicCharacterMotionPrestep.html
+  - name: ','
+  - name: " "
+  - name: ref
+  - name: " "
+  - uid: Prowl.Runtime.Controller.CharacterMotionAccumulatedImpulse
+    name: CharacterMotionAccumulatedImpulse
+    href: Prowl.Runtime.Controller.CharacterMotionAccumulatedImpulse.html
+  - name: ','
+  - name: " "
+  - name: ref
+  - name: " "
+  - uid: BepuPhysics.BodyVelocityWide
+    name: BodyVelocityWide
+    isExternal: true
+  - name: ','
+  - name: " "
+  - name: ref
+  - name: " "
+  - uid: BepuPhysics.BodyVelocityWide
+    name: BodyVelocityWide
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: BepuPhysics.Constraints.ITwoBodyConstraintFunctions{Prowl.Runtime.Controller.DynamicCharacterMotionPrestep,Prowl.Runtime.Controller.CharacterMotionAccumulatedImpulse}.Solve(BepuUtilities.Vector3Wide@,BepuUtilities.QuaternionWide@,BepuPhysics.BodyInertiaWide@,BepuUtilities.Vector3Wide@,BepuUtilities.QuaternionWide@,BepuPhysics.BodyInertiaWide@,System.Single,System.Single,Prowl.Runtime.Controller.DynamicCharacterMotionPrestep@,Prowl.Runtime.Controller.CharacterMotionAccumulatedImpulse@,BepuPhysics.BodyVelocityWide@,BepuPhysics.BodyVelocityWide@)
+    name: Solve
+    isExternal: true
+  - name: (
+  - uid: BepuUtilities.Vector3Wide
+    name: Vector3Wide
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: BepuUtilities.QuaternionWide
+    name: QuaternionWide
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: BepuPhysics.BodyInertiaWide
+    name: BodyInertiaWide
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: BepuUtilities.Vector3Wide
+    name: Vector3Wide
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: BepuUtilities.QuaternionWide
+    name: QuaternionWide
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: BepuPhysics.BodyInertiaWide
+    name: BodyInertiaWide
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Single
+    name: Single
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.single
+  - name: ','
+  - name: " "
+  - uid: System.Single
+    name: Single
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.single
+  - name: ','
+  - name: " "
+  - uid: Prowl.Runtime.Controller.DynamicCharacterMotionPrestep
+    name: DynamicCharacterMotionPrestep
+    href: Prowl.Runtime.Controller.DynamicCharacterMotionPrestep.html
+  - name: ','
+  - name: " "
+  - uid: Prowl.Runtime.Controller.CharacterMotionAccumulatedImpulse
+    name: CharacterMotionAccumulatedImpulse
+    href: Prowl.Runtime.Controller.CharacterMotionAccumulatedImpulse.html
+  - name: ','
+  - name: " "
+  - uid: BepuPhysics.BodyVelocityWide
+    name: BodyVelocityWide
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: BepuPhysics.BodyVelocityWide
+    name: BodyVelocityWide
+    isExternal: true
+  - name: )
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.single
+  name: float
+  nameWithType: float
+  fullName: float
+  nameWithType.vb: Single
+  fullName.vb: Single
+  name.vb: Single
+- uid: BepuPhysics.Constraints.ITwoBodyConstraintFunctions`2.Solve(BepuUtilities.Vector3Wide@,BepuUtilities.QuaternionWide@,BepuPhysics.BodyInertiaWide@,BepuUtilities.Vector3Wide@,BepuUtilities.QuaternionWide@,BepuPhysics.BodyInertiaWide@,System.Single,System.Single,`0@,`1@,BepuPhysics.BodyVelocityWide@,BepuPhysics.BodyVelocityWide@)
+  commentId: M:BepuPhysics.Constraints.ITwoBodyConstraintFunctions`2.Solve(BepuUtilities.Vector3Wide@,BepuUtilities.QuaternionWide@,BepuPhysics.BodyInertiaWide@,BepuUtilities.Vector3Wide@,BepuUtilities.QuaternionWide@,BepuPhysics.BodyInertiaWide@,System.Single,System.Single,`0@,`1@,BepuPhysics.BodyVelocityWide@,BepuPhysics.BodyVelocityWide@)
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.single
+  name: Solve(in Vector3Wide, in QuaternionWide, in BodyInertiaWide, in Vector3Wide, in QuaternionWide, in BodyInertiaWide, float, float, ref TPrestepData, ref TAccumulatedImpulse, ref BodyVelocityWide, ref BodyVelocityWide)
+  nameWithType: ITwoBodyConstraintFunctions<TPrestepData, TAccumulatedImpulse>.Solve(in Vector3Wide, in QuaternionWide, in BodyInertiaWide, in Vector3Wide, in QuaternionWide, in BodyInertiaWide, float, float, ref TPrestepData, ref TAccumulatedImpulse, ref BodyVelocityWide, ref BodyVelocityWide)
+  fullName: BepuPhysics.Constraints.ITwoBodyConstraintFunctions<TPrestepData, TAccumulatedImpulse>.Solve(in BepuUtilities.Vector3Wide, in BepuUtilities.QuaternionWide, in BepuPhysics.BodyInertiaWide, in BepuUtilities.Vector3Wide, in BepuUtilities.QuaternionWide, in BepuPhysics.BodyInertiaWide, float, float, ref TPrestepData, ref TAccumulatedImpulse, ref BepuPhysics.BodyVelocityWide, ref BepuPhysics.BodyVelocityWide)
+  nameWithType.vb: ITwoBodyConstraintFunctions(Of TPrestepData, TAccumulatedImpulse).Solve(Vector3Wide, QuaternionWide, BodyInertiaWide, Vector3Wide, QuaternionWide, BodyInertiaWide, Single, Single, TPrestepData, TAccumulatedImpulse, BodyVelocityWide, BodyVelocityWide)
+  fullName.vb: BepuPhysics.Constraints.ITwoBodyConstraintFunctions(Of TPrestepData, TAccumulatedImpulse).Solve(BepuUtilities.Vector3Wide, BepuUtilities.QuaternionWide, BepuPhysics.BodyInertiaWide, BepuUtilities.Vector3Wide, BepuUtilities.QuaternionWide, BepuPhysics.BodyInertiaWide, Single, Single, TPrestepData, TAccumulatedImpulse, BepuPhysics.BodyVelocityWide, BepuPhysics.BodyVelocityWide)
+  name.vb: Solve(Vector3Wide, QuaternionWide, BodyInertiaWide, Vector3Wide, QuaternionWide, BodyInertiaWide, Single, Single, TPrestepData, TAccumulatedImpulse, BodyVelocityWide, BodyVelocityWide)
+  spec.csharp:
+  - uid: BepuPhysics.Constraints.ITwoBodyConstraintFunctions`2.Solve(BepuUtilities.Vector3Wide@,BepuUtilities.QuaternionWide@,BepuPhysics.BodyInertiaWide@,BepuUtilities.Vector3Wide@,BepuUtilities.QuaternionWide@,BepuPhysics.BodyInertiaWide@,System.Single,System.Single,`0@,`1@,BepuPhysics.BodyVelocityWide@,BepuPhysics.BodyVelocityWide@)
+    name: Solve
+    isExternal: true
+  - name: (
+  - name: in
+  - name: " "
+  - uid: BepuUtilities.Vector3Wide
+    name: Vector3Wide
+    isExternal: true
+  - name: ','
+  - name: " "
+  - name: in
+  - name: " "
+  - uid: BepuUtilities.QuaternionWide
+    name: QuaternionWide
+    isExternal: true
+  - name: ','
+  - name: " "
+  - name: in
+  - name: " "
+  - uid: BepuPhysics.BodyInertiaWide
+    name: BodyInertiaWide
+    isExternal: true
+  - name: ','
+  - name: " "
+  - name: in
+  - name: " "
+  - uid: BepuUtilities.Vector3Wide
+    name: Vector3Wide
+    isExternal: true
+  - name: ','
+  - name: " "
+  - name: in
+  - name: " "
+  - uid: BepuUtilities.QuaternionWide
+    name: QuaternionWide
+    isExternal: true
+  - name: ','
+  - name: " "
+  - name: in
+  - name: " "
+  - uid: BepuPhysics.BodyInertiaWide
+    name: BodyInertiaWide
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Single
+    name: float
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.single
+  - name: ','
+  - name: " "
+  - uid: System.Single
+    name: float
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.single
+  - name: ','
+  - name: " "
+  - name: ref
+  - name: " "
+  - name: TPrestepData
+  - name: ','
+  - name: " "
+  - name: ref
+  - name: " "
+  - name: TAccumulatedImpulse
+  - name: ','
+  - name: " "
+  - name: ref
+  - name: " "
+  - uid: BepuPhysics.BodyVelocityWide
+    name: BodyVelocityWide
+    isExternal: true
+  - name: ','
+  - name: " "
+  - name: ref
+  - name: " "
+  - uid: BepuPhysics.BodyVelocityWide
+    name: BodyVelocityWide
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: BepuPhysics.Constraints.ITwoBodyConstraintFunctions`2.Solve(BepuUtilities.Vector3Wide@,BepuUtilities.QuaternionWide@,BepuPhysics.BodyInertiaWide@,BepuUtilities.Vector3Wide@,BepuUtilities.QuaternionWide@,BepuPhysics.BodyInertiaWide@,System.Single,System.Single,`0@,`1@,BepuPhysics.BodyVelocityWide@,BepuPhysics.BodyVelocityWide@)
+    name: Solve
+    isExternal: true
+  - name: (
+  - uid: BepuUtilities.Vector3Wide
+    name: Vector3Wide
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: BepuUtilities.QuaternionWide
+    name: QuaternionWide
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: BepuPhysics.BodyInertiaWide
+    name: BodyInertiaWide
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: BepuUtilities.Vector3Wide
+    name: Vector3Wide
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: BepuUtilities.QuaternionWide
+    name: QuaternionWide
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: BepuPhysics.BodyInertiaWide
+    name: BodyInertiaWide
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Single
+    name: Single
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.single
+  - name: ','
+  - name: " "
+  - uid: System.Single
+    name: Single
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.single
+  - name: ','
+  - name: " "
+  - name: TPrestepData
+  - name: ','
+  - name: " "
+  - name: TAccumulatedImpulse
+  - name: ','
+  - name: " "
+  - uid: BepuPhysics.BodyVelocityWide
+    name: BodyVelocityWide
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: BepuPhysics.BodyVelocityWide
+    name: BodyVelocityWide
+    isExternal: true
+  - name: )
+- uid: Prowl.Runtime.Controller.DynamicCharacterMotionFunctions.RequiresIncrementalSubstepUpdates*
+  commentId: Overload:Prowl.Runtime.Controller.DynamicCharacterMotionFunctions.RequiresIncrementalSubstepUpdates
+  href: Prowl.Runtime.Controller.DynamicCharacterMotionFunctions.html#Prowl_Runtime_Controller_DynamicCharacterMotionFunctions_RequiresIncrementalSubstepUpdates
+  name: RequiresIncrementalSubstepUpdates
+  nameWithType: DynamicCharacterMotionFunctions.RequiresIncrementalSubstepUpdates
+  fullName: Prowl.Runtime.Controller.DynamicCharacterMotionFunctions.RequiresIncrementalSubstepUpdates
+- uid: BepuPhysics.Constraints.ITwoBodyConstraintFunctions{Prowl.Runtime.Controller.DynamicCharacterMotionPrestep,Prowl.Runtime.Controller.CharacterMotionAccumulatedImpulse}.RequiresIncrementalSubstepUpdates
+  commentId: P:BepuPhysics.Constraints.ITwoBodyConstraintFunctions{Prowl.Runtime.Controller.DynamicCharacterMotionPrestep,Prowl.Runtime.Controller.CharacterMotionAccumulatedImpulse}.RequiresIncrementalSubstepUpdates
+  parent: BepuPhysics.Constraints.ITwoBodyConstraintFunctions{Prowl.Runtime.Controller.DynamicCharacterMotionPrestep,Prowl.Runtime.Controller.CharacterMotionAccumulatedImpulse}
+  definition: BepuPhysics.Constraints.ITwoBodyConstraintFunctions`2.RequiresIncrementalSubstepUpdates
+  name: RequiresIncrementalSubstepUpdates
+  nameWithType: ITwoBodyConstraintFunctions<DynamicCharacterMotionPrestep, CharacterMotionAccumulatedImpulse>.RequiresIncrementalSubstepUpdates
+  fullName: BepuPhysics.Constraints.ITwoBodyConstraintFunctions<Prowl.Runtime.Controller.DynamicCharacterMotionPrestep, Prowl.Runtime.Controller.CharacterMotionAccumulatedImpulse>.RequiresIncrementalSubstepUpdates
+  nameWithType.vb: ITwoBodyConstraintFunctions(Of DynamicCharacterMotionPrestep, CharacterMotionAccumulatedImpulse).RequiresIncrementalSubstepUpdates
+  fullName.vb: BepuPhysics.Constraints.ITwoBodyConstraintFunctions(Of Prowl.Runtime.Controller.DynamicCharacterMotionPrestep, Prowl.Runtime.Controller.CharacterMotionAccumulatedImpulse).RequiresIncrementalSubstepUpdates
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: BepuPhysics.Constraints.ITwoBodyConstraintFunctions`2.RequiresIncrementalSubstepUpdates
+  commentId: P:BepuPhysics.Constraints.ITwoBodyConstraintFunctions`2.RequiresIncrementalSubstepUpdates
+  isExternal: true
+  name: RequiresIncrementalSubstepUpdates
+  nameWithType: ITwoBodyConstraintFunctions<TPrestepData, TAccumulatedImpulse>.RequiresIncrementalSubstepUpdates
+  fullName: BepuPhysics.Constraints.ITwoBodyConstraintFunctions<TPrestepData, TAccumulatedImpulse>.RequiresIncrementalSubstepUpdates
+  nameWithType.vb: ITwoBodyConstraintFunctions(Of TPrestepData, TAccumulatedImpulse).RequiresIncrementalSubstepUpdates
+  fullName.vb: BepuPhysics.Constraints.ITwoBodyConstraintFunctions(Of TPrestepData, TAccumulatedImpulse).RequiresIncrementalSubstepUpdates
+- uid: Prowl.Runtime.Controller.DynamicCharacterMotionFunctions.IncrementallyUpdateForSubstep*
+  commentId: Overload:Prowl.Runtime.Controller.DynamicCharacterMotionFunctions.IncrementallyUpdateForSubstep
+  href: Prowl.Runtime.Controller.DynamicCharacterMotionFunctions.html#Prowl_Runtime_Controller_DynamicCharacterMotionFunctions_IncrementallyUpdateForSubstep_System_Numerics_Vector_System_Single___BepuPhysics_BodyVelocityWide__BepuPhysics_BodyVelocityWide__Prowl_Runtime_Controller_DynamicCharacterMotionPrestep__
+  name: IncrementallyUpdateForSubstep
+  nameWithType: DynamicCharacterMotionFunctions.IncrementallyUpdateForSubstep
+  fullName: Prowl.Runtime.Controller.DynamicCharacterMotionFunctions.IncrementallyUpdateForSubstep
+- uid: BepuPhysics.Constraints.ITwoBodyConstraintFunctions{Prowl.Runtime.Controller.DynamicCharacterMotionPrestep,Prowl.Runtime.Controller.CharacterMotionAccumulatedImpulse}.IncrementallyUpdateForSubstep(System.Numerics.Vector{System.Single}@,BepuPhysics.BodyVelocityWide@,BepuPhysics.BodyVelocityWide@,Prowl.Runtime.Controller.DynamicCharacterMotionPrestep@)
+  commentId: M:BepuPhysics.Constraints.ITwoBodyConstraintFunctions{Prowl.Runtime.Controller.DynamicCharacterMotionPrestep,Prowl.Runtime.Controller.CharacterMotionAccumulatedImpulse}.IncrementallyUpdateForSubstep(System.Numerics.Vector{System.Single}@,BepuPhysics.BodyVelocityWide@,BepuPhysics.BodyVelocityWide@,Prowl.Runtime.Controller.DynamicCharacterMotionPrestep@)
+  parent: BepuPhysics.Constraints.ITwoBodyConstraintFunctions{Prowl.Runtime.Controller.DynamicCharacterMotionPrestep,Prowl.Runtime.Controller.CharacterMotionAccumulatedImpulse}
+  definition: BepuPhysics.Constraints.ITwoBodyConstraintFunctions`2.IncrementallyUpdateForSubstep(System.Numerics.Vector{System.Single}@,BepuPhysics.BodyVelocityWide@,BepuPhysics.BodyVelocityWide@,`0@)
+  href: https://learn.microsoft.com/dotnet/api/system.numerics.vector-1
+  name: IncrementallyUpdateForSubstep(in Vector<float>, in BodyVelocityWide, in BodyVelocityWide, ref DynamicCharacterMotionPrestep)
+  nameWithType: ITwoBodyConstraintFunctions<DynamicCharacterMotionPrestep, CharacterMotionAccumulatedImpulse>.IncrementallyUpdateForSubstep(in Vector<float>, in BodyVelocityWide, in BodyVelocityWide, ref DynamicCharacterMotionPrestep)
+  fullName: BepuPhysics.Constraints.ITwoBodyConstraintFunctions<Prowl.Runtime.Controller.DynamicCharacterMotionPrestep, Prowl.Runtime.Controller.CharacterMotionAccumulatedImpulse>.IncrementallyUpdateForSubstep(in System.Numerics.Vector<float>, in BepuPhysics.BodyVelocityWide, in BepuPhysics.BodyVelocityWide, ref Prowl.Runtime.Controller.DynamicCharacterMotionPrestep)
+  nameWithType.vb: ITwoBodyConstraintFunctions(Of DynamicCharacterMotionPrestep, CharacterMotionAccumulatedImpulse).IncrementallyUpdateForSubstep(Vector(Of Single), BodyVelocityWide, BodyVelocityWide, DynamicCharacterMotionPrestep)
+  fullName.vb: BepuPhysics.Constraints.ITwoBodyConstraintFunctions(Of Prowl.Runtime.Controller.DynamicCharacterMotionPrestep, Prowl.Runtime.Controller.CharacterMotionAccumulatedImpulse).IncrementallyUpdateForSubstep(System.Numerics.Vector(Of Single), BepuPhysics.BodyVelocityWide, BepuPhysics.BodyVelocityWide, Prowl.Runtime.Controller.DynamicCharacterMotionPrestep)
+  name.vb: IncrementallyUpdateForSubstep(Vector(Of Single), BodyVelocityWide, BodyVelocityWide, DynamicCharacterMotionPrestep)
+  spec.csharp:
+  - uid: BepuPhysics.Constraints.ITwoBodyConstraintFunctions{Prowl.Runtime.Controller.DynamicCharacterMotionPrestep,Prowl.Runtime.Controller.CharacterMotionAccumulatedImpulse}.IncrementallyUpdateForSubstep(System.Numerics.Vector{System.Single}@,BepuPhysics.BodyVelocityWide@,BepuPhysics.BodyVelocityWide@,Prowl.Runtime.Controller.DynamicCharacterMotionPrestep@)
+    name: IncrementallyUpdateForSubstep
+    isExternal: true
+  - name: (
+  - name: in
+  - name: " "
+  - uid: System.Numerics.Vector`1
+    name: Vector
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.numerics.vector-1
+  - name: <
+  - uid: System.Single
+    name: float
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.single
+  - name: '>'
+  - name: ','
+  - name: " "
+  - name: in
+  - name: " "
+  - uid: BepuPhysics.BodyVelocityWide
+    name: BodyVelocityWide
+    isExternal: true
+  - name: ','
+  - name: " "
+  - name: in
+  - name: " "
+  - uid: BepuPhysics.BodyVelocityWide
+    name: BodyVelocityWide
+    isExternal: true
+  - name: ','
+  - name: " "
+  - name: ref
+  - name: " "
+  - uid: Prowl.Runtime.Controller.DynamicCharacterMotionPrestep
+    name: DynamicCharacterMotionPrestep
+    href: Prowl.Runtime.Controller.DynamicCharacterMotionPrestep.html
+  - name: )
+  spec.vb:
+  - uid: BepuPhysics.Constraints.ITwoBodyConstraintFunctions{Prowl.Runtime.Controller.DynamicCharacterMotionPrestep,Prowl.Runtime.Controller.CharacterMotionAccumulatedImpulse}.IncrementallyUpdateForSubstep(System.Numerics.Vector{System.Single}@,BepuPhysics.BodyVelocityWide@,BepuPhysics.BodyVelocityWide@,Prowl.Runtime.Controller.DynamicCharacterMotionPrestep@)
+    name: IncrementallyUpdateForSubstep
+    isExternal: true
+  - name: (
+  - uid: System.Numerics.Vector`1
+    name: Vector
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.numerics.vector-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Single
+    name: Single
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.single
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: BepuPhysics.BodyVelocityWide
+    name: BodyVelocityWide
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: BepuPhysics.BodyVelocityWide
+    name: BodyVelocityWide
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: Prowl.Runtime.Controller.DynamicCharacterMotionPrestep
+    name: DynamicCharacterMotionPrestep
+    href: Prowl.Runtime.Controller.DynamicCharacterMotionPrestep.html
+  - name: )
+- uid: System.Numerics.Vector{System.Single}
+  commentId: T:System.Numerics.Vector{System.Single}
+  parent: System.Numerics
+  definition: System.Numerics.Vector`1
+  href: https://learn.microsoft.com/dotnet/api/system.numerics.vector-1
+  name: Vector<float>
+  nameWithType: Vector<float>
+  fullName: System.Numerics.Vector<float>
+  nameWithType.vb: Vector(Of Single)
+  fullName.vb: System.Numerics.Vector(Of Single)
+  name.vb: Vector(Of Single)
+  spec.csharp:
+  - uid: System.Numerics.Vector`1
+    name: Vector
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.numerics.vector-1
+  - name: <
+  - uid: System.Single
+    name: float
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.single
+  - name: '>'
+  spec.vb:
+  - uid: System.Numerics.Vector`1
+    name: Vector
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.numerics.vector-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Single
+    name: Single
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.single
+  - name: )
+- uid: BepuPhysics.Constraints.ITwoBodyConstraintFunctions`2.IncrementallyUpdateForSubstep(System.Numerics.Vector{System.Single}@,BepuPhysics.BodyVelocityWide@,BepuPhysics.BodyVelocityWide@,`0@)
+  commentId: M:BepuPhysics.Constraints.ITwoBodyConstraintFunctions`2.IncrementallyUpdateForSubstep(System.Numerics.Vector{System.Single}@,BepuPhysics.BodyVelocityWide@,BepuPhysics.BodyVelocityWide@,`0@)
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.numerics.vector-1
+  name: IncrementallyUpdateForSubstep(in Vector<float>, in BodyVelocityWide, in BodyVelocityWide, ref TPrestepData)
+  nameWithType: ITwoBodyConstraintFunctions<TPrestepData, TAccumulatedImpulse>.IncrementallyUpdateForSubstep(in Vector<float>, in BodyVelocityWide, in BodyVelocityWide, ref TPrestepData)
+  fullName: BepuPhysics.Constraints.ITwoBodyConstraintFunctions<TPrestepData, TAccumulatedImpulse>.IncrementallyUpdateForSubstep(in System.Numerics.Vector<float>, in BepuPhysics.BodyVelocityWide, in BepuPhysics.BodyVelocityWide, ref TPrestepData)
+  nameWithType.vb: ITwoBodyConstraintFunctions(Of TPrestepData, TAccumulatedImpulse).IncrementallyUpdateForSubstep(Vector(Of Single), BodyVelocityWide, BodyVelocityWide, TPrestepData)
+  fullName.vb: BepuPhysics.Constraints.ITwoBodyConstraintFunctions(Of TPrestepData, TAccumulatedImpulse).IncrementallyUpdateForSubstep(System.Numerics.Vector(Of Single), BepuPhysics.BodyVelocityWide, BepuPhysics.BodyVelocityWide, TPrestepData)
+  name.vb: IncrementallyUpdateForSubstep(Vector(Of Single), BodyVelocityWide, BodyVelocityWide, TPrestepData)
+  spec.csharp:
+  - uid: BepuPhysics.Constraints.ITwoBodyConstraintFunctions`2.IncrementallyUpdateForSubstep(System.Numerics.Vector{System.Single}@,BepuPhysics.BodyVelocityWide@,BepuPhysics.BodyVelocityWide@,`0@)
+    name: IncrementallyUpdateForSubstep
+    isExternal: true
+  - name: (
+  - name: in
+  - name: " "
+  - uid: System.Numerics.Vector`1
+    name: Vector
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.numerics.vector-1
+  - name: <
+  - uid: System.Single
+    name: float
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.single
+  - name: '>'
+  - name: ','
+  - name: " "
+  - name: in
+  - name: " "
+  - uid: BepuPhysics.BodyVelocityWide
+    name: BodyVelocityWide
+    isExternal: true
+  - name: ','
+  - name: " "
+  - name: in
+  - name: " "
+  - uid: BepuPhysics.BodyVelocityWide
+    name: BodyVelocityWide
+    isExternal: true
+  - name: ','
+  - name: " "
+  - name: ref
+  - name: " "
+  - name: TPrestepData
+  - name: )
+  spec.vb:
+  - uid: BepuPhysics.Constraints.ITwoBodyConstraintFunctions`2.IncrementallyUpdateForSubstep(System.Numerics.Vector{System.Single}@,BepuPhysics.BodyVelocityWide@,BepuPhysics.BodyVelocityWide@,`0@)
+    name: IncrementallyUpdateForSubstep
+    isExternal: true
+  - name: (
+  - uid: System.Numerics.Vector`1
+    name: Vector
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.numerics.vector-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Single
+    name: Single
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.single
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: BepuPhysics.BodyVelocityWide
+    name: BodyVelocityWide
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: BepuPhysics.BodyVelocityWide
+    name: BodyVelocityWide
+    isExternal: true
+  - name: ','
+  - name: " "
+  - name: TPrestepData
+  - name: )
+- uid: System.Numerics.Vector`1
+  commentId: T:System.Numerics.Vector`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.numerics.vector-1
+  name: Vector<T>
+  nameWithType: Vector<T>
+  fullName: System.Numerics.Vector<T>
+  nameWithType.vb: Vector(Of T)
+  fullName.vb: System.Numerics.Vector(Of T)
+  name.vb: Vector(Of T)
+  spec.csharp:
+  - uid: System.Numerics.Vector`1
+    name: Vector
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.numerics.vector-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Numerics.Vector`1
+    name: Vector
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.numerics.vector-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Numerics
+  commentId: N:System.Numerics
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Numerics
+  nameWithType: System.Numerics
+  fullName: System.Numerics
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Numerics
+    name: Numerics
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.numerics
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Numerics
+    name: Numerics
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.numerics

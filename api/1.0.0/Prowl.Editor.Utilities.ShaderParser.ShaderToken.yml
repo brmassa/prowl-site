@@ -1,0 +1,471 @@
+### YamlMime:ManagedReference
+items:
+- uid: Prowl.Editor.Utilities.ShaderParser.ShaderToken
+  commentId: T:Prowl.Editor.Utilities.ShaderParser.ShaderToken
+  id: ShaderParser.ShaderToken
+  parent: Prowl.Editor.Utilities
+  children:
+  - Prowl.Editor.Utilities.ShaderParser.ShaderToken.CloseCurlBrace
+  - Prowl.Editor.Utilities.ShaderParser.ShaderToken.CloseParen
+  - Prowl.Editor.Utilities.ShaderParser.ShaderToken.CloseSquareBrace
+  - Prowl.Editor.Utilities.ShaderParser.ShaderToken.Comma
+  - Prowl.Editor.Utilities.ShaderParser.ShaderToken.Equals
+  - Prowl.Editor.Utilities.ShaderParser.ShaderToken.Identifier
+  - Prowl.Editor.Utilities.ShaderParser.ShaderToken.None
+  - Prowl.Editor.Utilities.ShaderParser.ShaderToken.OpenCurlBrace
+  - Prowl.Editor.Utilities.ShaderParser.ShaderToken.OpenParen
+  - Prowl.Editor.Utilities.ShaderParser.ShaderToken.OpenSquareBrace
+  - Prowl.Editor.Utilities.ShaderParser.ShaderToken.Quote
+  langs:
+  - csharp
+  - vb
+  name: ShaderParser.ShaderToken
+  nameWithType: ShaderParser.ShaderToken
+  fullName: Prowl.Editor.Utilities.ShaderParser.ShaderToken
+  type: Enum
+  source:
+    remote:
+      path: Prowl.Editor/Utilities/ShaderCompiler/ShaderParser.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: ShaderToken
+    path: ../Prowl/Prowl.Editor/Utilities/ShaderCompiler/ShaderParser.cs
+    startLine: 17
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor.Utilities
+  syntax:
+    content: public enum ShaderParser.ShaderToken
+    content.vb: Public Enum ShaderParser.ShaderToken
+  extensionMethods:
+  - System.Object.Prowl.Runtime.RuntimeUtils.GetSerializableFields
+- uid: Prowl.Editor.Utilities.ShaderParser.ShaderToken.None
+  commentId: F:Prowl.Editor.Utilities.ShaderParser.ShaderToken.None
+  id: None
+  parent: Prowl.Editor.Utilities.ShaderParser.ShaderToken
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: ShaderParser.ShaderToken.None
+  fullName: Prowl.Editor.Utilities.ShaderParser.ShaderToken.None
+  type: Field
+  source:
+    remote:
+      path: Prowl.Editor/Utilities/ShaderCompiler/ShaderParser.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: None
+    path: ../Prowl/Prowl.Editor/Utilities/ShaderCompiler/ShaderParser.cs
+    startLine: 19
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor.Utilities
+  syntax:
+    content: None = 0
+    return:
+      type: Prowl.Editor.Utilities.ShaderParser.ShaderToken
+- uid: Prowl.Editor.Utilities.ShaderParser.ShaderToken.Identifier
+  commentId: F:Prowl.Editor.Utilities.ShaderParser.ShaderToken.Identifier
+  id: Identifier
+  parent: Prowl.Editor.Utilities.ShaderParser.ShaderToken
+  langs:
+  - csharp
+  - vb
+  name: Identifier
+  nameWithType: ShaderParser.ShaderToken.Identifier
+  fullName: Prowl.Editor.Utilities.ShaderParser.ShaderToken.Identifier
+  type: Field
+  source:
+    remote:
+      path: Prowl.Editor/Utilities/ShaderCompiler/ShaderParser.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Identifier
+    path: ../Prowl/Prowl.Editor/Utilities/ShaderCompiler/ShaderParser.cs
+    startLine: 20
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor.Utilities
+  syntax:
+    content: Identifier = 1
+    return:
+      type: Prowl.Editor.Utilities.ShaderParser.ShaderToken
+- uid: Prowl.Editor.Utilities.ShaderParser.ShaderToken.OpenSquareBrace
+  commentId: F:Prowl.Editor.Utilities.ShaderParser.ShaderToken.OpenSquareBrace
+  id: OpenSquareBrace
+  parent: Prowl.Editor.Utilities.ShaderParser.ShaderToken
+  langs:
+  - csharp
+  - vb
+  name: OpenSquareBrace
+  nameWithType: ShaderParser.ShaderToken.OpenSquareBrace
+  fullName: Prowl.Editor.Utilities.ShaderParser.ShaderToken.OpenSquareBrace
+  type: Field
+  source:
+    remote:
+      path: Prowl.Editor/Utilities/ShaderCompiler/ShaderParser.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: OpenSquareBrace
+    path: ../Prowl/Prowl.Editor/Utilities/ShaderCompiler/ShaderParser.cs
+    startLine: 21
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor.Utilities
+  syntax:
+    content: OpenSquareBrace = 2
+    return:
+      type: Prowl.Editor.Utilities.ShaderParser.ShaderToken
+- uid: Prowl.Editor.Utilities.ShaderParser.ShaderToken.CloseSquareBrace
+  commentId: F:Prowl.Editor.Utilities.ShaderParser.ShaderToken.CloseSquareBrace
+  id: CloseSquareBrace
+  parent: Prowl.Editor.Utilities.ShaderParser.ShaderToken
+  langs:
+  - csharp
+  - vb
+  name: CloseSquareBrace
+  nameWithType: ShaderParser.ShaderToken.CloseSquareBrace
+  fullName: Prowl.Editor.Utilities.ShaderParser.ShaderToken.CloseSquareBrace
+  type: Field
+  source:
+    remote:
+      path: Prowl.Editor/Utilities/ShaderCompiler/ShaderParser.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: CloseSquareBrace
+    path: ../Prowl/Prowl.Editor/Utilities/ShaderCompiler/ShaderParser.cs
+    startLine: 22
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor.Utilities
+  syntax:
+    content: CloseSquareBrace = 3
+    return:
+      type: Prowl.Editor.Utilities.ShaderParser.ShaderToken
+- uid: Prowl.Editor.Utilities.ShaderParser.ShaderToken.OpenCurlBrace
+  commentId: F:Prowl.Editor.Utilities.ShaderParser.ShaderToken.OpenCurlBrace
+  id: OpenCurlBrace
+  parent: Prowl.Editor.Utilities.ShaderParser.ShaderToken
+  langs:
+  - csharp
+  - vb
+  name: OpenCurlBrace
+  nameWithType: ShaderParser.ShaderToken.OpenCurlBrace
+  fullName: Prowl.Editor.Utilities.ShaderParser.ShaderToken.OpenCurlBrace
+  type: Field
+  source:
+    remote:
+      path: Prowl.Editor/Utilities/ShaderCompiler/ShaderParser.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: OpenCurlBrace
+    path: ../Prowl/Prowl.Editor/Utilities/ShaderCompiler/ShaderParser.cs
+    startLine: 23
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor.Utilities
+  syntax:
+    content: OpenCurlBrace = 4
+    return:
+      type: Prowl.Editor.Utilities.ShaderParser.ShaderToken
+- uid: Prowl.Editor.Utilities.ShaderParser.ShaderToken.CloseCurlBrace
+  commentId: F:Prowl.Editor.Utilities.ShaderParser.ShaderToken.CloseCurlBrace
+  id: CloseCurlBrace
+  parent: Prowl.Editor.Utilities.ShaderParser.ShaderToken
+  langs:
+  - csharp
+  - vb
+  name: CloseCurlBrace
+  nameWithType: ShaderParser.ShaderToken.CloseCurlBrace
+  fullName: Prowl.Editor.Utilities.ShaderParser.ShaderToken.CloseCurlBrace
+  type: Field
+  source:
+    remote:
+      path: Prowl.Editor/Utilities/ShaderCompiler/ShaderParser.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: CloseCurlBrace
+    path: ../Prowl/Prowl.Editor/Utilities/ShaderCompiler/ShaderParser.cs
+    startLine: 24
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor.Utilities
+  syntax:
+    content: CloseCurlBrace = 5
+    return:
+      type: Prowl.Editor.Utilities.ShaderParser.ShaderToken
+- uid: Prowl.Editor.Utilities.ShaderParser.ShaderToken.OpenParen
+  commentId: F:Prowl.Editor.Utilities.ShaderParser.ShaderToken.OpenParen
+  id: OpenParen
+  parent: Prowl.Editor.Utilities.ShaderParser.ShaderToken
+  langs:
+  - csharp
+  - vb
+  name: OpenParen
+  nameWithType: ShaderParser.ShaderToken.OpenParen
+  fullName: Prowl.Editor.Utilities.ShaderParser.ShaderToken.OpenParen
+  type: Field
+  source:
+    remote:
+      path: Prowl.Editor/Utilities/ShaderCompiler/ShaderParser.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: OpenParen
+    path: ../Prowl/Prowl.Editor/Utilities/ShaderCompiler/ShaderParser.cs
+    startLine: 25
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor.Utilities
+  syntax:
+    content: OpenParen = 6
+    return:
+      type: Prowl.Editor.Utilities.ShaderParser.ShaderToken
+- uid: Prowl.Editor.Utilities.ShaderParser.ShaderToken.CloseParen
+  commentId: F:Prowl.Editor.Utilities.ShaderParser.ShaderToken.CloseParen
+  id: CloseParen
+  parent: Prowl.Editor.Utilities.ShaderParser.ShaderToken
+  langs:
+  - csharp
+  - vb
+  name: CloseParen
+  nameWithType: ShaderParser.ShaderToken.CloseParen
+  fullName: Prowl.Editor.Utilities.ShaderParser.ShaderToken.CloseParen
+  type: Field
+  source:
+    remote:
+      path: Prowl.Editor/Utilities/ShaderCompiler/ShaderParser.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: CloseParen
+    path: ../Prowl/Prowl.Editor/Utilities/ShaderCompiler/ShaderParser.cs
+    startLine: 26
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor.Utilities
+  syntax:
+    content: CloseParen = 7
+    return:
+      type: Prowl.Editor.Utilities.ShaderParser.ShaderToken
+- uid: Prowl.Editor.Utilities.ShaderParser.ShaderToken.Equals
+  commentId: F:Prowl.Editor.Utilities.ShaderParser.ShaderToken.Equals
+  id: Equals
+  parent: Prowl.Editor.Utilities.ShaderParser.ShaderToken
+  langs:
+  - csharp
+  - vb
+  name: Equals
+  nameWithType: ShaderParser.ShaderToken.Equals
+  fullName: Prowl.Editor.Utilities.ShaderParser.ShaderToken.Equals
+  type: Field
+  source:
+    remote:
+      path: Prowl.Editor/Utilities/ShaderCompiler/ShaderParser.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Equals
+    path: ../Prowl/Prowl.Editor/Utilities/ShaderCompiler/ShaderParser.cs
+    startLine: 27
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor.Utilities
+  syntax:
+    content: Equals = 8
+    return:
+      type: Prowl.Editor.Utilities.ShaderParser.ShaderToken
+- uid: Prowl.Editor.Utilities.ShaderParser.ShaderToken.Comma
+  commentId: F:Prowl.Editor.Utilities.ShaderParser.ShaderToken.Comma
+  id: Comma
+  parent: Prowl.Editor.Utilities.ShaderParser.ShaderToken
+  langs:
+  - csharp
+  - vb
+  name: Comma
+  nameWithType: ShaderParser.ShaderToken.Comma
+  fullName: Prowl.Editor.Utilities.ShaderParser.ShaderToken.Comma
+  type: Field
+  source:
+    remote:
+      path: Prowl.Editor/Utilities/ShaderCompiler/ShaderParser.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Comma
+    path: ../Prowl/Prowl.Editor/Utilities/ShaderCompiler/ShaderParser.cs
+    startLine: 28
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor.Utilities
+  syntax:
+    content: Comma = 9
+    return:
+      type: Prowl.Editor.Utilities.ShaderParser.ShaderToken
+- uid: Prowl.Editor.Utilities.ShaderParser.ShaderToken.Quote
+  commentId: F:Prowl.Editor.Utilities.ShaderParser.ShaderToken.Quote
+  id: Quote
+  parent: Prowl.Editor.Utilities.ShaderParser.ShaderToken
+  langs:
+  - csharp
+  - vb
+  name: Quote
+  nameWithType: ShaderParser.ShaderToken.Quote
+  fullName: Prowl.Editor.Utilities.ShaderParser.ShaderToken.Quote
+  type: Field
+  source:
+    remote:
+      path: Prowl.Editor/Utilities/ShaderCompiler/ShaderParser.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Quote
+    path: ../Prowl/Prowl.Editor/Utilities/ShaderCompiler/ShaderParser.cs
+    startLine: 29
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor.Utilities
+  syntax:
+    content: Quote = 10
+    return:
+      type: Prowl.Editor.Utilities.ShaderParser.ShaderToken
+references:
+- uid: Prowl.Editor.Utilities
+  commentId: N:Prowl.Editor.Utilities
+  href: Prowl.html
+  name: Prowl.Editor.Utilities
+  nameWithType: Prowl.Editor.Utilities
+  fullName: Prowl.Editor.Utilities
+  spec.csharp:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Editor
+    name: Editor
+    href: Prowl.Editor.html
+  - name: .
+  - uid: Prowl.Editor.Utilities
+    name: Utilities
+    href: Prowl.Editor.Utilities.html
+  spec.vb:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Editor
+    name: Editor
+    href: Prowl.Editor.html
+  - name: .
+  - uid: Prowl.Editor.Utilities
+    name: Utilities
+    href: Prowl.Editor.Utilities.html
+- uid: System.Object.Prowl.Runtime.RuntimeUtils.GetSerializableFields
+  commentId: M:Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  parent: Prowl.Runtime.RuntimeUtils
+  definition: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  name: GetSerializableFields(object)
+  nameWithType: RuntimeUtils.GetSerializableFields(object)
+  fullName: Prowl.Runtime.RuntimeUtils.GetSerializableFields(object)
+  nameWithType.vb: RuntimeUtils.GetSerializableFields(Object)
+  fullName.vb: Prowl.Runtime.RuntimeUtils.GetSerializableFields(Object)
+  name.vb: GetSerializableFields(Object)
+  spec.csharp:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  commentId: M:Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  isExternal: true
+  href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  name: GetSerializableFields(object)
+  nameWithType: RuntimeUtils.GetSerializableFields(object)
+  fullName: Prowl.Runtime.RuntimeUtils.GetSerializableFields(object)
+  nameWithType.vb: RuntimeUtils.GetSerializableFields(Object)
+  fullName.vb: Prowl.Runtime.RuntimeUtils.GetSerializableFields(Object)
+  name.vb: GetSerializableFields(Object)
+  spec.csharp:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: Prowl.Runtime.RuntimeUtils
+  commentId: T:Prowl.Runtime.RuntimeUtils
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.RuntimeUtils.html
+  name: RuntimeUtils
+  nameWithType: RuntimeUtils
+  fullName: Prowl.Runtime.RuntimeUtils
+- uid: Prowl.Runtime
+  commentId: N:Prowl.Runtime
+  href: Prowl.html
+  name: Prowl.Runtime
+  nameWithType: Prowl.Runtime
+  fullName: Prowl.Runtime
+  spec.csharp:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+  spec.vb:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+- uid: Prowl.Editor.Utilities.ShaderParser.ShaderToken
+  commentId: T:Prowl.Editor.Utilities.ShaderParser.ShaderToken
+  parent: Prowl.Editor.Utilities
+  href: Prowl.Editor.Utilities.ShaderParser.html
+  name: ShaderParser.ShaderToken
+  nameWithType: ShaderParser.ShaderToken
+  fullName: Prowl.Editor.Utilities.ShaderParser.ShaderToken
+  spec.csharp:
+  - uid: Prowl.Editor.Utilities.ShaderParser
+    name: ShaderParser
+    href: Prowl.Editor.Utilities.ShaderParser.html
+  - name: .
+  - uid: Prowl.Editor.Utilities.ShaderParser.ShaderToken
+    name: ShaderToken
+    href: Prowl.Editor.Utilities.ShaderParser.ShaderToken.html
+  spec.vb:
+  - uid: Prowl.Editor.Utilities.ShaderParser
+    name: ShaderParser
+    href: Prowl.Editor.Utilities.ShaderParser.html
+  - name: .
+  - uid: Prowl.Editor.Utilities.ShaderParser.ShaderToken
+    name: ShaderToken
+    href: Prowl.Editor.Utilities.ShaderParser.ShaderToken.html

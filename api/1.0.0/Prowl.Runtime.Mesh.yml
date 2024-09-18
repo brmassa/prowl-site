@@ -1,0 +1,3284 @@
+### YamlMime:ManagedReference
+items:
+- uid: Prowl.Runtime.Mesh
+  commentId: T:Prowl.Runtime.Mesh
+  id: Mesh
+  parent: Prowl.Runtime
+  children:
+  - Prowl.Runtime.Mesh.#ctor
+  - Prowl.Runtime.Mesh.BoneIndices
+  - Prowl.Runtime.Mesh.BoneWeights
+  - Prowl.Runtime.Mesh.BufferLength
+  - Prowl.Runtime.Mesh.Clear
+  - Prowl.Runtime.Mesh.Colors
+  - Prowl.Runtime.Mesh.ColorsStart
+  - Prowl.Runtime.Mesh.CreateCube(Prowl.Runtime.Vector3)
+  - Prowl.Runtime.Mesh.CreateCylinder(System.Single,System.Single,System.Int32)
+  - Prowl.Runtime.Mesh.CreateQuad(Prowl.Runtime.Vector2)
+  - Prowl.Runtime.Mesh.CreateSphere(System.Single,System.Int32,System.Int32)
+  - Prowl.Runtime.Mesh.CreateTriangle(Prowl.Runtime.Vector3,Prowl.Runtime.Vector3,Prowl.Runtime.Vector3)
+  - Prowl.Runtime.Mesh.Deserialize(Prowl.Runtime.SerializedProperty,Prowl.Runtime.Serializer.SerializationContext)
+  - Prowl.Runtime.Mesh.HasBoneIndices
+  - Prowl.Runtime.Mesh.HasBoneWeights
+  - Prowl.Runtime.Mesh.HasColors
+  - Prowl.Runtime.Mesh.HasNormals
+  - Prowl.Runtime.Mesh.HasTangents
+  - Prowl.Runtime.Mesh.HasUV
+  - Prowl.Runtime.Mesh.HasUV2
+  - Prowl.Runtime.Mesh.IndexBuffer
+  - Prowl.Runtime.Mesh.IndexCount
+  - Prowl.Runtime.Mesh.IndexFormat
+  - Prowl.Runtime.Mesh.Indices16
+  - Prowl.Runtime.Mesh.Indices32
+  - Prowl.Runtime.Mesh.MeshSemantics
+  - Prowl.Runtime.Mesh.Normals
+  - Prowl.Runtime.Mesh.NormalsStart
+  - Prowl.Runtime.Mesh.OnDispose
+  - Prowl.Runtime.Mesh.RecalculateBounds
+  - Prowl.Runtime.Mesh.RecalculateNormals
+  - Prowl.Runtime.Mesh.RecalculateTangents
+  - Prowl.Runtime.Mesh.Serialize(Prowl.Runtime.Serializer.SerializationContext)
+  - Prowl.Runtime.Mesh.SetDrawData(Veldrid.CommandList,Prowl.Runtime.ShaderPipeline)
+  - Prowl.Runtime.Mesh.Tangents
+  - Prowl.Runtime.Mesh.TangentsStart
+  - Prowl.Runtime.Mesh.Topology
+  - Prowl.Runtime.Mesh.UV
+  - Prowl.Runtime.Mesh.UV2
+  - Prowl.Runtime.Mesh.UV2Start
+  - Prowl.Runtime.Mesh.UVStart
+  - Prowl.Runtime.Mesh.Upload
+  - Prowl.Runtime.Mesh.VertexBuffer
+  - Prowl.Runtime.Mesh.VertexCount
+  - Prowl.Runtime.Mesh.Vertices
+  - Prowl.Runtime.Mesh.bindPoses
+  - Prowl.Runtime.Mesh.bounds
+  - Prowl.Runtime.Mesh.isReadable
+  - Prowl.Runtime.Mesh.isWritable
+  langs:
+  - csharp
+  - vb
+  name: Mesh
+  nameWithType: Mesh
+  fullName: Prowl.Runtime.Mesh
+  type: Class
+  source:
+    remote:
+      path: Prowl.Runtime/Rendering/Mesh.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Mesh
+    path: ../Prowl/Prowl.Runtime/Rendering/Mesh.cs
+    startLine: 28
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: 'public class Mesh : EngineObject, IDisposable, ISerializable, IGeometryDrawData'
+    content.vb: Public Class Mesh Inherits EngineObject Implements IDisposable, ISerializable, IGeometryDrawData
+  inheritance:
+  - System.Object
+  - Prowl.Runtime.EngineObject
+  implements:
+  - System.IDisposable
+  - Prowl.Runtime.ISerializable
+  - Prowl.Runtime.IGeometryDrawData
+  inheritedMembers:
+  - Prowl.Runtime.EngineObject._instanceID
+  - Prowl.Runtime.EngineObject.InstanceID
+  - Prowl.Runtime.EngineObject.AssetID
+  - Prowl.Runtime.EngineObject.FileID
+  - Prowl.Runtime.EngineObject.Name
+  - Prowl.Runtime.EngineObject.IsDestroyed
+  - Prowl.Runtime.EngineObject.CreatedInstance
+  - Prowl.Runtime.EngineObject.OnValidate
+  - Prowl.Runtime.EngineObject.FindObjectOfType``1
+  - Prowl.Runtime.EngineObject.FindObjectsOfType``1
+  - Prowl.Runtime.EngineObject.FindObjectByID``1(System.Int32)
+  - Prowl.Runtime.EngineObject.Foreach``1(System.Action{{T}})
+  - Prowl.Runtime.EngineObject.Destroy
+  - Prowl.Runtime.EngineObject.DestroyImmediate
+  - Prowl.Runtime.EngineObject.Destroy(Prowl.Runtime.EngineObject)
+  - Prowl.Runtime.EngineObject.DestroyImmediate(Prowl.Runtime.EngineObject)
+  - Prowl.Runtime.EngineObject.HandleDestroyed
+  - Prowl.Runtime.EngineObject.Instantiate(Prowl.Runtime.EngineObject,System.Boolean)
+  - Prowl.Runtime.EngineObject.Dispose
+  - Prowl.Runtime.EngineObject.ToString
+  - Prowl.Runtime.EngineObject.SerializeHeader(Prowl.Runtime.SerializedProperty)
+  - Prowl.Runtime.EngineObject.DeserializeHeader(Prowl.Runtime.SerializedProperty)
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  extensionMethods:
+  - Prowl.Runtime.EngineObject.Prowl.Runtime.EngineObjectExtensions.Null
+  - System.Object.Prowl.Runtime.RuntimeUtils.GetSerializableFields
+- uid: Prowl.Runtime.Mesh.isReadable
+  commentId: F:Prowl.Runtime.Mesh.isReadable
+  id: isReadable
+  parent: Prowl.Runtime.Mesh
+  langs:
+  - csharp
+  - vb
+  name: isReadable
+  nameWithType: Mesh.isReadable
+  fullName: Prowl.Runtime.Mesh.isReadable
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/Rendering/Mesh.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: isReadable
+    path: ../Prowl/Prowl.Runtime/Rendering/Mesh.cs
+    startLine: 31
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: Whether this mesh is readable by the CPU
+  example: []
+  syntax:
+    content: public readonly bool isReadable
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly isReadable As Boolean
+- uid: Prowl.Runtime.Mesh.isWritable
+  commentId: F:Prowl.Runtime.Mesh.isWritable
+  id: isWritable
+  parent: Prowl.Runtime.Mesh
+  langs:
+  - csharp
+  - vb
+  name: isWritable
+  nameWithType: Mesh.isWritable
+  fullName: Prowl.Runtime.Mesh.isWritable
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/Rendering/Mesh.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: isWritable
+    path: ../Prowl/Prowl.Runtime/Rendering/Mesh.cs
+    startLine: 34
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: Whether this mesh is writable
+  example: []
+  syntax:
+    content: public readonly bool isWritable
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly isWritable As Boolean
+- uid: Prowl.Runtime.Mesh.bounds
+  commentId: P:Prowl.Runtime.Mesh.bounds
+  id: bounds
+  parent: Prowl.Runtime.Mesh
+  langs:
+  - csharp
+  - vb
+  name: bounds
+  nameWithType: Mesh.bounds
+  fullName: Prowl.Runtime.Mesh.bounds
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/Rendering/Mesh.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: bounds
+    path: ../Prowl/Prowl.Runtime/Rendering/Mesh.cs
+    startLine: 37
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: The bounds of the mesh
+  example: []
+  syntax:
+    content: public Bounds bounds { get; }
+    parameters: []
+    return:
+      type: Prowl.Runtime.Bounds
+    content.vb: Public Property bounds As Bounds
+  overload: Prowl.Runtime.Mesh.bounds*
+- uid: Prowl.Runtime.Mesh.IndexFormat
+  commentId: P:Prowl.Runtime.Mesh.IndexFormat
+  id: IndexFormat
+  parent: Prowl.Runtime.Mesh
+  langs:
+  - csharp
+  - vb
+  name: IndexFormat
+  nameWithType: Mesh.IndexFormat
+  fullName: Prowl.Runtime.Mesh.IndexFormat
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/Rendering/Mesh.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: IndexFormat
+    path: ../Prowl/Prowl.Runtime/Rendering/Mesh.cs
+    startLine: 40
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: The format of the indices for this mesh
+  example: []
+  syntax:
+    content: public IndexFormat IndexFormat { get; set; }
+    parameters: []
+    return:
+      type: Veldrid.IndexFormat
+    content.vb: Public Property IndexFormat As IndexFormat
+  overload: Prowl.Runtime.Mesh.IndexFormat*
+  implements:
+  - Prowl.Runtime.IGeometryDrawData.IndexFormat
+- uid: Prowl.Runtime.Mesh.Topology
+  commentId: P:Prowl.Runtime.Mesh.Topology
+  id: Topology
+  parent: Prowl.Runtime.Mesh
+  langs:
+  - csharp
+  - vb
+  name: Topology
+  nameWithType: Mesh.Topology
+  fullName: Prowl.Runtime.Mesh.Topology
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/Rendering/Mesh.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Topology
+    path: ../Prowl/Prowl.Runtime/Rendering/Mesh.cs
+    startLine: 58
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: The mesh's primitive type
+  example: []
+  syntax:
+    content: public PrimitiveTopology Topology { get; set; }
+    parameters: []
+    return:
+      type: Veldrid.PrimitiveTopology
+    content.vb: Public Property Topology As PrimitiveTopology
+  overload: Prowl.Runtime.Mesh.Topology*
+  implements:
+  - Prowl.Runtime.IGeometryDrawData.Topology
+- uid: Prowl.Runtime.Mesh.Vertices
+  commentId: P:Prowl.Runtime.Mesh.Vertices
+  id: Vertices
+  parent: Prowl.Runtime.Mesh
+  langs:
+  - csharp
+  - vb
+  name: Vertices
+  nameWithType: Mesh.Vertices
+  fullName: Prowl.Runtime.Mesh.Vertices
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/Rendering/Mesh.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Vertices
+    path: ../Prowl/Prowl.Runtime/Rendering/Mesh.cs
+    startLine: 74
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: >-
+    Sets or gets the current vertices.
+
+    Getting depends on isReadable.
+
+    Note: When setting, if the vertex count is different than previous, it'll reset all other vertex data fields.
+  example: []
+  syntax:
+    content: public Vector3[] Vertices { get; set; }
+    parameters: []
+    return:
+      type: System.Numerics.Vector3[]
+    content.vb: Public Property Vertices As Vector3()
+  overload: Prowl.Runtime.Mesh.Vertices*
+- uid: Prowl.Runtime.Mesh.Normals
+  commentId: P:Prowl.Runtime.Mesh.Normals
+  id: Normals
+  parent: Prowl.Runtime.Mesh
+  langs:
+  - csharp
+  - vb
+  name: Normals
+  nameWithType: Mesh.Normals
+  fullName: Prowl.Runtime.Mesh.Normals
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/Rendering/Mesh.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Normals
+    path: ../Prowl/Prowl.Runtime/Rendering/Mesh.cs
+    startLine: 96
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public Vector3[] Normals { get; set; }
+    parameters: []
+    return:
+      type: System.Numerics.Vector3[]
+    content.vb: Public Property Normals As Vector3()
+  overload: Prowl.Runtime.Mesh.Normals*
+- uid: Prowl.Runtime.Mesh.Tangents
+  commentId: P:Prowl.Runtime.Mesh.Tangents
+  id: Tangents
+  parent: Prowl.Runtime.Mesh
+  langs:
+  - csharp
+  - vb
+  name: Tangents
+  nameWithType: Mesh.Tangents
+  fullName: Prowl.Runtime.Mesh.Tangents
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/Rendering/Mesh.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Tangents
+    path: ../Prowl/Prowl.Runtime/Rendering/Mesh.cs
+    startLine: 102
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public Vector3[] Tangents { get; set; }
+    parameters: []
+    return:
+      type: System.Numerics.Vector3[]
+    content.vb: Public Property Tangents As Vector3()
+  overload: Prowl.Runtime.Mesh.Tangents*
+- uid: Prowl.Runtime.Mesh.Colors
+  commentId: P:Prowl.Runtime.Mesh.Colors
+  id: Colors
+  parent: Prowl.Runtime.Mesh
+  langs:
+  - csharp
+  - vb
+  name: Colors
+  nameWithType: Mesh.Colors
+  fullName: Prowl.Runtime.Mesh.Colors
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/Rendering/Mesh.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Colors
+    path: ../Prowl/Prowl.Runtime/Rendering/Mesh.cs
+    startLine: 108
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public Color32[] Colors { get; set; }
+    parameters: []
+    return:
+      type: Prowl.Runtime.Color32[]
+    content.vb: Public Property Colors As Color32()
+  overload: Prowl.Runtime.Mesh.Colors*
+- uid: Prowl.Runtime.Mesh.UV
+  commentId: P:Prowl.Runtime.Mesh.UV
+  id: UV
+  parent: Prowl.Runtime.Mesh
+  langs:
+  - csharp
+  - vb
+  name: UV
+  nameWithType: Mesh.UV
+  fullName: Prowl.Runtime.Mesh.UV
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/Rendering/Mesh.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: UV
+    path: ../Prowl/Prowl.Runtime/Rendering/Mesh.cs
+    startLine: 114
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public Vector2[] UV { get; set; }
+    parameters: []
+    return:
+      type: System.Numerics.Vector2[]
+    content.vb: Public Property UV As Vector2()
+  overload: Prowl.Runtime.Mesh.UV*
+- uid: Prowl.Runtime.Mesh.UV2
+  commentId: P:Prowl.Runtime.Mesh.UV2
+  id: UV2
+  parent: Prowl.Runtime.Mesh
+  langs:
+  - csharp
+  - vb
+  name: UV2
+  nameWithType: Mesh.UV2
+  fullName: Prowl.Runtime.Mesh.UV2
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/Rendering/Mesh.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: UV2
+    path: ../Prowl/Prowl.Runtime/Rendering/Mesh.cs
+    startLine: 120
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public Vector2[] UV2 { get; set; }
+    parameters: []
+    return:
+      type: System.Numerics.Vector2[]
+    content.vb: Public Property UV2 As Vector2()
+  overload: Prowl.Runtime.Mesh.UV2*
+- uid: Prowl.Runtime.Mesh.Indices32
+  commentId: P:Prowl.Runtime.Mesh.Indices32
+  id: Indices32
+  parent: Prowl.Runtime.Mesh
+  langs:
+  - csharp
+  - vb
+  name: Indices32
+  nameWithType: Mesh.Indices32
+  fullName: Prowl.Runtime.Mesh.Indices32
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/Rendering/Mesh.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Indices32
+    path: ../Prowl/Prowl.Runtime/Rendering/Mesh.cs
+    startLine: 126
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public uint[] Indices32 { get; set; }
+    parameters: []
+    return:
+      type: System.UInt32[]
+    content.vb: Public Property Indices32 As UInteger()
+  overload: Prowl.Runtime.Mesh.Indices32*
+- uid: Prowl.Runtime.Mesh.Indices16
+  commentId: P:Prowl.Runtime.Mesh.Indices16
+  id: Indices16
+  parent: Prowl.Runtime.Mesh
+  langs:
+  - csharp
+  - vb
+  name: Indices16
+  nameWithType: Mesh.Indices16
+  fullName: Prowl.Runtime.Mesh.Indices16
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/Rendering/Mesh.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Indices16
+    path: ../Prowl/Prowl.Runtime/Rendering/Mesh.cs
+    startLine: 132
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public ushort[] Indices16 { get; set; }
+    parameters: []
+    return:
+      type: System.UInt16[]
+    content.vb: Public Property Indices16 As UShort()
+  overload: Prowl.Runtime.Mesh.Indices16*
+- uid: Prowl.Runtime.Mesh.BoneIndices
+  commentId: P:Prowl.Runtime.Mesh.BoneIndices
+  id: BoneIndices
+  parent: Prowl.Runtime.Mesh
+  langs:
+  - csharp
+  - vb
+  name: BoneIndices
+  nameWithType: Mesh.BoneIndices
+  fullName: Prowl.Runtime.Mesh.BoneIndices
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/Rendering/Mesh.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: BoneIndices
+    path: ../Prowl/Prowl.Runtime/Rendering/Mesh.cs
+    startLine: 138
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public Vector4[] BoneIndices { get; set; }
+    parameters: []
+    return:
+      type: System.Numerics.Vector4[]
+    content.vb: Public Property BoneIndices As Vector4()
+  overload: Prowl.Runtime.Mesh.BoneIndices*
+- uid: Prowl.Runtime.Mesh.BoneWeights
+  commentId: P:Prowl.Runtime.Mesh.BoneWeights
+  id: BoneWeights
+  parent: Prowl.Runtime.Mesh
+  langs:
+  - csharp
+  - vb
+  name: BoneWeights
+  nameWithType: Mesh.BoneWeights
+  fullName: Prowl.Runtime.Mesh.BoneWeights
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/Rendering/Mesh.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: BoneWeights
+    path: ../Prowl/Prowl.Runtime/Rendering/Mesh.cs
+    startLine: 144
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public Vector4[] BoneWeights { get; set; }
+    parameters: []
+    return:
+      type: System.Numerics.Vector4[]
+    content.vb: Public Property BoneWeights As Vector4()
+  overload: Prowl.Runtime.Mesh.BoneWeights*
+- uid: Prowl.Runtime.Mesh.VertexCount
+  commentId: P:Prowl.Runtime.Mesh.VertexCount
+  id: VertexCount
+  parent: Prowl.Runtime.Mesh
+  langs:
+  - csharp
+  - vb
+  name: VertexCount
+  nameWithType: Mesh.VertexCount
+  fullName: Prowl.Runtime.Mesh.VertexCount
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/Rendering/Mesh.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: VertexCount
+    path: ../Prowl/Prowl.Runtime/Rendering/Mesh.cs
+    startLine: 150
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public int VertexCount { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property VertexCount As Integer
+  overload: Prowl.Runtime.Mesh.VertexCount*
+- uid: Prowl.Runtime.Mesh.IndexCount
+  commentId: P:Prowl.Runtime.Mesh.IndexCount
+  id: IndexCount
+  parent: Prowl.Runtime.Mesh
+  langs:
+  - csharp
+  - vb
+  name: IndexCount
+  nameWithType: Mesh.IndexCount
+  fullName: Prowl.Runtime.Mesh.IndexCount
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/Rendering/Mesh.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: IndexCount
+    path: ../Prowl/Prowl.Runtime/Rendering/Mesh.cs
+    startLine: 151
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  example: []
+  syntax:
+    content: public int IndexCount { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property IndexCount As Integer
+  overload: Prowl.Runtime.Mesh.IndexCount*
+  implements:
+  - Prowl.Runtime.IGeometryDrawData.IndexCount
+- uid: Prowl.Runtime.Mesh.VertexBuffer
+  commentId: P:Prowl.Runtime.Mesh.VertexBuffer
+  id: VertexBuffer
+  parent: Prowl.Runtime.Mesh
+  langs:
+  - csharp
+  - vb
+  name: VertexBuffer
+  nameWithType: Mesh.VertexBuffer
+  fullName: Prowl.Runtime.Mesh.VertexBuffer
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/Rendering/Mesh.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: VertexBuffer
+    path: ../Prowl/Prowl.Runtime/Rendering/Mesh.cs
+    startLine: 153
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public DeviceBuffer VertexBuffer { get; }
+    parameters: []
+    return:
+      type: Veldrid.DeviceBuffer
+    content.vb: Public ReadOnly Property VertexBuffer As DeviceBuffer
+  overload: Prowl.Runtime.Mesh.VertexBuffer*
+- uid: Prowl.Runtime.Mesh.IndexBuffer
+  commentId: P:Prowl.Runtime.Mesh.IndexBuffer
+  id: IndexBuffer
+  parent: Prowl.Runtime.Mesh
+  langs:
+  - csharp
+  - vb
+  name: IndexBuffer
+  nameWithType: Mesh.IndexBuffer
+  fullName: Prowl.Runtime.Mesh.IndexBuffer
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/Rendering/Mesh.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: IndexBuffer
+    path: ../Prowl/Prowl.Runtime/Rendering/Mesh.cs
+    startLine: 154
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public DeviceBuffer IndexBuffer { get; }
+    parameters: []
+    return:
+      type: Veldrid.DeviceBuffer
+    content.vb: Public ReadOnly Property IndexBuffer As DeviceBuffer
+  overload: Prowl.Runtime.Mesh.IndexBuffer*
+- uid: Prowl.Runtime.Mesh.HasNormals
+  commentId: P:Prowl.Runtime.Mesh.HasNormals
+  id: HasNormals
+  parent: Prowl.Runtime.Mesh
+  langs:
+  - csharp
+  - vb
+  name: HasNormals
+  nameWithType: Mesh.HasNormals
+  fullName: Prowl.Runtime.Mesh.HasNormals
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/Rendering/Mesh.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: HasNormals
+    path: ../Prowl/Prowl.Runtime/Rendering/Mesh.cs
+    startLine: 156
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public bool HasNormals { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property HasNormals As Boolean
+  overload: Prowl.Runtime.Mesh.HasNormals*
+- uid: Prowl.Runtime.Mesh.HasTangents
+  commentId: P:Prowl.Runtime.Mesh.HasTangents
+  id: HasTangents
+  parent: Prowl.Runtime.Mesh
+  langs:
+  - csharp
+  - vb
+  name: HasTangents
+  nameWithType: Mesh.HasTangents
+  fullName: Prowl.Runtime.Mesh.HasTangents
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/Rendering/Mesh.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: HasTangents
+    path: ../Prowl/Prowl.Runtime/Rendering/Mesh.cs
+    startLine: 157
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public bool HasTangents { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property HasTangents As Boolean
+  overload: Prowl.Runtime.Mesh.HasTangents*
+- uid: Prowl.Runtime.Mesh.HasColors
+  commentId: P:Prowl.Runtime.Mesh.HasColors
+  id: HasColors
+  parent: Prowl.Runtime.Mesh
+  langs:
+  - csharp
+  - vb
+  name: HasColors
+  nameWithType: Mesh.HasColors
+  fullName: Prowl.Runtime.Mesh.HasColors
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/Rendering/Mesh.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: HasColors
+    path: ../Prowl/Prowl.Runtime/Rendering/Mesh.cs
+    startLine: 158
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public bool HasColors { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property HasColors As Boolean
+  overload: Prowl.Runtime.Mesh.HasColors*
+- uid: Prowl.Runtime.Mesh.HasUV
+  commentId: P:Prowl.Runtime.Mesh.HasUV
+  id: HasUV
+  parent: Prowl.Runtime.Mesh
+  langs:
+  - csharp
+  - vb
+  name: HasUV
+  nameWithType: Mesh.HasUV
+  fullName: Prowl.Runtime.Mesh.HasUV
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/Rendering/Mesh.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: HasUV
+    path: ../Prowl/Prowl.Runtime/Rendering/Mesh.cs
+    startLine: 159
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public bool HasUV { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property HasUV As Boolean
+  overload: Prowl.Runtime.Mesh.HasUV*
+- uid: Prowl.Runtime.Mesh.HasUV2
+  commentId: P:Prowl.Runtime.Mesh.HasUV2
+  id: HasUV2
+  parent: Prowl.Runtime.Mesh
+  langs:
+  - csharp
+  - vb
+  name: HasUV2
+  nameWithType: Mesh.HasUV2
+  fullName: Prowl.Runtime.Mesh.HasUV2
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/Rendering/Mesh.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: HasUV2
+    path: ../Prowl/Prowl.Runtime/Rendering/Mesh.cs
+    startLine: 160
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public bool HasUV2 { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property HasUV2 As Boolean
+  overload: Prowl.Runtime.Mesh.HasUV2*
+- uid: Prowl.Runtime.Mesh.HasBoneIndices
+  commentId: P:Prowl.Runtime.Mesh.HasBoneIndices
+  id: HasBoneIndices
+  parent: Prowl.Runtime.Mesh
+  langs:
+  - csharp
+  - vb
+  name: HasBoneIndices
+  nameWithType: Mesh.HasBoneIndices
+  fullName: Prowl.Runtime.Mesh.HasBoneIndices
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/Rendering/Mesh.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: HasBoneIndices
+    path: ../Prowl/Prowl.Runtime/Rendering/Mesh.cs
+    startLine: 162
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public bool HasBoneIndices { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property HasBoneIndices As Boolean
+  overload: Prowl.Runtime.Mesh.HasBoneIndices*
+- uid: Prowl.Runtime.Mesh.HasBoneWeights
+  commentId: P:Prowl.Runtime.Mesh.HasBoneWeights
+  id: HasBoneWeights
+  parent: Prowl.Runtime.Mesh
+  langs:
+  - csharp
+  - vb
+  name: HasBoneWeights
+  nameWithType: Mesh.HasBoneWeights
+  fullName: Prowl.Runtime.Mesh.HasBoneWeights
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/Rendering/Mesh.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: HasBoneWeights
+    path: ../Prowl/Prowl.Runtime/Rendering/Mesh.cs
+    startLine: 163
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public bool HasBoneWeights { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property HasBoneWeights As Boolean
+  overload: Prowl.Runtime.Mesh.HasBoneWeights*
+- uid: Prowl.Runtime.Mesh.bindPoses
+  commentId: F:Prowl.Runtime.Mesh.bindPoses
+  id: bindPoses
+  parent: Prowl.Runtime.Mesh
+  langs:
+  - csharp
+  - vb
+  name: bindPoses
+  nameWithType: Mesh.bindPoses
+  fullName: Prowl.Runtime.Mesh.bindPoses
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/Rendering/Mesh.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: bindPoses
+    path: ../Prowl/Prowl.Runtime/Rendering/Mesh.cs
+    startLine: 165
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public Matrix4x4[]? bindPoses
+    return:
+      type: System.Numerics.Matrix4x4[]
+    content.vb: Public bindPoses As Matrix4x4()
+- uid: Prowl.Runtime.Mesh.UVStart
+  commentId: P:Prowl.Runtime.Mesh.UVStart
+  id: UVStart
+  parent: Prowl.Runtime.Mesh
+  langs:
+  - csharp
+  - vb
+  name: UVStart
+  nameWithType: Mesh.UVStart
+  fullName: Prowl.Runtime.Mesh.UVStart
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/Rendering/Mesh.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: UVStart
+    path: ../Prowl/Prowl.Runtime/Rendering/Mesh.cs
+    startLine: 188
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public int UVStart { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property UVStart As Integer
+  overload: Prowl.Runtime.Mesh.UVStart*
+- uid: Prowl.Runtime.Mesh.UV2Start
+  commentId: P:Prowl.Runtime.Mesh.UV2Start
+  id: UV2Start
+  parent: Prowl.Runtime.Mesh
+  langs:
+  - csharp
+  - vb
+  name: UV2Start
+  nameWithType: Mesh.UV2Start
+  fullName: Prowl.Runtime.Mesh.UV2Start
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/Rendering/Mesh.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: UV2Start
+    path: ../Prowl/Prowl.Runtime/Rendering/Mesh.cs
+    startLine: 189
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public int UV2Start { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property UV2Start As Integer
+  overload: Prowl.Runtime.Mesh.UV2Start*
+- uid: Prowl.Runtime.Mesh.NormalsStart
+  commentId: P:Prowl.Runtime.Mesh.NormalsStart
+  id: NormalsStart
+  parent: Prowl.Runtime.Mesh
+  langs:
+  - csharp
+  - vb
+  name: NormalsStart
+  nameWithType: Mesh.NormalsStart
+  fullName: Prowl.Runtime.Mesh.NormalsStart
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/Rendering/Mesh.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: NormalsStart
+    path: ../Prowl/Prowl.Runtime/Rendering/Mesh.cs
+    startLine: 190
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public int NormalsStart { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property NormalsStart As Integer
+  overload: Prowl.Runtime.Mesh.NormalsStart*
+- uid: Prowl.Runtime.Mesh.TangentsStart
+  commentId: P:Prowl.Runtime.Mesh.TangentsStart
+  id: TangentsStart
+  parent: Prowl.Runtime.Mesh
+  langs:
+  - csharp
+  - vb
+  name: TangentsStart
+  nameWithType: Mesh.TangentsStart
+  fullName: Prowl.Runtime.Mesh.TangentsStart
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/Rendering/Mesh.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: TangentsStart
+    path: ../Prowl/Prowl.Runtime/Rendering/Mesh.cs
+    startLine: 191
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public int TangentsStart { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property TangentsStart As Integer
+  overload: Prowl.Runtime.Mesh.TangentsStart*
+- uid: Prowl.Runtime.Mesh.ColorsStart
+  commentId: P:Prowl.Runtime.Mesh.ColorsStart
+  id: ColorsStart
+  parent: Prowl.Runtime.Mesh
+  langs:
+  - csharp
+  - vb
+  name: ColorsStart
+  nameWithType: Mesh.ColorsStart
+  fullName: Prowl.Runtime.Mesh.ColorsStart
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/Rendering/Mesh.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: ColorsStart
+    path: ../Prowl/Prowl.Runtime/Rendering/Mesh.cs
+    startLine: 192
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public int ColorsStart { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property ColorsStart As Integer
+  overload: Prowl.Runtime.Mesh.ColorsStart*
+- uid: Prowl.Runtime.Mesh.BufferLength
+  commentId: P:Prowl.Runtime.Mesh.BufferLength
+  id: BufferLength
+  parent: Prowl.Runtime.Mesh
+  langs:
+  - csharp
+  - vb
+  name: BufferLength
+  nameWithType: Mesh.BufferLength
+  fullName: Prowl.Runtime.Mesh.BufferLength
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/Rendering/Mesh.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: BufferLength
+    path: ../Prowl/Prowl.Runtime/Rendering/Mesh.cs
+    startLine: 193
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public int BufferLength { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property BufferLength As Integer
+  overload: Prowl.Runtime.Mesh.BufferLength*
+- uid: Prowl.Runtime.Mesh.MeshSemantics
+  commentId: F:Prowl.Runtime.Mesh.MeshSemantics
+  id: MeshSemantics
+  parent: Prowl.Runtime.Mesh
+  langs:
+  - csharp
+  - vb
+  name: MeshSemantics
+  nameWithType: Mesh.MeshSemantics
+  fullName: Prowl.Runtime.Mesh.MeshSemantics
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/Rendering/Mesh.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: MeshSemantics
+    path: ../Prowl/Prowl.Runtime/Rendering/Mesh.cs
+    startLine: 196
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public static readonly Dictionary<string, VertexElementFormat> MeshSemantics
+    return:
+      type: System.Collections.Generic.Dictionary{System.String,Veldrid.VertexElementFormat}
+    content.vb: Public Shared ReadOnly MeshSemantics As Dictionary(Of String, VertexElementFormat)
+- uid: Prowl.Runtime.Mesh.#ctor
+  commentId: M:Prowl.Runtime.Mesh.#ctor
+  id: '#ctor'
+  parent: Prowl.Runtime.Mesh
+  langs:
+  - csharp
+  - vb
+  name: Mesh()
+  nameWithType: Mesh.Mesh()
+  fullName: Prowl.Runtime.Mesh.Mesh()
+  type: Constructor
+  source:
+    remote:
+      path: Prowl.Runtime/Rendering/Mesh.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: .ctor
+    path: ../Prowl/Prowl.Runtime/Rendering/Mesh.cs
+    startLine: 206
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public Mesh()
+    content.vb: Public Sub New()
+  overload: Prowl.Runtime.Mesh.#ctor*
+  nameWithType.vb: Mesh.New()
+  fullName.vb: Prowl.Runtime.Mesh.New()
+  name.vb: New()
+- uid: Prowl.Runtime.Mesh.Clear
+  commentId: M:Prowl.Runtime.Mesh.Clear
+  id: Clear
+  parent: Prowl.Runtime.Mesh
+  langs:
+  - csharp
+  - vb
+  name: Clear()
+  nameWithType: Mesh.Clear()
+  fullName: Prowl.Runtime.Mesh.Clear()
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Rendering/Mesh.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Clear
+    path: ../Prowl/Prowl.Runtime/Rendering/Mesh.cs
+    startLine: 208
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public void Clear()
+    content.vb: Public Sub Clear()
+  overload: Prowl.Runtime.Mesh.Clear*
+- uid: Prowl.Runtime.Mesh.Upload
+  commentId: M:Prowl.Runtime.Mesh.Upload
+  id: Upload
+  parent: Prowl.Runtime.Mesh
+  langs:
+  - csharp
+  - vb
+  name: Upload()
+  nameWithType: Mesh.Upload()
+  fullName: Prowl.Runtime.Mesh.Upload()
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Rendering/Mesh.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Upload
+    path: ../Prowl/Prowl.Runtime/Rendering/Mesh.cs
+    startLine: 226
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public void Upload()
+    content.vb: Public Sub Upload()
+  overload: Prowl.Runtime.Mesh.Upload*
+- uid: Prowl.Runtime.Mesh.SetDrawData(Veldrid.CommandList,Prowl.Runtime.ShaderPipeline)
+  commentId: M:Prowl.Runtime.Mesh.SetDrawData(Veldrid.CommandList,Prowl.Runtime.ShaderPipeline)
+  id: SetDrawData(Veldrid.CommandList,Prowl.Runtime.ShaderPipeline)
+  parent: Prowl.Runtime.Mesh
+  langs:
+  - csharp
+  - vb
+  name: SetDrawData(CommandList, ShaderPipeline)
+  nameWithType: Mesh.SetDrawData(CommandList, ShaderPipeline)
+  fullName: Prowl.Runtime.Mesh.SetDrawData(Veldrid.CommandList, Prowl.Runtime.ShaderPipeline)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Rendering/Mesh.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: SetDrawData
+    path: ../Prowl/Prowl.Runtime/Rendering/Mesh.cs
+    startLine: 309
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  example: []
+  syntax:
+    content: public void SetDrawData(CommandList commandList, ShaderPipeline pipeline)
+    parameters:
+    - id: commandList
+      type: Veldrid.CommandList
+    - id: pipeline
+      type: Prowl.Runtime.ShaderPipeline
+    content.vb: Public Sub SetDrawData(commandList As CommandList, pipeline As ShaderPipeline)
+  overload: Prowl.Runtime.Mesh.SetDrawData*
+  implements:
+  - Prowl.Runtime.IGeometryDrawData.SetDrawData(Veldrid.CommandList,Prowl.Runtime.ShaderPipeline)
+- uid: Prowl.Runtime.Mesh.RecalculateBounds
+  commentId: M:Prowl.Runtime.Mesh.RecalculateBounds
+  id: RecalculateBounds
+  parent: Prowl.Runtime.Mesh
+  langs:
+  - csharp
+  - vb
+  name: RecalculateBounds()
+  nameWithType: Mesh.RecalculateBounds()
+  fullName: Prowl.Runtime.Mesh.RecalculateBounds()
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Rendering/Mesh.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: RecalculateBounds
+    path: ../Prowl/Prowl.Runtime/Rendering/Mesh.cs
+    startLine: 340
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public void RecalculateBounds()
+    content.vb: Public Sub RecalculateBounds()
+  overload: Prowl.Runtime.Mesh.RecalculateBounds*
+- uid: Prowl.Runtime.Mesh.RecalculateNormals
+  commentId: M:Prowl.Runtime.Mesh.RecalculateNormals
+  id: RecalculateNormals
+  parent: Prowl.Runtime.Mesh
+  langs:
+  - csharp
+  - vb
+  name: RecalculateNormals()
+  nameWithType: Mesh.RecalculateNormals()
+  fullName: Prowl.Runtime.Mesh.RecalculateNormals()
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Rendering/Mesh.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: RecalculateNormals
+    path: ../Prowl/Prowl.Runtime/Rendering/Mesh.cs
+    startLine: 363
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public void RecalculateNormals()
+    content.vb: Public Sub RecalculateNormals()
+  overload: Prowl.Runtime.Mesh.RecalculateNormals*
+- uid: Prowl.Runtime.Mesh.RecalculateTangents
+  commentId: M:Prowl.Runtime.Mesh.RecalculateTangents
+  id: RecalculateTangents
+  parent: Prowl.Runtime.Mesh
+  langs:
+  - csharp
+  - vb
+  name: RecalculateTangents()
+  nameWithType: Mesh.RecalculateTangents()
+  fullName: Prowl.Runtime.Mesh.RecalculateTangents()
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Rendering/Mesh.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: RecalculateTangents
+    path: ../Prowl/Prowl.Runtime/Rendering/Mesh.cs
+    startLine: 392
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public void RecalculateTangents()
+    content.vb: Public Sub RecalculateTangents()
+  overload: Prowl.Runtime.Mesh.RecalculateTangents*
+- uid: Prowl.Runtime.Mesh.OnDispose
+  commentId: M:Prowl.Runtime.Mesh.OnDispose
+  id: OnDispose
+  parent: Prowl.Runtime.Mesh
+  langs:
+  - csharp
+  - vb
+  name: OnDispose()
+  nameWithType: Mesh.OnDispose()
+  fullName: Prowl.Runtime.Mesh.OnDispose()
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Rendering/Mesh.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: OnDispose
+    path: ../Prowl/Prowl.Runtime/Rendering/Mesh.cs
+    startLine: 448
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  example: []
+  syntax:
+    content: public override void OnDispose()
+    content.vb: Public Overrides Sub OnDispose()
+  overridden: Prowl.Runtime.EngineObject.OnDispose
+  overload: Prowl.Runtime.Mesh.OnDispose*
+- uid: Prowl.Runtime.Mesh.CreateQuad(Prowl.Runtime.Vector2)
+  commentId: M:Prowl.Runtime.Mesh.CreateQuad(Prowl.Runtime.Vector2)
+  id: CreateQuad(Prowl.Runtime.Vector2)
+  parent: Prowl.Runtime.Mesh
+  langs:
+  - csharp
+  - vb
+  name: CreateQuad(Vector2)
+  nameWithType: Mesh.CreateQuad(Vector2)
+  fullName: Prowl.Runtime.Mesh.CreateQuad(Prowl.Runtime.Vector2)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Rendering/Mesh.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: CreateQuad
+    path: ../Prowl/Prowl.Runtime/Rendering/Mesh.cs
+    startLine: 458
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public static Mesh CreateQuad(Vector2 scale)
+    parameters:
+    - id: scale
+      type: Prowl.Runtime.Vector2
+    return:
+      type: Prowl.Runtime.Mesh
+    content.vb: Public Shared Function CreateQuad(scale As Vector2) As Mesh
+  overload: Prowl.Runtime.Mesh.CreateQuad*
+- uid: Prowl.Runtime.Mesh.CreateSphere(System.Single,System.Int32,System.Int32)
+  commentId: M:Prowl.Runtime.Mesh.CreateSphere(System.Single,System.Int32,System.Int32)
+  id: CreateSphere(System.Single,System.Int32,System.Int32)
+  parent: Prowl.Runtime.Mesh
+  langs:
+  - csharp
+  - vb
+  name: CreateSphere(float, int, int)
+  nameWithType: Mesh.CreateSphere(float, int, int)
+  fullName: Prowl.Runtime.Mesh.CreateSphere(float, int, int)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Rendering/Mesh.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: CreateSphere
+    path: ../Prowl/Prowl.Runtime/Rendering/Mesh.cs
+    startLine: 485
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public static Mesh CreateSphere(float radius, int rings, int slices)
+    parameters:
+    - id: radius
+      type: System.Single
+    - id: rings
+      type: System.Int32
+    - id: slices
+      type: System.Int32
+    return:
+      type: Prowl.Runtime.Mesh
+    content.vb: Public Shared Function CreateSphere(radius As Single, rings As Integer, slices As Integer) As Mesh
+  overload: Prowl.Runtime.Mesh.CreateSphere*
+  nameWithType.vb: Mesh.CreateSphere(Single, Integer, Integer)
+  fullName.vb: Prowl.Runtime.Mesh.CreateSphere(Single, Integer, Integer)
+  name.vb: CreateSphere(Single, Integer, Integer)
+- uid: Prowl.Runtime.Mesh.CreateCube(Prowl.Runtime.Vector3)
+  commentId: M:Prowl.Runtime.Mesh.CreateCube(Prowl.Runtime.Vector3)
+  id: CreateCube(Prowl.Runtime.Vector3)
+  parent: Prowl.Runtime.Mesh
+  langs:
+  - csharp
+  - vb
+  name: CreateCube(Vector3)
+  nameWithType: Mesh.CreateCube(Vector3)
+  fullName: Prowl.Runtime.Mesh.CreateCube(Prowl.Runtime.Vector3)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Rendering/Mesh.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: CreateCube
+    path: ../Prowl/Prowl.Runtime/Rendering/Mesh.cs
+    startLine: 541
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public static Mesh CreateCube(Vector3 size)
+    parameters:
+    - id: size
+      type: Prowl.Runtime.Vector3
+    return:
+      type: Prowl.Runtime.Mesh
+    content.vb: Public Shared Function CreateCube(size As Vector3) As Mesh
+  overload: Prowl.Runtime.Mesh.CreateCube*
+- uid: Prowl.Runtime.Mesh.CreateCylinder(System.Single,System.Single,System.Int32)
+  commentId: M:Prowl.Runtime.Mesh.CreateCylinder(System.Single,System.Single,System.Int32)
+  id: CreateCylinder(System.Single,System.Single,System.Int32)
+  parent: Prowl.Runtime.Mesh
+  langs:
+  - csharp
+  - vb
+  name: CreateCylinder(float, float, int)
+  nameWithType: Mesh.CreateCylinder(float, float, int)
+  fullName: Prowl.Runtime.Mesh.CreateCylinder(float, float, int)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Rendering/Mesh.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: CreateCylinder
+    path: ../Prowl/Prowl.Runtime/Rendering/Mesh.cs
+    startLine: 607
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public static Mesh CreateCylinder(float radius, float length, int sliceCount)
+    parameters:
+    - id: radius
+      type: System.Single
+    - id: length
+      type: System.Single
+    - id: sliceCount
+      type: System.Int32
+    return:
+      type: Prowl.Runtime.Mesh
+    content.vb: Public Shared Function CreateCylinder(radius As Single, length As Single, sliceCount As Integer) As Mesh
+  overload: Prowl.Runtime.Mesh.CreateCylinder*
+  nameWithType.vb: Mesh.CreateCylinder(Single, Single, Integer)
+  fullName.vb: Prowl.Runtime.Mesh.CreateCylinder(Single, Single, Integer)
+  name.vb: CreateCylinder(Single, Single, Integer)
+- uid: Prowl.Runtime.Mesh.CreateTriangle(Prowl.Runtime.Vector3,Prowl.Runtime.Vector3,Prowl.Runtime.Vector3)
+  commentId: M:Prowl.Runtime.Mesh.CreateTriangle(Prowl.Runtime.Vector3,Prowl.Runtime.Vector3,Prowl.Runtime.Vector3)
+  id: CreateTriangle(Prowl.Runtime.Vector3,Prowl.Runtime.Vector3,Prowl.Runtime.Vector3)
+  parent: Prowl.Runtime.Mesh
+  langs:
+  - csharp
+  - vb
+  name: CreateTriangle(Vector3, Vector3, Vector3)
+  nameWithType: Mesh.CreateTriangle(Vector3, Vector3, Vector3)
+  fullName: Prowl.Runtime.Mesh.CreateTriangle(Prowl.Runtime.Vector3, Prowl.Runtime.Vector3, Prowl.Runtime.Vector3)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Rendering/Mesh.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: CreateTriangle
+    path: ../Prowl/Prowl.Runtime/Rendering/Mesh.cs
+    startLine: 697
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public static Mesh CreateTriangle(Vector3 a, Vector3 b, Vector3 c)
+    parameters:
+    - id: a
+      type: Prowl.Runtime.Vector3
+    - id: b
+      type: Prowl.Runtime.Vector3
+    - id: c
+      type: Prowl.Runtime.Vector3
+    return:
+      type: Prowl.Runtime.Mesh
+    content.vb: Public Shared Function CreateTriangle(a As Vector3, b As Vector3, c As Vector3) As Mesh
+  overload: Prowl.Runtime.Mesh.CreateTriangle*
+- uid: Prowl.Runtime.Mesh.Serialize(Prowl.Runtime.Serializer.SerializationContext)
+  commentId: M:Prowl.Runtime.Mesh.Serialize(Prowl.Runtime.Serializer.SerializationContext)
+  id: Serialize(Prowl.Runtime.Serializer.SerializationContext)
+  parent: Prowl.Runtime.Mesh
+  langs:
+  - csharp
+  - vb
+  name: Serialize(SerializationContext)
+  nameWithType: Mesh.Serialize(Serializer.SerializationContext)
+  fullName: Prowl.Runtime.Mesh.Serialize(Prowl.Runtime.Serializer.SerializationContext)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Rendering/Mesh.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Serialize
+    path: ../Prowl/Prowl.Runtime/Rendering/Mesh.cs
+    startLine: 709
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  example: []
+  syntax:
+    content: public SerializedProperty Serialize(Serializer.SerializationContext ctx)
+    parameters:
+    - id: ctx
+      type: Prowl.Runtime.Serializer.SerializationContext
+    return:
+      type: Prowl.Runtime.SerializedProperty
+    content.vb: Public Function Serialize(ctx As Serializer.SerializationContext) As SerializedProperty
+  overload: Prowl.Runtime.Mesh.Serialize*
+  implements:
+  - Prowl.Runtime.ISerializable.Serialize(Prowl.Runtime.Serializer.SerializationContext)
+- uid: Prowl.Runtime.Mesh.Deserialize(Prowl.Runtime.SerializedProperty,Prowl.Runtime.Serializer.SerializationContext)
+  commentId: M:Prowl.Runtime.Mesh.Deserialize(Prowl.Runtime.SerializedProperty,Prowl.Runtime.Serializer.SerializationContext)
+  id: Deserialize(Prowl.Runtime.SerializedProperty,Prowl.Runtime.Serializer.SerializationContext)
+  parent: Prowl.Runtime.Mesh
+  langs:
+  - csharp
+  - vb
+  name: Deserialize(SerializedProperty, SerializationContext)
+  nameWithType: Mesh.Deserialize(SerializedProperty, Serializer.SerializationContext)
+  fullName: Prowl.Runtime.Mesh.Deserialize(Prowl.Runtime.SerializedProperty, Prowl.Runtime.Serializer.SerializationContext)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Rendering/Mesh.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Deserialize
+    path: ../Prowl/Prowl.Runtime/Rendering/Mesh.cs
+    startLine: 850
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  example: []
+  syntax:
+    content: public void Deserialize(SerializedProperty value, Serializer.SerializationContext ctx)
+    parameters:
+    - id: value
+      type: Prowl.Runtime.SerializedProperty
+    - id: ctx
+      type: Prowl.Runtime.Serializer.SerializationContext
+    content.vb: Public Sub Deserialize(value As SerializedProperty, ctx As Serializer.SerializationContext)
+  overload: Prowl.Runtime.Mesh.Deserialize*
+  implements:
+  - Prowl.Runtime.ISerializable.Deserialize(Prowl.Runtime.SerializedProperty,Prowl.Runtime.Serializer.SerializationContext)
+references:
+- uid: Prowl.Runtime
+  commentId: N:Prowl.Runtime
+  href: Prowl.html
+  name: Prowl.Runtime
+  nameWithType: Prowl.Runtime
+  fullName: Prowl.Runtime
+  spec.csharp:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+  spec.vb:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Prowl.Runtime.EngineObject
+  commentId: T:Prowl.Runtime.EngineObject
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.EngineObject.html
+  name: EngineObject
+  nameWithType: EngineObject
+  fullName: Prowl.Runtime.EngineObject
+- uid: System.IDisposable
+  commentId: T:System.IDisposable
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.idisposable
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
+- uid: Prowl.Runtime.ISerializable
+  commentId: T:Prowl.Runtime.ISerializable
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.ISerializable.html
+  name: ISerializable
+  nameWithType: ISerializable
+  fullName: Prowl.Runtime.ISerializable
+- uid: Prowl.Runtime.IGeometryDrawData
+  commentId: T:Prowl.Runtime.IGeometryDrawData
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.IGeometryDrawData.html
+  name: IGeometryDrawData
+  nameWithType: IGeometryDrawData
+  fullName: Prowl.Runtime.IGeometryDrawData
+- uid: Prowl.Runtime.EngineObject._instanceID
+  commentId: F:Prowl.Runtime.EngineObject._instanceID
+  parent: Prowl.Runtime.EngineObject
+  href: Prowl.Runtime.EngineObject.html#Prowl_Runtime_EngineObject__instanceID
+  name: _instanceID
+  nameWithType: EngineObject._instanceID
+  fullName: Prowl.Runtime.EngineObject._instanceID
+- uid: Prowl.Runtime.EngineObject.InstanceID
+  commentId: P:Prowl.Runtime.EngineObject.InstanceID
+  parent: Prowl.Runtime.EngineObject
+  href: Prowl.Runtime.EngineObject.html#Prowl_Runtime_EngineObject_InstanceID
+  name: InstanceID
+  nameWithType: EngineObject.InstanceID
+  fullName: Prowl.Runtime.EngineObject.InstanceID
+- uid: Prowl.Runtime.EngineObject.AssetID
+  commentId: F:Prowl.Runtime.EngineObject.AssetID
+  parent: Prowl.Runtime.EngineObject
+  href: Prowl.Runtime.EngineObject.html#Prowl_Runtime_EngineObject_AssetID
+  name: AssetID
+  nameWithType: EngineObject.AssetID
+  fullName: Prowl.Runtime.EngineObject.AssetID
+- uid: Prowl.Runtime.EngineObject.FileID
+  commentId: F:Prowl.Runtime.EngineObject.FileID
+  parent: Prowl.Runtime.EngineObject
+  href: Prowl.Runtime.EngineObject.html#Prowl_Runtime_EngineObject_FileID
+  name: FileID
+  nameWithType: EngineObject.FileID
+  fullName: Prowl.Runtime.EngineObject.FileID
+- uid: Prowl.Runtime.EngineObject.Name
+  commentId: F:Prowl.Runtime.EngineObject.Name
+  parent: Prowl.Runtime.EngineObject
+  href: Prowl.Runtime.EngineObject.html#Prowl_Runtime_EngineObject_Name
+  name: Name
+  nameWithType: EngineObject.Name
+  fullName: Prowl.Runtime.EngineObject.Name
+- uid: Prowl.Runtime.EngineObject.IsDestroyed
+  commentId: F:Prowl.Runtime.EngineObject.IsDestroyed
+  parent: Prowl.Runtime.EngineObject
+  href: Prowl.Runtime.EngineObject.html#Prowl_Runtime_EngineObject_IsDestroyed
+  name: IsDestroyed
+  nameWithType: EngineObject.IsDestroyed
+  fullName: Prowl.Runtime.EngineObject.IsDestroyed
+- uid: Prowl.Runtime.EngineObject.CreatedInstance
+  commentId: M:Prowl.Runtime.EngineObject.CreatedInstance
+  parent: Prowl.Runtime.EngineObject
+  href: Prowl.Runtime.EngineObject.html#Prowl_Runtime_EngineObject_CreatedInstance
+  name: CreatedInstance()
+  nameWithType: EngineObject.CreatedInstance()
+  fullName: Prowl.Runtime.EngineObject.CreatedInstance()
+  spec.csharp:
+  - uid: Prowl.Runtime.EngineObject.CreatedInstance
+    name: CreatedInstance
+    href: Prowl.Runtime.EngineObject.html#Prowl_Runtime_EngineObject_CreatedInstance
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.EngineObject.CreatedInstance
+    name: CreatedInstance
+    href: Prowl.Runtime.EngineObject.html#Prowl_Runtime_EngineObject_CreatedInstance
+  - name: (
+  - name: )
+- uid: Prowl.Runtime.EngineObject.OnValidate
+  commentId: M:Prowl.Runtime.EngineObject.OnValidate
+  parent: Prowl.Runtime.EngineObject
+  href: Prowl.Runtime.EngineObject.html#Prowl_Runtime_EngineObject_OnValidate
+  name: OnValidate()
+  nameWithType: EngineObject.OnValidate()
+  fullName: Prowl.Runtime.EngineObject.OnValidate()
+  spec.csharp:
+  - uid: Prowl.Runtime.EngineObject.OnValidate
+    name: OnValidate
+    href: Prowl.Runtime.EngineObject.html#Prowl_Runtime_EngineObject_OnValidate
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.EngineObject.OnValidate
+    name: OnValidate
+    href: Prowl.Runtime.EngineObject.html#Prowl_Runtime_EngineObject_OnValidate
+  - name: (
+  - name: )
+- uid: Prowl.Runtime.EngineObject.FindObjectOfType``1
+  commentId: M:Prowl.Runtime.EngineObject.FindObjectOfType``1
+  parent: Prowl.Runtime.EngineObject
+  href: Prowl.Runtime.EngineObject.html#Prowl_Runtime_EngineObject_FindObjectOfType__1
+  name: FindObjectOfType<T>()
+  nameWithType: EngineObject.FindObjectOfType<T>()
+  fullName: Prowl.Runtime.EngineObject.FindObjectOfType<T>()
+  nameWithType.vb: EngineObject.FindObjectOfType(Of T)()
+  fullName.vb: Prowl.Runtime.EngineObject.FindObjectOfType(Of T)()
+  name.vb: FindObjectOfType(Of T)()
+  spec.csharp:
+  - uid: Prowl.Runtime.EngineObject.FindObjectOfType``1
+    name: FindObjectOfType
+    href: Prowl.Runtime.EngineObject.html#Prowl_Runtime_EngineObject_FindObjectOfType__1
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.EngineObject.FindObjectOfType``1
+    name: FindObjectOfType
+    href: Prowl.Runtime.EngineObject.html#Prowl_Runtime_EngineObject_FindObjectOfType__1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: )
+- uid: Prowl.Runtime.EngineObject.FindObjectsOfType``1
+  commentId: M:Prowl.Runtime.EngineObject.FindObjectsOfType``1
+  parent: Prowl.Runtime.EngineObject
+  href: Prowl.Runtime.EngineObject.html#Prowl_Runtime_EngineObject_FindObjectsOfType__1
+  name: FindObjectsOfType<T>()
+  nameWithType: EngineObject.FindObjectsOfType<T>()
+  fullName: Prowl.Runtime.EngineObject.FindObjectsOfType<T>()
+  nameWithType.vb: EngineObject.FindObjectsOfType(Of T)()
+  fullName.vb: Prowl.Runtime.EngineObject.FindObjectsOfType(Of T)()
+  name.vb: FindObjectsOfType(Of T)()
+  spec.csharp:
+  - uid: Prowl.Runtime.EngineObject.FindObjectsOfType``1
+    name: FindObjectsOfType
+    href: Prowl.Runtime.EngineObject.html#Prowl_Runtime_EngineObject_FindObjectsOfType__1
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.EngineObject.FindObjectsOfType``1
+    name: FindObjectsOfType
+    href: Prowl.Runtime.EngineObject.html#Prowl_Runtime_EngineObject_FindObjectsOfType__1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: )
+- uid: Prowl.Runtime.EngineObject.FindObjectByID``1(System.Int32)
+  commentId: M:Prowl.Runtime.EngineObject.FindObjectByID``1(System.Int32)
+  parent: Prowl.Runtime.EngineObject
+  isExternal: true
+  href: Prowl.Runtime.EngineObject.html#Prowl_Runtime_EngineObject_FindObjectByID__1_System_Int32_
+  name: FindObjectByID<T>(int)
+  nameWithType: EngineObject.FindObjectByID<T>(int)
+  fullName: Prowl.Runtime.EngineObject.FindObjectByID<T>(int)
+  nameWithType.vb: EngineObject.FindObjectByID(Of T)(Integer)
+  fullName.vb: Prowl.Runtime.EngineObject.FindObjectByID(Of T)(Integer)
+  name.vb: FindObjectByID(Of T)(Integer)
+  spec.csharp:
+  - uid: Prowl.Runtime.EngineObject.FindObjectByID``1(System.Int32)
+    name: FindObjectByID
+    href: Prowl.Runtime.EngineObject.html#Prowl_Runtime_EngineObject_FindObjectByID__1_System_Int32_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.EngineObject.FindObjectByID``1(System.Int32)
+    name: FindObjectByID
+    href: Prowl.Runtime.EngineObject.html#Prowl_Runtime_EngineObject_FindObjectByID__1_System_Int32_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: Prowl.Runtime.EngineObject.Foreach``1(System.Action{{T}})
+  commentId: M:Prowl.Runtime.EngineObject.Foreach``1(System.Action{``0})
+  parent: Prowl.Runtime.EngineObject
+  definition: Prowl.Runtime.EngineObject.Foreach``1(System.Action{``0})
+  href: Prowl.Runtime.EngineObject.html#Prowl_Runtime_EngineObject_Foreach__1_System_Action___0__
+  name: Foreach<T>(Action<T>)
+  nameWithType: EngineObject.Foreach<T>(Action<T>)
+  fullName: Prowl.Runtime.EngineObject.Foreach<T>(System.Action<T>)
+  nameWithType.vb: EngineObject.Foreach(Of T)(Action(Of T))
+  fullName.vb: Prowl.Runtime.EngineObject.Foreach(Of T)(System.Action(Of T))
+  name.vb: Foreach(Of T)(Action(Of T))
+  spec.csharp:
+  - uid: Prowl.Runtime.EngineObject.Foreach``1(System.Action{``0})
+    name: Foreach
+    href: Prowl.Runtime.EngineObject.html#Prowl_Runtime_EngineObject_Foreach__1_System_Action___0__
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: <
+  - name: T
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.EngineObject.Foreach``1(System.Action{``0})
+    name: Foreach
+    href: Prowl.Runtime.EngineObject.html#Prowl_Runtime_EngineObject_Foreach__1_System_Action___0__
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: )
+- uid: Prowl.Runtime.EngineObject.Destroy
+  commentId: M:Prowl.Runtime.EngineObject.Destroy
+  parent: Prowl.Runtime.EngineObject
+  href: Prowl.Runtime.EngineObject.html#Prowl_Runtime_EngineObject_Destroy
+  name: Destroy()
+  nameWithType: EngineObject.Destroy()
+  fullName: Prowl.Runtime.EngineObject.Destroy()
+  spec.csharp:
+  - uid: Prowl.Runtime.EngineObject.Destroy
+    name: Destroy
+    href: Prowl.Runtime.EngineObject.html#Prowl_Runtime_EngineObject_Destroy
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.EngineObject.Destroy
+    name: Destroy
+    href: Prowl.Runtime.EngineObject.html#Prowl_Runtime_EngineObject_Destroy
+  - name: (
+  - name: )
+- uid: Prowl.Runtime.EngineObject.DestroyImmediate
+  commentId: M:Prowl.Runtime.EngineObject.DestroyImmediate
+  parent: Prowl.Runtime.EngineObject
+  href: Prowl.Runtime.EngineObject.html#Prowl_Runtime_EngineObject_DestroyImmediate
+  name: DestroyImmediate()
+  nameWithType: EngineObject.DestroyImmediate()
+  fullName: Prowl.Runtime.EngineObject.DestroyImmediate()
+  spec.csharp:
+  - uid: Prowl.Runtime.EngineObject.DestroyImmediate
+    name: DestroyImmediate
+    href: Prowl.Runtime.EngineObject.html#Prowl_Runtime_EngineObject_DestroyImmediate
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.EngineObject.DestroyImmediate
+    name: DestroyImmediate
+    href: Prowl.Runtime.EngineObject.html#Prowl_Runtime_EngineObject_DestroyImmediate
+  - name: (
+  - name: )
+- uid: Prowl.Runtime.EngineObject.Destroy(Prowl.Runtime.EngineObject)
+  commentId: M:Prowl.Runtime.EngineObject.Destroy(Prowl.Runtime.EngineObject)
+  parent: Prowl.Runtime.EngineObject
+  href: Prowl.Runtime.EngineObject.html#Prowl_Runtime_EngineObject_Destroy_Prowl_Runtime_EngineObject_
+  name: Destroy(EngineObject)
+  nameWithType: EngineObject.Destroy(EngineObject)
+  fullName: Prowl.Runtime.EngineObject.Destroy(Prowl.Runtime.EngineObject)
+  spec.csharp:
+  - uid: Prowl.Runtime.EngineObject.Destroy(Prowl.Runtime.EngineObject)
+    name: Destroy
+    href: Prowl.Runtime.EngineObject.html#Prowl_Runtime_EngineObject_Destroy_Prowl_Runtime_EngineObject_
+  - name: (
+  - uid: Prowl.Runtime.EngineObject
+    name: EngineObject
+    href: Prowl.Runtime.EngineObject.html
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.EngineObject.Destroy(Prowl.Runtime.EngineObject)
+    name: Destroy
+    href: Prowl.Runtime.EngineObject.html#Prowl_Runtime_EngineObject_Destroy_Prowl_Runtime_EngineObject_
+  - name: (
+  - uid: Prowl.Runtime.EngineObject
+    name: EngineObject
+    href: Prowl.Runtime.EngineObject.html
+  - name: )
+- uid: Prowl.Runtime.EngineObject.DestroyImmediate(Prowl.Runtime.EngineObject)
+  commentId: M:Prowl.Runtime.EngineObject.DestroyImmediate(Prowl.Runtime.EngineObject)
+  parent: Prowl.Runtime.EngineObject
+  href: Prowl.Runtime.EngineObject.html#Prowl_Runtime_EngineObject_DestroyImmediate_Prowl_Runtime_EngineObject_
+  name: DestroyImmediate(EngineObject)
+  nameWithType: EngineObject.DestroyImmediate(EngineObject)
+  fullName: Prowl.Runtime.EngineObject.DestroyImmediate(Prowl.Runtime.EngineObject)
+  spec.csharp:
+  - uid: Prowl.Runtime.EngineObject.DestroyImmediate(Prowl.Runtime.EngineObject)
+    name: DestroyImmediate
+    href: Prowl.Runtime.EngineObject.html#Prowl_Runtime_EngineObject_DestroyImmediate_Prowl_Runtime_EngineObject_
+  - name: (
+  - uid: Prowl.Runtime.EngineObject
+    name: EngineObject
+    href: Prowl.Runtime.EngineObject.html
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.EngineObject.DestroyImmediate(Prowl.Runtime.EngineObject)
+    name: DestroyImmediate
+    href: Prowl.Runtime.EngineObject.html#Prowl_Runtime_EngineObject_DestroyImmediate_Prowl_Runtime_EngineObject_
+  - name: (
+  - uid: Prowl.Runtime.EngineObject
+    name: EngineObject
+    href: Prowl.Runtime.EngineObject.html
+  - name: )
+- uid: Prowl.Runtime.EngineObject.HandleDestroyed
+  commentId: M:Prowl.Runtime.EngineObject.HandleDestroyed
+  parent: Prowl.Runtime.EngineObject
+  href: Prowl.Runtime.EngineObject.html#Prowl_Runtime_EngineObject_HandleDestroyed
+  name: HandleDestroyed()
+  nameWithType: EngineObject.HandleDestroyed()
+  fullName: Prowl.Runtime.EngineObject.HandleDestroyed()
+  spec.csharp:
+  - uid: Prowl.Runtime.EngineObject.HandleDestroyed
+    name: HandleDestroyed
+    href: Prowl.Runtime.EngineObject.html#Prowl_Runtime_EngineObject_HandleDestroyed
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.EngineObject.HandleDestroyed
+    name: HandleDestroyed
+    href: Prowl.Runtime.EngineObject.html#Prowl_Runtime_EngineObject_HandleDestroyed
+  - name: (
+  - name: )
+- uid: Prowl.Runtime.EngineObject.Instantiate(Prowl.Runtime.EngineObject,System.Boolean)
+  commentId: M:Prowl.Runtime.EngineObject.Instantiate(Prowl.Runtime.EngineObject,System.Boolean)
+  parent: Prowl.Runtime.EngineObject
+  isExternal: true
+  href: Prowl.Runtime.EngineObject.html#Prowl_Runtime_EngineObject_Instantiate_Prowl_Runtime_EngineObject_System_Boolean_
+  name: Instantiate(EngineObject, bool)
+  nameWithType: EngineObject.Instantiate(EngineObject, bool)
+  fullName: Prowl.Runtime.EngineObject.Instantiate(Prowl.Runtime.EngineObject, bool)
+  nameWithType.vb: EngineObject.Instantiate(EngineObject, Boolean)
+  fullName.vb: Prowl.Runtime.EngineObject.Instantiate(Prowl.Runtime.EngineObject, Boolean)
+  name.vb: Instantiate(EngineObject, Boolean)
+  spec.csharp:
+  - uid: Prowl.Runtime.EngineObject.Instantiate(Prowl.Runtime.EngineObject,System.Boolean)
+    name: Instantiate
+    href: Prowl.Runtime.EngineObject.html#Prowl_Runtime_EngineObject_Instantiate_Prowl_Runtime_EngineObject_System_Boolean_
+  - name: (
+  - uid: Prowl.Runtime.EngineObject
+    name: EngineObject
+    href: Prowl.Runtime.EngineObject.html
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.EngineObject.Instantiate(Prowl.Runtime.EngineObject,System.Boolean)
+    name: Instantiate
+    href: Prowl.Runtime.EngineObject.html#Prowl_Runtime_EngineObject_Instantiate_Prowl_Runtime_EngineObject_System_Boolean_
+  - name: (
+  - uid: Prowl.Runtime.EngineObject
+    name: EngineObject
+    href: Prowl.Runtime.EngineObject.html
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+- uid: Prowl.Runtime.EngineObject.Dispose
+  commentId: M:Prowl.Runtime.EngineObject.Dispose
+  parent: Prowl.Runtime.EngineObject
+  href: Prowl.Runtime.EngineObject.html#Prowl_Runtime_EngineObject_Dispose
+  name: Dispose()
+  nameWithType: EngineObject.Dispose()
+  fullName: Prowl.Runtime.EngineObject.Dispose()
+  spec.csharp:
+  - uid: Prowl.Runtime.EngineObject.Dispose
+    name: Dispose
+    href: Prowl.Runtime.EngineObject.html#Prowl_Runtime_EngineObject_Dispose
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.EngineObject.Dispose
+    name: Dispose
+    href: Prowl.Runtime.EngineObject.html#Prowl_Runtime_EngineObject_Dispose
+  - name: (
+  - name: )
+- uid: Prowl.Runtime.EngineObject.ToString
+  commentId: M:Prowl.Runtime.EngineObject.ToString
+  parent: Prowl.Runtime.EngineObject
+  href: Prowl.Runtime.EngineObject.html#Prowl_Runtime_EngineObject_ToString
+  name: ToString()
+  nameWithType: EngineObject.ToString()
+  fullName: Prowl.Runtime.EngineObject.ToString()
+  spec.csharp:
+  - uid: Prowl.Runtime.EngineObject.ToString
+    name: ToString
+    href: Prowl.Runtime.EngineObject.html#Prowl_Runtime_EngineObject_ToString
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.EngineObject.ToString
+    name: ToString
+    href: Prowl.Runtime.EngineObject.html#Prowl_Runtime_EngineObject_ToString
+  - name: (
+  - name: )
+- uid: Prowl.Runtime.EngineObject.SerializeHeader(Prowl.Runtime.SerializedProperty)
+  commentId: M:Prowl.Runtime.EngineObject.SerializeHeader(Prowl.Runtime.SerializedProperty)
+  parent: Prowl.Runtime.EngineObject
+  href: Prowl.Runtime.EngineObject.html#Prowl_Runtime_EngineObject_SerializeHeader_Prowl_Runtime_SerializedProperty_
+  name: SerializeHeader(SerializedProperty)
+  nameWithType: EngineObject.SerializeHeader(SerializedProperty)
+  fullName: Prowl.Runtime.EngineObject.SerializeHeader(Prowl.Runtime.SerializedProperty)
+  spec.csharp:
+  - uid: Prowl.Runtime.EngineObject.SerializeHeader(Prowl.Runtime.SerializedProperty)
+    name: SerializeHeader
+    href: Prowl.Runtime.EngineObject.html#Prowl_Runtime_EngineObject_SerializeHeader_Prowl_Runtime_SerializedProperty_
+  - name: (
+  - uid: Prowl.Runtime.SerializedProperty
+    name: SerializedProperty
+    href: Prowl.Runtime.SerializedProperty.html
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.EngineObject.SerializeHeader(Prowl.Runtime.SerializedProperty)
+    name: SerializeHeader
+    href: Prowl.Runtime.EngineObject.html#Prowl_Runtime_EngineObject_SerializeHeader_Prowl_Runtime_SerializedProperty_
+  - name: (
+  - uid: Prowl.Runtime.SerializedProperty
+    name: SerializedProperty
+    href: Prowl.Runtime.SerializedProperty.html
+  - name: )
+- uid: Prowl.Runtime.EngineObject.DeserializeHeader(Prowl.Runtime.SerializedProperty)
+  commentId: M:Prowl.Runtime.EngineObject.DeserializeHeader(Prowl.Runtime.SerializedProperty)
+  parent: Prowl.Runtime.EngineObject
+  href: Prowl.Runtime.EngineObject.html#Prowl_Runtime_EngineObject_DeserializeHeader_Prowl_Runtime_SerializedProperty_
+  name: DeserializeHeader(SerializedProperty)
+  nameWithType: EngineObject.DeserializeHeader(SerializedProperty)
+  fullName: Prowl.Runtime.EngineObject.DeserializeHeader(Prowl.Runtime.SerializedProperty)
+  spec.csharp:
+  - uid: Prowl.Runtime.EngineObject.DeserializeHeader(Prowl.Runtime.SerializedProperty)
+    name: DeserializeHeader
+    href: Prowl.Runtime.EngineObject.html#Prowl_Runtime_EngineObject_DeserializeHeader_Prowl_Runtime_SerializedProperty_
+  - name: (
+  - uid: Prowl.Runtime.SerializedProperty
+    name: SerializedProperty
+    href: Prowl.Runtime.SerializedProperty.html
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.EngineObject.DeserializeHeader(Prowl.Runtime.SerializedProperty)
+    name: DeserializeHeader
+    href: Prowl.Runtime.EngineObject.html#Prowl_Runtime_EngineObject_DeserializeHeader_Prowl_Runtime_SerializedProperty_
+  - name: (
+  - uid: Prowl.Runtime.SerializedProperty
+    name: SerializedProperty
+    href: Prowl.Runtime.SerializedProperty.html
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: Prowl.Runtime.EngineObject.Prowl.Runtime.EngineObjectExtensions.Null
+  commentId: M:Prowl.Runtime.EngineObjectExtensions.Null(Prowl.Runtime.EngineObject)
+  parent: Prowl.Runtime.EngineObjectExtensions
+  definition: Prowl.Runtime.EngineObjectExtensions.Null(Prowl.Runtime.EngineObject)
+  href: Prowl.Runtime.EngineObjectExtensions.html#Prowl_Runtime_EngineObjectExtensions_Null_Prowl_Runtime_EngineObject_
+  name: Null(EngineObject)
+  nameWithType: EngineObjectExtensions.Null(EngineObject)
+  fullName: Prowl.Runtime.EngineObjectExtensions.Null(Prowl.Runtime.EngineObject)
+  spec.csharp:
+  - uid: Prowl.Runtime.EngineObjectExtensions.Null(Prowl.Runtime.EngineObject)
+    name: "Null"
+    href: Prowl.Runtime.EngineObjectExtensions.html#Prowl_Runtime_EngineObjectExtensions_Null_Prowl_Runtime_EngineObject_
+  - name: (
+  - uid: Prowl.Runtime.EngineObject
+    name: EngineObject
+    href: Prowl.Runtime.EngineObject.html
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.EngineObjectExtensions.Null(Prowl.Runtime.EngineObject)
+    name: "Null"
+    href: Prowl.Runtime.EngineObjectExtensions.html#Prowl_Runtime_EngineObjectExtensions_Null_Prowl_Runtime_EngineObject_
+  - name: (
+  - uid: Prowl.Runtime.EngineObject
+    name: EngineObject
+    href: Prowl.Runtime.EngineObject.html
+  - name: )
+- uid: System.Object.Prowl.Runtime.RuntimeUtils.GetSerializableFields
+  commentId: M:Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  parent: Prowl.Runtime.RuntimeUtils
+  definition: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  name: GetSerializableFields(object)
+  nameWithType: RuntimeUtils.GetSerializableFields(object)
+  fullName: Prowl.Runtime.RuntimeUtils.GetSerializableFields(object)
+  nameWithType.vb: RuntimeUtils.GetSerializableFields(Object)
+  fullName.vb: Prowl.Runtime.RuntimeUtils.GetSerializableFields(Object)
+  name.vb: GetSerializableFields(Object)
+  spec.csharp:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Prowl.Runtime.EngineObject.Foreach``1(System.Action{``0})
+  commentId: M:Prowl.Runtime.EngineObject.Foreach``1(System.Action{``0})
+  isExternal: true
+  href: Prowl.Runtime.EngineObject.html#Prowl_Runtime_EngineObject_Foreach__1_System_Action___0__
+  name: Foreach<T>(Action<T>)
+  nameWithType: EngineObject.Foreach<T>(Action<T>)
+  fullName: Prowl.Runtime.EngineObject.Foreach<T>(System.Action<T>)
+  nameWithType.vb: EngineObject.Foreach(Of T)(Action(Of T))
+  fullName.vb: Prowl.Runtime.EngineObject.Foreach(Of T)(System.Action(Of T))
+  name.vb: Foreach(Of T)(Action(Of T))
+  spec.csharp:
+  - uid: Prowl.Runtime.EngineObject.Foreach``1(System.Action{``0})
+    name: Foreach
+    href: Prowl.Runtime.EngineObject.html#Prowl_Runtime_EngineObject_Foreach__1_System_Action___0__
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: <
+  - name: T
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.EngineObject.Foreach``1(System.Action{``0})
+    name: Foreach
+    href: Prowl.Runtime.EngineObject.html#Prowl_Runtime_EngineObject_Foreach__1_System_Action___0__
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: )
+- uid: Prowl.Runtime.EngineObjectExtensions.Null(Prowl.Runtime.EngineObject)
+  commentId: M:Prowl.Runtime.EngineObjectExtensions.Null(Prowl.Runtime.EngineObject)
+  href: Prowl.Runtime.EngineObjectExtensions.html#Prowl_Runtime_EngineObjectExtensions_Null_Prowl_Runtime_EngineObject_
+  name: Null(EngineObject)
+  nameWithType: EngineObjectExtensions.Null(EngineObject)
+  fullName: Prowl.Runtime.EngineObjectExtensions.Null(Prowl.Runtime.EngineObject)
+  spec.csharp:
+  - uid: Prowl.Runtime.EngineObjectExtensions.Null(Prowl.Runtime.EngineObject)
+    name: "Null"
+    href: Prowl.Runtime.EngineObjectExtensions.html#Prowl_Runtime_EngineObjectExtensions_Null_Prowl_Runtime_EngineObject_
+  - name: (
+  - uid: Prowl.Runtime.EngineObject
+    name: EngineObject
+    href: Prowl.Runtime.EngineObject.html
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.EngineObjectExtensions.Null(Prowl.Runtime.EngineObject)
+    name: "Null"
+    href: Prowl.Runtime.EngineObjectExtensions.html#Prowl_Runtime_EngineObjectExtensions_Null_Prowl_Runtime_EngineObject_
+  - name: (
+  - uid: Prowl.Runtime.EngineObject
+    name: EngineObject
+    href: Prowl.Runtime.EngineObject.html
+  - name: )
+- uid: Prowl.Runtime.EngineObjectExtensions
+  commentId: T:Prowl.Runtime.EngineObjectExtensions
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.EngineObjectExtensions.html
+  name: EngineObjectExtensions
+  nameWithType: EngineObjectExtensions
+  fullName: Prowl.Runtime.EngineObjectExtensions
+- uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  commentId: M:Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  isExternal: true
+  href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  name: GetSerializableFields(object)
+  nameWithType: RuntimeUtils.GetSerializableFields(object)
+  fullName: Prowl.Runtime.RuntimeUtils.GetSerializableFields(object)
+  nameWithType.vb: RuntimeUtils.GetSerializableFields(Object)
+  fullName.vb: Prowl.Runtime.RuntimeUtils.GetSerializableFields(Object)
+  name.vb: GetSerializableFields(Object)
+  spec.csharp:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: Prowl.Runtime.RuntimeUtils
+  commentId: T:Prowl.Runtime.RuntimeUtils
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.RuntimeUtils.html
+  name: RuntimeUtils
+  nameWithType: RuntimeUtils
+  fullName: Prowl.Runtime.RuntimeUtils
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: Prowl.Runtime.Mesh.bounds*
+  commentId: Overload:Prowl.Runtime.Mesh.bounds
+  href: Prowl.Runtime.Mesh.html#Prowl_Runtime_Mesh_bounds
+  name: bounds
+  nameWithType: Mesh.bounds
+  fullName: Prowl.Runtime.Mesh.bounds
+- uid: Prowl.Runtime.Bounds
+  commentId: T:Prowl.Runtime.Bounds
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.Bounds.html
+  name: Bounds
+  nameWithType: Bounds
+  fullName: Prowl.Runtime.Bounds
+- uid: Prowl.Runtime.Mesh.IndexFormat*
+  commentId: Overload:Prowl.Runtime.Mesh.IndexFormat
+  href: Prowl.Runtime.Mesh.html#Prowl_Runtime_Mesh_IndexFormat
+  name: IndexFormat
+  nameWithType: Mesh.IndexFormat
+  fullName: Prowl.Runtime.Mesh.IndexFormat
+- uid: Prowl.Runtime.IGeometryDrawData.IndexFormat
+  commentId: P:Prowl.Runtime.IGeometryDrawData.IndexFormat
+  parent: Prowl.Runtime.IGeometryDrawData
+  href: Prowl.Runtime.IGeometryDrawData.html#Prowl_Runtime_IGeometryDrawData_IndexFormat
+  name: IndexFormat
+  nameWithType: IGeometryDrawData.IndexFormat
+  fullName: Prowl.Runtime.IGeometryDrawData.IndexFormat
+- uid: Veldrid.IndexFormat
+  commentId: T:Veldrid.IndexFormat
+  parent: Veldrid
+  name: IndexFormat
+  nameWithType: IndexFormat
+  fullName: Veldrid.IndexFormat
+- uid: Veldrid
+  commentId: N:Veldrid
+  name: Veldrid
+  nameWithType: Veldrid
+  fullName: Veldrid
+- uid: Prowl.Runtime.Mesh.Topology*
+  commentId: Overload:Prowl.Runtime.Mesh.Topology
+  href: Prowl.Runtime.Mesh.html#Prowl_Runtime_Mesh_Topology
+  name: Topology
+  nameWithType: Mesh.Topology
+  fullName: Prowl.Runtime.Mesh.Topology
+- uid: Prowl.Runtime.IGeometryDrawData.Topology
+  commentId: P:Prowl.Runtime.IGeometryDrawData.Topology
+  parent: Prowl.Runtime.IGeometryDrawData
+  href: Prowl.Runtime.IGeometryDrawData.html#Prowl_Runtime_IGeometryDrawData_Topology
+  name: Topology
+  nameWithType: IGeometryDrawData.Topology
+  fullName: Prowl.Runtime.IGeometryDrawData.Topology
+- uid: Veldrid.PrimitiveTopology
+  commentId: T:Veldrid.PrimitiveTopology
+  parent: Veldrid
+  name: PrimitiveTopology
+  nameWithType: PrimitiveTopology
+  fullName: Veldrid.PrimitiveTopology
+- uid: Prowl.Runtime.Mesh.Vertices*
+  commentId: Overload:Prowl.Runtime.Mesh.Vertices
+  href: Prowl.Runtime.Mesh.html#Prowl_Runtime_Mesh_Vertices
+  name: Vertices
+  nameWithType: Mesh.Vertices
+  fullName: Prowl.Runtime.Mesh.Vertices
+- uid: System.Numerics.Vector3[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.numerics.vector3
+  name: Vector3[]
+  nameWithType: Vector3[]
+  fullName: System.Numerics.Vector3[]
+  nameWithType.vb: Vector3()
+  fullName.vb: System.Numerics.Vector3()
+  name.vb: Vector3()
+  spec.csharp:
+  - uid: System.Numerics.Vector3
+    name: Vector3
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.numerics.vector3
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.Numerics.Vector3
+    name: Vector3
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.numerics.vector3
+  - name: (
+  - name: )
+- uid: Prowl.Runtime.Mesh.Normals*
+  commentId: Overload:Prowl.Runtime.Mesh.Normals
+  href: Prowl.Runtime.Mesh.html#Prowl_Runtime_Mesh_Normals
+  name: Normals
+  nameWithType: Mesh.Normals
+  fullName: Prowl.Runtime.Mesh.Normals
+- uid: Prowl.Runtime.Mesh.Tangents*
+  commentId: Overload:Prowl.Runtime.Mesh.Tangents
+  href: Prowl.Runtime.Mesh.html#Prowl_Runtime_Mesh_Tangents
+  name: Tangents
+  nameWithType: Mesh.Tangents
+  fullName: Prowl.Runtime.Mesh.Tangents
+- uid: Prowl.Runtime.Mesh.Colors*
+  commentId: Overload:Prowl.Runtime.Mesh.Colors
+  href: Prowl.Runtime.Mesh.html#Prowl_Runtime_Mesh_Colors
+  name: Colors
+  nameWithType: Mesh.Colors
+  fullName: Prowl.Runtime.Mesh.Colors
+- uid: Prowl.Runtime.Color32[]
+  isExternal: true
+  href: Prowl.Runtime.Color32.html
+  name: Color32[]
+  nameWithType: Color32[]
+  fullName: Prowl.Runtime.Color32[]
+  nameWithType.vb: Color32()
+  fullName.vb: Prowl.Runtime.Color32()
+  name.vb: Color32()
+  spec.csharp:
+  - uid: Prowl.Runtime.Color32
+    name: Color32
+    href: Prowl.Runtime.Color32.html
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: Prowl.Runtime.Color32
+    name: Color32
+    href: Prowl.Runtime.Color32.html
+  - name: (
+  - name: )
+- uid: Prowl.Runtime.Mesh.UV*
+  commentId: Overload:Prowl.Runtime.Mesh.UV
+  href: Prowl.Runtime.Mesh.html#Prowl_Runtime_Mesh_UV
+  name: UV
+  nameWithType: Mesh.UV
+  fullName: Prowl.Runtime.Mesh.UV
+- uid: System.Numerics.Vector2[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.numerics.vector2
+  name: Vector2[]
+  nameWithType: Vector2[]
+  fullName: System.Numerics.Vector2[]
+  nameWithType.vb: Vector2()
+  fullName.vb: System.Numerics.Vector2()
+  name.vb: Vector2()
+  spec.csharp:
+  - uid: System.Numerics.Vector2
+    name: Vector2
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.numerics.vector2
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.Numerics.Vector2
+    name: Vector2
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.numerics.vector2
+  - name: (
+  - name: )
+- uid: Prowl.Runtime.Mesh.UV2*
+  commentId: Overload:Prowl.Runtime.Mesh.UV2
+  href: Prowl.Runtime.Mesh.html#Prowl_Runtime_Mesh_UV2
+  name: UV2
+  nameWithType: Mesh.UV2
+  fullName: Prowl.Runtime.Mesh.UV2
+- uid: Prowl.Runtime.Mesh.Indices32*
+  commentId: Overload:Prowl.Runtime.Mesh.Indices32
+  href: Prowl.Runtime.Mesh.html#Prowl_Runtime_Mesh_Indices32
+  name: Indices32
+  nameWithType: Mesh.Indices32
+  fullName: Prowl.Runtime.Mesh.Indices32
+- uid: System.UInt32[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.uint32
+  name: uint[]
+  nameWithType: uint[]
+  fullName: uint[]
+  nameWithType.vb: UInteger()
+  fullName.vb: UInteger()
+  name.vb: UInteger()
+  spec.csharp:
+  - uid: System.UInt32
+    name: uint
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.uint32
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.UInt32
+    name: UInteger
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.uint32
+  - name: (
+  - name: )
+- uid: Prowl.Runtime.Mesh.Indices16*
+  commentId: Overload:Prowl.Runtime.Mesh.Indices16
+  href: Prowl.Runtime.Mesh.html#Prowl_Runtime_Mesh_Indices16
+  name: Indices16
+  nameWithType: Mesh.Indices16
+  fullName: Prowl.Runtime.Mesh.Indices16
+- uid: System.UInt16[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.uint16
+  name: ushort[]
+  nameWithType: ushort[]
+  fullName: ushort[]
+  nameWithType.vb: UShort()
+  fullName.vb: UShort()
+  name.vb: UShort()
+  spec.csharp:
+  - uid: System.UInt16
+    name: ushort
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.uint16
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.UInt16
+    name: UShort
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.uint16
+  - name: (
+  - name: )
+- uid: Prowl.Runtime.Mesh.BoneIndices*
+  commentId: Overload:Prowl.Runtime.Mesh.BoneIndices
+  href: Prowl.Runtime.Mesh.html#Prowl_Runtime_Mesh_BoneIndices
+  name: BoneIndices
+  nameWithType: Mesh.BoneIndices
+  fullName: Prowl.Runtime.Mesh.BoneIndices
+- uid: System.Numerics.Vector4[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.numerics.vector4
+  name: Vector4[]
+  nameWithType: Vector4[]
+  fullName: System.Numerics.Vector4[]
+  nameWithType.vb: Vector4()
+  fullName.vb: System.Numerics.Vector4()
+  name.vb: Vector4()
+  spec.csharp:
+  - uid: System.Numerics.Vector4
+    name: Vector4
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.numerics.vector4
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.Numerics.Vector4
+    name: Vector4
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.numerics.vector4
+  - name: (
+  - name: )
+- uid: Prowl.Runtime.Mesh.BoneWeights*
+  commentId: Overload:Prowl.Runtime.Mesh.BoneWeights
+  href: Prowl.Runtime.Mesh.html#Prowl_Runtime_Mesh_BoneWeights
+  name: BoneWeights
+  nameWithType: Mesh.BoneWeights
+  fullName: Prowl.Runtime.Mesh.BoneWeights
+- uid: Prowl.Runtime.Mesh.VertexCount*
+  commentId: Overload:Prowl.Runtime.Mesh.VertexCount
+  href: Prowl.Runtime.Mesh.html#Prowl_Runtime_Mesh_VertexCount
+  name: VertexCount
+  nameWithType: Mesh.VertexCount
+  fullName: Prowl.Runtime.Mesh.VertexCount
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: Prowl.Runtime.Mesh.IndexCount*
+  commentId: Overload:Prowl.Runtime.Mesh.IndexCount
+  href: Prowl.Runtime.Mesh.html#Prowl_Runtime_Mesh_IndexCount
+  name: IndexCount
+  nameWithType: Mesh.IndexCount
+  fullName: Prowl.Runtime.Mesh.IndexCount
+- uid: Prowl.Runtime.IGeometryDrawData.IndexCount
+  commentId: P:Prowl.Runtime.IGeometryDrawData.IndexCount
+  parent: Prowl.Runtime.IGeometryDrawData
+  href: Prowl.Runtime.IGeometryDrawData.html#Prowl_Runtime_IGeometryDrawData_IndexCount
+  name: IndexCount
+  nameWithType: IGeometryDrawData.IndexCount
+  fullName: Prowl.Runtime.IGeometryDrawData.IndexCount
+- uid: Prowl.Runtime.Mesh.VertexBuffer*
+  commentId: Overload:Prowl.Runtime.Mesh.VertexBuffer
+  href: Prowl.Runtime.Mesh.html#Prowl_Runtime_Mesh_VertexBuffer
+  name: VertexBuffer
+  nameWithType: Mesh.VertexBuffer
+  fullName: Prowl.Runtime.Mesh.VertexBuffer
+- uid: Veldrid.DeviceBuffer
+  commentId: T:Veldrid.DeviceBuffer
+  parent: Veldrid
+  name: DeviceBuffer
+  nameWithType: DeviceBuffer
+  fullName: Veldrid.DeviceBuffer
+- uid: Prowl.Runtime.Mesh.IndexBuffer*
+  commentId: Overload:Prowl.Runtime.Mesh.IndexBuffer
+  href: Prowl.Runtime.Mesh.html#Prowl_Runtime_Mesh_IndexBuffer
+  name: IndexBuffer
+  nameWithType: Mesh.IndexBuffer
+  fullName: Prowl.Runtime.Mesh.IndexBuffer
+- uid: Prowl.Runtime.Mesh.HasNormals*
+  commentId: Overload:Prowl.Runtime.Mesh.HasNormals
+  href: Prowl.Runtime.Mesh.html#Prowl_Runtime_Mesh_HasNormals
+  name: HasNormals
+  nameWithType: Mesh.HasNormals
+  fullName: Prowl.Runtime.Mesh.HasNormals
+- uid: Prowl.Runtime.Mesh.HasTangents*
+  commentId: Overload:Prowl.Runtime.Mesh.HasTangents
+  href: Prowl.Runtime.Mesh.html#Prowl_Runtime_Mesh_HasTangents
+  name: HasTangents
+  nameWithType: Mesh.HasTangents
+  fullName: Prowl.Runtime.Mesh.HasTangents
+- uid: Prowl.Runtime.Mesh.HasColors*
+  commentId: Overload:Prowl.Runtime.Mesh.HasColors
+  href: Prowl.Runtime.Mesh.html#Prowl_Runtime_Mesh_HasColors
+  name: HasColors
+  nameWithType: Mesh.HasColors
+  fullName: Prowl.Runtime.Mesh.HasColors
+- uid: Prowl.Runtime.Mesh.HasUV*
+  commentId: Overload:Prowl.Runtime.Mesh.HasUV
+  href: Prowl.Runtime.Mesh.html#Prowl_Runtime_Mesh_HasUV
+  name: HasUV
+  nameWithType: Mesh.HasUV
+  fullName: Prowl.Runtime.Mesh.HasUV
+- uid: Prowl.Runtime.Mesh.HasUV2*
+  commentId: Overload:Prowl.Runtime.Mesh.HasUV2
+  href: Prowl.Runtime.Mesh.html#Prowl_Runtime_Mesh_HasUV2
+  name: HasUV2
+  nameWithType: Mesh.HasUV2
+  fullName: Prowl.Runtime.Mesh.HasUV2
+- uid: Prowl.Runtime.Mesh.HasBoneIndices*
+  commentId: Overload:Prowl.Runtime.Mesh.HasBoneIndices
+  href: Prowl.Runtime.Mesh.html#Prowl_Runtime_Mesh_HasBoneIndices
+  name: HasBoneIndices
+  nameWithType: Mesh.HasBoneIndices
+  fullName: Prowl.Runtime.Mesh.HasBoneIndices
+- uid: Prowl.Runtime.Mesh.HasBoneWeights*
+  commentId: Overload:Prowl.Runtime.Mesh.HasBoneWeights
+  href: Prowl.Runtime.Mesh.html#Prowl_Runtime_Mesh_HasBoneWeights
+  name: HasBoneWeights
+  nameWithType: Mesh.HasBoneWeights
+  fullName: Prowl.Runtime.Mesh.HasBoneWeights
+- uid: System.Numerics.Matrix4x4[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.numerics.matrix4x4
+  name: Matrix4x4[]
+  nameWithType: Matrix4x4[]
+  fullName: System.Numerics.Matrix4x4[]
+  nameWithType.vb: Matrix4x4()
+  fullName.vb: System.Numerics.Matrix4x4()
+  name.vb: Matrix4x4()
+  spec.csharp:
+  - uid: System.Numerics.Matrix4x4
+    name: Matrix4x4
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.numerics.matrix4x4
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.Numerics.Matrix4x4
+    name: Matrix4x4
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.numerics.matrix4x4
+  - name: (
+  - name: )
+- uid: Prowl.Runtime.Mesh.UVStart*
+  commentId: Overload:Prowl.Runtime.Mesh.UVStart
+  href: Prowl.Runtime.Mesh.html#Prowl_Runtime_Mesh_UVStart
+  name: UVStart
+  nameWithType: Mesh.UVStart
+  fullName: Prowl.Runtime.Mesh.UVStart
+- uid: Prowl.Runtime.Mesh.UV2Start*
+  commentId: Overload:Prowl.Runtime.Mesh.UV2Start
+  href: Prowl.Runtime.Mesh.html#Prowl_Runtime_Mesh_UV2Start
+  name: UV2Start
+  nameWithType: Mesh.UV2Start
+  fullName: Prowl.Runtime.Mesh.UV2Start
+- uid: Prowl.Runtime.Mesh.NormalsStart*
+  commentId: Overload:Prowl.Runtime.Mesh.NormalsStart
+  href: Prowl.Runtime.Mesh.html#Prowl_Runtime_Mesh_NormalsStart
+  name: NormalsStart
+  nameWithType: Mesh.NormalsStart
+  fullName: Prowl.Runtime.Mesh.NormalsStart
+- uid: Prowl.Runtime.Mesh.TangentsStart*
+  commentId: Overload:Prowl.Runtime.Mesh.TangentsStart
+  href: Prowl.Runtime.Mesh.html#Prowl_Runtime_Mesh_TangentsStart
+  name: TangentsStart
+  nameWithType: Mesh.TangentsStart
+  fullName: Prowl.Runtime.Mesh.TangentsStart
+- uid: Prowl.Runtime.Mesh.ColorsStart*
+  commentId: Overload:Prowl.Runtime.Mesh.ColorsStart
+  href: Prowl.Runtime.Mesh.html#Prowl_Runtime_Mesh_ColorsStart
+  name: ColorsStart
+  nameWithType: Mesh.ColorsStart
+  fullName: Prowl.Runtime.Mesh.ColorsStart
+- uid: Prowl.Runtime.Mesh.BufferLength*
+  commentId: Overload:Prowl.Runtime.Mesh.BufferLength
+  href: Prowl.Runtime.Mesh.html#Prowl_Runtime_Mesh_BufferLength
+  name: BufferLength
+  nameWithType: Mesh.BufferLength
+  fullName: Prowl.Runtime.Mesh.BufferLength
+- uid: System.Collections.Generic.Dictionary{System.String,Veldrid.VertexElementFormat}
+  commentId: T:System.Collections.Generic.Dictionary{System.String,Veldrid.VertexElementFormat}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.Dictionary`2
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  name: Dictionary<string, VertexElementFormat>
+  nameWithType: Dictionary<string, VertexElementFormat>
+  fullName: System.Collections.Generic.Dictionary<string, Veldrid.VertexElementFormat>
+  nameWithType.vb: Dictionary(Of String, VertexElementFormat)
+  fullName.vb: System.Collections.Generic.Dictionary(Of String, Veldrid.VertexElementFormat)
+  name.vb: Dictionary(Of String, VertexElementFormat)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: Veldrid.VertexElementFormat
+    name: VertexElementFormat
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: Veldrid.VertexElementFormat
+    name: VertexElementFormat
+  - name: )
+- uid: System.Collections.Generic.Dictionary`2
+  commentId: T:System.Collections.Generic.Dictionary`2
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  name: Dictionary<TKey, TValue>
+  nameWithType: Dictionary<TKey, TValue>
+  fullName: System.Collections.Generic.Dictionary<TKey, TValue>
+  nameWithType.vb: Dictionary(Of TKey, TValue)
+  fullName.vb: System.Collections.Generic.Dictionary(Of TKey, TValue)
+  name.vb: Dictionary(Of TKey, TValue)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  - name: <
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: Prowl.Runtime.Mesh.#ctor*
+  commentId: Overload:Prowl.Runtime.Mesh.#ctor
+  href: Prowl.Runtime.Mesh.html#Prowl_Runtime_Mesh__ctor
+  name: Mesh
+  nameWithType: Mesh.Mesh
+  fullName: Prowl.Runtime.Mesh.Mesh
+  nameWithType.vb: Mesh.New
+  fullName.vb: Prowl.Runtime.Mesh.New
+  name.vb: New
+- uid: Prowl.Runtime.Mesh.Clear*
+  commentId: Overload:Prowl.Runtime.Mesh.Clear
+  href: Prowl.Runtime.Mesh.html#Prowl_Runtime_Mesh_Clear
+  name: Clear
+  nameWithType: Mesh.Clear
+  fullName: Prowl.Runtime.Mesh.Clear
+- uid: Prowl.Runtime.Mesh.Upload*
+  commentId: Overload:Prowl.Runtime.Mesh.Upload
+  href: Prowl.Runtime.Mesh.html#Prowl_Runtime_Mesh_Upload
+  name: Upload
+  nameWithType: Mesh.Upload
+  fullName: Prowl.Runtime.Mesh.Upload
+- uid: Prowl.Runtime.Mesh.SetDrawData*
+  commentId: Overload:Prowl.Runtime.Mesh.SetDrawData
+  href: Prowl.Runtime.Mesh.html#Prowl_Runtime_Mesh_SetDrawData_Veldrid_CommandList_Prowl_Runtime_ShaderPipeline_
+  name: SetDrawData
+  nameWithType: Mesh.SetDrawData
+  fullName: Prowl.Runtime.Mesh.SetDrawData
+- uid: Prowl.Runtime.IGeometryDrawData.SetDrawData(Veldrid.CommandList,Prowl.Runtime.ShaderPipeline)
+  commentId: M:Prowl.Runtime.IGeometryDrawData.SetDrawData(Veldrid.CommandList,Prowl.Runtime.ShaderPipeline)
+  parent: Prowl.Runtime.IGeometryDrawData
+  href: Prowl.Runtime.IGeometryDrawData.html#Prowl_Runtime_IGeometryDrawData_SetDrawData_Veldrid_CommandList_Prowl_Runtime_ShaderPipeline_
+  name: SetDrawData(CommandList, ShaderPipeline)
+  nameWithType: IGeometryDrawData.SetDrawData(CommandList, ShaderPipeline)
+  fullName: Prowl.Runtime.IGeometryDrawData.SetDrawData(Veldrid.CommandList, Prowl.Runtime.ShaderPipeline)
+  spec.csharp:
+  - uid: Prowl.Runtime.IGeometryDrawData.SetDrawData(Veldrid.CommandList,Prowl.Runtime.ShaderPipeline)
+    name: SetDrawData
+    href: Prowl.Runtime.IGeometryDrawData.html#Prowl_Runtime_IGeometryDrawData_SetDrawData_Veldrid_CommandList_Prowl_Runtime_ShaderPipeline_
+  - name: (
+  - uid: Veldrid.CommandList
+    name: CommandList
+  - name: ','
+  - name: " "
+  - uid: Prowl.Runtime.ShaderPipeline
+    name: ShaderPipeline
+    href: Prowl.Runtime.ShaderPipeline.html
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.IGeometryDrawData.SetDrawData(Veldrid.CommandList,Prowl.Runtime.ShaderPipeline)
+    name: SetDrawData
+    href: Prowl.Runtime.IGeometryDrawData.html#Prowl_Runtime_IGeometryDrawData_SetDrawData_Veldrid_CommandList_Prowl_Runtime_ShaderPipeline_
+  - name: (
+  - uid: Veldrid.CommandList
+    name: CommandList
+  - name: ','
+  - name: " "
+  - uid: Prowl.Runtime.ShaderPipeline
+    name: ShaderPipeline
+    href: Prowl.Runtime.ShaderPipeline.html
+  - name: )
+- uid: Veldrid.CommandList
+  commentId: T:Veldrid.CommandList
+  parent: Veldrid
+  name: CommandList
+  nameWithType: CommandList
+  fullName: Veldrid.CommandList
+- uid: Prowl.Runtime.ShaderPipeline
+  commentId: T:Prowl.Runtime.ShaderPipeline
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.ShaderPipeline.html
+  name: ShaderPipeline
+  nameWithType: ShaderPipeline
+  fullName: Prowl.Runtime.ShaderPipeline
+- uid: Prowl.Runtime.Mesh.RecalculateBounds*
+  commentId: Overload:Prowl.Runtime.Mesh.RecalculateBounds
+  href: Prowl.Runtime.Mesh.html#Prowl_Runtime_Mesh_RecalculateBounds
+  name: RecalculateBounds
+  nameWithType: Mesh.RecalculateBounds
+  fullName: Prowl.Runtime.Mesh.RecalculateBounds
+- uid: Prowl.Runtime.Mesh.RecalculateNormals*
+  commentId: Overload:Prowl.Runtime.Mesh.RecalculateNormals
+  href: Prowl.Runtime.Mesh.html#Prowl_Runtime_Mesh_RecalculateNormals
+  name: RecalculateNormals
+  nameWithType: Mesh.RecalculateNormals
+  fullName: Prowl.Runtime.Mesh.RecalculateNormals
+- uid: Prowl.Runtime.Mesh.RecalculateTangents*
+  commentId: Overload:Prowl.Runtime.Mesh.RecalculateTangents
+  href: Prowl.Runtime.Mesh.html#Prowl_Runtime_Mesh_RecalculateTangents
+  name: RecalculateTangents
+  nameWithType: Mesh.RecalculateTangents
+  fullName: Prowl.Runtime.Mesh.RecalculateTangents
+- uid: Prowl.Runtime.EngineObject.OnDispose
+  commentId: M:Prowl.Runtime.EngineObject.OnDispose
+  parent: Prowl.Runtime.EngineObject
+  href: Prowl.Runtime.EngineObject.html#Prowl_Runtime_EngineObject_OnDispose
+  name: OnDispose()
+  nameWithType: EngineObject.OnDispose()
+  fullName: Prowl.Runtime.EngineObject.OnDispose()
+  spec.csharp:
+  - uid: Prowl.Runtime.EngineObject.OnDispose
+    name: OnDispose
+    href: Prowl.Runtime.EngineObject.html#Prowl_Runtime_EngineObject_OnDispose
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.EngineObject.OnDispose
+    name: OnDispose
+    href: Prowl.Runtime.EngineObject.html#Prowl_Runtime_EngineObject_OnDispose
+  - name: (
+  - name: )
+- uid: Prowl.Runtime.Mesh.OnDispose*
+  commentId: Overload:Prowl.Runtime.Mesh.OnDispose
+  href: Prowl.Runtime.Mesh.html#Prowl_Runtime_Mesh_OnDispose
+  name: OnDispose
+  nameWithType: Mesh.OnDispose
+  fullName: Prowl.Runtime.Mesh.OnDispose
+- uid: Prowl.Runtime.Mesh.CreateQuad*
+  commentId: Overload:Prowl.Runtime.Mesh.CreateQuad
+  href: Prowl.Runtime.Mesh.html#Prowl_Runtime_Mesh_CreateQuad_Prowl_Runtime_Vector2_
+  name: CreateQuad
+  nameWithType: Mesh.CreateQuad
+  fullName: Prowl.Runtime.Mesh.CreateQuad
+- uid: Prowl.Runtime.Vector2
+  commentId: T:Prowl.Runtime.Vector2
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.Vector2.html
+  name: Vector2
+  nameWithType: Vector2
+  fullName: Prowl.Runtime.Vector2
+- uid: Prowl.Runtime.Mesh
+  commentId: T:Prowl.Runtime.Mesh
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.Mesh.html
+  name: Mesh
+  nameWithType: Mesh
+  fullName: Prowl.Runtime.Mesh
+- uid: Prowl.Runtime.Mesh.CreateSphere*
+  commentId: Overload:Prowl.Runtime.Mesh.CreateSphere
+  href: Prowl.Runtime.Mesh.html#Prowl_Runtime_Mesh_CreateSphere_System_Single_System_Int32_System_Int32_
+  name: CreateSphere
+  nameWithType: Mesh.CreateSphere
+  fullName: Prowl.Runtime.Mesh.CreateSphere
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.single
+  name: float
+  nameWithType: float
+  fullName: float
+  nameWithType.vb: Single
+  fullName.vb: Single
+  name.vb: Single
+- uid: Prowl.Runtime.Mesh.CreateCube*
+  commentId: Overload:Prowl.Runtime.Mesh.CreateCube
+  href: Prowl.Runtime.Mesh.html#Prowl_Runtime_Mesh_CreateCube_Prowl_Runtime_Vector3_
+  name: CreateCube
+  nameWithType: Mesh.CreateCube
+  fullName: Prowl.Runtime.Mesh.CreateCube
+- uid: Prowl.Runtime.Vector3
+  commentId: T:Prowl.Runtime.Vector3
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.Vector3.html
+  name: Vector3
+  nameWithType: Vector3
+  fullName: Prowl.Runtime.Vector3
+- uid: Prowl.Runtime.Mesh.CreateCylinder*
+  commentId: Overload:Prowl.Runtime.Mesh.CreateCylinder
+  href: Prowl.Runtime.Mesh.html#Prowl_Runtime_Mesh_CreateCylinder_System_Single_System_Single_System_Int32_
+  name: CreateCylinder
+  nameWithType: Mesh.CreateCylinder
+  fullName: Prowl.Runtime.Mesh.CreateCylinder
+- uid: Prowl.Runtime.Mesh.CreateTriangle*
+  commentId: Overload:Prowl.Runtime.Mesh.CreateTriangle
+  href: Prowl.Runtime.Mesh.html#Prowl_Runtime_Mesh_CreateTriangle_Prowl_Runtime_Vector3_Prowl_Runtime_Vector3_Prowl_Runtime_Vector3_
+  name: CreateTriangle
+  nameWithType: Mesh.CreateTriangle
+  fullName: Prowl.Runtime.Mesh.CreateTriangle
+- uid: Prowl.Runtime.Mesh.Serialize*
+  commentId: Overload:Prowl.Runtime.Mesh.Serialize
+  href: Prowl.Runtime.Mesh.html#Prowl_Runtime_Mesh_Serialize_Prowl_Runtime_Serializer_SerializationContext_
+  name: Serialize
+  nameWithType: Mesh.Serialize
+  fullName: Prowl.Runtime.Mesh.Serialize
+- uid: Prowl.Runtime.ISerializable.Serialize(Prowl.Runtime.Serializer.SerializationContext)
+  commentId: M:Prowl.Runtime.ISerializable.Serialize(Prowl.Runtime.Serializer.SerializationContext)
+  parent: Prowl.Runtime.ISerializable
+  href: Prowl.Runtime.ISerializable.html#Prowl_Runtime_ISerializable_Serialize_Prowl_Runtime_Serializer_SerializationContext_
+  name: Serialize(SerializationContext)
+  nameWithType: ISerializable.Serialize(Serializer.SerializationContext)
+  fullName: Prowl.Runtime.ISerializable.Serialize(Prowl.Runtime.Serializer.SerializationContext)
+  spec.csharp:
+  - uid: Prowl.Runtime.ISerializable.Serialize(Prowl.Runtime.Serializer.SerializationContext)
+    name: Serialize
+    href: Prowl.Runtime.ISerializable.html#Prowl_Runtime_ISerializable_Serialize_Prowl_Runtime_Serializer_SerializationContext_
+  - name: (
+  - uid: Prowl.Runtime.Serializer.SerializationContext
+    name: SerializationContext
+    href: Prowl.Runtime.Serializer.SerializationContext.html
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.ISerializable.Serialize(Prowl.Runtime.Serializer.SerializationContext)
+    name: Serialize
+    href: Prowl.Runtime.ISerializable.html#Prowl_Runtime_ISerializable_Serialize_Prowl_Runtime_Serializer_SerializationContext_
+  - name: (
+  - uid: Prowl.Runtime.Serializer.SerializationContext
+    name: SerializationContext
+    href: Prowl.Runtime.Serializer.SerializationContext.html
+  - name: )
+- uid: Prowl.Runtime.Serializer.SerializationContext
+  commentId: T:Prowl.Runtime.Serializer.SerializationContext
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.Serializer.html
+  name: Serializer.SerializationContext
+  nameWithType: Serializer.SerializationContext
+  fullName: Prowl.Runtime.Serializer.SerializationContext
+  spec.csharp:
+  - uid: Prowl.Runtime.Serializer
+    name: Serializer
+    href: Prowl.Runtime.Serializer.html
+  - name: .
+  - uid: Prowl.Runtime.Serializer.SerializationContext
+    name: SerializationContext
+    href: Prowl.Runtime.Serializer.SerializationContext.html
+  spec.vb:
+  - uid: Prowl.Runtime.Serializer
+    name: Serializer
+    href: Prowl.Runtime.Serializer.html
+  - name: .
+  - uid: Prowl.Runtime.Serializer.SerializationContext
+    name: SerializationContext
+    href: Prowl.Runtime.Serializer.SerializationContext.html
+- uid: Prowl.Runtime.SerializedProperty
+  commentId: T:Prowl.Runtime.SerializedProperty
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.SerializedProperty.html
+  name: SerializedProperty
+  nameWithType: SerializedProperty
+  fullName: Prowl.Runtime.SerializedProperty
+- uid: Prowl.Runtime.Mesh.Deserialize*
+  commentId: Overload:Prowl.Runtime.Mesh.Deserialize
+  href: Prowl.Runtime.Mesh.html#Prowl_Runtime_Mesh_Deserialize_Prowl_Runtime_SerializedProperty_Prowl_Runtime_Serializer_SerializationContext_
+  name: Deserialize
+  nameWithType: Mesh.Deserialize
+  fullName: Prowl.Runtime.Mesh.Deserialize
+- uid: Prowl.Runtime.ISerializable.Deserialize(Prowl.Runtime.SerializedProperty,Prowl.Runtime.Serializer.SerializationContext)
+  commentId: M:Prowl.Runtime.ISerializable.Deserialize(Prowl.Runtime.SerializedProperty,Prowl.Runtime.Serializer.SerializationContext)
+  parent: Prowl.Runtime.ISerializable
+  href: Prowl.Runtime.ISerializable.html#Prowl_Runtime_ISerializable_Deserialize_Prowl_Runtime_SerializedProperty_Prowl_Runtime_Serializer_SerializationContext_
+  name: Deserialize(SerializedProperty, SerializationContext)
+  nameWithType: ISerializable.Deserialize(SerializedProperty, Serializer.SerializationContext)
+  fullName: Prowl.Runtime.ISerializable.Deserialize(Prowl.Runtime.SerializedProperty, Prowl.Runtime.Serializer.SerializationContext)
+  spec.csharp:
+  - uid: Prowl.Runtime.ISerializable.Deserialize(Prowl.Runtime.SerializedProperty,Prowl.Runtime.Serializer.SerializationContext)
+    name: Deserialize
+    href: Prowl.Runtime.ISerializable.html#Prowl_Runtime_ISerializable_Deserialize_Prowl_Runtime_SerializedProperty_Prowl_Runtime_Serializer_SerializationContext_
+  - name: (
+  - uid: Prowl.Runtime.SerializedProperty
+    name: SerializedProperty
+    href: Prowl.Runtime.SerializedProperty.html
+  - name: ','
+  - name: " "
+  - uid: Prowl.Runtime.Serializer.SerializationContext
+    name: SerializationContext
+    href: Prowl.Runtime.Serializer.SerializationContext.html
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.ISerializable.Deserialize(Prowl.Runtime.SerializedProperty,Prowl.Runtime.Serializer.SerializationContext)
+    name: Deserialize
+    href: Prowl.Runtime.ISerializable.html#Prowl_Runtime_ISerializable_Deserialize_Prowl_Runtime_SerializedProperty_Prowl_Runtime_Serializer_SerializationContext_
+  - name: (
+  - uid: Prowl.Runtime.SerializedProperty
+    name: SerializedProperty
+    href: Prowl.Runtime.SerializedProperty.html
+  - name: ','
+  - name: " "
+  - uid: Prowl.Runtime.Serializer.SerializationContext
+    name: SerializationContext
+    href: Prowl.Runtime.Serializer.SerializationContext.html
+  - name: )

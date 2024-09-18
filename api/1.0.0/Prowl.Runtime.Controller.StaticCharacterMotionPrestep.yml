@@ -1,0 +1,662 @@
+### YamlMime:ManagedReference
+items:
+- uid: Prowl.Runtime.Controller.StaticCharacterMotionPrestep
+  commentId: T:Prowl.Runtime.Controller.StaticCharacterMotionPrestep
+  id: StaticCharacterMotionPrestep
+  parent: Prowl.Runtime.Controller
+  children:
+  - Prowl.Runtime.Controller.StaticCharacterMotionPrestep.Depth
+  - Prowl.Runtime.Controller.StaticCharacterMotionPrestep.MaximumHorizontalForce
+  - Prowl.Runtime.Controller.StaticCharacterMotionPrestep.MaximumVerticalForce
+  - Prowl.Runtime.Controller.StaticCharacterMotionPrestep.OffsetFromCharacter
+  - Prowl.Runtime.Controller.StaticCharacterMotionPrestep.SurfaceBasis
+  - Prowl.Runtime.Controller.StaticCharacterMotionPrestep.TargetVelocity
+  langs:
+  - csharp
+  - vb
+  name: StaticCharacterMotionPrestep
+  nameWithType: StaticCharacterMotionPrestep
+  fullName: Prowl.Runtime.Controller.StaticCharacterMotionPrestep
+  type: Struct
+  source:
+    remote:
+      path: Prowl.Runtime/Components/Physics/Types/Controller/CharacterMotionConstraint.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: StaticCharacterMotionPrestep
+    path: ../Prowl/Prowl.Runtime/Components/Physics/Types/Controller/CharacterMotionConstraint.cs
+    startLine: 117
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.Controller
+  summary: AOSOA formatted bundle of prestep data for multiple static-supported character motion constraints.
+  example: []
+  syntax:
+    content: public struct StaticCharacterMotionPrestep
+    content.vb: Public Structure StaticCharacterMotionPrestep
+  inheritedMembers:
+  - System.ValueType.Equals(System.Object)
+  - System.ValueType.GetHashCode
+  - System.ValueType.ToString
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  extensionMethods:
+  - System.Object.Prowl.Runtime.RuntimeUtils.GetSerializableFields
+- uid: Prowl.Runtime.Controller.StaticCharacterMotionPrestep.SurfaceBasis
+  commentId: F:Prowl.Runtime.Controller.StaticCharacterMotionPrestep.SurfaceBasis
+  id: SurfaceBasis
+  parent: Prowl.Runtime.Controller.StaticCharacterMotionPrestep
+  langs:
+  - csharp
+  - vb
+  name: SurfaceBasis
+  nameWithType: StaticCharacterMotionPrestep.SurfaceBasis
+  fullName: Prowl.Runtime.Controller.StaticCharacterMotionPrestep.SurfaceBasis
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/Components/Physics/Types/Controller/CharacterMotionConstraint.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: SurfaceBasis
+    path: ../Prowl/Prowl.Runtime/Components/Physics/Types/Controller/CharacterMotionConstraint.cs
+    startLine: 122
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.Controller
+  syntax:
+    content: public QuaternionWide SurfaceBasis
+    return:
+      type: BepuUtilities.QuaternionWide
+    content.vb: Public SurfaceBasis As QuaternionWide
+- uid: Prowl.Runtime.Controller.StaticCharacterMotionPrestep.MaximumHorizontalForce
+  commentId: F:Prowl.Runtime.Controller.StaticCharacterMotionPrestep.MaximumHorizontalForce
+  id: MaximumHorizontalForce
+  parent: Prowl.Runtime.Controller.StaticCharacterMotionPrestep
+  langs:
+  - csharp
+  - vb
+  name: MaximumHorizontalForce
+  nameWithType: StaticCharacterMotionPrestep.MaximumHorizontalForce
+  fullName: Prowl.Runtime.Controller.StaticCharacterMotionPrestep.MaximumHorizontalForce
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/Components/Physics/Types/Controller/CharacterMotionConstraint.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: MaximumHorizontalForce
+    path: ../Prowl/Prowl.Runtime/Components/Physics/Types/Controller/CharacterMotionConstraint.cs
+    startLine: 123
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.Controller
+  syntax:
+    content: public Vector<float> MaximumHorizontalForce
+    return:
+      type: System.Numerics.Vector{System.Single}
+    content.vb: Public MaximumHorizontalForce As Vector(Of Single)
+- uid: Prowl.Runtime.Controller.StaticCharacterMotionPrestep.MaximumVerticalForce
+  commentId: F:Prowl.Runtime.Controller.StaticCharacterMotionPrestep.MaximumVerticalForce
+  id: MaximumVerticalForce
+  parent: Prowl.Runtime.Controller.StaticCharacterMotionPrestep
+  langs:
+  - csharp
+  - vb
+  name: MaximumVerticalForce
+  nameWithType: StaticCharacterMotionPrestep.MaximumVerticalForce
+  fullName: Prowl.Runtime.Controller.StaticCharacterMotionPrestep.MaximumVerticalForce
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/Components/Physics/Types/Controller/CharacterMotionConstraint.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: MaximumVerticalForce
+    path: ../Prowl/Prowl.Runtime/Components/Physics/Types/Controller/CharacterMotionConstraint.cs
+    startLine: 124
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.Controller
+  syntax:
+    content: public Vector<float> MaximumVerticalForce
+    return:
+      type: System.Numerics.Vector{System.Single}
+    content.vb: Public MaximumVerticalForce As Vector(Of Single)
+- uid: Prowl.Runtime.Controller.StaticCharacterMotionPrestep.Depth
+  commentId: F:Prowl.Runtime.Controller.StaticCharacterMotionPrestep.Depth
+  id: Depth
+  parent: Prowl.Runtime.Controller.StaticCharacterMotionPrestep
+  langs:
+  - csharp
+  - vb
+  name: Depth
+  nameWithType: StaticCharacterMotionPrestep.Depth
+  fullName: Prowl.Runtime.Controller.StaticCharacterMotionPrestep.Depth
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/Components/Physics/Types/Controller/CharacterMotionConstraint.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Depth
+    path: ../Prowl/Prowl.Runtime/Components/Physics/Types/Controller/CharacterMotionConstraint.cs
+    startLine: 125
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.Controller
+  syntax:
+    content: public Vector<float> Depth
+    return:
+      type: System.Numerics.Vector{System.Single}
+    content.vb: Public Depth As Vector(Of Single)
+- uid: Prowl.Runtime.Controller.StaticCharacterMotionPrestep.TargetVelocity
+  commentId: F:Prowl.Runtime.Controller.StaticCharacterMotionPrestep.TargetVelocity
+  id: TargetVelocity
+  parent: Prowl.Runtime.Controller.StaticCharacterMotionPrestep
+  langs:
+  - csharp
+  - vb
+  name: TargetVelocity
+  nameWithType: StaticCharacterMotionPrestep.TargetVelocity
+  fullName: Prowl.Runtime.Controller.StaticCharacterMotionPrestep.TargetVelocity
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/Components/Physics/Types/Controller/CharacterMotionConstraint.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: TargetVelocity
+    path: ../Prowl/Prowl.Runtime/Components/Physics/Types/Controller/CharacterMotionConstraint.cs
+    startLine: 126
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.Controller
+  syntax:
+    content: public Vector2Wide TargetVelocity
+    return:
+      type: BepuUtilities.Vector2Wide
+    content.vb: Public TargetVelocity As Vector2Wide
+- uid: Prowl.Runtime.Controller.StaticCharacterMotionPrestep.OffsetFromCharacter
+  commentId: F:Prowl.Runtime.Controller.StaticCharacterMotionPrestep.OffsetFromCharacter
+  id: OffsetFromCharacter
+  parent: Prowl.Runtime.Controller.StaticCharacterMotionPrestep
+  langs:
+  - csharp
+  - vb
+  name: OffsetFromCharacter
+  nameWithType: StaticCharacterMotionPrestep.OffsetFromCharacter
+  fullName: Prowl.Runtime.Controller.StaticCharacterMotionPrestep.OffsetFromCharacter
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/Components/Physics/Types/Controller/CharacterMotionConstraint.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: OffsetFromCharacter
+    path: ../Prowl/Prowl.Runtime/Components/Physics/Types/Controller/CharacterMotionConstraint.cs
+    startLine: 127
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.Controller
+  syntax:
+    content: public Vector3Wide OffsetFromCharacter
+    return:
+      type: BepuUtilities.Vector3Wide
+    content.vb: Public OffsetFromCharacter As Vector3Wide
+references:
+- uid: Prowl.Runtime.Controller
+  commentId: N:Prowl.Runtime.Controller
+  href: Prowl.html
+  name: Prowl.Runtime.Controller
+  nameWithType: Prowl.Runtime.Controller
+  fullName: Prowl.Runtime.Controller
+  spec.csharp:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+  - name: .
+  - uid: Prowl.Runtime.Controller
+    name: Controller
+    href: Prowl.Runtime.Controller.html
+  spec.vb:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+  - name: .
+  - uid: Prowl.Runtime.Controller
+    name: Controller
+    href: Prowl.Runtime.Controller.html
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  name: Equals(object)
+  nameWithType: ValueType.Equals(object)
+  fullName: System.ValueType.Equals(object)
+  nameWithType.vb: ValueType.Equals(Object)
+  fullName.vb: System.ValueType.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Prowl.Runtime.RuntimeUtils.GetSerializableFields
+  commentId: M:Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  parent: Prowl.Runtime.RuntimeUtils
+  definition: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  name: GetSerializableFields(object)
+  nameWithType: RuntimeUtils.GetSerializableFields(object)
+  fullName: Prowl.Runtime.RuntimeUtils.GetSerializableFields(object)
+  nameWithType.vb: RuntimeUtils.GetSerializableFields(Object)
+  fullName.vb: Prowl.Runtime.RuntimeUtils.GetSerializableFields(Object)
+  name.vb: GetSerializableFields(Object)
+  spec.csharp:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  commentId: M:Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  isExternal: true
+  href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  name: GetSerializableFields(object)
+  nameWithType: RuntimeUtils.GetSerializableFields(object)
+  fullName: Prowl.Runtime.RuntimeUtils.GetSerializableFields(object)
+  nameWithType.vb: RuntimeUtils.GetSerializableFields(Object)
+  fullName.vb: Prowl.Runtime.RuntimeUtils.GetSerializableFields(Object)
+  name.vb: GetSerializableFields(Object)
+  spec.csharp:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: Prowl.Runtime.RuntimeUtils
+  commentId: T:Prowl.Runtime.RuntimeUtils
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.RuntimeUtils.html
+  name: RuntimeUtils
+  nameWithType: RuntimeUtils
+  fullName: Prowl.Runtime.RuntimeUtils
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Prowl.Runtime
+  commentId: N:Prowl.Runtime
+  href: Prowl.html
+  name: Prowl.Runtime
+  nameWithType: Prowl.Runtime
+  fullName: Prowl.Runtime
+  spec.csharp:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+  spec.vb:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+- uid: BepuUtilities.QuaternionWide
+  commentId: T:BepuUtilities.QuaternionWide
+  parent: BepuUtilities
+  isExternal: true
+  name: QuaternionWide
+  nameWithType: QuaternionWide
+  fullName: BepuUtilities.QuaternionWide
+- uid: BepuUtilities
+  commentId: N:BepuUtilities
+  isExternal: true
+  name: BepuUtilities
+  nameWithType: BepuUtilities
+  fullName: BepuUtilities
+- uid: System.Numerics.Vector{System.Single}
+  commentId: T:System.Numerics.Vector{System.Single}
+  parent: System.Numerics
+  definition: System.Numerics.Vector`1
+  href: https://learn.microsoft.com/dotnet/api/system.numerics.vector-1
+  name: Vector<float>
+  nameWithType: Vector<float>
+  fullName: System.Numerics.Vector<float>
+  nameWithType.vb: Vector(Of Single)
+  fullName.vb: System.Numerics.Vector(Of Single)
+  name.vb: Vector(Of Single)
+  spec.csharp:
+  - uid: System.Numerics.Vector`1
+    name: Vector
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.numerics.vector-1
+  - name: <
+  - uid: System.Single
+    name: float
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.single
+  - name: '>'
+  spec.vb:
+  - uid: System.Numerics.Vector`1
+    name: Vector
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.numerics.vector-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Single
+    name: Single
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.single
+  - name: )
+- uid: System.Numerics.Vector`1
+  commentId: T:System.Numerics.Vector`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.numerics.vector-1
+  name: Vector<T>
+  nameWithType: Vector<T>
+  fullName: System.Numerics.Vector<T>
+  nameWithType.vb: Vector(Of T)
+  fullName.vb: System.Numerics.Vector(Of T)
+  name.vb: Vector(Of T)
+  spec.csharp:
+  - uid: System.Numerics.Vector`1
+    name: Vector
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.numerics.vector-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Numerics.Vector`1
+    name: Vector
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.numerics.vector-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Numerics
+  commentId: N:System.Numerics
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Numerics
+  nameWithType: System.Numerics
+  fullName: System.Numerics
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Numerics
+    name: Numerics
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.numerics
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Numerics
+    name: Numerics
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.numerics
+- uid: BepuUtilities.Vector2Wide
+  commentId: T:BepuUtilities.Vector2Wide
+  parent: BepuUtilities
+  isExternal: true
+  name: Vector2Wide
+  nameWithType: Vector2Wide
+  fullName: BepuUtilities.Vector2Wide
+- uid: BepuUtilities.Vector3Wide
+  commentId: T:BepuUtilities.Vector3Wide
+  parent: BepuUtilities
+  isExternal: true
+  name: Vector3Wide
+  nameWithType: Vector3Wide
+  fullName: BepuUtilities.Vector3Wide

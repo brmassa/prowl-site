@@ -1,0 +1,687 @@
+### YamlMime:ManagedReference
+items:
+- uid: Prowl.Runtime.GUI.Interactable
+  commentId: T:Prowl.Runtime.GUI.Interactable
+  id: Interactable
+  parent: Prowl.Runtime.GUI
+  children:
+  - Prowl.Runtime.GUI.Interactable.ID
+  - Prowl.Runtime.GUI.Interactable.IsActive
+  - Prowl.Runtime.GUI.Interactable.IsFocused
+  - Prowl.Runtime.GUI.Interactable.IsHovered
+  - Prowl.Runtime.GUI.Interactable.Rect
+  - Prowl.Runtime.GUI.Interactable.TakeFocus(System.Boolean,Prowl.Runtime.MouseButton)
+  - Prowl.Runtime.GUI.Interactable.ZIndex
+  langs:
+  - csharp
+  - vb
+  name: Interactable
+  nameWithType: Interactable
+  fullName: Prowl.Runtime.GUI.Interactable
+  type: Struct
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Gui.Interaction.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Interactable
+    path: ../Prowl/Prowl.Runtime/GUI/Gui.Interaction.cs
+    startLine: 263
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  syntax:
+    content: public struct Interactable
+    content.vb: Public Structure Interactable
+  inheritedMembers:
+  - System.ValueType.Equals(System.Object)
+  - System.ValueType.GetHashCode
+  - System.ValueType.ToString
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  extensionMethods:
+  - System.Object.Prowl.Runtime.RuntimeUtils.GetSerializableFields
+- uid: Prowl.Runtime.GUI.Interactable.ID
+  commentId: P:Prowl.Runtime.GUI.Interactable.ID
+  id: ID
+  parent: Prowl.Runtime.GUI.Interactable
+  langs:
+  - csharp
+  - vb
+  name: ID
+  nameWithType: Interactable.ID
+  fullName: Prowl.Runtime.GUI.Interactable.ID
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Gui.Interaction.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: ID
+    path: ../Prowl/Prowl.Runtime/GUI/Gui.Interaction.cs
+    startLine: 265
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  syntax:
+    content: public ulong ID { get; }
+    parameters: []
+    return:
+      type: System.UInt64
+    content.vb: Public ReadOnly Property ID As ULong
+  overload: Prowl.Runtime.GUI.Interactable.ID*
+- uid: Prowl.Runtime.GUI.Interactable.Rect
+  commentId: P:Prowl.Runtime.GUI.Interactable.Rect
+  id: Rect
+  parent: Prowl.Runtime.GUI.Interactable
+  langs:
+  - csharp
+  - vb
+  name: Rect
+  nameWithType: Interactable.Rect
+  fullName: Prowl.Runtime.GUI.Interactable.Rect
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Gui.Interaction.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Rect
+    path: ../Prowl/Prowl.Runtime/GUI/Gui.Interaction.cs
+    startLine: 266
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  syntax:
+    content: public Rect Rect { get; }
+    parameters: []
+    return:
+      type: Prowl.Runtime.Rect
+    content.vb: Public ReadOnly Property Rect As Rect
+  overload: Prowl.Runtime.GUI.Interactable.Rect*
+- uid: Prowl.Runtime.GUI.Interactable.ZIndex
+  commentId: P:Prowl.Runtime.GUI.Interactable.ZIndex
+  id: ZIndex
+  parent: Prowl.Runtime.GUI.Interactable
+  langs:
+  - csharp
+  - vb
+  name: ZIndex
+  nameWithType: Interactable.ZIndex
+  fullName: Prowl.Runtime.GUI.Interactable.ZIndex
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Gui.Interaction.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: ZIndex
+    path: ../Prowl/Prowl.Runtime/GUI/Gui.Interaction.cs
+    startLine: 267
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  syntax:
+    content: public double ZIndex { get; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public ReadOnly Property ZIndex As Double
+  overload: Prowl.Runtime.GUI.Interactable.ZIndex*
+- uid: Prowl.Runtime.GUI.Interactable.TakeFocus(System.Boolean,Prowl.Runtime.MouseButton)
+  commentId: M:Prowl.Runtime.GUI.Interactable.TakeFocus(System.Boolean,Prowl.Runtime.MouseButton)
+  id: TakeFocus(System.Boolean,Prowl.Runtime.MouseButton)
+  parent: Prowl.Runtime.GUI.Interactable
+  langs:
+  - csharp
+  - vb
+  name: TakeFocus(bool, MouseButton)
+  nameWithType: Interactable.TakeFocus(bool, MouseButton)
+  fullName: Prowl.Runtime.GUI.Interactable.TakeFocus(bool, Prowl.Runtime.MouseButton)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Gui.Interaction.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: TakeFocus
+    path: ../Prowl/Prowl.Runtime/GUI/Gui.Interaction.cs
+    startLine: 317
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  summary: Check if the Interactable is hovered and clicked on if it is, it will take focus
+  example: []
+  syntax:
+    content: public bool TakeFocus(bool onrelease = false, MouseButton focusBtn = MouseButton.Left)
+    parameters:
+    - id: onrelease
+      type: System.Boolean
+    - id: focusBtn
+      type: Prowl.Runtime.MouseButton
+    return:
+      type: System.Boolean
+      description: 'True on the frame the Interactable took focus, Great for Buttons: if(Interactable.TakeFocus())'
+    content.vb: Public Function TakeFocus(onrelease As Boolean = False, focusBtn As MouseButton = MouseButton.Left) As Boolean
+  overload: Prowl.Runtime.GUI.Interactable.TakeFocus*
+  nameWithType.vb: Interactable.TakeFocus(Boolean, MouseButton)
+  fullName.vb: Prowl.Runtime.GUI.Interactable.TakeFocus(Boolean, Prowl.Runtime.MouseButton)
+  name.vb: TakeFocus(Boolean, MouseButton)
+- uid: Prowl.Runtime.GUI.Interactable.IsHovered
+  commentId: M:Prowl.Runtime.GUI.Interactable.IsHovered
+  id: IsHovered
+  parent: Prowl.Runtime.GUI.Interactable
+  langs:
+  - csharp
+  - vb
+  name: IsHovered()
+  nameWithType: Interactable.IsHovered()
+  fullName: Prowl.Runtime.GUI.Interactable.IsHovered()
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Gui.Interaction.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: IsHovered
+    path: ../Prowl/Prowl.Runtime/GUI/Gui.Interaction.cs
+    startLine: 335
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  summary: Check if the Interactable is hovered
+  example: []
+  syntax:
+    content: public bool IsHovered()
+    return:
+      type: System.Boolean
+    content.vb: Public Function IsHovered() As Boolean
+  overload: Prowl.Runtime.GUI.Interactable.IsHovered*
+- uid: Prowl.Runtime.GUI.Interactable.IsActive
+  commentId: M:Prowl.Runtime.GUI.Interactable.IsActive
+  id: IsActive
+  parent: Prowl.Runtime.GUI.Interactable
+  langs:
+  - csharp
+  - vb
+  name: IsActive()
+  nameWithType: Interactable.IsActive()
+  fullName: Prowl.Runtime.GUI.Interactable.IsActive()
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Gui.Interaction.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: IsActive
+    path: ../Prowl/Prowl.Runtime/GUI/Gui.Interaction.cs
+    startLine: 337
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  summary: Check if the Interactable is active
+  example: []
+  syntax:
+    content: public bool IsActive()
+    return:
+      type: System.Boolean
+    content.vb: Public Function IsActive() As Boolean
+  overload: Prowl.Runtime.GUI.Interactable.IsActive*
+- uid: Prowl.Runtime.GUI.Interactable.IsFocused
+  commentId: M:Prowl.Runtime.GUI.Interactable.IsFocused
+  id: IsFocused
+  parent: Prowl.Runtime.GUI.Interactable
+  langs:
+  - csharp
+  - vb
+  name: IsFocused()
+  nameWithType: Interactable.IsFocused()
+  fullName: Prowl.Runtime.GUI.Interactable.IsFocused()
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Gui.Interaction.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: IsFocused
+    path: ../Prowl/Prowl.Runtime/GUI/Gui.Interaction.cs
+    startLine: 339
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  summary: Check if the Interactable is focused
+  example: []
+  syntax:
+    content: public bool IsFocused()
+    return:
+      type: System.Boolean
+    content.vb: Public Function IsFocused() As Boolean
+  overload: Prowl.Runtime.GUI.Interactable.IsFocused*
+references:
+- uid: Prowl.Runtime.GUI
+  commentId: N:Prowl.Runtime.GUI
+  href: Prowl.html
+  name: Prowl.Runtime.GUI
+  nameWithType: Prowl.Runtime.GUI
+  fullName: Prowl.Runtime.GUI
+  spec.csharp:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+  - name: .
+  - uid: Prowl.Runtime.GUI
+    name: GUI
+    href: Prowl.Runtime.GUI.html
+  spec.vb:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+  - name: .
+  - uid: Prowl.Runtime.GUI
+    name: GUI
+    href: Prowl.Runtime.GUI.html
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  name: Equals(object)
+  nameWithType: ValueType.Equals(object)
+  fullName: System.ValueType.Equals(object)
+  nameWithType.vb: ValueType.Equals(Object)
+  fullName.vb: System.ValueType.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Prowl.Runtime.RuntimeUtils.GetSerializableFields
+  commentId: M:Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  parent: Prowl.Runtime.RuntimeUtils
+  definition: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  name: GetSerializableFields(object)
+  nameWithType: RuntimeUtils.GetSerializableFields(object)
+  fullName: Prowl.Runtime.RuntimeUtils.GetSerializableFields(object)
+  nameWithType.vb: RuntimeUtils.GetSerializableFields(Object)
+  fullName.vb: Prowl.Runtime.RuntimeUtils.GetSerializableFields(Object)
+  name.vb: GetSerializableFields(Object)
+  spec.csharp:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  commentId: M:Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  isExternal: true
+  href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  name: GetSerializableFields(object)
+  nameWithType: RuntimeUtils.GetSerializableFields(object)
+  fullName: Prowl.Runtime.RuntimeUtils.GetSerializableFields(object)
+  nameWithType.vb: RuntimeUtils.GetSerializableFields(Object)
+  fullName.vb: Prowl.Runtime.RuntimeUtils.GetSerializableFields(Object)
+  name.vb: GetSerializableFields(Object)
+  spec.csharp:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: Prowl.Runtime.RuntimeUtils
+  commentId: T:Prowl.Runtime.RuntimeUtils
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.RuntimeUtils.html
+  name: RuntimeUtils
+  nameWithType: RuntimeUtils
+  fullName: Prowl.Runtime.RuntimeUtils
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Prowl.Runtime
+  commentId: N:Prowl.Runtime
+  href: Prowl.html
+  name: Prowl.Runtime
+  nameWithType: Prowl.Runtime
+  fullName: Prowl.Runtime
+  spec.csharp:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+  spec.vb:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+- uid: Prowl.Runtime.GUI.Interactable.ID*
+  commentId: Overload:Prowl.Runtime.GUI.Interactable.ID
+  href: Prowl.Runtime.GUI.Interactable.html#Prowl_Runtime_GUI_Interactable_ID
+  name: ID
+  nameWithType: Interactable.ID
+  fullName: Prowl.Runtime.GUI.Interactable.ID
+- uid: System.UInt64
+  commentId: T:System.UInt64
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.uint64
+  name: ulong
+  nameWithType: ulong
+  fullName: ulong
+  nameWithType.vb: ULong
+  fullName.vb: ULong
+  name.vb: ULong
+- uid: Prowl.Runtime.GUI.Interactable.Rect*
+  commentId: Overload:Prowl.Runtime.GUI.Interactable.Rect
+  href: Prowl.Runtime.GUI.Interactable.html#Prowl_Runtime_GUI_Interactable_Rect
+  name: Rect
+  nameWithType: Interactable.Rect
+  fullName: Prowl.Runtime.GUI.Interactable.Rect
+- uid: Prowl.Runtime.Rect
+  commentId: T:Prowl.Runtime.Rect
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.Rect.html
+  name: Rect
+  nameWithType: Rect
+  fullName: Prowl.Runtime.Rect
+- uid: Prowl.Runtime.GUI.Interactable.ZIndex*
+  commentId: Overload:Prowl.Runtime.GUI.Interactable.ZIndex
+  href: Prowl.Runtime.GUI.Interactable.html#Prowl_Runtime_GUI_Interactable_ZIndex
+  name: ZIndex
+  nameWithType: Interactable.ZIndex
+  fullName: Prowl.Runtime.GUI.Interactable.ZIndex
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.double
+  name: double
+  nameWithType: double
+  fullName: double
+  nameWithType.vb: Double
+  fullName.vb: Double
+  name.vb: Double
+- uid: Prowl.Runtime.GUI.Interactable.TakeFocus*
+  commentId: Overload:Prowl.Runtime.GUI.Interactable.TakeFocus
+  href: Prowl.Runtime.GUI.Interactable.html#Prowl_Runtime_GUI_Interactable_TakeFocus_System_Boolean_Prowl_Runtime_MouseButton_
+  name: TakeFocus
+  nameWithType: Interactable.TakeFocus
+  fullName: Prowl.Runtime.GUI.Interactable.TakeFocus
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: Prowl.Runtime.MouseButton
+  commentId: T:Prowl.Runtime.MouseButton
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.MouseButton.html
+  name: MouseButton
+  nameWithType: MouseButton
+  fullName: Prowl.Runtime.MouseButton
+- uid: Prowl.Runtime.GUI.Interactable.IsHovered*
+  commentId: Overload:Prowl.Runtime.GUI.Interactable.IsHovered
+  href: Prowl.Runtime.GUI.Interactable.html#Prowl_Runtime_GUI_Interactable_IsHovered
+  name: IsHovered
+  nameWithType: Interactable.IsHovered
+  fullName: Prowl.Runtime.GUI.Interactable.IsHovered
+- uid: Prowl.Runtime.GUI.Interactable.IsActive*
+  commentId: Overload:Prowl.Runtime.GUI.Interactable.IsActive
+  href: Prowl.Runtime.GUI.Interactable.html#Prowl_Runtime_GUI_Interactable_IsActive
+  name: IsActive
+  nameWithType: Interactable.IsActive
+  fullName: Prowl.Runtime.GUI.Interactable.IsActive
+- uid: Prowl.Runtime.GUI.Interactable.IsFocused*
+  commentId: Overload:Prowl.Runtime.GUI.Interactable.IsFocused
+  href: Prowl.Runtime.GUI.Interactable.html#Prowl_Runtime_GUI_Interactable_IsFocused
+  name: IsFocused
+  nameWithType: Interactable.IsFocused
+  fullName: Prowl.Runtime.GUI.Interactable.IsFocused

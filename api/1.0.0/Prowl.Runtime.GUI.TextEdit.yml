@@ -1,0 +1,187 @@
+### YamlMime:ManagedReference
+items:
+- uid: Prowl.Runtime.GUI.TextEdit
+  commentId: N:Prowl.Runtime.GUI.TextEdit
+  id: Prowl.Runtime.GUI.TextEdit
+  children:
+  - Prowl.Runtime.GUI.TextEdit.StbTextEdit
+  - Prowl.Runtime.GUI.TextEdit.StbTextEdit.ControlKeys
+  - Prowl.Runtime.GUI.TextEdit.StbTextEdit.FindState
+  - Prowl.Runtime.GUI.TextEdit.StbTextEdit.TextEditRow
+  - Prowl.Runtime.GUI.TextEdit.StbTextEdit.UndoRecord
+  - Prowl.Runtime.GUI.TextEdit.StbTextEdit.UndoState
+  - Prowl.Runtime.GUI.TextEdit.StbTextEditState
+  langs:
+  - csharp
+  - vb
+  name: Prowl.Runtime.GUI.TextEdit
+  nameWithType: Prowl.Runtime.GUI.TextEdit
+  fullName: Prowl.Runtime.GUI.TextEdit
+  type: Namespace
+  assemblies:
+  - Prowl.Runtime
+references:
+- uid: Prowl.Runtime.GUI.TextEdit.StbTextEditState
+  commentId: T:Prowl.Runtime.GUI.TextEdit.StbTextEditState
+  parent: Prowl.Runtime.GUI.TextEdit
+  href: Prowl.Runtime.GUI.TextEdit.StbTextEditState.html
+  name: StbTextEditState
+  nameWithType: StbTextEditState
+  fullName: Prowl.Runtime.GUI.TextEdit.StbTextEditState
+- uid: Prowl.Runtime.GUI.TextEdit.StbTextEdit
+  commentId: T:Prowl.Runtime.GUI.TextEdit.StbTextEdit
+  href: Prowl.Runtime.GUI.TextEdit.StbTextEdit.html
+  name: StbTextEdit
+  nameWithType: StbTextEdit
+  fullName: Prowl.Runtime.GUI.TextEdit.StbTextEdit
+- uid: Prowl.Runtime.GUI.TextEdit.StbTextEdit.ControlKeys
+  commentId: T:Prowl.Runtime.GUI.TextEdit.StbTextEdit.ControlKeys
+  parent: Prowl.Runtime.GUI.TextEdit
+  href: Prowl.Runtime.GUI.TextEdit.StbTextEdit.html
+  name: StbTextEdit.ControlKeys
+  nameWithType: StbTextEdit.ControlKeys
+  fullName: Prowl.Runtime.GUI.TextEdit.StbTextEdit.ControlKeys
+  spec.csharp:
+  - uid: Prowl.Runtime.GUI.TextEdit.StbTextEdit
+    name: StbTextEdit
+    href: Prowl.Runtime.GUI.TextEdit.StbTextEdit.html
+  - name: .
+  - uid: Prowl.Runtime.GUI.TextEdit.StbTextEdit.ControlKeys
+    name: ControlKeys
+    href: Prowl.Runtime.GUI.TextEdit.StbTextEdit.ControlKeys.html
+  spec.vb:
+  - uid: Prowl.Runtime.GUI.TextEdit.StbTextEdit
+    name: StbTextEdit
+    href: Prowl.Runtime.GUI.TextEdit.StbTextEdit.html
+  - name: .
+  - uid: Prowl.Runtime.GUI.TextEdit.StbTextEdit.ControlKeys
+    name: ControlKeys
+    href: Prowl.Runtime.GUI.TextEdit.StbTextEdit.ControlKeys.html
+- uid: Prowl.Runtime.GUI.TextEdit.StbTextEdit.TextEditRow
+  commentId: T:Prowl.Runtime.GUI.TextEdit.StbTextEdit.TextEditRow
+  parent: Prowl.Runtime.GUI.TextEdit
+  href: Prowl.Runtime.GUI.TextEdit.StbTextEdit.html
+  name: StbTextEdit.TextEditRow
+  nameWithType: StbTextEdit.TextEditRow
+  fullName: Prowl.Runtime.GUI.TextEdit.StbTextEdit.TextEditRow
+  spec.csharp:
+  - uid: Prowl.Runtime.GUI.TextEdit.StbTextEdit
+    name: StbTextEdit
+    href: Prowl.Runtime.GUI.TextEdit.StbTextEdit.html
+  - name: .
+  - uid: Prowl.Runtime.GUI.TextEdit.StbTextEdit.TextEditRow
+    name: TextEditRow
+    href: Prowl.Runtime.GUI.TextEdit.StbTextEdit.TextEditRow.html
+  spec.vb:
+  - uid: Prowl.Runtime.GUI.TextEdit.StbTextEdit
+    name: StbTextEdit
+    href: Prowl.Runtime.GUI.TextEdit.StbTextEdit.html
+  - name: .
+  - uid: Prowl.Runtime.GUI.TextEdit.StbTextEdit.TextEditRow
+    name: TextEditRow
+    href: Prowl.Runtime.GUI.TextEdit.StbTextEdit.TextEditRow.html
+- uid: Prowl.Runtime.GUI.TextEdit.StbTextEdit.UndoRecord
+  commentId: T:Prowl.Runtime.GUI.TextEdit.StbTextEdit.UndoRecord
+  href: Prowl.Runtime.GUI.TextEdit.StbTextEdit.html
+  name: StbTextEdit.UndoRecord
+  nameWithType: StbTextEdit.UndoRecord
+  fullName: Prowl.Runtime.GUI.TextEdit.StbTextEdit.UndoRecord
+  spec.csharp:
+  - uid: Prowl.Runtime.GUI.TextEdit.StbTextEdit
+    name: StbTextEdit
+    href: Prowl.Runtime.GUI.TextEdit.StbTextEdit.html
+  - name: .
+  - uid: Prowl.Runtime.GUI.TextEdit.StbTextEdit.UndoRecord
+    name: UndoRecord
+    href: Prowl.Runtime.GUI.TextEdit.StbTextEdit.UndoRecord.html
+  spec.vb:
+  - uid: Prowl.Runtime.GUI.TextEdit.StbTextEdit
+    name: StbTextEdit
+    href: Prowl.Runtime.GUI.TextEdit.StbTextEdit.html
+  - name: .
+  - uid: Prowl.Runtime.GUI.TextEdit.StbTextEdit.UndoRecord
+    name: UndoRecord
+    href: Prowl.Runtime.GUI.TextEdit.StbTextEdit.UndoRecord.html
+- uid: Prowl.Runtime.GUI.TextEdit.StbTextEdit.FindState
+  commentId: T:Prowl.Runtime.GUI.TextEdit.StbTextEdit.FindState
+  href: Prowl.Runtime.GUI.TextEdit.StbTextEdit.html
+  name: StbTextEdit.FindState
+  nameWithType: StbTextEdit.FindState
+  fullName: Prowl.Runtime.GUI.TextEdit.StbTextEdit.FindState
+  spec.csharp:
+  - uid: Prowl.Runtime.GUI.TextEdit.StbTextEdit
+    name: StbTextEdit
+    href: Prowl.Runtime.GUI.TextEdit.StbTextEdit.html
+  - name: .
+  - uid: Prowl.Runtime.GUI.TextEdit.StbTextEdit.FindState
+    name: FindState
+    href: Prowl.Runtime.GUI.TextEdit.StbTextEdit.FindState.html
+  spec.vb:
+  - uid: Prowl.Runtime.GUI.TextEdit.StbTextEdit
+    name: StbTextEdit
+    href: Prowl.Runtime.GUI.TextEdit.StbTextEdit.html
+  - name: .
+  - uid: Prowl.Runtime.GUI.TextEdit.StbTextEdit.FindState
+    name: FindState
+    href: Prowl.Runtime.GUI.TextEdit.StbTextEdit.FindState.html
+- uid: Prowl.Runtime.GUI.TextEdit.StbTextEdit.UndoState
+  commentId: T:Prowl.Runtime.GUI.TextEdit.StbTextEdit.UndoState
+  parent: Prowl.Runtime.GUI.TextEdit
+  href: Prowl.Runtime.GUI.TextEdit.StbTextEdit.html
+  name: StbTextEdit.UndoState
+  nameWithType: StbTextEdit.UndoState
+  fullName: Prowl.Runtime.GUI.TextEdit.StbTextEdit.UndoState
+  spec.csharp:
+  - uid: Prowl.Runtime.GUI.TextEdit.StbTextEdit
+    name: StbTextEdit
+    href: Prowl.Runtime.GUI.TextEdit.StbTextEdit.html
+  - name: .
+  - uid: Prowl.Runtime.GUI.TextEdit.StbTextEdit.UndoState
+    name: UndoState
+    href: Prowl.Runtime.GUI.TextEdit.StbTextEdit.UndoState.html
+  spec.vb:
+  - uid: Prowl.Runtime.GUI.TextEdit.StbTextEdit
+    name: StbTextEdit
+    href: Prowl.Runtime.GUI.TextEdit.StbTextEdit.html
+  - name: .
+  - uid: Prowl.Runtime.GUI.TextEdit.StbTextEdit.UndoState
+    name: UndoState
+    href: Prowl.Runtime.GUI.TextEdit.StbTextEdit.UndoState.html
+- uid: Prowl.Runtime.GUI.TextEdit
+  commentId: N:Prowl.Runtime.GUI.TextEdit
+  href: Prowl.html
+  name: Prowl.Runtime.GUI.TextEdit
+  nameWithType: Prowl.Runtime.GUI.TextEdit
+  fullName: Prowl.Runtime.GUI.TextEdit
+  spec.csharp:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+  - name: .
+  - uid: Prowl.Runtime.GUI
+    name: GUI
+    href: Prowl.Runtime.GUI.html
+  - name: .
+  - uid: Prowl.Runtime.GUI.TextEdit
+    name: TextEdit
+    href: Prowl.Runtime.GUI.TextEdit.html
+  spec.vb:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+  - name: .
+  - uid: Prowl.Runtime.GUI
+    name: GUI
+    href: Prowl.Runtime.GUI.html
+  - name: .
+  - uid: Prowl.Runtime.GUI.TextEdit
+    name: TextEdit
+    href: Prowl.Runtime.GUI.TextEdit.html

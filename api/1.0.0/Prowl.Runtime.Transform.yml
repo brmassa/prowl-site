@@ -1,0 +1,1720 @@
+### YamlMime:ManagedReference
+items:
+- uid: Prowl.Runtime.Transform
+  commentId: T:Prowl.Runtime.Transform
+  id: Transform
+  parent: Prowl.Runtime
+  children:
+  - Prowl.Runtime.Transform.DeepFind(System.String)
+  - Prowl.Runtime.Transform.Find(System.String)
+  - Prowl.Runtime.Transform.GetPath(Prowl.Runtime.Transform,Prowl.Runtime.Transform)
+  - Prowl.Runtime.Transform.GetWorldRotationAndScale
+  - Prowl.Runtime.Transform.InverseTransformDirection(Prowl.Runtime.Vector3)
+  - Prowl.Runtime.Transform.InverseTransformPoint(Prowl.Runtime.Vector3)
+  - Prowl.Runtime.Transform.InverseTransformRotation(Prowl.Runtime.Quaternion)
+  - Prowl.Runtime.Transform.InverseTransformVector(Prowl.Runtime.Vector3)
+  - Prowl.Runtime.Transform.LookAt(Prowl.Runtime.Vector3,Prowl.Runtime.Vector3)
+  - Prowl.Runtime.Transform.Rotate(Prowl.Runtime.Vector3,System.Boolean)
+  - Prowl.Runtime.Transform.Rotate(Prowl.Runtime.Vector3,System.Double,System.Boolean)
+  - Prowl.Runtime.Transform.RotateAround(Prowl.Runtime.Vector3,Prowl.Runtime.Vector3,System.Double)
+  - Prowl.Runtime.Transform.TransformDirection(Prowl.Runtime.Vector3)
+  - Prowl.Runtime.Transform.TransformPoint(Prowl.Runtime.Vector3)
+  - Prowl.Runtime.Transform.TransformRotation(Prowl.Runtime.Quaternion)
+  - Prowl.Runtime.Transform.TransformVector(Prowl.Runtime.Vector3)
+  - Prowl.Runtime.Transform.Translate(Prowl.Runtime.Vector3,Prowl.Runtime.Transform)
+  - Prowl.Runtime.Transform.eulerAngles
+  - Prowl.Runtime.Transform.forward
+  - Prowl.Runtime.Transform.gameObject
+  - Prowl.Runtime.Transform.localEulerAngles
+  - Prowl.Runtime.Transform.localPosition
+  - Prowl.Runtime.Transform.localRotation
+  - Prowl.Runtime.Transform.localScale
+  - Prowl.Runtime.Transform.localToWorldMatrix
+  - Prowl.Runtime.Transform.lossyScale
+  - Prowl.Runtime.Transform.parent
+  - Prowl.Runtime.Transform.position
+  - Prowl.Runtime.Transform.right
+  - Prowl.Runtime.Transform.root
+  - Prowl.Runtime.Transform.rotation
+  - Prowl.Runtime.Transform.up
+  - Prowl.Runtime.Transform.version
+  - Prowl.Runtime.Transform.worldToLocalMatrix
+  langs:
+  - csharp
+  - vb
+  name: Transform
+  nameWithType: Transform
+  fullName: Prowl.Runtime.Transform
+  type: Class
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Transform.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Transform
+    path: ../Prowl/Prowl.Runtime/Math/Transform.cs
+    startLine: 7
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public class Transform
+    content.vb: Public Class Transform
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  extensionMethods:
+  - System.Object.Prowl.Runtime.RuntimeUtils.GetSerializableFields
+- uid: Prowl.Runtime.Transform.position
+  commentId: P:Prowl.Runtime.Transform.position
+  id: position
+  parent: Prowl.Runtime.Transform
+  langs:
+  - csharp
+  - vb
+  name: position
+  nameWithType: Transform.position
+  fullName: Prowl.Runtime.Transform.position
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Transform.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: position
+    path: ../Prowl/Prowl.Runtime/Math/Transform.cs
+    startLine: 12
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public Vector3 position { get; set; }
+    parameters: []
+    return:
+      type: Prowl.Runtime.Vector3
+    content.vb: Public Property position As Vector3
+  overload: Prowl.Runtime.Transform.position*
+- uid: Prowl.Runtime.Transform.localPosition
+  commentId: P:Prowl.Runtime.Transform.localPosition
+  id: localPosition
+  parent: Prowl.Runtime.Transform
+  langs:
+  - csharp
+  - vb
+  name: localPosition
+  nameWithType: Transform.localPosition
+  fullName: Prowl.Runtime.Transform.localPosition
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Transform.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: localPosition
+    path: ../Prowl/Prowl.Runtime/Math/Transform.cs
+    startLine: 34
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public Vector3 localPosition { get; set; }
+    parameters: []
+    return:
+      type: Prowl.Runtime.Vector3
+    content.vb: Public Property localPosition As Vector3
+  overload: Prowl.Runtime.Transform.localPosition*
+- uid: Prowl.Runtime.Transform.rotation
+  commentId: P:Prowl.Runtime.Transform.rotation
+  id: rotation
+  parent: Prowl.Runtime.Transform
+  langs:
+  - csharp
+  - vb
+  name: rotation
+  nameWithType: Transform.rotation
+  fullName: Prowl.Runtime.Transform.rotation
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Transform.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: rotation
+    path: ../Prowl/Prowl.Runtime/Math/Transform.cs
+    startLine: 49
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public Quaternion rotation { get; set; }
+    parameters: []
+    return:
+      type: Prowl.Runtime.Quaternion
+    content.vb: Public Property rotation As Quaternion
+  overload: Prowl.Runtime.Transform.rotation*
+- uid: Prowl.Runtime.Transform.localRotation
+  commentId: P:Prowl.Runtime.Transform.localRotation
+  id: localRotation
+  parent: Prowl.Runtime.Transform
+  langs:
+  - csharp
+  - vb
+  name: localRotation
+  nameWithType: Transform.localRotation
+  fullName: Prowl.Runtime.Transform.localRotation
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Transform.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: localRotation
+    path: ../Prowl/Prowl.Runtime/Math/Transform.cs
+    startLine: 72
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public Quaternion localRotation { get; set; }
+    parameters: []
+    return:
+      type: Prowl.Runtime.Quaternion
+    content.vb: Public Property localRotation As Quaternion
+  overload: Prowl.Runtime.Transform.localRotation*
+- uid: Prowl.Runtime.Transform.eulerAngles
+  commentId: P:Prowl.Runtime.Transform.eulerAngles
+  id: eulerAngles
+  parent: Prowl.Runtime.Transform
+  langs:
+  - csharp
+  - vb
+  name: eulerAngles
+  nameWithType: Transform.eulerAngles
+  fullName: Prowl.Runtime.Transform.eulerAngles
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Transform.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: eulerAngles
+    path: ../Prowl/Prowl.Runtime/Math/Transform.cs
+    startLine: 86
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public Vector3 eulerAngles { get; set; }
+    parameters: []
+    return:
+      type: Prowl.Runtime.Vector3
+    content.vb: Public Property eulerAngles As Vector3
+  overload: Prowl.Runtime.Transform.eulerAngles*
+- uid: Prowl.Runtime.Transform.localEulerAngles
+  commentId: P:Prowl.Runtime.Transform.localEulerAngles
+  id: localEulerAngles
+  parent: Prowl.Runtime.Transform
+  langs:
+  - csharp
+  - vb
+  name: localEulerAngles
+  nameWithType: Transform.localEulerAngles
+  fullName: Prowl.Runtime.Transform.localEulerAngles
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Transform.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: localEulerAngles
+    path: ../Prowl/Prowl.Runtime/Math/Transform.cs
+    startLine: 96
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public Vector3 localEulerAngles { get; set; }
+    parameters: []
+    return:
+      type: Prowl.Runtime.Vector3
+    content.vb: Public Property localEulerAngles As Vector3
+  overload: Prowl.Runtime.Transform.localEulerAngles*
+- uid: Prowl.Runtime.Transform.localScale
+  commentId: P:Prowl.Runtime.Transform.localScale
+  id: localScale
+  parent: Prowl.Runtime.Transform
+  langs:
+  - csharp
+  - vb
+  name: localScale
+  nameWithType: Transform.localScale
+  fullName: Prowl.Runtime.Transform.localScale
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Transform.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: localScale
+    path: ../Prowl/Prowl.Runtime/Math/Transform.cs
+    startLine: 109
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public Vector3 localScale { get; set; }
+    parameters: []
+    return:
+      type: Prowl.Runtime.Vector3
+    content.vb: Public Property localScale As Vector3
+  overload: Prowl.Runtime.Transform.localScale*
+- uid: Prowl.Runtime.Transform.lossyScale
+  commentId: P:Prowl.Runtime.Transform.lossyScale
+  id: lossyScale
+  parent: Prowl.Runtime.Transform
+  langs:
+  - csharp
+  - vb
+  name: lossyScale
+  nameWithType: Transform.lossyScale
+  fullName: Prowl.Runtime.Transform.lossyScale
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Transform.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: lossyScale
+    path: ../Prowl/Prowl.Runtime/Math/Transform.cs
+    startLine: 122
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public Vector3 lossyScale { get; }
+    parameters: []
+    return:
+      type: Prowl.Runtime.Vector3
+    content.vb: Public ReadOnly Property lossyScale As Vector3
+  overload: Prowl.Runtime.Transform.lossyScale*
+- uid: Prowl.Runtime.Transform.right
+  commentId: P:Prowl.Runtime.Transform.right
+  id: right
+  parent: Prowl.Runtime.Transform
+  langs:
+  - csharp
+  - vb
+  name: right
+  nameWithType: Transform.right
+  fullName: Prowl.Runtime.Transform.right
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Transform.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: right
+    path: ../Prowl/Prowl.Runtime/Math/Transform.cs
+    startLine: 139
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public Vector3 right { get; }
+    parameters: []
+    return:
+      type: Prowl.Runtime.Vector3
+    content.vb: Public ReadOnly Property right As Vector3
+  overload: Prowl.Runtime.Transform.right*
+- uid: Prowl.Runtime.Transform.up
+  commentId: P:Prowl.Runtime.Transform.up
+  id: up
+  parent: Prowl.Runtime.Transform
+  langs:
+  - csharp
+  - vb
+  name: up
+  nameWithType: Transform.up
+  fullName: Prowl.Runtime.Transform.up
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Transform.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: up
+    path: ../Prowl/Prowl.Runtime/Math/Transform.cs
+    startLine: 140
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public Vector3 up { get; }
+    parameters: []
+    return:
+      type: Prowl.Runtime.Vector3
+    content.vb: Public ReadOnly Property up As Vector3
+  overload: Prowl.Runtime.Transform.up*
+- uid: Prowl.Runtime.Transform.forward
+  commentId: P:Prowl.Runtime.Transform.forward
+  id: forward
+  parent: Prowl.Runtime.Transform
+  langs:
+  - csharp
+  - vb
+  name: forward
+  nameWithType: Transform.forward
+  fullName: Prowl.Runtime.Transform.forward
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Transform.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: forward
+    path: ../Prowl/Prowl.Runtime/Math/Transform.cs
+    startLine: 141
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public Vector3 forward { get; }
+    parameters: []
+    return:
+      type: Prowl.Runtime.Vector3
+    content.vb: Public ReadOnly Property forward As Vector3
+  overload: Prowl.Runtime.Transform.forward*
+- uid: Prowl.Runtime.Transform.worldToLocalMatrix
+  commentId: P:Prowl.Runtime.Transform.worldToLocalMatrix
+  id: worldToLocalMatrix
+  parent: Prowl.Runtime.Transform
+  langs:
+  - csharp
+  - vb
+  name: worldToLocalMatrix
+  nameWithType: Transform.worldToLocalMatrix
+  fullName: Prowl.Runtime.Transform.worldToLocalMatrix
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Transform.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: worldToLocalMatrix
+    path: ../Prowl/Prowl.Runtime/Math/Transform.cs
+    startLine: 143
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public Matrix4x4 worldToLocalMatrix { get; }
+    parameters: []
+    return:
+      type: Prowl.Runtime.Matrix4x4
+    content.vb: Public ReadOnly Property worldToLocalMatrix As Matrix4x4
+  overload: Prowl.Runtime.Transform.worldToLocalMatrix*
+- uid: Prowl.Runtime.Transform.localToWorldMatrix
+  commentId: P:Prowl.Runtime.Transform.localToWorldMatrix
+  id: localToWorldMatrix
+  parent: Prowl.Runtime.Transform
+  langs:
+  - csharp
+  - vb
+  name: localToWorldMatrix
+  nameWithType: Transform.localToWorldMatrix
+  fullName: Prowl.Runtime.Transform.localToWorldMatrix
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Transform.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: localToWorldMatrix
+    path: ../Prowl/Prowl.Runtime/Math/Transform.cs
+    startLine: 144
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public Matrix4x4 localToWorldMatrix { get; }
+    parameters: []
+    return:
+      type: Prowl.Runtime.Matrix4x4
+    content.vb: Public ReadOnly Property localToWorldMatrix As Matrix4x4
+  overload: Prowl.Runtime.Transform.localToWorldMatrix*
+- uid: Prowl.Runtime.Transform.parent
+  commentId: P:Prowl.Runtime.Transform.parent
+  id: parent
+  parent: Prowl.Runtime.Transform
+  langs:
+  - csharp
+  - vb
+  name: parent
+  nameWithType: Transform.parent
+  fullName: Prowl.Runtime.Transform.parent
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Transform.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: parent
+    path: ../Prowl/Prowl.Runtime/Math/Transform.cs
+    startLine: 153
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public Transform parent { get; set; }
+    parameters: []
+    return:
+      type: Prowl.Runtime.Transform
+    content.vb: Public Property parent As Transform
+  overload: Prowl.Runtime.Transform.parent*
+- uid: Prowl.Runtime.Transform.version
+  commentId: P:Prowl.Runtime.Transform.version
+  id: version
+  parent: Prowl.Runtime.Transform
+  langs:
+  - csharp
+  - vb
+  name: version
+  nameWithType: Transform.version
+  fullName: Prowl.Runtime.Transform.version
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Transform.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: version
+    path: ../Prowl/Prowl.Runtime/Math/Transform.cs
+    startLine: 161
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public uint version { get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property version As UInteger
+  overload: Prowl.Runtime.Transform.version*
+- uid: Prowl.Runtime.Transform.root
+  commentId: P:Prowl.Runtime.Transform.root
+  id: root
+  parent: Prowl.Runtime.Transform
+  langs:
+  - csharp
+  - vb
+  name: root
+  nameWithType: Transform.root
+  fullName: Prowl.Runtime.Transform.root
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Transform.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: root
+    path: ../Prowl/Prowl.Runtime/Math/Transform.cs
+    startLine: 167
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public Transform root { get; }
+    parameters: []
+    return:
+      type: Prowl.Runtime.Transform
+    content.vb: Public ReadOnly Property root As Transform
+  overload: Prowl.Runtime.Transform.root*
+- uid: Prowl.Runtime.Transform.gameObject
+  commentId: P:Prowl.Runtime.Transform.gameObject
+  id: gameObject
+  parent: Prowl.Runtime.Transform
+  langs:
+  - csharp
+  - vb
+  name: gameObject
+  nameWithType: Transform.gameObject
+  fullName: Prowl.Runtime.Transform.gameObject
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Transform.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: gameObject
+    path: ../Prowl/Prowl.Runtime/Math/Transform.cs
+    startLine: 181
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public GameObject gameObject { get; }
+    parameters: []
+    return:
+      type: Prowl.Runtime.GameObject
+    content.vb: Public Property gameObject As GameObject
+  overload: Prowl.Runtime.Transform.gameObject*
+- uid: Prowl.Runtime.Transform.Find(System.String)
+  commentId: M:Prowl.Runtime.Transform.Find(System.String)
+  id: Find(System.String)
+  parent: Prowl.Runtime.Transform
+  langs:
+  - csharp
+  - vb
+  name: Find(string)
+  nameWithType: Transform.Find(string)
+  fullName: Prowl.Runtime.Transform.Find(string)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Transform.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Find
+    path: ../Prowl/Prowl.Runtime/Math/Transform.cs
+    startLine: 188
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public Transform? Find(string path)
+    parameters:
+    - id: path
+      type: System.String
+    return:
+      type: Prowl.Runtime.Transform
+    content.vb: Public Function Find(path As String) As Transform
+  overload: Prowl.Runtime.Transform.Find*
+  nameWithType.vb: Transform.Find(String)
+  fullName.vb: Prowl.Runtime.Transform.Find(String)
+  name.vb: Find(String)
+- uid: Prowl.Runtime.Transform.DeepFind(System.String)
+  commentId: M:Prowl.Runtime.Transform.DeepFind(System.String)
+  id: DeepFind(System.String)
+  parent: Prowl.Runtime.Transform
+  langs:
+  - csharp
+  - vb
+  name: DeepFind(string)
+  nameWithType: Transform.DeepFind(string)
+  fullName: Prowl.Runtime.Transform.DeepFind(string)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Transform.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: DeepFind
+    path: ../Prowl/Prowl.Runtime/Math/Transform.cs
+    startLine: 217
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public Transform? DeepFind(string name)
+    parameters:
+    - id: name
+      type: System.String
+    return:
+      type: Prowl.Runtime.Transform
+    content.vb: Public Function DeepFind(name As String) As Transform
+  overload: Prowl.Runtime.Transform.DeepFind*
+  nameWithType.vb: Transform.DeepFind(String)
+  fullName.vb: Prowl.Runtime.Transform.DeepFind(String)
+  name.vb: DeepFind(String)
+- uid: Prowl.Runtime.Transform.GetPath(Prowl.Runtime.Transform,Prowl.Runtime.Transform)
+  commentId: M:Prowl.Runtime.Transform.GetPath(Prowl.Runtime.Transform,Prowl.Runtime.Transform)
+  id: GetPath(Prowl.Runtime.Transform,Prowl.Runtime.Transform)
+  parent: Prowl.Runtime.Transform
+  langs:
+  - csharp
+  - vb
+  name: GetPath(Transform, Transform)
+  nameWithType: Transform.GetPath(Transform, Transform)
+  fullName: Prowl.Runtime.Transform.GetPath(Prowl.Runtime.Transform, Prowl.Runtime.Transform)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Transform.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: GetPath
+    path: ../Prowl/Prowl.Runtime/Math/Transform.cs
+    startLine: 229
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public static string GetPath(Transform target, Transform root)
+    parameters:
+    - id: target
+      type: Prowl.Runtime.Transform
+    - id: root
+      type: Prowl.Runtime.Transform
+    return:
+      type: System.String
+    content.vb: Public Shared Function GetPath(target As Transform, root As Transform) As String
+  overload: Prowl.Runtime.Transform.GetPath*
+- uid: Prowl.Runtime.Transform.Translate(Prowl.Runtime.Vector3,Prowl.Runtime.Transform)
+  commentId: M:Prowl.Runtime.Transform.Translate(Prowl.Runtime.Vector3,Prowl.Runtime.Transform)
+  id: Translate(Prowl.Runtime.Vector3,Prowl.Runtime.Transform)
+  parent: Prowl.Runtime.Transform
+  langs:
+  - csharp
+  - vb
+  name: Translate(Vector3, Transform?)
+  nameWithType: Transform.Translate(Vector3, Transform?)
+  fullName: Prowl.Runtime.Transform.Translate(Prowl.Runtime.Vector3, Prowl.Runtime.Transform?)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Transform.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Translate
+    path: ../Prowl/Prowl.Runtime/Math/Transform.cs
+    startLine: 242
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public void Translate(Vector3 translation, Transform? relativeTo = null)
+    parameters:
+    - id: translation
+      type: Prowl.Runtime.Vector3
+    - id: relativeTo
+      type: Prowl.Runtime.Transform
+    content.vb: Public Sub Translate(translation As Vector3, relativeTo As Transform = Nothing)
+  overload: Prowl.Runtime.Transform.Translate*
+  nameWithType.vb: Transform.Translate(Vector3, Transform)
+  fullName.vb: Prowl.Runtime.Transform.Translate(Prowl.Runtime.Vector3, Prowl.Runtime.Transform)
+  name.vb: Translate(Vector3, Transform)
+- uid: Prowl.Runtime.Transform.Rotate(Prowl.Runtime.Vector3,System.Boolean)
+  commentId: M:Prowl.Runtime.Transform.Rotate(Prowl.Runtime.Vector3,System.Boolean)
+  id: Rotate(Prowl.Runtime.Vector3,System.Boolean)
+  parent: Prowl.Runtime.Transform
+  langs:
+  - csharp
+  - vb
+  name: Rotate(Vector3, bool)
+  nameWithType: Transform.Rotate(Vector3, bool)
+  fullName: Prowl.Runtime.Transform.Rotate(Prowl.Runtime.Vector3, bool)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Transform.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Rotate
+    path: ../Prowl/Prowl.Runtime/Math/Transform.cs
+    startLine: 250
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public void Rotate(Vector3 eulerAngles, bool relativeToSelf = true)
+    parameters:
+    - id: eulerAngles
+      type: Prowl.Runtime.Vector3
+    - id: relativeToSelf
+      type: System.Boolean
+    content.vb: Public Sub Rotate(eulerAngles As Vector3, relativeToSelf As Boolean = True)
+  overload: Prowl.Runtime.Transform.Rotate*
+  nameWithType.vb: Transform.Rotate(Vector3, Boolean)
+  fullName.vb: Prowl.Runtime.Transform.Rotate(Prowl.Runtime.Vector3, Boolean)
+  name.vb: Rotate(Vector3, Boolean)
+- uid: Prowl.Runtime.Transform.Rotate(Prowl.Runtime.Vector3,System.Double,System.Boolean)
+  commentId: M:Prowl.Runtime.Transform.Rotate(Prowl.Runtime.Vector3,System.Double,System.Boolean)
+  id: Rotate(Prowl.Runtime.Vector3,System.Double,System.Boolean)
+  parent: Prowl.Runtime.Transform
+  langs:
+  - csharp
+  - vb
+  name: Rotate(Vector3, double, bool)
+  nameWithType: Transform.Rotate(Vector3, double, bool)
+  fullName: Prowl.Runtime.Transform.Rotate(Prowl.Runtime.Vector3, double, bool)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Transform.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Rotate
+    path: ../Prowl/Prowl.Runtime/Math/Transform.cs
+    startLine: 259
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public void Rotate(Vector3 axis, double angle, bool relativeToSelf = true)
+    parameters:
+    - id: axis
+      type: Prowl.Runtime.Vector3
+    - id: angle
+      type: System.Double
+    - id: relativeToSelf
+      type: System.Boolean
+    content.vb: Public Sub Rotate(axis As Vector3, angle As Double, relativeToSelf As Boolean = True)
+  overload: Prowl.Runtime.Transform.Rotate*
+  nameWithType.vb: Transform.Rotate(Vector3, Double, Boolean)
+  fullName.vb: Prowl.Runtime.Transform.Rotate(Prowl.Runtime.Vector3, Double, Boolean)
+  name.vb: Rotate(Vector3, Double, Boolean)
+- uid: Prowl.Runtime.Transform.RotateAround(Prowl.Runtime.Vector3,Prowl.Runtime.Vector3,System.Double)
+  commentId: M:Prowl.Runtime.Transform.RotateAround(Prowl.Runtime.Vector3,Prowl.Runtime.Vector3,System.Double)
+  id: RotateAround(Prowl.Runtime.Vector3,Prowl.Runtime.Vector3,System.Double)
+  parent: Prowl.Runtime.Transform
+  langs:
+  - csharp
+  - vb
+  name: RotateAround(Vector3, Vector3, double)
+  nameWithType: Transform.RotateAround(Vector3, Vector3, double)
+  fullName: Prowl.Runtime.Transform.RotateAround(Prowl.Runtime.Vector3, Prowl.Runtime.Vector3, double)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Transform.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: RotateAround
+    path: ../Prowl/Prowl.Runtime/Math/Transform.cs
+    startLine: 264
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public void RotateAround(Vector3 point, Vector3 axis, double angle)
+    parameters:
+    - id: point
+      type: Prowl.Runtime.Vector3
+    - id: axis
+      type: Prowl.Runtime.Vector3
+    - id: angle
+      type: System.Double
+    content.vb: Public Sub RotateAround(point As Vector3, axis As Vector3, angle As Double)
+  overload: Prowl.Runtime.Transform.RotateAround*
+  nameWithType.vb: Transform.RotateAround(Vector3, Vector3, Double)
+  fullName.vb: Prowl.Runtime.Transform.RotateAround(Prowl.Runtime.Vector3, Prowl.Runtime.Vector3, Double)
+  name.vb: RotateAround(Vector3, Vector3, Double)
+- uid: Prowl.Runtime.Transform.LookAt(Prowl.Runtime.Vector3,Prowl.Runtime.Vector3)
+  commentId: M:Prowl.Runtime.Transform.LookAt(Prowl.Runtime.Vector3,Prowl.Runtime.Vector3)
+  id: LookAt(Prowl.Runtime.Vector3,Prowl.Runtime.Vector3)
+  parent: Prowl.Runtime.Transform
+  langs:
+  - csharp
+  - vb
+  name: LookAt(Vector3, Vector3)
+  nameWithType: Transform.LookAt(Vector3, Vector3)
+  fullName: Prowl.Runtime.Transform.LookAt(Prowl.Runtime.Vector3, Prowl.Runtime.Vector3)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Transform.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: LookAt
+    path: ../Prowl/Prowl.Runtime/Math/Transform.cs
+    startLine: 286
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public void LookAt(Vector3 worldPosition, Vector3 worldUp)
+    parameters:
+    - id: worldPosition
+      type: Prowl.Runtime.Vector3
+    - id: worldUp
+      type: Prowl.Runtime.Vector3
+    content.vb: Public Sub LookAt(worldPosition As Vector3, worldUp As Vector3)
+  overload: Prowl.Runtime.Transform.LookAt*
+- uid: Prowl.Runtime.Transform.TransformPoint(Prowl.Runtime.Vector3)
+  commentId: M:Prowl.Runtime.Transform.TransformPoint(Prowl.Runtime.Vector3)
+  id: TransformPoint(Prowl.Runtime.Vector3)
+  parent: Prowl.Runtime.Transform
+  langs:
+  - csharp
+  - vb
+  name: TransformPoint(Vector3)
+  nameWithType: Transform.TransformPoint(Vector3)
+  fullName: Prowl.Runtime.Transform.TransformPoint(Prowl.Runtime.Vector3)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Transform.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: TransformPoint
+    path: ../Prowl/Prowl.Runtime/Math/Transform.cs
+    startLine: 296
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public Vector3 TransformPoint(Vector3 inPosition)
+    parameters:
+    - id: inPosition
+      type: Prowl.Runtime.Vector3
+    return:
+      type: Prowl.Runtime.Vector3
+    content.vb: Public Function TransformPoint(inPosition As Vector3) As Vector3
+  overload: Prowl.Runtime.Transform.TransformPoint*
+- uid: Prowl.Runtime.Transform.InverseTransformPoint(Prowl.Runtime.Vector3)
+  commentId: M:Prowl.Runtime.Transform.InverseTransformPoint(Prowl.Runtime.Vector3)
+  id: InverseTransformPoint(Prowl.Runtime.Vector3)
+  parent: Prowl.Runtime.Transform
+  langs:
+  - csharp
+  - vb
+  name: InverseTransformPoint(Vector3)
+  nameWithType: Transform.InverseTransformPoint(Vector3)
+  fullName: Prowl.Runtime.Transform.InverseTransformPoint(Prowl.Runtime.Vector3)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Transform.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: InverseTransformPoint
+    path: ../Prowl/Prowl.Runtime/Math/Transform.cs
+    startLine: 297
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public Vector3 InverseTransformPoint(Vector3 inPosition)
+    parameters:
+    - id: inPosition
+      type: Prowl.Runtime.Vector3
+    return:
+      type: Prowl.Runtime.Vector3
+    content.vb: Public Function InverseTransformPoint(inPosition As Vector3) As Vector3
+  overload: Prowl.Runtime.Transform.InverseTransformPoint*
+- uid: Prowl.Runtime.Transform.InverseTransformRotation(Prowl.Runtime.Quaternion)
+  commentId: M:Prowl.Runtime.Transform.InverseTransformRotation(Prowl.Runtime.Quaternion)
+  id: InverseTransformRotation(Prowl.Runtime.Quaternion)
+  parent: Prowl.Runtime.Transform
+  langs:
+  - csharp
+  - vb
+  name: InverseTransformRotation(Quaternion)
+  nameWithType: Transform.InverseTransformRotation(Quaternion)
+  fullName: Prowl.Runtime.Transform.InverseTransformRotation(Prowl.Runtime.Quaternion)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Transform.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: InverseTransformRotation
+    path: ../Prowl/Prowl.Runtime/Math/Transform.cs
+    startLine: 298
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public Quaternion InverseTransformRotation(Quaternion worldRotation)
+    parameters:
+    - id: worldRotation
+      type: Prowl.Runtime.Quaternion
+    return:
+      type: Prowl.Runtime.Quaternion
+    content.vb: Public Function InverseTransformRotation(worldRotation As Quaternion) As Quaternion
+  overload: Prowl.Runtime.Transform.InverseTransformRotation*
+- uid: Prowl.Runtime.Transform.TransformDirection(Prowl.Runtime.Vector3)
+  commentId: M:Prowl.Runtime.Transform.TransformDirection(Prowl.Runtime.Vector3)
+  id: TransformDirection(Prowl.Runtime.Vector3)
+  parent: Prowl.Runtime.Transform
+  langs:
+  - csharp
+  - vb
+  name: TransformDirection(Vector3)
+  nameWithType: Transform.TransformDirection(Vector3)
+  fullName: Prowl.Runtime.Transform.TransformDirection(Prowl.Runtime.Vector3)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Transform.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: TransformDirection
+    path: ../Prowl/Prowl.Runtime/Math/Transform.cs
+    startLine: 300
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public Vector3 TransformDirection(Vector3 inDirection)
+    parameters:
+    - id: inDirection
+      type: Prowl.Runtime.Vector3
+    return:
+      type: Prowl.Runtime.Vector3
+    content.vb: Public Function TransformDirection(inDirection As Vector3) As Vector3
+  overload: Prowl.Runtime.Transform.TransformDirection*
+- uid: Prowl.Runtime.Transform.InverseTransformDirection(Prowl.Runtime.Vector3)
+  commentId: M:Prowl.Runtime.Transform.InverseTransformDirection(Prowl.Runtime.Vector3)
+  id: InverseTransformDirection(Prowl.Runtime.Vector3)
+  parent: Prowl.Runtime.Transform
+  langs:
+  - csharp
+  - vb
+  name: InverseTransformDirection(Vector3)
+  nameWithType: Transform.InverseTransformDirection(Vector3)
+  fullName: Prowl.Runtime.Transform.InverseTransformDirection(Prowl.Runtime.Vector3)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Transform.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: InverseTransformDirection
+    path: ../Prowl/Prowl.Runtime/Math/Transform.cs
+    startLine: 301
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public Vector3 InverseTransformDirection(Vector3 inDirection)
+    parameters:
+    - id: inDirection
+      type: Prowl.Runtime.Vector3
+    return:
+      type: Prowl.Runtime.Vector3
+    content.vb: Public Function InverseTransformDirection(inDirection As Vector3) As Vector3
+  overload: Prowl.Runtime.Transform.InverseTransformDirection*
+- uid: Prowl.Runtime.Transform.TransformVector(Prowl.Runtime.Vector3)
+  commentId: M:Prowl.Runtime.Transform.TransformVector(Prowl.Runtime.Vector3)
+  id: TransformVector(Prowl.Runtime.Vector3)
+  parent: Prowl.Runtime.Transform
+  langs:
+  - csharp
+  - vb
+  name: TransformVector(Vector3)
+  nameWithType: Transform.TransformVector(Vector3)
+  fullName: Prowl.Runtime.Transform.TransformVector(Prowl.Runtime.Vector3)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Transform.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: TransformVector
+    path: ../Prowl/Prowl.Runtime/Math/Transform.cs
+    startLine: 303
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public Vector3 TransformVector(Vector3 inVector)
+    parameters:
+    - id: inVector
+      type: Prowl.Runtime.Vector3
+    return:
+      type: Prowl.Runtime.Vector3
+    content.vb: Public Function TransformVector(inVector As Vector3) As Vector3
+  overload: Prowl.Runtime.Transform.TransformVector*
+- uid: Prowl.Runtime.Transform.InverseTransformVector(Prowl.Runtime.Vector3)
+  commentId: M:Prowl.Runtime.Transform.InverseTransformVector(Prowl.Runtime.Vector3)
+  id: InverseTransformVector(Prowl.Runtime.Vector3)
+  parent: Prowl.Runtime.Transform
+  langs:
+  - csharp
+  - vb
+  name: InverseTransformVector(Vector3)
+  nameWithType: Transform.InverseTransformVector(Vector3)
+  fullName: Prowl.Runtime.Transform.InverseTransformVector(Prowl.Runtime.Vector3)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Transform.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: InverseTransformVector
+    path: ../Prowl/Prowl.Runtime/Math/Transform.cs
+    startLine: 317
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public Vector3 InverseTransformVector(Vector3 inVector)
+    parameters:
+    - id: inVector
+      type: Prowl.Runtime.Vector3
+    return:
+      type: Prowl.Runtime.Vector3
+    content.vb: Public Function InverseTransformVector(inVector As Vector3) As Vector3
+  overload: Prowl.Runtime.Transform.InverseTransformVector*
+- uid: Prowl.Runtime.Transform.TransformRotation(Prowl.Runtime.Quaternion)
+  commentId: M:Prowl.Runtime.Transform.TransformRotation(Prowl.Runtime.Quaternion)
+  id: TransformRotation(Prowl.Runtime.Quaternion)
+  parent: Prowl.Runtime.Transform
+  langs:
+  - csharp
+  - vb
+  name: TransformRotation(Quaternion)
+  nameWithType: Transform.TransformRotation(Quaternion)
+  fullName: Prowl.Runtime.Transform.TransformRotation(Prowl.Runtime.Quaternion)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Transform.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: TransformRotation
+    path: ../Prowl/Prowl.Runtime/Math/Transform.cs
+    startLine: 332
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public Quaternion TransformRotation(Quaternion inRotation)
+    parameters:
+    - id: inRotation
+      type: Prowl.Runtime.Quaternion
+    return:
+      type: Prowl.Runtime.Quaternion
+    content.vb: Public Function TransformRotation(inRotation As Quaternion) As Quaternion
+  overload: Prowl.Runtime.Transform.TransformRotation*
+- uid: Prowl.Runtime.Transform.GetWorldRotationAndScale
+  commentId: M:Prowl.Runtime.Transform.GetWorldRotationAndScale
+  id: GetWorldRotationAndScale
+  parent: Prowl.Runtime.Transform
+  langs:
+  - csharp
+  - vb
+  name: GetWorldRotationAndScale()
+  nameWithType: Transform.GetWorldRotationAndScale()
+  fullName: Prowl.Runtime.Transform.GetWorldRotationAndScale()
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Transform.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: GetWorldRotationAndScale
+    path: ../Prowl/Prowl.Runtime/Math/Transform.cs
+    startLine: 347
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public Matrix4x4 GetWorldRotationAndScale()
+    return:
+      type: Prowl.Runtime.Matrix4x4
+    content.vb: Public Function GetWorldRotationAndScale() As Matrix4x4
+  overload: Prowl.Runtime.Transform.GetWorldRotationAndScale*
+references:
+- uid: Prowl.Runtime
+  commentId: N:Prowl.Runtime
+  href: Prowl.html
+  name: Prowl.Runtime
+  nameWithType: Prowl.Runtime
+  fullName: Prowl.Runtime
+  spec.csharp:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+  spec.vb:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Prowl.Runtime.RuntimeUtils.GetSerializableFields
+  commentId: M:Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  parent: Prowl.Runtime.RuntimeUtils
+  definition: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  name: GetSerializableFields(object)
+  nameWithType: RuntimeUtils.GetSerializableFields(object)
+  fullName: Prowl.Runtime.RuntimeUtils.GetSerializableFields(object)
+  nameWithType.vb: RuntimeUtils.GetSerializableFields(Object)
+  fullName.vb: Prowl.Runtime.RuntimeUtils.GetSerializableFields(Object)
+  name.vb: GetSerializableFields(Object)
+  spec.csharp:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  commentId: M:Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  isExternal: true
+  href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  name: GetSerializableFields(object)
+  nameWithType: RuntimeUtils.GetSerializableFields(object)
+  fullName: Prowl.Runtime.RuntimeUtils.GetSerializableFields(object)
+  nameWithType.vb: RuntimeUtils.GetSerializableFields(Object)
+  fullName.vb: Prowl.Runtime.RuntimeUtils.GetSerializableFields(Object)
+  name.vb: GetSerializableFields(Object)
+  spec.csharp:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: Prowl.Runtime.RuntimeUtils
+  commentId: T:Prowl.Runtime.RuntimeUtils
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.RuntimeUtils.html
+  name: RuntimeUtils
+  nameWithType: RuntimeUtils
+  fullName: Prowl.Runtime.RuntimeUtils
+- uid: Prowl.Runtime.Transform.position*
+  commentId: Overload:Prowl.Runtime.Transform.position
+  href: Prowl.Runtime.Transform.html#Prowl_Runtime_Transform_position
+  name: position
+  nameWithType: Transform.position
+  fullName: Prowl.Runtime.Transform.position
+- uid: Prowl.Runtime.Vector3
+  commentId: T:Prowl.Runtime.Vector3
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.Vector3.html
+  name: Vector3
+  nameWithType: Vector3
+  fullName: Prowl.Runtime.Vector3
+- uid: Prowl.Runtime.Transform.localPosition*
+  commentId: Overload:Prowl.Runtime.Transform.localPosition
+  href: Prowl.Runtime.Transform.html#Prowl_Runtime_Transform_localPosition
+  name: localPosition
+  nameWithType: Transform.localPosition
+  fullName: Prowl.Runtime.Transform.localPosition
+- uid: Prowl.Runtime.Transform.rotation*
+  commentId: Overload:Prowl.Runtime.Transform.rotation
+  href: Prowl.Runtime.Transform.html#Prowl_Runtime_Transform_rotation
+  name: rotation
+  nameWithType: Transform.rotation
+  fullName: Prowl.Runtime.Transform.rotation
+- uid: Prowl.Runtime.Quaternion
+  commentId: T:Prowl.Runtime.Quaternion
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.Quaternion.html
+  name: Quaternion
+  nameWithType: Quaternion
+  fullName: Prowl.Runtime.Quaternion
+- uid: Prowl.Runtime.Transform.localRotation*
+  commentId: Overload:Prowl.Runtime.Transform.localRotation
+  href: Prowl.Runtime.Transform.html#Prowl_Runtime_Transform_localRotation
+  name: localRotation
+  nameWithType: Transform.localRotation
+  fullName: Prowl.Runtime.Transform.localRotation
+- uid: Prowl.Runtime.Transform.eulerAngles*
+  commentId: Overload:Prowl.Runtime.Transform.eulerAngles
+  href: Prowl.Runtime.Transform.html#Prowl_Runtime_Transform_eulerAngles
+  name: eulerAngles
+  nameWithType: Transform.eulerAngles
+  fullName: Prowl.Runtime.Transform.eulerAngles
+- uid: Prowl.Runtime.Transform.localEulerAngles*
+  commentId: Overload:Prowl.Runtime.Transform.localEulerAngles
+  href: Prowl.Runtime.Transform.html#Prowl_Runtime_Transform_localEulerAngles
+  name: localEulerAngles
+  nameWithType: Transform.localEulerAngles
+  fullName: Prowl.Runtime.Transform.localEulerAngles
+- uid: Prowl.Runtime.Transform.localScale*
+  commentId: Overload:Prowl.Runtime.Transform.localScale
+  href: Prowl.Runtime.Transform.html#Prowl_Runtime_Transform_localScale
+  name: localScale
+  nameWithType: Transform.localScale
+  fullName: Prowl.Runtime.Transform.localScale
+- uid: Prowl.Runtime.Transform.lossyScale*
+  commentId: Overload:Prowl.Runtime.Transform.lossyScale
+  href: Prowl.Runtime.Transform.html#Prowl_Runtime_Transform_lossyScale
+  name: lossyScale
+  nameWithType: Transform.lossyScale
+  fullName: Prowl.Runtime.Transform.lossyScale
+- uid: Prowl.Runtime.Transform.right*
+  commentId: Overload:Prowl.Runtime.Transform.right
+  href: Prowl.Runtime.Transform.html#Prowl_Runtime_Transform_right
+  name: right
+  nameWithType: Transform.right
+  fullName: Prowl.Runtime.Transform.right
+- uid: Prowl.Runtime.Transform.up*
+  commentId: Overload:Prowl.Runtime.Transform.up
+  href: Prowl.Runtime.Transform.html#Prowl_Runtime_Transform_up
+  name: up
+  nameWithType: Transform.up
+  fullName: Prowl.Runtime.Transform.up
+- uid: Prowl.Runtime.Transform.forward*
+  commentId: Overload:Prowl.Runtime.Transform.forward
+  href: Prowl.Runtime.Transform.html#Prowl_Runtime_Transform_forward
+  name: forward
+  nameWithType: Transform.forward
+  fullName: Prowl.Runtime.Transform.forward
+- uid: Prowl.Runtime.Transform.worldToLocalMatrix*
+  commentId: Overload:Prowl.Runtime.Transform.worldToLocalMatrix
+  href: Prowl.Runtime.Transform.html#Prowl_Runtime_Transform_worldToLocalMatrix
+  name: worldToLocalMatrix
+  nameWithType: Transform.worldToLocalMatrix
+  fullName: Prowl.Runtime.Transform.worldToLocalMatrix
+- uid: Prowl.Runtime.Matrix4x4
+  commentId: T:Prowl.Runtime.Matrix4x4
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.Matrix4x4.html
+  name: Matrix4x4
+  nameWithType: Matrix4x4
+  fullName: Prowl.Runtime.Matrix4x4
+- uid: Prowl.Runtime.Transform.localToWorldMatrix*
+  commentId: Overload:Prowl.Runtime.Transform.localToWorldMatrix
+  href: Prowl.Runtime.Transform.html#Prowl_Runtime_Transform_localToWorldMatrix
+  name: localToWorldMatrix
+  nameWithType: Transform.localToWorldMatrix
+  fullName: Prowl.Runtime.Transform.localToWorldMatrix
+- uid: Prowl.Runtime.Transform.parent*
+  commentId: Overload:Prowl.Runtime.Transform.parent
+  href: Prowl.Runtime.Transform.html#Prowl_Runtime_Transform_parent
+  name: parent
+  nameWithType: Transform.parent
+  fullName: Prowl.Runtime.Transform.parent
+- uid: Prowl.Runtime.Transform
+  commentId: T:Prowl.Runtime.Transform
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.Transform.html
+  name: Transform
+  nameWithType: Transform
+  fullName: Prowl.Runtime.Transform
+- uid: Prowl.Runtime.Transform.version*
+  commentId: Overload:Prowl.Runtime.Transform.version
+  href: Prowl.Runtime.Transform.html#Prowl_Runtime_Transform_version
+  name: version
+  nameWithType: Transform.version
+  fullName: Prowl.Runtime.Transform.version
+- uid: System.UInt32
+  commentId: T:System.UInt32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.uint32
+  name: uint
+  nameWithType: uint
+  fullName: uint
+  nameWithType.vb: UInteger
+  fullName.vb: UInteger
+  name.vb: UInteger
+- uid: Prowl.Runtime.Transform.root*
+  commentId: Overload:Prowl.Runtime.Transform.root
+  href: Prowl.Runtime.Transform.html#Prowl_Runtime_Transform_root
+  name: root
+  nameWithType: Transform.root
+  fullName: Prowl.Runtime.Transform.root
+- uid: Prowl.Runtime.Transform.gameObject*
+  commentId: Overload:Prowl.Runtime.Transform.gameObject
+  href: Prowl.Runtime.Transform.html#Prowl_Runtime_Transform_gameObject
+  name: gameObject
+  nameWithType: Transform.gameObject
+  fullName: Prowl.Runtime.Transform.gameObject
+- uid: Prowl.Runtime.GameObject
+  commentId: T:Prowl.Runtime.GameObject
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.GameObject.html
+  name: GameObject
+  nameWithType: GameObject
+  fullName: Prowl.Runtime.GameObject
+- uid: Prowl.Runtime.Transform.Find*
+  commentId: Overload:Prowl.Runtime.Transform.Find
+  href: Prowl.Runtime.Transform.html#Prowl_Runtime_Transform_Find_System_String_
+  name: Find
+  nameWithType: Transform.Find
+  fullName: Prowl.Runtime.Transform.Find
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: Prowl.Runtime.Transform.DeepFind*
+  commentId: Overload:Prowl.Runtime.Transform.DeepFind
+  href: Prowl.Runtime.Transform.html#Prowl_Runtime_Transform_DeepFind_System_String_
+  name: DeepFind
+  nameWithType: Transform.DeepFind
+  fullName: Prowl.Runtime.Transform.DeepFind
+- uid: Prowl.Runtime.Transform.GetPath*
+  commentId: Overload:Prowl.Runtime.Transform.GetPath
+  href: Prowl.Runtime.Transform.html#Prowl_Runtime_Transform_GetPath_Prowl_Runtime_Transform_Prowl_Runtime_Transform_
+  name: GetPath
+  nameWithType: Transform.GetPath
+  fullName: Prowl.Runtime.Transform.GetPath
+- uid: Prowl.Runtime.Transform.Translate*
+  commentId: Overload:Prowl.Runtime.Transform.Translate
+  href: Prowl.Runtime.Transform.html#Prowl_Runtime_Transform_Translate_Prowl_Runtime_Vector3_Prowl_Runtime_Transform_
+  name: Translate
+  nameWithType: Transform.Translate
+  fullName: Prowl.Runtime.Transform.Translate
+- uid: Prowl.Runtime.Transform.Rotate*
+  commentId: Overload:Prowl.Runtime.Transform.Rotate
+  href: Prowl.Runtime.Transform.html#Prowl_Runtime_Transform_Rotate_Prowl_Runtime_Vector3_System_Boolean_
+  name: Rotate
+  nameWithType: Transform.Rotate
+  fullName: Prowl.Runtime.Transform.Rotate
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.double
+  name: double
+  nameWithType: double
+  fullName: double
+  nameWithType.vb: Double
+  fullName.vb: Double
+  name.vb: Double
+- uid: Prowl.Runtime.Transform.RotateAround*
+  commentId: Overload:Prowl.Runtime.Transform.RotateAround
+  href: Prowl.Runtime.Transform.html#Prowl_Runtime_Transform_RotateAround_Prowl_Runtime_Vector3_Prowl_Runtime_Vector3_System_Double_
+  name: RotateAround
+  nameWithType: Transform.RotateAround
+  fullName: Prowl.Runtime.Transform.RotateAround
+- uid: Prowl.Runtime.Transform.LookAt*
+  commentId: Overload:Prowl.Runtime.Transform.LookAt
+  href: Prowl.Runtime.Transform.html#Prowl_Runtime_Transform_LookAt_Prowl_Runtime_Vector3_Prowl_Runtime_Vector3_
+  name: LookAt
+  nameWithType: Transform.LookAt
+  fullName: Prowl.Runtime.Transform.LookAt
+- uid: Prowl.Runtime.Transform.TransformPoint*
+  commentId: Overload:Prowl.Runtime.Transform.TransformPoint
+  href: Prowl.Runtime.Transform.html#Prowl_Runtime_Transform_TransformPoint_Prowl_Runtime_Vector3_
+  name: TransformPoint
+  nameWithType: Transform.TransformPoint
+  fullName: Prowl.Runtime.Transform.TransformPoint
+- uid: Prowl.Runtime.Transform.InverseTransformPoint*
+  commentId: Overload:Prowl.Runtime.Transform.InverseTransformPoint
+  href: Prowl.Runtime.Transform.html#Prowl_Runtime_Transform_InverseTransformPoint_Prowl_Runtime_Vector3_
+  name: InverseTransformPoint
+  nameWithType: Transform.InverseTransformPoint
+  fullName: Prowl.Runtime.Transform.InverseTransformPoint
+- uid: Prowl.Runtime.Transform.InverseTransformRotation*
+  commentId: Overload:Prowl.Runtime.Transform.InverseTransformRotation
+  href: Prowl.Runtime.Transform.html#Prowl_Runtime_Transform_InverseTransformRotation_Prowl_Runtime_Quaternion_
+  name: InverseTransformRotation
+  nameWithType: Transform.InverseTransformRotation
+  fullName: Prowl.Runtime.Transform.InverseTransformRotation
+- uid: Prowl.Runtime.Transform.TransformDirection*
+  commentId: Overload:Prowl.Runtime.Transform.TransformDirection
+  href: Prowl.Runtime.Transform.html#Prowl_Runtime_Transform_TransformDirection_Prowl_Runtime_Vector3_
+  name: TransformDirection
+  nameWithType: Transform.TransformDirection
+  fullName: Prowl.Runtime.Transform.TransformDirection
+- uid: Prowl.Runtime.Transform.InverseTransformDirection*
+  commentId: Overload:Prowl.Runtime.Transform.InverseTransformDirection
+  href: Prowl.Runtime.Transform.html#Prowl_Runtime_Transform_InverseTransformDirection_Prowl_Runtime_Vector3_
+  name: InverseTransformDirection
+  nameWithType: Transform.InverseTransformDirection
+  fullName: Prowl.Runtime.Transform.InverseTransformDirection
+- uid: Prowl.Runtime.Transform.TransformVector*
+  commentId: Overload:Prowl.Runtime.Transform.TransformVector
+  href: Prowl.Runtime.Transform.html#Prowl_Runtime_Transform_TransformVector_Prowl_Runtime_Vector3_
+  name: TransformVector
+  nameWithType: Transform.TransformVector
+  fullName: Prowl.Runtime.Transform.TransformVector
+- uid: Prowl.Runtime.Transform.InverseTransformVector*
+  commentId: Overload:Prowl.Runtime.Transform.InverseTransformVector
+  href: Prowl.Runtime.Transform.html#Prowl_Runtime_Transform_InverseTransformVector_Prowl_Runtime_Vector3_
+  name: InverseTransformVector
+  nameWithType: Transform.InverseTransformVector
+  fullName: Prowl.Runtime.Transform.InverseTransformVector
+- uid: Prowl.Runtime.Transform.TransformRotation*
+  commentId: Overload:Prowl.Runtime.Transform.TransformRotation
+  href: Prowl.Runtime.Transform.html#Prowl_Runtime_Transform_TransformRotation_Prowl_Runtime_Quaternion_
+  name: TransformRotation
+  nameWithType: Transform.TransformRotation
+  fullName: Prowl.Runtime.Transform.TransformRotation
+- uid: Prowl.Runtime.Transform.GetWorldRotationAndScale*
+  commentId: Overload:Prowl.Runtime.Transform.GetWorldRotationAndScale
+  href: Prowl.Runtime.Transform.html#Prowl_Runtime_Transform_GetWorldRotationAndScale
+  name: GetWorldRotationAndScale
+  nameWithType: Transform.GetWorldRotationAndScale
+  fullName: Prowl.Runtime.Transform.GetWorldRotationAndScale

@@ -1,0 +1,550 @@
+### YamlMime:ManagedReference
+items:
+- uid: Prowl.Runtime.IAssetRef
+  commentId: T:Prowl.Runtime.IAssetRef
+  id: IAssetRef
+  parent: Prowl.Runtime
+  children:
+  - Prowl.Runtime.IAssetRef.AssetID
+  - Prowl.Runtime.IAssetRef.FileID
+  - Prowl.Runtime.IAssetRef.GetInstance
+  - Prowl.Runtime.IAssetRef.InstanceType
+  - Prowl.Runtime.IAssetRef.IsAvailable
+  - Prowl.Runtime.IAssetRef.IsExplicitNull
+  - Prowl.Runtime.IAssetRef.IsLoaded
+  - Prowl.Runtime.IAssetRef.IsRuntimeResource
+  - Prowl.Runtime.IAssetRef.Name
+  - Prowl.Runtime.IAssetRef.SetInstance(System.Object)
+  langs:
+  - csharp
+  - vb
+  name: IAssetRef
+  nameWithType: IAssetRef
+  fullName: Prowl.Runtime.IAssetRef
+  type: Interface
+  source:
+    remote:
+      path: Prowl.Runtime/IAssetRef.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: IAssetRef
+    path: ../Prowl/Prowl.Runtime/IAssetRef.cs
+    startLine: 7
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public interface IAssetRef
+    content.vb: Public Interface IAssetRef
+  extensionMethods:
+  - System.Object.Prowl.Runtime.RuntimeUtils.GetSerializableFields
+- uid: Prowl.Runtime.IAssetRef.AssetID
+  commentId: P:Prowl.Runtime.IAssetRef.AssetID
+  id: AssetID
+  parent: Prowl.Runtime.IAssetRef
+  langs:
+  - csharp
+  - vb
+  name: AssetID
+  nameWithType: IAssetRef.AssetID
+  fullName: Prowl.Runtime.IAssetRef.AssetID
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/IAssetRef.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: AssetID
+    path: ../Prowl/Prowl.Runtime/IAssetRef.cs
+    startLine: 9
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: Guid AssetID { get; set; }
+    parameters: []
+    return:
+      type: System.Guid
+    content.vb: Property AssetID As Guid
+  overload: Prowl.Runtime.IAssetRef.AssetID*
+- uid: Prowl.Runtime.IAssetRef.FileID
+  commentId: P:Prowl.Runtime.IAssetRef.FileID
+  id: FileID
+  parent: Prowl.Runtime.IAssetRef
+  langs:
+  - csharp
+  - vb
+  name: FileID
+  nameWithType: IAssetRef.FileID
+  fullName: Prowl.Runtime.IAssetRef.FileID
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/IAssetRef.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: FileID
+    path: ../Prowl/Prowl.Runtime/IAssetRef.cs
+    startLine: 10
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: ushort FileID { get; set; }
+    parameters: []
+    return:
+      type: System.UInt16
+    content.vb: Property FileID As UShort
+  overload: Prowl.Runtime.IAssetRef.FileID*
+- uid: Prowl.Runtime.IAssetRef.Name
+  commentId: P:Prowl.Runtime.IAssetRef.Name
+  id: Name
+  parent: Prowl.Runtime.IAssetRef
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: IAssetRef.Name
+  fullName: Prowl.Runtime.IAssetRef.Name
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/IAssetRef.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Name
+    path: ../Prowl/Prowl.Runtime/IAssetRef.cs
+    startLine: 11
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: string Name { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: ReadOnly Property Name As String
+  overload: Prowl.Runtime.IAssetRef.Name*
+- uid: Prowl.Runtime.IAssetRef.IsAvailable
+  commentId: P:Prowl.Runtime.IAssetRef.IsAvailable
+  id: IsAvailable
+  parent: Prowl.Runtime.IAssetRef
+  langs:
+  - csharp
+  - vb
+  name: IsAvailable
+  nameWithType: IAssetRef.IsAvailable
+  fullName: Prowl.Runtime.IAssetRef.IsAvailable
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/IAssetRef.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: IsAvailable
+    path: ../Prowl/Prowl.Runtime/IAssetRef.cs
+    startLine: 12
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: bool IsAvailable { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: ReadOnly Property IsAvailable As Boolean
+  overload: Prowl.Runtime.IAssetRef.IsAvailable*
+- uid: Prowl.Runtime.IAssetRef.IsRuntimeResource
+  commentId: P:Prowl.Runtime.IAssetRef.IsRuntimeResource
+  id: IsRuntimeResource
+  parent: Prowl.Runtime.IAssetRef
+  langs:
+  - csharp
+  - vb
+  name: IsRuntimeResource
+  nameWithType: IAssetRef.IsRuntimeResource
+  fullName: Prowl.Runtime.IAssetRef.IsRuntimeResource
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/IAssetRef.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: IsRuntimeResource
+    path: ../Prowl/Prowl.Runtime/IAssetRef.cs
+    startLine: 13
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: bool IsRuntimeResource { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: ReadOnly Property IsRuntimeResource As Boolean
+  overload: Prowl.Runtime.IAssetRef.IsRuntimeResource*
+- uid: Prowl.Runtime.IAssetRef.IsLoaded
+  commentId: P:Prowl.Runtime.IAssetRef.IsLoaded
+  id: IsLoaded
+  parent: Prowl.Runtime.IAssetRef
+  langs:
+  - csharp
+  - vb
+  name: IsLoaded
+  nameWithType: IAssetRef.IsLoaded
+  fullName: Prowl.Runtime.IAssetRef.IsLoaded
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/IAssetRef.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: IsLoaded
+    path: ../Prowl/Prowl.Runtime/IAssetRef.cs
+    startLine: 14
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: bool IsLoaded { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: ReadOnly Property IsLoaded As Boolean
+  overload: Prowl.Runtime.IAssetRef.IsLoaded*
+- uid: Prowl.Runtime.IAssetRef.IsExplicitNull
+  commentId: P:Prowl.Runtime.IAssetRef.IsExplicitNull
+  id: IsExplicitNull
+  parent: Prowl.Runtime.IAssetRef
+  langs:
+  - csharp
+  - vb
+  name: IsExplicitNull
+  nameWithType: IAssetRef.IsExplicitNull
+  fullName: Prowl.Runtime.IAssetRef.IsExplicitNull
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/IAssetRef.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: IsExplicitNull
+    path: ../Prowl/Prowl.Runtime/IAssetRef.cs
+    startLine: 15
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: bool IsExplicitNull { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: ReadOnly Property IsExplicitNull As Boolean
+  overload: Prowl.Runtime.IAssetRef.IsExplicitNull*
+- uid: Prowl.Runtime.IAssetRef.InstanceType
+  commentId: P:Prowl.Runtime.IAssetRef.InstanceType
+  id: InstanceType
+  parent: Prowl.Runtime.IAssetRef
+  langs:
+  - csharp
+  - vb
+  name: InstanceType
+  nameWithType: IAssetRef.InstanceType
+  fullName: Prowl.Runtime.IAssetRef.InstanceType
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/IAssetRef.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: InstanceType
+    path: ../Prowl/Prowl.Runtime/IAssetRef.cs
+    startLine: 16
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: Type InstanceType { get; }
+    parameters: []
+    return:
+      type: System.Type
+    content.vb: ReadOnly Property InstanceType As Type
+  overload: Prowl.Runtime.IAssetRef.InstanceType*
+- uid: Prowl.Runtime.IAssetRef.GetInstance
+  commentId: M:Prowl.Runtime.IAssetRef.GetInstance
+  id: GetInstance
+  parent: Prowl.Runtime.IAssetRef
+  langs:
+  - csharp
+  - vb
+  name: GetInstance()
+  nameWithType: IAssetRef.GetInstance()
+  fullName: Prowl.Runtime.IAssetRef.GetInstance()
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/IAssetRef.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: GetInstance
+    path: ../Prowl/Prowl.Runtime/IAssetRef.cs
+    startLine: 18
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: object? GetInstance()
+    return:
+      type: System.Object
+    content.vb: Function GetInstance() As Object
+  overload: Prowl.Runtime.IAssetRef.GetInstance*
+- uid: Prowl.Runtime.IAssetRef.SetInstance(System.Object)
+  commentId: M:Prowl.Runtime.IAssetRef.SetInstance(System.Object)
+  id: SetInstance(System.Object)
+  parent: Prowl.Runtime.IAssetRef
+  langs:
+  - csharp
+  - vb
+  name: SetInstance(object?)
+  nameWithType: IAssetRef.SetInstance(object?)
+  fullName: Prowl.Runtime.IAssetRef.SetInstance(object?)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/IAssetRef.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: SetInstance
+    path: ../Prowl/Prowl.Runtime/IAssetRef.cs
+    startLine: 19
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: void SetInstance(object? obj)
+    parameters:
+    - id: obj
+      type: System.Object
+    content.vb: Sub SetInstance(obj As Object)
+  overload: Prowl.Runtime.IAssetRef.SetInstance*
+  nameWithType.vb: IAssetRef.SetInstance(Object)
+  fullName.vb: Prowl.Runtime.IAssetRef.SetInstance(Object)
+  name.vb: SetInstance(Object)
+references:
+- uid: Prowl.Runtime
+  commentId: N:Prowl.Runtime
+  href: Prowl.html
+  name: Prowl.Runtime
+  nameWithType: Prowl.Runtime
+  fullName: Prowl.Runtime
+  spec.csharp:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+  spec.vb:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+- uid: System.Object.Prowl.Runtime.RuntimeUtils.GetSerializableFields
+  commentId: M:Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  parent: Prowl.Runtime.RuntimeUtils
+  definition: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  name: GetSerializableFields(object)
+  nameWithType: RuntimeUtils.GetSerializableFields(object)
+  fullName: Prowl.Runtime.RuntimeUtils.GetSerializableFields(object)
+  nameWithType.vb: RuntimeUtils.GetSerializableFields(Object)
+  fullName.vb: Prowl.Runtime.RuntimeUtils.GetSerializableFields(Object)
+  name.vb: GetSerializableFields(Object)
+  spec.csharp:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  commentId: M:Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  isExternal: true
+  href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  name: GetSerializableFields(object)
+  nameWithType: RuntimeUtils.GetSerializableFields(object)
+  fullName: Prowl.Runtime.RuntimeUtils.GetSerializableFields(object)
+  nameWithType.vb: RuntimeUtils.GetSerializableFields(Object)
+  fullName.vb: Prowl.Runtime.RuntimeUtils.GetSerializableFields(Object)
+  name.vb: GetSerializableFields(Object)
+  spec.csharp:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: Prowl.Runtime.RuntimeUtils
+  commentId: T:Prowl.Runtime.RuntimeUtils
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.RuntimeUtils.html
+  name: RuntimeUtils
+  nameWithType: RuntimeUtils
+  fullName: Prowl.Runtime.RuntimeUtils
+- uid: Prowl.Runtime.IAssetRef.AssetID*
+  commentId: Overload:Prowl.Runtime.IAssetRef.AssetID
+  href: Prowl.Runtime.IAssetRef.html#Prowl_Runtime_IAssetRef_AssetID
+  name: AssetID
+  nameWithType: IAssetRef.AssetID
+  fullName: Prowl.Runtime.IAssetRef.AssetID
+- uid: System.Guid
+  commentId: T:System.Guid
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.guid
+  name: Guid
+  nameWithType: Guid
+  fullName: System.Guid
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Prowl.Runtime.IAssetRef.FileID*
+  commentId: Overload:Prowl.Runtime.IAssetRef.FileID
+  href: Prowl.Runtime.IAssetRef.html#Prowl_Runtime_IAssetRef_FileID
+  name: FileID
+  nameWithType: IAssetRef.FileID
+  fullName: Prowl.Runtime.IAssetRef.FileID
+- uid: System.UInt16
+  commentId: T:System.UInt16
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.uint16
+  name: ushort
+  nameWithType: ushort
+  fullName: ushort
+  nameWithType.vb: UShort
+  fullName.vb: UShort
+  name.vb: UShort
+- uid: Prowl.Runtime.IAssetRef.Name*
+  commentId: Overload:Prowl.Runtime.IAssetRef.Name
+  href: Prowl.Runtime.IAssetRef.html#Prowl_Runtime_IAssetRef_Name
+  name: Name
+  nameWithType: IAssetRef.Name
+  fullName: Prowl.Runtime.IAssetRef.Name
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: Prowl.Runtime.IAssetRef.IsAvailable*
+  commentId: Overload:Prowl.Runtime.IAssetRef.IsAvailable
+  href: Prowl.Runtime.IAssetRef.html#Prowl_Runtime_IAssetRef_IsAvailable
+  name: IsAvailable
+  nameWithType: IAssetRef.IsAvailable
+  fullName: Prowl.Runtime.IAssetRef.IsAvailable
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: Prowl.Runtime.IAssetRef.IsRuntimeResource*
+  commentId: Overload:Prowl.Runtime.IAssetRef.IsRuntimeResource
+  href: Prowl.Runtime.IAssetRef.html#Prowl_Runtime_IAssetRef_IsRuntimeResource
+  name: IsRuntimeResource
+  nameWithType: IAssetRef.IsRuntimeResource
+  fullName: Prowl.Runtime.IAssetRef.IsRuntimeResource
+- uid: Prowl.Runtime.IAssetRef.IsLoaded*
+  commentId: Overload:Prowl.Runtime.IAssetRef.IsLoaded
+  href: Prowl.Runtime.IAssetRef.html#Prowl_Runtime_IAssetRef_IsLoaded
+  name: IsLoaded
+  nameWithType: IAssetRef.IsLoaded
+  fullName: Prowl.Runtime.IAssetRef.IsLoaded
+- uid: Prowl.Runtime.IAssetRef.IsExplicitNull*
+  commentId: Overload:Prowl.Runtime.IAssetRef.IsExplicitNull
+  href: Prowl.Runtime.IAssetRef.html#Prowl_Runtime_IAssetRef_IsExplicitNull
+  name: IsExplicitNull
+  nameWithType: IAssetRef.IsExplicitNull
+  fullName: Prowl.Runtime.IAssetRef.IsExplicitNull
+- uid: Prowl.Runtime.IAssetRef.InstanceType*
+  commentId: Overload:Prowl.Runtime.IAssetRef.InstanceType
+  href: Prowl.Runtime.IAssetRef.html#Prowl_Runtime_IAssetRef_InstanceType
+  name: InstanceType
+  nameWithType: IAssetRef.InstanceType
+  fullName: Prowl.Runtime.IAssetRef.InstanceType
+- uid: System.Type
+  commentId: T:System.Type
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.type
+  name: Type
+  nameWithType: Type
+  fullName: System.Type
+- uid: Prowl.Runtime.IAssetRef.GetInstance*
+  commentId: Overload:Prowl.Runtime.IAssetRef.GetInstance
+  href: Prowl.Runtime.IAssetRef.html#Prowl_Runtime_IAssetRef_GetInstance
+  name: GetInstance
+  nameWithType: IAssetRef.GetInstance
+  fullName: Prowl.Runtime.IAssetRef.GetInstance
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Prowl.Runtime.IAssetRef.SetInstance*
+  commentId: Overload:Prowl.Runtime.IAssetRef.SetInstance
+  href: Prowl.Runtime.IAssetRef.html#Prowl_Runtime_IAssetRef_SetInstance_System_Object_
+  name: SetInstance
+  nameWithType: IAssetRef.SetInstance
+  fullName: Prowl.Runtime.IAssetRef.SetInstance

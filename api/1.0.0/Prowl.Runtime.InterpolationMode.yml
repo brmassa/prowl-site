@@ -1,0 +1,221 @@
+### YamlMime:ManagedReference
+items:
+- uid: Prowl.Runtime.InterpolationMode
+  commentId: T:Prowl.Runtime.InterpolationMode
+  id: InterpolationMode
+  parent: Prowl.Runtime
+  children:
+  - Prowl.Runtime.InterpolationMode.Extrapolated
+  - Prowl.Runtime.InterpolationMode.Interpolated
+  - Prowl.Runtime.InterpolationMode.None
+  langs:
+  - csharp
+  - vb
+  name: InterpolationMode
+  nameWithType: InterpolationMode
+  fullName: Prowl.Runtime.InterpolationMode
+  type: Enum
+  source:
+    remote:
+      path: Prowl.Runtime/Components/Physics/Types/Interpolation.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: InterpolationMode
+    path: ../Prowl/Prowl.Runtime/Components/Physics/Types/Interpolation.cs
+    startLine: 5
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public enum InterpolationMode
+    content.vb: Public Enum InterpolationMode
+  extensionMethods:
+  - System.Object.Prowl.Runtime.RuntimeUtils.GetSerializableFields
+- uid: Prowl.Runtime.InterpolationMode.None
+  commentId: F:Prowl.Runtime.InterpolationMode.None
+  id: None
+  parent: Prowl.Runtime.InterpolationMode
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: InterpolationMode.None
+  fullName: Prowl.Runtime.InterpolationMode.None
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/Components/Physics/Types/Interpolation.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: None
+    path: ../Prowl/Prowl.Runtime/Components/Physics/Types/Interpolation.cs
+    startLine: 10
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: No interpolation, the body will be moved on every physics update and left alone during normal updates
+  example: []
+  syntax:
+    content: None = 0
+    return:
+      type: Prowl.Runtime.InterpolationMode
+- uid: Prowl.Runtime.InterpolationMode.Interpolated
+  commentId: F:Prowl.Runtime.InterpolationMode.Interpolated
+  id: Interpolated
+  parent: Prowl.Runtime.InterpolationMode
+  langs:
+  - csharp
+  - vb
+  name: Interpolated
+  nameWithType: InterpolationMode.Interpolated
+  fullName: Prowl.Runtime.InterpolationMode.Interpolated
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/Components/Physics/Types/Interpolation.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Interpolated
+    path: ../Prowl/Prowl.Runtime/Components/Physics/Types/Interpolation.cs
+    startLine: 15
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: >-
+    The body will move from the previous physics pose to the current physics pose,
+
+    introducing one physics update of latency but should be very smooth
+  example: []
+  syntax:
+    content: Interpolated = 1
+    return:
+      type: Prowl.Runtime.InterpolationMode
+- uid: Prowl.Runtime.InterpolationMode.Extrapolated
+  commentId: F:Prowl.Runtime.InterpolationMode.Extrapolated
+  id: Extrapolated
+  parent: Prowl.Runtime.InterpolationMode
+  langs:
+  - csharp
+  - vb
+  name: Extrapolated
+  nameWithType: InterpolationMode.Extrapolated
+  fullName: Prowl.Runtime.InterpolationMode.Extrapolated
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/Components/Physics/Types/Interpolation.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Extrapolated
+    path: ../Prowl/Prowl.Runtime/Components/Physics/Types/Interpolation.cs
+    startLine: 20
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: >-
+    The body will move from the current physics pose to a predicted one,
+
+    reducing the latency but introducing imprecise or jerky motion when the pose changes significantly
+  example: []
+  syntax:
+    content: Extrapolated = 2
+    return:
+      type: Prowl.Runtime.InterpolationMode
+references:
+- uid: Prowl.Runtime
+  commentId: N:Prowl.Runtime
+  href: Prowl.html
+  name: Prowl.Runtime
+  nameWithType: Prowl.Runtime
+  fullName: Prowl.Runtime
+  spec.csharp:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+  spec.vb:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+- uid: System.Object.Prowl.Runtime.RuntimeUtils.GetSerializableFields
+  commentId: M:Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  parent: Prowl.Runtime.RuntimeUtils
+  definition: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  name: GetSerializableFields(object)
+  nameWithType: RuntimeUtils.GetSerializableFields(object)
+  fullName: Prowl.Runtime.RuntimeUtils.GetSerializableFields(object)
+  nameWithType.vb: RuntimeUtils.GetSerializableFields(Object)
+  fullName.vb: Prowl.Runtime.RuntimeUtils.GetSerializableFields(Object)
+  name.vb: GetSerializableFields(Object)
+  spec.csharp:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  commentId: M:Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  isExternal: true
+  href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  name: GetSerializableFields(object)
+  nameWithType: RuntimeUtils.GetSerializableFields(object)
+  fullName: Prowl.Runtime.RuntimeUtils.GetSerializableFields(object)
+  nameWithType.vb: RuntimeUtils.GetSerializableFields(Object)
+  fullName.vb: Prowl.Runtime.RuntimeUtils.GetSerializableFields(Object)
+  name.vb: GetSerializableFields(Object)
+  spec.csharp:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: Prowl.Runtime.RuntimeUtils
+  commentId: T:Prowl.Runtime.RuntimeUtils
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.RuntimeUtils.html
+  name: RuntimeUtils
+  nameWithType: RuntimeUtils
+  fullName: Prowl.Runtime.RuntimeUtils
+- uid: Prowl.Runtime.InterpolationMode
+  commentId: T:Prowl.Runtime.InterpolationMode
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.InterpolationMode.html
+  name: InterpolationMode
+  nameWithType: InterpolationMode
+  fullName: Prowl.Runtime.InterpolationMode

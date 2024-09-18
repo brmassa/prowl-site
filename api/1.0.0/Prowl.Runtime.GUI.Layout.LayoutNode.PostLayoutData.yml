@@ -1,0 +1,1217 @@
+### YamlMime:ManagedReference
+items:
+- uid: Prowl.Runtime.GUI.Layout.LayoutNode.PostLayoutData
+  commentId: T:Prowl.Runtime.GUI.Layout.LayoutNode.PostLayoutData
+  id: LayoutNode.PostLayoutData
+  parent: Prowl.Runtime.GUI.Layout
+  children:
+  - Prowl.Runtime.GUI.Layout.LayoutNode.PostLayoutData.#ctor(Prowl.Runtime.GUI.Layout.LayoutNode)
+  - Prowl.Runtime.GUI.Layout.LayoutNode.PostLayoutData.ContentRect
+  - Prowl.Runtime.GUI.Layout.LayoutNode.PostLayoutData.GlobalContentHeight
+  - Prowl.Runtime.GUI.Layout.LayoutNode.PostLayoutData.GlobalContentPosition
+  - Prowl.Runtime.GUI.Layout.LayoutNode.PostLayoutData.GlobalContentWidth
+  - Prowl.Runtime.GUI.Layout.LayoutNode.PostLayoutData.GlobalPosition
+  - Prowl.Runtime.GUI.Layout.LayoutNode.PostLayoutData.HScroll
+  - Prowl.Runtime.GUI.Layout.LayoutNode.PostLayoutData.HScrollHeight
+  - Prowl.Runtime.GUI.Layout.LayoutNode.PostLayoutData.InnerRect
+  - Prowl.Runtime.GUI.Layout.LayoutNode.PostLayoutData.InnerRect_NoScroll
+  - Prowl.Runtime.GUI.Layout.LayoutNode.PostLayoutData.IsHScrollVisible
+  - Prowl.Runtime.GUI.Layout.LayoutNode.PostLayoutData.IsVScrollVisible
+  - Prowl.Runtime.GUI.Layout.LayoutNode.PostLayoutData.Margins
+  - Prowl.Runtime.GUI.Layout.LayoutNode.PostLayoutData.MaxScale
+  - Prowl.Runtime.GUI.Layout.LayoutNode.PostLayoutData.OuterRect
+  - Prowl.Runtime.GUI.Layout.LayoutNode.PostLayoutData.Paddings
+  - Prowl.Runtime.GUI.Layout.LayoutNode.PostLayoutData.Position
+  - Prowl.Runtime.GUI.Layout.LayoutNode.PostLayoutData.Rect
+  - Prowl.Runtime.GUI.Layout.LayoutNode.PostLayoutData.Scale
+  - Prowl.Runtime.GUI.Layout.LayoutNode.PostLayoutData.ShowHScroll
+  - Prowl.Runtime.GUI.Layout.LayoutNode.PostLayoutData.ShowVScroll
+  - Prowl.Runtime.GUI.Layout.LayoutNode.PostLayoutData.VScroll
+  - Prowl.Runtime.GUI.Layout.LayoutNode.PostLayoutData.VScrollWidth
+  langs:
+  - csharp
+  - vb
+  name: LayoutNode.PostLayoutData
+  nameWithType: LayoutNode.PostLayoutData
+  fullName: Prowl.Runtime.GUI.Layout.LayoutNode.PostLayoutData
+  type: Struct
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Layout/LayoutNode.Core.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: PostLayoutData
+    path: ../Prowl/Prowl.Runtime/GUI/Layout/LayoutNode.Core.cs
+    startLine: 14
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI.Layout
+  syntax:
+    content: public struct LayoutNode.PostLayoutData
+    content.vb: Public Structure LayoutNode.PostLayoutData
+  inheritedMembers:
+  - System.ValueType.Equals(System.Object)
+  - System.ValueType.GetHashCode
+  - System.ValueType.ToString
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  extensionMethods:
+  - System.Object.Prowl.Runtime.RuntimeUtils.GetSerializableFields
+- uid: Prowl.Runtime.GUI.Layout.LayoutNode.PostLayoutData.#ctor(Prowl.Runtime.GUI.Layout.LayoutNode)
+  commentId: M:Prowl.Runtime.GUI.Layout.LayoutNode.PostLayoutData.#ctor(Prowl.Runtime.GUI.Layout.LayoutNode)
+  id: '#ctor(Prowl.Runtime.GUI.Layout.LayoutNode)'
+  parent: Prowl.Runtime.GUI.Layout.LayoutNode.PostLayoutData
+  langs:
+  - csharp
+  - vb
+  name: PostLayoutData(LayoutNode)
+  nameWithType: LayoutNode.PostLayoutData.PostLayoutData(LayoutNode)
+  fullName: Prowl.Runtime.GUI.Layout.LayoutNode.PostLayoutData.PostLayoutData(Prowl.Runtime.GUI.Layout.LayoutNode)
+  type: Constructor
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Layout/LayoutNode.Core.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: .ctor
+    path: ../Prowl/Prowl.Runtime/GUI/Layout/LayoutNode.Core.cs
+    startLine: 14
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI.Layout
+  syntax:
+    content: public PostLayoutData(LayoutNode node)
+    parameters:
+    - id: node
+      type: Prowl.Runtime.GUI.Layout.LayoutNode
+    content.vb: Public Sub New(node As LayoutNode)
+  overload: Prowl.Runtime.GUI.Layout.LayoutNode.PostLayoutData.#ctor*
+  nameWithType.vb: LayoutNode.PostLayoutData.New(LayoutNode)
+  fullName.vb: Prowl.Runtime.GUI.Layout.LayoutNode.PostLayoutData.New(Prowl.Runtime.GUI.Layout.LayoutNode)
+  name.vb: New(LayoutNode)
+- uid: Prowl.Runtime.GUI.Layout.LayoutNode.PostLayoutData.IsVScrollVisible
+  commentId: P:Prowl.Runtime.GUI.Layout.LayoutNode.PostLayoutData.IsVScrollVisible
+  id: IsVScrollVisible
+  parent: Prowl.Runtime.GUI.Layout.LayoutNode.PostLayoutData
+  langs:
+  - csharp
+  - vb
+  name: IsVScrollVisible
+  nameWithType: LayoutNode.PostLayoutData.IsVScrollVisible
+  fullName: Prowl.Runtime.GUI.Layout.LayoutNode.PostLayoutData.IsVScrollVisible
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Layout/LayoutNode.Core.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: IsVScrollVisible
+    path: ../Prowl/Prowl.Runtime/GUI/Layout/LayoutNode.Core.cs
+    startLine: 18
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI.Layout
+  syntax:
+    content: public readonly bool IsVScrollVisible { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property IsVScrollVisible As Boolean
+  overload: Prowl.Runtime.GUI.Layout.LayoutNode.PostLayoutData.IsVScrollVisible*
+- uid: Prowl.Runtime.GUI.Layout.LayoutNode.PostLayoutData.IsHScrollVisible
+  commentId: P:Prowl.Runtime.GUI.Layout.LayoutNode.PostLayoutData.IsHScrollVisible
+  id: IsHScrollVisible
+  parent: Prowl.Runtime.GUI.Layout.LayoutNode.PostLayoutData
+  langs:
+  - csharp
+  - vb
+  name: IsHScrollVisible
+  nameWithType: LayoutNode.PostLayoutData.IsHScrollVisible
+  fullName: Prowl.Runtime.GUI.Layout.LayoutNode.PostLayoutData.IsHScrollVisible
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Layout/LayoutNode.Core.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: IsHScrollVisible
+    path: ../Prowl/Prowl.Runtime/GUI/Layout/LayoutNode.Core.cs
+    startLine: 19
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI.Layout
+  syntax:
+    content: public readonly bool IsHScrollVisible { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property IsHScrollVisible As Boolean
+  overload: Prowl.Runtime.GUI.Layout.LayoutNode.PostLayoutData.IsHScrollVisible*
+- uid: Prowl.Runtime.GUI.Layout.LayoutNode.PostLayoutData.VScrollWidth
+  commentId: P:Prowl.Runtime.GUI.Layout.LayoutNode.PostLayoutData.VScrollWidth
+  id: VScrollWidth
+  parent: Prowl.Runtime.GUI.Layout.LayoutNode.PostLayoutData
+  langs:
+  - csharp
+  - vb
+  name: VScrollWidth
+  nameWithType: LayoutNode.PostLayoutData.VScrollWidth
+  fullName: Prowl.Runtime.GUI.Layout.LayoutNode.PostLayoutData.VScrollWidth
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Layout/LayoutNode.Core.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: VScrollWidth
+    path: ../Prowl/Prowl.Runtime/GUI/Layout/LayoutNode.Core.cs
+    startLine: 21
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI.Layout
+  syntax:
+    content: public readonly double VScrollWidth { get; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public ReadOnly Property VScrollWidth As Double
+  overload: Prowl.Runtime.GUI.Layout.LayoutNode.PostLayoutData.VScrollWidth*
+- uid: Prowl.Runtime.GUI.Layout.LayoutNode.PostLayoutData.HScrollHeight
+  commentId: P:Prowl.Runtime.GUI.Layout.LayoutNode.PostLayoutData.HScrollHeight
+  id: HScrollHeight
+  parent: Prowl.Runtime.GUI.Layout.LayoutNode.PostLayoutData
+  langs:
+  - csharp
+  - vb
+  name: HScrollHeight
+  nameWithType: LayoutNode.PostLayoutData.HScrollHeight
+  fullName: Prowl.Runtime.GUI.Layout.LayoutNode.PostLayoutData.HScrollHeight
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Layout/LayoutNode.Core.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: HScrollHeight
+    path: ../Prowl/Prowl.Runtime/GUI/Layout/LayoutNode.Core.cs
+    startLine: 22
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI.Layout
+  syntax:
+    content: public readonly double HScrollHeight { get; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public ReadOnly Property HScrollHeight As Double
+  overload: Prowl.Runtime.GUI.Layout.LayoutNode.PostLayoutData.HScrollHeight*
+- uid: Prowl.Runtime.GUI.Layout.LayoutNode.PostLayoutData.InnerRect
+  commentId: P:Prowl.Runtime.GUI.Layout.LayoutNode.PostLayoutData.InnerRect
+  id: InnerRect
+  parent: Prowl.Runtime.GUI.Layout.LayoutNode.PostLayoutData
+  langs:
+  - csharp
+  - vb
+  name: InnerRect
+  nameWithType: LayoutNode.PostLayoutData.InnerRect
+  fullName: Prowl.Runtime.GUI.Layout.LayoutNode.PostLayoutData.InnerRect
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Layout/LayoutNode.Core.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: InnerRect
+    path: ../Prowl/Prowl.Runtime/GUI/Layout/LayoutNode.Core.cs
+    startLine: 24
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI.Layout
+  syntax:
+    content: public readonly Rect InnerRect { get; }
+    parameters: []
+    return:
+      type: Prowl.Runtime.Rect
+    content.vb: Public ReadOnly Property InnerRect As Rect
+  overload: Prowl.Runtime.GUI.Layout.LayoutNode.PostLayoutData.InnerRect*
+- uid: Prowl.Runtime.GUI.Layout.LayoutNode.PostLayoutData.InnerRect_NoScroll
+  commentId: P:Prowl.Runtime.GUI.Layout.LayoutNode.PostLayoutData.InnerRect_NoScroll
+  id: InnerRect_NoScroll
+  parent: Prowl.Runtime.GUI.Layout.LayoutNode.PostLayoutData
+  langs:
+  - csharp
+  - vb
+  name: InnerRect_NoScroll
+  nameWithType: LayoutNode.PostLayoutData.InnerRect_NoScroll
+  fullName: Prowl.Runtime.GUI.Layout.LayoutNode.PostLayoutData.InnerRect_NoScroll
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Layout/LayoutNode.Core.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: InnerRect_NoScroll
+    path: ../Prowl/Prowl.Runtime/GUI/Layout/LayoutNode.Core.cs
+    startLine: 25
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI.Layout
+  syntax:
+    content: public readonly Rect InnerRect_NoScroll { get; }
+    parameters: []
+    return:
+      type: Prowl.Runtime.Rect
+    content.vb: Public ReadOnly Property InnerRect_NoScroll As Rect
+  overload: Prowl.Runtime.GUI.Layout.LayoutNode.PostLayoutData.InnerRect_NoScroll*
+- uid: Prowl.Runtime.GUI.Layout.LayoutNode.PostLayoutData.Rect
+  commentId: P:Prowl.Runtime.GUI.Layout.LayoutNode.PostLayoutData.Rect
+  id: Rect
+  parent: Prowl.Runtime.GUI.Layout.LayoutNode.PostLayoutData
+  langs:
+  - csharp
+  - vb
+  name: Rect
+  nameWithType: LayoutNode.PostLayoutData.Rect
+  fullName: Prowl.Runtime.GUI.Layout.LayoutNode.PostLayoutData.Rect
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Layout/LayoutNode.Core.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Rect
+    path: ../Prowl/Prowl.Runtime/GUI/Layout/LayoutNode.Core.cs
+    startLine: 26
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI.Layout
+  syntax:
+    content: public readonly Rect Rect { get; }
+    parameters: []
+    return:
+      type: Prowl.Runtime.Rect
+    content.vb: Public ReadOnly Property Rect As Rect
+  overload: Prowl.Runtime.GUI.Layout.LayoutNode.PostLayoutData.Rect*
+- uid: Prowl.Runtime.GUI.Layout.LayoutNode.PostLayoutData.OuterRect
+  commentId: P:Prowl.Runtime.GUI.Layout.LayoutNode.PostLayoutData.OuterRect
+  id: OuterRect
+  parent: Prowl.Runtime.GUI.Layout.LayoutNode.PostLayoutData
+  langs:
+  - csharp
+  - vb
+  name: OuterRect
+  nameWithType: LayoutNode.PostLayoutData.OuterRect
+  fullName: Prowl.Runtime.GUI.Layout.LayoutNode.PostLayoutData.OuterRect
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Layout/LayoutNode.Core.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: OuterRect
+    path: ../Prowl/Prowl.Runtime/GUI/Layout/LayoutNode.Core.cs
+    startLine: 27
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI.Layout
+  syntax:
+    content: public readonly Rect OuterRect { get; }
+    parameters: []
+    return:
+      type: Prowl.Runtime.Rect
+    content.vb: Public ReadOnly Property OuterRect As Rect
+  overload: Prowl.Runtime.GUI.Layout.LayoutNode.PostLayoutData.OuterRect*
+- uid: Prowl.Runtime.GUI.Layout.LayoutNode.PostLayoutData.GlobalPosition
+  commentId: P:Prowl.Runtime.GUI.Layout.LayoutNode.PostLayoutData.GlobalPosition
+  id: GlobalPosition
+  parent: Prowl.Runtime.GUI.Layout.LayoutNode.PostLayoutData
+  langs:
+  - csharp
+  - vb
+  name: GlobalPosition
+  nameWithType: LayoutNode.PostLayoutData.GlobalPosition
+  fullName: Prowl.Runtime.GUI.Layout.LayoutNode.PostLayoutData.GlobalPosition
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Layout/LayoutNode.Core.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: GlobalPosition
+    path: ../Prowl/Prowl.Runtime/GUI/Layout/LayoutNode.Core.cs
+    startLine: 29
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI.Layout
+  syntax:
+    content: public readonly Vector2 GlobalPosition { get; }
+    parameters: []
+    return:
+      type: Prowl.Runtime.Vector2
+    content.vb: Public ReadOnly Property GlobalPosition As Vector2
+  overload: Prowl.Runtime.GUI.Layout.LayoutNode.PostLayoutData.GlobalPosition*
+- uid: Prowl.Runtime.GUI.Layout.LayoutNode.PostLayoutData.GlobalContentPosition
+  commentId: P:Prowl.Runtime.GUI.Layout.LayoutNode.PostLayoutData.GlobalContentPosition
+  id: GlobalContentPosition
+  parent: Prowl.Runtime.GUI.Layout.LayoutNode.PostLayoutData
+  langs:
+  - csharp
+  - vb
+  name: GlobalContentPosition
+  nameWithType: LayoutNode.PostLayoutData.GlobalContentPosition
+  fullName: Prowl.Runtime.GUI.Layout.LayoutNode.PostLayoutData.GlobalContentPosition
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Layout/LayoutNode.Core.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: GlobalContentPosition
+    path: ../Prowl/Prowl.Runtime/GUI/Layout/LayoutNode.Core.cs
+    startLine: 42
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI.Layout
+  syntax:
+    content: public readonly Vector2 GlobalContentPosition { get; }
+    parameters: []
+    return:
+      type: Prowl.Runtime.Vector2
+    content.vb: Public ReadOnly Property GlobalContentPosition As Vector2
+  overload: Prowl.Runtime.GUI.Layout.LayoutNode.PostLayoutData.GlobalContentPosition*
+- uid: Prowl.Runtime.GUI.Layout.LayoutNode.PostLayoutData.GlobalContentWidth
+  commentId: P:Prowl.Runtime.GUI.Layout.LayoutNode.PostLayoutData.GlobalContentWidth
+  id: GlobalContentWidth
+  parent: Prowl.Runtime.GUI.Layout.LayoutNode.PostLayoutData
+  langs:
+  - csharp
+  - vb
+  name: GlobalContentWidth
+  nameWithType: LayoutNode.PostLayoutData.GlobalContentWidth
+  fullName: Prowl.Runtime.GUI.Layout.LayoutNode.PostLayoutData.GlobalContentWidth
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Layout/LayoutNode.Core.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: GlobalContentWidth
+    path: ../Prowl/Prowl.Runtime/GUI/Layout/LayoutNode.Core.cs
+    startLine: 43
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI.Layout
+  syntax:
+    content: public readonly double GlobalContentWidth { get; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public ReadOnly Property GlobalContentWidth As Double
+  overload: Prowl.Runtime.GUI.Layout.LayoutNode.PostLayoutData.GlobalContentWidth*
+- uid: Prowl.Runtime.GUI.Layout.LayoutNode.PostLayoutData.GlobalContentHeight
+  commentId: P:Prowl.Runtime.GUI.Layout.LayoutNode.PostLayoutData.GlobalContentHeight
+  id: GlobalContentHeight
+  parent: Prowl.Runtime.GUI.Layout.LayoutNode.PostLayoutData
+  langs:
+  - csharp
+  - vb
+  name: GlobalContentHeight
+  nameWithType: LayoutNode.PostLayoutData.GlobalContentHeight
+  fullName: Prowl.Runtime.GUI.Layout.LayoutNode.PostLayoutData.GlobalContentHeight
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Layout/LayoutNode.Core.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: GlobalContentHeight
+    path: ../Prowl/Prowl.Runtime/GUI/Layout/LayoutNode.Core.cs
+    startLine: 44
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI.Layout
+  syntax:
+    content: public readonly double GlobalContentHeight { get; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public ReadOnly Property GlobalContentHeight As Double
+  overload: Prowl.Runtime.GUI.Layout.LayoutNode.PostLayoutData.GlobalContentHeight*
+- uid: Prowl.Runtime.GUI.Layout.LayoutNode.PostLayoutData.Scale
+  commentId: F:Prowl.Runtime.GUI.Layout.LayoutNode.PostLayoutData.Scale
+  id: Scale
+  parent: Prowl.Runtime.GUI.Layout.LayoutNode.PostLayoutData
+  langs:
+  - csharp
+  - vb
+  name: Scale
+  nameWithType: LayoutNode.PostLayoutData.Scale
+  fullName: Prowl.Runtime.GUI.Layout.LayoutNode.PostLayoutData.Scale
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Layout/LayoutNode.Core.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Scale
+    path: ../Prowl/Prowl.Runtime/GUI/Layout/LayoutNode.Core.cs
+    startLine: 48
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI.Layout
+  syntax:
+    content: public Vector2 Scale
+    return:
+      type: Prowl.Runtime.Vector2
+    content.vb: Public Scale As Vector2
+- uid: Prowl.Runtime.GUI.Layout.LayoutNode.PostLayoutData.MaxScale
+  commentId: F:Prowl.Runtime.GUI.Layout.LayoutNode.PostLayoutData.MaxScale
+  id: MaxScale
+  parent: Prowl.Runtime.GUI.Layout.LayoutNode.PostLayoutData
+  langs:
+  - csharp
+  - vb
+  name: MaxScale
+  nameWithType: LayoutNode.PostLayoutData.MaxScale
+  fullName: Prowl.Runtime.GUI.Layout.LayoutNode.PostLayoutData.MaxScale
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Layout/LayoutNode.Core.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: MaxScale
+    path: ../Prowl/Prowl.Runtime/GUI/Layout/LayoutNode.Core.cs
+    startLine: 49
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI.Layout
+  syntax:
+    content: public Vector2 MaxScale
+    return:
+      type: Prowl.Runtime.Vector2
+    content.vb: Public MaxScale As Vector2
+- uid: Prowl.Runtime.GUI.Layout.LayoutNode.PostLayoutData.Margins
+  commentId: F:Prowl.Runtime.GUI.Layout.LayoutNode.PostLayoutData.Margins
+  id: Margins
+  parent: Prowl.Runtime.GUI.Layout.LayoutNode.PostLayoutData
+  langs:
+  - csharp
+  - vb
+  name: Margins
+  nameWithType: LayoutNode.PostLayoutData.Margins
+  fullName: Prowl.Runtime.GUI.Layout.LayoutNode.PostLayoutData.Margins
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Layout/LayoutNode.Core.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Margins
+    path: ../Prowl/Prowl.Runtime/GUI/Layout/LayoutNode.Core.cs
+    startLine: 50
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI.Layout
+  syntax:
+    content: public Spacing Margins
+    return:
+      type: Prowl.Runtime.GUI.Spacing
+    content.vb: Public Margins As Spacing
+- uid: Prowl.Runtime.GUI.Layout.LayoutNode.PostLayoutData.Paddings
+  commentId: F:Prowl.Runtime.GUI.Layout.LayoutNode.PostLayoutData.Paddings
+  id: Paddings
+  parent: Prowl.Runtime.GUI.Layout.LayoutNode.PostLayoutData
+  langs:
+  - csharp
+  - vb
+  name: Paddings
+  nameWithType: LayoutNode.PostLayoutData.Paddings
+  fullName: Prowl.Runtime.GUI.Layout.LayoutNode.PostLayoutData.Paddings
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Layout/LayoutNode.Core.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Paddings
+    path: ../Prowl/Prowl.Runtime/GUI/Layout/LayoutNode.Core.cs
+    startLine: 51
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI.Layout
+  syntax:
+    content: public Spacing Paddings
+    return:
+      type: Prowl.Runtime.GUI.Spacing
+    content.vb: Public Paddings As Spacing
+- uid: Prowl.Runtime.GUI.Layout.LayoutNode.PostLayoutData.Position
+  commentId: F:Prowl.Runtime.GUI.Layout.LayoutNode.PostLayoutData.Position
+  id: Position
+  parent: Prowl.Runtime.GUI.Layout.LayoutNode.PostLayoutData
+  langs:
+  - csharp
+  - vb
+  name: Position
+  nameWithType: LayoutNode.PostLayoutData.Position
+  fullName: Prowl.Runtime.GUI.Layout.LayoutNode.PostLayoutData.Position
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Layout/LayoutNode.Core.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Position
+    path: ../Prowl/Prowl.Runtime/GUI/Layout/LayoutNode.Core.cs
+    startLine: 52
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI.Layout
+  syntax:
+    content: public Vector2 Position
+    return:
+      type: Prowl.Runtime.Vector2
+    content.vb: Public Position As Vector2
+- uid: Prowl.Runtime.GUI.Layout.LayoutNode.PostLayoutData.ContentRect
+  commentId: F:Prowl.Runtime.GUI.Layout.LayoutNode.PostLayoutData.ContentRect
+  id: ContentRect
+  parent: Prowl.Runtime.GUI.Layout.LayoutNode.PostLayoutData
+  langs:
+  - csharp
+  - vb
+  name: ContentRect
+  nameWithType: LayoutNode.PostLayoutData.ContentRect
+  fullName: Prowl.Runtime.GUI.Layout.LayoutNode.PostLayoutData.ContentRect
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Layout/LayoutNode.Core.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: ContentRect
+    path: ../Prowl/Prowl.Runtime/GUI/Layout/LayoutNode.Core.cs
+    startLine: 53
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI.Layout
+  syntax:
+    content: public Rect ContentRect
+    return:
+      type: Prowl.Runtime.Rect
+    content.vb: Public ContentRect As Rect
+- uid: Prowl.Runtime.GUI.Layout.LayoutNode.PostLayoutData.VScroll
+  commentId: F:Prowl.Runtime.GUI.Layout.LayoutNode.PostLayoutData.VScroll
+  id: VScroll
+  parent: Prowl.Runtime.GUI.Layout.LayoutNode.PostLayoutData
+  langs:
+  - csharp
+  - vb
+  name: VScroll
+  nameWithType: LayoutNode.PostLayoutData.VScroll
+  fullName: Prowl.Runtime.GUI.Layout.LayoutNode.PostLayoutData.VScroll
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Layout/LayoutNode.Core.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: VScroll
+    path: ../Prowl/Prowl.Runtime/GUI/Layout/LayoutNode.Core.cs
+    startLine: 56
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI.Layout
+  syntax:
+    content: public double VScroll
+    return:
+      type: System.Double
+    content.vb: Public VScroll As Double
+- uid: Prowl.Runtime.GUI.Layout.LayoutNode.PostLayoutData.HScroll
+  commentId: F:Prowl.Runtime.GUI.Layout.LayoutNode.PostLayoutData.HScroll
+  id: HScroll
+  parent: Prowl.Runtime.GUI.Layout.LayoutNode.PostLayoutData
+  langs:
+  - csharp
+  - vb
+  name: HScroll
+  nameWithType: LayoutNode.PostLayoutData.HScroll
+  fullName: Prowl.Runtime.GUI.Layout.LayoutNode.PostLayoutData.HScroll
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Layout/LayoutNode.Core.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: HScroll
+    path: ../Prowl/Prowl.Runtime/GUI/Layout/LayoutNode.Core.cs
+    startLine: 57
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI.Layout
+  syntax:
+    content: public double HScroll
+    return:
+      type: System.Double
+    content.vb: Public HScroll As Double
+- uid: Prowl.Runtime.GUI.Layout.LayoutNode.PostLayoutData.ShowVScroll
+  commentId: F:Prowl.Runtime.GUI.Layout.LayoutNode.PostLayoutData.ShowVScroll
+  id: ShowVScroll
+  parent: Prowl.Runtime.GUI.Layout.LayoutNode.PostLayoutData
+  langs:
+  - csharp
+  - vb
+  name: ShowVScroll
+  nameWithType: LayoutNode.PostLayoutData.ShowVScroll
+  fullName: Prowl.Runtime.GUI.Layout.LayoutNode.PostLayoutData.ShowVScroll
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Layout/LayoutNode.Core.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: ShowVScroll
+    path: ../Prowl/Prowl.Runtime/GUI/Layout/LayoutNode.Core.cs
+    startLine: 58
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI.Layout
+  syntax:
+    content: public bool ShowVScroll
+    return:
+      type: System.Boolean
+    content.vb: Public ShowVScroll As Boolean
+- uid: Prowl.Runtime.GUI.Layout.LayoutNode.PostLayoutData.ShowHScroll
+  commentId: F:Prowl.Runtime.GUI.Layout.LayoutNode.PostLayoutData.ShowHScroll
+  id: ShowHScroll
+  parent: Prowl.Runtime.GUI.Layout.LayoutNode.PostLayoutData
+  langs:
+  - csharp
+  - vb
+  name: ShowHScroll
+  nameWithType: LayoutNode.PostLayoutData.ShowHScroll
+  fullName: Prowl.Runtime.GUI.Layout.LayoutNode.PostLayoutData.ShowHScroll
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Layout/LayoutNode.Core.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: ShowHScroll
+    path: ../Prowl/Prowl.Runtime/GUI/Layout/LayoutNode.Core.cs
+    startLine: 59
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI.Layout
+  syntax:
+    content: public bool ShowHScroll
+    return:
+      type: System.Boolean
+    content.vb: Public ShowHScroll As Boolean
+references:
+- uid: Prowl.Runtime.GUI.Layout
+  commentId: N:Prowl.Runtime.GUI.Layout
+  href: Prowl.html
+  name: Prowl.Runtime.GUI.Layout
+  nameWithType: Prowl.Runtime.GUI.Layout
+  fullName: Prowl.Runtime.GUI.Layout
+  spec.csharp:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+  - name: .
+  - uid: Prowl.Runtime.GUI
+    name: GUI
+    href: Prowl.Runtime.GUI.html
+  - name: .
+  - uid: Prowl.Runtime.GUI.Layout
+    name: Layout
+    href: Prowl.Runtime.GUI.Layout.html
+  spec.vb:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+  - name: .
+  - uid: Prowl.Runtime.GUI
+    name: GUI
+    href: Prowl.Runtime.GUI.html
+  - name: .
+  - uid: Prowl.Runtime.GUI.Layout
+    name: Layout
+    href: Prowl.Runtime.GUI.Layout.html
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  name: Equals(object)
+  nameWithType: ValueType.Equals(object)
+  fullName: System.ValueType.Equals(object)
+  nameWithType.vb: ValueType.Equals(Object)
+  fullName.vb: System.ValueType.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Prowl.Runtime.RuntimeUtils.GetSerializableFields
+  commentId: M:Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  parent: Prowl.Runtime.RuntimeUtils
+  definition: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  name: GetSerializableFields(object)
+  nameWithType: RuntimeUtils.GetSerializableFields(object)
+  fullName: Prowl.Runtime.RuntimeUtils.GetSerializableFields(object)
+  nameWithType.vb: RuntimeUtils.GetSerializableFields(Object)
+  fullName.vb: Prowl.Runtime.RuntimeUtils.GetSerializableFields(Object)
+  name.vb: GetSerializableFields(Object)
+  spec.csharp:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  commentId: M:Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  isExternal: true
+  href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  name: GetSerializableFields(object)
+  nameWithType: RuntimeUtils.GetSerializableFields(object)
+  fullName: Prowl.Runtime.RuntimeUtils.GetSerializableFields(object)
+  nameWithType.vb: RuntimeUtils.GetSerializableFields(Object)
+  fullName.vb: Prowl.Runtime.RuntimeUtils.GetSerializableFields(Object)
+  name.vb: GetSerializableFields(Object)
+  spec.csharp:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: Prowl.Runtime.RuntimeUtils
+  commentId: T:Prowl.Runtime.RuntimeUtils
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.RuntimeUtils.html
+  name: RuntimeUtils
+  nameWithType: RuntimeUtils
+  fullName: Prowl.Runtime.RuntimeUtils
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Prowl.Runtime
+  commentId: N:Prowl.Runtime
+  href: Prowl.html
+  name: Prowl.Runtime
+  nameWithType: Prowl.Runtime
+  fullName: Prowl.Runtime
+  spec.csharp:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+  spec.vb:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+- uid: Prowl.Runtime.GUI.Layout.LayoutNode.PostLayoutData.#ctor*
+  commentId: Overload:Prowl.Runtime.GUI.Layout.LayoutNode.PostLayoutData.#ctor
+  href: Prowl.Runtime.GUI.Layout.LayoutNode.PostLayoutData.html#Prowl_Runtime_GUI_Layout_LayoutNode_PostLayoutData__ctor_Prowl_Runtime_GUI_Layout_LayoutNode_
+  name: PostLayoutData
+  nameWithType: LayoutNode.PostLayoutData.PostLayoutData
+  fullName: Prowl.Runtime.GUI.Layout.LayoutNode.PostLayoutData.PostLayoutData
+  nameWithType.vb: LayoutNode.PostLayoutData.New
+  fullName.vb: Prowl.Runtime.GUI.Layout.LayoutNode.PostLayoutData.New
+  name.vb: New
+- uid: Prowl.Runtime.GUI.Layout.LayoutNode
+  commentId: T:Prowl.Runtime.GUI.Layout.LayoutNode
+  parent: Prowl.Runtime.GUI.Layout
+  href: Prowl.Runtime.GUI.Layout.LayoutNode.html
+  name: LayoutNode
+  nameWithType: LayoutNode
+  fullName: Prowl.Runtime.GUI.Layout.LayoutNode
+- uid: Prowl.Runtime.GUI.Layout.LayoutNode.PostLayoutData.IsVScrollVisible*
+  commentId: Overload:Prowl.Runtime.GUI.Layout.LayoutNode.PostLayoutData.IsVScrollVisible
+  href: Prowl.Runtime.GUI.Layout.LayoutNode.PostLayoutData.html#Prowl_Runtime_GUI_Layout_LayoutNode_PostLayoutData_IsVScrollVisible
+  name: IsVScrollVisible
+  nameWithType: LayoutNode.PostLayoutData.IsVScrollVisible
+  fullName: Prowl.Runtime.GUI.Layout.LayoutNode.PostLayoutData.IsVScrollVisible
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: Prowl.Runtime.GUI.Layout.LayoutNode.PostLayoutData.IsHScrollVisible*
+  commentId: Overload:Prowl.Runtime.GUI.Layout.LayoutNode.PostLayoutData.IsHScrollVisible
+  href: Prowl.Runtime.GUI.Layout.LayoutNode.PostLayoutData.html#Prowl_Runtime_GUI_Layout_LayoutNode_PostLayoutData_IsHScrollVisible
+  name: IsHScrollVisible
+  nameWithType: LayoutNode.PostLayoutData.IsHScrollVisible
+  fullName: Prowl.Runtime.GUI.Layout.LayoutNode.PostLayoutData.IsHScrollVisible
+- uid: Prowl.Runtime.GUI.Layout.LayoutNode.PostLayoutData.VScrollWidth*
+  commentId: Overload:Prowl.Runtime.GUI.Layout.LayoutNode.PostLayoutData.VScrollWidth
+  href: Prowl.Runtime.GUI.Layout.LayoutNode.PostLayoutData.html#Prowl_Runtime_GUI_Layout_LayoutNode_PostLayoutData_VScrollWidth
+  name: VScrollWidth
+  nameWithType: LayoutNode.PostLayoutData.VScrollWidth
+  fullName: Prowl.Runtime.GUI.Layout.LayoutNode.PostLayoutData.VScrollWidth
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.double
+  name: double
+  nameWithType: double
+  fullName: double
+  nameWithType.vb: Double
+  fullName.vb: Double
+  name.vb: Double
+- uid: Prowl.Runtime.GUI.Layout.LayoutNode.PostLayoutData.HScrollHeight*
+  commentId: Overload:Prowl.Runtime.GUI.Layout.LayoutNode.PostLayoutData.HScrollHeight
+  href: Prowl.Runtime.GUI.Layout.LayoutNode.PostLayoutData.html#Prowl_Runtime_GUI_Layout_LayoutNode_PostLayoutData_HScrollHeight
+  name: HScrollHeight
+  nameWithType: LayoutNode.PostLayoutData.HScrollHeight
+  fullName: Prowl.Runtime.GUI.Layout.LayoutNode.PostLayoutData.HScrollHeight
+- uid: Prowl.Runtime.GUI.Layout.LayoutNode.PostLayoutData.InnerRect*
+  commentId: Overload:Prowl.Runtime.GUI.Layout.LayoutNode.PostLayoutData.InnerRect
+  href: Prowl.Runtime.GUI.Layout.LayoutNode.PostLayoutData.html#Prowl_Runtime_GUI_Layout_LayoutNode_PostLayoutData_InnerRect
+  name: InnerRect
+  nameWithType: LayoutNode.PostLayoutData.InnerRect
+  fullName: Prowl.Runtime.GUI.Layout.LayoutNode.PostLayoutData.InnerRect
+- uid: Prowl.Runtime.Rect
+  commentId: T:Prowl.Runtime.Rect
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.Rect.html
+  name: Rect
+  nameWithType: Rect
+  fullName: Prowl.Runtime.Rect
+- uid: Prowl.Runtime.GUI.Layout.LayoutNode.PostLayoutData.InnerRect_NoScroll*
+  commentId: Overload:Prowl.Runtime.GUI.Layout.LayoutNode.PostLayoutData.InnerRect_NoScroll
+  href: Prowl.Runtime.GUI.Layout.LayoutNode.PostLayoutData.html#Prowl_Runtime_GUI_Layout_LayoutNode_PostLayoutData_InnerRect_NoScroll
+  name: InnerRect_NoScroll
+  nameWithType: LayoutNode.PostLayoutData.InnerRect_NoScroll
+  fullName: Prowl.Runtime.GUI.Layout.LayoutNode.PostLayoutData.InnerRect_NoScroll
+- uid: Prowl.Runtime.GUI.Layout.LayoutNode.PostLayoutData.Rect*
+  commentId: Overload:Prowl.Runtime.GUI.Layout.LayoutNode.PostLayoutData.Rect
+  href: Prowl.Runtime.GUI.Layout.LayoutNode.PostLayoutData.html#Prowl_Runtime_GUI_Layout_LayoutNode_PostLayoutData_Rect
+  name: Rect
+  nameWithType: LayoutNode.PostLayoutData.Rect
+  fullName: Prowl.Runtime.GUI.Layout.LayoutNode.PostLayoutData.Rect
+- uid: Prowl.Runtime.GUI.Layout.LayoutNode.PostLayoutData.OuterRect*
+  commentId: Overload:Prowl.Runtime.GUI.Layout.LayoutNode.PostLayoutData.OuterRect
+  href: Prowl.Runtime.GUI.Layout.LayoutNode.PostLayoutData.html#Prowl_Runtime_GUI_Layout_LayoutNode_PostLayoutData_OuterRect
+  name: OuterRect
+  nameWithType: LayoutNode.PostLayoutData.OuterRect
+  fullName: Prowl.Runtime.GUI.Layout.LayoutNode.PostLayoutData.OuterRect
+- uid: Prowl.Runtime.GUI.Layout.LayoutNode.PostLayoutData.GlobalPosition*
+  commentId: Overload:Prowl.Runtime.GUI.Layout.LayoutNode.PostLayoutData.GlobalPosition
+  href: Prowl.Runtime.GUI.Layout.LayoutNode.PostLayoutData.html#Prowl_Runtime_GUI_Layout_LayoutNode_PostLayoutData_GlobalPosition
+  name: GlobalPosition
+  nameWithType: LayoutNode.PostLayoutData.GlobalPosition
+  fullName: Prowl.Runtime.GUI.Layout.LayoutNode.PostLayoutData.GlobalPosition
+- uid: Prowl.Runtime.Vector2
+  commentId: T:Prowl.Runtime.Vector2
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.Vector2.html
+  name: Vector2
+  nameWithType: Vector2
+  fullName: Prowl.Runtime.Vector2
+- uid: Prowl.Runtime.GUI.Layout.LayoutNode.PostLayoutData.GlobalContentPosition*
+  commentId: Overload:Prowl.Runtime.GUI.Layout.LayoutNode.PostLayoutData.GlobalContentPosition
+  href: Prowl.Runtime.GUI.Layout.LayoutNode.PostLayoutData.html#Prowl_Runtime_GUI_Layout_LayoutNode_PostLayoutData_GlobalContentPosition
+  name: GlobalContentPosition
+  nameWithType: LayoutNode.PostLayoutData.GlobalContentPosition
+  fullName: Prowl.Runtime.GUI.Layout.LayoutNode.PostLayoutData.GlobalContentPosition
+- uid: Prowl.Runtime.GUI.Layout.LayoutNode.PostLayoutData.GlobalContentWidth*
+  commentId: Overload:Prowl.Runtime.GUI.Layout.LayoutNode.PostLayoutData.GlobalContentWidth
+  href: Prowl.Runtime.GUI.Layout.LayoutNode.PostLayoutData.html#Prowl_Runtime_GUI_Layout_LayoutNode_PostLayoutData_GlobalContentWidth
+  name: GlobalContentWidth
+  nameWithType: LayoutNode.PostLayoutData.GlobalContentWidth
+  fullName: Prowl.Runtime.GUI.Layout.LayoutNode.PostLayoutData.GlobalContentWidth
+- uid: Prowl.Runtime.GUI.Layout.LayoutNode.PostLayoutData.GlobalContentHeight*
+  commentId: Overload:Prowl.Runtime.GUI.Layout.LayoutNode.PostLayoutData.GlobalContentHeight
+  href: Prowl.Runtime.GUI.Layout.LayoutNode.PostLayoutData.html#Prowl_Runtime_GUI_Layout_LayoutNode_PostLayoutData_GlobalContentHeight
+  name: GlobalContentHeight
+  nameWithType: LayoutNode.PostLayoutData.GlobalContentHeight
+  fullName: Prowl.Runtime.GUI.Layout.LayoutNode.PostLayoutData.GlobalContentHeight
+- uid: Prowl.Runtime.GUI.Spacing
+  commentId: T:Prowl.Runtime.GUI.Spacing
+  parent: Prowl.Runtime.GUI
+  href: Prowl.Runtime.GUI.Spacing.html
+  name: Spacing
+  nameWithType: Spacing
+  fullName: Prowl.Runtime.GUI.Spacing
+- uid: Prowl.Runtime.GUI
+  commentId: N:Prowl.Runtime.GUI
+  href: Prowl.html
+  name: Prowl.Runtime.GUI
+  nameWithType: Prowl.Runtime.GUI
+  fullName: Prowl.Runtime.GUI
+  spec.csharp:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+  - name: .
+  - uid: Prowl.Runtime.GUI
+    name: GUI
+    href: Prowl.Runtime.GUI.html
+  spec.vb:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+  - name: .
+  - uid: Prowl.Runtime.GUI
+    name: GUI
+    href: Prowl.Runtime.GUI.html

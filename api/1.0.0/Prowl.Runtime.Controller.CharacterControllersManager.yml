@@ -1,0 +1,1122 @@
+### YamlMime:ManagedReference
+items:
+- uid: Prowl.Runtime.Controller.CharacterControllersManager
+  commentId: T:Prowl.Runtime.Controller.CharacterControllersManager
+  id: CharacterControllersManager
+  parent: Prowl.Runtime.Controller
+  children:
+  - Prowl.Runtime.Controller.CharacterControllersManager.#ctor(BepuUtilities.Memory.BufferPool,System.Int32,System.Int32)
+  - Prowl.Runtime.Controller.CharacterControllersManager.AllocateCharacter(BepuPhysics.BodyHandle)
+  - Prowl.Runtime.Controller.CharacterControllersManager.CharacterCount
+  - Prowl.Runtime.Controller.CharacterControllersManager.Dispose
+  - Prowl.Runtime.Controller.CharacterControllersManager.EnsureCapacity(System.Int32,System.Int32)
+  - Prowl.Runtime.Controller.CharacterControllersManager.GetCharacterByBodyHandle(BepuPhysics.BodyHandle)
+  - Prowl.Runtime.Controller.CharacterControllersManager.GetCharacterByIndex(System.Int32)
+  - Prowl.Runtime.Controller.CharacterControllersManager.GetCharacterIndexForBodyHandle(System.Int32)
+  - Prowl.Runtime.Controller.CharacterControllersManager.Initialize(BepuPhysics.Simulation)
+  - Prowl.Runtime.Controller.CharacterControllersManager.RemoveCharacterByBodyHandle(BepuPhysics.BodyHandle)
+  - Prowl.Runtime.Controller.CharacterControllersManager.RemoveCharacterByIndex(System.Int32)
+  - Prowl.Runtime.Controller.CharacterControllersManager.Resize(System.Int32,System.Int32)
+  - Prowl.Runtime.Controller.CharacterControllersManager.TryReportContacts``1(BepuPhysics.CollisionDetection.CollidablePair@,``0@,System.Int32,BepuPhysics.CollisionDetection.PairMaterialProperties@)
+  langs:
+  - csharp
+  - vb
+  name: CharacterControllersManager
+  nameWithType: CharacterControllersManager
+  fullName: Prowl.Runtime.Controller.CharacterControllersManager
+  type: Class
+  source:
+    remote:
+      path: Prowl.Runtime/Components/Physics/Types/Controller/CharacterControllersManager.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: CharacterControllersManager
+    path: ../Prowl/Prowl.Runtime/Components/Physics/Types/Controller/CharacterControllersManager.cs
+    startLine: 20
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.Controller
+  summary: System that manages all the characters in a simulation. Responsible for updating movement constraints based on character goals and contact states.
+  example: []
+  syntax:
+    content: 'public class CharacterControllersManager : IDisposable'
+    content.vb: Public Class CharacterControllersManager Implements IDisposable
+  inheritance:
+  - System.Object
+  implements:
+  - System.IDisposable
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  extensionMethods:
+  - System.Object.Prowl.Runtime.RuntimeUtils.GetSerializableFields
+- uid: Prowl.Runtime.Controller.CharacterControllersManager.CharacterCount
+  commentId: P:Prowl.Runtime.Controller.CharacterControllersManager.CharacterCount
+  id: CharacterCount
+  parent: Prowl.Runtime.Controller.CharacterControllersManager
+  langs:
+  - csharp
+  - vb
+  name: CharacterCount
+  nameWithType: CharacterControllersManager.CharacterCount
+  fullName: Prowl.Runtime.Controller.CharacterControllersManager.CharacterCount
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/Components/Physics/Types/Controller/CharacterControllersManager.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: CharacterCount
+    path: ../Prowl/Prowl.Runtime/Components/Physics/Types/Controller/CharacterControllersManager.cs
+    startLine: 30
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.Controller
+  summary: Gets the number of characters being controlled.
+  example: []
+  syntax:
+    content: public int CharacterCount { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property CharacterCount As Integer
+  overload: Prowl.Runtime.Controller.CharacterControllersManager.CharacterCount*
+- uid: Prowl.Runtime.Controller.CharacterControllersManager.#ctor(BepuUtilities.Memory.BufferPool,System.Int32,System.Int32)
+  commentId: M:Prowl.Runtime.Controller.CharacterControllersManager.#ctor(BepuUtilities.Memory.BufferPool,System.Int32,System.Int32)
+  id: '#ctor(BepuUtilities.Memory.BufferPool,System.Int32,System.Int32)'
+  parent: Prowl.Runtime.Controller.CharacterControllersManager
+  langs:
+  - csharp
+  - vb
+  name: CharacterControllersManager(BufferPool, int, int)
+  nameWithType: CharacterControllersManager.CharacterControllersManager(BufferPool, int, int)
+  fullName: Prowl.Runtime.Controller.CharacterControllersManager.CharacterControllersManager(BepuUtilities.Memory.BufferPool, int, int)
+  type: Constructor
+  source:
+    remote:
+      path: Prowl.Runtime/Components/Physics/Types/Controller/CharacterControllersManager.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: .ctor
+    path: ../Prowl/Prowl.Runtime/Components/Physics/Types/Controller/CharacterControllersManager.cs
+    startLine: 38
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.Controller
+  summary: Creates a character controller systme.
+  example: []
+  syntax:
+    content: public CharacterControllersManager(BufferPool pool, int initialCharacterCapacity = 4096, int initialBodyHandleCapacity = 4096)
+    parameters:
+    - id: pool
+      type: BepuUtilities.Memory.BufferPool
+      description: Pool to allocate resources from.
+    - id: initialCharacterCapacity
+      type: System.Int32
+      description: Number of characters to initially allocate space for.
+    - id: initialBodyHandleCapacity
+      type: System.Int32
+      description: Number of body handles to initially allocate space for in the body handle-&gt;character mapping.
+    content.vb: Public Sub New(pool As BufferPool, initialCharacterCapacity As Integer = 4096, initialBodyHandleCapacity As Integer = 4096)
+  overload: Prowl.Runtime.Controller.CharacterControllersManager.#ctor*
+  nameWithType.vb: CharacterControllersManager.New(BufferPool, Integer, Integer)
+  fullName.vb: Prowl.Runtime.Controller.CharacterControllersManager.New(BepuUtilities.Memory.BufferPool, Integer, Integer)
+  name.vb: New(BufferPool, Integer, Integer)
+- uid: Prowl.Runtime.Controller.CharacterControllersManager.Initialize(BepuPhysics.Simulation)
+  commentId: M:Prowl.Runtime.Controller.CharacterControllersManager.Initialize(BepuPhysics.Simulation)
+  id: Initialize(BepuPhysics.Simulation)
+  parent: Prowl.Runtime.Controller.CharacterControllersManager
+  langs:
+  - csharp
+  - vb
+  name: Initialize(Simulation)
+  nameWithType: CharacterControllersManager.Initialize(Simulation)
+  fullName: Prowl.Runtime.Controller.CharacterControllersManager.Initialize(BepuPhysics.Simulation)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Components/Physics/Types/Controller/CharacterControllersManager.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Initialize
+    path: ../Prowl/Prowl.Runtime/Components/Physics/Types/Controller/CharacterControllersManager.cs
+    startLine: 51
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.Controller
+  summary: Caches the simulation associated with the characters.
+  example: []
+  syntax:
+    content: public void Initialize(Simulation simulation)
+    parameters:
+    - id: simulation
+      type: BepuPhysics.Simulation
+      description: Simulation to be associated with the characters.
+    content.vb: Public Sub Initialize(simulation As Simulation)
+  overload: Prowl.Runtime.Controller.CharacterControllersManager.Initialize*
+- uid: Prowl.Runtime.Controller.CharacterControllersManager.GetCharacterIndexForBodyHandle(System.Int32)
+  commentId: M:Prowl.Runtime.Controller.CharacterControllersManager.GetCharacterIndexForBodyHandle(System.Int32)
+  id: GetCharacterIndexForBodyHandle(System.Int32)
+  parent: Prowl.Runtime.Controller.CharacterControllersManager
+  langs:
+  - csharp
+  - vb
+  name: GetCharacterIndexForBodyHandle(int)
+  nameWithType: CharacterControllersManager.GetCharacterIndexForBodyHandle(int)
+  fullName: Prowl.Runtime.Controller.CharacterControllersManager.GetCharacterIndexForBodyHandle(int)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Components/Physics/Types/Controller/CharacterControllersManager.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: GetCharacterIndexForBodyHandle
+    path: ../Prowl/Prowl.Runtime/Components/Physics/Types/Controller/CharacterControllersManager.cs
+    startLine: 74
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.Controller
+  summary: Gets the current memory slot index of a character using its associated body handle.
+  example: []
+  syntax:
+    content: public int GetCharacterIndexForBodyHandle(int bodyHandle)
+    parameters:
+    - id: bodyHandle
+      type: System.Int32
+      description: Body handle associated with the character to look up the index of.
+    return:
+      type: System.Int32
+      description: Index of the character associated with the body handle.
+    content.vb: Public Function GetCharacterIndexForBodyHandle(bodyHandle As Integer) As Integer
+  overload: Prowl.Runtime.Controller.CharacterControllersManager.GetCharacterIndexForBodyHandle*
+  nameWithType.vb: CharacterControllersManager.GetCharacterIndexForBodyHandle(Integer)
+  fullName.vb: Prowl.Runtime.Controller.CharacterControllersManager.GetCharacterIndexForBodyHandle(Integer)
+  name.vb: GetCharacterIndexForBodyHandle(Integer)
+- uid: Prowl.Runtime.Controller.CharacterControllersManager.GetCharacterByIndex(System.Int32)
+  commentId: M:Prowl.Runtime.Controller.CharacterControllersManager.GetCharacterByIndex(System.Int32)
+  id: GetCharacterByIndex(System.Int32)
+  parent: Prowl.Runtime.Controller.CharacterControllersManager
+  langs:
+  - csharp
+  - vb
+  name: GetCharacterByIndex(int)
+  nameWithType: CharacterControllersManager.GetCharacterByIndex(int)
+  fullName: Prowl.Runtime.Controller.CharacterControllersManager.GetCharacterByIndex(int)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Components/Physics/Types/Controller/CharacterControllersManager.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: GetCharacterByIndex
+    path: ../Prowl/Prowl.Runtime/Components/Physics/Types/Controller/CharacterControllersManager.cs
+    startLine: 86
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.Controller
+  summary: Gets a reference to the character at the given memory slot index.
+  example: []
+  syntax:
+    content: public ref CharacterControllerData GetCharacterByIndex(int index)
+    parameters:
+    - id: index
+      type: System.Int32
+      description: Index of the character to retrieve.
+    return:
+      type: Prowl.Runtime.Controller.CharacterControllerData
+      description: Reference to the character at the given memory slot index.
+    content.vb: Public ByRef Function GetCharacterByIndex(index As Integer) As CharacterControllerData
+  overload: Prowl.Runtime.Controller.CharacterControllersManager.GetCharacterByIndex*
+  nameWithType.vb: CharacterControllersManager.GetCharacterByIndex(Integer)
+  fullName.vb: Prowl.Runtime.Controller.CharacterControllersManager.GetCharacterByIndex(Integer)
+  name.vb: GetCharacterByIndex(Integer)
+- uid: Prowl.Runtime.Controller.CharacterControllersManager.GetCharacterByBodyHandle(BepuPhysics.BodyHandle)
+  commentId: M:Prowl.Runtime.Controller.CharacterControllersManager.GetCharacterByBodyHandle(BepuPhysics.BodyHandle)
+  id: GetCharacterByBodyHandle(BepuPhysics.BodyHandle)
+  parent: Prowl.Runtime.Controller.CharacterControllersManager
+  langs:
+  - csharp
+  - vb
+  name: GetCharacterByBodyHandle(BodyHandle)
+  nameWithType: CharacterControllersManager.GetCharacterByBodyHandle(BodyHandle)
+  fullName: Prowl.Runtime.Controller.CharacterControllersManager.GetCharacterByBodyHandle(BepuPhysics.BodyHandle)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Components/Physics/Types/Controller/CharacterControllersManager.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: GetCharacterByBodyHandle
+    path: ../Prowl/Prowl.Runtime/Components/Physics/Types/Controller/CharacterControllersManager.cs
+    startLine: 97
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.Controller
+  summary: Gets a reference to the character using the handle of the character's body.
+  example: []
+  syntax:
+    content: public ref CharacterControllerData GetCharacterByBodyHandle(BodyHandle bodyHandle)
+    parameters:
+    - id: bodyHandle
+      type: BepuPhysics.BodyHandle
+      description: Body handle of the character to look up.
+    return:
+      type: Prowl.Runtime.Controller.CharacterControllerData
+      description: Reference to the character associated with the given body handle.
+    content.vb: Public ByRef Function GetCharacterByBodyHandle(bodyHandle As BodyHandle) As CharacterControllerData
+  overload: Prowl.Runtime.Controller.CharacterControllersManager.GetCharacterByBodyHandle*
+- uid: Prowl.Runtime.Controller.CharacterControllersManager.AllocateCharacter(BepuPhysics.BodyHandle)
+  commentId: M:Prowl.Runtime.Controller.CharacterControllersManager.AllocateCharacter(BepuPhysics.BodyHandle)
+  id: AllocateCharacter(BepuPhysics.BodyHandle)
+  parent: Prowl.Runtime.Controller.CharacterControllersManager
+  langs:
+  - csharp
+  - vb
+  name: AllocateCharacter(BodyHandle)
+  nameWithType: CharacterControllersManager.AllocateCharacter(BodyHandle)
+  fullName: Prowl.Runtime.Controller.CharacterControllersManager.AllocateCharacter(BepuPhysics.BodyHandle)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Components/Physics/Types/Controller/CharacterControllersManager.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: AllocateCharacter
+    path: ../Prowl/Prowl.Runtime/Components/Physics/Types/Controller/CharacterControllersManager.cs
+    startLine: 109
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.Controller
+  summary: Allocates a character.
+  example: []
+  syntax:
+    content: public ref CharacterControllerData AllocateCharacter(BodyHandle bodyHandle)
+    parameters:
+    - id: bodyHandle
+      type: BepuPhysics.BodyHandle
+      description: Body handle associated with the character.
+    return:
+      type: Prowl.Runtime.Controller.CharacterControllerData
+      description: Reference to the allocated character.
+    content.vb: Public ByRef Function AllocateCharacter(bodyHandle As BodyHandle) As CharacterControllerData
+  overload: Prowl.Runtime.Controller.CharacterControllersManager.AllocateCharacter*
+- uid: Prowl.Runtime.Controller.CharacterControllersManager.RemoveCharacterByIndex(System.Int32)
+  commentId: M:Prowl.Runtime.Controller.CharacterControllersManager.RemoveCharacterByIndex(System.Int32)
+  id: RemoveCharacterByIndex(System.Int32)
+  parent: Prowl.Runtime.Controller.CharacterControllersManager
+  langs:
+  - csharp
+  - vb
+  name: RemoveCharacterByIndex(int)
+  nameWithType: CharacterControllersManager.RemoveCharacterByIndex(int)
+  fullName: Prowl.Runtime.Controller.CharacterControllersManager.RemoveCharacterByIndex(int)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Components/Physics/Types/Controller/CharacterControllersManager.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: RemoveCharacterByIndex
+    path: ../Prowl/Prowl.Runtime/Components/Physics/Types/Controller/CharacterControllersManager.cs
+    startLine: 127
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.Controller
+  summary: Removes a character from the character controllers set by the character's index.
+  example: []
+  syntax:
+    content: public void RemoveCharacterByIndex(int characterIndex)
+    parameters:
+    - id: characterIndex
+      type: System.Int32
+      description: Index of the character to remove.
+    content.vb: Public Sub RemoveCharacterByIndex(characterIndex As Integer)
+  overload: Prowl.Runtime.Controller.CharacterControllersManager.RemoveCharacterByIndex*
+  nameWithType.vb: CharacterControllersManager.RemoveCharacterByIndex(Integer)
+  fullName.vb: Prowl.Runtime.Controller.CharacterControllersManager.RemoveCharacterByIndex(Integer)
+  name.vb: RemoveCharacterByIndex(Integer)
+- uid: Prowl.Runtime.Controller.CharacterControllersManager.RemoveCharacterByBodyHandle(BepuPhysics.BodyHandle)
+  commentId: M:Prowl.Runtime.Controller.CharacterControllersManager.RemoveCharacterByBodyHandle(BepuPhysics.BodyHandle)
+  id: RemoveCharacterByBodyHandle(BepuPhysics.BodyHandle)
+  parent: Prowl.Runtime.Controller.CharacterControllersManager
+  langs:
+  - csharp
+  - vb
+  name: RemoveCharacterByBodyHandle(BodyHandle)
+  nameWithType: CharacterControllersManager.RemoveCharacterByBodyHandle(BodyHandle)
+  fullName: Prowl.Runtime.Controller.CharacterControllersManager.RemoveCharacterByBodyHandle(BepuPhysics.BodyHandle)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Components/Physics/Types/Controller/CharacterControllersManager.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: RemoveCharacterByBodyHandle
+    path: ../Prowl/Prowl.Runtime/Components/Physics/Types/Controller/CharacterControllersManager.cs
+    startLine: 146
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.Controller
+  summary: Removes a character from the character controllers set by the body handle associated with the character.
+  example: []
+  syntax:
+    content: public void RemoveCharacterByBodyHandle(BodyHandle bodyHandle)
+    parameters:
+    - id: bodyHandle
+      type: BepuPhysics.BodyHandle
+      description: Body handle associated with the character to remove.
+    content.vb: Public Sub RemoveCharacterByBodyHandle(bodyHandle As BodyHandle)
+  overload: Prowl.Runtime.Controller.CharacterControllersManager.RemoveCharacterByBodyHandle*
+- uid: Prowl.Runtime.Controller.CharacterControllersManager.TryReportContacts``1(BepuPhysics.CollisionDetection.CollidablePair@,``0@,System.Int32,BepuPhysics.CollisionDetection.PairMaterialProperties@)
+  commentId: M:Prowl.Runtime.Controller.CharacterControllersManager.TryReportContacts``1(BepuPhysics.CollisionDetection.CollidablePair@,``0@,System.Int32,BepuPhysics.CollisionDetection.PairMaterialProperties@)
+  id: TryReportContacts``1(BepuPhysics.CollisionDetection.CollidablePair@,``0@,System.Int32,BepuPhysics.CollisionDetection.PairMaterialProperties@)
+  parent: Prowl.Runtime.Controller.CharacterControllersManager
+  langs:
+  - csharp
+  - vb
+  name: TryReportContacts<TManifold>(in CollidablePair, ref TManifold, int, ref PairMaterialProperties)
+  nameWithType: CharacterControllersManager.TryReportContacts<TManifold>(in CollidablePair, ref TManifold, int, ref PairMaterialProperties)
+  fullName: Prowl.Runtime.Controller.CharacterControllersManager.TryReportContacts<TManifold>(in BepuPhysics.CollisionDetection.CollidablePair, ref TManifold, int, ref BepuPhysics.CollisionDetection.PairMaterialProperties)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Components/Physics/Types/Controller/CharacterControllersManager.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: TryReportContacts
+    path: ../Prowl/Prowl.Runtime/Components/Physics/Types/Controller/CharacterControllersManager.cs
+    startLine: 325
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.Controller
+  summary: Reports contacts about a collision to the character system. If the pair does not involve a character or there are no contacts, does nothing and returns false.
+  example: []
+  syntax:
+    content: 'public bool TryReportContacts<TManifold>(in CollidablePair pair, ref TManifold manifold, int workerIndex, ref PairMaterialProperties materialProperties) where TManifold : struct, IContactManifold<TManifold>'
+    parameters:
+    - id: pair
+      type: BepuPhysics.CollisionDetection.CollidablePair
+      description: Pair of objects associated with the contact manifold.
+    - id: manifold
+      type: '{TManifold}'
+      description: Contact manifold between the colliding objects.
+    - id: workerIndex
+      type: System.Int32
+      description: Index of the currently executing worker thread.
+    - id: materialProperties
+      type: BepuPhysics.CollisionDetection.PairMaterialProperties
+      description: Material properties for this pair. Will be modified if the pair involves a character.
+    typeParameters:
+    - id: TManifold
+    return:
+      type: System.Boolean
+      description: True if the pair involved a character pair and has contacts, false otherwise.
+    content.vb: Public Function TryReportContacts(Of TManifold As {Structure, IContactManifold(Of TManifold)})(pair As CollidablePair, manifold As TManifold, workerIndex As Integer, materialProperties As PairMaterialProperties) As Boolean
+  overload: Prowl.Runtime.Controller.CharacterControllersManager.TryReportContacts*
+  nameWithType.vb: CharacterControllersManager.TryReportContacts(Of TManifold)(CollidablePair, TManifold, Integer, PairMaterialProperties)
+  fullName.vb: Prowl.Runtime.Controller.CharacterControllersManager.TryReportContacts(Of TManifold)(BepuPhysics.CollisionDetection.CollidablePair, TManifold, Integer, BepuPhysics.CollisionDetection.PairMaterialProperties)
+  name.vb: TryReportContacts(Of TManifold)(CollidablePair, TManifold, Integer, PairMaterialProperties)
+- uid: Prowl.Runtime.Controller.CharacterControllersManager.EnsureCapacity(System.Int32,System.Int32)
+  commentId: M:Prowl.Runtime.Controller.CharacterControllersManager.EnsureCapacity(System.Int32,System.Int32)
+  id: EnsureCapacity(System.Int32,System.Int32)
+  parent: Prowl.Runtime.Controller.CharacterControllersManager
+  langs:
+  - csharp
+  - vb
+  name: EnsureCapacity(int, int)
+  nameWithType: CharacterControllersManager.EnsureCapacity(int, int)
+  fullName: Prowl.Runtime.Controller.CharacterControllersManager.EnsureCapacity(int, int)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Components/Physics/Types/Controller/CharacterControllersManager.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: EnsureCapacity
+    path: ../Prowl/Prowl.Runtime/Components/Physics/Types/Controller/CharacterControllersManager.cs
+    startLine: 781
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.Controller
+  summary: Ensures that the internal structures of the character controllers system can handle the given number of characters and body handles, resizing if necessary.
+  example: []
+  syntax:
+    content: public void EnsureCapacity(int characterCapacity, int bodyHandleCapacity)
+    parameters:
+    - id: characterCapacity
+      type: System.Int32
+      description: Minimum character capacity to require.
+    - id: bodyHandleCapacity
+      type: System.Int32
+      description: Minimum number of body handles to allocate space for.
+    content.vb: Public Sub EnsureCapacity(characterCapacity As Integer, bodyHandleCapacity As Integer)
+  overload: Prowl.Runtime.Controller.CharacterControllersManager.EnsureCapacity*
+  nameWithType.vb: CharacterControllersManager.EnsureCapacity(Integer, Integer)
+  fullName.vb: Prowl.Runtime.Controller.CharacterControllersManager.EnsureCapacity(Integer, Integer)
+  name.vb: EnsureCapacity(Integer, Integer)
+- uid: Prowl.Runtime.Controller.CharacterControllersManager.Resize(System.Int32,System.Int32)
+  commentId: M:Prowl.Runtime.Controller.CharacterControllersManager.Resize(System.Int32,System.Int32)
+  id: Resize(System.Int32,System.Int32)
+  parent: Prowl.Runtime.Controller.CharacterControllersManager
+  langs:
+  - csharp
+  - vb
+  name: Resize(int, int)
+  nameWithType: CharacterControllersManager.Resize(int, int)
+  fullName: Prowl.Runtime.Controller.CharacterControllersManager.Resize(int, int)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Components/Physics/Types/Controller/CharacterControllersManager.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Resize
+    path: ../Prowl/Prowl.Runtime/Components/Physics/Types/Controller/CharacterControllersManager.cs
+    startLine: 795
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.Controller
+  summary: Resizes the internal structures of the character controllers system for the target sizes. Will not shrink below the currently active data size.
+  example: []
+  syntax:
+    content: public void Resize(int characterCapacity, int bodyHandleCapacity)
+    parameters:
+    - id: characterCapacity
+      type: System.Int32
+      description: Target character capacity to allocate space for.
+    - id: bodyHandleCapacity
+      type: System.Int32
+      description: Target number of body handles to allocate space for.
+    content.vb: Public Sub Resize(characterCapacity As Integer, bodyHandleCapacity As Integer)
+  overload: Prowl.Runtime.Controller.CharacterControllersManager.Resize*
+  nameWithType.vb: CharacterControllersManager.Resize(Integer, Integer)
+  fullName.vb: Prowl.Runtime.Controller.CharacterControllersManager.Resize(Integer, Integer)
+  name.vb: Resize(Integer, Integer)
+- uid: Prowl.Runtime.Controller.CharacterControllersManager.Dispose
+  commentId: M:Prowl.Runtime.Controller.CharacterControllersManager.Dispose
+  id: Dispose
+  parent: Prowl.Runtime.Controller.CharacterControllersManager
+  langs:
+  - csharp
+  - vb
+  name: Dispose()
+  nameWithType: CharacterControllersManager.Dispose()
+  fullName: Prowl.Runtime.Controller.CharacterControllersManager.Dispose()
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Components/Physics/Types/Controller/CharacterControllersManager.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Dispose
+    path: ../Prowl/Prowl.Runtime/Components/Physics/Types/Controller/CharacterControllersManager.cs
+    startLine: 819
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.Controller
+  summary: Returns pool-allocated resources.
+  example: []
+  syntax:
+    content: public void Dispose()
+    content.vb: Public Sub Dispose()
+  overload: Prowl.Runtime.Controller.CharacterControllersManager.Dispose*
+  implements:
+  - System.IDisposable.Dispose
+references:
+- uid: Prowl.Runtime.Controller
+  commentId: N:Prowl.Runtime.Controller
+  href: Prowl.html
+  name: Prowl.Runtime.Controller
+  nameWithType: Prowl.Runtime.Controller
+  fullName: Prowl.Runtime.Controller
+  spec.csharp:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+  - name: .
+  - uid: Prowl.Runtime.Controller
+    name: Controller
+    href: Prowl.Runtime.Controller.html
+  spec.vb:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+  - name: .
+  - uid: Prowl.Runtime.Controller
+    name: Controller
+    href: Prowl.Runtime.Controller.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.IDisposable
+  commentId: T:System.IDisposable
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.idisposable
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Prowl.Runtime.RuntimeUtils.GetSerializableFields
+  commentId: M:Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  parent: Prowl.Runtime.RuntimeUtils
+  definition: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  name: GetSerializableFields(object)
+  nameWithType: RuntimeUtils.GetSerializableFields(object)
+  fullName: Prowl.Runtime.RuntimeUtils.GetSerializableFields(object)
+  nameWithType.vb: RuntimeUtils.GetSerializableFields(Object)
+  fullName.vb: Prowl.Runtime.RuntimeUtils.GetSerializableFields(Object)
+  name.vb: GetSerializableFields(Object)
+  spec.csharp:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  commentId: M:Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  isExternal: true
+  href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  name: GetSerializableFields(object)
+  nameWithType: RuntimeUtils.GetSerializableFields(object)
+  fullName: Prowl.Runtime.RuntimeUtils.GetSerializableFields(object)
+  nameWithType.vb: RuntimeUtils.GetSerializableFields(Object)
+  fullName.vb: Prowl.Runtime.RuntimeUtils.GetSerializableFields(Object)
+  name.vb: GetSerializableFields(Object)
+  spec.csharp:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: Prowl.Runtime.RuntimeUtils
+  commentId: T:Prowl.Runtime.RuntimeUtils
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.RuntimeUtils.html
+  name: RuntimeUtils
+  nameWithType: RuntimeUtils
+  fullName: Prowl.Runtime.RuntimeUtils
+- uid: Prowl.Runtime
+  commentId: N:Prowl.Runtime
+  href: Prowl.html
+  name: Prowl.Runtime
+  nameWithType: Prowl.Runtime
+  fullName: Prowl.Runtime
+  spec.csharp:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+  spec.vb:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+- uid: Prowl.Runtime.Controller.CharacterControllersManager.CharacterCount*
+  commentId: Overload:Prowl.Runtime.Controller.CharacterControllersManager.CharacterCount
+  href: Prowl.Runtime.Controller.CharacterControllersManager.html#Prowl_Runtime_Controller_CharacterControllersManager_CharacterCount
+  name: CharacterCount
+  nameWithType: CharacterControllersManager.CharacterCount
+  fullName: Prowl.Runtime.Controller.CharacterControllersManager.CharacterCount
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: Prowl.Runtime.Controller.CharacterControllersManager.#ctor*
+  commentId: Overload:Prowl.Runtime.Controller.CharacterControllersManager.#ctor
+  href: Prowl.Runtime.Controller.CharacterControllersManager.html#Prowl_Runtime_Controller_CharacterControllersManager__ctor_BepuUtilities_Memory_BufferPool_System_Int32_System_Int32_
+  name: CharacterControllersManager
+  nameWithType: CharacterControllersManager.CharacterControllersManager
+  fullName: Prowl.Runtime.Controller.CharacterControllersManager.CharacterControllersManager
+  nameWithType.vb: CharacterControllersManager.New
+  fullName.vb: Prowl.Runtime.Controller.CharacterControllersManager.New
+  name.vb: New
+- uid: BepuUtilities.Memory.BufferPool
+  commentId: T:BepuUtilities.Memory.BufferPool
+  parent: BepuUtilities.Memory
+  isExternal: true
+  name: BufferPool
+  nameWithType: BufferPool
+  fullName: BepuUtilities.Memory.BufferPool
+- uid: BepuUtilities.Memory
+  commentId: N:BepuUtilities.Memory
+  isExternal: true
+  name: BepuUtilities.Memory
+  nameWithType: BepuUtilities.Memory
+  fullName: BepuUtilities.Memory
+  spec.csharp:
+  - uid: BepuUtilities
+    name: BepuUtilities
+    isExternal: true
+  - name: .
+  - uid: BepuUtilities.Memory
+    name: Memory
+    isExternal: true
+  spec.vb:
+  - uid: BepuUtilities
+    name: BepuUtilities
+    isExternal: true
+  - name: .
+  - uid: BepuUtilities.Memory
+    name: Memory
+    isExternal: true
+- uid: Prowl.Runtime.Controller.CharacterControllersManager.Initialize*
+  commentId: Overload:Prowl.Runtime.Controller.CharacterControllersManager.Initialize
+  href: Prowl.Runtime.Controller.CharacterControllersManager.html#Prowl_Runtime_Controller_CharacterControllersManager_Initialize_BepuPhysics_Simulation_
+  name: Initialize
+  nameWithType: CharacterControllersManager.Initialize
+  fullName: Prowl.Runtime.Controller.CharacterControllersManager.Initialize
+- uid: BepuPhysics.Simulation
+  commentId: T:BepuPhysics.Simulation
+  parent: BepuPhysics
+  isExternal: true
+  name: Simulation
+  nameWithType: Simulation
+  fullName: BepuPhysics.Simulation
+- uid: BepuPhysics
+  commentId: N:BepuPhysics
+  isExternal: true
+  name: BepuPhysics
+  nameWithType: BepuPhysics
+  fullName: BepuPhysics
+- uid: Prowl.Runtime.Controller.CharacterControllersManager.GetCharacterIndexForBodyHandle*
+  commentId: Overload:Prowl.Runtime.Controller.CharacterControllersManager.GetCharacterIndexForBodyHandle
+  href: Prowl.Runtime.Controller.CharacterControllersManager.html#Prowl_Runtime_Controller_CharacterControllersManager_GetCharacterIndexForBodyHandle_System_Int32_
+  name: GetCharacterIndexForBodyHandle
+  nameWithType: CharacterControllersManager.GetCharacterIndexForBodyHandle
+  fullName: Prowl.Runtime.Controller.CharacterControllersManager.GetCharacterIndexForBodyHandle
+- uid: Prowl.Runtime.Controller.CharacterControllersManager.GetCharacterByIndex*
+  commentId: Overload:Prowl.Runtime.Controller.CharacterControllersManager.GetCharacterByIndex
+  href: Prowl.Runtime.Controller.CharacterControllersManager.html#Prowl_Runtime_Controller_CharacterControllersManager_GetCharacterByIndex_System_Int32_
+  name: GetCharacterByIndex
+  nameWithType: CharacterControllersManager.GetCharacterByIndex
+  fullName: Prowl.Runtime.Controller.CharacterControllersManager.GetCharacterByIndex
+- uid: Prowl.Runtime.Controller.CharacterControllerData
+  commentId: T:Prowl.Runtime.Controller.CharacterControllerData
+  parent: Prowl.Runtime.Controller
+  href: Prowl.Runtime.Controller.CharacterControllerData.html
+  name: CharacterControllerData
+  nameWithType: CharacterControllerData
+  fullName: Prowl.Runtime.Controller.CharacterControllerData
+- uid: Prowl.Runtime.Controller.CharacterControllersManager.GetCharacterByBodyHandle*
+  commentId: Overload:Prowl.Runtime.Controller.CharacterControllersManager.GetCharacterByBodyHandle
+  href: Prowl.Runtime.Controller.CharacterControllersManager.html#Prowl_Runtime_Controller_CharacterControllersManager_GetCharacterByBodyHandle_BepuPhysics_BodyHandle_
+  name: GetCharacterByBodyHandle
+  nameWithType: CharacterControllersManager.GetCharacterByBodyHandle
+  fullName: Prowl.Runtime.Controller.CharacterControllersManager.GetCharacterByBodyHandle
+- uid: BepuPhysics.BodyHandle
+  commentId: T:BepuPhysics.BodyHandle
+  parent: BepuPhysics
+  isExternal: true
+  name: BodyHandle
+  nameWithType: BodyHandle
+  fullName: BepuPhysics.BodyHandle
+- uid: Prowl.Runtime.Controller.CharacterControllersManager.AllocateCharacter*
+  commentId: Overload:Prowl.Runtime.Controller.CharacterControllersManager.AllocateCharacter
+  href: Prowl.Runtime.Controller.CharacterControllersManager.html#Prowl_Runtime_Controller_CharacterControllersManager_AllocateCharacter_BepuPhysics_BodyHandle_
+  name: AllocateCharacter
+  nameWithType: CharacterControllersManager.AllocateCharacter
+  fullName: Prowl.Runtime.Controller.CharacterControllersManager.AllocateCharacter
+- uid: Prowl.Runtime.Controller.CharacterControllersManager.RemoveCharacterByIndex*
+  commentId: Overload:Prowl.Runtime.Controller.CharacterControllersManager.RemoveCharacterByIndex
+  href: Prowl.Runtime.Controller.CharacterControllersManager.html#Prowl_Runtime_Controller_CharacterControllersManager_RemoveCharacterByIndex_System_Int32_
+  name: RemoveCharacterByIndex
+  nameWithType: CharacterControllersManager.RemoveCharacterByIndex
+  fullName: Prowl.Runtime.Controller.CharacterControllersManager.RemoveCharacterByIndex
+- uid: Prowl.Runtime.Controller.CharacterControllersManager.RemoveCharacterByBodyHandle*
+  commentId: Overload:Prowl.Runtime.Controller.CharacterControllersManager.RemoveCharacterByBodyHandle
+  href: Prowl.Runtime.Controller.CharacterControllersManager.html#Prowl_Runtime_Controller_CharacterControllersManager_RemoveCharacterByBodyHandle_BepuPhysics_BodyHandle_
+  name: RemoveCharacterByBodyHandle
+  nameWithType: CharacterControllersManager.RemoveCharacterByBodyHandle
+  fullName: Prowl.Runtime.Controller.CharacterControllersManager.RemoveCharacterByBodyHandle
+- uid: Prowl.Runtime.Controller.CharacterControllersManager.TryReportContacts*
+  commentId: Overload:Prowl.Runtime.Controller.CharacterControllersManager.TryReportContacts
+  href: Prowl.Runtime.Controller.CharacterControllersManager.html#Prowl_Runtime_Controller_CharacterControllersManager_TryReportContacts__1_BepuPhysics_CollisionDetection_CollidablePair____0__System_Int32_BepuPhysics_CollisionDetection_PairMaterialProperties__
+  name: TryReportContacts
+  nameWithType: CharacterControllersManager.TryReportContacts
+  fullName: Prowl.Runtime.Controller.CharacterControllersManager.TryReportContacts
+- uid: BepuPhysics.CollisionDetection.CollidablePair
+  commentId: T:BepuPhysics.CollisionDetection.CollidablePair
+  parent: BepuPhysics.CollisionDetection
+  isExternal: true
+  name: CollidablePair
+  nameWithType: CollidablePair
+  fullName: BepuPhysics.CollisionDetection.CollidablePair
+- uid: '{TManifold}'
+  commentId: '!:TManifold'
+  definition: TManifold
+  name: TManifold
+  nameWithType: TManifold
+  fullName: TManifold
+- uid: BepuPhysics.CollisionDetection.PairMaterialProperties
+  commentId: T:BepuPhysics.CollisionDetection.PairMaterialProperties
+  parent: BepuPhysics.CollisionDetection
+  isExternal: true
+  name: PairMaterialProperties
+  nameWithType: PairMaterialProperties
+  fullName: BepuPhysics.CollisionDetection.PairMaterialProperties
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: BepuPhysics.CollisionDetection
+  commentId: N:BepuPhysics.CollisionDetection
+  isExternal: true
+  name: BepuPhysics.CollisionDetection
+  nameWithType: BepuPhysics.CollisionDetection
+  fullName: BepuPhysics.CollisionDetection
+  spec.csharp:
+  - uid: BepuPhysics
+    name: BepuPhysics
+    isExternal: true
+  - name: .
+  - uid: BepuPhysics.CollisionDetection
+    name: CollisionDetection
+    isExternal: true
+  spec.vb:
+  - uid: BepuPhysics
+    name: BepuPhysics
+    isExternal: true
+  - name: .
+  - uid: BepuPhysics.CollisionDetection
+    name: CollisionDetection
+    isExternal: true
+- uid: TManifold
+  name: TManifold
+  nameWithType: TManifold
+  fullName: TManifold
+- uid: Prowl.Runtime.Controller.CharacterControllersManager.EnsureCapacity*
+  commentId: Overload:Prowl.Runtime.Controller.CharacterControllersManager.EnsureCapacity
+  href: Prowl.Runtime.Controller.CharacterControllersManager.html#Prowl_Runtime_Controller_CharacterControllersManager_EnsureCapacity_System_Int32_System_Int32_
+  name: EnsureCapacity
+  nameWithType: CharacterControllersManager.EnsureCapacity
+  fullName: Prowl.Runtime.Controller.CharacterControllersManager.EnsureCapacity
+- uid: Prowl.Runtime.Controller.CharacterControllersManager.Resize*
+  commentId: Overload:Prowl.Runtime.Controller.CharacterControllersManager.Resize
+  href: Prowl.Runtime.Controller.CharacterControllersManager.html#Prowl_Runtime_Controller_CharacterControllersManager_Resize_System_Int32_System_Int32_
+  name: Resize
+  nameWithType: CharacterControllersManager.Resize
+  fullName: Prowl.Runtime.Controller.CharacterControllersManager.Resize
+- uid: Prowl.Runtime.Controller.CharacterControllersManager.Dispose*
+  commentId: Overload:Prowl.Runtime.Controller.CharacterControllersManager.Dispose
+  href: Prowl.Runtime.Controller.CharacterControllersManager.html#Prowl_Runtime_Controller_CharacterControllersManager_Dispose
+  name: Dispose
+  nameWithType: CharacterControllersManager.Dispose
+  fullName: Prowl.Runtime.Controller.CharacterControllersManager.Dispose
+- uid: System.IDisposable.Dispose
+  commentId: M:System.IDisposable.Dispose
+  parent: System.IDisposable
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
+  name: Dispose()
+  nameWithType: IDisposable.Dispose()
+  fullName: System.IDisposable.Dispose()
+  spec.csharp:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
+  - name: (
+  - name: )

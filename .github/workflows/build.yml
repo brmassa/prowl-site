@@ -1,0 +1,26 @@
+name: Build Documentation Site
+
+on: [push, pull_request]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Clone repo and submodules
+      - uses: actions/checkout@v4
+
+      # Install .NET
+      - name: Install .NET
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: 8.x
+
+      # Install DocFx
+      - name: Install DocFx
+        run: docfx build
+
+
+      # Build the site
+      - name: Build docs
+        run: docfx build

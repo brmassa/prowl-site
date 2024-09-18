@@ -1,0 +1,390 @@
+### YamlMime:ManagedReference
+items:
+- uid: Prowl.Runtime.GUI.Gui.TooltipAlign
+  commentId: T:Prowl.Runtime.GUI.Gui.TooltipAlign
+  id: Gui.TooltipAlign
+  parent: Prowl.Runtime.GUI
+  children:
+  - Prowl.Runtime.GUI.Gui.TooltipAlign.BottomLeft
+  - Prowl.Runtime.GUI.Gui.TooltipAlign.BottomMiddle
+  - Prowl.Runtime.GUI.Gui.TooltipAlign.BottomRight
+  - Prowl.Runtime.GUI.Gui.TooltipAlign.Left
+  - Prowl.Runtime.GUI.Gui.TooltipAlign.Right
+  - Prowl.Runtime.GUI.Gui.TooltipAlign.TopLeft
+  - Prowl.Runtime.GUI.Gui.TooltipAlign.TopMiddle
+  - Prowl.Runtime.GUI.Gui.TooltipAlign.TopRight
+  langs:
+  - csharp
+  - vb
+  name: Gui.TooltipAlign
+  nameWithType: Gui.TooltipAlign
+  fullName: Prowl.Runtime.GUI.Gui.TooltipAlign
+  type: Enum
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Widgets/Gui.SimpleWidgets.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: TooltipAlign
+    path: ../Prowl/Prowl.Runtime/GUI/Widgets/Gui.SimpleWidgets.cs
+    startLine: 123
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  syntax:
+    content: public enum Gui.TooltipAlign
+    content.vb: Public Enum Gui.TooltipAlign
+  extensionMethods:
+  - System.Object.Prowl.Runtime.RuntimeUtils.GetSerializableFields
+- uid: Prowl.Runtime.GUI.Gui.TooltipAlign.TopLeft
+  commentId: F:Prowl.Runtime.GUI.Gui.TooltipAlign.TopLeft
+  id: TopLeft
+  parent: Prowl.Runtime.GUI.Gui.TooltipAlign
+  langs:
+  - csharp
+  - vb
+  name: TopLeft
+  nameWithType: Gui.TooltipAlign.TopLeft
+  fullName: Prowl.Runtime.GUI.Gui.TooltipAlign.TopLeft
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Widgets/Gui.SimpleWidgets.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: TopLeft
+    path: ../Prowl/Prowl.Runtime/GUI/Widgets/Gui.SimpleWidgets.cs
+    startLine: 125
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  syntax:
+    content: TopLeft = 0
+    return:
+      type: Prowl.Runtime.GUI.Gui.TooltipAlign
+- uid: Prowl.Runtime.GUI.Gui.TooltipAlign.TopMiddle
+  commentId: F:Prowl.Runtime.GUI.Gui.TooltipAlign.TopMiddle
+  id: TopMiddle
+  parent: Prowl.Runtime.GUI.Gui.TooltipAlign
+  langs:
+  - csharp
+  - vb
+  name: TopMiddle
+  nameWithType: Gui.TooltipAlign.TopMiddle
+  fullName: Prowl.Runtime.GUI.Gui.TooltipAlign.TopMiddle
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Widgets/Gui.SimpleWidgets.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: TopMiddle
+    path: ../Prowl/Prowl.Runtime/GUI/Widgets/Gui.SimpleWidgets.cs
+    startLine: 126
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  syntax:
+    content: TopMiddle = 1
+    return:
+      type: Prowl.Runtime.GUI.Gui.TooltipAlign
+- uid: Prowl.Runtime.GUI.Gui.TooltipAlign.TopRight
+  commentId: F:Prowl.Runtime.GUI.Gui.TooltipAlign.TopRight
+  id: TopRight
+  parent: Prowl.Runtime.GUI.Gui.TooltipAlign
+  langs:
+  - csharp
+  - vb
+  name: TopRight
+  nameWithType: Gui.TooltipAlign.TopRight
+  fullName: Prowl.Runtime.GUI.Gui.TooltipAlign.TopRight
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Widgets/Gui.SimpleWidgets.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: TopRight
+    path: ../Prowl/Prowl.Runtime/GUI/Widgets/Gui.SimpleWidgets.cs
+    startLine: 127
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  syntax:
+    content: TopRight = 2
+    return:
+      type: Prowl.Runtime.GUI.Gui.TooltipAlign
+- uid: Prowl.Runtime.GUI.Gui.TooltipAlign.Left
+  commentId: F:Prowl.Runtime.GUI.Gui.TooltipAlign.Left
+  id: Left
+  parent: Prowl.Runtime.GUI.Gui.TooltipAlign
+  langs:
+  - csharp
+  - vb
+  name: Left
+  nameWithType: Gui.TooltipAlign.Left
+  fullName: Prowl.Runtime.GUI.Gui.TooltipAlign.Left
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Widgets/Gui.SimpleWidgets.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Left
+    path: ../Prowl/Prowl.Runtime/GUI/Widgets/Gui.SimpleWidgets.cs
+    startLine: 128
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  syntax:
+    content: Left = 3
+    return:
+      type: Prowl.Runtime.GUI.Gui.TooltipAlign
+- uid: Prowl.Runtime.GUI.Gui.TooltipAlign.Right
+  commentId: F:Prowl.Runtime.GUI.Gui.TooltipAlign.Right
+  id: Right
+  parent: Prowl.Runtime.GUI.Gui.TooltipAlign
+  langs:
+  - csharp
+  - vb
+  name: Right
+  nameWithType: Gui.TooltipAlign.Right
+  fullName: Prowl.Runtime.GUI.Gui.TooltipAlign.Right
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Widgets/Gui.SimpleWidgets.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Right
+    path: ../Prowl/Prowl.Runtime/GUI/Widgets/Gui.SimpleWidgets.cs
+    startLine: 129
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  syntax:
+    content: Right = 4
+    return:
+      type: Prowl.Runtime.GUI.Gui.TooltipAlign
+- uid: Prowl.Runtime.GUI.Gui.TooltipAlign.BottomLeft
+  commentId: F:Prowl.Runtime.GUI.Gui.TooltipAlign.BottomLeft
+  id: BottomLeft
+  parent: Prowl.Runtime.GUI.Gui.TooltipAlign
+  langs:
+  - csharp
+  - vb
+  name: BottomLeft
+  nameWithType: Gui.TooltipAlign.BottomLeft
+  fullName: Prowl.Runtime.GUI.Gui.TooltipAlign.BottomLeft
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Widgets/Gui.SimpleWidgets.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: BottomLeft
+    path: ../Prowl/Prowl.Runtime/GUI/Widgets/Gui.SimpleWidgets.cs
+    startLine: 130
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  syntax:
+    content: BottomLeft = 5
+    return:
+      type: Prowl.Runtime.GUI.Gui.TooltipAlign
+- uid: Prowl.Runtime.GUI.Gui.TooltipAlign.BottomMiddle
+  commentId: F:Prowl.Runtime.GUI.Gui.TooltipAlign.BottomMiddle
+  id: BottomMiddle
+  parent: Prowl.Runtime.GUI.Gui.TooltipAlign
+  langs:
+  - csharp
+  - vb
+  name: BottomMiddle
+  nameWithType: Gui.TooltipAlign.BottomMiddle
+  fullName: Prowl.Runtime.GUI.Gui.TooltipAlign.BottomMiddle
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Widgets/Gui.SimpleWidgets.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: BottomMiddle
+    path: ../Prowl/Prowl.Runtime/GUI/Widgets/Gui.SimpleWidgets.cs
+    startLine: 131
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  syntax:
+    content: BottomMiddle = 6
+    return:
+      type: Prowl.Runtime.GUI.Gui.TooltipAlign
+- uid: Prowl.Runtime.GUI.Gui.TooltipAlign.BottomRight
+  commentId: F:Prowl.Runtime.GUI.Gui.TooltipAlign.BottomRight
+  id: BottomRight
+  parent: Prowl.Runtime.GUI.Gui.TooltipAlign
+  langs:
+  - csharp
+  - vb
+  name: BottomRight
+  nameWithType: Gui.TooltipAlign.BottomRight
+  fullName: Prowl.Runtime.GUI.Gui.TooltipAlign.BottomRight
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/GUI/Widgets/Gui.SimpleWidgets.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: BottomRight
+    path: ../Prowl/Prowl.Runtime/GUI/Widgets/Gui.SimpleWidgets.cs
+    startLine: 132
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.GUI
+  syntax:
+    content: BottomRight = 7
+    return:
+      type: Prowl.Runtime.GUI.Gui.TooltipAlign
+references:
+- uid: Prowl.Runtime.GUI
+  commentId: N:Prowl.Runtime.GUI
+  href: Prowl.html
+  name: Prowl.Runtime.GUI
+  nameWithType: Prowl.Runtime.GUI
+  fullName: Prowl.Runtime.GUI
+  spec.csharp:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+  - name: .
+  - uid: Prowl.Runtime.GUI
+    name: GUI
+    href: Prowl.Runtime.GUI.html
+  spec.vb:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+  - name: .
+  - uid: Prowl.Runtime.GUI
+    name: GUI
+    href: Prowl.Runtime.GUI.html
+- uid: System.Object.Prowl.Runtime.RuntimeUtils.GetSerializableFields
+  commentId: M:Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  parent: Prowl.Runtime.RuntimeUtils
+  definition: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  name: GetSerializableFields(object)
+  nameWithType: RuntimeUtils.GetSerializableFields(object)
+  fullName: Prowl.Runtime.RuntimeUtils.GetSerializableFields(object)
+  nameWithType.vb: RuntimeUtils.GetSerializableFields(Object)
+  fullName.vb: Prowl.Runtime.RuntimeUtils.GetSerializableFields(Object)
+  name.vb: GetSerializableFields(Object)
+  spec.csharp:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  commentId: M:Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  isExternal: true
+  href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  name: GetSerializableFields(object)
+  nameWithType: RuntimeUtils.GetSerializableFields(object)
+  fullName: Prowl.Runtime.RuntimeUtils.GetSerializableFields(object)
+  nameWithType.vb: RuntimeUtils.GetSerializableFields(Object)
+  fullName.vb: Prowl.Runtime.RuntimeUtils.GetSerializableFields(Object)
+  name.vb: GetSerializableFields(Object)
+  spec.csharp:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: Prowl.Runtime.RuntimeUtils
+  commentId: T:Prowl.Runtime.RuntimeUtils
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.RuntimeUtils.html
+  name: RuntimeUtils
+  nameWithType: RuntimeUtils
+  fullName: Prowl.Runtime.RuntimeUtils
+- uid: Prowl.Runtime
+  commentId: N:Prowl.Runtime
+  href: Prowl.html
+  name: Prowl.Runtime
+  nameWithType: Prowl.Runtime
+  fullName: Prowl.Runtime
+  spec.csharp:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+  spec.vb:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+- uid: Prowl.Runtime.GUI.Gui.TooltipAlign
+  commentId: T:Prowl.Runtime.GUI.Gui.TooltipAlign
+  parent: Prowl.Runtime.GUI
+  href: Prowl.Runtime.GUI.Gui.html
+  name: Gui.TooltipAlign
+  nameWithType: Gui.TooltipAlign
+  fullName: Prowl.Runtime.GUI.Gui.TooltipAlign
+  spec.csharp:
+  - uid: Prowl.Runtime.GUI.Gui
+    name: Gui
+    href: Prowl.Runtime.GUI.Gui.html
+  - name: .
+  - uid: Prowl.Runtime.GUI.Gui.TooltipAlign
+    name: TooltipAlign
+    href: Prowl.Runtime.GUI.Gui.TooltipAlign.html
+  spec.vb:
+  - uid: Prowl.Runtime.GUI.Gui
+    name: Gui
+    href: Prowl.Runtime.GUI.Gui.html
+  - name: .
+  - uid: Prowl.Runtime.GUI.Gui.TooltipAlign
+    name: TooltipAlign
+    href: Prowl.Runtime.GUI.Gui.TooltipAlign.html

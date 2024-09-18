@@ -1,0 +1,344 @@
+### YamlMime:ManagedReference
+items:
+- uid: Prowl.Runtime.MeshResource
+  commentId: T:Prowl.Runtime.MeshResource
+  id: MeshResource
+  parent: Prowl.Runtime
+  children:
+  - Prowl.Runtime.MeshResource.BoneIndices
+  - Prowl.Runtime.MeshResource.BoneWeights
+  - Prowl.Runtime.MeshResource.Colors
+  - Prowl.Runtime.MeshResource.Normals
+  - Prowl.Runtime.MeshResource.Position
+  - Prowl.Runtime.MeshResource.Tangents
+  - Prowl.Runtime.MeshResource.UV0
+  - Prowl.Runtime.MeshResource.UV1
+  langs:
+  - csharp
+  - vb
+  name: MeshResource
+  nameWithType: MeshResource
+  fullName: Prowl.Runtime.MeshResource
+  type: Enum
+  source:
+    remote:
+      path: Prowl.Runtime/Rendering/Mesh.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: MeshResource
+    path: ../Prowl/Prowl.Runtime/Rendering/Mesh.cs
+    startLine: 16
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public enum MeshResource
+    content.vb: Public Enum MeshResource
+  extensionMethods:
+  - System.Object.Prowl.Runtime.RuntimeUtils.GetSerializableFields
+- uid: Prowl.Runtime.MeshResource.Position
+  commentId: F:Prowl.Runtime.MeshResource.Position
+  id: Position
+  parent: Prowl.Runtime.MeshResource
+  langs:
+  - csharp
+  - vb
+  name: Position
+  nameWithType: MeshResource.Position
+  fullName: Prowl.Runtime.MeshResource.Position
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/Rendering/Mesh.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Position
+    path: ../Prowl/Prowl.Runtime/Rendering/Mesh.cs
+    startLine: 18
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: Position = 0
+    return:
+      type: Prowl.Runtime.MeshResource
+- uid: Prowl.Runtime.MeshResource.UV0
+  commentId: F:Prowl.Runtime.MeshResource.UV0
+  id: UV0
+  parent: Prowl.Runtime.MeshResource
+  langs:
+  - csharp
+  - vb
+  name: UV0
+  nameWithType: MeshResource.UV0
+  fullName: Prowl.Runtime.MeshResource.UV0
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/Rendering/Mesh.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: UV0
+    path: ../Prowl/Prowl.Runtime/Rendering/Mesh.cs
+    startLine: 19
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: UV0 = 1
+    return:
+      type: Prowl.Runtime.MeshResource
+- uid: Prowl.Runtime.MeshResource.UV1
+  commentId: F:Prowl.Runtime.MeshResource.UV1
+  id: UV1
+  parent: Prowl.Runtime.MeshResource
+  langs:
+  - csharp
+  - vb
+  name: UV1
+  nameWithType: MeshResource.UV1
+  fullName: Prowl.Runtime.MeshResource.UV1
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/Rendering/Mesh.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: UV1
+    path: ../Prowl/Prowl.Runtime/Rendering/Mesh.cs
+    startLine: 20
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: UV1 = 2
+    return:
+      type: Prowl.Runtime.MeshResource
+- uid: Prowl.Runtime.MeshResource.Normals
+  commentId: F:Prowl.Runtime.MeshResource.Normals
+  id: Normals
+  parent: Prowl.Runtime.MeshResource
+  langs:
+  - csharp
+  - vb
+  name: Normals
+  nameWithType: MeshResource.Normals
+  fullName: Prowl.Runtime.MeshResource.Normals
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/Rendering/Mesh.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Normals
+    path: ../Prowl/Prowl.Runtime/Rendering/Mesh.cs
+    startLine: 21
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: Normals = 3
+    return:
+      type: Prowl.Runtime.MeshResource
+- uid: Prowl.Runtime.MeshResource.Tangents
+  commentId: F:Prowl.Runtime.MeshResource.Tangents
+  id: Tangents
+  parent: Prowl.Runtime.MeshResource
+  langs:
+  - csharp
+  - vb
+  name: Tangents
+  nameWithType: MeshResource.Tangents
+  fullName: Prowl.Runtime.MeshResource.Tangents
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/Rendering/Mesh.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Tangents
+    path: ../Prowl/Prowl.Runtime/Rendering/Mesh.cs
+    startLine: 22
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: Tangents = 4
+    return:
+      type: Prowl.Runtime.MeshResource
+- uid: Prowl.Runtime.MeshResource.Colors
+  commentId: F:Prowl.Runtime.MeshResource.Colors
+  id: Colors
+  parent: Prowl.Runtime.MeshResource
+  langs:
+  - csharp
+  - vb
+  name: Colors
+  nameWithType: MeshResource.Colors
+  fullName: Prowl.Runtime.MeshResource.Colors
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/Rendering/Mesh.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Colors
+    path: ../Prowl/Prowl.Runtime/Rendering/Mesh.cs
+    startLine: 23
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: Colors = 5
+    return:
+      type: Prowl.Runtime.MeshResource
+- uid: Prowl.Runtime.MeshResource.BoneIndices
+  commentId: F:Prowl.Runtime.MeshResource.BoneIndices
+  id: BoneIndices
+  parent: Prowl.Runtime.MeshResource
+  langs:
+  - csharp
+  - vb
+  name: BoneIndices
+  nameWithType: MeshResource.BoneIndices
+  fullName: Prowl.Runtime.MeshResource.BoneIndices
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/Rendering/Mesh.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: BoneIndices
+    path: ../Prowl/Prowl.Runtime/Rendering/Mesh.cs
+    startLine: 24
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: BoneIndices = 6
+    return:
+      type: Prowl.Runtime.MeshResource
+- uid: Prowl.Runtime.MeshResource.BoneWeights
+  commentId: F:Prowl.Runtime.MeshResource.BoneWeights
+  id: BoneWeights
+  parent: Prowl.Runtime.MeshResource
+  langs:
+  - csharp
+  - vb
+  name: BoneWeights
+  nameWithType: MeshResource.BoneWeights
+  fullName: Prowl.Runtime.MeshResource.BoneWeights
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/Rendering/Mesh.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: BoneWeights
+    path: ../Prowl/Prowl.Runtime/Rendering/Mesh.cs
+    startLine: 25
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: BoneWeights = 7
+    return:
+      type: Prowl.Runtime.MeshResource
+references:
+- uid: Prowl.Runtime
+  commentId: N:Prowl.Runtime
+  href: Prowl.html
+  name: Prowl.Runtime
+  nameWithType: Prowl.Runtime
+  fullName: Prowl.Runtime
+  spec.csharp:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+  spec.vb:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+- uid: System.Object.Prowl.Runtime.RuntimeUtils.GetSerializableFields
+  commentId: M:Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  parent: Prowl.Runtime.RuntimeUtils
+  definition: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  name: GetSerializableFields(object)
+  nameWithType: RuntimeUtils.GetSerializableFields(object)
+  fullName: Prowl.Runtime.RuntimeUtils.GetSerializableFields(object)
+  nameWithType.vb: RuntimeUtils.GetSerializableFields(Object)
+  fullName.vb: Prowl.Runtime.RuntimeUtils.GetSerializableFields(Object)
+  name.vb: GetSerializableFields(Object)
+  spec.csharp:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  commentId: M:Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  isExternal: true
+  href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  name: GetSerializableFields(object)
+  nameWithType: RuntimeUtils.GetSerializableFields(object)
+  fullName: Prowl.Runtime.RuntimeUtils.GetSerializableFields(object)
+  nameWithType.vb: RuntimeUtils.GetSerializableFields(Object)
+  fullName.vb: Prowl.Runtime.RuntimeUtils.GetSerializableFields(Object)
+  name.vb: GetSerializableFields(Object)
+  spec.csharp:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: Prowl.Runtime.RuntimeUtils
+  commentId: T:Prowl.Runtime.RuntimeUtils
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.RuntimeUtils.html
+  name: RuntimeUtils
+  nameWithType: RuntimeUtils
+  fullName: Prowl.Runtime.RuntimeUtils
+- uid: Prowl.Runtime.MeshResource
+  commentId: T:Prowl.Runtime.MeshResource
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.MeshResource.html
+  name: MeshResource
+  nameWithType: MeshResource
+  fullName: Prowl.Runtime.MeshResource

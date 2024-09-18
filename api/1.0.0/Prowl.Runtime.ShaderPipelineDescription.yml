@@ -1,0 +1,754 @@
+### YamlMime:ManagedReference
+items:
+- uid: Prowl.Runtime.ShaderPipelineDescription
+  commentId: T:Prowl.Runtime.ShaderPipelineDescription
+  id: ShaderPipelineDescription
+  parent: Prowl.Runtime
+  children:
+  - Prowl.Runtime.ShaderPipelineDescription.Equals(Prowl.Runtime.ShaderPipelineDescription)
+  - Prowl.Runtime.ShaderPipelineDescription.Equals(System.Object)
+  - Prowl.Runtime.ShaderPipelineDescription.GetHashCode
+  - Prowl.Runtime.ShaderPipelineDescription.output
+  - Prowl.Runtime.ShaderPipelineDescription.pass
+  - Prowl.Runtime.ShaderPipelineDescription.variant
+  langs:
+  - csharp
+  - vb
+  name: ShaderPipelineDescription
+  nameWithType: ShaderPipelineDescription
+  fullName: Prowl.Runtime.ShaderPipelineDescription
+  type: Struct
+  source:
+    remote:
+      path: Prowl.Runtime/Rendering/Shader/ShaderPipeline.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: ShaderPipelineDescription
+    path: ../Prowl/Prowl.Runtime/Rendering/Shader/ShaderPipeline.cs
+    startLine: 12
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: 'public struct ShaderPipelineDescription : IEquatable<ShaderPipelineDescription>'
+    content.vb: Public Structure ShaderPipelineDescription Implements IEquatable(Of ShaderPipelineDescription)
+  implements:
+  - System.IEquatable{Prowl.Runtime.ShaderPipelineDescription}
+  inheritedMembers:
+  - System.ValueType.ToString
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  extensionMethods:
+  - System.Object.Prowl.Runtime.RuntimeUtils.GetSerializableFields
+- uid: Prowl.Runtime.ShaderPipelineDescription.pass
+  commentId: F:Prowl.Runtime.ShaderPipelineDescription.pass
+  id: pass
+  parent: Prowl.Runtime.ShaderPipelineDescription
+  langs:
+  - csharp
+  - vb
+  name: pass
+  nameWithType: ShaderPipelineDescription.pass
+  fullName: Prowl.Runtime.ShaderPipelineDescription.pass
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/Rendering/Shader/ShaderPipeline.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: pass
+    path: ../Prowl/Prowl.Runtime/Rendering/Shader/ShaderPipeline.cs
+    startLine: 14
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public ShaderPass pass
+    return:
+      type: Prowl.Runtime.ShaderPass
+    content.vb: Public pass As ShaderPass
+- uid: Prowl.Runtime.ShaderPipelineDescription.variant
+  commentId: F:Prowl.Runtime.ShaderPipelineDescription.variant
+  id: variant
+  parent: Prowl.Runtime.ShaderPipelineDescription
+  langs:
+  - csharp
+  - vb
+  name: variant
+  nameWithType: ShaderPipelineDescription.variant
+  fullName: Prowl.Runtime.ShaderPipelineDescription.variant
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/Rendering/Shader/ShaderPipeline.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: variant
+    path: ../Prowl/Prowl.Runtime/Rendering/Shader/ShaderPipeline.cs
+    startLine: 15
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public ShaderVariant variant
+    return:
+      type: Prowl.Runtime.ShaderVariant
+    content.vb: Public [variant] As ShaderVariant
+- uid: Prowl.Runtime.ShaderPipelineDescription.output
+  commentId: F:Prowl.Runtime.ShaderPipelineDescription.output
+  id: output
+  parent: Prowl.Runtime.ShaderPipelineDescription
+  langs:
+  - csharp
+  - vb
+  name: output
+  nameWithType: ShaderPipelineDescription.output
+  fullName: Prowl.Runtime.ShaderPipelineDescription.output
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/Rendering/Shader/ShaderPipeline.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: output
+    path: ../Prowl/Prowl.Runtime/Rendering/Shader/ShaderPipeline.cs
+    startLine: 17
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public OutputDescription? output
+    return:
+      type: System.Nullable{Veldrid.OutputDescription}
+    content.vb: Public output As OutputDescription?
+- uid: Prowl.Runtime.ShaderPipelineDescription.GetHashCode
+  commentId: M:Prowl.Runtime.ShaderPipelineDescription.GetHashCode
+  id: GetHashCode
+  parent: Prowl.Runtime.ShaderPipelineDescription
+  langs:
+  - csharp
+  - vb
+  name: GetHashCode()
+  nameWithType: ShaderPipelineDescription.GetHashCode()
+  fullName: Prowl.Runtime.ShaderPipelineDescription.GetHashCode()
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Rendering/Shader/ShaderPipeline.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: GetHashCode
+    path: ../Prowl/Prowl.Runtime/Rendering/Shader/ShaderPipeline.cs
+    startLine: 19
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: Returns the hash code for this instance.
+  example: []
+  syntax:
+    content: public override readonly int GetHashCode()
+    return:
+      type: System.Int32
+      description: A 32-bit signed integer that is the hash code for this instance.
+    content.vb: Public Overrides Function GetHashCode() As Integer
+  overridden: System.ValueType.GetHashCode
+  overload: Prowl.Runtime.ShaderPipelineDescription.GetHashCode*
+- uid: Prowl.Runtime.ShaderPipelineDescription.Equals(System.Object)
+  commentId: M:Prowl.Runtime.ShaderPipelineDescription.Equals(System.Object)
+  id: Equals(System.Object)
+  parent: Prowl.Runtime.ShaderPipelineDescription
+  langs:
+  - csharp
+  - vb
+  name: Equals(object?)
+  nameWithType: ShaderPipelineDescription.Equals(object?)
+  fullName: Prowl.Runtime.ShaderPipelineDescription.Equals(object?)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Rendering/Shader/ShaderPipeline.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Equals
+    path: ../Prowl/Prowl.Runtime/Rendering/Shader/ShaderPipeline.cs
+    startLine: 24
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: Indicates whether this instance and a specified object are equal.
+  example: []
+  syntax:
+    content: public override bool Equals(object? obj)
+    parameters:
+    - id: obj
+      type: System.Object
+      description: The object to compare with the current instance.
+    return:
+      type: System.Boolean
+      description: <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if <code class="paramref">obj</code> and this instance are the same type and represent the same value; otherwise, <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a>.
+    content.vb: Public Overrides Function Equals(obj As Object) As Boolean
+  overridden: System.ValueType.Equals(System.Object)
+  overload: Prowl.Runtime.ShaderPipelineDescription.Equals*
+  nameWithType.vb: ShaderPipelineDescription.Equals(Object)
+  fullName.vb: Prowl.Runtime.ShaderPipelineDescription.Equals(Object)
+  name.vb: Equals(Object)
+- uid: Prowl.Runtime.ShaderPipelineDescription.Equals(Prowl.Runtime.ShaderPipelineDescription)
+  commentId: M:Prowl.Runtime.ShaderPipelineDescription.Equals(Prowl.Runtime.ShaderPipelineDescription)
+  id: Equals(Prowl.Runtime.ShaderPipelineDescription)
+  parent: Prowl.Runtime.ShaderPipelineDescription
+  langs:
+  - csharp
+  - vb
+  name: Equals(ShaderPipelineDescription)
+  nameWithType: ShaderPipelineDescription.Equals(ShaderPipelineDescription)
+  fullName: Prowl.Runtime.ShaderPipelineDescription.Equals(Prowl.Runtime.ShaderPipelineDescription)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Rendering/Shader/ShaderPipeline.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Equals
+    path: ../Prowl/Prowl.Runtime/Rendering/Shader/ShaderPipeline.cs
+    startLine: 32
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: Indicates whether the current object is equal to another object of the same type.
+  example: []
+  syntax:
+    content: public bool Equals(ShaderPipelineDescription other)
+    parameters:
+    - id: other
+      type: Prowl.Runtime.ShaderPipelineDescription
+      description: An object to compare with this object.
+    return:
+      type: System.Boolean
+      description: <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if the current object is equal to the <code class="paramref">other</code> parameter; otherwise, <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a>.
+    content.vb: Public Function Equals(other As ShaderPipelineDescription) As Boolean
+  overload: Prowl.Runtime.ShaderPipelineDescription.Equals*
+  implements:
+  - System.IEquatable{Prowl.Runtime.ShaderPipelineDescription}.Equals(Prowl.Runtime.ShaderPipelineDescription)
+references:
+- uid: Prowl.Runtime
+  commentId: N:Prowl.Runtime
+  href: Prowl.html
+  name: Prowl.Runtime
+  nameWithType: Prowl.Runtime
+  fullName: Prowl.Runtime
+  spec.csharp:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+  spec.vb:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+- uid: System.IEquatable{Prowl.Runtime.ShaderPipelineDescription}
+  commentId: T:System.IEquatable{Prowl.Runtime.ShaderPipelineDescription}
+  parent: System
+  definition: System.IEquatable`1
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<ShaderPipelineDescription>
+  nameWithType: IEquatable<ShaderPipelineDescription>
+  fullName: System.IEquatable<Prowl.Runtime.ShaderPipelineDescription>
+  nameWithType.vb: IEquatable(Of ShaderPipelineDescription)
+  fullName.vb: System.IEquatable(Of Prowl.Runtime.ShaderPipelineDescription)
+  name.vb: IEquatable(Of ShaderPipelineDescription)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - uid: Prowl.Runtime.ShaderPipelineDescription
+    name: ShaderPipelineDescription
+    href: Prowl.Runtime.ShaderPipelineDescription.html
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Prowl.Runtime.ShaderPipelineDescription
+    name: ShaderPipelineDescription
+    href: Prowl.Runtime.ShaderPipelineDescription.html
+  - name: )
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Prowl.Runtime.RuntimeUtils.GetSerializableFields
+  commentId: M:Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  parent: Prowl.Runtime.RuntimeUtils
+  definition: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  name: GetSerializableFields(object)
+  nameWithType: RuntimeUtils.GetSerializableFields(object)
+  fullName: Prowl.Runtime.RuntimeUtils.GetSerializableFields(object)
+  nameWithType.vb: RuntimeUtils.GetSerializableFields(Object)
+  fullName.vb: Prowl.Runtime.RuntimeUtils.GetSerializableFields(Object)
+  name.vb: GetSerializableFields(Object)
+  spec.csharp:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.IEquatable`1
+  commentId: T:System.IEquatable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<T>
+  nameWithType: IEquatable<T>
+  fullName: System.IEquatable<T>
+  nameWithType.vb: IEquatable(Of T)
+  fullName.vb: System.IEquatable(Of T)
+  name.vb: IEquatable(Of T)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  commentId: M:Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  isExternal: true
+  href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  name: GetSerializableFields(object)
+  nameWithType: RuntimeUtils.GetSerializableFields(object)
+  fullName: Prowl.Runtime.RuntimeUtils.GetSerializableFields(object)
+  nameWithType.vb: RuntimeUtils.GetSerializableFields(Object)
+  fullName.vb: Prowl.Runtime.RuntimeUtils.GetSerializableFields(Object)
+  name.vb: GetSerializableFields(Object)
+  spec.csharp:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: Prowl.Runtime.RuntimeUtils
+  commentId: T:Prowl.Runtime.RuntimeUtils
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.RuntimeUtils.html
+  name: RuntimeUtils
+  nameWithType: RuntimeUtils
+  fullName: Prowl.Runtime.RuntimeUtils
+- uid: Prowl.Runtime.ShaderPass
+  commentId: T:Prowl.Runtime.ShaderPass
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.ShaderPass.html
+  name: ShaderPass
+  nameWithType: ShaderPass
+  fullName: Prowl.Runtime.ShaderPass
+- uid: Prowl.Runtime.ShaderVariant
+  commentId: T:Prowl.Runtime.ShaderVariant
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.ShaderVariant.html
+  name: ShaderVariant
+  nameWithType: ShaderVariant
+  fullName: Prowl.Runtime.ShaderVariant
+- uid: System.Nullable{Veldrid.OutputDescription}
+  commentId: T:System.Nullable{Veldrid.OutputDescription}
+  parent: System
+  definition: System.Nullable`1
+  name: OutputDescription?
+  nameWithType: OutputDescription?
+  fullName: Veldrid.OutputDescription?
+  spec.csharp:
+  - uid: Veldrid.OutputDescription
+    name: OutputDescription
+  - name: '?'
+  spec.vb:
+  - uid: Veldrid.OutputDescription
+    name: OutputDescription
+  - name: '?'
+- uid: System.Nullable`1
+  commentId: T:System.Nullable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  name: Nullable<T>
+  nameWithType: Nullable<T>
+  fullName: System.Nullable<T>
+  nameWithType.vb: Nullable(Of T)
+  fullName.vb: System.Nullable(Of T)
+  name.vb: Nullable(Of T)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+- uid: Prowl.Runtime.ShaderPipelineDescription.GetHashCode*
+  commentId: Overload:Prowl.Runtime.ShaderPipelineDescription.GetHashCode
+  href: Prowl.Runtime.ShaderPipelineDescription.html#Prowl_Runtime_ShaderPipelineDescription_GetHashCode
+  name: GetHashCode
+  nameWithType: ShaderPipelineDescription.GetHashCode
+  fullName: Prowl.Runtime.ShaderPipelineDescription.GetHashCode
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  name: Equals(object)
+  nameWithType: ValueType.Equals(object)
+  fullName: System.ValueType.Equals(object)
+  nameWithType.vb: ValueType.Equals(Object)
+  fullName.vb: System.ValueType.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: Prowl.Runtime.ShaderPipelineDescription.Equals*
+  commentId: Overload:Prowl.Runtime.ShaderPipelineDescription.Equals
+  href: Prowl.Runtime.ShaderPipelineDescription.html#Prowl_Runtime_ShaderPipelineDescription_Equals_System_Object_
+  name: Equals
+  nameWithType: ShaderPipelineDescription.Equals
+  fullName: Prowl.Runtime.ShaderPipelineDescription.Equals
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: System.IEquatable{Prowl.Runtime.ShaderPipelineDescription}.Equals(Prowl.Runtime.ShaderPipelineDescription)
+  commentId: M:System.IEquatable{Prowl.Runtime.ShaderPipelineDescription}.Equals(Prowl.Runtime.ShaderPipelineDescription)
+  parent: System.IEquatable{Prowl.Runtime.ShaderPipelineDescription}
+  definition: System.IEquatable`1.Equals(`0)
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  name: Equals(ShaderPipelineDescription)
+  nameWithType: IEquatable<ShaderPipelineDescription>.Equals(ShaderPipelineDescription)
+  fullName: System.IEquatable<Prowl.Runtime.ShaderPipelineDescription>.Equals(Prowl.Runtime.ShaderPipelineDescription)
+  nameWithType.vb: IEquatable(Of ShaderPipelineDescription).Equals(ShaderPipelineDescription)
+  fullName.vb: System.IEquatable(Of Prowl.Runtime.ShaderPipelineDescription).Equals(Prowl.Runtime.ShaderPipelineDescription)
+  spec.csharp:
+  - uid: System.IEquatable{Prowl.Runtime.ShaderPipelineDescription}.Equals(Prowl.Runtime.ShaderPipelineDescription)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - uid: Prowl.Runtime.ShaderPipelineDescription
+    name: ShaderPipelineDescription
+    href: Prowl.Runtime.ShaderPipelineDescription.html
+  - name: )
+  spec.vb:
+  - uid: System.IEquatable{Prowl.Runtime.ShaderPipelineDescription}.Equals(Prowl.Runtime.ShaderPipelineDescription)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - uid: Prowl.Runtime.ShaderPipelineDescription
+    name: ShaderPipelineDescription
+    href: Prowl.Runtime.ShaderPipelineDescription.html
+  - name: )
+- uid: Prowl.Runtime.ShaderPipelineDescription
+  commentId: T:Prowl.Runtime.ShaderPipelineDescription
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.ShaderPipelineDescription.html
+  name: ShaderPipelineDescription
+  nameWithType: ShaderPipelineDescription
+  fullName: Prowl.Runtime.ShaderPipelineDescription
+- uid: System.IEquatable`1.Equals(`0)
+  commentId: M:System.IEquatable`1.Equals(`0)
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  name: Equals(T)
+  nameWithType: IEquatable<T>.Equals(T)
+  fullName: System.IEquatable<T>.Equals(T)
+  nameWithType.vb: IEquatable(Of T).Equals(T)
+  fullName.vb: System.IEquatable(Of T).Equals(T)
+  spec.csharp:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - name: T
+  - name: )

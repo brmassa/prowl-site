@@ -1,0 +1,928 @@
+### YamlMime:ManagedReference
+items:
+- uid: Prowl.Runtime.Font.CharacterRange
+  commentId: T:Prowl.Runtime.Font.CharacterRange
+  id: Font.CharacterRange
+  parent: Prowl.Runtime
+  children:
+  - Prowl.Runtime.Font.CharacterRange.#ctor(System.Int32)
+  - Prowl.Runtime.Font.CharacterRange.#ctor(System.Int32,System.Int32)
+  - Prowl.Runtime.Font.CharacterRange.BasicLatin
+  - Prowl.Runtime.Font.CharacterRange.CjkSymbolsAndPunctuation
+  - Prowl.Runtime.Font.CharacterRange.CjkUnifiedIdeographs
+  - Prowl.Runtime.Font.CharacterRange.Cyrillic
+  - Prowl.Runtime.Font.CharacterRange.CyrillicSupplement
+  - Prowl.Runtime.Font.CharacterRange.End
+  - Prowl.Runtime.Font.CharacterRange.Greek
+  - Prowl.Runtime.Font.CharacterRange.HangulCompatibilityJamo
+  - Prowl.Runtime.Font.CharacterRange.HangulSyllables
+  - Prowl.Runtime.Font.CharacterRange.Hiragana
+  - Prowl.Runtime.Font.CharacterRange.Katakana
+  - Prowl.Runtime.Font.CharacterRange.Latin1Supplement
+  - Prowl.Runtime.Font.CharacterRange.LatinExtendedA
+  - Prowl.Runtime.Font.CharacterRange.LatinExtendedB
+  - Prowl.Runtime.Font.CharacterRange.Size
+  - Prowl.Runtime.Font.CharacterRange.Start
+  langs:
+  - csharp
+  - vb
+  name: Font.CharacterRange
+  nameWithType: Font.CharacterRange
+  fullName: Prowl.Runtime.Font.CharacterRange
+  type: Struct
+  source:
+    remote:
+      path: Prowl.Runtime/Resources/Font.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: CharacterRange
+    path: ../Prowl/Prowl.Runtime/Resources/Font.cs
+    startLine: 568
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public struct Font.CharacterRange
+    content.vb: Public Structure Font.CharacterRange
+  inheritedMembers:
+  - System.ValueType.Equals(System.Object)
+  - System.ValueType.GetHashCode
+  - System.ValueType.ToString
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  extensionMethods:
+  - System.Object.Prowl.Runtime.RuntimeUtils.GetSerializableFields
+- uid: Prowl.Runtime.Font.CharacterRange.BasicLatin
+  commentId: F:Prowl.Runtime.Font.CharacterRange.BasicLatin
+  id: BasicLatin
+  parent: Prowl.Runtime.Font.CharacterRange
+  langs:
+  - csharp
+  - vb
+  name: BasicLatin
+  nameWithType: Font.CharacterRange.BasicLatin
+  fullName: Prowl.Runtime.Font.CharacterRange.BasicLatin
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/Resources/Font.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: BasicLatin
+    path: ../Prowl/Prowl.Runtime/Resources/Font.cs
+    startLine: 570
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public static readonly Font.CharacterRange BasicLatin
+    return:
+      type: Prowl.Runtime.Font.CharacterRange
+    content.vb: Public Shared ReadOnly BasicLatin As Font.CharacterRange
+- uid: Prowl.Runtime.Font.CharacterRange.Latin1Supplement
+  commentId: F:Prowl.Runtime.Font.CharacterRange.Latin1Supplement
+  id: Latin1Supplement
+  parent: Prowl.Runtime.Font.CharacterRange
+  langs:
+  - csharp
+  - vb
+  name: Latin1Supplement
+  nameWithType: Font.CharacterRange.Latin1Supplement
+  fullName: Prowl.Runtime.Font.CharacterRange.Latin1Supplement
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/Resources/Font.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Latin1Supplement
+    path: ../Prowl/Prowl.Runtime/Resources/Font.cs
+    startLine: 571
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public static readonly Font.CharacterRange Latin1Supplement
+    return:
+      type: Prowl.Runtime.Font.CharacterRange
+    content.vb: Public Shared ReadOnly Latin1Supplement As Font.CharacterRange
+- uid: Prowl.Runtime.Font.CharacterRange.LatinExtendedA
+  commentId: F:Prowl.Runtime.Font.CharacterRange.LatinExtendedA
+  id: LatinExtendedA
+  parent: Prowl.Runtime.Font.CharacterRange
+  langs:
+  - csharp
+  - vb
+  name: LatinExtendedA
+  nameWithType: Font.CharacterRange.LatinExtendedA
+  fullName: Prowl.Runtime.Font.CharacterRange.LatinExtendedA
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/Resources/Font.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: LatinExtendedA
+    path: ../Prowl/Prowl.Runtime/Resources/Font.cs
+    startLine: 572
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public static readonly Font.CharacterRange LatinExtendedA
+    return:
+      type: Prowl.Runtime.Font.CharacterRange
+    content.vb: Public Shared ReadOnly LatinExtendedA As Font.CharacterRange
+- uid: Prowl.Runtime.Font.CharacterRange.LatinExtendedB
+  commentId: F:Prowl.Runtime.Font.CharacterRange.LatinExtendedB
+  id: LatinExtendedB
+  parent: Prowl.Runtime.Font.CharacterRange
+  langs:
+  - csharp
+  - vb
+  name: LatinExtendedB
+  nameWithType: Font.CharacterRange.LatinExtendedB
+  fullName: Prowl.Runtime.Font.CharacterRange.LatinExtendedB
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/Resources/Font.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: LatinExtendedB
+    path: ../Prowl/Prowl.Runtime/Resources/Font.cs
+    startLine: 573
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public static readonly Font.CharacterRange LatinExtendedB
+    return:
+      type: Prowl.Runtime.Font.CharacterRange
+    content.vb: Public Shared ReadOnly LatinExtendedB As Font.CharacterRange
+- uid: Prowl.Runtime.Font.CharacterRange.Cyrillic
+  commentId: F:Prowl.Runtime.Font.CharacterRange.Cyrillic
+  id: Cyrillic
+  parent: Prowl.Runtime.Font.CharacterRange
+  langs:
+  - csharp
+  - vb
+  name: Cyrillic
+  nameWithType: Font.CharacterRange.Cyrillic
+  fullName: Prowl.Runtime.Font.CharacterRange.Cyrillic
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/Resources/Font.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Cyrillic
+    path: ../Prowl/Prowl.Runtime/Resources/Font.cs
+    startLine: 574
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public static readonly Font.CharacterRange Cyrillic
+    return:
+      type: Prowl.Runtime.Font.CharacterRange
+    content.vb: Public Shared ReadOnly Cyrillic As Font.CharacterRange
+- uid: Prowl.Runtime.Font.CharacterRange.CyrillicSupplement
+  commentId: F:Prowl.Runtime.Font.CharacterRange.CyrillicSupplement
+  id: CyrillicSupplement
+  parent: Prowl.Runtime.Font.CharacterRange
+  langs:
+  - csharp
+  - vb
+  name: CyrillicSupplement
+  nameWithType: Font.CharacterRange.CyrillicSupplement
+  fullName: Prowl.Runtime.Font.CharacterRange.CyrillicSupplement
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/Resources/Font.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: CyrillicSupplement
+    path: ../Prowl/Prowl.Runtime/Resources/Font.cs
+    startLine: 575
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public static readonly Font.CharacterRange CyrillicSupplement
+    return:
+      type: Prowl.Runtime.Font.CharacterRange
+    content.vb: Public Shared ReadOnly CyrillicSupplement As Font.CharacterRange
+- uid: Prowl.Runtime.Font.CharacterRange.Hiragana
+  commentId: F:Prowl.Runtime.Font.CharacterRange.Hiragana
+  id: Hiragana
+  parent: Prowl.Runtime.Font.CharacterRange
+  langs:
+  - csharp
+  - vb
+  name: Hiragana
+  nameWithType: Font.CharacterRange.Hiragana
+  fullName: Prowl.Runtime.Font.CharacterRange.Hiragana
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/Resources/Font.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Hiragana
+    path: ../Prowl/Prowl.Runtime/Resources/Font.cs
+    startLine: 576
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public static readonly Font.CharacterRange Hiragana
+    return:
+      type: Prowl.Runtime.Font.CharacterRange
+    content.vb: Public Shared ReadOnly Hiragana As Font.CharacterRange
+- uid: Prowl.Runtime.Font.CharacterRange.Katakana
+  commentId: F:Prowl.Runtime.Font.CharacterRange.Katakana
+  id: Katakana
+  parent: Prowl.Runtime.Font.CharacterRange
+  langs:
+  - csharp
+  - vb
+  name: Katakana
+  nameWithType: Font.CharacterRange.Katakana
+  fullName: Prowl.Runtime.Font.CharacterRange.Katakana
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/Resources/Font.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Katakana
+    path: ../Prowl/Prowl.Runtime/Resources/Font.cs
+    startLine: 577
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public static readonly Font.CharacterRange Katakana
+    return:
+      type: Prowl.Runtime.Font.CharacterRange
+    content.vb: Public Shared ReadOnly Katakana As Font.CharacterRange
+- uid: Prowl.Runtime.Font.CharacterRange.Greek
+  commentId: F:Prowl.Runtime.Font.CharacterRange.Greek
+  id: Greek
+  parent: Prowl.Runtime.Font.CharacterRange
+  langs:
+  - csharp
+  - vb
+  name: Greek
+  nameWithType: Font.CharacterRange.Greek
+  fullName: Prowl.Runtime.Font.CharacterRange.Greek
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/Resources/Font.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Greek
+    path: ../Prowl/Prowl.Runtime/Resources/Font.cs
+    startLine: 578
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public static readonly Font.CharacterRange Greek
+    return:
+      type: Prowl.Runtime.Font.CharacterRange
+    content.vb: Public Shared ReadOnly Greek As Font.CharacterRange
+- uid: Prowl.Runtime.Font.CharacterRange.CjkSymbolsAndPunctuation
+  commentId: F:Prowl.Runtime.Font.CharacterRange.CjkSymbolsAndPunctuation
+  id: CjkSymbolsAndPunctuation
+  parent: Prowl.Runtime.Font.CharacterRange
+  langs:
+  - csharp
+  - vb
+  name: CjkSymbolsAndPunctuation
+  nameWithType: Font.CharacterRange.CjkSymbolsAndPunctuation
+  fullName: Prowl.Runtime.Font.CharacterRange.CjkSymbolsAndPunctuation
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/Resources/Font.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: CjkSymbolsAndPunctuation
+    path: ../Prowl/Prowl.Runtime/Resources/Font.cs
+    startLine: 579
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public static readonly Font.CharacterRange CjkSymbolsAndPunctuation
+    return:
+      type: Prowl.Runtime.Font.CharacterRange
+    content.vb: Public Shared ReadOnly CjkSymbolsAndPunctuation As Font.CharacterRange
+- uid: Prowl.Runtime.Font.CharacterRange.CjkUnifiedIdeographs
+  commentId: F:Prowl.Runtime.Font.CharacterRange.CjkUnifiedIdeographs
+  id: CjkUnifiedIdeographs
+  parent: Prowl.Runtime.Font.CharacterRange
+  langs:
+  - csharp
+  - vb
+  name: CjkUnifiedIdeographs
+  nameWithType: Font.CharacterRange.CjkUnifiedIdeographs
+  fullName: Prowl.Runtime.Font.CharacterRange.CjkUnifiedIdeographs
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/Resources/Font.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: CjkUnifiedIdeographs
+    path: ../Prowl/Prowl.Runtime/Resources/Font.cs
+    startLine: 580
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public static readonly Font.CharacterRange CjkUnifiedIdeographs
+    return:
+      type: Prowl.Runtime.Font.CharacterRange
+    content.vb: Public Shared ReadOnly CjkUnifiedIdeographs As Font.CharacterRange
+- uid: Prowl.Runtime.Font.CharacterRange.HangulCompatibilityJamo
+  commentId: F:Prowl.Runtime.Font.CharacterRange.HangulCompatibilityJamo
+  id: HangulCompatibilityJamo
+  parent: Prowl.Runtime.Font.CharacterRange
+  langs:
+  - csharp
+  - vb
+  name: HangulCompatibilityJamo
+  nameWithType: Font.CharacterRange.HangulCompatibilityJamo
+  fullName: Prowl.Runtime.Font.CharacterRange.HangulCompatibilityJamo
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/Resources/Font.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: HangulCompatibilityJamo
+    path: ../Prowl/Prowl.Runtime/Resources/Font.cs
+    startLine: 581
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public static readonly Font.CharacterRange HangulCompatibilityJamo
+    return:
+      type: Prowl.Runtime.Font.CharacterRange
+    content.vb: Public Shared ReadOnly HangulCompatibilityJamo As Font.CharacterRange
+- uid: Prowl.Runtime.Font.CharacterRange.HangulSyllables
+  commentId: F:Prowl.Runtime.Font.CharacterRange.HangulSyllables
+  id: HangulSyllables
+  parent: Prowl.Runtime.Font.CharacterRange
+  langs:
+  - csharp
+  - vb
+  name: HangulSyllables
+  nameWithType: Font.CharacterRange.HangulSyllables
+  fullName: Prowl.Runtime.Font.CharacterRange.HangulSyllables
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/Resources/Font.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: HangulSyllables
+    path: ../Prowl/Prowl.Runtime/Resources/Font.cs
+    startLine: 582
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public static readonly Font.CharacterRange HangulSyllables
+    return:
+      type: Prowl.Runtime.Font.CharacterRange
+    content.vb: Public Shared ReadOnly HangulSyllables As Font.CharacterRange
+- uid: Prowl.Runtime.Font.CharacterRange.Start
+  commentId: P:Prowl.Runtime.Font.CharacterRange.Start
+  id: Start
+  parent: Prowl.Runtime.Font.CharacterRange
+  langs:
+  - csharp
+  - vb
+  name: Start
+  nameWithType: Font.CharacterRange.Start
+  fullName: Prowl.Runtime.Font.CharacterRange.Start
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/Resources/Font.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Start
+    path: ../Prowl/Prowl.Runtime/Resources/Font.cs
+    startLine: 584
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public readonly int Start { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property Start As Integer
+  overload: Prowl.Runtime.Font.CharacterRange.Start*
+- uid: Prowl.Runtime.Font.CharacterRange.End
+  commentId: P:Prowl.Runtime.Font.CharacterRange.End
+  id: End
+  parent: Prowl.Runtime.Font.CharacterRange
+  langs:
+  - csharp
+  - vb
+  name: End
+  nameWithType: Font.CharacterRange.End
+  fullName: Prowl.Runtime.Font.CharacterRange.End
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/Resources/Font.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: End
+    path: ../Prowl/Prowl.Runtime/Resources/Font.cs
+    startLine: 586
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public readonly int End { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property [End] As Integer
+  overload: Prowl.Runtime.Font.CharacterRange.End*
+- uid: Prowl.Runtime.Font.CharacterRange.Size
+  commentId: P:Prowl.Runtime.Font.CharacterRange.Size
+  id: Size
+  parent: Prowl.Runtime.Font.CharacterRange
+  langs:
+  - csharp
+  - vb
+  name: Size
+  nameWithType: Font.CharacterRange.Size
+  fullName: Prowl.Runtime.Font.CharacterRange.Size
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/Resources/Font.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Size
+    path: ../Prowl/Prowl.Runtime/Resources/Font.cs
+    startLine: 588
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public int Size { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property Size As Integer
+  overload: Prowl.Runtime.Font.CharacterRange.Size*
+- uid: Prowl.Runtime.Font.CharacterRange.#ctor(System.Int32,System.Int32)
+  commentId: M:Prowl.Runtime.Font.CharacterRange.#ctor(System.Int32,System.Int32)
+  id: '#ctor(System.Int32,System.Int32)'
+  parent: Prowl.Runtime.Font.CharacterRange
+  langs:
+  - csharp
+  - vb
+  name: CharacterRange(int, int)
+  nameWithType: Font.CharacterRange.CharacterRange(int, int)
+  fullName: Prowl.Runtime.Font.CharacterRange.CharacterRange(int, int)
+  type: Constructor
+  source:
+    remote:
+      path: Prowl.Runtime/Resources/Font.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: .ctor
+    path: ../Prowl/Prowl.Runtime/Resources/Font.cs
+    startLine: 590
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public CharacterRange(int start, int end)
+    parameters:
+    - id: start
+      type: System.Int32
+    - id: end
+      type: System.Int32
+    content.vb: Public Sub New(start As Integer, [end] As Integer)
+  overload: Prowl.Runtime.Font.CharacterRange.#ctor*
+  nameWithType.vb: Font.CharacterRange.New(Integer, Integer)
+  fullName.vb: Prowl.Runtime.Font.CharacterRange.New(Integer, Integer)
+  name.vb: New(Integer, Integer)
+- uid: Prowl.Runtime.Font.CharacterRange.#ctor(System.Int32)
+  commentId: M:Prowl.Runtime.Font.CharacterRange.#ctor(System.Int32)
+  id: '#ctor(System.Int32)'
+  parent: Prowl.Runtime.Font.CharacterRange
+  langs:
+  - csharp
+  - vb
+  name: CharacterRange(int)
+  nameWithType: Font.CharacterRange.CharacterRange(int)
+  fullName: Prowl.Runtime.Font.CharacterRange.CharacterRange(int)
+  type: Constructor
+  source:
+    remote:
+      path: Prowl.Runtime/Resources/Font.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: .ctor
+    path: ../Prowl/Prowl.Runtime/Resources/Font.cs
+    startLine: 596
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public CharacterRange(int single)
+    parameters:
+    - id: single
+      type: System.Int32
+    content.vb: Public Sub New([single] As Integer)
+  overload: Prowl.Runtime.Font.CharacterRange.#ctor*
+  nameWithType.vb: Font.CharacterRange.New(Integer)
+  fullName.vb: Prowl.Runtime.Font.CharacterRange.New(Integer)
+  name.vb: New(Integer)
+references:
+- uid: Prowl.Runtime
+  commentId: N:Prowl.Runtime
+  href: Prowl.html
+  name: Prowl.Runtime
+  nameWithType: Prowl.Runtime
+  fullName: Prowl.Runtime
+  spec.csharp:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+  spec.vb:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  name: Equals(object)
+  nameWithType: ValueType.Equals(object)
+  fullName: System.ValueType.Equals(object)
+  nameWithType.vb: ValueType.Equals(Object)
+  fullName.vb: System.ValueType.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Prowl.Runtime.RuntimeUtils.GetSerializableFields
+  commentId: M:Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  parent: Prowl.Runtime.RuntimeUtils
+  definition: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  name: GetSerializableFields(object)
+  nameWithType: RuntimeUtils.GetSerializableFields(object)
+  fullName: Prowl.Runtime.RuntimeUtils.GetSerializableFields(object)
+  nameWithType.vb: RuntimeUtils.GetSerializableFields(Object)
+  fullName.vb: Prowl.Runtime.RuntimeUtils.GetSerializableFields(Object)
+  name.vb: GetSerializableFields(Object)
+  spec.csharp:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  commentId: M:Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  isExternal: true
+  href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  name: GetSerializableFields(object)
+  nameWithType: RuntimeUtils.GetSerializableFields(object)
+  fullName: Prowl.Runtime.RuntimeUtils.GetSerializableFields(object)
+  nameWithType.vb: RuntimeUtils.GetSerializableFields(Object)
+  fullName.vb: Prowl.Runtime.RuntimeUtils.GetSerializableFields(Object)
+  name.vb: GetSerializableFields(Object)
+  spec.csharp:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: Prowl.Runtime.RuntimeUtils
+  commentId: T:Prowl.Runtime.RuntimeUtils
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.RuntimeUtils.html
+  name: RuntimeUtils
+  nameWithType: RuntimeUtils
+  fullName: Prowl.Runtime.RuntimeUtils
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Prowl.Runtime.Font.CharacterRange
+  commentId: T:Prowl.Runtime.Font.CharacterRange
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.Font.html
+  name: Font.CharacterRange
+  nameWithType: Font.CharacterRange
+  fullName: Prowl.Runtime.Font.CharacterRange
+  spec.csharp:
+  - uid: Prowl.Runtime.Font
+    name: Font
+    href: Prowl.Runtime.Font.html
+  - name: .
+  - uid: Prowl.Runtime.Font.CharacterRange
+    name: CharacterRange
+    href: Prowl.Runtime.Font.CharacterRange.html
+  spec.vb:
+  - uid: Prowl.Runtime.Font
+    name: Font
+    href: Prowl.Runtime.Font.html
+  - name: .
+  - uid: Prowl.Runtime.Font.CharacterRange
+    name: CharacterRange
+    href: Prowl.Runtime.Font.CharacterRange.html
+- uid: Prowl.Runtime.Font.CharacterRange.Start*
+  commentId: Overload:Prowl.Runtime.Font.CharacterRange.Start
+  href: Prowl.Runtime.Font.CharacterRange.html#Prowl_Runtime_Font_CharacterRange_Start
+  name: Start
+  nameWithType: Font.CharacterRange.Start
+  fullName: Prowl.Runtime.Font.CharacterRange.Start
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: Prowl.Runtime.Font.CharacterRange.End*
+  commentId: Overload:Prowl.Runtime.Font.CharacterRange.End
+  href: Prowl.Runtime.Font.CharacterRange.html#Prowl_Runtime_Font_CharacterRange_End
+  name: End
+  nameWithType: Font.CharacterRange.End
+  fullName: Prowl.Runtime.Font.CharacterRange.End
+- uid: Prowl.Runtime.Font.CharacterRange.Size*
+  commentId: Overload:Prowl.Runtime.Font.CharacterRange.Size
+  href: Prowl.Runtime.Font.CharacterRange.html#Prowl_Runtime_Font_CharacterRange_Size
+  name: Size
+  nameWithType: Font.CharacterRange.Size
+  fullName: Prowl.Runtime.Font.CharacterRange.Size
+- uid: Prowl.Runtime.Font.CharacterRange.#ctor*
+  commentId: Overload:Prowl.Runtime.Font.CharacterRange.#ctor
+  href: Prowl.Runtime.Font.CharacterRange.html#Prowl_Runtime_Font_CharacterRange__ctor_System_Int32_System_Int32_
+  name: CharacterRange
+  nameWithType: Font.CharacterRange.CharacterRange
+  fullName: Prowl.Runtime.Font.CharacterRange.CharacterRange
+  nameWithType.vb: Font.CharacterRange.New
+  fullName.vb: Prowl.Runtime.Font.CharacterRange.New
+  name.vb: New

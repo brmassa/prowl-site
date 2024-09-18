@@ -1,0 +1,839 @@
+### YamlMime:ManagedReference
+items:
+- uid: Prowl.Runtime.Raycast.HitInfo
+  commentId: T:Prowl.Runtime.Raycast.HitInfo
+  id: HitInfo
+  parent: Prowl.Runtime.Raycast
+  children:
+  - Prowl.Runtime.Raycast.HitInfo.#ctor(Prowl.Runtime.Vector3,Prowl.Runtime.Vector3,System.Single,Prowl.Runtime.PhysicsBody)
+  - Prowl.Runtime.Raycast.HitInfo.CompareTo(Prowl.Runtime.Raycast.HitInfo)
+  - Prowl.Runtime.Raycast.HitInfo.Container
+  - Prowl.Runtime.Raycast.HitInfo.Distance
+  - Prowl.Runtime.Raycast.HitInfo.Normal
+  - Prowl.Runtime.Raycast.HitInfo.Point
+  langs:
+  - csharp
+  - vb
+  name: HitInfo
+  nameWithType: HitInfo
+  fullName: Prowl.Runtime.Raycast.HitInfo
+  type: Struct
+  source:
+    remote:
+      path: Prowl.Runtime/Components/Physics/Types/Raycast/HitInfo.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: HitInfo
+    path: ../Prowl/Prowl.Runtime/Components/Physics/Types/Raycast/HitInfo.cs
+    startLine: 14
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.Raycast
+  summary: Information returned by the different simulation test methods in Stride.BepuPhysics.Configurations.BepuSimulation
+  example: []
+  syntax:
+    content: 'public readonly record struct HitInfo : IComparable<HitInfo>, IEquatable<HitInfo>'
+    content.vb: Public Structure HitInfo Implements IComparable(Of HitInfo), IEquatable(Of HitInfo)
+  implements:
+  - System.IComparable{Prowl.Runtime.Raycast.HitInfo}
+  - System.IEquatable{Prowl.Runtime.Raycast.HitInfo}
+  inheritedMembers:
+  - System.ValueType.Equals(System.Object)
+  - System.ValueType.GetHashCode
+  - System.ValueType.ToString
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  extensionMethods:
+  - System.Object.Prowl.Runtime.RuntimeUtils.GetSerializableFields
+- uid: Prowl.Runtime.Raycast.HitInfo.Point
+  commentId: P:Prowl.Runtime.Raycast.HitInfo.Point
+  id: Point
+  parent: Prowl.Runtime.Raycast.HitInfo
+  langs:
+  - csharp
+  - vb
+  name: Point
+  nameWithType: HitInfo.Point
+  fullName: Prowl.Runtime.Raycast.HitInfo.Point
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/Components/Physics/Types/Raycast/HitInfo.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Point
+    path: ../Prowl/Prowl.Runtime/Components/Physics/Types/Raycast/HitInfo.cs
+    startLine: 16
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.Raycast
+  syntax:
+    content: public Vector3 Point { get; init; }
+    parameters: []
+    return:
+      type: Prowl.Runtime.Vector3
+    content.vb: Public Property Point As Vector3
+  overload: Prowl.Runtime.Raycast.HitInfo.Point*
+- uid: Prowl.Runtime.Raycast.HitInfo.Normal
+  commentId: P:Prowl.Runtime.Raycast.HitInfo.Normal
+  id: Normal
+  parent: Prowl.Runtime.Raycast.HitInfo
+  langs:
+  - csharp
+  - vb
+  name: Normal
+  nameWithType: HitInfo.Normal
+  fullName: Prowl.Runtime.Raycast.HitInfo.Normal
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/Components/Physics/Types/Raycast/HitInfo.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Normal
+    path: ../Prowl/Prowl.Runtime/Components/Physics/Types/Raycast/HitInfo.cs
+    startLine: 17
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.Raycast
+  syntax:
+    content: public Vector3 Normal { get; init; }
+    parameters: []
+    return:
+      type: Prowl.Runtime.Vector3
+    content.vb: Public Property Normal As Vector3
+  overload: Prowl.Runtime.Raycast.HitInfo.Normal*
+- uid: Prowl.Runtime.Raycast.HitInfo.Distance
+  commentId: P:Prowl.Runtime.Raycast.HitInfo.Distance
+  id: Distance
+  parent: Prowl.Runtime.Raycast.HitInfo
+  langs:
+  - csharp
+  - vb
+  name: Distance
+  nameWithType: HitInfo.Distance
+  fullName: Prowl.Runtime.Raycast.HitInfo.Distance
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/Components/Physics/Types/Raycast/HitInfo.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Distance
+    path: ../Prowl/Prowl.Runtime/Components/Physics/Types/Raycast/HitInfo.cs
+    startLine: 18
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.Raycast
+  syntax:
+    content: public float Distance { get; init; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property Distance As Single
+  overload: Prowl.Runtime.Raycast.HitInfo.Distance*
+- uid: Prowl.Runtime.Raycast.HitInfo.Container
+  commentId: P:Prowl.Runtime.Raycast.HitInfo.Container
+  id: Container
+  parent: Prowl.Runtime.Raycast.HitInfo
+  langs:
+  - csharp
+  - vb
+  name: Container
+  nameWithType: HitInfo.Container
+  fullName: Prowl.Runtime.Raycast.HitInfo.Container
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/Components/Physics/Types/Raycast/HitInfo.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Container
+    path: ../Prowl/Prowl.Runtime/Components/Physics/Types/Raycast/HitInfo.cs
+    startLine: 19
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.Raycast
+  syntax:
+    content: public PhysicsBody Container { get; init; }
+    parameters: []
+    return:
+      type: Prowl.Runtime.PhysicsBody
+    content.vb: Public Property Container As PhysicsBody
+  overload: Prowl.Runtime.Raycast.HitInfo.Container*
+- uid: Prowl.Runtime.Raycast.HitInfo.#ctor(Prowl.Runtime.Vector3,Prowl.Runtime.Vector3,System.Single,Prowl.Runtime.PhysicsBody)
+  commentId: M:Prowl.Runtime.Raycast.HitInfo.#ctor(Prowl.Runtime.Vector3,Prowl.Runtime.Vector3,System.Single,Prowl.Runtime.PhysicsBody)
+  id: '#ctor(Prowl.Runtime.Vector3,Prowl.Runtime.Vector3,System.Single,Prowl.Runtime.PhysicsBody)'
+  parent: Prowl.Runtime.Raycast.HitInfo
+  langs:
+  - csharp
+  - vb
+  name: HitInfo(Vector3, Vector3, float, PhysicsBody)
+  nameWithType: HitInfo.HitInfo(Vector3, Vector3, float, PhysicsBody)
+  fullName: Prowl.Runtime.Raycast.HitInfo.HitInfo(Prowl.Runtime.Vector3, Prowl.Runtime.Vector3, float, Prowl.Runtime.PhysicsBody)
+  type: Constructor
+  source:
+    remote:
+      path: Prowl.Runtime/Components/Physics/Types/Raycast/HitInfo.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: .ctor
+    path: ../Prowl/Prowl.Runtime/Components/Physics/Types/Raycast/HitInfo.cs
+    startLine: 21
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.Raycast
+  syntax:
+    content: public HitInfo(Vector3 point, Vector3 normal, float distance, PhysicsBody container)
+    parameters:
+    - id: point
+      type: Prowl.Runtime.Vector3
+    - id: normal
+      type: Prowl.Runtime.Vector3
+    - id: distance
+      type: System.Single
+    - id: container
+      type: Prowl.Runtime.PhysicsBody
+    content.vb: Public Sub New(point As Vector3, normal As Vector3, distance As Single, container As PhysicsBody)
+  overload: Prowl.Runtime.Raycast.HitInfo.#ctor*
+  nameWithType.vb: HitInfo.New(Vector3, Vector3, Single, PhysicsBody)
+  fullName.vb: Prowl.Runtime.Raycast.HitInfo.New(Prowl.Runtime.Vector3, Prowl.Runtime.Vector3, Single, Prowl.Runtime.PhysicsBody)
+  name.vb: New(Vector3, Vector3, Single, PhysicsBody)
+- uid: Prowl.Runtime.Raycast.HitInfo.CompareTo(Prowl.Runtime.Raycast.HitInfo)
+  commentId: M:Prowl.Runtime.Raycast.HitInfo.CompareTo(Prowl.Runtime.Raycast.HitInfo)
+  id: CompareTo(Prowl.Runtime.Raycast.HitInfo)
+  parent: Prowl.Runtime.Raycast.HitInfo
+  langs:
+  - csharp
+  - vb
+  name: CompareTo(HitInfo)
+  nameWithType: HitInfo.CompareTo(HitInfo)
+  fullName: Prowl.Runtime.Raycast.HitInfo.CompareTo(Prowl.Runtime.Raycast.HitInfo)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Components/Physics/Types/Raycast/HitInfo.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: CompareTo
+    path: ../Prowl/Prowl.Runtime/Components/Physics/Types/Raycast/HitInfo.cs
+    startLine: 29
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.Raycast
+  summary: Compares the current instance with another object of the same type and returns an integer that indicates whether the current instance precedes, follows, or occurs in the same position in the sort order as the other object.
+  example: []
+  syntax:
+    content: public int CompareTo(HitInfo other)
+    parameters:
+    - id: other
+      type: Prowl.Runtime.Raycast.HitInfo
+      description: An object to compare with this instance.
+    return:
+      type: System.Int32
+      description: >-
+        A value that indicates the relative order of the objects being compared. The return value has these meanings:  
+
+         <table><thead><tr><th class="term"> Value</th><th class="description"> Meaning</th></tr></thead><tbody><tr><td class="term"> Less than zero</td><td class="description"> This instance precedes <code class="paramref">other</code> in the sort order.</td></tr><tr><td class="term"> Zero</td><td class="description"> This instance occurs in the same position in the sort order as <code class="paramref">other</code>.</td></tr><tr><td class="term"> Greater than zero</td><td class="description"> This instance follows <code class="paramref">other</code> in the sort order.</td></tr></tbody></table>
+    content.vb: Public Function CompareTo(other As HitInfo) As Integer
+  overload: Prowl.Runtime.Raycast.HitInfo.CompareTo*
+  implements:
+  - System.IComparable{Prowl.Runtime.Raycast.HitInfo}.CompareTo(Prowl.Runtime.Raycast.HitInfo)
+references:
+- uid: Prowl.Runtime.Raycast
+  commentId: N:Prowl.Runtime.Raycast
+  href: Prowl.html
+  name: Prowl.Runtime.Raycast
+  nameWithType: Prowl.Runtime.Raycast
+  fullName: Prowl.Runtime.Raycast
+  spec.csharp:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+  - name: .
+  - uid: Prowl.Runtime.Raycast
+    name: Raycast
+    href: Prowl.Runtime.Raycast.html
+  spec.vb:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+  - name: .
+  - uid: Prowl.Runtime.Raycast
+    name: Raycast
+    href: Prowl.Runtime.Raycast.html
+- uid: System.IComparable{Prowl.Runtime.Raycast.HitInfo}
+  commentId: T:System.IComparable{Prowl.Runtime.Raycast.HitInfo}
+  parent: System
+  definition: System.IComparable`1
+  href: https://learn.microsoft.com/dotnet/api/system.icomparable-1
+  name: IComparable<HitInfo>
+  nameWithType: IComparable<HitInfo>
+  fullName: System.IComparable<Prowl.Runtime.Raycast.HitInfo>
+  nameWithType.vb: IComparable(Of HitInfo)
+  fullName.vb: System.IComparable(Of Prowl.Runtime.Raycast.HitInfo)
+  name.vb: IComparable(Of HitInfo)
+  spec.csharp:
+  - uid: System.IComparable`1
+    name: IComparable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.icomparable-1
+  - name: <
+  - uid: Prowl.Runtime.Raycast.HitInfo
+    name: HitInfo
+    href: Prowl.Runtime.Raycast.HitInfo.html
+  - name: '>'
+  spec.vb:
+  - uid: System.IComparable`1
+    name: IComparable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.icomparable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Prowl.Runtime.Raycast.HitInfo
+    name: HitInfo
+    href: Prowl.Runtime.Raycast.HitInfo.html
+  - name: )
+- uid: System.IEquatable{Prowl.Runtime.Raycast.HitInfo}
+  commentId: T:System.IEquatable{Prowl.Runtime.Raycast.HitInfo}
+  parent: System
+  definition: System.IEquatable`1
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<HitInfo>
+  nameWithType: IEquatable<HitInfo>
+  fullName: System.IEquatable<Prowl.Runtime.Raycast.HitInfo>
+  nameWithType.vb: IEquatable(Of HitInfo)
+  fullName.vb: System.IEquatable(Of Prowl.Runtime.Raycast.HitInfo)
+  name.vb: IEquatable(Of HitInfo)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - uid: Prowl.Runtime.Raycast.HitInfo
+    name: HitInfo
+    href: Prowl.Runtime.Raycast.HitInfo.html
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Prowl.Runtime.Raycast.HitInfo
+    name: HitInfo
+    href: Prowl.Runtime.Raycast.HitInfo.html
+  - name: )
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  name: Equals(object)
+  nameWithType: ValueType.Equals(object)
+  fullName: System.ValueType.Equals(object)
+  nameWithType.vb: ValueType.Equals(Object)
+  fullName.vb: System.ValueType.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Prowl.Runtime.RuntimeUtils.GetSerializableFields
+  commentId: M:Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  parent: Prowl.Runtime.RuntimeUtils
+  definition: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  name: GetSerializableFields(object)
+  nameWithType: RuntimeUtils.GetSerializableFields(object)
+  fullName: Prowl.Runtime.RuntimeUtils.GetSerializableFields(object)
+  nameWithType.vb: RuntimeUtils.GetSerializableFields(Object)
+  fullName.vb: Prowl.Runtime.RuntimeUtils.GetSerializableFields(Object)
+  name.vb: GetSerializableFields(Object)
+  spec.csharp:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.IComparable`1
+  commentId: T:System.IComparable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.icomparable-1
+  name: IComparable<T>
+  nameWithType: IComparable<T>
+  fullName: System.IComparable<T>
+  nameWithType.vb: IComparable(Of T)
+  fullName.vb: System.IComparable(Of T)
+  name.vb: IComparable(Of T)
+  spec.csharp:
+  - uid: System.IComparable`1
+    name: IComparable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.icomparable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.IComparable`1
+    name: IComparable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.icomparable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.IEquatable`1
+  commentId: T:System.IEquatable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<T>
+  nameWithType: IEquatable<T>
+  fullName: System.IEquatable<T>
+  nameWithType.vb: IEquatable(Of T)
+  fullName.vb: System.IEquatable(Of T)
+  name.vb: IEquatable(Of T)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  commentId: M:Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  isExternal: true
+  href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  name: GetSerializableFields(object)
+  nameWithType: RuntimeUtils.GetSerializableFields(object)
+  fullName: Prowl.Runtime.RuntimeUtils.GetSerializableFields(object)
+  nameWithType.vb: RuntimeUtils.GetSerializableFields(Object)
+  fullName.vb: Prowl.Runtime.RuntimeUtils.GetSerializableFields(Object)
+  name.vb: GetSerializableFields(Object)
+  spec.csharp:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: Prowl.Runtime.RuntimeUtils
+  commentId: T:Prowl.Runtime.RuntimeUtils
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.RuntimeUtils.html
+  name: RuntimeUtils
+  nameWithType: RuntimeUtils
+  fullName: Prowl.Runtime.RuntimeUtils
+- uid: Prowl.Runtime
+  commentId: N:Prowl.Runtime
+  href: Prowl.html
+  name: Prowl.Runtime
+  nameWithType: Prowl.Runtime
+  fullName: Prowl.Runtime
+  spec.csharp:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+  spec.vb:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+- uid: Prowl.Runtime.Raycast.HitInfo.Point*
+  commentId: Overload:Prowl.Runtime.Raycast.HitInfo.Point
+  href: Prowl.Runtime.Raycast.HitInfo.html#Prowl_Runtime_Raycast_HitInfo_Point
+  name: Point
+  nameWithType: HitInfo.Point
+  fullName: Prowl.Runtime.Raycast.HitInfo.Point
+- uid: Prowl.Runtime.Vector3
+  commentId: T:Prowl.Runtime.Vector3
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.Vector3.html
+  name: Vector3
+  nameWithType: Vector3
+  fullName: Prowl.Runtime.Vector3
+- uid: Prowl.Runtime.Raycast.HitInfo.Normal*
+  commentId: Overload:Prowl.Runtime.Raycast.HitInfo.Normal
+  href: Prowl.Runtime.Raycast.HitInfo.html#Prowl_Runtime_Raycast_HitInfo_Normal
+  name: Normal
+  nameWithType: HitInfo.Normal
+  fullName: Prowl.Runtime.Raycast.HitInfo.Normal
+- uid: Prowl.Runtime.Raycast.HitInfo.Distance*
+  commentId: Overload:Prowl.Runtime.Raycast.HitInfo.Distance
+  href: Prowl.Runtime.Raycast.HitInfo.html#Prowl_Runtime_Raycast_HitInfo_Distance
+  name: Distance
+  nameWithType: HitInfo.Distance
+  fullName: Prowl.Runtime.Raycast.HitInfo.Distance
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.single
+  name: float
+  nameWithType: float
+  fullName: float
+  nameWithType.vb: Single
+  fullName.vb: Single
+  name.vb: Single
+- uid: Prowl.Runtime.Raycast.HitInfo.Container*
+  commentId: Overload:Prowl.Runtime.Raycast.HitInfo.Container
+  href: Prowl.Runtime.Raycast.HitInfo.html#Prowl_Runtime_Raycast_HitInfo_Container
+  name: Container
+  nameWithType: HitInfo.Container
+  fullName: Prowl.Runtime.Raycast.HitInfo.Container
+- uid: Prowl.Runtime.PhysicsBody
+  commentId: T:Prowl.Runtime.PhysicsBody
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.PhysicsBody.html
+  name: PhysicsBody
+  nameWithType: PhysicsBody
+  fullName: Prowl.Runtime.PhysicsBody
+- uid: Prowl.Runtime.Raycast.HitInfo.#ctor*
+  commentId: Overload:Prowl.Runtime.Raycast.HitInfo.#ctor
+  href: Prowl.Runtime.Raycast.HitInfo.html#Prowl_Runtime_Raycast_HitInfo__ctor_Prowl_Runtime_Vector3_Prowl_Runtime_Vector3_System_Single_Prowl_Runtime_PhysicsBody_
+  name: HitInfo
+  nameWithType: HitInfo.HitInfo
+  fullName: Prowl.Runtime.Raycast.HitInfo.HitInfo
+  nameWithType.vb: HitInfo.New
+  fullName.vb: Prowl.Runtime.Raycast.HitInfo.New
+  name.vb: New
+- uid: Prowl.Runtime.Raycast.HitInfo.CompareTo*
+  commentId: Overload:Prowl.Runtime.Raycast.HitInfo.CompareTo
+  href: Prowl.Runtime.Raycast.HitInfo.html#Prowl_Runtime_Raycast_HitInfo_CompareTo_Prowl_Runtime_Raycast_HitInfo_
+  name: CompareTo
+  nameWithType: HitInfo.CompareTo
+  fullName: Prowl.Runtime.Raycast.HitInfo.CompareTo
+- uid: System.IComparable{Prowl.Runtime.Raycast.HitInfo}.CompareTo(Prowl.Runtime.Raycast.HitInfo)
+  commentId: M:System.IComparable{Prowl.Runtime.Raycast.HitInfo}.CompareTo(Prowl.Runtime.Raycast.HitInfo)
+  parent: System.IComparable{Prowl.Runtime.Raycast.HitInfo}
+  definition: System.IComparable`1.CompareTo(`0)
+  href: https://learn.microsoft.com/dotnet/api/system.icomparable-1.compareto
+  name: CompareTo(HitInfo)
+  nameWithType: IComparable<HitInfo>.CompareTo(HitInfo)
+  fullName: System.IComparable<Prowl.Runtime.Raycast.HitInfo>.CompareTo(Prowl.Runtime.Raycast.HitInfo)
+  nameWithType.vb: IComparable(Of HitInfo).CompareTo(HitInfo)
+  fullName.vb: System.IComparable(Of Prowl.Runtime.Raycast.HitInfo).CompareTo(Prowl.Runtime.Raycast.HitInfo)
+  spec.csharp:
+  - uid: System.IComparable{Prowl.Runtime.Raycast.HitInfo}.CompareTo(Prowl.Runtime.Raycast.HitInfo)
+    name: CompareTo
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.icomparable-1.compareto
+  - name: (
+  - uid: Prowl.Runtime.Raycast.HitInfo
+    name: HitInfo
+    href: Prowl.Runtime.Raycast.HitInfo.html
+  - name: )
+  spec.vb:
+  - uid: System.IComparable{Prowl.Runtime.Raycast.HitInfo}.CompareTo(Prowl.Runtime.Raycast.HitInfo)
+    name: CompareTo
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.icomparable-1.compareto
+  - name: (
+  - uid: Prowl.Runtime.Raycast.HitInfo
+    name: HitInfo
+    href: Prowl.Runtime.Raycast.HitInfo.html
+  - name: )
+- uid: Prowl.Runtime.Raycast.HitInfo
+  commentId: T:Prowl.Runtime.Raycast.HitInfo
+  parent: Prowl.Runtime.Raycast
+  href: Prowl.Runtime.Raycast.HitInfo.html
+  name: HitInfo
+  nameWithType: HitInfo
+  fullName: Prowl.Runtime.Raycast.HitInfo
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: System.IComparable`1.CompareTo(`0)
+  commentId: M:System.IComparable`1.CompareTo(`0)
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.icomparable-1.compareto
+  name: CompareTo(T)
+  nameWithType: IComparable<T>.CompareTo(T)
+  fullName: System.IComparable<T>.CompareTo(T)
+  nameWithType.vb: IComparable(Of T).CompareTo(T)
+  fullName.vb: System.IComparable(Of T).CompareTo(T)
+  spec.csharp:
+  - uid: System.IComparable`1.CompareTo(`0)
+    name: CompareTo
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.icomparable-1.compareto
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: System.IComparable`1.CompareTo(`0)
+    name: CompareTo
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.icomparable-1.compareto
+  - name: (
+  - name: T
+  - name: )

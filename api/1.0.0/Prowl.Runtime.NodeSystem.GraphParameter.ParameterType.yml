@@ -1,0 +1,309 @@
+### YamlMime:ManagedReference
+items:
+- uid: Prowl.Runtime.NodeSystem.GraphParameter.ParameterType
+  commentId: T:Prowl.Runtime.NodeSystem.GraphParameter.ParameterType
+  id: GraphParameter.ParameterType
+  parent: Prowl.Runtime.NodeSystem
+  children:
+  - Prowl.Runtime.NodeSystem.GraphParameter.ParameterType.Bool
+  - Prowl.Runtime.NodeSystem.GraphParameter.ParameterType.Double
+  - Prowl.Runtime.NodeSystem.GraphParameter.ParameterType.Int
+  - Prowl.Runtime.NodeSystem.GraphParameter.ParameterType.Material
+  - Prowl.Runtime.NodeSystem.GraphParameter.ParameterType.Texture
+  langs:
+  - csharp
+  - vb
+  name: GraphParameter.ParameterType
+  nameWithType: GraphParameter.ParameterType
+  fullName: Prowl.Runtime.NodeSystem.GraphParameter.ParameterType
+  type: Enum
+  source:
+    remote:
+      path: Prowl.Runtime/Utils/NodeSystem/NodeGraph.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: ParameterType
+    path: ../Prowl/Prowl.Runtime/Utils/NodeSystem/NodeGraph.cs
+    startLine: 12
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.NodeSystem
+  syntax:
+    content: public enum GraphParameter.ParameterType
+    content.vb: Public Enum GraphParameter.ParameterType
+  extensionMethods:
+  - System.Object.Prowl.Runtime.RuntimeUtils.GetSerializableFields
+- uid: Prowl.Runtime.NodeSystem.GraphParameter.ParameterType.Int
+  commentId: F:Prowl.Runtime.NodeSystem.GraphParameter.ParameterType.Int
+  id: Int
+  parent: Prowl.Runtime.NodeSystem.GraphParameter.ParameterType
+  langs:
+  - csharp
+  - vb
+  name: Int
+  nameWithType: GraphParameter.ParameterType.Int
+  fullName: Prowl.Runtime.NodeSystem.GraphParameter.ParameterType.Int
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/Utils/NodeSystem/NodeGraph.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Int
+    path: ../Prowl/Prowl.Runtime/Utils/NodeSystem/NodeGraph.cs
+    startLine: 14
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.NodeSystem
+  syntax:
+    content: Int = 0
+    return:
+      type: Prowl.Runtime.NodeSystem.GraphParameter.ParameterType
+- uid: Prowl.Runtime.NodeSystem.GraphParameter.ParameterType.Double
+  commentId: F:Prowl.Runtime.NodeSystem.GraphParameter.ParameterType.Double
+  id: Double
+  parent: Prowl.Runtime.NodeSystem.GraphParameter.ParameterType
+  langs:
+  - csharp
+  - vb
+  name: Double
+  nameWithType: GraphParameter.ParameterType.Double
+  fullName: Prowl.Runtime.NodeSystem.GraphParameter.ParameterType.Double
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/Utils/NodeSystem/NodeGraph.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Double
+    path: ../Prowl/Prowl.Runtime/Utils/NodeSystem/NodeGraph.cs
+    startLine: 15
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.NodeSystem
+  syntax:
+    content: Double = 1
+    return:
+      type: Prowl.Runtime.NodeSystem.GraphParameter.ParameterType
+- uid: Prowl.Runtime.NodeSystem.GraphParameter.ParameterType.Bool
+  commentId: F:Prowl.Runtime.NodeSystem.GraphParameter.ParameterType.Bool
+  id: Bool
+  parent: Prowl.Runtime.NodeSystem.GraphParameter.ParameterType
+  langs:
+  - csharp
+  - vb
+  name: Bool
+  nameWithType: GraphParameter.ParameterType.Bool
+  fullName: Prowl.Runtime.NodeSystem.GraphParameter.ParameterType.Bool
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/Utils/NodeSystem/NodeGraph.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Bool
+    path: ../Prowl/Prowl.Runtime/Utils/NodeSystem/NodeGraph.cs
+    startLine: 16
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.NodeSystem
+  syntax:
+    content: Bool = 2
+    return:
+      type: Prowl.Runtime.NodeSystem.GraphParameter.ParameterType
+- uid: Prowl.Runtime.NodeSystem.GraphParameter.ParameterType.Texture
+  commentId: F:Prowl.Runtime.NodeSystem.GraphParameter.ParameterType.Texture
+  id: Texture
+  parent: Prowl.Runtime.NodeSystem.GraphParameter.ParameterType
+  langs:
+  - csharp
+  - vb
+  name: Texture
+  nameWithType: GraphParameter.ParameterType.Texture
+  fullName: Prowl.Runtime.NodeSystem.GraphParameter.ParameterType.Texture
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/Utils/NodeSystem/NodeGraph.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Texture
+    path: ../Prowl/Prowl.Runtime/Utils/NodeSystem/NodeGraph.cs
+    startLine: 17
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.NodeSystem
+  syntax:
+    content: Texture = 3
+    return:
+      type: Prowl.Runtime.NodeSystem.GraphParameter.ParameterType
+- uid: Prowl.Runtime.NodeSystem.GraphParameter.ParameterType.Material
+  commentId: F:Prowl.Runtime.NodeSystem.GraphParameter.ParameterType.Material
+  id: Material
+  parent: Prowl.Runtime.NodeSystem.GraphParameter.ParameterType
+  langs:
+  - csharp
+  - vb
+  name: Material
+  nameWithType: GraphParameter.ParameterType.Material
+  fullName: Prowl.Runtime.NodeSystem.GraphParameter.ParameterType.Material
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/Utils/NodeSystem/NodeGraph.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Material
+    path: ../Prowl/Prowl.Runtime/Utils/NodeSystem/NodeGraph.cs
+    startLine: 18
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.NodeSystem
+  syntax:
+    content: Material = 4
+    return:
+      type: Prowl.Runtime.NodeSystem.GraphParameter.ParameterType
+references:
+- uid: Prowl.Runtime.NodeSystem
+  commentId: N:Prowl.Runtime.NodeSystem
+  href: Prowl.html
+  name: Prowl.Runtime.NodeSystem
+  nameWithType: Prowl.Runtime.NodeSystem
+  fullName: Prowl.Runtime.NodeSystem
+  spec.csharp:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+  - name: .
+  - uid: Prowl.Runtime.NodeSystem
+    name: NodeSystem
+    href: Prowl.Runtime.NodeSystem.html
+  spec.vb:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+  - name: .
+  - uid: Prowl.Runtime.NodeSystem
+    name: NodeSystem
+    href: Prowl.Runtime.NodeSystem.html
+- uid: System.Object.Prowl.Runtime.RuntimeUtils.GetSerializableFields
+  commentId: M:Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  parent: Prowl.Runtime.RuntimeUtils
+  definition: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  name: GetSerializableFields(object)
+  nameWithType: RuntimeUtils.GetSerializableFields(object)
+  fullName: Prowl.Runtime.RuntimeUtils.GetSerializableFields(object)
+  nameWithType.vb: RuntimeUtils.GetSerializableFields(Object)
+  fullName.vb: Prowl.Runtime.RuntimeUtils.GetSerializableFields(Object)
+  name.vb: GetSerializableFields(Object)
+  spec.csharp:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  commentId: M:Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  isExternal: true
+  href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  name: GetSerializableFields(object)
+  nameWithType: RuntimeUtils.GetSerializableFields(object)
+  fullName: Prowl.Runtime.RuntimeUtils.GetSerializableFields(object)
+  nameWithType.vb: RuntimeUtils.GetSerializableFields(Object)
+  fullName.vb: Prowl.Runtime.RuntimeUtils.GetSerializableFields(Object)
+  name.vb: GetSerializableFields(Object)
+  spec.csharp:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: Prowl.Runtime.RuntimeUtils
+  commentId: T:Prowl.Runtime.RuntimeUtils
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.RuntimeUtils.html
+  name: RuntimeUtils
+  nameWithType: RuntimeUtils
+  fullName: Prowl.Runtime.RuntimeUtils
+- uid: Prowl.Runtime
+  commentId: N:Prowl.Runtime
+  href: Prowl.html
+  name: Prowl.Runtime
+  nameWithType: Prowl.Runtime
+  fullName: Prowl.Runtime
+  spec.csharp:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+  spec.vb:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+- uid: Prowl.Runtime.NodeSystem.GraphParameter.ParameterType
+  commentId: T:Prowl.Runtime.NodeSystem.GraphParameter.ParameterType
+  parent: Prowl.Runtime.NodeSystem
+  href: Prowl.Runtime.NodeSystem.GraphParameter.html
+  name: GraphParameter.ParameterType
+  nameWithType: GraphParameter.ParameterType
+  fullName: Prowl.Runtime.NodeSystem.GraphParameter.ParameterType
+  spec.csharp:
+  - uid: Prowl.Runtime.NodeSystem.GraphParameter
+    name: GraphParameter
+    href: Prowl.Runtime.NodeSystem.GraphParameter.html
+  - name: .
+  - uid: Prowl.Runtime.NodeSystem.GraphParameter.ParameterType
+    name: ParameterType
+    href: Prowl.Runtime.NodeSystem.GraphParameter.ParameterType.html
+  spec.vb:
+  - uid: Prowl.Runtime.NodeSystem.GraphParameter
+    name: GraphParameter
+    href: Prowl.Runtime.NodeSystem.GraphParameter.html
+  - name: .
+  - uid: Prowl.Runtime.NodeSystem.GraphParameter.ParameterType
+    name: ParameterType
+    href: Prowl.Runtime.NodeSystem.GraphParameter.ParameterType.html

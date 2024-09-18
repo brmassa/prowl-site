@@ -1,0 +1,4097 @@
+### YamlMime:ManagedReference
+items:
+- uid: Prowl.Runtime.Matrix4x4
+  commentId: T:Prowl.Runtime.Matrix4x4
+  id: Matrix4x4
+  parent: Prowl.Runtime
+  children:
+  - Prowl.Runtime.Matrix4x4.#ctor(Prowl.Runtime.Vector4,Prowl.Runtime.Vector4,Prowl.Runtime.Vector4,Prowl.Runtime.Vector4)
+  - Prowl.Runtime.Matrix4x4.#ctor(System.Double,System.Double,System.Double,System.Double,System.Double,System.Double,System.Double,System.Double,System.Double,System.Double,System.Double,System.Double,System.Double,System.Double,System.Double,System.Double)
+  - Prowl.Runtime.Matrix4x4.Add(Prowl.Runtime.Matrix4x4,Prowl.Runtime.Matrix4x4)
+  - Prowl.Runtime.Matrix4x4.CreateBillboard(Prowl.Runtime.Vector3,Prowl.Runtime.Vector3,Prowl.Runtime.Vector3,Prowl.Runtime.Vector3)
+  - Prowl.Runtime.Matrix4x4.CreateConstrainedBillboard(Prowl.Runtime.Vector3,Prowl.Runtime.Vector3,Prowl.Runtime.Vector3,Prowl.Runtime.Vector3,Prowl.Runtime.Vector3)
+  - Prowl.Runtime.Matrix4x4.CreateFromAxisAngle(Prowl.Runtime.Vector3,System.Double)
+  - Prowl.Runtime.Matrix4x4.CreateFromQuaternion(Prowl.Runtime.Quaternion)
+  - Prowl.Runtime.Matrix4x4.CreateFromYawPitchRoll(System.Double,System.Double,System.Double)
+  - Prowl.Runtime.Matrix4x4.CreateLookAt(Prowl.Runtime.Vector3,Prowl.Runtime.Vector3,Prowl.Runtime.Vector3)
+  - Prowl.Runtime.Matrix4x4.CreateLookToLeftHanded(Prowl.Runtime.Vector3@,Prowl.Runtime.Vector3@,Prowl.Runtime.Vector3@)
+  - Prowl.Runtime.Matrix4x4.CreateOrthographic(System.Double,System.Double,System.Double,System.Double)
+  - Prowl.Runtime.Matrix4x4.CreateOrthographicOffCenter(System.Double,System.Double,System.Double,System.Double,System.Double,System.Double)
+  - Prowl.Runtime.Matrix4x4.CreatePerspective(System.Double,System.Double,System.Double,System.Double)
+  - Prowl.Runtime.Matrix4x4.CreatePerspectiveFieldOfView(System.Double,System.Double,System.Double,System.Double)
+  - Prowl.Runtime.Matrix4x4.CreatePerspectiveOffCenter(System.Double,System.Double,System.Double,System.Double,System.Double,System.Double)
+  - Prowl.Runtime.Matrix4x4.CreateReflection(Prowl.Runtime.Plane)
+  - Prowl.Runtime.Matrix4x4.CreateRotationX(System.Double)
+  - Prowl.Runtime.Matrix4x4.CreateRotationX(System.Double,Prowl.Runtime.Vector3)
+  - Prowl.Runtime.Matrix4x4.CreateRotationY(System.Double)
+  - Prowl.Runtime.Matrix4x4.CreateRotationY(System.Double,Prowl.Runtime.Vector3)
+  - Prowl.Runtime.Matrix4x4.CreateRotationZ(System.Double)
+  - Prowl.Runtime.Matrix4x4.CreateRotationZ(System.Double,Prowl.Runtime.Vector3)
+  - Prowl.Runtime.Matrix4x4.CreateScale(Prowl.Runtime.Vector3)
+  - Prowl.Runtime.Matrix4x4.CreateScale(Prowl.Runtime.Vector3,Prowl.Runtime.Vector3)
+  - Prowl.Runtime.Matrix4x4.CreateScale(System.Double)
+  - Prowl.Runtime.Matrix4x4.CreateScale(System.Double,Prowl.Runtime.Vector3)
+  - Prowl.Runtime.Matrix4x4.CreateScale(System.Double,System.Double,System.Double)
+  - Prowl.Runtime.Matrix4x4.CreateScale(System.Double,System.Double,System.Double,Prowl.Runtime.Vector3)
+  - Prowl.Runtime.Matrix4x4.CreateShadow(Prowl.Runtime.Vector3,Prowl.Runtime.Plane)
+  - Prowl.Runtime.Matrix4x4.CreateTranslation(Prowl.Runtime.Vector3)
+  - Prowl.Runtime.Matrix4x4.CreateTranslation(System.Double,System.Double,System.Double)
+  - Prowl.Runtime.Matrix4x4.CreateWorld(Prowl.Runtime.Vector3,Prowl.Runtime.Vector3,Prowl.Runtime.Vector3)
+  - Prowl.Runtime.Matrix4x4.Decompose(Prowl.Runtime.Matrix4x4,Prowl.Runtime.Vector3@,Prowl.Runtime.Quaternion@,Prowl.Runtime.Vector3@)
+  - Prowl.Runtime.Matrix4x4.Equals(Prowl.Runtime.Matrix4x4)
+  - Prowl.Runtime.Matrix4x4.Equals(System.Object)
+  - Prowl.Runtime.Matrix4x4.FromFloat(System.Numerics.Matrix4x4)
+  - Prowl.Runtime.Matrix4x4.GetDeterminant
+  - Prowl.Runtime.Matrix4x4.GetHashCode
+  - Prowl.Runtime.Matrix4x4.Identity
+  - Prowl.Runtime.Matrix4x4.Invert
+  - Prowl.Runtime.Matrix4x4.Invert(Prowl.Runtime.Matrix4x4,Prowl.Runtime.Matrix4x4@)
+  - Prowl.Runtime.Matrix4x4.IsIdentity
+  - Prowl.Runtime.Matrix4x4.Item(System.Int32)
+  - Prowl.Runtime.Matrix4x4.Item(System.Int32,System.Int32)
+  - Prowl.Runtime.Matrix4x4.Lerp(Prowl.Runtime.Matrix4x4,Prowl.Runtime.Matrix4x4,System.Double)
+  - Prowl.Runtime.Matrix4x4.M1
+  - Prowl.Runtime.Matrix4x4.M11
+  - Prowl.Runtime.Matrix4x4.M12
+  - Prowl.Runtime.Matrix4x4.M13
+  - Prowl.Runtime.Matrix4x4.M14
+  - Prowl.Runtime.Matrix4x4.M2
+  - Prowl.Runtime.Matrix4x4.M21
+  - Prowl.Runtime.Matrix4x4.M22
+  - Prowl.Runtime.Matrix4x4.M23
+  - Prowl.Runtime.Matrix4x4.M24
+  - Prowl.Runtime.Matrix4x4.M3
+  - Prowl.Runtime.Matrix4x4.M31
+  - Prowl.Runtime.Matrix4x4.M32
+  - Prowl.Runtime.Matrix4x4.M33
+  - Prowl.Runtime.Matrix4x4.M34
+  - Prowl.Runtime.Matrix4x4.M4
+  - Prowl.Runtime.Matrix4x4.M41
+  - Prowl.Runtime.Matrix4x4.M42
+  - Prowl.Runtime.Matrix4x4.M43
+  - Prowl.Runtime.Matrix4x4.M44
+  - Prowl.Runtime.Matrix4x4.Multiply(Prowl.Runtime.Matrix4x4,Prowl.Runtime.Matrix4x4)
+  - Prowl.Runtime.Matrix4x4.Multiply(Prowl.Runtime.Matrix4x4,System.Double)
+  - Prowl.Runtime.Matrix4x4.MultiplyPoint(Prowl.Runtime.Vector3)
+  - Prowl.Runtime.Matrix4x4.Negate(Prowl.Runtime.Matrix4x4)
+  - Prowl.Runtime.Matrix4x4.Subtract(Prowl.Runtime.Matrix4x4,Prowl.Runtime.Matrix4x4)
+  - Prowl.Runtime.Matrix4x4.TRS(Prowl.Runtime.Vector3,Prowl.Runtime.Quaternion,Prowl.Runtime.Vector3)
+  - Prowl.Runtime.Matrix4x4.ToFloat
+  - Prowl.Runtime.Matrix4x4.ToMultiLineString
+  - Prowl.Runtime.Matrix4x4.ToString
+  - Prowl.Runtime.Matrix4x4.Transform(Prowl.Runtime.Matrix4x4,Prowl.Runtime.Quaternion)
+  - Prowl.Runtime.Matrix4x4.Translation
+  - Prowl.Runtime.Matrix4x4.Transpose(Prowl.Runtime.Matrix4x4)
+  - Prowl.Runtime.Matrix4x4.op_Addition(Prowl.Runtime.Matrix4x4,Prowl.Runtime.Matrix4x4)
+  - Prowl.Runtime.Matrix4x4.op_Equality(Prowl.Runtime.Matrix4x4,Prowl.Runtime.Matrix4x4)
+  - Prowl.Runtime.Matrix4x4.op_Inequality(Prowl.Runtime.Matrix4x4,Prowl.Runtime.Matrix4x4)
+  - Prowl.Runtime.Matrix4x4.op_Multiply(Prowl.Runtime.Matrix4x4,Prowl.Runtime.Matrix4x4)
+  - Prowl.Runtime.Matrix4x4.op_Multiply(Prowl.Runtime.Matrix4x4,System.Double)
+  - Prowl.Runtime.Matrix4x4.op_Subtraction(Prowl.Runtime.Matrix4x4,Prowl.Runtime.Matrix4x4)
+  - Prowl.Runtime.Matrix4x4.op_UnaryNegation(Prowl.Runtime.Matrix4x4)
+  langs:
+  - csharp
+  - vb
+  name: Matrix4x4
+  nameWithType: Matrix4x4
+  fullName: Prowl.Runtime.Matrix4x4
+  type: Struct
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Matrix4x4.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Matrix4x4
+    path: ../Prowl/Prowl.Runtime/Math/Matrix4x4.cs
+    startLine: 13
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: A structure encapsulating a 4x4 matrix.
+  example: []
+  syntax:
+    content: 'public struct Matrix4x4 : IEquatable<Matrix4x4>'
+    content.vb: Public Structure Matrix4x4 Implements IEquatable(Of Matrix4x4)
+  implements:
+  - System.IEquatable{Prowl.Runtime.Matrix4x4}
+  inheritedMembers:
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  extensionMethods:
+  - System.Object.Prowl.Runtime.RuntimeUtils.GetSerializableFields
+- uid: Prowl.Runtime.Matrix4x4.M11
+  commentId: F:Prowl.Runtime.Matrix4x4.M11
+  id: M11
+  parent: Prowl.Runtime.Matrix4x4
+  langs:
+  - csharp
+  - vb
+  name: M11
+  nameWithType: Matrix4x4.M11
+  fullName: Prowl.Runtime.Matrix4x4.M11
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Matrix4x4.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: M11
+    path: ../Prowl/Prowl.Runtime/Math/Matrix4x4.cs
+    startLine: 16
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public double M11
+    return:
+      type: System.Double
+    content.vb: Public M11 As Double
+- uid: Prowl.Runtime.Matrix4x4.M12
+  commentId: F:Prowl.Runtime.Matrix4x4.M12
+  id: M12
+  parent: Prowl.Runtime.Matrix4x4
+  langs:
+  - csharp
+  - vb
+  name: M12
+  nameWithType: Matrix4x4.M12
+  fullName: Prowl.Runtime.Matrix4x4.M12
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Matrix4x4.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: M12
+    path: ../Prowl/Prowl.Runtime/Math/Matrix4x4.cs
+    startLine: 17
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public double M12
+    return:
+      type: System.Double
+    content.vb: Public M12 As Double
+- uid: Prowl.Runtime.Matrix4x4.M13
+  commentId: F:Prowl.Runtime.Matrix4x4.M13
+  id: M13
+  parent: Prowl.Runtime.Matrix4x4
+  langs:
+  - csharp
+  - vb
+  name: M13
+  nameWithType: Matrix4x4.M13
+  fullName: Prowl.Runtime.Matrix4x4.M13
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Matrix4x4.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: M13
+    path: ../Prowl/Prowl.Runtime/Math/Matrix4x4.cs
+    startLine: 18
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public double M13
+    return:
+      type: System.Double
+    content.vb: Public M13 As Double
+- uid: Prowl.Runtime.Matrix4x4.M14
+  commentId: F:Prowl.Runtime.Matrix4x4.M14
+  id: M14
+  parent: Prowl.Runtime.Matrix4x4
+  langs:
+  - csharp
+  - vb
+  name: M14
+  nameWithType: Matrix4x4.M14
+  fullName: Prowl.Runtime.Matrix4x4.M14
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Matrix4x4.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: M14
+    path: ../Prowl/Prowl.Runtime/Math/Matrix4x4.cs
+    startLine: 19
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public double M14
+    return:
+      type: System.Double
+    content.vb: Public M14 As Double
+- uid: Prowl.Runtime.Matrix4x4.M21
+  commentId: F:Prowl.Runtime.Matrix4x4.M21
+  id: M21
+  parent: Prowl.Runtime.Matrix4x4
+  langs:
+  - csharp
+  - vb
+  name: M21
+  nameWithType: Matrix4x4.M21
+  fullName: Prowl.Runtime.Matrix4x4.M21
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Matrix4x4.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: M21
+    path: ../Prowl/Prowl.Runtime/Math/Matrix4x4.cs
+    startLine: 21
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public double M21
+    return:
+      type: System.Double
+    content.vb: Public M21 As Double
+- uid: Prowl.Runtime.Matrix4x4.M22
+  commentId: F:Prowl.Runtime.Matrix4x4.M22
+  id: M22
+  parent: Prowl.Runtime.Matrix4x4
+  langs:
+  - csharp
+  - vb
+  name: M22
+  nameWithType: Matrix4x4.M22
+  fullName: Prowl.Runtime.Matrix4x4.M22
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Matrix4x4.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: M22
+    path: ../Prowl/Prowl.Runtime/Math/Matrix4x4.cs
+    startLine: 22
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public double M22
+    return:
+      type: System.Double
+    content.vb: Public M22 As Double
+- uid: Prowl.Runtime.Matrix4x4.M23
+  commentId: F:Prowl.Runtime.Matrix4x4.M23
+  id: M23
+  parent: Prowl.Runtime.Matrix4x4
+  langs:
+  - csharp
+  - vb
+  name: M23
+  nameWithType: Matrix4x4.M23
+  fullName: Prowl.Runtime.Matrix4x4.M23
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Matrix4x4.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: M23
+    path: ../Prowl/Prowl.Runtime/Math/Matrix4x4.cs
+    startLine: 23
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public double M23
+    return:
+      type: System.Double
+    content.vb: Public M23 As Double
+- uid: Prowl.Runtime.Matrix4x4.M24
+  commentId: F:Prowl.Runtime.Matrix4x4.M24
+  id: M24
+  parent: Prowl.Runtime.Matrix4x4
+  langs:
+  - csharp
+  - vb
+  name: M24
+  nameWithType: Matrix4x4.M24
+  fullName: Prowl.Runtime.Matrix4x4.M24
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Matrix4x4.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: M24
+    path: ../Prowl/Prowl.Runtime/Math/Matrix4x4.cs
+    startLine: 24
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public double M24
+    return:
+      type: System.Double
+    content.vb: Public M24 As Double
+- uid: Prowl.Runtime.Matrix4x4.M31
+  commentId: F:Prowl.Runtime.Matrix4x4.M31
+  id: M31
+  parent: Prowl.Runtime.Matrix4x4
+  langs:
+  - csharp
+  - vb
+  name: M31
+  nameWithType: Matrix4x4.M31
+  fullName: Prowl.Runtime.Matrix4x4.M31
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Matrix4x4.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: M31
+    path: ../Prowl/Prowl.Runtime/Math/Matrix4x4.cs
+    startLine: 26
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public double M31
+    return:
+      type: System.Double
+    content.vb: Public M31 As Double
+- uid: Prowl.Runtime.Matrix4x4.M32
+  commentId: F:Prowl.Runtime.Matrix4x4.M32
+  id: M32
+  parent: Prowl.Runtime.Matrix4x4
+  langs:
+  - csharp
+  - vb
+  name: M32
+  nameWithType: Matrix4x4.M32
+  fullName: Prowl.Runtime.Matrix4x4.M32
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Matrix4x4.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: M32
+    path: ../Prowl/Prowl.Runtime/Math/Matrix4x4.cs
+    startLine: 27
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public double M32
+    return:
+      type: System.Double
+    content.vb: Public M32 As Double
+- uid: Prowl.Runtime.Matrix4x4.M33
+  commentId: F:Prowl.Runtime.Matrix4x4.M33
+  id: M33
+  parent: Prowl.Runtime.Matrix4x4
+  langs:
+  - csharp
+  - vb
+  name: M33
+  nameWithType: Matrix4x4.M33
+  fullName: Prowl.Runtime.Matrix4x4.M33
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Matrix4x4.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: M33
+    path: ../Prowl/Prowl.Runtime/Math/Matrix4x4.cs
+    startLine: 28
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public double M33
+    return:
+      type: System.Double
+    content.vb: Public M33 As Double
+- uid: Prowl.Runtime.Matrix4x4.M34
+  commentId: F:Prowl.Runtime.Matrix4x4.M34
+  id: M34
+  parent: Prowl.Runtime.Matrix4x4
+  langs:
+  - csharp
+  - vb
+  name: M34
+  nameWithType: Matrix4x4.M34
+  fullName: Prowl.Runtime.Matrix4x4.M34
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Matrix4x4.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: M34
+    path: ../Prowl/Prowl.Runtime/Math/Matrix4x4.cs
+    startLine: 29
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public double M34
+    return:
+      type: System.Double
+    content.vb: Public M34 As Double
+- uid: Prowl.Runtime.Matrix4x4.M41
+  commentId: F:Prowl.Runtime.Matrix4x4.M41
+  id: M41
+  parent: Prowl.Runtime.Matrix4x4
+  langs:
+  - csharp
+  - vb
+  name: M41
+  nameWithType: Matrix4x4.M41
+  fullName: Prowl.Runtime.Matrix4x4.M41
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Matrix4x4.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: M41
+    path: ../Prowl/Prowl.Runtime/Math/Matrix4x4.cs
+    startLine: 31
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public double M41
+    return:
+      type: System.Double
+    content.vb: Public M41 As Double
+- uid: Prowl.Runtime.Matrix4x4.M42
+  commentId: F:Prowl.Runtime.Matrix4x4.M42
+  id: M42
+  parent: Prowl.Runtime.Matrix4x4
+  langs:
+  - csharp
+  - vb
+  name: M42
+  nameWithType: Matrix4x4.M42
+  fullName: Prowl.Runtime.Matrix4x4.M42
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Matrix4x4.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: M42
+    path: ../Prowl/Prowl.Runtime/Math/Matrix4x4.cs
+    startLine: 32
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public double M42
+    return:
+      type: System.Double
+    content.vb: Public M42 As Double
+- uid: Prowl.Runtime.Matrix4x4.M43
+  commentId: F:Prowl.Runtime.Matrix4x4.M43
+  id: M43
+  parent: Prowl.Runtime.Matrix4x4
+  langs:
+  - csharp
+  - vb
+  name: M43
+  nameWithType: Matrix4x4.M43
+  fullName: Prowl.Runtime.Matrix4x4.M43
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Matrix4x4.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: M43
+    path: ../Prowl/Prowl.Runtime/Math/Matrix4x4.cs
+    startLine: 33
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public double M43
+    return:
+      type: System.Double
+    content.vb: Public M43 As Double
+- uid: Prowl.Runtime.Matrix4x4.M44
+  commentId: F:Prowl.Runtime.Matrix4x4.M44
+  id: M44
+  parent: Prowl.Runtime.Matrix4x4
+  langs:
+  - csharp
+  - vb
+  name: M44
+  nameWithType: Matrix4x4.M44
+  fullName: Prowl.Runtime.Matrix4x4.M44
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Matrix4x4.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: M44
+    path: ../Prowl/Prowl.Runtime/Math/Matrix4x4.cs
+    startLine: 34
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public double M44
+    return:
+      type: System.Double
+    content.vb: Public M44 As Double
+- uid: Prowl.Runtime.Matrix4x4.M1
+  commentId: P:Prowl.Runtime.Matrix4x4.M1
+  id: M1
+  parent: Prowl.Runtime.Matrix4x4
+  langs:
+  - csharp
+  - vb
+  name: M1
+  nameWithType: Matrix4x4.M1
+  fullName: Prowl.Runtime.Matrix4x4.M1
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Matrix4x4.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: M1
+    path: ../Prowl/Prowl.Runtime/Math/Matrix4x4.cs
+    startLine: 37
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public Vector4 M1 { get; set; }
+    parameters: []
+    return:
+      type: Prowl.Runtime.Vector4
+    content.vb: Public Property M1 As Vector4
+  overload: Prowl.Runtime.Matrix4x4.M1*
+- uid: Prowl.Runtime.Matrix4x4.M2
+  commentId: P:Prowl.Runtime.Matrix4x4.M2
+  id: M2
+  parent: Prowl.Runtime.Matrix4x4
+  langs:
+  - csharp
+  - vb
+  name: M2
+  nameWithType: Matrix4x4.M2
+  fullName: Prowl.Runtime.Matrix4x4.M2
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Matrix4x4.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: M2
+    path: ../Prowl/Prowl.Runtime/Math/Matrix4x4.cs
+    startLine: 42
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public Vector4 M2 { get; set; }
+    parameters: []
+    return:
+      type: Prowl.Runtime.Vector4
+    content.vb: Public Property M2 As Vector4
+  overload: Prowl.Runtime.Matrix4x4.M2*
+- uid: Prowl.Runtime.Matrix4x4.M3
+  commentId: P:Prowl.Runtime.Matrix4x4.M3
+  id: M3
+  parent: Prowl.Runtime.Matrix4x4
+  langs:
+  - csharp
+  - vb
+  name: M3
+  nameWithType: Matrix4x4.M3
+  fullName: Prowl.Runtime.Matrix4x4.M3
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Matrix4x4.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: M3
+    path: ../Prowl/Prowl.Runtime/Math/Matrix4x4.cs
+    startLine: 47
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public Vector4 M3 { get; set; }
+    parameters: []
+    return:
+      type: Prowl.Runtime.Vector4
+    content.vb: Public Property M3 As Vector4
+  overload: Prowl.Runtime.Matrix4x4.M3*
+- uid: Prowl.Runtime.Matrix4x4.M4
+  commentId: P:Prowl.Runtime.Matrix4x4.M4
+  id: M4
+  parent: Prowl.Runtime.Matrix4x4
+  langs:
+  - csharp
+  - vb
+  name: M4
+  nameWithType: Matrix4x4.M4
+  fullName: Prowl.Runtime.Matrix4x4.M4
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Matrix4x4.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: M4
+    path: ../Prowl/Prowl.Runtime/Math/Matrix4x4.cs
+    startLine: 52
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public Vector4 M4 { get; set; }
+    parameters: []
+    return:
+      type: Prowl.Runtime.Vector4
+    content.vb: Public Property M4 As Vector4
+  overload: Prowl.Runtime.Matrix4x4.M4*
+- uid: Prowl.Runtime.Matrix4x4.Identity
+  commentId: P:Prowl.Runtime.Matrix4x4.Identity
+  id: Identity
+  parent: Prowl.Runtime.Matrix4x4
+  langs:
+  - csharp
+  - vb
+  name: Identity
+  nameWithType: Matrix4x4.Identity
+  fullName: Prowl.Runtime.Matrix4x4.Identity
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Matrix4x4.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Identity
+    path: ../Prowl/Prowl.Runtime/Math/Matrix4x4.cs
+    startLine: 68
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: Returns the multiplicative identity matrix.
+  example: []
+  syntax:
+    content: public static Matrix4x4 Identity { get; }
+    parameters: []
+    return:
+      type: Prowl.Runtime.Matrix4x4
+    content.vb: Public Shared ReadOnly Property Identity As Matrix4x4
+  overload: Prowl.Runtime.Matrix4x4.Identity*
+- uid: Prowl.Runtime.Matrix4x4.IsIdentity
+  commentId: P:Prowl.Runtime.Matrix4x4.IsIdentity
+  id: IsIdentity
+  parent: Prowl.Runtime.Matrix4x4
+  langs:
+  - csharp
+  - vb
+  name: IsIdentity
+  nameWithType: Matrix4x4.IsIdentity
+  fullName: Prowl.Runtime.Matrix4x4.IsIdentity
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Matrix4x4.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: IsIdentity
+    path: ../Prowl/Prowl.Runtime/Math/Matrix4x4.cs
+    startLine: 73
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: Returns whether the matrix is the identity matrix.
+  example: []
+  syntax:
+    content: public bool IsIdentity { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property IsIdentity As Boolean
+  overload: Prowl.Runtime.Matrix4x4.IsIdentity*
+- uid: Prowl.Runtime.Matrix4x4.Item(System.Int32,System.Int32)
+  commentId: P:Prowl.Runtime.Matrix4x4.Item(System.Int32,System.Int32)
+  id: Item(System.Int32,System.Int32)
+  parent: Prowl.Runtime.Matrix4x4
+  langs:
+  - csharp
+  - vb
+  name: this[int, int]
+  nameWithType: Matrix4x4.this[int, int]
+  fullName: Prowl.Runtime.Matrix4x4.this[int, int]
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Matrix4x4.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: this[]
+    path: ../Prowl/Prowl.Runtime/Math/Matrix4x4.cs
+    startLine: 80
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public double this[int row, int column] { get; set; }
+    parameters:
+    - id: row
+      type: System.Int32
+    - id: column
+      type: System.Int32
+    return:
+      type: System.Double
+    content.vb: Public Default Property this[](row As Integer, column As Integer) As Double
+  overload: Prowl.Runtime.Matrix4x4.Item*
+  nameWithType.vb: Matrix4x4.this[](Integer, Integer)
+  fullName.vb: Prowl.Runtime.Matrix4x4.this[](Integer, Integer)
+  name.vb: this[](Integer, Integer)
+- uid: Prowl.Runtime.Matrix4x4.Item(System.Int32)
+  commentId: P:Prowl.Runtime.Matrix4x4.Item(System.Int32)
+  id: Item(System.Int32)
+  parent: Prowl.Runtime.Matrix4x4
+  langs:
+  - csharp
+  - vb
+  name: this[int]
+  nameWithType: Matrix4x4.this[int]
+  fullName: Prowl.Runtime.Matrix4x4.this[int]
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Matrix4x4.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: this[]
+    path: ../Prowl/Prowl.Runtime/Math/Matrix4x4.cs
+    startLine: 88
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public double this[int index] { get; set; }
+    parameters:
+    - id: index
+      type: System.Int32
+    return:
+      type: System.Double
+    content.vb: Public Default Property this[](index As Integer) As Double
+  overload: Prowl.Runtime.Matrix4x4.Item*
+  nameWithType.vb: Matrix4x4.this[](Integer)
+  fullName.vb: Prowl.Runtime.Matrix4x4.this[](Integer)
+  name.vb: this[](Integer)
+- uid: Prowl.Runtime.Matrix4x4.Translation
+  commentId: P:Prowl.Runtime.Matrix4x4.Translation
+  id: Translation
+  parent: Prowl.Runtime.Matrix4x4
+  langs:
+  - csharp
+  - vb
+  name: Translation
+  nameWithType: Matrix4x4.Translation
+  fullName: Prowl.Runtime.Matrix4x4.Translation
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Matrix4x4.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Translation
+    path: ../Prowl/Prowl.Runtime/Math/Matrix4x4.cs
+    startLine: 141
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: Gets or sets the translation component of this matrix.
+  example: []
+  syntax:
+    content: public Vector3 Translation { get; set; }
+    parameters: []
+    return:
+      type: Prowl.Runtime.Vector3
+    content.vb: Public Property Translation As Vector3
+  overload: Prowl.Runtime.Matrix4x4.Translation*
+- uid: Prowl.Runtime.Matrix4x4.#ctor(System.Double,System.Double,System.Double,System.Double,System.Double,System.Double,System.Double,System.Double,System.Double,System.Double,System.Double,System.Double,System.Double,System.Double,System.Double,System.Double)
+  commentId: M:Prowl.Runtime.Matrix4x4.#ctor(System.Double,System.Double,System.Double,System.Double,System.Double,System.Double,System.Double,System.Double,System.Double,System.Double,System.Double,System.Double,System.Double,System.Double,System.Double,System.Double)
+  id: '#ctor(System.Double,System.Double,System.Double,System.Double,System.Double,System.Double,System.Double,System.Double,System.Double,System.Double,System.Double,System.Double,System.Double,System.Double,System.Double,System.Double)'
+  parent: Prowl.Runtime.Matrix4x4
+  langs:
+  - csharp
+  - vb
+  name: Matrix4x4(double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double)
+  nameWithType: Matrix4x4.Matrix4x4(double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double)
+  fullName: Prowl.Runtime.Matrix4x4.Matrix4x4(double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double)
+  type: Constructor
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Matrix4x4.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: .ctor
+    path: ../Prowl/Prowl.Runtime/Math/Matrix4x4.cs
+    startLine: 155
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: Constructs a Matrix4x4 from the given components.
+  example: []
+  syntax:
+    content: public Matrix4x4(double m11, double m12, double m13, double m14, double m21, double m22, double m23, double m24, double m31, double m32, double m33, double m34, double m41, double m42, double m43, double m44)
+    parameters:
+    - id: m11
+      type: System.Double
+    - id: m12
+      type: System.Double
+    - id: m13
+      type: System.Double
+    - id: m14
+      type: System.Double
+    - id: m21
+      type: System.Double
+    - id: m22
+      type: System.Double
+    - id: m23
+      type: System.Double
+    - id: m24
+      type: System.Double
+    - id: m31
+      type: System.Double
+    - id: m32
+      type: System.Double
+    - id: m33
+      type: System.Double
+    - id: m34
+      type: System.Double
+    - id: m41
+      type: System.Double
+    - id: m42
+      type: System.Double
+    - id: m43
+      type: System.Double
+    - id: m44
+      type: System.Double
+    content.vb: Public Sub New(m11 As Double, m12 As Double, m13 As Double, m14 As Double, m21 As Double, m22 As Double, m23 As Double, m24 As Double, m31 As Double, m32 As Double, m33 As Double, m34 As Double, m41 As Double, m42 As Double, m43 As Double, m44 As Double)
+  overload: Prowl.Runtime.Matrix4x4.#ctor*
+  nameWithType.vb: Matrix4x4.New(Double, Double, Double, Double, Double, Double, Double, Double, Double, Double, Double, Double, Double, Double, Double, Double)
+  fullName.vb: Prowl.Runtime.Matrix4x4.New(Double, Double, Double, Double, Double, Double, Double, Double, Double, Double, Double, Double, Double, Double, Double, Double)
+  name.vb: New(Double, Double, Double, Double, Double, Double, Double, Double, Double, Double, Double, Double, Double, Double, Double, Double)
+- uid: Prowl.Runtime.Matrix4x4.#ctor(Prowl.Runtime.Vector4,Prowl.Runtime.Vector4,Prowl.Runtime.Vector4,Prowl.Runtime.Vector4)
+  commentId: M:Prowl.Runtime.Matrix4x4.#ctor(Prowl.Runtime.Vector4,Prowl.Runtime.Vector4,Prowl.Runtime.Vector4,Prowl.Runtime.Vector4)
+  id: '#ctor(Prowl.Runtime.Vector4,Prowl.Runtime.Vector4,Prowl.Runtime.Vector4,Prowl.Runtime.Vector4)'
+  parent: Prowl.Runtime.Matrix4x4
+  langs:
+  - csharp
+  - vb
+  name: Matrix4x4(Vector4, Vector4, Vector4, Vector4)
+  nameWithType: Matrix4x4.Matrix4x4(Vector4, Vector4, Vector4, Vector4)
+  fullName: Prowl.Runtime.Matrix4x4.Matrix4x4(Prowl.Runtime.Vector4, Prowl.Runtime.Vector4, Prowl.Runtime.Vector4, Prowl.Runtime.Vector4)
+  type: Constructor
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Matrix4x4.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: .ctor
+    path: ../Prowl/Prowl.Runtime/Math/Matrix4x4.cs
+    startLine: 166
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public Matrix4x4(Vector4 row1, Vector4 row2, Vector4 row3, Vector4 row4)
+    parameters:
+    - id: row1
+      type: Prowl.Runtime.Vector4
+    - id: row2
+      type: Prowl.Runtime.Vector4
+    - id: row3
+      type: Prowl.Runtime.Vector4
+    - id: row4
+      type: Prowl.Runtime.Vector4
+    content.vb: Public Sub New(row1 As Vector4, row2 As Vector4, row3 As Vector4, row4 As Vector4)
+  overload: Prowl.Runtime.Matrix4x4.#ctor*
+  nameWithType.vb: Matrix4x4.New(Vector4, Vector4, Vector4, Vector4)
+  fullName.vb: Prowl.Runtime.Matrix4x4.New(Prowl.Runtime.Vector4, Prowl.Runtime.Vector4, Prowl.Runtime.Vector4, Prowl.Runtime.Vector4)
+  name.vb: New(Vector4, Vector4, Vector4, Vector4)
+- uid: Prowl.Runtime.Matrix4x4.ToFloat
+  commentId: M:Prowl.Runtime.Matrix4x4.ToFloat
+  id: ToFloat
+  parent: Prowl.Runtime.Matrix4x4
+  langs:
+  - csharp
+  - vb
+  name: ToFloat()
+  nameWithType: Matrix4x4.ToFloat()
+  fullName: Prowl.Runtime.Matrix4x4.ToFloat()
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Matrix4x4.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: ToFloat
+    path: ../Prowl/Prowl.Runtime/Math/Matrix4x4.cs
+    startLine: 174
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public Matrix4x4 ToFloat()
+    return:
+      type: System.Numerics.Matrix4x4
+    content.vb: Public Function ToFloat() As Matrix4x4
+  overload: Prowl.Runtime.Matrix4x4.ToFloat*
+- uid: Prowl.Runtime.Matrix4x4.FromFloat(System.Numerics.Matrix4x4)
+  commentId: M:Prowl.Runtime.Matrix4x4.FromFloat(System.Numerics.Matrix4x4)
+  id: FromFloat(System.Numerics.Matrix4x4)
+  parent: Prowl.Runtime.Matrix4x4
+  langs:
+  - csharp
+  - vb
+  name: FromFloat(Matrix4x4)
+  nameWithType: Matrix4x4.FromFloat(Matrix4x4)
+  fullName: Prowl.Runtime.Matrix4x4.FromFloat(System.Numerics.Matrix4x4)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Matrix4x4.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: FromFloat
+    path: ../Prowl/Prowl.Runtime/Math/Matrix4x4.cs
+    startLine: 200
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public static Matrix4x4 FromFloat(Matrix4x4 floatMatrix)
+    parameters:
+    - id: floatMatrix
+      type: System.Numerics.Matrix4x4
+    return:
+      type: Prowl.Runtime.Matrix4x4
+    content.vb: Public Shared Function FromFloat(floatMatrix As Matrix4x4) As Matrix4x4
+  overload: Prowl.Runtime.Matrix4x4.FromFloat*
+- uid: Prowl.Runtime.Matrix4x4.TRS(Prowl.Runtime.Vector3,Prowl.Runtime.Quaternion,Prowl.Runtime.Vector3)
+  commentId: M:Prowl.Runtime.Matrix4x4.TRS(Prowl.Runtime.Vector3,Prowl.Runtime.Quaternion,Prowl.Runtime.Vector3)
+  id: TRS(Prowl.Runtime.Vector3,Prowl.Runtime.Quaternion,Prowl.Runtime.Vector3)
+  parent: Prowl.Runtime.Matrix4x4
+  langs:
+  - csharp
+  - vb
+  name: TRS(Vector3, Quaternion, Vector3)
+  nameWithType: Matrix4x4.TRS(Vector3, Quaternion, Vector3)
+  fullName: Prowl.Runtime.Matrix4x4.TRS(Prowl.Runtime.Vector3, Prowl.Runtime.Quaternion, Prowl.Runtime.Vector3)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Matrix4x4.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: TRS
+    path: ../Prowl/Prowl.Runtime/Math/Matrix4x4.cs
+    startLine: 226
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public static Matrix4x4 TRS(Vector3 m_LocalPosition, Quaternion m_LocalRotation, Vector3 m_LocalScale)
+    parameters:
+    - id: m_LocalPosition
+      type: Prowl.Runtime.Vector3
+    - id: m_LocalRotation
+      type: Prowl.Runtime.Quaternion
+    - id: m_LocalScale
+      type: Prowl.Runtime.Vector3
+    return:
+      type: Prowl.Runtime.Matrix4x4
+    content.vb: Public Shared Function TRS(m_LocalPosition As Vector3, m_LocalRotation As Quaternion, m_LocalScale As Vector3) As Matrix4x4
+  overload: Prowl.Runtime.Matrix4x4.TRS*
+- uid: Prowl.Runtime.Matrix4x4.MultiplyPoint(Prowl.Runtime.Vector3)
+  commentId: M:Prowl.Runtime.Matrix4x4.MultiplyPoint(Prowl.Runtime.Vector3)
+  id: MultiplyPoint(Prowl.Runtime.Vector3)
+  parent: Prowl.Runtime.Matrix4x4
+  langs:
+  - csharp
+  - vb
+  name: MultiplyPoint(Vector3)
+  nameWithType: Matrix4x4.MultiplyPoint(Vector3)
+  fullName: Prowl.Runtime.Matrix4x4.MultiplyPoint(Prowl.Runtime.Vector3)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Matrix4x4.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: MultiplyPoint
+    path: ../Prowl/Prowl.Runtime/Math/Matrix4x4.cs
+    startLine: 229
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public Vector3 MultiplyPoint(Vector3 v)
+    parameters:
+    - id: v
+      type: Prowl.Runtime.Vector3
+    return:
+      type: Prowl.Runtime.Vector3
+    content.vb: Public Function MultiplyPoint(v As Vector3) As Vector3
+  overload: Prowl.Runtime.Matrix4x4.MultiplyPoint*
+- uid: Prowl.Runtime.Matrix4x4.CreateBillboard(Prowl.Runtime.Vector3,Prowl.Runtime.Vector3,Prowl.Runtime.Vector3,Prowl.Runtime.Vector3)
+  commentId: M:Prowl.Runtime.Matrix4x4.CreateBillboard(Prowl.Runtime.Vector3,Prowl.Runtime.Vector3,Prowl.Runtime.Vector3,Prowl.Runtime.Vector3)
+  id: CreateBillboard(Prowl.Runtime.Vector3,Prowl.Runtime.Vector3,Prowl.Runtime.Vector3,Prowl.Runtime.Vector3)
+  parent: Prowl.Runtime.Matrix4x4
+  langs:
+  - csharp
+  - vb
+  name: CreateBillboard(Vector3, Vector3, Vector3, Vector3)
+  nameWithType: Matrix4x4.CreateBillboard(Vector3, Vector3, Vector3, Vector3)
+  fullName: Prowl.Runtime.Matrix4x4.CreateBillboard(Prowl.Runtime.Vector3, Prowl.Runtime.Vector3, Prowl.Runtime.Vector3, Prowl.Runtime.Vector3)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Matrix4x4.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: CreateBillboard
+    path: ../Prowl/Prowl.Runtime/Math/Matrix4x4.cs
+    startLine: 240
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: Creates a spherical billboard that rotates around a specified object position.
+  example: []
+  syntax:
+    content: public static Matrix4x4 CreateBillboard(Vector3 objectPosition, Vector3 cameraPosition, Vector3 cameraUpVector, Vector3 cameraForwardVector)
+    parameters:
+    - id: objectPosition
+      type: Prowl.Runtime.Vector3
+      description: Position of the object the billboard will rotate around.
+    - id: cameraPosition
+      type: Prowl.Runtime.Vector3
+      description: Position of the camera.
+    - id: cameraUpVector
+      type: Prowl.Runtime.Vector3
+      description: The up vector of the camera.
+    - id: cameraForwardVector
+      type: Prowl.Runtime.Vector3
+      description: The forward vector of the camera.
+    return:
+      type: Prowl.Runtime.Matrix4x4
+      description: The created billboard matrix
+    content.vb: Public Shared Function CreateBillboard(objectPosition As Vector3, cameraPosition As Vector3, cameraUpVector As Vector3, cameraForwardVector As Vector3) As Matrix4x4
+  overload: Prowl.Runtime.Matrix4x4.CreateBillboard*
+- uid: Prowl.Runtime.Matrix4x4.CreateConstrainedBillboard(Prowl.Runtime.Vector3,Prowl.Runtime.Vector3,Prowl.Runtime.Vector3,Prowl.Runtime.Vector3,Prowl.Runtime.Vector3)
+  commentId: M:Prowl.Runtime.Matrix4x4.CreateConstrainedBillboard(Prowl.Runtime.Vector3,Prowl.Runtime.Vector3,Prowl.Runtime.Vector3,Prowl.Runtime.Vector3,Prowl.Runtime.Vector3)
+  id: CreateConstrainedBillboard(Prowl.Runtime.Vector3,Prowl.Runtime.Vector3,Prowl.Runtime.Vector3,Prowl.Runtime.Vector3,Prowl.Runtime.Vector3)
+  parent: Prowl.Runtime.Matrix4x4
+  langs:
+  - csharp
+  - vb
+  name: CreateConstrainedBillboard(Vector3, Vector3, Vector3, Vector3, Vector3)
+  nameWithType: Matrix4x4.CreateConstrainedBillboard(Vector3, Vector3, Vector3, Vector3, Vector3)
+  fullName: Prowl.Runtime.Matrix4x4.CreateConstrainedBillboard(Prowl.Runtime.Vector3, Prowl.Runtime.Vector3, Prowl.Runtime.Vector3, Prowl.Runtime.Vector3, Prowl.Runtime.Vector3)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Matrix4x4.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: CreateConstrainedBillboard
+    path: ../Prowl/Prowl.Runtime/Math/Matrix4x4.cs
+    startLine: 278
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: Creates a cylindrical billboard that rotates around a specified axis.
+  example: []
+  syntax:
+    content: public static Matrix4x4 CreateConstrainedBillboard(Vector3 objectPosition, Vector3 cameraPosition, Vector3 rotateAxis, Vector3 cameraForwardVector, Vector3 objectForwardVector)
+    parameters:
+    - id: objectPosition
+      type: Prowl.Runtime.Vector3
+      description: Position of the object the billboard will rotate around.
+    - id: cameraPosition
+      type: Prowl.Runtime.Vector3
+      description: Position of the camera.
+    - id: rotateAxis
+      type: Prowl.Runtime.Vector3
+      description: Axis to rotate the billboard around.
+    - id: cameraForwardVector
+      type: Prowl.Runtime.Vector3
+      description: Forward vector of the camera.
+    - id: objectForwardVector
+      type: Prowl.Runtime.Vector3
+      description: Forward vector of the object.
+    return:
+      type: Prowl.Runtime.Matrix4x4
+      description: The created billboard matrix.
+    content.vb: Public Shared Function CreateConstrainedBillboard(objectPosition As Vector3, cameraPosition As Vector3, rotateAxis As Vector3, cameraForwardVector As Vector3, objectForwardVector As Vector3) As Matrix4x4
+  overload: Prowl.Runtime.Matrix4x4.CreateConstrainedBillboard*
+- uid: Prowl.Runtime.Matrix4x4.CreateTranslation(Prowl.Runtime.Vector3)
+  commentId: M:Prowl.Runtime.Matrix4x4.CreateTranslation(Prowl.Runtime.Vector3)
+  id: CreateTranslation(Prowl.Runtime.Vector3)
+  parent: Prowl.Runtime.Matrix4x4
+  langs:
+  - csharp
+  - vb
+  name: CreateTranslation(Vector3)
+  nameWithType: Matrix4x4.CreateTranslation(Vector3)
+  fullName: Prowl.Runtime.Matrix4x4.CreateTranslation(Prowl.Runtime.Vector3)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Matrix4x4.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: CreateTranslation
+    path: ../Prowl/Prowl.Runtime/Math/Matrix4x4.cs
+    startLine: 341
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: Creates a translation matrix.
+  example: []
+  syntax:
+    content: public static Matrix4x4 CreateTranslation(Vector3 position)
+    parameters:
+    - id: position
+      type: Prowl.Runtime.Vector3
+      description: The amount to translate in each axis.
+    return:
+      type: Prowl.Runtime.Matrix4x4
+      description: The translation matrix.
+    content.vb: Public Shared Function CreateTranslation(position As Vector3) As Matrix4x4
+  overload: Prowl.Runtime.Matrix4x4.CreateTranslation*
+- uid: Prowl.Runtime.Matrix4x4.CreateTranslation(System.Double,System.Double,System.Double)
+  commentId: M:Prowl.Runtime.Matrix4x4.CreateTranslation(System.Double,System.Double,System.Double)
+  id: CreateTranslation(System.Double,System.Double,System.Double)
+  parent: Prowl.Runtime.Matrix4x4
+  langs:
+  - csharp
+  - vb
+  name: CreateTranslation(double, double, double)
+  nameWithType: Matrix4x4.CreateTranslation(double, double, double)
+  fullName: Prowl.Runtime.Matrix4x4.CreateTranslation(double, double, double)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Matrix4x4.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: CreateTranslation
+    path: ../Prowl/Prowl.Runtime/Math/Matrix4x4.cs
+    startLine: 358
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: Creates a translation matrix.
+  example: []
+  syntax:
+    content: public static Matrix4x4 CreateTranslation(double xPosition, double yPosition, double zPosition)
+    parameters:
+    - id: xPosition
+      type: System.Double
+      description: The amount to translate on the X-axis.
+    - id: yPosition
+      type: System.Double
+      description: The amount to translate on the Y-axis.
+    - id: zPosition
+      type: System.Double
+      description: The amount to translate on the Z-axis.
+    return:
+      type: Prowl.Runtime.Matrix4x4
+      description: The translation matrix.
+    content.vb: Public Shared Function CreateTranslation(xPosition As Double, yPosition As Double, zPosition As Double) As Matrix4x4
+  overload: Prowl.Runtime.Matrix4x4.CreateTranslation*
+  nameWithType.vb: Matrix4x4.CreateTranslation(Double, Double, Double)
+  fullName.vb: Prowl.Runtime.Matrix4x4.CreateTranslation(Double, Double, Double)
+  name.vb: CreateTranslation(Double, Double, Double)
+- uid: Prowl.Runtime.Matrix4x4.CreateScale(System.Double,System.Double,System.Double)
+  commentId: M:Prowl.Runtime.Matrix4x4.CreateScale(System.Double,System.Double,System.Double)
+  id: CreateScale(System.Double,System.Double,System.Double)
+  parent: Prowl.Runtime.Matrix4x4
+  langs:
+  - csharp
+  - vb
+  name: CreateScale(double, double, double)
+  nameWithType: Matrix4x4.CreateScale(double, double, double)
+  fullName: Prowl.Runtime.Matrix4x4.CreateScale(double, double, double)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Matrix4x4.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: CreateScale
+    path: ../Prowl/Prowl.Runtime/Math/Matrix4x4.cs
+    startLine: 377
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: Creates a scaling matrix.
+  example: []
+  syntax:
+    content: public static Matrix4x4 CreateScale(double xScale, double yScale, double zScale)
+    parameters:
+    - id: xScale
+      type: System.Double
+      description: Value to scale by on the X-axis.
+    - id: yScale
+      type: System.Double
+      description: Value to scale by on the Y-axis.
+    - id: zScale
+      type: System.Double
+      description: Value to scale by on the Z-axis.
+    return:
+      type: Prowl.Runtime.Matrix4x4
+      description: The scaling matrix.
+    content.vb: Public Shared Function CreateScale(xScale As Double, yScale As Double, zScale As Double) As Matrix4x4
+  overload: Prowl.Runtime.Matrix4x4.CreateScale*
+  nameWithType.vb: Matrix4x4.CreateScale(Double, Double, Double)
+  fullName.vb: Prowl.Runtime.Matrix4x4.CreateScale(Double, Double, Double)
+  name.vb: CreateScale(Double, Double, Double)
+- uid: Prowl.Runtime.Matrix4x4.CreateScale(System.Double,System.Double,System.Double,Prowl.Runtime.Vector3)
+  commentId: M:Prowl.Runtime.Matrix4x4.CreateScale(System.Double,System.Double,System.Double,Prowl.Runtime.Vector3)
+  id: CreateScale(System.Double,System.Double,System.Double,Prowl.Runtime.Vector3)
+  parent: Prowl.Runtime.Matrix4x4
+  langs:
+  - csharp
+  - vb
+  name: CreateScale(double, double, double, Vector3)
+  nameWithType: Matrix4x4.CreateScale(double, double, double, Vector3)
+  fullName: Prowl.Runtime.Matrix4x4.CreateScale(double, double, double, Prowl.Runtime.Vector3)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Matrix4x4.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: CreateScale
+    path: ../Prowl/Prowl.Runtime/Math/Matrix4x4.cs
+    startLine: 395
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: Creates a scaling matrix with a center point.
+  example: []
+  syntax:
+    content: public static Matrix4x4 CreateScale(double xScale, double yScale, double zScale, Vector3 centerPoint)
+    parameters:
+    - id: xScale
+      type: System.Double
+      description: Value to scale by on the X-axis.
+    - id: yScale
+      type: System.Double
+      description: Value to scale by on the Y-axis.
+    - id: zScale
+      type: System.Double
+      description: Value to scale by on the Z-axis.
+    - id: centerPoint
+      type: Prowl.Runtime.Vector3
+      description: The center point.
+    return:
+      type: Prowl.Runtime.Matrix4x4
+      description: The scaling matrix.
+    content.vb: Public Shared Function CreateScale(xScale As Double, yScale As Double, zScale As Double, centerPoint As Vector3) As Matrix4x4
+  overload: Prowl.Runtime.Matrix4x4.CreateScale*
+  nameWithType.vb: Matrix4x4.CreateScale(Double, Double, Double, Vector3)
+  fullName.vb: Prowl.Runtime.Matrix4x4.CreateScale(Double, Double, Double, Prowl.Runtime.Vector3)
+  name.vb: CreateScale(Double, Double, Double, Vector3)
+- uid: Prowl.Runtime.Matrix4x4.CreateScale(Prowl.Runtime.Vector3)
+  commentId: M:Prowl.Runtime.Matrix4x4.CreateScale(Prowl.Runtime.Vector3)
+  id: CreateScale(Prowl.Runtime.Vector3)
+  parent: Prowl.Runtime.Matrix4x4
+  langs:
+  - csharp
+  - vb
+  name: CreateScale(Vector3)
+  nameWithType: Matrix4x4.CreateScale(Vector3)
+  fullName: Prowl.Runtime.Matrix4x4.CreateScale(Prowl.Runtime.Vector3)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Matrix4x4.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: CreateScale
+    path: ../Prowl/Prowl.Runtime/Math/Matrix4x4.cs
+    startLine: 416
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: >-
+    f
+        Creates a scaling matrix.
+  example: []
+  syntax:
+    content: public static Matrix4x4 CreateScale(Vector3 scales)
+    parameters:
+    - id: scales
+      type: Prowl.Runtime.Vector3
+      description: The vector containing the amount to scale by on each axis.
+    return:
+      type: Prowl.Runtime.Matrix4x4
+      description: The scaling matrix.
+    content.vb: Public Shared Function CreateScale(scales As Vector3) As Matrix4x4
+  overload: Prowl.Runtime.Matrix4x4.CreateScale*
+- uid: Prowl.Runtime.Matrix4x4.CreateScale(Prowl.Runtime.Vector3,Prowl.Runtime.Vector3)
+  commentId: M:Prowl.Runtime.Matrix4x4.CreateScale(Prowl.Runtime.Vector3,Prowl.Runtime.Vector3)
+  id: CreateScale(Prowl.Runtime.Vector3,Prowl.Runtime.Vector3)
+  parent: Prowl.Runtime.Matrix4x4
+  langs:
+  - csharp
+  - vb
+  name: CreateScale(Vector3, Vector3)
+  nameWithType: Matrix4x4.CreateScale(Vector3, Vector3)
+  fullName: Prowl.Runtime.Matrix4x4.CreateScale(Prowl.Runtime.Vector3, Prowl.Runtime.Vector3)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Matrix4x4.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: CreateScale
+    path: ../Prowl/Prowl.Runtime/Math/Matrix4x4.cs
+    startLine: 432
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: Creates a scaling matrix with a center point.
+  example: []
+  syntax:
+    content: public static Matrix4x4 CreateScale(Vector3 scales, Vector3 centerPoint)
+    parameters:
+    - id: scales
+      type: Prowl.Runtime.Vector3
+      description: The vector containing the amount to scale by on each axis.
+    - id: centerPoint
+      type: Prowl.Runtime.Vector3
+      description: The center point.
+    return:
+      type: Prowl.Runtime.Matrix4x4
+      description: The scaling matrix.
+    content.vb: Public Shared Function CreateScale(scales As Vector3, centerPoint As Vector3) As Matrix4x4
+  overload: Prowl.Runtime.Matrix4x4.CreateScale*
+- uid: Prowl.Runtime.Matrix4x4.CreateScale(System.Double)
+  commentId: M:Prowl.Runtime.Matrix4x4.CreateScale(System.Double)
+  id: CreateScale(System.Double)
+  parent: Prowl.Runtime.Matrix4x4
+  langs:
+  - csharp
+  - vb
+  name: CreateScale(double)
+  nameWithType: Matrix4x4.CreateScale(double)
+  fullName: Prowl.Runtime.Matrix4x4.CreateScale(double)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Matrix4x4.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: CreateScale
+    path: ../Prowl/Prowl.Runtime/Math/Matrix4x4.cs
+    startLine: 453
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: Creates a uniform scaling matrix that scales equally on each axis.
+  example: []
+  syntax:
+    content: public static Matrix4x4 CreateScale(double scale)
+    parameters:
+    - id: scale
+      type: System.Double
+      description: The uniform scaling factor.
+    return:
+      type: Prowl.Runtime.Matrix4x4
+      description: The scaling matrix.
+    content.vb: Public Shared Function CreateScale(scale As Double) As Matrix4x4
+  overload: Prowl.Runtime.Matrix4x4.CreateScale*
+  nameWithType.vb: Matrix4x4.CreateScale(Double)
+  fullName.vb: Prowl.Runtime.Matrix4x4.CreateScale(Double)
+  name.vb: CreateScale(Double)
+- uid: Prowl.Runtime.Matrix4x4.CreateScale(System.Double,Prowl.Runtime.Vector3)
+  commentId: M:Prowl.Runtime.Matrix4x4.CreateScale(System.Double,Prowl.Runtime.Vector3)
+  id: CreateScale(System.Double,Prowl.Runtime.Vector3)
+  parent: Prowl.Runtime.Matrix4x4
+  langs:
+  - csharp
+  - vb
+  name: CreateScale(double, Vector3)
+  nameWithType: Matrix4x4.CreateScale(double, Vector3)
+  fullName: Prowl.Runtime.Matrix4x4.CreateScale(double, Prowl.Runtime.Vector3)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Matrix4x4.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: CreateScale
+    path: ../Prowl/Prowl.Runtime/Math/Matrix4x4.cs
+    startLine: 470
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: Creates a uniform scaling matrix that scales equally on each axis with a center point.
+  example: []
+  syntax:
+    content: public static Matrix4x4 CreateScale(double scale, Vector3 centerPoint)
+    parameters:
+    - id: scale
+      type: System.Double
+      description: The uniform scaling factor.
+    - id: centerPoint
+      type: Prowl.Runtime.Vector3
+      description: The center point.
+    return:
+      type: Prowl.Runtime.Matrix4x4
+      description: The scaling matrix.
+    content.vb: Public Shared Function CreateScale(scale As Double, centerPoint As Vector3) As Matrix4x4
+  overload: Prowl.Runtime.Matrix4x4.CreateScale*
+  nameWithType.vb: Matrix4x4.CreateScale(Double, Vector3)
+  fullName.vb: Prowl.Runtime.Matrix4x4.CreateScale(Double, Prowl.Runtime.Vector3)
+  name.vb: CreateScale(Double, Vector3)
+- uid: Prowl.Runtime.Matrix4x4.CreateRotationX(System.Double)
+  commentId: M:Prowl.Runtime.Matrix4x4.CreateRotationX(System.Double)
+  id: CreateRotationX(System.Double)
+  parent: Prowl.Runtime.Matrix4x4
+  langs:
+  - csharp
+  - vb
+  name: CreateRotationX(double)
+  nameWithType: Matrix4x4.CreateRotationX(double)
+  fullName: Prowl.Runtime.Matrix4x4.CreateRotationX(double)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Matrix4x4.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: CreateRotationX
+    path: ../Prowl/Prowl.Runtime/Math/Matrix4x4.cs
+    startLine: 488
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: Creates a matrix for rotating points around the X-axis.
+  example: []
+  syntax:
+    content: public static Matrix4x4 CreateRotationX(double radians)
+    parameters:
+    - id: radians
+      type: System.Double
+      description: The amount, in radians, by which to rotate around the X-axis.
+    return:
+      type: Prowl.Runtime.Matrix4x4
+      description: The rotation matrix.
+    content.vb: Public Shared Function CreateRotationX(radians As Double) As Matrix4x4
+  overload: Prowl.Runtime.Matrix4x4.CreateRotationX*
+  nameWithType.vb: Matrix4x4.CreateRotationX(Double)
+  fullName.vb: Prowl.Runtime.Matrix4x4.CreateRotationX(Double)
+  name.vb: CreateRotationX(Double)
+- uid: Prowl.Runtime.Matrix4x4.CreateRotationX(System.Double,Prowl.Runtime.Vector3)
+  commentId: M:Prowl.Runtime.Matrix4x4.CreateRotationX(System.Double,Prowl.Runtime.Vector3)
+  id: CreateRotationX(System.Double,Prowl.Runtime.Vector3)
+  parent: Prowl.Runtime.Matrix4x4
+  langs:
+  - csharp
+  - vb
+  name: CreateRotationX(double, Vector3)
+  nameWithType: Matrix4x4.CreateRotationX(double, Vector3)
+  fullName: Prowl.Runtime.Matrix4x4.CreateRotationX(double, Prowl.Runtime.Vector3)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Matrix4x4.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: CreateRotationX
+    path: ../Prowl/Prowl.Runtime/Math/Matrix4x4.cs
+    startLine: 513
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: Creates a matrix for rotating points around the X-axis, from a center point.
+  example: []
+  syntax:
+    content: public static Matrix4x4 CreateRotationX(double radians, Vector3 centerPoint)
+    parameters:
+    - id: radians
+      type: System.Double
+      description: The amount, in radians, by which to rotate around the X-axis.
+    - id: centerPoint
+      type: Prowl.Runtime.Vector3
+      description: The center point.
+    return:
+      type: Prowl.Runtime.Matrix4x4
+      description: The rotation matrix.
+    content.vb: Public Shared Function CreateRotationX(radians As Double, centerPoint As Vector3) As Matrix4x4
+  overload: Prowl.Runtime.Matrix4x4.CreateRotationX*
+  nameWithType.vb: Matrix4x4.CreateRotationX(Double, Vector3)
+  fullName.vb: Prowl.Runtime.Matrix4x4.CreateRotationX(Double, Prowl.Runtime.Vector3)
+  name.vb: CreateRotationX(Double, Vector3)
+- uid: Prowl.Runtime.Matrix4x4.CreateRotationY(System.Double)
+  commentId: M:Prowl.Runtime.Matrix4x4.CreateRotationY(System.Double)
+  id: CreateRotationY(System.Double)
+  parent: Prowl.Runtime.Matrix4x4
+  langs:
+  - csharp
+  - vb
+  name: CreateRotationY(double)
+  nameWithType: Matrix4x4.CreateRotationY(double)
+  fullName: Prowl.Runtime.Matrix4x4.CreateRotationY(double)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Matrix4x4.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: CreateRotationY
+    path: ../Prowl/Prowl.Runtime/Math/Matrix4x4.cs
+    startLine: 540
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: Creates a matrix for rotating points around the Y-axis.
+  example: []
+  syntax:
+    content: public static Matrix4x4 CreateRotationY(double radians)
+    parameters:
+    - id: radians
+      type: System.Double
+      description: The amount, in radians, by which to rotate around the Y-axis.
+    return:
+      type: Prowl.Runtime.Matrix4x4
+      description: The rotation matrix.
+    content.vb: Public Shared Function CreateRotationY(radians As Double) As Matrix4x4
+  overload: Prowl.Runtime.Matrix4x4.CreateRotationY*
+  nameWithType.vb: Matrix4x4.CreateRotationY(Double)
+  fullName.vb: Prowl.Runtime.Matrix4x4.CreateRotationY(Double)
+  name.vb: CreateRotationY(Double)
+- uid: Prowl.Runtime.Matrix4x4.CreateRotationY(System.Double,Prowl.Runtime.Vector3)
+  commentId: M:Prowl.Runtime.Matrix4x4.CreateRotationY(System.Double,Prowl.Runtime.Vector3)
+  id: CreateRotationY(System.Double,Prowl.Runtime.Vector3)
+  parent: Prowl.Runtime.Matrix4x4
+  langs:
+  - csharp
+  - vb
+  name: CreateRotationY(double, Vector3)
+  nameWithType: Matrix4x4.CreateRotationY(double, Vector3)
+  fullName: Prowl.Runtime.Matrix4x4.CreateRotationY(double, Prowl.Runtime.Vector3)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Matrix4x4.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: CreateRotationY
+    path: ../Prowl/Prowl.Runtime/Math/Matrix4x4.cs
+    startLine: 565
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: Creates a matrix for rotating points around the Y-axis, from a center point.
+  example: []
+  syntax:
+    content: public static Matrix4x4 CreateRotationY(double radians, Vector3 centerPoint)
+    parameters:
+    - id: radians
+      type: System.Double
+      description: The amount, in radians, by which to rotate around the Y-axis.
+    - id: centerPoint
+      type: Prowl.Runtime.Vector3
+      description: The center point.
+    return:
+      type: Prowl.Runtime.Matrix4x4
+      description: The rotation matrix.
+    content.vb: Public Shared Function CreateRotationY(radians As Double, centerPoint As Vector3) As Matrix4x4
+  overload: Prowl.Runtime.Matrix4x4.CreateRotationY*
+  nameWithType.vb: Matrix4x4.CreateRotationY(Double, Vector3)
+  fullName.vb: Prowl.Runtime.Matrix4x4.CreateRotationY(Double, Prowl.Runtime.Vector3)
+  name.vb: CreateRotationY(Double, Vector3)
+- uid: Prowl.Runtime.Matrix4x4.CreateRotationZ(System.Double)
+  commentId: M:Prowl.Runtime.Matrix4x4.CreateRotationZ(System.Double)
+  id: CreateRotationZ(System.Double)
+  parent: Prowl.Runtime.Matrix4x4
+  langs:
+  - csharp
+  - vb
+  name: CreateRotationZ(double)
+  nameWithType: Matrix4x4.CreateRotationZ(double)
+  fullName: Prowl.Runtime.Matrix4x4.CreateRotationZ(double)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Matrix4x4.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: CreateRotationZ
+    path: ../Prowl/Prowl.Runtime/Math/Matrix4x4.cs
+    startLine: 592
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: Creates a matrix for rotating points around the Z-axis.
+  example: []
+  syntax:
+    content: public static Matrix4x4 CreateRotationZ(double radians)
+    parameters:
+    - id: radians
+      type: System.Double
+      description: The amount, in radians, by which to rotate around the Z-axis.
+    return:
+      type: Prowl.Runtime.Matrix4x4
+      description: The rotation matrix.
+    content.vb: Public Shared Function CreateRotationZ(radians As Double) As Matrix4x4
+  overload: Prowl.Runtime.Matrix4x4.CreateRotationZ*
+  nameWithType.vb: Matrix4x4.CreateRotationZ(Double)
+  fullName.vb: Prowl.Runtime.Matrix4x4.CreateRotationZ(Double)
+  name.vb: CreateRotationZ(Double)
+- uid: Prowl.Runtime.Matrix4x4.CreateRotationZ(System.Double,Prowl.Runtime.Vector3)
+  commentId: M:Prowl.Runtime.Matrix4x4.CreateRotationZ(System.Double,Prowl.Runtime.Vector3)
+  id: CreateRotationZ(System.Double,Prowl.Runtime.Vector3)
+  parent: Prowl.Runtime.Matrix4x4
+  langs:
+  - csharp
+  - vb
+  name: CreateRotationZ(double, Vector3)
+  nameWithType: Matrix4x4.CreateRotationZ(double, Vector3)
+  fullName: Prowl.Runtime.Matrix4x4.CreateRotationZ(double, Prowl.Runtime.Vector3)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Matrix4x4.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: CreateRotationZ
+    path: ../Prowl/Prowl.Runtime/Math/Matrix4x4.cs
+    startLine: 617
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: Creates a matrix for rotating points around the Z-axis, from a center point.
+  example: []
+  syntax:
+    content: public static Matrix4x4 CreateRotationZ(double radians, Vector3 centerPoint)
+    parameters:
+    - id: radians
+      type: System.Double
+      description: The amount, in radians, by which to rotate around the Z-axis.
+    - id: centerPoint
+      type: Prowl.Runtime.Vector3
+      description: The center point.
+    return:
+      type: Prowl.Runtime.Matrix4x4
+      description: The rotation matrix.
+    content.vb: Public Shared Function CreateRotationZ(radians As Double, centerPoint As Vector3) As Matrix4x4
+  overload: Prowl.Runtime.Matrix4x4.CreateRotationZ*
+  nameWithType.vb: Matrix4x4.CreateRotationZ(Double, Vector3)
+  fullName.vb: Prowl.Runtime.Matrix4x4.CreateRotationZ(Double, Prowl.Runtime.Vector3)
+  name.vb: CreateRotationZ(Double, Vector3)
+- uid: Prowl.Runtime.Matrix4x4.CreateFromAxisAngle(Prowl.Runtime.Vector3,System.Double)
+  commentId: M:Prowl.Runtime.Matrix4x4.CreateFromAxisAngle(Prowl.Runtime.Vector3,System.Double)
+  id: CreateFromAxisAngle(Prowl.Runtime.Vector3,System.Double)
+  parent: Prowl.Runtime.Matrix4x4
+  langs:
+  - csharp
+  - vb
+  name: CreateFromAxisAngle(Vector3, double)
+  nameWithType: Matrix4x4.CreateFromAxisAngle(Vector3, double)
+  fullName: Prowl.Runtime.Matrix4x4.CreateFromAxisAngle(Prowl.Runtime.Vector3, double)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Matrix4x4.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: CreateFromAxisAngle
+    path: ../Prowl/Prowl.Runtime/Math/Matrix4x4.cs
+    startLine: 645
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: Creates a matrix that rotates around an arbitrary vector.
+  example: []
+  syntax:
+    content: public static Matrix4x4 CreateFromAxisAngle(Vector3 axis, double angle)
+    parameters:
+    - id: axis
+      type: Prowl.Runtime.Vector3
+      description: The axis to rotate around.
+    - id: angle
+      type: System.Double
+      description: The angle to rotate around the given axis, in radians.
+    return:
+      type: Prowl.Runtime.Matrix4x4
+      description: The rotation matrix.
+    content.vb: Public Shared Function CreateFromAxisAngle(axis As Vector3, angle As Double) As Matrix4x4
+  overload: Prowl.Runtime.Matrix4x4.CreateFromAxisAngle*
+  nameWithType.vb: Matrix4x4.CreateFromAxisAngle(Vector3, Double)
+  fullName.vb: Prowl.Runtime.Matrix4x4.CreateFromAxisAngle(Prowl.Runtime.Vector3, Double)
+  name.vb: CreateFromAxisAngle(Vector3, Double)
+- uid: Prowl.Runtime.Matrix4x4.CreatePerspectiveFieldOfView(System.Double,System.Double,System.Double,System.Double)
+  commentId: M:Prowl.Runtime.Matrix4x4.CreatePerspectiveFieldOfView(System.Double,System.Double,System.Double,System.Double)
+  id: CreatePerspectiveFieldOfView(System.Double,System.Double,System.Double,System.Double)
+  parent: Prowl.Runtime.Matrix4x4
+  langs:
+  - csharp
+  - vb
+  name: CreatePerspectiveFieldOfView(double, double, double, double)
+  nameWithType: Matrix4x4.CreatePerspectiveFieldOfView(double, double, double, double)
+  fullName: Prowl.Runtime.Matrix4x4.CreatePerspectiveFieldOfView(double, double, double, double)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Matrix4x4.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: CreatePerspectiveFieldOfView
+    path: ../Prowl/Prowl.Runtime/Math/Matrix4x4.cs
+    startLine: 705
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: Creates a perspective projection matrix based on a field of view, aspect ratio, and near and far view plane distances.
+  example: []
+  syntax:
+    content: public static Matrix4x4 CreatePerspectiveFieldOfView(double fieldOfView, double aspectRatio, double nearPlaneDistance, double farPlaneDistance)
+    parameters:
+    - id: fieldOfView
+      type: System.Double
+      description: Field of view in the y direction, in radians.
+    - id: aspectRatio
+      type: System.Double
+      description: Aspect ratio, defined as view space width divided by height.
+    - id: nearPlaneDistance
+      type: System.Double
+      description: Distance to the near view plane.
+    - id: farPlaneDistance
+      type: System.Double
+      description: Distance to the far view plane.
+    return:
+      type: Prowl.Runtime.Matrix4x4
+      description: The perspective projection matrix.
+    content.vb: Public Shared Function CreatePerspectiveFieldOfView(fieldOfView As Double, aspectRatio As Double, nearPlaneDistance As Double, farPlaneDistance As Double) As Matrix4x4
+  overload: Prowl.Runtime.Matrix4x4.CreatePerspectiveFieldOfView*
+  nameWithType.vb: Matrix4x4.CreatePerspectiveFieldOfView(Double, Double, Double, Double)
+  fullName.vb: Prowl.Runtime.Matrix4x4.CreatePerspectiveFieldOfView(Double, Double, Double, Double)
+  name.vb: CreatePerspectiveFieldOfView(Double, Double, Double, Double)
+- uid: Prowl.Runtime.Matrix4x4.CreatePerspective(System.Double,System.Double,System.Double,System.Double)
+  commentId: M:Prowl.Runtime.Matrix4x4.CreatePerspective(System.Double,System.Double,System.Double,System.Double)
+  id: CreatePerspective(System.Double,System.Double,System.Double,System.Double)
+  parent: Prowl.Runtime.Matrix4x4
+  langs:
+  - csharp
+  - vb
+  name: CreatePerspective(double, double, double, double)
+  nameWithType: Matrix4x4.CreatePerspective(double, double, double, double)
+  fullName: Prowl.Runtime.Matrix4x4.CreatePerspective(double, double, double, double)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Matrix4x4.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: CreatePerspective
+    path: ../Prowl/Prowl.Runtime/Math/Matrix4x4.cs
+    startLine: 748
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: Creates a perspective projection matrix from the given view volume dimensions.
+  example: []
+  syntax:
+    content: public static Matrix4x4 CreatePerspective(double width, double height, double nearPlaneDistance, double farPlaneDistance)
+    parameters:
+    - id: width
+      type: System.Double
+      description: Width of the view volume at the near view plane.
+    - id: height
+      type: System.Double
+      description: Height of the view volume at the near view plane.
+    - id: nearPlaneDistance
+      type: System.Double
+      description: Distance to the near view plane.
+    - id: farPlaneDistance
+      type: System.Double
+      description: Distance to the far view plane.
+    return:
+      type: Prowl.Runtime.Matrix4x4
+      description: The perspective projection matrix.
+    content.vb: Public Shared Function CreatePerspective(width As Double, height As Double, nearPlaneDistance As Double, farPlaneDistance As Double) As Matrix4x4
+  overload: Prowl.Runtime.Matrix4x4.CreatePerspective*
+  nameWithType.vb: Matrix4x4.CreatePerspective(Double, Double, Double, Double)
+  fullName.vb: Prowl.Runtime.Matrix4x4.CreatePerspective(Double, Double, Double, Double)
+  name.vb: CreatePerspective(Double, Double, Double, Double)
+- uid: Prowl.Runtime.Matrix4x4.CreatePerspectiveOffCenter(System.Double,System.Double,System.Double,System.Double,System.Double,System.Double)
+  commentId: M:Prowl.Runtime.Matrix4x4.CreatePerspectiveOffCenter(System.Double,System.Double,System.Double,System.Double,System.Double,System.Double)
+  id: CreatePerspectiveOffCenter(System.Double,System.Double,System.Double,System.Double,System.Double,System.Double)
+  parent: Prowl.Runtime.Matrix4x4
+  langs:
+  - csharp
+  - vb
+  name: CreatePerspectiveOffCenter(double, double, double, double, double, double)
+  nameWithType: Matrix4x4.CreatePerspectiveOffCenter(double, double, double, double, double, double)
+  fullName: Prowl.Runtime.Matrix4x4.CreatePerspectiveOffCenter(double, double, double, double, double, double)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Matrix4x4.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: CreatePerspectiveOffCenter
+    path: ../Prowl/Prowl.Runtime/Math/Matrix4x4.cs
+    startLine: 787
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: Creates a customized, perspective projection matrix.
+  example: []
+  syntax:
+    content: public static Matrix4x4 CreatePerspectiveOffCenter(double left, double right, double bottom, double top, double nearPlaneDistance, double farPlaneDistance)
+    parameters:
+    - id: left
+      type: System.Double
+      description: Minimum x-value of the view volume at the near view plane.
+    - id: right
+      type: System.Double
+      description: Maximum x-value of the view volume at the near view plane.
+    - id: bottom
+      type: System.Double
+      description: Minimum y-value of the view volume at the near view plane.
+    - id: top
+      type: System.Double
+      description: Maximum y-value of the view volume at the near view plane.
+    - id: nearPlaneDistance
+      type: System.Double
+      description: Distance to the near view plane.
+    - id: farPlaneDistance
+      type: System.Double
+      description: Distance to of the far view plane.
+    return:
+      type: Prowl.Runtime.Matrix4x4
+      description: The perspective projection matrix.
+    content.vb: Public Shared Function CreatePerspectiveOffCenter(left As Double, right As Double, bottom As Double, top As Double, nearPlaneDistance As Double, farPlaneDistance As Double) As Matrix4x4
+  overload: Prowl.Runtime.Matrix4x4.CreatePerspectiveOffCenter*
+  nameWithType.vb: Matrix4x4.CreatePerspectiveOffCenter(Double, Double, Double, Double, Double, Double)
+  fullName.vb: Prowl.Runtime.Matrix4x4.CreatePerspectiveOffCenter(Double, Double, Double, Double, Double, Double)
+  name.vb: CreatePerspectiveOffCenter(Double, Double, Double, Double, Double, Double)
+- uid: Prowl.Runtime.Matrix4x4.CreateOrthographic(System.Double,System.Double,System.Double,System.Double)
+  commentId: M:Prowl.Runtime.Matrix4x4.CreateOrthographic(System.Double,System.Double,System.Double,System.Double)
+  id: CreateOrthographic(System.Double,System.Double,System.Double,System.Double)
+  parent: Prowl.Runtime.Matrix4x4
+  langs:
+  - csharp
+  - vb
+  name: CreateOrthographic(double, double, double, double)
+  nameWithType: Matrix4x4.CreateOrthographic(double, double, double, double)
+  fullName: Prowl.Runtime.Matrix4x4.CreateOrthographic(double, double, double, double)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Matrix4x4.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: CreateOrthographic
+    path: ../Prowl/Prowl.Runtime/Math/Matrix4x4.cs
+    startLine: 825
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: Creates an orthographic perspective matrix from the given view volume dimensions.
+  example: []
+  syntax:
+    content: public static Matrix4x4 CreateOrthographic(double width, double height, double zNearPlane, double zFarPlane)
+    parameters:
+    - id: width
+      type: System.Double
+      description: Width of the view volume.
+    - id: height
+      type: System.Double
+      description: Height of the view volume.
+    - id: zNearPlane
+      type: System.Double
+      description: Minimum Z-value of the view volume.
+    - id: zFarPlane
+      type: System.Double
+      description: Maximum Z-value of the view volume.
+    return:
+      type: Prowl.Runtime.Matrix4x4
+      description: The orthographic projection matrix.
+    content.vb: Public Shared Function CreateOrthographic(width As Double, height As Double, zNearPlane As Double, zFarPlane As Double) As Matrix4x4
+  overload: Prowl.Runtime.Matrix4x4.CreateOrthographic*
+  nameWithType.vb: Matrix4x4.CreateOrthographic(Double, Double, Double, Double)
+  fullName.vb: Prowl.Runtime.Matrix4x4.CreateOrthographic(Double, Double, Double, Double)
+  name.vb: CreateOrthographic(Double, Double, Double, Double)
+- uid: Prowl.Runtime.Matrix4x4.CreateOrthographicOffCenter(System.Double,System.Double,System.Double,System.Double,System.Double,System.Double)
+  commentId: M:Prowl.Runtime.Matrix4x4.CreateOrthographicOffCenter(System.Double,System.Double,System.Double,System.Double,System.Double,System.Double)
+  id: CreateOrthographicOffCenter(System.Double,System.Double,System.Double,System.Double,System.Double,System.Double)
+  parent: Prowl.Runtime.Matrix4x4
+  langs:
+  - csharp
+  - vb
+  name: CreateOrthographicOffCenter(double, double, double, double, double, double)
+  nameWithType: Matrix4x4.CreateOrthographicOffCenter(double, double, double, double, double, double)
+  fullName: Prowl.Runtime.Matrix4x4.CreateOrthographicOffCenter(double, double, double, double, double, double)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Matrix4x4.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: CreateOrthographicOffCenter
+    path: ../Prowl/Prowl.Runtime/Math/Matrix4x4.cs
+    startLine: 855
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: Builds a customized, orthographic projection matrix.
+  example: []
+  syntax:
+    content: public static Matrix4x4 CreateOrthographicOffCenter(double left, double right, double bottom, double top, double zNearPlane, double zFarPlane)
+    parameters:
+    - id: left
+      type: System.Double
+      description: Minimum X-value of the view volume.
+    - id: right
+      type: System.Double
+      description: Maximum X-value of the view volume.
+    - id: bottom
+      type: System.Double
+      description: Minimum Y-value of the view volume.
+    - id: top
+      type: System.Double
+      description: Maximum Y-value of the view volume.
+    - id: zNearPlane
+      type: System.Double
+      description: Minimum Z-value of the view volume.
+    - id: zFarPlane
+      type: System.Double
+      description: Maximum Z-value of the view volume.
+    return:
+      type: Prowl.Runtime.Matrix4x4
+      description: The orthographic projection matrix.
+    content.vb: Public Shared Function CreateOrthographicOffCenter(left As Double, right As Double, bottom As Double, top As Double, zNearPlane As Double, zFarPlane As Double) As Matrix4x4
+  overload: Prowl.Runtime.Matrix4x4.CreateOrthographicOffCenter*
+  nameWithType.vb: Matrix4x4.CreateOrthographicOffCenter(Double, Double, Double, Double, Double, Double)
+  fullName.vb: Prowl.Runtime.Matrix4x4.CreateOrthographicOffCenter(Double, Double, Double, Double, Double, Double)
+  name.vb: CreateOrthographicOffCenter(Double, Double, Double, Double, Double, Double)
+- uid: Prowl.Runtime.Matrix4x4.CreateLookToLeftHanded(Prowl.Runtime.Vector3@,Prowl.Runtime.Vector3@,Prowl.Runtime.Vector3@)
+  commentId: M:Prowl.Runtime.Matrix4x4.CreateLookToLeftHanded(Prowl.Runtime.Vector3@,Prowl.Runtime.Vector3@,Prowl.Runtime.Vector3@)
+  id: CreateLookToLeftHanded(Prowl.Runtime.Vector3@,Prowl.Runtime.Vector3@,Prowl.Runtime.Vector3@)
+  parent: Prowl.Runtime.Matrix4x4
+  langs:
+  - csharp
+  - vb
+  name: CreateLookToLeftHanded(in Vector3, in Vector3, in Vector3)
+  nameWithType: Matrix4x4.CreateLookToLeftHanded(in Vector3, in Vector3, in Vector3)
+  fullName: Prowl.Runtime.Matrix4x4.CreateLookToLeftHanded(in Prowl.Runtime.Vector3, in Prowl.Runtime.Vector3, in Prowl.Runtime.Vector3)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Matrix4x4.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: CreateLookToLeftHanded
+    path: ../Prowl/Prowl.Runtime/Math/Matrix4x4.cs
+    startLine: 877
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public static Matrix4x4 CreateLookToLeftHanded(in Vector3 cameraPosition, in Vector3 cameraDirection, in Vector3 cameraUpVector)
+    parameters:
+    - id: cameraPosition
+      type: Prowl.Runtime.Vector3
+    - id: cameraDirection
+      type: Prowl.Runtime.Vector3
+    - id: cameraUpVector
+      type: Prowl.Runtime.Vector3
+    return:
+      type: Prowl.Runtime.Matrix4x4
+    content.vb: Public Shared Function CreateLookToLeftHanded(cameraPosition As Vector3, cameraDirection As Vector3, cameraUpVector As Vector3) As Matrix4x4
+  overload: Prowl.Runtime.Matrix4x4.CreateLookToLeftHanded*
+  nameWithType.vb: Matrix4x4.CreateLookToLeftHanded(Vector3, Vector3, Vector3)
+  fullName.vb: Prowl.Runtime.Matrix4x4.CreateLookToLeftHanded(Prowl.Runtime.Vector3, Prowl.Runtime.Vector3, Prowl.Runtime.Vector3)
+  name.vb: CreateLookToLeftHanded(Vector3, Vector3, Vector3)
+- uid: Prowl.Runtime.Matrix4x4.CreateLookAt(Prowl.Runtime.Vector3,Prowl.Runtime.Vector3,Prowl.Runtime.Vector3)
+  commentId: M:Prowl.Runtime.Matrix4x4.CreateLookAt(Prowl.Runtime.Vector3,Prowl.Runtime.Vector3,Prowl.Runtime.Vector3)
+  id: CreateLookAt(Prowl.Runtime.Vector3,Prowl.Runtime.Vector3,Prowl.Runtime.Vector3)
+  parent: Prowl.Runtime.Matrix4x4
+  langs:
+  - csharp
+  - vb
+  name: CreateLookAt(Vector3, Vector3, Vector3)
+  nameWithType: Matrix4x4.CreateLookAt(Vector3, Vector3, Vector3)
+  fullName: Prowl.Runtime.Matrix4x4.CreateLookAt(Prowl.Runtime.Vector3, Prowl.Runtime.Vector3, Prowl.Runtime.Vector3)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Matrix4x4.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: CreateLookAt
+    path: ../Prowl/Prowl.Runtime/Math/Matrix4x4.cs
+    startLine: 906
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: Creates a view matrix.
+  example: []
+  syntax:
+    content: public static Matrix4x4 CreateLookAt(Vector3 cameraPosition, Vector3 cameraTarget, Vector3 cameraUpVector)
+    parameters:
+    - id: cameraPosition
+      type: Prowl.Runtime.Vector3
+      description: The position of the camera.
+    - id: cameraTarget
+      type: Prowl.Runtime.Vector3
+      description: The target towards which the camera is pointing.
+    - id: cameraUpVector
+      type: Prowl.Runtime.Vector3
+      description: The direction that is "up" from the camera's point of view.
+    return:
+      type: Prowl.Runtime.Matrix4x4
+      description: The view matrix.
+    content.vb: Public Shared Function CreateLookAt(cameraPosition As Vector3, cameraTarget As Vector3, cameraUpVector As Vector3) As Matrix4x4
+  overload: Prowl.Runtime.Matrix4x4.CreateLookAt*
+- uid: Prowl.Runtime.Matrix4x4.CreateWorld(Prowl.Runtime.Vector3,Prowl.Runtime.Vector3,Prowl.Runtime.Vector3)
+  commentId: M:Prowl.Runtime.Matrix4x4.CreateWorld(Prowl.Runtime.Vector3,Prowl.Runtime.Vector3,Prowl.Runtime.Vector3)
+  id: CreateWorld(Prowl.Runtime.Vector3,Prowl.Runtime.Vector3,Prowl.Runtime.Vector3)
+  parent: Prowl.Runtime.Matrix4x4
+  langs:
+  - csharp
+  - vb
+  name: CreateWorld(Vector3, Vector3, Vector3)
+  nameWithType: Matrix4x4.CreateWorld(Vector3, Vector3, Vector3)
+  fullName: Prowl.Runtime.Matrix4x4.CreateWorld(Prowl.Runtime.Vector3, Prowl.Runtime.Vector3, Prowl.Runtime.Vector3)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Matrix4x4.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: CreateWorld
+    path: ../Prowl/Prowl.Runtime/Math/Matrix4x4.cs
+    startLine: 933
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: Creates a world matrix with the specified parameters.
+  example: []
+  syntax:
+    content: public static Matrix4x4 CreateWorld(Vector3 position, Vector3 forward, Vector3 up)
+    parameters:
+    - id: position
+      type: Prowl.Runtime.Vector3
+      description: The position of the object; used in translation operations.
+    - id: forward
+      type: Prowl.Runtime.Vector3
+      description: Forward direction of the object.
+    - id: up
+      type: Prowl.Runtime.Vector3
+      description: Upward direction of the object; usually [0, 1, 0].
+    return:
+      type: Prowl.Runtime.Matrix4x4
+      description: The world matrix.
+    content.vb: Public Shared Function CreateWorld(position As Vector3, forward As Vector3, up As Vector3) As Matrix4x4
+  overload: Prowl.Runtime.Matrix4x4.CreateWorld*
+- uid: Prowl.Runtime.Matrix4x4.CreateFromQuaternion(Prowl.Runtime.Quaternion)
+  commentId: M:Prowl.Runtime.Matrix4x4.CreateFromQuaternion(Prowl.Runtime.Quaternion)
+  id: CreateFromQuaternion(Prowl.Runtime.Quaternion)
+  parent: Prowl.Runtime.Matrix4x4
+  langs:
+  - csharp
+  - vb
+  name: CreateFromQuaternion(Quaternion)
+  nameWithType: Matrix4x4.CreateFromQuaternion(Quaternion)
+  fullName: Prowl.Runtime.Matrix4x4.CreateFromQuaternion(Prowl.Runtime.Quaternion)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Matrix4x4.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: CreateFromQuaternion
+    path: ../Prowl/Prowl.Runtime/Math/Matrix4x4.cs
+    startLine: 954
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: Creates a rotation matrix from the given Quaternion rotation value.
+  example: []
+  syntax:
+    content: public static Matrix4x4 CreateFromQuaternion(Quaternion quaternion)
+    parameters:
+    - id: quaternion
+      type: Prowl.Runtime.Quaternion
+      description: The source Quaternion.
+    return:
+      type: Prowl.Runtime.Matrix4x4
+      description: The rotation matrix.
+    content.vb: Public Shared Function CreateFromQuaternion(quaternion As Quaternion) As Matrix4x4
+  overload: Prowl.Runtime.Matrix4x4.CreateFromQuaternion*
+- uid: Prowl.Runtime.Matrix4x4.CreateFromYawPitchRoll(System.Double,System.Double,System.Double)
+  commentId: M:Prowl.Runtime.Matrix4x4.CreateFromYawPitchRoll(System.Double,System.Double,System.Double)
+  id: CreateFromYawPitchRoll(System.Double,System.Double,System.Double)
+  parent: Prowl.Runtime.Matrix4x4
+  langs:
+  - csharp
+  - vb
+  name: CreateFromYawPitchRoll(double, double, double)
+  nameWithType: Matrix4x4.CreateFromYawPitchRoll(double, double, double)
+  fullName: Prowl.Runtime.Matrix4x4.CreateFromYawPitchRoll(double, double, double)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Matrix4x4.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: CreateFromYawPitchRoll
+    path: ../Prowl/Prowl.Runtime/Math/Matrix4x4.cs
+    startLine: 994
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: Creates a rotation matrix from the specified yaw, pitch, and roll.
+  example: []
+  syntax:
+    content: public static Matrix4x4 CreateFromYawPitchRoll(double yaw, double pitch, double roll)
+    parameters:
+    - id: yaw
+      type: System.Double
+      description: Angle of rotation, in radians, around the Y-axis.
+    - id: pitch
+      type: System.Double
+      description: Angle of rotation, in radians, around the X-axis.
+    - id: roll
+      type: System.Double
+      description: Angle of rotation, in radians, around the Z-axis.
+    return:
+      type: Prowl.Runtime.Matrix4x4
+      description: The rotation matrix.
+    content.vb: Public Shared Function CreateFromYawPitchRoll(yaw As Double, pitch As Double, roll As Double) As Matrix4x4
+  overload: Prowl.Runtime.Matrix4x4.CreateFromYawPitchRoll*
+  nameWithType.vb: Matrix4x4.CreateFromYawPitchRoll(Double, Double, Double)
+  fullName.vb: Prowl.Runtime.Matrix4x4.CreateFromYawPitchRoll(Double, Double, Double)
+  name.vb: CreateFromYawPitchRoll(Double, Double, Double)
+- uid: Prowl.Runtime.Matrix4x4.CreateShadow(Prowl.Runtime.Vector3,Prowl.Runtime.Plane)
+  commentId: M:Prowl.Runtime.Matrix4x4.CreateShadow(Prowl.Runtime.Vector3,Prowl.Runtime.Plane)
+  id: CreateShadow(Prowl.Runtime.Vector3,Prowl.Runtime.Plane)
+  parent: Prowl.Runtime.Matrix4x4
+  langs:
+  - csharp
+  - vb
+  name: CreateShadow(Vector3, Plane)
+  nameWithType: Matrix4x4.CreateShadow(Vector3, Plane)
+  fullName: Prowl.Runtime.Matrix4x4.CreateShadow(Prowl.Runtime.Vector3, Prowl.Runtime.Plane)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Matrix4x4.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: CreateShadow
+    path: ../Prowl/Prowl.Runtime/Math/Matrix4x4.cs
+    startLine: 1007
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: Creates a Matrix that flattens geometry into a specified Plane as if casting a shadow from a specified light source.
+  example: []
+  syntax:
+    content: public static Matrix4x4 CreateShadow(Vector3 lightDirection, Plane plane)
+    parameters:
+    - id: lightDirection
+      type: Prowl.Runtime.Vector3
+      description: The direction from which the light that will cast the shadow is coming.
+    - id: plane
+      type: Prowl.Runtime.Plane
+      description: The Plane onto which the new matrix should flatten geometry so as to cast a shadow.
+    return:
+      type: Prowl.Runtime.Matrix4x4
+      description: A new Matrix that can be used to flatten geometry onto the specified plane from the specified direction.
+    content.vb: Public Shared Function CreateShadow(lightDirection As Vector3, plane As Plane) As Matrix4x4
+  overload: Prowl.Runtime.Matrix4x4.CreateShadow*
+- uid: Prowl.Runtime.Matrix4x4.CreateReflection(Prowl.Runtime.Plane)
+  commentId: M:Prowl.Runtime.Matrix4x4.CreateReflection(Prowl.Runtime.Plane)
+  id: CreateReflection(Prowl.Runtime.Plane)
+  parent: Prowl.Runtime.Matrix4x4
+  langs:
+  - csharp
+  - vb
+  name: CreateReflection(Plane)
+  nameWithType: Matrix4x4.CreateReflection(Plane)
+  fullName: Prowl.Runtime.Matrix4x4.CreateReflection(Prowl.Runtime.Plane)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Matrix4x4.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: CreateReflection
+    path: ../Prowl/Prowl.Runtime/Math/Matrix4x4.cs
+    startLine: 1044
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: Creates a Matrix that reflects the coordinate system about a specified Plane.
+  example: []
+  syntax:
+    content: public static Matrix4x4 CreateReflection(Plane value)
+    parameters:
+    - id: value
+      type: Prowl.Runtime.Plane
+      description: The Plane about which to create a reflection.
+    return:
+      type: Prowl.Runtime.Matrix4x4
+      description: A new matrix expressing the reflection.
+    content.vb: Public Shared Function CreateReflection(value As Plane) As Matrix4x4
+  overload: Prowl.Runtime.Matrix4x4.CreateReflection*
+- uid: Prowl.Runtime.Matrix4x4.GetDeterminant
+  commentId: M:Prowl.Runtime.Matrix4x4.GetDeterminant
+  id: GetDeterminant
+  parent: Prowl.Runtime.Matrix4x4
+  langs:
+  - csharp
+  - vb
+  name: GetDeterminant()
+  nameWithType: Matrix4x4.GetDeterminant()
+  fullName: Prowl.Runtime.Matrix4x4.GetDeterminant()
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Matrix4x4.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: GetDeterminant
+    path: ../Prowl/Prowl.Runtime/Math/Matrix4x4.cs
+    startLine: 1085
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: Calculates the determinant of the matrix.
+  example: []
+  syntax:
+    content: public double GetDeterminant()
+    return:
+      type: System.Double
+      description: The determinant of the matrix.
+    content.vb: Public Function GetDeterminant() As Double
+  overload: Prowl.Runtime.Matrix4x4.GetDeterminant*
+- uid: Prowl.Runtime.Matrix4x4.Invert
+  commentId: M:Prowl.Runtime.Matrix4x4.Invert
+  id: Invert
+  parent: Prowl.Runtime.Matrix4x4
+  langs:
+  - csharp
+  - vb
+  name: Invert()
+  nameWithType: Matrix4x4.Invert()
+  fullName: Prowl.Runtime.Matrix4x4.Invert()
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Matrix4x4.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Invert
+    path: ../Prowl/Prowl.Runtime/Math/Matrix4x4.cs
+    startLine: 1132
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public Matrix4x4 Invert()
+    return:
+      type: Prowl.Runtime.Matrix4x4
+    content.vb: Public Function Invert() As Matrix4x4
+  overload: Prowl.Runtime.Matrix4x4.Invert*
+- uid: Prowl.Runtime.Matrix4x4.Invert(Prowl.Runtime.Matrix4x4,Prowl.Runtime.Matrix4x4@)
+  commentId: M:Prowl.Runtime.Matrix4x4.Invert(Prowl.Runtime.Matrix4x4,Prowl.Runtime.Matrix4x4@)
+  id: Invert(Prowl.Runtime.Matrix4x4,Prowl.Runtime.Matrix4x4@)
+  parent: Prowl.Runtime.Matrix4x4
+  langs:
+  - csharp
+  - vb
+  name: Invert(Matrix4x4, out Matrix4x4)
+  nameWithType: Matrix4x4.Invert(Matrix4x4, out Matrix4x4)
+  fullName: Prowl.Runtime.Matrix4x4.Invert(Prowl.Runtime.Matrix4x4, out Prowl.Runtime.Matrix4x4)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Matrix4x4.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Invert
+    path: ../Prowl/Prowl.Runtime/Math/Matrix4x4.cs
+    startLine: 1144
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: Attempts to calculate the inverse of the given matrix. If successful, result will contain the inverted matrix.
+  example: []
+  syntax:
+    content: public static bool Invert(Matrix4x4 matrix, out Matrix4x4 result)
+    parameters:
+    - id: matrix
+      type: Prowl.Runtime.Matrix4x4
+      description: The source matrix to invert.
+    - id: result
+      type: Prowl.Runtime.Matrix4x4
+      description: If successful, contains the inverted matrix.
+    return:
+      type: System.Boolean
+      description: True if the source matrix could be inverted; False otherwise.
+    content.vb: Public Shared Function Invert(matrix As Matrix4x4, result As Matrix4x4) As Boolean
+  overload: Prowl.Runtime.Matrix4x4.Invert*
+  nameWithType.vb: Matrix4x4.Invert(Matrix4x4, Matrix4x4)
+  fullName.vb: Prowl.Runtime.Matrix4x4.Invert(Prowl.Runtime.Matrix4x4, Prowl.Runtime.Matrix4x4)
+  name.vb: Invert(Matrix4x4, Matrix4x4)
+- uid: Prowl.Runtime.Matrix4x4.Decompose(Prowl.Runtime.Matrix4x4,Prowl.Runtime.Vector3@,Prowl.Runtime.Quaternion@,Prowl.Runtime.Vector3@)
+  commentId: M:Prowl.Runtime.Matrix4x4.Decompose(Prowl.Runtime.Matrix4x4,Prowl.Runtime.Vector3@,Prowl.Runtime.Quaternion@,Prowl.Runtime.Vector3@)
+  id: Decompose(Prowl.Runtime.Matrix4x4,Prowl.Runtime.Vector3@,Prowl.Runtime.Quaternion@,Prowl.Runtime.Vector3@)
+  parent: Prowl.Runtime.Matrix4x4
+  langs:
+  - csharp
+  - vb
+  name: Decompose(Matrix4x4, out Vector3, out Quaternion, out Vector3)
+  nameWithType: Matrix4x4.Decompose(Matrix4x4, out Vector3, out Quaternion, out Vector3)
+  fullName: Prowl.Runtime.Matrix4x4.Decompose(Prowl.Runtime.Matrix4x4, out Prowl.Runtime.Vector3, out Prowl.Runtime.Quaternion, out Prowl.Runtime.Vector3)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Matrix4x4.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Decompose
+    path: ../Prowl/Prowl.Runtime/Math/Matrix4x4.cs
+    startLine: 1330
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: >-
+    Attempts to extract the scale, translation, and rotation components from the given scale/rotation/translation matrix.
+
+    If successful, the out parameters will contained the extracted values.
+  example: []
+  syntax:
+    content: public static bool Decompose(Matrix4x4 matrix, out Vector3 scale, out Quaternion rotation, out Vector3 translation)
+    parameters:
+    - id: matrix
+      type: Prowl.Runtime.Matrix4x4
+      description: The source matrix.
+    - id: scale
+      type: Prowl.Runtime.Vector3
+      description: The scaling component of the transformation matrix.
+    - id: rotation
+      type: Prowl.Runtime.Quaternion
+      description: The rotation component of the transformation matrix.
+    - id: translation
+      type: Prowl.Runtime.Vector3
+      description: The translation component of the transformation matrix
+    return:
+      type: System.Boolean
+      description: True if the source matrix was successfully decomposed; False otherwise.
+    content.vb: Public Shared Function Decompose(matrix As Matrix4x4, scale As Vector3, rotation As Quaternion, translation As Vector3) As Boolean
+  overload: Prowl.Runtime.Matrix4x4.Decompose*
+  nameWithType.vb: Matrix4x4.Decompose(Matrix4x4, Vector3, Quaternion, Vector3)
+  fullName.vb: Prowl.Runtime.Matrix4x4.Decompose(Prowl.Runtime.Matrix4x4, Prowl.Runtime.Vector3, Prowl.Runtime.Quaternion, Prowl.Runtime.Vector3)
+  name.vb: Decompose(Matrix4x4, Vector3, Quaternion, Vector3)
+- uid: Prowl.Runtime.Matrix4x4.Transform(Prowl.Runtime.Matrix4x4,Prowl.Runtime.Quaternion)
+  commentId: M:Prowl.Runtime.Matrix4x4.Transform(Prowl.Runtime.Matrix4x4,Prowl.Runtime.Quaternion)
+  id: Transform(Prowl.Runtime.Matrix4x4,Prowl.Runtime.Quaternion)
+  parent: Prowl.Runtime.Matrix4x4
+  langs:
+  - csharp
+  - vb
+  name: Transform(Matrix4x4, Quaternion)
+  nameWithType: Matrix4x4.Transform(Matrix4x4, Quaternion)
+  fullName: Prowl.Runtime.Matrix4x4.Transform(Prowl.Runtime.Matrix4x4, Prowl.Runtime.Quaternion)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Matrix4x4.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Transform
+    path: ../Prowl/Prowl.Runtime/Math/Matrix4x4.cs
+    startLine: 1527
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: Transforms the given matrix by applying the given Quaternion rotation.
+  example: []
+  syntax:
+    content: public static Matrix4x4 Transform(Matrix4x4 value, Quaternion rotation)
+    parameters:
+    - id: value
+      type: Prowl.Runtime.Matrix4x4
+      description: The source matrix to transform.
+    - id: rotation
+      type: Prowl.Runtime.Quaternion
+      description: The rotation to apply.
+    return:
+      type: Prowl.Runtime.Matrix4x4
+      description: The transformed matrix.
+    content.vb: Public Shared Function Transform(value As Matrix4x4, rotation As Quaternion) As Matrix4x4
+  overload: Prowl.Runtime.Matrix4x4.Transform*
+- uid: Prowl.Runtime.Matrix4x4.Transpose(Prowl.Runtime.Matrix4x4)
+  commentId: M:Prowl.Runtime.Matrix4x4.Transpose(Prowl.Runtime.Matrix4x4)
+  id: Transpose(Prowl.Runtime.Matrix4x4)
+  parent: Prowl.Runtime.Matrix4x4
+  langs:
+  - csharp
+  - vb
+  name: Transpose(Matrix4x4)
+  nameWithType: Matrix4x4.Transpose(Matrix4x4)
+  fullName: Prowl.Runtime.Matrix4x4.Transpose(Prowl.Runtime.Matrix4x4)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Matrix4x4.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Transpose
+    path: ../Prowl/Prowl.Runtime/Math/Matrix4x4.cs
+    startLine: 1590
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: Transposes the rows and columns of a matrix.
+  example: []
+  syntax:
+    content: public static Matrix4x4 Transpose(Matrix4x4 matrix)
+    parameters:
+    - id: matrix
+      type: Prowl.Runtime.Matrix4x4
+      description: The source matrix.
+    return:
+      type: Prowl.Runtime.Matrix4x4
+      description: The transposed matrix.
+    content.vb: Public Shared Function Transpose(matrix As Matrix4x4) As Matrix4x4
+  overload: Prowl.Runtime.Matrix4x4.Transpose*
+- uid: Prowl.Runtime.Matrix4x4.Lerp(Prowl.Runtime.Matrix4x4,Prowl.Runtime.Matrix4x4,System.Double)
+  commentId: M:Prowl.Runtime.Matrix4x4.Lerp(Prowl.Runtime.Matrix4x4,Prowl.Runtime.Matrix4x4,System.Double)
+  id: Lerp(Prowl.Runtime.Matrix4x4,Prowl.Runtime.Matrix4x4,System.Double)
+  parent: Prowl.Runtime.Matrix4x4
+  langs:
+  - csharp
+  - vb
+  name: Lerp(Matrix4x4, Matrix4x4, double)
+  nameWithType: Matrix4x4.Lerp(Matrix4x4, Matrix4x4, double)
+  fullName: Prowl.Runtime.Matrix4x4.Lerp(Prowl.Runtime.Matrix4x4, Prowl.Runtime.Matrix4x4, double)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Matrix4x4.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Lerp
+    path: ../Prowl/Prowl.Runtime/Math/Matrix4x4.cs
+    startLine: 1608
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: Linearly interpolates between the corresponding values of two matrices.
+  example: []
+  syntax:
+    content: public static Matrix4x4 Lerp(Matrix4x4 matrix1, Matrix4x4 matrix2, double amount)
+    parameters:
+    - id: matrix1
+      type: Prowl.Runtime.Matrix4x4
+      description: The first source matrix.
+    - id: matrix2
+      type: Prowl.Runtime.Matrix4x4
+      description: The second source matrix.
+    - id: amount
+      type: System.Double
+      description: The relative weight of the second source matrix.
+    return:
+      type: Prowl.Runtime.Matrix4x4
+      description: The interpolated matrix.
+    content.vb: Public Shared Function Lerp(matrix1 As Matrix4x4, matrix2 As Matrix4x4, amount As Double) As Matrix4x4
+  overload: Prowl.Runtime.Matrix4x4.Lerp*
+  nameWithType.vb: Matrix4x4.Lerp(Matrix4x4, Matrix4x4, Double)
+  fullName.vb: Prowl.Runtime.Matrix4x4.Lerp(Prowl.Runtime.Matrix4x4, Prowl.Runtime.Matrix4x4, Double)
+  name.vb: Lerp(Matrix4x4, Matrix4x4, Double)
+- uid: Prowl.Runtime.Matrix4x4.Negate(Prowl.Runtime.Matrix4x4)
+  commentId: M:Prowl.Runtime.Matrix4x4.Negate(Prowl.Runtime.Matrix4x4)
+  id: Negate(Prowl.Runtime.Matrix4x4)
+  parent: Prowl.Runtime.Matrix4x4
+  langs:
+  - csharp
+  - vb
+  name: Negate(Matrix4x4)
+  nameWithType: Matrix4x4.Negate(Matrix4x4)
+  fullName: Prowl.Runtime.Matrix4x4.Negate(Prowl.Runtime.Matrix4x4)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Matrix4x4.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Negate
+    path: ../Prowl/Prowl.Runtime/Math/Matrix4x4.cs
+    startLine: 1644
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: Returns a new matrix with the negated elements of the given matrix.
+  example: []
+  syntax:
+    content: public static Matrix4x4 Negate(Matrix4x4 value)
+    parameters:
+    - id: value
+      type: Prowl.Runtime.Matrix4x4
+      description: The source matrix.
+    return:
+      type: Prowl.Runtime.Matrix4x4
+      description: The negated matrix.
+    content.vb: Public Shared Function Negate(value As Matrix4x4) As Matrix4x4
+  overload: Prowl.Runtime.Matrix4x4.Negate*
+- uid: Prowl.Runtime.Matrix4x4.Add(Prowl.Runtime.Matrix4x4,Prowl.Runtime.Matrix4x4)
+  commentId: M:Prowl.Runtime.Matrix4x4.Add(Prowl.Runtime.Matrix4x4,Prowl.Runtime.Matrix4x4)
+  id: Add(Prowl.Runtime.Matrix4x4,Prowl.Runtime.Matrix4x4)
+  parent: Prowl.Runtime.Matrix4x4
+  langs:
+  - csharp
+  - vb
+  name: Add(Matrix4x4, Matrix4x4)
+  nameWithType: Matrix4x4.Add(Matrix4x4, Matrix4x4)
+  fullName: Prowl.Runtime.Matrix4x4.Add(Prowl.Runtime.Matrix4x4, Prowl.Runtime.Matrix4x4)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Matrix4x4.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Add
+    path: ../Prowl/Prowl.Runtime/Math/Matrix4x4.cs
+    startLine: 1660
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: Adds two matrices together.
+  example: []
+  syntax:
+    content: public static Matrix4x4 Add(Matrix4x4 value1, Matrix4x4 value2)
+    parameters:
+    - id: value1
+      type: Prowl.Runtime.Matrix4x4
+      description: The first source matrix.
+    - id: value2
+      type: Prowl.Runtime.Matrix4x4
+      description: The second source matrix.
+    return:
+      type: Prowl.Runtime.Matrix4x4
+      description: The resulting matrix.
+    content.vb: Public Shared Function Add(value1 As Matrix4x4, value2 As Matrix4x4) As Matrix4x4
+  overload: Prowl.Runtime.Matrix4x4.Add*
+- uid: Prowl.Runtime.Matrix4x4.Subtract(Prowl.Runtime.Matrix4x4,Prowl.Runtime.Matrix4x4)
+  commentId: M:Prowl.Runtime.Matrix4x4.Subtract(Prowl.Runtime.Matrix4x4,Prowl.Runtime.Matrix4x4)
+  id: Subtract(Prowl.Runtime.Matrix4x4,Prowl.Runtime.Matrix4x4)
+  parent: Prowl.Runtime.Matrix4x4
+  langs:
+  - csharp
+  - vb
+  name: Subtract(Matrix4x4, Matrix4x4)
+  nameWithType: Matrix4x4.Subtract(Matrix4x4, Matrix4x4)
+  fullName: Prowl.Runtime.Matrix4x4.Subtract(Prowl.Runtime.Matrix4x4, Prowl.Runtime.Matrix4x4)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Matrix4x4.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Subtract
+    path: ../Prowl/Prowl.Runtime/Math/Matrix4x4.cs
+    startLine: 1675
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: Subtracts the second matrix from the first.
+  example: []
+  syntax:
+    content: public static Matrix4x4 Subtract(Matrix4x4 value1, Matrix4x4 value2)
+    parameters:
+    - id: value1
+      type: Prowl.Runtime.Matrix4x4
+      description: The first source matrix.
+    - id: value2
+      type: Prowl.Runtime.Matrix4x4
+      description: The second source matrix.
+    return:
+      type: Prowl.Runtime.Matrix4x4
+      description: The result of the subtraction.
+    content.vb: Public Shared Function Subtract(value1 As Matrix4x4, value2 As Matrix4x4) As Matrix4x4
+  overload: Prowl.Runtime.Matrix4x4.Subtract*
+- uid: Prowl.Runtime.Matrix4x4.Multiply(Prowl.Runtime.Matrix4x4,Prowl.Runtime.Matrix4x4)
+  commentId: M:Prowl.Runtime.Matrix4x4.Multiply(Prowl.Runtime.Matrix4x4,Prowl.Runtime.Matrix4x4)
+  id: Multiply(Prowl.Runtime.Matrix4x4,Prowl.Runtime.Matrix4x4)
+  parent: Prowl.Runtime.Matrix4x4
+  langs:
+  - csharp
+  - vb
+  name: Multiply(Matrix4x4, Matrix4x4)
+  nameWithType: Matrix4x4.Multiply(Matrix4x4, Matrix4x4)
+  fullName: Prowl.Runtime.Matrix4x4.Multiply(Prowl.Runtime.Matrix4x4, Prowl.Runtime.Matrix4x4)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Matrix4x4.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Multiply
+    path: ../Prowl/Prowl.Runtime/Math/Matrix4x4.cs
+    startLine: 1690
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: Multiplies a matrix by another matrix.
+  example: []
+  syntax:
+    content: public static Matrix4x4 Multiply(Matrix4x4 value1, Matrix4x4 value2)
+    parameters:
+    - id: value1
+      type: Prowl.Runtime.Matrix4x4
+      description: The first source matrix.
+    - id: value2
+      type: Prowl.Runtime.Matrix4x4
+      description: The second source matrix.
+    return:
+      type: Prowl.Runtime.Matrix4x4
+      description: The result of the multiplication.
+    content.vb: Public Shared Function Multiply(value1 As Matrix4x4, value2 As Matrix4x4) As Matrix4x4
+  overload: Prowl.Runtime.Matrix4x4.Multiply*
+- uid: Prowl.Runtime.Matrix4x4.Multiply(Prowl.Runtime.Matrix4x4,System.Double)
+  commentId: M:Prowl.Runtime.Matrix4x4.Multiply(Prowl.Runtime.Matrix4x4,System.Double)
+  id: Multiply(Prowl.Runtime.Matrix4x4,System.Double)
+  parent: Prowl.Runtime.Matrix4x4
+  langs:
+  - csharp
+  - vb
+  name: Multiply(Matrix4x4, double)
+  nameWithType: Matrix4x4.Multiply(Matrix4x4, double)
+  fullName: Prowl.Runtime.Matrix4x4.Multiply(Prowl.Runtime.Matrix4x4, double)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Matrix4x4.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Multiply
+    path: ../Prowl/Prowl.Runtime/Math/Matrix4x4.cs
+    startLine: 1727
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: Multiplies a matrix by a scalar value.
+  example: []
+  syntax:
+    content: public static Matrix4x4 Multiply(Matrix4x4 value1, double value2)
+    parameters:
+    - id: value1
+      type: Prowl.Runtime.Matrix4x4
+      description: The source matrix.
+    - id: value2
+      type: System.Double
+      description: The scaling factor.
+    return:
+      type: Prowl.Runtime.Matrix4x4
+      description: The scaled matrix.
+    content.vb: Public Shared Function Multiply(value1 As Matrix4x4, value2 As Double) As Matrix4x4
+  overload: Prowl.Runtime.Matrix4x4.Multiply*
+  nameWithType.vb: Matrix4x4.Multiply(Matrix4x4, Double)
+  fullName.vb: Prowl.Runtime.Matrix4x4.Multiply(Prowl.Runtime.Matrix4x4, Double)
+  name.vb: Multiply(Matrix4x4, Double)
+- uid: Prowl.Runtime.Matrix4x4.op_UnaryNegation(Prowl.Runtime.Matrix4x4)
+  commentId: M:Prowl.Runtime.Matrix4x4.op_UnaryNegation(Prowl.Runtime.Matrix4x4)
+  id: op_UnaryNegation(Prowl.Runtime.Matrix4x4)
+  parent: Prowl.Runtime.Matrix4x4
+  langs:
+  - csharp
+  - vb
+  name: operator -(Matrix4x4)
+  nameWithType: Matrix4x4.operator -(Matrix4x4)
+  fullName: Prowl.Runtime.Matrix4x4.operator -(Prowl.Runtime.Matrix4x4)
+  type: Operator
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Matrix4x4.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: op_UnaryNegation
+    path: ../Prowl/Prowl.Runtime/Math/Matrix4x4.cs
+    startLine: 1741
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: Returns a new matrix with the negated elements of the given matrix.
+  example: []
+  syntax:
+    content: public static Matrix4x4 operator -(Matrix4x4 value)
+    parameters:
+    - id: value
+      type: Prowl.Runtime.Matrix4x4
+      description: The source matrix.
+    return:
+      type: Prowl.Runtime.Matrix4x4
+      description: The negated matrix.
+    content.vb: Public Shared Operator -(value As Matrix4x4) As Matrix4x4
+  overload: Prowl.Runtime.Matrix4x4.op_UnaryNegation*
+  nameWithType.vb: Matrix4x4.-(Matrix4x4)
+  fullName.vb: Prowl.Runtime.Matrix4x4.-(Prowl.Runtime.Matrix4x4)
+  name.vb: -(Matrix4x4)
+- uid: Prowl.Runtime.Matrix4x4.op_Addition(Prowl.Runtime.Matrix4x4,Prowl.Runtime.Matrix4x4)
+  commentId: M:Prowl.Runtime.Matrix4x4.op_Addition(Prowl.Runtime.Matrix4x4,Prowl.Runtime.Matrix4x4)
+  id: op_Addition(Prowl.Runtime.Matrix4x4,Prowl.Runtime.Matrix4x4)
+  parent: Prowl.Runtime.Matrix4x4
+  langs:
+  - csharp
+  - vb
+  name: operator +(Matrix4x4, Matrix4x4)
+  nameWithType: Matrix4x4.operator +(Matrix4x4, Matrix4x4)
+  fullName: Prowl.Runtime.Matrix4x4.operator +(Prowl.Runtime.Matrix4x4, Prowl.Runtime.Matrix4x4)
+  type: Operator
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Matrix4x4.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: op_Addition
+    path: ../Prowl/Prowl.Runtime/Math/Matrix4x4.cs
+    startLine: 1749
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: Adds two matrices together.
+  example: []
+  syntax:
+    content: public static Matrix4x4 operator +(Matrix4x4 value1, Matrix4x4 value2)
+    parameters:
+    - id: value1
+      type: Prowl.Runtime.Matrix4x4
+      description: The first source matrix.
+    - id: value2
+      type: Prowl.Runtime.Matrix4x4
+      description: The second source matrix.
+    return:
+      type: Prowl.Runtime.Matrix4x4
+      description: The resulting matrix.
+    content.vb: Public Shared Operator +(value1 As Matrix4x4, value2 As Matrix4x4) As Matrix4x4
+  overload: Prowl.Runtime.Matrix4x4.op_Addition*
+  nameWithType.vb: Matrix4x4.+(Matrix4x4, Matrix4x4)
+  fullName.vb: Prowl.Runtime.Matrix4x4.+(Prowl.Runtime.Matrix4x4, Prowl.Runtime.Matrix4x4)
+  name.vb: +(Matrix4x4, Matrix4x4)
+- uid: Prowl.Runtime.Matrix4x4.op_Subtraction(Prowl.Runtime.Matrix4x4,Prowl.Runtime.Matrix4x4)
+  commentId: M:Prowl.Runtime.Matrix4x4.op_Subtraction(Prowl.Runtime.Matrix4x4,Prowl.Runtime.Matrix4x4)
+  id: op_Subtraction(Prowl.Runtime.Matrix4x4,Prowl.Runtime.Matrix4x4)
+  parent: Prowl.Runtime.Matrix4x4
+  langs:
+  - csharp
+  - vb
+  name: operator -(Matrix4x4, Matrix4x4)
+  nameWithType: Matrix4x4.operator -(Matrix4x4, Matrix4x4)
+  fullName: Prowl.Runtime.Matrix4x4.operator -(Prowl.Runtime.Matrix4x4, Prowl.Runtime.Matrix4x4)
+  type: Operator
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Matrix4x4.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: op_Subtraction
+    path: ../Prowl/Prowl.Runtime/Math/Matrix4x4.cs
+    startLine: 1757
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: Subtracts the second matrix from the first.
+  example: []
+  syntax:
+    content: public static Matrix4x4 operator -(Matrix4x4 value1, Matrix4x4 value2)
+    parameters:
+    - id: value1
+      type: Prowl.Runtime.Matrix4x4
+      description: The first source matrix.
+    - id: value2
+      type: Prowl.Runtime.Matrix4x4
+      description: The second source matrix.
+    return:
+      type: Prowl.Runtime.Matrix4x4
+      description: The result of the subtraction.
+    content.vb: Public Shared Operator -(value1 As Matrix4x4, value2 As Matrix4x4) As Matrix4x4
+  overload: Prowl.Runtime.Matrix4x4.op_Subtraction*
+  nameWithType.vb: Matrix4x4.-(Matrix4x4, Matrix4x4)
+  fullName.vb: Prowl.Runtime.Matrix4x4.-(Prowl.Runtime.Matrix4x4, Prowl.Runtime.Matrix4x4)
+  name.vb: -(Matrix4x4, Matrix4x4)
+- uid: Prowl.Runtime.Matrix4x4.op_Multiply(Prowl.Runtime.Matrix4x4,Prowl.Runtime.Matrix4x4)
+  commentId: M:Prowl.Runtime.Matrix4x4.op_Multiply(Prowl.Runtime.Matrix4x4,Prowl.Runtime.Matrix4x4)
+  id: op_Multiply(Prowl.Runtime.Matrix4x4,Prowl.Runtime.Matrix4x4)
+  parent: Prowl.Runtime.Matrix4x4
+  langs:
+  - csharp
+  - vb
+  name: operator *(Matrix4x4, Matrix4x4)
+  nameWithType: Matrix4x4.operator *(Matrix4x4, Matrix4x4)
+  fullName: Prowl.Runtime.Matrix4x4.operator *(Prowl.Runtime.Matrix4x4, Prowl.Runtime.Matrix4x4)
+  type: Operator
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Matrix4x4.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: op_Multiply
+    path: ../Prowl/Prowl.Runtime/Math/Matrix4x4.cs
+    startLine: 1765
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: Multiplies a matrix by another matrix.
+  example: []
+  syntax:
+    content: public static Matrix4x4 operator *(Matrix4x4 value1, Matrix4x4 value2)
+    parameters:
+    - id: value1
+      type: Prowl.Runtime.Matrix4x4
+      description: The first source matrix.
+    - id: value2
+      type: Prowl.Runtime.Matrix4x4
+      description: The second source matrix.
+    return:
+      type: Prowl.Runtime.Matrix4x4
+      description: The result of the multiplication.
+    content.vb: Public Shared Operator *(value1 As Matrix4x4, value2 As Matrix4x4) As Matrix4x4
+  overload: Prowl.Runtime.Matrix4x4.op_Multiply*
+  nameWithType.vb: Matrix4x4.*(Matrix4x4, Matrix4x4)
+  fullName.vb: Prowl.Runtime.Matrix4x4.*(Prowl.Runtime.Matrix4x4, Prowl.Runtime.Matrix4x4)
+  name.vb: '*(Matrix4x4, Matrix4x4)'
+- uid: Prowl.Runtime.Matrix4x4.op_Multiply(Prowl.Runtime.Matrix4x4,System.Double)
+  commentId: M:Prowl.Runtime.Matrix4x4.op_Multiply(Prowl.Runtime.Matrix4x4,System.Double)
+  id: op_Multiply(Prowl.Runtime.Matrix4x4,System.Double)
+  parent: Prowl.Runtime.Matrix4x4
+  langs:
+  - csharp
+  - vb
+  name: operator *(Matrix4x4, double)
+  nameWithType: Matrix4x4.operator *(Matrix4x4, double)
+  fullName: Prowl.Runtime.Matrix4x4.operator *(Prowl.Runtime.Matrix4x4, double)
+  type: Operator
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Matrix4x4.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: op_Multiply
+    path: ../Prowl/Prowl.Runtime/Math/Matrix4x4.cs
+    startLine: 1802
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: Multiplies a matrix by a scalar value.
+  example: []
+  syntax:
+    content: public static Matrix4x4 operator *(Matrix4x4 value1, double value2)
+    parameters:
+    - id: value1
+      type: Prowl.Runtime.Matrix4x4
+      description: The source matrix.
+    - id: value2
+      type: System.Double
+      description: The scaling factor.
+    return:
+      type: Prowl.Runtime.Matrix4x4
+      description: The scaled matrix.
+    content.vb: Public Shared Operator *(value1 As Matrix4x4, value2 As Double) As Matrix4x4
+  overload: Prowl.Runtime.Matrix4x4.op_Multiply*
+  nameWithType.vb: Matrix4x4.*(Matrix4x4, Double)
+  fullName.vb: Prowl.Runtime.Matrix4x4.*(Prowl.Runtime.Matrix4x4, Double)
+  name.vb: '*(Matrix4x4, Double)'
+- uid: Prowl.Runtime.Matrix4x4.op_Equality(Prowl.Runtime.Matrix4x4,Prowl.Runtime.Matrix4x4)
+  commentId: M:Prowl.Runtime.Matrix4x4.op_Equality(Prowl.Runtime.Matrix4x4,Prowl.Runtime.Matrix4x4)
+  id: op_Equality(Prowl.Runtime.Matrix4x4,Prowl.Runtime.Matrix4x4)
+  parent: Prowl.Runtime.Matrix4x4
+  langs:
+  - csharp
+  - vb
+  name: operator ==(Matrix4x4, Matrix4x4)
+  nameWithType: Matrix4x4.operator ==(Matrix4x4, Matrix4x4)
+  fullName: Prowl.Runtime.Matrix4x4.operator ==(Prowl.Runtime.Matrix4x4, Prowl.Runtime.Matrix4x4)
+  type: Operator
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Matrix4x4.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: op_Equality
+    path: ../Prowl/Prowl.Runtime/Math/Matrix4x4.cs
+    startLine: 1810
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: Returns a boolean indicating whether the given two matrices are equal.
+  example: []
+  syntax:
+    content: public static bool operator ==(Matrix4x4 value1, Matrix4x4 value2)
+    parameters:
+    - id: value1
+      type: Prowl.Runtime.Matrix4x4
+      description: The first matrix to compare.
+    - id: value2
+      type: Prowl.Runtime.Matrix4x4
+      description: The second matrix to compare.
+    return:
+      type: System.Boolean
+      description: True if the given matrices are equal; False otherwise.
+    content.vb: Public Shared Operator =(value1 As Matrix4x4, value2 As Matrix4x4) As Boolean
+  overload: Prowl.Runtime.Matrix4x4.op_Equality*
+  nameWithType.vb: Matrix4x4.=(Matrix4x4, Matrix4x4)
+  fullName.vb: Prowl.Runtime.Matrix4x4.=(Prowl.Runtime.Matrix4x4, Prowl.Runtime.Matrix4x4)
+  name.vb: =(Matrix4x4, Matrix4x4)
+- uid: Prowl.Runtime.Matrix4x4.op_Inequality(Prowl.Runtime.Matrix4x4,Prowl.Runtime.Matrix4x4)
+  commentId: M:Prowl.Runtime.Matrix4x4.op_Inequality(Prowl.Runtime.Matrix4x4,Prowl.Runtime.Matrix4x4)
+  id: op_Inequality(Prowl.Runtime.Matrix4x4,Prowl.Runtime.Matrix4x4)
+  parent: Prowl.Runtime.Matrix4x4
+  langs:
+  - csharp
+  - vb
+  name: operator !=(Matrix4x4, Matrix4x4)
+  nameWithType: Matrix4x4.operator !=(Matrix4x4, Matrix4x4)
+  fullName: Prowl.Runtime.Matrix4x4.operator !=(Prowl.Runtime.Matrix4x4, Prowl.Runtime.Matrix4x4)
+  type: Operator
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Matrix4x4.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: op_Inequality
+    path: ../Prowl/Prowl.Runtime/Math/Matrix4x4.cs
+    startLine: 1818
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: Returns a boolean indicating whether the given two matrices are not equal.
+  example: []
+  syntax:
+    content: public static bool operator !=(Matrix4x4 value1, Matrix4x4 value2)
+    parameters:
+    - id: value1
+      type: Prowl.Runtime.Matrix4x4
+      description: The first matrix to compare.
+    - id: value2
+      type: Prowl.Runtime.Matrix4x4
+      description: The second matrix to compare.
+    return:
+      type: System.Boolean
+      description: True if the given matrices are not equal; False if they are equal.
+    content.vb: Public Shared Operator <>(value1 As Matrix4x4, value2 As Matrix4x4) As Boolean
+  overload: Prowl.Runtime.Matrix4x4.op_Inequality*
+  nameWithType.vb: Matrix4x4.<>(Matrix4x4, Matrix4x4)
+  fullName.vb: Prowl.Runtime.Matrix4x4.<>(Prowl.Runtime.Matrix4x4, Prowl.Runtime.Matrix4x4)
+  name.vb: <>(Matrix4x4, Matrix4x4)
+- uid: Prowl.Runtime.Matrix4x4.Equals(Prowl.Runtime.Matrix4x4)
+  commentId: M:Prowl.Runtime.Matrix4x4.Equals(Prowl.Runtime.Matrix4x4)
+  id: Equals(Prowl.Runtime.Matrix4x4)
+  parent: Prowl.Runtime.Matrix4x4
+  langs:
+  - csharp
+  - vb
+  name: Equals(Matrix4x4)
+  nameWithType: Matrix4x4.Equals(Matrix4x4)
+  fullName: Prowl.Runtime.Matrix4x4.Equals(Prowl.Runtime.Matrix4x4)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Matrix4x4.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Equals
+    path: ../Prowl/Prowl.Runtime/Math/Matrix4x4.cs
+    startLine: 1825
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: Returns a boolean indicating whether this matrix instance is equal to the other given matrix.
+  example: []
+  syntax:
+    content: public bool Equals(Matrix4x4 other)
+    parameters:
+    - id: other
+      type: Prowl.Runtime.Matrix4x4
+      description: The matrix to compare this instance to.
+    return:
+      type: System.Boolean
+      description: True if the matrices are equal; False otherwise.
+    content.vb: Public Function Equals(other As Matrix4x4) As Boolean
+  overload: Prowl.Runtime.Matrix4x4.Equals*
+  implements:
+  - System.IEquatable{Prowl.Runtime.Matrix4x4}.Equals(Prowl.Runtime.Matrix4x4)
+- uid: Prowl.Runtime.Matrix4x4.Equals(System.Object)
+  commentId: M:Prowl.Runtime.Matrix4x4.Equals(System.Object)
+  id: Equals(System.Object)
+  parent: Prowl.Runtime.Matrix4x4
+  langs:
+  - csharp
+  - vb
+  name: Equals(object?)
+  nameWithType: Matrix4x4.Equals(object?)
+  fullName: Prowl.Runtime.Matrix4x4.Equals(object?)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Matrix4x4.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Equals
+    path: ../Prowl/Prowl.Runtime/Math/Matrix4x4.cs
+    startLine: 1837
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: Returns a boolean indicating whether the given Object is equal to this matrix instance.
+  example: []
+  syntax:
+    content: public override bool Equals(object? obj)
+    parameters:
+    - id: obj
+      type: System.Object
+      description: The Object to compare against.
+    return:
+      type: System.Boolean
+      description: True if the Object is equal to this matrix; False otherwise.
+    content.vb: Public Overrides Function Equals(obj As Object) As Boolean
+  overridden: System.ValueType.Equals(System.Object)
+  overload: Prowl.Runtime.Matrix4x4.Equals*
+  nameWithType.vb: Matrix4x4.Equals(Object)
+  fullName.vb: Prowl.Runtime.Matrix4x4.Equals(Object)
+  name.vb: Equals(Object)
+- uid: Prowl.Runtime.Matrix4x4.ToString
+  commentId: M:Prowl.Runtime.Matrix4x4.ToString
+  id: ToString
+  parent: Prowl.Runtime.Matrix4x4
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: Matrix4x4.ToString()
+  fullName: Prowl.Runtime.Matrix4x4.ToString()
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Matrix4x4.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: ToString
+    path: ../Prowl/Prowl.Runtime/Math/Matrix4x4.cs
+    startLine: 1843
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: Returns a String representing this matrix instance.
+  example: []
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+      description: The string representation.
+    content.vb: Public Overrides Function ToString() As String
+  overridden: System.ValueType.ToString
+  overload: Prowl.Runtime.Matrix4x4.ToString*
+- uid: Prowl.Runtime.Matrix4x4.ToMultiLineString
+  commentId: M:Prowl.Runtime.Matrix4x4.ToMultiLineString
+  id: ToMultiLineString
+  parent: Prowl.Runtime.Matrix4x4
+  langs:
+  - csharp
+  - vb
+  name: ToMultiLineString()
+  nameWithType: Matrix4x4.ToMultiLineString()
+  fullName: Prowl.Runtime.Matrix4x4.ToMultiLineString()
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Matrix4x4.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: ToMultiLineString
+    path: ../Prowl/Prowl.Runtime/Math/Matrix4x4.cs
+    startLine: 1853
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public string ToMultiLineString()
+    return:
+      type: System.String
+    content.vb: Public Function ToMultiLineString() As String
+  overload: Prowl.Runtime.Matrix4x4.ToMultiLineString*
+- uid: Prowl.Runtime.Matrix4x4.GetHashCode
+  commentId: M:Prowl.Runtime.Matrix4x4.GetHashCode
+  id: GetHashCode
+  parent: Prowl.Runtime.Matrix4x4
+  langs:
+  - csharp
+  - vb
+  name: GetHashCode()
+  nameWithType: Matrix4x4.GetHashCode()
+  fullName: Prowl.Runtime.Matrix4x4.GetHashCode()
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Math/Matrix4x4.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: GetHashCode
+    path: ../Prowl/Prowl.Runtime/Math/Matrix4x4.cs
+    startLine: 1870
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: Returns the hash code for this instance.
+  example: []
+  syntax:
+    content: public override int GetHashCode()
+    return:
+      type: System.Int32
+      description: The hash code.
+    content.vb: Public Overrides Function GetHashCode() As Integer
+  overridden: System.ValueType.GetHashCode
+  overload: Prowl.Runtime.Matrix4x4.GetHashCode*
+references:
+- uid: Prowl.Runtime
+  commentId: N:Prowl.Runtime
+  href: Prowl.html
+  name: Prowl.Runtime
+  nameWithType: Prowl.Runtime
+  fullName: Prowl.Runtime
+  spec.csharp:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+  spec.vb:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+- uid: System.IEquatable{Prowl.Runtime.Matrix4x4}
+  commentId: T:System.IEquatable{Prowl.Runtime.Matrix4x4}
+  parent: System
+  definition: System.IEquatable`1
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<Matrix4x4>
+  nameWithType: IEquatable<Matrix4x4>
+  fullName: System.IEquatable<Prowl.Runtime.Matrix4x4>
+  nameWithType.vb: IEquatable(Of Matrix4x4)
+  fullName.vb: System.IEquatable(Of Prowl.Runtime.Matrix4x4)
+  name.vb: IEquatable(Of Matrix4x4)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - uid: Prowl.Runtime.Matrix4x4
+    name: Matrix4x4
+    href: Prowl.Runtime.Matrix4x4.html
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Prowl.Runtime.Matrix4x4
+    name: Matrix4x4
+    href: Prowl.Runtime.Matrix4x4.html
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Prowl.Runtime.RuntimeUtils.GetSerializableFields
+  commentId: M:Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  parent: Prowl.Runtime.RuntimeUtils
+  definition: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  name: GetSerializableFields(object)
+  nameWithType: RuntimeUtils.GetSerializableFields(object)
+  fullName: Prowl.Runtime.RuntimeUtils.GetSerializableFields(object)
+  nameWithType.vb: RuntimeUtils.GetSerializableFields(Object)
+  fullName.vb: Prowl.Runtime.RuntimeUtils.GetSerializableFields(Object)
+  name.vb: GetSerializableFields(Object)
+  spec.csharp:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.IEquatable`1
+  commentId: T:System.IEquatable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<T>
+  nameWithType: IEquatable<T>
+  fullName: System.IEquatable<T>
+  nameWithType.vb: IEquatable(Of T)
+  fullName.vb: System.IEquatable(Of T)
+  name.vb: IEquatable(Of T)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  commentId: M:Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  isExternal: true
+  href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  name: GetSerializableFields(object)
+  nameWithType: RuntimeUtils.GetSerializableFields(object)
+  fullName: Prowl.Runtime.RuntimeUtils.GetSerializableFields(object)
+  nameWithType.vb: RuntimeUtils.GetSerializableFields(Object)
+  fullName.vb: Prowl.Runtime.RuntimeUtils.GetSerializableFields(Object)
+  name.vb: GetSerializableFields(Object)
+  spec.csharp:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: Prowl.Runtime.RuntimeUtils
+  commentId: T:Prowl.Runtime.RuntimeUtils
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.RuntimeUtils.html
+  name: RuntimeUtils
+  nameWithType: RuntimeUtils
+  fullName: Prowl.Runtime.RuntimeUtils
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.double
+  name: double
+  nameWithType: double
+  fullName: double
+  nameWithType.vb: Double
+  fullName.vb: Double
+  name.vb: Double
+- uid: Prowl.Runtime.Matrix4x4.M1*
+  commentId: Overload:Prowl.Runtime.Matrix4x4.M1
+  href: Prowl.Runtime.Matrix4x4.html#Prowl_Runtime_Matrix4x4_M1
+  name: M1
+  nameWithType: Matrix4x4.M1
+  fullName: Prowl.Runtime.Matrix4x4.M1
+- uid: Prowl.Runtime.Vector4
+  commentId: T:Prowl.Runtime.Vector4
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.Vector4.html
+  name: Vector4
+  nameWithType: Vector4
+  fullName: Prowl.Runtime.Vector4
+- uid: Prowl.Runtime.Matrix4x4.M2*
+  commentId: Overload:Prowl.Runtime.Matrix4x4.M2
+  href: Prowl.Runtime.Matrix4x4.html#Prowl_Runtime_Matrix4x4_M2
+  name: M2
+  nameWithType: Matrix4x4.M2
+  fullName: Prowl.Runtime.Matrix4x4.M2
+- uid: Prowl.Runtime.Matrix4x4.M3*
+  commentId: Overload:Prowl.Runtime.Matrix4x4.M3
+  href: Prowl.Runtime.Matrix4x4.html#Prowl_Runtime_Matrix4x4_M3
+  name: M3
+  nameWithType: Matrix4x4.M3
+  fullName: Prowl.Runtime.Matrix4x4.M3
+- uid: Prowl.Runtime.Matrix4x4.M4*
+  commentId: Overload:Prowl.Runtime.Matrix4x4.M4
+  href: Prowl.Runtime.Matrix4x4.html#Prowl_Runtime_Matrix4x4_M4
+  name: M4
+  nameWithType: Matrix4x4.M4
+  fullName: Prowl.Runtime.Matrix4x4.M4
+- uid: Prowl.Runtime.Matrix4x4.Identity*
+  commentId: Overload:Prowl.Runtime.Matrix4x4.Identity
+  href: Prowl.Runtime.Matrix4x4.html#Prowl_Runtime_Matrix4x4_Identity
+  name: Identity
+  nameWithType: Matrix4x4.Identity
+  fullName: Prowl.Runtime.Matrix4x4.Identity
+- uid: Prowl.Runtime.Matrix4x4
+  commentId: T:Prowl.Runtime.Matrix4x4
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.Matrix4x4.html
+  name: Matrix4x4
+  nameWithType: Matrix4x4
+  fullName: Prowl.Runtime.Matrix4x4
+- uid: Prowl.Runtime.Matrix4x4.IsIdentity*
+  commentId: Overload:Prowl.Runtime.Matrix4x4.IsIdentity
+  href: Prowl.Runtime.Matrix4x4.html#Prowl_Runtime_Matrix4x4_IsIdentity
+  name: IsIdentity
+  nameWithType: Matrix4x4.IsIdentity
+  fullName: Prowl.Runtime.Matrix4x4.IsIdentity
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: Prowl.Runtime.Matrix4x4.Item*
+  commentId: Overload:Prowl.Runtime.Matrix4x4.Item
+  href: Prowl.Runtime.Matrix4x4.html#Prowl_Runtime_Matrix4x4_Item_System_Int32_System_Int32_
+  name: this
+  nameWithType: Matrix4x4.this
+  fullName: Prowl.Runtime.Matrix4x4.this
+  nameWithType.vb: Matrix4x4.this[]
+  fullName.vb: Prowl.Runtime.Matrix4x4.this[]
+  name.vb: this[]
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: Prowl.Runtime.Matrix4x4.Translation*
+  commentId: Overload:Prowl.Runtime.Matrix4x4.Translation
+  href: Prowl.Runtime.Matrix4x4.html#Prowl_Runtime_Matrix4x4_Translation
+  name: Translation
+  nameWithType: Matrix4x4.Translation
+  fullName: Prowl.Runtime.Matrix4x4.Translation
+- uid: Prowl.Runtime.Vector3
+  commentId: T:Prowl.Runtime.Vector3
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.Vector3.html
+  name: Vector3
+  nameWithType: Vector3
+  fullName: Prowl.Runtime.Vector3
+- uid: Prowl.Runtime.Matrix4x4.#ctor*
+  commentId: Overload:Prowl.Runtime.Matrix4x4.#ctor
+  href: Prowl.Runtime.Matrix4x4.html#Prowl_Runtime_Matrix4x4__ctor_System_Double_System_Double_System_Double_System_Double_System_Double_System_Double_System_Double_System_Double_System_Double_System_Double_System_Double_System_Double_System_Double_System_Double_System_Double_System_Double_
+  name: Matrix4x4
+  nameWithType: Matrix4x4.Matrix4x4
+  fullName: Prowl.Runtime.Matrix4x4.Matrix4x4
+  nameWithType.vb: Matrix4x4.New
+  fullName.vb: Prowl.Runtime.Matrix4x4.New
+  name.vb: New
+- uid: Prowl.Runtime.Matrix4x4.ToFloat*
+  commentId: Overload:Prowl.Runtime.Matrix4x4.ToFloat
+  href: Prowl.Runtime.Matrix4x4.html#Prowl_Runtime_Matrix4x4_ToFloat
+  name: ToFloat
+  nameWithType: Matrix4x4.ToFloat
+  fullName: Prowl.Runtime.Matrix4x4.ToFloat
+- uid: System.Numerics.Matrix4x4
+  commentId: T:System.Numerics.Matrix4x4
+  parent: System.Numerics
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.numerics.matrix4x4
+  name: Matrix4x4
+  nameWithType: Matrix4x4
+  fullName: System.Numerics.Matrix4x4
+- uid: System.Numerics
+  commentId: N:System.Numerics
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Numerics
+  nameWithType: System.Numerics
+  fullName: System.Numerics
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Numerics
+    name: Numerics
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.numerics
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Numerics
+    name: Numerics
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.numerics
+- uid: Prowl.Runtime.Matrix4x4.FromFloat*
+  commentId: Overload:Prowl.Runtime.Matrix4x4.FromFloat
+  href: Prowl.Runtime.Matrix4x4.html#Prowl_Runtime_Matrix4x4_FromFloat_System_Numerics_Matrix4x4_
+  name: FromFloat
+  nameWithType: Matrix4x4.FromFloat
+  fullName: Prowl.Runtime.Matrix4x4.FromFloat
+- uid: Prowl.Runtime.Matrix4x4.TRS*
+  commentId: Overload:Prowl.Runtime.Matrix4x4.TRS
+  href: Prowl.Runtime.Matrix4x4.html#Prowl_Runtime_Matrix4x4_TRS_Prowl_Runtime_Vector3_Prowl_Runtime_Quaternion_Prowl_Runtime_Vector3_
+  name: TRS
+  nameWithType: Matrix4x4.TRS
+  fullName: Prowl.Runtime.Matrix4x4.TRS
+- uid: Prowl.Runtime.Quaternion
+  commentId: T:Prowl.Runtime.Quaternion
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.Quaternion.html
+  name: Quaternion
+  nameWithType: Quaternion
+  fullName: Prowl.Runtime.Quaternion
+- uid: Prowl.Runtime.Matrix4x4.MultiplyPoint*
+  commentId: Overload:Prowl.Runtime.Matrix4x4.MultiplyPoint
+  href: Prowl.Runtime.Matrix4x4.html#Prowl_Runtime_Matrix4x4_MultiplyPoint_Prowl_Runtime_Vector3_
+  name: MultiplyPoint
+  nameWithType: Matrix4x4.MultiplyPoint
+  fullName: Prowl.Runtime.Matrix4x4.MultiplyPoint
+- uid: Prowl.Runtime.Matrix4x4.CreateBillboard*
+  commentId: Overload:Prowl.Runtime.Matrix4x4.CreateBillboard
+  href: Prowl.Runtime.Matrix4x4.html#Prowl_Runtime_Matrix4x4_CreateBillboard_Prowl_Runtime_Vector3_Prowl_Runtime_Vector3_Prowl_Runtime_Vector3_Prowl_Runtime_Vector3_
+  name: CreateBillboard
+  nameWithType: Matrix4x4.CreateBillboard
+  fullName: Prowl.Runtime.Matrix4x4.CreateBillboard
+- uid: Prowl.Runtime.Matrix4x4.CreateConstrainedBillboard*
+  commentId: Overload:Prowl.Runtime.Matrix4x4.CreateConstrainedBillboard
+  href: Prowl.Runtime.Matrix4x4.html#Prowl_Runtime_Matrix4x4_CreateConstrainedBillboard_Prowl_Runtime_Vector3_Prowl_Runtime_Vector3_Prowl_Runtime_Vector3_Prowl_Runtime_Vector3_Prowl_Runtime_Vector3_
+  name: CreateConstrainedBillboard
+  nameWithType: Matrix4x4.CreateConstrainedBillboard
+  fullName: Prowl.Runtime.Matrix4x4.CreateConstrainedBillboard
+- uid: Prowl.Runtime.Matrix4x4.CreateTranslation*
+  commentId: Overload:Prowl.Runtime.Matrix4x4.CreateTranslation
+  href: Prowl.Runtime.Matrix4x4.html#Prowl_Runtime_Matrix4x4_CreateTranslation_Prowl_Runtime_Vector3_
+  name: CreateTranslation
+  nameWithType: Matrix4x4.CreateTranslation
+  fullName: Prowl.Runtime.Matrix4x4.CreateTranslation
+- uid: Prowl.Runtime.Matrix4x4.CreateScale*
+  commentId: Overload:Prowl.Runtime.Matrix4x4.CreateScale
+  href: Prowl.Runtime.Matrix4x4.html#Prowl_Runtime_Matrix4x4_CreateScale_System_Double_System_Double_System_Double_
+  name: CreateScale
+  nameWithType: Matrix4x4.CreateScale
+  fullName: Prowl.Runtime.Matrix4x4.CreateScale
+- uid: Prowl.Runtime.Matrix4x4.CreateRotationX*
+  commentId: Overload:Prowl.Runtime.Matrix4x4.CreateRotationX
+  href: Prowl.Runtime.Matrix4x4.html#Prowl_Runtime_Matrix4x4_CreateRotationX_System_Double_
+  name: CreateRotationX
+  nameWithType: Matrix4x4.CreateRotationX
+  fullName: Prowl.Runtime.Matrix4x4.CreateRotationX
+- uid: Prowl.Runtime.Matrix4x4.CreateRotationY*
+  commentId: Overload:Prowl.Runtime.Matrix4x4.CreateRotationY
+  href: Prowl.Runtime.Matrix4x4.html#Prowl_Runtime_Matrix4x4_CreateRotationY_System_Double_
+  name: CreateRotationY
+  nameWithType: Matrix4x4.CreateRotationY
+  fullName: Prowl.Runtime.Matrix4x4.CreateRotationY
+- uid: Prowl.Runtime.Matrix4x4.CreateRotationZ*
+  commentId: Overload:Prowl.Runtime.Matrix4x4.CreateRotationZ
+  href: Prowl.Runtime.Matrix4x4.html#Prowl_Runtime_Matrix4x4_CreateRotationZ_System_Double_
+  name: CreateRotationZ
+  nameWithType: Matrix4x4.CreateRotationZ
+  fullName: Prowl.Runtime.Matrix4x4.CreateRotationZ
+- uid: Prowl.Runtime.Matrix4x4.CreateFromAxisAngle*
+  commentId: Overload:Prowl.Runtime.Matrix4x4.CreateFromAxisAngle
+  href: Prowl.Runtime.Matrix4x4.html#Prowl_Runtime_Matrix4x4_CreateFromAxisAngle_Prowl_Runtime_Vector3_System_Double_
+  name: CreateFromAxisAngle
+  nameWithType: Matrix4x4.CreateFromAxisAngle
+  fullName: Prowl.Runtime.Matrix4x4.CreateFromAxisAngle
+- uid: Prowl.Runtime.Matrix4x4.CreatePerspectiveFieldOfView*
+  commentId: Overload:Prowl.Runtime.Matrix4x4.CreatePerspectiveFieldOfView
+  href: Prowl.Runtime.Matrix4x4.html#Prowl_Runtime_Matrix4x4_CreatePerspectiveFieldOfView_System_Double_System_Double_System_Double_System_Double_
+  name: CreatePerspectiveFieldOfView
+  nameWithType: Matrix4x4.CreatePerspectiveFieldOfView
+  fullName: Prowl.Runtime.Matrix4x4.CreatePerspectiveFieldOfView
+- uid: Prowl.Runtime.Matrix4x4.CreatePerspective*
+  commentId: Overload:Prowl.Runtime.Matrix4x4.CreatePerspective
+  href: Prowl.Runtime.Matrix4x4.html#Prowl_Runtime_Matrix4x4_CreatePerspective_System_Double_System_Double_System_Double_System_Double_
+  name: CreatePerspective
+  nameWithType: Matrix4x4.CreatePerspective
+  fullName: Prowl.Runtime.Matrix4x4.CreatePerspective
+- uid: Prowl.Runtime.Matrix4x4.CreatePerspectiveOffCenter*
+  commentId: Overload:Prowl.Runtime.Matrix4x4.CreatePerspectiveOffCenter
+  href: Prowl.Runtime.Matrix4x4.html#Prowl_Runtime_Matrix4x4_CreatePerspectiveOffCenter_System_Double_System_Double_System_Double_System_Double_System_Double_System_Double_
+  name: CreatePerspectiveOffCenter
+  nameWithType: Matrix4x4.CreatePerspectiveOffCenter
+  fullName: Prowl.Runtime.Matrix4x4.CreatePerspectiveOffCenter
+- uid: Prowl.Runtime.Matrix4x4.CreateOrthographic*
+  commentId: Overload:Prowl.Runtime.Matrix4x4.CreateOrthographic
+  href: Prowl.Runtime.Matrix4x4.html#Prowl_Runtime_Matrix4x4_CreateOrthographic_System_Double_System_Double_System_Double_System_Double_
+  name: CreateOrthographic
+  nameWithType: Matrix4x4.CreateOrthographic
+  fullName: Prowl.Runtime.Matrix4x4.CreateOrthographic
+- uid: Prowl.Runtime.Matrix4x4.CreateOrthographicOffCenter*
+  commentId: Overload:Prowl.Runtime.Matrix4x4.CreateOrthographicOffCenter
+  href: Prowl.Runtime.Matrix4x4.html#Prowl_Runtime_Matrix4x4_CreateOrthographicOffCenter_System_Double_System_Double_System_Double_System_Double_System_Double_System_Double_
+  name: CreateOrthographicOffCenter
+  nameWithType: Matrix4x4.CreateOrthographicOffCenter
+  fullName: Prowl.Runtime.Matrix4x4.CreateOrthographicOffCenter
+- uid: Prowl.Runtime.Matrix4x4.CreateLookToLeftHanded*
+  commentId: Overload:Prowl.Runtime.Matrix4x4.CreateLookToLeftHanded
+  href: Prowl.Runtime.Matrix4x4.html#Prowl_Runtime_Matrix4x4_CreateLookToLeftHanded_Prowl_Runtime_Vector3__Prowl_Runtime_Vector3__Prowl_Runtime_Vector3__
+  name: CreateLookToLeftHanded
+  nameWithType: Matrix4x4.CreateLookToLeftHanded
+  fullName: Prowl.Runtime.Matrix4x4.CreateLookToLeftHanded
+- uid: Prowl.Runtime.Matrix4x4.CreateLookAt*
+  commentId: Overload:Prowl.Runtime.Matrix4x4.CreateLookAt
+  href: Prowl.Runtime.Matrix4x4.html#Prowl_Runtime_Matrix4x4_CreateLookAt_Prowl_Runtime_Vector3_Prowl_Runtime_Vector3_Prowl_Runtime_Vector3_
+  name: CreateLookAt
+  nameWithType: Matrix4x4.CreateLookAt
+  fullName: Prowl.Runtime.Matrix4x4.CreateLookAt
+- uid: Prowl.Runtime.Matrix4x4.CreateWorld*
+  commentId: Overload:Prowl.Runtime.Matrix4x4.CreateWorld
+  href: Prowl.Runtime.Matrix4x4.html#Prowl_Runtime_Matrix4x4_CreateWorld_Prowl_Runtime_Vector3_Prowl_Runtime_Vector3_Prowl_Runtime_Vector3_
+  name: CreateWorld
+  nameWithType: Matrix4x4.CreateWorld
+  fullName: Prowl.Runtime.Matrix4x4.CreateWorld
+- uid: Prowl.Runtime.Matrix4x4.CreateFromQuaternion*
+  commentId: Overload:Prowl.Runtime.Matrix4x4.CreateFromQuaternion
+  href: Prowl.Runtime.Matrix4x4.html#Prowl_Runtime_Matrix4x4_CreateFromQuaternion_Prowl_Runtime_Quaternion_
+  name: CreateFromQuaternion
+  nameWithType: Matrix4x4.CreateFromQuaternion
+  fullName: Prowl.Runtime.Matrix4x4.CreateFromQuaternion
+- uid: Prowl.Runtime.Matrix4x4.CreateFromYawPitchRoll*
+  commentId: Overload:Prowl.Runtime.Matrix4x4.CreateFromYawPitchRoll
+  href: Prowl.Runtime.Matrix4x4.html#Prowl_Runtime_Matrix4x4_CreateFromYawPitchRoll_System_Double_System_Double_System_Double_
+  name: CreateFromYawPitchRoll
+  nameWithType: Matrix4x4.CreateFromYawPitchRoll
+  fullName: Prowl.Runtime.Matrix4x4.CreateFromYawPitchRoll
+- uid: Prowl.Runtime.Matrix4x4.CreateShadow*
+  commentId: Overload:Prowl.Runtime.Matrix4x4.CreateShadow
+  href: Prowl.Runtime.Matrix4x4.html#Prowl_Runtime_Matrix4x4_CreateShadow_Prowl_Runtime_Vector3_Prowl_Runtime_Plane_
+  name: CreateShadow
+  nameWithType: Matrix4x4.CreateShadow
+  fullName: Prowl.Runtime.Matrix4x4.CreateShadow
+- uid: Prowl.Runtime.Plane
+  commentId: T:Prowl.Runtime.Plane
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.Plane.html
+  name: Plane
+  nameWithType: Plane
+  fullName: Prowl.Runtime.Plane
+- uid: Prowl.Runtime.Matrix4x4.CreateReflection*
+  commentId: Overload:Prowl.Runtime.Matrix4x4.CreateReflection
+  href: Prowl.Runtime.Matrix4x4.html#Prowl_Runtime_Matrix4x4_CreateReflection_Prowl_Runtime_Plane_
+  name: CreateReflection
+  nameWithType: Matrix4x4.CreateReflection
+  fullName: Prowl.Runtime.Matrix4x4.CreateReflection
+- uid: Prowl.Runtime.Matrix4x4.GetDeterminant*
+  commentId: Overload:Prowl.Runtime.Matrix4x4.GetDeterminant
+  href: Prowl.Runtime.Matrix4x4.html#Prowl_Runtime_Matrix4x4_GetDeterminant
+  name: GetDeterminant
+  nameWithType: Matrix4x4.GetDeterminant
+  fullName: Prowl.Runtime.Matrix4x4.GetDeterminant
+- uid: Prowl.Runtime.Matrix4x4.Invert*
+  commentId: Overload:Prowl.Runtime.Matrix4x4.Invert
+  href: Prowl.Runtime.Matrix4x4.html#Prowl_Runtime_Matrix4x4_Invert
+  name: Invert
+  nameWithType: Matrix4x4.Invert
+  fullName: Prowl.Runtime.Matrix4x4.Invert
+- uid: Prowl.Runtime.Matrix4x4.Decompose*
+  commentId: Overload:Prowl.Runtime.Matrix4x4.Decompose
+  href: Prowl.Runtime.Matrix4x4.html#Prowl_Runtime_Matrix4x4_Decompose_Prowl_Runtime_Matrix4x4_Prowl_Runtime_Vector3__Prowl_Runtime_Quaternion__Prowl_Runtime_Vector3__
+  name: Decompose
+  nameWithType: Matrix4x4.Decompose
+  fullName: Prowl.Runtime.Matrix4x4.Decompose
+- uid: Prowl.Runtime.Matrix4x4.Transform*
+  commentId: Overload:Prowl.Runtime.Matrix4x4.Transform
+  href: Prowl.Runtime.Matrix4x4.html#Prowl_Runtime_Matrix4x4_Transform_Prowl_Runtime_Matrix4x4_Prowl_Runtime_Quaternion_
+  name: Transform
+  nameWithType: Matrix4x4.Transform
+  fullName: Prowl.Runtime.Matrix4x4.Transform
+- uid: Prowl.Runtime.Matrix4x4.Transpose*
+  commentId: Overload:Prowl.Runtime.Matrix4x4.Transpose
+  href: Prowl.Runtime.Matrix4x4.html#Prowl_Runtime_Matrix4x4_Transpose_Prowl_Runtime_Matrix4x4_
+  name: Transpose
+  nameWithType: Matrix4x4.Transpose
+  fullName: Prowl.Runtime.Matrix4x4.Transpose
+- uid: Prowl.Runtime.Matrix4x4.Lerp*
+  commentId: Overload:Prowl.Runtime.Matrix4x4.Lerp
+  href: Prowl.Runtime.Matrix4x4.html#Prowl_Runtime_Matrix4x4_Lerp_Prowl_Runtime_Matrix4x4_Prowl_Runtime_Matrix4x4_System_Double_
+  name: Lerp
+  nameWithType: Matrix4x4.Lerp
+  fullName: Prowl.Runtime.Matrix4x4.Lerp
+- uid: Prowl.Runtime.Matrix4x4.Negate*
+  commentId: Overload:Prowl.Runtime.Matrix4x4.Negate
+  href: Prowl.Runtime.Matrix4x4.html#Prowl_Runtime_Matrix4x4_Negate_Prowl_Runtime_Matrix4x4_
+  name: Negate
+  nameWithType: Matrix4x4.Negate
+  fullName: Prowl.Runtime.Matrix4x4.Negate
+- uid: Prowl.Runtime.Matrix4x4.Add*
+  commentId: Overload:Prowl.Runtime.Matrix4x4.Add
+  href: Prowl.Runtime.Matrix4x4.html#Prowl_Runtime_Matrix4x4_Add_Prowl_Runtime_Matrix4x4_Prowl_Runtime_Matrix4x4_
+  name: Add
+  nameWithType: Matrix4x4.Add
+  fullName: Prowl.Runtime.Matrix4x4.Add
+- uid: Prowl.Runtime.Matrix4x4.Subtract*
+  commentId: Overload:Prowl.Runtime.Matrix4x4.Subtract
+  href: Prowl.Runtime.Matrix4x4.html#Prowl_Runtime_Matrix4x4_Subtract_Prowl_Runtime_Matrix4x4_Prowl_Runtime_Matrix4x4_
+  name: Subtract
+  nameWithType: Matrix4x4.Subtract
+  fullName: Prowl.Runtime.Matrix4x4.Subtract
+- uid: Prowl.Runtime.Matrix4x4.Multiply*
+  commentId: Overload:Prowl.Runtime.Matrix4x4.Multiply
+  href: Prowl.Runtime.Matrix4x4.html#Prowl_Runtime_Matrix4x4_Multiply_Prowl_Runtime_Matrix4x4_Prowl_Runtime_Matrix4x4_
+  name: Multiply
+  nameWithType: Matrix4x4.Multiply
+  fullName: Prowl.Runtime.Matrix4x4.Multiply
+- uid: Prowl.Runtime.Matrix4x4.op_UnaryNegation*
+  commentId: Overload:Prowl.Runtime.Matrix4x4.op_UnaryNegation
+  href: Prowl.Runtime.Matrix4x4.html#Prowl_Runtime_Matrix4x4_op_UnaryNegation_Prowl_Runtime_Matrix4x4_
+  name: operator -
+  nameWithType: Matrix4x4.operator -
+  fullName: Prowl.Runtime.Matrix4x4.operator -
+  nameWithType.vb: Matrix4x4.-
+  fullName.vb: Prowl.Runtime.Matrix4x4.-
+  name.vb: '-'
+  spec.csharp:
+  - name: operator
+  - name: " "
+  - uid: Prowl.Runtime.Matrix4x4.op_UnaryNegation*
+    name: '-'
+    href: Prowl.Runtime.Matrix4x4.html#Prowl_Runtime_Matrix4x4_op_UnaryNegation_Prowl_Runtime_Matrix4x4_
+- uid: Prowl.Runtime.Matrix4x4.op_Addition*
+  commentId: Overload:Prowl.Runtime.Matrix4x4.op_Addition
+  href: Prowl.Runtime.Matrix4x4.html#Prowl_Runtime_Matrix4x4_op_Addition_Prowl_Runtime_Matrix4x4_Prowl_Runtime_Matrix4x4_
+  name: operator +
+  nameWithType: Matrix4x4.operator +
+  fullName: Prowl.Runtime.Matrix4x4.operator +
+  nameWithType.vb: Matrix4x4.+
+  fullName.vb: Prowl.Runtime.Matrix4x4.+
+  name.vb: +
+  spec.csharp:
+  - name: operator
+  - name: " "
+  - uid: Prowl.Runtime.Matrix4x4.op_Addition*
+    name: +
+    href: Prowl.Runtime.Matrix4x4.html#Prowl_Runtime_Matrix4x4_op_Addition_Prowl_Runtime_Matrix4x4_Prowl_Runtime_Matrix4x4_
+- uid: Prowl.Runtime.Matrix4x4.op_Subtraction*
+  commentId: Overload:Prowl.Runtime.Matrix4x4.op_Subtraction
+  href: Prowl.Runtime.Matrix4x4.html#Prowl_Runtime_Matrix4x4_op_Subtraction_Prowl_Runtime_Matrix4x4_Prowl_Runtime_Matrix4x4_
+  name: operator -
+  nameWithType: Matrix4x4.operator -
+  fullName: Prowl.Runtime.Matrix4x4.operator -
+  nameWithType.vb: Matrix4x4.-
+  fullName.vb: Prowl.Runtime.Matrix4x4.-
+  name.vb: '-'
+  spec.csharp:
+  - name: operator
+  - name: " "
+  - uid: Prowl.Runtime.Matrix4x4.op_Subtraction*
+    name: '-'
+    href: Prowl.Runtime.Matrix4x4.html#Prowl_Runtime_Matrix4x4_op_Subtraction_Prowl_Runtime_Matrix4x4_Prowl_Runtime_Matrix4x4_
+- uid: Prowl.Runtime.Matrix4x4.op_Multiply*
+  commentId: Overload:Prowl.Runtime.Matrix4x4.op_Multiply
+  href: Prowl.Runtime.Matrix4x4.html#Prowl_Runtime_Matrix4x4_op_Multiply_Prowl_Runtime_Matrix4x4_Prowl_Runtime_Matrix4x4_
+  name: operator *
+  nameWithType: Matrix4x4.operator *
+  fullName: Prowl.Runtime.Matrix4x4.operator *
+  nameWithType.vb: Matrix4x4.*
+  fullName.vb: Prowl.Runtime.Matrix4x4.*
+  name.vb: '*'
+  spec.csharp:
+  - name: operator
+  - name: " "
+  - uid: Prowl.Runtime.Matrix4x4.op_Multiply*
+    name: '*'
+    href: Prowl.Runtime.Matrix4x4.html#Prowl_Runtime_Matrix4x4_op_Multiply_Prowl_Runtime_Matrix4x4_Prowl_Runtime_Matrix4x4_
+- uid: Prowl.Runtime.Matrix4x4.op_Equality*
+  commentId: Overload:Prowl.Runtime.Matrix4x4.op_Equality
+  href: Prowl.Runtime.Matrix4x4.html#Prowl_Runtime_Matrix4x4_op_Equality_Prowl_Runtime_Matrix4x4_Prowl_Runtime_Matrix4x4_
+  name: operator ==
+  nameWithType: Matrix4x4.operator ==
+  fullName: Prowl.Runtime.Matrix4x4.operator ==
+  nameWithType.vb: Matrix4x4.=
+  fullName.vb: Prowl.Runtime.Matrix4x4.=
+  name.vb: =
+  spec.csharp:
+  - name: operator
+  - name: " "
+  - uid: Prowl.Runtime.Matrix4x4.op_Equality*
+    name: ==
+    href: Prowl.Runtime.Matrix4x4.html#Prowl_Runtime_Matrix4x4_op_Equality_Prowl_Runtime_Matrix4x4_Prowl_Runtime_Matrix4x4_
+- uid: Prowl.Runtime.Matrix4x4.op_Inequality*
+  commentId: Overload:Prowl.Runtime.Matrix4x4.op_Inequality
+  href: Prowl.Runtime.Matrix4x4.html#Prowl_Runtime_Matrix4x4_op_Inequality_Prowl_Runtime_Matrix4x4_Prowl_Runtime_Matrix4x4_
+  name: operator !=
+  nameWithType: Matrix4x4.operator !=
+  fullName: Prowl.Runtime.Matrix4x4.operator !=
+  nameWithType.vb: Matrix4x4.<>
+  fullName.vb: Prowl.Runtime.Matrix4x4.<>
+  name.vb: <>
+  spec.csharp:
+  - name: operator
+  - name: " "
+  - uid: Prowl.Runtime.Matrix4x4.op_Inequality*
+    name: '!='
+    href: Prowl.Runtime.Matrix4x4.html#Prowl_Runtime_Matrix4x4_op_Inequality_Prowl_Runtime_Matrix4x4_Prowl_Runtime_Matrix4x4_
+- uid: Prowl.Runtime.Matrix4x4.Equals*
+  commentId: Overload:Prowl.Runtime.Matrix4x4.Equals
+  href: Prowl.Runtime.Matrix4x4.html#Prowl_Runtime_Matrix4x4_Equals_Prowl_Runtime_Matrix4x4_
+  name: Equals
+  nameWithType: Matrix4x4.Equals
+  fullName: Prowl.Runtime.Matrix4x4.Equals
+- uid: System.IEquatable{Prowl.Runtime.Matrix4x4}.Equals(Prowl.Runtime.Matrix4x4)
+  commentId: M:System.IEquatable{Prowl.Runtime.Matrix4x4}.Equals(Prowl.Runtime.Matrix4x4)
+  parent: System.IEquatable{Prowl.Runtime.Matrix4x4}
+  definition: System.IEquatable`1.Equals(`0)
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  name: Equals(Matrix4x4)
+  nameWithType: IEquatable<Matrix4x4>.Equals(Matrix4x4)
+  fullName: System.IEquatable<Prowl.Runtime.Matrix4x4>.Equals(Prowl.Runtime.Matrix4x4)
+  nameWithType.vb: IEquatable(Of Matrix4x4).Equals(Matrix4x4)
+  fullName.vb: System.IEquatable(Of Prowl.Runtime.Matrix4x4).Equals(Prowl.Runtime.Matrix4x4)
+  spec.csharp:
+  - uid: System.IEquatable{Prowl.Runtime.Matrix4x4}.Equals(Prowl.Runtime.Matrix4x4)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - uid: Prowl.Runtime.Matrix4x4
+    name: Matrix4x4
+    href: Prowl.Runtime.Matrix4x4.html
+  - name: )
+  spec.vb:
+  - uid: System.IEquatable{Prowl.Runtime.Matrix4x4}.Equals(Prowl.Runtime.Matrix4x4)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - uid: Prowl.Runtime.Matrix4x4
+    name: Matrix4x4
+    href: Prowl.Runtime.Matrix4x4.html
+  - name: )
+- uid: System.IEquatable`1.Equals(`0)
+  commentId: M:System.IEquatable`1.Equals(`0)
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  name: Equals(T)
+  nameWithType: IEquatable<T>.Equals(T)
+  fullName: System.IEquatable<T>.Equals(T)
+  nameWithType.vb: IEquatable(Of T).Equals(T)
+  fullName.vb: System.IEquatable(Of T).Equals(T)
+  spec.csharp:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - name: T
+  - name: )
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  name: Equals(object)
+  nameWithType: ValueType.Equals(object)
+  fullName: System.ValueType.Equals(object)
+  nameWithType.vb: ValueType.Equals(Object)
+  fullName.vb: System.ValueType.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+- uid: Prowl.Runtime.Matrix4x4.ToString*
+  commentId: Overload:Prowl.Runtime.Matrix4x4.ToString
+  href: Prowl.Runtime.Matrix4x4.html#Prowl_Runtime_Matrix4x4_ToString
+  name: ToString
+  nameWithType: Matrix4x4.ToString
+  fullName: Prowl.Runtime.Matrix4x4.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: Prowl.Runtime.Matrix4x4.ToMultiLineString*
+  commentId: Overload:Prowl.Runtime.Matrix4x4.ToMultiLineString
+  href: Prowl.Runtime.Matrix4x4.html#Prowl_Runtime_Matrix4x4_ToMultiLineString
+  name: ToMultiLineString
+  nameWithType: Matrix4x4.ToMultiLineString
+  fullName: Prowl.Runtime.Matrix4x4.ToMultiLineString
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+- uid: Prowl.Runtime.Matrix4x4.GetHashCode*
+  commentId: Overload:Prowl.Runtime.Matrix4x4.GetHashCode
+  href: Prowl.Runtime.Matrix4x4.html#Prowl_Runtime_Matrix4x4_GetHashCode
+  name: GetHashCode
+  nameWithType: Matrix4x4.GetHashCode
+  fullName: Prowl.Runtime.Matrix4x4.GetHashCode

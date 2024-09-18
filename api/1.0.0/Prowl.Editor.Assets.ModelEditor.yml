@@ -1,0 +1,528 @@
+### YamlMime:ManagedReference
+items:
+- uid: Prowl.Editor.Assets.ModelEditor
+  commentId: T:Prowl.Editor.Assets.ModelEditor
+  id: ModelEditor
+  parent: Prowl.Editor.Assets
+  children:
+  - Prowl.Editor.Assets.ModelEditor.OnInspectorGUI
+  langs:
+  - csharp
+  - vb
+  name: ModelEditor
+  nameWithType: ModelEditor
+  fullName: Prowl.Editor.Assets.ModelEditor
+  type: Class
+  source:
+    remote:
+      path: Prowl.Editor/Assets/Importers/ModelImporter.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: ModelEditor
+    path: ../Prowl/Prowl.Editor/Assets/Importers/ModelImporter.cs
+    startLine: 656
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor.Assets
+  syntax:
+    content: >-
+      [CustomEditor(typeof(ModelImporter))]
+
+      public class ModelEditor : ScriptedEditor
+    content.vb: >-
+      <CustomEditor(GetType(ModelImporter))>
+
+      Public Class ModelEditor Inherits ScriptedEditor
+  inheritance:
+  - System.Object
+  - Prowl.Editor.Assets.ScriptedEditor
+  inheritedMembers:
+  - Prowl.Editor.Assets.ScriptedEditor.gui
+  - Prowl.Editor.Assets.ScriptedEditor.target
+  - Prowl.Editor.Assets.ScriptedEditor.OnEnable
+  - Prowl.Editor.Assets.ScriptedEditor.OnDisable
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  extensionMethods:
+  - System.Object.Prowl.Runtime.RuntimeUtils.GetSerializableFields
+  attributes:
+  - type: Prowl.Editor.Assets.CustomEditorAttribute
+    ctor: Prowl.Editor.Assets.CustomEditorAttribute.#ctor(System.Type)
+    arguments:
+    - type: System.Type
+      value: Prowl.Editor.Assets.ModelImporter
+- uid: Prowl.Editor.Assets.ModelEditor.OnInspectorGUI
+  commentId: M:Prowl.Editor.Assets.ModelEditor.OnInspectorGUI
+  id: OnInspectorGUI
+  parent: Prowl.Editor.Assets.ModelEditor
+  langs:
+  - csharp
+  - vb
+  name: OnInspectorGUI()
+  nameWithType: ModelEditor.OnInspectorGUI()
+  fullName: Prowl.Editor.Assets.ModelEditor.OnInspectorGUI()
+  type: Method
+  source:
+    remote:
+      path: Prowl.Editor/Assets/Importers/ModelImporter.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: OnInspectorGUI
+    path: ../Prowl/Prowl.Editor/Assets/Importers/ModelImporter.cs
+    startLine: 665
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor.Assets
+  example: []
+  syntax:
+    content: public override void OnInspectorGUI()
+    content.vb: Public Overrides Sub OnInspectorGUI()
+  overridden: Prowl.Editor.Assets.ScriptedEditor.OnInspectorGUI
+  overload: Prowl.Editor.Assets.ModelEditor.OnInspectorGUI*
+references:
+- uid: Prowl.Editor.Assets
+  commentId: N:Prowl.Editor.Assets
+  href: Prowl.html
+  name: Prowl.Editor.Assets
+  nameWithType: Prowl.Editor.Assets
+  fullName: Prowl.Editor.Assets
+  spec.csharp:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Editor
+    name: Editor
+    href: Prowl.Editor.html
+  - name: .
+  - uid: Prowl.Editor.Assets
+    name: Assets
+    href: Prowl.Editor.Assets.html
+  spec.vb:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Editor
+    name: Editor
+    href: Prowl.Editor.html
+  - name: .
+  - uid: Prowl.Editor.Assets
+    name: Assets
+    href: Prowl.Editor.Assets.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Prowl.Editor.Assets.ScriptedEditor
+  commentId: T:Prowl.Editor.Assets.ScriptedEditor
+  parent: Prowl.Editor.Assets
+  href: Prowl.Editor.Assets.ScriptedEditor.html
+  name: ScriptedEditor
+  nameWithType: ScriptedEditor
+  fullName: Prowl.Editor.Assets.ScriptedEditor
+- uid: Prowl.Editor.Assets.ScriptedEditor.gui
+  commentId: P:Prowl.Editor.Assets.ScriptedEditor.gui
+  parent: Prowl.Editor.Assets.ScriptedEditor
+  href: Prowl.Editor.Assets.ScriptedEditor.html#Prowl_Editor_Assets_ScriptedEditor_gui
+  name: gui
+  nameWithType: ScriptedEditor.gui
+  fullName: Prowl.Editor.Assets.ScriptedEditor.gui
+- uid: Prowl.Editor.Assets.ScriptedEditor.target
+  commentId: P:Prowl.Editor.Assets.ScriptedEditor.target
+  parent: Prowl.Editor.Assets.ScriptedEditor
+  href: Prowl.Editor.Assets.ScriptedEditor.html#Prowl_Editor_Assets_ScriptedEditor_target
+  name: target
+  nameWithType: ScriptedEditor.target
+  fullName: Prowl.Editor.Assets.ScriptedEditor.target
+- uid: Prowl.Editor.Assets.ScriptedEditor.OnEnable
+  commentId: M:Prowl.Editor.Assets.ScriptedEditor.OnEnable
+  parent: Prowl.Editor.Assets.ScriptedEditor
+  href: Prowl.Editor.Assets.ScriptedEditor.html#Prowl_Editor_Assets_ScriptedEditor_OnEnable
+  name: OnEnable()
+  nameWithType: ScriptedEditor.OnEnable()
+  fullName: Prowl.Editor.Assets.ScriptedEditor.OnEnable()
+  spec.csharp:
+  - uid: Prowl.Editor.Assets.ScriptedEditor.OnEnable
+    name: OnEnable
+    href: Prowl.Editor.Assets.ScriptedEditor.html#Prowl_Editor_Assets_ScriptedEditor_OnEnable
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Prowl.Editor.Assets.ScriptedEditor.OnEnable
+    name: OnEnable
+    href: Prowl.Editor.Assets.ScriptedEditor.html#Prowl_Editor_Assets_ScriptedEditor_OnEnable
+  - name: (
+  - name: )
+- uid: Prowl.Editor.Assets.ScriptedEditor.OnDisable
+  commentId: M:Prowl.Editor.Assets.ScriptedEditor.OnDisable
+  parent: Prowl.Editor.Assets.ScriptedEditor
+  href: Prowl.Editor.Assets.ScriptedEditor.html#Prowl_Editor_Assets_ScriptedEditor_OnDisable
+  name: OnDisable()
+  nameWithType: ScriptedEditor.OnDisable()
+  fullName: Prowl.Editor.Assets.ScriptedEditor.OnDisable()
+  spec.csharp:
+  - uid: Prowl.Editor.Assets.ScriptedEditor.OnDisable
+    name: OnDisable
+    href: Prowl.Editor.Assets.ScriptedEditor.html#Prowl_Editor_Assets_ScriptedEditor_OnDisable
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Prowl.Editor.Assets.ScriptedEditor.OnDisable
+    name: OnDisable
+    href: Prowl.Editor.Assets.ScriptedEditor.html#Prowl_Editor_Assets_ScriptedEditor_OnDisable
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Prowl.Runtime.RuntimeUtils.GetSerializableFields
+  commentId: M:Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  parent: Prowl.Runtime.RuntimeUtils
+  definition: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  name: GetSerializableFields(object)
+  nameWithType: RuntimeUtils.GetSerializableFields(object)
+  fullName: Prowl.Runtime.RuntimeUtils.GetSerializableFields(object)
+  nameWithType.vb: RuntimeUtils.GetSerializableFields(Object)
+  fullName.vb: Prowl.Runtime.RuntimeUtils.GetSerializableFields(Object)
+  name.vb: GetSerializableFields(Object)
+  spec.csharp:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  commentId: M:Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  isExternal: true
+  href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  name: GetSerializableFields(object)
+  nameWithType: RuntimeUtils.GetSerializableFields(object)
+  fullName: Prowl.Runtime.RuntimeUtils.GetSerializableFields(object)
+  nameWithType.vb: RuntimeUtils.GetSerializableFields(Object)
+  fullName.vb: Prowl.Runtime.RuntimeUtils.GetSerializableFields(Object)
+  name.vb: GetSerializableFields(Object)
+  spec.csharp:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: Prowl.Runtime.RuntimeUtils
+  commentId: T:Prowl.Runtime.RuntimeUtils
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.RuntimeUtils.html
+  name: RuntimeUtils
+  nameWithType: RuntimeUtils
+  fullName: Prowl.Runtime.RuntimeUtils
+- uid: Prowl.Runtime
+  commentId: N:Prowl.Runtime
+  href: Prowl.html
+  name: Prowl.Runtime
+  nameWithType: Prowl.Runtime
+  fullName: Prowl.Runtime
+  spec.csharp:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+  spec.vb:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+- uid: Prowl.Editor.Assets.ScriptedEditor.OnInspectorGUI
+  commentId: M:Prowl.Editor.Assets.ScriptedEditor.OnInspectorGUI
+  parent: Prowl.Editor.Assets.ScriptedEditor
+  href: Prowl.Editor.Assets.ScriptedEditor.html#Prowl_Editor_Assets_ScriptedEditor_OnInspectorGUI
+  name: OnInspectorGUI()
+  nameWithType: ScriptedEditor.OnInspectorGUI()
+  fullName: Prowl.Editor.Assets.ScriptedEditor.OnInspectorGUI()
+  spec.csharp:
+  - uid: Prowl.Editor.Assets.ScriptedEditor.OnInspectorGUI
+    name: OnInspectorGUI
+    href: Prowl.Editor.Assets.ScriptedEditor.html#Prowl_Editor_Assets_ScriptedEditor_OnInspectorGUI
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Prowl.Editor.Assets.ScriptedEditor.OnInspectorGUI
+    name: OnInspectorGUI
+    href: Prowl.Editor.Assets.ScriptedEditor.html#Prowl_Editor_Assets_ScriptedEditor_OnInspectorGUI
+  - name: (
+  - name: )
+- uid: Prowl.Editor.Assets.ModelEditor.OnInspectorGUI*
+  commentId: Overload:Prowl.Editor.Assets.ModelEditor.OnInspectorGUI
+  href: Prowl.Editor.Assets.ModelEditor.html#Prowl_Editor_Assets_ModelEditor_OnInspectorGUI
+  name: OnInspectorGUI
+  nameWithType: ModelEditor.OnInspectorGUI
+  fullName: Prowl.Editor.Assets.ModelEditor.OnInspectorGUI

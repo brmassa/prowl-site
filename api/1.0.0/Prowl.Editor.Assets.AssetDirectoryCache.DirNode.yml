@@ -1,0 +1,759 @@
+### YamlMime:ManagedReference
+items:
+- uid: Prowl.Editor.Assets.AssetDirectoryCache.DirNode
+  commentId: T:Prowl.Editor.Assets.AssetDirectoryCache.DirNode
+  id: AssetDirectoryCache.DirNode
+  parent: Prowl.Editor.Assets
+  children:
+  - Prowl.Editor.Assets.AssetDirectoryCache.DirNode.#ctor(System.IO.DirectoryInfo,Prowl.Editor.Assets.AssetDirectoryCache.DirNode)
+  - Prowl.Editor.Assets.AssetDirectoryCache.DirNode.Directory
+  - Prowl.Editor.Assets.AssetDirectoryCache.DirNode.Files
+  - Prowl.Editor.Assets.AssetDirectoryCache.DirNode.Parent
+  - Prowl.Editor.Assets.AssetDirectoryCache.DirNode.SubDirectories
+  langs:
+  - csharp
+  - vb
+  name: AssetDirectoryCache.DirNode
+  nameWithType: AssetDirectoryCache.DirNode
+  fullName: Prowl.Editor.Assets.AssetDirectoryCache.DirNode
+  type: Class
+  source:
+    remote:
+      path: Prowl.Editor/Assets/AssetDirectoryCache.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: DirNode
+    path: ../Prowl/Prowl.Editor/Assets/AssetDirectoryCache.cs
+    startLine: 7
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor.Assets
+  syntax:
+    content: public class AssetDirectoryCache.DirNode
+    content.vb: Public Class AssetDirectoryCache.DirNode
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  extensionMethods:
+  - System.Object.Prowl.Runtime.RuntimeUtils.GetSerializableFields
+- uid: Prowl.Editor.Assets.AssetDirectoryCache.DirNode.#ctor(System.IO.DirectoryInfo,Prowl.Editor.Assets.AssetDirectoryCache.DirNode)
+  commentId: M:Prowl.Editor.Assets.AssetDirectoryCache.DirNode.#ctor(System.IO.DirectoryInfo,Prowl.Editor.Assets.AssetDirectoryCache.DirNode)
+  id: '#ctor(System.IO.DirectoryInfo,Prowl.Editor.Assets.AssetDirectoryCache.DirNode)'
+  parent: Prowl.Editor.Assets.AssetDirectoryCache.DirNode
+  langs:
+  - csharp
+  - vb
+  name: DirNode(DirectoryInfo, DirNode)
+  nameWithType: AssetDirectoryCache.DirNode.DirNode(DirectoryInfo, AssetDirectoryCache.DirNode)
+  fullName: Prowl.Editor.Assets.AssetDirectoryCache.DirNode.DirNode(System.IO.DirectoryInfo, Prowl.Editor.Assets.AssetDirectoryCache.DirNode)
+  type: Constructor
+  source:
+    remote:
+      path: Prowl.Editor/Assets/AssetDirectoryCache.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: .ctor
+    path: ../Prowl/Prowl.Editor/Assets/AssetDirectoryCache.cs
+    startLine: 7
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor.Assets
+  syntax:
+    content: public DirNode(DirectoryInfo directory, AssetDirectoryCache.DirNode parent)
+    parameters:
+    - id: directory
+      type: System.IO.DirectoryInfo
+    - id: parent
+      type: Prowl.Editor.Assets.AssetDirectoryCache.DirNode
+    content.vb: Public Sub New(directory As DirectoryInfo, parent As AssetDirectoryCache.DirNode)
+  overload: Prowl.Editor.Assets.AssetDirectoryCache.DirNode.#ctor*
+  nameWithType.vb: AssetDirectoryCache.DirNode.New(DirectoryInfo, AssetDirectoryCache.DirNode)
+  fullName.vb: Prowl.Editor.Assets.AssetDirectoryCache.DirNode.New(System.IO.DirectoryInfo, Prowl.Editor.Assets.AssetDirectoryCache.DirNode)
+  name.vb: New(DirectoryInfo, DirNode)
+- uid: Prowl.Editor.Assets.AssetDirectoryCache.DirNode.Directory
+  commentId: F:Prowl.Editor.Assets.AssetDirectoryCache.DirNode.Directory
+  id: Directory
+  parent: Prowl.Editor.Assets.AssetDirectoryCache.DirNode
+  langs:
+  - csharp
+  - vb
+  name: Directory
+  nameWithType: AssetDirectoryCache.DirNode.Directory
+  fullName: Prowl.Editor.Assets.AssetDirectoryCache.DirNode.Directory
+  type: Field
+  source:
+    remote:
+      path: Prowl.Editor/Assets/AssetDirectoryCache.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Directory
+    path: ../Prowl/Prowl.Editor/Assets/AssetDirectoryCache.cs
+    startLine: 9
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor.Assets
+  syntax:
+    content: public DirectoryInfo Directory
+    return:
+      type: System.IO.DirectoryInfo
+    content.vb: Public Directory As DirectoryInfo
+- uid: Prowl.Editor.Assets.AssetDirectoryCache.DirNode.Parent
+  commentId: F:Prowl.Editor.Assets.AssetDirectoryCache.DirNode.Parent
+  id: Parent
+  parent: Prowl.Editor.Assets.AssetDirectoryCache.DirNode
+  langs:
+  - csharp
+  - vb
+  name: Parent
+  nameWithType: AssetDirectoryCache.DirNode.Parent
+  fullName: Prowl.Editor.Assets.AssetDirectoryCache.DirNode.Parent
+  type: Field
+  source:
+    remote:
+      path: Prowl.Editor/Assets/AssetDirectoryCache.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Parent
+    path: ../Prowl/Prowl.Editor/Assets/AssetDirectoryCache.cs
+    startLine: 10
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor.Assets
+  syntax:
+    content: public AssetDirectoryCache.DirNode Parent
+    return:
+      type: Prowl.Editor.Assets.AssetDirectoryCache.DirNode
+    content.vb: Public Parent As AssetDirectoryCache.DirNode
+- uid: Prowl.Editor.Assets.AssetDirectoryCache.DirNode.SubDirectories
+  commentId: F:Prowl.Editor.Assets.AssetDirectoryCache.DirNode.SubDirectories
+  id: SubDirectories
+  parent: Prowl.Editor.Assets.AssetDirectoryCache.DirNode
+  langs:
+  - csharp
+  - vb
+  name: SubDirectories
+  nameWithType: AssetDirectoryCache.DirNode.SubDirectories
+  fullName: Prowl.Editor.Assets.AssetDirectoryCache.DirNode.SubDirectories
+  type: Field
+  source:
+    remote:
+      path: Prowl.Editor/Assets/AssetDirectoryCache.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: SubDirectories
+    path: ../Prowl/Prowl.Editor/Assets/AssetDirectoryCache.cs
+    startLine: 11
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor.Assets
+  syntax:
+    content: public List<AssetDirectoryCache.DirNode> SubDirectories
+    return:
+      type: System.Collections.Generic.List{Prowl.Editor.Assets.AssetDirectoryCache.DirNode}
+    content.vb: Public SubDirectories As List(Of AssetDirectoryCache.DirNode)
+- uid: Prowl.Editor.Assets.AssetDirectoryCache.DirNode.Files
+  commentId: F:Prowl.Editor.Assets.AssetDirectoryCache.DirNode.Files
+  id: Files
+  parent: Prowl.Editor.Assets.AssetDirectoryCache.DirNode
+  langs:
+  - csharp
+  - vb
+  name: Files
+  nameWithType: AssetDirectoryCache.DirNode.Files
+  fullName: Prowl.Editor.Assets.AssetDirectoryCache.DirNode.Files
+  type: Field
+  source:
+    remote:
+      path: Prowl.Editor/Assets/AssetDirectoryCache.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Files
+    path: ../Prowl/Prowl.Editor/Assets/AssetDirectoryCache.cs
+    startLine: 12
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor.Assets
+  syntax:
+    content: public List<AssetDirectoryCache.FileNode> Files
+    return:
+      type: System.Collections.Generic.List{Prowl.Editor.Assets.AssetDirectoryCache.FileNode}
+    content.vb: Public Files As List(Of AssetDirectoryCache.FileNode)
+references:
+- uid: Prowl.Editor.Assets
+  commentId: N:Prowl.Editor.Assets
+  href: Prowl.html
+  name: Prowl.Editor.Assets
+  nameWithType: Prowl.Editor.Assets
+  fullName: Prowl.Editor.Assets
+  spec.csharp:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Editor
+    name: Editor
+    href: Prowl.Editor.html
+  - name: .
+  - uid: Prowl.Editor.Assets
+    name: Assets
+    href: Prowl.Editor.Assets.html
+  spec.vb:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Editor
+    name: Editor
+    href: Prowl.Editor.html
+  - name: .
+  - uid: Prowl.Editor.Assets
+    name: Assets
+    href: Prowl.Editor.Assets.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Prowl.Runtime.RuntimeUtils.GetSerializableFields
+  commentId: M:Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  parent: Prowl.Runtime.RuntimeUtils
+  definition: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  name: GetSerializableFields(object)
+  nameWithType: RuntimeUtils.GetSerializableFields(object)
+  fullName: Prowl.Runtime.RuntimeUtils.GetSerializableFields(object)
+  nameWithType.vb: RuntimeUtils.GetSerializableFields(Object)
+  fullName.vb: Prowl.Runtime.RuntimeUtils.GetSerializableFields(Object)
+  name.vb: GetSerializableFields(Object)
+  spec.csharp:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  commentId: M:Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  isExternal: true
+  href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  name: GetSerializableFields(object)
+  nameWithType: RuntimeUtils.GetSerializableFields(object)
+  fullName: Prowl.Runtime.RuntimeUtils.GetSerializableFields(object)
+  nameWithType.vb: RuntimeUtils.GetSerializableFields(Object)
+  fullName.vb: Prowl.Runtime.RuntimeUtils.GetSerializableFields(Object)
+  name.vb: GetSerializableFields(Object)
+  spec.csharp:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: Prowl.Runtime.RuntimeUtils
+  commentId: T:Prowl.Runtime.RuntimeUtils
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.RuntimeUtils.html
+  name: RuntimeUtils
+  nameWithType: RuntimeUtils
+  fullName: Prowl.Runtime.RuntimeUtils
+- uid: Prowl.Runtime
+  commentId: N:Prowl.Runtime
+  href: Prowl.html
+  name: Prowl.Runtime
+  nameWithType: Prowl.Runtime
+  fullName: Prowl.Runtime
+  spec.csharp:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+  spec.vb:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+- uid: Prowl.Editor.Assets.AssetDirectoryCache.DirNode.#ctor*
+  commentId: Overload:Prowl.Editor.Assets.AssetDirectoryCache.DirNode.#ctor
+  href: Prowl.Editor.Assets.AssetDirectoryCache.DirNode.html#Prowl_Editor_Assets_AssetDirectoryCache_DirNode__ctor_System_IO_DirectoryInfo_Prowl_Editor_Assets_AssetDirectoryCache_DirNode_
+  name: DirNode
+  nameWithType: AssetDirectoryCache.DirNode.DirNode
+  fullName: Prowl.Editor.Assets.AssetDirectoryCache.DirNode.DirNode
+  nameWithType.vb: AssetDirectoryCache.DirNode.New
+  fullName.vb: Prowl.Editor.Assets.AssetDirectoryCache.DirNode.New
+  name.vb: New
+- uid: System.IO.DirectoryInfo
+  commentId: T:System.IO.DirectoryInfo
+  parent: System.IO
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.io.directoryinfo
+  name: DirectoryInfo
+  nameWithType: DirectoryInfo
+  fullName: System.IO.DirectoryInfo
+- uid: Prowl.Editor.Assets.AssetDirectoryCache.DirNode
+  commentId: T:Prowl.Editor.Assets.AssetDirectoryCache.DirNode
+  parent: Prowl.Editor.Assets
+  href: Prowl.Editor.Assets.AssetDirectoryCache.html
+  name: AssetDirectoryCache.DirNode
+  nameWithType: AssetDirectoryCache.DirNode
+  fullName: Prowl.Editor.Assets.AssetDirectoryCache.DirNode
+  spec.csharp:
+  - uid: Prowl.Editor.Assets.AssetDirectoryCache
+    name: AssetDirectoryCache
+    href: Prowl.Editor.Assets.AssetDirectoryCache.html
+  - name: .
+  - uid: Prowl.Editor.Assets.AssetDirectoryCache.DirNode
+    name: DirNode
+    href: Prowl.Editor.Assets.AssetDirectoryCache.DirNode.html
+  spec.vb:
+  - uid: Prowl.Editor.Assets.AssetDirectoryCache
+    name: AssetDirectoryCache
+    href: Prowl.Editor.Assets.AssetDirectoryCache.html
+  - name: .
+  - uid: Prowl.Editor.Assets.AssetDirectoryCache.DirNode
+    name: DirNode
+    href: Prowl.Editor.Assets.AssetDirectoryCache.DirNode.html
+- uid: System.IO
+  commentId: N:System.IO
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.IO
+  nameWithType: System.IO
+  fullName: System.IO
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.IO
+    name: IO
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.io
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.IO
+    name: IO
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.io
+- uid: System.Collections.Generic.List{Prowl.Editor.Assets.AssetDirectoryCache.DirNode}
+  commentId: T:System.Collections.Generic.List{Prowl.Editor.Assets.AssetDirectoryCache.DirNode}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<AssetDirectoryCache.DirNode>
+  nameWithType: List<AssetDirectoryCache.DirNode>
+  fullName: System.Collections.Generic.List<Prowl.Editor.Assets.AssetDirectoryCache.DirNode>
+  nameWithType.vb: List(Of AssetDirectoryCache.DirNode)
+  fullName.vb: System.Collections.Generic.List(Of Prowl.Editor.Assets.AssetDirectoryCache.DirNode)
+  name.vb: List(Of AssetDirectoryCache.DirNode)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - uid: Prowl.Editor.Assets.AssetDirectoryCache
+    name: AssetDirectoryCache
+    href: Prowl.Editor.Assets.AssetDirectoryCache.html
+  - name: .
+  - uid: Prowl.Editor.Assets.AssetDirectoryCache.DirNode
+    name: DirNode
+    href: Prowl.Editor.Assets.AssetDirectoryCache.DirNode.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Prowl.Editor.Assets.AssetDirectoryCache
+    name: AssetDirectoryCache
+    href: Prowl.Editor.Assets.AssetDirectoryCache.html
+  - name: .
+  - uid: Prowl.Editor.Assets.AssetDirectoryCache.DirNode
+    name: DirNode
+    href: Prowl.Editor.Assets.AssetDirectoryCache.DirNode.html
+  - name: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: System.Collections.Generic.List{Prowl.Editor.Assets.AssetDirectoryCache.FileNode}
+  commentId: T:System.Collections.Generic.List{Prowl.Editor.Assets.AssetDirectoryCache.FileNode}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<AssetDirectoryCache.FileNode>
+  nameWithType: List<AssetDirectoryCache.FileNode>
+  fullName: System.Collections.Generic.List<Prowl.Editor.Assets.AssetDirectoryCache.FileNode>
+  nameWithType.vb: List(Of AssetDirectoryCache.FileNode)
+  fullName.vb: System.Collections.Generic.List(Of Prowl.Editor.Assets.AssetDirectoryCache.FileNode)
+  name.vb: List(Of AssetDirectoryCache.FileNode)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - uid: Prowl.Editor.Assets.AssetDirectoryCache
+    name: AssetDirectoryCache
+    href: Prowl.Editor.Assets.AssetDirectoryCache.html
+  - name: .
+  - uid: Prowl.Editor.Assets.AssetDirectoryCache.FileNode
+    name: FileNode
+    href: Prowl.Editor.Assets.AssetDirectoryCache.FileNode.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Prowl.Editor.Assets.AssetDirectoryCache
+    name: AssetDirectoryCache
+    href: Prowl.Editor.Assets.AssetDirectoryCache.html
+  - name: .
+  - uid: Prowl.Editor.Assets.AssetDirectoryCache.FileNode
+    name: FileNode
+    href: Prowl.Editor.Assets.AssetDirectoryCache.FileNode.html
+  - name: )

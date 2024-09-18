@@ -1,0 +1,1327 @@
+### YamlMime:ManagedReference
+items:
+- uid: Prowl.Runtime.ShaderPass
+  commentId: T:Prowl.Runtime.ShaderPass
+  id: ShaderPass
+  parent: Prowl.Runtime
+  children:
+  - Prowl.Runtime.ShaderPass.#ctor(System.String,Prowl.Runtime.ShaderPassDescription,Prowl.Runtime.ShaderVariant[])
+  - Prowl.Runtime.ShaderPass.Blend
+  - Prowl.Runtime.ShaderPass.CullMode
+  - Prowl.Runtime.ShaderPass.DepthClipEnabled
+  - Prowl.Runtime.ShaderPass.DepthStencilState
+  - Prowl.Runtime.ShaderPass.GetVariant(Prowl.Runtime.KeywordState)
+  - Prowl.Runtime.ShaderPass.HasTag(System.String,System.String)
+  - Prowl.Runtime.ShaderPass.Keywords
+  - Prowl.Runtime.ShaderPass.Name
+  - Prowl.Runtime.ShaderPass.OnAfterDeserialize
+  - Prowl.Runtime.ShaderPass.OnBeforeSerialize
+  - Prowl.Runtime.ShaderPass.Tags
+  - Prowl.Runtime.ShaderPass.TryGetVariant(Prowl.Runtime.KeywordState,Prowl.Runtime.ShaderVariant@)
+  - Prowl.Runtime.ShaderPass.ValidateKeyword(Prowl.Runtime.KeywordState)
+  - Prowl.Runtime.ShaderPass.Variants
+  langs:
+  - csharp
+  - vb
+  name: ShaderPass
+  nameWithType: ShaderPass
+  fullName: Prowl.Runtime.ShaderPass
+  type: Class
+  source:
+    remote:
+      path: Prowl.Runtime/Rendering/Shader/ShaderPass.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: ShaderPass
+    path: ../Prowl/Prowl.Runtime/Rendering/Shader/ShaderPass.cs
+    startLine: 39
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: 'public sealed class ShaderPass : ISerializationCallbackReceiver'
+    content.vb: Public NotInheritable Class ShaderPass Implements ISerializationCallbackReceiver
+  inheritance:
+  - System.Object
+  implements:
+  - Prowl.Runtime.ISerializationCallbackReceiver
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  extensionMethods:
+  - System.Object.Prowl.Runtime.RuntimeUtils.GetSerializableFields
+- uid: Prowl.Runtime.ShaderPass.Name
+  commentId: P:Prowl.Runtime.ShaderPass.Name
+  id: Name
+  parent: Prowl.Runtime.ShaderPass
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: ShaderPass.Name
+  fullName: Prowl.Runtime.ShaderPass.Name
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/Rendering/Shader/ShaderPass.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Name
+    path: ../Prowl/Prowl.Runtime/Rendering/Shader/ShaderPass.cs
+    startLine: 69
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: The name to identify this <xref href="Prowl.Runtime.ShaderPass" data-throw-if-not-resolved="false"></xref>
+  example: []
+  syntax:
+    content: public string Name { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property Name As String
+  overload: Prowl.Runtime.ShaderPass.Name*
+- uid: Prowl.Runtime.ShaderPass.Tags
+  commentId: P:Prowl.Runtime.ShaderPass.Tags
+  id: Tags
+  parent: Prowl.Runtime.ShaderPass
+  langs:
+  - csharp
+  - vb
+  name: Tags
+  nameWithType: ShaderPass.Tags
+  fullName: Prowl.Runtime.ShaderPass.Tags
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/Rendering/Shader/ShaderPass.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Tags
+    path: ../Prowl/Prowl.Runtime/Rendering/Shader/ShaderPass.cs
+    startLine: 74
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: The tags to identify this <xref href="Prowl.Runtime.ShaderPass" data-throw-if-not-resolved="false"></xref>
+  example: []
+  syntax:
+    content: public IEnumerable<KeyValuePair<string, string>> Tags { get; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{System.String,System.String}}
+    content.vb: Public ReadOnly Property Tags As IEnumerable(Of KeyValuePair(Of String, String))
+  overload: Prowl.Runtime.ShaderPass.Tags*
+- uid: Prowl.Runtime.ShaderPass.Blend
+  commentId: P:Prowl.Runtime.ShaderPass.Blend
+  id: Blend
+  parent: Prowl.Runtime.ShaderPass
+  langs:
+  - csharp
+  - vb
+  name: Blend
+  nameWithType: ShaderPass.Blend
+  fullName: Prowl.Runtime.ShaderPass.Blend
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/Rendering/Shader/ShaderPass.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Blend
+    path: ../Prowl/Prowl.Runtime/Rendering/Shader/ShaderPass.cs
+    startLine: 79
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: The blending options to use when rendering this <xref href="Prowl.Runtime.ShaderPass" data-throw-if-not-resolved="false"></xref>
+  example: []
+  syntax:
+    content: public BlendStateDescription Blend { get; }
+    parameters: []
+    return:
+      type: Veldrid.BlendStateDescription
+    content.vb: Public ReadOnly Property Blend As BlendStateDescription
+  overload: Prowl.Runtime.ShaderPass.Blend*
+- uid: Prowl.Runtime.ShaderPass.DepthStencilState
+  commentId: P:Prowl.Runtime.ShaderPass.DepthStencilState
+  id: DepthStencilState
+  parent: Prowl.Runtime.ShaderPass
+  langs:
+  - csharp
+  - vb
+  name: DepthStencilState
+  nameWithType: ShaderPass.DepthStencilState
+  fullName: Prowl.Runtime.ShaderPass.DepthStencilState
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/Rendering/Shader/ShaderPass.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: DepthStencilState
+    path: ../Prowl/Prowl.Runtime/Rendering/Shader/ShaderPass.cs
+    startLine: 84
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: The depth stencil state to use when rendering this <xref href="Prowl.Runtime.ShaderPass" data-throw-if-not-resolved="false"></xref>
+  example: []
+  syntax:
+    content: public DepthStencilStateDescription DepthStencilState { get; }
+    parameters: []
+    return:
+      type: Veldrid.DepthStencilStateDescription
+    content.vb: Public ReadOnly Property DepthStencilState As DepthStencilStateDescription
+  overload: Prowl.Runtime.ShaderPass.DepthStencilState*
+- uid: Prowl.Runtime.ShaderPass.CullMode
+  commentId: P:Prowl.Runtime.ShaderPass.CullMode
+  id: CullMode
+  parent: Prowl.Runtime.ShaderPass
+  langs:
+  - csharp
+  - vb
+  name: CullMode
+  nameWithType: ShaderPass.CullMode
+  fullName: Prowl.Runtime.ShaderPass.CullMode
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/Rendering/Shader/ShaderPass.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: CullMode
+    path: ../Prowl/Prowl.Runtime/Rendering/Shader/ShaderPass.cs
+    startLine: 89
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: Pass face culling mode.
+  example: []
+  syntax:
+    content: public FaceCullMode CullMode { get; }
+    parameters: []
+    return:
+      type: Veldrid.FaceCullMode
+    content.vb: Public ReadOnly Property CullMode As FaceCullMode
+  overload: Prowl.Runtime.ShaderPass.CullMode*
+- uid: Prowl.Runtime.ShaderPass.DepthClipEnabled
+  commentId: P:Prowl.Runtime.ShaderPass.DepthClipEnabled
+  id: DepthClipEnabled
+  parent: Prowl.Runtime.ShaderPass
+  langs:
+  - csharp
+  - vb
+  name: DepthClipEnabled
+  nameWithType: ShaderPass.DepthClipEnabled
+  fullName: Prowl.Runtime.ShaderPass.DepthClipEnabled
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/Rendering/Shader/ShaderPass.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: DepthClipEnabled
+    path: ../Prowl/Prowl.Runtime/Rendering/Shader/ShaderPass.cs
+    startLine: 94
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: Pass depth clip mode.
+  example: []
+  syntax:
+    content: public bool DepthClipEnabled { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property DepthClipEnabled As Boolean
+  overload: Prowl.Runtime.ShaderPass.DepthClipEnabled*
+- uid: Prowl.Runtime.ShaderPass.Keywords
+  commentId: P:Prowl.Runtime.ShaderPass.Keywords
+  id: Keywords
+  parent: Prowl.Runtime.ShaderPass
+  langs:
+  - csharp
+  - vb
+  name: Keywords
+  nameWithType: ShaderPass.Keywords
+  fullName: Prowl.Runtime.ShaderPass.Keywords
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/Rendering/Shader/ShaderPass.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Keywords
+    path: ../Prowl/Prowl.Runtime/Rendering/Shader/ShaderPass.cs
+    startLine: 97
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public IEnumerable<KeyValuePair<string, HashSet<string>>> Keywords { get; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{System.String,System.Collections.Generic.HashSet{System.String}}}
+    content.vb: Public ReadOnly Property Keywords As IEnumerable(Of KeyValuePair(Of String, HashSet(Of String)))
+  overload: Prowl.Runtime.ShaderPass.Keywords*
+- uid: Prowl.Runtime.ShaderPass.Variants
+  commentId: P:Prowl.Runtime.ShaderPass.Variants
+  id: Variants
+  parent: Prowl.Runtime.ShaderPass
+  langs:
+  - csharp
+  - vb
+  name: Variants
+  nameWithType: ShaderPass.Variants
+  fullName: Prowl.Runtime.ShaderPass.Variants
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/Rendering/Shader/ShaderPass.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Variants
+    path: ../Prowl/Prowl.Runtime/Rendering/Shader/ShaderPass.cs
+    startLine: 98
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public IEnumerable<KeyValuePair<KeywordState, ShaderVariant>> Variants { get; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{Prowl.Runtime.KeywordState,Prowl.Runtime.ShaderVariant}}
+    content.vb: Public ReadOnly Property Variants As IEnumerable(Of KeyValuePair(Of KeywordState, ShaderVariant))
+  overload: Prowl.Runtime.ShaderPass.Variants*
+- uid: Prowl.Runtime.ShaderPass.#ctor(System.String,Prowl.Runtime.ShaderPassDescription,Prowl.Runtime.ShaderVariant[])
+  commentId: M:Prowl.Runtime.ShaderPass.#ctor(System.String,Prowl.Runtime.ShaderPassDescription,Prowl.Runtime.ShaderVariant[])
+  id: '#ctor(System.String,Prowl.Runtime.ShaderPassDescription,Prowl.Runtime.ShaderVariant[])'
+  parent: Prowl.Runtime.ShaderPass
+  langs:
+  - csharp
+  - vb
+  name: ShaderPass(string, ShaderPassDescription, ShaderVariant[])
+  nameWithType: ShaderPass.ShaderPass(string, ShaderPassDescription, ShaderVariant[])
+  fullName: Prowl.Runtime.ShaderPass.ShaderPass(string, Prowl.Runtime.ShaderPassDescription, Prowl.Runtime.ShaderVariant[])
+  type: Constructor
+  source:
+    remote:
+      path: Prowl.Runtime/Rendering/Shader/ShaderPass.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: .ctor
+    path: ../Prowl/Prowl.Runtime/Rendering/Shader/ShaderPass.cs
+    startLine: 103
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public ShaderPass(string name, ShaderPassDescription description, ShaderVariant[] variants)
+    parameters:
+    - id: name
+      type: System.String
+    - id: description
+      type: Prowl.Runtime.ShaderPassDescription
+    - id: variants
+      type: Prowl.Runtime.ShaderVariant[]
+    content.vb: Public Sub New(name As String, description As ShaderPassDescription, variants As ShaderVariant())
+  overload: Prowl.Runtime.ShaderPass.#ctor*
+  nameWithType.vb: ShaderPass.New(String, ShaderPassDescription, ShaderVariant())
+  fullName.vb: Prowl.Runtime.ShaderPass.New(String, Prowl.Runtime.ShaderPassDescription, Prowl.Runtime.ShaderVariant())
+  name.vb: New(String, ShaderPassDescription, ShaderVariant())
+- uid: Prowl.Runtime.ShaderPass.GetVariant(Prowl.Runtime.KeywordState)
+  commentId: M:Prowl.Runtime.ShaderPass.GetVariant(Prowl.Runtime.KeywordState)
+  id: GetVariant(Prowl.Runtime.KeywordState)
+  parent: Prowl.Runtime.ShaderPass
+  langs:
+  - csharp
+  - vb
+  name: GetVariant(KeywordState?)
+  nameWithType: ShaderPass.GetVariant(KeywordState?)
+  fullName: Prowl.Runtime.ShaderPass.GetVariant(Prowl.Runtime.KeywordState?)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Rendering/Shader/ShaderPass.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: GetVariant
+    path: ../Prowl/Prowl.Runtime/Rendering/Shader/ShaderPass.cs
+    startLine: 120
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public ShaderVariant GetVariant(KeywordState? keywordID = null)
+    parameters:
+    - id: keywordID
+      type: Prowl.Runtime.KeywordState
+    return:
+      type: Prowl.Runtime.ShaderVariant
+    content.vb: Public Function GetVariant(keywordID As KeywordState = Nothing) As ShaderVariant
+  overload: Prowl.Runtime.ShaderPass.GetVariant*
+  nameWithType.vb: ShaderPass.GetVariant(KeywordState)
+  fullName.vb: Prowl.Runtime.ShaderPass.GetVariant(Prowl.Runtime.KeywordState)
+  name.vb: GetVariant(KeywordState)
+- uid: Prowl.Runtime.ShaderPass.TryGetVariant(Prowl.Runtime.KeywordState,Prowl.Runtime.ShaderVariant@)
+  commentId: M:Prowl.Runtime.ShaderPass.TryGetVariant(Prowl.Runtime.KeywordState,Prowl.Runtime.ShaderVariant@)
+  id: TryGetVariant(Prowl.Runtime.KeywordState,Prowl.Runtime.ShaderVariant@)
+  parent: Prowl.Runtime.ShaderPass
+  langs:
+  - csharp
+  - vb
+  name: TryGetVariant(KeywordState?, out ShaderVariant?)
+  nameWithType: ShaderPass.TryGetVariant(KeywordState?, out ShaderVariant?)
+  fullName: Prowl.Runtime.ShaderPass.TryGetVariant(Prowl.Runtime.KeywordState?, out Prowl.Runtime.ShaderVariant?)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Rendering/Shader/ShaderPass.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: TryGetVariant
+    path: ../Prowl/Prowl.Runtime/Rendering/Shader/ShaderPass.cs
+    startLine: 123
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public bool TryGetVariant(KeywordState? keywordID, out ShaderVariant? variant)
+    parameters:
+    - id: keywordID
+      type: Prowl.Runtime.KeywordState
+    - id: variant
+      type: Prowl.Runtime.ShaderVariant
+    return:
+      type: System.Boolean
+    content.vb: Public Function TryGetVariant(keywordID As KeywordState, [variant] As ShaderVariant) As Boolean
+  overload: Prowl.Runtime.ShaderPass.TryGetVariant*
+  nameWithType.vb: ShaderPass.TryGetVariant(KeywordState, ShaderVariant)
+  fullName.vb: Prowl.Runtime.ShaderPass.TryGetVariant(Prowl.Runtime.KeywordState, Prowl.Runtime.ShaderVariant)
+  name.vb: TryGetVariant(KeywordState, ShaderVariant)
+- uid: Prowl.Runtime.ShaderPass.HasTag(System.String,System.String)
+  commentId: M:Prowl.Runtime.ShaderPass.HasTag(System.String,System.String)
+  id: HasTag(System.String,System.String)
+  parent: Prowl.Runtime.ShaderPass
+  langs:
+  - csharp
+  - vb
+  name: HasTag(string, string?)
+  nameWithType: ShaderPass.HasTag(string, string?)
+  fullName: Prowl.Runtime.ShaderPass.HasTag(string, string?)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Rendering/Shader/ShaderPass.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: HasTag
+    path: ../Prowl/Prowl.Runtime/Rendering/Shader/ShaderPass.cs
+    startLine: 126
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public bool HasTag(string tag, string? tagValue = null)
+    parameters:
+    - id: tag
+      type: System.String
+    - id: tagValue
+      type: System.String
+    return:
+      type: System.Boolean
+    content.vb: Public Function HasTag(tag As String, tagValue As String = Nothing) As Boolean
+  overload: Prowl.Runtime.ShaderPass.HasTag*
+  nameWithType.vb: ShaderPass.HasTag(String, String)
+  fullName.vb: Prowl.Runtime.ShaderPass.HasTag(String, String)
+  name.vb: HasTag(String, String)
+- uid: Prowl.Runtime.ShaderPass.ValidateKeyword(Prowl.Runtime.KeywordState)
+  commentId: M:Prowl.Runtime.ShaderPass.ValidateKeyword(Prowl.Runtime.KeywordState)
+  id: ValidateKeyword(Prowl.Runtime.KeywordState)
+  parent: Prowl.Runtime.ShaderPass
+  langs:
+  - csharp
+  - vb
+  name: ValidateKeyword(KeywordState)
+  nameWithType: ShaderPass.ValidateKeyword(KeywordState)
+  fullName: Prowl.Runtime.ShaderPass.ValidateKeyword(Prowl.Runtime.KeywordState)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Rendering/Shader/ShaderPass.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: ValidateKeyword
+    path: ../Prowl/Prowl.Runtime/Rendering/Shader/ShaderPass.cs
+    startLine: 134
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public KeywordState ValidateKeyword(KeywordState key)
+    parameters:
+    - id: key
+      type: Prowl.Runtime.KeywordState
+    return:
+      type: Prowl.Runtime.KeywordState
+    content.vb: Public Function ValidateKeyword(key As KeywordState) As KeywordState
+  overload: Prowl.Runtime.ShaderPass.ValidateKeyword*
+- uid: Prowl.Runtime.ShaderPass.OnBeforeSerialize
+  commentId: M:Prowl.Runtime.ShaderPass.OnBeforeSerialize
+  id: OnBeforeSerialize
+  parent: Prowl.Runtime.ShaderPass
+  langs:
+  - csharp
+  - vb
+  name: OnBeforeSerialize()
+  nameWithType: ShaderPass.OnBeforeSerialize()
+  fullName: Prowl.Runtime.ShaderPass.OnBeforeSerialize()
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Rendering/Shader/ShaderPass.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: OnBeforeSerialize
+    path: ../Prowl/Prowl.Runtime/Rendering/Shader/ShaderPass.cs
+    startLine: 161
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: Called right before the Serializer serializes this object
+  example: []
+  syntax:
+    content: public void OnBeforeSerialize()
+    content.vb: Public Sub OnBeforeSerialize()
+  overload: Prowl.Runtime.ShaderPass.OnBeforeSerialize*
+  implements:
+  - Prowl.Runtime.ISerializationCallbackReceiver.OnBeforeSerialize
+- uid: Prowl.Runtime.ShaderPass.OnAfterDeserialize
+  commentId: M:Prowl.Runtime.ShaderPass.OnAfterDeserialize
+  id: OnAfterDeserialize
+  parent: Prowl.Runtime.ShaderPass
+  langs:
+  - csharp
+  - vb
+  name: OnAfterDeserialize()
+  nameWithType: ShaderPass.OnAfterDeserialize()
+  fullName: Prowl.Runtime.ShaderPass.OnAfterDeserialize()
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Rendering/Shader/ShaderPass.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: OnAfterDeserialize
+    path: ../Prowl/Prowl.Runtime/Rendering/Shader/ShaderPass.cs
+    startLine: 169
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: Called right after the Serializer deserializes this object
+  example: []
+  syntax:
+    content: public void OnAfterDeserialize()
+    content.vb: Public Sub OnAfterDeserialize()
+  overload: Prowl.Runtime.ShaderPass.OnAfterDeserialize*
+  implements:
+  - Prowl.Runtime.ISerializationCallbackReceiver.OnAfterDeserialize
+references:
+- uid: Prowl.Runtime
+  commentId: N:Prowl.Runtime
+  href: Prowl.html
+  name: Prowl.Runtime
+  nameWithType: Prowl.Runtime
+  fullName: Prowl.Runtime
+  spec.csharp:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+  spec.vb:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Prowl.Runtime.ISerializationCallbackReceiver
+  commentId: T:Prowl.Runtime.ISerializationCallbackReceiver
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.ISerializationCallbackReceiver.html
+  name: ISerializationCallbackReceiver
+  nameWithType: ISerializationCallbackReceiver
+  fullName: Prowl.Runtime.ISerializationCallbackReceiver
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Prowl.Runtime.RuntimeUtils.GetSerializableFields
+  commentId: M:Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  parent: Prowl.Runtime.RuntimeUtils
+  definition: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  name: GetSerializableFields(object)
+  nameWithType: RuntimeUtils.GetSerializableFields(object)
+  fullName: Prowl.Runtime.RuntimeUtils.GetSerializableFields(object)
+  nameWithType.vb: RuntimeUtils.GetSerializableFields(Object)
+  fullName.vb: Prowl.Runtime.RuntimeUtils.GetSerializableFields(Object)
+  name.vb: GetSerializableFields(Object)
+  spec.csharp:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  commentId: M:Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  isExternal: true
+  href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  name: GetSerializableFields(object)
+  nameWithType: RuntimeUtils.GetSerializableFields(object)
+  fullName: Prowl.Runtime.RuntimeUtils.GetSerializableFields(object)
+  nameWithType.vb: RuntimeUtils.GetSerializableFields(Object)
+  fullName.vb: Prowl.Runtime.RuntimeUtils.GetSerializableFields(Object)
+  name.vb: GetSerializableFields(Object)
+  spec.csharp:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: Prowl.Runtime.RuntimeUtils
+  commentId: T:Prowl.Runtime.RuntimeUtils
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.RuntimeUtils.html
+  name: RuntimeUtils
+  nameWithType: RuntimeUtils
+  fullName: Prowl.Runtime.RuntimeUtils
+- uid: Prowl.Runtime.ShaderPass
+  commentId: T:Prowl.Runtime.ShaderPass
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.ShaderPass.html
+  name: ShaderPass
+  nameWithType: ShaderPass
+  fullName: Prowl.Runtime.ShaderPass
+- uid: Prowl.Runtime.ShaderPass.Name*
+  commentId: Overload:Prowl.Runtime.ShaderPass.Name
+  href: Prowl.Runtime.ShaderPass.html#Prowl_Runtime_ShaderPass_Name
+  name: Name
+  nameWithType: ShaderPass.Name
+  fullName: Prowl.Runtime.ShaderPass.Name
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: Prowl.Runtime.ShaderPass.Tags*
+  commentId: Overload:Prowl.Runtime.ShaderPass.Tags
+  href: Prowl.Runtime.ShaderPass.html#Prowl_Runtime_ShaderPass_Tags
+  name: Tags
+  nameWithType: ShaderPass.Tags
+  fullName: Prowl.Runtime.ShaderPass.Tags
+- uid: System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{System.String,System.String}}
+  commentId: T:System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{System.String,System.String}}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<KeyValuePair<string, string>>
+  nameWithType: IEnumerable<KeyValuePair<string, string>>
+  fullName: System.Collections.Generic.IEnumerable<System.Collections.Generic.KeyValuePair<string, string>>
+  nameWithType.vb: IEnumerable(Of KeyValuePair(Of String, String))
+  fullName.vb: System.Collections.Generic.IEnumerable(Of System.Collections.Generic.KeyValuePair(Of String, String))
+  name.vb: IEnumerable(Of KeyValuePair(Of String, String))
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - uid: System.Collections.Generic.KeyValuePair`2
+    name: KeyValuePair
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair-2
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '>'
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Collections.Generic.KeyValuePair`2
+    name: KeyValuePair
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair-2
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  - name: )
+- uid: System.Collections.Generic.IEnumerable`1
+  commentId: T:System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: Prowl.Runtime.ShaderPass.Blend*
+  commentId: Overload:Prowl.Runtime.ShaderPass.Blend
+  href: Prowl.Runtime.ShaderPass.html#Prowl_Runtime_ShaderPass_Blend
+  name: Blend
+  nameWithType: ShaderPass.Blend
+  fullName: Prowl.Runtime.ShaderPass.Blend
+- uid: Veldrid.BlendStateDescription
+  commentId: T:Veldrid.BlendStateDescription
+  parent: Veldrid
+  name: BlendStateDescription
+  nameWithType: BlendStateDescription
+  fullName: Veldrid.BlendStateDescription
+- uid: Veldrid
+  commentId: N:Veldrid
+  name: Veldrid
+  nameWithType: Veldrid
+  fullName: Veldrid
+- uid: Prowl.Runtime.ShaderPass.DepthStencilState*
+  commentId: Overload:Prowl.Runtime.ShaderPass.DepthStencilState
+  href: Prowl.Runtime.ShaderPass.html#Prowl_Runtime_ShaderPass_DepthStencilState
+  name: DepthStencilState
+  nameWithType: ShaderPass.DepthStencilState
+  fullName: Prowl.Runtime.ShaderPass.DepthStencilState
+- uid: Veldrid.DepthStencilStateDescription
+  commentId: T:Veldrid.DepthStencilStateDescription
+  parent: Veldrid
+  name: DepthStencilStateDescription
+  nameWithType: DepthStencilStateDescription
+  fullName: Veldrid.DepthStencilStateDescription
+- uid: Prowl.Runtime.ShaderPass.CullMode*
+  commentId: Overload:Prowl.Runtime.ShaderPass.CullMode
+  href: Prowl.Runtime.ShaderPass.html#Prowl_Runtime_ShaderPass_CullMode
+  name: CullMode
+  nameWithType: ShaderPass.CullMode
+  fullName: Prowl.Runtime.ShaderPass.CullMode
+- uid: Veldrid.FaceCullMode
+  commentId: T:Veldrid.FaceCullMode
+  parent: Veldrid
+  name: FaceCullMode
+  nameWithType: FaceCullMode
+  fullName: Veldrid.FaceCullMode
+- uid: Prowl.Runtime.ShaderPass.DepthClipEnabled*
+  commentId: Overload:Prowl.Runtime.ShaderPass.DepthClipEnabled
+  href: Prowl.Runtime.ShaderPass.html#Prowl_Runtime_ShaderPass_DepthClipEnabled
+  name: DepthClipEnabled
+  nameWithType: ShaderPass.DepthClipEnabled
+  fullName: Prowl.Runtime.ShaderPass.DepthClipEnabled
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: Prowl.Runtime.ShaderPass.Keywords*
+  commentId: Overload:Prowl.Runtime.ShaderPass.Keywords
+  href: Prowl.Runtime.ShaderPass.html#Prowl_Runtime_ShaderPass_Keywords
+  name: Keywords
+  nameWithType: ShaderPass.Keywords
+  fullName: Prowl.Runtime.ShaderPass.Keywords
+- uid: System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{System.String,System.Collections.Generic.HashSet{System.String}}}
+  commentId: T:System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{System.String,System.Collections.Generic.HashSet{System.String}}}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<KeyValuePair<string, HashSet<string>>>
+  nameWithType: IEnumerable<KeyValuePair<string, HashSet<string>>>
+  fullName: System.Collections.Generic.IEnumerable<System.Collections.Generic.KeyValuePair<string, System.Collections.Generic.HashSet<string>>>
+  nameWithType.vb: IEnumerable(Of KeyValuePair(Of String, HashSet(Of String)))
+  fullName.vb: System.Collections.Generic.IEnumerable(Of System.Collections.Generic.KeyValuePair(Of String, System.Collections.Generic.HashSet(Of String)))
+  name.vb: IEnumerable(Of KeyValuePair(Of String, HashSet(Of String)))
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - uid: System.Collections.Generic.KeyValuePair`2
+    name: KeyValuePair
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair-2
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Collections.Generic.HashSet`1
+    name: HashSet
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '>'
+  - name: '>'
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Collections.Generic.KeyValuePair`2
+    name: KeyValuePair
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair-2
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Collections.Generic.HashSet`1
+    name: HashSet
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  - name: )
+  - name: )
+- uid: Prowl.Runtime.ShaderPass.Variants*
+  commentId: Overload:Prowl.Runtime.ShaderPass.Variants
+  href: Prowl.Runtime.ShaderPass.html#Prowl_Runtime_ShaderPass_Variants
+  name: Variants
+  nameWithType: ShaderPass.Variants
+  fullName: Prowl.Runtime.ShaderPass.Variants
+- uid: System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{Prowl.Runtime.KeywordState,Prowl.Runtime.ShaderVariant}}
+  commentId: T:System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{Prowl.Runtime.KeywordState,Prowl.Runtime.ShaderVariant}}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<KeyValuePair<KeywordState, ShaderVariant>>
+  nameWithType: IEnumerable<KeyValuePair<KeywordState, ShaderVariant>>
+  fullName: System.Collections.Generic.IEnumerable<System.Collections.Generic.KeyValuePair<Prowl.Runtime.KeywordState, Prowl.Runtime.ShaderVariant>>
+  nameWithType.vb: IEnumerable(Of KeyValuePair(Of KeywordState, ShaderVariant))
+  fullName.vb: System.Collections.Generic.IEnumerable(Of System.Collections.Generic.KeyValuePair(Of Prowl.Runtime.KeywordState, Prowl.Runtime.ShaderVariant))
+  name.vb: IEnumerable(Of KeyValuePair(Of KeywordState, ShaderVariant))
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - uid: System.Collections.Generic.KeyValuePair`2
+    name: KeyValuePair
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair-2
+  - name: <
+  - uid: Prowl.Runtime.KeywordState
+    name: KeywordState
+    href: Prowl.Runtime.KeywordState.html
+  - name: ','
+  - name: " "
+  - uid: Prowl.Runtime.ShaderVariant
+    name: ShaderVariant
+    href: Prowl.Runtime.ShaderVariant.html
+  - name: '>'
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Collections.Generic.KeyValuePair`2
+    name: KeyValuePair
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair-2
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Prowl.Runtime.KeywordState
+    name: KeywordState
+    href: Prowl.Runtime.KeywordState.html
+  - name: ','
+  - name: " "
+  - uid: Prowl.Runtime.ShaderVariant
+    name: ShaderVariant
+    href: Prowl.Runtime.ShaderVariant.html
+  - name: )
+  - name: )
+- uid: Prowl.Runtime.ShaderPass.#ctor*
+  commentId: Overload:Prowl.Runtime.ShaderPass.#ctor
+  href: Prowl.Runtime.ShaderPass.html#Prowl_Runtime_ShaderPass__ctor_System_String_Prowl_Runtime_ShaderPassDescription_Prowl_Runtime_ShaderVariant___
+  name: ShaderPass
+  nameWithType: ShaderPass.ShaderPass
+  fullName: Prowl.Runtime.ShaderPass.ShaderPass
+  nameWithType.vb: ShaderPass.New
+  fullName.vb: Prowl.Runtime.ShaderPass.New
+  name.vb: New
+- uid: Prowl.Runtime.ShaderPassDescription
+  commentId: T:Prowl.Runtime.ShaderPassDescription
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.ShaderPassDescription.html
+  name: ShaderPassDescription
+  nameWithType: ShaderPassDescription
+  fullName: Prowl.Runtime.ShaderPassDescription
+- uid: Prowl.Runtime.ShaderVariant[]
+  isExternal: true
+  href: Prowl.Runtime.ShaderVariant.html
+  name: ShaderVariant[]
+  nameWithType: ShaderVariant[]
+  fullName: Prowl.Runtime.ShaderVariant[]
+  nameWithType.vb: ShaderVariant()
+  fullName.vb: Prowl.Runtime.ShaderVariant()
+  name.vb: ShaderVariant()
+  spec.csharp:
+  - uid: Prowl.Runtime.ShaderVariant
+    name: ShaderVariant
+    href: Prowl.Runtime.ShaderVariant.html
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: Prowl.Runtime.ShaderVariant
+    name: ShaderVariant
+    href: Prowl.Runtime.ShaderVariant.html
+  - name: (
+  - name: )
+- uid: Prowl.Runtime.ShaderPass.GetVariant*
+  commentId: Overload:Prowl.Runtime.ShaderPass.GetVariant
+  href: Prowl.Runtime.ShaderPass.html#Prowl_Runtime_ShaderPass_GetVariant_Prowl_Runtime_KeywordState_
+  name: GetVariant
+  nameWithType: ShaderPass.GetVariant
+  fullName: Prowl.Runtime.ShaderPass.GetVariant
+- uid: Prowl.Runtime.KeywordState
+  commentId: T:Prowl.Runtime.KeywordState
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.KeywordState.html
+  name: KeywordState
+  nameWithType: KeywordState
+  fullName: Prowl.Runtime.KeywordState
+- uid: Prowl.Runtime.ShaderVariant
+  commentId: T:Prowl.Runtime.ShaderVariant
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.ShaderVariant.html
+  name: ShaderVariant
+  nameWithType: ShaderVariant
+  fullName: Prowl.Runtime.ShaderVariant
+- uid: Prowl.Runtime.ShaderPass.TryGetVariant*
+  commentId: Overload:Prowl.Runtime.ShaderPass.TryGetVariant
+  href: Prowl.Runtime.ShaderPass.html#Prowl_Runtime_ShaderPass_TryGetVariant_Prowl_Runtime_KeywordState_Prowl_Runtime_ShaderVariant__
+  name: TryGetVariant
+  nameWithType: ShaderPass.TryGetVariant
+  fullName: Prowl.Runtime.ShaderPass.TryGetVariant
+- uid: Prowl.Runtime.ShaderPass.HasTag*
+  commentId: Overload:Prowl.Runtime.ShaderPass.HasTag
+  href: Prowl.Runtime.ShaderPass.html#Prowl_Runtime_ShaderPass_HasTag_System_String_System_String_
+  name: HasTag
+  nameWithType: ShaderPass.HasTag
+  fullName: Prowl.Runtime.ShaderPass.HasTag
+- uid: Prowl.Runtime.ShaderPass.ValidateKeyword*
+  commentId: Overload:Prowl.Runtime.ShaderPass.ValidateKeyword
+  href: Prowl.Runtime.ShaderPass.html#Prowl_Runtime_ShaderPass_ValidateKeyword_Prowl_Runtime_KeywordState_
+  name: ValidateKeyword
+  nameWithType: ShaderPass.ValidateKeyword
+  fullName: Prowl.Runtime.ShaderPass.ValidateKeyword
+- uid: Prowl.Runtime.ShaderPass.OnBeforeSerialize*
+  commentId: Overload:Prowl.Runtime.ShaderPass.OnBeforeSerialize
+  href: Prowl.Runtime.ShaderPass.html#Prowl_Runtime_ShaderPass_OnBeforeSerialize
+  name: OnBeforeSerialize
+  nameWithType: ShaderPass.OnBeforeSerialize
+  fullName: Prowl.Runtime.ShaderPass.OnBeforeSerialize
+- uid: Prowl.Runtime.ISerializationCallbackReceiver.OnBeforeSerialize
+  commentId: M:Prowl.Runtime.ISerializationCallbackReceiver.OnBeforeSerialize
+  parent: Prowl.Runtime.ISerializationCallbackReceiver
+  href: Prowl.Runtime.ISerializationCallbackReceiver.html#Prowl_Runtime_ISerializationCallbackReceiver_OnBeforeSerialize
+  name: OnBeforeSerialize()
+  nameWithType: ISerializationCallbackReceiver.OnBeforeSerialize()
+  fullName: Prowl.Runtime.ISerializationCallbackReceiver.OnBeforeSerialize()
+  spec.csharp:
+  - uid: Prowl.Runtime.ISerializationCallbackReceiver.OnBeforeSerialize
+    name: OnBeforeSerialize
+    href: Prowl.Runtime.ISerializationCallbackReceiver.html#Prowl_Runtime_ISerializationCallbackReceiver_OnBeforeSerialize
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.ISerializationCallbackReceiver.OnBeforeSerialize
+    name: OnBeforeSerialize
+    href: Prowl.Runtime.ISerializationCallbackReceiver.html#Prowl_Runtime_ISerializationCallbackReceiver_OnBeforeSerialize
+  - name: (
+  - name: )
+- uid: Prowl.Runtime.ShaderPass.OnAfterDeserialize*
+  commentId: Overload:Prowl.Runtime.ShaderPass.OnAfterDeserialize
+  href: Prowl.Runtime.ShaderPass.html#Prowl_Runtime_ShaderPass_OnAfterDeserialize
+  name: OnAfterDeserialize
+  nameWithType: ShaderPass.OnAfterDeserialize
+  fullName: Prowl.Runtime.ShaderPass.OnAfterDeserialize
+- uid: Prowl.Runtime.ISerializationCallbackReceiver.OnAfterDeserialize
+  commentId: M:Prowl.Runtime.ISerializationCallbackReceiver.OnAfterDeserialize
+  parent: Prowl.Runtime.ISerializationCallbackReceiver
+  href: Prowl.Runtime.ISerializationCallbackReceiver.html#Prowl_Runtime_ISerializationCallbackReceiver_OnAfterDeserialize
+  name: OnAfterDeserialize()
+  nameWithType: ISerializationCallbackReceiver.OnAfterDeserialize()
+  fullName: Prowl.Runtime.ISerializationCallbackReceiver.OnAfterDeserialize()
+  spec.csharp:
+  - uid: Prowl.Runtime.ISerializationCallbackReceiver.OnAfterDeserialize
+    name: OnAfterDeserialize
+    href: Prowl.Runtime.ISerializationCallbackReceiver.html#Prowl_Runtime_ISerializationCallbackReceiver_OnAfterDeserialize
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.ISerializationCallbackReceiver.OnAfterDeserialize
+    name: OnAfterDeserialize
+    href: Prowl.Runtime.ISerializationCallbackReceiver.html#Prowl_Runtime_ISerializationCallbackReceiver_OnAfterDeserialize
+  - name: (
+  - name: )

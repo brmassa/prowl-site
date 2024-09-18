@@ -1,0 +1,1680 @@
+### YamlMime:ManagedReference
+items:
+- uid: Prowl.Runtime.Physics
+  commentId: T:Prowl.Runtime.Physics
+  id: Physics
+  parent: Prowl.Runtime
+  children:
+  - Prowl.Runtime.Physics.Characters
+  - Prowl.Runtime.Physics.Dispatcher
+  - Prowl.Runtime.Physics.Dispose
+  - Prowl.Runtime.Physics.GetContainer(BepuPhysics.BodyHandle)
+  - Prowl.Runtime.Physics.GetContainer(BepuPhysics.Collidables.CollidableReference)
+  - Prowl.Runtime.Physics.GetContainer(BepuPhysics.StaticHandle)
+  - Prowl.Runtime.Physics.Initialize
+  - Prowl.Runtime.Physics.IsReady
+  - Prowl.Runtime.Physics.Overlap``1(``0@,BepuPhysics.RigidPose@,Prowl.Runtime.PhysicsBody[],System.Span{Prowl.Runtime.PhysicsBody}@,System.Nullable{Prowl.Runtime.LayerMask})
+  - Prowl.Runtime.Physics.Overlap``1(``0@,BepuPhysics.RigidPose@,System.Collections.Generic.ICollection{Prowl.Runtime.PhysicsBody},System.Nullable{Prowl.Runtime.LayerMask})
+  - Prowl.Runtime.Physics.Overlap``1(``0@,BepuPhysics.RigidPose@,System.Nullable{Prowl.Runtime.LayerMask})
+  - Prowl.Runtime.Physics.Pool
+  - Prowl.Runtime.Physics.RayCast(Prowl.Runtime.Vector3@,Prowl.Runtime.Vector3@,System.Single,Prowl.Runtime.Raycast.HitInfo@,System.Nullable{Prowl.Runtime.LayerMask})
+  - Prowl.Runtime.Physics.RaycastPenetrating(Prowl.Runtime.Vector3@,Prowl.Runtime.Vector3@,System.Single,Prowl.Runtime.Raycast.HitInfo[],System.Span{Prowl.Runtime.Raycast.HitInfo}@,System.Nullable{Prowl.Runtime.LayerMask})
+  - Prowl.Runtime.Physics.RaycastPenetrating(Prowl.Runtime.Vector3@,Prowl.Runtime.Vector3@,System.Single,System.Collections.Generic.ICollection{Prowl.Runtime.Raycast.HitInfo},System.Nullable{Prowl.Runtime.LayerMask})
+  - Prowl.Runtime.Physics.Sim
+  - Prowl.Runtime.Physics.SweepCastPenetrating``1(``0@,BepuPhysics.RigidPose@,BepuPhysics.BodyVelocity@,System.Single,Prowl.Runtime.Raycast.HitInfo[],System.Span{Prowl.Runtime.Raycast.HitInfo}@,System.Nullable{Prowl.Runtime.LayerMask})
+  - Prowl.Runtime.Physics.SweepCastPenetrating``1(``0@,BepuPhysics.RigidPose@,BepuPhysics.BodyVelocity@,System.Single,System.Collections.Generic.ICollection{Prowl.Runtime.Raycast.HitInfo},System.Nullable{Prowl.Runtime.LayerMask})
+  - Prowl.Runtime.Physics.SweepCast``1(``0@,BepuPhysics.RigidPose@,BepuPhysics.BodyVelocity@,System.Single,Prowl.Runtime.Raycast.HitInfo@,System.Nullable{Prowl.Runtime.LayerMask})
+  - Prowl.Runtime.Physics.Update
+  langs:
+  - csharp
+  - vb
+  name: Physics
+  nameWithType: Physics
+  fullName: Prowl.Runtime.Physics
+  type: Class
+  source:
+    remote:
+      path: Prowl.Runtime/Physics.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Physics
+    path: ../Prowl/Prowl.Runtime/Physics.cs
+    startLine: 36
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public static class Physics
+    content.vb: Public Module Physics
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: Prowl.Runtime.Physics.IsReady
+  commentId: P:Prowl.Runtime.Physics.IsReady
+  id: IsReady
+  parent: Prowl.Runtime.Physics
+  langs:
+  - csharp
+  - vb
+  name: IsReady
+  nameWithType: Physics.IsReady
+  fullName: Prowl.Runtime.Physics.IsReady
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/Physics.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: IsReady
+    path: ../Prowl/Prowl.Runtime/Physics.cs
+    startLine: 38
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public static bool IsReady { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Shared ReadOnly Property IsReady As Boolean
+  overload: Prowl.Runtime.Physics.IsReady*
+- uid: Prowl.Runtime.Physics.Sim
+  commentId: P:Prowl.Runtime.Physics.Sim
+  id: Sim
+  parent: Prowl.Runtime.Physics
+  langs:
+  - csharp
+  - vb
+  name: Sim
+  nameWithType: Physics.Sim
+  fullName: Prowl.Runtime.Physics.Sim
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/Physics.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Sim
+    path: ../Prowl/Prowl.Runtime/Physics.cs
+    startLine: 40
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public static Simulation? Sim { get; }
+    parameters: []
+    return:
+      type: BepuPhysics.Simulation
+    content.vb: Public Shared Property Sim As Simulation
+  overload: Prowl.Runtime.Physics.Sim*
+- uid: Prowl.Runtime.Physics.Pool
+  commentId: P:Prowl.Runtime.Physics.Pool
+  id: Pool
+  parent: Prowl.Runtime.Physics
+  langs:
+  - csharp
+  - vb
+  name: Pool
+  nameWithType: Physics.Pool
+  fullName: Prowl.Runtime.Physics.Pool
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/Physics.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Pool
+    path: ../Prowl/Prowl.Runtime/Physics.cs
+    startLine: 41
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public static BufferPool? Pool { get; }
+    parameters: []
+    return:
+      type: BepuUtilities.Memory.BufferPool
+    content.vb: Public Shared Property Pool As BufferPool
+  overload: Prowl.Runtime.Physics.Pool*
+- uid: Prowl.Runtime.Physics.Dispatcher
+  commentId: P:Prowl.Runtime.Physics.Dispatcher
+  id: Dispatcher
+  parent: Prowl.Runtime.Physics
+  langs:
+  - csharp
+  - vb
+  name: Dispatcher
+  nameWithType: Physics.Dispatcher
+  fullName: Prowl.Runtime.Physics.Dispatcher
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/Physics.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Dispatcher
+    path: ../Prowl/Prowl.Runtime/Physics.cs
+    startLine: 42
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public static ThreadDispatcher? Dispatcher { get; }
+    parameters: []
+    return:
+      type: BepuUtilities.ThreadDispatcher
+    content.vb: Public Shared Property Dispatcher As ThreadDispatcher
+  overload: Prowl.Runtime.Physics.Dispatcher*
+- uid: Prowl.Runtime.Physics.Characters
+  commentId: P:Prowl.Runtime.Physics.Characters
+  id: Characters
+  parent: Prowl.Runtime.Physics
+  langs:
+  - csharp
+  - vb
+  name: Characters
+  nameWithType: Physics.Characters
+  fullName: Prowl.Runtime.Physics.Characters
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/Physics.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Characters
+    path: ../Prowl/Prowl.Runtime/Physics.cs
+    startLine: 44
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public static CharacterControllersManager? Characters { get; }
+    parameters: []
+    return:
+      type: Prowl.Runtime.Controller.CharacterControllersManager
+    content.vb: Public Shared Property Characters As CharacterControllersManager
+  overload: Prowl.Runtime.Physics.Characters*
+- uid: Prowl.Runtime.Physics.GetContainer(BepuPhysics.Collidables.CollidableReference)
+  commentId: M:Prowl.Runtime.Physics.GetContainer(BepuPhysics.Collidables.CollidableReference)
+  id: GetContainer(BepuPhysics.Collidables.CollidableReference)
+  parent: Prowl.Runtime.Physics
+  langs:
+  - csharp
+  - vb
+  name: GetContainer(CollidableReference)
+  nameWithType: Physics.GetContainer(CollidableReference)
+  fullName: Prowl.Runtime.Physics.GetContainer(BepuPhysics.Collidables.CollidableReference)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Physics.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: GetContainer
+    path: ../Prowl/Prowl.Runtime/Physics.cs
+    startLine: 57
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public static PhysicsBody GetContainer(CollidableReference collidable)
+    parameters:
+    - id: collidable
+      type: BepuPhysics.Collidables.CollidableReference
+    return:
+      type: Prowl.Runtime.PhysicsBody
+    content.vb: Public Shared Function GetContainer(collidable As CollidableReference) As PhysicsBody
+  overload: Prowl.Runtime.Physics.GetContainer*
+- uid: Prowl.Runtime.Physics.GetContainer(BepuPhysics.BodyHandle)
+  commentId: M:Prowl.Runtime.Physics.GetContainer(BepuPhysics.BodyHandle)
+  id: GetContainer(BepuPhysics.BodyHandle)
+  parent: Prowl.Runtime.Physics
+  langs:
+  - csharp
+  - vb
+  name: GetContainer(BodyHandle)
+  nameWithType: Physics.GetContainer(BodyHandle)
+  fullName: Prowl.Runtime.Physics.GetContainer(BepuPhysics.BodyHandle)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Physics.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: GetContainer
+    path: ../Prowl/Prowl.Runtime/Physics.cs
+    startLine: 70
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public static Rigidbody GetContainer(BodyHandle handle)
+    parameters:
+    - id: handle
+      type: BepuPhysics.BodyHandle
+    return:
+      type: Prowl.Runtime.Rigidbody
+    content.vb: Public Shared Function GetContainer(handle As BodyHandle) As Rigidbody
+  overload: Prowl.Runtime.Physics.GetContainer*
+- uid: Prowl.Runtime.Physics.GetContainer(BepuPhysics.StaticHandle)
+  commentId: M:Prowl.Runtime.Physics.GetContainer(BepuPhysics.StaticHandle)
+  id: GetContainer(BepuPhysics.StaticHandle)
+  parent: Prowl.Runtime.Physics
+  langs:
+  - csharp
+  - vb
+  name: GetContainer(StaticHandle)
+  nameWithType: Physics.GetContainer(StaticHandle)
+  fullName: Prowl.Runtime.Physics.GetContainer(BepuPhysics.StaticHandle)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Physics.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: GetContainer
+    path: ../Prowl/Prowl.Runtime/Physics.cs
+    startLine: 75
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public static Staticbody GetContainer(StaticHandle handle)
+    parameters:
+    - id: handle
+      type: BepuPhysics.StaticHandle
+    return:
+      type: Prowl.Runtime.Staticbody
+    content.vb: Public Shared Function GetContainer(handle As StaticHandle) As Staticbody
+  overload: Prowl.Runtime.Physics.GetContainer*
+- uid: Prowl.Runtime.Physics.Initialize
+  commentId: M:Prowl.Runtime.Physics.Initialize
+  id: Initialize
+  parent: Prowl.Runtime.Physics
+  langs:
+  - csharp
+  - vb
+  name: Initialize()
+  nameWithType: Physics.Initialize()
+  fullName: Prowl.Runtime.Physics.Initialize()
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Physics.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Initialize
+    path: ../Prowl/Prowl.Runtime/Physics.cs
+    startLine: 80
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public static void Initialize()
+    content.vb: Public Shared Sub Initialize()
+  overload: Prowl.Runtime.Physics.Initialize*
+- uid: Prowl.Runtime.Physics.Update
+  commentId: M:Prowl.Runtime.Physics.Update
+  id: Update
+  parent: Prowl.Runtime.Physics
+  langs:
+  - csharp
+  - vb
+  name: Update()
+  nameWithType: Physics.Update()
+  fullName: Prowl.Runtime.Physics.Update()
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Physics.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Update
+    path: ../Prowl/Prowl.Runtime/Physics.cs
+    startLine: 105
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public static void Update()
+    content.vb: Public Shared Sub Update()
+  overload: Prowl.Runtime.Physics.Update*
+- uid: Prowl.Runtime.Physics.Dispose
+  commentId: M:Prowl.Runtime.Physics.Dispose
+  id: Dispose
+  parent: Prowl.Runtime.Physics
+  langs:
+  - csharp
+  - vb
+  name: Dispose()
+  nameWithType: Physics.Dispose()
+  fullName: Prowl.Runtime.Physics.Dispose()
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Physics.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Dispose
+    path: ../Prowl/Prowl.Runtime/Physics.cs
+    startLine: 175
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public static void Dispose()
+    content.vb: Public Shared Sub Dispose()
+  overload: Prowl.Runtime.Physics.Dispose*
+- uid: Prowl.Runtime.Physics.RayCast(Prowl.Runtime.Vector3@,Prowl.Runtime.Vector3@,System.Single,Prowl.Runtime.Raycast.HitInfo@,System.Nullable{Prowl.Runtime.LayerMask})
+  commentId: M:Prowl.Runtime.Physics.RayCast(Prowl.Runtime.Vector3@,Prowl.Runtime.Vector3@,System.Single,Prowl.Runtime.Raycast.HitInfo@,System.Nullable{Prowl.Runtime.LayerMask})
+  id: RayCast(Prowl.Runtime.Vector3@,Prowl.Runtime.Vector3@,System.Single,Prowl.Runtime.Raycast.HitInfo@,System.Nullable{Prowl.Runtime.LayerMask})
+  parent: Prowl.Runtime.Physics
+  langs:
+  - csharp
+  - vb
+  name: RayCast(in Vector3, in Vector3, float, out HitInfo, LayerMask?)
+  nameWithType: Physics.RayCast(in Vector3, in Vector3, float, out HitInfo, LayerMask?)
+  fullName: Prowl.Runtime.Physics.RayCast(in Prowl.Runtime.Vector3, in Prowl.Runtime.Vector3, float, out Prowl.Runtime.Raycast.HitInfo, Prowl.Runtime.LayerMask?)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Physics.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: RayCast
+    path: ../Prowl/Prowl.Runtime/Physics.cs
+    startLine: 203
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: Finds the closest intersection between this ray and shapes in the simulation.
+  example: []
+  syntax:
+    content: public static bool RayCast(in Vector3 origin, in Vector3 dir, float maxDistance, out HitInfo result, LayerMask? layerMask = null)
+    parameters:
+    - id: origin
+      type: Prowl.Runtime.Vector3
+    - id: dir
+      type: Prowl.Runtime.Vector3
+    - id: maxDistance
+      type: System.Single
+    - id: result
+      type: Prowl.Runtime.Raycast.HitInfo
+    - id: layerMask
+      type: System.Nullable{Prowl.Runtime.LayerMask}
+    return:
+      type: System.Boolean
+      description: True when the given ray intersects with a shape, false otherwise
+    content.vb: Public Shared Function RayCast(origin As Vector3, dir As Vector3, maxDistance As Single, result As HitInfo, layerMask As LayerMask? = Nothing) As Boolean
+  overload: Prowl.Runtime.Physics.RayCast*
+  nameWithType.vb: Physics.RayCast(Vector3, Vector3, Single, HitInfo, LayerMask?)
+  fullName.vb: Prowl.Runtime.Physics.RayCast(Prowl.Runtime.Vector3, Prowl.Runtime.Vector3, Single, Prowl.Runtime.Raycast.HitInfo, Prowl.Runtime.LayerMask?)
+  name.vb: RayCast(Vector3, Vector3, Single, HitInfo, LayerMask?)
+- uid: Prowl.Runtime.Physics.RaycastPenetrating(Prowl.Runtime.Vector3@,Prowl.Runtime.Vector3@,System.Single,Prowl.Runtime.Raycast.HitInfo[],System.Span{Prowl.Runtime.Raycast.HitInfo}@,System.Nullable{Prowl.Runtime.LayerMask})
+  commentId: M:Prowl.Runtime.Physics.RaycastPenetrating(Prowl.Runtime.Vector3@,Prowl.Runtime.Vector3@,System.Single,Prowl.Runtime.Raycast.HitInfo[],System.Span{Prowl.Runtime.Raycast.HitInfo}@,System.Nullable{Prowl.Runtime.LayerMask})
+  id: RaycastPenetrating(Prowl.Runtime.Vector3@,Prowl.Runtime.Vector3@,System.Single,Prowl.Runtime.Raycast.HitInfo[],System.Span{Prowl.Runtime.Raycast.HitInfo}@,System.Nullable{Prowl.Runtime.LayerMask})
+  parent: Prowl.Runtime.Physics
+  langs:
+  - csharp
+  - vb
+  name: RaycastPenetrating(in Vector3, in Vector3, float, HitInfo[], out Span<HitInfo>, LayerMask?)
+  nameWithType: Physics.RaycastPenetrating(in Vector3, in Vector3, float, HitInfo[], out Span<HitInfo>, LayerMask?)
+  fullName: Prowl.Runtime.Physics.RaycastPenetrating(in Prowl.Runtime.Vector3, in Prowl.Runtime.Vector3, float, Prowl.Runtime.Raycast.HitInfo[], out System.Span<Prowl.Runtime.Raycast.HitInfo>, Prowl.Runtime.LayerMask?)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Physics.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: RaycastPenetrating
+    path: ../Prowl/Prowl.Runtime/Physics.cs
+    startLine: 220
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: Collect intersections between the given ray and shapes in this simulation. Hits are NOT sorted.
+  example: []
+  syntax:
+    content: public static void RaycastPenetrating(in Vector3 origin, in Vector3 dir, float maxDistance, HitInfo[] buffer, out Span<HitInfo> hits, LayerMask? collisionMask = null)
+    parameters:
+    - id: origin
+      type: Prowl.Runtime.Vector3
+    - id: dir
+      type: Prowl.Runtime.Vector3
+    - id: maxDistance
+      type: System.Single
+    - id: buffer
+      type: Prowl.Runtime.Raycast.HitInfo[]
+    - id: hits
+      type: System.Span{Prowl.Runtime.Raycast.HitInfo}
+    - id: collisionMask
+      type: System.Nullable{Prowl.Runtime.LayerMask}
+    content.vb: Public Shared Sub RaycastPenetrating(origin As Vector3, dir As Vector3, maxDistance As Single, buffer As HitInfo(), hits As Span(Of HitInfo), collisionMask As LayerMask? = Nothing)
+  overload: Prowl.Runtime.Physics.RaycastPenetrating*
+  nameWithType.vb: Physics.RaycastPenetrating(Vector3, Vector3, Single, HitInfo(), Span(Of HitInfo), LayerMask?)
+  fullName.vb: Prowl.Runtime.Physics.RaycastPenetrating(Prowl.Runtime.Vector3, Prowl.Runtime.Vector3, Single, Prowl.Runtime.Raycast.HitInfo(), System.Span(Of Prowl.Runtime.Raycast.HitInfo), Prowl.Runtime.LayerMask?)
+  name.vb: RaycastPenetrating(Vector3, Vector3, Single, HitInfo(), Span(Of HitInfo), LayerMask?)
+- uid: Prowl.Runtime.Physics.RaycastPenetrating(Prowl.Runtime.Vector3@,Prowl.Runtime.Vector3@,System.Single,System.Collections.Generic.ICollection{Prowl.Runtime.Raycast.HitInfo},System.Nullable{Prowl.Runtime.LayerMask})
+  commentId: M:Prowl.Runtime.Physics.RaycastPenetrating(Prowl.Runtime.Vector3@,Prowl.Runtime.Vector3@,System.Single,System.Collections.Generic.ICollection{Prowl.Runtime.Raycast.HitInfo},System.Nullable{Prowl.Runtime.LayerMask})
+  id: RaycastPenetrating(Prowl.Runtime.Vector3@,Prowl.Runtime.Vector3@,System.Single,System.Collections.Generic.ICollection{Prowl.Runtime.Raycast.HitInfo},System.Nullable{Prowl.Runtime.LayerMask})
+  parent: Prowl.Runtime.Physics
+  langs:
+  - csharp
+  - vb
+  name: RaycastPenetrating(in Vector3, in Vector3, float, ICollection<HitInfo>, LayerMask?)
+  nameWithType: Physics.RaycastPenetrating(in Vector3, in Vector3, float, ICollection<HitInfo>, LayerMask?)
+  fullName: Prowl.Runtime.Physics.RaycastPenetrating(in Prowl.Runtime.Vector3, in Prowl.Runtime.Vector3, float, System.Collections.Generic.ICollection<Prowl.Runtime.Raycast.HitInfo>, Prowl.Runtime.LayerMask?)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Physics.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: RaycastPenetrating
+    path: ../Prowl/Prowl.Runtime/Physics.cs
+    startLine: 230
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: Collect intersections between the given ray and shapes in this simulation. Hits are NOT sorted.
+  example: []
+  syntax:
+    content: public static void RaycastPenetrating(in Vector3 origin, in Vector3 dir, float maxDistance, ICollection<HitInfo> collection, LayerMask? collisionMask = null)
+    parameters:
+    - id: origin
+      type: Prowl.Runtime.Vector3
+    - id: dir
+      type: Prowl.Runtime.Vector3
+    - id: maxDistance
+      type: System.Single
+    - id: collection
+      type: System.Collections.Generic.ICollection{Prowl.Runtime.Raycast.HitInfo}
+    - id: collisionMask
+      type: System.Nullable{Prowl.Runtime.LayerMask}
+    content.vb: Public Shared Sub RaycastPenetrating(origin As Vector3, dir As Vector3, maxDistance As Single, collection As ICollection(Of HitInfo), collisionMask As LayerMask? = Nothing)
+  overload: Prowl.Runtime.Physics.RaycastPenetrating*
+  nameWithType.vb: Physics.RaycastPenetrating(Vector3, Vector3, Single, ICollection(Of HitInfo), LayerMask?)
+  fullName.vb: Prowl.Runtime.Physics.RaycastPenetrating(Prowl.Runtime.Vector3, Prowl.Runtime.Vector3, Single, System.Collections.Generic.ICollection(Of Prowl.Runtime.Raycast.HitInfo), Prowl.Runtime.LayerMask?)
+  name.vb: RaycastPenetrating(Vector3, Vector3, Single, ICollection(Of HitInfo), LayerMask?)
+- uid: Prowl.Runtime.Physics.SweepCast``1(``0@,BepuPhysics.RigidPose@,BepuPhysics.BodyVelocity@,System.Single,Prowl.Runtime.Raycast.HitInfo@,System.Nullable{Prowl.Runtime.LayerMask})
+  commentId: M:Prowl.Runtime.Physics.SweepCast``1(``0@,BepuPhysics.RigidPose@,BepuPhysics.BodyVelocity@,System.Single,Prowl.Runtime.Raycast.HitInfo@,System.Nullable{Prowl.Runtime.LayerMask})
+  id: SweepCast``1(``0@,BepuPhysics.RigidPose@,BepuPhysics.BodyVelocity@,System.Single,Prowl.Runtime.Raycast.HitInfo@,System.Nullable{Prowl.Runtime.LayerMask})
+  parent: Prowl.Runtime.Physics
+  langs:
+  - csharp
+  - vb
+  name: SweepCast<TShape>(in TShape, in RigidPose, in BodyVelocity, float, out HitInfo, LayerMask?)
+  nameWithType: Physics.SweepCast<TShape>(in TShape, in RigidPose, in BodyVelocity, float, out HitInfo, LayerMask?)
+  fullName: Prowl.Runtime.Physics.SweepCast<TShape>(in TShape, in BepuPhysics.RigidPose, in BepuPhysics.BodyVelocity, float, out Prowl.Runtime.Raycast.HitInfo, Prowl.Runtime.LayerMask?)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Physics.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: SweepCast
+    path: ../Prowl/Prowl.Runtime/Physics.cs
+    startLine: 240
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: Finds the closest contact between <code class="paramref">shape</code> and other shapes in the simulation when thrown in <code class="paramref">velocity</code> direction.
+  example: []
+  syntax:
+    content: 'public static bool SweepCast<TShape>(in TShape shape, in RigidPose pose, in BodyVelocity velocity, float maxDistance, out HitInfo result, LayerMask? collisionMask = null) where TShape : unmanaged, IConvexShape'
+    parameters:
+    - id: shape
+      type: '{TShape}'
+    - id: pose
+      type: BepuPhysics.RigidPose
+    - id: velocity
+      type: BepuPhysics.BodyVelocity
+    - id: maxDistance
+      type: System.Single
+    - id: result
+      type: Prowl.Runtime.Raycast.HitInfo
+    - id: collisionMask
+      type: System.Nullable{Prowl.Runtime.LayerMask}
+    typeParameters:
+    - id: TShape
+    return:
+      type: System.Boolean
+      description: True when the given ray intersects with a shape, false otherwise
+    content.vb: Public Shared Function SweepCast(Of TShape As {Structure, IConvexShape})(shape As TShape, pose As RigidPose, velocity As BodyVelocity, maxDistance As Single, result As HitInfo, collisionMask As LayerMask? = Nothing) As Boolean
+  overload: Prowl.Runtime.Physics.SweepCast*
+  nameWithType.vb: Physics.SweepCast(Of TShape)(TShape, RigidPose, BodyVelocity, Single, HitInfo, LayerMask?)
+  fullName.vb: Prowl.Runtime.Physics.SweepCast(Of TShape)(TShape, BepuPhysics.RigidPose, BepuPhysics.BodyVelocity, Single, Prowl.Runtime.Raycast.HitInfo, Prowl.Runtime.LayerMask?)
+  name.vb: SweepCast(Of TShape)(TShape, RigidPose, BodyVelocity, Single, HitInfo, LayerMask?)
+- uid: Prowl.Runtime.Physics.SweepCastPenetrating``1(``0@,BepuPhysics.RigidPose@,BepuPhysics.BodyVelocity@,System.Single,Prowl.Runtime.Raycast.HitInfo[],System.Span{Prowl.Runtime.Raycast.HitInfo}@,System.Nullable{Prowl.Runtime.LayerMask})
+  commentId: M:Prowl.Runtime.Physics.SweepCastPenetrating``1(``0@,BepuPhysics.RigidPose@,BepuPhysics.BodyVelocity@,System.Single,Prowl.Runtime.Raycast.HitInfo[],System.Span{Prowl.Runtime.Raycast.HitInfo}@,System.Nullable{Prowl.Runtime.LayerMask})
+  id: SweepCastPenetrating``1(``0@,BepuPhysics.RigidPose@,BepuPhysics.BodyVelocity@,System.Single,Prowl.Runtime.Raycast.HitInfo[],System.Span{Prowl.Runtime.Raycast.HitInfo}@,System.Nullable{Prowl.Runtime.LayerMask})
+  parent: Prowl.Runtime.Physics
+  langs:
+  - csharp
+  - vb
+  name: SweepCastPenetrating<TShape>(in TShape, in RigidPose, in BodyVelocity, float, HitInfo[], out Span<HitInfo>, LayerMask?)
+  nameWithType: Physics.SweepCastPenetrating<TShape>(in TShape, in RigidPose, in BodyVelocity, float, HitInfo[], out Span<HitInfo>, LayerMask?)
+  fullName: Prowl.Runtime.Physics.SweepCastPenetrating<TShape>(in TShape, in BepuPhysics.RigidPose, in BepuPhysics.BodyVelocity, float, Prowl.Runtime.Raycast.HitInfo[], out System.Span<Prowl.Runtime.Raycast.HitInfo>, Prowl.Runtime.LayerMask?)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Physics.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: SweepCastPenetrating
+    path: ../Prowl/Prowl.Runtime/Physics.cs
+    startLine: 258
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: Finds contacts between <code class="paramref">shape</code> and other shapes in the simulation when thrown in <code class="paramref">velocity</code> direction.
+  example: []
+  syntax:
+    content: 'public static void SweepCastPenetrating<TShape>(in TShape shape, in RigidPose pose, in BodyVelocity velocity, float maxDistance, HitInfo[] buffer, out Span<HitInfo> contacts, LayerMask? collisionMask = null) where TShape : unmanaged, IConvexShape'
+    parameters:
+    - id: shape
+      type: '{TShape}'
+    - id: pose
+      type: BepuPhysics.RigidPose
+    - id: velocity
+      type: BepuPhysics.BodyVelocity
+    - id: maxDistance
+      type: System.Single
+    - id: buffer
+      type: Prowl.Runtime.Raycast.HitInfo[]
+    - id: contacts
+      type: System.Span{Prowl.Runtime.Raycast.HitInfo}
+    - id: collisionMask
+      type: System.Nullable{Prowl.Runtime.LayerMask}
+    typeParameters:
+    - id: TShape
+    content.vb: Public Shared Sub SweepCastPenetrating(Of TShape As {Structure, IConvexShape})(shape As TShape, pose As RigidPose, velocity As BodyVelocity, maxDistance As Single, buffer As HitInfo(), contacts As Span(Of HitInfo), collisionMask As LayerMask? = Nothing)
+  overload: Prowl.Runtime.Physics.SweepCastPenetrating*
+  nameWithType.vb: Physics.SweepCastPenetrating(Of TShape)(TShape, RigidPose, BodyVelocity, Single, HitInfo(), Span(Of HitInfo), LayerMask?)
+  fullName.vb: Prowl.Runtime.Physics.SweepCastPenetrating(Of TShape)(TShape, BepuPhysics.RigidPose, BepuPhysics.BodyVelocity, Single, Prowl.Runtime.Raycast.HitInfo(), System.Span(Of Prowl.Runtime.Raycast.HitInfo), Prowl.Runtime.LayerMask?)
+  name.vb: SweepCastPenetrating(Of TShape)(TShape, RigidPose, BodyVelocity, Single, HitInfo(), Span(Of HitInfo), LayerMask?)
+- uid: Prowl.Runtime.Physics.SweepCastPenetrating``1(``0@,BepuPhysics.RigidPose@,BepuPhysics.BodyVelocity@,System.Single,System.Collections.Generic.ICollection{Prowl.Runtime.Raycast.HitInfo},System.Nullable{Prowl.Runtime.LayerMask})
+  commentId: M:Prowl.Runtime.Physics.SweepCastPenetrating``1(``0@,BepuPhysics.RigidPose@,BepuPhysics.BodyVelocity@,System.Single,System.Collections.Generic.ICollection{Prowl.Runtime.Raycast.HitInfo},System.Nullable{Prowl.Runtime.LayerMask})
+  id: SweepCastPenetrating``1(``0@,BepuPhysics.RigidPose@,BepuPhysics.BodyVelocity@,System.Single,System.Collections.Generic.ICollection{Prowl.Runtime.Raycast.HitInfo},System.Nullable{Prowl.Runtime.LayerMask})
+  parent: Prowl.Runtime.Physics
+  langs:
+  - csharp
+  - vb
+  name: SweepCastPenetrating<TShape>(in TShape, in RigidPose, in BodyVelocity, float, ICollection<HitInfo>, LayerMask?)
+  nameWithType: Physics.SweepCastPenetrating<TShape>(in TShape, in RigidPose, in BodyVelocity, float, ICollection<HitInfo>, LayerMask?)
+  fullName: Prowl.Runtime.Physics.SweepCastPenetrating<TShape>(in TShape, in BepuPhysics.RigidPose, in BepuPhysics.BodyVelocity, float, System.Collections.Generic.ICollection<Prowl.Runtime.Raycast.HitInfo>, Prowl.Runtime.LayerMask?)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Physics.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: SweepCastPenetrating
+    path: ../Prowl/Prowl.Runtime/Physics.cs
+    startLine: 269
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: Finds contacts between <code class="paramref">shape</code> and other shapes in the simulation when thrown in <code class="paramref">velocity</code> direction.
+  example: []
+  syntax:
+    content: 'public static void SweepCastPenetrating<TShape>(in TShape shape, in RigidPose pose, in BodyVelocity velocity, float maxDistance, ICollection<HitInfo> collection, LayerMask? collisionMask = null) where TShape : unmanaged, IConvexShape'
+    parameters:
+    - id: shape
+      type: '{TShape}'
+    - id: pose
+      type: BepuPhysics.RigidPose
+    - id: velocity
+      type: BepuPhysics.BodyVelocity
+    - id: maxDistance
+      type: System.Single
+    - id: collection
+      type: System.Collections.Generic.ICollection{Prowl.Runtime.Raycast.HitInfo}
+    - id: collisionMask
+      type: System.Nullable{Prowl.Runtime.LayerMask}
+    typeParameters:
+    - id: TShape
+    content.vb: Public Shared Sub SweepCastPenetrating(Of TShape As {Structure, IConvexShape})(shape As TShape, pose As RigidPose, velocity As BodyVelocity, maxDistance As Single, collection As ICollection(Of HitInfo), collisionMask As LayerMask? = Nothing)
+  overload: Prowl.Runtime.Physics.SweepCastPenetrating*
+  nameWithType.vb: Physics.SweepCastPenetrating(Of TShape)(TShape, RigidPose, BodyVelocity, Single, ICollection(Of HitInfo), LayerMask?)
+  fullName.vb: Prowl.Runtime.Physics.SweepCastPenetrating(Of TShape)(TShape, BepuPhysics.RigidPose, BepuPhysics.BodyVelocity, Single, System.Collections.Generic.ICollection(Of Prowl.Runtime.Raycast.HitInfo), Prowl.Runtime.LayerMask?)
+  name.vb: SweepCastPenetrating(Of TShape)(TShape, RigidPose, BodyVelocity, Single, ICollection(Of HitInfo), LayerMask?)
+- uid: Prowl.Runtime.Physics.Overlap``1(``0@,BepuPhysics.RigidPose@,System.Nullable{Prowl.Runtime.LayerMask})
+  commentId: M:Prowl.Runtime.Physics.Overlap``1(``0@,BepuPhysics.RigidPose@,System.Nullable{Prowl.Runtime.LayerMask})
+  id: Overlap``1(``0@,BepuPhysics.RigidPose@,System.Nullable{Prowl.Runtime.LayerMask})
+  parent: Prowl.Runtime.Physics
+  langs:
+  - csharp
+  - vb
+  name: Overlap<TShape>(in TShape, in RigidPose, LayerMask?)
+  nameWithType: Physics.Overlap<TShape>(in TShape, in RigidPose, LayerMask?)
+  fullName: Prowl.Runtime.Physics.Overlap<TShape>(in TShape, in BepuPhysics.RigidPose, Prowl.Runtime.LayerMask?)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Physics.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Overlap
+    path: ../Prowl/Prowl.Runtime/Physics.cs
+    startLine: 279
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: Returns true when this shape overlaps with any physics object in this simulation
+  example: []
+  syntax:
+    content: 'public static bool Overlap<TShape>(in TShape shape, in RigidPose pose, LayerMask? collisionMask = null) where TShape : unmanaged, IConvexShape'
+    parameters:
+    - id: shape
+      type: '{TShape}'
+    - id: pose
+      type: BepuPhysics.RigidPose
+    - id: collisionMask
+      type: System.Nullable{Prowl.Runtime.LayerMask}
+    typeParameters:
+    - id: TShape
+    return:
+      type: System.Boolean
+      description: True when the given shape overlaps with any physics object in the simulation
+    content.vb: Public Shared Function Overlap(Of TShape As {Structure, IConvexShape})(shape As TShape, pose As RigidPose, collisionMask As LayerMask? = Nothing) As Boolean
+  overload: Prowl.Runtime.Physics.Overlap*
+  nameWithType.vb: Physics.Overlap(Of TShape)(TShape, RigidPose, LayerMask?)
+  fullName.vb: Prowl.Runtime.Physics.Overlap(Of TShape)(TShape, BepuPhysics.RigidPose, Prowl.Runtime.LayerMask?)
+  name.vb: Overlap(Of TShape)(TShape, RigidPose, LayerMask?)
+- uid: Prowl.Runtime.Physics.Overlap``1(``0@,BepuPhysics.RigidPose@,Prowl.Runtime.PhysicsBody[],System.Span{Prowl.Runtime.PhysicsBody}@,System.Nullable{Prowl.Runtime.LayerMask})
+  commentId: M:Prowl.Runtime.Physics.Overlap``1(``0@,BepuPhysics.RigidPose@,Prowl.Runtime.PhysicsBody[],System.Span{Prowl.Runtime.PhysicsBody}@,System.Nullable{Prowl.Runtime.LayerMask})
+  id: Overlap``1(``0@,BepuPhysics.RigidPose@,Prowl.Runtime.PhysicsBody[],System.Span{Prowl.Runtime.PhysicsBody}@,System.Nullable{Prowl.Runtime.LayerMask})
+  parent: Prowl.Runtime.Physics
+  langs:
+  - csharp
+  - vb
+  name: Overlap<TShape>(in TShape, in RigidPose, PhysicsBody[], out Span<PhysicsBody>, LayerMask?)
+  nameWithType: Physics.Overlap<TShape>(in TShape, in RigidPose, PhysicsBody[], out Span<PhysicsBody>, LayerMask?)
+  fullName: Prowl.Runtime.Physics.Overlap<TShape>(in TShape, in BepuPhysics.RigidPose, Prowl.Runtime.PhysicsBody[], out System.Span<Prowl.Runtime.PhysicsBody>, Prowl.Runtime.LayerMask?)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Physics.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Overlap
+    path: ../Prowl/Prowl.Runtime/Physics.cs
+    startLine: 289
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: Fills <code class="paramref">buffer</code> with any physics object in the simulation that overlaps with this shape
+  example: []
+  syntax:
+    content: 'public static void Overlap<TShape>(in TShape shape, in RigidPose pose, PhysicsBody[] buffer, out Span<PhysicsBody> overlaps, LayerMask? collisionMask = null) where TShape : unmanaged, IConvexShape'
+    parameters:
+    - id: shape
+      type: '{TShape}'
+    - id: pose
+      type: BepuPhysics.RigidPose
+    - id: buffer
+      type: Prowl.Runtime.PhysicsBody[]
+    - id: overlaps
+      type: System.Span{Prowl.Runtime.PhysicsBody}
+    - id: collisionMask
+      type: System.Nullable{Prowl.Runtime.LayerMask}
+    typeParameters:
+    - id: TShape
+    content.vb: Public Shared Sub Overlap(Of TShape As {Structure, IConvexShape})(shape As TShape, pose As RigidPose, buffer As PhysicsBody(), overlaps As Span(Of PhysicsBody), collisionMask As LayerMask? = Nothing)
+  overload: Prowl.Runtime.Physics.Overlap*
+  nameWithType.vb: Physics.Overlap(Of TShape)(TShape, RigidPose, PhysicsBody(), Span(Of PhysicsBody), LayerMask?)
+  fullName.vb: Prowl.Runtime.Physics.Overlap(Of TShape)(TShape, BepuPhysics.RigidPose, Prowl.Runtime.PhysicsBody(), System.Span(Of Prowl.Runtime.PhysicsBody), Prowl.Runtime.LayerMask?)
+  name.vb: Overlap(Of TShape)(TShape, RigidPose, PhysicsBody(), Span(Of PhysicsBody), LayerMask?)
+- uid: Prowl.Runtime.Physics.Overlap``1(``0@,BepuPhysics.RigidPose@,System.Collections.Generic.ICollection{Prowl.Runtime.PhysicsBody},System.Nullable{Prowl.Runtime.LayerMask})
+  commentId: M:Prowl.Runtime.Physics.Overlap``1(``0@,BepuPhysics.RigidPose@,System.Collections.Generic.ICollection{Prowl.Runtime.PhysicsBody},System.Nullable{Prowl.Runtime.LayerMask})
+  id: Overlap``1(``0@,BepuPhysics.RigidPose@,System.Collections.Generic.ICollection{Prowl.Runtime.PhysicsBody},System.Nullable{Prowl.Runtime.LayerMask})
+  parent: Prowl.Runtime.Physics
+  langs:
+  - csharp
+  - vb
+  name: Overlap<TShape>(in TShape, in RigidPose, ICollection<PhysicsBody>, LayerMask?)
+  nameWithType: Physics.Overlap<TShape>(in TShape, in RigidPose, ICollection<PhysicsBody>, LayerMask?)
+  fullName: Prowl.Runtime.Physics.Overlap<TShape>(in TShape, in BepuPhysics.RigidPose, System.Collections.Generic.ICollection<Prowl.Runtime.PhysicsBody>, Prowl.Runtime.LayerMask?)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Physics.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Overlap
+    path: ../Prowl/Prowl.Runtime/Physics.cs
+    startLine: 299
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: Fills <code class="paramref">collection</code> with any physics object in the simulation that overlaps with this shape
+  example: []
+  syntax:
+    content: 'public static void Overlap<TShape>(in TShape shape, in RigidPose pose, ICollection<PhysicsBody> collection, LayerMask? collisionMask = null) where TShape : unmanaged, IConvexShape'
+    parameters:
+    - id: shape
+      type: '{TShape}'
+    - id: pose
+      type: BepuPhysics.RigidPose
+    - id: collection
+      type: System.Collections.Generic.ICollection{Prowl.Runtime.PhysicsBody}
+    - id: collisionMask
+      type: System.Nullable{Prowl.Runtime.LayerMask}
+    typeParameters:
+    - id: TShape
+    content.vb: Public Shared Sub Overlap(Of TShape As {Structure, IConvexShape})(shape As TShape, pose As RigidPose, collection As ICollection(Of PhysicsBody), collisionMask As LayerMask? = Nothing)
+  overload: Prowl.Runtime.Physics.Overlap*
+  nameWithType.vb: Physics.Overlap(Of TShape)(TShape, RigidPose, ICollection(Of PhysicsBody), LayerMask?)
+  fullName.vb: Prowl.Runtime.Physics.Overlap(Of TShape)(TShape, BepuPhysics.RigidPose, System.Collections.Generic.ICollection(Of Prowl.Runtime.PhysicsBody), Prowl.Runtime.LayerMask?)
+  name.vb: Overlap(Of TShape)(TShape, RigidPose, ICollection(Of PhysicsBody), LayerMask?)
+references:
+- uid: Prowl.Runtime
+  commentId: N:Prowl.Runtime
+  href: Prowl.html
+  name: Prowl.Runtime
+  nameWithType: Prowl.Runtime
+  fullName: Prowl.Runtime
+  spec.csharp:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+  spec.vb:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Prowl.Runtime.Physics.IsReady*
+  commentId: Overload:Prowl.Runtime.Physics.IsReady
+  href: Prowl.Runtime.Physics.html#Prowl_Runtime_Physics_IsReady
+  name: IsReady
+  nameWithType: Physics.IsReady
+  fullName: Prowl.Runtime.Physics.IsReady
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: Prowl.Runtime.Physics.Sim*
+  commentId: Overload:Prowl.Runtime.Physics.Sim
+  href: Prowl.Runtime.Physics.html#Prowl_Runtime_Physics_Sim
+  name: Sim
+  nameWithType: Physics.Sim
+  fullName: Prowl.Runtime.Physics.Sim
+- uid: BepuPhysics.Simulation
+  commentId: T:BepuPhysics.Simulation
+  parent: BepuPhysics
+  isExternal: true
+  name: Simulation
+  nameWithType: Simulation
+  fullName: BepuPhysics.Simulation
+- uid: BepuPhysics
+  commentId: N:BepuPhysics
+  isExternal: true
+  name: BepuPhysics
+  nameWithType: BepuPhysics
+  fullName: BepuPhysics
+- uid: Prowl.Runtime.Physics.Pool*
+  commentId: Overload:Prowl.Runtime.Physics.Pool
+  href: Prowl.Runtime.Physics.html#Prowl_Runtime_Physics_Pool
+  name: Pool
+  nameWithType: Physics.Pool
+  fullName: Prowl.Runtime.Physics.Pool
+- uid: BepuUtilities.Memory.BufferPool
+  commentId: T:BepuUtilities.Memory.BufferPool
+  parent: BepuUtilities.Memory
+  isExternal: true
+  name: BufferPool
+  nameWithType: BufferPool
+  fullName: BepuUtilities.Memory.BufferPool
+- uid: BepuUtilities.Memory
+  commentId: N:BepuUtilities.Memory
+  isExternal: true
+  name: BepuUtilities.Memory
+  nameWithType: BepuUtilities.Memory
+  fullName: BepuUtilities.Memory
+  spec.csharp:
+  - uid: BepuUtilities
+    name: BepuUtilities
+    isExternal: true
+  - name: .
+  - uid: BepuUtilities.Memory
+    name: Memory
+    isExternal: true
+  spec.vb:
+  - uid: BepuUtilities
+    name: BepuUtilities
+    isExternal: true
+  - name: .
+  - uid: BepuUtilities.Memory
+    name: Memory
+    isExternal: true
+- uid: Prowl.Runtime.Physics.Dispatcher*
+  commentId: Overload:Prowl.Runtime.Physics.Dispatcher
+  href: Prowl.Runtime.Physics.html#Prowl_Runtime_Physics_Dispatcher
+  name: Dispatcher
+  nameWithType: Physics.Dispatcher
+  fullName: Prowl.Runtime.Physics.Dispatcher
+- uid: BepuUtilities.ThreadDispatcher
+  commentId: T:BepuUtilities.ThreadDispatcher
+  parent: BepuUtilities
+  isExternal: true
+  name: ThreadDispatcher
+  nameWithType: ThreadDispatcher
+  fullName: BepuUtilities.ThreadDispatcher
+- uid: BepuUtilities
+  commentId: N:BepuUtilities
+  isExternal: true
+  name: BepuUtilities
+  nameWithType: BepuUtilities
+  fullName: BepuUtilities
+- uid: Prowl.Runtime.Physics.Characters*
+  commentId: Overload:Prowl.Runtime.Physics.Characters
+  href: Prowl.Runtime.Physics.html#Prowl_Runtime_Physics_Characters
+  name: Characters
+  nameWithType: Physics.Characters
+  fullName: Prowl.Runtime.Physics.Characters
+- uid: Prowl.Runtime.Controller.CharacterControllersManager
+  commentId: T:Prowl.Runtime.Controller.CharacterControllersManager
+  parent: Prowl.Runtime.Controller
+  href: Prowl.Runtime.Controller.CharacterControllersManager.html
+  name: CharacterControllersManager
+  nameWithType: CharacterControllersManager
+  fullName: Prowl.Runtime.Controller.CharacterControllersManager
+- uid: Prowl.Runtime.Controller
+  commentId: N:Prowl.Runtime.Controller
+  href: Prowl.html
+  name: Prowl.Runtime.Controller
+  nameWithType: Prowl.Runtime.Controller
+  fullName: Prowl.Runtime.Controller
+  spec.csharp:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+  - name: .
+  - uid: Prowl.Runtime.Controller
+    name: Controller
+    href: Prowl.Runtime.Controller.html
+  spec.vb:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+  - name: .
+  - uid: Prowl.Runtime.Controller
+    name: Controller
+    href: Prowl.Runtime.Controller.html
+- uid: Prowl.Runtime.Physics.GetContainer*
+  commentId: Overload:Prowl.Runtime.Physics.GetContainer
+  href: Prowl.Runtime.Physics.html#Prowl_Runtime_Physics_GetContainer_BepuPhysics_Collidables_CollidableReference_
+  name: GetContainer
+  nameWithType: Physics.GetContainer
+  fullName: Prowl.Runtime.Physics.GetContainer
+- uid: BepuPhysics.Collidables.CollidableReference
+  commentId: T:BepuPhysics.Collidables.CollidableReference
+  parent: BepuPhysics.Collidables
+  isExternal: true
+  name: CollidableReference
+  nameWithType: CollidableReference
+  fullName: BepuPhysics.Collidables.CollidableReference
+- uid: Prowl.Runtime.PhysicsBody
+  commentId: T:Prowl.Runtime.PhysicsBody
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.PhysicsBody.html
+  name: PhysicsBody
+  nameWithType: PhysicsBody
+  fullName: Prowl.Runtime.PhysicsBody
+- uid: BepuPhysics.Collidables
+  commentId: N:BepuPhysics.Collidables
+  isExternal: true
+  name: BepuPhysics.Collidables
+  nameWithType: BepuPhysics.Collidables
+  fullName: BepuPhysics.Collidables
+  spec.csharp:
+  - uid: BepuPhysics
+    name: BepuPhysics
+    isExternal: true
+  - name: .
+  - uid: BepuPhysics.Collidables
+    name: Collidables
+    isExternal: true
+  spec.vb:
+  - uid: BepuPhysics
+    name: BepuPhysics
+    isExternal: true
+  - name: .
+  - uid: BepuPhysics.Collidables
+    name: Collidables
+    isExternal: true
+- uid: BepuPhysics.BodyHandle
+  commentId: T:BepuPhysics.BodyHandle
+  parent: BepuPhysics
+  isExternal: true
+  name: BodyHandle
+  nameWithType: BodyHandle
+  fullName: BepuPhysics.BodyHandle
+- uid: Prowl.Runtime.Rigidbody
+  commentId: T:Prowl.Runtime.Rigidbody
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.Rigidbody.html
+  name: Rigidbody
+  nameWithType: Rigidbody
+  fullName: Prowl.Runtime.Rigidbody
+- uid: BepuPhysics.StaticHandle
+  commentId: T:BepuPhysics.StaticHandle
+  parent: BepuPhysics
+  isExternal: true
+  name: StaticHandle
+  nameWithType: StaticHandle
+  fullName: BepuPhysics.StaticHandle
+- uid: Prowl.Runtime.Staticbody
+  commentId: T:Prowl.Runtime.Staticbody
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.Staticbody.html
+  name: Staticbody
+  nameWithType: Staticbody
+  fullName: Prowl.Runtime.Staticbody
+- uid: Prowl.Runtime.Physics.Initialize*
+  commentId: Overload:Prowl.Runtime.Physics.Initialize
+  href: Prowl.Runtime.Physics.html#Prowl_Runtime_Physics_Initialize
+  name: Initialize
+  nameWithType: Physics.Initialize
+  fullName: Prowl.Runtime.Physics.Initialize
+- uid: Prowl.Runtime.Physics.Update*
+  commentId: Overload:Prowl.Runtime.Physics.Update
+  href: Prowl.Runtime.Physics.html#Prowl_Runtime_Physics_Update
+  name: Update
+  nameWithType: Physics.Update
+  fullName: Prowl.Runtime.Physics.Update
+- uid: Prowl.Runtime.Physics.Dispose*
+  commentId: Overload:Prowl.Runtime.Physics.Dispose
+  href: Prowl.Runtime.Physics.html#Prowl_Runtime_Physics_Dispose
+  name: Dispose
+  nameWithType: Physics.Dispose
+  fullName: Prowl.Runtime.Physics.Dispose
+- uid: Prowl.Runtime.Physics.RayCast*
+  commentId: Overload:Prowl.Runtime.Physics.RayCast
+  href: Prowl.Runtime.Physics.html#Prowl_Runtime_Physics_RayCast_Prowl_Runtime_Vector3__Prowl_Runtime_Vector3__System_Single_Prowl_Runtime_Raycast_HitInfo__System_Nullable_Prowl_Runtime_LayerMask__
+  name: RayCast
+  nameWithType: Physics.RayCast
+  fullName: Prowl.Runtime.Physics.RayCast
+- uid: Prowl.Runtime.Vector3
+  commentId: T:Prowl.Runtime.Vector3
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.Vector3.html
+  name: Vector3
+  nameWithType: Vector3
+  fullName: Prowl.Runtime.Vector3
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.single
+  name: float
+  nameWithType: float
+  fullName: float
+  nameWithType.vb: Single
+  fullName.vb: Single
+  name.vb: Single
+- uid: Prowl.Runtime.Raycast.HitInfo
+  commentId: T:Prowl.Runtime.Raycast.HitInfo
+  parent: Prowl.Runtime.Raycast
+  href: Prowl.Runtime.Raycast.HitInfo.html
+  name: HitInfo
+  nameWithType: HitInfo
+  fullName: Prowl.Runtime.Raycast.HitInfo
+- uid: System.Nullable{Prowl.Runtime.LayerMask}
+  commentId: T:System.Nullable{Prowl.Runtime.LayerMask}
+  parent: System
+  definition: System.Nullable`1
+  href: Prowl.Runtime.LayerMask.html
+  name: LayerMask?
+  nameWithType: LayerMask?
+  fullName: Prowl.Runtime.LayerMask?
+  spec.csharp:
+  - uid: Prowl.Runtime.LayerMask
+    name: LayerMask
+    href: Prowl.Runtime.LayerMask.html
+  - name: '?'
+  spec.vb:
+  - uid: Prowl.Runtime.LayerMask
+    name: LayerMask
+    href: Prowl.Runtime.LayerMask.html
+  - name: '?'
+- uid: Prowl.Runtime.Raycast
+  commentId: N:Prowl.Runtime.Raycast
+  href: Prowl.html
+  name: Prowl.Runtime.Raycast
+  nameWithType: Prowl.Runtime.Raycast
+  fullName: Prowl.Runtime.Raycast
+  spec.csharp:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+  - name: .
+  - uid: Prowl.Runtime.Raycast
+    name: Raycast
+    href: Prowl.Runtime.Raycast.html
+  spec.vb:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+  - name: .
+  - uid: Prowl.Runtime.Raycast
+    name: Raycast
+    href: Prowl.Runtime.Raycast.html
+- uid: System.Nullable`1
+  commentId: T:System.Nullable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  name: Nullable<T>
+  nameWithType: Nullable<T>
+  fullName: System.Nullable<T>
+  nameWithType.vb: Nullable(Of T)
+  fullName.vb: System.Nullable(Of T)
+  name.vb: Nullable(Of T)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Prowl.Runtime.Physics.RaycastPenetrating*
+  commentId: Overload:Prowl.Runtime.Physics.RaycastPenetrating
+  href: Prowl.Runtime.Physics.html#Prowl_Runtime_Physics_RaycastPenetrating_Prowl_Runtime_Vector3__Prowl_Runtime_Vector3__System_Single_Prowl_Runtime_Raycast_HitInfo___System_Span_Prowl_Runtime_Raycast_HitInfo___System_Nullable_Prowl_Runtime_LayerMask__
+  name: RaycastPenetrating
+  nameWithType: Physics.RaycastPenetrating
+  fullName: Prowl.Runtime.Physics.RaycastPenetrating
+- uid: Prowl.Runtime.Raycast.HitInfo[]
+  isExternal: true
+  href: Prowl.Runtime.Raycast.HitInfo.html
+  name: HitInfo[]
+  nameWithType: HitInfo[]
+  fullName: Prowl.Runtime.Raycast.HitInfo[]
+  nameWithType.vb: HitInfo()
+  fullName.vb: Prowl.Runtime.Raycast.HitInfo()
+  name.vb: HitInfo()
+  spec.csharp:
+  - uid: Prowl.Runtime.Raycast.HitInfo
+    name: HitInfo
+    href: Prowl.Runtime.Raycast.HitInfo.html
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: Prowl.Runtime.Raycast.HitInfo
+    name: HitInfo
+    href: Prowl.Runtime.Raycast.HitInfo.html
+  - name: (
+  - name: )
+- uid: System.Span{Prowl.Runtime.Raycast.HitInfo}
+  commentId: T:System.Span{Prowl.Runtime.Raycast.HitInfo}
+  parent: System
+  definition: System.Span`1
+  href: https://learn.microsoft.com/dotnet/api/system.span-1
+  name: Span<HitInfo>
+  nameWithType: Span<HitInfo>
+  fullName: System.Span<Prowl.Runtime.Raycast.HitInfo>
+  nameWithType.vb: Span(Of HitInfo)
+  fullName.vb: System.Span(Of Prowl.Runtime.Raycast.HitInfo)
+  name.vb: Span(Of HitInfo)
+  spec.csharp:
+  - uid: System.Span`1
+    name: Span
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.span-1
+  - name: <
+  - uid: Prowl.Runtime.Raycast.HitInfo
+    name: HitInfo
+    href: Prowl.Runtime.Raycast.HitInfo.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Span`1
+    name: Span
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.span-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Prowl.Runtime.Raycast.HitInfo
+    name: HitInfo
+    href: Prowl.Runtime.Raycast.HitInfo.html
+  - name: )
+- uid: System.Span`1
+  commentId: T:System.Span`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.span-1
+  name: Span<T>
+  nameWithType: Span<T>
+  fullName: System.Span<T>
+  nameWithType.vb: Span(Of T)
+  fullName.vb: System.Span(Of T)
+  name.vb: Span(Of T)
+  spec.csharp:
+  - uid: System.Span`1
+    name: Span
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.span-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Span`1
+    name: Span
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.span-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic.ICollection{Prowl.Runtime.Raycast.HitInfo}
+  commentId: T:System.Collections.Generic.ICollection{Prowl.Runtime.Raycast.HitInfo}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.ICollection`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  name: ICollection<HitInfo>
+  nameWithType: ICollection<HitInfo>
+  fullName: System.Collections.Generic.ICollection<Prowl.Runtime.Raycast.HitInfo>
+  nameWithType.vb: ICollection(Of HitInfo)
+  fullName.vb: System.Collections.Generic.ICollection(Of Prowl.Runtime.Raycast.HitInfo)
+  name.vb: ICollection(Of HitInfo)
+  spec.csharp:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  - name: <
+  - uid: Prowl.Runtime.Raycast.HitInfo
+    name: HitInfo
+    href: Prowl.Runtime.Raycast.HitInfo.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Prowl.Runtime.Raycast.HitInfo
+    name: HitInfo
+    href: Prowl.Runtime.Raycast.HitInfo.html
+  - name: )
+- uid: System.Collections.Generic.ICollection`1
+  commentId: T:System.Collections.Generic.ICollection`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  name: ICollection<T>
+  nameWithType: ICollection<T>
+  fullName: System.Collections.Generic.ICollection<T>
+  nameWithType.vb: ICollection(Of T)
+  fullName.vb: System.Collections.Generic.ICollection(Of T)
+  name.vb: ICollection(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: Prowl.Runtime.Physics.SweepCast*
+  commentId: Overload:Prowl.Runtime.Physics.SweepCast
+  href: Prowl.Runtime.Physics.html#Prowl_Runtime_Physics_SweepCast__1___0__BepuPhysics_RigidPose__BepuPhysics_BodyVelocity__System_Single_Prowl_Runtime_Raycast_HitInfo__System_Nullable_Prowl_Runtime_LayerMask__
+  name: SweepCast
+  nameWithType: Physics.SweepCast
+  fullName: Prowl.Runtime.Physics.SweepCast
+- uid: '{TShape}'
+  commentId: '!:TShape'
+  definition: TShape
+  name: TShape
+  nameWithType: TShape
+  fullName: TShape
+- uid: BepuPhysics.RigidPose
+  commentId: T:BepuPhysics.RigidPose
+  parent: BepuPhysics
+  isExternal: true
+  name: RigidPose
+  nameWithType: RigidPose
+  fullName: BepuPhysics.RigidPose
+- uid: BepuPhysics.BodyVelocity
+  commentId: T:BepuPhysics.BodyVelocity
+  parent: BepuPhysics
+  isExternal: true
+  name: BodyVelocity
+  nameWithType: BodyVelocity
+  fullName: BepuPhysics.BodyVelocity
+- uid: TShape
+  name: TShape
+  nameWithType: TShape
+  fullName: TShape
+- uid: Prowl.Runtime.Physics.SweepCastPenetrating*
+  commentId: Overload:Prowl.Runtime.Physics.SweepCastPenetrating
+  href: Prowl.Runtime.Physics.html#Prowl_Runtime_Physics_SweepCastPenetrating__1___0__BepuPhysics_RigidPose__BepuPhysics_BodyVelocity__System_Single_Prowl_Runtime_Raycast_HitInfo___System_Span_Prowl_Runtime_Raycast_HitInfo___System_Nullable_Prowl_Runtime_LayerMask__
+  name: SweepCastPenetrating
+  nameWithType: Physics.SweepCastPenetrating
+  fullName: Prowl.Runtime.Physics.SweepCastPenetrating
+- uid: Prowl.Runtime.Physics.Overlap*
+  commentId: Overload:Prowl.Runtime.Physics.Overlap
+  href: Prowl.Runtime.Physics.html#Prowl_Runtime_Physics_Overlap__1___0__BepuPhysics_RigidPose__System_Nullable_Prowl_Runtime_LayerMask__
+  name: Overlap
+  nameWithType: Physics.Overlap
+  fullName: Prowl.Runtime.Physics.Overlap
+- uid: Prowl.Runtime.PhysicsBody[]
+  isExternal: true
+  href: Prowl.Runtime.PhysicsBody.html
+  name: PhysicsBody[]
+  nameWithType: PhysicsBody[]
+  fullName: Prowl.Runtime.PhysicsBody[]
+  nameWithType.vb: PhysicsBody()
+  fullName.vb: Prowl.Runtime.PhysicsBody()
+  name.vb: PhysicsBody()
+  spec.csharp:
+  - uid: Prowl.Runtime.PhysicsBody
+    name: PhysicsBody
+    href: Prowl.Runtime.PhysicsBody.html
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: Prowl.Runtime.PhysicsBody
+    name: PhysicsBody
+    href: Prowl.Runtime.PhysicsBody.html
+  - name: (
+  - name: )
+- uid: System.Span{Prowl.Runtime.PhysicsBody}
+  commentId: T:System.Span{Prowl.Runtime.PhysicsBody}
+  parent: System
+  definition: System.Span`1
+  href: https://learn.microsoft.com/dotnet/api/system.span-1
+  name: Span<PhysicsBody>
+  nameWithType: Span<PhysicsBody>
+  fullName: System.Span<Prowl.Runtime.PhysicsBody>
+  nameWithType.vb: Span(Of PhysicsBody)
+  fullName.vb: System.Span(Of Prowl.Runtime.PhysicsBody)
+  name.vb: Span(Of PhysicsBody)
+  spec.csharp:
+  - uid: System.Span`1
+    name: Span
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.span-1
+  - name: <
+  - uid: Prowl.Runtime.PhysicsBody
+    name: PhysicsBody
+    href: Prowl.Runtime.PhysicsBody.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Span`1
+    name: Span
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.span-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Prowl.Runtime.PhysicsBody
+    name: PhysicsBody
+    href: Prowl.Runtime.PhysicsBody.html
+  - name: )
+- uid: System.Collections.Generic.ICollection{Prowl.Runtime.PhysicsBody}
+  commentId: T:System.Collections.Generic.ICollection{Prowl.Runtime.PhysicsBody}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.ICollection`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  name: ICollection<PhysicsBody>
+  nameWithType: ICollection<PhysicsBody>
+  fullName: System.Collections.Generic.ICollection<Prowl.Runtime.PhysicsBody>
+  nameWithType.vb: ICollection(Of PhysicsBody)
+  fullName.vb: System.Collections.Generic.ICollection(Of Prowl.Runtime.PhysicsBody)
+  name.vb: ICollection(Of PhysicsBody)
+  spec.csharp:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  - name: <
+  - uid: Prowl.Runtime.PhysicsBody
+    name: PhysicsBody
+    href: Prowl.Runtime.PhysicsBody.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Prowl.Runtime.PhysicsBody
+    name: PhysicsBody
+    href: Prowl.Runtime.PhysicsBody.html
+  - name: )

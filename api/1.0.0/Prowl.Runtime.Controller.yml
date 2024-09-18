@@ -1,0 +1,130 @@
+### YamlMime:ManagedReference
+items:
+- uid: Prowl.Runtime.Controller
+  commentId: N:Prowl.Runtime.Controller
+  id: Prowl.Runtime.Controller
+  children:
+  - Prowl.Runtime.Controller.CharacterControllerData
+  - Prowl.Runtime.Controller.CharacterControllersManager
+  - Prowl.Runtime.Controller.CharacterMotionAccumulatedImpulse
+  - Prowl.Runtime.Controller.DynamicCharacterMotionConstraint
+  - Prowl.Runtime.Controller.DynamicCharacterMotionFunctions
+  - Prowl.Runtime.Controller.DynamicCharacterMotionPrestep
+  - Prowl.Runtime.Controller.DynamicCharacterMotionTypeProcessor
+  - Prowl.Runtime.Controller.StaticCharacterMotionConstraint
+  - Prowl.Runtime.Controller.StaticCharacterMotionFunctions
+  - Prowl.Runtime.Controller.StaticCharacterMotionPrestep
+  - Prowl.Runtime.Controller.StaticCharacterMotionTypeProcessor
+  langs:
+  - csharp
+  - vb
+  name: Prowl.Runtime.Controller
+  nameWithType: Prowl.Runtime.Controller
+  fullName: Prowl.Runtime.Controller
+  type: Namespace
+  assemblies:
+  - Prowl.Runtime
+references:
+- uid: Prowl.Runtime.Controller.CharacterControllerData
+  commentId: T:Prowl.Runtime.Controller.CharacterControllerData
+  parent: Prowl.Runtime.Controller
+  href: Prowl.Runtime.Controller.CharacterControllerData.html
+  name: CharacterControllerData
+  nameWithType: CharacterControllerData
+  fullName: Prowl.Runtime.Controller.CharacterControllerData
+- uid: Prowl.Runtime.Controller.CharacterControllersManager
+  commentId: T:Prowl.Runtime.Controller.CharacterControllersManager
+  parent: Prowl.Runtime.Controller
+  href: Prowl.Runtime.Controller.CharacterControllersManager.html
+  name: CharacterControllersManager
+  nameWithType: CharacterControllersManager
+  fullName: Prowl.Runtime.Controller.CharacterControllersManager
+- uid: Prowl.Runtime.Controller.CharacterMotionAccumulatedImpulse
+  commentId: T:Prowl.Runtime.Controller.CharacterMotionAccumulatedImpulse
+  parent: Prowl.Runtime.Controller
+  href: Prowl.Runtime.Controller.CharacterMotionAccumulatedImpulse.html
+  name: CharacterMotionAccumulatedImpulse
+  nameWithType: CharacterMotionAccumulatedImpulse
+  fullName: Prowl.Runtime.Controller.CharacterMotionAccumulatedImpulse
+- uid: Prowl.Runtime.Controller.StaticCharacterMotionConstraint
+  commentId: T:Prowl.Runtime.Controller.StaticCharacterMotionConstraint
+  parent: Prowl.Runtime.Controller
+  href: Prowl.Runtime.Controller.StaticCharacterMotionConstraint.html
+  name: StaticCharacterMotionConstraint
+  nameWithType: StaticCharacterMotionConstraint
+  fullName: Prowl.Runtime.Controller.StaticCharacterMotionConstraint
+- uid: Prowl.Runtime.Controller.StaticCharacterMotionPrestep
+  commentId: T:Prowl.Runtime.Controller.StaticCharacterMotionPrestep
+  parent: Prowl.Runtime.Controller
+  href: Prowl.Runtime.Controller.StaticCharacterMotionPrestep.html
+  name: StaticCharacterMotionPrestep
+  nameWithType: StaticCharacterMotionPrestep
+  fullName: Prowl.Runtime.Controller.StaticCharacterMotionPrestep
+- uid: Prowl.Runtime.Controller.StaticCharacterMotionFunctions
+  commentId: T:Prowl.Runtime.Controller.StaticCharacterMotionFunctions
+  href: Prowl.Runtime.Controller.StaticCharacterMotionFunctions.html
+  name: StaticCharacterMotionFunctions
+  nameWithType: StaticCharacterMotionFunctions
+  fullName: Prowl.Runtime.Controller.StaticCharacterMotionFunctions
+- uid: Prowl.Runtime.Controller.StaticCharacterMotionTypeProcessor
+  commentId: T:Prowl.Runtime.Controller.StaticCharacterMotionTypeProcessor
+  href: Prowl.Runtime.Controller.StaticCharacterMotionTypeProcessor.html
+  name: StaticCharacterMotionTypeProcessor
+  nameWithType: StaticCharacterMotionTypeProcessor
+  fullName: Prowl.Runtime.Controller.StaticCharacterMotionTypeProcessor
+- uid: Prowl.Runtime.Controller.DynamicCharacterMotionConstraint
+  commentId: T:Prowl.Runtime.Controller.DynamicCharacterMotionConstraint
+  parent: Prowl.Runtime.Controller
+  href: Prowl.Runtime.Controller.DynamicCharacterMotionConstraint.html
+  name: DynamicCharacterMotionConstraint
+  nameWithType: DynamicCharacterMotionConstraint
+  fullName: Prowl.Runtime.Controller.DynamicCharacterMotionConstraint
+- uid: Prowl.Runtime.Controller.DynamicCharacterMotionPrestep
+  commentId: T:Prowl.Runtime.Controller.DynamicCharacterMotionPrestep
+  parent: Prowl.Runtime.Controller
+  href: Prowl.Runtime.Controller.DynamicCharacterMotionPrestep.html
+  name: DynamicCharacterMotionPrestep
+  nameWithType: DynamicCharacterMotionPrestep
+  fullName: Prowl.Runtime.Controller.DynamicCharacterMotionPrestep
+- uid: Prowl.Runtime.Controller.DynamicCharacterMotionFunctions
+  commentId: T:Prowl.Runtime.Controller.DynamicCharacterMotionFunctions
+  href: Prowl.Runtime.Controller.DynamicCharacterMotionFunctions.html
+  name: DynamicCharacterMotionFunctions
+  nameWithType: DynamicCharacterMotionFunctions
+  fullName: Prowl.Runtime.Controller.DynamicCharacterMotionFunctions
+- uid: Prowl.Runtime.Controller.DynamicCharacterMotionTypeProcessor
+  commentId: T:Prowl.Runtime.Controller.DynamicCharacterMotionTypeProcessor
+  href: Prowl.Runtime.Controller.DynamicCharacterMotionTypeProcessor.html
+  name: DynamicCharacterMotionTypeProcessor
+  nameWithType: DynamicCharacterMotionTypeProcessor
+  fullName: Prowl.Runtime.Controller.DynamicCharacterMotionTypeProcessor
+- uid: Prowl.Runtime.Controller
+  commentId: N:Prowl.Runtime.Controller
+  href: Prowl.html
+  name: Prowl.Runtime.Controller
+  nameWithType: Prowl.Runtime.Controller
+  fullName: Prowl.Runtime.Controller
+  spec.csharp:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+  - name: .
+  - uid: Prowl.Runtime.Controller
+    name: Controller
+    href: Prowl.Runtime.Controller.html
+  spec.vb:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+  - name: .
+  - uid: Prowl.Runtime.Controller
+    name: Controller
+    href: Prowl.Runtime.Controller.html

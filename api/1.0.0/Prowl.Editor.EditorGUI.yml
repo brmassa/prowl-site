@@ -1,0 +1,1373 @@
+### YamlMime:ManagedReference
+items:
+- uid: Prowl.Editor.EditorGUI
+  commentId: T:Prowl.Editor.EditorGUI
+  id: EditorGUI
+  parent: Prowl.Editor
+  children:
+  - Prowl.Editor.EditorGUI.DrawProperty``1(System.Int32,System.String,``0@,Prowl.Editor.EditorGUI.PropertyGridConfig)
+  - Prowl.Editor.EditorGUI.HandleAttributeButtons(System.String,System.Object)
+  - Prowl.Editor.EditorGUI.InputDouble(System.String,System.Double@,Prowl.Runtime.GUI.Offset,Prowl.Runtime.GUI.Offset,Prowl.Runtime.GUI.Size,System.Nullable{Prowl.Runtime.GUI.Gui.WidgetStyle})
+  - Prowl.Editor.EditorGUI.InputFieldStyle
+  - Prowl.Editor.EditorGUI.InputFloat(System.String,System.Single@,Prowl.Runtime.GUI.Offset,Prowl.Runtime.GUI.Offset,Prowl.Runtime.GUI.Size,System.Nullable{Prowl.Runtime.GUI.Gui.WidgetStyle})
+  - Prowl.Editor.EditorGUI.InputLong(System.String,System.Int64@,Prowl.Runtime.GUI.Offset,Prowl.Runtime.GUI.Offset,Prowl.Runtime.GUI.Size,System.Nullable{Prowl.Runtime.GUI.Gui.WidgetStyle})
+  - Prowl.Editor.EditorGUI.PropertyGrid(System.String,System.Object@,Prowl.Editor.EditorGUI.TargetFields,Prowl.Editor.EditorGUI.PropertyGridConfig)
+  - Prowl.Editor.EditorGUI.PropertyGrid(System.String,System.Object@,System.Collections.Generic.List{System.Reflection.MemberInfo},Prowl.Editor.EditorGUI.PropertyGridConfig)
+  - Prowl.Editor.EditorGUI.Separator(System.Single,System.Int32)
+  - Prowl.Editor.EditorGUI.StyledButton(System.String)
+  - Prowl.Editor.EditorGUI.StyledButton(System.String,System.Double,System.Double,System.Boolean,System.Nullable{Prowl.Runtime.Color},System.Nullable{Prowl.Runtime.Color},System.Nullable{System.Single},System.String)
+  - Prowl.Editor.EditorGUI.Text(System.String,System.Int32,System.Boolean)
+  - Prowl.Editor.EditorGUI.TextSimple(System.String,System.Int32,System.Boolean)
+  - Prowl.Editor.EditorGUI.VectorXStyle
+  - Prowl.Editor.EditorGUI.VectorYStyle
+  - Prowl.Editor.EditorGUI.VectorZStyle
+  langs:
+  - csharp
+  - vb
+  name: EditorGUI
+  nameWithType: EditorGUI
+  fullName: Prowl.Editor.EditorGUI
+  type: Class
+  source:
+    remote:
+      path: Prowl.Editor/Editor/EditorGUI.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: EditorGUI
+    path: ../Prowl/Prowl.Editor/Editor/EditorGUI.cs
+    startLine: 17
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor
+  syntax:
+    content: public static class EditorGUI
+    content.vb: Public Module EditorGUI
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: Prowl.Editor.EditorGUI.Separator(System.Single,System.Int32)
+  commentId: M:Prowl.Editor.EditorGUI.Separator(System.Single,System.Int32)
+  id: Separator(System.Single,System.Int32)
+  parent: Prowl.Editor.EditorGUI
+  langs:
+  - csharp
+  - vb
+  name: Separator(float, int)
+  nameWithType: EditorGUI.Separator(float, int)
+  fullName: Prowl.Editor.EditorGUI.Separator(float, int)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Editor/Editor/EditorGUI.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Separator
+    path: ../Prowl/Prowl.Editor/Editor/EditorGUI.cs
+    startLine: 22
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor
+  syntax:
+    content: public static void Separator(float thickness = 1, int line = 0)
+    parameters:
+    - id: thickness
+      type: System.Single
+    - id: line
+      type: System.Int32
+    content.vb: Public Shared Sub Separator(thickness As Single = 1, line As Integer = 0)
+  overload: Prowl.Editor.EditorGUI.Separator*
+  nameWithType.vb: EditorGUI.Separator(Single, Integer)
+  fullName.vb: Prowl.Editor.EditorGUI.Separator(Single, Integer)
+  name.vb: Separator(Single, Integer)
+- uid: Prowl.Editor.EditorGUI.Text(System.String,System.Int32,System.Boolean)
+  commentId: M:Prowl.Editor.EditorGUI.Text(System.String,System.Int32,System.Boolean)
+  id: Text(System.String,System.Int32,System.Boolean)
+  parent: Prowl.Editor.EditorGUI
+  langs:
+  - csharp
+  - vb
+  name: Text(string, int, bool)
+  nameWithType: EditorGUI.Text(string, int, bool)
+  fullName: Prowl.Editor.EditorGUI.Text(string, int, bool)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Editor/Editor/EditorGUI.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: Text
+    path: ../Prowl/Prowl.Editor/Editor/EditorGUI.cs
+    startLine: 35
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor
+  syntax:
+    content: public static void Text(string text, int line = 0, bool doWrap = true)
+    parameters:
+    - id: text
+      type: System.String
+    - id: line
+      type: System.Int32
+    - id: doWrap
+      type: System.Boolean
+    content.vb: Public Shared Sub Text(text As String, line As Integer = 0, doWrap As Boolean = True)
+  overload: Prowl.Editor.EditorGUI.Text*
+  nameWithType.vb: EditorGUI.Text(String, Integer, Boolean)
+  fullName.vb: Prowl.Editor.EditorGUI.Text(String, Integer, Boolean)
+  name.vb: Text(String, Integer, Boolean)
+- uid: Prowl.Editor.EditorGUI.TextSimple(System.String,System.Int32,System.Boolean)
+  commentId: M:Prowl.Editor.EditorGUI.TextSimple(System.String,System.Int32,System.Boolean)
+  id: TextSimple(System.String,System.Int32,System.Boolean)
+  parent: Prowl.Editor.EditorGUI
+  langs:
+  - csharp
+  - vb
+  name: TextSimple(string, int, bool)
+  nameWithType: EditorGUI.TextSimple(string, int, bool)
+  fullName: Prowl.Editor.EditorGUI.TextSimple(string, int, bool)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Editor/Editor/EditorGUI.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: TextSimple
+    path: ../Prowl/Prowl.Editor/Editor/EditorGUI.cs
+    startLine: 53
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor
+  syntax:
+    content: public static void TextSimple(string text, int line = 0, bool doWrap = true)
+    parameters:
+    - id: text
+      type: System.String
+    - id: line
+      type: System.Int32
+    - id: doWrap
+      type: System.Boolean
+    content.vb: Public Shared Sub TextSimple(text As String, line As Integer = 0, doWrap As Boolean = True)
+  overload: Prowl.Editor.EditorGUI.TextSimple*
+  nameWithType.vb: EditorGUI.TextSimple(String, Integer, Boolean)
+  fullName.vb: Prowl.Editor.EditorGUI.TextSimple(String, Integer, Boolean)
+  name.vb: TextSimple(String, Integer, Boolean)
+- uid: Prowl.Editor.EditorGUI.StyledButton(System.String)
+  commentId: M:Prowl.Editor.EditorGUI.StyledButton(System.String)
+  id: StyledButton(System.String)
+  parent: Prowl.Editor.EditorGUI
+  langs:
+  - csharp
+  - vb
+  name: StyledButton(string)
+  nameWithType: EditorGUI.StyledButton(string)
+  fullName: Prowl.Editor.EditorGUI.StyledButton(string)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Editor/Editor/EditorGUI.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: StyledButton
+    path: ../Prowl/Prowl.Editor/Editor/EditorGUI.cs
+    startLine: 68
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor
+  syntax:
+    content: public static bool StyledButton(string label)
+    parameters:
+    - id: label
+      type: System.String
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function StyledButton(label As String) As Boolean
+  overload: Prowl.Editor.EditorGUI.StyledButton*
+  nameWithType.vb: EditorGUI.StyledButton(String)
+  fullName.vb: Prowl.Editor.EditorGUI.StyledButton(String)
+  name.vb: StyledButton(String)
+- uid: Prowl.Editor.EditorGUI.StyledButton(System.String,System.Double,System.Double,System.Boolean,System.Nullable{Prowl.Runtime.Color},System.Nullable{Prowl.Runtime.Color},System.Nullable{System.Single},System.String)
+  commentId: M:Prowl.Editor.EditorGUI.StyledButton(System.String,System.Double,System.Double,System.Boolean,System.Nullable{Prowl.Runtime.Color},System.Nullable{Prowl.Runtime.Color},System.Nullable{System.Single},System.String)
+  id: StyledButton(System.String,System.Double,System.Double,System.Boolean,System.Nullable{Prowl.Runtime.Color},System.Nullable{Prowl.Runtime.Color},System.Nullable{System.Single},System.String)
+  parent: Prowl.Editor.EditorGUI
+  langs:
+  - csharp
+  - vb
+  name: StyledButton(string, double, double, bool, Color?, Color?, float?, string)
+  nameWithType: EditorGUI.StyledButton(string, double, double, bool, Color?, Color?, float?, string)
+  fullName: Prowl.Editor.EditorGUI.StyledButton(string, double, double, bool, Prowl.Runtime.Color?, Prowl.Runtime.Color?, float?, string)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Editor/Editor/EditorGUI.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: StyledButton
+    path: ../Prowl/Prowl.Editor/Editor/EditorGUI.cs
+    startLine: 90
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor
+  syntax:
+    content: public static bool StyledButton(string label, double width, double height, bool border = true, Color? textcolor = null, Color? bgcolor = null, float? roundness = null, string tooltip = "")
+    parameters:
+    - id: label
+      type: System.String
+    - id: width
+      type: System.Double
+    - id: height
+      type: System.Double
+    - id: border
+      type: System.Boolean
+    - id: textcolor
+      type: System.Nullable{Prowl.Runtime.Color}
+    - id: bgcolor
+      type: System.Nullable{Prowl.Runtime.Color}
+    - id: roundness
+      type: System.Nullable{System.Single}
+    - id: tooltip
+      type: System.String
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function StyledButton(label As String, width As Double, height As Double, border As Boolean = True, textcolor As Color? = Nothing, bgcolor As Color? = Nothing, roundness As Single? = Nothing, tooltip As String = "") As Boolean
+  overload: Prowl.Editor.EditorGUI.StyledButton*
+  nameWithType.vb: EditorGUI.StyledButton(String, Double, Double, Boolean, Color?, Color?, Single?, String)
+  fullName.vb: Prowl.Editor.EditorGUI.StyledButton(String, Double, Double, Boolean, Prowl.Runtime.Color?, Prowl.Runtime.Color?, Single?, String)
+  name.vb: StyledButton(String, Double, Double, Boolean, Color?, Color?, Single?, String)
+- uid: Prowl.Editor.EditorGUI.InputDouble(System.String,System.Double@,Prowl.Runtime.GUI.Offset,Prowl.Runtime.GUI.Offset,Prowl.Runtime.GUI.Size,System.Nullable{Prowl.Runtime.GUI.Gui.WidgetStyle})
+  commentId: M:Prowl.Editor.EditorGUI.InputDouble(System.String,System.Double@,Prowl.Runtime.GUI.Offset,Prowl.Runtime.GUI.Offset,Prowl.Runtime.GUI.Size,System.Nullable{Prowl.Runtime.GUI.Gui.WidgetStyle})
+  id: InputDouble(System.String,System.Double@,Prowl.Runtime.GUI.Offset,Prowl.Runtime.GUI.Offset,Prowl.Runtime.GUI.Size,System.Nullable{Prowl.Runtime.GUI.Gui.WidgetStyle})
+  parent: Prowl.Editor.EditorGUI
+  langs:
+  - csharp
+  - vb
+  name: InputDouble(string, ref double, Offset, Offset, Size, WidgetStyle?)
+  nameWithType: EditorGUI.InputDouble(string, ref double, Offset, Offset, Size, Gui.WidgetStyle?)
+  fullName: Prowl.Editor.EditorGUI.InputDouble(string, ref double, Prowl.Runtime.GUI.Offset, Prowl.Runtime.GUI.Offset, Prowl.Runtime.GUI.Size, Prowl.Runtime.GUI.Gui.WidgetStyle?)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Editor/Editor/EditorGUI.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: InputDouble
+    path: ../Prowl/Prowl.Editor/Editor/EditorGUI.cs
+    startLine: 117
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor
+  syntax:
+    content: public static bool InputDouble(string ID, ref double value, Offset x, Offset y, Size width, Gui.WidgetStyle? style = null)
+    parameters:
+    - id: ID
+      type: System.String
+    - id: value
+      type: System.Double
+    - id: x
+      type: Prowl.Runtime.GUI.Offset
+    - id: y
+      type: Prowl.Runtime.GUI.Offset
+    - id: width
+      type: Prowl.Runtime.GUI.Size
+    - id: style
+      type: System.Nullable{Prowl.Runtime.GUI.Gui.WidgetStyle}
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function InputDouble(ID As String, value As Double, x As Offset, y As Offset, width As Size, style As Gui.WidgetStyle? = Nothing) As Boolean
+  overload: Prowl.Editor.EditorGUI.InputDouble*
+  nameWithType.vb: EditorGUI.InputDouble(String, Double, Offset, Offset, Size, Gui.WidgetStyle?)
+  fullName.vb: Prowl.Editor.EditorGUI.InputDouble(String, Double, Prowl.Runtime.GUI.Offset, Prowl.Runtime.GUI.Offset, Prowl.Runtime.GUI.Size, Prowl.Runtime.GUI.Gui.WidgetStyle?)
+  name.vb: InputDouble(String, Double, Offset, Offset, Size, WidgetStyle?)
+- uid: Prowl.Editor.EditorGUI.InputFloat(System.String,System.Single@,Prowl.Runtime.GUI.Offset,Prowl.Runtime.GUI.Offset,Prowl.Runtime.GUI.Size,System.Nullable{Prowl.Runtime.GUI.Gui.WidgetStyle})
+  commentId: M:Prowl.Editor.EditorGUI.InputFloat(System.String,System.Single@,Prowl.Runtime.GUI.Offset,Prowl.Runtime.GUI.Offset,Prowl.Runtime.GUI.Size,System.Nullable{Prowl.Runtime.GUI.Gui.WidgetStyle})
+  id: InputFloat(System.String,System.Single@,Prowl.Runtime.GUI.Offset,Prowl.Runtime.GUI.Offset,Prowl.Runtime.GUI.Size,System.Nullable{Prowl.Runtime.GUI.Gui.WidgetStyle})
+  parent: Prowl.Editor.EditorGUI
+  langs:
+  - csharp
+  - vb
+  name: InputFloat(string, ref float, Offset, Offset, Size, WidgetStyle?)
+  nameWithType: EditorGUI.InputFloat(string, ref float, Offset, Offset, Size, Gui.WidgetStyle?)
+  fullName: Prowl.Editor.EditorGUI.InputFloat(string, ref float, Prowl.Runtime.GUI.Offset, Prowl.Runtime.GUI.Offset, Prowl.Runtime.GUI.Size, Prowl.Runtime.GUI.Gui.WidgetStyle?)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Editor/Editor/EditorGUI.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: InputFloat
+    path: ../Prowl/Prowl.Editor/Editor/EditorGUI.cs
+    startLine: 140
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor
+  syntax:
+    content: public static bool InputFloat(string ID, ref float value, Offset x, Offset y, Size width, Gui.WidgetStyle? style = null)
+    parameters:
+    - id: ID
+      type: System.String
+    - id: value
+      type: System.Single
+    - id: x
+      type: Prowl.Runtime.GUI.Offset
+    - id: y
+      type: Prowl.Runtime.GUI.Offset
+    - id: width
+      type: Prowl.Runtime.GUI.Size
+    - id: style
+      type: System.Nullable{Prowl.Runtime.GUI.Gui.WidgetStyle}
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function InputFloat(ID As String, value As Single, x As Offset, y As Offset, width As Size, style As Gui.WidgetStyle? = Nothing) As Boolean
+  overload: Prowl.Editor.EditorGUI.InputFloat*
+  nameWithType.vb: EditorGUI.InputFloat(String, Single, Offset, Offset, Size, Gui.WidgetStyle?)
+  fullName.vb: Prowl.Editor.EditorGUI.InputFloat(String, Single, Prowl.Runtime.GUI.Offset, Prowl.Runtime.GUI.Offset, Prowl.Runtime.GUI.Size, Prowl.Runtime.GUI.Gui.WidgetStyle?)
+  name.vb: InputFloat(String, Single, Offset, Offset, Size, WidgetStyle?)
+- uid: Prowl.Editor.EditorGUI.InputLong(System.String,System.Int64@,Prowl.Runtime.GUI.Offset,Prowl.Runtime.GUI.Offset,Prowl.Runtime.GUI.Size,System.Nullable{Prowl.Runtime.GUI.Gui.WidgetStyle})
+  commentId: M:Prowl.Editor.EditorGUI.InputLong(System.String,System.Int64@,Prowl.Runtime.GUI.Offset,Prowl.Runtime.GUI.Offset,Prowl.Runtime.GUI.Size,System.Nullable{Prowl.Runtime.GUI.Gui.WidgetStyle})
+  id: InputLong(System.String,System.Int64@,Prowl.Runtime.GUI.Offset,Prowl.Runtime.GUI.Offset,Prowl.Runtime.GUI.Size,System.Nullable{Prowl.Runtime.GUI.Gui.WidgetStyle})
+  parent: Prowl.Editor.EditorGUI
+  langs:
+  - csharp
+  - vb
+  name: InputLong(string, ref long, Offset, Offset, Size, WidgetStyle?)
+  nameWithType: EditorGUI.InputLong(string, ref long, Offset, Offset, Size, Gui.WidgetStyle?)
+  fullName: Prowl.Editor.EditorGUI.InputLong(string, ref long, Prowl.Runtime.GUI.Offset, Prowl.Runtime.GUI.Offset, Prowl.Runtime.GUI.Size, Prowl.Runtime.GUI.Gui.WidgetStyle?)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Editor/Editor/EditorGUI.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: InputLong
+    path: ../Prowl/Prowl.Editor/Editor/EditorGUI.cs
+    startLine: 162
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor
+  syntax:
+    content: public static bool InputLong(string ID, ref long value, Offset x, Offset y, Size width, Gui.WidgetStyle? style = null)
+    parameters:
+    - id: ID
+      type: System.String
+    - id: value
+      type: System.Int64
+    - id: x
+      type: Prowl.Runtime.GUI.Offset
+    - id: y
+      type: Prowl.Runtime.GUI.Offset
+    - id: width
+      type: Prowl.Runtime.GUI.Size
+    - id: style
+      type: System.Nullable{Prowl.Runtime.GUI.Gui.WidgetStyle}
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function InputLong(ID As String, value As Long, x As Offset, y As Offset, width As Size, style As Gui.WidgetStyle? = Nothing) As Boolean
+  overload: Prowl.Editor.EditorGUI.InputLong*
+  nameWithType.vb: EditorGUI.InputLong(String, Long, Offset, Offset, Size, Gui.WidgetStyle?)
+  fullName.vb: Prowl.Editor.EditorGUI.InputLong(String, Long, Prowl.Runtime.GUI.Offset, Prowl.Runtime.GUI.Offset, Prowl.Runtime.GUI.Size, Prowl.Runtime.GUI.Gui.WidgetStyle?)
+  name.vb: InputLong(String, Long, Offset, Offset, Size, WidgetStyle?)
+- uid: Prowl.Editor.EditorGUI.VectorXStyle
+  commentId: P:Prowl.Editor.EditorGUI.VectorXStyle
+  id: VectorXStyle
+  parent: Prowl.Editor.EditorGUI
+  langs:
+  - csharp
+  - vb
+  name: VectorXStyle
+  nameWithType: EditorGUI.VectorXStyle
+  fullName: Prowl.Editor.EditorGUI.VectorXStyle
+  type: Property
+  source:
+    remote:
+      path: Prowl.Editor/Editor/EditorGUI.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: VectorXStyle
+    path: ../Prowl/Prowl.Editor/Editor/EditorGUI.cs
+    startLine: 185
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor
+  syntax:
+    content: public static Gui.WidgetStyle VectorXStyle { get; }
+    parameters: []
+    return:
+      type: Prowl.Runtime.GUI.Gui.WidgetStyle
+    content.vb: Public Shared ReadOnly Property VectorXStyle As Gui.WidgetStyle
+  overload: Prowl.Editor.EditorGUI.VectorXStyle*
+- uid: Prowl.Editor.EditorGUI.VectorYStyle
+  commentId: P:Prowl.Editor.EditorGUI.VectorYStyle
+  id: VectorYStyle
+  parent: Prowl.Editor.EditorGUI
+  langs:
+  - csharp
+  - vb
+  name: VectorYStyle
+  nameWithType: EditorGUI.VectorYStyle
+  fullName: Prowl.Editor.EditorGUI.VectorYStyle
+  type: Property
+  source:
+    remote:
+      path: Prowl.Editor/Editor/EditorGUI.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: VectorYStyle
+    path: ../Prowl/Prowl.Editor/Editor/EditorGUI.cs
+    startLine: 186
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor
+  syntax:
+    content: public static Gui.WidgetStyle VectorYStyle { get; }
+    parameters: []
+    return:
+      type: Prowl.Runtime.GUI.Gui.WidgetStyle
+    content.vb: Public Shared ReadOnly Property VectorYStyle As Gui.WidgetStyle
+  overload: Prowl.Editor.EditorGUI.VectorYStyle*
+- uid: Prowl.Editor.EditorGUI.VectorZStyle
+  commentId: P:Prowl.Editor.EditorGUI.VectorZStyle
+  id: VectorZStyle
+  parent: Prowl.Editor.EditorGUI
+  langs:
+  - csharp
+  - vb
+  name: VectorZStyle
+  nameWithType: EditorGUI.VectorZStyle
+  fullName: Prowl.Editor.EditorGUI.VectorZStyle
+  type: Property
+  source:
+    remote:
+      path: Prowl.Editor/Editor/EditorGUI.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: VectorZStyle
+    path: ../Prowl/Prowl.Editor/Editor/EditorGUI.cs
+    startLine: 187
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor
+  syntax:
+    content: public static Gui.WidgetStyle VectorZStyle { get; }
+    parameters: []
+    return:
+      type: Prowl.Runtime.GUI.Gui.WidgetStyle
+    content.vb: Public Shared ReadOnly Property VectorZStyle As Gui.WidgetStyle
+  overload: Prowl.Editor.EditorGUI.VectorZStyle*
+- uid: Prowl.Editor.EditorGUI.InputFieldStyle
+  commentId: P:Prowl.Editor.EditorGUI.InputFieldStyle
+  id: InputFieldStyle
+  parent: Prowl.Editor.EditorGUI
+  langs:
+  - csharp
+  - vb
+  name: InputFieldStyle
+  nameWithType: EditorGUI.InputFieldStyle
+  fullName: Prowl.Editor.EditorGUI.InputFieldStyle
+  type: Property
+  source:
+    remote:
+      path: Prowl.Editor/Editor/EditorGUI.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: InputFieldStyle
+    path: ../Prowl/Prowl.Editor/Editor/EditorGUI.cs
+    startLine: 189
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor
+  syntax:
+    content: public static Gui.WidgetStyle InputFieldStyle { get; }
+    parameters: []
+    return:
+      type: Prowl.Runtime.GUI.Gui.WidgetStyle
+    content.vb: Public Shared ReadOnly Property InputFieldStyle As Gui.WidgetStyle
+  overload: Prowl.Editor.EditorGUI.InputFieldStyle*
+- uid: Prowl.Editor.EditorGUI.PropertyGrid(System.String,System.Object@,Prowl.Editor.EditorGUI.TargetFields,Prowl.Editor.EditorGUI.PropertyGridConfig)
+  commentId: M:Prowl.Editor.EditorGUI.PropertyGrid(System.String,System.Object@,Prowl.Editor.EditorGUI.TargetFields,Prowl.Editor.EditorGUI.PropertyGridConfig)
+  id: PropertyGrid(System.String,System.Object@,Prowl.Editor.EditorGUI.TargetFields,Prowl.Editor.EditorGUI.PropertyGridConfig)
+  parent: Prowl.Editor.EditorGUI
+  langs:
+  - csharp
+  - vb
+  name: PropertyGrid(string, ref object, TargetFields, PropertyGridConfig)
+  nameWithType: EditorGUI.PropertyGrid(string, ref object, EditorGUI.TargetFields, EditorGUI.PropertyGridConfig)
+  fullName: Prowl.Editor.EditorGUI.PropertyGrid(string, ref object, Prowl.Editor.EditorGUI.TargetFields, Prowl.Editor.EditorGUI.PropertyGridConfig)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Editor/Editor/EditorGUI.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: PropertyGrid
+    path: ../Prowl/Prowl.Editor/Editor/EditorGUI.cs
+    startLine: 217
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor
+  syntax:
+    content: public static bool PropertyGrid(string name, ref object target, EditorGUI.TargetFields targetFields, EditorGUI.PropertyGridConfig config = PropertyGridConfig.None)
+    parameters:
+    - id: name
+      type: System.String
+    - id: target
+      type: System.Object
+    - id: targetFields
+      type: Prowl.Editor.EditorGUI.TargetFields
+    - id: config
+      type: Prowl.Editor.EditorGUI.PropertyGridConfig
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function PropertyGrid(name As String, target As Object, targetFields As EditorGUI.TargetFields, config As EditorGUI.PropertyGridConfig = PropertyGridConfig.None) As Boolean
+  overload: Prowl.Editor.EditorGUI.PropertyGrid*
+  nameWithType.vb: EditorGUI.PropertyGrid(String, Object, EditorGUI.TargetFields, EditorGUI.PropertyGridConfig)
+  fullName.vb: Prowl.Editor.EditorGUI.PropertyGrid(String, Object, Prowl.Editor.EditorGUI.TargetFields, Prowl.Editor.EditorGUI.PropertyGridConfig)
+  name.vb: PropertyGrid(String, Object, TargetFields, PropertyGridConfig)
+- uid: Prowl.Editor.EditorGUI.PropertyGrid(System.String,System.Object@,System.Collections.Generic.List{System.Reflection.MemberInfo},Prowl.Editor.EditorGUI.PropertyGridConfig)
+  commentId: M:Prowl.Editor.EditorGUI.PropertyGrid(System.String,System.Object@,System.Collections.Generic.List{System.Reflection.MemberInfo},Prowl.Editor.EditorGUI.PropertyGridConfig)
+  id: PropertyGrid(System.String,System.Object@,System.Collections.Generic.List{System.Reflection.MemberInfo},Prowl.Editor.EditorGUI.PropertyGridConfig)
+  parent: Prowl.Editor.EditorGUI
+  langs:
+  - csharp
+  - vb
+  name: PropertyGrid(string, ref object, List<MemberInfo>, PropertyGridConfig)
+  nameWithType: EditorGUI.PropertyGrid(string, ref object, List<MemberInfo>, EditorGUI.PropertyGridConfig)
+  fullName: Prowl.Editor.EditorGUI.PropertyGrid(string, ref object, System.Collections.Generic.List<System.Reflection.MemberInfo>, Prowl.Editor.EditorGUI.PropertyGridConfig)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Editor/Editor/EditorGUI.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: PropertyGrid
+    path: ../Prowl/Prowl.Editor/Editor/EditorGUI.cs
+    startLine: 233
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor
+  syntax:
+    content: public static bool PropertyGrid(string name, ref object target, List<MemberInfo> members, EditorGUI.PropertyGridConfig config = PropertyGridConfig.None)
+    parameters:
+    - id: name
+      type: System.String
+    - id: target
+      type: System.Object
+    - id: members
+      type: System.Collections.Generic.List{System.Reflection.MemberInfo}
+    - id: config
+      type: Prowl.Editor.EditorGUI.PropertyGridConfig
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function PropertyGrid(name As String, target As Object, members As List(Of MemberInfo), config As EditorGUI.PropertyGridConfig = PropertyGridConfig.None) As Boolean
+  overload: Prowl.Editor.EditorGUI.PropertyGrid*
+  nameWithType.vb: EditorGUI.PropertyGrid(String, Object, List(Of MemberInfo), EditorGUI.PropertyGridConfig)
+  fullName.vb: Prowl.Editor.EditorGUI.PropertyGrid(String, Object, System.Collections.Generic.List(Of System.Reflection.MemberInfo), Prowl.Editor.EditorGUI.PropertyGridConfig)
+  name.vb: PropertyGrid(String, Object, List(Of MemberInfo), PropertyGridConfig)
+- uid: Prowl.Editor.EditorGUI.DrawProperty``1(System.Int32,System.String,``0@,Prowl.Editor.EditorGUI.PropertyGridConfig)
+  commentId: M:Prowl.Editor.EditorGUI.DrawProperty``1(System.Int32,System.String,``0@,Prowl.Editor.EditorGUI.PropertyGridConfig)
+  id: DrawProperty``1(System.Int32,System.String,``0@,Prowl.Editor.EditorGUI.PropertyGridConfig)
+  parent: Prowl.Editor.EditorGUI
+  langs:
+  - csharp
+  - vb
+  name: DrawProperty<T>(int, string, ref T?, PropertyGridConfig)
+  nameWithType: EditorGUI.DrawProperty<T>(int, string, ref T?, EditorGUI.PropertyGridConfig)
+  fullName: Prowl.Editor.EditorGUI.DrawProperty<T>(int, string, ref T?, Prowl.Editor.EditorGUI.PropertyGridConfig)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Editor/Editor/EditorGUI.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: DrawProperty
+    path: ../Prowl/Prowl.Editor/Editor/EditorGUI.cs
+    startLine: 330
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor
+  syntax:
+    content: public static bool DrawProperty<T>(int index, string name, ref T? value, EditorGUI.PropertyGridConfig config = PropertyGridConfig.None)
+    parameters:
+    - id: index
+      type: System.Int32
+    - id: name
+      type: System.String
+    - id: value
+      type: '{T}'
+    - id: config
+      type: Prowl.Editor.EditorGUI.PropertyGridConfig
+    typeParameters:
+    - id: T
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function DrawProperty(Of T)(index As Integer, name As String, value As T, config As EditorGUI.PropertyGridConfig = PropertyGridConfig.None) As Boolean
+  overload: Prowl.Editor.EditorGUI.DrawProperty*
+  nameWithType.vb: EditorGUI.DrawProperty(Of T)(Integer, String, T, EditorGUI.PropertyGridConfig)
+  fullName.vb: Prowl.Editor.EditorGUI.DrawProperty(Of T)(Integer, String, T, Prowl.Editor.EditorGUI.PropertyGridConfig)
+  name.vb: DrawProperty(Of T)(Integer, String, T, PropertyGridConfig)
+- uid: Prowl.Editor.EditorGUI.HandleAttributeButtons(System.String,System.Object)
+  commentId: M:Prowl.Editor.EditorGUI.HandleAttributeButtons(System.String,System.Object)
+  id: HandleAttributeButtons(System.String,System.Object)
+  parent: Prowl.Editor.EditorGUI
+  langs:
+  - csharp
+  - vb
+  name: HandleAttributeButtons(string, object)
+  nameWithType: EditorGUI.HandleAttributeButtons(string, object)
+  fullName: Prowl.Editor.EditorGUI.HandleAttributeButtons(string, object)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Editor/Editor/EditorGUI.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: HandleAttributeButtons
+    path: ../Prowl/Prowl.Editor/Editor/EditorGUI.cs
+    startLine: 395
+  assemblies:
+  - Prowl.Editor
+  namespace: Prowl.Editor
+  syntax:
+    content: public static bool HandleAttributeButtons(string id, object target)
+    parameters:
+    - id: id
+      type: System.String
+    - id: target
+      type: System.Object
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function HandleAttributeButtons(id As String, target As Object) As Boolean
+  overload: Prowl.Editor.EditorGUI.HandleAttributeButtons*
+  nameWithType.vb: EditorGUI.HandleAttributeButtons(String, Object)
+  fullName.vb: Prowl.Editor.EditorGUI.HandleAttributeButtons(String, Object)
+  name.vb: HandleAttributeButtons(String, Object)
+references:
+- uid: Prowl.Editor
+  commentId: N:Prowl.Editor
+  href: Prowl.html
+  name: Prowl.Editor
+  nameWithType: Prowl.Editor
+  fullName: Prowl.Editor
+  spec.csharp:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Editor
+    name: Editor
+    href: Prowl.Editor.html
+  spec.vb:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Editor
+    name: Editor
+    href: Prowl.Editor.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Prowl.Editor.EditorGUI.Separator*
+  commentId: Overload:Prowl.Editor.EditorGUI.Separator
+  href: Prowl.Editor.EditorGUI.html#Prowl_Editor_EditorGUI_Separator_System_Single_System_Int32_
+  name: Separator
+  nameWithType: EditorGUI.Separator
+  fullName: Prowl.Editor.EditorGUI.Separator
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.single
+  name: float
+  nameWithType: float
+  fullName: float
+  nameWithType.vb: Single
+  fullName.vb: Single
+  name.vb: Single
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: Prowl.Editor.EditorGUI.Text*
+  commentId: Overload:Prowl.Editor.EditorGUI.Text
+  href: Prowl.Editor.EditorGUI.html#Prowl_Editor_EditorGUI_Text_System_String_System_Int32_System_Boolean_
+  name: Text
+  nameWithType: EditorGUI.Text
+  fullName: Prowl.Editor.EditorGUI.Text
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: Prowl.Editor.EditorGUI.TextSimple*
+  commentId: Overload:Prowl.Editor.EditorGUI.TextSimple
+  href: Prowl.Editor.EditorGUI.html#Prowl_Editor_EditorGUI_TextSimple_System_String_System_Int32_System_Boolean_
+  name: TextSimple
+  nameWithType: EditorGUI.TextSimple
+  fullName: Prowl.Editor.EditorGUI.TextSimple
+- uid: Prowl.Editor.EditorGUI.StyledButton*
+  commentId: Overload:Prowl.Editor.EditorGUI.StyledButton
+  href: Prowl.Editor.EditorGUI.html#Prowl_Editor_EditorGUI_StyledButton_System_String_
+  name: StyledButton
+  nameWithType: EditorGUI.StyledButton
+  fullName: Prowl.Editor.EditorGUI.StyledButton
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.double
+  name: double
+  nameWithType: double
+  fullName: double
+  nameWithType.vb: Double
+  fullName.vb: Double
+  name.vb: Double
+- uid: System.Nullable{Prowl.Runtime.Color}
+  commentId: T:System.Nullable{Prowl.Runtime.Color}
+  parent: System
+  definition: System.Nullable`1
+  name: Color?
+  nameWithType: Color?
+  fullName: Prowl.Runtime.Color?
+  spec.csharp:
+  - uid: Prowl.Runtime.Color
+    name: Color
+  - name: '?'
+  spec.vb:
+  - uid: Prowl.Runtime.Color
+    name: Color
+  - name: '?'
+- uid: System.Nullable{System.Single}
+  commentId: T:System.Nullable{System.Single}
+  parent: System
+  definition: System.Nullable`1
+  href: https://learn.microsoft.com/dotnet/api/system.single
+  name: float?
+  nameWithType: float?
+  fullName: float?
+  nameWithType.vb: Single?
+  fullName.vb: Single?
+  name.vb: Single?
+  spec.csharp:
+  - uid: System.Single
+    name: float
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.single
+  - name: '?'
+  spec.vb:
+  - uid: System.Single
+    name: Single
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.single
+  - name: '?'
+- uid: System.Nullable`1
+  commentId: T:System.Nullable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  name: Nullable<T>
+  nameWithType: Nullable<T>
+  fullName: System.Nullable<T>
+  nameWithType.vb: Nullable(Of T)
+  fullName.vb: System.Nullable(Of T)
+  name.vb: Nullable(Of T)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Prowl.Editor.EditorGUI.InputDouble*
+  commentId: Overload:Prowl.Editor.EditorGUI.InputDouble
+  href: Prowl.Editor.EditorGUI.html#Prowl_Editor_EditorGUI_InputDouble_System_String_System_Double__Prowl_Runtime_GUI_Offset_Prowl_Runtime_GUI_Offset_Prowl_Runtime_GUI_Size_System_Nullable_Prowl_Runtime_GUI_Gui_WidgetStyle__
+  name: InputDouble
+  nameWithType: EditorGUI.InputDouble
+  fullName: Prowl.Editor.EditorGUI.InputDouble
+- uid: Prowl.Runtime.GUI.Offset
+  commentId: T:Prowl.Runtime.GUI.Offset
+  parent: Prowl.Runtime.GUI
+  href: Prowl.Runtime.GUI.Offset.html
+  name: Offset
+  nameWithType: Offset
+  fullName: Prowl.Runtime.GUI.Offset
+- uid: Prowl.Runtime.GUI.Size
+  commentId: T:Prowl.Runtime.GUI.Size
+  parent: Prowl.Runtime.GUI
+  href: Prowl.Runtime.GUI.Size.html
+  name: Size
+  nameWithType: Size
+  fullName: Prowl.Runtime.GUI.Size
+- uid: System.Nullable{Prowl.Runtime.GUI.Gui.WidgetStyle}
+  commentId: T:System.Nullable{Prowl.Runtime.GUI.Gui.WidgetStyle}
+  parent: System
+  definition: System.Nullable`1
+  href: Prowl.Runtime.GUI.Gui.html
+  name: Gui.WidgetStyle?
+  nameWithType: Gui.WidgetStyle?
+  fullName: Prowl.Runtime.GUI.Gui.WidgetStyle?
+  spec.csharp:
+  - uid: Prowl.Runtime.GUI.Gui
+    name: Gui
+    href: Prowl.Runtime.GUI.Gui.html
+  - name: .
+  - uid: Prowl.Runtime.GUI.Gui.WidgetStyle
+    name: WidgetStyle
+    href: Prowl.Runtime.GUI.Gui.WidgetStyle.html
+  - name: '?'
+  spec.vb:
+  - uid: Prowl.Runtime.GUI.Gui
+    name: Gui
+    href: Prowl.Runtime.GUI.Gui.html
+  - name: .
+  - uid: Prowl.Runtime.GUI.Gui.WidgetStyle
+    name: WidgetStyle
+    href: Prowl.Runtime.GUI.Gui.WidgetStyle.html
+  - name: '?'
+- uid: Prowl.Runtime.GUI
+  commentId: N:Prowl.Runtime.GUI
+  href: Prowl.html
+  name: Prowl.Runtime.GUI
+  nameWithType: Prowl.Runtime.GUI
+  fullName: Prowl.Runtime.GUI
+  spec.csharp:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+  - name: .
+  - uid: Prowl.Runtime.GUI
+    name: GUI
+    href: Prowl.Runtime.GUI.html
+  spec.vb:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+  - name: .
+  - uid: Prowl.Runtime.GUI
+    name: GUI
+    href: Prowl.Runtime.GUI.html
+- uid: Prowl.Editor.EditorGUI.InputFloat*
+  commentId: Overload:Prowl.Editor.EditorGUI.InputFloat
+  href: Prowl.Editor.EditorGUI.html#Prowl_Editor_EditorGUI_InputFloat_System_String_System_Single__Prowl_Runtime_GUI_Offset_Prowl_Runtime_GUI_Offset_Prowl_Runtime_GUI_Size_System_Nullable_Prowl_Runtime_GUI_Gui_WidgetStyle__
+  name: InputFloat
+  nameWithType: EditorGUI.InputFloat
+  fullName: Prowl.Editor.EditorGUI.InputFloat
+- uid: Prowl.Editor.EditorGUI.InputLong*
+  commentId: Overload:Prowl.Editor.EditorGUI.InputLong
+  href: Prowl.Editor.EditorGUI.html#Prowl_Editor_EditorGUI_InputLong_System_String_System_Int64__Prowl_Runtime_GUI_Offset_Prowl_Runtime_GUI_Offset_Prowl_Runtime_GUI_Size_System_Nullable_Prowl_Runtime_GUI_Gui_WidgetStyle__
+  name: InputLong
+  nameWithType: EditorGUI.InputLong
+  fullName: Prowl.Editor.EditorGUI.InputLong
+- uid: System.Int64
+  commentId: T:System.Int64
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int64
+  name: long
+  nameWithType: long
+  fullName: long
+  nameWithType.vb: Long
+  fullName.vb: Long
+  name.vb: Long
+- uid: Prowl.Editor.EditorGUI.VectorXStyle*
+  commentId: Overload:Prowl.Editor.EditorGUI.VectorXStyle
+  href: Prowl.Editor.EditorGUI.html#Prowl_Editor_EditorGUI_VectorXStyle
+  name: VectorXStyle
+  nameWithType: EditorGUI.VectorXStyle
+  fullName: Prowl.Editor.EditorGUI.VectorXStyle
+- uid: Prowl.Runtime.GUI.Gui.WidgetStyle
+  commentId: T:Prowl.Runtime.GUI.Gui.WidgetStyle
+  parent: Prowl.Runtime.GUI
+  href: Prowl.Runtime.GUI.Gui.html
+  name: Gui.WidgetStyle
+  nameWithType: Gui.WidgetStyle
+  fullName: Prowl.Runtime.GUI.Gui.WidgetStyle
+  spec.csharp:
+  - uid: Prowl.Runtime.GUI.Gui
+    name: Gui
+    href: Prowl.Runtime.GUI.Gui.html
+  - name: .
+  - uid: Prowl.Runtime.GUI.Gui.WidgetStyle
+    name: WidgetStyle
+    href: Prowl.Runtime.GUI.Gui.WidgetStyle.html
+  spec.vb:
+  - uid: Prowl.Runtime.GUI.Gui
+    name: Gui
+    href: Prowl.Runtime.GUI.Gui.html
+  - name: .
+  - uid: Prowl.Runtime.GUI.Gui.WidgetStyle
+    name: WidgetStyle
+    href: Prowl.Runtime.GUI.Gui.WidgetStyle.html
+- uid: Prowl.Editor.EditorGUI.VectorYStyle*
+  commentId: Overload:Prowl.Editor.EditorGUI.VectorYStyle
+  href: Prowl.Editor.EditorGUI.html#Prowl_Editor_EditorGUI_VectorYStyle
+  name: VectorYStyle
+  nameWithType: EditorGUI.VectorYStyle
+  fullName: Prowl.Editor.EditorGUI.VectorYStyle
+- uid: Prowl.Editor.EditorGUI.VectorZStyle*
+  commentId: Overload:Prowl.Editor.EditorGUI.VectorZStyle
+  href: Prowl.Editor.EditorGUI.html#Prowl_Editor_EditorGUI_VectorZStyle
+  name: VectorZStyle
+  nameWithType: EditorGUI.VectorZStyle
+  fullName: Prowl.Editor.EditorGUI.VectorZStyle
+- uid: Prowl.Editor.EditorGUI.InputFieldStyle*
+  commentId: Overload:Prowl.Editor.EditorGUI.InputFieldStyle
+  href: Prowl.Editor.EditorGUI.html#Prowl_Editor_EditorGUI_InputFieldStyle
+  name: InputFieldStyle
+  nameWithType: EditorGUI.InputFieldStyle
+  fullName: Prowl.Editor.EditorGUI.InputFieldStyle
+- uid: Prowl.Editor.EditorGUI.PropertyGrid*
+  commentId: Overload:Prowl.Editor.EditorGUI.PropertyGrid
+  href: Prowl.Editor.EditorGUI.html#Prowl_Editor_EditorGUI_PropertyGrid_System_String_System_Object__Prowl_Editor_EditorGUI_TargetFields_Prowl_Editor_EditorGUI_PropertyGridConfig_
+  name: PropertyGrid
+  nameWithType: EditorGUI.PropertyGrid
+  fullName: Prowl.Editor.EditorGUI.PropertyGrid
+- uid: Prowl.Editor.EditorGUI.TargetFields
+  commentId: T:Prowl.Editor.EditorGUI.TargetFields
+  parent: Prowl.Editor
+  href: Prowl.Editor.EditorGUI.html
+  name: EditorGUI.TargetFields
+  nameWithType: EditorGUI.TargetFields
+  fullName: Prowl.Editor.EditorGUI.TargetFields
+  spec.csharp:
+  - uid: Prowl.Editor.EditorGUI
+    name: EditorGUI
+    href: Prowl.Editor.EditorGUI.html
+  - name: .
+  - uid: Prowl.Editor.EditorGUI.TargetFields
+    name: TargetFields
+    href: Prowl.Editor.EditorGUI.TargetFields.html
+  spec.vb:
+  - uid: Prowl.Editor.EditorGUI
+    name: EditorGUI
+    href: Prowl.Editor.EditorGUI.html
+  - name: .
+  - uid: Prowl.Editor.EditorGUI.TargetFields
+    name: TargetFields
+    href: Prowl.Editor.EditorGUI.TargetFields.html
+- uid: Prowl.Editor.EditorGUI.PropertyGridConfig
+  commentId: T:Prowl.Editor.EditorGUI.PropertyGridConfig
+  parent: Prowl.Editor
+  href: Prowl.Editor.EditorGUI.html
+  name: EditorGUI.PropertyGridConfig
+  nameWithType: EditorGUI.PropertyGridConfig
+  fullName: Prowl.Editor.EditorGUI.PropertyGridConfig
+  spec.csharp:
+  - uid: Prowl.Editor.EditorGUI
+    name: EditorGUI
+    href: Prowl.Editor.EditorGUI.html
+  - name: .
+  - uid: Prowl.Editor.EditorGUI.PropertyGridConfig
+    name: PropertyGridConfig
+    href: Prowl.Editor.EditorGUI.PropertyGridConfig.html
+  spec.vb:
+  - uid: Prowl.Editor.EditorGUI
+    name: EditorGUI
+    href: Prowl.Editor.EditorGUI.html
+  - name: .
+  - uid: Prowl.Editor.EditorGUI.PropertyGridConfig
+    name: PropertyGridConfig
+    href: Prowl.Editor.EditorGUI.PropertyGridConfig.html
+- uid: System.Collections.Generic.List{System.Reflection.MemberInfo}
+  commentId: T:System.Collections.Generic.List{System.Reflection.MemberInfo}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<MemberInfo>
+  nameWithType: List<MemberInfo>
+  fullName: System.Collections.Generic.List<System.Reflection.MemberInfo>
+  nameWithType.vb: List(Of MemberInfo)
+  fullName.vb: System.Collections.Generic.List(Of System.Reflection.MemberInfo)
+  name.vb: List(Of MemberInfo)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - uid: System.Reflection.MemberInfo
+    name: MemberInfo
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.reflection.memberinfo
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Reflection.MemberInfo
+    name: MemberInfo
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.reflection.memberinfo
+  - name: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: Prowl.Editor.EditorGUI.DrawProperty*
+  commentId: Overload:Prowl.Editor.EditorGUI.DrawProperty
+  href: Prowl.Editor.EditorGUI.html#Prowl_Editor_EditorGUI_DrawProperty__1_System_Int32_System_String___0__Prowl_Editor_EditorGUI_PropertyGridConfig_
+  name: DrawProperty
+  nameWithType: EditorGUI.DrawProperty
+  fullName: Prowl.Editor.EditorGUI.DrawProperty
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: Prowl.Editor.EditorGUI.HandleAttributeButtons*
+  commentId: Overload:Prowl.Editor.EditorGUI.HandleAttributeButtons
+  href: Prowl.Editor.EditorGUI.html#Prowl_Editor_EditorGUI_HandleAttributeButtons_System_String_System_Object_
+  name: HandleAttributeButtons
+  nameWithType: EditorGUI.HandleAttributeButtons
+  fullName: Prowl.Editor.EditorGUI.HandleAttributeButtons

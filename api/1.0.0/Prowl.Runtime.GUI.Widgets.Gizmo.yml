@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: Prowl.Runtime.GUI.Widgets.Gizmo
+  commentId: N:Prowl.Runtime.GUI.Widgets.Gizmo
+  id: Prowl.Runtime.GUI.Widgets.Gizmo
+  children:
+  - Prowl.Runtime.GUI.Widgets.Gizmo.ViewManipulatorGizmo
+  langs:
+  - csharp
+  - vb
+  name: Prowl.Runtime.GUI.Widgets.Gizmo
+  nameWithType: Prowl.Runtime.GUI.Widgets.Gizmo
+  fullName: Prowl.Runtime.GUI.Widgets.Gizmo
+  type: Namespace
+  assemblies:
+  - Prowl.Runtime
+references:
+- uid: Prowl.Runtime.GUI.Widgets.Gizmo.ViewManipulatorGizmo
+  commentId: T:Prowl.Runtime.GUI.Widgets.Gizmo.ViewManipulatorGizmo
+  href: Prowl.Runtime.GUI.Widgets.Gizmo.ViewManipulatorGizmo.html
+  name: ViewManipulatorGizmo
+  nameWithType: ViewManipulatorGizmo
+  fullName: Prowl.Runtime.GUI.Widgets.Gizmo.ViewManipulatorGizmo

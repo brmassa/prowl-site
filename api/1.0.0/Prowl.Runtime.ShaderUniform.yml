@@ -1,0 +1,741 @@
+### YamlMime:ManagedReference
+items:
+- uid: Prowl.Runtime.ShaderUniform
+  commentId: T:Prowl.Runtime.ShaderUniform
+  id: ShaderUniform
+  parent: Prowl.Runtime
+  children:
+  - Prowl.Runtime.ShaderUniform.#ctor(System.String,System.UInt32,System.UInt32,Prowl.Runtime.ShaderUniformMember[])
+  - Prowl.Runtime.ShaderUniform.#ctor(System.String,System.UInt32,Veldrid.ResourceKind)
+  - Prowl.Runtime.ShaderUniform.IsEqual(Prowl.Runtime.ShaderUniform)
+  - Prowl.Runtime.ShaderUniform.ToString
+  - Prowl.Runtime.ShaderUniform.binding
+  - Prowl.Runtime.ShaderUniform.kind
+  - Prowl.Runtime.ShaderUniform.members
+  - Prowl.Runtime.ShaderUniform.name
+  - Prowl.Runtime.ShaderUniform.size
+  langs:
+  - csharp
+  - vb
+  name: ShaderUniform
+  nameWithType: ShaderUniform
+  fullName: Prowl.Runtime.ShaderUniform
+  type: Class
+  source:
+    remote:
+      path: Prowl.Runtime/Rendering/Shader/ShaderUniform.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: ShaderUniform
+    path: ../Prowl/Prowl.Runtime/Rendering/Shader/ShaderUniform.cs
+    startLine: 33
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public class ShaderUniform
+    content.vb: Public Class ShaderUniform
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  extensionMethods:
+  - System.Object.Prowl.Runtime.RuntimeUtils.GetSerializableFields
+- uid: Prowl.Runtime.ShaderUniform.kind
+  commentId: F:Prowl.Runtime.ShaderUniform.kind
+  id: kind
+  parent: Prowl.Runtime.ShaderUniform
+  langs:
+  - csharp
+  - vb
+  name: kind
+  nameWithType: ShaderUniform.kind
+  fullName: Prowl.Runtime.ShaderUniform.kind
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/Rendering/Shader/ShaderUniform.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: kind
+    path: ../Prowl/Prowl.Runtime/Rendering/Shader/ShaderUniform.cs
+    startLine: 40
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public readonly ResourceKind kind
+    return:
+      type: Veldrid.ResourceKind
+    content.vb: Public ReadOnly kind As ResourceKind
+- uid: Prowl.Runtime.ShaderUniform.name
+  commentId: F:Prowl.Runtime.ShaderUniform.name
+  id: name
+  parent: Prowl.Runtime.ShaderUniform
+  langs:
+  - csharp
+  - vb
+  name: name
+  nameWithType: ShaderUniform.name
+  fullName: Prowl.Runtime.ShaderUniform.name
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/Rendering/Shader/ShaderUniform.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: name
+    path: ../Prowl/Prowl.Runtime/Rendering/Shader/ShaderUniform.cs
+    startLine: 41
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public readonly string name
+    return:
+      type: System.String
+    content.vb: Public ReadOnly name As String
+- uid: Prowl.Runtime.ShaderUniform.binding
+  commentId: F:Prowl.Runtime.ShaderUniform.binding
+  id: binding
+  parent: Prowl.Runtime.ShaderUniform
+  langs:
+  - csharp
+  - vb
+  name: binding
+  nameWithType: ShaderUniform.binding
+  fullName: Prowl.Runtime.ShaderUniform.binding
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/Rendering/Shader/ShaderUniform.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: binding
+    path: ../Prowl/Prowl.Runtime/Rendering/Shader/ShaderUniform.cs
+    startLine: 42
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public readonly uint binding
+    return:
+      type: System.UInt32
+    content.vb: Public ReadOnly binding As UInteger
+- uid: Prowl.Runtime.ShaderUniform.size
+  commentId: F:Prowl.Runtime.ShaderUniform.size
+  id: size
+  parent: Prowl.Runtime.ShaderUniform
+  langs:
+  - csharp
+  - vb
+  name: size
+  nameWithType: ShaderUniform.size
+  fullName: Prowl.Runtime.ShaderUniform.size
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/Rendering/Shader/ShaderUniform.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: size
+    path: ../Prowl/Prowl.Runtime/Rendering/Shader/ShaderUniform.cs
+    startLine: 44
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public uint size
+    return:
+      type: System.UInt32
+    content.vb: Public size As UInteger
+- uid: Prowl.Runtime.ShaderUniform.members
+  commentId: F:Prowl.Runtime.ShaderUniform.members
+  id: members
+  parent: Prowl.Runtime.ShaderUniform
+  langs:
+  - csharp
+  - vb
+  name: members
+  nameWithType: ShaderUniform.members
+  fullName: Prowl.Runtime.ShaderUniform.members
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/Rendering/Shader/ShaderUniform.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: members
+    path: ../Prowl/Prowl.Runtime/Rendering/Shader/ShaderUniform.cs
+    startLine: 46
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public ShaderUniformMember[] members
+    return:
+      type: Prowl.Runtime.ShaderUniformMember[]
+    content.vb: Public members As ShaderUniformMember()
+- uid: Prowl.Runtime.ShaderUniform.#ctor(System.String,System.UInt32,Veldrid.ResourceKind)
+  commentId: M:Prowl.Runtime.ShaderUniform.#ctor(System.String,System.UInt32,Veldrid.ResourceKind)
+  id: '#ctor(System.String,System.UInt32,Veldrid.ResourceKind)'
+  parent: Prowl.Runtime.ShaderUniform
+  langs:
+  - csharp
+  - vb
+  name: ShaderUniform(string, uint, ResourceKind)
+  nameWithType: ShaderUniform.ShaderUniform(string, uint, ResourceKind)
+  fullName: Prowl.Runtime.ShaderUniform.ShaderUniform(string, uint, Veldrid.ResourceKind)
+  type: Constructor
+  source:
+    remote:
+      path: Prowl.Runtime/Rendering/Shader/ShaderUniform.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: .ctor
+    path: ../Prowl/Prowl.Runtime/Rendering/Shader/ShaderUniform.cs
+    startLine: 51
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public ShaderUniform(string rawName, uint binding, ResourceKind kind)
+    parameters:
+    - id: rawName
+      type: System.String
+    - id: binding
+      type: System.UInt32
+    - id: kind
+      type: Veldrid.ResourceKind
+    content.vb: Public Sub New(rawName As String, binding As UInteger, kind As ResourceKind)
+  overload: Prowl.Runtime.ShaderUniform.#ctor*
+  nameWithType.vb: ShaderUniform.New(String, UInteger, ResourceKind)
+  fullName.vb: Prowl.Runtime.ShaderUniform.New(String, UInteger, Veldrid.ResourceKind)
+  name.vb: New(String, UInteger, ResourceKind)
+- uid: Prowl.Runtime.ShaderUniform.#ctor(System.String,System.UInt32,System.UInt32,Prowl.Runtime.ShaderUniformMember[])
+  commentId: M:Prowl.Runtime.ShaderUniform.#ctor(System.String,System.UInt32,System.UInt32,Prowl.Runtime.ShaderUniformMember[])
+  id: '#ctor(System.String,System.UInt32,System.UInt32,Prowl.Runtime.ShaderUniformMember[])'
+  parent: Prowl.Runtime.ShaderUniform
+  langs:
+  - csharp
+  - vb
+  name: ShaderUniform(string, uint, uint, ShaderUniformMember[])
+  nameWithType: ShaderUniform.ShaderUniform(string, uint, uint, ShaderUniformMember[])
+  fullName: Prowl.Runtime.ShaderUniform.ShaderUniform(string, uint, uint, Prowl.Runtime.ShaderUniformMember[])
+  type: Constructor
+  source:
+    remote:
+      path: Prowl.Runtime/Rendering/Shader/ShaderUniform.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: .ctor
+    path: ../Prowl/Prowl.Runtime/Rendering/Shader/ShaderUniform.cs
+    startLine: 60
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public ShaderUniform(string rawName, uint binding, uint size, ShaderUniformMember[] members)
+    parameters:
+    - id: rawName
+      type: System.String
+    - id: binding
+      type: System.UInt32
+    - id: size
+      type: System.UInt32
+    - id: members
+      type: Prowl.Runtime.ShaderUniformMember[]
+    content.vb: Public Sub New(rawName As String, binding As UInteger, size As UInteger, members As ShaderUniformMember())
+  overload: Prowl.Runtime.ShaderUniform.#ctor*
+  nameWithType.vb: ShaderUniform.New(String, UInteger, UInteger, ShaderUniformMember())
+  fullName.vb: Prowl.Runtime.ShaderUniform.New(String, UInteger, UInteger, Prowl.Runtime.ShaderUniformMember())
+  name.vb: New(String, UInteger, UInteger, ShaderUniformMember())
+- uid: Prowl.Runtime.ShaderUniform.ToString
+  commentId: M:Prowl.Runtime.ShaderUniform.ToString
+  id: ToString
+  parent: Prowl.Runtime.ShaderUniform
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: ShaderUniform.ToString()
+  fullName: Prowl.Runtime.ShaderUniform.ToString()
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Rendering/Shader/ShaderUniform.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: ToString
+    path: ../Prowl/Prowl.Runtime/Rendering/Shader/ShaderUniform.cs
+    startLine: 70
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: Returns a string that represents the current object.
+  example: []
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+      description: A string that represents the current object.
+    content.vb: Public Overrides Function ToString() As String
+  overridden: System.Object.ToString
+  overload: Prowl.Runtime.ShaderUniform.ToString*
+- uid: Prowl.Runtime.ShaderUniform.IsEqual(Prowl.Runtime.ShaderUniform)
+  commentId: M:Prowl.Runtime.ShaderUniform.IsEqual(Prowl.Runtime.ShaderUniform)
+  id: IsEqual(Prowl.Runtime.ShaderUniform)
+  parent: Prowl.Runtime.ShaderUniform
+  langs:
+  - csharp
+  - vb
+  name: IsEqual(ShaderUniform)
+  nameWithType: ShaderUniform.IsEqual(ShaderUniform)
+  fullName: Prowl.Runtime.ShaderUniform.IsEqual(Prowl.Runtime.ShaderUniform)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Rendering/Shader/ShaderUniform.cs
+      branch: development
+      repo: git@github.com:brmassa/Prowl.git
+    id: IsEqual
+    path: ../Prowl/Prowl.Runtime/Rendering/Shader/ShaderUniform.cs
+    startLine: 104
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: public bool IsEqual(ShaderUniform other)
+    parameters:
+    - id: other
+      type: Prowl.Runtime.ShaderUniform
+    return:
+      type: System.Boolean
+    content.vb: Public Function IsEqual(other As ShaderUniform) As Boolean
+  overload: Prowl.Runtime.ShaderUniform.IsEqual*
+references:
+- uid: Prowl.Runtime
+  commentId: N:Prowl.Runtime
+  href: Prowl.html
+  name: Prowl.Runtime
+  nameWithType: Prowl.Runtime
+  fullName: Prowl.Runtime
+  spec.csharp:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+  spec.vb:
+  - uid: Prowl
+    name: Prowl
+    href: Prowl.html
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+    href: Prowl.Runtime.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Prowl.Runtime.RuntimeUtils.GetSerializableFields
+  commentId: M:Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  parent: Prowl.Runtime.RuntimeUtils
+  definition: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  name: GetSerializableFields(object)
+  nameWithType: RuntimeUtils.GetSerializableFields(object)
+  fullName: Prowl.Runtime.RuntimeUtils.GetSerializableFields(object)
+  nameWithType.vb: RuntimeUtils.GetSerializableFields(Object)
+  fullName.vb: Prowl.Runtime.RuntimeUtils.GetSerializableFields(Object)
+  name.vb: GetSerializableFields(Object)
+  spec.csharp:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  commentId: M:Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  isExternal: true
+  href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  name: GetSerializableFields(object)
+  nameWithType: RuntimeUtils.GetSerializableFields(object)
+  fullName: Prowl.Runtime.RuntimeUtils.GetSerializableFields(object)
+  nameWithType.vb: RuntimeUtils.GetSerializableFields(Object)
+  fullName.vb: Prowl.Runtime.RuntimeUtils.GetSerializableFields(Object)
+  name.vb: GetSerializableFields(Object)
+  spec.csharp:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: Prowl.Runtime.RuntimeUtils
+  commentId: T:Prowl.Runtime.RuntimeUtils
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.RuntimeUtils.html
+  name: RuntimeUtils
+  nameWithType: RuntimeUtils
+  fullName: Prowl.Runtime.RuntimeUtils
+- uid: Veldrid.ResourceKind
+  commentId: T:Veldrid.ResourceKind
+  parent: Veldrid
+  name: ResourceKind
+  nameWithType: ResourceKind
+  fullName: Veldrid.ResourceKind
+- uid: Veldrid
+  commentId: N:Veldrid
+  name: Veldrid
+  nameWithType: Veldrid
+  fullName: Veldrid
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System.UInt32
+  commentId: T:System.UInt32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.uint32
+  name: uint
+  nameWithType: uint
+  fullName: uint
+  nameWithType.vb: UInteger
+  fullName.vb: UInteger
+  name.vb: UInteger
+- uid: Prowl.Runtime.ShaderUniformMember[]
+  isExternal: true
+  href: Prowl.Runtime.ShaderUniformMember.html
+  name: ShaderUniformMember[]
+  nameWithType: ShaderUniformMember[]
+  fullName: Prowl.Runtime.ShaderUniformMember[]
+  nameWithType.vb: ShaderUniformMember()
+  fullName.vb: Prowl.Runtime.ShaderUniformMember()
+  name.vb: ShaderUniformMember()
+  spec.csharp:
+  - uid: Prowl.Runtime.ShaderUniformMember
+    name: ShaderUniformMember
+    href: Prowl.Runtime.ShaderUniformMember.html
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: Prowl.Runtime.ShaderUniformMember
+    name: ShaderUniformMember
+    href: Prowl.Runtime.ShaderUniformMember.html
+  - name: (
+  - name: )
+- uid: Prowl.Runtime.ShaderUniform.#ctor*
+  commentId: Overload:Prowl.Runtime.ShaderUniform.#ctor
+  href: Prowl.Runtime.ShaderUniform.html#Prowl_Runtime_ShaderUniform__ctor_System_String_System_UInt32_Veldrid_ResourceKind_
+  name: ShaderUniform
+  nameWithType: ShaderUniform.ShaderUniform
+  fullName: Prowl.Runtime.ShaderUniform.ShaderUniform
+  nameWithType.vb: ShaderUniform.New
+  fullName.vb: Prowl.Runtime.ShaderUniform.New
+  name.vb: New
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: Prowl.Runtime.ShaderUniform.ToString*
+  commentId: Overload:Prowl.Runtime.ShaderUniform.ToString
+  href: Prowl.Runtime.ShaderUniform.html#Prowl_Runtime_ShaderUniform_ToString
+  name: ToString
+  nameWithType: ShaderUniform.ToString
+  fullName: Prowl.Runtime.ShaderUniform.ToString
+- uid: Prowl.Runtime.ShaderUniform.IsEqual*
+  commentId: Overload:Prowl.Runtime.ShaderUniform.IsEqual
+  href: Prowl.Runtime.ShaderUniform.html#Prowl_Runtime_ShaderUniform_IsEqual_Prowl_Runtime_ShaderUniform_
+  name: IsEqual
+  nameWithType: ShaderUniform.IsEqual
+  fullName: Prowl.Runtime.ShaderUniform.IsEqual
+- uid: Prowl.Runtime.ShaderUniform
+  commentId: T:Prowl.Runtime.ShaderUniform
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.ShaderUniform.html
+  name: ShaderUniform
+  nameWithType: ShaderUniform
+  fullName: Prowl.Runtime.ShaderUniform
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
