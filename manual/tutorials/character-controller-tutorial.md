@@ -51,19 +51,19 @@ The controller’s GameObject position marks the character’s feet. Keep `FPS P
    if (Input.GetMouseButtonDown(1))
       Input.LockCursor();
 
-  if (Input.GetMouseButtonUp(1))
+   if (Input.GetMouseButtonUp(1))
       Input.UnlockCursor();
 
-  if (!Input.CursorLocked) return;
+   if (!Input.CursorLocked) return;
 
-  Float2 delta = Input.MouseDelta;
-  _yaw += delta.X * Sensitivity;
-  _pitch = Math.Clamp(_pitch - delta.Y * Sensitivity, MinPitch, MaxPitch);
+   Float2 delta = Input.MouseDelta;
+   _yaw += delta.X * Sensitivity;
+   _pitch = Math.Clamp(_pitch - delta.Y * Sensitivity, MinPitch, MaxPitch);
 
-  Float3 playerAngles = Transform.Parent.LocalEulerAngles;
-  playerAngles.Y = _yaw;
-  Transform.Parent.LocalEulerAngles = playerAngles;
-  Transform.LocalEulerAngles = new Float3(_pitch, 0f, 0f);
+   Float3 playerAngles = Transform.Parent.LocalEulerAngles;
+   playerAngles.Y = _yaw;
+   Transform.Parent.LocalEulerAngles = playerAngles;
+   Transform.LocalEulerAngles = new Float3(_pitch, 0f, 0f);
    ```
 
    ![FPSMouseLook Update function code](../../media/screenshots/tutorial_charcontroller_fpsmouselookcode.png)
