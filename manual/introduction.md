@@ -34,5 +34,17 @@ Prowl is in preview, so features and project formats may change between releases
   - [Camera](graphics/camera.md)
   - [Materials](graphics/material.md)
 - [Scripting](scripting/index.md) — write and organize C# scripts.
+- [Terrain](terrain/terrain.md) - creating terrains
+
+### Tutorials
+
+- [Paint: Create and Apply a Material](tutorials/material-tutorial.md) — create a material, choose the Standard shader, set its tint, and apply it to an object.
+- [Physics Basics: Drop Cubes onto the Floor](tutorials/physics-tutorial.md) — add colliders and rigid bodies, then test gravity and collisions in Play mode.
+- [Shader Basics: Make a Solid Color Shader](tutorials/shader-basics-tutorial.md) — write a minimal shader, expose a color property, and use it in a material.
+- [Shader Advanced: Make a Lit Paint Material](tutorials/shader-advanced-tutorial.md) — build a lit PBR shader with screen-space effects and shadow support.
+- [Shader Textures: Add UVs and Sample an Image](tutorials/shader-textured-tutorial.md) — pass mesh UVs through a shader and sample a downloadable texture.
+- [Terrain: Sculpt a Landscape and Add Vegetation](tutorials/terrain-tutorial.md) — shape terrain, paint surface layers, and add grass details and trees.
+- [Character Controller: Build an FPS Player Prefab](tutorials/character-controller-tutorial.md) — create a first-person player with movement and mouse look, save it as a prefab, and test it in the terrain scene.
+
 
 Use the navigation menu to browse the complete [manual](toc.yml).
