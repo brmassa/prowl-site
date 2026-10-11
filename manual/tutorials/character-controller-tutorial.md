@@ -35,20 +35,43 @@ The controller’s GameObject position marks the character’s feet. Keep `FPS P
 3. Add a **Camera** component to `Player Camera`. Make sure the camera's position is at `(0, 0, 0)`.
    ![FPSPlayerController script creation dialog](../../media/screenshots/tutorial_charcontroller_playercamera.png)
 4. Create another C# script named `FPSMouseLook` using the **First Person Camera** template, then add it to `Player Camera`.
-5. Open `FPSMouseLook` and add cursor locking inside `Update`, before the existing `if (!Input.CursorLocked) return;` check:
+5. Open `FPSMouseLook`. First, change `Start` so yaw begins from the `FPS Player` parent and pitch from the camera:
+
+   ```csharp
+   public override void Start()
+   {
+       _yaw = Transform.Parent.LocalEulerAngles.Y;
+       _pitch = Transform.LocalEulerAngles.X;
+   }
+   ```
+
+6. Replace the code in the `Update` function body with the following:
 
    ```csharp
    if (Input.GetMouseButtonDown(1))
-       Input.LockCursor();
+      Input.LockCursor();
 
-   if (Input.GetMouseButtonUp(1))
-       Input.UnlockCursor();
+  if (Input.GetMouseButtonUp(1))
+      Input.UnlockCursor();
+
+  if (!Input.CursorLocked) return;
+
+  Float2 delta = Input.MouseDelta;
+  _yaw += delta.X * Sensitivity;
+  _pitch = Math.Clamp(_pitch - delta.Y * Sensitivity, MinPitch, MaxPitch);
+
+  Float3 playerAngles = Transform.Parent.LocalEulerAngles;
+  playerAngles.Y = _yaw;
+  Transform.Parent.LocalEulerAngles = playerAngles;
+  Transform.LocalEulerAngles = new Float3(_pitch, 0f, 0f);
    ```
 
-   The resulting code should look like this:
-   ![FPSPlayerController script creation dialog](../../media/screenshots/tutorial_charcontroller_fpsmouselookcode.png)
+   ![FPSMouseLook Update function code](../../media/screenshots/tutorial_charcontroller_fpsmouselookcode.png)
 
-The camera script rotates the camera with the mouse while the cursor is locked. This addition locks the cursor while you hold the right mouse button and releases it when you let go. Its yaw turns the camera around the player; pitch looks up and down. The player movement script uses the root object’s forward direction, so the player walks in the direction the camera faces horizontally.
+   This applies yaw to the `FPS Player` root, which is the direction the movement script uses, and keeps up/down pitch on the camera child.
+   
+
+The camera script rotates the view with the mouse while the cursor is locked. Holding the right mouse button locks the cursor and releasing it unlocks the cursor. Yaw turns the player and camera together; pitch looks up and down without tilting the movement direction.
 
 ## 4. Save the player as a prefab
 
@@ -65,6 +88,8 @@ The camera script rotates the camera with the mouse while the cursor is locked. 
 4. Click inside the **Game View** to focus it, then hold the **right mouse button** to lock the cursor and look around. Use **W**, **A**, **S**, and **D** to walk, and **Space** to jump. Release the right mouse button to unlock the cursor. Press **Escape** to release it if needed.
 5. Walk around the clearing, path, hills, grass, and trees. If the view starts inside the Body, adjust the camera child’s local height or move the player to an open spot.
 6. Stop Play mode when you’re done. Save the scene to keep the player instance and its position.
+
+![FPS View from in-game](../../media/screenshots/tutorial_charcontroller_fpsgameview.png)
 
 ## Troubleshooting
 
