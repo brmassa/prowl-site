@@ -1,0 +1,1018 @@
+### YamlMime:ManagedReference
+items:
+- uid: Prowl.Runtime.Rendering.SceneLightSystem
+  commentId: T:Prowl.Runtime.Rendering.SceneLightSystem
+  id: SceneLightSystem
+  parent: Prowl.Runtime.Rendering
+  children:
+  - Prowl.Runtime.Rendering.SceneLightSystem.#ctor
+  - Prowl.Runtime.Rendering.SceneLightSystem.Directional
+  - Prowl.Runtime.Rendering.SceneLightSystem.Dispose
+  - Prowl.Runtime.Rendering.SceneLightSystem.ExtraDirectionals
+  - Prowl.Runtime.Rendering.SceneLightSystem.MaxExtraDirectionalLights
+  - Prowl.Runtime.Rendering.SceneLightSystem.Reconcile(System.Collections.Generic.IReadOnlyList{Prowl.Runtime.Rendering.IRenderableLight},Prowl.Vector.Float3,Prowl.Runtime.LayerMask,System.Nullable{Prowl.Vector.Frustum})
+  - Prowl.Runtime.Rendering.SceneLightSystem.ShadowLights
+  langs:
+  - csharp
+  - vb
+  name: SceneLightSystem
+  nameWithType: SceneLightSystem
+  fullName: Prowl.Runtime.Rendering.SceneLightSystem
+  type: Class
+  source:
+    remote:
+      path: Prowl.Runtime/Rendering/SceneLightSystem.cs
+      branch: main
+      repo: https://github.com/ProwlEngine/Prowl.git
+    id: SceneLightSystem
+    path: ../Prowl/Prowl.Runtime/Rendering/SceneLightSystem.cs
+    startLine: 27
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.Rendering
+  summary: >-
+    Per-scene owner of the light trees forward shading walks. The render pipeline calls
+
+    <xref href="Prowl.Runtime.Rendering.SceneLightSystem.Reconcile(System.Collections.Generic.IReadOnlyList%7bProwl.Runtime.Rendering.IRenderableLight%7d%2cProwl.Vector.Float3%2cProwl.Runtime.LayerMask%2cSystem.Nullable%7bProwl.Vector.Frustum%7d)" data-throw-if-not-resolved="false"></xref> once per frame with the lights collected from the scene, and only what
+
+    changed is rebuilt and uploaded.
+
+
+    <p>
+
+    Directional lights never enter either tree. The brightest is uploaded via the cascade-shadow
+
+    uniform path; up to <xref href="Prowl.Runtime.Rendering.SceneLightSystem.MaxExtraDirectionalLights" data-throw-if-not-resolved="false"></xref> others light the scene unshadowed.
+
+    </p>
+
+
+    <p>
+
+    Every point and spot light that casts shadows gets them while it is in view, sized and cached by each
+
+    camera's own <xref href="Prowl.Runtime.Rendering.ShadowRenderer" data-throw-if-not-resolved="false"></xref>. Its shadow data lives in a table, so there is no cap on how many.
+
+    </p>
+  example: []
+  syntax:
+    content: 'public sealed class SceneLightSystem : IDisposable'
+    content.vb: Public NotInheritable Class SceneLightSystem Implements IDisposable
+  inheritance:
+  - System.Object
+  implements:
+  - System.IDisposable
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  extensionMethods:
+  - System.Object.Prowl.Runtime.RuntimeUtils.GetSerializableFields
+- uid: Prowl.Runtime.Rendering.SceneLightSystem.MaxExtraDirectionalLights
+  commentId: F:Prowl.Runtime.Rendering.SceneLightSystem.MaxExtraDirectionalLights
+  id: MaxExtraDirectionalLights
+  parent: Prowl.Runtime.Rendering.SceneLightSystem
+  langs:
+  - csharp
+  - vb
+  name: MaxExtraDirectionalLights
+  nameWithType: SceneLightSystem.MaxExtraDirectionalLights
+  fullName: Prowl.Runtime.Rendering.SceneLightSystem.MaxExtraDirectionalLights
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/Rendering/SceneLightSystem.cs
+      branch: main
+      repo: https://github.com/ProwlEngine/Prowl.git
+    id: MaxExtraDirectionalLights
+    path: ../Prowl/Prowl.Runtime/Rendering/SceneLightSystem.cs
+    startLine: 31
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.Rendering
+  summary: >-
+    How many directional lights beyond the main one light the scene (unshadowed). Must
+        match <code>MAX_EXTRA_DIRECTIONAL_LIGHTS</code> in <code>Lighting.glsl</code>.
+  example: []
+  syntax:
+    content: public const int MaxExtraDirectionalLights = 4
+    return:
+      type: System.Int32
+    content.vb: Public Const MaxExtraDirectionalLights As Integer = 4
+- uid: Prowl.Runtime.Rendering.SceneLightSystem.Directional
+  commentId: P:Prowl.Runtime.Rendering.SceneLightSystem.Directional
+  id: Directional
+  parent: Prowl.Runtime.Rendering.SceneLightSystem
+  langs:
+  - csharp
+  - vb
+  name: Directional
+  nameWithType: SceneLightSystem.Directional
+  fullName: Prowl.Runtime.Rendering.SceneLightSystem.Directional
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/Rendering/SceneLightSystem.cs
+      branch: main
+      repo: https://github.com/ProwlEngine/Prowl.git
+    id: Directional
+    path: ../Prowl/Prowl.Runtime/Rendering/SceneLightSystem.cs
+    startLine: 55
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.Rendering
+  summary: >-
+    The brightest directional light this frame, or null. Render pipeline takes this
+        for cascade shadows + the directional uniform slot.
+  example: []
+  syntax:
+    content: public IRenderableLight Directional { get; }
+    parameters: []
+    return:
+      type: Prowl.Runtime.Rendering.IRenderableLight
+    content.vb: Public ReadOnly Property Directional As IRenderableLight
+  overload: Prowl.Runtime.Rendering.SceneLightSystem.Directional*
+- uid: Prowl.Runtime.Rendering.SceneLightSystem.ExtraDirectionals
+  commentId: P:Prowl.Runtime.Rendering.SceneLightSystem.ExtraDirectionals
+  id: ExtraDirectionals
+  parent: Prowl.Runtime.Rendering.SceneLightSystem
+  langs:
+  - csharp
+  - vb
+  name: ExtraDirectionals
+  nameWithType: SceneLightSystem.ExtraDirectionals
+  fullName: Prowl.Runtime.Rendering.SceneLightSystem.ExtraDirectionals
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/Rendering/SceneLightSystem.cs
+      branch: main
+      repo: https://github.com/ProwlEngine/Prowl.git
+    id: ExtraDirectionals
+    path: ../Prowl/Prowl.Runtime/Rendering/SceneLightSystem.cs
+    startLine: 58
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.Rendering
+  summary: The other directional lights this frame, lit without shadows.
+  example: []
+  syntax:
+    content: public IReadOnlyList<IRenderableLight> ExtraDirectionals { get; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.IReadOnlyList{Prowl.Runtime.Rendering.IRenderableLight}
+    content.vb: Public ReadOnly Property ExtraDirectionals As IReadOnlyList(Of IRenderableLight)
+  overload: Prowl.Runtime.Rendering.SceneLightSystem.ExtraDirectionals*
+- uid: Prowl.Runtime.Rendering.SceneLightSystem.ShadowLights
+  commentId: P:Prowl.Runtime.Rendering.SceneLightSystem.ShadowLights
+  id: ShadowLights
+  parent: Prowl.Runtime.Rendering.SceneLightSystem
+  langs:
+  - csharp
+  - vb
+  name: ShadowLights
+  nameWithType: SceneLightSystem.ShadowLights
+  fullName: Prowl.Runtime.Rendering.SceneLightSystem.ShadowLights
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/Rendering/SceneLightSystem.cs
+      branch: main
+      repo: https://github.com/ProwlEngine/Prowl.git
+    id: ShadowLights
+    path: ../Prowl/Prowl.Runtime/Rendering/SceneLightSystem.cs
+    startLine: 61
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.Rendering
+  summary: Point and spot lights that cast shadows this frame, in view or not.
+  example: []
+  syntax:
+    content: public IReadOnlyList<Light> ShadowLights { get; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.IReadOnlyList{Prowl.Runtime.Light}
+    content.vb: Public ReadOnly Property ShadowLights As IReadOnlyList(Of Light)
+  overload: Prowl.Runtime.Rendering.SceneLightSystem.ShadowLights*
+- uid: Prowl.Runtime.Rendering.SceneLightSystem.#ctor
+  commentId: M:Prowl.Runtime.Rendering.SceneLightSystem.#ctor
+  id: '#ctor'
+  parent: Prowl.Runtime.Rendering.SceneLightSystem
+  langs:
+  - csharp
+  - vb
+  name: SceneLightSystem()
+  nameWithType: SceneLightSystem.SceneLightSystem()
+  fullName: Prowl.Runtime.Rendering.SceneLightSystem.SceneLightSystem()
+  type: Constructor
+  source:
+    remote:
+      path: Prowl.Runtime/Rendering/SceneLightSystem.cs
+      branch: main
+      repo: https://github.com/ProwlEngine/Prowl.git
+    id: .ctor
+    path: ../Prowl/Prowl.Runtime/Rendering/SceneLightSystem.cs
+    startLine: 64
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.Rendering
+  summary: Makes and caches every shadow map of this scene.
+  example: []
+  syntax:
+    content: public SceneLightSystem()
+    content.vb: Public Sub New()
+  overload: Prowl.Runtime.Rendering.SceneLightSystem.#ctor*
+  nameWithType.vb: SceneLightSystem.New()
+  fullName.vb: Prowl.Runtime.Rendering.SceneLightSystem.New()
+  name.vb: New()
+- uid: Prowl.Runtime.Rendering.SceneLightSystem.Reconcile(System.Collections.Generic.IReadOnlyList{Prowl.Runtime.Rendering.IRenderableLight},Prowl.Vector.Float3,Prowl.Runtime.LayerMask,System.Nullable{Prowl.Vector.Frustum})
+  commentId: M:Prowl.Runtime.Rendering.SceneLightSystem.Reconcile(System.Collections.Generic.IReadOnlyList{Prowl.Runtime.Rendering.IRenderableLight},Prowl.Vector.Float3,Prowl.Runtime.LayerMask,System.Nullable{Prowl.Vector.Frustum})
+  id: Reconcile(System.Collections.Generic.IReadOnlyList{Prowl.Runtime.Rendering.IRenderableLight},Prowl.Vector.Float3,Prowl.Runtime.LayerMask,System.Nullable{Prowl.Vector.Frustum})
+  parent: Prowl.Runtime.Rendering.SceneLightSystem
+  langs:
+  - csharp
+  - vb
+  name: Reconcile(IReadOnlyList<IRenderableLight>, Float3, LayerMask, Frustum?)
+  nameWithType: SceneLightSystem.Reconcile(IReadOnlyList<IRenderableLight>, Float3, LayerMask, Frustum?)
+  fullName: Prowl.Runtime.Rendering.SceneLightSystem.Reconcile(System.Collections.Generic.IReadOnlyList<Prowl.Runtime.Rendering.IRenderableLight>, Prowl.Vector.Float3, Prowl.Runtime.LayerMask, Prowl.Vector.Frustum?)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Rendering/SceneLightSystem.cs
+      branch: main
+      repo: https://github.com/ProwlEngine/Prowl.git
+    id: Reconcile
+    path: ../Prowl/Prowl.Runtime/Rendering/SceneLightSystem.cs
+    startLine: 81
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.Rendering
+  summary: >-
+    Walk this frame's lights, track them in the static or dynamic tree, and pick the directional
+
+    and the point and spot lights that cast shadows. Cheap when nothing changed.
+
+    <code class="paramref">cameraPosition</code> is kept for callers, shadows are sized later.
+
+
+    <p>
+
+    Note on <code class="paramref">cullingMask</code>: per-camera light filtering by layer is not
+
+    applied here. The trees are per scene and shared between cameras, so every light in the
+
+    scene affects every camera. The argument is kept for forward compatibility.
+
+    </p>
+  example: []
+  syntax:
+    content: public void Reconcile(IReadOnlyList<IRenderableLight> lights, Float3 cameraPosition, LayerMask cullingMask, Frustum? view = null)
+    parameters:
+    - id: lights
+      type: System.Collections.Generic.IReadOnlyList{Prowl.Runtime.Rendering.IRenderableLight}
+    - id: cameraPosition
+      type: Prowl.Vector.Float3
+    - id: cullingMask
+      type: Prowl.Runtime.LayerMask
+    - id: view
+      type: System.Nullable{Prowl.Vector.Frustum}
+      description: The view moving lights are culled to, or null to keep them all, as both eyes of a headset need.
+    content.vb: Public Sub Reconcile(lights As IReadOnlyList(Of IRenderableLight), cameraPosition As Float3, cullingMask As LayerMask, view As Frustum? = Nothing)
+  overload: Prowl.Runtime.Rendering.SceneLightSystem.Reconcile*
+  nameWithType.vb: SceneLightSystem.Reconcile(IReadOnlyList(Of IRenderableLight), Float3, LayerMask, Frustum?)
+  fullName.vb: Prowl.Runtime.Rendering.SceneLightSystem.Reconcile(System.Collections.Generic.IReadOnlyList(Of Prowl.Runtime.Rendering.IRenderableLight), Prowl.Vector.Float3, Prowl.Runtime.LayerMask, Prowl.Vector.Frustum?)
+  name.vb: Reconcile(IReadOnlyList(Of IRenderableLight), Float3, LayerMask, Frustum?)
+- uid: Prowl.Runtime.Rendering.SceneLightSystem.Dispose
+  commentId: M:Prowl.Runtime.Rendering.SceneLightSystem.Dispose
+  id: Dispose
+  parent: Prowl.Runtime.Rendering.SceneLightSystem
+  langs:
+  - csharp
+  - vb
+  name: Dispose()
+  nameWithType: SceneLightSystem.Dispose()
+  fullName: Prowl.Runtime.Rendering.SceneLightSystem.Dispose()
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Rendering/SceneLightSystem.cs
+      branch: main
+      repo: https://github.com/ProwlEngine/Prowl.git
+    id: Dispose
+    path: ../Prowl/Prowl.Runtime/Rendering/SceneLightSystem.cs
+    startLine: 283
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.Rendering
+  summary: Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources.
+  example: []
+  syntax:
+    content: public void Dispose()
+    content.vb: Public Sub Dispose()
+  overload: Prowl.Runtime.Rendering.SceneLightSystem.Dispose*
+  implements:
+  - System.IDisposable.Dispose
+references:
+- uid: Prowl.Runtime.Rendering.SceneLightSystem.Reconcile(System.Collections.Generic.IReadOnlyList{Prowl.Runtime.Rendering.IRenderableLight},Prowl.Vector.Float3,Prowl.Runtime.LayerMask,System.Nullable{Prowl.Vector.Frustum})
+  commentId: M:Prowl.Runtime.Rendering.SceneLightSystem.Reconcile(System.Collections.Generic.IReadOnlyList{Prowl.Runtime.Rendering.IRenderableLight},Prowl.Vector.Float3,Prowl.Runtime.LayerMask,System.Nullable{Prowl.Vector.Frustum})
+  isExternal: true
+  href: Prowl.Runtime.Rendering.SceneLightSystem.html#Prowl_Runtime_Rendering_SceneLightSystem_Reconcile_System_Collections_Generic_IReadOnlyList_Prowl_Runtime_Rendering_IRenderableLight__Prowl_Vector_Float3_Prowl_Runtime_LayerMask_System_Nullable_Prowl_Vector_Frustum__
+  name: Reconcile(IReadOnlyList<IRenderableLight>, Float3, LayerMask, Frustum?)
+  nameWithType: SceneLightSystem.Reconcile(IReadOnlyList<IRenderableLight>, Float3, LayerMask, Frustum?)
+  fullName: Prowl.Runtime.Rendering.SceneLightSystem.Reconcile(System.Collections.Generic.IReadOnlyList<Prowl.Runtime.Rendering.IRenderableLight>, Prowl.Vector.Float3, Prowl.Runtime.LayerMask, Prowl.Vector.Frustum?)
+  nameWithType.vb: SceneLightSystem.Reconcile(IReadOnlyList(Of IRenderableLight), Float3, LayerMask, Frustum?)
+  fullName.vb: Prowl.Runtime.Rendering.SceneLightSystem.Reconcile(System.Collections.Generic.IReadOnlyList(Of Prowl.Runtime.Rendering.IRenderableLight), Prowl.Vector.Float3, Prowl.Runtime.LayerMask, Prowl.Vector.Frustum?)
+  name.vb: Reconcile(IReadOnlyList(Of IRenderableLight), Float3, LayerMask, Frustum?)
+  spec.csharp:
+  - uid: Prowl.Runtime.Rendering.SceneLightSystem.Reconcile(System.Collections.Generic.IReadOnlyList{Prowl.Runtime.Rendering.IRenderableLight},Prowl.Vector.Float3,Prowl.Runtime.LayerMask,System.Nullable{Prowl.Vector.Frustum})
+    name: Reconcile
+    href: Prowl.Runtime.Rendering.SceneLightSystem.html#Prowl_Runtime_Rendering_SceneLightSystem_Reconcile_System_Collections_Generic_IReadOnlyList_Prowl_Runtime_Rendering_IRenderableLight__Prowl_Vector_Float3_Prowl_Runtime_LayerMask_System_Nullable_Prowl_Vector_Frustum__
+  - name: (
+  - uid: System.Collections.Generic.IReadOnlyList`1
+    name: IReadOnlyList
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1
+  - name: <
+  - uid: Prowl.Runtime.Rendering.IRenderableLight
+    name: IRenderableLight
+    href: Prowl.Runtime.Rendering.IRenderableLight.html
+  - name: '>'
+  - name: ','
+  - name: " "
+  - uid: Prowl.Vector.Float3
+    name: Float3
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: Prowl.Runtime.LayerMask
+    name: LayerMask
+    href: Prowl.Runtime.LayerMask.html
+  - name: ','
+  - name: " "
+  - uid: Prowl.Vector.Frustum
+    name: Frustum
+    isExternal: true
+  - name: '?'
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.Rendering.SceneLightSystem.Reconcile(System.Collections.Generic.IReadOnlyList{Prowl.Runtime.Rendering.IRenderableLight},Prowl.Vector.Float3,Prowl.Runtime.LayerMask,System.Nullable{Prowl.Vector.Frustum})
+    name: Reconcile
+    href: Prowl.Runtime.Rendering.SceneLightSystem.html#Prowl_Runtime_Rendering_SceneLightSystem_Reconcile_System_Collections_Generic_IReadOnlyList_Prowl_Runtime_Rendering_IRenderableLight__Prowl_Vector_Float3_Prowl_Runtime_LayerMask_System_Nullable_Prowl_Vector_Frustum__
+  - name: (
+  - uid: System.Collections.Generic.IReadOnlyList`1
+    name: IReadOnlyList
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Prowl.Runtime.Rendering.IRenderableLight
+    name: IRenderableLight
+    href: Prowl.Runtime.Rendering.IRenderableLight.html
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: Prowl.Vector.Float3
+    name: Float3
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: Prowl.Runtime.LayerMask
+    name: LayerMask
+    href: Prowl.Runtime.LayerMask.html
+  - name: ','
+  - name: " "
+  - uid: Prowl.Vector.Frustum
+    name: Frustum
+    isExternal: true
+  - name: '?'
+  - name: )
+- uid: Prowl.Runtime.Rendering.SceneLightSystem.MaxExtraDirectionalLights
+  commentId: F:Prowl.Runtime.Rendering.SceneLightSystem.MaxExtraDirectionalLights
+  href: Prowl.Runtime.Rendering.SceneLightSystem.html#Prowl_Runtime_Rendering_SceneLightSystem_MaxExtraDirectionalLights
+  name: MaxExtraDirectionalLights
+  nameWithType: SceneLightSystem.MaxExtraDirectionalLights
+  fullName: Prowl.Runtime.Rendering.SceneLightSystem.MaxExtraDirectionalLights
+- uid: Prowl.Runtime.Rendering.ShadowRenderer
+  commentId: T:Prowl.Runtime.Rendering.ShadowRenderer
+  name: ShadowRenderer
+  nameWithType: ShadowRenderer
+  fullName: Prowl.Runtime.Rendering.ShadowRenderer
+- uid: Prowl.Runtime.Rendering
+  commentId: N:Prowl.Runtime.Rendering
+  name: Prowl.Runtime.Rendering
+  nameWithType: Prowl.Runtime.Rendering
+  fullName: Prowl.Runtime.Rendering
+  spec.csharp:
+  - uid: Prowl
+    name: Prowl
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+  - name: .
+  - uid: Prowl.Runtime.Rendering
+    name: Rendering
+  spec.vb:
+  - uid: Prowl
+    name: Prowl
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+  - name: .
+  - uid: Prowl.Runtime.Rendering
+    name: Rendering
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.IDisposable
+  commentId: T:System.IDisposable
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.idisposable
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Prowl.Runtime.RuntimeUtils.GetSerializableFields
+  commentId: M:Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  parent: Prowl.Runtime.RuntimeUtils
+  definition: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  name: GetSerializableFields(object)
+  nameWithType: RuntimeUtils.GetSerializableFields(object)
+  fullName: Prowl.Runtime.RuntimeUtils.GetSerializableFields(object)
+  nameWithType.vb: RuntimeUtils.GetSerializableFields(Object)
+  fullName.vb: Prowl.Runtime.RuntimeUtils.GetSerializableFields(Object)
+  name.vb: GetSerializableFields(Object)
+  spec.csharp:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  commentId: M:Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  isExternal: true
+  href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  name: GetSerializableFields(object)
+  nameWithType: RuntimeUtils.GetSerializableFields(object)
+  fullName: Prowl.Runtime.RuntimeUtils.GetSerializableFields(object)
+  nameWithType.vb: RuntimeUtils.GetSerializableFields(Object)
+  fullName.vb: Prowl.Runtime.RuntimeUtils.GetSerializableFields(Object)
+  name.vb: GetSerializableFields(Object)
+  spec.csharp:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: Prowl.Runtime.RuntimeUtils
+  commentId: T:Prowl.Runtime.RuntimeUtils
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.RuntimeUtils.html
+  name: RuntimeUtils
+  nameWithType: RuntimeUtils
+  fullName: Prowl.Runtime.RuntimeUtils
+- uid: Prowl.Runtime
+  commentId: N:Prowl.Runtime
+  name: Prowl.Runtime
+  nameWithType: Prowl.Runtime
+  fullName: Prowl.Runtime
+  spec.csharp:
+  - uid: Prowl
+    name: Prowl
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+  spec.vb:
+  - uid: Prowl
+    name: Prowl
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: Prowl.Runtime.Rendering.SceneLightSystem.Directional*
+  commentId: Overload:Prowl.Runtime.Rendering.SceneLightSystem.Directional
+  href: Prowl.Runtime.Rendering.SceneLightSystem.html#Prowl_Runtime_Rendering_SceneLightSystem_Directional
+  name: Directional
+  nameWithType: SceneLightSystem.Directional
+  fullName: Prowl.Runtime.Rendering.SceneLightSystem.Directional
+- uid: Prowl.Runtime.Rendering.IRenderableLight
+  commentId: T:Prowl.Runtime.Rendering.IRenderableLight
+  parent: Prowl.Runtime.Rendering
+  href: Prowl.Runtime.Rendering.IRenderableLight.html
+  name: IRenderableLight
+  nameWithType: IRenderableLight
+  fullName: Prowl.Runtime.Rendering.IRenderableLight
+- uid: Prowl.Runtime.Rendering.SceneLightSystem.ExtraDirectionals*
+  commentId: Overload:Prowl.Runtime.Rendering.SceneLightSystem.ExtraDirectionals
+  href: Prowl.Runtime.Rendering.SceneLightSystem.html#Prowl_Runtime_Rendering_SceneLightSystem_ExtraDirectionals
+  name: ExtraDirectionals
+  nameWithType: SceneLightSystem.ExtraDirectionals
+  fullName: Prowl.Runtime.Rendering.SceneLightSystem.ExtraDirectionals
+- uid: System.Collections.Generic.IReadOnlyList{Prowl.Runtime.Rendering.IRenderableLight}
+  commentId: T:System.Collections.Generic.IReadOnlyList{Prowl.Runtime.Rendering.IRenderableLight}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IReadOnlyList`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1
+  name: IReadOnlyList<IRenderableLight>
+  nameWithType: IReadOnlyList<IRenderableLight>
+  fullName: System.Collections.Generic.IReadOnlyList<Prowl.Runtime.Rendering.IRenderableLight>
+  nameWithType.vb: IReadOnlyList(Of IRenderableLight)
+  fullName.vb: System.Collections.Generic.IReadOnlyList(Of Prowl.Runtime.Rendering.IRenderableLight)
+  name.vb: IReadOnlyList(Of IRenderableLight)
+  spec.csharp:
+  - uid: System.Collections.Generic.IReadOnlyList`1
+    name: IReadOnlyList
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1
+  - name: <
+  - uid: Prowl.Runtime.Rendering.IRenderableLight
+    name: IRenderableLight
+    href: Prowl.Runtime.Rendering.IRenderableLight.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IReadOnlyList`1
+    name: IReadOnlyList
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Prowl.Runtime.Rendering.IRenderableLight
+    name: IRenderableLight
+    href: Prowl.Runtime.Rendering.IRenderableLight.html
+  - name: )
+- uid: System.Collections.Generic.IReadOnlyList`1
+  commentId: T:System.Collections.Generic.IReadOnlyList`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1
+  name: IReadOnlyList<T>
+  nameWithType: IReadOnlyList<T>
+  fullName: System.Collections.Generic.IReadOnlyList<T>
+  nameWithType.vb: IReadOnlyList(Of T)
+  fullName.vb: System.Collections.Generic.IReadOnlyList(Of T)
+  name.vb: IReadOnlyList(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IReadOnlyList`1
+    name: IReadOnlyList
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IReadOnlyList`1
+    name: IReadOnlyList
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: Prowl.Runtime.Rendering.SceneLightSystem.ShadowLights*
+  commentId: Overload:Prowl.Runtime.Rendering.SceneLightSystem.ShadowLights
+  href: Prowl.Runtime.Rendering.SceneLightSystem.html#Prowl_Runtime_Rendering_SceneLightSystem_ShadowLights
+  name: ShadowLights
+  nameWithType: SceneLightSystem.ShadowLights
+  fullName: Prowl.Runtime.Rendering.SceneLightSystem.ShadowLights
+- uid: System.Collections.Generic.IReadOnlyList{Prowl.Runtime.Light}
+  commentId: T:System.Collections.Generic.IReadOnlyList{Prowl.Runtime.Light}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IReadOnlyList`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1
+  name: IReadOnlyList<Light>
+  nameWithType: IReadOnlyList<Light>
+  fullName: System.Collections.Generic.IReadOnlyList<Prowl.Runtime.Light>
+  nameWithType.vb: IReadOnlyList(Of Light)
+  fullName.vb: System.Collections.Generic.IReadOnlyList(Of Prowl.Runtime.Light)
+  name.vb: IReadOnlyList(Of Light)
+  spec.csharp:
+  - uid: System.Collections.Generic.IReadOnlyList`1
+    name: IReadOnlyList
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1
+  - name: <
+  - uid: Prowl.Runtime.Light
+    name: Light
+    href: Prowl.Runtime.Light.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IReadOnlyList`1
+    name: IReadOnlyList
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Prowl.Runtime.Light
+    name: Light
+    href: Prowl.Runtime.Light.html
+  - name: )
+- uid: Prowl.Runtime.Rendering.SceneLightSystem.#ctor*
+  commentId: Overload:Prowl.Runtime.Rendering.SceneLightSystem.#ctor
+  href: Prowl.Runtime.Rendering.SceneLightSystem.html#Prowl_Runtime_Rendering_SceneLightSystem__ctor
+  name: SceneLightSystem
+  nameWithType: SceneLightSystem.SceneLightSystem
+  fullName: Prowl.Runtime.Rendering.SceneLightSystem.SceneLightSystem
+  nameWithType.vb: SceneLightSystem.New
+  fullName.vb: Prowl.Runtime.Rendering.SceneLightSystem.New
+  name.vb: New
+- uid: Prowl.Runtime.Rendering.SceneLightSystem.Reconcile*
+  commentId: Overload:Prowl.Runtime.Rendering.SceneLightSystem.Reconcile
+  href: Prowl.Runtime.Rendering.SceneLightSystem.html#Prowl_Runtime_Rendering_SceneLightSystem_Reconcile_System_Collections_Generic_IReadOnlyList_Prowl_Runtime_Rendering_IRenderableLight__Prowl_Vector_Float3_Prowl_Runtime_LayerMask_System_Nullable_Prowl_Vector_Frustum__
+  name: Reconcile
+  nameWithType: SceneLightSystem.Reconcile
+  fullName: Prowl.Runtime.Rendering.SceneLightSystem.Reconcile
+- uid: Prowl.Vector.Float3
+  commentId: T:Prowl.Vector.Float3
+  parent: Prowl.Vector
+  isExternal: true
+  name: Float3
+  nameWithType: Float3
+  fullName: Prowl.Vector.Float3
+- uid: Prowl.Runtime.LayerMask
+  commentId: T:Prowl.Runtime.LayerMask
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.LayerMask.html
+  name: LayerMask
+  nameWithType: LayerMask
+  fullName: Prowl.Runtime.LayerMask
+- uid: System.Nullable{Prowl.Vector.Frustum}
+  commentId: T:System.Nullable{Prowl.Vector.Frustum}
+  parent: System
+  definition: System.Nullable`1
+  name: Frustum?
+  nameWithType: Frustum?
+  fullName: Prowl.Vector.Frustum?
+  spec.csharp:
+  - uid: Prowl.Vector.Frustum
+    name: Frustum
+    isExternal: true
+  - name: '?'
+  spec.vb:
+  - uid: Prowl.Vector.Frustum
+    name: Frustum
+    isExternal: true
+  - name: '?'
+- uid: Prowl.Vector
+  commentId: N:Prowl.Vector
+  name: Prowl.Vector
+  nameWithType: Prowl.Vector
+  fullName: Prowl.Vector
+  spec.csharp:
+  - uid: Prowl
+    name: Prowl
+  - name: .
+  - uid: Prowl.Vector
+    name: Vector
+  spec.vb:
+  - uid: Prowl
+    name: Prowl
+  - name: .
+  - uid: Prowl.Vector
+    name: Vector
+- uid: System.Nullable`1
+  commentId: T:System.Nullable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  name: Nullable<T>
+  nameWithType: Nullable<T>
+  fullName: System.Nullable<T>
+  nameWithType.vb: Nullable(Of T)
+  fullName.vb: System.Nullable(Of T)
+  name.vb: Nullable(Of T)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Prowl.Runtime.Rendering.SceneLightSystem.Dispose*
+  commentId: Overload:Prowl.Runtime.Rendering.SceneLightSystem.Dispose
+  href: Prowl.Runtime.Rendering.SceneLightSystem.html#Prowl_Runtime_Rendering_SceneLightSystem_Dispose
+  name: Dispose
+  nameWithType: SceneLightSystem.Dispose
+  fullName: Prowl.Runtime.Rendering.SceneLightSystem.Dispose
+- uid: System.IDisposable.Dispose
+  commentId: M:System.IDisposable.Dispose
+  parent: System.IDisposable
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
+  name: Dispose()
+  nameWithType: IDisposable.Dispose()
+  fullName: System.IDisposable.Dispose()
+  spec.csharp:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
+  - name: (
+  - name: )

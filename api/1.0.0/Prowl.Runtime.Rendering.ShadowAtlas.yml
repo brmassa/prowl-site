@@ -1,0 +1,658 @@
+### YamlMime:ManagedReference
+items:
+- uid: Prowl.Runtime.Rendering.ShadowAtlas
+  commentId: T:Prowl.Runtime.Rendering.ShadowAtlas
+  id: ShadowAtlas
+  parent: Prowl.Runtime.Rendering
+  children:
+  - Prowl.Runtime.Rendering.ShadowAtlas.DepthPrecision
+  - Prowl.Runtime.Rendering.ShadowAtlas.GetSize
+  - Prowl.Runtime.Rendering.ShadowAtlas.LocalShadowDistance
+  - Prowl.Runtime.Rendering.ShadowAtlas.MaxResolutionChangesPerFrame
+  - Prowl.Runtime.Rendering.ShadowAtlas.MinTileSize
+  - Prowl.Runtime.Rendering.ShadowAtlas.RequestedSize
+  - Prowl.Runtime.Rendering.ShadowAtlas.SizeFor(System.Int32)
+  - Prowl.Runtime.Rendering.ShadowAtlas.TexelsPerPixel
+  langs:
+  - csharp
+  - vb
+  name: ShadowAtlas
+  nameWithType: ShadowAtlas
+  fullName: Prowl.Runtime.Rendering.ShadowAtlas
+  type: Class
+  source:
+    remote:
+      path: Prowl.Runtime/Rendering/ShadowAtlas.cs
+      branch: main
+      repo: https://github.com/ProwlEngine/Prowl.git
+    id: ShadowAtlas
+    path: ../Prowl/Prowl.Runtime/Rendering/ShadowAtlas.cs
+    startLine: 14
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.Rendering
+  summary: >-
+    Settings every camera's shadow atlas follows. Each camera keeps its own atlas, so split screen views and probe
+
+    captures never compete for one another's space.
+  example: []
+  syntax:
+    content: public static class ShadowAtlas
+    content.vb: Public Module ShadowAtlas
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: Prowl.Runtime.Rendering.ShadowAtlas.RequestedSize
+  commentId: P:Prowl.Runtime.Rendering.ShadowAtlas.RequestedSize
+  id: RequestedSize
+  parent: Prowl.Runtime.Rendering.ShadowAtlas
+  langs:
+  - csharp
+  - vb
+  name: RequestedSize
+  nameWithType: ShadowAtlas.RequestedSize
+  fullName: Prowl.Runtime.Rendering.ShadowAtlas.RequestedSize
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/Rendering/ShadowAtlas.cs
+      branch: main
+      repo: https://github.com/ProwlEngine/Prowl.git
+    id: RequestedSize
+    path: ../Prowl/Prowl.Runtime/Rendering/ShadowAtlas.cs
+    startLine: 19
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.Rendering
+  summary: >-
+    Width and height of a camera's shadow atlas, clamped to between 1024 and the largest texture the GPU
+        supports. A camera can ask for its own with <xref href="Prowl.Runtime.Camera.ShadowAtlasSize" data-throw-if-not-resolved="false"></xref>. A change rebuilds the atlases,
+        and every shadow map, on the next render.
+  example: []
+  syntax:
+    content: public static int RequestedSize { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Shared Property RequestedSize As Integer
+  overload: Prowl.Runtime.Rendering.ShadowAtlas.RequestedSize*
+- uid: Prowl.Runtime.Rendering.ShadowAtlas.DepthPrecision
+  commentId: P:Prowl.Runtime.Rendering.ShadowAtlas.DepthPrecision
+  id: DepthPrecision
+  parent: Prowl.Runtime.Rendering.ShadowAtlas
+  langs:
+  - csharp
+  - vb
+  name: DepthPrecision
+  nameWithType: ShadowAtlas.DepthPrecision
+  fullName: Prowl.Runtime.Rendering.ShadowAtlas.DepthPrecision
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/Rendering/ShadowAtlas.cs
+      branch: main
+      repo: https://github.com/ProwlEngine/Prowl.git
+    id: DepthPrecision
+    path: ../Prowl/Prowl.Runtime/Rendering/ShadowAtlas.cs
+    startLine: 23
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.Rendering
+  summary: >-
+    Bits per shadow map depth value. 16 halves the atlas's memory and is precise enough for shadows,
+        since the bias is measured in texels and the cascades are fitted tight. A change rebuilds the atlas.
+  example: []
+  syntax:
+    content: public static ShadowDepthPrecision DepthPrecision { get; set; }
+    parameters: []
+    return:
+      type: Prowl.Runtime.Rendering.ShadowDepthPrecision
+    content.vb: Public Shared Property DepthPrecision As ShadowDepthPrecision
+  overload: Prowl.Runtime.Rendering.ShadowAtlas.DepthPrecision*
+- uid: Prowl.Runtime.Rendering.ShadowAtlas.LocalShadowDistance
+  commentId: P:Prowl.Runtime.Rendering.ShadowAtlas.LocalShadowDistance
+  id: LocalShadowDistance
+  parent: Prowl.Runtime.Rendering.ShadowAtlas
+  langs:
+  - csharp
+  - vb
+  name: LocalShadowDistance
+  nameWithType: ShadowAtlas.LocalShadowDistance
+  fullName: Prowl.Runtime.Rendering.ShadowAtlas.LocalShadowDistance
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/Rendering/ShadowAtlas.cs
+      branch: main
+      repo: https://github.com/ProwlEngine/Prowl.git
+    id: LocalShadowDistance
+    path: ../Prowl/Prowl.Runtime/Rendering/ShadowAtlas.cs
+    startLine: 27
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.Rendering
+  summary: >-
+    Point and spot light shadows fade out over the last tenth of this distance from the camera,
+        measured to the light's range. Lights further away are lit without shadows and take no atlas space.
+  example: []
+  syntax:
+    content: public static float LocalShadowDistance { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Shared Property LocalShadowDistance As Single
+  overload: Prowl.Runtime.Rendering.ShadowAtlas.LocalShadowDistance*
+- uid: Prowl.Runtime.Rendering.ShadowAtlas.TexelsPerPixel
+  commentId: P:Prowl.Runtime.Rendering.ShadowAtlas.TexelsPerPixel
+  id: TexelsPerPixel
+  parent: Prowl.Runtime.Rendering.ShadowAtlas
+  langs:
+  - csharp
+  - vb
+  name: TexelsPerPixel
+  nameWithType: ShadowAtlas.TexelsPerPixel
+  fullName: Prowl.Runtime.Rendering.ShadowAtlas.TexelsPerPixel
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/Rendering/ShadowAtlas.cs
+      branch: main
+      repo: https://github.com/ProwlEngine/Prowl.git
+    id: TexelsPerPixel
+    path: ../Prowl/Prowl.Runtime/Rendering/ShadowAtlas.cs
+    startLine: 31
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.Rendering
+  summary: >-
+    Shadow map texels a point or spot light aims for per screen pixel it covers. When the atlas runs out
+        of room every light scales down together before any loses its shadow.
+  example: []
+  syntax:
+    content: public static float TexelsPerPixel { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Shared Property TexelsPerPixel As Single
+  overload: Prowl.Runtime.Rendering.ShadowAtlas.TexelsPerPixel*
+- uid: Prowl.Runtime.Rendering.ShadowAtlas.MinTileSize
+  commentId: P:Prowl.Runtime.Rendering.ShadowAtlas.MinTileSize
+  id: MinTileSize
+  parent: Prowl.Runtime.Rendering.ShadowAtlas
+  langs:
+  - csharp
+  - vb
+  name: MinTileSize
+  nameWithType: ShadowAtlas.MinTileSize
+  fullName: Prowl.Runtime.Rendering.ShadowAtlas.MinTileSize
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/Rendering/ShadowAtlas.cs
+      branch: main
+      repo: https://github.com/ProwlEngine/Prowl.git
+    id: MinTileSize
+    path: ../Prowl/Prowl.Runtime/Rendering/ShadowAtlas.cs
+    startLine: 34
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.Rendering
+  summary: Smallest tile a point light face or spot light is given. Below this a light drops its shadow.
+  example: []
+  syntax:
+    content: public static int MinTileSize { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Shared Property MinTileSize As Integer
+  overload: Prowl.Runtime.Rendering.ShadowAtlas.MinTileSize*
+- uid: Prowl.Runtime.Rendering.ShadowAtlas.MaxResolutionChangesPerFrame
+  commentId: P:Prowl.Runtime.Rendering.ShadowAtlas.MaxResolutionChangesPerFrame
+  id: MaxResolutionChangesPerFrame
+  parent: Prowl.Runtime.Rendering.ShadowAtlas
+  langs:
+  - csharp
+  - vb
+  name: MaxResolutionChangesPerFrame
+  nameWithType: ShadowAtlas.MaxResolutionChangesPerFrame
+  fullName: Prowl.Runtime.Rendering.ShadowAtlas.MaxResolutionChangesPerFrame
+  type: Property
+  source:
+    remote:
+      path: Prowl.Runtime/Rendering/ShadowAtlas.cs
+      branch: main
+      repo: https://github.com/ProwlEngine/Prowl.git
+    id: MaxResolutionChangesPerFrame
+    path: ../Prowl/Prowl.Runtime/Rendering/ShadowAtlas.cs
+    startLine: 38
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.Rendering
+  summary: >-
+    How many local light faces may be redrawn in one frame only to change their resolution. Faces whose
+        casters or light changed are always redrawn, this only paces sharpening and softening.
+  example: []
+  syntax:
+    content: public static int MaxResolutionChangesPerFrame { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Shared Property MaxResolutionChangesPerFrame As Integer
+  overload: Prowl.Runtime.Rendering.ShadowAtlas.MaxResolutionChangesPerFrame*
+- uid: Prowl.Runtime.Rendering.ShadowAtlas.SizeFor(System.Int32)
+  commentId: M:Prowl.Runtime.Rendering.ShadowAtlas.SizeFor(System.Int32)
+  id: SizeFor(System.Int32)
+  parent: Prowl.Runtime.Rendering.ShadowAtlas
+  langs:
+  - csharp
+  - vb
+  name: SizeFor(int)
+  nameWithType: ShadowAtlas.SizeFor(int)
+  fullName: Prowl.Runtime.Rendering.ShadowAtlas.SizeFor(int)
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Rendering/ShadowAtlas.cs
+      branch: main
+      repo: https://github.com/ProwlEngine/Prowl.git
+    id: SizeFor
+    path: ../Prowl/Prowl.Runtime/Rendering/ShadowAtlas.cs
+    startLine: 41
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.Rendering
+  summary: The size an atlas asking for <code class="paramref">requested</code> is made at, a power of two the GPU supports.
+  example: []
+  syntax:
+    content: public static int SizeFor(int requested)
+    parameters:
+    - id: requested
+      type: System.Int32
+    return:
+      type: System.Int32
+    content.vb: Public Shared Function SizeFor(requested As Integer) As Integer
+  overload: Prowl.Runtime.Rendering.ShadowAtlas.SizeFor*
+  nameWithType.vb: ShadowAtlas.SizeFor(Integer)
+  fullName.vb: Prowl.Runtime.Rendering.ShadowAtlas.SizeFor(Integer)
+  name.vb: SizeFor(Integer)
+- uid: Prowl.Runtime.Rendering.ShadowAtlas.GetSize
+  commentId: M:Prowl.Runtime.Rendering.ShadowAtlas.GetSize
+  id: GetSize
+  parent: Prowl.Runtime.Rendering.ShadowAtlas
+  langs:
+  - csharp
+  - vb
+  name: GetSize()
+  nameWithType: ShadowAtlas.GetSize()
+  fullName: Prowl.Runtime.Rendering.ShadowAtlas.GetSize()
+  type: Method
+  source:
+    remote:
+      path: Prowl.Runtime/Rendering/ShadowAtlas.cs
+      branch: main
+      repo: https://github.com/ProwlEngine/Prowl.git
+    id: GetSize
+    path: ../Prowl/Prowl.Runtime/Rendering/ShadowAtlas.cs
+    startLine: 50
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime.Rendering
+  summary: The size atlases are made at when a camera asks for none of its own.
+  example: []
+  syntax:
+    content: public static int GetSize()
+    return:
+      type: System.Int32
+    content.vb: Public Shared Function GetSize() As Integer
+  overload: Prowl.Runtime.Rendering.ShadowAtlas.GetSize*
+references:
+- uid: Prowl.Runtime.Rendering
+  commentId: N:Prowl.Runtime.Rendering
+  name: Prowl.Runtime.Rendering
+  nameWithType: Prowl.Runtime.Rendering
+  fullName: Prowl.Runtime.Rendering
+  spec.csharp:
+  - uid: Prowl
+    name: Prowl
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+  - name: .
+  - uid: Prowl.Runtime.Rendering
+    name: Rendering
+  spec.vb:
+  - uid: Prowl
+    name: Prowl
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+  - name: .
+  - uid: Prowl.Runtime.Rendering
+    name: Rendering
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Prowl.Runtime.Camera.ShadowAtlasSize
+  commentId: F:Prowl.Runtime.Camera.ShadowAtlasSize
+  href: Prowl.Runtime.Camera.html#Prowl_Runtime_Camera_ShadowAtlasSize
+  name: ShadowAtlasSize
+  nameWithType: Camera.ShadowAtlasSize
+  fullName: Prowl.Runtime.Camera.ShadowAtlasSize
+- uid: Prowl.Runtime.Rendering.ShadowAtlas.RequestedSize*
+  commentId: Overload:Prowl.Runtime.Rendering.ShadowAtlas.RequestedSize
+  href: Prowl.Runtime.Rendering.ShadowAtlas.html#Prowl_Runtime_Rendering_ShadowAtlas_RequestedSize
+  name: RequestedSize
+  nameWithType: ShadowAtlas.RequestedSize
+  fullName: Prowl.Runtime.Rendering.ShadowAtlas.RequestedSize
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: Prowl.Runtime.Rendering.ShadowAtlas.DepthPrecision*
+  commentId: Overload:Prowl.Runtime.Rendering.ShadowAtlas.DepthPrecision
+  href: Prowl.Runtime.Rendering.ShadowAtlas.html#Prowl_Runtime_Rendering_ShadowAtlas_DepthPrecision
+  name: DepthPrecision
+  nameWithType: ShadowAtlas.DepthPrecision
+  fullName: Prowl.Runtime.Rendering.ShadowAtlas.DepthPrecision
+- uid: Prowl.Runtime.Rendering.ShadowDepthPrecision
+  commentId: T:Prowl.Runtime.Rendering.ShadowDepthPrecision
+  parent: Prowl.Runtime.Rendering
+  href: Prowl.Runtime.Rendering.ShadowDepthPrecision.html
+  name: ShadowDepthPrecision
+  nameWithType: ShadowDepthPrecision
+  fullName: Prowl.Runtime.Rendering.ShadowDepthPrecision
+- uid: Prowl.Runtime.Rendering.ShadowAtlas.LocalShadowDistance*
+  commentId: Overload:Prowl.Runtime.Rendering.ShadowAtlas.LocalShadowDistance
+  href: Prowl.Runtime.Rendering.ShadowAtlas.html#Prowl_Runtime_Rendering_ShadowAtlas_LocalShadowDistance
+  name: LocalShadowDistance
+  nameWithType: ShadowAtlas.LocalShadowDistance
+  fullName: Prowl.Runtime.Rendering.ShadowAtlas.LocalShadowDistance
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.single
+  name: float
+  nameWithType: float
+  fullName: float
+  nameWithType.vb: Single
+  fullName.vb: Single
+  name.vb: Single
+- uid: Prowl.Runtime.Rendering.ShadowAtlas.TexelsPerPixel*
+  commentId: Overload:Prowl.Runtime.Rendering.ShadowAtlas.TexelsPerPixel
+  href: Prowl.Runtime.Rendering.ShadowAtlas.html#Prowl_Runtime_Rendering_ShadowAtlas_TexelsPerPixel
+  name: TexelsPerPixel
+  nameWithType: ShadowAtlas.TexelsPerPixel
+  fullName: Prowl.Runtime.Rendering.ShadowAtlas.TexelsPerPixel
+- uid: Prowl.Runtime.Rendering.ShadowAtlas.MinTileSize*
+  commentId: Overload:Prowl.Runtime.Rendering.ShadowAtlas.MinTileSize
+  href: Prowl.Runtime.Rendering.ShadowAtlas.html#Prowl_Runtime_Rendering_ShadowAtlas_MinTileSize
+  name: MinTileSize
+  nameWithType: ShadowAtlas.MinTileSize
+  fullName: Prowl.Runtime.Rendering.ShadowAtlas.MinTileSize
+- uid: Prowl.Runtime.Rendering.ShadowAtlas.MaxResolutionChangesPerFrame*
+  commentId: Overload:Prowl.Runtime.Rendering.ShadowAtlas.MaxResolutionChangesPerFrame
+  href: Prowl.Runtime.Rendering.ShadowAtlas.html#Prowl_Runtime_Rendering_ShadowAtlas_MaxResolutionChangesPerFrame
+  name: MaxResolutionChangesPerFrame
+  nameWithType: ShadowAtlas.MaxResolutionChangesPerFrame
+  fullName: Prowl.Runtime.Rendering.ShadowAtlas.MaxResolutionChangesPerFrame
+- uid: Prowl.Runtime.Rendering.ShadowAtlas.SizeFor*
+  commentId: Overload:Prowl.Runtime.Rendering.ShadowAtlas.SizeFor
+  href: Prowl.Runtime.Rendering.ShadowAtlas.html#Prowl_Runtime_Rendering_ShadowAtlas_SizeFor_System_Int32_
+  name: SizeFor
+  nameWithType: ShadowAtlas.SizeFor
+  fullName: Prowl.Runtime.Rendering.ShadowAtlas.SizeFor
+- uid: Prowl.Runtime.Rendering.ShadowAtlas.GetSize*
+  commentId: Overload:Prowl.Runtime.Rendering.ShadowAtlas.GetSize
+  href: Prowl.Runtime.Rendering.ShadowAtlas.html#Prowl_Runtime_Rendering_ShadowAtlas_GetSize
+  name: GetSize
+  nameWithType: ShadowAtlas.GetSize
+  fullName: Prowl.Runtime.Rendering.ShadowAtlas.GetSize

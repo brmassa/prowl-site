@@ -1,0 +1,206 @@
+### YamlMime:ManagedReference
+items:
+- uid: Prowl.Runtime.CloudResolution
+  commentId: T:Prowl.Runtime.CloudResolution
+  id: CloudResolution
+  parent: Prowl.Runtime
+  children:
+  - Prowl.Runtime.CloudResolution.Full
+  - Prowl.Runtime.CloudResolution.Half
+  - Prowl.Runtime.CloudResolution.Quarter
+  langs:
+  - csharp
+  - vb
+  name: CloudResolution
+  nameWithType: CloudResolution
+  fullName: Prowl.Runtime.CloudResolution
+  type: Enum
+  source:
+    remote:
+      path: Prowl.Runtime/Components/VolumetricClouds.cs
+      branch: main
+      repo: https://github.com/ProwlEngine/Prowl.git
+    id: CloudResolution
+    path: ../Prowl/Prowl.Runtime/Components/VolumetricClouds.cs
+    startLine: 26
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  summary: How many pixels the clouds are drawn at before they are scaled up over the scene.
+  example: []
+  syntax:
+    content: public enum CloudResolution
+    content.vb: Public Enum CloudResolution
+  extensionMethods:
+  - System.Object.Prowl.Runtime.RuntimeUtils.GetSerializableFields
+- uid: Prowl.Runtime.CloudResolution.Full
+  commentId: F:Prowl.Runtime.CloudResolution.Full
+  id: Full
+  parent: Prowl.Runtime.CloudResolution
+  langs:
+  - csharp
+  - vb
+  name: Full
+  nameWithType: CloudResolution.Full
+  fullName: Prowl.Runtime.CloudResolution.Full
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/Components/VolumetricClouds.cs
+      branch: main
+      repo: https://github.com/ProwlEngine/Prowl.git
+    id: Full
+    path: ../Prowl/Prowl.Runtime/Components/VolumetricClouds.cs
+    startLine: 28
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: Full = 1
+    return:
+      type: Prowl.Runtime.CloudResolution
+- uid: Prowl.Runtime.CloudResolution.Half
+  commentId: F:Prowl.Runtime.CloudResolution.Half
+  id: Half
+  parent: Prowl.Runtime.CloudResolution
+  langs:
+  - csharp
+  - vb
+  name: Half
+  nameWithType: CloudResolution.Half
+  fullName: Prowl.Runtime.CloudResolution.Half
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/Components/VolumetricClouds.cs
+      branch: main
+      repo: https://github.com/ProwlEngine/Prowl.git
+    id: Half
+    path: ../Prowl/Prowl.Runtime/Components/VolumetricClouds.cs
+    startLine: 29
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: Half = 2
+    return:
+      type: Prowl.Runtime.CloudResolution
+- uid: Prowl.Runtime.CloudResolution.Quarter
+  commentId: F:Prowl.Runtime.CloudResolution.Quarter
+  id: Quarter
+  parent: Prowl.Runtime.CloudResolution
+  langs:
+  - csharp
+  - vb
+  name: Quarter
+  nameWithType: CloudResolution.Quarter
+  fullName: Prowl.Runtime.CloudResolution.Quarter
+  type: Field
+  source:
+    remote:
+      path: Prowl.Runtime/Components/VolumetricClouds.cs
+      branch: main
+      repo: https://github.com/ProwlEngine/Prowl.git
+    id: Quarter
+    path: ../Prowl/Prowl.Runtime/Components/VolumetricClouds.cs
+    startLine: 30
+  assemblies:
+  - Prowl.Runtime
+  namespace: Prowl.Runtime
+  syntax:
+    content: Quarter = 4
+    return:
+      type: Prowl.Runtime.CloudResolution
+references:
+- uid: Prowl.Runtime
+  commentId: N:Prowl.Runtime
+  name: Prowl.Runtime
+  nameWithType: Prowl.Runtime
+  fullName: Prowl.Runtime
+  spec.csharp:
+  - uid: Prowl
+    name: Prowl
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+  spec.vb:
+  - uid: Prowl
+    name: Prowl
+  - name: .
+  - uid: Prowl.Runtime
+    name: Runtime
+- uid: System.Object.Prowl.Runtime.RuntimeUtils.GetSerializableFields
+  commentId: M:Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  parent: Prowl.Runtime.RuntimeUtils
+  definition: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  name: GetSerializableFields(object)
+  nameWithType: RuntimeUtils.GetSerializableFields(object)
+  fullName: Prowl.Runtime.RuntimeUtils.GetSerializableFields(object)
+  nameWithType.vb: RuntimeUtils.GetSerializableFields(Object)
+  fullName.vb: Prowl.Runtime.RuntimeUtils.GetSerializableFields(Object)
+  name.vb: GetSerializableFields(Object)
+  spec.csharp:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  commentId: M:Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+  isExternal: true
+  href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  name: GetSerializableFields(object)
+  nameWithType: RuntimeUtils.GetSerializableFields(object)
+  fullName: Prowl.Runtime.RuntimeUtils.GetSerializableFields(object)
+  nameWithType.vb: RuntimeUtils.GetSerializableFields(Object)
+  fullName.vb: Prowl.Runtime.RuntimeUtils.GetSerializableFields(Object)
+  name.vb: GetSerializableFields(Object)
+  spec.csharp:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: Prowl.Runtime.RuntimeUtils.GetSerializableFields(System.Object)
+    name: GetSerializableFields
+    href: Prowl.Runtime.RuntimeUtils.html#Prowl_Runtime_RuntimeUtils_GetSerializableFields_System_Object_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: Prowl.Runtime.RuntimeUtils
+  commentId: T:Prowl.Runtime.RuntimeUtils
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.RuntimeUtils.html
+  name: RuntimeUtils
+  nameWithType: RuntimeUtils
+  fullName: Prowl.Runtime.RuntimeUtils
+- uid: Prowl.Runtime.CloudResolution
+  commentId: T:Prowl.Runtime.CloudResolution
+  parent: Prowl.Runtime
+  href: Prowl.Runtime.CloudResolution.html
+  name: CloudResolution
+  nameWithType: CloudResolution
+  fullName: Prowl.Runtime.CloudResolution

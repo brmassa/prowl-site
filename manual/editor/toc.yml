@@ -1,1 +1,15 @@
-- href: command-line.md
+- href: scene.md
+- href: game.md
+- href: hierarchy.md
+- href: inspector.md
+- href: project.md
+- href: projectsettings.md
+- href: console.md
+- name: Command Line
+  items:
+  - href: command-line.md
+- name: Additional Items
+  items:
+  - href: main-menu.md
+  - href: preferences.md
+  - href: environment.md

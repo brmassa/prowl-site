@@ -1,5 +1,6 @@
 - href: index.md
 - href: install.md
+- href: building.md
 - href: interface.md
-- href: comparison/toc.yml
-  name: Comparison
+- name: Comparison
+  href: comparison/toc.yml
